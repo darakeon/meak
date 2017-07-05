@@ -16,21 +16,23 @@
     
 @foreach (var season in Model.Menu.SeasonList)
 {
-    <div class="header lightback">
-        @Html.RouteLink("Temporada " + season, route, new { action = "Index", controller = "Season", season = season })
-    </div>
+    <div class="darkback">
+        <div class="header lightback">
+            @Html.RouteLink("Temporada " + season, route, new { action = "Index", controller = "Season", season = season })
+        </div>
 
-    <div class="body darkback">
-        @foreach (var episode in season.EpisodesList)
-        {
-            @Html.RouteLink(
-                episode.ID,
-                route,
-                new { controller = "Season", season = season, action = "Episode", episode = episode },
-                new { @class = "item" }
-            )
-            @(" ")
-        }
+        <div class="body">
+            @foreach (var episode in season.EpisodesList)
+            {
+                @Html.RouteLink(
+                    episode.ID,
+                    route,
+                    new { controller = "Season", season = season, action = "Episode", episode = episode },
+                    new { @class = "item" }
+                )
+                @(" ")
+            }
+        </div>
     </div>
 }
 
