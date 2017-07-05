@@ -1,14 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="06" scene="b">
 	<teller>
-		<default>Elian volta ao hotel. De manhã, acorda e não encontra Beatrice. Na cabeceira da cama, um bilhete:</default>
+		<default>Manhã. Elian entra no quarto do hotel. Olha para a cama. Vai até o banheiro. Olha embaixo da cama. Vê um pedaço de papel marcado com batom na cabeceira. Pega e lê:</default>
 		<letter>Não é a mim que queres. Fique com ela.</letter>
 	</teller>
 	<talk character="Elian">
 		<default>Não... Por favor... Não podes ter feito isso...</default>
 	</talk>
 	<teller>
-		<default>Ele atira um vaso no espelho. As garotas vão até a casa de Angely e Edmont, que ainda estão dormindo. Mel vai atender a porta.</default>
+		<default>Ele atira um vaso no espelho. Senta-se na cama, com a cabeça apoiada nas mãos.</default>
+	</teller>
+	<talk character="Elian">
+		<default>Malditos.</default>
+	</talk>
+	<teller>
+		<default>Mel atende a porta de casa.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Eles já acordaram?</default>
@@ -23,7 +29,7 @@
 		<default>As duas sobem a escada.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ih, não quero nem ver no que isso vai dar.</default>
+		<default>Não quero nem ver no que isso vai dar.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Mel, eu tive outro sonho.</default>
@@ -35,7 +41,7 @@
 		<default>Ela abandonou ele.</default>
 	</talk>
 	<talk character="Mel">
-		<default>vampiros... São traiçoeiros até entre si.</default>
+		<default>Vampiros... Traiçoeiros até entre si.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Ele está com raiva.</default>
@@ -91,6 +97,9 @@
 	<talk character="Agatha">
 		<default>Então você estava com ela???</default>
 	</talk>
+	<teller>
+		<default>Ele pega o rosto dela entre as mãos e olha nos olhos dela.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Nós três saímos pra procurar, acredita em mim...</default>
 	</talk>
@@ -143,7 +152,7 @@
 		<default>Vamos?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Parece que não se entendeu com o Angely...</default>
+		<default>Parece que não se entendeu com o Angely.</default>
 	</talk>
 	<talk character="Meg">
 		<default>Agatha?!...</default>
@@ -167,7 +176,7 @@
 		<default>Agatha beija ele e sai do quarto.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Será que ele contou?...</default>
+		<default>Será que ele contou?</default>
 	</talk>
 	<teller>
 		<default>Agatha e Meg vão até o jardim. Mel está com Kat no balanço.</default>
@@ -212,7 +221,7 @@
 		<default>Tomara que ele não tenha contado nada além do combinado.</default>
 	</talk>
 	<teller>
-		<default>Mel e Edmont vão até o quarto de Angely. Ele não está lá. Então eles vão até a varanda.</default>
+		<default>Mel e Edmont vão até o quarto de Angely. Ele não está lá. Eles vão até a varanda.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Angely, você não...</default>
@@ -248,19 +257,13 @@
 		<default>Pelo menos saberia a verdade.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mas isso poderia ferrar vocês.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Pode falar a ela apenas que somos caça-vampiros.</default>
-	</talk>
-	<talk character="Angely">
 		<default>Quando matarmos Elian, eu falo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Por mim vocês podem contar pra elas. Só não sei o que elas vão fazer.</default>
 	</talk>
 	<talk character="Jak">
-		<default>3a lição: isto tudo tem que ficar só entre vocês.</default>
+		<arrive>Isto tudo tem que ficar só entre vocês.</arrive>
 	</talk>
 	<teller>
 		<default>Mel sai da varanda. Angely fica olhando a imagem de Meg, que desaparece no horizonte. Edmont entra também.</default>
@@ -281,7 +284,7 @@
 		<default>Beatrice abandonou Elian.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Isso é bom ou é mal?</default>
+		<default>Isso é bom ou é ruim?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Pode ser bom, por que pode ser um sinal de que ela não é tão má.</default>
@@ -293,31 +296,31 @@
 		<default>Acho que vamos ter que fazer isso sozinhos.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É, Angely não vai poder nos ajudar.</default>
+		<default>Não achei que Angely ia poder nos ajudar.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Bom, de volta à ação.</default>
 	</talk>
 	<teller>
-		<default>Mel e Edmont saem. Angely fica jogado na cama. Meg está do mesmo jeito em seu quarto. De tarde, Mel cisma de ir até a pensão onde os vampiros estiveram pela primeira vez. Tudo quebrado. Ela vê os quartos. Encontra um quarto nos fundos.</default>
+		<default>Mel e Edmont saem. Angely fica jogado na cama. Meg está do mesmo jeito em seu quarto. De tarde, Mel vai até a pensão onde os vampiros estiveram pela primeira vez. Para a moto e estranha a porta arrombada. Entra. Tudo quebrado. Começa a vasculhar os quartos. Em um deles, encontra um homem de costas.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Não se mova!</default>
 	</talk>
 	<talk character="Elian">
-		<default>Atire. Podes atirar.</default>
+		<default>Atire.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não vai me enganar.</default>
 	</talk>
 	<talk character="Elian">
-		<default>Eu lembro de ti. Estavas a fugir da polícia.</default>
+		<default>Eu lembro de ti. Fugias da polícia.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Pedi ajuda a você por que eu não sabia o que você era.</default>
 	</talk>
 	<talk character="Elian">
-		<default>Ironia. Agora estás a caçar-me.</default>
+		<default>Ironia. Agora me caças.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Em comparação ao mal que você fez, me ajudar não foi nada.</default>
@@ -362,7 +365,7 @@
 		<default>E por que ainda não atiraste?</default>
 	</talk>
 	<teller>
-		<default>Mel aponta a arma pra Elian. Ele chuta e eles começam a lutar. Vão parar no chão. Ela tenta empurrá-lo, mas não consegue.</default>
+		<default>Mel aponta a arma pra Elian. Ele chuta a arma. Ela tenta bater nele, mas eles vão parar no chão. Ela tenta empurrá-lo, mas não consegue.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Devias ter treinado um pouco mais.</default>
@@ -397,9 +400,6 @@
 	<talk character="Mel">
 		<default>Me solta, por favor.</default>
 	</talk>
-	<talk character="Elian">
-		<default>Como naquela noite...</default>
-	</talk>
 	<teller>
 		<default>Ele a beija. Enquanto isso, Angely está em casa. Edmont volta.</default>
 	</teller>
@@ -422,25 +422,25 @@
 		<default>Angely nota Agatha na porta e tenta chamar a atenção de Edmont, mas ele não pára de falar.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>"Olha, nós somos ets que viemos pra Terra depois de uma briga... Uma briga não, uma luta entre nós dois, que era pra ter sido até a morte e era também pra ter decidido quem seria o novo príncipe. Ah, esqueci, somos filhos do rei de Saturno... Quer dizer, de um satélite de Saturno."</default>
+		<default>"Olha, vocês lembram que somos ets, né? Então, não são só ets que existem."</default>
 	</talk>
 	<talk character="Angely">
 		<default>Edmont...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Peraí, deixa eu continuar. "O príncipe seria o primogênito, mas somos gêmeos... Do que eu tava falando mesmo? Ah, claro, nós viemos pra Terra, fomos adotados pelo sr Júlio, mas nem ele nem vocês lembram, por que suas memórias foram apagadas, depois de termos voltado do Egito, de uma aventura com múmias. Ah, mais umas coisinhas: você, Meg, é adotada. A Kat na verdade é filha do irmão do Rith com a nossa mãe, portanto, nossa meia irmã, e não sua irmã."</default>
+		<default>Peraí, deixa eu continuar. "Sabe aquela casa abandonada? Tinha um vampiro dentro. E aquela garota que citamos, era neta da cunhada dele, e ele transformou em vampira também..."</default>
 	</talk>
 	<talk character="Angely">
 		<default>Edmont...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Eu não terminei ainda. "Sabe a Mel? Ela também veio do satélite de Saturno, mas ela veio de lá por que ele ia explodir. Mas não precisa se preocupar, não somos totalmente ets, por que nossa mãe era de Terra, mesmo tendo se tornado parte saturniana quando se casou com nosso pai."</default>
+		<default>Eu não terminei ainda. "Agora a gente tá caçando eles, e foram eles que sequestraram a Kat, pegaram a gente também, mas a Mel conseguiu resolver tudo."</default>
 	</talk>
 	<talk character="Angely">
 		<default>Edmont...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Já tô terminando, que impaciência!... "Além do que, nosso povo veio daqui, por isso temos essa marca estranha na mão esquerda, é o mapa de Atlântida, que é a verdadeira origem do nosso povo. Somos praticamente humanos..." Que tal?</default>
+		<default>Já tô terminando, que impaciência!... "Agora parece que ela largou ele, mas a gente ainda tem que achar ele. Então é melhor não sairem de casa a noite." Que tal?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Você não imagina o que você fez.</default>
@@ -449,13 +449,13 @@
 		<default>Angely coloca a mão no rosto.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Que? Usei palavras muito fortes? Não tem problema, eu troco algumas...</default>
+		<default>Que? Fui muito direto?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Isso é sério.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Que tal pessoas de outro planeta ao invés de ets?</default>
+		<default>Talvez não devesse citar o laço familiar.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Edmont...</default>
@@ -479,23 +479,30 @@
 		<default>Eu acho que eu não tô muito bem...</default>
 	</talk>
 	<teller>
-		<default>Agatha desmaia. Edmont segura ela.</default>
+		<default>Agatha sai.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Como você disse, elas adoram desmaiar.</default>
-	</talk>
 	<talk character="Edmont">
 		<default>Droga... Por que não me avisou???</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu tentei!</default>
-		<teller>Angely se levanta da cama</teller>
-		<default>Coloca ela aqui...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Na sua cama??? De jeito nenhum!</default>
 	</talk>
 	<teller>
-		<default>Angely estranha. Edmont pega ela no colo e leva pra seu quarto. Angely vai com o irmão.</default>
+		<default>Um barulho de algo caindo no corredor. Edmont sai e vê Agatha caída. Tira um dardo tranquilizante do pescoço dela.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Que merda é essa?!</default>
+	</talk>
+	<talk character="Jak">
+		<out>Elas não devem saber.</out>
+	</talk>
+	<talk character="Angely">
+		<default>Coloca ela na minha cama...</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Na sua?! De jeito nenhum!</default>
+	</talk>
+	<teller>
+		<default>Edmont pega ela no colo e leva pra seu quarto. Angely o segue.</default>
 	</teller>
 </story>
