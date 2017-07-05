@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="13" scene="d">
 	<teller>
-		<default>No hospital, Psique está no quarto de Mel, quando esta acorda. Abre os olhos. Coloca a mão na frente do rosto, por causa da luz.</default>
+		<default>Mel abre os olhos. Luz forte. Fecha os olhos. Abre novamente. Coloca a mão na frente do rosto.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Onde eu tô?</default>
@@ -9,38 +9,41 @@
 	<talk character="Psique">
 		<default>Ah, meu Deus...</default>
 	</talk>
+	<teller>
+		<default>Mel se senta na cama. Psique arregala os olhos.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Que isso?</default>
 	</talk>
 	<teller>
-		<default>Mel se levanta da cama.</default>
+		<default>Mel arranca os tubos. Levanta.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Deita aí, garota, você tava em coma!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu? Cadê meus irmãos?</default>
+		<default>Eu? Cadê minha família?</default>
 	</talk>
 	<talk character="Psique">
 		<default>Vou ligar pra eles, mas deita aí antes...</default>
 	</talk>
 	<teller>
-		<default>Ela se senta na cama.</default>
+		<default>Mel olha Psique de canto. Se senta na cama.</default>
 	</teller>
 	<talk character="Psique">
-		<default>Enfermeira!</default>
+		<screamed>Enfermeira!</screamed>
 	</talk>
-	<talk character="enfermeira">
-		<default>Sim?</default>
+	<talk character="Paula">
+		<arrive>Sim?</arrive>
 	</talk>
 	<talk character="Psique">
 		<default>Não deixa ela levantar.</default>
 	</talk>
-	<talk character="enfermeira">
-		<default>Está bem.</default>
+	<talk character="Paula">
+		<default>Tá...</default>
 	</talk>
 	<teller>
-		<default>Psique vai até a recepção e pega o telefone. Na MEAK, Angely atende.</default>
+		<default>MEAK. Angely atende o telefone.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Alô?</default>
@@ -49,19 +52,25 @@
 		<default>Lorrage Kallend?</default>
 	</talk>
 	<teller>
-		<default>Depois do telefonema, Angely vai sair, mas volta. Pega o telefone e liga pra Edmont e fala pra ele ir também.</default>
+		<default>Casa de Dara. Edmont desliga o telefone.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Talvez a Mel saiba alguma coisa.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Como assim?</default>
+		<default>Sobre o quê?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Da Kat.</default>
+		<default>Kat.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Acha mesmo que tem alguma coisa errada?</default>
+		<default>Acho que Kat não quer terminar a banda e fugiu.</default>
+	</talk>
+	<teller>
+		<default>Dara cruza os braços.</default>
+	</teller>
+	<talk character="Edmont">
+		<default> Acha mesmo que tem alguma coisa errada?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Não sei. Derik tá procurando.</default>
@@ -73,7 +82,7 @@
 		<default>Já passou por aqui umas três vezes.</default>
 	</talk>
 	<teller>
-		<default>Edmont e Dara encontram Angely no hospital, andando de um lado pro outro.</default>
+		<first>Hospital. Angely anda de um lado a outro. Edmont e Dara chegam. Angely se aproxima.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Disseram pra esperar aqui. Estão fazendo umas perguntas à Mel.</default>
@@ -81,17 +90,8 @@
 	<talk character="Edmont">
 		<default>Vai furar o chão.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Quando poderemos falar com Melody L. K.?</default>
-	</talk>
-	<talk character="enfermeira">
-		<default>Como espera que eu saiba, garoto? Não sei nem quem é essa.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Isso não foi muito gentil.</default>
-	</talk>
 	<teller>
-		<default>A enfermeira sai. No quarto de Mel.</default>
+		<default>Quarto de Mel. Mel está de braços cruzados encarando Psique. Michael entra.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Até que enfim chegou...</default>
@@ -100,7 +100,7 @@
 		<default>É ela?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, é o pombo na janela.</default>
+		<irony>Não, é o pombo na janela. Vai lá analisar.</irony>
 	</talk>
 	<talk character="Michael">
 		<default>Parece de mal-humor.</default>
@@ -123,8 +123,11 @@
 	<talk character="Michael">
 		<default>Isso não é uma brincadeira, senhorita Melody.</default>
 	</talk>
+	<talk character="Mel">
+		<default>Se já sabe, pra que perguntou?</default>
+	</talk>
 	<teller>
-		<default>Michael puxa uma cadeira e senta.</default>
+		<default>Michael puxa uma cadeira e senta. Mel bufa.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Melody Lorrage Kallend. Acertei?</default>
@@ -134,27 +137,31 @@
 	</talk>
 	<talk character="Mel">
 		<default>Em que ano estamos?</default>
-		<teller>Michael encara Mel</teller>
+	</talk>
+	<teller>
+		<default>Michael olha pra Psique. Mel revira os olhos.</default>
+	</teller>
+	<talk character="Mel">
 		<default>Vinte e sete anos.</default>
 	</talk>
+	<teller>
+		<default>Michael encara Mel.</default>
+	</teller>
 	<talk character="Michael">
 		<default>Nome dos seus irmãos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Angely e Edmont.</default>
+		<default>Edmont, vinte e dois, Angely, vinte e dois, Katerine, treze, e o Aurium tem dezoito.</default>
 	</talk>
-	<talk character="Michael">
-		<default>Só?</default>
-	</talk>
+	<teller>
+		<default>Michael franze a testa, abre a ficha.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Se perguntasse de irmã eu diria Katerine.</default>
+		<default>É o cachorro. Me adiantei.</default>
 	</talk>
-	<talk character="Michael">
-		<default>Qual a idade...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vinte e dois e treze.</default>
-	</talk>
+	<teller>
+		<default>Michael olha para Mel por cima da ficha. Fecha a ficha e pousa no colo.</default>
+	</teller>
 	<talk character="Michael">
 		<default>Por que entrou em coma?</default>
 	</talk>
@@ -174,10 +181,10 @@
 		<default>Mel...</default>
 	</talk>
 	<teller>
-		<default>Ele vai até ela e a abraça.</default>
+		<default>Angely vai até Mel e abraça. Mel retribui o abraço. Depois afasta. Angely olha para Psique.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Ela está bem?</default>
+		<default>Mel tá bem?</default>
 	</talk>
 	<talk character="Michael">
 		<default>Exceto se não tivesse costume de brincar com a cara dos outros antes.</default>
@@ -186,19 +193,19 @@
 		<default>Não estou com nenhum problema, estou me sentindo super bem.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Me corrija se errar: paguei uma semana por ser acertado no estômago.</default>
+		<default>Me corrija se errar: paguei uma semana por um furo de nada no estômago.</default>
 	</talk>
 	<teller>
-		<default>Edmont e Dara entram no quarto.</default>
+		<default>Michael franze a testa e olha para Psique. Edmont e Dara entram no quarto.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Parece que a irmã de vocês voltou ao normal.</default>
 	</talk>
 	<talk character="Michael">
-		<default>Se notarem algo errado, estou aqui.</default>
+		<default>Se notarem algo errado, me liguem. Me parece estar muito bem.</default>
 	</talk>
 	<teller>
-		<default>Psique e Michael saem da sala.</default>
+		<default>Michael sai do quarto. Psique olha para Mel. Sai do quarto também.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Irmã de vocês?</default>
@@ -225,22 +232,22 @@
 		<default>Tédio conta?</default>
 	</talk>
 	<teller>
-		<default>Edmont vai até Mel e a abraça.</default>
+		<default>Edmont vai até Mel. Abraça.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Eu sabia que você ia ficar bem.</default>
 	</talk>
 	<teller>
-		<default>Mel faz com que Edmont a solte.</default>
+		<default>Mel franze a testa e afasta Edmont.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ei, não estão esquecendo que eu que sou a mais velha aqui, né?</default>
+		<default>Não tão esquecendo quem tem mais idade aqui pra cuidar de quem, né?</default>
 	</talk>
 	<teller>
-		<default>Ele se afasta.</default>
+		<default>Mel olha para Angely.</default>
 	</teller>
 	<talk character="Mel">
-		<default>E a Kat?</default>
+		<default>E Kat?</default>
 	</talk>
 	<teller>
 		<default>Silêncio.</default>
@@ -249,13 +256,13 @@
 		<default>Tudo bem, o que estão escondendo?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela saiu ontem e não voltou ainda.</default>
+		<default>Saiu ontem. Não voltou ainda.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Mas ligou e disse que tá na casa de uma amiga.</default>
+		<default>Kat ligou e disse que está na casa de alguém.</default>
 	</talk>
 	<teller>
-		<default>Um pássaro pousa na janela. É Derik. Mel se levanta da cama.</default>
+		<default>Aurium pousa na janela. Mel olha. Arregala os olhos.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Cadê as minhas coisas???</default>
@@ -273,7 +280,7 @@
 		<default>Quero minhas roupas!</default>
 	</talk>
 	<talk character="Psique">
-		<default>Estavam rasgadas, jogamos fora.</default>
+		<default>Estavam rasgadas, jogamos fora...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Edmont...</default>
@@ -288,16 +295,16 @@
 		<default>Não até ter alta.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela pode responder por si mesma.</default>
+		<default>Dara pode responder por si.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Melhor ficar aqui.</default>
+		<default>Vai me matar se eu concordar?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Angely, eu sei que...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Me fez ficar de repouso.</default>
+		<default>Você fica, Mel, a gente vê o que tá acontecendo. Repouso, lembra?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Mas pôde ir pra casa! E também, não tinha ninguém desaparecido!</default>
@@ -312,12 +319,15 @@
 		<default>Vai ter que esperar.</default>
 	</talk>
 	<teller>
-		<default>Mel olha para a janela. Aurium (Derik) já não estava.</default>
+		<default>Mel olha para a janela. Vazia.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Vocês três, ninguém dorme antes de achar a Kat!</default>
+		<default>Vocês três, ninguém dorme antes de achar Kat!</default>
 	</talk>
-	<talk character="Angely">
+	<teller>
+		<default>Psique franze a testa.</default>
+	</teller>
+	<talk character="Edmont">
 		<default>Pode nos dar licença?</default>
 	</talk>
 	<talk character="Psique">
@@ -327,55 +337,49 @@
 		<default>Psique sai.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Sabe de alguma coisa.</default>
+		<default>Você sabe de alguma coisa.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Kat está presa.</default>
+		<default>Kat não tá onde tá por vontade própria. Achei que era só sonho.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Pensei que só Kat tivesse esse poder.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela pode entrar em sonhos.</default>
+		<default>Kat pode entrar em sonhos.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela disse isso?</default>
+		<default>Te disse isso?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não, acho que ainda não sabe. Deve ser inconsciente, como o "desmaio".</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Como sabe que ela está presa?</default>
+		<default>O que sabe?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela disse. Falou que é vampiro e que ele disse que não vai matá-la.</default>
+		<default>Kat falou que é vampiro e que disse que não vai matar.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Como se desse pra acreditar na palavra de um vampiro...</default>
+		<default>Como se desse pra acreditar em palavra de vampiro...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Por isso eu quero ir pra casa.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Não vai adiantar nada, ela desaparecida e você doente.</default>
+		<default>Não vai adiantar nada, Kat desaparecida e você doente.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não estou doente!</default>
+		<default>Não tô doente!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Melhor você ficar aqui, Mel.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nós procuraremos a Kat.</default>
+		<default>Melhor você ficar aqui, Mel. A gente vai procurar Kat.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Tem alguma idéia de como é o lugar onde ela está?</default>
+		<default>Tem alguma idéia de como é o lugar?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não. Melhor irem logo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tá. Tchau.</default>
 	</talk>
 	<teller>
 		<default>Edmont abraça Mel.</default>
@@ -396,19 +400,13 @@
 		<default>Eu vou.</default>
 	</talk>
 	<teller>
-		<default>Angely dá um beijo na testa de Mel e sai. Alguns minutos depois, chega Aurium com uma bolsa.</default>
+		<default>Angely dá um beijo na testa de Mel. Sai.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Sabia que faria isso.</default>
+		<default>Agora só esperar Derik voltar.</default>
 	</talk>
 	<teller>
-		<default>Mel pega a bolsa. Fica parada algum tempo.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Pode deixar eu me trocar?</default>
-	</talk>
-	<teller>
-		<default>Aurium voa. Às quatro horas, Psique vai ao quarto.</default>
+		<first>16h. Psique entra no quarto.</first>
 	</teller>
 	<talk character="Psique">
 		<default>Bom, acho que...</default>
@@ -420,40 +418,43 @@
 		<default>Essa garota é louca!</default>
 	</talk>
 	<teller>
-		<default>Psique liga pra Michael. No escritório, ele atende.</default>
+		<default>Psique pega o telefone. Disca. Aguarda.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Melody L. K. fugiu do hospital.</default>
 	</talk>
 	<talk character="Michael">
-		<default>Oi pra você também.</default>
+		<out>Oi pra você também.</out>
 	</talk>
 	<talk character="Psique">
 		<default>Isso é sério!</default>
 	</talk>
 	<talk character="Michael">
-		<default>Se ela fugiu, é por que estava em condições de fazer isso.</default>
+		<out>Se ela fugiu, é por que estava em condições de fazer isso.</out>
 	</talk>
 	<talk character="Psique">
 		<default>Não fizemos os exames.</default>
 	</talk>
 	<talk character="Michael">
-		<default>Queria que eu impedisse que ela fugisse? Eu sou psicólogo, não segurança do hospital.</default>
+		<out>Queria que eu impedisse que ela fugisse? Eu sou psicólogo, não segurança do hospital.</out>
 	</talk>
 	<talk character="Psique">
 		<default>Quer dizer que você já sabia???</default>
 	</talk>
 	<talk character="Michael">
-		<default>Estava na cara que ela tentaria. Se ninguém viu ela sair, então...</default>
+		<out>Estava na cara que ela tentaria. Se ninguém viu ela sair, então...</out>
 	</talk>
 	<talk character="Psique">
 		<default>Saiu pela janela!</default>
 	</talk>
 	<talk character="Michael">
-		<default>Como pode ter certeza?</default>
+		<out>Como pode ter certeza?</out>
 	</talk>
+	<teller>
+		<default>Casa de Psique e Michael.</default>
+	</teller>
 	<talk character="Psique">
-		<default>A porta estava trancada!</default>
+		<out>A porta tava trancada!</out>
 	</talk>
 	<talk character="Michael">
 		<default>Ela é mesmo louca.</default>
@@ -463,54 +464,59 @@
 	</talk>
 	<talk character="Michael">
 		<default>Por que eu não sabia que ia ser pela janela!</default>
-		<teller>um barulho do outro lado</teller>
+	</talk>
+	<teller>
+		<default>Um barulho forte do outro lado do telefone</default>
+	</teller>
+	<talk character="Michael">
 		<default>Psique? Psique???</default>
 	</talk>
 	<teller>
-		<default>No hospital, Mel desliga o telefone.</default>
+		<default>Hospital. Mel pega o telefone da mão de Psique. Desliga. Pega Psique no colo. Coloca na cama. Pousa o celular do lado. Sai do quarto. Puxa a touca da blusa para cima dos cabelos. Passa pelos corredores a passos rápidos. Sai do hospital. Aurium, forma canina, estava na calçada. Levanta-se. Anda. Mel segue. Chegam a um beco. Autrium para ao lado de uma bolsa. Mel pega do chão. Abre. Franze a testa. Olha para Aurium. Desfranze. Tira a roupa de dentro da bolsa. Joga no chão. Se vira. Aurium late. Mel desvira. Pega a roupa, coloca na bolsa e põe a bolsa a tiracolo. Aurium continua andando, agora farejando o chão. Mel segue.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Louca sim, burra não.</default>
-	</talk>
 	<teller>
-		<default>Mel sai do hospital. Encontra Derik em forma canina. Ele vai andando e ela o segue. Chega num beco.</default>
-	</teller>
-	<talk character="Mel">
-		<default>A bolsa dela...</default>
-		<teller>Mel abre</teller>
-		<default>É, acho que isso é seu.</default>
-	</talk>
-	<teller>
-		<default>Aurium (Derik) fareja alguma coisa. Vai seguindo e Mel vai junto com ele. Está anoitecendo quando eles chegam numa casa.</default>
+		<first>Noite. Mel e Derik chegam a uma casa.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Não, tem janelas demais.</default>
 	</talk>
 	<teller>
-		<default>Ele raspa as patas na porta. Mel bate na porta. Nada. Não está trancada, então eles entram. Aurium pega a bolsa da mão de Mel, sai e volta como Derik.</default>
+		<default>Derik raspa as patas na porta. Mel encara. Bate na porta. Nada. Mexe na maçaneta. Aberta. Entram. Aurium resmunga. Mel abre a bolsa e pousa a roupa no sofá. E se vira. Aurium volta a ser Derik. Derik se veste.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Ela está aqui. Eu sei que está.</default>
+		<default>Kat tá aqui. Eu sei que está.</default>
 	</talk>
+	<teller>
+		<default>Mel vira para Derik.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Se foi um vampiro que levou ela, está no subterrâneo.</default>
+		<default>Se foi um vampiro que levou, está no subterrâneo.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não vou ter que virar cachorro de novo, vou?</default>
 	</talk>
 	<talk character="Mel">
-		<default>A casa está empoeirada, é só procurar um lugar mais limpo, sinal de que alguém esteve a pouco tempo.</default>
+		<default>A casa tá empoeirada, é só procurar um lugar mais limpo, sinal de que alguém esteve a pouco tempo.</default>
 	</talk>
 	<teller>
-		<default>Eles procuram e Mel acaba achando uma porta.</default>
+		<default>Andam pela casa. Derik entra em um quarto. Olha embaixo da cama. Uma mão em seu ombro. Dá um pulo para trás.</default>
 	</teller>
+	<talk character="Mel">
+		<default>Calma. Achei. Na cozinha.</default>
+	</talk>
 	<talk character="Derik">
 		<default>Não deveríamos ter trazido uma estaca?</default>
 	</talk>
 	<teller>
-		<default>Ela vê uma besta em cima de uma mesa e pega.</default>
+		<default>Mel olha para cima da cama. Franze a testa. Pega uma besta.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Acho que não.</default>
+	</talk>
+	<talk character="Derik">
+		<default>E sua mira?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Continua uma merda. Mas ninguém precisa saber disso.</default>
 	</talk>
 </story>

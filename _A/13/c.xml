@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="13" scene="c">
 	<teller>
-		<default>Kat e Derik saem. Chegam a um beco. Ele se transforma em pássaro e voa. Ela guarda as roupas dele numa bolsa e, quando vai sair do beco, impedem-na.</default>
+		<default>Kat e Derik saem. Andam até um beco. Derik se transforma em pássaro. Voa. Kat pega as roupas do chão. Guarda em uma bolsa.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Uma garota da sua idade não devia andar sozinha a essa hora.</default>
+		<arrive>Uma garota da sua idade não devia andar sozinha a essa hora.</arrive>
 	</talk>
+	<teller>
+		<default>Kat trava o corpo e vira para Zenon.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Me perdi.</default>
 	</talk>
@@ -16,7 +19,13 @@
 		<irony>No meu bolso não tá.</irony>
 	</talk>
 	<talk character="Zenon">
-		<default>Talvez na sua bolsa. Não parecia tão volumosa quando entrou aqui. Se quiser, te levo pra casa.</default>
+		<default>Talvez na sua bolsa. Não parecia tão volumosa quando entrou aqui.</default>
+	</talk>
+	<teller>
+		<default>Kat segura a bolsa. Zenon franze a testa. Ri.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Se quiser, te levo pra casa.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não sabe onde é minha casa.</default>
@@ -34,21 +43,28 @@
 		<default>Não se preocupe. Não sou pedófilo.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Tá me chamando de criança???</default>
+		<default>Tá me chamando de criança?!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Tô. Por que?</default>
-		<teller>se aproxima dela, encostando-a na parede</teller>
+	</talk>
+	<teller>
+		<default>Zenon encosta Kat na parede.</default>
+	</teller>
+	<talk character="Zenon">
 		<default>Não é?</default>
 	</talk>
 	<teller>
-		<default>Kat desmaia, ele a segura. Enquanto isso, Edmont foi até o hospital. Manhã.</default>
+		<default>Kat desmaia. Zenon segura.</default>
+	</teller>
+	<teller>
+		<first>Manhã. Hospital.</first>
 	</teller>
 	<talk character="Edmont">
-		<default>Não sabe a bagunça que isso tá virando... É sempre você que bota ordem. Agora Kat esconde coisas e Angely resolveu dar uma volta sem destino. Não sei se a Kat já te contou, mas ela sonhou que a Beatrice quer pegar um de nós.</default>
+		<default>Não sabe a bagunça que isso tá virando... É sempre você que bota ordem. Agora Kat esconde coisas e Angely resolveu dar uma volta sem destino. Não sei se Kat já te contou, mas sonhou que Beatrice quer pegar alguém de nós.</default>
 	</talk>
 	<teller>
-		<default>Enquanto Edmont fala com Mel, Psique fica olhando do lado de fora e consegue ouvir baixo o que ele diz. Liga pra Michael, seu marido, psicólogo.</default>
+		<default>Psique está na porta. Franze a testa. Se afasta alguns metros pelo corredor. Pega o celular. Disca.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Tem um cara que tá falando com a irmã em coma...</default>
@@ -57,13 +73,16 @@
 		<default>Isso é comum.</default>
 	</talk>
 	<talk character="Psique">
-		<default>Ontem eu sai daqui e ele estava falando com ela e hoje eu cheguei e ele continua falando.</default>
+		<default>Ok, isso eu sei, amor, mas ontem eu sai daqui e ele estava falando com ela e hoje eu cheguei e ele continua falando sobre...</default>
 	</talk>
+	<teller>
+		<default>Michael ri.</default>
+	</teller>
 	<talk character="Michael">
-		<default>Ou é tagarela ou precisava desabafar e encontrou a vítima indefesa.</default>
+		<default>Ou é tagarela ou precisava desabafar e encontrou uma vítima indefesa.</default>
 	</talk>
 	<talk character="Psique">
-		<default>Isso é sério, Michael. Tá falando sobre transformar e coisas absurdas...</default>
+		<default>Isso é sério, Michael! Tá falando sobre transformar e coisas absurdas...</default>
 	</talk>
 	<talk character="Michael">
 		<default>Como o que?</default>
@@ -72,16 +91,19 @@
 		<default>Vampiros.</default>
 	</talk>
 	<talk character="Michael">
-		<default>Isso prova que ele é maluco, mas não há problema.</default>
+		<default>Pode ser só alguma história que ele inventou. Talvez ela goste de histórias de vampiro.</default>
 	</talk>
 	<talk character="Psique">
-		<default>Como não???</default>
+		<default>Você é psicólogo ou o quê?!</default>
 	</talk>
+	<teller>
+		<default>Michael suspira.</default>
+	</teller>
 	<talk character="Michael">
-		<default>Não será enquanto ele não achar que é um.</default>
+		<default>Não será um problema enquanto ele não achar que é um.</default>
 	</talk>
 	<talk character="Psique">
-		<default>Eu fico preocupada. As pessoas às vezes enlouquecem quando percebem que médico é diferente mágico, apesar da pequena semelhança das duas palavras e de, de vez em quando, parecer a mesma coisa.</default>
+		<default>Eu fico preocupada. As pessoas às vezes enlouquecem quando percebem que médico é diferente mágico, apesar de, de vez em quando, parecer a mesma coisa.</default>
 	</talk>
 	<talk character="Michael">
 		<default>Ele não vai fazer nada. Apenas acredita em coisas estranhas.</default>
@@ -123,31 +145,37 @@
 		<default>Te vejo em casa.</default>
 	</talk>
 	<teller>
-		<default>Ele desliga.</default>
+		<default>Psique revira os olhos. Guarda o celular.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Sempre com a última palavra!</default>
 	</talk>
 	<teller>
-		<default>Psique olha pra dentro da sala. Edmont não está. Então ela olha pra trás.</default>
+		<default>Psique olha pra dentro da sala. Edmont não está. Vira para trás. Puxa o ar rápido, arregala os olhos e dá um passo para trás.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Eu não sou louco.</default>
+		<default>Eu não tô louco.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Estava escutando minha conversa???</default>
 	</talk>
+	<teller>
+		<default>Edmont cruza os braços.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Fez isso primeiro.</default>
+		<default>Olha quem fala.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Mas você não sabia que eu tinha feito isso quando veio ouvir o que eu tava falando com o meu marido! E eu ouvi sem querer!</default>
 	</talk>
+	<teller>
+		<default>Edmont franze a testa.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Eu percebi. Você não é muito nova pra ter marido?</default>
+		<default>Quantos anos você tem?</default>
 	</talk>
 	<talk character="Psique">
-		<default>Tenho vinte e seis.</default>
+		<default>Vinte e seis.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Quanto tempo tem de casada?</default>
@@ -156,7 +184,7 @@
 		<default>Onze... O que isso te interessa???</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Se casou com quinze anos... Quantos anos tem seu marido?</default>
+		<default>Se casou com quinze anos? Quantos anos tem seu marido?</default>
 	</talk>
 	<talk character="Psique">
 		<default>Não vou falar da minha vida com você!</default>
@@ -174,37 +202,61 @@
 		<default>Leio, mas o que...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Agora sabe como se sentem.</default>
+		<default>Agora sabe como se sentem. Odeio gente bisbilhotando minha vida.</default>
 	</talk>
 	<teller>
-		<default>Edmont ri e sai. O telefone toca. Angely...</default>
+		<default>Edmont sai andando pelo corredor. Toca o celular. Edmont atende.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Angely?</default>
+	</talk>
+	<talk character="Angely">
+		<out>Como sabe que sou eu?</out>
+	</talk>
+	<talk character="Edmont">
+		<default>Aparece na tela. Deixou a gente com preocupação.</default>
+	</talk>
+	<talk character="Angely">
+		<out>Ah... Kat tá com você?</out>
+	</talk>
+	<talk character="Edmont">
+		<default>Esteve.</default>
+	</talk>
+	<teller>
+		<default>MEAK.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Como sabe que sou eu? ### Ah... A Kat tá com você? ### Esteve é verbo no passado, Kat é problema no presente. ### De todas. Até das inimigas! Acha que ela tá fazendo isso de propósito? ### É mesmo... Mesmo que ela esteja em perigo, como vamos descobrir? ### Se eu disser que vou fazer isso, Derik morre do coração aqui do lado.</default>
+		<default>Tava perguntando de agora mesmo...</default>
+	</talk>
+	<talk character="Edmont">
+		<out>Já ligou pra amizades?</out>
+	</talk>
+	<talk character="Angely">
+		<default>Até pra inimizades. ### Como assim, fugir? ### Se eu disser que vou fazer isso, Derik morre do coração aqui do lado.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Me dá isso aqui... Alô? ### Não sabe onde ela tá??? ### Temos que procurar em todos os lugares!</default>
 	</talk>
 	<teller>
-		<default>No hospital...</default>
+		<default>Hospital. Edmont bufa.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Tentaram o necrotério?</default>
 	</talk>
 	<teller>
-		<default>Edmont ouve um barulho do outro lado.</default>
+		<default>MEAK. Derik arregala os olhos. Angely pega o telefone.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Alô?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Que você disse pra ele?</default>
+		<default>Que você disse?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Nada, só tava brincando. Tenho certeza que Kat tá bem.</default>
 	</talk>
 	<teller>
-		<default>De tarde, Edmont vai até a casa de Dara.</default>
+		<first>Tarde. Casa de Dara.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Nossa, com esse sorriso... Viu passarinho verde?</default>
@@ -219,7 +271,7 @@
 		<default>Algum problema?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, você tá até mais bonita.</default>
+		<default>Fica legal de vestido.</default>
 	</talk>
 	<teller>
 		<default>Dara sorri.</default>
@@ -235,8 +287,18 @@
 	</talk>
 	<talk character="Edmont">
 		<default>Nada...</default>
-		<teller>Dara encara-o</teller>
-		<default>Kat não queria acabar com a banda.</default>
+	</talk>
+	<teller>
+		<default>Dara cruza os braços e encara Edmont.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>É, agora parece mesmo você.</default>
+	</talk>
+	<teller>
+		<default>Edmont senta no sofá.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Kat não queria acabar com a banda. Acho que agora sumiu pra fazer birra.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Talvez fosse melhor dar apenas um tempo.</default>
@@ -245,14 +307,18 @@
 		<default>Tá vendo? Seu sorriso saiu correndo... Vamos dar uma volta, não quero perder essa felicidade que você tá hoje.</default>
 	</talk>
 	<teller>
-		<default>Alguns minutos, eles estão num parque: Ela encostada numa árvore, ele deitado no colo dela.</default>
+		<default>Parque. Dara encostou e sentou junto a uma árvore, Edmont está com a cabeça em seu colo e o corpo no chão.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Sonhou que tínhamos casado?</default>
 	</talk>
 	<talk character="Dara">
 		<default>É, e era aqui! Eu já tinha vindo aqui, mas nunca pareceu tão colorido.</default>
-		<teller>ele sorri</teller>
+	</talk>
+	<teller>
+		<default>Edmont sorri.</default>
+	</teller>
+	<talk character="Dara">
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Edmont">
@@ -265,7 +331,10 @@
 		<default>Você nunca vai me perder.</default>
 	</talk>
 	<teller>
-		<default>Angely está em casa. Pega uma bolsinha, desamarra e tira de dentro uma correntinha de prata com um pequeno rubi. Então lembra de Meg.</default>
+		<first>MEAK. Angely pega uma bolsinha, desamarra e tira de dentro uma correntinha de prata com um pequeno rubi.</first>
+	</teller>
+	<teller>
+		<division>Passado</division>
 	</teller>
 	<talk character="Angely">
 		<default>Oi.</default>
@@ -285,17 +354,9 @@
 	<talk character="Meg">
 		<default>Aquela Annie é a pior. Não sei como a Agatha anda com ela!</default>
 	</talk>
-	<talk character="Angely">
-		<default>Eu finjo que sou sua...</default>
-		<teller>Angely vira a mão pra trás</teller>
-		<default>...amiga!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Faz assim não que eu acredito! Cuidado, a janela tá aberta!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Prefiro não te levar na escola!</default>
-	</talk>
+	<teller>
+		<default>Meg beija Angely.</default>
+	</teller>
 	<talk character="Meg">
 		<default>Bom, eu tenho que ir.</default>
 	</talk>
@@ -315,22 +376,32 @@
 		<default>Eu só queria... Dizer tchau.</default>
 	</talk>
 	<teller>
-		<default>Meg ri. Angely "acorda".</default>
+		<default>Meg ri.</default>
+	</teller>
+	<teller>
+		<division>Presente</division>
 	</teller>
 	<talk character="Derik">
-		<default>Pra quem é isso?</default>
+		<arrive>Pra quem é isso?</arrive>
 	</talk>
+	<teller>
+		<default>Angely guarda a correntinha.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Era.</default>
 	</talk>
+	<teller>
+		<default>Derik olha para o chão.</default>
+	</teller>
 	<talk character="Derik">
 		<default>Desculpa.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Foi nada.</default>
-		<teller>Angely guarda a correntinha</teller>
-		<default>E o CD?</default>
+		<default>Foi nada. E o CD?</default>
 	</talk>
+	<teller>
+		<default>Derik olha para Angely.</default>
+	</teller>
 	<talk character="Derik">
 		<default>Que CD?</default>
 	</talk>
@@ -346,26 +417,32 @@
 	<talk character="Derik">
 		<default>Vou sair pra procurar a Kat.</default>
 	</talk>
+	<teller>
+		<default>Angely levanta.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Vou com você.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Voando?</default>
 	</talk>
+	<teller>
+		<default>Angely senta.</default>
+	</teller>
 	<talk character="Angely">
-		<default>Melhor ficar esperando notícias.</default>
+		<default>Posso ficar esperando notícias.</default>
 	</talk>
 	<teller>
-		<default>Num quarto, de tarde, Kat acorda.</default>
+		<first>Tarde. Kat acorda. Um quarto. Apenas a cama, rústica. Lençóis simples.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Pelo menos dessa vez não foi no necrotério. Que lugar é esse?</default>
 	</talk>
 	<teller>
-		<default>Kat se levanta da cama. Sem janelas. Vai até uma pequena porta e está trancada. Bate. Ninguém responde. Bate nas paredes. A porta se abre.</default>
+		<default>Kat se levanta da cama. Sem janelas. Vai até uma pequena porta. Puxa. Não abre. Bate na porta. Silêncio. Bate nas paredes. A porta se abre.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Estava tentando dormir.</default>
+		<arrive>Estava tentando dormir.</arrive>
 	</talk>
 	<talk character="Kat">
 		<default>Você...</default>
@@ -383,10 +460,10 @@
 		<default>Anulei meus sinais vitais!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Grande evolução, uma frase inteira.</default>
+		<irony>Grande evolução, uma frase inteira.</irony>
 	</talk>
 	<talk character="Kat">
-		<default>Como sabia que eu estava viva?</default>
+		<default>Como sabia que eu não morri?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Defuntos têm um cheiro insuportável, sabia?</default>
@@ -394,6 +471,9 @@
 	<talk character="Kat">
 		<default>Não cheiram na hora que morrem.</default>
 	</talk>
+	<teller>
+		<default>Zenon revira os olhos.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Tá, eu confesso, andei investigando vocês.</default>
 	</talk>
@@ -404,19 +484,27 @@
 		<default>Você é irmã daqueles dois, isso não foi muito difícil descobrir.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Como descobriu que eu tenho esse poder? Você é bruxo?</default>
+		<default>Como descobriu que tenho esse poder? Conhece algo de bruxaria?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Uma passagem pelo necrotério não é algo que qualquer um tenha na ficha.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Que eles fizeram pra você?</default>
+		<default>Que fizeram pra você?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Me mataram...</default>
-		<teller>se senta</teller>
+	</talk>
+	<teller>
+		<default>Zenon se senta na cama.</default>
+	</teller>
+	<talk character="Zenon">
 		<default>...voltei do inferno.</default>
-		<teller>ela assusta</teller>
+	</talk>
+	<teller>
+		<default>Kat arregala os olhos e dá dois passos para trás. Olha em volta. Zenon ri.</default>
+	</teller>
+	<talk character="Kat">
 		<default>Brincadeira.</default>
 	</talk>
 	<talk character="Kat">
@@ -424,7 +512,11 @@
 	</talk>
 	<talk character="Zenon">
 		<default>Não.</default>
-		<teller>Zenon levanta</teller>
+	</talk>
+	<teller>
+		<default>Zenon levanta.</default>
+	</teller>
+	<talk character="Zenon">
 		<default>Sobre eles terem feito algo, impediram que eu tirasse uma vida. Ela teve outro tipo de eternidade.</default>
 	</talk>
 	<talk character="Kat">
@@ -437,13 +529,19 @@
 		<default>Que vai fazer então?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tô com sono agora, se não se importa, eu vou dormir. Está com fome?</default>
+		<default>Tô com sono agora, se não se importa, eu vou dormir. Tá com fome?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não como desde ontem.</default>
 	</talk>
 	<teller>
-		<default>Zenon coloca um sanduíche em cima da mesa de cabeceira e pega o telefone.</default>
+		<default>Zenon sai. Volta com um sanduíche. Pousa na mesa.</default>
+	</teller>
+	<talk character="Kat">
+		<default>É sem carne, né?</default>
+	</talk>
+	<teller>
+		<default>Zenon encara Kat. Pega o telefone.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Que está fazendo?</default>
@@ -452,34 +550,39 @@
 		<default>Você vai dizer pros seus irmãos que está na casa de um amigo.</default>
 	</talk>
 	<teller>
-		<default>Ele entrega o telefone a Kat.</default>
+		<default>Zenon estende o telefone a Kat.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>E sem gracinhas.</default>
 	</talk>
+	<teller>
+		<default>Kat pega o telefone. Espera.</default>
+	</teller>
 	<talk character="Kat">
-		<default>Alô? ### Oi, Angely. ### Sim, é a Kat. ### Estou na casa de uma amiga. ### Estamos conversando sobre mitologia grega. A morte de Hércules é bem interessante...</default>
+		<default>Alô? ### Oi, Angely. ### Sim, é Kat. ### Estou na casa de alguém. ### Estamos conversando sobre mitologia grega. A morte de Hércules é bem interessante...</default>
 	</talk>
 	<teller>
-		<default>Zenon desliga o telefone.</default>
+		<default>Zenon pega o telefone. Desliga. Encara Kat.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Acha que sou burro?</default>
-		<teller>ela se faz de desentendida</teller>
-		<default>Hércules morreu por causa do ciúmes da segunda esposa, Dejanira.</default>
+		<default>Que bom que lembrou de Djanira.</default>
 	</talk>
 	<teller>
-		<default>Ele passa pela porta e tranca.</default>
+		<default>Zenon sai. Fecha e tranca a porta.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Não me deixa aqui!</default>
-		<teller>ela bate na porta</teller>
+	</talk>
+	<teller>
+		<default>Kat bate na porta.</default>
+	</teller>
+	<talk character="Kat">
 		<default>Quando vai me soltar???</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Logo.</default>
+		<out>Logo.</out>
 	</talk>
 	<teller>
-		<default>Kat se joga na cama. Angely liga pra Edmont avisando que Kat ligara dizendo onde estava.</default>
+		<default>Kat se joga na cama.</default>
 	</teller>
 </story>

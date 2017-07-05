@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="13" scene="e">
 	<teller>
-		<default>Zenon, que estava acordando, ouve vozes, levanta da cama e vai até a porta.</default>
+		<default>Zenon abre os olhos. Franze a testa. Levanta da cama. Vai até a porta.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Pensei que não fosse acordar.</default>
@@ -18,14 +18,14 @@
 	<talk character="Zenon">
 		<default>Que Deus a tenha.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Que disse?</default>
-	</talk>
+	<teller>
+		<default>Derik franze a testa.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>vampiros não podem falar de Deus?</default>
+		<default>Vampiros não podem falar de Deus?</default>
 	</talk>
-	<talk character="Derik">
-		<default>Onde está Katerine?</default>
+	<talk character="Mel">
+		<default>Onde tá Katerine?</default>
 	</talk>
 	<teller>
 		<default>Zenon dá um meio-riso.</default>
@@ -34,52 +34,43 @@
 		<default>Como vou saber?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sabemos que pegou ela.</default>
+		<default>Sabemos que pegou.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Querem verificar?</default>
 	</talk>
 	<teller>
-		<default>Ele se senta. Derik e Mel procuram pela casa. Nada.</default>
+		<default>Zenon se senta. Mel entra em um cômodo. Uma cama. Sem armários. Sai. Vai ao outro cômodo. Uma geladeira e uma mesa. Abre a geladeira. Sangue. Fecha. Puxa a geladeira do lugar. Puxa a mesa. Volta para a sala. Olha para Zenon e faz sinal com a cabeça para o lado esquerdo. Zenon levanta. Mel puxa o sofá. Vai até uma estante de livros. Tira do lugar também. Olha para Zenon de volta. Zenon puxa o bolso esquerdo pra fora. Depois o direito. Encolhe e solta os ombros.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Tudo bem, onde escondeu ela?</default>
+		<default>A gente vai voltar.</default>
 	</talk>
 	<talk character="Zenon">
-		<irony>Aqui não, nem aqui...</irony>
+		<irony>Já vão? Achei que podíamos jogar video-game.</irony>
 	</talk>
 	<teller>
-		<default>Zenon finge revistar os próprios bolsos.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Nós voltaremos.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Schwarzenegger costumava dizer isso.</default>
-	</talk>
-	<teller>
-		<default>Os dois saem. Zenon vai até o quarto, abre a porta do armário e abre uma segunda porta, chegando até onde está Kat.</default>
+		<default>Mel revira os olhos. Sai. Derik olha para Zenon. Segue Mel. Zenon vai até o quarto. Passa a mão na parede. Puxa a madeira. Passa para o outro lado. Kat está dormindo.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Seus amigos precisam se aprimorar. Espero que da próxima encontrem.</default>
 	</talk>
 	<teller>
-		<default>Noite. Angely, Edmont e Dara estão na MEAK.</default>
+		<first>Noite. Angely, Edmont e Dara estão na MEAK.</first>
 	</teller>
-	<talk character="Dara">
-		<default>Pra onde ela iria?</default>
-	</talk>
 	<talk character="Edmont">
+		<default>Pra onde Mel iria?</default>
+	</talk>
+	<talk character="Dara">
 		<default>A lógica seria vir pra cá.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela pensou isso, por isso ela não veio.</default>
+		<default>Pensou isso, por isso não veio.</default>
 	</talk>
 	<teller>
 		<default>Derik e Mel entram.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Sabemos quem pegou Kat e onde está.</default>
+		<default>Sabemos quem pegou Kat e onde tá.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Retiro o que disse.</default>
@@ -88,32 +79,32 @@
 		<default>Não devia estar aqui!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ei, a casa é minha também!</default>
+		<default>A casa é minha também.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Você foi torturada, ficou em coma...</default>
+	<talk character="Edmont">
+		<default>Entendeu o que eu quis dizer. Passou por tortura e ficou em coma.</default>
 	</talk>
 	<talk character="Mel">
 		<default>E estou em perfeita saúde.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por muito menos eu fiquei uma semana de cama!</default>
+		<default>Fiquei uma semana de cama e era menos do que Andrews fez.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Fiquei mais que isso naquela cama. E você pelo menos podia comer, não estava com um tubo no braço. Aliás, quer parar de dizer isso?? Não tem outro argumento??</default>
+		<default>Fiquei mais que isso naquela cama. E você pelo menos podia comer, não estava com um tubo no braço. Aliás, quer parar de dizer isso?! Não tem outro argumento?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Vai voltar pro hospital.</default>
 	</talk>
+	<teller>
+		<default>Mel cruza os braços.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Vai me carregar?</default>
 	</talk>
 	<teller>
 		<default>Edmont se levanta e vai até Mel.</default>
 	</teller>
-	<talk character="Edmont">
-		<default>Duvida?</default>
-	</talk>
 	<talk character="Angely">
 		<default>Pelo menos pra fazer exames.</default>
 	</talk>
@@ -124,55 +115,43 @@
 		<default>Mel, por favor...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nem carregada.</default>
+		<default>Nem que me carreguem. Aliás, nem que tente.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Viu como as coisas nunca funcionam no seu jeito?</default>
 	</talk>
 	<teller>
-		<default>Angely faz sinal de "faça". Edmont literalmente carrega Mel até o carro. Edmont e Angely ficam no banco de trás. Dara dirige e Derik vai ao lado dela.</default>
+		<default>Angely olha para Edmont. Edmont vai pegar Mel. Mel derruba Edmont no chão.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Não podem me forçar!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Também disse que não poderíamos carregá-la.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Só eu e Derik sabemos onde está o cara que pegou Kat!</default>
-	</talk>
-	<talk character="Dara">
-		<default>Derik...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Sinto muito, Mel.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Traíra!</default>
-	</talk>
-	<teller>
-		<default>Eles deixam Mel no hospital. De madrugada, Derik leva Edmont até onde estava Zenon. Quando este volta, Kat não está mais lá. Zenon sorri. MEAK...</default>
-	</teller>
-	<talk character="Kat">
-		<default>Ele era muito estranho.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Teve algum sonho sobre ele?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Nenhum.</default>
+		<default>Não podem me forçar.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Duas da madrugada... Deveríamos descansar. Amanhã resolvemos.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Claro.</default>
+		<default>Mel, por favor. Só os exames. Juro que não falo mais nada depois.</default>
 	</talk>
 	<teller>
-		<default>Derik leva Kat em casa.</default>
+		<default>Mel olha pra Angely. Depois para Edmont. Edmon bufa. Levanta do chão.</default>
 	</teller>
+	<talk character="Edmont">
+		<default>Ok. Só exames. Mas fica até sair o resultado.</default>
+	</talk>
+	<teller>
+		<default>Mel encara Edmont.</default>
+	</teller>
+	<teller>
+		<first>Madrugada. Casa de Kat. Kat sobe a escada. Derik segue. Derik senta na cama. Kat senta na frente, de costas, e se recosta em Derik.</first>
+	</teller>
+	<talk character="Kat">
+		<default>Era muito estranho. Ainda bem que me acharam.</default>
+	</talk>
 	<talk character="Derik">
-		<default>Está bem mesmo?</default>
+		<default>Mel tinha sentido seu cheiro, mas achou que era de ter ido embora. Em forma de cachorro foi fácil. Teve algum sonho sobre?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Fora o de antes, não.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Tá bem mesmo?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Estou.</default>
@@ -180,6 +159,9 @@
 	<talk character="Zenon">
 		<arrive>Eu não faria nada contra ela.</arrive>
 	</talk>
+	<teller>
+		<default>Zenon para na porta. Derik segura Kat com mais força.</default>
+	</teller>
 	<talk character="Derik">
 		<default>Mas quem...</default>
 	</talk>
@@ -187,18 +169,18 @@
 		<default>Agatha.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Que fez com ela???</default>
+		<default>Que você fez???</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Nada que nenhum homem nunca tenha feito. Exceto talvez pelo sonífero.</default>
 	</talk>
-	<talk character="Derik">
+	<talk character="Kat">
 		<default>Quem é você?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Zenon.</default>
 	</talk>
-	<talk character="Derik">
+	<talk character="Kat">
 		<default>Só isso?</default>
 	</talk>
 	<talk character="Zenon">
@@ -208,7 +190,7 @@
 		<default>Que veio fazer aqui?</default>
 	</talk>
 	<teller>
-		<default>Zenon mostra o meio CD.</default>
+		<default>Zenon tira do bolso da jaqueta o meio CD.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Ajudar.</default>
@@ -220,7 +202,7 @@
 		<default>Deixou perto do computador de Katerine e eu peguei. Tudo o que prestava tá no computador já.</default>
 	</talk>
 	<teller>
-		<default>Zenon joga o meio CD pra Derik.</default>
+		<default>Zenon joga o meio CD para Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Com que direito fez isso???</default>
@@ -244,27 +226,25 @@
 		<default>Diário... Mel disse que tinha trazido isso de...</default>
 	</talk>
 	<teller>
-		<default>Kat olha pra Zenon e se cala.</default>
+		<default>Kat olha pra Zenon. Zenon ri. Entra. Puxa uma cadeira. Senta-se.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Pois é.</default>
-		<teller>ri, puxa uma cadeira e se senta</teller>
 		<default>Impressionante como ninguém conhece os pais de vocês. Sabe-se que você é sobrinha do cara que te adotou, meia-irmã deles por parte de mãe e que Mel é meia irmã deles por parte de pai... Exames de DNA bem pagos comprovaram isso. Mas faltam três peças nesse quebra cabeças.</default>
 	</talk>
-	<talk character="Derik">
+	<talk character="Kat">
 		<default>Se você leu...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não deram tempo pra eu ler tudo.</default>
 	</talk>
-	<talk character="Kat">
+	<talk character="Derik">
 		<default>Pode traduzir pra nós?</default>
 	</talk>
-	<talk character="Derik">
+	<talk character="Kat">
 		<default>A questão não é poder. É querer.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Exatamente. Podemos fazer uma troca.</default>
+		<default>Podemos fazer uma troca.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Troca?</default>
@@ -281,19 +261,20 @@
 	<talk character="Derik">
 		<default>Podemos arranjar outro tradutor.</default>
 	</talk>
+	<teller>
+		<default>Zenon se levanta.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Vão ter que pagar pra traduzir, pagar cala-boca... Mesmo assim, sem garantia.</default>
-		<teller>se levanta</teller>
-		<default>Bom, tenho que ir.</default>
 	</talk>
 	<teller>
-		<default>Ele sai.</default>
+		<default>Zenon sai.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Talvez ele esteja blefando.</default>
 	</talk>
 	<teller>
-		<default>Kat pega o laptop. Procura o arquivo mais recente: tinha meia hora. Ela abre.</default>
+		<default>Kat pega o laptop. Um arquivo na área de trabalho. Abre.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Bom, deve ser mesmo grego, dá uma olhada nas letras!</default>
@@ -305,11 +286,8 @@
 		<default>Acho que não teria tempo.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Vamos perguntar pra Mel o que é isso.</default>
+		<default>Vamos falar com o pessoal.</default>
 	</talk>
-	<teller>
-		<default>Derik aponta o brasão no CD.</default>
-	</teller>
 	<talk character="Kat">
 		<default>Isso é, se eu não sonhar com nada.</default>
 	</talk>
@@ -323,33 +301,31 @@
 		<default>No seu lugar, eu não teria coragem de voltar a dormir.</default>
 	</talk>
 	<teller>
-		<default>Ela o abraça.</default>
+		<default>Kat abraça Derik. Derik dá um beijo na testa de Kat. Se afastam. Derik levanta da cama.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Bom, acho que vou pra casa.</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta e vai até a porta.</default>
+		<default>Derik sai.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Derik!</default>
 	</talk>
-	<talk character="Derik">
-		<default>Que?</default>
-	</talk>
+	<teller>
+		<default>Derik volta.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Eu não conheço sua família. Aliás, eu não sei nada sobre você.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Amanhã eu te falo deles, já é tarde.</default>
+		<default>Amanhã a gente fala, já é tarde.</default>
 	</talk>
 	<teller>
 		<default>Kat se joga na cama.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Não sei nem se você tem casa. Não conheço sua casa, nem sua família, ou seus amigos... Eu só conheço você.</default>
-		<teller>Kat levanta assustada</teller>
-		<default>Não, não e não! Ele é uma gracinha, mas isso não! É perigoso demais! É pior que morrer...</default>
+		<thought>Não sei nem se você tem casa. Não conheço sua casa, nem sua família, ou amizades... Eu só conheço você.</thought>
 	</talk>
 	<teller>
 		<default>No dia seguinte, Kat vai ao hospital.</default>
@@ -367,7 +343,7 @@
 		<default>Psique chega.</default>
 	</teller>
 	<talk character="Psique">
-		<default>Garota, você tem um anjo da guarda forte... Não há sequer um problema com o seu organismo! Aliás, só teve um caso parecido com o seu, de uma recuperação um pouco mais lenta, mas também fora do comum: seu irmão. Parece até coisa de outro planeta, depois do que sofreram.</default>
+		<default>Garota, você tem um anjo da guarda forte... Não há sequer um problema com o seu organismo! Aliás, só teve um caso parecido com o seu, de uma recuperação um pouco mais lenta, mas também fora do comum, e foi seu irmão. Parece até coisa de outro planeta, depois do que sofreram.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Deve ser de família.</default>
@@ -379,40 +355,46 @@
 		<default>Pra que???</default>
 	</talk>
 	<talk character="Psique">
-		<default>Me bateu e fugiu do hospital.</default>
+		<default>Pra ter certeza que não tem algo que não vimos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Troquei o bem da sanidade pela recuperação rápida.</default>
-	</talk>
-	<talk character="Psique">
-		<default>Melhor você fazer alguns testes.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu estou muito bem, só quero voltar pra casa!</default>
-	</talk>
-	<talk character="Psique">
-		<default>É só mais um dia.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mel, é melhor ficar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tudo bem!</default>
+		<default>Não é como se realmente pudessem fazer isso.</default>
 	</talk>
 	<teller>
-		<default>Psique sai.</default>
+		<default>Psique encara Mel. Sai.</default>
 	</teller>
+	<talk character="Kat">
+		<default>Sabe que não podemos levantar suspeita, né?</default>
+	</talk>
 	<talk character="Mel">
-		<default>Droga.</default>
+		<default>Eu sei. Sei mais que vocês. Só por isso não taco o foda-se.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Mel, você sabia que o CD tá em grego?!</default>
+		<default>Você sabia que o CD tá em grego?!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não sabia que você sabia grego.</default>
 	</talk>
 	<talk character="Kat">
-		<default>E não sei. Mas o cara que me seqüestrou sabe e disse que só traduz se contarmos o nosso passado.</default>
+		<default>E não sei. Mas Zenon sabe.</default>
+	</talk>
+	<teller>
+		<default>Mel franze a testa.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Quem me sequestrou.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Veio atrás de você de novo?!</default>
+	</talk>
+	<talk character="Kat">
+		<default>Enganou Agatha. Mas não fez mais nada.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Que tem ele saber grego?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Disse que traduz, mas só se contarmos o nosso passado.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Eu não tenho nada contra.</default>
@@ -421,7 +403,7 @@
 		<default>Mas...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que ele vai fazer? Mandar pra um jornal? Acha mesmo que acreditariam?</default>
+		<default>Que vai fazer? Mandar pra um jornal? E assinar como "vampiro anônimo"? Já deve saber mais que a gente sobre muita coisa.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não sei. Mas não estou com uma boa impressão.</default>
@@ -430,25 +412,25 @@
 		<default>Teve algum sonho?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Do passado dele.</default>
+		<default>Do passado.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não deve ter sido muito agradável.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Foi como o outro sonho que tive com ele. Lembra, o outro? Da tal Astride?</default>
+		<default>Foi como o outro sonho que tive, de Astride.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Como se estivesse no lugar da vítima?</default>
 	</talk>
 	<talk character="Kat">
-		<default>É. Era filha da madrasta dele.</default>
+		<default>É. Filha da madrasta dele.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não foi assim que sonhou desde que encontrou Zenon?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Mas com ele é diferente. Eu pensei que tinha sido pior por que era a primeira vez que sonhava assim. Mas não é: é por causa dele! É mil vezes mais real quando é com ele!</default>
+		<default>Mas é diferente. Eu pensei que tinha sido pior por que era a primeira vez que sonhava assim. Mas não é: é por causa de Zenon! É mil vezes mais real quando é com Zenon!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Se acalma. Então é isso que te perturba?</default>
@@ -457,13 +439,13 @@
 		<default>É. Não sei se...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pode ser uma bom sinal também!</default>
+		<default>Pode ser uma bom sinal também.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não sei.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vamos falar com os meninos.</default>
+		<default>Vamos falar com o Angely e Edmont.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Angely vai ser a favor e Edmont contra.</default>
@@ -475,15 +457,12 @@
 		<default>Então empatou.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Teremos que falar com Dara. O segredo não é dela, mas teremos que usar o voto dela, já que somos em quatro.</default>
+		<default>Teremos que falar com Dara. Não pertence ao segredo, mas teremos que usar o voto, já que somos em quatro.</default>
 	</talk>
 	<talk character="Kat">
-		<default>A Handhara é namorada do Edmont e o Derik é meu namorado, então ele também pode opinar.</default>
+		<default>A Handhara namora Edmont e o Derik e eu namoramos, então também pode opinar.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá...</default>
+		<default>Tá... Só corremos risco de novo empate.</default>
 	</talk>
-	<teller>
-		<default>Kat liga pra casa e pede pra que todos se reunam.</default>
-	</teller>
 </story>
