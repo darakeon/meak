@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="16" scene="c">
 	<teller>
-		<default>Eles saem e vão pro laboratório do cientista (Zenon se cobre todo antes de pegar carona na moto de Angely).</default>
+		<default>Laboratório. O lugar está todo quebrado. Há duas mesas, em uma papéis espalhados, em outra com um computador em pedaços. As estantes estão viradas no chão. O chão está molhado, com muitos cacos.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Parece que passou um tornado aqui.</default>
@@ -16,55 +16,31 @@
 		<default>Qualquer papel que tenha algo escrito.</default>
 	</talk>
 	<teller>
-		<default>Eles começam a vasculhar. A única coisa que encontram é um pequeno caderno. Angely não entende a letra e passa pra Zenon.</default>
+		<default>Zenon começa a mexer nas gavetas de uma mesa. Angely olha ao redor. Toca as paredes. Nada. Zenon junta todos os papéis.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Não pode ser...</default>
+		<default>Tem uma coisa diferente aqui. Quer dizer, tem várias, mas essa consigo entender.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Que foi???</default>
+		<default>O que é?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Vamos rápido!</default>
+		<default>Parece que pode se tornar contagioso em alguns casos.</default>
 	</talk>
-	<teller>
-		<default>Sem mais explicações, Zenon sai e Angely o segue. Eles chegam e Zenon vai até a cozinha.</default>
-	</teller>
 	<talk character="Angely">
-		<default>Pode me explicar por que essa aflição?</default>
+		<default>Melhor manter seres humanos longe.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ele descobriu que o vírus poderia, em sua evolução, tornar-se contagioso.</default>
+		<default>Posso cuidar dela.</default>
 	</talk>
 	<talk character="Angely">
-		<default>E daí?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Sei de um feitiço pra trancar o vírus dentro do corpo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Zenon, não precisa se preocupar com a Mel.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Como não???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ela, ou melhor, o organismo dela reage rapidamente a um intruso, ela é descendente completa dos atlantes, esqueceu?</default>
+		<default>Não somos seres humanos.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ah, é...</default>
 	</talk>
-	<talk character="Angely">
-		<default>Tem mais alguma coisa escrita aí?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>De diferente só isso.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Então melhor mantermos pessoas normais longe de Dara. Vou vê-la.</default>
-	</talk>
 	<teller>
-		<default>Angely vai até o quarto. Mel acaba de acordar e vai até a sala.</default>
+		<default>MEAK. Mel acorda. Levanta. Olha no quarto de Angely. Angely está sentado ao lado da cama. Vai até a sala.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Descobrimos que é contagioso...</default>
@@ -88,38 +64,38 @@
 		<default>Sim. Podíamos procurar cientistas mais experientes...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Talvez os antigos colegas dele. Ele parece revoltado por que foi despedido.</default>
+		<default>Talvez antigos colegas. Parece revolta por que demitiram.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Parecia.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tanto faz. Vamos procurar os antigos empregos desse... Qual é o nome dele?</default>
+		<default>Tanto faz. Vamos procurar empregos... Qual é o nome?</default>
 	</talk>
 	<teller>
-		<default>Zenon tira um cartão de identidade do bolso.</default>
+		<default>Zenon tira um documento de identidade do bolso.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Filipe Gardel Asmond.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Como sabe?</default>
+		<default>Pegou no laboratório?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tirei o dedo antes de queimar o corpo.</default>
+		<default>Sim.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Lá vou eu...</default>
 	</talk>
 	<teller>
-		<default>Mel se dirige à escada.</default>
+		<default>Mel vira para a escada.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Mel!</default>
 	</talk>
-	<talk character="Mel">
-		<default>Sim?</default>
-	</talk>
+	<teller>
+		<default>Mel desvira.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Posso passar o dia aqui?</default>
 	</talk>
@@ -127,22 +103,25 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Ela sai. De tarde, o telefone toca. Angely atende no quarto.</default>
+		<default>Tarde. Telefone toca. Angely atende no quarto.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Alô? ### Está. ### Não, ela não pode falar agora. ### Não temos nada, Denise. ### Essa noite? ### Não posso, tenho coisas pra fazer aqui. ### Outro dia. ### Tá, tchau.</default>
+		<default>Alô? ### Está. ### Não, não pode falar agora. ### Não temos nada, Denise. ### Não posso, tenho coisas pra fazer aqui. ### Outro dia. ### Tá, tchau.</default>
 	</talk>
 	<teller>
-		<default>Na casa de Denise.</default>
+		<default>Casa de Denise.</default>
 	</teller>
 	<talk character="Denise">
-		<default>Não é possível, chamei ele de gay e ele diz calmamente "tá, tchau"!</default>
+		<default>Não é possível, chamei ele de viado e ele diz calmamente "tá, tchau"!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Talvez ele esteja mesmo com Dara.</default>
 	</talk>
 	<talk character="Denise">
 		<default>Mas ele devia ter retrucado algo como "gay é aquele corno do seu namorado!"</default>
+	</talk>
+	<talk character="Agatha">
+		<default>Os meninos não ligam muito pra essas coisas. Talvez a gente devesse não ligar também.</default>
 	</talk>
 	<talk character="Danny">
 		<default>Oi, garotas...</default>
@@ -157,7 +136,7 @@
 		<default>Ah, é mesmo!</default>
 	</talk>
 	<teller>
-		<default>Derik está na casa de Kat.</default>
+		<default>Casa de Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Isso não é tão difícil assim!</default>
@@ -175,33 +154,37 @@
 		<default>Não acabou de dizer que é fácil pra mim? Então?</default>
 	</talk>
 	<teller>
-		<default>Ele a encara. Entrega o caderno pra ela. O telefone toca, Kat atende.</default>
+		<default>Derik encara Kat. Entrega o caderno. Telefone toca, Kat atende.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Kat?</default>
+		<out>Kat?</out>
 	</talk>
 	<talk character="Kat">
 		<default>Sim?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não teve nenhum sonho sobre Dara?</default>
+		<out>Não teve nenhum sonho sobre Dara?</out>
 	</talk>
 	<talk character="Kat">
 		<default>Não, por que?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Dara tá com um vírus criado por um cientista maluco. Achamos que pode até morrer.</default>
+		<out>Dara tá com um vírus criado por um cientista maluco. Tá correndo risco sério.</out>
 	</talk>
 	<talk character="Kat">
-		<default>Tem alguma coisa que possamos ajudar?</default>
+		<default>Tá falando sério?! Por que não me disse isso quando fui aí?! Pera, você perguntou...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se você tiver algum sonho que indique alguma solução, não perca tempo vindo aqui. Mande Derik atrás da solução e só venham se tiverem certeza que vão resolver o problema.</default>
+		<out>Se você tiver algum sonho que indique alguma solução, não perca tempo vindo aqui. Mande Derik atrás da solução e só venham se tiverem certeza que vão resolver o problema.</out>
 	</talk>
 	<talk character="Kat">
 		<default>Tá.</default>
-		<teller>Kat desliga</teller>
-		<default>Dara está com um vírus novo, não vou poder te ensinar agora.</default>
+	</talk>
+	<teller>
+		<default>Kat desliga.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Dara está com um vírus, não vou poder te ensinar agora.</default>
 	</talk>
 	<talk character="Derik">
 		<default>E quais as características do tal vírus?</default>
@@ -216,13 +199,19 @@
 		<default>Não preciso de dados. Se eu for ter algum sonho, não vai fazer diferença se eu sei ou não sobre o vírus.</default>
 	</talk>
 	<talk character="Derik">
+		<default>Também não faria diferença se você soubesse ou não que existe. Já não devia ter sonhado algo antes?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Não custa tentar.</default>
+	</talk>
+	<talk character="Derik">
 		<default>Eu posso ficar aqui com você?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Eles vão pro quarto. Ela abre a gaveta e tira um vidro de remédio.</default>
+		<default>Kat e Derik vão até o quarto. Kat pega um vidro de remédio na gaveta da cabeceira.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Não seria melhor dormir naturalmente?</default>
@@ -231,43 +220,44 @@
 		<default>Eu não estou com o menor sono.</default>
 	</talk>
 	<teller>
-		<default>Ela pega um comprimido e toma. Deita-se na cama e adormece em pouco tempo. Derik senta-se ao lado da cama e fica passando a mão na cabeça dela. Enquanto isso, na casa de Mel e Angely, Mel encontra o lugar de onde Filip havia sido demitido. Descobre que Hery e Rith trabalharam nessa empresa também. Liga pra casa de Kat.</default>
+		<default>Kat pega um comprimido e toma. Guarda o vidro. Deita na cama. Derik senta ao lado da cama e fica passando a mão na cabeça dela.</default>
+	</teller>
+	<teller>
+		<first>Noite. Telefone toca. Derik atende.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Alô?</default>
+		<out>Alô?</out>
 	</talk>
 	<talk character="Derik">
 		<default>Mel?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pode ir até uma empresa, perguntar sobre um ex-empregado chamado Filipe Gardel Asmond?</default>
+		<out>Pode ir até uma empresa, perguntar sobre uma pessoa que trabalhou lá, de nome Filipe Gardel Asmond?</out>
 	</talk>
 	<talk character="Derik">
 		<default>Estou cuidando da Kat aqui.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Só um instante.</default>
+		<out>Só um instante.</out>
 	</talk>
 	<teller>
 		<default>Mel vai até o quarto de Angely.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Pode ir cuidar de Kat? Ela tá dormindo pra ver se encontra uma solução pra isso.</default>
+		<default>Pode ir cuidar de Kat? Tá dormindo pra ver se encontra uma solução pra isso.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mas e a Dara?</default>
+		<default>Mas e Dara?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Legal... Zenon!</default>
+		<default>Legal...</default>
+		<screamed>Zenon!</screamed>
 	</talk>
-	<teller>
-		<default>Zenon adentra o quarto.</default>
-	</teller>
 	<talk character="Zenon">
-		<default>Sim?</default>
+		<arrive>Sim?</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Você fica aqui cuidando de Dara? Angely vai cuidar da Kat que tá dormindo pra ver se encontra uma solução.</default>
+		<default>Você fica aqui cuidando de Dara? Angely vai cuidar de Kat que tá dormindo pra ver se encontra uma solução.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Claro.</default>
@@ -276,10 +266,10 @@
 		<default>Não tá fazendo nada importante não, né?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não, estou livre.</default>
+		<default>Não, tô livre.</default>
 	</talk>
 	<teller>
-		<default>Angely dá um beijo na testa de Dara e sai. Zenon pega uma cadeira e senta ao lado da cama. Mel vai até o telefone.</default>
+		<default>Angely dá um beijo na testa de Dara. Sai. Zenon pega uma cadeira e senta ao lado da cama. Mel volta a seu quarto. Pega o telefone.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Ainda tá aí?</default>
@@ -288,21 +278,21 @@
 		<default>Sim.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Angely vai cuidar da Kat.</default>
+		<default>Angely vai cuidar de Kat.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Vou esperar ele chegar, só pra garantir que não percamos nada de importante que ela fale.</default>
+		<default>Vou esperar chegar, só pra garantir que não percamos nada de importante dessa vez.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá, anota já o endereço da empresa.</default>
+		<default>Tá, anota o endereço da empresa.</default>
 	</talk>
 	<teller>
-		<default>Uma hora depois, na empresa...</default>
+		<default>Uma hora depois. Empresa. Rafael olha para Derik, que fala com Laura, na recepção.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Eu preciso saber, é caso de vida ou morte!</default>
 	</talk>
-	<talk character="atendente">
+	<talk character="Laura">
 		<default>Já disse que não damos informações de ex-funcionários!</default>
 	</talk>
 	<talk character="Rafael">
@@ -311,14 +301,17 @@
 	<talk character="Derik">
 		<default>Que?</default>
 	</talk>
+	<teller>
+		<default>Rafael se aproxima.</default>
+	</teller>
 	<talk character="Rafael">
-		<default>Eu trabalhei com o homem de quem você está falando.</default>
+		<default>Eu trabalhei com o cara de quem você tá falando.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Então acaba de virar meu melhor amigo.</default>
 	</talk>
 	<teller>
-		<default>Eles vão até a casa de Mel e Angely.</default>
+		<default>MEAK.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Melhor não subir.</default>
@@ -339,16 +332,19 @@
 		<default>Então como espera que eu examine ela?</default>
 	</talk>
 	<teller>
-		<default>Mel parece lembrar de algo.</default>
+		<default>Mel fica com olhar perdido. Olha para Rafael bruscamente.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Esperem aqui, eu já volto!</default>
 	</talk>
 	<teller>
-		<default>Ela sai correndo. Rafael e Derik não entendem. Meia hora depois, Mel encontra Psique no hospital.</default>
+		<default>Mel pega as chaves em cima da mesa e sai. Rafael e Derik se entreolham.</default>
+	</teller>
+	<teller>
+		<first>Hospital.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Psique, onde estão as amostras de sangue da Dara?</default>
+		<arrive>Onde estão as amostras de sangue da Dara?</arrive>
 	</talk>
 	<talk character="Psique">
 		<default>No laboratório, por que?</default>
@@ -395,6 +391,9 @@
 	<talk character="Michael">
 		<default>Psique, eu ainda quero saber por que quer se separar de mim!</default>
 	</talk>
+	<teller>
+		<default>Psique respira fundo.</default>
+	</teller>
 	<talk character="Psique">
 		<default>Eu não te amo mais.</default>
 	</talk>
@@ -402,10 +401,7 @@
 		<default>Mas então deve ter outro alguém!</default>
 	</talk>
 	<talk character="Psique">
-		<default>Estou ocupada agora, não está vendo?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu não quero atrapalhar...</default>
+		<default>Tô ocupada agora, não tá vendo?</default>
 	</talk>
 	<talk character="Michael">
 		<default>Por que você sempre desvia do assunto???</default>
@@ -423,7 +419,7 @@
 		<default>Quem é?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu preciso disso rápido.</default>
+		<default>Psique, eu preciso disso rápido.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Alguém mais novo que você, é isso que queria saber?</default>
@@ -438,7 +434,7 @@
 		<default>Dane-se, não vai se livrar de mim assim tão fácil!</default>
 	</talk>
 	<teller>
-		<default>Mel dá um soco em Michael e ele cai no chão.</default>
+		<default>Mel dá um soco em Michael. Michael cai no chão. Psique dá um passo para trás. Mel olha para Psique.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Pode me dar atenção agora?</default>
@@ -450,18 +446,18 @@
 		<default>Que???</default>
 	</talk>
 	<teller>
-		<default>Michael se levanta e Mel encosta ele na parede.</default>
+		<default>Michael se levanta. Mel pega Michael pelo colarinha e encosta na parede.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Se ela está te trocando, a culpa é sua que provavelmente foi incompetente. Mas tem uma pessoa que tá correndo risco de vida, é como uma irmã pra mim e, se ela morrer por que não se conforma em ser trocado por um cara mais novo, pode esperar uma bomba te dando bom-dia amanhã!</default>
+		<default>Se tá te trocando, você devia aceitar, Psique é um ser humano e não te pertence. Mas tem uma pessoa que tá correndo risco de vida, é como família pra mim e, se morrer por que não se conforma que te troquem por alguém mais novo, vou garantir que você não tenha bastante tempo pra pensar nisso sete palmos abaixo da terra.</default>
 	</talk>
 	<teller>
-		<default>Mel solta Michael.</default>
+		<default>Mel solta Michael. Olha para Psique.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Venha, vou pegar o que quer.</default>
 	</talk>
 	<teller>
-		<default>Psique e Mel saem.</default>
+		<default>Psique e Mel saem. Michael coloca a mão embaixo do nariz. Olha o sangue. Balança a cabeça para os lados e sai na direção contrária.</default>
 	</teller>
 </story>
