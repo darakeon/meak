@@ -1,3 +1,515 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="18" scene="b">
+	<teller>
+		<default>Ela tira a roupa de Beatrice. A cobre com o lençol. Sai. Zenon sai do banheiro de toalha. Vai até Beatrice. A chacoalha.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Beatrice, acorda...</default>
+	</talk>
+	<talk character="Michele">
+		<arrive>Que está acontecendo aqui?!</arrive>
+	</talk>
+	<talk character="Zenon">
+		<default>Clítia apareceu.</default>
+	</talk>
+	<talk character="Michele">
+		<default>Perfeito. Aí resolveram fazer uma festinha com ela?!</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Ela me amarrou, aí Beatrice apareceu, ela fugiu. Voltei pro chuveiro, terminei meu banho e agora encontrei a Beatrice desmaiada aqui. Chama o Derik, por favor. Beatrice deve estar enfeitiçada.</default>
+	</talk>
+	<talk character="Michele">
+		<default>Enfeitiçada? Acha que vou cair nessa?</default>
+	</talk>
+	<talk character="Zenon">
+		<screamed>Tenta acordá-la então!</screamed>
+	</talk>
+	<talk character="Michele">
+		<screamed>Deve estar fingindo!</screamed>
+	</talk>
+	<talk character="Zenon">
+		<default>Ela não fingiria. Ela costuma assumir o que faz.</default>
+	</talk>
+	<talk character="Michele">
+		<default>Claro. Defende a sua amante!</default>
+	</talk>
+	<talk character="Zenon">
+		<default>E você? Quem é pra falar? Onde estava até agora?</default>
+	</talk>
+	<talk character="Michele">
+		<default>Quem sabe eu não estava fazendo a mesma coisa que você e ela faziam ontem a noite?! Ou acha que não sei que saiu com ela?!</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Estávamos procurando algo nas ilhas!</default>
+	</talk>
+	<talk character="Michele">
+		<default>Bela desculpa!</default>
+		<screamed>Passa mais tempo com ela que comigo!</screamed>
+	</talk>
+	<talk character="Zenon">
+		<default>Quer saber o que eu fazia com ela?!</default>
+		<screamed>Tava desabafando! Por que você prefere ter crise de ciúmes do que me ouvir!</screamed>
+	</talk>
+	<talk character="Michele">
+		<screamed>É claro, você tá sempre com ela!</screamed>
+	</talk>
+	<talk character="Zenon">
+		<screamed>Não é só dela, é de qualquer uma! Você olha pra mais mulher que eu, procurando quem eu possa olhar, isso é absurdo!</screamed>
+	</talk>
+	<talk character="Michele">
+		<default>Não é qualquer uma, é ela! Porque você tá sempre grudado nela...</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Ela me ouve, não me julga.</default>
+	</talk>
+	<teller>
+		<default>Michele sai. Ele se senta na cama. Olha para Beatrice. Se veste e sai. Volta com Derik. Este pega um livro e se senta perto de Beatrice. Pega a mão dela. Ela acorda, assustada. Derik levanta e sai do quarto.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Que aconteceu?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Melhor se vestir.</default>
+	</talk>
+	<teller>
+		<default>Beatrice pega suas roupas e se veste. Zenon sai do quarto.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Pode vir. Ela já se vestiu.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Ficou olhando?</default>
+	</talk>
+	<talk character="Zenon">
+		<irony>Tava aproveitando pra bater punheta.</irony>
+		<default>Já não me basta a Michele?!</default>
+	</talk>
+	<talk character="Derik">
+		<default>Foi mal. É que, como você não é namorado dela...</default>
+	</talk>
+	<teller>
+		<default>Ele pega Derik pelo braço e leva pra dentro do quarto.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Pode dizer o que aconteceu com ela?</default>
+	</talk>
+	<teller>
+		<default>Derik solta o próprio braço.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Qual a última coisa que lembra?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Clítia me beijou.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Ela fez isso comigo também, e não desmaiei.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Deve ter feito o feitiço ou seja lá o que for depois. Tem algum motivo pra ela querer deixar a Beatrice pelada?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Fora o óbvio?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Que seria óbvio?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Ela querer que Michele me pegasse aqui, sem roupa, na cama dele, enquanto ele toma banho.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Não tinha pensado nisso. Ela tava falando que preferia eu com a Beatrice.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Por que?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Sabe quando eu disse, "fora o óbvio"?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Não era da Michele que você tava falando...</default>
+	</talk>
+	<talk character="Derik">
+		<default>E do que era?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Clítia não é hetero.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Inclusive foi ela quem transformou Louise.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Sua filha?</default>
+	</talk>
+	<talk character="Bea">
+		<default>É. Mas pode não citar essa parte da próxima vez.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Então vocês vão matar Clítia?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Vamos falar com o pessoal.</default>
+	</talk>
+	<teller>
+		<default>10/11. MEAK.</default>
+	</teller>
+	<talk character="Soraia">
+		<default>Por que não a matou antes?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Não achei que devesse sair pelo mundo caçando. Já tem gente fazendo isso.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Quanta gente, exatamente?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Sempre tinha alguém nos caçando.</default>
+	</talk>
+	<talk character="Derik">
+		<default>E porque ninguém pegou?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Clítia é boa.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Vamos sair e procurá-la.</default>
+	</talk>
+	<talk character="Michele">
+		<default>Ou usar você de isca.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Ou isso.</default>
+	</talk>
+	<talk character="Aléxis">
+		<default>Não, isso não. Melhor você se esconder.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Não tente me proteger.</default>
+	</talk>
+	<talk character="Aléxis">
+		<default>Ela usa armas que você...</default>
+	</talk>
+	<talk character="Bea">
+		<default>Do que tá falando?</default>
+	</talk>
+	<talk character="Aléxis">
+		<default>Sabe do que estou falando, e sabe que tenho razão. Posso pegá-la.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Tá.</default>
+		<teller>se encosta e cruza os braços</teller>
+		<default>Seu prazo é amanhã à noite.</default>
+	</talk>
+	<teller>
+		<default>Aléxis se levanta e sai.</default>
+	</teller>
+	<talk character="Michele">
+		<default>Vou com ele.</default>
+	</talk>
+	<teller>
+		<default>Michele olha para Zenon. Ele faz sinal para que ela vá. Ela sai, brava. Soraia olha para ele.</default>
+	</teller>
+	<talk character="Soraia">
+		<default>Brigaram?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Ela quer que eu diga não, pra poder jogar na minha cara depois. Aléxis pode protegê-la.</default>
+	</talk>
+	<teller>
+		<default>Zenon sai.</default>
+	</teller>
+	<talk character="Soraia">
+		<default>Vem comigo, Alan?</default>
+	</talk>
+	<talk character="Alan">
+		<default>Eu...</default>
+	</talk>
+	<talk character="Estela">
+		<default>Pode ir.</default>
+	</talk>
+	<teller>
+		<default>Alan olha para Estela. Baixa a cabeça. Sai. Soraia sai também.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Que eu fiz?!</default>
+	</talk>
+	<talk character="Kat">
+		<default>Acho que ele tava esperando ciúmes.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Assim fica difícil!</default>
+	</talk>
+	<talk character="Derik">
+		<default>Ia ser bom ter Beleno aqui.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Mas não temos.</default>
+	</talk>
+	<talk character="Leo">
+		<ghost>Tem eu!</ghost>
+	</talk>
+	<talk character="Dionísio">
+		<default>Meio invisível.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Bom, acho que você vem comigo, Dionísio.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Só pra esclarecer, depois da pequena confusão, devo ter ciúmes?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Não.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Obrigado.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Pelo quê?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Por existir.</default>
+	</talk>
+	<teller>
+		<default>Ele a beija e sai.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Onde ele foi?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Não sei, mas vai sair todo mundo pra caçar, vou atrás dele.</default>
+	</talk>
+	<teller>
+		<default>Estela sai. Kat e Dionísio saem.</default>
+	</teller>
+	<talk character="Leo">
+		<ghost>Quer ir caçar comigo?</ghost>
+	</talk>
+	<talk character="Bea">
+		<default>Dei o prazo para Aléxis.</default>
+	</talk>
+	<talk character="Leo">
+		<ghost>Droga.</ghost>
+	</talk>
+	<talk character="Bea">
+		<default>Quer assistir TV?</default>
+	</talk>
+	<talk character="Leo">
+		<ghost>Pode ser...</ghost>
+	</talk>
+	<teller>
+		<default>Beatrice liga a televisão. Senta-se no sofá. Leonardo se senta também.</default>
+	</teller>
+	<talk character="Leo">
+		<ghost>Pode ir se quiser.</ghost>
+	</talk>
+	<talk character="Bea">
+		<default>Certeza?</default>
+	</talk>
+	<talk character="Leo">
+		<ghost>Sim.</ghost>
+	</talk>
+	<teller>
+		<default>Ela sai. Ele se deita no sofá. Chega em casa. Zenon está no sofá da sala.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Transa comigo?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Não vou ser seu motivo pra terminar com Michele.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Não agüento mais.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Termina.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Eu gosto dela.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Não termina.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>As coisas não são tão simples.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Chegar e me dizer "Transa comigo?" também não.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Dorme comigo então?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Desculpa, mas terá que fazer isso sozinho.</default>
+	</talk>
+	<teller>
+		<default>Ela sobe. Zenon sai. Em São Paulo, Juliana ouve algo do lado de fora. Vai até o portão. Sai. Não vê ninguém. Vai entrar, mas é segurada por Davi pela cintura.</default>
+	</teller>
+	<talk character="Davi">
+		<default>Tá mais gostosa de dona de casa do que de puta.</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Não sou mais puta.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Melhor ainda. Qual a última vez que trepou?</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Quando era eu. Peguei nojo. Desencosta.</default>
+	</talk>
+	<teller>
+		<default>Ela o empurra. Abre a porta. Entra. Vai fechar. Ele segura.</default>
+	</teller>
+	<talk character="Davi">
+		<default>Não vai me deixar entrar?</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Virou vampiro?</default>
+	</talk>
+	<talk character="Davi">
+		<default>Já sabia que isso existia?</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Vou chamar a polícia se tentar.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Taco fogo na casa.</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Eles chegam antes.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Ou não. Vai arriscar?</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Sei o que vai fazer se entrar.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Beijar seu corpo inteiro. Eu era bom nisso, não era? Agora que não é mais profissão, pode confessar...</default>
+	</talk>
+	<talk character="Juliana">
+		<default>E suas esposas?</default>
+	</talk>
+	<talk character="Davi">
+		<default>Duas vadias. Drenei até a última gota. O sangue era melhor que a transa.</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Esse é o problema dos vampiros. Muitos gostam mais do sangue.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Os gostos das coisas mudaram. Queria saber que gosto você tem agora. Imagina, minha língua descendo pelo seu pescoço, depois seus seios, seu ventre... Sabe que tenho muita grana. Poderia ter procurado alguém muito mais cara...</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Ficou frustrado porque saí com o outro carinha.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Foi pedofilia. 14 anos.</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Você tinha 16.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Faltava metade do tempo que ele pra virar maior. E 16 já emancipa. Acha que isso não tem uma razão?</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Sou lésbica. Sinto muito.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Mentira. Não cobrou do Alan.</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Você e seu ciúmes...</default>
+	</talk>
+	<talk character="Davi">
+		<default>Queria tanto transar com você sem camisinha... Acho que nunca transei sem camisinha.</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Nem com quem te transformou?</default>
+	</talk>
+	<talk character="Davi">
+		<default>Como sabe que foi mulher?</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Eu não disse que foi mulher... Segunda linhagem?</default>
+	</talk>
+	<talk character="Davi">
+		<default>Que?</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Quem é primeira linhagem vira bissexual.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Já transou com muitas mulheres?</default>
+	</talk>
+	<talk character="Juliana">
+		<default>No começo eu não fazia. Depois não gostava. Mais algumas até que... Peraí, porque eu ainda tô conversando com você?</default>
+	</talk>
+	<teller>
+		<default>Juliana vai fechar a porta, ele segura.</default>
+	</teller>
+	<talk character="Davi">
+		<default>Ficou excitada...</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Tá falando besteira.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Imagina, eu por trás e ela pela frente... É uma loira linda, deliciosa...</default>
+	</talk>
+	<teller>
+		<default>Ela sai e fecha a porta.</default>
+	</teller>
+	<talk character="Juliana">
+		<default>Eu não faço mais isso.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Quem disse que pretendo pagar?</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Eu vou ficar aqui na minha casa, com a minha filha.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Quanto tempo faz que não sente o corpo de outra pessoa</default>
+		<teller>a puxa para junto de si</teller>
+		<default>perto assim?</default>
+		<teller>cheira o pescoço dela</teller>
+		<default>Sei que você quer.</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Não tenho isso porque não quero...</default>
+	</talk>
+	<talk character="Davi">
+		<default>Sua falta de vontade não é física.</default>
+	</talk>
+	<teller>
+		<default>Ele a vira de costas e coloca a mão dentro da calça dela. Ela dá um gemido alto.</default>
+	</teller>
+	<talk character="Davi">
+		<default>Sua filha não está com casa. Não faria isso se ela estivesse.</default>
+	</talk>
+	<talk character="Juliana">
+		<default>Tá... na casa de uma... colega...</default>
+	</talk>
+	<talk character="Davi">
+		<default>E porque não me deixou entrar?</default>
+	</talk>
+	<teller>
+		<default>Ela se afasta dele.</default>
+	</teller>
+	<talk character="Juliana">
+		<default>Porque não poderia retirar o convite.</default>
+	</talk>
+	<talk character="Davi">
+		<default>Então</default>
+		<teller>ele lambe os dedos</teller>
+		<default>assume.</default>
+	</talk>
+	<teller>
+		<default>Juliana se aproxima e o beija.</default>
+	</teller>
+	<talk character="Davi">
+		<default>Vamos fazer sua vontade e sair daqui.</default>
+	</talk>
+	<teller>
+		<default>Ela se deixa levar pela mão. Uma mulher observa de uma janela.</default>
+	</teller>
 </story>
