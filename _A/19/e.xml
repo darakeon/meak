@@ -187,163 +187,122 @@
 		<default>Acho que é melhor colocar alguém que conheça. E é bom ser alguém de confiança.</default>
 	</talk>
 	<teller>
-		<division>AQUI</division>
-	</teller>
-	<teller>
-		<first>De noite, estão os quatro na cozinha: Angely está encostado na pia, Kat está mexendo na geladeira, Dione está numa das cadeiras e Zenon em outra, segurando um saco de gelo na cabeça.</first>
+		<first>De noite, estão na cozinha. Angely encostou-se na pia; Kat está mexendo na geladeira; Dione está numa das cadeiras; Zenon em outra, segurando um saco de gelo na cabeça.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Alexander sabe mesmo dessa tal biblioteca?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sabe, ele vai nos levar...</default>
-		<teller>ouve-se uma buzina</teller>
-		<default>Bom, já estamos todos... Tem alguém faltando.</default>
-	</talk>
-	<talk character="Dione">
-		<default>Derik ficou cuidando das garotas.</default>
+		<default>Sabe, vai nos levar...</default>
 	</talk>
 	<teller>
-		<default>Na casa de Dan, Derik está na cozinha, fazendo comida.</default>
+		<default>Uma buzina.</default>
+	</teller>
+	<talk character="">
+		<default>Cadê Derik?</default>
+	</talk>
+	<teller>
+		<default>Na casa de Dan, Derik está na cozinha. Mexe uma panela aberta com arroz, há também uma panela de pressão ao lado.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Eu e minha grande língua de trapo...</default>
 	</talk>
 	<teller>
-		<default>Passa-se algum tempo. Zenon está quase dormindo sobre um livro. Kat vai até ele.</default>
+		<first>Biblioteca. Zenon tem um livro aberto em sua frente seus olhos estão quase fechando. Fecham e o livro tomba na mesa.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Dormiu oito horas!</default>
 	</talk>
+	<teller>
+		<default>Zenon abre os olhos e se ajeita na cadeira.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Costumo dormir doze...</default>
+		<default>Costumo dormir doze.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Acontece que o normal é oito horas por dia, como temos feito. E você fica aí, dormindo em um livro, com uma página...</default>
-		<teller>pega o livro</teller>
-		<default>..."maldições hereditárias"! Gente, acho que taquí!</default>
+		<default>Acontece que o normal é oito horas por dia, como temos feito. E você fica aí, dormindo em cima de um livro que poderia ser...</default>
 	</talk>
 	<teller>
-		<default>Zenon levanta. Angely vem até eles e lê.</default>
+		<default>Kat pega o livro e arregala os olhos.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Dione, sabe se é isso? Dione?!</default>
+	<talk character="Kat">
+		<default>Dione, precisa ver isso! Dione?!</default>
 	</talk>
 	<teller>
-		<default>Dione levanta a cabeça, boceja e olha pra eles.</default>
+		<default>Zenon levanta. Angely vem até Kat. Kat entrega o livro e Angely olha.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Dione!</default>
+	</talk>
+	<teller>
+		<default>Dione tira um chapéu do rosto.</default>
 	</teller>
 	<talk character="Dione">
 		<default>Não acabaram minhas oito horas, coloquei o relógio pra...</default>
-		<teller>desperta o relógio</teller>
-		<default>Droga.</default>
-		<teller>levanta</teller>
-		<default>Tá, falem.</default>
 	</talk>
+	<teller>
+		<default>O relógio começa a apitar. Dione encara o relógio. Desliga. Pousa o chapéu na mesa e vai até o resto das pessoas.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Sabe se é isso aqui?</default>
 	</talk>
 	<teller>
-		<default>Ela vai até eles e pega o livro.</default>
+		<default>Dione pega o livro da mão de Angely. Arregala os olhos.</default>
 	</teller>
 	<talk character="Dione">
-		<default>É isso! Você quem descobriu???</default>
+		<default>É isso!!! Quem achou?!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Eu tava...</default>
-	</talk>
-	<teller>
-		<default>Dione dá um beijo de Zenon.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Eu, eu...</default>
+		<default>Bom, tecnicamente, foi você quem trouxe a última leva de livros que pegamos na prateleira, então...</default>
 	</talk>
 	<talk character="Dione">
-		<default>Vamo logo, já perdemos tempo demais...</default>
+		<default>Não importa!!! Vamo logo, já perdemos tempo demais!!!</default>
 	</talk>
 	<teller>
-		<default>Eles saem da biblioteca. A rua está deserta.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tá, acho que vamos ter que esperar até amanhã.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pra casa?</default>
-	</talk>
-	<talk character="Dione">
-		<default>Ficar aqui é que não.</default>
-	</talk>
-	<teller>
-		<default>Angely vem dirigindo. Kat e Dione acabam dormindo no carro: Dione no banco da frente e Kat no colo de Zenon, no banco de trás. Chegam pouco antes de amanhecer. Zenon carrega Kat para dentro e Angely carrega Dione. Levam as duas para o quarto de Mel e vão os dois para o de Angely. 8:00. Kat vai ao quarto de Angely.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Temos que ir, dar o boa notícia pra Mel!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Eu fico muito feio bronzeado!</default>
-	</talk>
-	<talk character="Kat">
-		<default>E o Angely?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Sei lá!</default>
-	</talk>
-	<teller>
-		<default>Ela vai até a sala.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Angely, temos que ir logo... Acorda!</default>
-	</talk>
-	<teller>
-		<default>Kat sai, volta com um copo d’água, e...</default>
-	</teller>
-	<talk character="Angely">
-		<default>Ah?! Como?! Onde?! Quando?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Acordando, aqui e agora.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Droga, isso vai dar trabalho pra limpar...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pensa pelo lado bom, não precisa mais tomar banho.</default>
-	</talk>
-	<teller>
-		<default>Angely tira a camisa. Dione desce a escada.</default>
+		<default>Saem da biblioteca. Tudo está escuro. A rua está deserta.</default>
 	</teller>
 	<talk character="Dione">
-		<default>Nossa, acho que vou me mudar pra cá...</default>
+		<default>Será que o apocalipse já aconteceu?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Ou são três horas da manhã.</default>
+	</talk>
+	<teller>
+		<default>Dione olha o relógio.</default>
+	</teller>
+	<talk character="Dione">
+		<default>Mas o apocalipse pode ter acontecido ainda sim.</default>
+	</talk>
+	<teller>
+		<first>Carro. Angely está dirigindo. Kat dorme no banco da frente. Dione dorme também, deitou-se no colo de Zenon, no banco de trás. Zenon também dorme. Angely estaciona o carro na garagem. Pega Kat e leva para dentro no colo. Coloca na cama de Mel. Zenon acorda e olha para o horizonte. Entra correndo. Angely está na sala. Ri. Sai e pega Dione. Fecha o carro com o pé. Entra de volta. Sobe a escada. Zenon segue.</first>
+	</teller>
+	<teller>
+		<first>Quarto de Angely.</first>
+	</teller>
+	<talk character="Kat">
+		<arrive>Temos que ir! Dar a boa notícia pra Mel!</arrive>
+	</talk>
+	<teller>
+		<default>Angely sai do banheiro com a escova de dentes na boca. Zenon senta na cama e esfrega o olho.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Eu fico muito feio bronzeado.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Um de vocês dois lembrou do Derik???</default>
 	</talk>
 	<talk character="Dione">
-		<default>Como será que ele tá agüentando as três?</default>
+		<arrive>Como será que ele tá agüentando as três?</arrive>
 	</talk>
+	<teller>
+		<default>Angely volta para o banheiro, cospe e volta.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Não sei, mas eu vou comprar uma passagem pra Europa, descobrir onde tá a Mel e falar pra ela não se afligir mais.</default>
 	</talk>
-	<talk character="Kat">
-		<default>Por que não estava no seu quarto?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Descobri que Zenon fala dormindo.</default>
-	</talk>
 	<teller>
-		<default>Ele sobe.</default>
+		<default>Kat e Dione saem. Zenon vira para o lado e continua dormindo. Angely termina de escovar os dentes, senta na escrivaninha e liga o notebook. Na cozinha, Kat pega duas torradas e põe no prato. Passa manteiga. Senta-se. Morde. Angely entra na cozinha. Olha para Kat.</default>
 	</teller>
-	<talk character="Dione">
-		<default>Bom, se não se importa, vou tomar um banho.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sem problemas.</default>
-	</talk>
-	<teller>
-		<default>Dione sobe também. Em seu quarto, Angely liga o laptop e entra na rede. Então vê na primeira página do provedor a notícia de que Mel estava grávida... De quatro meses. Entra num site, compra a passagem. Desce a escada. Olha pra Kat e senta-se no sofá.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tenho uma notícia...</default>
-	</talk>
 	<talk character="Kat">
 		<default>Alguma coisa com a Mel?</default>
 	</talk>
@@ -353,11 +312,8 @@
 	<talk character="Kat">
 		<default>Que???</default>
 	</talk>
-	<teller>
-		<default>Zenon desce a escada.</default>
-	</teller>
 	<talk character="Zenon">
-		<default>Eu ouço muito bem, mas acho que devo estar com algum problema...</default>
+		<arrive>Eu ouço muito bem, mas acho que devo estar com algum problema...</arrive>
 	</talk>
 	<talk character="Angely">
 		<default>Mel já está de quatro meses.</default>
@@ -366,10 +322,10 @@
 		<default>Estava de um quando fomos pra lá.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Comprei a passagem para ir quanto antes. Ela está na Espanha e eu...</default>
+		<default>Comprei a passagem para ir quanto antes. Tá na Espanha e eu...</default>
 	</talk>
 	<teller>
-		<default>Angely sente algo estranho. Coloca a mão no rosto. Olha pros outros. Levanta e sai correndo. Kat o segue. Zenon vai fazer o mesmo, mas é dia.</default>
+		<default>Angely sente algo estranho. Coloca a mão no rosto. Olha pros outros. Sai correndo. Kat segue. Zenon vai, mas para na porta.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Que está fazendo???</default>
@@ -381,7 +337,10 @@
 		<default>Então vamos...</default>
 	</talk>
 	<teller>
-		<default>Espanha, duas horas depois da Angely acordar (10bra, 14esp). Edmont bate à porta de um apartamento de hotel. Dan abre.</default>
+		<division>AQUI</division>
+	</teller>
+	<teller>
+		<first>Espanha, duas horas depois de Angely acordar (10bra, 14esp). Edmont bate à porta de um apartamento de hotel. Dan abre.</first>
 	</teller>
 	<talk character="Dan">
 		<default>Edmont?!</default>
