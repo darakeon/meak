@@ -333,50 +333,54 @@
 	<talk character="Renata">
 		<default>O que quer de mim?</default>
 	</talk>
-	<talk character="Zenon *">
+	<talk character="Zenon*">
 		<default>Tem certeza que não sabe?</default>
 	</talk>
 	<teller>
-		<default>Renata engole seco. Olha para Perseu. Olha de novo para Zenon *.</default>
+		<default>Renata engole seco. Olha para Perseu. Olha de novo para Zenon*.</default>
 	</teller>
-	<talk character="Zenon *">
+	<talk character="Zenon*">
 		<default>Não vai dizer nada?</default>
-		<teller />
-		<default />
 	</talk>
 	<teller>
-		<default>Zenon dá um passo em direção a Renata. Renata não se move.</default>
+		<default>Zenon* dá um passo em direção a Renata. Renata não se move.</default>
 	</teller>
-	<talk character="Zenon *">
+	<talk character="Zenon*">
 		<default>Sem graça.</default>
 	</talk>
 	<teller>
-		<default />
-	</teller>
-	<teller>
 		<default>Zenon* se aproxima, passa o braço direito por baixo do esquerdo de Renata, abraçando, inclina a cabeça de Renata para a sua esquerda com a mão esquerda e morde. Renata não se mexe.</default>
 	</teller>
-	<talk character="Zenon #">
+	<talk character="Zenon#">
 		<arrive>Solta ela!</arrive>
 	</talk>
 	<teller>
-		<default>Zenon* tira seus dentes do pescoço de Renata, olha para trás, sorri, joga Renata em Zenon# e pula pela janela. Zenon# segura e deita Renata no chão. Pula a janela. Não encontra Zenon*. Coloca as mão s na cabeça e franze os olhos. Derik, Kat e Estela chegam no quarto. </default>
+		<default>Zenon* tira seus dentes do pescoço de Renata, olha para trás, sorri, joga Renata em Zenon# e pula pela janela. Zenon# segura e deita Renata no chão. Pula a janela. Não encontra Zenon*. Coloca as mão s na cabeça e franze os olhos. Derik, Kat e Estela chegam no quarto.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Não chegamos a tempo...</default>
 	</talk>
+	<teller>
+		<default>Derik abaixa perto de Renata.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Não, ainda tá respirando.</default>
+		<default>Ainda tá respirando.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Vamos levar daqui, não sabemos se Zenon vai voltar.=====</default>
+		<default>Vamos levar daqui, não sabemos se Zenon vai voltar.</default>
 	</talk>
 	<teller>
-		<default>Eles levam Renata para a MEAK. Clítia está olhando. Sai andando. Encontra Alan.</default>
+		<default>Kat e Derik carregam Renata. Clítia observa de longe.</default>
+	</teller>
+	<teller>
+		<first>Alan está na praia.</first>
 	</teller>
 	<talk character="Clítia">
-		<default>Achei que ela tinha te proibido de vir até a ilha.</default>
+		<arrive>Achei que ela tinha te proibido de vir até a ilha.</arrive>
 	</talk>
+	<teller>
+		<default>Alan olha para Clítia.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Melody não manda em mim.</default>
 	</talk>
@@ -394,14 +398,24 @@
 	</talk>
 	<talk character="Clítia">
 		<default>Ele sabe enganar.</default>
-		<teller>ela baixa a cabeça</teller>
+	</talk>
+	<teller>
+		<default>Clítia desvia o olhar para o mar.</default>
+	</teller>
+	<talk character="Clítia">
 		<default>Eu quem ensinei.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Vai querer me convencer que...</default>
 	</talk>
 	<talk character="Clítia">
-		<default>É, pelo jeito a vida me pregou outra peça. Primeiro Dilan, depois Zenon, agora você... Deve ser pra compensar as vítimas. Mas, se isso tem alguma intenção, por que aconteceu com você?</default>
+		<default>É, pelo jeito a vida me pregou outra peça. Primeiro Dilan, depois Zenon, agora você... Deve ser pra compensar as vítimas.</default>
+	</talk>
+	<teller>
+		<default>Clítia olha para Alan.</default>
+	</teller>
+	<talk character="Clítia">
+		<default>Mas, se isso tem alguma intenção, por que aconteceu com você?</default>
 	</talk>
 	<talk character="Alan">
 		<default>Tava demorando...</default>
@@ -431,7 +445,7 @@
 		<default>Quer saber? Não. Algum dia eu vou ter que morrer. Preferia que isso acontecesse antes de ter esse desgosto.</default>
 	</talk>
 	<teller>
-		<default>Clítia sai. Alan vai até ela.</default>
+		<default>Clítia anda até perto do mar. Alan bufa. Vai até Clítia.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Por que não me mata?</default>
@@ -449,7 +463,7 @@
 		<default>Não vai estar fazendo nada de errado.</default>
 	</talk>
 	<teller>
-		<default>Ela continua andando. Ele se coloca na frente dela.</default>
+		<default>Clítia segue andando pela orla. Alan se coloca na frente de Clítia, Clítia para.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Vai embora.</default>
@@ -464,7 +478,7 @@
 		<default>Me ofereceu um lugar pra ficar.</default>
 	</talk>
 	<teller>
-		<default>Eles vão até um apartamento, em Ares.</default>
+		<default>Ares. Clítia abre a porta de um apartamento. Alan entra. Clítia entra atrás.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Era de um assassino.</default>
@@ -476,7 +490,7 @@
 		<default>Pode ficar aqui se quiser, ninguém vai te incomodar.</default>
 	</talk>
 	<teller>
-		<default>Clítia vai sair, mas Alan segura seu braço.</default>
+		<default>Clítia vira para a porta, Alan segura-lhe o braço. Clítia olha nos olhos de Alan.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Fica aqui comigo.</default>
