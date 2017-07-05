@@ -13,13 +13,13 @@
 		<default>Assina, já que ela confia tanto assim em você.</default>
 	</talk>
 	<teller>
-		<default>Ele sai. Dalila pega a prancheta e assina.</default>
+		<default>Alexander sai. Dalila pega a prancheta e assina. Psique olha.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Muito bem, senhorita Jessica, assim que eu conferir isto você pode levar sua amiga.</default>
 	</talk>
 	<teller>
-		<default>A médica sai.</default>
+		<default>Psique sai.</default>
 	</teller>
 	<talk character="Stephany">
 		<default>Não disse que seu nome era Dalila???</default>
@@ -28,28 +28,28 @@
 		<default>Fala baixo, quer que escutem?</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, Rust e Dara chegam a um lugar distante da cidade.</default>
+		<first>Dara para a moto. Rust desce da garupa.</first>
 	</teller>
 	<talk character="Dara">
-		<default>Mas isso é relativamente perto da casa deles...</default>
+		<default>Mas isso é relativamente perto da casa de Edmont...</default>
 	</talk>
 	<talk character="Rust">
 		<default>Exatamente, por isso não procurariam aqui.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Rust...</default>
+		<arrive>Rust...</arrive>
 	</talk>
 	<talk character="Dara">
-		<default>Peraí, por que não me deixou trazer armas???</default>
+		<default>Por que não me deixou trazer armas???</default>
 	</talk>
 	<talk character="Rust">
-		<default>Só o sol mata ele.</default>
+		<default>Só o sol mata essa desgraça.</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Que isso? Teu jantar?</default>
 	</talk>
 	<talk character="Dara">
-		<default>E por que viemos de noite???</default>
+		<default>Por que viemos de noite???</default>
 	</talk>
 	<talk character="Rust">
 		<default>Por que o sol também me mata.</default>
@@ -58,64 +58,59 @@
 		<default>Ah???</default>
 	</talk>
 	<talk character="Rust">
-		<default>Onde está a garota?</default>
+		<default>Onde tá a garota?</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Quer fazer uma troca?</default>
 	</talk>
 	<teller>
-		<default>Dara olha pra Rust. Ela vai sair, mas ele segura o braço dela.</default>
+		<default>Dara olha pra Rust. Vai para a moto. Olha para a ignição. Olha para Rust.</default>
 	</teller>
 	<talk character="Rust">
-		<default>Não adianta tentar convencê-la que estou com você.</default>
+		<default>Não adianta tentar convencer Handhara que estou com você.</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Não me parece.</default>
 	</talk>
 	<teller>
-		<default>Ela pega uma faca atrás da cintura e vai enfiar no braço de Rust, mas ele pega a faca da mão dela e atira em Andrews.</default>
+		<default>Dara pega uma faca atrás da cintura. Rust para o braço de Dara, pega a faca e atira em Andrews. Acerta na perna. Andrews grita e cai.</default>
 	</teller>
 	<talk character="Rust">
-		<default>Consegue distraí-lo?</default>
+		<hushed>Consegue distrair Andrews?</hushed>
 	</talk>
 	<talk character="Dara">
-		<default>Eu???</default>
+		<hushed>Eu???</hushed>
 	</talk>
 	<talk character="Rust">
-		<default>Não vai conseguir carregar sua amiga, vai??</default>
+		<hushed>Tá treinando mas não consegue levantar uma pessoa ainda!</hushed>
 	</talk>
 	<talk character="Dara">
-		<default>Vai, que eu vou tentar.</default>
+		<default>Vai, eu vou tentar.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Vai demorar algum tempo.</default>
+		<default>Vai demorar.</default>
 	</talk>
 	<teller>
-		<default>Rust sai. Andrews se levanta e olha ora Dara.</default>
+		<default>Rust sai. Andrews se levanta. Olha pra Dara.</default>
 	</teller>
 	<talk character="Andrews">
 		<default>Parece que ele te abandonou...</default>
-		<teller>ele ri</teller>
+	</talk>
+	<teller>
+		<default>Andrews ri.</default>
+	</teller>
+	<talk character="Andrews">
 		<default>E então, o que pretende fazer? Parece que está desarmada...</default>
 	</talk>
 	<teller>
-		<default>Andrews atira a faca longe.</default>
+		<default>Andrews atira a faca longe. Dara olha para os lados.</default>
 	</teller>
-	<talk character="Dara">
-		<default>Por favor...</default>
-	</talk>
 	<talk character="Andrews">
 		<default>Achou mesmo que ele iria te ajudar? Deve estar bem longe agora.</default>
 	</talk>
 	<teller>
-		<default>Ele se aproxima de Dara, que fica parada. Rodeia ela algum tempo.</default>
+		<default>Andrews se aproxima de Dara. Dara fica parada. Andrews rodeia Dara.</default>
 	</teller>
-	<talk character="Andrews">
-		<default>Finge muito mal.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Finjo muito mal o que?</default>
-	</talk>
 	<talk character="Andrews">
 		<default>Por que não tem medo de mim?</default>
 	</talk>
@@ -123,34 +118,22 @@
 		<default>Talvez eu não tenha medo de morrer.</default>
 	</talk>
 	<teller>
-		<default>Ele para atrás dela. A abraça pela cintura. Rust encontra Mel. Ela está muito ferida. Quando ele desacorrenta os pulsos dela, ela cai. Ele a pega no colo e vai embora. Na MEAK, Kat acorda.</default>
+		<default>Andrews para atrás de Dara. Abraça pela cintura. Rust procura em quartos. Encontra Mel. Andrews prendera por correntes em uma cama. Rust segura o bracelete. Pega as correntes. Puxa o bracelete alguns milímetros do braço e quebra as correntes, soltando o bracelete de volta.</default>
+	</teller>
+	<teller>
+		<default>MEAK. Kat acorda. Derik abraça Kat. Angely e Edmont entram no quarto. Olham para Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Mel foi salva!</default>
 	</talk>
-	<talk character="Derik">
-		<default>Kat!</default>
-	</talk>
-	<teller>
-		<default>Derik a abraça.</default>
-	</teller>
 	<talk character="Kat">
-		<default>Ouvi a voz da Dara também!</default>
+		<default>Ouvi a voz da Dara!</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Kat, calma, fala direito.</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Vai buscar um copo d’água pra ela.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu??</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não, o fantasma da ópera!</default>
-	</talk>
 	<teller>
-		<default>Derik sai e volta com um copo d’água. Kat toma tão rápido que quase engasga.</default>
+		<default>Angely pega um copo na cabeceira, vai até o banheiro, enche de água e entrega a Kat. Kat bebe o copo todo de uma vez. Engasga. Derik pega o copo. Kat respira fundo.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Quanto tempo eu dormi?</default>
@@ -165,79 +148,79 @@
 		<default>Que aconteceu?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Onde vocês estavam quando eu falei onde estava???</default>
+		<default>Onde vocês estavam quando eu falei onde Mel tava???</default>
 	</talk>
 	<teller>
-		<default>Os três se entreolham.</default>
+		<default>Edmont e Derik se entreolham.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Esquece.</default>
 	</talk>
-	<talk character="Derik">
+	<talk character="Angely">
 		<default>Onde está a Mel?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não sei, um cara levou ela.</default>
+		<default>Não sei, Rust pegou.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Levou???</default>
+	<talk character="Edmont">
+		<default>Como assim?!</default>
 	</talk>
 	<talk character="Kat">
-		<default>É, ele foi com Dara pro esconderijo de Andrews, pra pegar Mel...</default>
+		<default>É, foi com Dara pro esconderijo de Andrews, pra pegar Mel...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Quem era?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Um cara que ele transformou.</default>
+		<default>Alguém que Andrews transformou.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Ótimo, um vampiro!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Mas ele não gosta do Andrews.</default>
+		<default>Mas não gosta do Andrews.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>E daí?! Mata assim mesmo!</default>
 	</talk>
 	<teller>
-		<default>Angely fica desorientado.</default>
+		<default>Angely senta no chão.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Podem estar mortas agora.</default>
+		<default>Podem ter morrido agora.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Talvez eu devesse voltar à...</default>
+		<default>Talvez eu devesse voltar a...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não, de jeito nenhum, dessa vez você fica acordada!</default>
+		<default>Não, de jeito nenhum, dessa vez você fica acordada!!!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ele tem razão. Será mais seguro.</default>
+		<default>Derik tem razão. É mais seguro.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Mais seguro por que? Aconteceu alguma coisa comigo?</default>
 	</talk>
 	<teller>
-		<default>Kat levanta e sente tontura. Derik a segura. Ajuda a se sentar na cama.</default>
+		<default>Kat olha para Derik. Levanta. O corpo falha. Derik segura Kat. Kat se senta na cama.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Que aconteceu, Angely?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela ficou com febre muito alta. Tava pálida. Qual o nome do cara?</default>
+		<default>Ficou com febre muito alta. A pele tava pálida. Qual o nome da pessoa?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Rust, eu acho.</default>
+		<default>Rust.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Bom, ele deve estar com as duas agora... Se Kat acordou...</default>
+		<default>Bom, deve estar com as duas agora... Se Kat acordou...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não, Rust levou Mel, mas Dara ficou pra distrair Andrews.</default>
 	</talk>
 	<teller>
-		<default>Angely sai do quarto. Toca o telefone. Edmont vai atender na sala.</default>
+		<default>Angely sai. Toca o telefone. Edmont sai.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Você notou uma coisa?</default>
@@ -255,43 +238,43 @@
 		<default>Talvez.</default>
 	</talk>
 	<teller>
-		<default>Edmont acha o telefone.</default>
+		<default>Na sala, Edmont atende.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Alô? ### Sim, é daqui. ### A Mel??? ### Eu tô indo praí.</default>
+		<default>Alô? ### Sim, é daqui. ### Mel??? ### Eu tô indo praí.</default>
 	</talk>
 	<teller>
-		<default>Ele sobe a escada e volta ao quarto.</default>
+		<default>Edmont sobe a escada. Entra no quarto.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Deixaram Mel no hospital, ela tá muito ferida.</default>
+		<default>Deixaram Mel no hospital, tá muito mal.</default>
 	</talk>
 	<teller>
-		<default>Angely, enxuga as lágrimas e corre pro quarto ao ouvir essas palavras.</default>
+		<default>Angely entra no quarto de volta. Enxuga o rosto.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Onde?</default>
 	</talk>
 	<teller>
-		<default>Kat e Angely vão ao hospital e Edmont e Derik vão procurar Dara. Chegando ao hospital...</default>
+		<first>Hospital.</first>
 	</teller>
 	<talk character="Psique">
-		<default>Ela está muito mal. Quem quer que seja que tenha feito isso com ela, não está de brincadeira.</default>
+		<default>Ela tá muito mal. Quem quer que seja que tenha feito isso com ela, não tá de brincadeira.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Podemos vê-la?</default>
+		<default>Podemos ver?</default>
 	</talk>
 	<talk character="Psique">
 		<default>Podem voltar pra casa.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Olha, nós só...</default>
+		<default>Olha, a gente só...</default>
 	</talk>
 	<talk character="Psique">
 		<default>Estão atrapalhando o andamento do hospital. Quando eu tiver notícias, ligo pra vocês.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, Andrews leva Dara pra casa de Dalila.</default>
+		<default>Dalila atende a porta.</default>
 	</teller>
 	<talk character="Dalila">
 		<default>Não precisa de mais reféns, ela tá aí.</default>
@@ -303,20 +286,22 @@
 		<default>Pensei que fosse me torturar.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Insistir num erro é burrice. Te torturo, a menina dorme e te encontra?</default>
-		<teller>ele ri</teller>
-		<default>Não.</default>
+		<default>Insistir num erro é burrice. Te torturo, a menina dorme e te encontra? Não.</default>
 	</talk>
 	<teller>
-		<default>Dara senta-se. Dalila pega cordas e a amarra. Andrews vai até o quarto.</default>
+		<default>Andrews entra, trazendo Dara pelo braço. Senta Dara em uma cadeira. Dalila pega cordas. Dara encara Dalila. Dalila cruza os braços. Dara olha para Andrews. Coloca os braços atrás da cadeira. Dalila amarra. Andrews vai para o quarto.</default>
 	</teller>
 	<talk character="Dara">
 		<default>E aí, que ele te ofereceu?</default>
 	</talk>
 	<talk character="Dalila">
 		<default>A vida eterna.</default>
-		<teller>Dara ri</teller>
-		<default>Acha que acreditei? Fiz isso por que ele é lindo. Meio louco, mas é lindo.</default>
+	</talk>
+	<teller>
+		<default>Dara ri.</default>
+	</teller>
+	<talk character="Dalila">
+		<default>Acha que acreditei? Tá escrito otária na minha testa? O cara é pirado, mas não viu o que ele fez no telhado, pra tirar Stephany. Não me interesse se ele acha que é o batman, desde que eu consiga fugir, tá ótimo.</default>
 	</talk>
 	<teller>
 		<default>Dalila senta no sofá.</default>
@@ -337,25 +322,28 @@
 		<default>Não, dei sonífero.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Por que está realmente ajudando ele?</default>
+		<default>Por que tá realmente ajudando ele?</default>
 	</talk>
 	<talk character="Dalila">
-		<default>Até matou por causa dela... Nunca um cara moveu uma palha por mim.</default>
+		<default>Até matou por causa dela. Nunca um cara moveu uma palha por mim.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Acha que matar é um grande esforço pra ele? Acorda, é um vampiro.</default>
 	</talk>
+	<teller>
+		<default>Dalila arregala os olhos.</default>
+	</teller>
 	<talk character="Dalila">
-		<default>Deu risada quando eu falei e repete isso agora??</default>
+		<default>Deu risada quando eu falei e repete isso agora???</default>
 	</talk>
 	<talk character="Dara">
-		<default>Por que achei que tinha acreditado na promessa.</default>
+		<default>Achei que tinha acreditado na promessa.</default>
 	</talk>
 	<talk character="Dalila">
 		<default>Fala sério, acredita mesmo nisso?</default>
 	</talk>
 	<teller>
-		<default>Dara começa a desamarrar as mãos.</default>
+		<default>Dara tira uma faca da manga da blusa. Começa a cortar a corda.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Acredito. Você não?</default>
@@ -367,7 +355,7 @@
 		<default>Cela?</default>
 	</talk>
 	<talk character="Dalila">
-		<default>Ela esteve presa, não sabia?</default>
+		<default>Ela tava presa, não sabia?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Disso eu sabia. Mas não sabia que esteve junto com ela.</default>
@@ -379,54 +367,52 @@
 		<default>Pode me buscar um copo d’água?</default>
 	</talk>
 	<talk character="Dalila">
-		<default>Bom, ele não disse que tinha que te matar de sede, então...</default>
+		<default>Bom, ele não disse que tinha que te matar de sede.</default>
 	</talk>
 	<teller>
-		<default>Dalila se levanta, vai até a cozinha e Dara solta as cordas. Assim que Dalila adentra a sala, Dara acerta esta com um objeto.</default>
+		<default>Dalila se levanta. Vai até a cozinha. Dalila volta para a sala. Toma com um vaso na cabeça.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Desculpe, mas eu não tinha escolha.</default>
 	</talk>
 	<teller>
-		<default>Ela amarra Dalila na cadeira, pega o telefone e alguém derruba a porta.</default>
+		<default>Dara amarra Dalila na cadeira. Pega o telefone. A porta é derrubada. Alexander aponta uma arma para Dara.</default>
 	</teller>
 	<talk character="Alexander">
-		<default>Você vem comigo!</default>
-		<teller>aponta uma arma pra Dara</teller>
 		<default>Larga o telefone.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Quem é você? Mais um amiguinho do Andrews?</default>
+		<default>Quem é você? Mais um do Andrews?</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Não fui eu quem amarrou a amiga da Stephany.</default>
 	</talk>
+	<teller>
+		<default>Dara revira os olhos e bota o telefone no gancho.</default>
+	</teller>
 	<talk character="Dara">
-		<default>Bela amiga... Da onça.</default>
+		<default>Tá com Andrews.</default>
 	</talk>
 	<talk character="Alexander">
-		<default>Do que está falando?</default>
+		<default>Ah, é? Não foi ela que eu vi chegar com ele aqui.</default>
 	</talk>
+	<teller>
+		<default>Dara cruza os braços.</default>
+	</teller>
 	<talk character="Dara">
-		<default>Ela está com Andrews.</default>
-	</talk>
-	<talk character="Alexander">
-		<default>Ah, é? Não foi ela que eu vi chegar com Andrews aqui.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Ele me trouxe forçada.</default>
+		<default>Podia estar seguindo a mais tempo, pra ver o quanto tentei fugir.</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Não parecia, nem segurava seus braços.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Eu ia fazer o que? Correr?!</default>
+		<default>Bom, uma hora cansa correr e o Houdini aparecer na minha frente de novo!</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Essa moça estava ajudando Stephany, que tava fugindo da polícia.</default>
 	</talk>
 	<teller>
-		<default>Rust chega e desarma Alexander. Eles começam a lutar. Dara pega a arma.</default>
+		<default>Alexander vira para trás. Toma um chute no braço. A besta voa. Tira uma estaca. Rust desvia. Dara pega a arma. Aponta para Rust e Alexander.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Parem os dois!</default>
@@ -435,16 +421,16 @@
 		<default>Sabia que estava do lado de Andrews...</default>
 	</talk>
 	<talk character="Rust">
-		<default>Atira nele logo.</default>
+		<default>Atira logo.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Por que???</default>
 	</talk>
 	<talk character="Rust">
-		<default>Precisa perguntar??? Tava tentando te matar!</default>
+		<irony>É o que costumo fazer quando alguém tenta te matar! Ou vai dizer que estavam dançando?!</irony>
 	</talk>
 	<talk character="Dara">
-		<default>Ele tá atrás do Andrews também.</default>
+		<default>Tá atrás do Andrews também.</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Também?!</default>
@@ -458,40 +444,56 @@
 	<talk character="Rust">
 		<default>Odeio Andrews.</default>
 	</talk>
+	<teller>
+		<default>Dalila abre os olhos.</default>
+	</teller>
 	<talk character="Dalila">
-		<default>Que aconteceu?</default>
-		<teller>acorda</teller>
-		<default>Quem são eles??</default>
+		<default>Que aconteceu? Quem são eles???</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Você está bem?</default>
 	</talk>
+	<teller>
+		<default>Dalila sorri.</default>
+	</teller>
 	<talk character="Dalila">
 		<default>Ah, eu conheço você, o carinha do hospital...</default>
 	</talk>
+	<talk character="Alexander">
+		<default>Notou que tá amarrada?!</default>
+	</talk>
+	<talk character="Dalila">
+		<default>Já estive pior. Já amarrei pessoa também. Mas aí foi consentido.</default>
+	</talk>
 	<talk character="Rust">
-		<default>Cadê o Andrews?</default>
+		<default>Cadê Andrews?</default>
 	</talk>
 	<talk character="Dalila">
 		<default>Tá no quarto. Pode me soltar?</default>
 	</talk>
+	<teller>
+		<default>Rust solta os ombros.</default>
+	</teller>
 	<talk character="Rust">
 		<default>Não está, não.</default>
 	</talk>
 	<teller>
-		<default>Rust vai até o quarto e derruba a porta.</default>
+		<default>Rust vai até o quarto. Enfia o pé na porta, levando abaixo.</default>
 	</teller>
 	<talk character="Dalila">
-		<default>Pronto... Não sabem pra que serve uma maçaneta???</default>
+		<default>Não sabem pra que serve uma maçaneta??? É temporário, mas é meu canto!!!</default>
 	</talk>
+	<teller>
+		<default>Alexander vai até o quarto. Dara segue, ainda apontando a arma.</default>
+	</teller>
 	<talk character="Dara">
-		<default>Ele levou ela.</default>
+		<default>Levou Stephany.</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Pode abaixar isso?</default>
 	</talk>
 	<teller>
-		<default>Dara devolve a arma a Alexander.</default>
+		<default>Dara devolve a arma a Alexander. Alexander encara Dara. Volta para a sala. Olha para Dalila. Coloca a besta nas costas.</default>
 	</teller>
 	<talk character="Dalila">
 		<default>Agora podem me desamarrar?</default>
@@ -500,7 +502,8 @@
 		<default>Você entregou Stephany a Andrews?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Tá escrito na cara dela isso. Que horas são?</default>
+		<irony>Vai querer uma confissão formal?!</irony>
+		<default>Que horas são?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Três da manhã.</default>
@@ -509,6 +512,6 @@
 		<default>Bem notei. Amanhã, dez horas, eu te encontro.</default>
 	</talk>
 	<teller>
-		<default>Rust vai embora. Alexander aponta a arma pra Rust, mas Dara o impede.</default>
+		<default>Rust sai. Alexander tira a besta das costas e aponta a arma pra Rust. Dara pousa a mão na arma. Alexander encara Dara. Baixa a arma.</default>
 	</teller>
 </story>
