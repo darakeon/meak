@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{95183A9E-DC9C-48FF-90B4-DE7507D5DF06}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structure", "Structure\Structure.csproj", "{9A3430F3-6A6D-4D21-A4F0-F443725341CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{B2A9775B-2029-48B6-BDE6-336A6C78C22F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{95183A9E-DC9C-48FF-90B4-DE7507D5DF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95183A9E-DC9C-48FF-90B4-DE7507D5DF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95183A9E-DC9C-48FF-90B4-DE7507D5DF06}.Local|Any CPU.ActiveCfg = Local|Any CPU
-		{95183A9E-DC9C-48FF-90B4-DE7507D5DF06}.Local|Any CPU.Build.0 = Local|Any CPU
-		{95183A9E-DC9C-48FF-90B4-DE7507D5DF06}.Online|Any CPU.ActiveCfg = Online|Any CPU
-		{95183A9E-DC9C-48FF-90B4-DE7507D5DF06}.Online|Any CPU.Build.0 = Online|Any CPU
-		{95183A9E-DC9C-48FF-90B4-DE7507D5DF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95183A9E-DC9C-48FF-90B4-DE7507D5DF06}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A3430F3-6A6D-4D21-A4F0-F443725341CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A3430F3-6A6D-4D21-A4F0-F443725341CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3430F3-6A6D-4D21-A4F0-F443725341CD}.Local|Any CPU.ActiveCfg = Local|Any CPU
@@ -29,6 +21,14 @@ Global
 		{9A3430F3-6A6D-4D21-A4F0-F443725341CD}.Online|Any CPU.Build.0 = Online|Any CPU
 		{9A3430F3-6A6D-4D21-A4F0-F443725341CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3430F3-6A6D-4D21-A4F0-F443725341CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A9775B-2029-48B6-BDE6-336A6C78C22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A9775B-2029-48B6-BDE6-336A6C78C22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A9775B-2029-48B6-BDE6-336A6C78C22F}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A9775B-2029-48B6-BDE6-336A6C78C22F}.Local|Any CPU.Build.0 = Release|Any CPU
+		{B2A9775B-2029-48B6-BDE6-336A6C78C22F}.Online|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A9775B-2029-48B6-BDE6-336A6C78C22F}.Online|Any CPU.Build.0 = Release|Any CPU
+		{B2A9775B-2029-48B6-BDE6-336A6C78C22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A9775B-2029-48B6-BDE6-336A6C78C22F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
