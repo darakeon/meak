@@ -48,6 +48,12 @@
 	<talk character="Angely">
 		<default>É, pode chamar assim.</default>
 	</talk>
+	<teller>
+		<default>Dara fica sobressaltada.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Que foi?</default>
+	</talk>
 	<talk character="Dara">
 		<default>Ouviu isso?</default>
 	</talk>
@@ -76,7 +82,10 @@
 		<default>Dara, pára, não tem voz nenhuma!</default>
 	</talk>
 	<teller>
-		<default>Eles saem e Angely leva ela em casa. 4:00.</default>
+		<default>Eles saem.</default>
+	</teller>
+	<teller>
+		<first>16h00.</first>
 	</teller>
 	<talk character="Dara">
 		<default>Eu não quero voltar lá pra dentro.</default>
@@ -106,7 +115,7 @@
 		<default>Angely, eu...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por favor. Pode parecer besteira, mas eu não tive uma boa impressão daquele cara e estou preocupado.</default>
+		<default>Por favor. Pode parecer besteira, mas eu não tive uma boa impressão daquele cara. Tô preocupado.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Agora ganhei um irmão mais velho?</default>
@@ -118,7 +127,10 @@
 		<default>Tá, tudo bem.</default>
 	</talk>
 	<teller>
-		<default>Dara entra em casa. Angely pega o telefone celular e liga pra Mel. Depois pra Edmont. Eles voltam pra casa. Kat fica pensando em como falar com Edmont.</default>
+		<default>Dara entra em casa. Angely pega o telefone celular e liga pra Mel. Depois pra Edmont. Eles voltam pra casa.</default>
+	</teller>
+	<teller>
+		<first>Kat está em casa, pensando em como falar com Edmont sobre Agatha.</first>
 	</teller>
 	<talk character="Agatha">
 		<out>Kat! Kat! Não finge que não tá ouvindo. Derik tá aqui...</out>
@@ -147,26 +159,35 @@
 	<talk character="Kat">
 		<default>É que eu, bem, eu...</default>
 	</talk>
+	<teller>
+		<default>Derik ri.</default>
+	</teller>
 	<talk character="Derik">
 		<default>Vai terminar?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Como sabe???</default>
 	</talk>
+	<teller>
+		<default>Ele baixa a cabeça.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Não verdade, foi só um palpite.</default>
+		<default>Era... Brincadeira.</default>
 	</talk>
+	<teller>
+		<default>Kat respira fundo.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Olha, Derik, desculpa, é que...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Deixa pra lá. Eu vou indo. Tchau.</default>
+		<default>Deixa pra lá. Eu vou indo.</default>
 	</talk>
 	<teller>
 		<default>Derik vai embora.</default>
 	</teller>
 	<talk character="Agatha">
-		<default>Que você fez pro Derik sair com essa cara?</default>
+		<arrive>Que você fez pro Derik sair com essa cara?</arrive>
 	</talk>
 	<talk character="Kat">
 		<default>Eu não quero falar com você.</default>
@@ -178,13 +199,16 @@
 		<default>Não sou igual a você, sua...</default>
 	</talk>
 	<talk character="Edmont">
-		<arrive>Nossa, vocês estão brigando??? Acho que eu vou voltar outra ora...</arrive>
+		<arrive>Tão brigando de novo? Acho que eu vou voltar outra ora...</arrive>
 	</talk>
 	<talk character="Agatha">
 		<default>Não, entra...</default>
 	</talk>
 	<teller>
-		<default>Os dois entram. Kat vai até a MEAK. No escritório.</default>
+		<default>Os dois entram.</default>
+	</teller>
+	<teller>
+		<first>Kat vai até a MEAK.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Ele te contou o que aconteceu?</default>
@@ -241,10 +265,7 @@
 		<default>Realmente. Se ela for mesmo matar a irmã, o máximo que podemos fazer é prevenir Denise e esperar que ela acredite.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não, isso não. Só vou ficar sossegado quando pegarmos Denzel.</default>
-	</talk>
-	<talk character="Kat">
-		<default>É mesmo, ele pode tentar levar outra garota...</default>
+		<default>Não, isso não. Ela tava ouvindo vozes. Só vou ficar sossegado quando pegarmos Denzel.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Mas como vamos encontrá-lo?</default>
@@ -271,7 +292,7 @@
 		<default>É, né... Fazer o que?</default>
 	</talk>
 	<teller>
-		<default>Na sala da casa de Agatha, o telefone celular de Edmont toca.</default>
+		<default>Na sala da casa de Agatha, o celular de Edmont toca.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Deixa eu atender...</default>
@@ -292,7 +313,7 @@
 		<default>Adoro quando fica sério.</default>
 	</talk>
 	<teller>
-		<default>Edmont pega o telefone e atende.</default>
+		<default>Edmont pega o telefone e atende. Ela continua beijando-o.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Alô? ### Tá, eu já vou.</default>
@@ -300,6 +321,9 @@
 	<talk character="Agatha">
 		<default>Tá vendo, querem tirar você daqui.</default>
 	</talk>
+	<teller>
+		<default>Ela sobe no colo dele.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Pára...</default>
 		<teller>ele fala com Agatha</teller>
@@ -333,7 +357,7 @@
 		<default>Não, ele tem medo que Edmont acredite mais em você.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Você é uma criancinha idiota, que terminou com o namorado só por que ele tentou ir mais em frente. Não entende isso. Nem tente.</default>
+		<default>Você é uma criancinha idiota. Não entende isso. Nem tente.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Meg não fazia isso.</default>
@@ -342,17 +366,17 @@
 		<default>Você é que pensa.</default>
 	</talk>
 	<talk character="Kat">
-		<default>E você também não.</default>
+		<default>E você também não fazia.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Não fazia, disse bem.</default>
 	</talk>
 	<teller>
-		<default>Kat sai. Noite. Na cidade, eles estão numa lanchonete, conversando.</default>
+		<default>Kat sai.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Então, por onde começamos?</default>
-	</talk>
+	<teller>
+		<first>Noite. Na cidade, eles estão numa lanchonete, conversando.</first>
+	</teller>
 	<talk character="Edmont">
 		<default>Ele pode estar num hotel luxuoso, assim como pode perfeitamente estar se escondendo no esgoto. É difícil saber.</default>
 	</talk>
@@ -360,7 +384,7 @@
 		<default>Pode estar em qualquer lugar da cidade.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Pode estar... aqui...</default>
+		<default>Pode estar aqui.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Angely, seria coincidência demais...</default>
@@ -378,13 +402,10 @@
 		<default>É.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Façamos assim: vocês saem sem que ele perceba e eu vou até ele.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Boa idéia, ele não te viu ainda.</default>
+		<default>Vocês saem sem que ele perceba e eu vou até ele.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Vamos.</default>
+		<default>É, ele não te viu ainda.</default>
 	</talk>
 	<teller>
 		<default>Os dois saem do bar. Mel vai até Denzel.</default>
@@ -435,7 +456,7 @@
 		<default>Eles também estão aqui. Quando eu perguntei se estava pensando na ex, você disse mais ou menos... Tá brigado com ela?</default>
 	</talk>
 	<talk character="Denzel">
-		<default>É, ela deu um fora, mas acho que não é definitivo.</default>
+		<default>É, ela me deu um fora, mas acho que não é definitivo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Por causa do fora está bebendo?</default>
@@ -449,7 +470,4 @@
 	<talk character="Denzel">
 		<default>Não tem muito o que fazer nessa cidade.</default>
 	</talk>
-	<teller>
-		<default>Eles continuam conversando. Edmont e Angely voltam pra casa.</default>
-	</teller>
 </story>
