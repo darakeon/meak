@@ -88,7 +88,7 @@ function AddParagraph(obj) {
 
     $.post(adderPage, { scene: scene, type: "paragraph", subtype: subtype, paragraph: newParagraph, teller: newTellerParagraph, talk: newTalkParagraph }, function (data) {
 
-        AjustNextParagraphs(paragraph, subtype);
+        AjustNextParagraphs(scene, paragraph, subtype);
 
         $("#Scene" + scene + " #Paragraph" + paragraph).after(data);
 
@@ -98,8 +98,8 @@ function AddParagraph(obj) {
     });
 }
 
-function AjustNextParagraphs(paragraph, subtype) {
-    $(".paragraph").each(function () {
+function AjustNextParagraphs(scene, paragraph, subtype) {
+    $("#Scene" + scene + " .paragraph").each(function () {
         AjustParagraph(this, paragraph, subtype);
     });
 }

@@ -66,6 +66,9 @@ namespace Structure.Data
         {
             var xml = new Node(FileInfo.FullName);
 
+            if (xml["scene"] != Scene.ID)
+                throw new Exception(String.Format("Scene [{0}] and file name [{1}] doesn't match.", xml["scene"], Scene.ID));
+
             if (!String.IsNullOrEmpty(xml.Value))
                 throw new Exception("Story pieces out of tags: " + xml.Value);
 
