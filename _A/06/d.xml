@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="06" scene="d">
 	<teller>
-		<default>Os dois vão à casa de Meg. Agatha abre a porta.</default>
+		<default>Agatha abre a porta de casa.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Oi...</default>
 	</talk>
 	<teller>
-		<default>Agatha abre um sorriso. Edmont a beija. Meg, que estava na sala, sai. Angely vai atrás dela. Segura-a pelo braço.</default>
+		<default>Agatha abre um sorriso. Edmont a beija. Meg, que estava na sala, sobe a escada. Angely vai atrás dela.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Não faz isso comigo.</default>
@@ -28,7 +28,7 @@
 		<default>Ah, é? Quem mais está nisso?</default>
 	</talk>
 	<teller>
-		<default>Ele fica em silêncio. Solta o braço dela. Ela entra no quarto e fecha a porta, batendo-a. Ele passa a mão na porta. Sai.</default>
+		<default>Ele fica em silêncio. Ela entra no quarto e bate a porta. Ele passa a mão na porta. Desce. Passa direto por Edmont e Agatha.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Angely, Ang...</default>
@@ -37,10 +37,10 @@
 		<default>Deixa, deixa. Ele precisa de tempo.</default>
 	</talk>
 	<teller>
-		<default>Meg fica em sua cama, chorando. Angely pega a moto e vai para a cidade.</default>
+		<default>Meg fica em sua cama, virada para a parede. Angely pega a moto e sai.</default>
 	</teller>
 	<teller>
-		<first>Anoitece. Ele vê uma adolescente correr e depois um cara jogá-la ao chão. Ela já está machucada. Então solta a moto e vai até eles.</first>
+		<first>Anoitece. Ele passa por um beco. Para a moto. Desce e volta para o beco. Vê uma adolescente correr e depois um cara jogá-la ao chão. Vai correndo na direção deles.</first>
 	</teller>
 	<talk character="Elian">
 		<default>Sinto muito, mas estou com sede.</default>
@@ -100,19 +100,23 @@
 	<talk character="Angely">
 		<default>Você está bem?</default>
 	</talk>
-	<talk character="Handhara">
+	<talk character="Dara">
 		<default>Estou...</default>
 	</talk>
 	<teller>
-		<default>Handhara se levanta. Angely também. Ele procura mas não encontra Elian.</default>
+		<default>Dara se levanta. Angely também. Olha para os lados. Para cima.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Parece que ele fugiu. Qual seu...</default>
-		<teller>não vê mais ela</teller>
-		<default>...nome.</default>
 	</talk>
 	<teller>
-		<first>Angely chega em casa. Vai até a cozinha e encontra Edmont.</first>
+		<default>Olha para trás. Dara sumiu.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Nome.</default>
+	</talk>
+	<teller>
+		<first>Angely chega em casa. Vai até a cozinha.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Onde esteve?</default>
@@ -145,36 +149,40 @@
 		<default>E não fez nada?</default>
 	</talk>
 	<teller>
-		<default>Mel trava.</default>
+		<default>Mel abre mais os olhos.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Não me disse nada.</default>
+		<default>Elian disse nada além disso.</default>
 	</talk>
 	<teller>
-		<default>Mel relaxa.</default>
+		<default>Mel solta os ombros, suspira, coloca a mão na frente dos olhos.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Mas acho que tem algo errado.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Talvez ela tenha ficado com vergonha de não ter conseguido pegá-lo...</default>
-		<teller>Angely o encara</teller>
-		<default>Tá, ideia imbecil.</default>
+		<default>Talvez ela tenha ficado com vergonha de não ter conseguido pegar...</default>
+	</talk>
+	<teller>
+		<default>Angely o encara</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Tá, não faz sentido.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Devíamos falar com ela.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Será que ela tem alguma coisa com ele? Ele já enganou uma.</default>
+		<default>Será que ela tem alguma coisa com ele? Ela enganou Beatrice.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Beatrice tinha doze anos.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Sabe que a morte não é o maior dos crimes para o nosso povo.</default>
+		<default>Sabe que a morte não é o maior dos crimes para o nosso povo. E Mel se ferrou bastante na mão de humanos, vai saber o que foi que ele desenterrou para atrair.</default>
 	</talk>
 	<talk character="Angely">
-		<default>É fácil, só falarmos com ela. Acho que tá acordada ainda.</default>
+		<default>Devíamos falar com ela. Acho que tá acordada ainda.</default>
 	</talk>
 	<teller>
 		<default>Mel sobe a escada e vai para seu quarto. Deita na cama, mas logo levanta.</default>
@@ -183,7 +191,7 @@
 		<default>Se eu estiver dormindo, vão me acordar... Pensa, pensa, pensa!</default>
 	</talk>
 	<teller>
-		<default>Ela corre pro banheiro e liga o chuveiro. Eles batem na porta do quarto.</default>
+		<default>Ela corre para o banheiro e liga o chuveiro. Eles batem na porta do quarto.</default>
 	</teller>
 	<talk character="Mel">
 		<out>Que é?</out>
@@ -213,7 +221,7 @@
 		<default>Vamos atrás do vampiro, amanhã falamos com ela.</default>
 	</talk>
 	<teller>
-		<first>Madrugada. Na casa de Meg...</first>
+		<first>Madrugada. Casa de Meg.</first>
 	</teller>
 	<talk character="Agatha">
 		<default>Meg, você tá acordada?</default>
@@ -228,7 +236,7 @@
 		<default>Então dorme.</default>
 	</talk>
 	<teller>
-		<default>Alguns minutos depois...</default>
+		<default>Alguns minutos depois.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Meg?</default>
@@ -243,7 +251,7 @@
 		<default>Tá, então me deixa dormir.</default>
 	</talk>
 	<teller>
-		<default>Mais alguns minutos depois...</default>
+		<default>Mais alguns minutos depois.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Meg?</default>
@@ -267,28 +275,28 @@
 		<default>Tudo bem, eu vou procurar ele com você.</default>
 	</talk>
 	<teller>
-		<default>As duas saem. Meg olha pela janela, depois volta pra cama.</default>
+		<default>As duas saem. Meg levanta. Anda de um lado pra outro. Olha pela janela.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Bom, agora eu durmo.</default>
 	</talk>
 	<teller>
-		<default>Ela derruba um retrato. Angely. Ela toca o retrato.</default>
+		<default>Volta pra cama. Derruba um retrato. Pega do chão. Angely. Toca o retrato.</default>
 	</teller>
 	<talk character="Meg">
-		<default>Por que você mente pra mim? Meu anjo... Não deveria ser capaz de mentir. Eu te amo, sabia?</default>
+		<thought>Por que você mente pra mim, meu anjo? Não deveria ser capaz de mentir. Eu te amo, sabia?</thought>
 	</talk>
 	<teller>
-		<default>Meg guarda o retrato na gaveta. Encontra uma caixa de música. Abre-a.</default>
+		<default>Meg guarda o retrato na gaveta. Vê uma caixa de música. Pega. Abre.</default>
 	</teller>
 	<talk character="Meg">
-		<default>Não tem jeito, você tá no meu quarto inteiro... Não acho que esteja me traindo.</default>
+		<thought>Não tem jeito, você tá no meu quarto inteiro... Não acho que esteja me traindo.</thought>
 	</talk>
 	<teller>
 		<default>Ela pega a foto de volta da gaveta.</default>
 	</teller>
 	<talk character="Meg">
-		<default>Por que está escondendo algo de mim? Será que vocês estão fazendo algo errado? Será que eles estão envolvidos nisso? Será que tem a ver com o planeta de vocês? Será que vão embora?</default>
+		<thought>Eu te escolhi porque você é um anjo. Por que está escondendo algo de mim? Será que vocês estão fazendo alguma coisa errada? Será que eles estão envolvidos nisso? Será que tem a ver com o planeta de vocês? Será que vocês vão embora?</thought>
 	</talk>
 	<teller>
 		<default>A campainha toca.</default>
@@ -297,7 +305,7 @@
 		<default>Já vai...</default>
 	</talk>
 	<teller>
-		<default>Meg vai atender. É um homem e está ferido.</default>
+		<default>Meg vai atender. É um homem. Está com a mão no estômago. Há sangue na roupa.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Que aconteceu com você???</default>
@@ -309,12 +317,12 @@
 		<default>Entra...</default>
 	</talk>
 	<teller>
-		<default>Meg ajuda o homem a se sentar na cadeira da cozinha.</default>
+		<default>Meg ajuda o homem. Leva-o até o sofá.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Qual seu nome?</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Elian">
 		<default>Elian.</default>
 	</talk>
 	<talk character="Meg">
@@ -333,7 +341,7 @@
 		<default>Agatha não é...</default>
 	</talk>
 	<teller>
-		<default>Elian a encosta na parede de uma vez.</default>
+		<default>Elian a empurra no sofá e fica por cima dela.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Teu namorado está atrás de mim, sabias?</default>
@@ -342,14 +350,18 @@
 		<default>Você é louco...</default>
 	</talk>
 	<teller>
-		<default>Ele mostra os dentes pra ela. Meg deixa uma lágrima cair.</default>
+		<default>Ele mostra os dentes pra ela. Toca o rosto dela. Uma lágrima desce. Ele limpa.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Eu sabia que ele estava escondendo algo...</default>
 	</talk>
 	<talk character="Elian">
 		<default>Pois é, se ele tivesse contado...</default>
-		<teller>ele passa a sussurrar no ouvido dela</teller>
+	</talk>
+	<teller>
+		<default>Elian abaixa, deitando sobre Meg, e se aproxima do ouvido dela.</default>
+	</teller>
+	<talk character="Elian">
 		<default>Eu não teria entrado.</default>
 	</talk>
 	<talk character="Meg">
@@ -359,7 +371,13 @@
 		<default>Tanto faz, irei matá-lo também.</default>
 	</talk>
 	<teller>
-		<default>Elian dá um beijo forçado em Meg. Ela o chuta e tenta fugir, mas ele a alcança. A joga no chão.</default>
+		<default>Elian dá um beijo forçado em Meg. Ela o chuta no meio das pernas. Ele vai no chão. Corre para a cozinha. Pega uma faca. Ele chega e abre os braços. Ela crava a faca na ferida. Ele grita e vai para trás. Coloca a mão na faca. Arranca. Dá risada.</default>
+	</teller>
+	<talk character="Elian">
+		<default>Eu, de livre e espontânea vontade, enfiei uma faca maior que essa em mim pra entrar aqui. Porque achou que me machucaria? Quer tentar de novo.</default>
+	</talk>
+	<teller>
+		<default>Ele oferece a faca para ela, virando a parte cortante para si. Ela pega. Dá passos para trás. Ele ri novamente.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Eu podia ser bonzinho e apenas matar-te. Mas me parece que tu precisas sofrer.</default>
@@ -374,10 +392,10 @@
 		<default>Três horas?! É muito tempo...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Sabe, sobre a Mel ter tido contato com o vampiro e não ter falado?</default>
+		<default>Tem uma coisa, sobre a Mel.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sim, que tem?</default>
+		<default>O que?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Notou algo diferente nela da última vez que conversamos sobre ele?</default>
@@ -404,7 +422,7 @@
 		<default>Tem alguma coisa errada.</default>
 	</talk>
 	<teller>
-		<default>Na MEAK...</default>
+		<default>MEAK.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Cadê a Kat?</default>
@@ -425,7 +443,7 @@
 		<default>Vamos pra casa? São quatro da manhã, já...</default>
 	</talk>
 	<teller>
-		<default>Elas saem. Minutos depois, Angely e Edmont chegam.</default>
+		<default>Elas saem. Mel pega uma panela na geladeira. Coloca no fogão. Depois de algum tempo, coloca a panela na mesa e pega um prato. Angely e Edmont chegam.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Alguma coisa?</default>
@@ -437,10 +455,10 @@
 		<default>Sobre o que?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não, nós não o encontramos. Eu tava com um pressentimento estranho, achei que algo tinha acontecido com você.... Mas agora que eu percebi que não é com você. É outra pessoa.</default>
+		<default>Não, nós não o encontramos. Eu tava com um pressentimento estranho, achei que algo tinha acontecido com você.... Agora eu percebi que não é com você. É outra pessoa.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Homem não tem sexto sentido...</default>
+		<default>Quem preve o futuro é Kat.</default>
 	</talk>
 	<talk character="Angely">
 		<default>É sério. Tem algo errado com alguém que eu conheço. Acho que vou lá ver se elas estão bem.</default>
@@ -467,7 +485,7 @@
 		<default>Agatha tava desesperada...</default>
 	</talk>
 	<teller>
-		<default>Angely fica mudo e pálido, sem que Edmont e Mel notem.</default>
+		<default>Angely empalidece.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Talvez a Kat tenha feito aquela coisa de novo.</default>
@@ -482,6 +500,6 @@
 		<default>Boa idéia. Mas é melhor sermos convincentes.</default>
 	</talk>
 	<teller>
-		<default>Angely se levanta e sai correndo. Mel e Edmont o seguem.</default>
+		<default>Angely se levanta e sai correndo. Mel e Edmont se entreolham. Correm atrás dele.</default>
 	</teller>
 </story>
