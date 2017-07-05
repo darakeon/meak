@@ -127,7 +127,7 @@
 		<default>Tudo que veio depois de encontrar sua mãe foi lucro. Era o mínimo que eu podia fazer.</default>
 	</talk>
 	<teller>
-		<default>Duas semanas depois, Angely está na cozinha.</default>
+		<first>Duas semanas depois, Angely está na cozinha.</first>
 	</teller>
 	<talk character="Mel">
 		<arrive>Estou livre.</arrive>
@@ -248,7 +248,10 @@
 		<default>Tá. Nós damos mais uma olhada na casa.</default>
 	</talk>
 	<teller>
-		<default>Edmont vai até a casa de Agatha. Enquanto isso, Angely e Mel olham a casa. Uma hora depois...</default>
+		<default>Edmont vai até a casa de Agatha. Enquanto isso, Angely e Mel olham a casa.</default>
+	</teller>
+	<teller>
+		<first>Uma hora depois...</first>
 	</teller>
 	<talk character="Angely">
 		<default>Tá. As três diferentes são do quarto, banheiro próprio e armário.</default>
@@ -404,7 +407,10 @@
 		<default>Eu tô cansado. Vou pro meu quarto.</default>
 	</talk>
 	<teller>
-		<default>Eles decidem ir dormir, em seus respectivos quartos. De manhã, Edmont acorda e vai à casa de Agatha. Ela não está. Então ele vai até a casa de Meg.</default>
+		<default>Eles decidem ir dormir, em seus respectivos quartos.</default>
+	</teller>
+	<teller>
+		<first>De manhã, Edmont acorda e vai à casa de Agatha. Ela não está. Então ele vai até a casa de Meg.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Oi...</default>
@@ -481,7 +487,7 @@
 		<default>Tá, vamos fazer o trabalho.</default>
 	</talk>
 	<teller>
-		<default>Ele volta pra casa. Quando chega, os dois já estão acordados.</default>
+		<first>Ele volta pra casa. Quando chega, os dois já estão acordados.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Onde você foi?</default>

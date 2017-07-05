@@ -43,7 +43,7 @@
 		<default>Tudo bem.</default>
 	</talk>
 	<teller>
-		<default>Na casa de Júlio, hora do jantar, todos ficam calados. Angely resolve quebrar o silêncio.</default>
+		<first>Na casa de Júlio, hora do jantar, todos ficam calados. Angely resolve quebrar o silêncio.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Amanhã tem aula já...</default>
@@ -159,7 +159,7 @@
 		<default>Não, nada professora.</default>
 	</talk>
 	<teller>
-		<default>Na hora do intervalo, Edmont vai falar com Agatha (trazendo Angely com ele).</default>
+		<first>Na hora do intervalo, Edmont vai falar com Agatha (trazendo Angely com ele).</first>
 	</teller>
 	<talk character="Edmont">
 		<default>E aí?</default>
@@ -189,7 +189,7 @@
 		<default>Nem tanto.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Mas conta, eles já tinham alguma coisa?</default>
+		<default>Eles já tinham alguma coisa?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu percebi que eles não se tratavam tanto como irmãos...</default>
@@ -302,7 +302,7 @@
 		<default>Calma, não dá pra saber do que estamos falando.</default>
 	</talk>
 	<teller>
-		<default>Mel, pega Agatha, vira, tira o cabelo amarrado da frente do pescoço. Solta ela.</default>
+		<default>Mel pega Agatha, vira, tira o cabelo amarrado da frente do pescoço. Solta ela.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Você viajou?!</default>
@@ -458,7 +458,7 @@
 		<default>Podemos dar um jeito de você não levar uma suspensão por isso.</default>
 	</talk>
 	<teller>
-		<default>Na casa de Rith...</default>
+		<first>Na casa de Rith...</first>
 	</teller>
 	<talk character="Rith">
 		<default>Está exagerando.</default>
@@ -590,13 +590,16 @@
 		<default>Que estamos com alguém que saiu no jornal na coluna dos procurados.</default>
 	</talk>
 	<teller>
-		<default>Melody encara Kat, que se cala na hora. Eles chegam na casa de Rith.</default>
+		<default>Melody encara Kat, que se cala na hora.</default>
+	</teller>
+	<teller>
+		<first>Eles chegam na casa de Rith.</first>
 	</teller>
 	<talk character="Júlio">
 		<default>É, talvez você tenha razão, talvez não seja tão ruim assim.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Nossa, ainda bem que despistamos o policial...</default>
+		<default>Ainda bem que despistamos o policial...</default>
 	</talk>
 	<talk character="Júlio">
 		<screamed>Policial?!</screamed>
