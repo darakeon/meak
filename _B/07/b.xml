@@ -1,56 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="07" scene="b">
 	<teller>
-		<default>20:00. Alan está deitado em sua cama. Zenon chega e pega uma capa.</default>
+		<default>20:00. Alan está em sua cama. Zenon chega e pega uma capa.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Vai sair?</default>
-		<teller>silêncio</teller>
+	</talk>
+	<teller>
+		<default>Zenon olha para Alan.</default>
+	</teller>
+	<talk character="Alan">
 		<default>Tá, não precisa agir assim comigo, eu achei mesmo que ela tava te enganando.</default>
-		<teller>silêncio</teller>
+	</talk>
+	<teller>
+		<default>Zenon veste a capa.</default>
+	</teller>
+	<talk character="Alan">
 		<default>Não vou falar mais nada dela!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Me diz uma coisa, como você tem coragem de morar aqui ainda???</default>
+		<default>Você tentou beijar a pessoa, ela não quis. Aí você diz que quer ser melhor que isso e começa a seguir a pessoa pela cidade, e ainda falar merda dela. Me diz uma coisa, como você tem coragem de morar aqui ainda?!</default>
 	</talk>
 	<teller>
-		<default>Zenon sai. Alan vai até o quarto de Mel.</default>
+		<default>Zenon sai. Alan senta na cama. Levanta. Vai até o quarto de Mel. A porta está aberta.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Mel, eu queria pedir desculpa.</default>
 	</talk>
 	<teller>
-		<default>Alan se senta numa cadeira. Angely chega na porta.</default>
+		<default>Alan entra no quarto. Angely chega na porta, franze a sobrancelha.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Sabe, eu sei que não devia ter te chamado de...</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ela não taí, não.</default>
+		<default>Mel não taí, não.</default>
 	</talk>
 	<teller>
-		<default>Puxando o lençol, Alan só encontra travesseiros.</default>
+		<default>Alan puxa o lençol. Dois travesseiros.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Pra que isso?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Desculpe, mas pra me enganar que não era.</default>
+		<default>Pra me enganar que não era.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Te falaram o que eu fiz?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Disfarçando com jornal de ponta-cabeça? É, ela me contou.</default>
+		<default>Disfarçando com jornal de ponta-cabeça? É, Mel me contou.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Eu vou atrás dela.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Pra ela te dar outra bronca?</default>
+		<default>Pra te dar outra bronca?</default>
 	</talk>
 	<teller>
-		<default>Alan volta para seu quarto. Deita-se na cama. As coisas começam a se mexer sozinhas. Alan tenta abrir a porta, mas está trancada.</default>
+		<default>Alan volta para seu quarto. Deita-se na cama. Olha para o rádio-relógio. O rádio-relógio começa a flutuar. Alan se senta na cama. Alan tenta abrir a porta, mas está trancada.</default>
 	</teller>
 	<talk character="Alan">
 		<screamed>Alguém me ajuda!</screamed>
@@ -59,10 +67,10 @@
 		<ghost>Vá buscar meu ouro!</ghost>
 	</talk>
 	<teller>
-		<default>A porta abre. Ele sai correndo. Encontra Estela no quarto, lendo uma revista.</default>
+		<default>A porta abre. Alan sai correndo. Encontra Estela no quarto, na cama, lendo uma revista de ciências.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Ele tá no meu quarto, tá no meu quarto!</default>
+		<screamed>Tá no meu quarto, tá no meu quarto!</screamed>
 	</talk>
 	<talk character="Estela">
 		<default>Que foi, encontrou uma barata?</default>
@@ -87,7 +95,11 @@
 	</talk>
 	<talk character="Alan">
 		<default>Disse.</default>
-		<teller>se senta</teller>
+	</talk>
+	<teller>
+		<default>Alan se senta na cama.</default>
+	</teller>
+	<talk character="Alan">
 		<default>Mas não sei o que foi.</default>
 	</talk>
 	<talk character="Estela">
@@ -97,19 +109,19 @@
 		<default>Deve ter dito pro Derik também.</default>
 	</talk>
 	<teller>
-		<default>Os dois vão ao quarto de Derik. Chegam e Derik se levanta rapidamente (estava com Kat).</default>
+		<default>Alan e Estela vão ao quarto de Derik. Derik está na cama, Kat está de lado, com o corpo sobre o de Derik. Kat se senta.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Estamos interrompendo?</default>
 	</talk>
 	<talk character="Kat">
-		<irony>Sério que você notou???</irony>
+		<irony>É, a gente tava trepando. Com roupa, a porta aberta e comigo de lado, é que a minha...</irony>
 	</talk>
 	<talk character="Derik">
 		<default>Não, não estão.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Prefere conversar com eles que ficar comigo???</default>
+		<default>Não posso mais falar grosseria pra Alan?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não é isso, é que pode ser importante.</default>
@@ -121,7 +133,7 @@
 		<default>Ele te disse alguma coisa?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Sei lá, eu tava apavorado demais pra saber.</default>
+		<default>Sei lá, eu tava com medo demais pra saber.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Bananas...</default>
@@ -130,7 +142,7 @@
 		<default>Derik baixa a cabeça.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Não liga, quem tem que gostar de você sou eu, não ela.</default>
+		<default>Não liga, quem tem que gostar de você sou eu.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Desculpa, não quis chatear.</default>
@@ -154,13 +166,16 @@
 		<default>Tudo bem, é só eu contar pra ela o que você falou e ela te bater que tá tudo limpo.</default>
 	</talk>
 	<teller>
-		<default>Kat sai. Estela a segue.</default>
+		<default>Kat sai. Estela segue.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Ela não tava falando sério, tava?</default>
 	</talk>
 	<teller>
-		<default>Derik sai. Mel encontra Zenon na cidade.</default>
+		<default>Derik sai.</default>
+	</teller>
+	<teller>
+		<default>Ares. Mel está em uma mesa. Zenon se senta.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Oi.</default>
@@ -172,7 +187,7 @@
 		<default>Fale.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Derik acha que o fantasma é Leo, e que veio do inferno.</default>
+		<default>Derik acha que o fantasma é o Leo, e que veio do inferno.</default>
 	</talk>
 	<talk character="Mel">
 		<default>E daí?</default>
@@ -181,13 +196,13 @@
 		<default>E daí que ele acha que cruzes espantariam o fantasma.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Entendi. Quer que eu fale com ele?</default>
+		<default>Entendi. Quer que eu fale com Derik?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Pra que outra pessoa eu pediria?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, agora temos que encontrar alguém pra tirar o fantasma de lá.</default>
+		<default>Bom, agora temos que encontrar alguém pra tirar fantasma de lá.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Claro. Isso resolveria o problema das cruzes.</default>
@@ -195,15 +210,15 @@
 	<talk character="Mel">
 		<default>Alguém já te disse que existem outras pessoas com problemas no mundo?</default>
 	</talk>
-	<talk character="Zenon">
-		<default>Desculpe, só sou egocentrista desse jeito quando há risco de morte envolvido.</default>
-	</talk>
 	<teller>
-		<default>No orelhão, 21:00.</default>
+		<first>Orelhão. Anoitecer.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Então, vocês resolvem problemas com fantasmas? ### Certo, e quanto sai? ### Como assim, depende do que estamos tentando proteger? Tô tentando proteger minha casa, é lá que está. ### Tá, depois acertamos o preço. ### Sabe o casarão da Ilha... ### Seus concorrentes?! Mas nós não resolvemos problemas de fantasma! ### Sociedade? Depois discutimos isso, podem ou não... ### Tá, meia hora. Até logo.</default>
 	</talk>
+	<teller>
+		<default>Mel desliga.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>"Sociedade"?</default>
 	</talk>
@@ -214,13 +229,13 @@
 		<default>E vai aceitar?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Deixa comigo, sei enrolar engraçadinho.</default>
+		<default>Deixa comigo, sei enrolar gente que se acha esperta.</default>
 	</talk>
 	<teller>
-		<default>22:00, do lado de fora da casa.</default>
+		<first>Noite. MEAK. Lado de fora.</first>
 	</teller>
 	<talk character="Kat">
-		<default>Então quer dizer que teremos que ficar aqui fora até eles tirarem o fantasma?</default>
+		<default>Então quer dizer que teremos que ficar aqui fora até tirarem essa coisa?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Peraí, e se eles levaram até amanhã???</default>
@@ -235,19 +250,19 @@
 		<default>A garota que Alan ajudou pode te abrigar.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Já não pediram pra ela abrigar Inês? Além do que, vai ficar estranho pedir a ela "Olha, meu amigo poderia ficar aqui durante o dia? É que ele é alérgico à sol!"</default>
+		<default>Já não pediram pra abrigar Inês? Além do que, vai ficar estranho pedir "Olha, Zenon poderia ficar aqui durante o dia? É que tem alergia a sol!"</default>
 	</talk>
 	<talk character="Ang">
-		<default>Temos dinheiro, podemos todos passar a noite no hotel.</default>
+		<default>Podemos todos passar a noite no hotel.</default>
 	</talk>
 	<teller>
-		<default>À meia-noite, estão todos dormindo. Mel, Inês, Kat e Estela estão num quarto e Ang, Zenon, Alan e Derik estão em outro. Ang está olhando pela janela. Vê algo e sai. Encontra Beatrice.</default>
+		<first>Hotel. Ang está olhando pela janela. Franze a sobrancelha. Sai do quarto, desce as escadas. Sai pela saída de emergência.</first>
 	</teller>
 	<talk character="Bea">
 		<default>Não posso aceitar isso.</default>
 	</talk>
 	<teller>
-		<default>Ela entrega uma bolsa para Angely.</default>
+		<default>Beatrice entrega uma bolsa para Angely.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Por quê?</default>
@@ -265,7 +280,7 @@
 		<default>Fique com isso. Pra arranjar um lugar pra ficar. Sei onde anda vivendo.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Prefere o que? Que volte pro Edmont?</default>
+		<default>Prefere o que? Que volte pra Edmont?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Leve isso. Vai te ajudar, até arrumar emprego.</default>
@@ -292,10 +307,16 @@
 		<default>Por que estão nesse hotel?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Fantasmas. Mel contratou uns caras pra tirarem eles de lá.</default>
+		<default>Fantasma. Mel contratou umas pessoas pra tirarem de lá.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Bom, não me surpreende, escolheram um lugar que, pelo que dizem, era onde os vampiros faziam a festa. Deixa eu ir, ver se você está certo.</default>
+		<default>Bom, não me surpreende, escolheram um lugar que, pelo que dizem, era onde os vampiros faziam a festa. Mas por que vocês não...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Mel ficou com medo de Kat querer resolver.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Deixa eu ir, ver se você tem razão.</default>
 	</talk>
 	<talk character="Ang">
 		<default>E onde vai procurar?</default>
@@ -304,40 +325,43 @@
 		<default>Lugares noturnos, eu acho.</default>
 	</talk>
 	<teller>
-		<default>Ela sai. Chega na MEAK, com um livro.</default>
+		<default>Beatrice se vira. Ang segura seu braço. Beatrice vira de volta. Angely estende a bolsa. Beatrice revira os olhos, pega a bolsa e coloca nas costas.</default>
+	</teller>
+	<teller>
+		<first>MEAK. Beatrice chega com a mochila e um livro embaixo do braço.</first>
 	</teller>
 	<talk character="Bea">
 		<default>Ok, vamos falar com um fantasma agora.</default>
 	</talk>
 	<teller>
-		<default>Beatrice vai entrar, mas dois homens passam correndo por ela.</default>
+		<default>Dois homens passam correndo por Beatrice. Um chega a olhar para trás, mas continua correndo.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Devem ser os contratados. Acho que não serão pagos.</default>
+		<default>Acho que não vão receber.</default>
 	</talk>
 	<teller>
-		<default>Ela entra na casa. Voa um objeto em sua direção e ela desvia.</default>
+		<default>Beatrice entra na casa. Voa uma garrafa de café em sua direção. Beatrice desvia.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Os donos da casa não vão gostar dessa bagunça, sabia?</default>
+		<irony>Quem mora aqui não vai gostar dessa bagunça, sabia?</irony>
 	</talk>
 	<talk character="Martim">
 		<ghost>Vá buscar meu ouro!</ghost>
 	</talk>
 	<talk character="Bea">
-		<default>Quanta educação. Esqueceu do por favor.</default>
+		<irony>Quanta educação. Esqueceu do por favor.</irony>
 	</talk>
 	<talk character="Martim">
 		<ghost>Eu não peço, eu mando!</ghost>
 	</talk>
 	<talk character="Bea">
-		<default>Não só é educado como também é humilde?</default>
+		<irony>Não só é educado como também é humilde.</irony>
 	</talk>
 	<talk character="Martim">
 		<ghost>Não quero conversar. Quero meu ouro!</ghost>
 	</talk>
 	<talk character="Bea">
-		<default>Eu quero que um certo cara me ame, nem tudo podemos ter, meu bem.</default>
+		<default>Eu quero que uma certa pessoa me ame, nem tudo podemos ter.</default>
 	</talk>
 	<talk character="Martim">
 		<ghost>Sou um fantasma e posso matar todo mundo!</ghost>
@@ -358,7 +382,7 @@
 		<default>Então será expulso.</default>
 	</talk>
 	<teller>
-		<default>Beatrice abre um livro e tira um amuleto, amarrando-o no pulso. Um objeto vem em sua direção e cai.</default>
+		<default>Beatrice tira um amuleto do bolso e amarra no pulso. Abre o livro. A garrafa de café vem de novo, mas dessa vez cai ao chegar perto.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Desculpa, mas isso não funciona. Agora, qual era mesmo a página...</default>
@@ -374,87 +398,99 @@
 	</talk>
 	<talk character="Bea">
 		<default>Era, disse bem. E não tem nenhum ladrão aqui.</default>
-		<teller>silêncio</teller>
-		<default>Oi? Ainda tá aí?</default>
-		<teller>silêncio</teller>
-		<default>Parece que foi mais fácil do que imaginei.</default>
 	</talk>
 	<teller>
-		<default>No hotel...</default>
+		<default>Beatrice folheia o livro. Franze a sobrancelha.</default>
 	</teller>
-	<talk character="c1">
+	<talk character="Bea">
+		<default>Oi? Ainda tá aí?</default>
+	</talk>
+	<teller>
+		<default>Beatrice fehca o livro.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Parece que foi mais fácil do que imaginei.</default>
+		<screamed>Já sabe se voltar...</screamed>
+	</talk>
+	<teller>
+		<default>Beatrice levanta o pulso.</default>
+	</teller>
+	<teller>
+		<first>Hotel.</first>
+	</teller>
+	<talk character="Camilo">
 		<default>Eles não vão sair de lá!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Como assim?</default>
 	</talk>
-	<talk character="c2">
+	<talk character="Ricardo">
 		<default>Nunca! São invencíveis!</default>
 	</talk>
-	<talk character="c1">
+	<talk character="Camilo">
 		<default>E são milhões!</default>
 	</talk>
 	<teller>
-		<default>Angely olha para as malas.</default>
+		<default>Mel olha para as malas.</default>
 	</teller>
-	<talk character="Ang">
-		<default>Precisa de tudo isso pra vencer um fantasma?</default>
+	<talk character="Mel">
+		<default>Precisa de tudo isso pra se livrar de fantasma?</default>
 	</talk>
-	<talk character="c1">
+	<talk character="Camilo">
 		<default>Não, isso é nossa bagagem.</default>
 	</talk>
-	<talk character="c2">
+	<talk character="Ricardo">
 		<default>Vamos embora da Ilha e recomendamos que façam o mesmo.</default>
 	</talk>
 	<teller>
-		<default>Ang e Mel observam os homens indo embora.</default>
+		<default>Camilo e Ricardo pegam as malas e saem do hotel.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ok, será que teremos que procurar o papa? Por que mais parece que eles tavam falando do próprio diabo.</default>
+		<default>Ok, será que teremos que procurar alguma autoridade religiosa? Por que mais parece que tavam falando do diabo.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Não deve ser Leo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ou ele trouxe todos os amigos que encontrou no mundo.</default>
+		<default>Ou trouxe todas as amizades que encontrou no mundo.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ele teria vindo pro hotel, atrás de Kat.</default>
+		<default>Teria vindo pro hotel, atrás de Kat.</default>
 	</talk>
 	<talk character="Mel">
-		<default>É mesmo, ele tá atrás dela. Pode ser que esteja esperando e, se ela não voltar, ele vem aqui.</default>
+		<default>Pode ser que esteja esperando e, se não voltar, vem aqui.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Não precisa ficar...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Avisa os outros, te encontro na biblioteca...</default>
+		<default>Avisa os outros, te encontro na biblioteca.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Mel...</default>
 	</talk>
 	<teller>
-		<default>Ela sai, sem dar ouvidos a ele. Ele olha para cima (como que olhando para o quarto), olha para a direção que Mel fora... Vai atrás dela.</default>
+		<default>Mel sai. Ang olha para o elevador. Olha para a saída. Sai. Olha para Mel. Mel olha para trás. Angely corre até Mel.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Mel, não é necessário tanto exagero, porque simplesmente não falamos com ele?</default>
+		<default>Porque simplesmente não conversamos?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele ou eles?</default>
+		<default>Com todo mundo?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Sei lá, que sejam muitos. Não ajudamos pessoas? Por que não podemos ajudar eles a irem em paz?</default>
+		<default>Sei lá, que sejam muitas almas. Não ajudamos pessoas? Por que não podemos ajudar a irem em paz?</default>
 	</talk>
 	<talk character="Mel">
-		<default>E vamos. Com um livro e um bom feitiço saem todos de lá.</default>
+		<default>E vamos. Com um livro e um bom feitiço sai todo mundo de lá.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Mel...</default>
 	</talk>
 	<teller>
-		<default>Mel, que estava de costas para Ang, se vira para ele.</default>
+		<default>Mel revira os olhos.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Não adianta insistir, não vai conseguir me dissuadir. O que pode fazer é vir comigo e escolher o mais ameno, porque, se depender de mim, mando eles pro inferno de qualquer jeito.</default>
+		<default>Não adianta insistir, não vai conseguir me dissuadir. O que pode fazer é vir comigo e escolher o mais ameno, porque, se depender de mim, mando pro inferno de qualquer jeito.</default>
 	</talk>
 </story>
