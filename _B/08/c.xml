@@ -1,7 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="08" scene="c">
 	<teller>
-		<default>Na sala...</default>
+		<default>Tarde. Alan e Zenon estão num bar vazio.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Facilita essa coisa de vários bares, uns em cima dos...</default>
+	</talk>
+	<teller>
+		<default>Akasha se aproxima de Zenon e Alan.</default>
+	</teller>
+	<talk character="Akasha">
+		<default>Estão esperando vocês.</default>
+	</talk>
+	<teller>
+		<default>Akasha volta e Zenon e Alan seguem. Um tempo depois, em uma sala, Isauro está atrás de uma mesa, recostou-se para trás. Alan e Zenon estão em pé em frente a mesa. Akasha está perto da porta.</default>
 	</teller>
 	<talk character="Isauro">
 		<default>Então acham que podem nos proteger.</default>
@@ -10,17 +22,20 @@
 		<default>Sim.</default>
 	</talk>
 	<talk character="Isauro">
-		<default>Que sabem lutar?</default>
+		<default>O que sabem lutar?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Bem, nós aprendemos lutando, sabe, luta comum...</default>
+		<default>Bem, a gente aprendeu lutando, sabe, luta comum...</default>
 	</talk>
 	<talk character="Isauro">
-		<default>Não, não sei.</default>
+		<default>Não. Não sei.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Eu fui CV.</default>
 	</talk>
+	<teller>
+		<default>Isauro inclina-se mais para frente.</default>
+	</teller>
 	<talk character="Isauro">
 		<default>Se foi, quer dizer que foi expulso.</default>
 	</talk>
@@ -31,7 +46,7 @@
 		<default>Mentira, eu fui enganado por ela!</default>
 	</talk>
 	<teller>
-		<default>Minutos depois, eles são jogados pra fora do bar. Zenon puxa seu capuz rápido e se cobre (para não virar churrasco).</default>
+		<first>Akasha joga Alan para fora do prédio. Depois Zenon. Zenon puxa o capuz e se cobre.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Por que tinha que dizer que foi enganado???</default>
@@ -46,7 +61,7 @@
 		<default>Tá me chamando de bebê?!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Além disso, ainda tem o "fui enganado". Eles não empregariam alguém que foi enganado!</default>
+		<default>E claro, brilhante dizer "fui enganado"! Eles não empregariam alguém que foi enganado!</default>
 	</talk>
 	<talk character="Alan">
 		<default>Eu não ia mesmo trabalhar em um lugar de demônios!</default>
@@ -58,7 +73,7 @@
 		<default>Vamos voltar pra casa. Tô com fome...</default>
 	</talk>
 	<teller>
-		<default>Eles chegam e Derik está na sala, com livros.</default>
+		<first>MEAK. Derik está na sala, com livros. Alan e Zenon entram.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Estudando?</default>
@@ -66,23 +81,29 @@
 	<talk character="Alan">
 		<default>E o almoço?</default>
 	</talk>
+	<teller>
+		<default>Derik olha para Alan.</default>
+	</teller>
 	<talk character="Derik">
-		<irony>Tô fazendo, sinhozinho. Ah, esqueci, a escravidão foi abolida.</irony>
+		<default>Depende do que pretende comer, pode olhar a geladeira. Se for complicado, pode usar seu salário pra encomendar.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Engraçadinho.</default>
+		<default>Não precisa pisar.</default>
 	</talk>
+	<teller>
+		<default>Derik volta a olhar o livro.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Estou procurando um negócio que a Beatrice deixou embaixo do telefone errado.</default>
+		<default>Estou procurando um negócio que Beatrice deixou embaixo do telefone errado.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ah?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ela deixou um nome que tenho certeza que... Ah, achei!</default>
+		<default>Deixou um nome que tenho certeza que... Ah, achei!</default>
 	</talk>
 	<teller>
-		<default>Mostra o livro pra Alan e Zenon.</default>
+		<default>Derik levanta e mostra o livro pra Alan e Zenon.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Yaksah?</default>
@@ -97,7 +118,7 @@
 		<default>As armas estão lá em cima.</default>
 	</talk>
 	<teller>
-		<default>Os três sobem. Quando voltam, há alguns dos que eles viram.</default>
+		<default>Derik, Zenon e Alan sobem. Voltam. Yaksahs pela sala. Recuam para a escada.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Tá, eu achei que era um só...</default>
@@ -106,34 +127,37 @@
 		<default>Disse que a Beatrice deixou embaixo do telefone errado?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Que, acha que tava no certo e isso são hóspedes?</default>
+		<default>Que, acha que tava no certo e são hóspedes?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ok, gente, vamos rezar para isso ter sido mandado pelo Edmont.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Assim o Angely vai aparecer aqui para nos salvar?</default>
+		<default>Assim Angely vai aparecer aqui para nos salvar?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Pegou o espírito.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Por enquanto...</default>
+		<default>Por enquanto, a gente vai.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Derik, fica, se a coisa ficar feia, cê chama ajuda.</default>
 	</talk>
 	<teller>
-		<default>Os três atacam. Quando estão para serem mortos, Beatrice chega.</default>
+		<default>Zenon e Alan entram na sala. Zenon toma um soco. Alan tenta cravar uma estaca em quem deu um soco e toma um chute. Seguram Zenon e Alan. Beatrice entra na sala.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Mas o que é isso???</default>
+		<screamed>Mas o que é isso???</screamed>
 	</talk>
-	<talk character="yaksah 1">
+	<talk character="Zania">
 		<default>Você disse que não tinham problemas com hóspedes diferentes!</default>
 	</talk>
-	<talk character="yaksah 2">
+	<talk character="Lora">
 		<default>Fomos atacados!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Tudo bem, eles não vão mais fazer isso, né gente?!</default>
+		<default>Tudo bem, não vão mais fazer isso, né gente?!</default>
 	</talk>
 	<talk character="Alan">
 		<default>São nossos hóspedes???</default>
@@ -142,126 +166,133 @@
 		<default>Nossos ricos hóspedes, não é?</default>
 	</talk>
 	<teller>
-		<default>Beatrice se dirige aos hóspedes, com um sorriso.</default>
+		<default>Beatrice olha para Lora e Zania, com um sorriso.</default>
 	</teller>
-	<talk character="yaksah 1">
-		<default>Não sei. Fomos atacados!</default>
+	<talk character="Zania">
+		<default>Fomos atacados!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Essa parte eu já ouvi, mas isso significa que não serão mais. Inclusive, vou ligar para as garotas que moram aqui e avisar de vocês, tá?</default>
+		<default>Essa parte eu já ouvi, mas isso significa que não serão mais. Inclusive, vou ligar para as outras pessoas que moram aqui e avisar de vocês, tá?</default>
 	</talk>
-	<talk character="yaksah 1">
+	<talk character="Zania">
 		<default>Se formos...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Podiam largar eles... Por favor?</default>
+		<default>Podiam largar... Por favor?</default>
 	</talk>
 	<teller>
-		<default>Eles largam Zenon, Alan e Derik. Beatrice pega o telefone. Disca. Olha para os três.</default>
+		<default>Largam Zenon e Alan. Beatrice pega o telefone. Disca. Olha para Alan e Zenon.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Não vão mostrar os quartos deles?</default>
+		<default>Não vão mostrar os quartos?</default>
 	</talk>
 	<talk character="Alan">
 		<default>Ué, eles vão ocupar todos, porque não podem escolher sozinhos?</default>
 	</talk>
 	<teller>
-		<default>Derik pisa no pé de Alan.</default>
+		<default>Derik entra.</default>
 	</teller>
-	<talk character="Alan">
-		<default>Ai!</default>
-	</talk>
 	<talk character="Derik">
-		<default>É legal o meu pé não ser sempre o de baixo. Vamos, senhores, os quartos estão lá em cima...</default>
+		<default>Eu mostro. Os quartos estão lá em cima...</default>
 	</talk>
 	<teller>
-		<default>Na escola, minutos depois...</default>
+		<first>Escola. Diretoria.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Como assim?! ### Mas tem certeza que eles não vão fazer nada demais? ### Você os viu? ### Confia tanto na Beatrice, Angely... ### É claro, mal demos o cargo e ela já enfiou lá um monte de... ### Eu sei que estamos apertados, mas... ### Tá, agora você liga para a Estela e a Kat.</default>
+		<default>Como assim?! ### Mas tem certeza que não vão fazer nada demais? ### Você viu? ### Confia tanto em Beatrice, Angely... ### É claro, mal demos o cargo e já enfiou lá um monte de... ### Eu sei que estamos com problemas financeiros, mas... ### Tá, agora você liga para Estela e Kat.</default>
 	</talk>
 	<teller>
-		<default>Mais tarde, Mel passa no serviço de Kat e Estela e as três vão pra casa (MEAK). Bea está sentada na recepção.</default>
+		<first>MEAK. Bea está sentada na recepção.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Então, temos agora uma família de...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Esses Yaksahs são seres ricos, muito gentis, ricos... Uma família grande e rica... Eu já disse que eles têm muito dinheiro?</default>
+		<default>É uma família Yaksah, são seres ricos, muito gentis, ricos... Uma família grande e rica... Eu já disse que têm muito dinheiro?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Claro, e porque eles não foram se hospedar no hotel?</default>
+		<default>Porque não foram se hospedar no hotel?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Bom, eu até perguntei quando eles disseram que iriam pagar dois milhões, mas...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Por que você perguntou??? Eles podiam ter desistido!</default>
+		<default>Por que você perguntou??? Podiam ter desistido!!!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não, os humanos não estão acostumados com a aparência deles.</default>
+		<default>Seres humanos não têm costume com a aparência de Yaksahs.</default>
 	</talk>
 	<teller>
-		<default>08/04 (terça). 20:00. Mel está com Angely na MEAK.</default>
+		<first>Dia seguinte. Noite. MEAK. Mel e Angely estão no quarto de Mel. Mel está na cama. Angely sentou-se no chão.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Não sei, ainda não me acostumei com esses... seres.</default>
+		<default>Não sei, ainda não me acostumei com... Yaksahs.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Eles não têm uma energia muito positiva, mas não acho que vão fazer algo errado.</default>
+		<default>Não têm uma energia muito positiva, mas não acho que vão fazer algo errado.</default>
 	</talk>
 	<talk character="Mel">
-		<default>"Energia positiva"? Virou espírita ou tá achando que nossos amigos são pilhas gigantes?</default>
+		<default>"Energia positiva"? É religião ou tá achando que são pilhas gigantes?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Tem algo errado.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Com eles? Já percebi.</default>
+		<default>Já percebi.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não tem a ver com eles. Edmont...</default>
+		<default>Não tem a ver com aqui. Edmont...</default>
 	</talk>
 	<teller>
-		<default>Angely sai correndo.</default>
+		<default>Angely levanta e sai correndo. Mel senta-se na cama.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Peraí, fala o que tá acontecendo!</default>
+		<screamed>Peraí, fala o que tá acontecendo!</screamed>
 	</talk>
 	<teller>
-		<default>Ele vai para Ares. Chega num apartamento. Bate, ninguém abre. Ele arromba. Vai até o quarto. No espelho a inscrição "FRACO". Fábio está na cama, de costas.</default>
+		<first>Ares. Angely chega em um apartamento. Bate. Sem reação. Angely vai contra a porta com o ombro. Corre até o quarto. No espelho, a inscrição "FRAQUEZA". Fábio está na cama, de costas.</first>
 	</teller>
 	<talk character="Fábio">
-		<default>Vou ser expulso?</default>
+		<default>Vão me expulsar?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Expulso?</default>
+		<default>Expulsar?</default>
 	</talk>
 	<talk character="Fábio">
-		<screamed>Por que você vol...</screamed>
-		<teller>se vira para a porta</teller>
+		<screamed>Por que você...</screamed>
+	</talk>
+	<teller>
+		<default>Fábio senta e vira para a porta. Respira fundo.</default>
+	</teller>
+	<talk character="Fábio">
 		<default>Angely.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Achou que fosse o Edmont, mas antes achou que fosse outra pessoa.</default>
+		<default>Achou que fosse Edmont. Mas antes achou que fosse outra pessoa.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Soraia. Pode não acreditar, mas já a vi quebrar mais de cem portas.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Por isso perguntou se ia ser expulso.</default>
+		<default>Por isso perguntou se iam te expulsar.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Alan dormiu com uma vampira e foi expulso.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Bom, ele acusou Soraia de estar inventando isso.</default>
+		<default>Acusou Soraia de estar inventando isso.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>É, ele agiu como um idiota. Mas mesmo que eu vá lá, de cabeça baixa, e admita que... Eles não vão me perdoar por isso.</default>
+		<default>É, agiu como um idiota. Mas mesmo que eu vá lá, de cabeça baixa, e admita que...</default>
+	</talk>
+	<teller>
+		<default>Fábio baixa a cabeça.</default>
+	</teller>
+	<talk character="Fábio">
+		<default>Não vão me perdoar por isso.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Você não foi enganado por palavras. Não fez isso porque quis...</default>
+		<default>Soraia achou que Alan estava armando com Clítia. Ninguém te enganou com palavras.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>É. Eu simplesmente fraquejei. Não precisa dizer isso, já tá escrito no espelho.</default>
@@ -269,9 +300,16 @@
 	<talk character="Ang">
 		<default>Não vão te expulsar. Confie em mim.</default>
 	</talk>
+	<teller>
+		<default>Fábio olha para Angely.</default>
+	</teller>
 	<talk character="Fábio">
 		<default>Se me defenderem como defenderam Zenon, não duvido que...</default>
-		<teller>olha para Ang, depois baixa a cabeça</teller>
+	</talk>
+	<teller>
+		<default>Fabio baixa novamente a cabeça.</default>
+	</teller>
+	<talk character="Fábio">
 		<default>Desculpe.</default>
 	</talk>
 	<talk character="Ang">
@@ -284,13 +322,13 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Eles saem. Na MEAK, Beatrice está na recepção. Ouve um barulho estranho vindo dos fundos da casa. Olha e vê um garoto amarrado e alguns dos hóspedes conversando. Sobe até o quarto de Alan, Zenon e Derik.</default>
+		<first>MEAK. Beatrice está na recepção. Franze a testa. Vai até a parte de trás da casa. Olha e vê uma pessoa amarrada e alguns dos hóspedes conversando. Sobe até o quarto de Alan, Zenon e Derik.</first>
 	</teller>
 	<talk character="Bea">
 		<screamed>Acordem!</screamed>
 	</talk>
 	<teller>
-		<default>Eles pulam da cama.</default>
+		<default>Pulam das camas.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Que estão fazendo dormindo???</default>
@@ -299,7 +337,7 @@
 		<default>Acabou de responder, o que deu na sua cabeça???</default>
 	</talk>
 	<talk character="Bea">
-		<default>Na minha nada, mas deve ter dado algo na dos nossos hóspedes. Tem um garoto amarrado lá fora...</default>
+		<default>Na minha nada, mas deve ter dado algo na dos nossos hóspedes! Tem uma pessoa amarrada lá fora...</default>
 	</talk>
 	<talk character="Alan">
 		<default>Eu sabia que não podíamos confiar neles!</default>
@@ -311,25 +349,25 @@
 		<default>Olha aqui...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Parem de implicância, temos que salvar alguém aqui!</default>
+		<default>Parem de implicância, tem alguém em perigo lá embaixo!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ele tá certo. Mas como?</default>
+		<default>O que vamos fazer?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Com o nosso banquete surpresa pra eles às dez horas.</default>
+		<default>Nosso banquete surpresa às dez horas.</default>
 	</talk>
 	<talk character="Zenon / Alan">
 		<default>Ah?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ótima idéia, Derik. Mas vai envenenar a comida?</default>
+		<default>Ótima idéia. Vai envenenar a comida?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Seria arriscado, eles podem querer que comamos junto com eles. Mas com todos reunidos, podemos atacar.</default>
+		<default>Seria arriscado, podem querer que comamos junto. Mas com todo mundo reunido, podemos atacar.</default>
 	</talk>
 	<talk character="Alan">
-		<default>E você lembra da última vez que tentamos isso?</default>
+		<default>Você lembra da última vez que tentamos isso?</default>
 	</talk>
 	<talk character="Mel">
 		<arrive>Eu não tava junto.</arrive>
@@ -347,7 +385,7 @@
 		<default>Que bom que vocês chegaram, vai ser mais para...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vai querer colocar as crianças nisso???</default>
+		<default>Vai querer colocar as crianças nisso?!</default>
 	</talk>
 	<talk character="Estela">
 		<default>Ei!</default>
@@ -355,8 +393,14 @@
 	<talk character="Mel">
 		<default>Tenho o dobro da sua idade, não reclama!</default>
 	</talk>
+	<talk character="Kat">
+		<default>Faz dois anos que isso não é verdade. E não foram dois anos de brincadeira no parque.</default>
+	</talk>
+	<teller>
+		<default>Mel encara Kat.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Peraí, eu vi no livro que eles comem insetos também!</default>
+		<default>Peraí, eu vi no livro que comem insetos também!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Isso nós não comemos, então eles não vão falar nada.</default>
@@ -365,28 +409,16 @@
 		<default>Do que estão falando?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Vamos fazer um banquete pra eles. Caso eles nos convidem pra comer junto, só serão envenenadas as coisas que só eles comem.</default>
+		<default>Vamos fazer um banquete. Caso nos convidem pra comer junto, só serão envenenadas as coisas que não comemos.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Mas como vamos descobrir o que pode matá-los?</default>
+		<default>Mas como vamos descobrir o que pode matar essas coisas?</default>
 	</talk>
 	<teller>
-		<default>Minutos depois, Derik bate à porta de um dos quartos. Um dos hóspedes abre.</default>
+		<first>Derik bate a porta de um dos quartos. Um dos hóspedes abre.</first>
 	</teller>
 	<talk character="Derik">
-		<default>Sabe, eu sou quem cozinha por aqui, por isso preciso saber ao que os senhores...</default>
-	</talk>
-	<talk character="yaksah">
-		<default>Senhores??? Eu não sou um homem!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Errar é humano.</default>
-	</talk>
-	<talk character="yaksah">
-		<default>Hã, humanos...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Preciso saber ao que têm alergia?</default>
+		<default>Sabe, eu sou quem cozinha por aqui, por isso preciso saber ao que têm alergia.</default>
 	</talk>
 	<talk character="yaksah">
 		<default>Alergia?</default>
@@ -395,7 +427,7 @@
 		<default>É, o que prejudica vocês.</default>
 	</talk>
 	<teller>
-		<default>De volta ao quarto, mais alguns minutos depois, Zenon está num canto do quarto, com a cadeira na sua frente.</default>
+		<first>Quarto. Zenon está em um canto do quarto, com a cadeira na sua frente.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>E se eles sentirem o cheiro?!</default>
@@ -413,13 +445,13 @@
 		<default>Já, mas é diferente!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Gente, tira do meu mesmo que esse aí...</default>
+		<default>Gente, tira do meu mesmo que isso aí...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Já fiz isso uma fez, eles não querem saber de quem envenenou, só vem atrás de...</default>
+		<default>Já fiz isso uma vez, eles não querem saber de quem envenenou, só vem atrás de...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Peraí, fez o Derik se arriscar e não disse que era isso por medo???</default>
+		<default>Peraí, fez Derik se arriscar e não disse que era isso por medo???</default>
 	</talk>
 	<talk character="Zenon">
 		<default>É, bom...</default>
@@ -440,7 +472,7 @@
 		<default>E qual é?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Vinagre. Vai ter que beber um litro, Bea.</default>
+		<default>Vinagre. Vai ter que beber um litro, Beatrice.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Um litro de vinagre?</default>
