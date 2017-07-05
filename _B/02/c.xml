@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="02" scene="c">
 	<teller>
-		<default>MEAK. Derik vai até Natasha.</default>
+		<default>MEAK. Nat chega com Inês no color. Derik vai até Nat.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Posso pegar?</default>
@@ -10,7 +10,7 @@
 		<default>Claro...</default>
 	</talk>
 	<teller>
-		<default>Natasha entrega a criança a Derik, que se senta no sofá. Natasha se aproxima de Kat e Estela.</default>
+		<default>Nat entrega Inês a Derik, que se senta no sofá. Nat se aproxima de Kat e Estela.</default>
 	</teller>
 	<talk character="Nat">
 		<default>Não parecia assim tão...</default>
@@ -25,7 +25,7 @@
 		<default>Babão já é um eufemismo.</default>
 	</talk>
 	<talk character="Mel">
-		<arrive>Cadê Angely?!</arrive>
+		<arrive>Cadê Angely?</arrive>
 	</talk>
 	<talk character="Nat">
 		<default>Encontramos o irmão dele.</default>
@@ -37,11 +37,11 @@
 		<default>Nat fica olhando para Mel. Olha para o chão. Olha de novo para Mel.</default>
 	</teller>
 	<talk character="Nat">
-		<default>Não sei! Acho melhor eu voltar para buscá-lo.</default>
+		<default>Não sei! Acho melhor eu voltar para buscar ele.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Você...</default>
-	</talk>
+	<teller>
+		<default>Nat sai. Mel olha para Kat. Kat sobe. Estela segue. Mel se senta ao lado de Derik.</default>
+	</teller>
 	<teller>
 		<first>Lago. Ang está no mesmo lugar. Nat se aproxima. Pega o pulso. Balança a cabeça para os lados. Retira a espada. Angely abre os olhos e puxa forte o ar. Nat dá um passo para trás. Coloca a mão na cabeça. Desmaia. Edmont reaparece. Ang se levanta. Abaixa perto de Nat.</first>
 	</teller>
@@ -306,7 +306,7 @@
 		<default>Ang causou o primeiro sumiço de Edmont. Você tirou a arma, Edmont reapareceu. Devem ter ficado ali até amanhecer. Mas por que?</default>
 	</talk>
 	<talk character="Nat">
-		<default>Há um certo ritual, pra proteger a criança de se entregar a um vampiro facilmente... Edmont não queria que fizesse. Se eu morrer, o ritual é desfeito.</default>
+		<default>Há um certo ritual, pra proteger a criança de se entregar a um vampiro facilmente. Edmont não queria que fizesse. Se eu morrer, o ritual é desfeito.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Certo, então por isso Angely ficou, pra te defender. A propósito, tem alguma idéia do porquê desmaiou?</default>
@@ -366,7 +366,7 @@
 		<default>Angely chega com Inês no colo.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Estranho pensar que, daqui à três meses, pode estar andando...</default>
+		<default>Estranho pensar que, daqui a três meses, pode estar andando...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Andando?!</default>
@@ -405,7 +405,7 @@
 		<default>Sim. Dumanis envelhecem um ano em cinco, por isso a fusão dá a média, um em três.</default>
 	</talk>
 	<teller>
-		<default>Noite. Nat está na sala. Derik está com Inês.</default>
+		<first>Noite. Nat está na sala. Derik está com Inês.</first>
 	</teller>
 	<talk character="Nat">
 		<default>Tá brincando comigo...</default>
@@ -468,7 +468,7 @@
 		<screamed>Tá, então procura alguém que te agüente, por que eu também já cansei! Desaparece da minha vida!</screamed>
 	</talk>
 	<teller>
-		<default>Derik olha pra Kat com os olhos em lágrimas. Sai. Kat sobe.</default>
+		<default>Derik olha pra Kat com os olhos em lágrimas. Sai. Kat sobe, entra em um quarto. Chuta a cama.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Nunca mais vou namorar alguém menor de duzentos anos!</default>
@@ -480,16 +480,16 @@
 		<default>Derik disse que eu acabei com nosso namoro, vê se pode!</default>
 	</talk>
 	<talk character="Estela">
-		<default>É... Bom... Não andava dando lá muita atenção pra ele.</default>
+		<default>É... Bom... Não andava dando lá muita atenção pra ele...</default>
 	</talk>
 	<talk character="Kat">
-		<screamed>Só ficava babando em cima daquela...</screamed>
+		<screamed>Só ficava babando em cima de Inês!</screamed>
 	</talk>
 	<talk character="Estela">
 		<default>É só um bebê!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Daqui a cinco anos, não vai ser mais! Vai estar adulto! Se ainda fosse criança de Derik...</default>
+		<default>Daqui a cinco anos, não vai ser mais! Vai estar em fase adulta! Se ainda fosse criança de Derik...</default>
 	</talk>
 	<talk character="Estela">
 		<default>Então é isso...</default>
