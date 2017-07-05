@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="09" scene="a">
 	<teller>
-		<default>Madrugada. Mel está na sala. Edmont entra.</default>
+		<default>Madrugada. Edmont entra em casa.</default>
 	</teller>
-	<talk character="Edmont">
-		<default>De novo?</default>
-	</talk>
 	<talk character="Mel">
 		<default>Quer me matar de preocupação?</default>
 	</talk>
@@ -13,13 +10,15 @@
 		<default>Eu não preciso de babá.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não é o que tá parecendo. Está agindo com criança!</default>
+		<default>Não é o que tá parecendo. Está agindo com criança.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Te garanto que o que faço criança alguma faz.</default>
+		<default>Te garanto que o que faço criança nenhuma faz.</default>
+		<teller>faz cara de nojo</teller>
+		<default>Ou não deveriam.</default>
 	</talk>
 	<teller>
-		<default>Edmont dá um sorriso sacana e sobe a escada. Entra no quarto de Angely e se senta na cama, ao lado dele.</default>
+		<default>Edmont sobe a escada. Entra no quarto de Angely e se senta na cama, ao lado dele.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Que horas são?</default>
@@ -34,10 +33,10 @@
 		<default>Bom, eu vou pro meu quarto...</default>
 	</talk>
 	<teller>
-		<default>Edmont vai se levantar e se sente zonzo. Angely se levanta.</default>
+		<default>Edmont vai se levantar e se segura na parede. Angely se levanta.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Está bêbado?</default>
+		<default>Tá bêbado?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Eu? Não...</default>
@@ -52,8 +51,11 @@
 		<default>Por aí.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Melhor tomar um banho.</default>
+		<arrive>Melhor tomar um banho.</arrive>
 	</talk>
+	<teller>
+		<default>Edmont aponta o dedo para Mel.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Vocês acham que só vocês têm direito de encher a cara.</default>
 	</talk>
@@ -70,16 +72,17 @@
 		<default>Onde será que ele vai?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Use a imaginação.</default>
+		<default>Não sei. Mas eu tenho a sensação que ele bebe, cata alguém, volta a beber e só para de beber aqui na porta.</default>
 	</talk>
 	<teller>
-		<default>Mel sai do quarto. Na noite seguinte eles vão a uma festa a fantasia, na casa de Denise. Denise está de anjo, Edmont está de cupido.</default>
+		<default>Mel sai do quarto.</default>
+		<first>Na noite seguinte, na casa de Denise, acontece uma festa a fantasia. Ela está fantasiada de anjo. Andando pela festa, estranha Edmont, que está de cupido.</first>
 	</teller>
 	<talk character="Denise">
 		<default>Edmont, você está com a mesma fantasia do Angely?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, caiu vinho na camisa e o Angely pediu pra trocar comigo.</default>
+		<default>Não. Caiu vinho na camisa e o Angely pediu pra trocar comigo, não quis ficar sem camisa.</default>
 	</talk>
 	<talk character="Denise">
 		<default>Então agora você está de cupido e o Angely de morte?</default>
@@ -91,7 +94,7 @@
 		<default>Sabe onde ele pode estar?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não sei, tava falando com a Dara quando o vi.</default>
+		<default>Não sei. Tava com a Dara quando vi.</default>
 	</talk>
 	<talk character="Denise">
 		<default>Mudando de assunto, eu soube que terminou com a Agatha...</default>
@@ -103,7 +106,7 @@
 		<default>Não está, se quiser.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, Angely está sentado numa cadeira, com a maior cara de desanimo. Derik se aproxima. Está de lobisomem.</default>
+		<default>Enquanto isso, Angely está sentado numa cadeira, com o rosto apoiado nas mãos, e expressão de quem preferia estar em um hospital. Derik se aproxima. Está de lobisomem.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Você viu a Kat?</default>
@@ -112,7 +115,8 @@
 		<default>Não.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ih, que ânimo contagiante... Peraí, não tava de cupido? Essa era do Edmont...</default>
+		<irony>Que ânimo contagiante...</irony>
+		<default>Não tava de cupido? Essa era do Edmont...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Caiu vinho na blusa.</default>
@@ -121,7 +125,7 @@
 		<default>E por isso não quis mais usar a fantasia?</default>
 	</talk>
 	<talk character="Angely">
-		<default>É meu ânimo.</default>
+		<default>Combina mais com meu humor também.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Vou indo, antes que isso me pegue.</default>
@@ -157,7 +161,7 @@
 		<default>Angely vai com ele. Bryan está com Annie. Ela de fada madrinha, ele de padre.</default>
 	</teller>
 	<talk character="Annie">
-		<default>E se Denise ver?</default>
+		<default>E se a Denise ver?</default>
 	</talk>
 	<talk character="Denise">
 		<default>Não vai, ela tá lá dentro...</default>
@@ -166,10 +170,10 @@
 		<arrive>Recepcionando as pessoas.</arrive>
 	</talk>
 	<teller>
-		<default>Dara está de bruxa.</default>
+		<default>Dara está de bruxa. Brian se afasta de Annie.</default>
 	</teller>
 	<talk character="Bryan">
-		<default>Olha, não é o que você está pensando.</default>
+		<default>Não é o que você está pensando.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Precisa pensar pra descobrir? Acho que não.</default>
@@ -178,13 +182,13 @@
 		<default>Eu posso explicar...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Tã! Resposta errada. Essa é a segunda frase mais idiota e mais usada pelas pessoas quando são pegas no flagra.</default>
+		<default>Não precisa. A professora de biologia já fez isso.</default>
 	</talk>
 	<talk character="Bryan">
 		<default>Ela estava com problemas com a fantasia...</default>
 	</talk>
 	<talk character="Dara">
-		<default>E você ia tirar dela pra consertar? Você não é costureiro, Bryan.</default>
+		<default>E você ia tirar dela pra consertar? Resolveu virar costureiro?</default>
 	</talk>
 	<talk character="Bryan">
 		<default>Não conta pra sua irmã, por favor.</default>
@@ -196,13 +200,13 @@
 		<default>Pode ir lá contar. Ela não vai acreditar mesmo.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ei, viram a Kat?</default>
+		<arrive>Ei, viram a Kat?</arrive>
 	</talk>
 	<talk character="Bryan">
 		<default>Com que fantasia ela estava?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Acho que era... Peraí, você não é namorado da Denise???</default>
+		<default>Acho que era... Peraí, você não é namorado da Denise?</default>
 	</talk>
 	<talk character="Bryan">
 		<default>Exatamente, ela tá lá dentro, né?</default>
@@ -211,10 +215,10 @@
 		<default>Bryan entra na casa.</default>
 	</teller>
 	<talk character="Annie">
-		<default>Mais que droga! Me deixou sozinha...</default>
+		<default>Droga!</default>
 	</talk>
 	<talk character="Dara">
-		<default>Tem três carinhas jogados num canto lá na festa.</default>
+		<default>Ainda tem três jogados num canto lá na festa.</default>
 	</talk>
 	<talk character="Annie">
 		<default>Quem?</default>
@@ -241,10 +245,10 @@
 		<default>Danny é bolsista, então pegou um lençol e furou; Raphael nem precisava de fantasia; Victor gosta de brigar.</default>
 	</talk>
 	<teller>
-		<default>Kat está de odalisca.</default>
+		<default>Kat chega. Está de odalisca.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Por onde andou???</default>
+		<default>Por onde andou?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Por aí.</default>
@@ -267,8 +271,11 @@
 	<talk character="Kat">
 		<default>Deve saber. Não fique preocupado, confiamos nela.</default>
 	</talk>
+	<talk character="Derik">
+		<default>A dela não é tão menos óbvia assim.</default>
+	</talk>
 	<teller>
-		<default>Ele encosta-a na parede e tenta beijá-la, mas ela vira o rosto.</default>
+		<default>Ele olha para Kat. Toca o rosto dela. Tenta beijá-la. Ela vira o rosto.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Ainda tá brava comigo?</default>
@@ -299,11 +306,11 @@
 	</talk>
 	<talk character="Helene">
 		<default>Ela morreu!</default>
-		<teller>Helene fala e percebe que deu mancada</teller>
+		<teller>ela se cala, baixa a cabeça</teller>
 		<default>Desculpa.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Se quer só uma noite, procura alguém parecido comigo, cabelo preto e olhos cinzas... Conhece?</default>
+		<irony>Se quer só uma noite, procura alguém parecido comigo, cabelo preto e olhos cinzas... Conhece?</irony>
 	</talk>
 	<teller>
 		<default>Angely sai dali. Entra na casa e encontra Mel.</default>
@@ -324,7 +331,7 @@
 		<default>É meu irmão, não posso deixar ele ir sozinho.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu tenho vinte e dois anos, só estou avisando pra se procurarem aqui.</default>
+		<default>Eu tenho vinte e dois anos, só estou avisando pra não me procurarem.</default>
 	</talk>
 	<talk character="Dancan">
 		<default>Acho que ele sabe se cuidar.</default>
@@ -348,28 +355,10 @@
 		<default>Mas amanhã temos que viajar e...</default>
 	</talk>
 	<teller>
-		<default>Ela vai soltar o próprio braço e Dancan segura mais forte e puxa ela para si, beijando-a. Angely pega sua moto e vai embora. Mais tarde um pouco...</default>
+		<default>Ela vai soltar o próprio braço e Dancan segura mais forte e puxa ela para si, beijando-a. Angely pega sua moto e vai embora.</default>
 	</teller>
-	<talk character="Kat">
-		<default>Derik, eu quero ir pra casa.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Fica só mais um pouquinho...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Melhor não.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Melhor?</default>
-	</talk>
 	<teller>
-		<default>Kat pega um copo d’água e despeja sobre Derik.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Então, você me leva ou vou sozinha?</default>
-	</talk>
-	<teller>
-		<default>De madrugada, Edmont chega em casa. Angely está acordado.</default>
+		<first>De madrugada, Edmont chega em casa. Angely está acordado.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Não conseguiu dormir?</default>
@@ -408,7 +397,7 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>De manhã...</default>
+		<first>De manhã, os quatro estão no quarto de Edmont.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Acorda!</default>
@@ -432,7 +421,7 @@
 		<default>Tá bom!</default>
 	</talk>
 	<teller>
-		<default>Edmont se levanta, se arruma e eles vão ao aeroporto. No avião...</default>
+		<first>No avião, estão sentados Kat, Edmont, Angely e Mel, nesta ordem.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Primeiro Itália, Portugal e...</default>
@@ -480,13 +469,9 @@
 		<default>Eu falei com a Dara e ela me prometeu que vai ficar de olho nele.</default>
 	</talk>
 	<teller>
-		<default>Kat olha pela janela e vê algo estranho. Ela está sentada do lado de Edmont.</default>
+		<default>Kat encosta na poltrone. Mel coloca fones de ouvido. Angely recosta para traz. Kat olha pela janela. Vira para frente, assustada. Fecha os olhos, respira fundo e olha pela janela de novo.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Calma, Katerine, não é o que está vendo...</default>
-		<teller>ela olha de novo</teller>
-		<default>Não, devo estar muito nervosa.</default>
-		<teller>ela fecha os olhos, respira fundo e depois olha de novo</teller>
 		<default>Droga!</default>
 	</talk>
 	<talk character="Angely">
@@ -519,9 +504,6 @@
 	<talk character="Edmont">
 		<default>Meu cinto tá preso!</default>
 	</talk>
-	<talk character="Angely">
-		<default>Novidade: os nossos também!</default>
-	</talk>
 	<teller>
 		<default>Mel e Angely desmaiam.</default>
 	</teller>
@@ -529,15 +511,12 @@
 		<default>Que é isso???</default>
 	</talk>
 	<talk character="Kat">
-		<default>Você não bebeu, estava dormin...</default>
+		<default>Você não comeu nada, estava dormin...</default>
 	</talk>
 	<teller>
-		<default>Kat desmaia também. Edmont rasga o cinto e tenta acordar os outros, em vão. Corre até a cabine. Não há piloto nem co-piloto.</default>
+		<default>Kat desmaia também. Edmont pega uma adaga da perna e corta o cinto. Tenta acordar os outros, em vão. Corre até a cabine. Não há piloto nem co-piloto.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Legal...</default>
 	</talk>
-	<teller>
-		<default>Caem num lago.</default>
-	</teller>
 </story>
