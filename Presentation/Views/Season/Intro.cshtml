@@ -1,0 +1,22 @@
+﻿@model Presentation.Models.SeasonIndexModel
+
+@{
+    ViewBag.Title = "MEAK";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach(var message in Model.Messages)
+{
+    <div class="message">
+
+        <p class="title">@message.Title</p>
+
+        @foreach(var line in message.Lines)
+        {
+            <p>@line</p>
+        }
+
+        <p class="sign">@message.Date.ToString("yyyy-MM-dd")</p>
+
+    </div>
+}

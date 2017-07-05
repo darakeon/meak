@@ -16,12 +16,14 @@ namespace Presentation.Controllers
         #region INIT
         private Paths paths;
         private EpisodeXML episodeXML;
+        private MessageXML messageXML;
         
         protected override void Initialize(RequestContext requestContext)
         {
             base.Initialize(requestContext);
 
             episodeXML = new EpisodeXML(Server);
+            messageXML = new MessageXML(Server);
 
             var xmlPath = episodeXML.PathXML;
             var cssPath = Server.MapPath("~/Assets/css");
@@ -47,12 +49,12 @@ namespace Presentation.Controllers
                                     {
                                         Is = !String.IsNullOrEmpty(returnUrl),
                                         ReturnUrl = returnUrl
-                                    }
+                                    },
+
+                                Messages = messageXML.GetAll()
                             };
 
-            var introNum = new Random().Next(1, 3);
-
-            return View("Intro" + introNum, model);
+            return View("Intro", model);
         }
 
         private ActionResult episodes(String seasonID)

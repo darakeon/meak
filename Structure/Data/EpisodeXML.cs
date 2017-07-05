@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Configuration;
 using System.IO;
-using System.Linq;
 using System.Web;
 using Structure.Entities;
 using Structure.Enums;
@@ -60,7 +58,7 @@ namespace Structure.Data
         
         private void setXMLPath(HttpServerUtilityBase server)
         {
-            var folder = ConfigurationManager.AppSettings["Path"];
+            var folder = Config.StoriesPath;
 
             if (folder == null)
                 throw new Exception("XML Path not configured.");

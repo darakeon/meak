@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Web.Mvc;
 using Presentation.Models;
-using System.Configuration;
 using Ak.MVC.Authentication;
+using Structure.Helpers;
 
 namespace Presentation.Controllers
 {
@@ -10,8 +10,8 @@ namespace Presentation.Controllers
     {
         public ActionResult LogOn(BaseModel model, String returnUrl)
         {
-            var realLogin = ConfigurationManager.AppSettings["login"];
-            var realPass = ConfigurationManager.AppSettings["pass"];
+            var realLogin = Config.Login;
+            var realPass = Config.Pass;
 
             var typedLogin = model.LogOn.Login;
             var typedPass = model.LogOn.Password;
