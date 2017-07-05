@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="07" scene="e">
 	<teller>
-		<default>Angely acaba encontrando Dara num depósito de armas.</default>
+		<default>Angely acaba encontrando Dara em uma loja, onde há arcos e flechas.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Que você tá fazendo aqui?</default>
@@ -58,7 +58,7 @@
 		<default>Essa voz... De novo!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Que voz, Dara???</default>
+		<default>Que voz, Dara?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Não tá ouvindo?</default>
@@ -66,14 +66,17 @@
 	<talk character="Angely">
 		<default>Não tem voz nenhuma. Vamos embora daqui...</default>
 	</talk>
+	<teller>
+		<default>Dara vai até outra pessoa.</default>
+	</teller>
 	<talk character="Dara">
-		<default>Ei, você, não tá ouvindo uma voz?...</default>
+		<default>Ei, você, não tá ouvindo uma voz?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Dara, pára, não tem voz nenhuma!</default>
 	</talk>
 	<teller>
-		<default>Eles saem do depósito e Angely leva ela em casa. 4:00.</default>
+		<default>Eles saem e Angely leva ela em casa. 4:00.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Eu não quero voltar lá pra dentro.</default>
@@ -118,7 +121,7 @@
 		<default>Dara entra em casa. Angely pega o telefone celular e liga pra Mel. Depois pra Edmont. Eles voltam pra casa. Kat fica pensando em como falar com Edmont.</default>
 	</teller>
 	<talk character="Agatha">
-		<default>Kat! Kat! Não finge que não tá ouvindo. Derik tá aqui...</default>
+		<out>Kat! Kat! Não finge que não tá ouvindo. Derik tá aqui...</out>
 	</talk>
 	<teller>
 		<default>Kat vai até a sala.</default>
