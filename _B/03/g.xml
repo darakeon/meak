@@ -1,52 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="03" scene="g">
 	<teller>
-		<default>Zenon se lembra de Alan contando do caso. "Acabei perdendo Estela por pensar com a cabeça errada", era o que ele dizia, com voz de lamento.</default>
+		<default>3h da manhã. Ouro, Prata e Bronze entram na sala. Soraia e Fábio se levantam do banco. Mel se levanta também. Anda até o banco em que Alan dormia, chuta o banco e continua na direção da porta, se aproximando das outras pessoas. Alan levanta bruscamente.</default>
 	</teller>
-	<talk character="Alan">
-		<default>Peraí, por quê tô me explicando com você???</default>
-	</talk>
-	<talk character="Zenon #">
-		<default>Porque vou morrer e talvez esteja enxergando as coisas mais claramente.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Então aproveite os seus últimos momentos de vida pra refletir, de preferência calado.</default>
-	</talk>
-	<teller>
-		<default>19/02 (quarta), 3:00. Todos adormecem, menos Zenon. Os três juízes chegam.</default>
-	</teller>
-	<talk character="Prata">
-		<default>Se fôssemos vampiros tentando resgatar Zenon, estariam todos fritos.</default>
-	</talk>
-	<teller>
-		<default>Olham em volta, inconformados. O Ouro joga um banco no chão, todos acordam.</default>
-	</teller>
-	<talk character="Bronze">
-		<irony>Que bom que estão atentos, assim sabemos que podemos confiar prisioneiros perigosos a vocês!</irony>
-	</talk>
 	<talk character="Alan">
 		<default>Olha, me permitiram...</default>
 	</talk>
-	<talk character="Ouro">
-		<default>Nós sabemos.</default>
+	<talk character="Bronze">
+		<default>Lo sabemos.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>E o que decidiram?</default>
 	</talk>
 	<talk character="Prata">
-		<default>Culpado. Ainda quer o sol? Se preferir matá-lo você mesma...</default>
+		<default>Culpa. Todavía quiere el sol? Si prefiere matarlo a sí mismo ...</default>
+		<translate>Culpa. Ainda quer o sol? Se preferir matá-lo você mesma...</translate>
 	</talk>
 	<talk character="Soraia">
 		<default>Sol.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não podem fazer isso! Ele...</default>
+		<default>Não podem fazer isso... Zenon...</default>
 	</talk>
 	<talk character="Zenon #">
 		<default>Mel, esquece.</default>
 	</talk>
 	<teller>
-		<default>Mel se vira pra Zenon.</default>
+		<default>Mel olha pra Zenon.</default>
 	</teller>
 	<talk character="Mel">
 		<screamed>Esquecer?!</screamed>
@@ -55,13 +35,13 @@
 		<default>Eles não vão me liberar, eu mereço isso.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mas você podia ajudar, você podia...</default>
+		<default>Você podia ajudar.</default>
 	</talk>
 	<talk character="Zenon #">
 		<default>Não, Melody. Estou tendo toda a confiança que pedi, você sabe disso.</default>
 	</talk>
 	<teller>
-		<default>Ela vai até a jaula. Depois olha pra todos. Em outro lugar, Ang encontra uma criança.</default>
+		<first>Ang encontra uma criança.</first>
 	</teller>
 	<talk character="Ang">
 		<default>É você, não é?</default>
@@ -70,10 +50,10 @@
 		<default>Eu o que?</default>
 	</talk>
 	<talk character="Ang">
-		<default>A filha de Lish com Aléxis.</default>
+		<default>A criança de Lish com Aléxis.</default>
 	</talk>
 	<talk character="Diamante">
-		<default>Concebida quando Lish achou que Aléxis também tivesse se arrependido de criar o que criou. Os caçadores me chamam de Diamante.</default>
+		<default>Concepção quando Lish achou que Aléxis também tivesse se arrependido de criar o que criou. O Grupo me chama de Diamante.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Sabe do caso de Zenon?</default>
@@ -82,100 +62,97 @@
 		<default>Sei de tudo que se passa entre caçadores e vampiros no mundo. Falando nisso, você não é humano.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Conhece os três bruxos mais poderosos que existem?</default>
+		<default>Conhece Kash, Yads e Wige?</default>
 	</talk>
 	<talk character="Diamante">
-		<default>Prevêem o futuro e não dizem a ninguém.</default>
+		<default>Sabem muitas coisas que não dizem a ninguém.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Não exatamente.</default>
 	</talk>
 	<talk character="Diamante">
-		<default>Então sabe algo sobre o futuro de Zenon.</default>
+		<default>Então sabe algo sobre Zenon.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Se ele não fritar antes.</default>
+		<default>Sei porque Mel sente que Zenon pode ajudar. Se tirarmos de lá antes do sol aparecer.</default>
 	</talk>
 	<talk character="Diamante">
 		<default>Diga.</default>
 	</talk>
 	<teller>
-		<default>5:00 horas. Mel está perto da jaula, sentada, pensando num modo de livrar Zenon disso. Os outros montam guarda enquanto o sol não nasce. Ang chega com a Diamante.</default>
+		<first>5h da manhã. Mel sentou-se junto a gaiola. Ang chega com Diamante.</first>
 	</teller>
 	<talk character="Ouro">
+		<default>No tiene por qué haber sido, tenemos...</default>
 		<default>Não precisava ter vindo, nós já...</default>
 	</talk>
 	<talk character="Diamante">
-		<default>Julgaram o que queriam e iam fritá-lo por isso.</default>
+		<default>Julgaram o que viam e iam fritar Zenon por isso.</default>
 	</talk>
 	<teller>
-		<default>Mel se levanta, com alguma esperança no olhar. Zenon olha pra Angely.</default>
+		<default>Mel se levanta. Zenon olha pra Angely.</default>
 	</teller>
 	<talk character="Prata">
-		<default>Não julgamos errado, ele é um dos piores...</default>
+		<default>No consideramos mal, es uno de los peores...</default>
+		<translate>Não julgamos errado, ele é um dos piores...</translate>
 	</talk>
 	<talk character="Diamante">
-		<default>Foi. Os três bruxos fizeram uma previsão pra ele, e não é fritar aqui. Melhor tirarmos ele, pra um lugar coberto.</default>
+		<default>Foi. Kyw têm informação sobre Zenon, e não deve fritar aqui. Melhor tirarmos para um lugar coberto.</default>
 	</talk>
 	<teller>
-		<default>Todos olham pra Diamante por um momento. O Ouro pega a chave e Mel arranca das mãos dele. Abre o cadeado. Levam Zenon dali. Mel vai ir junto com eles, mas Soraia segura o braço dela.</default>
+		<default>Todos olham para Diamante por um momento. Ouro pega a chave e Mel pega de suas mãos. Abre o cadeado. Diamante sai, Ouro, Prata e Bronze seguem. Fábio olha para Zenon, então para Angely e sai. Alan meneia a cabeça para os lados e sai também. Zenon sai. Ang sai também.</default>
 	</teller>
 	<talk character="Soraia">
 		<default>Se não quiser esperar até amanhã, melhor ficarmos até o sol nascer e quebrar as pulseiras. Só quebram no nascer.</default>
 	</talk>
 	<teller>
-		<default>Mel olha pro horizonte.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Pensar que isso parece tão normal pra nós e pra eles...</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Bom, pular de prédios de dez andares é normal pra eles.</default>
-	</talk>
-	<teller>
-		<default>Silêncio.</default>
+		<default>Mel olha para o horizonte.</default>
 	</teller>
 	<talk character="Soraia">
-		<default>Pode me responder uma coisa antes dessa pulseira quebrar, pra eu ter certeza que tá falando a verdade...</default>
+		<default>Pode me responder uma coisa antes dessa pulseira quebrar, pra eu ter certeza que tá falando a verdade?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Fale.</default>
+		<default>Fala.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Você ama ele, não é?</default>
 	</talk>
 	<teller>
-		<default>Mel fica calada. Pára um pouco e pensa.</default>
+		<default>Ang volta até perto da porta. Mel olha para o chão. Olha para a pulseira. Olha para o horizonte.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Não.</default>
 	</talk>
 	<teller>
-		<default>Nasce o sol. As pulseiras se queimam. Elas descem. Encontram Fábio, os três juízes, Zenon e a Diamante. Ang chega atrás delas.</default>
+		<default>O sol, aos poucos, aparece no horizonte. Com os primeiros raios, as pulseiras se desfazem nos braços. Soraia e Mel vão até onde estão as outras pessoas.</default>
 	</teller>
 	<talk character="Prata">
-		<default>Tá, agora, pode por gentileza me explicar por quê não podemos matá-lo?</default>
+		<default>Por qué no podemos matarlo?</default>
+		<translate>Por que não podemos matá-lo?</translate>
 	</talk>
 	<talk character="Diamante">
-		<default>No inferno ele vai ser apenas mais um. Se ele está disposto à tentar ser desculpado aqui, deixe-o apenas tentar.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Ele já usou esse truque...</default>
-	</talk>
-	<talk character="Diamante">
-		<default>Sei que ver ele vivo e solto não é exatamente agradável pra você, Fábio, mas dessa vez não é mentira. Apenas contente-se com isso.</default>
+		<default>No inferno vai ser apenas mais um. Se quer tentar seu perdão aqui, deixe apenas tentar.</default>
 	</talk>
 	<teller>
-		<default>Os três juízes saem.</default>
+		<default>Ouro, Prata e Bronze saem.</default>
 	</teller>
+	<talk character="Fábio">
+		<default>Já usou esse truque...</default>
+	</talk>
 	<talk character="Diamante">
-		<default>Vai ficar de olho nele?</default>
+		<default>Sei que ver Zenon em vida e livre não é exatamente agradável pra você, Fábio, mas dessa vez não é mentira. Você vai saber, no momento certo, o porquê. E não vai se arrepender do que fez.</default>
+	</talk>
+	<talk character="Diamante">
+		<default>Vai ficar de olho em Zenon?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se ele matar alguém, eu mesma o entrego.</default>
+		<default>Se matar alguém, venho entregar pessoalmente.</default>
+	</talk>
+	<talk character="Diamante">
+		<default>Pelo que soube sobre Edmont, de fato não duvido.</default>
 	</talk>
 	<teller>
-		<default>Fábio e Soraia saem.</default>
+		<default>Diamante sai. Fábio olha para Mel. Sai. Soraia encara Zenon. Olha para Mel. Para Ang. Segue Fábio.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Agora está sob minha custódia.</default>
@@ -184,25 +161,34 @@
 		<default>Vou ter que ir pelos esgotos.</default>
 	</talk>
 	<teller>
-		<default>Ang sai e volta com um casaco. Zenon veste o casaco e sai da sala.</default>
+		<default>Ang sai. Volta com um sobretudo, entrega a Zenon. Zenon veste e sai da sala.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Não respondeu sinceramente pra Soraia.</default>
+		<default>Não respondeu sinceramente para Soraia.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu estava com a pulseira, como poderia...</default>
+		<default>Tava com a pulseira, como poderia...</default>
 	</talk>
 	<talk character="Ang">
-		<default>Deve ter lembrado deles dizendo que evita que qualquer humano minta. Você é atlante, não é exatamente humana, apesar das grandes semelhanças.</default>
+		<default>Deve ter lembrado de dizerem que evita que qualquer criatura humana minta. Você é criatura atlante, não humana, apesar das grandes semelhanças.</default>
 	</talk>
+	<teller>
+		<default>Mel baixa a cabeça.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Eu sei que isso foi desonesto, mas só lembrei quando ela me perguntou aquilo... Eu não sabia a resposta, não poderia dizer isso nem poderia dizer que sim, então...</default>
+		<default>Eu sei que isso foi desonesto, mas só lembrei quando ela me perguntou aquilo...</default>
+	</talk>
+	<teller>
+		<default>Mel olha para Angely.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Eu não sabia a resposta, se dissesse isso, Soraia deduziria um sim.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Tudo bem. Era só pra saber.</default>
 	</talk>
 	<talk character="Zenon #">
-		<default>Vocês não vêm, não?!</default>
+		<out>Vocês não vêm, não?!</out>
 	</talk>
 	<teller>
 		<default>Ang e Mel saem.</default>
