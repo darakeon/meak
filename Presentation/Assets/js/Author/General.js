@@ -6,6 +6,8 @@ $(document).ready(function () {
     SaveKey();
     SaveButton();
 
+    $("form").reset();
+
     $(window).resize(function () {
         AjustEditTextSize();
     });
