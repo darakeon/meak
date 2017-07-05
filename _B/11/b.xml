@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="11" scene="b">
 	<teller>
-		<default>Rob dá um beijo no rosto de Estela e sai. Os dois continuam andando.</default>
+		<default>Rob dá um beijo no rosto de Estela e sai. Estela e Derik continuam andando.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Meu primeiro beijo foi com um gay, porque ele estava possuído.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Não foi Angely?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Não conta.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Podia ser pior.</default>
@@ -13,7 +19,7 @@
 		<default>Derik...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Esqueceu? Ele queria outra coisa também. Aí ia ser o seu primeiro beijo, a sua primeira vez e seu primeiro lindo bebê!</default>
+		<default>Esqueceu? Queria outra coisa também. Aí ia ser o seu primeiro beijo, a sua primeira vez e seu primeiro lindo bebê!</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não é porque não comi bosta que preciso ficar feliz de ter engolido poeira!</default>
@@ -21,14 +27,11 @@
 	<talk character="Derik">
 		<default>Tudo bem, não tento mais ajudar!</default>
 	</talk>
-	<talk character="Estela">
-		<default>Desculpe.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tá desculpada.</default>
-	</talk>
 	<teller>
-		<default>01/06 (domingo). 12:00. Estela e Derik estão na biblioteca.</default>
+		<default>CORTAR AQUI</default>
+	</teller>
+	<teller>
+		<default>Dia seguinte. Sol a pino. Estela e Derik estão na biblioteca.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Não vai mesmo voltar na escola?</default>
@@ -46,7 +49,7 @@
 		<default>Isso, provoca!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não, tô perguntando se você não fala com ele, pareciam amigos...</default>
+		<default>Não, tô perguntando se você não fala com Rob, parecia...</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não é a mesma coisa... Droga, é a Kat. Não pode se tornar... Aquilo.</default>
@@ -55,19 +58,19 @@
 		<default>Não sei mesmo o que fazer.</default>
 	</talk>
 	<teller>
-		<default>Mel chega no quarto de Fábio. O olha, querendo falar algo que não consegue.</default>
+		<first>Mel chega no quarto de Fábio. Olha fixamente para Fábio.</first>
 	</teller>
 	<talk character="Fábio">
 		<default>Espero que isso não seja olhar de...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não estou apaixonada.</default>
+		<default>Eu sei que você não curte, sossega.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Isso é ótimo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tô pensando que você pode ser um Tioure.</default>
+		<default>Tô pensando que você pode ser Tioure.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Isso quer dizer que...?</default>
@@ -83,7 +86,11 @@
 	</talk>
 	<talk character="Fábio">
 		<default>Ah.</default>
-		<teller>silêncio</teller>
+	</talk>
+	<teller>
+		<default>Silêncio.</default>
+	</teller>
+	<talk character="Fábio">
 		<default>Não creio que esteja me chamando de senhor verdade.</default>
 	</talk>
 	<talk character="Mel">
@@ -93,22 +100,16 @@
 		<default>Explique-se.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não pode mentir e lê as mentes de quem mentir perto de você, quem estiver pensando em algo que está escondendo.</default>
+		<default>Não pode mentir e lê as mentes de quem mentir perto de você.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Aqui chamamos isso de anjo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não, não chamam. São atlantes especiais, não anjos.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Há um teste?</default>
+		<default>Tem algum teste?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Sabe a planta que Beatrice e Zenon têm?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>A tal Daxlidan, que substitui a necessidade de sangue deles?</default>
+		<default>A tal Daxlidan, que substitui sangue?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Isso se fizer chá. A fervura elimina as toxinas que matam outros seres e deixam os vampiros bem debilitados.</default>
@@ -117,99 +118,97 @@
 		<default>Deixe-me adivinhar, não me matariam?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se eu estiver certa, você só morre se for no dia e hora do seu nascimento. Mas a planta, se você comer uma folha, não vai nem morrer e reviver como aconteceu agora, simplesmente não vai morrer.</default>
+		<default>Se eu tiver razão, você só morre se for no dia e hora do seu nascimento. Mas a planta, se você comer uma folha, não vai nem morrer e reviver como aconteceu agora, simplesmente não vai morrer.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Não teria que ser atlante pra isso?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pode parecer estúpido, mas já colocou saliva na sua mão?</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Toda criança coloca a mão na boca, isso aqui</default>
-		<teller>se refere á mancha na mão</teller>
-		<default>só aparece depois do primeiro contato com a saliva, pode acontecer até dentro da barriga...</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Sei lá, não tem como lembrar...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Da parte que você lembra...?</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Não lembro de ficar lambendo minha mão. Tem gente que treina beijo na mão, eu sei, mas...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se você tinha essa cara desde pequeno, duvido muito que tenha te faltado com quem treinar.</default>
-	</talk>
-	<teller>
-		<default>Fábio fica vermelho.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Desculpe.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Deve ter acontecido. Como você disse toda criança normal coloca a mão na boca...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por via das dúvidas...</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Quê? Quer que eu lamba minha mão?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se quiser, pode fazer de costas.</default>
-	</talk>
-	<teller>
-		<default>Ele vai até o banheiro e lava as mãos. Volta e passa a língua na mão direita. Nada. Mel o encara.</default>
-	</teller>
-	<talk character="Fábio">
-		<default>Que foi agora?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Essas almas entram em corpos de atlantes por inteiro.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Direita que é só meio-atlante, né?</default>
-	</talk>
-	<talk character="Mel">
 		<default>Sim.</default>
 	</talk>
+	<talk character="Fábio">
+		<default>Ter a marca na mão então?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Nem sempre é na mão.</default>
+	</talk>
+	<talk character="Fábio">
+		<default>E no caso de Tioure...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Pode tirar as meias?</default>
+	</talk>
 	<teller>
-		<default>Fábio suspira fundo e passa a língua nas costas da outra mão. Avermelha. Logo aparece um mapa igual ao de Mel.</default>
+		<default>Fábio franze a testa. Senta na cama e tira as meias. Encolhe os ombros e volta.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Vai ficar mais estranho.</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Mais?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Pode passar saliva na mão e passar no pé?</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Hein?!</default>
+	</talk>
+	<talk character="Mel">
+		<default>Tem um feitiço, pra esconder. Acaba com saliva.</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Eu leio mesmo sua mente se estiver mentindo? Cê tá mentindo e testando pra ver se eu leio?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Nunca aconteceu de ler?</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Sempre achei que tinha boa intuição.</default>
+	</talk>
+	<teller>
+		<default>Fábio passa a língua nos dedos e passa no peito dos pés. Avermelha. Aparece o mapa. Fábio suspira.</default>
 	</teller>
 	<talk character="Fábio">
 		<default>Eu não sabia que tinha sido uma criança anormal.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Também não existem muitos atlantes com a sua opção.</default>
+		<default>Também não existem muitos atlantes com seu gosto.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Quer dizer gays?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, quero dizer que gostam de um sexo só.</default>
+		<default>Monossexuais.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Legal, nem na minha espécie sou normal.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você tomou com uma estaca no coração e tá aqui, firme e forte. Esperava ser normal pra alguma espécie?</default>
+		<default>A gente não costuma ficar peneirando pessoas.</default>
 	</talk>
+	<talk character="Fábio">
+		<default>Não é que eu tenha gluma coisa contra mulheres...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Tava querendo dizer que o que eu disse foi um dado, não um julgamento. Não sou eu quem tenho que escolher com quem as outras pessoas trepam. É uma boa você perguntar pra sua família.</default>
+	</talk>
+	<teller>
+		<default>Fábio olha para a janela.</default>
+	</teller>
 	<talk character="Fábio">
 		<default>Acho que vou ter que voltar a falar com meu pai.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Isso é tão ruim?</default>
 	</talk>
+	<teller>
+		<default>Fábio olha para Mel.</default>
+	</teller>
 	<talk character="Fábio">
-		<default>Vive tentando me tirar do Grupo. Chegou a dizer que eu estava aliado a Zenon quando ele matou minha irmã.</default>
+		<default>Vive tentando me tirar do Grupo. Chegou a dizer que eu estava com Zenon quando Zenon matou minha irmã.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pode falar com sua mãe sem que ele saiba.</default>
+		<default>Mãe?</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Ela se matou. Se alguém pode me dizer algo, é ele.</default>
@@ -227,31 +226,40 @@
 		<default>Conservadorismo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então ele não deve ser atlante.</default>
+		<default>Então não deve ser atlante. Ao menos não de criação atlante.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Sei lá...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Isso implica que talvez você não seja filho dele. Tem homem que não aceita esse tipo de...</default>
+		<default>Talvez a semente que te gerou não seja dessa pessoa. E não tenha aceitado isso direito.</default>
 	</talk>
+	<teller>
+		<default>Fábio levanta da cama e vai até a janela.</default>
+	</teller>
 	<talk character="Fábio">
-		<default>Quando eu era pequeno, ele me amava! Era o filho prodígio, o melhor em tudo. E eu era mesmo. Ele me treinava. Até descobrir que eu era gay. Daí começou a treinar minha irmã. E deu no que deu.</default>
+		<default>Quando eu era pequeno, ele me amava! Era o filho prodígio, o melhor em tudo! E eu era mesmo. Ele me treinava.</default>
+	</talk>
+	<teller>
+		<default>Fábio vira para Mel.</default>
+	</teller>
+	<talk character="Fábio">
+		<default>Até descobrir que eu sou gay. Daí começou a treinar minha irmã. E deu no que deu.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você também o culpa.</default>
+		<default>Você também culpa essa pessoa.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Ela não tinha vocação pra isso, nunca gostou. Não conseguiu atirar no Zenon, não tinha coragem de tirar uma vida, mesmo sendo a dele. Ela sim era um anjo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vai ter que falar com ele.</default>
+		<default>Vai ter que quebrar o silêncio.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Pra saber se minha mãe era atlante? Que diferença isso faz?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, pra saber de tudo, o que aconteceu pra isso ainda estar escondido, se ela era atlante, quem era seu pai...</default>
+		<default>Não, pra saber de tudo, o que aconteceu pra isso ainda estar escondido, se era atlante... Talvez haja outra pessoa. Lá ninguém tinha obrigação de criar uma criança, crianças não eram vistas como uma espécie de punição. Mas, sendo aqui, pode ser que alguém tenha te roubado. Não seria o primeiro caso.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Fale logo do tal teste.</default>
@@ -277,14 +285,26 @@
 	<talk character="Mel">
 		<default>Se não for, vai ficar o resto da vida aqui.</default>
 	</talk>
+	<teller>
+		<default>Fábio baixa a cabeça.</default>
+	</teller>
 	<talk character="Fábio">
-		<default>Desculpa, não achei que tava incomodando aqui... Nem pensei nisso.</default>
+		<default>Desculpa, não achei que tava incomodando aqui... Nem pensei nisso...</default>
 	</talk>
+	<teller>
+		<default>Mel vai até Fábio e levanta o rosto dele.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Não está. Mas tem uma casa, amigos, não vai querer ficar aqui, vai?</default>
+		<default>Não tá.</default>
+	</talk>
+	<teller>
+		<default>Mel tira a mão do rosto de Fábio.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Mas tem uma casa, amizades, não vai querer ficar aqui, vai?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Na verdade, eu praticamente não tenho casa, sou ambulante.</default>
+		<default>Na verdade, eu praticamente não tenho casa, sou meio nômade.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Se não te incomoda, tudo bem, não vamos recusar uma ajuda com certeza!</default>
@@ -293,46 +313,61 @@
 		<default>Mel sai. Volta.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Tá bom. Eu tô mesmo preocupada é com o atrito entre você e Zenon.</default>
+		<default>Tá. Minha preocupação real é com o atrito entre você e Zenon.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Vou me esforçar.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu sei que não devia perguntar isso, mas o que exatamente aconteceu com a sua irmã?</default>
+		<default>Eu sei que não devia perguntar isso, mas o que exatamente aconteceu?</default>
 	</talk>
+	<teller>
+		<default>Fábio senta na cama.</default>
+	</teller>
 	<talk character="Fábio">
-		<default>Meu pai tentou treiná-la, Zenon ficou sabendo, veio atrás dela. Ela não conseguiu atirar. Ele a seduziu. Ficaram algum tempo nisso.</default>
+		<default>Meu pai tentou treinar minha irmã. Zenon ficou sabendo, veio atrás dela. Ela não conseguiu atirar. Ele seduziu ela. Ficaram algum tempo nisso.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Sexo?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Não foi só uma noite. Ele sempre aparecia, dizendo que estava apaixonado. Um dia, ela veio atrás de mim e contou. Pior que eu acreditei nele. Ele chegou, falei com ele pessoalmente... Eu me sinto mesmo patético agora.</default>
+		<default>Não foi só uma noite. Ele sempre aparecia, dizendo que estava apaixonado. Um dia, ela veio atrás de mim e contou. Pior que eu acreditei nele. Ele chegou, falei com ele... Fui patético.</default>
 	</talk>
 	<talk character="Mel">
 		<default>E como acabou?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Ele esperou ela dormir e levou Virgine pro quarto dela. Não sei exatamente como aconteceu.</default>
+		<default>Esperou ela dormir e levou Virgine pro quarto dela. Não sei exatamente como aconteceu.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Como sabe dessa parte? Ela deixou algum indício?</default>
+		<default>Como sabe dessa parte?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Além do sangue de Zenon, que tomou uma surra ali mesmo depois que eles terminaram, ela veio falar comigo. Propôs ir com ela...</default>
+		<default>Além do sangue de Zenon, que tomou uma surra ali mesmo depois que eles terminaram, ela veio falar comigo. Propôs ir com ela.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Por você também ser gay.</default>
+		<default>Depois de matar alguém que você amava?!</default>
+	</talk>
+	<teller>
+		<default>Fábio se senta na cama.</default>
+	</teller>
+	<talk character="Fábio">
+		<default>Disse que o mundo não dava lugar pra quem era diferente. Que quis transformar minha irmã, pra proteger ela. Mas minha irmã, no último instante, desistiu.</default>
+	</talk>
+	<teller>
+		<default>Mel senta ao lado de Fábio.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Aí disse que estaria melhor se aceitasse ir.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Sim. Disse pra ela sair dali antes que eu a matasse. Ela não maltratou minha irmã, acredito quando ela disse que não fez nada contra a vontade, mas ainda é uma vampira assassina. Você me entende, não entende?</default>
+		<default>Sim. Eu disse pra ela sair dali antes que eu matasse ela. Ela não maltratou minha irmã, acredito quando ela disse que não fez nada contra a vontade, mas ainda é uma assassina. Você me entende, não entende?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não quer mesmo procurar seu pai?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Não. Tem outra coisa me preocupando.</default>
+		<default>Tem outra coisa me preocupando.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Fale.</default>
@@ -341,16 +376,16 @@
 		<default>Janaína. Tem uma garota que foi tirada do pai quando era muito pequena e pode ser ela.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tirada como?</default>
+		<default>Tiraram como?</default>
 	</talk>
 	<teller>
-		<default>Janaína está em casa, tomando banho. Há uma garota se vestindo no quarto.</default>
+		<first>Janaína está em casa, tomando banho. Trinity está se vestindo no quarto.</first>
 	</teller>
 	<talk character="Janaína">
 		<default>Sabe, eu tenho sorte de ter sido criada por Etos.</default>
 	</talk>
 	<teller>
-		<default>A garota termina de se vestir. Janaína sai do banheiro, de toalha.</default>
+		<default>Trinity termina de se vestir. Janaína sai do banheiro, de toalha.</default>
 	</teller>
 	<talk character="Janaína">
 		<default>Foi uma ótima criação. Mas isso que ele fez, Nit...</default>
@@ -359,10 +394,10 @@
 		<default>Tem certeza? Jana, se você gosta dele...</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Droga, ele tava comigo e sai dormindo com a primeira que aparece... Você tinha que ter visto, ele nem tentou negar.</default>
+		<default>Droga, ele tava comigo e sai dormindo com a primeira que aparece... Você tinha que ter visto, ele nem tentou negar!</default>
 	</talk>
 	<talk character="Nit">
-		<default>Tá, a decisão é sua. Espero que não pense que agourei isso!</default>
+		<default>Tá, a decisão é sua. Espero que não pense que agourei isso.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Claro que não. Já vi caso de briga de irmão, mas não acho que isso fosse acontecer entre vocês.</default>
@@ -374,7 +409,7 @@
 		<default>Se quer achar o Etos e ficar na Ilha, não ia te deixar ficar em outro lugar!</default>
 	</talk>
 	<teller>
-		<default>20:00. Beleno entra pela janela de um quarto.</default>
+		<first>Noite. Beleno entra pela janela de um quarto. Alete olha e ri.</first>
 	</teller>
 	<talk character="Alete">
 		<arrive>Que foi, com medo que te vejam?</arrive>
@@ -386,7 +421,7 @@
 		<default>Mata. Não duvido que seja capaz.</default>
 	</talk>
 	<teller>
-		<default>Ela se aproxima e o beija. Ele a afasta.</default>
+		<default>Alete se aproxima e beija Beleno. Beleno afasta Alete.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Cheiro de quantos ainda vou sentir em você?!</default>
@@ -398,16 +433,22 @@
 		<default>Quando Inês for maior...</default>
 	</talk>
 	<talk character="Alete">
-		<default>Vai me deixar? Enquanto ela não é...</default>
+		<default>Vai me deixar?</default>
 	</talk>
 	<teller>
-		<default>Alete o beija. Ouvem um choro de criança.</default>
+		<default>Alete passa a mão no rosto de Beleno.</default>
+	</teller>
+	<talk character="Alete">
+		<default>Enquanto ela não é...</default>
+	</talk>
+	<teller>
+		<default>Alete beija Beleno. Choro de criança.</default>
 	</teller>
 	<talk character="Alete">
 		<default>Que pena.</default>
 	</talk>
 	<teller>
-		<default>Ela sai, fechando a porta atrás de si. Ele joga um travesseiro na porta. Alete sorri. Vai até Inês.</default>
+		<default>Alete sai, fechando a porta atrás de si. Beleno joga um travesseiro na porta. Alete sorri. Vai até Inês.</default>
 	</teller>
 	<talk character="Alete">
 		<default>Que foi, linda? Quer ver o papai?</default>
@@ -419,23 +460,26 @@
 		<default>Olha, eles estão longe. Vai ter que chamar Beleno de papai e eu de mamãe. Já expliquei isso pra você.</default>
 	</talk>
 	<teller>
-		<default>Ela aponta a mamadeira.</default>
+		<default>Inês aponta a mamadeira.</default>
 	</teller>
 	<talk character="Alete">
 		<default>Ah, tá...</default>
 	</talk>
 	<teller>
-		<default>Alete vai até a cômoda. Beleno entra no quarto e pega Inês. Entra no banheiro e fecha a porta. Alete bate na porta.</default>
+		<default>Alete vai até a cômoda. Beleno entra no quarto e pega Inês. Entra no banheiro e fecha a porta. Alete vai até a porta e bate na porta com força.</default>
 	</teller>
 	<talk character="Alete">
-		<default>Que vai fazer??? Jogá-la na privada e dar descarga??? Devolva-a aqui já, seu louco!</default>
+		<screamed>Que vai fazer??? Jogar ela na privada e dar descarga??? Devolve ela aqui já, seu louco!!!</screamed>
 	</talk>
 	<teller>
-		<default>Ouve-se um barulho estridente. Alete tapa os ouvidos. Beleno sai com uma criança aparentando cinco anos no colo e entrega para Alete, indo depois para o outro quarto.</default>
+		<default>Barulho estridente. Alete tapa os ouvidos. Beleno sai com uma criança no colo, com uma fralda meio rasgada. Entrega para Alete. Vai para o outro quarto.</default>
 	</teller>
 	<talk character="Beleno">
-		<screamed>Agora pode conversar com ela à vontade!</screamed>
+		<out>Agora pode conversar com ela a vontade!</out>
 	</talk>
+	<teller>
+		<default>Alete olha para a criança.</default>
+	</teller>
 	<talk character="Alete">
 		<default>Inês?</default>
 	</talk>
@@ -443,24 +487,48 @@
 		<default>Mamãe?</default>
 	</talk>
 	<talk character="Alete">
-		<default>Pode ser.</default>
+		<default>Pode ser...</default>
+	</talk>
+	<teller>
+		<default>Alete olha para a porta.</default>
+	</teller>
+	<talk character="Alete">
 		<screamed>Como fez isso???</screamed>
 	</talk>
 	<talk character="Beleno">
-		<screamed>Posso fazer apenas comigo e com ela, o quanto quiser, é só ter alguém que já tenha passado pela fase para a qual quero ir ou levá-la. Agora resolve isso e vem pra cá!</screamed>
+		<out>Posso fazer apenas comigo e com ela, o quanto quiser, é só ter alguém que já tenha passado pela fase para a qual quero ir ou levar ela. Agora resolve isso e vem pra cá!</out>
 	</talk>
+	<teller>
+		<default>Alete olha para Inês.</default>
+	</teller>
 	<talk character="Alete">
-		<default>Eu devia ir aprendendo a cuidar de você, enquanto você cresce. Tá,</default>
-		<teller>Alete coloca Inês no chão</teller>
-		<default>pode me dizer o que quer?</default>
+		<default>Eu devia ir aprendendo a cuidar de você, enquanto você cresce...</default>
+	</talk>
+	<teller>
+		<default>Alete coloca Inês no chão. Tira a fralda e joga no lixo. Volta.</default>
+	</teller>
+	<talk character="Alete">
+		<default>Ainda bem que não tava suja. Quantos anos cê acha que tá?</default>
+	</talk>
+	<teller>
+		<default>Inês abre a mão esquerda.</default>
+	</teller>
+	<talk character="Alete">
+		<default>Que fofo, já sabe contar! Pode me dizer o que quer?</default>
 	</talk>
 	<talk character="Inês">
 		<default>Leite.</default>
 	</talk>
 	<teller>
-		<default>Alete entrega a mamadeira para Inês. Ela coloca na boca, bebe um pouco e tira da boca, com cara feia.</default>
+		<default>Alete pega a mamadeira e entrega para Inês. Inês pega, coloca na boca, bebe um pouco e tira da boca, franzindo o rosto.</default>
 	</teller>
 	<talk character="Alete">
-		<default>Não parece tão bom agora, né? Acho que vou chamar o Angely.</default>
+		<default>Não parece tão bom agora, né?</default>
+	</talk>
+	<teller>
+		<default>Inês balança a cabeça para os lados.</default>
+	</teller>
+	<talk character="Alete">
+		<default>Acho que vou chamar o Angely.</default>
 	</talk>
 </story>
