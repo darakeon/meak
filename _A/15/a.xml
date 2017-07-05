@@ -46,7 +46,7 @@
 		<default>Tá.</default>
 	</talk>
 	<teller>
-		<default>Dia seguinte. Íris entra em um escritório. Lokslay faz sinal para se sente. Íris puxa a cadeira e se senta.</default>
+		<first>Dia seguinte. Íris entra em um escritório. Lokslay faz sinal para se sente. Íris puxa a cadeira e se senta.</first>
 	</teller>
 	<talk character="Lokslay">
 		<default>Então, saiu da prisão à pouco tempo?</default>
@@ -90,9 +90,6 @@
 	<teller>
 		<default>Íris se levanta, aperta a mão de Lokslay. Sai, acompanhando Carl. Chega a uma sala. Uma cadeira virada para a janela. Carl dá dois toques na porta e sai, em passo rápido. Íris olha para Carl e franze a testa.</default>
 	</teller>
-	<talk character="Íris">
-		<default>Com licença...</default>
-	</talk>
 	<talk character="Rômulo">
 		<default>Mais um iniciante?</default>
 	</talk>
@@ -118,84 +115,93 @@
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Rômulo">
-		<default>Nesta empresa ninguém perde um caso. Se perder, não perde duas vezes.</default>
+		<default>Nessa empresa ninguém perde um caso. Se perder, não perde duas vezes.</default>
 	</talk>
 	<talk character="Íris">
 		<default>É, seu chefe disse que ia tomar o lugar de alguém que tinha sido demitido.</default>
 	</talk>
 	<talk character="Rômulo">
-		<default>Que fez pra impressioná-lo? Soltou algum assassino?</default>
+		<default>O que fez pra impressionar o cara? Soltou algum assassino?</default>
 	</talk>
 	<talk character="Íris">
-		<default>Não, foi um caso de um homem que fugiu com uma menor.</default>
+		<default>Não, foi um caso de um mulher que fugiu com uma menor. Até tinha assassinato, mas essa não era a parte grave.</default>
 	</talk>
 	<talk character="Rômulo">
-		<default>Juízes de menores são os mais difíceis de se vencer. Bom, melhor irmos ou vou me atrasar.</default>
+		<default>Do jeito que fala friamente, parece que já matou alguém.</default>
 	</talk>
 	<teller>
-		<default>Eles vão até o tribunal. Íris fica assistindo.</default>
+		<default>Rômulo ri.</default>
 	</teller>
-	<talk character="juiz">
+	<teller>
+		<first>Tribunal.</first>
+	</teller>
+	<talk character="Dora">
 		<default>Vamos dar continuidade ao julgamento. Defesa...</default>
 	</talk>
-	<talk character="advogado">
+	<talk character="Israel">
 		<default>A acusação chama a testemunha Clarice Fernand.</default>
 	</talk>
 	<talk character="Rômulo">
 		<hushed>Já ganhamos.</hushed>
 	</talk>
 	<teller>
-		<default>Clarice entra no tribunal. Íris, que estava perceptivelmente entediado, a olha de cima a baixo. Ela está com uma bolsa de mão e luvas. Rômulo estranha. Ela vai à seu lugar.</default>
+		<default>Clarice entra no tribunal. Íris, com o corpo solto na cadeira, se ajeita. Clarice está com uma bolsa de mão e luvas. Rômulo franze a testa. Clarice se senta na cadeira de testemunha.</default>
 	</teller>
-	<talk character="policial">
-		<default>Jura...</default>
-	</talk>
 	<talk character="Clarice">
 		<default>Só um instantinho.</default>
 	</talk>
 	<teller>
-		<default>Ela levanta e vai até Rômulo.</default>
+		<default>Clarice levanta e vai até Rômulo.</default>
 	</teller>
 	<talk character="Clarice">
 		<default>Olha, não queria ofender, mas devia ter pensado um pouco antes de fazer isso.</default>
-		<teller>ela coloca a bolsa sobre a mesa</teller>
+		<teller>coloca a bolsa sobre a mesa</teller>
 		<default>Ninguém me compra.</default>
 	</talk>
 	<talk character="Rômulo">
-		<default>Meritíssimo, ela está...</default>
+		<default>Meritíssima, ela está...</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Ah, não quer de volta? Tudo bem.</default>
 	</talk>
 	<teller>
-		<default>Clarice leva a bolsa ao juiz.</default>
+		<default>Clarice pega a bolsa. Vai até Dora e coloca na frente, na mesa de juiz.</default>
 	</teller>
 	<talk character="Clarice">
 		<default>Eu tive o cuidado de não deixar minhas impressões digitais. Depois pode mandar pra um laboratório e ver que esteve nas mãos do advogado ali.</default>
 	</talk>
 	<teller>
-		<default>Ela volta ao seu lugar.</default>
+		<default>Clarice volta a seu lugar.</default>
 	</teller>
 	<talk character="Clarice">
 		<default>Eu posso fazer uma declaração antes das perguntas? É que não sei se vão perguntar tudo o que eu preciso dizer e eu tenho certeza que, depois disso que acabei de fazer, vou estar morta daqui há alguns dias.</default>
 	</talk>
-	<talk character="juiz">
+	<teller>
+		<default>Dora arqueia as sobrancelhas.</default>
+	</teller>
+	<talk character="Dora">
 		<default>Foi ameaçada?</default>
 	</talk>
 	<talk character="Clarice">
 		<default>E precisa?</default>
 	</talk>
 	<teller>
-		<default>Ela faz o juramento. O juiz permite que ela fale, em seguida a acusação faz as perguntas. Depois, a cada pergunta de Rômulo, mais ele acaba com seu cliente.</default>
+		<default>Três horas depois.</default>
 	</teller>
 	<talk character="juiz">
 		<default>Recesso. A sentença será dada às três da tarde de hoje.</default>
 	</talk>
 	<teller>
-		<default>Íris sai atrás de Clarice.</default>
+		<default>Clarice sai da sala. Íris vai atrás. Clarice sai do tribunal. Sobe em uma moto. Coloca capacete.</default>
+	</teller>
+	<talk character="Íris">
+		<default>Clarice!</default>
+	</talk>
+	<teller>
+		<default>Clarice baixa os ombros. Abre o capacete. Vira para Íris.</default>
 	</teller>
 	<talk character="Clarice">
-		<default>Olha, eu não vou sair com você.</default>
+		<default>Não vou sair com você.</default>
 	</talk>
 	<talk character="Íris">
 		<default>E quem te disse que é isso que eu quero?</default>
@@ -205,37 +211,43 @@
 		<irony>Ainda mais quando é alguém tão discreto!</irony>
 	</talk>
 	<talk character="Íris">
-		<default>Mas não é por isso que vim atrás de você.</default>
+		<default>Tá, eu olhei. Mas não é por isso que vim atrás de você.</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Seja o que for, eu tenho que ir. Não terminei de arrumar minha mudança ainda.</default>
 	</talk>
 	<talk character="Íris">
-		<default>Mudança???</default>
+		<default>Mudança?!</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Não sou burra de ser testemunha de assassinato e continuar no país.</default>
 	</talk>
 	<teller>
-		<default>Clarice sai com a moto. Quando olha pra trás, vê Rômulo indo até Íris. Mais tarde, Íris consegue o endereço dela. No apartamento de Clarice, a campainha soa.</default>
+		<default>Clarice fecha o capacete e sai com a moto.</default>
 	</teller>
 	<talk character="Clarice">
-		<default>Tá aberta!</default>
+		<default>Pena que eu tenho que ir. Até que ela era...</default>
 	</talk>
 	<teller>
-		<default>Íris entra. Começa a procurá-la. Quando chega à cozinha, ela tenta acertá-lo com uma frigideira, mas não consegue. Ele a encosta na parede.</default>
+		<default>Clarice olha no retrovisor. Rômulo chega perto de Íris.</default>
 	</teller>
-	<talk character="Íris">
-		<default>Por que diabos...</default>
+	<talk character="Clarice">
+		<default>Velho, depois dizem que ser bi é o dobro de opções! É o dobro de encrencas! Dedo pobre do caralho...</default>
 	</talk>
 	<teller>
-		<default>Ela não o deixa terminar de falar, o chuta. Ele se levanta e ela pega uma faca.</default>
+		<first>17h. Íris toca uma campainha.</first>
+	</teller>
+	<talk character="Clarice">
+		<out>Tá aberta!</out>
+	</talk>
+	<teller>
+		<default>Íris entra. Ninguém. Espera um pouco. Vai até a cozinha. Segura o braço de Clarice, que vinha com uma frigideira. Clarice solta o próprio braço. Joga a frigideira na pia. Abre a gaveta. Íris fica olhando, com a boca entre-aberta e as sobrancelhas franzidas. Clarice pega uma faca. Íris desfranze as sobrancelhas, dá mais um passo pra trás, levanta as duas mãos espalmadas na frente do corpo.</default>
 	</teller>
 	<talk character="Clarice">
 		<default>Não vai conseguir tão fácil.</default>
 	</talk>
 	<talk character="Íris">
-		<default>Do que está falando?</default>
+		<default>Do que tá falando?</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Acha que me engana? Te vi falando com o júnior.</default>
@@ -244,40 +256,43 @@
 		<default>Júnior?!</default>
 	</talk>
 	<talk character="Clarice">
-		<default>Sabe muito bem de quem estou falando. Não tem cara de assassino, sabia?</default>
+		<default>Sabe muito bem de quem estou falando. Não tem cara de assassina, sabia?</default>
 	</talk>
 	<talk character="Íris">
-		<default>Talvez por que eu não seja um!</default>
+		<default>Talvez por que eu não seja uma!!!</default>
 	</talk>
 	<talk character="Clarice">
-		<default>Então está devendo algo a eles?</default>
+		<default>Então tá devendo algo a eles?</default>
 	</talk>
 	<talk character="Íris">
-		<default>Sou advogado... Pode largar essa faca?</default>
+		<default>Sou advogada... Pode largar essa faca?</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Eles não mandam advogados pra fazer o serviço...</default>
 	</talk>
 	<teller>
-		<default>Ele tira a faca da mão dela e a encosta na parede, com a faca no pescoço.</default>
+		<default>Íris tira a faca da mão de Clarice. Encosta Clarice na parede, com a faca no pescoço.</default>
 	</teller>
 	<talk character="Íris">
 		<default>Se quisesse te matar, faria isso agora. Não foi isso que vim fazer aqui.</default>
 	</talk>
 	<teller>
-		<default>Íris a solta. Ela encara ele.</default>
+		<default>Íris solta Clarice. Bota a faca na pia. Clarice encara Íris.</default>
 	</teller>
 	<talk character="Clarice">
 		<default>Pratica nas horas vagas?</default>
 	</talk>
 	<talk character="Íris">
-		<default>Morar numa cadeia te força a aprender alguma coisa. Ou então a virar gay.</default>
+		<default>Morar numa cadeia te força a aprender alguma coisa.</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Está atrás de mim por que eles te soltaram?</default>
 	</talk>
+	<teller>
+		<default>Íris olha para o teto. Bufa. Olha pra Clarice.</default>
+	</teller>
 	<talk character="Íris">
-		<default>Não vim aqui pra te matar!</default>
+		<default>Não vim aqui pra te matar.</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Já sei, foram eles que te colocaram na cadeia!</default>
@@ -306,83 +321,95 @@
 	<talk character="Clarice">
 		<default>Demitido? Do que, da vida?</default>
 	</talk>
+	<teller>
+		<default>Íris franze a testa.</default>
+	</teller>
 	<talk character="Íris">
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Clarice">
-		<default>Inocência sua, né? Acha mesmo que, à essa hora, esse tal tá mesmo na agência de empregos?</default>
+		<default>Inocência sua, né? Acha mesmo que, a essa hora, esse tal tá mesmo na agência de empregos?</default>
 	</talk>
 	<talk character="Íris">
-		<default>Que está querendo dizer?</default>
+		<default>Que tá querendo dizer?</default>
 	</talk>
 	<talk character="Clarice">
-		<default>Homens... Ele deve estar enterrado à essa hora.</default>
+		<default>Deve estar pedindo emprego pra São Pedro a essa hora. Ou pro capeta.</default>
 	</talk>
 	<talk character="Íris">
 		<default>Como pode ter certeza?</default>
 	</talk>
+	<teller>
+		<default>Clarice baixa a cabeça.</default>
+	</teller>
 	<talk character="Clarice">
 		<default>Por que eu já vi acontecer.</default>
 	</talk>
-	<teller>
-		<default>Por um instante, Clarice baixa a cabeça e parece lembrar de algo.</default>
-	</teller>
 	<talk character="Íris">
 		<default>Quem era?</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Não importa. Então, o que veio fazer aqui afinal?</default>
 	</talk>
-	<talk character="Íris">
-		<default>Você acha mesmo que está correndo perigo de vida?</default>
-	</talk>
 	<teller>
 		<default>Clarice arregala os olhos.</default>
 	</teller>
+	<talk character="Íris">
+		<default>Você acha mesmo que está correndo perigo de vida?</default>
+	</talk>
 	<talk character="Clarice">
 		<default>Fui idiota de achar que mandariam você.</default>
 	</talk>
 	<teller>
-		<default>Íris se vira.</default>
+		<default>Íris se vira. Vê uma criatura. Grande. Quase não cabe na cozinha.</default>
 	</teller>
 	<talk character="Íris">
 		<default>De onde saiu isso???</default>
 	</talk>
 	<talk character="Clarice">
-		<default>Não sei, mas acho que ele... Ela... Isso não veio jogar cartas.</default>
+		<default>Não sei, mas acho que não veio jogar cartas.</default>
 	</talk>
 	<talk character="Íris">
 		<default>Corre.</default>
 	</talk>
 	<talk character="Clarice">
-		<default>Ele te engole com uma mordida!</default>
+		<default>Isso te engole com uma mordida!</default>
 	</talk>
 	<talk character="Íris">
 		<default>Eu vou depois que estiver segura.</default>
 	</talk>
 	<teller>
-		<default>Clarice corre, mas volta: encontrou outro.</default>
+		<default>Clarice vai para a área de serviço. Mais uma criatura, na frente da sacada.</default>
 	</teller>
 	<talk character="Clarice">
-		<default>Tenho uma má notícia.</default>
+		<default>Tenho uma má notícia!</default>
 	</talk>
 	<teller>
-		<default>Uma flecha atravessa um dos dois. Este se volta à Mel, que está atrás dele. Corre na direção dela. Ela pega uma espada e corta a cabeça dele. O outro vai atacar, mas é derrubado por Dara.</default>
+		<default>Uma flecha atravessa a criatura. Grita. Vira-se. Tenta bater em Mel, mas Mel corta a cabeça com uma espada. A outra criatura entra na área de serviço. Dara vem atrás e corta a cabeça com um machado. Íris vem, mancando. Mel vai para a cozinha. Dara segue. Volta.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Vamos, estão esperando chegar mais???</default>
+	<talk character="Dara">
+		<default>Tão esperando chegar mais???</default>
 	</talk>
 	<teller>
-		<default>Mel, Dara, Clarice e Íris saem. Kat está no carro.</default>
+		<default>Clarice e Íris se entreolham. Seguem Dara. Entram no elevador. Este abre, Dara vai sair, Mel segura. Do lado de fora do elevador, Nadine olha para o machado de Dara e a espada de Mel.</default>
+	</teller>
+	<talk character="Nadine">
+		<default>Tá cheio, eu vou no próximo.</default>
+	</talk>
+	<talk character="Íris">
+		<default>Tem espaço...</default>
+	</talk>
+	<teller>
+		<default>Clarice encara Íris e aperta o botão de fechar o elevador. Fecha. Abre no térreo. Descem. Saem do prédio. Chegam ao carro. Kat vai para o banco do carona. Mel entrega a espada para Dara. Entra no banco do motorista. Dara abre o porta malas e coloca as armas. Entrega a chave para Mel e entra no banco do passageiro. Suspira fundo. Abre a porta. Íris e Clarice se entreolham. Entram.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Estão inteiros?</default>
+		<default>Todo mundo inteiro?</default>
 	</talk>
 	<talk character="Íris">
 		<default>Acho que sim...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Melhor não voltarem pra cá. Alguém sabe que você veio atrás dela?</default>
+		<default>Melhor não voltarem pra cá. Alguém sabe que você veio atrás de Clarice?</default>
 	</talk>
 	<talk character="Íris">
 		<default>Acho que não.</default>
@@ -394,7 +421,7 @@
 		<default>Pra onde?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Olha, ela fala...</default>
+		<irony>Olha, não é que fala?</irony>
 	</talk>
 	<talk character="Mel">
 		<default>Pra nossa casa, é claro.</default>
@@ -403,9 +430,6 @@
 		<default>Não conheço você?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Vamos logo, antes que descubram que está viva.</default>
+		<default>Vamos logo, antes que descubram que não morreu.</default>
 	</talk>
-	<teller>
-		<default>Os cinco entram no carro.</default>
-	</teller>
 </story>

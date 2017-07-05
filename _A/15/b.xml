@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="15" scene="b">
 	<teller>
-		<default>Chegam a uma casa.</default>
+		<default>Entram em uma casa.</default>
 	</teller>
 	<talk character="Íris">
 		<default>Essa não é a casa de vocês.</default>
@@ -10,10 +10,10 @@
 		<default>É, desde que a nossa explodiu.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mel... Onde foram? Liguei pra casa da Kat o dia inteiro...</default>
+		<arrive>Mel... Onde foram? Liguei pra casa da Kat o dia inteiro...</arrive>
 	</talk>
 	<teller>
-		<default>Angely chega e Clarice repara que ele está sem camisa.</default>
+		<default>Clarice olha para Angely. Angely está sem camisa.</default>
 	</teller>
 	<talk character="Clarice">
 		<hushed>Sabia que conhecia vocês de algum lugar.</hushed>
@@ -25,7 +25,7 @@
 		<default>Houve um novo julgamento e eu sai.</default>
 	</talk>
 	<talk character="Clarice">
-		<default>Isso é fácil, você é advogado.</default>
+		<default>Isso é fácil, você é advogada.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Tem quantos quartos na casa?</default>
@@ -37,10 +37,10 @@
 		<default>Não sabe quantos quartos tem a sua casa?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Angely quem achou essa casa e nos mudamos hoje.</default>
+		<default>Angely quem achou essa casa e nos mudamos hoje. Na verdade, Angely cuidou da mudança, eu fui salvar a pele de vocês.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Vou levar Kat pra casa. Eles ficam, né?</default>
+		<default>Vou levar Kat pra casa. Clarice e Íris ficam, certo?</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Ei, eu estou aqui e tenho opinião própria!</default>
@@ -64,13 +64,13 @@
 		<default>Só Clarice vai ficar aqui, Angely.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ele fugiu com ela, certo?</default>
+		<default>Íris fugiu com Clarice, certo?</default>
 	</talk>
 	<talk character="Íris">
 		<default>Mas ninguém sabe.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Quem está atrás dela?</default>
+		<default>Quem está atrás de Clarice?</default>
 	</talk>
 	<talk character="Íris">
 		<default>As pessoas da empresa onde trabalho.</default>
@@ -78,28 +78,11 @@
 	<teller>
 		<default>Mel, Kat e Dara encaram Íris. Angely dá uma meia risada.</default>
 	</teller>
-	<talk character="Dara">
-		<default>Então por que diabos disse que não sabe quem foi atrás dela???</default>
-	</talk>
 	<talk character="Íris">
-		<default>Como assim?</default>
+		<default>Eu não disse que sou eu.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Homens...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ei, eu pensei nisso antes de vocês mulheres.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Mas você não conta!</default>
-		<teller>todos olham pra ela</teller>
-		<default>Não estou dizendo que não é homem, só estou...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nos entendemos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então ficam os dois aqui no mesmo quarto?</default>
+		<default>Então ficam aqui no mesmo quarto?</default>
 	</talk>
 	<talk character="Íris">
 		<default>Eu durmo na sala.</default>
@@ -108,37 +91,40 @@
 		<default>Acha que eu vou te atacar de noite por acaso???</default>
 	</talk>
 	<talk character="Íris">
-		<default>Não é isso!</default>
+		<default>Não é isso! Era você quem tava dizendo que eu tava te cantando!</default>
 	</talk>
 	<talk character="Clarice">
 		<default>É sim. Você vai dormir no quarto comigo e vai ficar escutando eu roncar! Só de raiva!</default>
 	</talk>
 	<teller>
-		<default>Clarice sai. Angely vai atrás dela.</default>
+		<default>Clarice sai. Angely segue.</default>
 	</teller>
 	<talk character="Íris">
-		<default>Eu só queria ser cavalheiro.</default>
+		<default>Eu só queria ser legal.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, estar sendo perseguida deve ter mexido com a cabeça dela.</default>
+		<default>Acho que deve estar com medo por causa das coisas que apareceram.</default>
+	</talk>
+	<talk character="Íris">
+		<default>Ah...</default>
 	</talk>
 	<teller>
-		<default>Angely encontra Clarice sentada numa cadeira da cozinha.</default>
+		<default>Cozinha.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Ele não quis dizer que...</default>
+		<default>Íris não quis dizer que...</default>
 	</talk>
 	<talk character="Clarice">
-		<default>Ele só não quer estar lá quando eles me pegarem dentro do quarto... Já bastou aquelas coisas no meu apartamento.</default>
+		<default>Ela só não quer estar lá quando eles me pegarem dentro do quarto... Já bastou aquelas coisas no meu apartamento.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ei, ninguém vai te deixar pra eles.</default>
+		<default>Ninguém vai te deixar pra virar janta.</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Vão esperar vocês dormirem.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Se quiser posso passar a noite com você, pra você ficar mais segura.</default>
+		<default>Se quiser posso passar a noite com você, se sentir mais segurança.</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Cadê seu irmão?</default>
@@ -150,19 +136,19 @@
 		<default>Seu irmão... Edmont.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por que está perguntando dele?</default>
+		<default>Por que está perguntando?</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Eu já vi a Katerine, a Melody, você... Mas ele...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ele saiu de casa. Foi pouco antes da explosão.</default>
+		<default>Saiu de casa. Foi pouco antes da explosão.</default>
 	</talk>
 	<talk character="Clarice">
 		<default>E foi pra onde?</default>
 	</talk>
 	<teller>
-		<default>Angely sente dor e cai no chão.</default>
+		<default>Angely coloca a mão na boca de estômago, arregala os olhos e cai.</default>
 	</teller>
 	<talk character="Clarice">
 		<default>Ah, meu Deus... Que foi???</default>
@@ -170,11 +156,14 @@
 	<talk character="Angely">
 		<default>Nada...</default>
 	</talk>
+	<teller>
+		<default>Angely se encolhe no chão, aperta os olhos.</default>
+	</teller>
 	<talk character="Clarice">
-		<default>Melody! Katerine! Angely tá passando mal!</default>
+		<screamed>Melody! Katerine! Angely tá passando mal!</screamed>
 	</talk>
 	<teller>
-		<default>Todos vão pra cozinha. Em outro lugar, Edmont lutava com um caça-vampiros e acabara de ser acertado no estômago. Mas vence seu oponente e tira a estaca de uma vez. Do outro lado, Angely, que estava se levantando, grita e desmaia.</default>
+		<default>Em outro lugar, Edmont está com uma estaca do estômago. Sorri. Olha para Cristóvão. Dá-lhe um chute, acertando contra a parede. Angely se levanta, ainda com a mão no estômago, apoiando em Mel. Edmont dá um chute leve em Cristóvão, que não acorda. Arranca a estaca do estômago. Grita. Angely também. Angely desmaia. Mel pega no colo e leva para a sala. Coloca no sofá.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Angely... Acorda!</default>
@@ -183,43 +172,40 @@
 		<default>Que aconteceu com ele???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nada. Íris, me ajuda a levar ele daqui.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Tá...</default>
+		<default>Nada. Vou deixar no quarto, melhor.</default>
 	</talk>
 	<teller>
-		<default>Mel e Íris pegam Angely e levam até o quarto.</default>
+		<default>Mel pega Angely no colo novamente e vai para o quarto. Coloca na cama. Passa a mão na cabeça.</default>
 	</teller>
 	<talk character="Íris">
-		<default>Isso já aconteceu outras vezes?</default>
+		<arrive>Isso já aconteceu outras vezes?</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Já, ele tem um problema desde que acertaram ele no estômago. Passou alguns dias no hospital.</default>
+		<default>Já, tem um problema desde que acertaram no estômago. Passou alguns dias no hospital.</default>
 	</talk>
 	<talk character="Íris">
 		<default>Então não é melhor levarmos ele pro...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, ele vai ficar bem.</default>
+		<default>Não, vai ficar bem.</default>
 	</talk>
 	<teller>
-		<default>Dia seguinte. Angely acorda e vai até a cozinha. Mel, Clarice e Íris tomam café da amanhã.</default>
+		<first>Dia seguinte. Angely acorda. Vai até a cozinha. Mel, Clarice e Íris estão a mesa.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Já está melhor?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sim. Cadê a Dara?</default>
+		<default>Sim. Cadê Dara?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Foi pra casa. E a Kat também.</default>
+		<default>Foi pra casa. E Kat também.</default>
 	</talk>
 	<talk character="Clarice">
 		<default>E se eles vierem aqui?</default>
 	</talk>
 	<talk character="Íris">
-		<default>Do que está falando?</default>
+		<default>Do que tá falando?</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Vocês não vão poder impedir, vão?</default>
@@ -228,7 +214,7 @@
 		<default>Temos armas aqui.</default>
 	</talk>
 	<talk character="Íris">
-		<default>Como vão protegê-la?</default>
+		<default>Como vão proteger ela?</default>
 	</talk>
 	<teller>
 		<default>Silêncio.</default>
@@ -243,7 +229,7 @@
 		<default>Será que eles me acham na África?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá, temos que pensar no que vamos fazer.</default>
+		<default>Já entendi, temos que pensar no que vamos fazer.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Podíamos fazer uma troca.</default>
@@ -255,13 +241,13 @@
 		<default>Sei lá, algo que eles queiram mais.</default>
 	</talk>
 	<teller>
-		<default>Em um porto, Rômulo está amarrado a uma cadeira perto do mar.</default>
+		<first>Em um porto, Rômulo está em uma cadeira perto do mar, com correntes pelo corpo, prendendo a cadeira.</first>
 	</teller>
 	<talk character="Lokslay">
 		<default>Acho que me decepcionou.</default>
 	</talk>
 	<talk character="Rômulo">
-		<default>Não sabia que ela faria isso!</default>
+		<default>Não sabia que aquela vadia ia fazer isso!</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>Nós temos uma política na empresa...</default>
@@ -282,10 +268,13 @@
 		<default>Deixe minha filha viva...</default>
 	</talk>
 	<talk character="Lokslay">
-		<default>Pode ser. Mas infelizmente a sua mulher sabe demais.</default>
+		<default>Pode ser. Sua mulher, infelizmente, sabe demais.</default>
 	</talk>
 	<teller>
-		<default>Lokslay chuta a cadeira, que cai no mar. Vai à empresa.</default>
+		<default>Rômulo arregala os olhos. Lokslay chuta a cadeira, que cai no mar.</default>
+	</teller>
+	<teller>
+		<first>Lokslay entra em sua sala. Carl estava limpando a mesa. Para e endireita o corpo.</first>
 	</teller>
 	<talk character="Lokslay">
 		<default>Bom, parece que temos duas vagas aqui.</default>
@@ -300,34 +289,34 @@
 		<default>Mas ele era seu filho...</default>
 	</talk>
 	<talk character="Lokslay">
-		<default>Pois é. Nunca faça uma besteira, Carl.</default>
+		<default>Pois é. Além de tudo, me desapontou sendo meu filho. Nunca faça uma besteira, Carl.</default>
 	</talk>
 	<teller>
-		<default>De tarde, na sala da casa de Angely e Mel, Íris está ajudando Angely a montar e colocar móveis no lugar, enquanto Mel está lendo uma revista.</default>
+		<first>Nova MEAK. Mel para a furadeira. Íris levanta uma prateleira com mãos francesas. Angely aparafusa.</first>
 	</teller>
 	<talk character="Íris">
 		<default>Por que não pagou alguém pra fazer isso?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não jogamos dinheiro fora.</default>
+		<default>Não precisava.</default>
 	</talk>
 	<talk character="Denise">
-		<default>Alguém em casa?</default>
+		<out>Alguém em casa?</out>
 	</talk>
 	<talk character="Mel">
-		<default>Não deveria ter comprado uma casa perto da de Denise.</default>
+		<default>Não deria ter comprado uma casa perto da casa de Denise.</default>
 	</talk>
 	<teller>
-		<default>Denise chega na sala.</default>
+		<default>Denise entra na cozinha.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Olha, a porta tava aberta...</default>
 	</talk>
 	<teller>
-		<default>Ela repara que Angely e Íris estão sem camisa. Angely fica sem graça e coloca a camisa.</default>
+		<default>Denise olha Angely de cima a baixo. Angely fica sem graça e sai.</default>
 	</teller>
 	<talk character="Íris">
-		<default>Sua amiga?</default>
+		<default>Oi...</default>
 	</talk>
 	<talk character="Denise">
 		<default>Denise.</default>
@@ -348,19 +337,19 @@
 		<default>Não precisamos...</default>
 	</talk>
 	<talk character="Íris">
-		<default>Segura a prateleira pra mim?</default>
+		<default>Segura a prateleira pra mim? É levinha.</default>
 	</talk>
 	<talk character="Denise">
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Mel sai. Angely vai atrás dela. Clarice chega na sala.</default>
+		<default>Mel revira os olhos e sai.</default>
 	</teller>
 	<talk character="Clarice">
-		<default>Íris, eu...</default>
+		<arrive>Íris, eu...</arrive>
 	</talk>
 	<teller>
-		<default>Clarice vê Denise.</default>
+		<default>Clarice olha pra Denise.</default>
 	</teller>
 	<talk character="Íris">
 		<default>Sim?</default>
@@ -369,10 +358,16 @@
 		<default>Nada.</default>
 	</talk>
 	<teller>
-		<default>Ela sai pro jardim.</default>
+		<default>Clarice sai pro jardim.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Sua namorada?</default>
+	</talk>
+	<talk character="Íris">
+		<default>Como todo mundo sabe que eu...</default>
+	</talk>
+	<talk character="Denise">
+		<default>Não pareceu que ia elogiar minha roupa quando me olhou.</default>
 	</talk>
 	<talk character="Íris">
 		<default>Não tenho namorada.</default>
@@ -381,22 +376,22 @@
 		<default>Não?</default>
 	</talk>
 	<teller>
-		<default>Mel está conversando com Angely.</default>
+		<default>Mel e Angely estão no quarto de Angely.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Eu sei, mas você devia falar isso tudo pra ela!</default>
+		<default>Eu sei, mas não era pra mim que você devia falar isso tudo!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela não gosta de mim, gosta do Edmont.</default>
+		<default>Não gosta de mim, gosta de Edmont.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele não é mais o mesmo, nós dois sabemos disso.</default>
+		<default>Não é mais a mesma pessoa, nós dois sabemos disso.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu sei, mas...</default>
 	</talk>
 	<talk character="Mel">
-		<default>E se o que ela sentiu por ele foi atração física? E se for você que ela ama?</default>
+		<default>E se o que sentiu por Edmont foi atração física? E se for você que ama?</default>
 	</talk>
 	<talk character="Angely">
 		<default>E se for o contrário?</default>
@@ -405,7 +400,7 @@
 		<default>Impossível.</default>
 	</talk>
 	<talk character="Clarice">
-		<default>De onde conhecem Íris?</default>
+		<arrive>De onde conhecem Íris?</arrive>
 	</talk>
 	<talk character="Mel">
 		<default>É uma longa história. Droga...</default>

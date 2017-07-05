@@ -1,40 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="15" scene="g">
 	<teller>
-		<default>Na manhã seguinte, quando Lokslay chega em seu escritório, Mel está sentada em sua cadeira.</default>
+		<default>Manhã seguinte. Lokslay chega ao escritório. Mel está em sua cadeira.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Acho que já leu o jornal.</default>
 	</talk>
 	<teller>
-		<default>Mel joga sobre a mesa um jornal que contém três fotos: Íris, Clarice e um incêndio. Um título irônico: "Rua sem saída". Era uma reportagem sobre uma fuga com um final trágico. Do outro lado da cidade, Angely pega o jornal com a notícia. Vai pra casa.</default>
+		<default>Mel joga sobre a mesa um jornal. Lokslay franze a testa e pega. Vê três fotos: Íris, Clarice e um incêndio. Título: "Rua sem saída". Lokslay sorri.</default>
+	</teller>
+	<talk character="Lokslay">
+		<default>Esses caras gostam de uma boa ironia. Fez parecer uma fuga que deu errado?</default>
+	</talk>
+	<teller>
+		<default>MEAK. Angely chega, com um jornal na mão.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Mel!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela não está.</default>
+		<default>Não está.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Foi você quem fez isso...</default>
+		<default>Foi você quem fez isso... Mel tinha pedido pra eu levar em segurança...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não fui, não. Aliás, tanto a idéia quanto o lucro foram dela.</default>
+		<default>Não fui, não. Aliás, tanto a idéia quanto o lucro foram de Mel.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não pode ser.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Nossa irmã é esperta.</default>
+		<default>Sabe que Mel é uma pessoa esperta.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Kat sabe disso?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela está nisso. Aliás, não só Kat como Handhara também.</default>
+		<default>Está nisso. Aliás, não só Kat como Handhara também.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Está mentindo... Só pode estar...</default>
+		<default>Tá mentindo... Só pode estar...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não é tão ruim assim, Angely.</default>
@@ -46,7 +52,7 @@
 		<default>Ei, ei, ei...</default>
 	</talk>
 	<talk character="Angely">
-		<default>E agora arrastou elas junto... Isso só pode ser um pesadelo!</default>
+		<default>E agora arrastou todo mundo junto... Isso só pode ser um pesadelo...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não se aflija tanto. Que tal assistirmos um pouco de TV?</default>
@@ -65,8 +71,14 @@
 		<teller>aponta uma arma pra Angely</teller>
 		<default>Não estou pedindo.</default>
 	</talk>
+	<talk character="Angely">
+		<default>Vai te ferir também.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>É, mas caído aqui no chão não vai poder fazer nada de qualquer jeito.</default>
+	</talk>
 	<teller>
-		<default>Voltando ao escritório de Lokslay, este acabara de ler a reportagem.</default>
+		<default>Escritório de Lokslay.</default>
 	</teller>
 	<talk character="Lokslay">
 		<default>Serviço limpo e rápido.</default>
@@ -108,13 +120,10 @@
 		<default>Me admira saber de tanto.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Prometi a Clarice que não a mataria se me contasse tudo. Ela tinha guardado os arquivos do pai dela. Aliás, deveria cobrar algo a mais por eles.</default>
+		<default>Fingi para Clarice que não mataria se me contasse tudo. Tinha guardado os arquivos do pai. Aliás, deveria cobrar algo a mais por eles. Aposto que você pagaria.</default>
 	</talk>
-	<teller>
-		<default>Carl invade a sala.</default>
-	</teller>
 	<talk character="Carl">
-		<default>Senhor...</default>
+		<arrive>Senhor...</arrive>
 	</talk>
 	<talk character="Lokslay">
 		<default>Estou ocupado.</default>
@@ -126,7 +135,7 @@
 		<default>Quanto?</default>
 	</talk>
 	<talk character="Mel">
-		<default>É interessante pensar que, enquanto as pessoas honestas pagam seus impostos e mal conseguem viver por isso, você está aqui, rico, e sem tirar um tostão do seu bolso pra ajudá-las.</default>
+		<default>É interessante pensar que, enquanto as pessoas honestas pagam seus impostos e mal conseguem viver por isso, você está aqui, rico, e sem tirar um tostão do seu bolso pra ajudar.</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>É fácil. É só ter pessoas que te devem favores.</default>
@@ -144,19 +153,19 @@
 		<default>Um sorriso.</default>
 	</talk>
 	<talk character="Lokslay">
-		<default>Ah?</default>
+		<default>Ãh?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pra câmera. Devia ter escolhido uma roupa melhor, estamos em rede mundial. Agora que é famoso, o que pretende fazer?</default>
+		<default>Pra câmera. Devia ter escolhido uma roupa melhor, a gente tá ao vivo. Agora que é famoso, o que pretende fazer?</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>Sua...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Olha o horário, tem crianças assistindo. Ah, quero declarar que qualquer coisa que venha a me acontecer é única e exclusivamente culpa de Lokslay.</default>
+		<default>Olha o horário, tem crianças assistindo. Ah, quero declarar que qualquer coisa que venha a me acontecer é única e exclusivamente culpa de Lokslay. Mas eu realmente duvido que você vá conseguir tocar em um fio de cabelo meu.</default>
 	</talk>
 	<talk character="Lokslay">
-		<default>Está blefando.</default>
+		<default>Tá blefando.</default>
 	</talk>
 	<talk character="Carl">
 		<default>Na verdade, não. Era isso que eu tava tentando avisar.</default>
@@ -165,25 +174,34 @@
 		<default>Lokslay olha pra Carl. Brad entra na sala, acompanhado de outros policiais.</default>
 	</teller>
 	<talk character="Brad">
-		<default>Bom, acho que não vamos precisar interrogá-lo.</default>
+		<default>Bom, acho que não vamos precisar interrogar esse.</default>
 	</talk>
 	<teller>
-		<default>Levam-no para fora do prédio. Ele vê Clarice e Íris.</default>
+		<default>Brad algema Lokslay. Puxa para fora da sala. Lokslay ainda fica encarando Mel. Brad empurra Lokslay para dentro do elevador. Desce. Sai do prédio. Lokslay olha para Clarice e Íris. Encara até entrar no carro.</default>
 	</teller>
 	<talk character="Clarice">
-		<default>Acho que ele vai precisar de um advogado.</default>
+		<default>Acho que ele vai precisar de advogado.</default>
 	</talk>
 	<talk character="Íris">
 		<default>Adoraria perder esse caso!</default>
 	</talk>
 	<teller>
-		<default>Mel vai até uma lanchonete e encontra Dara, Derik e Kat.</default>
+		<default>Lanchonete. Dara, Derik e Kat estão comendo.</default>
 	</teller>
+	<talk character="Mel">
+		<arrive>Nem me esperaram?!</arrive>
+	</talk>
 	<talk character="Dara">
 		<default>Ainda bem que chegou, tava queimando a minha mão já.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Então estava com medo de elas não conseguirem...</default>
+		<default>A comida tava quente?</default>
+	</talk>
+	<talk character="Dara">
+		<default>Não, sua besta, de bancar a vela.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Kat tava com medo. Podiam ter me contato!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Só de pensar em explosões, já fico nervosa.</default>
@@ -192,7 +210,13 @@
 		<default>Mas nós conseguimos. Lokslay vai pra cadeia.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Tomara que ninguém tenha mesmo te reconhecido.</default>
+		<default>Não precisava pintar um alvo na bunda.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não vai fazer porra nenhuma. Tudo que eu podia fazer contra já fiz, e sou um alvo a vista demais. E, mesmo que tente, tá achando que somos só humanos.</default>
+	</talk>
+	<talk character="Dara">
+		<default>Ô, assim eu vou me doer!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Pena que não possamos consertar o resto do mundo.</default>
@@ -201,7 +225,7 @@
 		<default>Quem sabe, um dia...</default>
 	</talk>
 	<teller>
-		<default>Na nova MEAK, Angely se sente aliviado em frente a TV. Olha para os lados e não vê Edmont.</default>
+		<first>Angely suspira. Se joga para trás no sofá. Levanta. Olha para os lados. Senta-se novamente.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Bom saber que você ainda tem um coração.</default>
