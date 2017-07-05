@@ -173,10 +173,11 @@
 	<teller><default>Kat abre uma bolsa e coloca uma revista sobre a mesa.</default></teller>
 	<talk character="Kat"><default>Acho que metade do país acha isso.</default>
 	<teller>Kat vai saindo, mas se vira</teller><default>Ou metade do planeta.</default></talk>
-	<teller><default>Dara pega a revista. Kat vai embora. Na revista:</default>
-	<letter>Depois de ser largada por Edmont, Handhara recorreu a Angely, que, ao que parece, já gostava dela. Golpe baixo, coitadinho do nosso anjinho!</letter>
-	</teller>
-	<teller><default>Dara atira a revista na parede. Angely chega.</default></teller>
+	<teller>
+    <default>Dara pega a revista. Kat vai embora. Na revista:</default>
+	  <letter>Depois de ser largada por Edmont, Handhara recorreu a Angely, que, ao que parece, já gostava dela. Golpe baixo, coitadinho do nosso anjinho!</letter>
+	  <default>Dara atira a revista na parede. Angely chega.</default>
+  </teller>
 	<talk character="Angely"><default>Que foi?</default></talk>
 	<talk character="Dara"><default>Você leu o que escreveram sobre mim???</default></talk>
 	<talk character="Angely"><default>Não leio essas revistas, não dou atenção à esses repórteres fofoqueiros. Além do que, não há mais Saturn. Se ninguém tinha nada a ver com minha vida antes, agora menos ainda. Menos que nada é algo...</default></talk>
@@ -611,8 +612,7 @@
 	<talk character="Mel"><default>Nunca pensamos nisso. Ainda bem, o dinheiro tá todo guardado.</default></talk>
 	<talk character="Kat"><default>É mesmo, o Edmont deve ter pego o dinheiro dele pra viajar!</default></talk>
 	<talk character="Mel"><default>Onde será que ele tá?</default></talk>
-	<teller><default>Noite. Edmont está andando numa rua. Chega a um hotel.</default></teller>
-	Inglês
+	<teller><default>Noite. Edmont está andando numa rua. Chega a um hotel.</default><division>Inglês</division></teller>
 	<talk character="Edmont"><default>Alguma novidade?</default></talk>
 	<talk character="mensageiro"><default>Seu irmão está aqui, senhor.</default></talk>
 	<talk character="Edmont"><default>Que?</default></talk>
@@ -624,8 +624,7 @@
 	<talk character="Edmont"><default>E sobre o que pedi?</default></talk>
 	<talk character="mensageiro"><default>Nada ainda.</default></talk>
 	<talk character="Edmont"><default>Obrigado.</default></talk>
-	Português
-	<teller><default>Edmont dá dez dólares ao mensageiro e vai pro elevador. Sobe ao seu quarto.</default></teller>
+	<teller><division>Português</division><default>Edmont dá dez dólares ao mensageiro e vai pro elevador. Sobe ao seu quarto.</default></teller>
 	<talk character="Edmont"><default>Será que eles estão com problemas?</default></talk>
 	<teller><default>Ele ouve um barulho.</default></teller>
 	<talk character="Edmont"><default>Se não é...</default></talk>
@@ -651,8 +650,7 @@
 	<talk character="Edmont"><default>Eu não vou.</default></talk>
 	<talk character="Angely"><default>Por favor...</default></talk>
 	<talk character="Edmont"><default>Não adianta. Se for pra acontecer algo, que aconteça.</default></talk>
-	<teller><default>Edmont sai do quarto. Angely guarda suas coisas e vai ao quarto de Edmont.</default></teller>
-	Inglês
+	<teller><default>Edmont sai do quarto. Angely guarda suas coisas e vai ao quarto de Edmont.</default><division>Inglês</division></teller>
 	<talk character="camareira"><default>Sim?</default></talk>
 	<talk character="Angely"><default>Tinha alguém nesse quarto?</default></talk>
 	<talk character="camareira"><default>A.L.K.?</default></talk>
@@ -698,7 +696,7 @@
 	<teller><default>Um vampiro pula em cima de Angely, que empurra e aponta uma arma pra ele.</default></teller>
 	<talk character="Angely"><default>Eu não vou atirar.</default></talk>
 	<talk character="vampira"><default>Meu bem, ele só quer saber por que tentou explodir ele.</default></talk>
-	Português
+	<teller><division>Português</division></teller>
 	<talk character="vampiro"><default>Eu? Ah, estou reconhecendo você...</default></talk>
 	<talk character="Angely"><default>Se mal me reconhece, por que...</default></talk>
 	<talk character="vampiro"><default>Foi uma troca.</default></talk>

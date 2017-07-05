@@ -331,10 +331,12 @@
 	<talk character="Derik"><default>Por que não pensamos nisso antes?</default></talk>
 	<talk character="Mel"><default>É uma boa idéia...</default></talk>
 	<talk character="Alan"><default>Tá. Nós vamos trazer seu outro irmão e enterrar esse bem fundo assim que o outro destruir o livro.</default></talk>
-	<teller><default>Eles saem e vão até o templo.</default></teller>
-	1a RLDD
-	<teller><default>8:00hrs. Angely ainda está no templo, deitado no chão. Dara (fantasma) está perto dele.</default></teller>
-	<talk character="Ang"><default>Estou com fome.</default></talk>
+  <teller>
+    <default>Eles saem e vão até o templo.</default>
+    <division>1a RLDD</division>
+    <default>8:00hrs. Angely ainda está no templo, deitado no chão. Dara (fantasma) está perto dele.</default>
+  </teller>
+  <talk character="Ang"><default>Estou com fome.</default></talk>
 	<talk character="Dara"><ghost>À essa hora muita gente acha que você está morto.</ghost></talk>
 	<talk character="Ang"><default>Acham que desapareci no mar. Eu podia voltar e dizer que não, mas que não sei onde estão os outros.</default></talk>
 	<talk character="Dara"><ghost>É, eu não tinha pensado nisso. Você pensa com a simplicidade de uma criança.</ghost></talk>
@@ -344,8 +346,7 @@
 	<talk character="Dara"><ghost>Era pra eu cair?</ghost></talk>
 	<talk character="Ang"><default>Você vem comigo? Vou sair e dizer à todos que estou de volta.</default></talk>
 	<talk character="Dara"><ghost>Estarei com você.</ghost></talk>
-	2a RLDD
-	<teller><default>10:00hrs. Os cinco já arrumaram tudo no templo.</default></teller>
+	<teller><division>2a RLDD</division><default>10:00hrs. Os cinco já arrumaram tudo no templo.</default></teller>
 	<talk character="Kat"><default>Tá, e agora?</default></talk>
 	<talk character="Alan"><default>Bom, agora nós esperamos até meio-dia e...</default></talk>
 	<teller><default>Aparecem, do nada, três seres. Derik se ajoelha.</default></teller>
@@ -402,8 +403,7 @@
 	<talk character="Mel"><default>Não, ela torceu o pé mesmo... Eu a vi cair da escada.</default></talk>
 	<talk character="Alan"><default>Foi só pra não vir lavar isso aqui!</default></talk>
 	<talk character="Mel"><default>Não acho que sua prima faria isso.</default></talk>
-	1a RLDD
-	<teller><default>Ang chega em casa.</default></teller>
+	<teller><division>1a RLDD</division><default>Ang chega em casa.</default></teller>
 	<talk character="Ang"><default>Dara? Já estamos seguros...</default></talk>
 	<teller><default>Ela aparece.</default></teller>
 	<talk character="Dara"><ghost>Tem certeza que quer fazer isso?</ghost></talk>
@@ -452,8 +452,7 @@
 	<talk character="Ang"><default>E Edmont?</default></talk>
 	<talk character="Wige"><default>Temos revelações à fazer, à respeito de Zenon, Kat, Derik e Melody.</default></talk>
 	<talk character="Ang"><default>Estou ouvindo.</default></talk>
-	2a RLDD
-	<teller><default>É noite. Alan e Mel chegam em casa.</default></teller>
+	<teller><division>2a RLDD</division><default>É noite. Alan e Mel chegam em casa.</default></teller>
 	<talk character="Estela"><default>E aí, limparam tudo?</default></talk>
 	<talk character="Alan"><default>Quase tudo. Sozinhos.</default></talk>
 	<talk character="Estela"><default>Se eu não tivesse mancando, eu tinha ido com vocês. Mas também, tinha que ter alguém aqui pra cuidar de Kat, quer dizer, do corpo dela. Imagina se alguém entra aqui e pensa que ela tá morta?</default></talk>
@@ -616,8 +615,7 @@
 	<talk character="Edmont"><default>Que droga. Cadê a Beatrice?</default></talk>
 	<teller><default>Beatrice está numa caverna.</default></teller>
 	<talk character="Bea"><default>Mas isso é maravilhoso... Depois eles não sabem por que tem um monte de vampiros na Ilha. Se é que isso aqui já foi descoberto... Esse lugar é perfeito. Onde será que isso dá?</default></talk>
-	1a RLDD
-	<teller><default>Angely está com Yads.</default></teller>
+	<teller><division>1a RLDD</division><default>Angely está com Yads.</default></teller>
 	<talk character="Yads"><default>Entendeu tudo?</default></talk>
 	<talk character="Ang"><default>Sim. Tem certeza que só posso dizer a primeira parte a eles?</default></talk>
 	<talk character="Yads"><default>Não pode contar mais nada.</default></talk>
@@ -632,8 +630,7 @@
 	<talk character="Ang"><default>Mas você disse que ela...</default></talk>
 	<talk character="Yads"><default>É por isso que é perigoso.</default></talk>
 	<talk character="Ang"><default>Explique-se.</default></talk>
-	2a RLDD
-	<teller><default>Noite. Beatrice chega a um lugar cheio de prédios.</default></teller>
+	<teller><division>2a RLDD</division><default>Noite. Beatrice chega a um lugar cheio de prédios.</default></teller>
 	<talk character="Bea"><default>Até que enfim civilização...</default></talk>
 	<talk character="Dilan"><arrive> Estava na Ilha de Hera?</arrive></talk>
 	<talk character="Bea"><default>Sim.</default></talk>
@@ -647,8 +644,7 @@
 	<talk character="Dilan"><default>Fugiu? Ele é do tipo que cria e acha que é dono?</default></talk>
 	<talk character="Bea"><default>Eu quem o criei.</default></talk>
 	<talk character="Dilan"><default>É, isso é realmente estranho. – dá ombros – Foda-se. Tá com fome?</default></talk>
-	1a RLDD
-	<teller><default>Angely chega a uma casa. Está escuro. Passa um carro com o farol aceso e ele vê tudo destruído. Inês está num canto, dormindo.</default></teller>
+	<teller><division>1a RLDD</division><default>Angely chega a uma casa. Está escuro. Passa um carro com o farol aceso e ele vê tudo destruído. Inês está num canto, dormindo.</default></teller>
 	<talk character="Ang"><default>Inês?</default></talk>
 	<teller><default>Ela acorda. Vai pegar uma faca, mas Angely segura sua mão.</default></teller>
 	<talk character="Ang"><default>Não lembra de mim?</default></talk>
@@ -719,8 +715,7 @@
 	<talk character="Samuel"><arrive> Melhor sairmos agora, ou vamos perder a entrevista!</arrive></talk>
 	<talk character="Ang"><default>Mas são dez e meia!</default></talk>
 	<talk character="Samuel"><default>Não vai me dizer que tem horário pra dormir, né???</default></talk>
-	2a RLDD
-	<teller><default>Mel acorda.</default></teller>
+	<teller><division>2a RLDD</division><default>Mel acorda.</default></teller>
 	<talk character="Mel"><default>Droga, onde ele...</default></talk>
 	<teller><default>Edmont adentra o templo, trazendo um sanduíche.</default></teller>
 	<talk character="Mel"><default>Não sabia que ainda comia esse tipo de coisa como vampiro.</default></talk>
@@ -764,8 +759,7 @@
 	<talk character="Alan"><default>Não adianta se esconder, eu te encontro em qualquer lugar.</default></talk>
 	<teller><default>Ouve-se a risada de Edmont.</default></teller>
 	<talk character="Alan"><default>Bom, agora esperamos que eles consigam trazer Angely antes da meia-noite.</default></talk>
-	1a RLDD
-	<teller><default>11:00. Angely está no carro de Samuel. Inês está no banco de trás.</default></teller>
+	<teller><division>1a RLDD</division><default>11:00. Angely está no carro de Samuel. Inês está no banco de trás.</default></teller>
 	<talk character="Samuel"><default>Não deixa ela colocar a cabeça pra fora!</default></talk>
 	<talk character="Ang"><default>Ah?</default></talk>
 	<talk character="Samuel"><default>Sei lá, acho que ela nem tá entendendo o que eu digo...</default></talk>
@@ -799,9 +793,7 @@
 	<teller><default>Todos ficam olhando.</default></teller>
 	<talk character="Yads"><default>Desculpa, mas vai ter que ir assim!!! Quando chegar, repita "destrua à quem pertence", cinco vezes!!!</default></talk>
 	<talk character="Ang"><default>Que?</default></talk>
-	<teller><default>Angely segura Inês e fecha os olhos. Os dois desaparecem, com uma luz muito intensa, quase cegando quem olhava.</default></teller>
-	2a RLDD
-	<teller><default>Inês cai no chão, com as mãos nos olhos. Angely, em pé, abre os olhos. Todos tinham virado seus rostos, exceto Edmont, de óculos escuros.</default></teller>
+	<teller><default>Angely segura Inês e fecha os olhos. Os dois desaparecem, com uma luz muito intensa, quase cegando quem olhava.</default><division>2a RLDD</division><default>Inês cai no chão, com as mãos nos olhos. Angely, em pé, abre os olhos. Todos tinham virado seus rostos, exceto Edmont, de óculos escuros.</default></teller>
 	<talk character="Edmont"><default>Preciso dizer que chegou atrasado?</default></talk>
 	<teller><default>Mel corre até ele e o abraça.</default></teller>
 	<talk character="Alan"><default>Droga, falta pouco!!! A frase é...</default></talk>

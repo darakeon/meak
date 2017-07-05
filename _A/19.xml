@@ -899,8 +899,7 @@
 	<talk character="Derik"><default>Bom, pelo menos agora vou ter ajuda.</default></talk>
 	<teller><default>Na Espanha, Edmont olha pro relógio: cinco da tarde.</default></teller>
 	<talk character="Edmont"><default>Melody não acorda mesmo... Não costumava dormir tanto.</default></talk>
-	<teller><default>Ele sobe a escada. Vai ao quarto dela e não a encontra. Apenas um bilhete:</default><letter>Sinto muito, Dancan. Não posso mais ficar.</letter></teller>
-	<teller><default>Volta a sala e abaixa perto de Dan.</default></teller>
+	<teller><default>Ele sobe a escada. Vai ao quarto dela e não a encontra. Apenas um bilhete:</default><letter>Sinto muito, Dancan. Não posso mais ficar.</letter><default>Volta a sala e abaixa perto de Dan.</default></teller>
 	<talk character="Edmont"><default>Fiz uma favor a você.</default>
 	<teller>coloca o bilhete sobre Dan</teller><default>Ia se suicidar se visse isso.</default></talk>
 	<teller><default>Edmont espera o sol ir embora e sai. Angely está saindo do aeroporto espanhol.</default></teller>
@@ -917,15 +916,13 @@
 	<talk character="h"><default>Bom, se atrai tanto e está viva, deve ter alguém que te protege.</default></talk>
 	<teller><default>Ela, que estava sentada, se levanta e dá um tapa nele.</default></teller>
 	<talk character="Mel"><default>Machista!</default></talk>
-	<teller><default>Pega a mala e sai. Se dirige ao embarque do porto. Há um guarda e as pessoas estão embarcando.</default></teller>
-	Espanhol
+	<teller><default>Pega a mala e sai. Se dirige ao embarque do porto. Há um guarda e as pessoas estão embarcando.</default><division>Espanhol</division></teller>
 	<talk character="Mel"><default>Como estão embarcando as pessoas se o capitão está morto?</default></talk>
 	<talk character="homem"><default>Morto? Senhorita, deve haver algum engano...</default></talk>
 	<talk character="rapaz"><out>Mataram o capitão! Mataram o capitão!</out></talk>
 	<teller><default>Ouvindo isso, o homem olha pra Mel.</default></teller>
 	<talk character="homem"><default>Como sabia?</default></talk>
-	Português
-	<teller><default>Mel está agora numa cela. É noite.</default></teller>
+	<teller><division>Português</division><default>Mel está agora numa cela. É noite.</default></teller>
 	<talk character="Mel"><default>Por que eu fiquei e perguntei quando simplesmente podia ir embora?</default></talk>
 	<teller><default>Ela ouve um barulho estranho. Vai olhar e o homem de outrora aparece do nada.</default></teller>
 	<talk character="h"><default>Tô com pena de você.</default></talk>
@@ -1042,8 +1039,7 @@
 	<teller><default>Os dois seguem para o hotel. Encontram Zenon.</default></teller>
 	<talk character="Zenon"><default>Mas será que o atorzinho não vai vir atrás da gente?</default></talk>
 	<talk character="Edmont"><default>Está filmando. Quando se der conta, já estamos no Brasil com o problema resolvido.</default></talk>
-	<teller><default>Angely sai pra comprar as passagens e, no dia seguinte, os quatro voltam ao Brasil. Quando chegam em casa, Kat está assistindo TV, o jornal:</default></teller>
-	Testemunhas dizem ter visto Edmont L. K., irmão da agora viúva Melody L. K., entrando no hotel na hora da morte de...
+	<teller><default>Angely sai pra comprar as passagens e, no dia seguinte, os quatro voltam ao Brasil. Quando chegam em casa, Kat está assistindo TV, o jornal:</default><letter>Testemunhas dizem ter visto Edmont L. K., irmão da agora viúva Melody L. K., entrando no hotel na hora da morte de...</letter></teller>
 	<talk character="Edmont"><default>Olha só, eu tô no jornal...</default></talk>
 	<teller><default>Kat dá um pulo do sofá.</default></teller>
 	<talk character="Kat"><default>Você... Você...</default></talk>
@@ -1097,9 +1093,7 @@
 	<talk character="Angely"><default>Já comeu?</default></talk>
 	<talk character="Mel"><default>Vê se pode, Zenon, só faltou ele querer me dar comida na boca!</default></talk>
 	<talk character="Zenon"><default>Bom, então vamos.</default></talk>
-	Eles vão até a sala e tudo que encontram é um bilhete:
-	Nos encontrem no endereço abaixo.
-	<teller><default>Eles vão até o endereço: um galpão. Edmont segura Dione.</default></teller>
+	<teller><default>Eles vão até a sala e tudo que encontram é um bilhete:</default><letter>Nos encontrem no endereço abaixo.</letter><default>Eles vão até o endereço: um galpão. Edmont segura Dione.</default></teller>
 	<talk character="Edmont"><default>Até que enfim, eu já tava me cansando.</default></talk>
 	<talk character="Zenon"><default>Sabia que você...</default></talk>
 	<talk character="Edmont"><default>Nem mais uma palavra. Mel, vem comigo.</default></talk>
