@@ -1,4 +1,5 @@
-﻿<story title="Dinheiro e Confiança não nascem em Árvore" english="Money and Trust don't grow on trees">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story title="Dinheiro e Confiança não nascem em Árvore" english="Money and Trust don't grow on trees" season="B" episode="08">
 	<teller><default>05/04 (sábado). Mel, Kat, Derik, Zenon, Alan e Estela estão reunidos na sala da MEAK.</default></teller>
 	<talk character="Mel"><default>A verdade, pessoal, é que achamos que poderíamos viver daquilo pro resto da vida e agora não temos mais. Então, temos que cortar despesas e teremos que trabalhar para sustentar isso aqui. De qual dos dois vocês querem saber primeiro?</default></talk>
 	<talk character="Estela"><default>Vai pelo primeiro que você falou.</default></talk>
@@ -75,13 +76,9 @@
 	<talk character="Mel"><default>É meio em cima.</default></talk>
 	<talk character="Dínamis"><default>Você vai saber o que fazer.</default></talk>
 	<teller><default>Dínamis levanta.</default></teller>
-	<talk character="Dínamis">
-	<default>Já levei o que tinha de meu daqui. Todos os arquivos estão no computador, ou melhor, em mais de um, caso dê problema. Qualquer coisa que você alterar terá que ser salva, depois você manda os novos arquivos para o computador principal, um amigo meu cuida dele e mantém os arquivos em vários lugares, bem seguros. O e-mail tá salvo na lista de endereços do e-mail da escola. A escola tem também um site, mas disso o corpo discente que cuida. Aliás, melhor você fazer uma reunião com o corpo discente e com o docente na segunda pra se apresentar, eles sempre chegam antes. O livro de regras da escola fica na gaveta, melhor você ler umas três vezes. Há algumas regras que não levamos tão a sério, você quem terá que julgar isso. Geralmente faço reuniões às segundas de manhã e às sextas de noite. Nunca precisei de vice, mas se quiser contratar um, tudo bem. Tudo que precisa saber está no livro ou no computador e, se não entendeu nada do que eu falei, eu escrevi tudo aqui...</default>
-	<teller>tira um papel do bolso e entrega a Mel</teller>
-	<default>Agora, se me dão licença, a Austrália me espera.</default>
-	<teller>entrega uma chave a Angely</teller>
-	<default>Fecha a escola pra mim?</default>
-	</talk>
+	<talk character="Dínamis"><default>Já levei o que tinha de meu daqui. Todos os arquivos estão no computador, ou melhor, em mais de um, caso dê problema. Qualquer coisa que você alterar terá que ser salva, depois você manda os novos arquivos para o computador principal, um amigo meu cuida dele e mantém os arquivos em vários lugares, bem seguros. O e-mail tá salvo na lista de endereços do e-mail da escola. A escola tem também um site, mas disso o corpo discente que cuida. Aliás, melhor você fazer uma reunião com o corpo discente e com o docente na segunda pra se apresentar, eles sempre chegam antes. O livro de regras da escola fica na gaveta, melhor você ler umas três vezes. Há algumas regras que não levamos tão a sério, você quem terá que julgar isso. Geralmente faço reuniões às segundas de manhã e às sextas de noite. Nunca precisei de vice, mas se quiser contratar um, tudo bem. Tudo que precisa saber está no livro ou no computador e, se não entendeu nada do que eu falei, eu escrevi tudo aqui...</default>
+	<teller>tira um papel do bolso e entrega a Mel</teller><default>Agora, se me dão licença, a Austrália me espera.</default>
+	<teller>entrega uma chave a Angely</teller><default>Fecha a escola pra mim?</default></talk>
 	<teller><default>Sem esperar resposta, ela sai.</default></teller>
 	<talk character="Mel"><default>Será que é tão ruim assim pra ela jogar no meu colo desse jeito?</default></talk>
 	<talk character="Ang"><default>Não sei. Quem vai ficar cuidando da MEAK?</default></talk>
@@ -280,13 +277,9 @@
 	<teller><default>Beatrice sai.</default></teller>
 	<talk character="Fábio"><default>Sabia que ouvido de vampiro é bom, mas não sabia que é tanto...</default></talk>
 	<teller><default>Ela atende o telefone na sala.</default></teller>
-	<talk character="Bea">
-	<default>MEAK agência de...</default>
-	<teller>olha a cor do telefone</teller>
-	<default>quartos. ### Tudo bem, foi só uma pequena confusão, sou nova no emprego. ### Temos sim, muitos quartos vagos. ### Se temos problemas com hóspedes diferentes? Bom, no momento nem temos ninguém aqui... ### Ótimo! ### Quanto?! ### A diária não é tão alta... ### Todos os quartos?! ### Mesmo assim é muito mais que o preço que cobramos... ### Não, não estou reclamando, de modo algum, nem sou dona disso aqui...</default>
-	<teller>fica preocupada</teller>
-	<default>Só um instantinho, outra ligação, eu já atendo o senhor...</default>
-	</talk>
+	<talk character="Bea"><default>MEAK agência de...</default>
+	<teller>olha a cor do telefone</teller><default>quartos. ### Tudo bem, foi só uma pequena confusão, sou nova no emprego. ### Temos sim, muitos quartos vagos. ### Se temos problemas com hóspedes diferentes? Bom, no momento nem temos ninguém aqui... ### Ótimo! ### Quanto?! ### A diária não é tão alta... ### Todos os quartos?! ### Mesmo assim é muito mais que o preço que cobramos... ### Não, não estou reclamando, de modo algum, nem sou dona disso aqui...</default>
+	<teller>fica preocupada</teller><default>Só um instantinho, outra ligação, eu já atendo o senhor...</default></talk>
 	<teller><default>Beatrice sobe.</default></teller>
 	<talk character="Bea"><default>Que susto você me deu!</default></talk>
 	<talk character="Fábio"><default>Só cortei o dedo... Ouviu isso também?!</default></talk>

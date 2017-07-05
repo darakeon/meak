@@ -1,5 +1,6 @@
-﻿<story title="Mudanças no Passado" english="Back to the Future">
-  <teller><default>Chegando no Brasil...</default></teller>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story title="Mudanças no Passado" english="Back to the Future" season="A" episode="03">
+	<teller><default>Chegando no Brasil...</default></teller>
 	<talk character="Agatha"><default>Ainda bem que você foram mais espertos e contrataram uma empresa de mudança.</default></talk>
 	<talk character="Júlio"><default>Ei, eu tava sem dinheiro, tá?</default></talk>
 	<talk character="Meg"><default>Ai, tô morta...</default></talk>
@@ -424,7 +425,7 @@
 	<talk character="Angely"><default>Nosso satélite.</default></talk>
 	<talk character="Mel"><default>Colidiu com um maior.</default></talk>
 	<talk character="Edmont"><default>Só você conseguiu fugir?</default></talk>
-	<talk character="Mel"><default>Só eu<enfase>quis</enfase>fugir. Me chamaram de louca quando descobri.</default></talk>
+	<talk character="Mel"><default>Só eufugir. Me chamaram de louca quando descobri.<enfase>quis</enfase></default></talk>
 	<talk character="Agatha"><default>Onde você ficou aqui?</default></talk>
 	<talk character="Mel"><default>Em muitos lugares. Fugi, me escondi, falsifiquei documento, escapei de uma prisão...</default></talk>
 	<talk character="Agatha"><default>Nós já escapamos de múmias.</default></talk>
@@ -684,22 +685,12 @@
 	<talk character="Angely"><default>Mel, você ainda com essa mania de hacker?</default></talk>
 	<talk character="Mel"><default>Mas agora não tô fazendo coisa errada.</default></talk>
 	<talk character="Angely"><default>Tá, o que descobriu?</default></talk>
-	<teller>
-    <default>Mel entrega um papel a Angely.</default>
-    <letter>Uma garota foi atropelada anteontem, perto de uma igreja. Isso não seria tão incomum, se não fosse o fato dela ter desaparecido do hospital misteriosamente nesta manhã. Nossa equipe de reportagem descobriu que ela, supostamente, seria a filha do casal Menini. Eles eram donos do casarão que pegou fogo o ano passado, numa festa que reunia todos os amigos e parentes.</letter>
-    <letter>Fatos estranhos cercam este casal. Há dezoito anos atrás, Júlia Menini teria engravidado. Comunicou-se à imprensa que ela havia abortado. Porém, segundo a ex-governanta da casa, a criança nascera e ganhara o nome de Lara. Dois anos depois, o irmão de Pedro Menini morreu e foi enterrado no jardim da casa. O túmulo teria sido violado, o corpo teria desaparecido e jamais fora encontrado.</letter>
-    <letter>No misterioso incêndio proposital do ano passado, todos os corpos foram encontrados, menos o de Lara. Os vizinhos diziam que Pedro Menini mantinha a garota trancada num quarto separado da casa, pois não a aceitava, sendo ela símbolo da traição de sua esposa. Agora foram encontrados registros e fotos de Lara no quarto existente no jardim da casa. O quarto não tem janelas, nem espelhos, apenas vestidos, uma cama, um banheiro, uma estante cheia dos mais variados livros e uma saída secreta.</letter>
-    <letter>Alguns dizem que a garota saia de noite, pra que ninguém na casa notasse. Há suspeitas de que talvez, por vingança de anos de cárcere, a garota teria causado o incêndio, matando à todos. No hospital os médicos dizem que Lara estava grávida. Não se sabe como fugiu, ou por qual milagre, ela não perdeu a criança.</letter>
-  </teller>
+	<teller><default>Mel entrega um papel a Angely.</default><letter>Uma garota foi atropelada anteontem, perto de uma igreja. Isso não seria tão incomum, se não fosse o fato dela ter desaparecido do hospital misteriosamente nesta manhã. Nossa equipe de reportagem descobriu que ela, supostamente, seria a filha do casal Menini. Eles eram donos do casarão que pegou fogo o ano passado, numa festa que reunia todos os amigos e parentes.</letter><letter>Fatos estranhos cercam este casal. Há dezoito anos atrás, Júlia Menini teria engravidado. Comunicou-se à imprensa que ela havia abortado. Porém, segundo a ex-governanta da casa, a criança nascera e ganhara o nome de Lara. Dois anos depois, o irmão de Pedro Menini morreu e foi enterrado no jardim da casa. O túmulo teria sido violado, o corpo teria desaparecido e jamais fora encontrado.</letter><letter>No misterioso incêndio proposital do ano passado, todos os corpos foram encontrados, menos o de Lara. Os vizinhos diziam que Pedro Menini mantinha a garota trancada num quarto separado da casa, pois não a aceitava, sendo ela símbolo da traição de sua esposa. Agora foram encontrados registros e fotos de Lara no quarto existente no jardim da casa. O quarto não tem janelas, nem espelhos, apenas vestidos, uma cama, um banheiro, uma estante cheia dos mais variados livros e uma saída secreta.</letter><letter>Alguns dizem que a garota saia de noite, pra que ninguém na casa notasse. Há suspeitas de que talvez, por vingança de anos de cárcere, a garota teria causado o incêndio, matando à todos. No hospital os médicos dizem que Lara estava grávida. Não se sabe como fugiu, ou por qual milagre, ela não perdeu a criança.</letter></teller>
 	<talk character="Angely"><default>Isso é de quando?</default></talk>
 	<talk character="Mel"><default>2006.</default></talk>
 	<talk character="Angely"><default>Mas será que isso tem a ver com a garota?</default></talk>
 	<talk character="Mel"><default>Encontrei também outro artigo, de 2008.</default></talk>
-	<teller><default>Mel entrega outro papel à Angely.</default>
-		<letter>Uma menina, nascida em 7/9/2006, desapareceu misteriosamente ontem de um orfanato, quando uma suspeita foi confirmada: a garota que fugiu do hospital no mesmo ano do nascimento, seis meses antes, Lara Menini, era a mãe. Ela fora atropelada por um caminhão e, surpreendentemente, não perdeu a criança. Os que viram disseram que ela estava fugindo de algo quando fora atropelada.</letter>
-    <letter>Por causa do parto prematuro, Lara morreu algumas horas depois. O corpo foi enterrado no jardim da casa dos Menini. A casa foi posta em leilão, para ajudar a pequena órfã. Mas ninguém que se dispôs a comprar a casa: todos que lá entravam eram assassinados, misteriosamente. Por isso a recusa geral de entrar na casa.</letter>
-    <letter>A menina que desapareceu ontem teve problemas depois do nascimento. Ela precisava de sangue, mas não aparecia doador, pensavam que ela ia acabar morrendo. Mas, no dia do aniversário da mãe, encontraram a garota dormindo sem nenhum aparelho. Estava calma e sem problemas. Muitos disseram que era milagre. Outros que a mãe a tinha salvado e que a criança deveria ficar com a casa. A polícia está a procura e diz que, se não encontrá-la em um mês, desistirá da busca.</letter>
-  </teller>
+	<teller><default>Mel entrega outro papel à Angely.</default><letter>Uma menina, nascida em 7/9/2006, desapareceu misteriosamente ontem de um orfanato, quando uma suspeita foi confirmada: a garota que fugiu do hospital no mesmo ano do nascimento, seis meses antes, Lara Menini, era a mãe. Ela fora atropelada por um caminhão e, surpreendentemente, não perdeu a criança. Os que viram disseram que ela estava fugindo de algo quando fora atropelada.</letter><letter>Por causa do parto prematuro, Lara morreu algumas horas depois. O corpo foi enterrado no jardim da casa dos Menini. A casa foi posta em leilão, para ajudar a pequena órfã. Mas ninguém que se dispôs a comprar a casa: todos que lá entravam eram assassinados, misteriosamente. Por isso a recusa geral de entrar na casa.</letter><letter>A menina que desapareceu ontem teve problemas depois do nascimento. Ela precisava de sangue, mas não aparecia doador, pensavam que ela ia acabar morrendo. Mas, no dia do aniversário da mãe, encontraram a garota dormindo sem nenhum aparelho. Estava calma e sem problemas. Muitos disseram que era milagre. Outros que a mãe a tinha salvado e que a criança deveria ficar com a casa. A polícia está a procura e diz que, se não encontrá-la em um mês, desistirá da busca.</letter></teller>
 	<talk character="Angely"><default>Nossa, isso é que é história estranha.</default></talk>
 	<talk character="Edmont"><default>Do que estão falando?</default></talk>
 	<talk character="Mel"><default>Leia isso.</default></talk>
@@ -708,7 +699,7 @@
 	<talk character="Mel"><default>Encontrei algumas informações confidenciais também. Os registros da garota foram queimados. A única coisa que se encontrou no local do desaparecimento foi um pergaminho com um anel o fechando.</default></talk>
 	<talk character="Edmont"><default>Que fazer?</default></talk>
 	<teller><default>Angely vê um bilhete sobre a mesa.</default></teller>
-  <talk character="Angely"><read>Conhece magia? Fiz uma. Às 14:00 hrs exatamente, Halen se tornara uma mulher comum. Os que na sala estão não lembraram de nada anormal que aconteceu em suas vidas. Para Júlio vocês serão dois garotos que estudam com a filha dele. Ele só se lembrará que Edmont é namorado de Agatha. Rith achara que Meg e Katerine são suas filhas. Só vocês três é que sabem de tudo. Pros outros vocês são normais. Mel não tem mais registro na polícia. Há uma quarta casa aí e lá vocês moram. Angely e Edmont ainda estudam na escola. Mel terminou o estudo. Vocês tem uma agência de investigações. Observação: O Egito foi apenas um teste. Nada daquilo era real.</read></talk>
+	<talk character="Angely"><read>Conhece magia? Fiz uma. Às 14:00 hrs exatamente, Halen se tornara uma mulher comum. Os que na sala estão não lembraram de nada anormal que aconteceu em suas vidas. Para Júlio vocês serão dois garotos que estudam com a filha dele. Ele só se lembrará que Edmont é namorado de Agatha. Rith achara que Meg e Katerine são suas filhas. Só vocês três é que sabem de tudo. Pros outros vocês são normais. Mel não tem mais registro na polícia. Há uma quarta casa aí e lá vocês moram. Angely e Edmont ainda estudam na escola. Mel terminou o estudo. Vocês tem uma agência de investigações. Observação: O Egito foi apenas um teste. Nada daquilo era real.</read></talk>
 	<talk character="Edmont"><default>Como isso veio parar aqui???</default></talk>
 	<talk character="Mel"><default>São 13:59... 14:00.</default></talk>
 	<talk character="Angely"><default>Já era...</default></talk>

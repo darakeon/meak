@@ -1,13 +1,10 @@
-﻿<story title="Julgamento" english="Judgement">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story title="Julgamento" english="Judgement" season="B" episode="03">
 	<teller><default>12/02 (quarta). Angely está na sala. Mel chega, feliz.</default></teller>
 	<talk character="Ang"><default>Bom dia.</default></talk>
-	<talk character="Mel">
-	<default>Sabe que eu tive um sonho muito...</default>
-	<teller>toca o telefone</teller>
-	<default>Alô? ### Se trabalhamos com roupa? ### Não, aqui a gente se veste com pele de gente. Onde você está mesmo? ###</default>
-	<teller>ela coloca o telefone no lugar</teller>
-	<irony>Estranho, desligou.</irony>
-	</talk>
+	<talk character="Mel"><default>Sabe que eu tive um sonho muito...</default>
+	<teller>toca o telefone</teller><default>Alô? ### Se trabalhamos com roupa? ### Não, aqui a gente se veste com pele de gente. Onde você está mesmo? ###</default>
+	<teller>ela coloca o telefone no lugar</teller><irony>Estranho, desligou.</irony></talk>
 	<talk character="Ang"><default>Nossa, acordou de mal-humor?</default></talk>
 	<talk character="Mel"><default>Detesto trotes. E Zenon?</default></talk>
 	<talk character="Ang"><default>Zenon?</default></talk>

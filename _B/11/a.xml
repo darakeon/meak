@@ -1,4 +1,5 @@
-﻿<story title="O que você vai ser quando você crescer" english="What you will be when grow up">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story title="O que você vai ser quando você crescer" english="What you will be when grow up" season="B" episode="11">
 	<teller><default>31/05 (sábado). 9:00. Kat, Derik, Estela, Alan, Zenon, Fábio e Beatrice estão reunidos na sala da MEAK. Mel chega.</default></teller>
 	<talk character="Mel"><default>Isso aqui tá ficando meio cheio. Daqui a pouco precisarei de um megafone pra falar com todos.</default></talk>
 	<talk character="Fábio"><default>Tenho que fazer contato com o Grupo, eles provavelmente ainda não sabem de mim, mas assim que...</default></talk>
@@ -88,11 +89,8 @@
 	<talk character="Fábio"><default>Tá, então vamos esperar doze horas, pro efeito...</default></talk>
 	<teller><default>Mel desarma Soraia.</default></teller>
 	<talk character="Bea"><default>Já escolheu o professor?</default></talk>
-	<talk character="Mel">
-<default>Uma professora, na verdade.</default>
-<teller>se vira para Soraia</teller>
-<default>Que estava fazendo na minha casa com isso?</default>
-</talk>
+	<talk character="Mel"><default>Uma professora, na verdade.</default>
+	<teller>se vira para Soraia</teller><default>Que estava fazendo na minha casa com isso?</default></talk>
 	<talk character="Soraia"><default>Não tenho culpa se abriga vampiros.</default></talk>
 	<talk character="Mel"><default>Zenon foi deixado e Beatrice é assunto meu.</default></talk>
 	<talk character="Soraia"><default>Tô falando de Fábio.</default></talk>

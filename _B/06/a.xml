@@ -1,4 +1,5 @@
-﻿<story title="Filhos" english="Child">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story title="Filhos" english="Child" season="B" episode="06">
 	<teller><default>11/03 (terça). 22:30. Mel chega à sala e encontra Derik emburrado.</default></teller>
 	<talk character="Mel"><default>Que cara é essa Derik?</default></talk>
 	<talk character="Derik"><default>Não consegui emprego e não tenho dinheiro pra dar presente pra Kat.</default></talk>
@@ -775,10 +776,7 @@
 	<talk character="Alan"><default>Como assim?</default></talk>
 	<talk character="Ang"><default>É uma pergunta simples... Eu acho.</default></talk>
 	<talk character="Kat"><default>Pois é, ele saiu e não voltou. Deve ter herdado isso do pai.</default></talk>
-	<teller>
-	<default>Alete entrega um papel à Angely:</default>
-	<letter>Ele me atacou, Alan me defendeu.</letter>
-	</teller>
+	<teller><default>Alete entrega um papel à Angely:</default><letter>Ele me atacou, Alan me defendeu.</letter></teller>
 	<talk character="Ang"><default>Pégasos não atacam fênixs...</default></talk>
 	<teller><default>Ela olha bruscamente na direção da porta da copa. Zenon aparece. Fica olhando pra ela. Nat chega. Olha para os dois.</default></teller>
 	<talk character="Nat"><default>Angely, leva ela daqui.</default></talk>
