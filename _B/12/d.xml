@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="12" scene="d">
+	<teller>
+		<default>Alan e Fábio se sentam em um sofá, Hector em outro.</default>
+	</teller>
 	<talk character="Hector">
 		<default>Qual o assunto?</default>
 	</talk>
@@ -7,13 +10,13 @@
 		<default>Um amigo seu que se suicidou.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Poderia ser um pouco mais delicado.</default>
+		<default>Poderia ter um pouco mais de delicadeza.</default>
 	</talk>
 	<talk character="Hector">
 		<default>Costumo ser delicado, mas prefiro que as pessoas sejam diretas comigo.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Nós estamos investigando a mulher...</default>
+		<default>Nós estamos investigando...</default>
 	</talk>
 	<talk character="Hector">
 		<default>Policiais?</default>
@@ -22,7 +25,7 @@
 		<default>Não. Somos...</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Estamos procurando alguma pista de como tirar das Ilhas uma mulher que já esteve aqui. Não sabemos como ela saiu, mas foi há um ano atrás, é a mulher que roubou a namorada do seu amigo e...</default>
+		<default>Estamos procurando alguma pista de como tirar das Ilhas uma pessoa que já esteve aqui. Não sabemos como saiu, mas foi há um ano atrás, é a pessoa que interferiu no relacionamento e...</default>
 	</talk>
 	<talk character="Hector">
 		<default>Fez ele se suicidar.</default>
@@ -37,19 +40,19 @@
 		<default>Acha que não se matou?</default>
 	</talk>
 	<talk character="Hector">
-		<default>Sim, ele fez isso. Apenas tenho certeza de que foi muito estimulado. É claro que ele daria a vida por aquela garota, mas jamais faria isso só porque o trocou. Vivia deprimido, eu sei... Ele era contra suicídio. Não tenho mesmo o que dizer.</default>
+		<default>Sim, ele fez isso. Só tenho certeza de que foi muito estimulado. É claro que ele daria a vida por aquela garota, mas jamais faria isso só porque ela trocou ele. Ele queria a felicidade dela, e iria querer mesmo que fosse sem ele. Vivia deprimido, eu sei... Ele era contra suicídio. Não tenho mesmo o que dizer.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>A garota o largaria por vontade própria?</default>
+		<default>A pessoa largaria por vontade própria?</default>
 	</talk>
 	<talk character="Hector">
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Ela o amava?</default>
+		<default>Se amavam?</default>
 	</talk>
 	<talk character="Hector">
-		<default>Bom, não, estava com ele mais por ser uma boa companhia. Ele sabia disso, insistiu demais pra ela tentar. Mas também não acho que estivesse apaixonada pela mulher. Parecia enfeitiçada... Não largaria ele por alguém que não amasse.</default>
+		<default>Bom, ela tava com ele mais por ser uma boa companhia. Ele sabia disso, insistiu demais pra ela tentar. Mas também não acho que estivesse apaixonada pela mulher. Parecia enfeitiçada... Ela não largaria ele por alguém que não amasse, e acho que não amava.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Acredita em feitiçaria?</default>
@@ -66,11 +69,14 @@
 	<talk character="Alan">
 		<default>Mas se você conhece, é muito mais fácil! Eu ao menos acho que a Ludmila não é humana!</default>
 	</talk>
+	<teller>
+		<default>Hector cruza as pernas e pega um cigarro.</default>
+	</teller>
 	<talk character="Hector">
-		<default>Pra mim parece bem humano passar por cima das vontades alheias.</default>
+		<default>Pois pra mim parece bem humano passar por cima das vontades alheias.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Nossa amiga, a Melody, ela tá comendo demais, tá devorando tudo que vem pela frente!</default>
+		<default>Nossa amiga, a Melody, tá comendo demais, tá devorando tudo que vem pela frente...</default>
 	</talk>
 	<talk character="Hector">
 		<default>Ela tá com a Ludmila?</default>
@@ -82,13 +88,13 @@
 		<default>Já ouvi falar disso... Em vários seriados de ficção.</default>
 	</talk>
 	<teller>
-		<default>Fábio encara Alan</default>
+		<default>Fábio encara Alan.</default>
 	</teller>
 	<talk character="Hector">
 		<default>Tudo que sei além do que falei é que Ludmila odeia homens.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Ela tá sempre me olhando feio. Melhor nós irmos.</default>
+		<default>Tá sempre me olhando feio. Melhor nós irmos.</default>
 	</talk>
 	<talk character="Hector">
 		<default>Já? Não quer um café, um suco...</default>
@@ -125,20 +131,24 @@
 	</talk>
 	<talk character="Hector">
 		<default>Tá...</default>
-		<teller>solta o braço de Fábio</teller>
+	</talk>
+	<teller>
+		<default>Hector solta o braço de Fábio.</default>
+	</teller>
+	<talk character="Hector">
 		<default>Até outro dia.</default>
 	</talk>
 	<teller>
-		<default>Os dois saem. 22:00. Chegam em casa. Beatrice e Zenon estão na sala. Beatrice está encostada no balcão de recepção e Zenon está sentado no sofá.</default>
+		<first>Noite. MEAK. Fábio e Alan entram. Beatrice encostou-se no balcão de recepção e Zenon está no sofá.</first>
 	</teller>
 	<talk character="Fábio">
-		<default>Nós estávamos ali para pegar informações, não para dá-las.</default>
+		<default>Nós estávamos ali para pegar informações, não para dar.</default>
 	</talk>
 	<talk character="Alan">
 		<default>E o que ele poderia fazer?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Temos que ser um pouco mais discretos, e não ficar entregando tudo, por mais confiável que pareça... Que caras são essas?</default>
+		<default>Temos que ter um pouco mais de discrição, e não ficar entregando tudo, por mais confiável que pareça... Que caras são essas?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Vocês falaram com quem tinham que falar?</default>
@@ -156,7 +166,7 @@
 		<default>Vocês falaram com quem tinham que falar. Eu falei com quem tinha que falar. Beatrice resolveu raptar a pessoa com quem tinha que falar.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não ia deixá-la, não viu o jeito como era tratada!</default>
+		<default>Não ia deixar lá, não viu o jeito como tratavam!</default>
 	</talk>
 	<talk character="Alan">
 		<default>A garota do hospício tá aí???</default>
@@ -165,7 +175,7 @@
 		<default>Com Derik, lá em cima.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Isso não é tanto problema, temos motivo suficiente pra achar que ela não deveria estar lá.</default>
+		<default>Isso não é tanto problema, temos motivo suficiente pra achar que não deveria estar lá.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Quer dizer que eu devia ter tirado Louis da cadeia???</default>
@@ -185,8 +195,17 @@
 	<talk character="Fábio">
 		<default>Como assim???</default>
 	</talk>
+	<teller>
+		<default>Kat baixa a cabeça.</default>
+	</teller>
 	<talk character="Kat">
-		<default>Ela foi. Mas peraí, que ouvi um nome... Louis... Vocês disseram Louis?</default>
+		<default>Foi.</default>
+	</talk>
+	<teller>
+		<default>Kat olha para Zenon.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Louis... Vocês disseram Louis?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Sim, o cara que Ludmila colocou na cadeia. E Beatrice trouxe a garota, Valquíria, pra cá. Raptou, na verdade!</default>
@@ -201,19 +220,19 @@
 		<default>"Nos livrar"??? Parece que quer matar a garota!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Sem baderna, por favor, eu tô querendo falar. Vi esse Louis num sonho.</default>
+		<default>Sem baderna, por favor, eu tô querendo falar. Vi Louis num sonho.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Tá ficando tão mandona quanto a mãe...</default>
 	</talk>
 	<talk character="Kat">
-		<default>E você tá parecendo o cebolinha falando. Isso aqui não é briguinha de crianças, nem guerra de sexos, nem nenhuma das besteiras com que pode estar acostumado. Somos uma equipe, não estamos tentando vencer uns aos outros.</default>
+		<default>E você tá parecendo o cebolinha falando. Isso aqui não é briguinha de crianças, nem guerra de sexos, nem nenhuma das besteiras com que pode ter se acostumado.</default>
 	</talk>
 	<talk character="Alan">
 		<default>E o mesmo jeito de me tirar a razão.</default>
 	</talk>
 	<talk character="Derik">
-		<arrive>Só não vale agarrar minha namorada por isso.</arrive>
+		<arrive>Só não vale agarrar Kat por isso.</arrive>
 	</talk>
 	<talk character="Estela">
 		<default>Ué, não tava cuidando dela?</default>
@@ -224,6 +243,9 @@
 	<talk character="Kat">
 		<screamed>Ninguém tá mesmo prestando atenção em mim???</screamed>
 	</talk>
+	<teller>
+		<default>Silêncio.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Seu sonho. Fale.</default>
 	</talk>
@@ -237,13 +259,13 @@
 		<default>Tá. Chegou, temos que oficializar. Quem pode ser o tradutor do Alan?</default>
 	</talk>
 	<teller>
-		<default>Zenon levanta a mão. Kat faz sinal para que ele fale.</default>
+		<default>Zenon levanta a mão. Kat aponta Alan com a palma pra cima.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Ela quis dizer que ele tem sonhos como os dela, profecias.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eu o vi pequeno. Ele falava com um outro garoto... Estava num orfanato. Disse que tinha sonhado com uma tal de Valquíria. Tive certeza quando falou o nome da garota.</default>
+		<default>Eu vi criança. Falava com um outra criança... Estava num orfanato. Disse que tinha sonhado com Valquíria. Tive certeza quando falou o nome da outra pessoa.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Se fosse ele, não poderia ter previsto o que Ludmila faria?</default>
@@ -258,58 +280,61 @@
 		<default>Então, os dois vieram de um orfanato?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não, a encontrou depois. É filha do casal que o adotou.</default>
+		<default>Não, Louis encontrou Valquíria depois. Nasceu do casal que adotou Louis.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Pode nos dizer algo mais?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Que os pais adotivos morreram. O resto podemos perguntar ao próprio.</default>
+		<default>Que os pais adotivos morreram. O resto podemos perguntar a Louis.</default>
 	</talk>
 	<teller>
-		<default>1984. A mulher está deitada numa cama, suando.</default>
+		<division>1984</division>
 	</teller>
-	<talk character="mulher">
+	<teller>
+		<default>Carla está na cama, suando.</default>
+	</teller>
+	<talk character="Carla">
 		<screamed>Que está fazendo???</screamed>
 	</talk>
 	<talk character="Louis">
-		<default>Tem que deixá-la sair...</default>
+		<default>Tem que deixar ela sair...</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Nem sabemos se é mulher ou o que é!</default>
 	</talk>
 	<talk character="Louis">
 		<default>Confie em mim, eu sei.</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Como sabia que meu marido ia morrer???</default>
 	</talk>
 	<talk character="Louis">
 		<default>E que ela viria. Já disse que vai para junto dele...</default>
 	</talk>
-	<talk character="mulher">
-		<default>Por que quer me matar??? Por que o queria morto??? O que fizemos pra você??? Nós te adotamos, foi isso??? Queria ficar lá??? Por que não...</default>
+	<talk character="Carla">
+		<default>Por que quer me matar??? Por que queria ele morto??? O que fizemos pra você??? Nós te adotamos, foi isso??? Queria ficar lá??? Por que não...</default>
 	</talk>
 	<talk character="Louis">
-		<default>Não os matei. Apenas sabia. Sabe que tenho sonhos.</default>
+		<default>Não matei vocês. Só sabia. Sabe que tenho sonhos.</default>
 	</talk>
-	<talk character="mulher">
-		<default>Deveria ter me avisado antes!</default>
+	<talk character="Carla">
+		<screamed>Deveria ter me avisado antes!!!</screamed>
 	</talk>
 	<talk character="Louis">
-		<default>Não tinha como evitar. Os sonhos foram mandados para não deixá-la sozinha, não para evitarem que vocês reencarnassem.</default>
+		<default>Não tinha como evitar. Os sonhos foram mandados para não deixar ela sozinha, não para evitar que vocês reencarnassem.</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Está obcecado por ela! E a minha filha nem nasceu!</default>
 	</talk>
 	<teller>
-		<default>Ele vai para perto dela.</default>
+		<default>Louis se aproxima de Carla.</default>
 	</teller>
 	<talk character="Louis">
 		<default>Está tentando descontar sua dor. Faz isso desde que soube que ele se foi.</default>
 	</talk>
-	<talk character="mulher">
-		<default>E você não sente dor nenhuma.</default>
+	<talk character="Carla">
+		<default>E você não sente dor nenhuma!</default>
 	</talk>
 	<talk character="Louis">
 		<default>No fundo sabe que está falando bobagens. Se não, já teria me devolvido, chamado a polícia ou algo assim.</default>
@@ -321,32 +346,36 @@
 		<default>Oi.</default>
 	</talk>
 	<teller>
-		<default>Ela grita.</default>
+		<default>Carla grita. Dionísio dá um passo para trás.</default>
 	</teller>
 	<talk character="Dionísio">
 		<default>Isso não foi comigo, foi?</default>
 	</talk>
 	<talk character="Louis">
-		<default>Estourou a bolsa há algum tempo. O que está fazendo aqui?</default>
+		<default>Estourou a bolsa há algum tempo. Que está fazendo aqui?</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>Só por causa de uma bolsa?</default>
-		<teller>Louis o encara</teller>
+	</talk>
+	<teller>
+		<default>Louis encara Dionísio, que sorri.</default>
+	</teller>
+	<talk character="Dionísio">
 		<default>Tô brincando.</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Vai chamar todos os amigos de sua seita?!</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>Ele não me chamou. Não ouviu ele perguntar porque estou aqui?</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Eu quem não ouviu você responder.</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>Daniel é caça-vampiros e está fora.</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Vocês são loucos!</default>
 	</talk>
 	<talk character="Louis">
@@ -365,13 +394,16 @@
 		<default>Por que ela não vai para um hospital mesmo?</default>
 	</talk>
 	<talk character="Louis">
-		<default>Ela acha que, se a criança for algo de feitiçaria, alguém poderia descobrir e querer prendê-la, levá-la ou algo assim.</default>
+		<default>Ela acha que, se a criança for algo de feitiçaria, alguém poderia descobrir e querer prender ou levar ela ou algo assim.</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>Ainda bem que não entregou Julinha para essa paranóica.</default>
 	</talk>
 	<teller>
-		<default>24/06/2003 (terça-feira), 14:00. Derik chega com algumas folhas. Entrega para Fábio.</default>
+		<division>2003</division>
+	</teller>
+	<teller>
+		<default>Tarde. Derik chega com algumas folhas. Entrega para Fábio.</default>
 	</teller>
 	<talk character="Fábio">
 		<default>Internet?</default>
@@ -386,13 +418,13 @@
 		<default>E Zenon.</default>
 	</talk>
 	<teller>
-		<default>Uma garota espreita da escada.</default>
+		<default>Olhos na escada.</default>
 	</teller>
 	<talk character="Fábio">
 		<default>Pode vir, Valquíria.</default>
 	</talk>
 	<teller>
-		<default>Ela desce e vai até eles. Olha para as folhas. Fábio lhas entrega.</default>
+		<default>Valquíria desce. Vai até Fábio. Olha para as folhas. Fábio entrega as folhas a Valquíria.</default>
 	</teller>
 	<talk character="Valquíria">
 		<default>Fotos...</default>
@@ -419,7 +451,7 @@
 		<default>E se ela mentir?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Eu saberei. E não creio que vá mentir.</default>
+		<default>Eu saberei. E não creio que vá mentir. E a gente pode imprimir de novo.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Bom, eu li o que tava escrito. A primeira notícia era que Louis salvou Valquíria quando a mãe dela morreu em trabalho de parto. A segunda é de que ele foi acusado de sedução de menor por Ludmila, há um ano atrás.</default>
@@ -428,60 +460,87 @@
 		<arrive>Só comecei a fazer algo com Valquíria quando ela quis.</arrive>
 	</talk>
 	<teller>
-		<default>Derik e Fábio olham para Louis. Zenon e Beatrice entram também.</default>
+		<default>Derik e Fábio olham para Louis. Zenon e Beatrice entram.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Não era você quem tinha achado loucura tirar Valquíria do hospício?</default>
 	</talk>
+	<teller>
+		<default>Louis franze a sobrancelha.</default>
+	</teller>
 	<talk character="Louis">
 		<default>Hospício???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ela tá lá em cima agora, tá bem.</default>
+		<default>Tá lá em cima agora, tá bem.</default>
 	</talk>
 	<teller>
 		<default>Louis sobe correndo.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Ele tem mesmo os mesmos poderes de Kat.</default>
+		<default>Tem mesmo os mesmos poderes de Kat.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Se fingiu de morto e fomos como dois patetas ao necrotério, já pensando no que diríamos para Valquíria. E de repente, o presunto se levanta... "Vocês vieram me buscar?".</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Por que ele não usou isso antes?</default>
+		<default>Por que não usou isso antes?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Katerine ligou na cadeia e falou com Louis. Ensinou pra ele o truque que ele desconhecia.</default>
+		<default>Katerine ligou na cadeia e falou com Louis. Ensinou o truque.</default>
 	</talk>
+	<teller>
+		<default>Zenon aponta para cima.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Se tivéssemos comprado o caixão, ele ia ter que usar de cama!</default>
+		<default>Se tivéssemos comprado o caixão, ia ter que usar de cama!</default>
 	</talk>
 	<talk character="Alan">
-		<arrive>Zenon, Michele está te chamando para treiná-la.</arrive>
+		<arrive>Zenon, Michele está te chamando para treinar ela.</arrive>
 	</talk>
 	<talk character="Derik">
-		<default>Bom, agora vamos falar com Louis, ver se ele teve algum sonho a respeito de Ludmila.</default>
+		<default>Bom, agora vamos falar com Louis, ver se teve algum sonho a respeito de Ludmila.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Não era o cara que tava preso? Deixa que eu falo com ele...</default>
 	</talk>
 	<teller>
-		<default>Alan vai na direção da escada mas Fábio o puxa de volta. Ele olha para Fábio, tenta ir de novo, mas é puxado de novo.</default>
+		<default>Alan vai na direção da escada mas Fábio puxa de volta. Alan olha para Fábio, tenta ir de novo, mas de novo Fábio puxa.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Tá me achando gordo? Acha que preciso de exercício?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Eles ficaram separados um ano, pode deixá-los matar as saudades?</default>
+		<default>Eles ficaram separados um ano, não rola deixar a sós por um instante, matando a saudade?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Mesmo porque, acho que até sei como estão "matando a saudade".</default>
 	</talk>
+	<teller>
+		<default>Alan sorri.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Como você...</default>
+	</talk>
+	<teller>
+		<default>Alan desfaz o sorriso.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Audição.</default>
+	</talk>
+	<teller>
+		<default>Olha para cima. Balança a cabeça para os lados.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Ok. Michele então.</default>
 	</talk>
 	<teller>
 		<default>Zenon pega a capa e sai. Alan vai também.</default>
+	</teller>
+	<talk character="Alan">
+		<out>Me lembra de nunca trepar perto de você...</out>
+	</talk>
+	<teller>
+		<default>Fábio balança a cabeça para os lados.</default>
 	</teller>
 </story>
