@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using Ak.DataAccess.XML;
+using Structure.Data;
 
 namespace Structure.Entities
 {
@@ -15,14 +14,8 @@ namespace Structure.Entities
 
         public Episode(String path, String season, String episode) : this()
         {
-            var titleXMLName = Path.Combine(path, "_" + season, episode, "_.xml");
-
-            var titleXML = new Node(titleXMLName);
-
-            Title = titleXML[0]["title"];
-
             ID = episode;
-
+            Title = TitleXML.Get(path, season, episode);
             Season = new Season { ID = season };
         }
 

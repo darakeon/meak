@@ -8,15 +8,6 @@
 }
 
 
-@if (@Model.Prev != null)
-{
-    <div class="navigation prevEp">
-        <a href="@Url.RouteUrl("Scene", new { controller = "Season", season = Model.Prev.Season, action = "Episode", episode = Model.Prev.Episode, scene = Model.Prev.Scene })">
-            <img alt="@Model.Prev.Season@Model.Prev.Episode" src="@Url.Content(@"~/Assets/images/Prev.gif")" />
-        </a>
-    </div>
-}
-
 <p class="title">
     @Model.Story.Episode.Title
 </p>
@@ -50,15 +41,6 @@
 
             tellerCounter++;
         }
-    </div>
-}
-
-@if (@Model.Next != null)
-{
-    <div class="navigation nextEp">
-        <a href="@Url.RouteUrl("Scene", new { controller = "Season", season = Model.Next.Season, action = "Episode", episode = Model.Next.Episode, scene = Model.Next.Scene })">
-            <img alt="@Model.Next.Season@Model.Next.Episode" src="@Url.Content(@"~/Assets/images/next.gif")" />
-        </a>
     </div>
 }
 

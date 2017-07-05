@@ -33,25 +33,8 @@ namespace Presentation.Helpers
 
 
             seasonNum = seasonList.IndexOf(season);
-            var firstSeason = seasonNum == 0;
-            var lastSeason = seasonNum + 1 == seasonList.Count;
-            
-
             episodeNum = episodeList.IndexOf(episode);
-            var firstEpisode = episodeNum == 0;
-            var lastEpisode = episodeNum + 1 == episodeList.Count;
-
-
             sceneNum = sceneList.IndexOf(scene);
-            var firstScene = sceneNum == 0;
-            var lastScene = sceneNum + 1 == sceneList.Count;
-
-
-            model.Prev = getOtherEpisodeLink(firstSeason, firstEpisode, firstScene, true);
-            model.Next = getOtherEpisodeLink(lastSeason, lastEpisode, lastScene, false);
-
-
-            //return model;
         }
 
 
@@ -90,50 +73,6 @@ namespace Presentation.Helpers
                 )
                 .Where(d => d != "_")
                 .ToList();
-        }
-
-
-
-        private static SeasonEpisodeScene getOtherEpisodeLink(Boolean isEdgeSeason, Boolean isEdgeEpisode, Boolean isEdgeScene, Boolean previous)
-        {
-            var ses = new SeasonEpisodeScene();
-
-            var diff = previous ? -1 : +1;
-
-            if (!isEdgeScene)
-            {
-                ses.Season = seasonList[seasonNum];
-                ses.Episode = episodeList[episodeNum];
-                ses.Scene = sceneList[sceneNum + diff];
-
-                return ses;
-            }
-            
-            if (!isEdgeEpisode)
-            {
-                ses.Season = seasonList[seasonNum];
-                ses.Episode = episodeList[episodeNum + diff];
-
-                sceneList = getScenes(ses.Season, ses.Episode);
-                ses.Scene = previous ? sceneList.Last() : sceneList.First();
-
-                return ses;
-            }
-            
-            if (!isEdgeSeason)
-            {
-                ses.Season = seasonList[seasonNum + diff];
-
-                episodeList = getEpisodes(ses.Season);
-                ses.Episode = previous ? episodeList.Last() : episodeList.First();
-
-                sceneList = getScenes(ses.Season, ses.Episode);
-                ses.Scene = previous ? sceneList.Last() : sceneList.First();
-
-                return ses;
-            }
-
-            return null;
         }
     }
 }

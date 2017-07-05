@@ -7,30 +7,32 @@ namespace Presentation.Models
 {
     public class SeasonAddEpisodeModel : BaseModel
     {
+        public SeasonEpisode SeasonEpisode { get; set; }
+        public String Title { get; set; }
+
+
+
         public SeasonAddEpisodeModel()
         {
-            Init();
+            init();
         }
 
         public SeasonAddEpisodeModel(Paths paths) : base(paths)
         {
-            Init();
+            init();
 
             var lastSeason = Menu.SeasonList.LastOrDefault() ?? new Season();
             var lastEpisode = lastSeason.EpisodesList.LastOrDefault() ?? new Episode();
 
             SeasonEpisode.NewEp(lastSeason.ID, lastEpisode.ID);
-
         }
 
-        public void Init()
+
+        private void init()
         {
-            SeasonEpisode = new SeasonEpisodeScene();
+            SeasonEpisode = new SeasonEpisode();
         }
 
 
-        public SeasonEpisodeScene SeasonEpisode { get; set; }
-
-        public String Title { get; set; }
     }
 }

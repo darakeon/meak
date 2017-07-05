@@ -186,7 +186,8 @@ namespace Presentation.Controllers
 
             xml.AddNewStory(model.Title);
 
-            return RedirectToAction("Episode", new { season = xml.Scene.Episode.ID, episode = xml.Scene.ID });
+
+            return RedirectToAction("Episode", new { season = xml.Scene.Episode.Season.ID, episode = xml.Scene.Episode.ID });
         }
     }
 }

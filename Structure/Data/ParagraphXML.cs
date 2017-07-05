@@ -73,7 +73,6 @@ namespace Structure.Data
         {
             var nodeName = typeof(T).Name
                     .Replace("Style", "")
-                    .Substring(1)
                     .ToLower();
 
             var node = new Node(nodeName, "");

@@ -5,21 +5,27 @@ using System.Xml;
 using Ak.DataAccess.XML;
 using Structure.Entities;
 using Structure.Enums;
+using Structure.Extensions;
 using FileInfoExtension = Structure.Extensions.FileInfoExtension;
 
 namespace Structure.Data
 {
     public class SceneXML
     {
+        private readonly string episodeID;
+        private readonly string folderPath;
+        private readonly string seasonID;
+
         readonly String tellerEnum = ParagraphType.Teller.ToString().ToLower();
         readonly String talkEnum = ParagraphType.Talk.ToString().ToLower();
 
         public Scene Scene { get; set; }
         public FileInfo FileInfo { get; set; }
 
-        private String backupFullName { get; set; }
+        private String backupPath { get; set; }
 
         public const String FirstScene = "a";
+
 
 
         public SceneXML(String folderPath, String season, String episode)
@@ -30,28 +36,31 @@ namespace Structure.Data
 
         public SceneXML(String folderPath, String seasonID, String episodeID, String sceneID, OpenEpisodeOption get)
         {
-            var filePath = Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".xml");
+            this.folderPath = folderPath;
+            this.seasonID = seasonID;
+            this.episodeID = episodeID;
 
-            FileInfo = new FileInfo(filePath);
+            backupPath = BackupFilePath(folderPath, seasonID, episodeID, sceneID);
 
+            var storyPath = StoryFilePath(folderPath, seasonID, episodeID, sceneID);
+            FileInfo = new FileInfo(storyPath);
 
             var episode = new Episode(folderPath, seasonID, episodeID);
-
             populateScene(get, episode);
-
-
-            setBackupName(folderPath, seasonID, episodeID, sceneID);
-
-            FileInfo = new FileInfo(filePath);
         }
 
 
 
-        private void setBackupName(String folderPath, String season, String episode, String scene)
+        public static String StoryFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
+        {
+            return Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".xml");
+        }
+
+        public static String BackupFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
         {
             var datetime = DateTime.Now.ToString("yyyyMMddHHmmssfff");
-            var backupFile = String.Format("{0}_{1}{2}-{3}.xml", datetime, season, episode, scene);
-            backupFullName = Path.Combine(folderPath, "Backup", backupFile);
+            var backupFile = String.Format("{0}_{1}{2}-{3}.xml", datetime, seasonID, episodeID, sceneID);
+            return Path.Combine(folderPath, "Backup", backupFile);
         }
 
 
@@ -59,7 +68,7 @@ namespace Structure.Data
         private void populateScene(OpenEpisodeOption get, Episode episode)
         {
             Scene = new Scene {
-                            ID = FileInfoExtension.NameWithoutExtension(FileInfo),
+                            ID = FileInfo.NameWithoutExtension(),
                             Episode = episode
                         };
 
@@ -67,29 +76,28 @@ namespace Structure.Data
                 readStory();
         }
 
+
+
         private void readStory()
         {
             var xml = new Node(FileInfo.FullName);
 
             if (!String.IsNullOrEmpty(xml.Value))
-            {
                 throw new Exception("Story pieces out of tags: " + xml.Value);
-            }
 
 
             foreach(var node in xml)
             {
                 if (!String.IsNullOrEmpty(node.Value))
-                {
                     throw new Exception("Story pieces without style: " + node.Value);
-                }
-
 
                 var paragraph = defineType(node.Name);
 
                 setText(paragraph, node);
             }
         }
+
+
 
         private ParagraphType defineType(String nodeName)
         {
@@ -128,25 +136,18 @@ namespace Structure.Data
 
         public void WriteStory()
         {
-            var xml = makeXML();
+            var xml = makeStoryXML();
 
-            xml.BackUpAndSave(backupFullName);
+            xml.BackUpAndSave(backupPath);
+
+            TitleXML.Save(Scene.Episode.Title, folderPath, seasonID, episodeID);
         }
 
         public void AddNewStory(String title)
         {
-            var episodeExists = FileInfo.Exists;
+            var sceneExists = 
+                !FileInfo.CreateIfNotExists("<story></story>");
 
-            if (!episodeExists)
-            {
-                var file = File.Create(FileInfo.FullName);
-
-                var parentNode = "<story></story>".Select(c => (byte) c).ToArray();
-
-                file.Write(parentNode, 0, parentNode.Length);
-
-                file.Flush(); file.Close();
-            }
 
             for (var j = 0; j < 10; j++)
             {
@@ -160,21 +161,21 @@ namespace Structure.Data
                 }
             }
 
-            Scene.Episode.Title = title;
 
-            var xml = makeXML();
+            var storyXML = makeStoryXML();
 
-            if (episodeExists)
-                xml.BackUpAndSave();
+            if (sceneExists)
+                storyXML.BackUpAndSave(backupPath);
             else
-                xml.Overwrite();
+                storyXML.Overwrite();
+
+
+            TitleXML.Save(title, folderPath, seasonID, episodeID);
         }
 
-        private Node makeXML()
+        private Node makeStoryXML()
         {
             var xml = new Node(FileInfo.FullName, false);
-
-            xml["title"] = Scene.Episode.Title;
 
 
             var talkCounter = 0;

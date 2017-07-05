@@ -29,12 +29,20 @@ namespace Presentation
                 new { controller = "Account", action = "LogOn" } // Parameter defaults
             );
 
-            
+
+
             routes.MapRoute(
-                "Author", // Route name
+                "AuthorScene", // Route name
                 "Author/{controller}/{season}/{action}/{episode}/{scene}", // URL with parameters
                 new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional, scene = SceneXML.FirstScene } // Parameter defaults
             );
+
+            routes.MapRoute(
+                "Author", // Route name
+                "Author/{controller}/{season}/{action}/{episode}", // URL with parameters
+                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional } // Parameter defaults
+            );
+
 
 
             routes.MapRoute(
