@@ -2,7 +2,7 @@
 <story season="A" episode="04" scene="a">
 	<teller>
 		<division>20 de dezembro</division>
-		<default>Angely e Edmont estão literalmente jogados no chão da sala.</default>
+		<default>Angely e Edmont olham para o teto, do chão da sala da casa que receberam.</default>
 	</teller>
 	<talk character="Angely">
 		<default>2018 tá acabando. Qual o balanço desse ano?</default>
@@ -26,13 +26,7 @@
 		<default>Devíamos terminar logo com isso.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Pra que? Estamos mesmo ferrados.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ficar aqui parado não tá dando.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tá. E o que a gente faz?</default>
+		<default>Como?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Sei lá. Podíamos começar procurando onde a Mel deixou a chave.</default>
@@ -53,10 +47,10 @@
 		<default>Eu tava procurando algo. Acho que encontrei.</default>
 	</talk>
 	<teller>
-		<default>Kat entra na sala.</default>
+		<default>Kat entra na sala. Angely vai até Kat e lhe abraça. Se afasta. Olha para Kat.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Como???</default>
+		<default>Como?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Onde você estava?</default>
@@ -64,20 +58,26 @@
 	<talk character="Kat">
 		<default>Não sei. Senti uma tontura. Depois acordei num lugar estranho. A Mel me encontrou.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Então você lembra que...</default>
+	<talk character="Edmont">
+		<default>Então você lembra.</default>
 	</talk>
 	<talk character="Kat">
-		<default>É, eu lembro.</default>
+		<default>Eles...?</default>
 	</talk>
 	<teller>
-		<default>Kat baixa a cabeça. Angely abraça-a.</default>
+		<default>Kat olha para Edmont. Ele balança a cabeça, para cima e para baixo. Os olhos de Kat marejam. Kat baixa a cabeça. Angely abraça-lhe novamente.</default>
 	</teller>
+	<talk character="Angely">
+		<default>Ao menos você está com a gente.</default>
+	</talk>
 	<talk character="Edmont">
 		<default>Temos que contar pra Meg e pra Agatha.</default>
 	</talk>
+	<teller>
+		<default>Kat se afasta de Angely e olha para Mel e depois para Edmont.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Talvez seja um choque pra elas.</default>
+		<default>Talvez seja um choque.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Mas eu quero ver elas!</default>
@@ -106,15 +106,10 @@
 	<talk character="Edmont">
 		<default>Chaves?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Aqui.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Aqui.</default>
-	</talk>
+	<teller>
+		<default>Angely tira do bolso. Mel mostra a sua. Edmont pega o telefone e digita um número. Aguarda.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Tá.</default>
-		<teller>Edmont pega o telefone e digita um número</teller>
 		<default>Agatha? ### Vem pra cá. ### Não, não posso dizer por telefone. ### Traz a Meg. ### É importante. ### Tá, até logo.</default>
 	</talk>
 	<talk character="Kat">
@@ -124,7 +119,7 @@
 		<default>Elas vão vir.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, se estávamos fazendo besteira, já fizemos.</default>
+		<default>Bom, se era pra dar merda...</default>
 	</talk>
 	<teller>
 		<first>Agatha vai até a casa de Meg.</first>
@@ -145,11 +140,14 @@
 		<default>É fácil pra você dizer isso.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Não, não é! Eu perdi meu pai também, esqueceu?!</default>
+		<default>Eu perdi meu pai também, esqueceu?!</default>
 	</talk>
 	<talk character="Meg">
 		<default>Não, eu não esqueci. Mas você é mais forte que eu.</default>
 	</talk>
+	<teller>
+		<default>Agatha respira fundo.</default>
+	</teller>
 	<talk character="Agatha">
 		<default>Meg, vamos.</default>
 	</talk>
@@ -160,7 +158,7 @@
 		<default>Por favor.</default>
 	</talk>
 	<teller>
-		<default>A campainha da casa deles toca. Mel atende.</default>
+		<first>A campainha da casa deles toca. Mel atende.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Oi.</default>
@@ -171,6 +169,9 @@
 	<talk character="Mel">
 		<default>Eu sei. Entra.</default>
 	</talk>
+	<teller>
+		<default>Agatha e Meg entram.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Senta.</default>
 	</talk>
@@ -181,13 +182,13 @@
 		<default>Acho melhor sentar.</default>
 	</talk>
 	<teller>
-		<default>Elas se sentam no sofá.</default>
+		<default>Agatha e Meg se sentam no sofá.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Bom, Júlio, Rith e Halen foram enterrados, sendo assim, estão realmente mortos.</default>
+		<default>Bom, Júlio, Rith e Halen foram enterrados...</default>
 	</talk>
 	<talk character="Meg">
-		<default>Nós sabemos.</default>
+		<default>A gente tava lá.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Lembra que não encontraram a Kat?</default>
@@ -204,14 +205,11 @@
 	<talk character="Meg">
 		<default>Como ela estava?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Uma palavra. Quatro letras.</default>
-	</talk>
 	<talk character="Kat">
 		<arrive>Viva.</arrive>
 	</talk>
 	<teller>
-		<default>Meg se levanta. Vai até Kat. Olha pra ela. Edmont segura ela. Agatha fica em estado de choque, sentada no sofá. Edmont pega Meg no colo e coloca no outro sofá.</default>
+		<default>As pessoas olham para Kat. Mel olha para Edmont. Meg se levanta. Vai até Kat. Perde as forças e cai. Edmont segura. Agatha fica em estado de choque, no sofá. Edmont pega Meg no colo e coloca no outro sofá.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Eu sabia que isso não ia prestar.</default>
@@ -244,16 +242,10 @@
 		<default>Quer parar de repetir isso???</default>
 	</talk>
 	<teller>
-		<default>Agatha desmaia no sofá.</default>
+		<default>Agatha vai para o banheiro. Se tranca.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Legal...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tinham que desmaiar as duas?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont, isso é sério.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Que vamos fazer com elas?</default>
@@ -265,10 +257,10 @@
 		<default>Acorda...</default>
 	</talk>
 	<teller>
-		<default>Edmont vai até o sofá e passa a mão na cabeça de Agatha carinhosamente.</default>
+		<default>Edmont vai até a porta do banheiro.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Acorda, meu amor...</default>
+		<default>Eu vim de outro planeta, vamo lá, isso não é tão estranho assim!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Calma, Kat, não precisa fazer isso.</default>
@@ -276,23 +268,20 @@
 	<talk character="Kat">
 		<default>Se eu te jogar em cima dela, ela acorda rapidinho!</default>
 	</talk>
-	<talk character="Angely">
-		<default>A Meg tá acordando.</default>
-	</talk>
 	<teller>
-		<default>Meg acorda, levanta do sofá e olha pra Kat.</default>
+		<default>Mel pega uma garrafa que trazia na bolsa, abre e bota embaixo do nariz de Meg. Meg acorda, levanta do sofá e olha pra Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Pode encostar, não sou um fantasma.</default>
 	</talk>
 	<teller>
-		<default>Ela abraça Kat.</default>
+		<default>Meg abraça Kat apertado.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Eu disse que podia encostar, não esmagar!</default>
 	</talk>
 	<teller>
-		<default>Meg a afasta.</default>
+		<default>Meg se afasta.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Deixa eu olhar pra você... Minha irmãzinha, tá viva...</default>
@@ -310,7 +299,7 @@
 		<default>Pode começar deixando eu respirar.</default>
 	</talk>
 	<teller>
-		<default>Meg olha pra Mel.</default>
+		<default>Meg se afasta novamente. Olha pra Mel.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Você quem achou ela?</default>
@@ -328,7 +317,7 @@
 		<default>Fizeram alguma coisa com você?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Fizeram, me ignoraram.</default>
+		<default>Me ignoraram.</default>
 	</talk>
 	<talk character="Meg">
 		<default>Prometo que eu nunca mais deixo você correr perigo.</default>
@@ -336,25 +325,19 @@
 	<talk character="Kat">
 		<default>Deixar? Quem disse que deixou? Além do mais, não quero ser superprotegida.</default>
 	</talk>
-	<talk character="Edmont">
-		<default>A Agatha tá acordando.</default>
-	</talk>
+	<teller>
+		<default>Agatha abre a porta do banheiro. Vai até Katerine.</default>
+	</teller>
 	<talk character="Agatha">
-		<default>Que aconteceu?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, não foi um sonho.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Você está bem?</default>
+		<default>Você tá bem?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Tô, ninguém me mordeu não...</default>
 	</talk>
 	<teller>
-		<default>Kat pára, pensa e lembra de algo. Fica pensativa.</default>
+		<default>Kat franze a sobrancelha.</default>
 	</teller>
-	<talk character="Meg">
+	<talk character="Agatha">
 		<default>Que foi Kat?</default>
 	</talk>
 	<talk character="Kat">
@@ -367,49 +350,15 @@
 		<default>Vai me sustentar?</default>
 	</talk>
 	<talk character="Meg">
-		<default>É mesmo, e a empresa dos nossos pais???</default>
+		<default>Tem a empresa dos nossos pais.</default>
+		<teller>franze a sobrancelha</teller>
+		<default>Se não faliu.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Jeremy tá cuidando de tudo.</default>
 	</talk>
-	<talk character="Meg">
-		<default>Quem é Jeremy?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Aquele novinho, não lembra dele?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Aquele abobado? Nossa, faz tempo que não vejo ele...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Bom, agora que já está tudo bem...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Tá expulsando a gente daqui?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu tô, mas só você.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Ei!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vingança.</default>
-	</talk>
 	<teller>
-		<default>Edmont ri e Meg mostra a língua.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Também tenho!</default>
-	</talk>
-	<teller>
-		<default>Ele mostra a língua também.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Mas essa é minha.</default>
-	</talk>
-	<teller>
-		<default>Agatha vai até Edmont e eles se beijam. Meg olha pra Angely. Ele desvia o olhar. Kat percebe.</default>
+		<default>Agatha vai até Edmont e abraça-lhe. Meg olha pra Angely. Ele desvia o olhar.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Ainda tá namorando com o Bryan?</default>
@@ -420,28 +369,10 @@
 	<talk character="Kat">
 		<default>E eu que achei que existia vida inteligente entre os adolescentes...</default>
 	</talk>
-	<talk character="Mel">
-		<default>Há sim.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vai acabar engolindo ela.</default>
-	</talk>
-	<teller>
-		<default>Eles param de se beijar. Edmont olha com cara de sacana.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Alguma coisa contra?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Também considero ela como minha irmã.</default>
-	</talk>
 	<talk character="Angely">
 		<default>Tá meio tarde...</default>
 	</talk>
 	<talk character="Meg">
-		<default>É mesmo... Bom, é melhor nós irmos.</default>
+		<default>Bom, é melhor a gente ir.</default>
 	</talk>
-	<teller>
-		<default>Elas voltam pra suas respectivas casas.</default>
-	</teller>
 </story>
