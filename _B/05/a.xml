@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="05" scene="a">
 	<teller>
-		<default>03/03 (segunda). Ang está procurando algo. Mel acorda.</default>
+		<default>03/03 (segunda). Ang entra no quarto. Abre o armário. Mel acorda. Ang coloca um casaco. Abaixa e olha embaixo da cama. Mel senta-se na cama. Ang levanta.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Aonde você vai?</default>
@@ -10,7 +10,7 @@
 		<default>Esqueceu? Primeiro dia...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ah, é... Tem alguma idéia do que fazer?</default>
+		<default>Tem alguma idéia do que fazer?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Andei treinando com Kat, Derik e Estela.</default>
@@ -22,10 +22,10 @@
 		<default>Que tô pegando o jeito.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, vergonha você não vai ter, tocou pra milhões de pessoas... Mas professor é uma profissão séria, é arriscado você fazer isso sem ter freqüentado realmente uma faculdade, ainda mais dar aula pra pessoas dessa faixa etária... Dar aulas pra pessoas que você conhece é diferente. Tem que ter uma preparação a mais.</default>
+		<default>Bom, vergonha você não vai ter, tocou pra um monte de gente... Mas ensinar é uma profissão séria, é arriscado você fazer isso sem ter freqüentado realmente uma faculdade, ainda mais dar aula pra pessoas dessa faixa etária... Dar aulas pra pessoas que você conhece é diferente. Tem que ter uma preparação a mais.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Daqui a pouco me atraso... Viu um caderno que eu deixei por aqui? Tinha escrito nele o que passar...</default>
+		<default>Daqui a pouco me atraso... Viu um caderno que eu deixei por aqui? Tinha escrito o que passar...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Vai passar lição no primeiro dia???</default>
@@ -34,15 +34,19 @@
 		<default>Que que tem?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não se faz isso! Mesmo por que, você nem conhece os alunos! O comum é se apresentar e...</default>
+		<default>Não se faz isso! Mesmo por que, você nem conhece as pessoas! O comum é se apresentar e...</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não querendo ofender, mas você não estudou nas escolas daqui.</default>
+		<default>Eu não gostava disso...</default>
 	</talk>
 	<talk character="Mel">
-		<default>E você só deve ter pego ditadores e tiranos como professores!</default>
-		<teller>olha o relógio</teller>
-		<default>Ainda são cinco da manhã!</default>
+		<default>Você. Pergunta pra outras pessoas.</default>
+	</talk>
+	<teller>
+		<default>Mel olha no relógio. 5h da manhã. Revira os olhos, deita e cobre a cabeça.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Porque você faz isso comigo?!</default>
 	</talk>
 	<talk character="Ang">
 		<default>Estou arrumando tudo pra chegar lá às seis.</default>
@@ -54,7 +58,7 @@
 		<default>Será que dá pra deixar eu aproveitar minhas últimas horas fora da escola?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Os professores têm que chegar antes na escola.</default>
+		<default>Quem ensina tem que chegar antes na escola.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Antes do sol nascer?</default>
@@ -72,10 +76,10 @@
 		<default>Se isso acontecer, eu vou dar uma volta pra acordar direito.</default>
 	</talk>
 	<teller>
-		<default>Ang sai do quarto com uma pasta na mão.</default>
+		<default>Ang pega uma bolsa de lado no cabideiro, coloca e sai.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Louco...</default>
+		<default>Será que terei aula com Angely?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Vai dormir, vai.</default>
@@ -84,11 +88,14 @@
 		<default>Com prazer.</default>
 	</talk>
 	<teller>
-		<default>Derik sai. Chega ao seu quarto e encontra Angely.</default>
+		<default>Derik sai. Vai a seu quarto. Ang está olhando embaixo da cama.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Ah, não, eu devo tá tendo um pesadelo...</default>
 	</talk>
+	<teller>
+		<default>Ang levanta.</default>
+	</teller>
 	<talk character="Ang">
 		<default>Eu vim aqui com aquele caderno...</default>
 	</talk>
@@ -111,7 +118,7 @@
 		<default>É.</default>
 	</talk>
 	<talk character="Ang">
-		<default>‘Brigado.</default>
+		<default>Valeu!</default>
 	</talk>
 	<teller>
 		<default>Angely sai.</default>
@@ -123,13 +130,13 @@
 		<default>Só tem mais uma hora.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Se eu tiver com sono quando acordar, não vou pra aula hoje.</default>
+		<default>Se eu tiver com sono quando acordar, não vou pra aula hoje. E ainda boto a culpa em Angely amanhã.</default>
 	</talk>
 	<teller>
-		<default>5:30. Angely está olhando o mar.</default>
+		<first>5:30. Angely está olhando o mar.</first>
 	</teller>
 	<talk character="Edmont">
-		<default>Não precisa chegar tão cedo. Já fez sua boa ação de hoje.</default>
+		<arrive>Não precisa chegar tão cedo. Já fez sua boa ação de hoje.</arrive>
 	</talk>
 	<talk character="Ang">
 		<default>Não foi uma boa ação, é minha obrigação.</default>
@@ -147,24 +154,28 @@
 		<default>Não deve ser tão ruim assim dar aula.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Vai precisar de no mínimo um canhão pra enfrentá-los.</default>
+		<default>Vai precisar de no mínimo um canhão pra enfrentar isso.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não é necessário tanto.</default>
+		<default>Não preciso tanto.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não lembra de nosso tempo de escola?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não me importo com piadinhas.</default>
+		<default>Não me importo com piadas.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>De qualquer forma, leve isto...</default>
-		<teller>joga uma espada à Ang</teller>
+		<default>De qualquer forma, leva isso...</default>
+	</talk>
+	<teller>
+		<default>Edmont crava uma espada na areia. Ang franze a sobrancelha. Toca o cabo da espada. Suas pupilas encolhem.</default>
+	</teller>
+	<talk character="Edmont">
 		<default>De repente pode aparecer algum monstro na escola. Literalmente ou não.</default>
 	</talk>
 	<teller>
-		<default>Os olhos de Angely ficam diferentes. 6:50. Derik, Estela e Kat entram na escola.</default>
+		<first>6:50. Derik, Estela e Kat entram na escola.</first>
 	</teller>
 	<talk character="Derik">
 		<default>Tô com alergia já.</default>
@@ -172,17 +183,32 @@
 	<talk character="Estela">
 		<default>Você vai sobreviver.</default>
 	</talk>
+	<talk character="Derik">
+		<default>Porque eu tinha que fazer aula?</default>
+	</talk>
 	<talk character="Kat">
-		<default>Sabe como encontrar as salas?</default>
+		<default>Porque precisa fazer faculdade. Não tirou nota suficiente pra te botarem no último ano...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Mas pra que perguntam tanta coisa inútil?! Não podiam perguntar algo sobre demônios?!</default>
+	</talk>
+	<teller>
+		<default>Kat encara Derik.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Derik pode entrar pro Grupo.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Ei! Eu fico!</default>
+	</talk>
+	<talk character="Kat">
+		<default>Sabe como encontrar as salas, Estela?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Eu? Também tô aqui pela primeira vez.</default>
 	</talk>
-	<talk character="Derik">
-		<default>Que tal a gente perguntar?</default>
-	</talk>
 	<teller>
-		<default>Derik vai até um grupo de garotas.</default>
+		<default>Derik vai até um grupo de pessoas</default>
 	</teller>
 	<talk character="Derik">
 		<default>Sabe onde...</default>
@@ -197,7 +223,7 @@
 		<default>Tá, e eu sou a Madre Tereza de Calcutá!</default>
 	</talk>
 	<teller>
-		<default>Ela e as amigas riem e saem. Kat e Estela se aproximam.</default>
+		<default>Alice e o resto das pessoas sai andando. Kat e Estela se aproximam.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Eu tenho cara de sexta série?</default>
@@ -206,10 +232,10 @@
 		<default>Não tanto...</default>
 	</talk>
 	<talk character="Estela">
-		<default>Cuidado, Kat, ainda vão querer te processar por pedofilia.</default>
+		<default>Cuidado, Kat, ainda vão querer te processar.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Melhor eu começar a andar com a minha Carteira de Identidade.</default>
+		<default>Melhor eu começar a andar com documentos.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Bom, você era assim quando te conheci.</default>
@@ -224,16 +250,16 @@
 		<default>Estela sai.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Ei, aí ela tá esculhambando!</default>
+		<default>Ei, aí tá esculhambando!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não liga pra ela não.</default>
+		<default>Não liga, não.</default>
 	</talk>
-	<talk character="garoto">
+	<talk character="Roger">
 		<default>Ae, a garotinha precisa que a irmã mais velha traga na escola?</default>
 	</talk>
 	<teller>
-		<default>Todo mundo começa a rir. Derik vai falar alguma coisa e Kat o beija. A escola inteira se cala. Ela pega-o pela mão e sai. Eles chegam ao terceiro andar da escola.</default>
+		<default>As pessoas ao redor riem. Kat puxa Derik e beija. As pessoas se calam. Kat pega Derik pela mão e ssgue Estela. Chegam ao terceiro andar da escola.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Tá entendendo alguma coisa do que tá escrito nas portas?</default>
@@ -260,7 +286,7 @@
 		<default>Não é possível!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Bom, você tá atrasado, lembra?</default>
+		<default>Bom, você atrasou, lembra?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não tem a ver, isso é planejado pelas médias nas matérias, maior e menor dificuldade. As matérias são divididas em tipos.</default>
@@ -287,34 +313,40 @@
 		<default>Sei lá. São sete salas por andar, nossa sala é a 7, a sua é a 2.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Você vai aceitar isso???</default>
+		<default>A gente vai aceitar isso assim?!</default>
 	</talk>
+	<teller>
+		<default>Estela encolhe e volta os ombros.</default>
+	</teller>
 	<talk character="Estela">
 		<default>A escola inteira aceita, não deve ter nenhum problema.</default>
 	</talk>
 	<teller>
-		<default>Estela sai andando. Kat e Derik se entreolham. Minutos depois, dentro da sala de aula de Derik, a professora chega, Lavine, numa cadeira de rodas. Um cara está empurrando. Todos olham pra frente, quietos, mas Derik está desenhando qualquer coisa. Natanael – o acompanhante de Lavine – pega o desenho. Derik tenta impedir, quase caindo da cadeira, mas Natanael leva para Lavine.</default>
+		<default>Estela sai andando. Kat e Derik se entreolham.</default>
+	</teller>
+	<teller>
+		<first>Lavine e Natanael entram, Natanael empurrando a cadeira de rodas de Lavine. Todo mundo olha para frente, exceto Derik, que está desenhando. Natanael pega o desenho. Derik vai pegar de volta e cai no chão. Natanael leva o desenho para Lavine. Lavine encara Natanael. Derik volta para sua cadeira.</first>
 	</teller>
 	<talk character="Lavine">
-		<default>Não precisava fazer isso...</default>
+		<default>Não precisava fazer isso.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Você não é professora de Artes não, né? Que, se for, já tô com zero pelo resto do ano...</default>
+		<default>Você não dá aula de Artes, não, né? Que, se for, já tô com zero pelo resto do ano...</default>
 	</talk>
 	<talk character="Lavine">
 		<default>Não. Literatura.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Encontrei o porão do poço.</default>
+		<default>É, podia ser pior...</default>
 	</talk>
 	<teller>
-		<default>Todos riem. Noutra sala, uma garota entra, coloca o material sobre a mesa e fecha as cortinas negras. Kat e Estela estranham. Entra um professor todo de preto, com óculos escuros.</default>
+		<first>Em outra sala, Alete entra, coloca o material sobre a mesa e fecha as cortinas pretas. Kat franze a sobracelha. Estela, na frente de Kat, olha para fora. Xisto entra, tira os óculos escuros.</first>
 	</teller>
 	<talk character="Estela">
 		<default>Kat...</default>
 	</talk>
 	<teller>
-		<default>Estela olha pra trás, mas Kat não tira os olhos do professor. (Kat está sentada na carteira de trás da de Estela).</default>
+		<default>Estela olha pra trás. Kat está comolhar fixo em Xisto. Estela volta a olhar para Xisto.</default>
 	</teller>
 	<talk character="Xisto">
 		<default>Duas alunas novas. Pode soar estranho, mas meu nome é Xisto.</default>
@@ -324,7 +356,11 @@
 	</talk>
 	<talk character="Xisto">
 		<default>Já ouvi comentários piores.</default>
-		<teller>se vira para Estela</teller>
+	</talk>
+	<teller>
+		<default>Xisto olha para Estela e franze a sobrancelha.</default>
+	</teller>
+	<talk character="Xisto">
 		<default>E você, é sempre assim, muda e pálida?</default>
 	</talk>
 	<talk character="Estela">
@@ -343,7 +379,7 @@
 		<default>Se referir a mim diretamente seria mais educado que me chamar de resto.</default>
 	</talk>
 	<teller>
-		<default>Xisto tira o óculos, coloca sobre a mesa, pega a cadeira de Estela, vira para a mesa de Kat e se senta.</default>
+		<default>Xisto coloca os óculos sobre a mesa, pega a cadeira de Estela, vira para a mesa de Kat e se senta.</default>
 	</teller>
 	<talk character="Xisto">
 		<default>Sou seu novo professor de história, mas não passo matéria na lousa nem distribuo as provas, quem faz isso é a minha assistente.</default>
@@ -361,41 +397,74 @@
 		<default>Não parece bagunceira, mas, se for, melhor se comportar. Aqui professor não pune badernas, reclama com a direção. É uma escola liberal, mas não tente ultrapassar os limites impostos. Vou ser seu professor até o quarto ano da terceira fase, talvez te dê aula até na quarta fase, então é melhor se acostumar.</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta e volta a cadeira.</default>
+		<default>Xisto se levanta e volta a cadeira para o lugar.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Si je reçois un faible score sur l'essai, puis-je vous corrompre avec du sang?</default>
+		<translate>Se eu tirar nota baixa, posso te subornar com sangue?</translate>
 	</talk>
 	<talk character="Xisto">
 		<default>Não dou aula de línguas. Poderia, mas escolhi história.</default>
 	</talk>
 	<teller>
-		<default>Perto dali, Angely chega atrasado à sala. Estão três grupos reunidos na sala, conversando, e uma ou outra pessoa sentada. Ele pede silêncio e ninguém ouve. Pede novamente e nada. Estela chega à porta. Angely tira uma espada da bolsa e todos ficam quietos.</default>
+		<first>Angely chega a sala. Se atrasou. Estão três grupos reunidos na sala. Uma ou outra pessoa está na carteira.</first>
 	</teller>
-	<talk character="aluno">
+	<talk character="Ang">
+		<default>Podem fazer silêncio?</default>
+	</talk>
+	<teller>
+		<default>As pessoas seguem conversando.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Eu realmente preciso de silêncio.</default>
+	</talk>
+	<teller>
+		<default>Estela olha para dentro da sala. Para. Angely tira uma espada da bolsa. As pessoas olham para Angely.</default>
+	</teller>
+	<talk character="Clauber">
 		<default>Que aconteceu com o professor de história?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Nada, eu sou professor de matemática.</default>
+		<default>Nada, dou aula de matemática.</default>
 	</talk>
-	<talk character="aluna">
+	<talk character="Clauber">
 		<default>Ainda bem que aquele songa-monga foi embora...</default>
 	</talk>
 	<talk character="Ang">
 		<default>Faz mal falar mal dos mortos.</default>
 	</talk>
 	<teller>
-		<default>Todos se sentam, exceto um garoto encostado na parede.</default>
+		<default>Todo mundo se senta, exceto Clauber.</default>
 	</teller>
-	<talk character="aluno">
+	<talk character="Clauber">
 		<default>Se não é professor de história, devo entender que trouxe a espada pra controlar a sala?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Gosto de praticar tiro-ao-alvo...</default>
+		<default>Gosto de praticar tiro-ao-alvo.</default>
 		<teller>atira a espada do lado da cabeça do aluno</teller>
-		<default>...apesar dessa arma não ser a mais apropriada pra isso.</default>
 	</talk>
 	<teller>
-		<default>Angely vai na direção do aluno e tira a espada. Puxa a cadeira vaga e o aluno toma seu lugar. Angely vai para sua mesa. Olha para a porta e vê Estela.</default>
+		<default>Angely atira a espada na direção de Clauber. Estela encolhe os braços e coloca as mãos na frente da boca.</default>
+	</teller>
+	<talk character="Estela">
+		<thought>Ok... O barulho não foi de gente, foi de madeira... Se acalma...</thought>
+	</talk>
+	<talk character="Ang">
+		<default>Mas essa arma não costuma se usar assim.</default>
+	</talk>
+	<teller>
+		<default>Angely vai na direção de Clauber e tira a espada do lado de sua cabeça. Puxa a cadeira vaga ao lado de Clauber, Clauber se senta. Angely vai para sua mesa. Olha para a porta. Estela se afasta e segue andando.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Agora que gentilmente fizeram silêncio, que tal começarmos? Alguém pode me dizer a última matéria que se lembra?</default>
+	</talk>
+	<teller>
+		<default>Silêncio.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Ninguém mesmo?</default>
+	</talk>
+	<teller>
+		<default>Clauber levanta a mão bruscamente. Angely sorri.</default>
 	</teller>
 </story>
