@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="02" scene="c">
 	<teller>
-		<default>Chegando ao casarão, Derik vai até ela.</default>
+		<default>MEAK. Derik vai até Natasha.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Posso pegar?</default>
@@ -25,7 +25,7 @@
 		<default>Babão já é um eufemismo.</default>
 	</talk>
 	<talk character="Mel">
-		<arrive>Cadê o Angely?!</arrive>
+		<arrive>Cadê Angely?!</arrive>
 	</talk>
 	<talk character="Nat">
 		<default>Encontramos o irmão dele.</default>
@@ -34,16 +34,16 @@
 		<default>E...?</default>
 	</talk>
 	<teller>
-		<default>Ela fica olhando pra Mel, pensando em como explicar.</default>
+		<default>Nat fica olhando para Mel. Olha para o chão. Olha de novo para Mel.</default>
 	</teller>
 	<talk character="Nat">
 		<default>Não sei! Acho melhor eu voltar para buscá-lo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mas...</default>
+		<default>Você...</default>
 	</talk>
 	<teller>
-		<default>Natasha sai. Chega ao lago. Ang está desacordado. Ela mede o pulso. Retira a estaca. Angely abre os olhos. Edmont reaparece. Ela sente-se zonza e desmaia. Ang se recupera e levanta. Tenta acordá-la.</default>
+		<first>Lago. Ang está no mesmo lugar. Nat se aproxima. Pega o pulso. Balança a cabeça para os lados. Retira a espada. Angely abre os olhos e puxa forte o ar. Nat dá um passo para trás. Coloca a mão na cabeça. Desmaia. Edmont reaparece. Ang se levanta. Abaixa perto de Nat.</first>
 	</teller>
 	<talk character="Ang">
 		<default>Mas me parecia normal...</default>
@@ -58,7 +58,7 @@
 		<default>Edmont mostra os dentes.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Mas daqui a pouco não estará mais.</default>
+		<default>Mas daqui a pouco não vai estar mais.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Não vou deixar você fazer isso.</default>
@@ -67,10 +67,10 @@
 		<default>Por que não?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não finja que não sabe.</default>
+		<default>Não finge que não sabe.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela vai levar a criança para longe.</default>
+		<default>Vai levar a criança para longe.</default>
 	</talk>
 	<talk character="Ang">
 		<default>E quer que eu acredite que é esse seu motivo?</default>
@@ -81,54 +81,56 @@
 	<talk character="Ang">
 		<default>Você não pode cuidar de uma criança.</default>
 	</talk>
+	<teller>
+		<default>Edmont ri.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Está me julgando?</default>
+		<default>Tá me julgando?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ela não é uma vampira.</default>
+		<default>A criança não é vampir.</default>
 	</talk>
 	<teller>
-		<default>Na MEAK, Mel está sentada numa cadeira, Derik no sofá com a criança, Kat num canto e Estela do lado dela.</default>
+		<first>MEAK. Mel está em uma cadeira. Derik no sofá com a criança. Kat num canto, Estela do lado.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Agora a casa está quase toda reformada, podemos comprar os móveis.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Primeiro os da pequena aqui.</default>
+		<default>Primeiro os dessa coisa fofa.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não é você quem decide!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, pelo menos de um berço ela precisa.</default>
+		<default>Bom, pelo menos de um berço precisa.</default>
 	</talk>
 	<teller>
-		<default>Derik vai para a cozinha.</default>
+		<default>Derik sobe.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Tá com ciúmes da criança?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Meu namorado, que não parava de falar dela, agora está babando nela...</default>
-		<screamed>O que você acha?!</screamed>
+		<default>Derik não parava de falar disso, agora está babando...</default>
 	</talk>
 	<talk character="Mel">
 		<default>É só uma criança...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Dizem isso porque não é o Zenon, nem o Alan babando nela! Vou dormir!</default>
+		<default>Vou dormir!</default>
 	</talk>
 	<teller>
-		<default>Kat sai da sala.</default>
+		<default>Kat sobe.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Nunca vi tão possessiva...</default>
+		<default>Nunca vi desse jeito.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Também tô estranhando.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nat disse que ia buscar Ang, mas daqui a pouco está amanhecendo e nada.</default>
+		<default>Nat disse que ia buscar Ang, mas daqui a pouco tá amanhecendo e nada.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Talvez ele esteja procurando ela e ela procurando ele.</default>
@@ -137,34 +139,37 @@
 		<default>Mel olha para o relógio.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ele está demorando demais...</default>
+		<default>Tá demorando demais.</default>
 	</talk>
 	<talk character="Leo">
-		<ghost>Acalma-te. Ele deve estar bem.</ghost>
+		<ghost>Calma. Deve estar bem.</ghost>
 	</talk>
 	<talk character="Mel">
 		<default>Mas e se não estiver?</default>
 	</talk>
 	<teller>
-		<default>Primeiro Estela e depois Mel notam que só tem elas ali. Melody quase derruba a cadeira ao se levantar.</default>
+		<default>Melody franze a sobrancelha. Quase derruba a cadeira ao se levantar.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Quem falou isso???</default>
+		<default>Quem falou isso?</default>
 	</talk>
 	<talk character="Leo">
-		<ghost>Me ouves?!</ghost>
+		<ghost>Me ouve?!</ghost>
 	</talk>
 	<talk character="Estela">
 		<default>Era só o que faltava, o fantasma do Angely existe!</default>
+	</talk>
+	<talk character="Mel">
+		<default>Achava que não existia?</default>
 	</talk>
 	<talk character="Leo">
 		<ghost>Consegui ser ouvido! Agora só falta ser visto...</ghost>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, ver ainda não estamos vendo...</default>
+		<default>Bom, ver ainda não estamos vendo.</default>
 	</talk>
 	<teller>
-		<default>Kat chega à sala. Derik vem atrás, trazendo a pequena Inês.</default>
+		<default>Kat chega a sala. Derik vem atrás, trazendo Inês.</default>
 	</teller>
 	<talk character="Derik">
 		<arrive>Mas Kat, não...</arrive>
@@ -173,40 +178,37 @@
 		<arrive>Que caras são essas?</arrive>
 	</talk>
 	<teller>
-		<default>Estela pega a criança das mãos de Derik, como quisesse protegê-la.</default>
+		<default>Estela pega a criança das mãos de Derik, como quisesse proteger.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Ei!</default>
 	</talk>
 	<talk character="Leo">
-		<ghost>Não precisas me olhar desse jeito, não vou pegar a criança.</ghost>
+		<ghost>Não precisa me olhar desse jeito, não vou pegar a criança.</ghost>
 	</talk>
 	<talk character="Mel">
-		<default>Quem é você?!</default>
+		<default>Quem é você?</default>
 	</talk>
 	<talk character="Leo">
 		<ghost>Os quadros são meus.</ghost>
 	</talk>
-	<talk character="Derik">
-		<default>Ãh?</default>
+	<talk character="Estela">
+		<default>Seus?! Mas você...</default>
 	</talk>
 	<talk character="Leo">
 		<ghost>Eu quem fiz, é minha prima...</ghost>
 	</talk>
-	<talk character="Derik">
-		<default>Ah, tá...</default>
-	</talk>
 	<talk character="Estela">
-		<default>Não percebeu que isso é voz de homem???</default>
-	</talk>
-	<talk character="Derik">
-		<default>E o que ainda tá fazendo aqui se tá morto?!</default>
+		<default>Ah, tá! Eu tinha certeza que isso era voz de homem!</default>
 	</talk>
 	<teller>
-		<default>Kat pisa no pé de Derik.</default>
+		<default>Mel revira os olhos.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Ai! Acho melhor eu começar a usar bota de ferro...</default>
+		<default>E o que ainda tá fazendo aqui se já morreu?!</default>
+	</talk>
+	<talk character="Kat">
+		<irony>Sempre gentil.</irony>
 	</talk>
 	<talk character="Mel">
 		<default>Ei... Ainda tá aí?</default>
@@ -215,14 +217,8 @@
 		<default>Qual seu nome?</default>
 	</talk>
 	<teller>
-		<default>Derik toma – de Kat, é claro – um pisão no outro pé.</default>
+		<default>Silêncio.</default>
 	</teller>
-	<talk character="Derik">
-		<default>Por que fez isso de novo???</default>
-	</talk>
-	<talk character="Kat">
-		<default>Foi culpa sua ele ter ido embora.</default>
-	</talk>
 	<talk character="Mel">
 		<default>Kat, vai dormir.</default>
 	</talk>
@@ -230,13 +226,13 @@
 		<default>Mas o que eu fiz???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não é problema com você, é que Angely está demorando muito.</default>
+		<default>Não é problema com você, é que Angely tá demorando muito.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Ah, tá...</default>
 	</talk>
 	<teller>
-		<default>Kat sai. Estela segue Kat, levando a criança. Derik senta-se no sofá, amuado.</default>
+		<default>Kat sai. Estela segue Kat, levando a criança. Derik deixa-se cair no sofá.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Se era pra ficar com essa cara, por que não pediu pra Estela deixar a criança?</default>
@@ -251,30 +247,30 @@
 		<default>Kat tá comigo só por pena.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que besteira!</default>
+		<default>Hein?!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Vai acabar virando lésbica e ficando com a Estela. Nem me chama mais quando vai dormir...</default>
+		<default>Nem me chama mais quando vai dormir...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não sei o que é mais ridículo, Kat com ciúmes da criança ou você com ciúmes da Estela!</default>
+		<default>Não sei o que é mais ridículo, Kat com ciúmes de bebê ou você com ciúmes de Estela!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ela tá com ciúmes?</default>
-		<teller>esboça um sorriso, mas o desfaz num segundo</teller>
+		<default>Kat tá com ciúmes?</default>
+		<teller>esboça um sorriso, mas desfaz</teller>
 		<default>Tá mentindo pra me deixar feliz.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Melhor eu arranjar algo pra você fazer, pra parar de pensar besteiras... Já sei, sobrevoe a ilha e vê se encontra o Angely.</default>
+		<default>Ao invés de ficar pensando bosta, sobrevoa a ilha e vê se encontra Angely.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Bom, já que ela não liga mais pra mim mesmo...</default>
+		<default>Bom, já que Kat não liga mais pra mim mesmo...</default>
 	</talk>
 	<teller>
-		<default>Mel encara Derik. Ele vai até a janela, se transforma em pássaro e voa. Ela pega a roupa e leva para cima. Depois, vai ao quarto da Kat. Estela está segurando a criança.</default>
+		<default>Mel encara Derik. Derik vai até a janela, se transforma em pássaro e voa. Mel pega a roupa e leva para cima. Depois, vai ao quarto da Kat. Estela está segurando Inês.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Será que não deveríamos levá-la a um hospital?</default>
+		<default>Será que não deveríamos levar a um hospital?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Talvez. Mas quem fica cuidando da Kat?</default>
@@ -286,40 +282,40 @@
 		<default>Será que podemos confiar?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele não fez nada de errado.</default>
+		<default>Angely disse que não tem nada de errado. E, se tiver, a gente bota pra correr.</default>
 	</talk>
 	<teller>
-		<default>Elas saem.</default>
+		<default>Saem.</default>
 	</teller>
 	<talk character="Leo">
 		<ghost>Será que existe reencarnação?</ghost>
 	</talk>
 	<teller>
-		<default>03/02 (segunda). De manhã, Natasha chega no casarão. Quando adentra a sala, encontra Mel e Derik.</default>
+		<first>Manhã. MEAK. Natasha chega. Mel e Derik estão na sala.</first>
 	</teller>
 	<talk character="Nat">
 		<default>Melody, pode me ajudar?</default>
 	</talk>
 	<teller>
-		<default>Minutos depois, Ang está no sofá, desacordado, enquanto Mel conversa com Nat na cozinha.</default>
+		<default>Algum tempo depois, Ang está no sofá. Dorme. Mel e Nat  estão na cozinha.</default>
 	</teller>
 	<talk character="Nat">
 		<default>Juro que não sei... Primeiro ele enfiou aquela arma nele mesmo e o outro sumiu, depois eu voltei e tirei a arma, senti tontura e desmaiei... Quando acordei ele tava assim!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tenho uma hipótese... Ang causou o primeiro sumiço de Edmont, você tirou a arma e Edmont reapareceu. Eles lutaram até amanhecer... Mas por que?</default>
+		<default>Ang causou o primeiro sumiço de Edmont. Você tirou a arma, Edmont reapareceu. Devem ter ficado ali até amanhecer. Mas por que?</default>
 	</talk>
 	<talk character="Nat">
 		<default>Há um certo ritual, pra proteger a criança de se entregar a um vampiro facilmente... Edmont não queria que fizesse. Se eu morrer, o ritual é desfeito.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Certo, então por isso Angely lutou, pra te defender. A propósito, tem alguma idéia do por que desmaiou?</default>
+		<default>Certo, então por isso Angely ficou, pra te defender. A propósito, tem alguma idéia do porquê desmaiou?</default>
 	</talk>
 	<talk character="Nat">
 		<default>Não sou humana e não suporto ficar perto de um vampiro sem uma fênix menor por perto.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então, quando amanheceu, Edmont ‘se vingou’, dessa vez o desmaio de Angely foi causado pelo ‘sumiço’ dele, não o contrário. Edmont sumiu e não havia mais impedimento, por isso você acordou. O que é uma fênix menor?</default>
+		<default>Quando amanheceu, Edmont se vingou. Angely desmaiou por causa de Edmont virar cinzas. Edmont sumiu e não havia mais impedimento, por isso você acordou. O que significa fênix menor?</default>
 	</talk>
 	<talk character="Nat">
 		<default>Criança.</default>
@@ -337,28 +333,28 @@
 		<default>Possivelmente quando o vampiro percebesse que ela não se entregaria, ele me mataria. Aí o pacto estaria desfeito.</default>
 	</talk>
 	<teller>
-		<default>06/02 (quinta). Ninguém mais vê Leo (aparentemente), enquanto Derik está cada vez mais deprimido e Natasha está cuidando de Inês na MEAK.</default>
+		<first>Dia seguinte. MEAK. Cozinha.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Esse lugar parece tão pacato...</default>
+		<default>Esse lugar parece tão pacato.</default>
 	</talk>
 	<talk character="Nat">
 		<default>Ih, se quiserem problemas agora, vão ter que ir para São Paulo, Rio de Janeiro, Minas Gerais...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nem brinca, com o trabalho que tivemos com essa casa... Peraí, Sampa e Rio até que concordo, mas Minas não é meio... Interior demais?</default>
+		<default>Nem brinca, com o trabalho que tivemos com essa casa...</default>
 	</talk>
 	<talk character="Nat">
-		<default>É mais fácil assustar as pessoas, mais fácil enganar...</default>
+		<default>Às vezes até gostam de lugar afastado, mas aí aparece alguém se achando muito foda, chama a atenção, e chove caça-vampiro.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Do jeito que esse lugar tá sossegado, achei que não gostassem, que preferissem centros urbanos.</default>
-	</talk>
+	<teller>
+		<default>Nat pousa uma mamadeira no balcão.</default>
+	</teller>
 	<talk character="Nat">
 		<default>Saíram daqui por que estavam morrendo todos. Os mais corajosos ficaram, os mais espertos fugiram.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nossa, Alan luta tão bem assim?</default>
+		<default>Alan luta tão bem assim?</default>
 	</talk>
 	<talk character="Nat">
 		<default>Ele foi só o último que ficou, pra vender a casa.</default>
@@ -370,13 +366,13 @@
 		<default>Angely chega com Inês no colo.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Estranho pensar que, daqui à três meses, ela pode estar andando...</default>
+		<default>Estranho pensar que, daqui à três meses, pode estar andando...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Andando?!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não falou pra ela?</default>
+		<default>Não falou pra Mel?</default>
 	</talk>
 	<talk character="Nat">
 		<default>Esqueci.</default>
@@ -385,31 +381,31 @@
 		<default>Bom, eu posso cometer algum erro, então...</default>
 	</talk>
 	<teller>
-		<default>Kat chega na copa e fica ouvindo.</default>
+		<default>Kat chega na porta.</default>
 	</teller>
 	<talk character="Nat">
-		<default>É o seguinte, as fênixs crescem quatro anos em um, comparadas a vocês. Aos três viram adultas e aos cinco param de envelhecer. Quando crianças podem morrer sufocadas, afogadas ou se todo seu sangue for roubado. Já adultas só morrem se engravidarem de um vampiro. Para isso é preciso que eles façam sexo e depois ele beba o sangue todo dela. Caso ele não faça a última parte, não há gravidez, consequentemente continua viva.</default>
+		<default>É o seguinte, as fênixs crescem quatro anos em um, comparadas a vocês. Aos cinco param de envelhecer. Quando crianças podem morrer sufocadas, afogadas ou se todo seu sangue for roubado. Já adultas só morrem se engravidarem de um vampiro. Para isso é preciso que eles façam sexo e depois ele beba o sangue todo dela. Caso ele não faça a última parte, não há gravidez, consequentemente continua viva.</default>
 	</talk>
 	<talk character="Ang">
-		<default>E o tal Pacto?</default>
+		<default>E o tal pacto?</default>
 	</talk>
 	<talk character="Nat">
-		<default>‘Marte sob Lua’. Liguei ela a mim e agora ela só vai se entregar se ele conseguir beijá-la. Elas tem costumes diurnos, eles noturnos, então é fácil evitar o contato.</default>
+		<default>Se forem procurar, o nome é "Lua esconde Marte". Liguei ela a mim e agora ela só vai se entregar se ele conseguir beijá-la. Elas tem costumes diurnos, eles noturnos, então é fácil evitar o contato.</default>
 	</talk>
-	<talk character="Ang">
-		<default>Não encontramos o nome manigê...</default>
+	<talk character="Mel">
+		<default>Você tinha dito que era manigê.</default>
 	</talk>
 	<talk character="Nat">
 		<default>Eu tinha uma mãe haimagê e uma dumani. Procure as duas raças.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ah, é uma fusão?</default>
+		<default>É uma fusão?</default>
 	</talk>
 	<talk character="Nat">
-		<default>Sim. Dumanis envelhecem um ano em cinco, por isso a fusão deu a média, um em três.</default>
+		<default>Sim. Dumanis envelhecem um ano em cinco, por isso a fusão dá a média, um em três.</default>
 	</talk>
 	<teller>
-		<default>De noite, Nat está na sala, com Derik, com Inês.</default>
+		<default>Noite. Nat está na sala. Derik está com Inês.</default>
 	</teller>
 	<talk character="Nat">
 		<default>Tá brincando comigo...</default>
@@ -423,9 +419,6 @@
 	<talk character="Kat">
 		<arrive>Ou azar.</arrive>
 	</talk>
-	<teller>
-		<default>Kat está furiosa.</default>
-	</teller>
 	<talk character="Derik">
 		<default>Que foi?</default>
 	</talk>
@@ -433,8 +426,11 @@
 		<default>Ainda pergunta?</default>
 	</talk>
 	<talk character="Derik">
-		<default>É mais fácil ela levar você de mim que o contrário!</default>
+		<default>É mais fácil alguém levar você de mim que o contrário!</default>
 	</talk>
+	<teller>
+		<default>Nat pega Inês dos braços de Derik.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Como assim?!</default>
 	</talk>
@@ -448,36 +444,37 @@
 		<default>Isso mesmo que ouviu.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Acha que eu te trairia???</default>
+		<default>Acha que eu te enganaria???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não foi isso que eu disse. Mas, já que citou, só se trai quando se está junto.</default>
+		<default>Não foi isso que eu disse. Mas, já que citou, só conta quando se está junto.</default>
 	</talk>
 	<talk character="Kat">
 		<default>E nós não estamos???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Desde que veio pra cá, você só se aproxima de mim pra me dar bronca, ou melhor, pra pisar no meu pé.</default>
+		<default>Desde que tudo acalmou, você não lembra mais que eu existo!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Então você quer terminar, é isso???</default>
 	</talk>
+	<teller>
+		<default>Derik baixa a cabeça.</default>
+	</teller>
 	<talk character="Derik">
 		<default>Você quem terminou.</default>
-		<teller>baixa a cabeça</teller>
-		<default>Faz tempo.</default>
 	</talk>
 	<talk character="Kat">
-		<screamed>Tá, então procura alguém que te agüente, por que eu também já cansei! Você não é homem, desaparece da minha vida!</screamed>
+		<screamed>Tá, então procura alguém que te agüente, por que eu também já cansei! Desaparece da minha vida!</screamed>
 	</talk>
 	<teller>
 		<default>Derik olha pra Kat com os olhos em lágrimas. Sai. Kat sobe.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Nunca mais vou namorar um cara menor de duzentos anos!</default>
+		<default>Nunca mais vou namorar alguém menor de duzentos anos!</default>
 	</talk>
 	<talk character="Estela">
-		<default>Nossa, que isso?!</default>
+		<arrive>Nossa, que isso?!</arrive>
 	</talk>
 	<talk character="Kat">
 		<default>Derik disse que eu acabei com nosso namoro, vê se pode!</default>
@@ -486,27 +483,24 @@
 		<default>É... Bom... Não andava dando lá muita atenção pra ele.</default>
 	</talk>
 	<talk character="Kat">
-		<screamed>Ele é que só ficava babando em cima daquela...</screamed>
+		<screamed>Só ficava babando em cima daquela...</screamed>
 	</talk>
 	<talk character="Estela">
 		<default>É só um bebê!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Daqui há cinco anos ela vai estar com cara de vinte! E depois vai ficar com cara de novinha até morrer! Se ainda fosse filha dele...</default>
+		<default>Daqui a cinco anos, não vai ser mais! Vai estar adulto! Se ainda fosse criança de Derik...</default>
 	</talk>
 	<talk character="Estela">
 		<default>Então é isso...</default>
 	</talk>
-	<talk character="Kat">
-		<default>É.</default>
-	</talk>
+	<teller>
+		<default>Kat senta no sofá.</default>
+	</teller>
 	<talk character="Estela">
 		<default>Derik nunca vai te trocar.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele vai acabar se apegando a ela. Prefiro que ele vá agora do que me faça sofrer mais depois...</default>
-	</talk>
-	<talk character="Estela">
-		<irony>Otimista...</irony>
+		<default>Vai acabar se apegando. Prefiro que vá agora do que me faça sofrer mais depois.</default>
 	</talk>
 </story>
