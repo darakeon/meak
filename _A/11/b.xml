@@ -236,7 +236,7 @@
 		<default>Ela faz sinal de negativo com a cabeça.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Não consigo caçá-los. Ficaram espertos. Se rodeiam de outros. Até juntam a bruxas. Não devia tê-los ensinado a criar outros.</default>
+		<default>Não consigo caçá-los. Ficaramriar  espertos. Se rodeiam de outros. Até juntam a bruxas. Não devia ter ensinado a outros.</default>
 	</talk>
 	<talk character="mulher">
 		<default>Você pode passar o resto da sua vida enumerando o que não devia ter feito. Não será desfeito por isso.</default>
@@ -263,13 +263,13 @@
 		<default>Não transforme. Apenas ensine.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Serão quebrados como gravetos.</default>
+		<default>Vão ser quebrados como gravetos.</default>
 	</talk>
 	<talk character="mulher">
 		<default>Se juntar muitos gravetos, você não consegue quebrar tão fácil.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Sempre há como pegá-los sozinhos.</default>
+		<default>Sempre há como pegar um humano sozinho.</default>
 	</talk>
 	<talk character="mulher">
 		<default>Eles ainda não sabem o que você sabe. Como destruir suas crias.</default>
@@ -277,11 +277,11 @@
 	<teller>
 		<default>A mulher desaparece.</default>
 	</teller>
-	<talk character="Andrews">
-		<default>Está certo. Não os enfrentarei sozinho e também não posso transformar outros. Apenas ensinar. Está certo.</default>
-	</talk>
 	<teller>
-		<default>Andrews sai de suas lembranças quando alguém bate à porta, que está aberta.</default>
+		<division>2022</division>
+	</teller>
+	<teller>
+		<default>Alguém bate à porta, que está aberta.</default>
 	</teller>
 	<talk character="camareira">
 		<default>Senhor, deseja alguma coisa?</default>
@@ -301,15 +301,22 @@
 		<default>Tem certeza?</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Estás a irritar-me e não vais querer ver-me irritado.</default>
+		<default>Tá me irritando. Não vai querer me ver irritado.</default>
 	</talk>
 	<talk character="camareira">
 		<default>Sim senhor.</default>
-		<teller>ela sai do quarto</teller>
+	</talk>
+	<teller>
+		<default>Ela sai do quarto.</default>
+	</teller>
+	<talk character="camareira">
 		<default>Esses caras acham que podem tudo, só por que têm dinheiro.</default>
 	</talk>
 	<teller>
-		<default>Kat está dormindo. Em seu sonho, vê uma reunião. Os vampiros criados diretamente pelo primeiro. Argo era o mais velho. Depois a ordem de idade era: Rust, Virgine, Kassandra e Dilan.</default>
+		<division>1400</division>
+	</teller>
+	<teller>
+		<default>Uma mesa. Cinco vampiros ao redor dela.</default>
 	</teller>
 	<talk character="Argo">
 		<default>Bom, acho que sabeis por que vos chamei aqui.</default>
