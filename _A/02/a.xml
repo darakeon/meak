@@ -126,7 +126,7 @@
 		<default>Bom, eu tenho uma novidade pra vocês. Mas primeiro vamos chegar em casa.</default>
 	</talk>
 	<teller>
-		<default>Uma hora depois.</default>
+		<default>Em casa...</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Então, pai, qual a novidade?</default>
@@ -183,7 +183,7 @@
 		<default>Vamos arrumar a cozinha logo.</default>
 	</talk>
 	<teller>
-		<default>Horas depois.</default>
+		<first>Horas depois.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Bom dia...</default>
@@ -312,19 +312,13 @@
 		<default>Nós vamos de avião?</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Gente, aviões não caem, aterrizam. Ah, na novela hoje vai mostrar um avião...</default>
+		<default>Gente, aviões não caem, aterrizam!</default>
 	</talk>
 	<teller>
-		<default>Horas depois...</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Bom, o jornal deve estar acabando...</default>
-	</talk>
-	<teller>
-		<default>Todos sentam no sofá. Agatha liga TV.</default>
+		<first>Horas depois, todos estão na sala, estudando. Agatha pega o controle e liga a TV.</first>
 	</teller>
 	<talk character="jornal">
-		<out>...caiu no leste dos EUA... 30% dos tripulantes morreram com o impacto... 20% morreram carbonizados... 5% estão seriamente feridos... 3% estão em estado de choque... 2% estão pouco feridos... Os outros 40% dos passageiros não foram encontrados...</out>
+		<out>Caiu no leste dos EUA... 30% dos tripulantes morreram com o impacto... 20% morreram carbonizados... 5% estão seriamente feridos... 3% estão em estado de choque... 2% estão pouco feridos... Os outros 40% dos passageiros não foram encontrados...</out>
 	</talk>
 	<talk character="Agatha">
 		<default>Eu acho que essa não foi a melhor hora pra ligar a TV.</default>
@@ -348,7 +342,7 @@
 		<default>Bosta.</default>
 	</talk>
 	<teller>
-		<default>Três dias depois, de manhã, eles estão no Aeroporto. Angely e Edmont estão no banheiro masculino.</default>
+		<first>Três dias depois, de manhã, eles estão no Aeroporto. Angely e Edmont estão no banheiro masculino.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Temos mesmo que entrar naquela coisa?</default>
