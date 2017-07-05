@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="12" scene="a">
 	<teller>
-		<default>09/06 (segunda-feira), 6:00. Mel está na sala de reunião. Há duas cadeiras vazias. Chega Bianor. Mel continua calada. Bianor olha para os lados.</default>
+		<default>Manhã. Mel está na sala de docentes. Há duas cadeiras vazias, o resto está ocupado. Chega Bianor. Senta-se. Mel continua em silêncio. Bianor olha para os lados.</default>
 	</teller>
 	<talk character="Bianor">
 		<default>Não vai começar, não?</default>
@@ -13,31 +13,38 @@
 		<default>Essa cadeira vazia...</default>
 	</talk>
 	<teller>
-		<default>Uma mulher entra. Senta-se na cadeira vazia. O mal-estar é geral.</default>
+		<default>Uma pessoa entra. Senta-se na cadeira vazia. As pessoas olham para baixo, para os lados.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Essa é minha notícia hoje. Fora isso, não lembro de nada importante.</default>
-		<teller>Silêncio</teller>
-		<default>Até me sinto mal com isso, vocês falam pra uma sala inteira e comigo nada! Acho que não devia ter aceitado o cargo!</default>
 	</talk>
 	<teller>
-		<default>Mel sai. Ninguém consegue encarar a mulher.</default>
+		<default>Silêncio. Mel respira fundo.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Até me sinto mal com isso. Falam pra uma sala inteira e comigo nada. Acho que não devia ter aceitado o cargo.</default>
+	</talk>
+	<teller>
+		<default>Mel sai. As pessoas olham para baixo ainda. Bianor olha para a pessoa.</default>
 	</teller>
 	<talk character="Bianor">
 		<default>Bem-vinda de volta, Ludmila.</default>
 	</talk>
 	<teller>
-		<default>As palavras de Bianor parecem toque de retirada para todos. Apenas Ludmila fica na sala. Ela anda pelo local.</default>
+		<default>Bianor levanta e sai da sala. As outras pessoas fazem o mesmo. Ludmila levanta e anda pela sala. Fica atrás da cadeira de Mel, colocando as mãos nas costas da cadeira.</default>
 	</teller>
 	<talk character="Ludmila">
 		<default>Lar, doce lar.</default>
 	</talk>
 	<teller>
-		<default>12:00. Michele entra na sala de Melody.</default>
+		<first>Tarde. Michele entra na sala de Melody.</first>
 	</teller>
 	<talk character="Michele">
 		<hushed>Será que você ficou louca??? Recontratar Ludmila???</hushed>
 	</talk>
+	<teller>
+		<default>Mel encara Michele.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Quem te deu autorização pra entrar na minha sala assim?</default>
 	</talk>
@@ -53,11 +60,14 @@
 	<talk character="Ludmila">
 		<arrive>Sobre o que, senhorita Michele?</arrive>
 	</talk>
+	<teller>
+		<default>Michele endireita o corpo e arregala os olhos. Engole seco.</default>
+	</teller>
 	<talk character="Michele">
 		<default>Não era nada, senhora Ludmila. Discussão pessoal.</default>
 	</talk>
 	<teller>
-		<default>Mel percebe que Michele ficou pálida. Esta sai.</default>
+		<default>Mel franze a testa. Michele sai. Mel acompanha com os olhos. Volta a olhar para o caderno.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Como foi o primeiro dia?</default>
@@ -70,22 +80,27 @@
 	</talk>
 	<talk character="Ludmila">
 		<default>Já tinha passado pela escola. Recebi outra proposta. Gosto dessa escola, por isso voltei.</default>
-		<hushed>Michele não costumava ficar escutando atrás de porta.</hushed>
 	</talk>
 	<teller>
-		<default>Ouvem-se passos do lado de fora, indo embora.</default>
+		<default>Ludmila se aproxima da mesa. Mel olha para Ludmila.</default>
+	</teller>
+	<talk character="Ludmila">
+		<default>Michele não costumava ficar escutando atrás de porta.</default>
+	</talk>
+	<teller>
+		<default>Ouvem-se passos do lado de fora.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ela também não costuma chamar ninguém de senhora. Mas eu ia deixar. Ia abrir a porta e fingir que encontrei sem querer.</default>
+		<default>Também não costuma chamar ninguém com pronomes que denotem respeito. Mas eu ia deixar. Ia abrir a porta e fingir que encontrei sem querer.</default>
 	</talk>
 	<talk character="Ludmila">
 		<default>Então, é uma mulher de pulso firme. Deve ser por isso que ninguém diz coisa alguma na reunião.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eles de vez em quando falam. É que eu também comecei mal, o Bianor começou a reclamar e eu...</default>
+		<default>De vez em quando falam. É que eu também comecei mal, Bianor começou a reclamar e eu...</default>
 	</talk>
 	<teller>
-		<default>Ludmila vai para trás de Mel e coloca as mãos nos ombros dela, massageando. Melody fecha os olhos e levanta a cabeça de leve.</default>
+		<default>Ludmila vai para trás de Mel e coloca as mãos nos ombros de Mel. Aperta, fazendo massagem. Melody fecha os olhos e levanta a cabeça de leve.</default>
 	</teller>
 	<talk character="Ludmila">
 		<default>Não pense que o problema é você. Todo mundo sabe que Bianor reclama de tudo. Já viu alguém tocar na caneca dele? Aliás, ainda bem que me contratou, não uma professora que não conhecesse ele, se não ia ficar histérico.</default>
@@ -103,22 +118,13 @@
 		<default>Mais velha? Esse período que passei, esse meu primeiro emprego, foi ótimo pra saber como não envelhecer. Você tem namorado?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não.</default>
+		<default>Não. Não namoro.</default>
 	</talk>
 	<talk character="Ludmila">
 		<default>Eu acho que homem envelhece demais. Deve ser por isso que eu tenho facilidade maior que as outras mulheres de me manter jovem.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Você é lésbica? Não gosta de homem?</default>
-	</talk>
-	<talk character="Ludmila">
-		<default>Preconceito?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não. Só não parece. Não que eu crie estereótipos, mas eu realmente nem desconfiei disso.</default>
-	</talk>
 	<teller>
-		<default>13:30. Michele chega na MEAK. Pega Kat e Estela saindo.</default>
+		<first>MEAK. Kat e Estela estão saindo, Michele chega.</first>
 	</teller>
 	<talk character="Estela">
 		<default>Ah, peraí, já deu Michele, até quando vamos sair pro trabalho???</default>
@@ -145,7 +151,7 @@
 		<default>Mas...</default>
 	</talk>
 	<teller>
-		<default>As duas saem. Derik está na recepção. Michele vai até ele.</default>
+		<default>As duas saem. Michele entra. Derik está na recepção.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Sim?</default>
@@ -157,7 +163,7 @@
 		<default>Não fico ouvindo conversa alheia.</default>
 	</talk>
 	<talk character="Michele">
-		<default>No altura que eu falei...</default>
+		<default>Na altura que eu falei...</default>
 	</talk>
 	<talk character="Derik">
 		<default>Volume.</default>
@@ -171,17 +177,23 @@
 	<talk character="Michele">
 		<screamed>Estou com um problema maior que esse, se importa???</screamed>
 	</talk>
+	<teller>
+		<default>Derik tampa os ouvidos.</default>
+	</teller>
 	<talk character="Derik">
 		<default>Maior que seu agudo, não dá!</default>
 	</talk>
 	<talk character="Michele">
 		<default>Daqui a pouco nem vou mais me preocupar com a Kat com você, parece que tá aviadando!</default>
 	</talk>
+	<teller>
+		<default>Derik revira os olhos e destampa os ouvidos.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Quer um conselho? Sai daqui, antes que eu ligue pra Mel e peça pra ela te correr, tá?</default>
+		<default>Rola ir embora agora? Ou tem mais alguma merda pra falar?</default>
 	</talk>
 	<teller>
-		<default>Michele sai. Vai para a casa de Alice.</default>
+		<first>Casa de Alice.</first>
 	</teller>
 	<talk character="Alice">
 		<default>Será que vamos ter que apelar pra Janaína?</default>
@@ -190,7 +202,7 @@
 		<default>Sei lá se ela vai acreditar na gente, vai ficar do lado da Melody também.</default>
 	</talk>
 	<talk character="Alice">
-		<default>Droga. Mas não custa tentar.</default>
+		<default>Não custa tentar.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Aposto que fez de propósito!</default>
@@ -199,7 +211,7 @@
 		<default>Ela não ia arriscar a Katerine se soubesse do que aquela mulher é capaz.</default>
 	</talk>
 	<talk character="Michele">
-		<default>Podíamos falar com alguém na escola pra ir falar com a Melody, ou ainda melhor, direto com a Janaína.</default>
+		<default>Podíamos falar com alguém na escola pra ir falar com a Melody, ou ainda melhor, direto com a Janaína!</default>
 	</talk>
 	<talk character="Alice">
 		<default>Só se for uma garota, porque os caras todos têm medo dela.</default>
@@ -217,7 +229,7 @@
 		<default>Por esse lado eu não tinha pensado.</default>
 	</talk>
 	<teller>
-		<default>18:00. Fábio está na recepção da MEAK. Derik chega.</default>
+		<first>Anoitecer. MEAK. Recepção. Derik chega.</first>
 	</teller>
 	<talk character="Derik">
 		<default>Pronto, terminei.</default>
@@ -226,7 +238,7 @@
 		<default>Então podemos criar a tal dimensão guarda-roupas?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ainda tô meio inseguro com isso.</default>
+		<default>Ainda não tô com muita segurança disso.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Nunca fez feitiço na sua vida?</default>
@@ -238,7 +250,7 @@
 		<default>Relaxa, vai dar tudo certo.</default>
 	</talk>
 	<teller>
-		<default>21/06. 19:00. Kat desce na recepção.</default>
+		<first>Três semanas depois. Noite. Kat desce na recepção.</first>
 	</teller>
 	<talk character="Fábio">
 		<default>Tá na cozinha.</default>
@@ -247,16 +259,16 @@
 		<default>Mas nem sabe quem estou procurando...</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Estela tava com você, Zenon com a Beatrice, Alan apanhando da Michele, Derik tá ajudando a Alete a aprender a cuidar da Inês, eu não poderia ser...</default>
+		<default>Estela tava com você, Zenon com Beatrice, Alan apanhando de Michele, Derik tá ajudando Alete a aprender a cuidar de Inês, eu não poderia ser...</default>
 	</talk>
 	<talk character="Kat">
-		<hushed>Ela continua comendo daquele jeito?</hushed>
+		<hushed>Continua comendo daquele jeito?</hushed>
 	</talk>
 	<talk character="Fábio">
-		<hushed>Continua. Mas a Ludmila tá usando todo o salário pra cobrir isso.</hushed>
+		<hushed>Continua. Mas Ludmila tá usando todo o salário pra cobrir isso.</hushed>
 	</talk>
 	<talk character="Kat">
-		<hushed>E com que ela come?!</hushed>
+		<hushed>E com que Ludmila come?!</hushed>
 	</talk>
 	<talk character="Fábio">
 		<hushed>Não faço a menor idéia.</hushed>
@@ -268,7 +280,7 @@
 		<hushed>Então tenta fazer trabalho em campo.</hushed>
 	</talk>
 	<teller>
-		<default>Michele está no banheiro. Alice chega.</default>
+		<first>Michele está no banheiro. Alice chega.</first>
 	</teller>
 	<talk character="Alice">
 		<default>Você está meio...</default>
@@ -286,7 +298,7 @@
 		<default>Não vai me dizer que tá gostando dele, vai???</default>
 	</talk>
 	<talk character="Michele">
-		<default>Claro que não! Mesmo que tivesse, a família dele não é pobre.</default>
+		<default>Claro que não! Aliás, mesmo que tivesse, a família dele não é pobre.</default>
 	</talk>
 	<talk character="Alice">
 		<default>Sério?!</default>
@@ -344,7 +356,7 @@
 		<default>Tentei falar com Melody sobre Ludmila. Se ela não ouve, azar dela.</default>
 	</talk>
 	<teller>
-		<default>Ele sai. Chega em casa e encontra Fábio na recepção.</default>
+		<first>MEAK. Alan chega.</first>
 	</teller>
 	<talk character="Alan">
 		<default>Mel tá aí?</default>
@@ -362,22 +374,24 @@
 		<default>Por que Melody? Achei que chamasse ela de Mel também...</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Ela só fica lá trancada, largou a escola nas mãos de Ludmila sem falar com ninguém, nem conversamos mais direito...</default>
+		<default>Só fica lá dentro, largou a escola nas mãos de Ludmila sem falar com ninguém, nem conversamos mais direito...</default>
 	</talk>
 	<talk character="Alan">
 		<default>Tá com ciúmes??? Achei que você fosse...</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Você não tem ciúmes de amigo, não? Do seus pais, sei lá, de um irmão?!</default>
+		<default>Você não tem ciúmes de amizade, não? Dos seus pais, sei lá, de um irmão?!</default>
 	</talk>
 	<talk character="Alan">
 		<default>Não tenho irmãos.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Que seja, Alan, é que... Esquece.</default>
+		<default>Que seja, Alan, é que...</default>
+		<teller>suspira</teller>
+		<default>Esquece.</default>
 	</talk>
 	<teller>
-		<default>Fábio se cala. Beatrice e Zenon descem.</default>
+		<default>Beatrice e Zenon descem.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Já de volta, Alan?</default>
@@ -386,19 +400,19 @@
 		<default>Não, meu holograma!</default>
 	</talk>
 	<teller>
-		<default>Alan sobe, emburrado.</default>
+		<default>Alan sobe.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Grosso. Fábio, que cara é essa?</default>
+		<default>Fábio, que cara é essa?</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Melody. Nem fala mais comigo direito.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Pra mim, essa Ludmila fede.</default>
+		<default>Pra mim, Ludmila fede.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Só se usar um perfume muito bom.</default>
+		<default>Só se usar um perfume muito bom... Não percebi nada...</default>
 	</talk>
 	<talk character="Bea">
 		<default>Não tô falando literalmente.</default>
@@ -407,13 +421,13 @@
 		<default>Nem eu. Tá me tomando pelo Alan?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Mel disse que, no histórico dela, só consta que saiu, não o porquê disso.</default>
+		<default>Mel disse que, no histórico, só consta que saiu, não o porquê disso.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Vocês podem falar com o Jessé.</default>
+		<default>Vocês podem falar com Jessé.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Tão novo na escola quanto Mel.</default>
+		<default>Tão recente na escola quanto Mel.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Mas ele pode nos dar endereços de alunos antigos, que conheçam a tal...</default>
@@ -422,16 +436,24 @@
 		<arrive>Ludmila?</arrive>
 	</talk>
 	<talk character="Fábio">
-		<default>Gente, ela tá aí e a gente falando dela, sem nem cuidado aqui...</default>
+		<default>Gente, Ludmila tá aí e a gente falando, sem nem cuidado aqui...</default>
 	</talk>
-	<talk character="Bea">
-		<default>Poderia ser ela descendo. Melhor sairmos daqui.</default>
+	<talk character="Zenon">
+		<default>Melhor a gente sair daqui.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Alguém sabe o endereço do Jessé?</default>
-		<teller>silêncio</teller>
+	</talk>
+	<teller>
+		<default>Silêncio.</default>
+	</teller>
+	<talk character="Bea">
 		<default>Pular portões de escola?</default>
-		<teller>Kat e Zenon levantam as mãos</teller>
+	</talk>
+	<teller>
+		<default>Kat e Zenon levantam as mãos.</default>
+	</teller>
+	<talk character="Bea">
 		<default>Ótimo. Vamos pra escola. Fábio, você inventa algo se alguém perguntar?</default>
 	</talk>
 	<talk character="Fábio">
@@ -441,7 +463,7 @@
 		<arrive>Peraí, eu esqueci de falar algo!</arrive>
 	</talk>
 	<talk character="Bea">
-		<irony>Ah, o holograma vem com recado?</irony>
+		<irony>Holograma vem com recado?</irony>
 	</talk>
 	<talk character="Alan">
 		<default>Chele disse que tentou avisar Mel de uma coisa, mas que ela não quis ouvir. Eu peguei elas comentando que alguém deveria estar fraco já, e perguntei se era por isso que ela tava perguntando da Mel. Joguei verde e colhi podre.</default>
@@ -451,7 +473,11 @@
 	</talk>
 	<talk character="Alan">
 		<default>Obrigado...</default>
-		<teller>sorri, mas percebe</teller>
+	</talk>
+	<teller>
+		<default>Alan sorri. Fecha a expressão.</default>
+	</teller>
+	<talk character="Alan">
 		<default>Ei, isso não foi um elogio!</default>
 	</talk>
 	<talk character="Bea">
@@ -461,6 +487,6 @@
 		<default>E você?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Eu vou falar com uma aluna em especial.</default>
+		<default>Eu vou falar com alguém em especial.</default>
 	</talk>
 </story>
