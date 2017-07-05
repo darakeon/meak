@@ -1,57 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="05" scene="f">
 	<teller>
-		<default>Kat e Mel chegam no quarto.</default>
+		<default>Kat e Mel entram no quarto.</default>
 	</teller>
 	<talk character="Ang">
 		<default>E aí, o que vai ser? Vão me bater até Edmont resolver aparecer?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pelo que sei ele deve estar, de alguma forma, vendo o que você vê e ouvindo o que você ouve, certo?</default>
+		<default>Pelo que sei deve estar, de alguma forma, vendo o que você vê e ouvindo o que você ouve, certo?</default>
 	</talk>
 	<talk character="Ang">
 		<default>É...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então tenho um recado para ele.</default>
-		<teller>se senta ao lado de Ang</teller>
-		<default>Eu não matava ele porque não podia matar você. Se ele não desfizer isso, não vou ter mais motivos para me segurar.</default>
+		<default>Então tenho um recado.</default>
+	</talk>
+	<teller>
+		<default>Mel se senta ao lado de Ang.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Se você continuar assim, vou atrás de Edmont. E Edmont sabe o que isso significa.</default>
 	</talk>
 	<talk character="Ang">
-		<irony>Tá se referindo à sua vingança pela criança que perdeu? Não precisa, você já botou a Kat no lugar... Ah, não, a Kat tá no lugar da outra criança!</irony>
-	</talk>
-	<talk character="Kat">
-		<default>Que outra criança?</default>
+		<default>Tá se referindo a sua vingança pela criança que perdeu?</default>
 	</talk>
 	<teller>
-		<default>Mel pega uma faca que Estela estava usando e sai.</default>
+		<default>Mel pega a faca de Estela e sai.</default>
 	</teller>
 	<talk character="Estela">
-		<default>Ei!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu não perguntei por mal...</default>
+		<default>Mas o que...?</default>
 	</talk>
 	<teller>
-		<default>Ela volta com a faca lavada e enfia no estômago de Angely. Ele grita.</default>
+		<default>Mel volta com a faca lavada e enfia no estômago de Angely. Angely grita.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Diz mais alguma coisa e vai ficar irreconhecível.</default>
 	</talk>
-	<talk character="Kat">
-		<default>Do que ele tava falando?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Fiquei grávida antes de Dancan.</default>
-	</talk>
 	<talk character="Ang">
 		<irony>Quanta consideração, lavou a faca para eu não pegar tétano?</irony>
 	</talk>
-	<talk character="Kat">
-		<default>Quando tava fugindo?</default>
-	</talk>
 	<talk character="Mel">
-		<default>Depois eu te conto isso. Agora vou atrás do Edmont.</default>
+		<default>Vou atrás do Edmont.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Derik ainda não chegou.</default>
@@ -63,19 +52,34 @@
 		<default>Pronto, agora posso ir.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Na verdade foi outro vampiro conhecido nosso que encontrei.</default>
+		<default>Na verdade foi outro alguém que encontrei.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Como assim?</default>
 	</talk>
 	<teller>
-		<default>Noite. Clítia está no apartamento quando Alan chega.</default>
+		<first>Noite. Clítia está no apartamento. Alan chega.</first>
 	</teller>
 	<talk character="Clítia">
 		<default>Sabe que não consigo ficar longe, não é?</default>
 	</talk>
 	<teller>
-		<default>Toca o celular de Alan, ele atende, fala com a pessoa do outro lado e desliga.</default>
+		<default>Toca o celular de Alan. Alan pega. Franze a testa. Atende.</default>
+	</teller>
+	<talk character="Mel">
+		<out>Preciso de ajuda.</out>
+	</talk>
+	<talk character="Alan">
+		<default>Pra quê?</default>
+	</talk>
+	<talk character="Mel">
+		<out>Vou passar o endereço por mensagem. Só vem.</out>
+	</talk>
+	<talk character="Alan">
+		<default>Mas... Mel? Mel?!</default>
+	</talk>
+	<teller>
+		<default>Alan desliga.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Melody tá pedindo minha ajuda.</default>
@@ -84,7 +88,7 @@
 		<default>Ela se rendeu? Isso é estranho...</default>
 	</talk>
 	<teller>
-		<default>Numa praça, Mel desliga o telefone. Ela está com Kat e Estela.</default>
+		<first>Praça. Mel termina de digitar, envia e coloca o celular no bolso.</first>
 	</teller>
 	<talk character="Estela">
 		<default>Ele vai?</default>
@@ -96,54 +100,61 @@
 		<default>Por quê???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se Alan vai, Clítia vai. Ela tá com ele agora.</default>
+		<default>Se Alan vai, Clítia vai. Tá com Alan agora.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele não sabe lutar!</default>
+		<default>Derik não sabe lutar!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Sabe voar.</default>
 	</talk>
 	<teller>
-		<default>Mel atravessa a rua e entra numa van. Kat pega um vidrinho no bolso.</default>
+		<default>Mel atravessa a rua. Entra em uma van. Kat pega um vidrinho no bolso.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Que vai fazer?!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Dormir. Sabe o telefone da tal que era chefe do Alan?</default>
+		<default>Dormir. Sabe o telefone da pessoa que era chefe de Alan?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Soraia? Sei, mas...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Se eu começar a gritar, ligue para ela.</default>
+		<default>Se eu começar a gritar, liga.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Vai dormir aqui no banco???</default>
 	</talk>
 	<teller>
-		<default>Sem responder, Kat toma um comprimido, se deita num banco e, em poucos minutos, dorme. Estela se senta no chão, na frente dela. Acaba dormindo também. É acordada às 3:00 da manhã (05/03 – quarta), por Clítia. Se assusta.</default>
+		<default>Kat abre o vidro, coloca um comprimido na boca, engole e deita em um banco. Estela se senta no chão, ao lado do banco.</default>
+	</teller>
+	<teller>
+		<first>3h da manhã. Alguém coloca a mão no ombro de Estela, que abre os olhos e olha para trás. Se vira bruscamente e se levanta.</first>
 	</teller>
 	<talk character="Clítia">
-		<default>Parece que você está sozinha aqui.</default>
+		<default>Parece que você tá sozinha aqui.</default>
 	</talk>
 	<teller>
-		<default>Estela olha para tudo: deserto. Depois olha para Kat.</default>
+		<default>Estela olha ao redor. Vazio. Olha para Kat.</default>
 	</teller>
 	<talk character="Clítia">
-		<irony>Ah, ela não conta, tá dormindo!</irony>
+		<default>Ah, ela não conta, tá dormindo!</default>
 	</talk>
 	<talk character="Estela">
 		<default>Eu sabia, você tava mentindo pro Alan...</default>
 	</talk>
 	<talk character="Clítia">
 		<default>É, mas acho que não vai poder contar.</default>
-		<teller>passa a língua nos lábios</teller>
+	</talk>
+	<teller>
+		<default>Clítia passa a língua nos lábios.</default>
+	</teller>
+	<talk character="Clítia">
 		<default>Qual seu tipo sangüíneo?</default>
 	</talk>
 	<teller>
-		<default>Estela vai correr, mas Clítia se coloca à frente.</default>
+		<default>Estela vira para outra direção. Clítia se coloca a frente.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Que isso, vai deixar sua amiga pra morrer sozinha?</default>
@@ -161,7 +172,7 @@
 		<default>Você também fica fria de vez em quando.</default>
 	</talk>
 	<teller>
-		<default>Eles começam a lutar. Estela tenta acordar Kat, que não acorda. Clítia acaba derrubando Zenon#. Mas é acertada no estômago e foge. Alan se aproxima de Zenon# e estende-lhe a mão, ajudando-o a levantar.</default>
+		<default>Clítia corre e chuta Zenon# no rosto, Zenon# cai no chão. Estela abaixa e chacoalha Kat, mas Kat não acorda. Zenon levanta e tenta crava uma estaca em Clítia, mas Clítia desvia seu braço com uma mão e dá um soco com a outra. Contrai e solta o corpo. Coloca a mão nas costas e arranca uma estaca. Joga no chão e corre. Alan se aproxima de Zenon# e estende-lhe a mão. Zenon# pega e Alan puxa, levantando Zenon#.</default>
 	</teller>
 	<talk character="Zenon#">
 		<default>Agora acredita em mim?</default>
@@ -173,41 +184,38 @@
 		<default>Você errou.</default>
 	</talk>
 	<teller>
-		<default>Alan encara Estela.</default>
+		<default>Alan olha para Estela.</default>
 	</teller>
 	<talk character="Estela">
-		<default>Que quer que eu diga?</default>
+		<default>Que quer que eu diga? Sua mira é boa.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Que tal um obrigado?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Obrigado por não deixar ela me matar, mas por que errou? Achei que...</default>
+		<default>Obrigada por não deixar ela me matar, mas por que errou? Achei que...</default>
 	</talk>
 	<talk character="Alan">
 		<default>Tá escuro, eu tava longe para ela não me perceber e o vestido dela me confundiu. A propósito, de nada.</default>
 	</talk>
 	<teller>
-		<default>Na MEAK, Edmont chega ao quarto de Angely.</default>
+		<first>MEAK. Edmont entra no quarto de Angely.</first>
 	</teller>
 	<talk character="Ang">
 		<default>Veio me soltar?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Vim buscar a espada. Bea quem me deu, ela ficou brava.</default>
+		<default>Vim buscar a espada. Bea quem me deu, ficou com raiva.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Desde quando você liga para ela?</default>
+		<default>Desde quando você liga?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Desde quando eu não sinto o que você sente?</default>
 	</talk>
 	<teller>
-		<default>Edmont arranca a faca. Angely grita.</default>
+		<default>Edmont arranca a faca. Angely grita. Respira fundo.</default>
 	</teller>
-	<talk character="Ang">
-		<default>Chateado?</default>
-	</talk>
 	<talk character="Edmont">
 		<default>Tá com inveja? Querendo ficar tão mau quanto eu?</default>
 	</talk>
@@ -215,13 +223,13 @@
 		<default>Considera isso uma ameaça?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não. O meu apelido você nunca vai tomar e será sempre o meu irmão, o que veio depois de mim.</default>
+		<default>Não. O meu apelido você nunca vai tomar e será sempre o que veio depois de mim.</default>
 	</talk>
 	<talk character="Ang">
 		<default>As cordas estão machucando meus pulsos.</default>
 	</talk>
 	<teller>
-		<default>Edmont desamarra Angely. Este se senta na cama.</default>
+		<default>Edmont se aproxima. Desamarra Angely. Angely se senta na cama.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Como vai Beatrice?</default>
@@ -230,88 +238,79 @@
 		<default>Sentindo falta da espada.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Acho que talvez fosse um benefício para nós dois se fizéssemos uma troca. Aliás, duplo pra você.</default>
+		<default>Acho que talvez a gente pudesse sair ganhando, tanto eu quanto você, se fizéssemos uma troca. Aliás, você em dobro.</default>
 	</talk>
 	<teller>
-		<default>Mel encontra Beatrice.</default>
+		<first>Mel entra em uma casa abandonada. Beatrice desce a escada.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Achei que só andasse com Edmont.</default>
 	</talk>
 	<talk character="Bea">
-		<default>A espada que dei pra Edmont, ele entregou pra Angely.</default>
+		<default>A espada eu dei pra Edmont, Edmont quem entregou pra Angely.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então foi você, sua...</default>
+		<default>Então foi você...</default>
 	</talk>
 	<teller>
-		<default>Zenon# segura Mel.</default>
+		<default>Mel dá um passo para frente, Zenon# segura seu braço.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Zenon?</default>
 	</talk>
-	<teller>
-		<default>Alan chega.</default>
-	</teller>
 	<talk character="Alan">
-		<default>É, é ele. Por que, o outro fugiu?</default>
+		<arrive>É, é ele. Por que, o outro fugiu?</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Fugiu. Bateu no Derik e fugiu.</default>
+		<default>Fugiu. Bateu em Derik e fugiu.</default>
 	</talk>
 	<talk character="Zenon#">
 		<default>Colocou Derik pra cuidar dele???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele tava amarrado!</default>
+		<default>Amarrei. Não imaginei que fosse fugir.</default>
 	</talk>
 	<talk character="Zenon#">
 		<default>É, parece que eu já sabia esse truque nessa época.</default>
 	</talk>
-	<talk character="Bea">
-		<default>Já que estão tão interessados e insistem tanto, vou dizer: a espada carrega um feitiço de inversão de personalidade. Era para o Edmont, mas Angely ficou bem mais tempo com ela. Para desfazer, basta destrui-la.</default>
-	</talk>
-	<teller>
-		<default>Beatrice sai. Mel faz menção de ir atrás, mas os dois a seguram.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Ela já disse o que queríamos saber.</default>
-	</talk>
 	<talk character="Mel">
-		<default>Mas...</default>
+		<default>Que truque?</default>
 	</talk>
-	<talk character="Zenon#">
-		<default>Vamos.</default>
+	<talk character="Bea">
+		<default>Já que o interesse é tão grande e estão insistindo muito, vou dizer: a espada carrega um feitiço de inversão de personalidade. Era para Edmont, mas Edmont passou a Angely. Para desfazer, tem que destruir a espada.</default>
 	</talk>
 	<teller>
-		<default>Mel vê algo no chão. Pega. Os três saem dali. Amanhece. Mel vai até o templo.</default>
+		<default>Beatrice sai. Mel franze a sobrancelha. Abaixa. Pega algo no chão.</default>
+	</teller>
+	<teller>
+		<first>Manhã. Templo. Mel entra. Edmont está em um canto.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Parece que você gosta daqui.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É, gosto. Lembro de você dormindo.</default>
+		<default>É, gosto. Me dá nostalgia. Penso na nossa casa.</default>
 	</talk>
 	<talk character="Mel">
-		<default>É, a espada afetou mesmo você.</default>
+		<default>Isso quer dizer que a espada afetou você?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não. Não peguei no cabo dela.</default>
+		<default>Não. Não peguei no cabo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Então você sabia.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Beatrice me mandou pegar ela pelo cabo porque supostamente não queria que eu cortasse a mão. Desconfiei. Por isso entreguei ela para o Angely.</default>
+		<default>Beatrice me mandou pegar pelo cabo porque supostamente não queria que eu cortasse a mão. Desconfiei. Por isso entreguei pra Angely.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então tem que pegar ela de volta.</default>
+		<default>Tem que pegar de volta.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Por quê?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Porque ele só vai confiar em você.</default>
+		<default>Porque só vai confiar em você.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>E se eu já tiver pego?</default>
@@ -323,13 +322,19 @@
 		<default>Mel, Mel, Mel. Sempre dando ordens.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tem que fazer isso, não sabe o que essa espada...</default>
+		<default>Tem que fazer isso, não sabe o que...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Transformou um cara bonzinho em mau. Beatrice não quer mais que eu fique mau, então provavelmente era pra inverter as coisas. Eu penso.</default>
+		<default>Transformou alguém bom em ruim. Beatrice não quer mais que eu fique ruim, então provavelmente era pra inverter as coisas.</default>
+	</talk>
+	<teller>
+		<default>Edmont se levanta.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Eu penso.</default>
 	</talk>
 	<talk character="Mel">
-		<default>É? E por quê virou vampiro?</default>
+		<default>É? E por quê virou vampir?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não tinha mais o que fazer. Mas sabe no que mais penso?</default>
@@ -347,28 +352,28 @@
 		<default>Podemos fazer uma troca.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nem pensar!</default>
+		<default>E porque pensa que eu faria?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Angely me propôs uma troca. Me entregou a espada para virar vampiro.</default>
+		<default>Angely me propôs uma troca. Me entregou a espada para virar vampir.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não vai me dizer que...</default>
+		<default>Você não...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Disse para ele que ia.</default>
+		<default>Disse que ia.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não vai fazer isso, vai?</default>
+		<default>Vai fazer?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não sei.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você tem que nos entregar isso! Será que já não basta você de mau?!</default>
+		<default>Será que já não basta você?!</default>
 	</talk>
 	<teller>
-		<default>Algum tempo depois, Edmont encontra Angely.</default>
+		<first>Praia. Angely está na mureta, olhando para o mar. Edmont se aproxima, com capuz.</first>
 	</teller>
 	<talk character="Ang">
 		<default>E aí, pensou no que eu disse?</default>
@@ -377,31 +382,37 @@
 		<default>Em te trazer pra cá? Não sei se vai gostar de não poder mais sair no sol.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ia ser mais fácil chegar perto das vampiras, não ia ter que bater primeiro.</default>
+		<default>Ia ser mais fácil pra chegar perto de outras espécies, não ia ter que bater primeiro.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É, isso é verdade. Promete que não vai voltar a ser bonzinho?</default>
+		<default>A maioria na verdade nem batendo você chegaria.</default>
+	</talk>
+	<teller>
+		<default>Edmont olha para Angely.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Promete que não vai voltar correndo?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Sabe que isso só acontece se destruírem a espada.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>E isso não vai acontecer, pois eu estou com ela. Mas acho que não quero te transformar.</default>
+		<default>E isso não vai acontecer, porque tá comigo. Mas acho que não quero te transformar.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Acho que ia preferir o sangue da Beatrice. Está há pouco tempo daqui.</default>
+		<default>Acho que ia preferir o sangue da Beatrice. Podemos ir até lá.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não está tentando me enrolar, está?</default>
+		<default>Não tá tentando me enrolar, tá?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Por que, acha que meu sangue é melhor?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não só o sangue como o cheiro dela deve ser melhor. Não me enrolaria, não é? Sabe que agora posso te matar sem...</default>
+		<default>Seria como beber meu próprio sangue. Duvido que tenha graça. Não me enrolaria, não, né? Sabe que agora posso te matar sem...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Melhor não falar isso muito alto. Alguém pode ouvir.</default>
