@@ -66,14 +66,7 @@ namespace Structure.Data
         {
             var xml = new Node(FileInfo.FullName);
 
-            if (xml["scene"] != Scene.ID)
-                throw new Exception(String.Format("Scene [{0}] and file name [{1}] doesn't match.", xml["scene"], Scene.ID));
-
-            if (xml["episode"] != Scene.Episode.ID)
-                throw new Exception(String.Format("Episode [{0}] and file path [{1}] doesn't match.", xml["episode"], Scene.Episode.ID));
-
-            if (xml["season"] != Scene.Episode.Season.ID)
-                throw new Exception(String.Format("Season [{0}] and file path [{1}] doesn't match.", xml["season"], Scene.Episode.Season.ID));
+            verifyXmlAttributes(xml);
 
             if (!String.IsNullOrEmpty(xml.Value))
                 throw new Exception("Story pieces out of tags: " + xml.Value);
@@ -90,6 +83,7 @@ namespace Structure.Data
             }
         }
 
+        
 
 
         private ParagraphType defineType(String nodeName)
@@ -176,6 +170,7 @@ namespace Structure.Data
         {
             var xml = new Node(FileInfo.FullName, false);
 
+            verifyXmlAttributes(xml);
 
             var talkCounter = 0;
             var tellerCounter = 0;
@@ -206,6 +201,18 @@ namespace Structure.Data
         }
 
 
+
+        private void verifyXmlAttributes(Node xml)
+        {
+            if (xml["scene"] != Scene.ID)
+                throw new Exception(String.Format("Scene [{0}] and file name [{1}] doesn't match.", xml["scene"], Scene.ID));
+
+            if (xml["episode"] != Scene.Episode.ID)
+                throw new Exception(String.Format("Episode [{0}] and file path [{1}] doesn't match.", xml["episode"], Scene.Episode.ID));
+
+            if (xml["season"] != Scene.Episode.Season.ID)
+                throw new Exception(String.Format("Season [{0}] and file path [{1}] doesn't match.", xml["season"], Scene.Episode.Season.ID));
+        }
 
         private static Teller tellerDefault()
         {
