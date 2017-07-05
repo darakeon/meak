@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="07" scene="f">
 	<teller>
-		<default>Na manhã do dia seguinte, Angely levanta e vai até a sala.</default>
+		<default>Manhã. Angely entra na sala.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Cadê a Mel?</default>
@@ -16,16 +16,10 @@
 		<default>Você acha?</default>
 	</talk>
 	<talk character="Angely">
-		<default>É, ela pode achar que você está sendo possessivo.</default>
+		<default>Mel já falou sobre isso de ser possessivo.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Será?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Podemos treinar, que acha?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É, aquele cara não me pareceu fraco.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Como será que está a Dara?</default>
@@ -42,14 +36,11 @@
 	<talk character="Angely">
 		<default>Sei lá, alguma coisa dizendo pra eu ir lá...</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Bora!</default>
-	</talk>
 	<teller>
-		<default>Na casa de Denise...</default>
+		<default>Dara está no quarto, lendo um livro.</default>
 	</teller>
 	<talk character="Denise">
-		<default>Handhara... Você viu aquela saia que eu comprei hoje?</default>
+		<arrive>Handhara... Você viu aquela saia que eu comprei hoje?</arrive>
 	</talk>
 	<talk character="Dara">
 		<default>Não, não vi.</default>
@@ -70,7 +61,7 @@
 		<default>Devia se arrumar melhor.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Uma mancha vermelha no busto do seu vestido iria ficar uma graça.</default>
+		<default>Acho que tô mudando de ideia.</default>
 	</talk>
 	<talk character="Derik">
 		<arrive>Não param mesmo de brigar.</arrive>
@@ -79,19 +70,22 @@
 		<default>Que tá fazendo aqui?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Denise, o Bryan tá esperando você. Ele tá lá embaixo.</default>
+		<default>Denise, o Bryan tá esperando você. Ele tá na sala.</default>
 	</talk>
 	<talk character="Denise">
-		<default>Tá, já tô descendo.</default>
+		<default>Eu tenho que me arrumar! Ele que entenda isso!</default>
 	</talk>
 	<teller>
-		<default>Denise desce a escada.</default>
+		<default>Denise sai do quarto.</default>
 	</teller>
+	<talk character="Dara">
+		<default>Não importa pelo que veio, me fez um favor. Te devo a vida agora.</default>
+	</talk>
 	<talk character="Derik">
 		<default>Estamos sozinhos.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Vai saindo.</default>
+		<default>Não exagera. Vai saindo.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Por que?</default>
@@ -106,7 +100,7 @@
 		<default>Fora.</default>
 	</talk>
 	<talk character="Derik">
-		<default>E não quer que eu fique aqui?</default>
+		<default>Não quer que eu fique aqui?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Quer sinceridade ou educação?</default>
@@ -121,16 +115,16 @@
 		<default>Ei, eu não sou cachorro...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Parece! Vai!</default>
+		<default>Parece. Vai.</default>
 	</talk>
 	<teller>
-		<default>Dara empurra Derik pra fora do quarto. Ele desce a escada.</default>
+		<default>Derik solta os ombros. Dara revira os olhos. Fecha o livro. Vai para o lado da porta. Ele sai. Ela fecha a porta. Ele vai para a sala.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Bryan, vai ficar?</default>
 	</talk>
 	<talk character="Bryan">
-		<default>Não, a Denise não tá afim de sair.</default>
+		<default>A Denise disse que não sai sem uma tal saia. Vou embora. Só estou arrumando ânimo.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Então me dá carona?</default>
@@ -143,10 +137,7 @@
 		<default>Claro que é pra casa.</default>
 	</talk>
 	<teller>
-		<default>Eles saem.</default>
-	</teller>
-	<teller>
-		<first>Denise vai até o quarto de Dara e não a vê. Ela está no escuro.</first>
+		<first>Denise entra de novo no quarto de Dara. Está escuro.</first>
 	</teller>
 	<talk character="Dara">
 		<default>Não vai mais sair com Bryan?</default>
@@ -167,7 +158,7 @@
 		<default>Sai do escuro, Handhara.</default>
 	</talk>
 	<teller>
-		<default>Dara sai do escuro. Está armada de arco e flecha.</default>
+		<default>Dara sai do escuro. Com um arco e uma flecha, apontando para o chão.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Que isso?</default>
@@ -183,7 +174,11 @@
 	</talk>
 	<talk character="Denise">
 		<default>Por que está dizendo isso? Você não sabe usar essa...</default>
-		<teller>Dara aponta a flecha pra Denise</teller>
+	</talk>
+	<teller>
+		<default>Dara aponta a flecha pra Denise</default>
+	</teller>
+	<talk character="Denise">
 		<default>...coisa.</default>
 	</talk>
 	<talk character="Dara">
@@ -214,7 +209,13 @@
 		<default>Não, não vou, não.</default>
 	</talk>
 	<teller>
-		<default>Angely desarma Dara. Ela foge pela janela. Ele vai até a janela e vê quando ela pega a moto dele e sai. Ele se senta e coloca a mão na cabeça, visivelmente perturbado. Denise olha pela janela e Dara já foi.</default>
+		<default>Edmont se coloca na frente de Denise.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Acredita em mim.</default>
+	</talk>
+	<teller>
+		<default>Dara puxa a corda, mas Edmont puxa Dara pelo braço. Dara solta o arco, e empurra Edmont no chão. Foge pela janela. Edmont vai até a janela. Dara pega a moto de Edmont e sai. Ele se senta, de cabeça baixa. Denise olha pela janela.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Você deixou ela fugir!</default>
@@ -223,7 +224,7 @@
 		<default>Ela foi rápida.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Você está bem?</default>
+		<default>Você tá bem?</default>
 	</talk>
 	<talk character="Denise">
 		<default>Estou, mais ela...</default>
@@ -250,7 +251,7 @@
 		<default>Eu vou com você.</default>
 	</talk>
 	<teller>
-		<default>Eles pegam a moto e saem à toda velocidade.</default>
+		<first>AQUI</first>
 	</teller>
 	<teller>
 		<first>Edmont e Angely chegam a um prédio abandonado.</first>
