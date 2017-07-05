@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="04" scene="a">
 	<teller>
-		<default>21/02 (sexta). Prédio abandonado na Ilha de Ares, 15:00.</default>
+		<default>15h. Prédio abandonado em Ilha de Ares.</default>
 	</teller>
 	<talk character="Johnatan">
 		<default>Que tá fazendo? Não dormiu?</default>
@@ -55,11 +55,15 @@
 		<default>Acho que esse tempo sem dormir te fez realmente mal...</default>
 	</talk>
 	<teller>
-		<default>MEAK.</default>
+		<first>MEAK. Estela chega. Mel está atrás da recepção, de braços cruzados. Derik deitou-se no sofá, de ponta cabeça.</first>
 	</teller>
 	<talk character="Estela">
 		<default>Gente, vocês não imaginam o que aconteceu...</default>
-		<teller>olha pra Mel e Derik</teller>
+	</talk>
+	<teller>
+		<default>Estela olha para Derik. Então para Mel.</default>
+	</teller>
+	<talk character="Estela">
 		<default>E eu também não imagino o que aconteceu aqui.</default>
 	</talk>
 	<talk character="Mel">
@@ -70,8 +74,12 @@
 	</talk>
 	<talk character="Derik">
 		<default>Não foi uma boa idéia. Recebemos três trotes...</default>
-		<teller>o telefone toca</teller>
-		<default>...quatro...</default>
+	</talk>
+	<teller>
+		<default>Toca o telefone.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Quatro.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Você atende?</default>
@@ -80,8 +88,12 @@
 		<default>Atendi a última...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Alô? ### Sim... ### Não... ### Sim... ### Raptada? Por que não liga pra a polícia? ### Claro.</default>
-		<teller>anota algo</teller>
+		<default>Alô? ### Sim... ### Não... ### Sim... ### Rapto? Por que não liga pra a polícia? ### Claro.</default>
+	</talk>
+	<teller>
+		<default>Mel pega um papel e uma caneta. Escreve.</default>
+	</teller>
+	<talk character="Mel">
 		<default>Sim. ### Ok.</default>
 	</talk>
 	<teller>
@@ -91,78 +103,82 @@
 		<default>Será que é outro trote?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não dessa vez...</default>
+		<default>Não dessa vez.</default>
 	</talk>
 	<talk character="Estela">
 		<default>E o que era, então?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Um cara diz que a filha foi raptada. Diz que viu quem a levou e por isso achou melhor não ligar pra polícia.</default>
+		<default>Uma pessoa falando de um rapto. Diz que viu quem levou e por isso achou melhor não ligar para polícia.</default>
 	</talk>
 	<teller>
-		<default>Na casa do homem que ligou, em Ares...</default>
+		<first>Ilha de Ares.</first>
 	</teller>
-	<talk character="homem">
-		<default>Eu consegui ver o rosto, mas não consegui alcançá-lo.</default>
+	<talk character="Perseu">
+		<default>Eu consegui ver o rosto, mas não consegui alcançar o cara.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Por que?</default>
 	</talk>
 	<teller>
-		<default>Ele sai de trás da mesa... de cadeira de rodas. (homem)</default>
+		<default>Perseu sai de trás de mesa, com cadeira de rodas.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Ah, sinto muito...</default>
 	</talk>
-	<talk character="homem">
-		<default>Quero que achem-na o mais rápido possível. Eu pago bem.</default>
+	<talk character="Perseu">
+		<default>Quero que achem ela o mais rápido possível. Eu pago bem.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Pode dizer como ele era?</default>
+		<default>Pode dizer como era?</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Perseu">
 		<default>Mais ou menos. Eu olhei naquele espelho e...</default>
-		<teller>o homem aponta o espelho e se espanta</teller>
+	</talk>
+	<teller>
+		<default>Perseu olha para o espelho por um instante. Franze a testa e volta a olhar.</default>
+	</teller>
+	<talk character="Perseu">
 		<default>Peraí, você também não tem reflexo...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Apenas um detalhe...</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Perseu">
 		<default>Também é um vampiro?</default>
 	</talk>
 	<talk character="Renata">
 		<default>Ele não é ruim.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Como?...</default>
+		<default>Como...</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Perseu">
 		<default>Isso é verdade?</default>
 	</talk>
 	<talk character="Renata">
 		<default>Não confia mais em mim?</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Perseu">
 		<default>Essa é minha filha mais nova, Renata.</default>
 	</talk>
 	<talk character="Renata">
-		<default>Não adianta mais procurá-la.</default>
+		<default>Não adianta mais procurar ela.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Renata">
-		<default>Apenas sei...</default>
+		<default>Apenas sei.</default>
 	</talk>
 	<teller>
-		<default>Zenon e Derik vão pra Hera.</default>
+		<first>Ilha de Hera.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Tá, estamos aqui. Onde procuramos agora?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Que tal na praia?</default>
+		<default>Que tal praia?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não precisa ficar com ciúmes, Kat nunca te largaria por mim.</default>
@@ -171,7 +187,7 @@
 		<default>Ah?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Eu pareço do tipo que gosta de praia a essa hora da tarde, ou melhor, pareço do tipo suicida?</default>
+		<default>Eu pareço do tipo que gosta de praia a essa hora da tarde?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Ah, desculpa, eu esqueci.</default>
@@ -195,7 +211,7 @@
 		<default>Crianças não fazem isso, eu gosto de crianças, não fale assim delas!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>É? Mas eu detesto crianças, elas me detestam e garotos principalmente adoram azucrinar qualquer um.</default>
+		<default>É? Mas eu detesto crianças, elas me detestam e garotos principalmente adoram azucrinar qualquer um!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Tá, eu vou à praia. Você vai a outro lugar.</default>
@@ -213,25 +229,25 @@
 		<default>Os vampiros não são os únicos seres que se alimentam de alguma coisa humana.</default>
 	</talk>
 	<teller>
-		<default>Ele pára. Olha pra Zenon.</default>
+		<default>Derik pára. Olha para Zenon.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Então, pra onde vamos?</default>
+		<default>Então, aonde vamos?</default>
 	</talk>
 	<teller>
-		<default>Kat e Mel estão na parte urbana de Ares.</default>
+		<first>Parte urbana de Ares.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Bom, primeiro temos que verificar em bares, ver se alguém viu a garota.</default>
+		<default>Bom, primeiro temos que verificar em bares, ver se alguém viu a pessoa.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Por quê?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele pode tê-la transformado em vampira.</default>
+		<default>Pode ter transformado em vampir.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Depois verificaremos delegacias e hospitais.</default>
+		<default>Depois delegacias e hospitais.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não podemos esquecer necrotérios.</default>
@@ -240,97 +256,94 @@
 		<default>Posso ficar do lado de fora? Não tenho uma lembrança muito boa de última vez que estive num necrotério...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tudo bem. Bom, isso aqui deve ter algum guia turístico.</default>
+		<default>Tudo bem. Bom, precisamos de guia.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ou alguém de ressaca que nos levaria aos principais bares da cidade para não chegar em casa e dizer mais uma vez ao pai que tava farreando a noite toda.</default>
+		<default>Alguém que parece já ter bebido em todos os lugares daqui serve?</default>
 	</talk>
 	<teller>
-		<default>Mel estranha. Kat aponta um cara andando, aparentemente sem rumo. Mel vai até ele.</default>
+		<default>Kat aponta uma pessoa andando. Mel se aproxima.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Podia ajudar eu e minha amiga? Estamos perdidas aqui na ilha...</default>
+		<default>Com licença, será que pode ajudar?</default>
 	</talk>
 	<teller>
-		<default>Ele olha Mel de cima a baixo.</default>
+		<default>Frank olha Mel de cima a baixo.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Um sim seria mais educado.</default>
+		<default>Eu me perdi na Ilha, tudo que tá no meu corpo eu sei exatamente onde está.</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Frank">
 		<default>Você é estranha.</default>
 	</talk>
 	<talk character="Mel">
-		<irony>Ainda bem que você sabe ser simpático!</irony>
+		<default>Também não era sua opinião sobre mim que eu precisava.</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Frank">
 		<default>Estranha não quer dizer feia. Na verdade, nunca vi nenhuma garota tão...</default>
 	</talk>
-	<talk character="Mel">
-		<default>Vou procurar outra pessoa.</default>
-	</talk>
 	<teller>
-		<default>Mel vai sair, mas ele segura-lhe o braço.</default>
+		<default>Mel se vira. Frank segura-lhe o braço.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Não vai querer perder essa mão, vai?</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Frank">
 		<default>Veio pedir ajuda.</default>
 	</talk>
 	<talk character="Mel">
-		<default>É que achei que, com essa cara de filhinho de papai, você conhecesse os bares da ilha.</default>
+		<default>Preciso saber localização de bares.</default>
 	</talk>
-	<talk character="homem">
-		<default>E conheço. Os bares e motéis.</default>
+	<talk character="Frank">
+		<default>Conheço. Os bares e motéis.</default>
 	</talk>
 	<teller>
-		<default>Ela puxa o braço.</default>
+		<default>Mel puxa o braço.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Melhor passar num laboratório. Devo ter pego alguma coisa só de você encostar em mim.</default>
 	</talk>
 	<teller>
-		<default>Ele tenta pegar o braço dela de novo. Ela se desvia, ele cai no chão. Kat se aproxima.</default>
+		<default>Frank tenta pegar o braço de novo. Mel desvia, Frank cai no chão. Kat se aproxima.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Sua idéia não foi boa. Acho que vamos ter que procurar a garota por nós mesmas.</default>
+		<default>Sua idéia não foi boa. Acho que vamos ter que procurar a pessoa sem ajuda</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta.</default>
+		<default>Frank se levanta.</default>
 	</teller>
-	<talk character="homem">
-		<default>Que garota?</default>
+	<talk character="Frank">
+		<default>Que pessoa?</default>
 	</talk>
 	<teller>
-		<default>Kat mostra uma foto a ele.</default>
+		<default>Kat tira uma foto do bolso e mostra.</default>
 	</teller>
-	<talk character="homem">
+	<talk character="Frank">
 		<default>Não, não conheço. Mas, se quiserem ver os bares, sei onde ficam todos. Só que, infelizmente, nada nesse mundo é de graça.</default>
 	</talk>
 	<teller>
-		<default>Kat tira uma nota de cinquenta da carteira.</default>
+		<default>Kat devolve a foto no bolso e tira uma nota de cinquenta da carteira e entrega.</default>
 	</teller>
 	<talk character="Kat">
 		<default>É tudo que pode tirar de nós.</default>
 	</talk>
 	<teller>
-		<default>Ele pega a nota.</default>
+		<default>Frank pega a nota.</default>
 	</teller>
 	<talk character="homem">
-		<default>Eu pediria trinta. Mas já que querem assim...</default>
+		<default>Ô, velho, nem achei que ceis tinham grana... Ia pedir pra beber comigo, mas ia tomar um não mesmo...</default>
 	</talk>
 	<teller>
-		<default>Mel encara Kat.</default>
+		<default>Frank anda.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Como eu ia adivinhar?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Deixasse ele fazer a oferta primeiro.</default>
+		<default>Podia ter começado com menos, mas a gente definitivamente não ia beber com essa pessoa.</default>
 	</talk>
 	<teller>
-		<default>Angely e Estela estão na parte selvagem de Hera.</default>
+		<first>Floresta de Hera.</first>
 	</teller>
 	<talk character="Estela">
 		<default>Tem certeza que não tem nenhum animal selvagem por aqui?</default>
@@ -342,22 +355,22 @@
 		<default>Que animador! E aí, acha que o defunto já deve tá fedendo a essa hora?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Como sabe se ela morreu?</default>
+		<default>Como sabe se morreu?</default>
 	</talk>
 	<talk character="Estela">
 		<default>A irmã dela disse que não adianta mais procurar.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Temos que ficar atentos a barulhos no mato...</default>
+		<default>A gente tem que prestar atenção a barulhos...</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não disse que não tinha animais aqui???</default>
 	</talk>
 	<talk character="Ang">
-		<default>Tô falando da garota.</default>
+		<default>Tô falando da pessoa.</default>
 	</talk>
 	<teller>
-		<default>22/02 (sábado), 15:00. Todos estão exaustos. Mel, Kat e Estela estão dormindo na sala. Zenon e Derik chegam.</default>
+		<first>Dia seguinte. Mel, Kat e Estela estão dormindo na sala. Zenon e Derik chegam.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Mulheres...</default>
@@ -371,30 +384,30 @@
 		<default>Angely entra na sala.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Coloquei sonífero na água da Mel e da Kat, não queriam dormir. Eu já tava preocupado com vocês dois.</default>
+		<arrive>Coloquei sonífero na água, Mel e Kat não queriam dormir. Eu já tava com preocupação com vocês.</arrive>
 	</talk>
 	<talk character="Derik">
-		<default>É que o homem de ferro acha que todo mundo</default>
+		<default>É que Zenon é de ferro e acha que todo mundo</default>
 		<teller>boceja</teller>
-		<default>tem que ser resistente como ele.</default>
+		<default>tem que ser igual.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Zenon, você não é humano, é mais resistente.</default>
+		<default>Zenon, você é vampir, é mais resistente.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Você também tá acordado.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Também não sou humano.</default>
+		<default>Eu sou... Diferente. Tem toda a coisa com Edmont...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ele vira animais!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ele... Esquece. Me ajuda com elas?</default>
+		<default>Derik... Esquece. Me ajuda a levar?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Eu levo Mel e você leva a Kat.</default>
+		<default>Eu levo Mel e você leva Kat.</default>
 	</talk>
 	<talk character="Ang">
 		<default>E Estela?</default>
@@ -411,18 +424,18 @@
 		<default>Zenon pega Mel e Ang pega Kat. Zenon sai.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Vem comigo, ela não é tão pesada, posso te guiar até...</default>
+		<default>Vem comigo, Kat quase não pesa, posso te guiar até...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não tô bêbado!</default>
+		<default>Não bebi...</default>
 		<teller>boceja</teller>
-		<default>Só com um pouco de sono.</default>
+		<default>Só com um pouco de sono...</default>
 	</talk>
 	<talk character="Ang">
 		<default>Tá.</default>
 	</talk>
 	<teller>
-		<default>Ang sai. Derik cutuca Estela. Ela acorda.</default>
+		<default>Ang sai. Derik cutuca Estela. Estela acorda.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Nossa, que cara é essa?</default>
@@ -430,7 +443,7 @@
 	<talk character="Derik">
 		<default>Cara de quem preferia ter</default>
 		<teller>boceja</teller>
-		<default>saído com o Angely.</default>
+		<default>saído com Angely.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Por quê?! Acha que por acaso procurar nessa cidade pacata é mais difícil que no meio do mato?!</default>
@@ -441,7 +454,7 @@
 		<default>pára pra comer ou descansar...</default>
 	</talk>
 	<talk character="Estela">
-		<default>Angely ficava o tempo inteiro perguntando se eu tava com fome, se tava cansada... Teve uma ora que até dei bronca nele.</default>
+		<default>Angely ficava o tempo inteiro perguntando se eu tava com fome, se tava cansada... Teve uma ora que até dei bronca nele!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Dá próxima vez</default>
@@ -463,19 +476,19 @@
 		<default>Eu já disse que tô bem...</default>
 	</talk>
 	<teller>
-		<default>Derik sai.</default>
+		<default>Derik vai para a cozinha.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Derik!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Que?!</default>
+		<out>Que?!</out>
 	</talk>
 	<talk character="Estela">
 		<default>Porta errada!</default>
 	</talk>
 	<teller>
-		<default>Ele volta.</default>
+		<default>Derik volta.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Bem que eu não tava encontrando a escada.</default>
