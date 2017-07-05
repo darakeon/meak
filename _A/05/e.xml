@@ -45,7 +45,7 @@
 		<default>Quanto à isso não precisa se preocupar.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que horas são?</default>
+		<arrive>Que horas são?</arrive>
 	</talk>
 	<teller>
 		<default>Mel, ainda meio sonolenta, desce a escada.</default>
@@ -91,7 +91,11 @@
 	</talk>
 	<talk character="Mel">
 		<default>Como pode...</default>
-		<teller>o pássaro pousa na janela</teller>
+	</talk>
+	<teller>
+		<default>O pássaro pousa na janela.</default>
+	</teller>
+	<talk character="Mel">
 		<default>...saber?</default>
 	</talk>
 	<talk character="Angely">
@@ -130,6 +134,9 @@
 	<talk character="Elian">
 		<default>Não esqueceste por que voltamos, esqueceste?</default>
 	</talk>
+	<teller>
+		<default>Ela olha para o alto. Suspira fundo. Volta a olhar para ele.</default>
+	</teller>
 	<talk character="Beatrice">
 		<default>Porque não esqueces deles. Poderia. Eles nos esqueceram.</default>
 	</talk>
@@ -302,13 +309,13 @@
 		<default>Viu? Eu não disse? Ele pagou... Como pôde me abandonar assim???</default>
 	</talk>
 	<teller>
-		<default>Ela finge chorar. Angely percebe que está fazendo teatro e entra no clima.</default>
+		<default>Ela coloca as mãos no rosto e finge chorar.</default>
 	</teller>
 	<talk character="recepcionista">
 		<default>Senhora, por favor, pare com isso.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Me desculpe, sabe como é, grávidas choram fácil.</default>
+		<default>Me desculpe, sabe como é, mulheres na situação dela choram fácil.</default>
 	</talk>
 	<talk character="recepcionista">
 		<default>Grávida?</default>
@@ -322,8 +329,14 @@
 	<talk character="recepcionista">
 		<default>Ele saiu. Mas a garota que estava com ele ainda está aí.</default>
 	</talk>
+	<talk character="Mel">
+		<default>Meu Deus, deve ser aquela piranha mirim...</default>
+	</talk>
+	<talk character="recepcionista">
+		<default>Mirim?!</default>
+	</talk>
 	<talk character="Angely">
-		<default>Poderia dizer onde ela está?</default>
+		<default>É, uma garota de 12 anos que sumiu com ele... Poderia dizer onde ela está?</default>
 	</talk>
 	<talk character="recepcionista">
 		<default>Quarto quinhentos e três. Não falem pra ninguém, certo?</default>
@@ -342,6 +355,9 @@
 	</talk>
 	<talk character="Mel">
 		<default>Eu? Pensei em fingir que ele me abandonou, quem pensou na história da gravidez foi você.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Na verdade, foi a recepcionista.</default>
 	</talk>
 	<teller>
 		<default>Chegam ao andar. Eles vão até o quarto.</default>
