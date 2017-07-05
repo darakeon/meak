@@ -57,7 +57,22 @@
 		<default>Tchau.</default>
 	</talk>
 	<teller>
-		<default>Angely e Edmont voltam pra casa. 19:00. Elian acorda.</default>
+		<default>Eles continuam se beijando. Edmont faz cara de tédio.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Caralho, que barata enorme...</default>
+	</talk>
+	<teller>
+		<default>Agatha gruda no braço de Edmont. Meg para de beijar Angely e se esconde atrás dele. Edmont beija Agatha.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Até.</default>
+	</talk>
+	<teller>
+		<default>Meg encara Edmont. Ele pega Angely pelo braço e leva embora.</default>
+	</teller>
+	<teller>
+		<default>19:00. Elian acorda.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Eu tombei.</default>
@@ -81,7 +96,7 @@
 		<default>Ficaste com sede?</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Era dono dessa birosca.</default>
+		<default>Um pouco.</default>
 	</talk>
 	<teller>
 		<default>Alguém bate à porta. Elian atende.</default>
@@ -90,13 +105,16 @@
 		<default>Posso ajudar?</default>
 	</talk>
 	<talk character="homem">
-		<default>Sabe onde está o dono da pensão? Eu vou sair hoje e queria pagar a conta...</default>
+		<default>Sabe onde está o recepcionista? Eu vou sair hoje e queria pagar a conta...</default>
 	</talk>
 	<talk character="Elian">
 		<default>Ele está aqui. Entre.</default>
 	</talk>
 	<teller>
-		<default>Ele entra Elian fecha a porta. Num bar, 22:00, Angely e Edmont estão em casa.</default>
+		<default>Ele entra Elian fecha a porta.</default>
+	</teller>
+	<teller>
+		<default>22:00. Angely e Edmont estão em casa.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Por que será que ela não voltou até agora?</default>
@@ -222,17 +240,11 @@
 		<default>Melhor irmos pra cidade. Eles estão matando e não vão parar sozinhos.</default>
 	</talk>
 	<teller>
-		<default>Elian e Beatrice saem da pensão. Kat volta pra casa. Algum tempo se passa. Eles ainda não conseguem encontrar. Janeiro de 2019...</default>
+		<default>Elian e Beatrice saem da pensão. Kat volta pra casa.</default>
 	</teller>
-	<talk character="Edmont">
-		<default>Já virou o ano e nós não conseguimos nada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Nem pegar o cara...</default>
-	</talk>
-	<talk character="Angely">
-		<default>... nem arranjar emprego.</default>
-	</talk>
+	<teller>
+		<division>Janeiro de 2019</division>
+	</teller>
 	<talk character="Kat">
 		<arrive>Gente, gente!</arrive>
 	</talk>
@@ -240,7 +252,7 @@
 		<default>Que foi, Kat?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Lembra que o fantasma disse que algumas coisas não mudaram???</default>
+		<default>Vocês não vão acreditar a Agatha trouxe uma carta que recebeu pra vocês...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Calma, Kat, respira, fala pela boca...</default>
@@ -261,16 +273,16 @@
 		<default>Edmont pega a carta, abre e lê. Fica mudo.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Que foi???</default>
+		<default>Que foi?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Eles disseram que tocamos bem. Pediram pra irmos fazer um teste.</default>
+		<default>Eles disseram que tocamos bem. Pediram pra irmos fazer mais um teste.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Droga!</default>
-	</talk>
+	<teller>
+		<default>Angely baixa a cabeça.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Que foi? Isso não é bom?</default>
+		<default>Que foi? Isso não é bom? Até agora não arranjamos emprego nenhum...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Kinyn fazia parte da nossa "banda".</default>
@@ -287,7 +299,7 @@
 	<talk character="Mel">
 		<default>Posso tentar.</default>
 	</talk>
-	<talk character="Edmont">
+	<talk character="Kat">
 		<default>Mas você já fez algo parecido?</default>
 	</talk>
 	<talk character="Angely">
@@ -333,7 +345,7 @@
 		<default>Pra onde ele foi?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tem algo no bloco sobre a mesa.</default>
+		<default>Tem alguma coisa no bloco.</default>
 	</talk>
 	<teller>
 		<default>Edmont pega a folha e lê: Construam suas vidas. Não podem se dedicar apenas à isso, pois não lhes trará dinheiro. Quando Aurium voltar, vocês retomaram a agência.</default>
@@ -342,7 +354,7 @@
 		<default>As chaves...</default>
 	</talk>
 	<teller>
-		<default>Eles pegam suas chaves. Aurium levou os chaveiros e as chaves que davam acesso ao escritório e ao subterrâneo.</default>
+		<default>Eles pegam suas chaves. Sumiram as chaves que davam acesso ao escritório e ao porão.</default>
 	</teller>
 	<talk character="Edmont">
 		<screamed>Nós ainda podemos encontrar ele sozinhos!</screamed>
@@ -396,13 +408,31 @@
 		<default>Tudo bem. Eu tenho quase certeza que não vai dar certo, mas OK, vou dar-lhes uma chance. Mas só uma.</default>
 	</talk>
 	<teller>
-		<default>Eles fazem um teste. Cinco dias depois, assinam contrato. Pegam pequenos shows no início. Então começam a fazer sucesso. Começo de 2021, no jardim da MEAK, estão todos reunidos: Meg encostada em Angely, numa rede de dormir, Edmont deitado com a cabeça no colo de Agatha, que está sentada no chão, Mel em outra rede e Kat em cima de uma árvore.</default>
+		<division>Algum tempo, algum lugar</division>
+	</teller>
+	<talk character="Homem">
+		<default>Eles falaram disso. Mas foi assim? A pessoa decide e vai?! As pessoas costumam passar anos tentando, em geral desde crianças...</default>
+	</talk>
+	<talk character="Mulher">
+		<default>Nem todos. E vocês não eram humanos, tinham ouvido e voz muito melhores. Além da aparência, claro. Não ia ser difícil agradar. Agora vamos pular essa parte, não tem importância.</default>
+	</talk>
+	<teller>
+		<default>Ele fica zonzo e cai no chão.</default>
+	</teller>
+	<talk character="Homem">
+		<default>Caralho...</default>
+	</talk>
+	<talk character="Mulher">
+		<default>Acostume-se.</default>
+	</talk>
+	<teller>
+		<division>Começo de 2021</division>
+	</teller>
+	<teller>
+		<default>No jardim da MEAK, estão todos reunidos: Meg encostada em Angely, numa rede de dormir, Edmont deitado com a cabeça no colo de Agatha, que está sentada no chão, Mel em outra rede e Kat em cima de uma árvore.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Nossa, cara, eu nem acredito!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Dois anos da nossa banda...</default>
 	</talk>
 	<talk character="Meg">
 		<default>Kat, desce daí!</default>
@@ -423,10 +453,7 @@
 		<default>Não consigo tocar... Droga nunca lembro o nome daquilo!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Saxofone.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ficar duas horas beijando é mais difícil.</default>
+		<default>Saxofone. Ficar duas horas beijando é mais difícil.</default>
 	</talk>
 	<talk character="Meg">
 		<default>Ele fica mais tempo fazendo outras coisas...</default>

@@ -25,7 +25,7 @@
 		<default>Sim, tu. Podes sair aí de trás do balcão?</default>
 	</talk>
 	<teller>
-		<default>O recepcionista dá a volta e fica de frente para Elian. Este o pega pelo pescoço e encosta na parede. Mostra os caninos..</default>
+		<default>O recepcionista dá a volta e fica de frente para Elian. Este o pega pelo pescoço e encosta na parede. Mostra os caninos.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Não, ela não é maior, está comigo e vais arranjar um quarto pra nós. Se pensares em ligar pra polícia ou qualquer outro lugar, pra nos denunciar, chegarão para encontrar teu corpo esquartejado e espalhado por esta espelunca que cai aos pedaços.</default>
@@ -43,7 +43,7 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Depois de algum tempo, Elian sai. Edmont, percebendo que anoiteceu, decide mudar o alvo de sua procura: de um esconderijo a um lugar onde um vampiro procuraria sua presa. Entra numa bar.</default>
+		<default>Depois de algum tempo, Elian sai. Edmont, percebendo que anoiteceu, decide mudar o alvo de sua procura: de um esconderijo a um lugar onde um vampiro procuraria sua presa. Entra num bar.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Merda.</default>
@@ -96,10 +96,13 @@
 		<default>Estava meio escuro, mas acho que é isso.</default>
 	</talk>
 	<teller>
-		<default>Mel pega o desenho.</default>
+		<default>Mel pega o desenho. Fica pálida.</default>
 	</teller>
+	<talk character="Edmont">
+		<default>Que foi?</default>
+	</talk>
 	<talk character="Mel">
-		<default>Ele não me é estranho...</default>
+		<default>Nada... É que... Eu vi esse cara na casa uma vez...</default>
 	</talk>
 	<teller>
 		<default>Edmont pega o papel. Arregala os olhos.</default>
@@ -147,7 +150,13 @@
 		<default>Que vocês estão fazendo aqui???</default>
 	</talk>
 	<teller>
-		<default>Edmont derruba a porta. Eles entram. Encontram Kinyn. Na parede, uma mensagem escrita com sangue: Feliz Natal. Angely fica estático.</default>
+		<default>Edmont derruba a porta. Eles entram. Procuram pela casa. Angely entra num quarto e sai, com a mão no rosto.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Edmont!</default>
+	</talk>
+	<teller>
+		<default>Edmont chega. Entra no quarto. Chega perto da cama. Coloca dois dedos no pescoço dela. Vira a cabeça. Sem marcas. Olha para o lençol. Está sujo de sangue mais abaixo. Olha para o espelho. Uma mensagem escrita com sangue: Feliz Natal. Sai. Bryan chega.</default>
 	</teller>
 	<talk character="Bryan">
 		<default>Ei! Eu vou chamar a polícia! Vão ter que pagar por isso!</default>
@@ -193,6 +202,12 @@
 	</talk>
 	<talk character="Edmont">
 		<default>Que explicação vou dar pra isso?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Podemos dizer que o Bryan ligou pra gente.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Cara, elas não têm que saber disso hoje.</default>
 	</talk>
 	<teller>
 		<default>Eles vão até a casa de Meg.</default>
@@ -331,7 +346,13 @@
 		<default>Abandonado não, se alguém comprasse e resolvesse reformar não ia dar certo.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tá... O lugar não estaria na lista telefônica, seria perto do centro, sem movimento, mas também que não fosse abandonado.</default>
+		<default>Essa não conta, ele tava na casa abandonada. Embaixo do nosso nariz, o filha da puta.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Não tínhamos como saber.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>O lugar não estaria na lista telefônica, seria perto do centro, sem movimento.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Isso é confuso.</default>
@@ -468,7 +489,7 @@
 		<default>Lê isso e vai entender.</default>
 	</talk>
 	<teller>
-		<default>Kat lê os recortes.</default>
+		<default>Kat pega os recortes. Começa a ler. Quando termina, Mel pega e guarda de volta.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Tem algo que eu queria dizer. Sobre Aurium.</default>
