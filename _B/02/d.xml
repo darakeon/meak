@@ -82,10 +82,13 @@
 		<default>Leo se aproxima de Kat.</default>
 	</teller>
 	<talk character="Leo">
-		<ghost>Está ainda mais linda.</ghost>
+		<ghost>Está ainda mais linda. Parece com ela. Será que existe reencarnação?</ghost>
 	</talk>
+	<teller>
+		<default>Kat ri.</default>
+	</teller>
 	<talk character="Kat">
-		<ghost>Você consegue sair daqui?</ghost>
+		<ghost>Acho que não é o caso. Você consegue sair daqui?</ghost>
 	</talk>
 	<talk character="Leo">
 		<ghost>Tenho medo...</ghost>
@@ -94,7 +97,7 @@
 		<ghost>Vamo, eu te levo.</ghost>
 	</talk>
 	<talk character="Leo">
-		<ghost>Consegue ficar quanto tempo quiser assim?</ghost>
+		<ghost>Consegue ficar o tempo quiser assim?</ghost>
 	</talk>
 	<talk character="Kat">
 		<ghost>Se eu não mover nada, acho que sim.</ghost>
@@ -133,7 +136,7 @@
 		<default>Beatrice beija Derik. Derik corresponde.</default>
 	</teller>
 	<teller>
-		<default>MEAK. Manhã. Kat na sala, se encolheu no sofá.</default>
+		<first>MEAK. Manhã. Kat na sala, se encolheu no sofá.</first>
 	</teller>
 	<talk character="Ang">
 		<arrive>Que foi?</arrive>
@@ -178,7 +181,7 @@
 		<ghost>Queria me deixar mal, isso sim!</ghost>
 	</talk>
 	<talk character="Mel">
-		<arrive>Angely, viu a Katerine?</arrive>
+		<arrive>Angely, viu Katerine?</arrive>
 	</talk>
 	<teller>
 		<default>Ang olha para Mel, então para Katerine.</default>
@@ -214,7 +217,7 @@
 		<default>Manda voltar, precisamos conversar.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não está conseguindo.</default>
+		<default>Não tá conseguindo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Como não?!</default>
@@ -223,7 +226,7 @@
 		<ghost>Me ajudem, por favor!</ghost>
 	</talk>
 	<talk character="Ang">
-		<default>Talvez seja a raiva...</default>
+		<default>Talvez seja raiva...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Raiva de que?</default>
@@ -235,7 +238,7 @@
 		<default>Kat terminou com Derik e Derik foi atrás de outra pessoa.</default>
 	</talk>
 	<talk character="Kat">
-		<ghost>Não fui eu quem quis terminar e não foi simplesmente atrás de outra pessoa, foi atrás da Beatrice!</ghost>
+		<ghost>Não fui eu quem quis terminar e não foi simplesmente atrás de outra pessoa, foi atrás de Beatrice!</ghost>
 	</talk>
 	<talk character="Mel">
 		<default>Disse algo?</default>
@@ -247,7 +250,7 @@
 		<default>Mel arregala os olhos. Nat chega com Inês no colo.</default>
 	</teller>
 	<talk character="Nat">
-		<arrive>Que tá acontecendo?</arrive>
+		<default>Que tá acontecendo?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Kat consegue sair do corpo, mas não tá conseguindo voltar agora.</default>
@@ -295,7 +298,7 @@
 		<default>Não precisa disso.</default>
 	</talk>
 	<talk character="Nat">
-		<default>Talvez queira vendê-la...</default>
+		<default>Talvez queira vender ela...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Se eu não puder levar a criança, levo Katerine.</default>
@@ -370,7 +373,7 @@
 		<default>Angely, o que você vai fazer?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Nenhuma vida é mais importante que outra, droga, não dá pra escolher assim! Tenho que salvar as duas!</default>
+		<default>Nenhuma vida é mais importante que outra, droga, não dá pra escolher assim! Tenho que salvar Kat E Inês!</default>
 	</talk>
 	<talk character="Mel">
 		<frizz>Temos.</frizz>
@@ -386,7 +389,7 @@
 		<default>Eu procuro.</default>
 	</talk>
 	<teller>
-		<default>Tarde. Templo. Derik está com cobertas. A roupa está jogada pelo templo.</default>
+		<first>Tarde. Templo. Derik está com cobertas. A roupa está jogada pelo templo.</first>
 	</teller>
 	<talk character="Ang">
 		<default>Ainda bem que não é ponto turístico.</default>
@@ -398,7 +401,7 @@
 		<default>Pode se vestir, eu fico olhando pra ver se ninguém vem.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Cadê?</default>
+		<default>Cadê...?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Quem?</default>
@@ -422,10 +425,10 @@
 		<default>Mas eu falei pra não ficar fazendo isso a torto e direito... Peraí, não seria "não tá conseguindo"??? Não tem mais jeito agora??? Que aconteceu com o corpo???</default>
 	</talk>
 	<talk character="Ang">
-		<default>Edmont levou ela e Leonardo. Só vai devolver se entregarmos Inês.</default>
+		<default>Edmont levou Kat e Leonardo. Só vai devolver se entregarmos Inês.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Você não pode encontrar seu Edmont?</default>
+		<default>Você não pode encontrar Edmont?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Poder eu posso, mas, se fossem fazer um plano, eu teria que me afastar. Poderia descobrir.</default>
@@ -449,7 +452,7 @@
 		<default>Procurar Zenon. Talvez possa ajudar.</default>
 	</talk>
 	<teller>
-		<default>MEAK. Derik cheGA. Mel e Nat olham em sua direção.</default>
+		<default>MEAK. Derik chega. Mel e Nat olham em sua direção.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Cadê Angely?</default>
@@ -518,7 +521,16 @@
 		<default>Mel e Nat olham para Derik, com raiva.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Brigar não vai levar a nada. Nem me matar, como estão querendo agora. Aliás, posso apostar um rim que é isso que Edmont tá querendo, confusão. Cadê Inês?</default>
+		<default>Brigar não vai levar a nada. Nem me matar, como estão querendo agora. Aliás, posso apostar um rim que é isso que Edmont tá querendo, confusão.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Eu vou querer seu rim se fizer isso de novo.</default>
+	</talk>
+	<teller>
+		<default>Derik olha para Mel. Baixa a cabeça. Olha para Nat.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Cadê Inês?</default>
 	</talk>
 	<talk character="Nat">
 		<default>Tá lá em cima, dormindo.</default>

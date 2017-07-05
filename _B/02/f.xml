@@ -10,7 +10,7 @@
 		<default>Não se aplica a lugares públicos.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Bem que Ang podia chegar com o Zenon agora...</default>
+		<default>Bem que Ang podia chegar com Zenon agora...</default>
 	</talk>
 	<talk character="Íris">
 		<default>Aquele vampiro idiota é amigo deles?</default>
@@ -124,7 +124,7 @@
 		<default>Vão em frente. Edmont vai fazer algo comigo, mas vou continuar com vida. Já vocês...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Você já não está com vida.</default>
+		<default>Você já não tá com vida.</default>
 	</talk>
 	<teller>
 		<default>Beatrice olha para Derik.</default>
@@ -133,7 +133,7 @@
 		<irony>Engraçado, ontem você não achava isso!</irony>
 	</talk>
 	<teller>
-		<default>Beatrice olha para Mel.</default>
+		<default>Estela olha para Derik. Beatrice olha para Mel.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Aliás, querem tentar? Comecem por Melody.</default>
@@ -208,12 +208,12 @@
 		<default>Vamos oferecer isso em troca de Kat e Leonardo.</default>
 	</talk>
 	<teller>
-		<default>Mel mostra a pedra. Ang pega a pedra e fica olhando.</default>
+		<default>Mel mostra a pedra. Ang limpa os olhos. Pega a pedra e fica olhando.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Olho da Lua...</default>
 	</talk>
-	<talk character="Estela / Mel / Derik">
+	<talk character="Estela">
 		<screamed>Que?!</screamed>
 	</talk>
 	<talk character="Nat">
@@ -259,7 +259,7 @@
 		<default>Nat olha no relógio.</default>
 	</teller>
 	<talk character="Nat">
-		<default>Sæo onze e meia já.</default>
+		<default>São onze e meia já.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Então vamos!</default>
@@ -291,11 +291,20 @@
 	<talk character="Nat">
 		<default>Ele tá certo.</default>
 	</talk>
+	<talk character="Estela">
+		<default>Mas você não devia saber sobre o que Edmont ia fazer então, a pedra?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Nem sempre é síncrono.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Mas não podemos arriscar.</default>
+	</talk>
 	<talk character="Ang">
 		<default>Vou indo na frente, vocês explicam pra Mel onde é.</default>
 	</talk>
 	<teller>
-		<default>Angely chega a praia. Beatrice, Henrique e Íris estão esperando.</default>
+		<first>Angely chega a praia. Beatrice, Henrique e Íris estão esperando.</first>
 	</teller>
 	<talk character="Ang">
 		<default>Íris?</default>
@@ -352,7 +361,7 @@
 		<default>Agora nós fazemos o que queremos, somos livres!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Será que são mesmo?</default>
+		<default>Têm mesmo certeza disso?</default>
 	</talk>
 	<talk character="Edmont">
 		<arrive>Tentando desmanchar meu grupo?</arrive>
@@ -424,7 +433,7 @@
 		<default>Angely não consegue trapacear.</default>
 	</talk>
 	<teller>
-		<default>Mel entrega a pedra a Ang. Edmont pega uma pedra amarela dentro do bolso da camisa. Trocam.</default>
+		<default>Mel entrega a pedra a Ang. Edmont pega uma critrino amarela dentro do bolso da camisa. Trocam.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Como libertamos?</default>
@@ -447,10 +456,10 @@
 		<default>lua nova.</default>
 	</talk>
 	<teller>
-		<default>Madrugada. Derik está andando pela rua. Kat e Leo seguem.</default>
+		<first>Madrugada. Derik está andando pela rua. Kat e Leo seguem.</first>
 	</teller>
 	<talk character="Bea">
-		<default>Você de novo.</default>
+		<arrive>Você de novo.</arrive>
 	</talk>
 	<talk character="Derik">
 		<default>Vai me matar agora?</default>
@@ -490,7 +499,7 @@
 		<default>Ainda bem que não encontrei alguém igual a você antes, se não tinha casado e tava com um monte de filhos.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Você tinha doze anos quando virou vampir.</default>
+		<default>Você tinha doze anos quando se transformou.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Nessa época você tinha 14, grande diferença. Com 19, parece mais novo que eu com 12.</default>
@@ -504,9 +513,6 @@
 	<talk character="Leo">
 		<ghost>Não acredito que ainda acha que ele te ama!</ghost>
 	</talk>
-	<teller>
-		<default>======</default>
-	</teller>
 	<talk character="Kat">
 		<ghost>Mas ama!</ghost>
 	</talk>
@@ -523,7 +529,7 @@
 		<ghost>Esquece.</ghost>
 	</talk>
 	<teller>
-		<default>Tarde. Ang está sob o sol. Kat está perto, olhando para Leo.</default>
+		<first>Tarde. Ang está sob o sol. Kat está perto, olhando para Leo.</first>
 	</teller>
 	<talk character="Leo">
 		<ghost>Por que essa cara? Logo vai ficar livre de mim.</ghost>
