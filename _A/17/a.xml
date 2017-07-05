@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="17" scene="a">
 	<teller>
-		<default>Manhã. Angely está em seu quarto, deitado, com o som ligado.</default>
+		<default>Manhã. Angely está em seu quarto, na cama. Rádio ligado.</default>
 		<letter>E é tão tarde agora</letter>
 		<letter>Fala logo o que quer e vai embora</letter>
 		<letter>Ninguém te suporta mais</letter>
-		<letter>Suas palavras e atos fatais</letter>
 		<letter>Suas desculpas infernais</letter>
 		<letter>Suas prioridades banais</letter>
 		<default>Mel entra no quarto.</default>
@@ -17,78 +16,88 @@
 		<default>Angely desliga o rádio.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Não, acho que era pra minha dor.</default>
+		<default>Era de Edmont essa.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ah... Por que não saímos? Você precisa respirar...</default>
+		<default>Eu sei. Por que não saímos? Você precisa respirar...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Já estou respirando demais pro meu gosto.</default>
 	</talk>
 	<teller>
-		<default>Silêncio.</default>
+		<default>Mel baixa a cabeça.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Desculpe, eu não quis ser grosseiro.</default>
+		<default>Desculpe, eu não queria falar grosseria.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Tudo bem.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu queria ter dito a ela antes que fosse embora.</default>
+		<default>Eu queria ter dito antes que fosse embora.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela já sabia.</default>
+		<default>Dara já sabia.</default>
 	</talk>
 	<teller>
-		<default>Na casa de Psique, ela está dormindo. Alguém toca a campainha. Ela coloca um roupão. Vai até a porta.</default>
+		<first>Na casa de Psique, Psique está na cama. Toca a campainha. Psique abre os olhos. Cobre a cabeça com um travesseiro. Campainha insiste. Psique joga o travesseiro na parede. Senta na cama. Olha para uma camisa preta jogada na cama. Puxa para si. Cheira. Joga longe. A campainha toca novamente. Psique levanta da cama. Vai até o guarda-roupas. Abre. Pega um roupão. Veste. Sai do quarto. Atravessa a sala. Chega a porta.</first>
 	</teller>
 	<talk character="Psique">
 		<default>Michael, eu já disse que...</default>
 	</talk>
 	<teller>
-		<default>Ela abre a porta e vê um homem, com uma prancheta. Arruma o roupão e amarra.</default>
+		<default>Psique abre a porta. Carlos está parado com uma prancheta ao lado de uma caixa grande. Psique fecha mais o roupão em cima.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Sim?</default>
 	</talk>
-	<talk character="entregador">
-		<default>Um pacote grande pra senhora. Mas deve ter algo vencido, tá com um cheiro estranho...</default>
+	<talk character="Carlos">
+		<default>Um pacote grande pra senhora. Tá pesado, precisei se ajuda pra tirar do caminhão. Tá vindo um cheiro meio estranho, quase que eu levei de vol...</default>
 	</talk>
 	<talk character="Psique">
 		<default>Tenho que assinar, certo?</default>
 	</talk>
-	<talk character="entregador">
+	<talk character="Carlos">
 		<default>Ah, claro!</default>
-		<teller>entrega a prancheta pra Psique</teller>
-		<default>Podem trazer!</default>
 	</talk>
 	<teller>
-		<default>Trazem uma caixa grande. Colocam na sala. Os dois saem. Psique fecha a porta e olha o remetente. Pega o telefone. Na casa de Mel, ela atende.</default>
+		<default>Entrega a prancheta a Psique. Psique assina e devolve. Carlos empurra a caixa pra dentro, com esforço.</default>
+	</teller>
+	<talk character="Psique">
+		<default>Não quis ser grossa, é que não gosto muito de ficar de roupão na frente de estranhos.</default>
+	</talk>
+	<talk character="Carlos">
+		<default>Não tem problema, eu nem curto.</default>
+	</talk>
+	<talk character="Psique">
+		<default>É gay?</default>
+	</talk>
+	<teller>
+		<default>Carlos solta os ombros. Sai. Psique abre a boca e fecha de novo. Fecha a porta. Olha para a caixa no meio da sala. Cruza os braços. Chega perto e cheira. Tampa o nariz. Vai até a cozinha e busca uma tesoura. Olha para a caixa. Dá uma volta olhando. Pega um papel, que estava grudado. Abre. Lê. Pega o telefone. Disca.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Sim?</default>
+		<out>Sim?</out>
 	</talk>
 	<talk character="Psique">
 		<default>Preciso falar com você.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Psique? Que foi?</default>
+		<out>Psique? Que foi?</out>
 	</talk>
 	<talk character="Psique">
 		<default>Por favor, pode vir até minha casa?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Claro. Qual o endereço?</default>
+		<out>Claro. Qual o endereço?</out>
 	</talk>
 	<teller>
-		<default>Ela vai até a casa de Psique. Elas vão até a cozinha.</default>
+		<default>Um tempo depois, Mel e Psique estão na sala.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Você parecia nervosa no telefone, que foi? Não pegou aquele...</default>
+		<default>Você parecia com nervoso no telefone, que foi? Não pegou...</default>
 	</talk>
 	<talk character="Psique">
-		<default>Não, não. E também não é nada com seu irmão... Bom, não com o que vive com você.</default>
+		<default>Não, não, nada a ver com o vírus. Também não é nada com seu irmão... Bom, não com o que vive com você...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Então...</default>
@@ -97,19 +106,19 @@
 		<default>Lembra do Michael?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Seu ex-marido?</default>
+		<default>Ex?</default>
 	</talk>
 	<talk character="Psique">
 		<default>Ainda não é ex, não assinou os papeis.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele tá atrás de você, é isso?</default>
+		<default>Tá atrás de você, é isso?</default>
 	</talk>
 	<talk character="Psique">
 		<default>Também não.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, você disse que não é com meu irmão que vive comigo, então está falando de Edmont.</default>
+		<default>Bom, "irmão que não vive com você", tá falando de Edmont.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Ele não é humano, é?</default>
@@ -121,74 +130,100 @@
 		<default>Ele se... Transformou em Angely e veio atrás de mim, há algum tempo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele não se trans... É uma história complicada. Mas ele veio atrás de você por que?</default>
+		<default>Não se trans... É uma história complicada. Mas veio atrás de você por que?</default>
 	</talk>
 	<talk character="Psique">
 		<default>Bem... É... Eu não sei como dizer...</default>
 	</talk>
+	<teller>
+		<default>Mel abre mais os olhos.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Foi por ele que trocou Michael?</default>
+		<default>Foi por Edmont que trocou Michael?</default>
 	</talk>
 	<talk character="Psique">
 		<default>Não troquei. Ele veio atrás de mim, quase me forçou...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Psique...</default>
+		<default>Forçou?</default>
 	</talk>
 	<talk character="Psique">
 		<default>É verdade! Ele disse que queria falar com Mike só que ele tinha viajado então ele me beijou eu mandei ele ir embora ele me pegou no colo me jogou na minha cama eu tentei empurrar mas ele é mais forte que eu...</default>
 	</talk>
+	<teller>
+		<default>Mel senta no sofá e fita o chão, com os lábios e o corpo travados.</default>
+	</teller>
+	<talk character="Psique">
+		<default>Tá! Na verdade... Eu acabei cedendo... Ele me segurou no começo, mas aí... Eu...</default>
+	</talk>
 	<talk character="Mel">
-		<default>Ahã... E por que largou Michael ao invés de dar queixa?</default>
+		<default>Edmont forçou ou não?</default>
 	</talk>
 	<talk character="Psique">
-		<default>Na verdade... Eu acabei cedendo.</default>
+		<default>Ok! Eu amo o Mike, mas ele nunca foi de me perguntar se eu tinha alguma fantasia! Ou se eu sentia alguma coisa!</default>
 	</talk>
+	<teller>
+		<default>Mel solta o corpo, bufa.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Atlantes não podem forçar isso.</default>
+		<default>Tá, e você se apaixonou. O que</default>
+		<frizz>eu</frizz>
+		<default>tenho a ver com isso?</default>
 	</talk>
 	<talk character="Psique">
-		<default>Ok! Eu amo o Mike, mas ele nunca foi de me perguntar se eu tinha alguma fantasia!</default>
+		<default>Não me apaixonei! Ele é muito bom de cama, mas não é só isso que faz uma mulher gostar de um homem!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá, e ficou apaixonada por ele. O que eu tenho a ver com isso?</default>
+		<default>Nem precisa ser só homem e mulher... Enfim, porque me chamou aqui afinal? E que diabos guardou nessa caixa? Tá fedendo.</default>
 	</talk>
 	<talk character="Psique">
-		<default>Não fiquei apaixonada por ele! Ele é muito bom de cama, mas não é só isso que faz uma mulher gostar de um homem!</default>
+		<default>Ele não quis mais me deixar em paz... Eu não achei justo fazer isso com Michael. Aí resolvi terminar.</default>
+	</talk>
+	<teller>
+		<default>Psique senta ao lado de Mel.</default>
+	</teller>
+	<talk character="Psique">
+		<default>Mas aí comecei a observar o hábitos do Edmont e desconfiar de algo. Sempre achei que fosse bobagem. Depois que me falou do seu amigo...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Agora eu não tô entendendo mais nada.</default>
+		<default>Ligou os pontos.</default>
 	</talk>
 	<talk character="Psique">
-		<default>Ele não quis mais me deixar em paz... Eu não achei justo fazer isso com Michael. Comecei a observar o hábitos do Edmont e desconfiar de algo. Mas sempre achei que fosse bobagem. Depois que me falou do seu amigo...</default>
+		<default>Na verdade, não tive oportunidade de confirmar. Ele não veio mais aqui. E aí, chegou uma caixa.</default>
 	</talk>
 	<talk character="Mel">
-		<default>É, você já descobriu.</default>
-	</talk>
-	<talk character="Psique">
-		<default>Na verdade, não tive oportunidade de confirmar. Ele não veio mais aqui. Chegou uma caixa.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Aquela que tava na sala, com aquele cheiro...</default>
+		<default>Esse cheiro...</default>
 	</talk>
 	<talk character="Psique">
 		<default>Como se tivesse alguma coisa morta.</default>
 	</talk>
 	<teller>
-		<default>Psique pega um papel e entrega à Mel:</default>
-		<letter>Ficou arrasado ao saber de nós... Mas eu disse o que tínhamos realmente e que ainda o amava, como você mesmo me disse tantas vezes. Me pediu pra não te machucar... Coitado!</letter>
+		<default>Psique levanta, vai até a estante, pega um papel, volta e entrega a Mel.</default>
+		<letter>Devia ver, ao saber de nós. Mas eu disse o que tínhamos realmente e que ainda amava, como você mesmo me disse tantas vezes. Me pediu pra não te machucar... Deu pena!</letter>
 	</teller>
 	<talk character="Mel">
-		<default>É a letra dele.</default>
+		<default>É a letra de Edmont.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Estou com medo de abrir.</default>
 	</talk>
 	<teller>
-		<default>Mel vai até a sala. Abre a caixa. Psique olha e não agüenta: é o corpo de Michael. Esquartejado. Primeiro Psique entra em choque, depois fica histérica. Mel a controla. Leva-a pra cozinha. Pega um copo de água com açúcar.</default>
+		<default>Mel rasga a fita em cima da caixa. Abre. Arregala os olhos. Psique se aproxima. Mel segura.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Melhor não.</default>
+	</talk>
+	<teller>
+		<default>Psique tira o braço de Mel da sua frente. Se aproxima e olha. O corpo de Michael. Em pedaços. Psique dá dois passos para trás. Cai. Mel segura. Coloca no sofá. Psique grita. Se encolhe. Mel abraça Psique. Psique chora. Se afasta de Mel.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Psique...</default>
+	</talk>
+	<teller>
+		<default>Psique levanta e corre até a cozinha. Pega uma faca, mas Mel tira de sua mão. Encosta Psique na parede. Psique grita de novo. Tenta acertar a própria cabeça na parede. Mel segura os dois pulsos com uma mão só e coloca a mão atrás da cabeça de Psique. Psique chora. Solta o corpo. Mel larga os pulsos e abraça Psique novamente. Pega Psique no colo. Leva até o quarto. Deita na cama. Psique vira para o lado da janela. Mel senta-se ao lado. Passa a mão na cabeça de Psique.</default>
 	</teller>
 	<talk character="Psique">
-		<default>A culpa é minha... Eu não devia ter aceitado isso!</default>
+		<default>A culpa é minha... Eu não devia ter aceitado isso...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Se acalma, não vai adiantar nada agora.</default>
@@ -197,7 +232,7 @@
 		<default>Devia ter falado com Michael.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Daí ele tinha feito o que fez na sua frente.</default>
+		<default>Edmont teria feito o que fez na sua frente.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Eu amava o Mike... Pedi pra ele se afastar, mas...</default>
@@ -209,69 +244,64 @@
 		<default>Por que???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele vai vir atrás de você.</default>
+		<default>Vai vir atrás de você.</default>
 	</talk>
 	<talk character="Psique">
-		<default>Que venha. Que me mate!</default>
+		<default>Que venha! Que me mate!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Isso não é hora pra drama!</default>
+		<default>Não pode fazer isso.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Não, eu quero morrer!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Primeiro temos que dar queixa na polícia, antes que achem que você que fez aquilo.</default>
+		<default>Temos que dar queixa na polícia, antes que achem que você que fez aquilo.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Ah?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Deixa que eu faço isso.</default>
+		<default>Eu vou fazer isso.</default>
 	</talk>
 	<teller>
-		<default>Psique fica sentada, estática, enquanto Mel pega o telefone e liga pra polícia. Uma hora depois...</default>
+		<first>Uma hora depois, na sala.</first>
 	</teller>
 	<talk character="Brad">
 		<default>Como tem certeza que não foi sua amiga?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Chegou pelo correio. Pode verificar, não tem impressões digitais dela. Fui eu quem abri.</default>
+		<default>Chegou pelo correio. Pode verificar, não tem impressões digitais de Psique. Fui eu quem abri.</default>
 	</talk>
 	<talk character="Brad">
 		<default>E só tem a caixa? Mais nada?</default>
 	</talk>
+	<teller>
+		<default>Mel entrega a carta a Brad.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Isso.</default>
-		<teller>entrega o bilhete à Brad</teller>
-		<default>Mas não adianta, ela não fala quem é o cara.</default>
+		<default>Psique não fala quem é a pessoa.</default>
 	</talk>
 	<talk character="Brad">
-		<default>É, foi o amante. E ela está em perigo.</default>
+		<default>É, foi o amante. E ela tá em perigo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vou levá-la pra minha casa.</default>
+		<default>Vou levar pra minha casa.</default>
 	</talk>
 	<talk character="Brad">
 		<default>Já te disse que não trabalha no serviço de proteção às testemunhas?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá falando do mesmo que deveria ter protegido Stephany, Clarice...</default>
+		<default>Tá falando do mesmo que deveria ter protegido Stephany? Ou Clarice? Íris, talvez...</default>
 	</talk>
 	<talk character="Brad">
-		<default>Já entendi. E como pretende esconder ela do cara?</default>
+		<default>Tá, tá, já entendi. E como pretende esconder ela do cara?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Do mesmo jeito que escondi Íris e Clarice da polícia.</default>
 	</talk>
-	<talk character="Brad">
-		<default>A polícia age dentro da lei.</default>
-	</talk>
-	<talk character="Mel">
-		<irony>Engana que eu gosto!</irony>
-	</talk>
 	<teller>
-		<default>Brad olha o bilhete de novo.</default>
+		<default>Brad olha o bilhete.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Cuidado com ela.</default>
@@ -283,7 +313,7 @@
 		<default>Tem algo estranho nisso. Por que ela te chamaria pra abrir pra ela?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Paranóia sua isso.</default>
+		<default>A caixa fedia.</default>
 	</talk>
 	<teller>
 		<default>Mel vai até Psique.</default>
@@ -298,7 +328,7 @@
 		<default>Pra minha casa. Ele não vai se atrever a tentar te pegar lá.</default>
 	</talk>
 	<teller>
-		<default>Elas saem. Chegam à casa de Mel e Angely houvera preparado o quarto de hóspedes já. Deixam ela dormindo.</default>
+		<default>MEAK. Mel volta dos quartos.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Você sabia?</default>
@@ -307,59 +337,63 @@
 		<default>Do que?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que ela e Edmont tinham um caso.</default>
+		<default>Que Psique e Edmont tinham um caso.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não está mentindo pra mim, está?</default>
+		<default>Não está mentindo pra mim, tá?</default>
 	</talk>
 	<talk character="Angely">
 		<default>E por que eu mentiria?</default>
 	</talk>
 	<teller>
-		<default>De noite, Mel vai até a cozinha pegar um copo d’água. Alguém a surpreende. Ela o acerta com uma panela e tenta fugir, mas ao final ele consegue segurá-la contra a parede.</default>
+		<default>De noite, Mel vai até a cozinha. Pega um copo d’água. Alguém segura por trás. Mel joga por cima do próprio corpo. Pega uma faca. A pessoa desarma. Mel chuta a pessoa e acerta contra o armário, a pessoa levanta e investe novamente, Mel joga em cima da mesa. Pega a faca novamente. A pessoa tira o capuz.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Eu já devia esperar que você fosse protegê-la, não?</default>
+		<default>Vai fazer o que com isso?</default>
+		<irony>Me matar?</irony>
+	</talk>
+	<talk character="Mel">
+		<default>Talvez.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Eu devia saber que ia proteger Psique.</default>
 	</talk>
 	<teller>
-		<default>Ele ouve um barulho, a solta e vai embora. Angely chega.</default>
+		<default>Edmont olha para a sala. Mel olha também. Olha de volta, Edmont sumiu.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Por que esse barulho todo?</default>
+		<arrive>Por que esse barulho todo?</arrive>
 	</talk>
 	<talk character="Mel">
 		<default>Nada, era só uma barata.</default>
 	</talk>
 	<teller>
-		<default>Angely repara na cozinha.</default>
+		<default>Angely olha em volta.</default>
 	</teller>
 	<talk character="Angely">
-		<default>De quantos metros?</default>
+		<default>De que dimensão?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Eu me assustei.</default>
 	</talk>
 	<teller>
-		<default>Ele volta pra seu quarto. Ela arruma a cozinha.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Que droga, viu...</default>
-	</talk>
-	<teller>
-		<default>Toca a campainha.</default>
+		<default>Angely franze a testa e sai. Mel coloca as coisas no armário. Arruma a mesa no lugar. Toca a campainha.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Quem será à essa hora?</default>
 	</talk>
 	<teller>
-		<default>Beatrice encontra Edmont andando pela cidade.</default>
+		<first>Edmont está andando pela cidade.</first>
 	</teller>
 	<talk character="Beatrice">
-		<default>Está querendo testar se o sol te mata?</default>
+		<arrive>Está querendo testar se o sol te mata?</arrive>
 	</talk>
+	<teller>
+		<default>Edmont para.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Não. Hoje não.</default>
 	</talk>
@@ -369,9 +403,15 @@
 	<talk character="Edmont">
 		<default>Não percebi que era tão tarde.</default>
 	</talk>
+	<teller>
+		<default>Beatrice se aproxima. Passa a mão no rosto de Edmont. Edmont fecha os olhos.</default>
+	</teller>
 	<talk character="Beatrice">
 		<default>Essa vingança vai acabar te matando.</default>
 	</talk>
+	<teller>
+		<default>Edmont abre os olhos.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Vingança?</default>
 	</talk>
@@ -385,7 +425,7 @@
 		<default>Eu te segui, bobinho.</default>
 	</talk>
 	<teller>
-		<default>Edmont a pega pelo pescoço e encosta num muro.</default>
+		<default>Edmont afasta a mão de Beatrice com uma mão, com a outra pega Beatrice pelo pescoço e encosta no muro.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Vai me matar por isso?</default>
@@ -397,7 +437,7 @@
 		<default>Vamos fritar os dois.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Quem te garante? Talvez eu continue vivo. Mas você, ah, você, minha querida, vai pro inferno sem dúvida!</default>
+		<default>Quem te garante? Talvez eu continue. Mas você... Ah, você, meu amor... Vai pro inferno sem dúvida!</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Pare com isso.</default>
@@ -412,7 +452,7 @@
 		<default>Tá com medo?</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Quer saber? Estou sim.</default>
+		<default>Quer saber? Tô sim.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Gosto do medo.</default>
@@ -427,7 +467,7 @@
 		<default>Mas eu era humana. Você não. E não são tantos anos a mais assim.</default>
 	</talk>
 	<teller>
-		<default>Edmont ri. A puxa pra frente de si, de costas para ele, em direção ao leste.</default>
+		<default>Edmont ri. Ainda com a mão no pescoço, coloca o corpo de Beatrice em frente ao seu, de costas para si, olhando para leste.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Olha só, já vai nascer.</default>
@@ -439,12 +479,12 @@
 		<default>Vai perder o momento.</default>
 	</talk>
 	<teller>
-		<default>Começa a nascer o sol. Beatrice entra em desespero. Ele pega ela no colo e pula através de uma parede velha de madeira. Eles caem dentro de um prédio. Ele a puxa da luz que entra. Ela está tremendo. O abraça.</default>
+		<default>Começa a nascer o sol. Beatrice tenta abrir as mãos de Edmont. Edmont vira Beatrice para si, segura no colo, corre e pula através de uma vidraça lateral do prédio, ainda para leste. Solta no chão. Olha para trás e olha para Edmont. Edmont vai até outra sala e volta com um pedaço grande de madeira, coloca em frente a janela. Beatrice não sai do chão, olhando para Edmont. Se levanta. Está tremendo, com os olhos marejados. Edmont vai até Beatrice e abraça.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Tá vendo como você é frágil? Se eu quiser acabar com essa sua existência pequena, acabo. Olha só, a vampira cruel está tremendo e chorando como uma criança, nos meus braços...</default>
+		<default>Tá vendo como você é frágil? Se eu quiser acabar com essa sua existência, acabo. Olha só, a criatura super cruel está tremendo e chorando como uma criança, nos meus braços...</default>
 	</talk>
 	<teller>
-		<default>Ela olha nos olhos dele e o beija. Ele passa a mão na cabeça dela. Pega-a no colo e carrega-a dali.</default>
+		<default>Beatrice olha nos olhos de Edmont. Dá um beijo em seus lábios. Edmont passa a mão na cabeça de Beatrice. Pega no colo. Leva para a outra sala.</default>
 	</teller>
 </story>
