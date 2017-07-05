@@ -1,13 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="17" scene="b">
 	<teller>
-		<default>Angely, em casa, acorda. Olha pro relógio e pra caixa na cabeceira.</default>
+		<default>MEAK. Angely abre os olhos. Vira de lado. Na cabeceira, a caixa de veludo.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Bom dia.</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta e vai até o quarto de hóspedes.</default>
+		<default>Angely se levanta. Coloca uma blusa de capuz. Sai. Bate na porta do outro quarto.</default>
+	</teller>
+	<talk character="Psique">
+		<out>Entra.</out>
+	</talk>
+	<teller>
+		<default>Angely abre a porta do quarto. Psique está na cama, sentou-se.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Oi.</default>
@@ -19,7 +25,7 @@
 		<default>Não sei.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Na casa não tem empregados, pode pegar o que quiser na geladeira, tá?</default>
+		<default>Pode pegar o que quiser na geladeira.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Obrigado.</default>
@@ -31,13 +37,13 @@
 		<default>Estou falando de me proteger.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Então a resposta é a mesma. É meu irmão que está atrás de você.</default>
+		<default>Então a resposta é a mesma. Tenho responsabilidade sobre Edmont.</default>
 	</talk>
 	<talk character="Psique">
-		<default>Por que eu dei chance.</default>
+		<default>Eu dei chance.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Se não tivesse deixado, ele tinha tacado fogo na sua casa.</default>
+		<default>Você dormiu com Edmont, não pediu que matasse Michael.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Não tem raiva de mim?</default>
@@ -49,37 +55,39 @@
 		<default>Handhara.</default>
 	</talk>
 	<teller>
-		<default>Ele baixa a cabeça. Depois levanta e olha nos olhos dela.</default>
+		<default>Angely baixa a cabeça. Olha novamente para Psique.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Fez o que era o certo.</default>
 	</talk>
 	<teller>
-		<default>Angely sai. Ela sai no corredor.</default>
+		<default>Angely sai. Psique levanta e vai ao corredor.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Pode ficar sossegado.</default>
 	</talk>
 	<teller>
-		<default>Ele se vira pra ela, não entendendo.</default>
+		<default>Angely se vira.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Não vou ir pro lado dele.</default>
 	</talk>
 	<teller>
-		<default>Angely sai. Psique desce depois de algum tempo.</default>
+		<default>Angely baixa a cabeça. Continua andando. Desce. Vai até a cozinha. Abre a geladeira. Olha. Fecha.</default>
 	</teller>
 	<talk character="Psique">
-		<default>Oi.</default>
+		<arrive>Oi.</arrive>
 	</talk>
 	<talk character="Angely">
-		<default>Já não disse isso?</default>
+		<default>Oi...</default>
+		<teller>franze a testa</teller>
+		<default>Já me falou oi...</default>
 	</talk>
 	<talk character="Psique">
-		<default>Faz algum tempo que não convivo com ninguém, se não Mike, e por isso meu vocabulário está tão curto.</default>
+		<default>Faz algum tempo que não convivo com ninguém, só Mike. Acho que meu vocabulário está curto.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Há quantos anos eram casados?</default>
+		<default>Quantos anos de casamento?</default>
 	</talk>
 	<talk character="Psique">
 		<default>Chuta.</default>
@@ -103,13 +111,13 @@
 		<default>Na verdade, só eu. Ele tinha vinte e quatro.</default>
 	</talk>
 	<teller>
-		<default>No quarto de Mel, Zenon está deitado na cama, enquanto Mel se veste.</default>
+		<default>Quarto de Mel. Zenon está na cama, sentou-se. Mel coloca uma blusa.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>E se seu irmão me pegar aqui?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu sou a mais velha.</default>
+		<default>Qual o problema?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não queria parecer folgado.</default>
@@ -133,25 +141,22 @@
 		<default>Não acredita em mim?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu vou tomar café e falo com Angely. Ele não é de implicar com ninguém, ainda se fosse o...</default>
+		<default>Eu vou tomar café e falo com Angely. Não é de implicar com ninguém, ainda se fosse...</default>
 	</talk>
 	<teller>
-		<default>Mel encara Zenon.</default>
+		<default>Mel cruza os braços e encara Zenon.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Que foi?</default>
 	</talk>
-	<teller>
-		<default>Ela joga uma almofada nele.</default>
-	</teller>
 	<talk character="Mel">
-		<default>Seu esconderijo não pegou fogo bosta nenhuma, tá aqui por que acha que preciso de proteção contra meu irmão.</default>
+		<default>Seu esconderijo não pegou fogo bosta nenhuma, tá aqui por que acha que preciso de proteção contra Edmont.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>E não precisa?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Edmont não se atreve a fazer nada comigo aqui dentro!</default>
+		<default>Edmont não se atreveria a fazer nada comigo!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Vi ele entrar aqui ontem, ia entrar também quando ouvi o barulho, mas vi Edmont sair correndo e ouvi Angely descer.</default>
@@ -160,10 +165,10 @@
 		<default>Seu...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mel!</default>
+		<out>Mel!</out>
 	</talk>
 	<teller>
-		<default>Mel sai do quarto. Vai até a cozinha.</default>
+		<default>Mel sai. Vai até a cozinha.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Sim?</default>
@@ -175,10 +180,10 @@
 		<default>Não entendi por que você não vai...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela não deixa.</default>
+		<default>Mel não deixa.</default>
 	</talk>
 	<talk character="Mel">
-		<default>É que, se depender dele, compra só arroz e feijão.</default>
+		<default>Se depender de Angely, só vamos ter arroz e feijão.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Ah, tá.</default>
@@ -187,51 +192,51 @@
 		<default>Tudo bem, eu vou lá. Vou só me trocar e já saio.</default>
 	</talk>
 	<teller>
-		<default>Ela sobe. Angely sente tontura. Psique se aproxima.</default>
+		<default>Mel sobe. Angely dá dois passos para trás. Apoia na mesa.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Que foi???</default>
 	</talk>
 	<teller>
-		<default>Ele a encosta na parede e a beija. Ela o empurra.</default>
+		<default>Angely encosta Psique na parede. Beija. Psique empurra Angely.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Angely!</default>
-		<teller>olha nos olhos dele</teller>
+		<teller>olha nos olhos</teller>
 		<default>Edmont...</default>
 	</talk>
 	<teller>
-		<default>Mel desce a escada. Ele se vira pra janela.</default>
+		<default>Mel desce a escada. Edmont vira para a janela.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Bom, eu tô... Algum problema?</default>
+		<arrive>Bom, eu tô... Algum problema?</arrive>
 	</talk>
 	<talk character="Psique">
 		<default>Não, nenhum.</default>
 	</talk>
 	<teller>
-		<default>Psique não consegue olhar pra Mel diretamente, mas esta não percebe e sai. Edmont puxa Psique pra junto de si.</default>
+		<default>Psique olha para o chão. Mel franze a testa. Sai. Edmont puxa Psique pra junto de si.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Por que não me entregou?</default>
 	</talk>
 	<talk character="Psique">
-		<default>Não faça nada comigo, por favor...</default>
+		<default>Não faz nada comigo, por favor...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não está com medo de verdade. Tem alguma coisa errada aqui.</default>
+		<default>Não tá com medo de verdade. Mas vai ficar.</default>
 	</talk>
 	<teller>
-		<default>Edmont a solta e sai. Zenon vai até Psique.</default>
+		<default>Edmont solta Psique. Vai até a porta. Olha para Psique. Veste o capuz. Sai.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Eu não ia deixar ele fazer nada.</default>
+		<arrive>Eu não ia deixar ele fazer nada.</arrive>
 	</talk>
 	<talk character="Psique">
-		<default>Esperava que o atacasse.</default>
+		<default>Esperava que atacasse ele!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não podemos matá-lo.</default>
+		<default>A gente não pode matar ele...</default>
 	</talk>
 	<talk character="Psique">
 		<default>Por que não?</default>
@@ -240,13 +245,13 @@
 		<default>Bom, é uma longa história.</default>
 	</talk>
 	<teller>
-		<default>Angely está com Beatrice, andando de um lado pro outro.</default>
+		<first>Angely anda de um lado pro outro. Beatrice sentou-se na cama.</first>
 	</teller>
 	<talk character="Beatrice">
 		<default>Não adianta ficar assim.</default>
 	</talk>
 	<teller>
-		<default>Ele pára e olha pra ela.</default>
+		<default>Angely para e olha para Beatrice.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Por que faz isso?</default>
@@ -255,40 +260,40 @@
 		<default>Não preciso ter motivo.</default>
 	</talk>
 	<teller>
-		<default>Angely se aproxima de Beatrice.</default>
+		<default>Angely se aproxima de Beatrice. Ajoelha em sua frente.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Tem medo dele?</default>
+		<default>Tem medo de Edmont?</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Medo? Eu?</default>
 	</talk>
 	<teller>
-		<default>Ele passa a mão no rosto dela.</default>
+		<default>Angely passa a mão no rosto de Beatrice.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Não pode mentir pra mim.</default>
 	</talk>
 	<teller>
-		<default>Ela o abraça. Ele passa a mão na cabeça dela.</default>
+		<default>Beatrice abraça Angely. Angely passa a mão na cabeça de Beatrice.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Como vocês podem ao mesmo tempo ser tão iguais e tão diferentes?</default>
 	</talk>
 	<talk character="Angely">
-		<default>A melhor explicação é que somos irmãos.</default>
+		<default>A melhor explicação é que somos gêmeos.</default>
 	</talk>
 	<teller>
-		<default>Tarde. Edmont está andando pela cidade de óculos escuros. Senta-se numa lanchonete.</default>
+		<first>Tarde. Edmont está andando pela cidade. Usa óculos escuros. Entra em uma lanchonete. Acomoda-se em uma mesa.</first>
 	</teller>
 	<talk character="Edmont">
-		<default>Tinha esquecido como é bom andar à luz do dia.</default>
+		<default>Tinha esquecido como é bom andar a luz do dia.</default>
 	</talk>
 	<teller>
-		<default>Uma garota da mesa ao lado ouve e estranha. Se vira pra Edmont.</default>
+		<default>Milena, na mesa ao lado, franze a testa. Vira para Edmont.</default>
 	</teller>
 	<talk character="Milene">
-		<default>Que disse?</default>
+		<default>Oi?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Nada.</default>
@@ -297,7 +302,7 @@
 		<default>Você não é...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Da Saturn? Sim.</default>
+		<default>Saturn? Sim.</default>
 	</talk>
 	<talk character="Milene">
 		<default>Pode me dar um autógrafo?</default>
@@ -306,7 +311,7 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Ela pega o caderno na bolsa e uma caneta. Ele escreve "Edmont". Ela estranha - ele estava loiro. Coloca também o e-mail. Levanta.</default>
+		<default>Milene pega o caderno na bolsa e uma caneta. Edmont pega. Escreve. Devolve. Milene olha e franze a testa. Edmont levanta.</default>
 	</teller>
 	<talk character="Milene">
 		<default>Ei!</default>
@@ -321,52 +326,55 @@
 		<default>Vi quando abria o caderno.</default>
 	</talk>
 	<teller>
-		<default>Ele sai.</default>
+		<default>Edmont sai.</default>
 	</teller>
 	<talk character="Milene">
 		<default>Com a rapidez que passei as folhas, não poderia ter enxergado... Não parece pintado o cabelo dele...</default>
 	</talk>
 	<teller>
-		<default>Edmont sai andando. Vai ao hospital.</default>
+		<first>Hospital.</first>
 	</teller>
 	<talk character="Edmont">
-		<default>A dr. Psique está?</default>
+		<default>Estou procurando Psique.</default>
 	</talk>
-	<talk character="recepcionista">
-		<default>Não... E tão cedo não volta.</default>
+	<talk character="Roberto">
+		<default>Não veio... E tão cedo não vai vir.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Por causa do marido?</default>
 	</talk>
-	<talk character="recepcionista">
-		<default>Que amante que ela foi arranjar, não? Como uma pessoa pode cometer tal atrocidade?</default>
+	<talk character="Roberto">
+		<default>Que amante que ela foi arranjar, não? Como uma pessoa pode cometer uma atrocidade dessas?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não sei. Eu fiz uns exames, queria o resultado...</default>
 	</talk>
 	<talk character="recepcionista">
-		<default>Não é possível, não há como outra pessoa entrar na sala dela.</default>
+		<default>Não é possível, não tem como outra pessoa entrar na sala dela.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Tá, obrigado.</default>
 	</talk>
 	<teller>
-		<default>Ele sai. Passa por um espelho e vê sua imagem desaparecendo. Então vai pro lugar onde está Beatrice.</default>
+		<default>Edmont sai. Passa por um espelho. Volta. Sua imagem está levemente transparente.</default>
+	</teller>
+	<teller>
+		<first>Esconderijo de Edmont.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Dessa vez durou menos tempo...</default>
 	</talk>
 	<teller>
-		<default>Ele entra no quarto e vê Beatrice dormindo encostada em Angely. Edmont ri.</default>
+		<default>Beatrice está dormindo ao lado de Angely. Edmont ri.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Vai acordá-la.</default>
+		<default>Vai acordar.</default>
 	</talk>
 	<teller>
-		<default>Angely deixa ela sozinha na cama.</default>
+		<default>Angely tira o braço com cuidado de baixo de Beatrice. Levanta.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Não sabia que tinha vocação pra babá, nem pra babaca.</default>
+		<default>Não sabia que tinha vocação pra babá. Nem pra babaca.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Por que está dizendo isso?</default>
@@ -375,34 +383,22 @@
 		<default>Ela só quer dormir com você e te jogar fora.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Isso tá meio invertido. Não sou uma donzela inocente, Edmont.</default>
+		<default>Não sou um adolescente inocente que precisa proteger.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Uma garota ou virgem você não é mesmo. Já dizer que você é inocente, bom, seria um eufemismo.</default>
+		<default>Dizer que você é inocente seria um eufemismo.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por que fez aquilo com o marido da Psique?</default>
+		<default>Por que fez aquilo com Michael?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não basta a Melody se envolvendo nos meus casos?</default>
+		<default>Não basta Melody se envolvendo nos meus casos?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Esquartejou ele por ciúmes?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tivesse olhado direito, descobriria que eu fiz depois que o matei.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Acha que ela tinha estrutura emocional pra ficar observando detalhes?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tá, então vai lá e conta isso pra ela agora, talvez fique mais aliviada.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont, por que não pára com isso???</default>
+		<default>Edmont, por que não para com isso???</default>
 	</talk>
 	<teller>
-		<default>Beatrice acorda.</default>
+		<default>Beatrice senta-se na cama.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Quem é quem?</default>
@@ -420,7 +416,7 @@
 		<default>Não gosta de ficar um tempo no meu lugar ou não quer que tome o seu?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não quero que faça coisas erradas aproveitando a confiança que têm em mim, nem quero que fique na minha memória as maldades que você cometeu.</default>
+		<default>Não quero que faça coisas erradas aproveitando a confiança que têm em mim, nem quero que fique na minha memória as coisas que fez!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Pois eu adoro ter a minha lembrança e "lembrar" o que você fez.</default>
@@ -432,94 +428,108 @@
 		<default>Não te perguntei nada.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por que a trata assim?</default>
+		<default>Por que trata Beatrice assim?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela se intromete demais no que não deve. Tá defendendo um vampiro?</default>
+		<default>Se intromete demais no que não deve. Tá defendendo sanguessuga agora?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Tá, então fique só com Beatrice. Deixe Psique em paz.</default>
+		<default>Beatrice quer ficar com você, apesar de eu tentar, mas deixa Psique em paz.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por que, quer ela pra você? Boa escolha, ela é muito...</default>
+		<default>Por que, quer pra você? Boa escolha, é muito...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela amava o marido dela e você já destruiu isso. Será que não basta?</default>
+		<default>Amava Michael e você já destruiu isso. Será que não basta?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não.</default>
 	</talk>
+	<teller>
+		<default>Angely olha para o chão. Olha para o lado. Olha novamente para Edmont.</default>
+	</teller>
 	<talk character="Angely">
 		<default>É por causa de Dara?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não entendo como pode protegê-las...</default>
+		<default>Não entendo como pode proteger essas pessoas.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Peraí, tá pensando em se vingar da Mel também?</default>
+		<default>Tá pensando em se vingar de Mel também?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não estou pensando, eu vou.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela é nossa irmã!</default>
+		<default>Mel é família!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Dane-se! Ela não pensou nisso quando matou Dara.</default>
+		<default>Dane-se! Não pensou nisso quando matou Dara!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Por favor...</default>
 	</talk>
 	<teller>
-		<default>Edmont empurra Angely pra frente da janela.</default>
+		<default>Edmont empurra Angely, que fica em frente a janela. Beatrice levanta, Edmont encara, Beatrice se senta na cama.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Tá vendo a diferença? Você pode sair no sol, eu não! Você é humano, tem o dever de ser bonzinho, mas eu não!</default>
+		<default>Tá vendo a diferença? Você pode sair no sol, eu não! Você tem o dever de ser bonzinho, mas eu não!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Você escolheu isso.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, escolheram por mim.</default>
+		<default>Escolheram por mim!</default>
 	</talk>
+	<teller>
+		<default>Beatrice se levanta.</default>
+	</teller>
 	<talk character="Beatrice">
 		<default>Você quem me procurou, você queria isso!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Fui jogado em cima de você praticamente.</default>
+		<default>Cai em cima de você. Isso sim.</default>
 	</talk>
 	<teller>
-		<default>Beatrice se cala. Edmont sai.</default>
+		<default>Edmont sai. Beatrice se senta, olhando para baixo.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Era o que ele queria. Sempre quis isso... Ter uma desculpa pra ser mau.</default>
-		<teller>ele olha pra Beatrice</teller>
-		<default>Gosta mesmo dele, não é?</default>
+		<default>Era o que queria. Sempre quis isso... Ter uma desculpa pra ser ruim.</default>
 	</talk>
+	<teller>
+		<default>Angely olha para Beatrice.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Gosta mesmo de Edmont, né?</default>
+	</talk>
+	<teller>
+		<default>Beatrice olha para Angely, endireita o corpo.</default>
+	</teller>
 	<talk character="Beatrice">
-		<default>Eu só gosto de mim mesma. Sou uma vampira, fui criada por um vampiro para ser o que sou.</default>
+		<default>Eu só gosto de mim. Sou uma vampira, fui criada por um vampiro para ser o que sou.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Antes de me convencer disso, convença à si mesma.</default>
+		<default>Antes de me convencer disso, convença a si.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>E por que duvida?</default>
 	</talk>
+	<teller>
+		<default>Angely se senta ao lado de Beatrice.</default>
+	</teller>
 	<talk character="Angely">
-		<default>Não é uma vampira comum.</default>
-		<teller>se aproxima dela</teller>
-		<default>Admite que o ama.</default>
+		<default>Por que tá mentindo.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Só teve um que eu amei. Andrews.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não consegue mentir pra mim. Esqueceu que tô com as lembranças do Edmont por causa do feitiço?</default>
+		<default>Esqueceu que tô com as lembranças do Edmont por causa do feitiço.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Não faz diferença. Andrews gostava de mim. Eu vou esquecer Edmont por que ele não gosta.</default>
+		<default>Não faz diferença. Andrews gostava de mim. Eu vou esquecer Edmont por que não gosta.</default>
 	</talk>
 	<teller>
-		<default>Ela se levanta e sai pelo mesmo caminho que Edmont (fora do alcance da luz solar). Angely sai pela luz.</default>
+		<default>Beatrice se levanta. Sai.</default>
 	</teller>
 </story>
