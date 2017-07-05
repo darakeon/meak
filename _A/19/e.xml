@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="19" scene="e">
 	<teller>
-		<default>Ela explica tudo à Zenon.</default>
+		<default>Todos estão na sala.</default>
 	</teller>
 	<talk character="Kat">
-		<default>E eu vi que ia ser o Edmont...</default>
+		<default>E eu vi que ia ser Edmont...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Viu ele?</default>
@@ -22,10 +22,10 @@
 		<default>Por que acha que é o Edmont?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Tem o jeito dele, ele é o único vampiro mal que conheço e eu senti que era conhecido.</default>
+		<default>Tem o jeito, é o único vampiro mal que conheço e eu senti que conhecia.</default>
 	</talk>
 	<teller>
-		<default>Zenon dá uma meia risada, parecida com de deboche. Kat reconhece.</default>
+		<default>Zenon dá uma meia risada, parecida com de deboche.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Não era ele, é você...</default>
@@ -49,36 +49,40 @@
 		<default>Não é isso... Zenon, você não é mal.</default>
 	</talk>
 	<talk character="Dione">
-		<default>Seu irmão é uma graça, mas tem uns parafusos à menos!</default>
+		<default>Seu irmão é uma graça, mas tem uns parafusos a menos!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele nasceu sem parafuso algum!</default>
+		<default>Angely nasceu sem parafuso algum!</default>
 	</talk>
 	<talk character="Dione">
 		<default>Tem alguma arma aqui?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Garotas, ele já teria reagido.</default>
+		<default>Zenon já teria reagido.</default>
 	</talk>
 	<talk character="Kat">
 		<default>A menos que tenha amigos vindo pra cá...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Talvez elas estejam certas.</default>
-		<teller>levanta</teller>
+	</talk>
+	<teller>
+		<default>Levanta do sofá.</default>
+	</teller>
+	<talk character="Zenon">
 		<default>Acho que vão ter que fazer isso.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Tem a ver com o que te fez trocar de lado para o bem?</default>
 	</talk>
 	<talk character="Kat">
-		<default>É mesmo, você não explicou pra nós o que era, como vamos saber que está falando a verdade???</default>
+		<default>Você não explicou pra nós o que era.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não vão saber.</default>
 	</talk>
 	<teller>
-		<default>Zenon se dirige à saída. Angely segura o braço dele.</default>
+		<default>Zenon se dirige a saída. Angely segura o braço de Zenon.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Não tá esquecendo nada?</default>
@@ -87,13 +91,13 @@
 		<default>Não.</default>
 	</talk>
 	<teller>
-		<default>Angely solta o braço de Zenon. O encara.</default>
+		<default>Angely solta o braço de Zenon. Encara.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Não pode fazer isso.</default>
 	</talk>
 	<teller>
-		<default>Zenon vai sair, mas Angely joga ele na parede de divisória cozinha/sala, fazendo-o desmaiar. A parede fica destruída.</default>
+		<default>Zenon vai sair, mas Angely joga Zenon na parede de divisória cozinha/sala. Zenon desmaia. A parede fica destruída.</default>
 	</teller>
 	<talk character="Dione">
 		<default>Não sabia que seu irmão era tão forte...</default>
@@ -101,11 +105,35 @@
 	<talk character="Kat">
 		<default>Ainda bem que não estamos na minha casa.</default>
 	</talk>
+	<talk character="Derik">
+		<arrive>Que houve?! Cadê o demônio de cinco braços que fez isso???</arrive>
+	</talk>
+	<talk character="Kat">
+		<default>Foi Angely.</default>
+	</talk>
 	<talk character="Angely">
-		<default>Dione, quem está cuidando das garotas?</default>
+		<default>Ia se matar se eu não fizesse.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Por quê?!</default>
+	</talk>
+	<talk character="Angely">
+		<default>Acha que o sonho pode ser sobre sim.</default>
 	</talk>
 	<talk character="Dione">
-		<default>Que garotas?</default>
+		<default>E a premonição! Não esqueça da premonição! Eu vi primeiro!</default>
+	</talk>
+	<talk character="Derik">
+		<default>E salvou Zenon pois...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Assim quebrado no chão com um empurrãozinho de Angely já não parece mesmo a coisa que vi no meu sonho.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Dione, quem está cuidando das pessoas?</default>
+	</talk>
+	<talk character="Dione">
+		<default>Que pessoas?</default>
 	</talk>
 	<talk character="Angely">
 		<default>As grávidas.</default>
@@ -114,7 +142,7 @@
 		<default>Elas têm idade pra se cuidar!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Estão grávidas!</default>
+		<default>Gravidez não é a mesma coisa. E parecem estar bem fora de si.</default>
 	</talk>
 	<talk character="Dione">
 		<default>Tá, eu vou arranjar quem cuide.</default>
@@ -122,16 +150,20 @@
 	<talk character="Angely">
 		<default>Nós cinco vamos até a biblioteca procurar como evitar esse mal.</default>
 	</talk>
-	<talk character="Kat">
-		<default>Não vou ficar dentro de uma biblioteca com esse...</default>
-		<teller>Angely a encara</teller>
+	<talk character="Derik">
+		<default>Pera, eu, você, Dione, Derik... Tá incluindo Zenon?! Porque não vou ficar dentro de uma biblioteca com...</default>
+	</talk>
+	<teller>
+		<default>Kata cruza os braços e encara Derik.</default>
+	</teller>
+	<talk character="Derik">
 		<default>Adoro ler.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Na ausência de Melody, boto ordem aqui.</default>
+		<default>Mel não tá aqui pra organizar as coisas, então temos que fazer isso. Por Mel.</default>
 	</talk>
 	<teller>
-		<default>Angely carrega Zenon dali.</default>
+		<default>Angely pega Zenon no colo e sobe.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Mel, onde você tá?</default>
@@ -140,52 +172,25 @@
 		<default>Por que obedece ele?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Temos uma agência. Bom, não tivemos nenhum trabalho até agora, mas...</default>
+		<default>Não é bem obedecer... Temos uma agência. Bom, não tivemos nenhum trabalho até agora, mas...</default>
 	</talk>
 	<talk character="Dione">
 		<default>Legal, desde quando têm ela?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Desde o início do ano. Quem vai pedir pra cuidar delas, algum amigo seu?</default>
+		<default>Desde o início do ano. Quem vai pedir pra cuidar, alguém que conhece?</default>
 	</talk>
 	<talk character="Dione">
-		<default>Talvez eu dê a elas uma passagem pra Europa. Cadê aquele cara que tava aqui?</default>
+		<default>Talvez eu dê a elas uma passagem pra Europa.</default>
 	</talk>
-	<talk character="Kat">
-		<default>Derik? Que tem ele?</default>
-	</talk>
-	<talk character="Dione">
-		<default>Ele disse cinco, se não tava se referindo à Mel...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ele é meu namorado.</default>
-	</talk>
-	<talk character="Dione">
-		<default>Ah, é, eu vi numa revista! Agora lembrei de onde o conhecia.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tinha alguma coisa escrita sobre ele?</default>
-	</talk>
-	<talk character="Dione">
-		<default>Bom...</default>
+	<talk character="Derik">
+		<default>Acho que é melhor colocar alguém que conheça. E é bom ser alguém de confiança.</default>
 	</talk>
 	<teller>
-		<default>Derik adentra a sala.</default>
+		<division>AQUI</division>
 	</teller>
-	<talk character="Derik">
-		<default>Cadê eles?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Lá em cima.</default>
-	</talk>
-	<talk character="Dione">
-		<default>Vamos ter que ir pesquisar numa biblioteca pra descobrir como reverter essa situação.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Mas quem vai ficar cuidando das três?</default>
-	</talk>
 	<teller>
-		<default>De noite, estão os quatro na cozinha: Angely está encostado na pia, Kat está mexendo na geladeira, Dione está numa das cadeiras e Zenon em outra, segurando um saco de gelo na cabeça.</default>
+		<first>De noite, estão os quatro na cozinha: Angely está encostado na pia, Kat está mexendo na geladeira, Dione está numa das cadeiras e Zenon em outra, segurando um saco de gelo na cabeça.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Alexander sabe mesmo dessa tal biblioteca?</default>
