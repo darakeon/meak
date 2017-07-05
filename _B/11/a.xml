@@ -120,11 +120,8 @@
 	<talk character="Bea">
 		<default>Esperava ver ábacos e dinheiro embaixo do colchão?</default>
 	</talk>
-	<teller>
-		<default>---------------------------------</default>
-	</teller>
 	<talk character="Derik">
-		<default>Falando em guardar, eu tava lendo um negócio... Podemos criar uma dimensão para guardarmos as armas e livros. Assim, se houver outra explosão, apenas precisaremos reabrir a porta.</default>
+		<default>Falando em guardar, eu tava lendo um negócio... Podemos criar uma micro-dimensão para guardarmos as armas e livros. Assim, se houver outra explosão, apenas precisaremos reabrir a porta.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Outra???</default>
@@ -160,13 +157,10 @@
 		<default>Fábio, quer que liguemos pro Grupo, pra falar com eles?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Desde que não seja o Alan.</default>
+		<default>Desde que não seja Alan.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Ei!</default>
-	</talk>
-	<talk character="Fábio">
-		<irony>Sinto muito por eu não querer que minha moral fique mais baixa que apartamento de minhoca.</irony>
 	</talk>
 	<talk character="Mel">
 		<default>Tudo bem, eu ligo.</default>
@@ -175,13 +169,13 @@
 		<default>Tenho mesmo mais o que fazer. Estela, vamos treinar.</default>
 	</talk>
 	<teller>
-		<default>Alan sai. Estela o segue.</default>
+		<default>Alan sai. Estela segue.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Kat?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ei...</default>
+		<default>Ow!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Sinto muito.</default>
@@ -190,13 +184,13 @@
 		<default>Zenon pega sua capa.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Alan, vamos pra casa da Michele todos. É maior.</default>
+		<screamed>Alan, vamos pra casa da Michele, é maior.</screamed>
 	</talk>
 	<talk character="Alan">
-		<default>Tá.</default>
+		<out>Tá.</out>
 	</talk>
 	<teller>
-		<default>Os dois saem também. Ficam Beatrice, Fábio, Mel e Derik.</default>
+		<default>Zenon sai. Kat segue.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Qual o problema com a pensão?!</default>
@@ -205,7 +199,7 @@
 		<default>É. Parece que ficamos sozinhos.</default>
 	</talk>
 	<teller>
-		<default>Kat volta correndo, pega Derik pela mão e leva.</default>
+		<default>Kat volta correndo, pega Derik pela mão e saem. Beatrice balança a cabeça para os lados.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Vamos jogar trinca?</default>
@@ -214,14 +208,17 @@
 		<default>Ainda não sabemos porque Fábio ressuscitou.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Não se preocupem, o Grupo resolve isso.</default>
+		<default>Não se preocupem. O Grupo resolve isso.</default>
 	</talk>
 	<teller>
-		<default>Silêncio. Silêncio. Silêncio.</default>
+		<default>Beatrice suspira. Mel olha para fora. Fábio olha para Mel. Então para Beatrice. Beatrice olha para Mel.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Que merda, não temos mais o que fazer aqui???</default>
 	</talk>
+	<teller>
+		<default>Mel olha para Beatrice.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Vou olhar as fichas dos candidatos ao cargo do Ang na escola. Bea, liga pro Grupo.</default>
 	</talk>
@@ -229,31 +226,37 @@
 		<default>Mel sai.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Mas sou uma vampira...</default>
+		<default>Mas sou vampir...</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Acho que eles não reconhecerão pelo telefone.</default>
+		<default>Acho que não vão perceber pelo telefone.</default>
 	</talk>
 	<teller>
-		<default>Bea pega o telefone e Fábio digita.</default>
+		<default>Bea suspira. Pega o telefone. Fábio se aproxima e digita. Beatrice coloca o telefone na orelha. Espera.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Alô?</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Droga, é meu dia de folga, quem é???</default>
+		<out>Droga, é meu dia de folga, quem é???</out>
 	</talk>
 	<talk character="Bea">
 		<default>Conhece Fábio?</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Ah, desculpa... Você é da família dele?</default>
+		<out>Ah, desculpa... Você é da família dele?</out>
 	</talk>
 	<talk character="Bea">
-		<default>Não, estou com ele aqui do meu lado. ### Alô?</default>
+		<default>Não, está aqui do meu lado. ### Alô?</default>
 	</talk>
 	<teller>
-		<default>13:00. Fábio e Beatrice estão jogando xadrez. Soraia entra, armada.</default>
+		<first>Tarde. Fábio e Beatrice estão nos sofás. Na mesa no centro, um tabuleiro de xadrez. Beatrice move a rainha e pega um bispo.</first>
+	</teller>
+	<talk character="Fábio">
+		<default>Acho que essa foi pessoal.</default>
+	</talk>
+	<teller>
+		<default>Beatrice encolhe ombros e volta. Soraia entra, com uma besta em punho, abaixada. Beatrice levanta do sofá.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Não mato mais ninguém!</default>
@@ -262,16 +265,16 @@
 		<default>Não era pra você, mas acha mesmo que acredito em promessa de vampira?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Não é promessa, ela disse no sentido de que não está fazendo mais isso.</default>
+		<default>Não é promessa, disse no sentido de que não está fazendo mais isso.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Como saiu do caixão?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Se eu soubesse, teria ligado direto pro Grupo, não pra você. Não me diga que eu cheiro a vampiro...</default>
+		<default>Se eu soubesse, teria ligado direto pro Grupo, não pra você. Não me diga que eu cheiro a...</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Estava cheirando quando te enterramos, mas eu percebi que o cheiro não era seu, estava em você. Só não achei que o ferimento de estaca era pra disfarçar.</default>
+		<default>Estava cheirando quando te enterramos, mas eu percebi que o cheiro não era seu, estava em você. Parece inclusive que era dessa aí. Só não achei que o ferimento de estaca era pra disfarçar.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Saberia se...</default>
@@ -283,15 +286,25 @@
 		<default>Tá, então vamos esperar doze horas, pro efeito...</default>
 	</talk>
 	<teller>
-		<default>Mel desarma Soraia.</default>
+		<default>Soraia vira para trás, apontando a besta. Mel chuta a besta. Soraia olha a besta se despedaçar na parede. Olha para Mel.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Já escolheu o professor?</default>
+		<default>Já escolheu a pessoa?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Uma professora, na verdade.</default>
-		<teller>se vira para Soraia</teller>
-		<default>Que estava fazendo na minha casa com isso?</default>
+		<default>Já. Alguém com experiência.</default>
+	</talk>
+	<talk character="Soraia">
+		<default>É bem complicado fazer uma merda dessas, sabia?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Me refazer depois da estaca seria mais.</default>
+	</talk>
+	<talk character="Soraia">
+		<default>Eu não ia atirar em você.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não apontasse então. Que estava fazendo na minha casa com isso?</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Não tenho culpa se abriga vampiros.</default>
@@ -303,64 +316,73 @@
 		<default>Tô falando de Fábio.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele não é vampiro.</default>
+		<default>Não é vampir.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Ele foi enterrado e...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não é. Temos que saber o que realmente aconteceu, mas Angely viu ele tomar a estaca, não teria como ser vampiro.</default>
+		<default>Não é. Temos que saber o que realmente aconteceu, mas Angely viu o que aconteceu.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Não tinham me dado essa garantia. Falando nisso, onde ele está?</default>
 	</talk>
 	<teller>
-		<default>Todos fazem silêncio.</default>
+		<default>Beatrice baixa a cabeça. Mel desvia o olhar.</default>
 	</teller>
 	<talk character="Fábio">
-		<default>Tomando conta do Edmont.</default>
+		<default>Tomando conta de Edmont.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Estão com cara de que ele morreu.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se isso acontecer, nem saberemos. É possível que nunca mais...</default>
+		<default>Se isso acontecer, nem saberemos. É possível que nunca mais vejamos.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não diga isso. Ele vai se livrar do outro. Um dia... Eu sei que vai...</default>
+		<default>Não diz isso... Angely vai se livrar... Um dia... Eu sei que vai...</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Ih, meu Deus, tá de quatro.</default>
 	</talk>
+	<teller>
+		<default>Beatrice cruza os braços.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Pelo menos não é pelo Alan.</default>
+		<default>Pelo menos não é por Alan.</default>
 	</talk>
 	<teller>
-		<default>Soraia encara Fábio</default>
+		<default>Soraia encara Fábio.</default>
 	</teller>
 	<talk character="Soraia">
 		<default>Pelo jeito alguém andou abrindo a boca demais...</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Bom, eu tava falando com ela sobre você... Acabei citando.</default>
+		<default>Desculpa... A gente tava falando de você... Acabei citando...</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Depois mulher que é fofoqueira.</default>
 	</talk>
+	<teller>
+		<default>Beatrice descruza os braços.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Bom, acho que temos algo pra fazer...</default>
+		<default>Bom, acho que temos algo pra fazer.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Temos?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Tem um morto-vivo na sala.</default>
+		<default>Tem morto-vivo na sala.</default>
 	</talk>
 	<talk character="Fábio">
-		<screamed>Ei!</screamed>
+		<default>Não sou só eu.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Mas eu já tenho explicação.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não sou de pesquisa. Acho que vou mandar Derik e Estela verem isso.</default>
+		<default>Vou mandar Derik e Estela verem isso.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Viraram os pesquisadores da agência?</default>
@@ -369,19 +391,19 @@
 		<default>Vocês não têm cargos definidos aqui?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bem...</default>
+		<default>Cargos?</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Registro?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não cuidamos disso ainda. Escuta, você veio aqui pra resolver o problema do Fábio ou o nosso?!</default>
+		<default>Não cuidamos disso ainda. Você veio aqui pra resolver o problema de Fábio ou o nosso?!</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Tá, eu levo ele pro Grupo, descobrimos tudo. Vamos, Fábio.</default>
 	</talk>
 	<teller>
-		<default>Soraia vai em direção à porta.</default>
+		<default>Soraia vai em direção à porta. Fábio cruza os braços.</default>
 	</teller>
 	<talk character="Fábio">
 		<irony>Não está esquecendo nada?</irony>
@@ -390,7 +412,7 @@
 		<default>Ah?</default>
 	</talk>
 	<talk character="Fábio">
-		<irony>É, meu pratinho, a coleira, o antipulgas... Tem também a caminha com a qual já estou acostumado. Ah, e os truques novos que aprendi, pergunta pra elas!</irony>
+		<irony>É, meu pratinho, a coleira, o antipulgas... Tem também a caminha que já acostumei. Ah, e os truques novos que aprendi, pergunta pra Mel!</irony>
 	</talk>
 	<talk character="Soraia">
 		<default>Vai ficar aqui?!</default>
@@ -402,19 +424,19 @@
 		<default>Fica. Tchau. Deve estar de quatro pelo loirinho também, fica aí se consolando com essa vampira arrependida!</default>
 	</talk>
 	<teller>
-		<default>Ela sai.</default>
+		<default>Soraia sai.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Ainda bem que ela sabe.</default>
+		<default>Ainda bem que sabe.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Derik e Estela saíram com os três, né?</default>
+		<default>Derik e Estela ainda não voltaram, né?</default>
 	</talk>
 	<teller>
-		<default>Os cinco chegam na casa de Michele. Estela e Derik param, enquanto os outros entram. Kat volta.</default>
+		<default>Derik e Estela estão no jardim. Kat chega.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Que foi?</default>
+		<default>Achei vocês!</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não gosto de entrar aí.</default>
@@ -423,13 +445,13 @@
 		<default>Isso não é um cemitério...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Boa idéia, tem bastante espaço...</default>
+		<default>Boa idéia, tem bastante espaço em cemitério!</default>
 	</talk>
 	<talk character="Estela">
 		<default>Eu ficaria mais confortável.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eu disse pra ela que traria vocês, não tem problema.</default>
+		<default>Eu disse pra Michele que traria vocês, não tem problema.</default>
 	</talk>
 	<talk character="Derik">
 		<irony>Foi na hora que te ouvi dizer "Chele? Você ainda tá aí?"?</irony>
@@ -438,19 +460,19 @@
 		<default>Tão se revezando pra me atacar?</default>
 	</talk>
 	<teller>
-		<default>Toca o telefone de Kat.</default>
+		<default>Toca o telefone de Kat. Derik e Estela se entreolham. Kat atende.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Alô? ### Tão. ### Tá, tô mandando.</default>
 	</talk>
 	<teller>
-		<default>Kat desliga. Estela e Derik ficam esperando. Kat faz cara de decepção. Baixa a cabeça. Olha pros dois.</default>
+		<default>Kat desliga, Estela e Derik acompanham o telefone entrar no bolso e olham para Kat. Kat suspira e solta os ombros. Baixa a cabeça. Olha para Estela e Derik.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Estão livres. Mel chamou vocês. Dessa vez escaparam.</default>
 	</talk>
 	<teller>
-		<default>Ela entra. Os dois saem.</default>
+		<default>Kat entra. Estela e Derik atravessam o jardim e saem. Andam pelas mansões e saem do condomínio.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Onde acha que é um lugar apropriado pra erguer um altar pra Mel?</default>
