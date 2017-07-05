@@ -163,7 +163,7 @@
 		<default>Os quatro e Aurium vão até a igreja. Os três entram pelos fundos. Se separam e vão procurar, cada um em um canto. Kat fica na porta, caso Elian resolvesse fugir (de capuz). Ele chega em passos silenciosos. Aurium o ataca. Ele atira o cachorro longe. Kat apita. Edmont aparece.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Não vai encostar nela!</default>
+		<default>Não vai encostar nela.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Qual o problema? Já sei, ela lembra-te a tua namorada... Não tenho eu culpa se acabaste com o meu jantar, tive que procurar outro.</default>
@@ -226,7 +226,7 @@
 		<irony>Obrigado pela preocupação.</irony>
 	</talk>
 	<teller>
-		<default>Mel e Edmont levam Kat (com Aurium) pra casa. Angely vai para casa sozinho. Edmont fica um pouco com Agatha. É noite quando as duas dormem.</default>
+		<first>Mel e Edmont levam Kat (com Aurium) pra casa. Angely vai para casa sozinho. Edmont fica um pouco com Agatha. É noite quando as duas dormem.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Que foi, Edmont?</default>
@@ -262,10 +262,13 @@
 		<default>Mel, liga pro hospital!</default>
 	</talk>
 	<teller>
-		<default>Mel pega o telefone. Angely acorda no dia seguinte, na cama do hospital. Edmont está sentado olhando pra ele.</default>
+		<default>Mel pega o telefone.</default>
+	</teller>
+	<teller>
+		<first>Angely acorda no dia seguinte, na cama do hospital. Edmont está sentado olhando pra ele.</first>
 	</teller>
 	<talk character="Edmont">
-		<default>Agora que está acordado, pode me explicar por que diabos fez isso?</default>
+		<default>Agora que está acordado, pode me explicar por que porra fez isso?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Por que me trouxeram pra cá?</default>
@@ -302,7 +305,7 @@
 		<default>Fisicamente, sim. Quero matar eu mesmo aquele maldito.</default>
 	</talk>
 	<teller>
-		<default>Kat está em casa. Dorme. Sonha. Alguém se senta à beira da cama. Está com uma capa preta.</default>
+		<first>Kat está em casa. Dorme. Sonha. Alguém se senta à beira da cama. Está com uma capa preta.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Que lugar é esse?</default>
@@ -440,7 +443,7 @@
 		<default>Tenho que falar com eles.</default>
 	</talk>
 	<teller>
-		<default>É noite. Ela e Aurium vão a MEAK. Edmont está se preparando pra sair.</default>
+		<first>Noite. Ela e Aurium vão a MEAK. Edmont está se preparando pra sair.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Deixa eu adivinhar, Terceira Guerra Mundial?</default>

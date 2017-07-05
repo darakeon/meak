@@ -76,8 +76,14 @@
 		<default>Ele tava mal, né?</default>
 	</talk>
 	<teller>
-		<default>Mel sai com o carro. Dali à algum tempo, Kat toma coragem.</default>
+		<default>Mel sai com o carro.</default>
 	</teller>
+	<teller>
+		<first>Dali à algum tempo, Kat olha para trás.</first>
+	</teller>
+	<talk character="Mel">
+		<default>Que foi?</default>
+	</talk>
 	<talk character="Kat">
 		<default>Ele tá mesmo dormindo né?</default>
 	</talk>
@@ -127,7 +133,7 @@
 		<default>Não vai me dizer que...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Por pouco não. Ele colocou ela em cima dum móvel e começou a beijá-la, mas o pai dele entrou no quarto.</default>
+		<default>Por pouco não. O pai dele entrou no quarto.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Essa merda não devia ter censura? Você nem tem 13 anos...</default>
@@ -154,7 +160,10 @@
 		<default>Vem pro seu quarto, descansar.</default>
 	</talk>
 	<teller>
-		<default>Angely se levanta e vai pro quarto. Mel leva Kat em casa.</default>
+		<default>Angely se levanta e vai pro quarto.</default>
+	</teller>
+	<teller>
+		<first>Mel leva Kat em casa.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Ah! Merda!</default>
@@ -274,7 +283,7 @@
 		<default>Onde é o estacionamento mais próximo?</default>
 	</talk>
 	<teller>
-		<default>Mel, Kat e Edmont saem procurando Elian. Kat vai com Mel.</default>
+		<first>Edmont continua procurando sozinho. Kat vai com Mel.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Será que ele está aqui?</default>
@@ -330,7 +339,10 @@
 		<default>Não sei. Talvez um anjo tenha me ocultado.</default>
 	</talk>
 	<teller>
-		<default>Angely dorme em sua cama. Edmont sorri. Os três vão pra casa. Dias depois, Kat, Mel, Angely e Edmont estão no jardim. Jak aparece.</default>
+		<default>Angely dorme em sua cama. Edmont sorri. Os três vão pra casa.</default>
+	</teller>
+	<teller>
+		<first>Dias depois, Kat, Mel, Angely e Edmont estão no jardim. Jak aparece.</first>
 	</teller>
 	<talk character="Jak">
 		<default>Parabéns. Última lição: não deixe seu adversário te irritar. Que decidiram?</default>
