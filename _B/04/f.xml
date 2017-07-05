@@ -22,7 +22,7 @@
 		<default>Deve tá delirando.</default>
 	</talk>
 	<teller>
-		<default>Dia seguinte. Meio-dia.</default>
+		<first>Dia seguinte. Meio-dia.</first>
 	</teller>
 	<talk character="Estela">
 		<default>Será que ela já acordou?</default>
@@ -64,7 +64,13 @@
 		<default>Por que você deu a idéia.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ok. Lembra daquela pessoa, da história que a outra pessoa foi encontrada no beco?</default>
+		<default />
+	</talk>
+	<teller>
+		<default>Derik respira fundo e olha para Mel.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Lembra daquela pessoa, da história que a outra pessoa foi encontrada no beco?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Renata?</default>
@@ -306,6 +312,9 @@
 	<talk character="Derik">
 		<default>Não quer voltar a ser bom... Se Renata viver eternamente, tá livre.</default>
 	</talk>
+	<teller>
+		<default>Kat olha para Derik.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Pra sempre.</default>
 	</talk>
@@ -360,29 +369,38 @@
 	<teller>
 		<first>22h. Ares. Zenon# segura alguém, com os dentes cravados no pescoço.</first>
 	</teller>
-	<talk character="Edmont">
+	<talk character="Zenon*">
 		<arrive>Desistiu do perdão?</arrive>
 	</talk>
 	<teller>
 		<default>Zenon# solta, a pessoa cai no chão, sem vida. Zenon# sorri.</default>
 	</teller>
-	<talk character="Edmont">
+	<talk character="Zenon*">
 		<default>Que te fez voltar?</default>
 	</talk>
 	<talk character="Zenon#">
 		<default>Sei tanto quanto sei sobre a primeira mudança.</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Parece que Soraia e Clítia tinham razão. Tem um bar aqui perto, se ainda estiver com sede.</default>
+	<talk character="Zenon*">
+		<default>Parece que Soraia e Clítia tinham razão. E eu aqui com medo de virar do avesso também... A gente pode até se divertir em dois assim! Tem um bar aqui perto, se ainda estiver com sede.</default>
 	</talk>
 	<talk character="Zenon#">
-		<default>Minha sede nunca acaba. Quem sabe eu acho a garota que Melody salvou agora pouco.</default>
+		<default>Minha sede nunca acaba.</default>
 	</talk>
 	<teller>
-		<first>Kat e Derik entram em um bar. Derik olha para Zenon#. Edmont está ao lado. Estão com cervejas.</first>
+		<default>Zenon* sorri.</default>
+	</teller>
+	<talk character="Zenon*">
+		<default>É assim que se fala! Bora brincar de gêmeos!</default>
+	</talk>
+	<talk character="Zenon#">
+		<default>Isso vai ser divertido.</default>
+	</talk>
+	<teller>
+		<first>Kat e Derik entram em um bar. Derik olha para Zenon#. E Zenon*. Estão com cervejas. Kat olha também. Sentam-se em uma mesa. Kat fica de costas para a mesa de Zenon.</first>
 	</teller>
 	<talk character="Derik">
-		<default>Que vamos fazer?</default>
+		<default>Agora fodeu de verdade. Quem é quem?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Se Renata encontrar Zenon aqui, podemos impedir que o pior aconteça...</default>
@@ -391,16 +409,16 @@
 		<default>Mas e se não encontrar aqui? Droga...</default>
 	</talk>
 	<teller>
-		<default>Kat se vira. Duas pessoas sentam-se a mesa de Edmont e Zenon#. Kat desvira.</default>
+		<default>Kat se vira. Penélope e Pamela sentam-se a mesa de Edmont e Zenon#. Kat desvira.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Não olha, vai perceber que estamos aqui.</default>
+		<default>Não olha, vão perceber que estamos aqui.</default>
 	</talk>
 	<teller>
-		<default>Derik olha para baixo. Olha de novo na mesa. Edmont olha Derik direto nos olhos. Derik olha para Kat.</default>
+		<default>Derik olha para baixo. Olha de novo na mesa. Zenon# olha Derik direto nos olhos. Derik olha para Kat.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Tarde demais, já percebeu... Que vamos fazer?</default>
+		<default>Tarde demais, já perceberam... Ao menos agora sabemos quem é quem. De social a gente tenta salvar, de jeans a gente só corre mesmo.</default>
 	</talk>
 	<talk character="Kat">
 		<default>O único jeito é ficar aqui e esperar Renata aparecer.</default>
