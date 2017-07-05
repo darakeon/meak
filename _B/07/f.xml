@@ -100,27 +100,27 @@
 		<default>Bom, não faltamos a escola em vão. Será que Kat já sonhou alguma coisa?</default>
 	</talk>
 	<teller>
-		<default>Kat está em seu quarto. #######</default>
+		<default>Kat está em seu quarto. Se vê em um porto.</default>
 	</teller>
-	<talk character="irmão">
+	<talk character="Lúcio">
 		<default>Por que me chamou aqui, Martim?</default>
 	</talk>
 	<talk character="Martim">
 		<default>Ainda não entendo porque nosso pai deixou tudo para você.</default>
 	</talk>
-	<talk character="irmão">
-		<default>É fácil, eu trabalhei e ajudei-o a juntar tudo. Nosso pai acabou de ser enterrado, como pode pensar nisso?</default>
+	<talk character="Lúcio">
+		<default>É fácil, eu trabalhei e ajudei ele a juntar tudo. Nosso pai acabou de ser enterrado, como pode pensar nisso?</default>
 	</talk>
 	<talk character="Martim">
 		<default>Enterros... Sempre alguém sai ganhando, não é?</default>
 	</talk>
-	<talk character="irmão">
+	<talk character="Lúcio">
 		<default>Como é que é?!</default>
 	</talk>
 	<talk character="Martim">
 		<default>Bom, você ganhou com o enterro do nosso pai... E se você for enterrado, quem ganha?</default>
 	</talk>
-	<talk character="irmão">
+	<talk character="Lúcio">
 		<default>Minha mulher.</default>
 	</talk>
 	<talk character="Martim">
@@ -130,26 +130,31 @@
 		<default>Vai me matar e se casar com a minha mulher?! Não sei qual vai ser o mais difícil, derrubar alguém mais forte que você ou conseguir levar para a cama alguém que não é uma prostituta! Sim, porque o fato da única coisa que você faz ser ir pra cama com prostitutas usando dinheiro alheio impede as duas coisas!</default>
 	</talk>
 	<teller>
-		<default>Martim olha no relógio. O irmão dele sente algo errado. Martim sorri.</default>
+		<default>Martim olha no relógio. Lúcio coloca a mão no tórax e dá um passo atrás. Martim sorri.</default>
 	</teller>
 	<talk character="Martim">
 		<default>Já estava na hora...</default>
 	</talk>
-	<talk character="irmão">
-		<default>Você... Me...</default>
-		<teller>cai</teller>
-		<default>Envenenou?...</default>
-	</talk>
-	<talk character="Martim">
-		<default>Não, foi sua santa mulher. Ela comentou algo sobre eu ser melhor que você... Sabe, acho que prefiro a opinião dela que a do nosso pai.</default>
-		<teller>o irmão de Martim tenta pegar o pé dele</teller>
-		<default>E mortos não dão opinião. Pode ficar sossegado, eu e ela aproveitaremos muito bem esse ouro. Poderia jogá-la fora e pagar prostitutas, mas, como eu disse, teria que pagar e ela faz tudo que elas fazem, e bem melhor.</default>
+	<talk character="Lúcio">
+		<default>Você... me...</default>
 	</talk>
 	<teller>
-		<default>Ele joga seu irmão na água. Kat acorda.</default>
+		<default>Lúcio cai no chão. Martim se aproxima.</default>
+	</teller>
+	<talk character="Martim">
+		<default>Não, foi sua santa mulher. Ela comentou algo sobre eu ser melhor que você... Sabe, acho que prefiro a opinião dela que a do nosso pai.</default>
+	</talk>
+	<teller>
+		<default>Lúcio tenta pegar a perna de Martim. Martim dá um passo atrás.</default>
+	</teller>
+	<talk character="Martim">
+		<default>Mesmo porque, mortos não dão opinião. Pode ficar sossegado, eu e ela aproveitaremos muito bem esse ouro. Poderia jogá-la fora e pagar prostitutas, mas, como eu disse, teria que pagar e ela faz tudo que elas fazem, e bem melhor. Mas acho que sabe disso.</default>
+	</talk>
+	<teller>
+		<default>Martim empurra Lúcio para água. Kat se vê na água. Acorda. Respira fundo.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ele tem que devolver o ouro do irmão...</default>
+		<default>Tem que devolver o ouro de Lúcio...</default>
 	</talk>
 	<teller>
 		<default>Derik e Estela entram no quarto.</default>
@@ -161,13 +166,13 @@
 		<default>Martim não podia ser atacado antes de estar a um dia normal.</default>
 	</talk>
 	<talk character="Kat">
-		<default>E Ang, já voltou?</default>
+		<default>Angely já voltou?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não. Sonhou algo?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Martim roubou o ouro do irmão. Precisa devolver para poder ficar livre.</default>
+		<default>Martim roubou o ouro de Lúcio. São da mesma família. Precisa devolver para poder ficar livre.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Então é isso?! Depois vem nos acusar de roubo!</default>
@@ -184,11 +189,11 @@
 	<talk character="Kat">
 		<default>Também já aconteceu aqui.</default>
 	</talk>
-	<talk character="Estela / Derik">
+	<talk character="Derik">
 		<default>Ah?!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Estavam os dois fora de seus corpos, como é um espírito só que controla todas as suas réplicas, se juntaram.</default>
+		<default>Estava fora de seus corpos, como é um espírito só que controla todas as suas réplicas, se juntaram.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Como sabe disso?</default>
@@ -200,7 +205,7 @@
 		<default>Você viu isso no sonho?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não. Simplesmente acordei sabendo.</default>
+		<default>Não. Só acordei sabendo.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Ah...</default>
@@ -209,16 +214,16 @@
 		<default>Ao invés de ficar aqui em cima de mim fazendo perguntas difíceis, poderiam tentar pensar em uma solução. Prometo que se pararem, farei o mesmo.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Tá, onde tá o corpo do irmão dele?</default>
+		<default>Tá, onde tá o corpo do...?</default>
 	</talk>
 	<talk character="Kat">
-		<default>No fundo do mar. Isso eu vi, estavam num porto banhado pelo atlântico.</default>
+		<default>Lúcio. No fundo do mar. Isso eu vi, estavam num porto banhado pelo atlântico.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Talvez se nós fôssemos numa seção espírita...</default>
 	</talk>
 	<talk character="Estela">
-		<default>Isso! Podemos apelar pra macumba pra mandar essa coisa embora!</default>
+		<default>A gente podia perguntar se sabem expulsar espírito!!!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Gente, ninguém estranhou nada?</default>
@@ -232,14 +237,11 @@
 	<talk character="Estela">
 		<default>Ang deve ter chegado.</default>
 	</talk>
-	<talk character="Estela">
-		<default>E o que estamos esperando??? Vamos falar com ele...</default>
-	</talk>
 	<teller>
-		<default>Os três saem do quarto. Dão de cara com Beatrice.</default>
+		<default>Kat levanta e sai do quarto. Estela segue. Derik depois. Trava quando vê Beatrice frente a frente com Kat.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Derik, é sua chance de provar que me ama. Enfia uma estaca nela.</default>
+		<default>Estela, tem uma daquelas estacas escondidas?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Isso. Assim o feitiço será quebrado e o fantasma terá a chance de pegar vocês três, já que Mel, Alan e Zenon saíram e Beleno desapareceu com Inês.</default>
@@ -248,16 +250,16 @@
 		<default>Angely quem está nos protegendo.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Eu vim justamente conversar com ele e não encontrei. Consegui um feitiço pra proteger esse lugar. Usei ele em mim primeiro, pra depois vir pra cá. O fantasma não pode se manifestar onde eu estiver, então é melhor me manterem viva.</default>
+		<default>Eu vim justamente conversar com Angely e não encontrei. Consegui um feitiço pra proteger esse lugar. Usei em mim primeiro, pra depois vir pra cá. O fantasma não pode se manifestar onde eu estiver, então é melhor me manterem com vida.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Você já não está viva há cinco anos.</default>
+		<default>Você já não com vida há sete anos.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Encontramos Angely e depois te matamos.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ele não vai deixar. Deveria, mas não vai.</default>
+		<default>Não vai deixar. Deveria, mas não vai.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Então vamos esperar e ver se temos alguma idéia para expulsar Martim.</default>
@@ -266,7 +268,7 @@
 		<default>Martim?</default>
 	</talk>
 	<talk character="Derik">
-		<default>É o nome do fantasma.</default>
+		<default>É o nome do espírito.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Podemos ir à biblioteca e procurar um feitiço de expulsão.</default>
@@ -278,22 +280,22 @@
 		<default>Mas não deixa de ser uma boa idéia.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Se a criancinha se sentir melhor, Mel, Zenon e Alan foram pra lá.</default>
+		<default>Se a criancinha se sentir melhor, Mel, Zenon e Alan foram pra lá, não é minha opinião.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Como sabe? Peraí, criancinha???</default>
 	</talk>
 	<talk character="Bea">
-		<default>Eu vi eles saindo e Mel pediu pra Alan pegar o cartão.</default>
+		<default>Eu vi saindo e Mel pediu pra Alan pegar o cartão.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Então nós três vamos.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Pro fantasma pegar vocês logo que saírem? Eu disse que ele fica imóvel, não que não possa ver seus planos.</default>
+		<default>Pra Martim pegar vocês logo que saírem? Eu disse que fica imóvel, não que não possa ver seus planos.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ok, nós quatro. Mas você fica quietinha, porque eu posso perder a paciência e mandar você pro inferno num segundo. Depois eu viro fantasma e acabo com essa cara também.</default>
+		<default>Ok, nós quatro. Mas você fica em silêncio, porque eu posso perder a paciência e mandar você pro inferno num segundo. Depois eu viro fantasma e acabo com essa coisa também.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Por que ainda não fez isso?</default>
@@ -302,19 +304,16 @@
 		<default>Mel não deixa.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Que bonitinho...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vai pro inferno!</default>
+		<default>Que bonitinho.</default>
 	</talk>
 	<teller>
-		<default>Os quatro saem dali. Chegando à biblioteca...</default>
+		<first>Biblioteca.</first>
 	</teller>
 	<talk character="Kat">
-		<default>Tá, você disse que eles estavam aqui, então...</default>
+		<default>Tá, você disse que estavam aqui, então...</default>
 	</talk>
 	<teller>
-		<default>Kat olha para trás e não vê Beatrice.</default>
+		<default>Kat olha para trás. Apenas Estela e Derik, que olham para trás também.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Mas onde...</default>
@@ -323,7 +322,7 @@
 		<screamed>Pessoal!</screamed>
 	</talk>
 	<teller>
-		<default>Todos na biblioteca olham para Alan (que estava no segundo andar – de onde dava para ver o primeiro). Os três (Estela, Derik e Kat) sobem.</default>
+		<default>Olham para cima. Alan acena. Mel encara Alan da mesa. Todos na biblioteca olham para Alan. Kat, Estela e Derik sobem.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Beleno deu o recado?</default>
@@ -331,23 +330,26 @@
 	<talk character="Kat">
 		<default>Que recado?</default>
 	</talk>
-	<talk character="Derik">
-		<default>Deve ter sido isso que ele tava tentando dizer...</default>
-	</talk>
 	<talk character="Zenon">
-		<default>Pra vocês virem... Como sabiam que estávamos aqui?</default>
+		<default>Pra vocês virem... </default>
+	</talk>
+	<talk character="Derik">
+		<default>Deve ter sido isso que tava tentando dizer... Mas não dava pra entender, daquela distância...</default>
+	</talk>
+	<talk character="Alan">
+		<default>Como sabiam que estávamos aqui?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Beatrice. Esquece, estamos procurando o que?</default>
 	</talk>
 	<teller>
-		<default>18:00. Angely está no apartamento de Edmont. Beatrice chega.</default>
+		<default>Anoitecer. Beatrice chega ao apartamento.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Edmont...</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ele não tá.</default>
+		<default>Não tá.</default>
 	</talk>
 	<talk character="Bea">
 		<default>E onde foi?</default>
@@ -359,61 +361,57 @@
 		<default>Como não?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Também não sei. Ele acabou de sair e, de repente, perdi contato. Disse que ia voltar, mas até agora...</default>
+		<default>Também não sei. Saiu, de repente, perdi contato. Disse que ia voltar, mas até agora...</default>
 	</talk>
 	<teller>
-		<default>Ele senta-se na cama.</default>
+		<default>Angely senta-se na cama.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Recuperei...</default>
+	</talk>
+	<teller>
+		<default>Angely olha para o teto. Edmont está em um prostíbulo.</default>
+	</teller>
+	<talk character="Ang">
 		<thought>Que você fez?</thought>
 	</talk>
-	<teller>
-		<default>Edmont, num prostíbulo...</default>
-	</teller>
 	<talk character="Edmont">
-		<thought>Nada. Mas adorei poder ter vindo aqui. Vejo que está com Beatrice...</thought>
+		<thought>Nada. Mas adorei poder ter vindo aqui. Vejo que está com Beatrice.</thought>
 	</talk>
-	<teller>
-		<default>Angely, no apartamento...</default>
-	</teller>
 	<talk character="Ang">
 		<thought>Não vai fazer o que eu...</thought>
 	</talk>
-	<teller>
-		<default>Edmont, num prostíbulo...</default>
-	</teller>
 	<talk character="Edmont">
 		<thought>Pode apostar que vou.</thought>
 	</talk>
 	<teller>
-		<default>Angely, vai sair e Beatrice segura o braço dele.</default>
+		<default>Angely levanta e vai na direção da porta. Beatrice segura pelo braço.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Vai me deixar falando sozinha assim?!</default>
+		<default>Vai me deixar falando assim?!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Eu tenho que ir, o Edmont...</default>
+		<default>Eu tenho que ir, Edmont...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Pode impedi-lo à distância. Eu sei, já vi fazer. Aliás, o que vi foi o efeito...</default>
+		<default>Pode impedir à distância. Eu sei, já vi fazer. Aliás, o que vi foi o efeito, mas você entendeu.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Não dessa vez.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Sorte minha que você não pode mentir, porque qualquer um mentiria se eu fosse perguntar uma coisa... Ele está com outra?</default>
+		<default>Edmont tá com alguém?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Ainda não...</default>
-		<teller>pára e pensa</teller>
-		<default>Bom, agora está. Tenho mesmo que ir.</default>
+		<teller>franze a sobrancelha</teller>
+		<default>Bom, agora tá. Tenho mesmo que ir.</default>
 	</talk>
 	<teller>
-		<default>Beatrice joga ele na cama.</default>
+		<default>Beatrice joga Angely na cama.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Beatrice eu não quero te machucar...</default>
@@ -422,13 +420,19 @@
 		<default>Então não machuque.</default>
 	</talk>
 	<teller>
-		<default>Ela sobe em cima dele. (28/03 – sexta) De manhã (08:00), ele acorda. Olha para Beatrice.</default>
+		<default>Beatrice sobe em cima de Angely.</default>
+	</teller>
+	<teller>
+		<first>Manhã. Angely abre os olhos. Beatrice está com os braços em volta de si. Tira o braço de Beatrice, se virando. Passa a mão no rosto de Beatrice.</first>
 	</teller>
 	<talk character="Ang">
 		<default>Não devia ter feito isso.</default>
 	</talk>
 	<teller>
-		<default>Ang vê algo brilhante no chão. Pega. Sente espetar seu dedo e solta. A pedra, que era branca, fica vermelha. Ele desmaia. Beatrice acorda com o barulho. Noutro lugar, Edmont acorda e sente-se bem. Vê Martim.</default>
+		<default>Ang vê algo brilhante no chão. Sai da cama e pega. Uma pedra branca. Solta. olha para o dedo, com um corte pequeno. Olha para a pedra no chão, ficou cor de sangue. Desmaia, caindo no chão. Beatrice abre os olhos.A pedra, que era branca, fica vermelha. Ele desmaia. Beatrice acorda. Olha para Angely e arregala os olhos.</default>
+	</teller>
+	<teller>
+		<default>Edmont acorda. Senta-se na cama. Olha para Martim na janela.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Sabe quando acorda e sente que, pra ficar melhor, bastava o sol sumir?</default>
@@ -437,76 +441,20 @@
 		<ghost>Procure seu irmão.</ghost>
 	</talk>
 	<talk character="Edmont">
-		<default>Eu sei onde ele está...</default>
-		<teller>pára e pensa</teller>
+		<default>Eu sei onde...</default>
+		<teller>franze a sobrancelha</teller>
 		<default>Ou talvez não... Que fez?</default>
 	</talk>
 	<talk character="Martim">
 		<ghost>Tinha razão, não posso remover a ligação. Mas posso segurar o garoto. Você não sabe onde ele está porque ele também não sabe. Agora me dê meu ouro e eu te falo como eternizar isso.</ghost>
 	</talk>
 	<talk character="Edmont">
-		<default>Ainda posso encontrá-lo, não há de estar muito longe.</default>
+		<default>Ainda posso encontrar, não deve estar muito longe.</default>
 	</talk>
 	<talk character="Martim">
 		<ghost>Quer ou não seu irmão dormindo eternamente e te deixando livre?</ghost>
 	</talk>
 	<talk character="Edmont">
-		<default>Claro. Vou fingir que vou ajudar eles a se livrarem de você e pego o ouro. É a coisa mais fácil do mundo.</default>
-	</talk>
-	<teller>
-		<default>Edmont entra na MEAK e dá de cara com Beatrice, colocando uma capa para sair. Pega a capa dela e joga pela janela – esta cai no mar.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Que está fazendo?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Veio fazer a visita e vai sair sem falar com os donos da casa?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Eu sei que deve estar bravo por Angely...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É sua, você dá pra quem quiser.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Estou falando dele ter desmaiado.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não seja burra, acha mesmo que você tem tanto poder?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Se não está bravo, porque...</default>
-	</talk>
-	<teller>
-		<default>Ele vira Bea para a porta. Ela vê Melody.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Deixa eu adivinhar, resolveu voltar pra casa e, de presente, me trouxe ela pra eu enfiar a estaca?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não. Viemos os dois ajudar. Ah, e caso não tenha notado o belo adormecido no sofá, não foi culpa da Beatrice. Foi o fantasma.</default>
-	</talk>
-	<teller>
-		<default>Beatrice estranha.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Ok, talvez com ele dormindo eu consiga te matar, é isso?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Já fiz esse teste. Onde estão as crianças?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Na escola... Peraí, você não...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não. Se você diz que estão na escola, deve ser porque estão. A menos que Kat tenha arrastado Derik pra um motel.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Como pretende ajudar?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Bom, vocês pesquisam sobre essa pedra aqui...</default>
-		<teller>joga a pedra vermelha para Mel</teller>
-		<default>E eu mando o fantasma pro quinto dos infernos.</default>
+		<default>Claro. Vou fingir que vou ajudar a se livrarem de você e pego o ouro. É a coisa mais fácil do mundo.</default>
 	</talk>
 </story>
