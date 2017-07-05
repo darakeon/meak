@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="18" scene="e">
 	<teller>
-		<default>Noite. Tereza colocara sonífero na bebida dos caça-vampiros e eles acabam dormindo. Ela vai até o quarto. Abre a corrente que prendia Zenon.</default>
+		<default>Noite. Zenon abre os olhos. Tereza está abrindo a corrente de sua mão direita. Zenon olha para José, que dorme.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Que está fazendo???</default>
+		<default>Que tá fazendo???</default>
 	</talk>
 	<talk character="Tereza">
 		<default>Não quero que te matem.</default>
@@ -16,7 +16,7 @@
 		<default>Foge daqui, dá tempo de arranjar um lugar pra se esconder deles.</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta. Olha pra ela.</default>
+		<default>Tereza termina de tirar as correntes. Zenon senta na cama e esfrega o pulso. Olha para Tereza.</default>
 	</teller>
 	<talk character="Tereza">
 		<default>Tá esperando o que???</default>
@@ -31,7 +31,7 @@
 		<default>Não precisa ficar com medo, eles vão desfazer o feitiço.</default>
 	</talk>
 	<talk character="Tereza">
-		<default>Primeiro que não é comigo que estou me importando, segundo que não há como desfazer.</default>
+		<default>Primeiro: que não é comigo que estou me importando; segundo: não tem como desfazer.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Então você vem comigo.</default>
@@ -40,7 +40,7 @@
 		<default>Por que???</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Quando descobrirem que me soltou, te matam!</default>
+		<default>Quando descobrirem que me soltou, te matam.</default>
 	</talk>
 	<talk character="Tereza">
 		<default>Não vão descobrir.</default>
@@ -52,19 +52,19 @@
 		<default>Se me matarem, não vai morrer.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>E por isso vou deixar te matarem!</default>
+		<irony>E por isso vou deixar te matarem!</irony>
 	</talk>
 	<talk character="Tereza">
-		<default>Está mesmo preocupado comigo?</default>
+		<default>Tá mesmo preocupado comigo?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Pára de enrolação e vamos logo.</default>
 	</talk>
 	<teller>
-		<default>Eles saem. Chegam à casa de Mel e Angely.</default>
+		<default>Saem. Pegam um carro. Param em frente e MEAK.</default>
 	</teller>
 	<talk character="Tereza">
-		<default>Está louco, ela te entregou!</default>
+		<default>Tá louco?! Ela te entregou!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Mas vai te proteger. Vamos falar pra ela que o feitiço não tem jeito de ser tirado.</default>
@@ -82,12 +82,16 @@
 		<default>É a única saída que sei.</default>
 	</talk>
 	<teller>
-		<default>Ele toca a campainha.</default>
+		<default>Zenon sai do carro. Tereza segue. Zenon toca a campainha.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Já vai...</default>
-		<teller>abre a porta</teller>
-		<default>Achei que já estivesse morto.</default>
+		<out>Já vai...</out>
+	</talk>
+	<teller>
+		<default>A porta se abre.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Achei que já tivesse morrido.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não vai...</default>
@@ -99,7 +103,7 @@
 		<default>Mas Mel acredita.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela já foi muito enganada.</default>
+		<default>Já enganaram demais Mel.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ela está?</default>
@@ -108,47 +112,40 @@
 		<default>Não, mas logo vai saber que conseguiu fugir.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Esta é Tereza.</default>
+		<default>Essa é Tereza.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu sei.</default>
-		<teller>dá passagem</teller>
-		<default>Não pretendem ficar aí do lado de fora, né?</default>
 	</talk>
 	<teller>
-		<default>Os dois entram.</default>
+		<default>Angely sai da frente da porta. Zenon entra. Tereza não.</default>
+	</teller>
+	<talk character="Tereza">
+		<default>Não pretende ficar aí do lado de fora, né?</default>
+	</talk>
+	<teller>
+		<default>Tereza entra.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Mel deve chegar daqui a pouco.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Não vai achar que veio justo pra cá.</default>
+	</talk>
+	<teller>
+		<default>Angely olha para Tereza.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Então, você fala?</default>
-	</talk>
-	<talk character="Tereza">
-		<default>Não muito.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Mel deve chegar daqui à pouco.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ela não vai achar que veio justo pra cá. Parece cansada.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Viemos andando e ela não dorme há muito.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tem um quarto de hóspedes aqui.</default>
+		<default>Quer descansar? Tem um quarto de hóspedes aqui.</default>
 	</talk>
 	<talk character="Tereza">
 		<default>Não precisa, eu...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Acha que eu mordo?</default>
-		<teller>fala e olha pra Zenon</teller>
-		<default>Sem ofensa, Zenon.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Não, tudo bem.</default>
+		<default>A gente não vai te fazer nada.</default>
 	</talk>
 	<teller>
-		<default>Angely leva Tereza até o quarto.</default>
+		<default>Angely sobe a escada. Tereza olha para Zenon. Segue Angely.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Tem cobertor no guarda-roupas, se quiser.</default>
@@ -169,22 +166,22 @@
 		<default>Fiz um feitiço pra ele. Precisava de um livro com vampiros, peguei o do século dezenove. Estava organizado por ordem de transformação, abri bem na página dele.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Queria atrair um vampiro mau?</default>
+		<default>Queria atrair alguém ruim?</default>
 	</talk>
 	<talk character="Tereza">
 		<default>Acho que eu não acreditava que isso realmente existisse.</default>
 	</talk>
 	<teller>
-		<default>Ele vai pra sala, onde está Zenon, olhando um retrato de Mel.</default>
+		<default>Angely vai pra sala. Zenon está com um retrato de Mel nas mãos. Olha para Angely e devolve o retrato na estante.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Agora é só convencer ela que não é mau.</default>
+		<default>Agora é só convencer Mel que não é ruim.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>E tirar esse maldito feitiço.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Quando chegou, Igor já estava morto?</default>
+		<default>Quando chegou, Igor já tava morto?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Já.</default>
@@ -192,28 +189,29 @@
 	<talk character="Angely">
 		<default>Tem certeza?</default>
 	</talk>
+	<teller>
+		<default>Zenon baixa a cabeça.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Não.</default>
-		<teller>baixa a cabeça</teller>
-		<default>Deixei o vampiro matá-lo.</default>
+		<default>Deixei um vampiro matar ele.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Por que?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Eu não sei... Era como se não me importasse com que acontecia com o caça-vampiros. Voltou aquela sensação de indiferença à vida humana...</default>
+		<default>Eu não sei... Era como se não me importasse com que acontecia com o caça-vampiros. Voltou aquela sensação de indiferença a vida humana. Era estranho. Só Tereza importava.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Foi o feitiço.</default>
+		<default>Talvez tenha sido o feitiço.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Temos que tirá-lo. Ela disse que não tem jeito, mas eu tenho certeza que está mentindo.</default>
+		<default>Temos que tirar ele. Ela disse que não tem jeito, mas eu tenho certeza que tá mentindo.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Bom, vai ficar aqui esta noite? É o último lugar onde Mel procuraria.</default>
+		<default>Bom, vai ficar aqui essa noite? É o último lugar onde Mel procuraria.</default>
 	</talk>
 	<teller>
-		<default>Dia seguinte, Mel chega em casa.</default>
+		<first>Manhã. Mel chega.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Você acredita que Zenon fugiu???</default>
@@ -225,22 +223,22 @@
 		<default>Angely, você não...</default>
 	</talk>
 	<teller>
-		<default>Mel sobe a escada e vai até o quarto de hóspedes. Abre a porta e encontra a cama desarrumada. Angely vai atrás dela.</default>
+		<default>Mel sobe a escada e vai até o quarto de hóspedes. Abre a porta e encontra a cama desarrumada. Angely vai atrás.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Onde estão?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não sei, estavam aqui...</default>
+		<default>Não sei, tavam aqui...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Angely, pára de proteger Zenon, ele é um vampiro, um assassino!</default>
+		<default>Angely, pára de proteger Zenon, é vampiro, é assassino!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Te juro que não sei.</default>
 	</talk>
 	<teller>
-		<default>Ela desce e ele novamente a segue.</default>
+		<default>Mel desce e Angely novamente segue.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Mel, você tem que me escutar.</default>
@@ -249,43 +247,43 @@
 		<default>Você é bonzinho demais. Ninguém é como você!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Acredite em mim, ele não é mau!</default>
+		<default>Acredite em mim, Zenon não é mau!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Claro que é!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ele não matou Igor. Tereza sabe que...</default>
+		<default>Não matou Igor. Tereza sabe que...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Foi outra enganada, o libertou!</default>
+		<default>Também se enganou, libertou Zenon!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não, ela não está enganada!</default>
+		<default>Não, não se enganou!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pode ser que não. Afinal, ela fez um feitiço pra chamar ele pra ela... Aliás, eu tenho que agradecer a ela. Não fosse esse bendito feitiço eu não teria descoberto o que Zenon é realmente. Vou agradecer livrando ela dele.</default>
+		<default>Pode ser que não. Afinal, fez um feitiço pra chamar Zenon pra si. Aliás, eu tenho que agradecer. Não fosse esse bendito feitiço eu não teria descoberto o que Zenon é realmente. Vou agradecer livrando Tereza.</default>
 	</talk>
 	<teller>
-		<default>No casarão que era de Lokslay...</default>
+		<first>Casarão.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Detesto quando alguém tem idéia de se esconder aqui.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Melhor não tentar tirá-lo, fica mais forte quando está em transe.</default>
+		<default>Melhor não tentar tirar, fica mais forte quando tá em transe.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por mim jogava ele pela janela agora mesmo.</default>
+		<default>Acha mesmo que não derrubo Zenon? Por mim jogava pela janela agora mesmo.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Claro, então viraria o herói de Mel... Ah, esqueci, ela ia acabar descobrindo que ele é bom.</default>
+		<default>Claro, então viraria o herói de Mel... Ah, esqueci, ia acabar descobrindo que Zenon é bom.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por que Inês tinha que deixá-lo entrar?</default>
+		<default>Por que Inês tinha que deixar entrar?</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Ele é bom e você não. Deveria tê-la matado já.</default>
+		<default>Deveria ter matado ela já.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Por que você não faz isso?</default>
@@ -297,10 +295,10 @@
 		<default>Eu? Não. Pode ficar.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Não tem coragem de matá-la?</default>
+		<default>Não tem coragem de matar Inês?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não é questão de coragem. Não tenho sede quando chego perto dela. Ela com certeza não é humana.</default>
+		<default>Não é questão de coragem. Não tenho sede quando chego perto. Com certeza não é um ser humano.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Tem preconceito contra outros sangues?</default>
@@ -312,7 +310,7 @@
 		<default>Então já bebeu o sangue dela.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Num beijo, uma vez.</default>
+		<default>Do mesmo jeito que já bebi o seu.</default>
 	</talk>
 	<teller>
 		<default>Edmont se levanta.</default>
@@ -330,10 +328,10 @@
 		<default>Não tem saída pro subterrâneo. Posso mesmo ficar com Inês?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Espere Zenon ir embora. É bem capaz dele te matar se fizer isso na frente dele. Vou dormir pra não morrer de tédio.</default>
+		<default>Espere Zenon ir embora. É bem capaz de te matar se te ver fazer isso. Vou dormir pra não morrer de tédio.</default>
 	</talk>
 	<teller>
-		<default>Ele vai pra um dos quartos. Zenon está em outro, do mesmo jeito que ficou quando estava cercado por Igor e Alex: olhos brancos, caninos maiores que o normal. Beatrice entra no quarto. Ele rosna.</default>
+		<default>Edmont vai pra um dos quartos. Zenon está em outro, do mesmo jeito que ficou quando estava cercado por Igor e Alex: olhos brancos, caninos maiores que o normal. Beatrice entra no quarto. Zenon rosna.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Não se preocupe, não vim fazer nada contra sua protegida.</default>
@@ -345,7 +343,7 @@
 		<default>Desde quando me nega assim?</default>
 	</talk>
 	<teller>
-		<default>Beatrice se aproxima dele e ele a afasta.</default>
+		<default>Beatrice se aproxima de Zenon. Zenon dá um passo para trás.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Qual o problema, acha que ela vai ficar com ciúmes? Ah, não, já sei, não é uma cena pra menor de idade presenciar.</default>
@@ -354,7 +352,7 @@
 		<default>Se você estivesse viva teria apenas dois anos a mais que ela.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Elian usou de magia e ciência pra fazer com que eu completasse a maioridade mais cedo.</default>
+		<default>Meu corpo cresce mais rápido.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Mas não adiantou nada, ainda age como uma criança.</default>
@@ -372,7 +370,7 @@
 		<default>Vai visitar ela no inferno.</default>
 	</talk>
 	<teller>
-		<default>Ela sai do quarto. Zenon se aproxima de Tereza, que dormia ainda. Ela acorda.</default>
+		<default>Beatrice sai do quarto. Zenon se aproxima de Tereza. Tereza abre os olhos.</default>
 	</teller>
 	<talk character="Tereza">
 		<default>Onde estamos?</default>
@@ -386,11 +384,8 @@
 	<talk character="Zenon">
 		<default>Precisa sim.</default>
 	</talk>
-	<teller>
-		<default>Tereza lembra: "Que venhas para perto e me leves para longe".</default>
-	</teller>
 	<talk character="Tereza">
-		<default>É o feitiço...</default>
+		<default>"Que venhas para perto e me leves para longe". É o feitiço...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Você fez. Você quis. E ainda quer.</default>
@@ -405,6 +400,6 @@
 		<default>Então você sabe qual é...</default>
 	</talk>
 	<teller>
-		<default>Ele se abaixa perto dela e a beija. Deita-se em cima dela.</default>
+		<default>Zenon se abaixa perto de Tereza e beija Tereza. Vira Tereza de costas para si, deita e abraça Tereza.</default>
 	</teller>
 </story>
