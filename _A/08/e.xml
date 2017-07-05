@@ -1,6 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="08" scene="e">
 	<teller>
+		<default>Entardece. Na casa de Kat...</default>
+	</teller>
+	<talk character="Kat">
+		<default>Aurium... Onde é que você se enfiou?!</default>
+	</talk>
+	<teller>
+		<default>Aurium pega um bloco de folhas e entrega à Kat:</default>
+		<letter>Roupas para um cara de 18 anos</letter>
+	</teller>
+	<talk character="Kat">
+		<default>Pra que?!</default>
+	</talk>
+	<teller>
+		<default>Ele senta e fica olhando pra ela.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Melhor irmos falar com os outros.</default>
+	</talk>
+	<teller>
+		<default>Kat pega a coleira, Aurium puxa da mão dela e guarda.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Tá legal.</default>
+	</talk>
+	<teller>
 		<default>Eles vão até a casa dos três.</default>
 	</teller>
 	<talk character="Kat">
@@ -16,7 +41,7 @@
 		<default>Kat entrega o bloco a Edmont.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Não... Angely, Mel, venham cá.</default>
+		<default>Não... Angely, Mel!</default>
 	</talk>
 	<teller>
 		<default>Mel sai da cozinha e Angely desce a escada.</default>
@@ -37,7 +62,7 @@
 		<default>Jak!</default>
 	</talk>
 	<talk character="Jak">
-		<default>Ei, não sou surdo.</default>
+		<arrive>Ei, não sou surdo.</arrive>
 	</talk>
 	<talk character="Edmont">
 		<default>Foi você quem...</default>
@@ -57,6 +82,9 @@
 	<talk character="Kat">
 		<default>Ele não fala.</default>
 	</talk>
+	<talk character="Edmont">
+		<default>Também não deveria saber escrever. Nem virar um pássaro.</default>
+	</talk>
 	<talk character="Angely">
 		<default>Eu acho que eu tenho uma roupa que talvez vá servir.</default>
 	</talk>
@@ -73,7 +101,7 @@
 		<default>Angely pega uma roupa. Aurium carrega a roupa pro banheiro e fecha a porta.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Que ele vai fazer??? Vestir a roupa???</default>
+		<default>Que ele vai fazer? Vestir a roupa?!</default>
 	</talk>
 	<talk character="Jak">
 		<default>Não duvide.</default>
@@ -82,10 +110,10 @@
 		<default>A porta do banheiro abre.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Derik???</default>
+		<default>Derik?!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Que bom que não falou Aurium.</default>
+		<default>Tão bom ser chamado pelo meu nome...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não pode ser...</default>
@@ -97,19 +125,21 @@
 		<default>Seu cachorro!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Mais ou menos.</default>
+		<default>Parte do tempo só.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Pensei que só pudesse ser cachorro e pássaro.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não, eu posso virar cachorro e pássaro, ser mesmo, sou humano.</default>
+		<default>Não, eu posso </default>
+		<frizz>virar</frizz>
+		<default>cachorro e pássaro. Ser mesmo, sou humano.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Beijei um tomba saco... Acho que vou vomitar...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ei, xinga, mas não ofende!</default>
+		<default>Sempre fui limpinho...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Que os pássaros comem?</default>
@@ -150,7 +180,7 @@
 		<default>Angely e Edmont olham pra Mel. Jak desaparece.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Bom, acho que vou terminar de limpar a casa...</default>
+		<default>Acho que vou terminar de limpar a casa.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Se você limpar mais a casa que já limpou, vai gastar o chão e os móveis.</default>
@@ -183,37 +213,43 @@
 		<default>Meu pai?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele era casado.</default>
+		<default>Ele... Teve outras mulheres antes da sua mãe...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ele tinha algum outro filho?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele foi casado com uma mulher, mas largou ela grávida pra ficar com a sua mãe. Nilrem, o conselheiro dele, ficou com pena e levou ela pra casa, dizendo que a filha era dele.</default>
+		<default>Uma mulher ficou grávida. Fizeram o teste para saber se era dele, mas achei indícios de que o teste foi alterado...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Era você.</default>
 	</talk>
 	<teller>
-		<default>Mel baixa a cabeça. Edmont sai do quarto.</default>
+		<default>Mel baixa a cabeça.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Por que demorou tanto pra contar?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pensei que ele fosse me odiar por isso.</default>
+		<default>Não sabia se iam entender...</default>
 	</talk>
 	<teller>
 		<default>Angely abraça Mel.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Ele vai entender.</default>
-	</talk>
 	<talk character="Mel">
-		<default>Obrigado.</default>
+		<default>Eu queria refazer, mas Nilrem não deixou. Modret disse que me consideraria como filha de qualquer jeito. Eu preferi não contrariar o Nilrem.</default>
 	</talk>
 	<teller>
-		<default>Ela sai do quarto. Ele se joga na cama. Depois de algum tempo deitado, ouve novamente a voz. Corre até a varanda.</default>
+		<default>Edmont vai na direção de Mel, mas o relógio dele desperta novamente. Ele olha para os dois e sai. Mel baixa a cabeça.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Ele vai mesmo, não é?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Ainda tenho esperança que não.</default>
+	</talk>
+	<teller>
+		<default>Mel sai. Angely se joga na cama. Ouve novamente a voz. Corre até a varanda.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Meg...</default>
@@ -222,7 +258,7 @@
 		<default>Vem comigo...</default>
 	</talk>
 	<teller>
-		<default>Na frente da casa, Derik e Kat discutem (ou melhor, ela briga com ele).</default>
+		<default>Na frente da casa, Kat briga com Derik.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Não tem desculpa!</default>
@@ -239,9 +275,6 @@
 	<talk character="Kat">
 		<default>Olha aqui, seu vira-lata...</default>
 	</talk>
-	<talk character="Derik">
-		<default>Ei, isso não que eu tenho raça!</default>
-	</talk>
 	<teller>
 		<default>Ele segura o braço dela.</default>
 	</teller>
@@ -255,10 +288,10 @@
 		<default>Que nojo!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Juro que eu nunca coloquei nada na boca enquanto tava em outra forma!</default>
+		<default>Você via, eu não pegava nada do chão! Nem comia comida de cachorro!!!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Duvido!</default>
+		<default>Na minha frente!</default>
 	</talk>
 	<talk character="Derik">
 		<default>É sério!</default>
@@ -267,14 +300,11 @@
 		<default>Sério o ca...</default>
 	</talk>
 	<teller>
-		<default>Derik olha pra varanda, assustado.</default>
+		<default>Derik olha pra varanda, assustado. Kat, que estava de costas pra casa, se vira e vê Angely subir na grade.</default>
 	</teller>
-	<talk character="Derik">
-		<default>Seu irmão...</default>
+	<talk character="Kat">
+		<default>Angely!!!</default>
 	</talk>
-	<teller>
-		<default>Kat, que estava de costas pra casa, se vira e vê Angely subir na grade. Chama, mas ele parece não ouvir.</default>
-	</teller>
 	<talk character="Meg">
 		<default>Vem...</default>
 	</talk>
@@ -288,10 +318,10 @@
 		<default>Mel ouve e vai até a varanda. Puxa Angely, que cai no chão e na realidade.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Que você pensa que tava fazendo???</default>
+		<default>Que você pensa que tava fazendo?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Meg... Onde ela tá???</default>
+		<default>Meg... Onde ela tá?!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Bem longe daqui!</default>
@@ -300,7 +330,7 @@
 		<default>Derik e Kat entram na casa, sobem a escada e vão até a varanda.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Que ele tava fazendo???</default>
+		<default>Que ele tava fazendo?!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Ei, só quem voa aqui sou eu!</default>
@@ -308,20 +338,25 @@
 	<talk character="Angely">
 		<default>Meg...</default>
 	</talk>
-	<teller>
-		<default>Mel se levanta do chão.</default>
-	</teller>
 	<talk character="Mel">
 		<default>Ele pirou!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Percebemos!</default>
 	</talk>
-	<talk character="Mel">
-		<default>Eu contei quem sou, não devia ter...</default>
+	<talk character="Angely">
+		<default>Você é minha irmã, agora a Meg não tem mais motivo pra ter ciúmes...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Do que ela tá falando?</default>
+		<default>A Meg tinha ciúmes de você?</default>
+		<teller>se dirige à Kat</teller>
+		<default>Por que?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Da Mel.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Mas a Mel...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Eu sou meia irmã deles por parte de mãe e ela por parte de pai.</default>
@@ -375,7 +410,7 @@
 		<default>Meg...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Meg não está aqui.</default>
+		<default>A Meg não está aqui.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu sei...</default>
@@ -399,13 +434,13 @@
 		<default>Ela já falou comigo duas vezes, vai vir de novo...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pior que eu tenho que sair.</default>
+		<default>Eu tenho que sair. Por causa do Edmont.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Eu fico aqui com ele.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que bom, obrigado!</default>
+		<default>Obrigado!</default>
 	</talk>
 	<teller>
 		<default>Mel abraça Derik.</default>
@@ -414,7 +449,7 @@
 		<default>De nada.</default>
 	</talk>
 	<teller>
-		<default>Mel sai. 6:00, Derik está sentado na cama, lendo um livro e Angely ainda escreve o nome de Meg. As paredes estão todas escritas.</default>
+		<first>6:00, Derik está sentado na cama, lendo um livro e Angely ainda escreve o nome de Meg. As paredes estão todas escritas.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Tem algum lugar que eu não escrevi ainda?</default>
@@ -435,7 +470,7 @@
 		<default>Kat entra no quarto.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Que isso???</default>
+		<default>Que isso?!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Juro que não fui eu.</default>
@@ -447,13 +482,13 @@
 		<default>Ah, mas bota a culpa de tudo em mim!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele tá escrevendo no teto???</default>
+		<default>Ele tá escrevendo no teto?!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Já arrastou tudo que podia, não tinha mais parede, foi escrever no teto.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Por que você não impediu???</default>
+		<default>Por que você não impediu?!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Nem a casa nem o quarto são meus. Mandaram eu impedir que ele se matasse, não que escrevesse.</default>
@@ -526,7 +561,7 @@
 		<default>Não é pra mim que você tem que perguntar.</default>
 	</talk>
 	<teller>
-		<default>Kat vai atrás de Derik, sem se dar conta que deixou Angely sozinho. Meg aparece novamente.</default>
+		<default>Kat vai atrás de Derik, sem se dar conta que deixou Angely sozinho. Meg aparece novamente. Angely sorri.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Eu sabia que você voltaria...</default>
