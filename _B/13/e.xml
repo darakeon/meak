@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="13" scene="e">
 	<teller>
-		<default>18/07 (sexta), 12:00. Janaína está na sala, conversando com Estela.</default>
+		<default>Dia seguinte. Sol a pino. MEAK. Janaína e Estela estão na sala.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Você não tem mesmo vontade de procurar Etos?</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Não sei. Quando o conheci, era ruim. Se vestia e se portava de forma...</default>
+		<default>Não sei. Quando conheci, era ruim. Se vestia e se portava de forma...</default>
 	</talk>
 	<talk character="Estela">
 		<hushed>Sexy?</hushed>
 	</talk>
 	<teller>
-		<default>Janaína olha para trás. Vê Etos. Está todo de preto, pálido (apesar da boca não parecer morta), fumando e de óculos escuros. Tira os óculos.</default>
+		<default>Janaína olha para trás. Etos está na porta. Etos está de preto, pele mais pálida, de óculos escuros. Está fumando. Tira os óculos.</default>
 	</teller>
 	<talk character="Janaína">
 		<default>Pronto pro puteiro.</default>
@@ -22,7 +22,7 @@
 		<default>Tem um cinzeiro?</default>
 	</talk>
 	<teller>
-		<default>Estela pega um cinzeiro. Ele pega o cinzeiro, fazendo questão de tocar a mão de Estela. Apaga o cigarro. Coloca o cinzeiro de volta no lugar. Guarda o óculos e olha para Estela.</default>
+		<default>Estela vai até o balcão. Pega um cinzeiro e trás para Etos. Etos pega o cinzeiro, tocando a mão de Estela e olhando em seus olhos. Apaga o cigarro. Vai com o cinzeiro até o balcão e pousa. Estela não tira os olhos de Etos. Guarda os óculos no bolso. Olha para Estela.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Tenho uma ótima audição, sabia?</default>
@@ -31,13 +31,13 @@
 		<default>Acho que já sei porque Alete desapareceu.</default>
 	</talk>
 	<talk character="Etos">
-		<default>Ouvi falar que Lish está aqui.</default>
+		<default>Ouvi falar que Lish tá aqui.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Quer dizer Michele.</default>
 	</talk>
 	<talk character="Etos">
-		<default>Michele não me interessa. Estou pensando em me hospedar, doei minha casa para uma ex.</default>
+		<default>Michele não me interessa. Estou pensando em me hospedar, ex ficou com a casa.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Não aceitamos seres como você.</default>
@@ -67,18 +67,37 @@
 		<arrive>Então terá que dar meia-volta.</arrive>
 	</talk>
 	<teller>
-		<default>Etos mede Michele de cima a baixo.</default>
+		<default>Etos olha Michele de cima a baixo. Pisca os olhos devagar.</default>
 	</teller>
 	<talk character="Etos">
-		<default>Paty demais. Cheguei tarde, vou esperar a próxima.</default>
-		<teller>sai</teller>
-		<default>Talvez Aléxis te queira assim.</default>
+		<default>É sério isso?</default>
+	</talk>
+	<teller>
+		<default>Etos aponta Michele de cima a baixo. Michele se olha.</default>
+	</teller>
+	<talk character="Michele">
+		<default>O que que...</default>
+	</talk>
+	<talk character="Etos">
+		<default>Cheguei tarde, vou esperar a próxima.</default>
+	</talk>
+	<teller>
+		<default>Etos sai.</default>
+	</teller>
+	<talk character="Etos">
+		<out>Talvez Aléxis te queira assim.</out>
 	</talk>
 	<talk character="Janaína">
-		<default>Porco!</default>
+		<screamed>Porco!</screamed>
+	</talk>
+	<talk character="Estela">
+		<default>Tarde demais... Ele não...</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Pedofilia?! Não... É o estilo de roupa, Etos detesta.</default>
 	</talk>
 	<talk character="Michele">
-		<default>Tenho impressão que o conheço.</default>
+		<default>Tenho impressão que conheço ele.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Deve ser de algum dos sonhos, os sobre suas encarnações passadas.</default>
@@ -87,11 +106,11 @@
 		<default>Carta pra você.</default>
 	</talk>
 	<teller>
-		<default>Michele entrega um envelope a Estela. Esta sobe. Abre o envelope.</default>
+		<default>Michele entrega um envelope a Estela. Estela sobe. Abre o envelope.</default>
 		<letter>adnil e ecov. rajieb et aireuq.</letter>
-		<default>Ela pega um papel e responde.</default>
+		<default>Estela pega um papel e responde.</default>
 		<letter>azeleb alep os saossep sa ragluj aireved oan.</letter>
-		<default>Manda para o endereço que tem na carta. Continuam se correspondendo.</default>
+		<first>Outras cartas são trocadas.</first>
 		<letter>ogluj oan. arof rop e ortned rop adnil e ecov sam.</letter>
 		<letter>ebas omoc?</letter>
 		<letter>otiej ues.</letter>
@@ -101,9 +120,9 @@
 		<letter>ecov arap uo mim arap oruges?</letter>
 		<letter>siod so arap.</letter>
 		<letter>omoc met oan. recehnoc em reuq es, odanodnaba oiderp o eta av, sera me. resup es los o odnauq aias. ohlepse ednarg mu ehca.</letter>
-		<default>25/07 (sexta), 20:00. Estela vai até o prédio. Seguindo as instruções, ela procura um grande espelho. Quando encontra, no chão à frente do espelho:</default>
+		<first>Uma semana depois. Noite. Estela vai até o prédio. Anda pelo prédio. Chega a uma sala com um grande espelho. Um papel no chão.</first>
 		<letter>eriv es oan.</letter>
-		<default>Há também uma mesinha com um pano preto.</default>
+		<default>Ao lado, uma mesinha, com um pano preto.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Por que?</default>
@@ -118,7 +137,7 @@
 		<default>Veio aqui por curiosidade. Respondeu por curiosidade. Gosto de curiosidade. Eu queria te ver de perto.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Quem sabe se não sou uma amiga da pessoa com quem tava falando?</default>
+		<default>Como sabe se não sou uma amiga da pessoa com quem tava falando?</default>
 	</talk>
 	<talk character="Guilherme">
 		<default>Te encontrei. Como acha que mandei carta?</default>
@@ -145,43 +164,51 @@
 		<default>Por que não quer que eu te veja?</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Já cansei de enganar com a aparência.</default>
+		<default>Já cansei de enganar com aparência.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Pra mim você tem algum segredo.</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Que seja. Coloque a venda.</default>
+		<default>Que seja. Coloca venda.</default>
 	</talk>
 	<teller>
-		<default>Ela coloca a venda. Guilherme puxa uma corda e cai uma cortina preta, tapando a luz que vem de fora. Risca um fósforo e o joga em algo grande em forma de uma taça, que acende. Ela se assusta e se vira, por causa do barulho. Guilherme a rodeia. Pára atrás dela. Puxa o cabelo dela pra um lado só.</default>
+		<default>Estela coloca a venda. Guilherme puxa uma corda e cai uma cortina preta, tapando a luz que vem de fora. Risca um fósforo e o joga em algo grande em forma de uma taça, que acende. Estela se vira. Guilherme rodeia Estela. Para atrás de Estela. Puxa o cabelo para um lado.</default>
 	</teller>
 	<talk character="Estela">
-		<default>Que está fazendo?</default>
+		<default>Que tá fazendo?</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Está com medo de mim?</default>
+		<default>Tá com medo de mim?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Por que estaria?</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Não está frio aqui.</default>
+		<default>Não tá frio aqui.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Que isso tem a ver?</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Você está tremendo.</default>
+		<default>Você tá tremendo.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Eu? Tremendo?</default>
 	</talk>
 	<talk character="Guilherme">
 		<default>Não precisa...</default>
-		<teller>beija o pescoço dela</teller>
+	</talk>
+	<teller>
+		<default>Guilherme beija o pescoço de Estela.</default>
+	</teller>
+	<talk character="Guilherme">
 		<default>Não vou te machucar...</default>
-		<teller>ela se afasta, ficando de frente pra ele</teller>
+	</talk>
+	<teller>
+		<default>Estela se afasta, ficando de frente para Guilherme.</default>
+	</teller>
+	<talk character="Guilherme">
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Estela">
@@ -194,7 +221,7 @@
 		<default>Eu é que vou!</default>
 	</talk>
 	<teller>
-		<default>Guilherme a encosta na parede, segurando-lhe os pulsos.</default>
+		<default>Guilherme encosta Estela na parede, segurando-lhe os pulsos.</default>
 	</teller>
 	<talk character="Guilherme">
 		<default>Não vai, não.</default>
@@ -203,15 +230,22 @@
 		<default>Solta!</default>
 	</talk>
 	<teller>
-		<default>Ele a beija.</default>
+		<default>Guilherme chega perto do rosto de Estela. Estela beija Guilherme. Guilherme corresponde. Guilherme afasta o rosto, soltando do beijo.</default>
 	</teller>
 	<talk character="Guilherme">
 		<default>Agora eu vou deixar você ir.</default>
-		<teller>beija o pescoço dela de novo</teller>
+	</talk>
+	<teller>
+		<default>Guilherme beija o pescoço de Estela.</default>
+	</teller>
+	<talk character="Guilherme">
 		<default>Mas não pensa que eu desisti. Eu volto.</default>
 	</talk>
 	<teller>
-		<default>Guilherme solta Estela. Então ela tira a venda e não o vê. Joga a venda no fogo. Volta para a MEAK. Zenon está saindo quando ela está entrando. Segura-lhe o braço.</default>
+		<default>Guilherme solta Estela. Estela tira a venda. Olha ao redor. Vazio. Joga a venda no fogo.</default>
+	</teller>
+	<teller>
+		<first>MEAK. Estela passa pela porta quando Zenon está saindo. Zenon segura Estela pelo braço.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Onde tava???</default>
@@ -223,10 +257,16 @@
 		<default>Você tá com um cheiro que não gostei.</default>
 	</talk>
 	<talk character="Estela">
-		<default>E daí??? Você não é nada meu, não tem que gostar do meu cheiro... Tá tão ruim assim? Vim andando de Ares...</default>
+		<default>E daí??? Você não é nada meu, não tem que gostar do meu cheiro!!!</default>
+	</talk>
+	<teller>
+		<default>Estela se cheira.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Tá tão ruim assim? Vim andando de Ares...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não é isso. Conhece um cara chamado Guilherme?</default>
+		<default>Não é isso... Conhece um cara chamado Guilherme?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não.</default>
@@ -234,13 +274,20 @@
 	<talk character="Zenon">
 		<default>E alguém que você não sabe o nome te agarrou?</default>
 	</talk>
+	<teller>
+		<default>Estela arregala os olhos.</default>
+	</teller>
 	<talk character="Estela">
 		<default>Claro que não!</default>
-		<teller>se faz soltar</teller>
+	</talk>
+	<teller>
+		<default>Estela puxa o próprio braço, fazendo soltar.</default>
+	</teller>
+	<talk character="Estela">
 		<default>Acha que sou tão oferecida a ponto de qualquer um sair me agarrando assim?!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não é isso. O cheiro dele tá em você.</default>
+		<default>Não é isso. Na verdade, não precisa ser oferecida pra alguém fazer isso... Enfim... O cheiro dele tá em você.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Tá ficando louco. Imagina, eu, com cheiro de homem!</default>
@@ -249,22 +296,40 @@
 		<default>Você é lésbica?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Não! Só sabe interpretar coisa errada! Tenho 14 anos! Seu pervertido!</default>
+		<default>Não! Só sabe interpretar coisa errada! Tenho 16 anos! Seu pervertido!</default>
 	</talk>
 	<teller>
-		<default>Estela vai para o seu quarto. Deita em sua cama e lembra de Guilherme beijando-lhe o pescoço. Janaína entra no quarto.</default>
+		<default>Estela sobe correndo.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Vixi. 16 anos e acha que obrigatoriamente não deveria ter sexualidade ainda. Bem que Mel podia estar aqui.</default>
+	</talk>
+	<teller>
+		<default>Olha para o nada.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Bom Kat está.</default>
+	</talk>
+	<teller>
+		<default>Estela entra no quarto. Olha o espelho. Toca o pescoço.</default>
 	</teller>
 	<talk character="Janaína">
-		<default>Acho que estamos quase legalizando tudo.</default>
+		<arrive>Acho que estamos quase legalizando tudo.</arrive>
+	</talk>
+	<teller>
+		<default>Estela vira bruscamente.</default>
+	</teller>
+	<talk character="Janaína">
+		<default>Que foi?</default>
 	</talk>
 	<talk character="Estela">
-		<default>E Derik?</default>
+		<default>Nada. Assustei. Chegou de repente. E Derik?</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Já encomendou o material para o quartinho. Zenon disse que tava preocupado com você.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Ele diz que sentiu o cheiro de um tal Guilherme em mim. Acho que tá obcecado, é o tal que a Bea não o deixou matar.</default>
+		<default>Ele diz que sentiu o cheiro de um tal Guilherme em mim. Acho que tá obcecado, é o tal que a Bea não deixou ele matar.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Ah, sim...</default>
@@ -276,22 +341,22 @@
 		<default>Mas cheiro de algum homem você deve estar.</default>
 	</talk>
 	<teller>
-		<default>Janaína se senta na cama de Estela. Esta pega as cartas que recebera e entrega para a outra.</default>
+		<default>Janaína se senta na cama de Estela. Estela respira fundo. Abre uma gaveta e pega as cartas. Entrega para Janaína. Janaína olha. Folheia.</default>
 	</teller>
 	<talk character="Janaína">
 		<default>Não tô entendendo nada.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Lê ao contrário.</default>
+		<default>Lê ao contrário as frases, mas não inverte elas no parágrafo.</default>
 	</talk>
 	<teller>
-		<default>Ela olha de novo.</default>
+		<default>Janaína volta a olhar. Lê cada uma. Olha para Estela. </default>
 	</teller>
 	<talk character="Janaína">
 		<default>Anda se correspondendo com alguém que não conhece?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Fui vê-lo hoje.</default>
+		<default>Fui ver ele hoje.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Sério?! Qual o nome dele?</default>
@@ -341,34 +406,62 @@
 	<talk character="Estela">
 		<default>Talvez. Mas eu tenho que me soltar mais. Não posso ficar esperando o príncipe encantado do cavalo branco.</default>
 	</talk>
+	<teller>
+		<default>Janaína da um sorriso.</default>
+	</teller>
 	<talk character="Janaína">
-		<default>Mas o Alan não é...</default>
-		<teller>Estela a encara</teller>
+		<default>Bom, o Alan não é...</default>
+	</talk>
+	<teller>
+		<default>Estela cruza os braços e encara Janaína. Janaína desfaz o sorriso. Olha para as cartas.</default>
+	</teller>
+	<talk character="Janaína">
 		<default>Também não precisa ir com o primeiro sapo.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Eu me sinto tão sozinha, entende? Não, ficou com Etos, você com certeza teria quem quisesse...</default>
+		<default>É que me sinto tão sozinha, entende?</default>
+	</talk>
+	<teller>
+		<default>Estela descruza os braços e olha para baixo.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Não, ficou com Etos, você com certeza teria quem quisesse...</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Nem sempre é tão fácil assim.</default>
 	</talk>
+	<teller>
+		<default>Estela olha para Janaína.</default>
+	</teller>
 	<talk character="Estela">
 		<default>Ele me quer.</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Mal o conhece!</default>
+		<default>Mal conhece ele!</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não disse que vou com ele, disse que me quer. É bom se sentir assim.</default>
 	</talk>
 	<talk character="Janaína">
-		<default>E Rob... Quer dizer, Angely...</default>
+		<default>Teve Rob...</default>
 	</talk>
 	<teller>
 		<default>Estela a encara.</default>
 	</teller>
 	<talk character="Janaína">
-		<default>Você tem 14 anos, é quase pedofilia.</default>
+		<default>Bom, Angely...</default>
+	</talk>
+	<teller>
+		<default>Estela cruza os braços de novo.</default>
+	</teller>
+	<talk character="Janaína">
+		<default>Você tem 16 anos. Ele tem quantos? Centenas?</default>
+	</talk>
+	<talk character="Estela">
+		<irony>É, porque ninguém nesse quarto nunca fez isso.</irony>
+	</talk>
+	<talk character="Janaína">
+		<default>E viu no que deu.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não pretendo transar com ele. Não agora.</default>
@@ -386,7 +479,7 @@
 		<default>Tava escutando atrás da porta?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Sumiu. Ninguém sabe onde está. Com certeza está aprontando.</default>
+		<default>Sumiu. Ninguém sabe onde tá. Com certeza tá aprontando.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Por que acha que é?</default>
