@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="09" scene="g">
 	<teller>
-		<default>Chega em casa. Encontra os dois na sala.</default>
+		<default>MEAK. Beatrice chega. Zenon e Alan estão na sala.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Cadê a Mel?</default>
@@ -13,7 +13,7 @@
 		<default>Não.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Algum recado? Sou a garota dos recados, esqueceram?</default>
+		<default>Algum recado? Sou a pessoa dos recados, esqueceram?</default>
 	</talk>
 	<teller>
 		<default>Alan e Zenon se entreolham. Zenon olha para Beatrice.</default>
@@ -25,7 +25,7 @@
 		<default>Mudei de idéia, vocês dão a notícia!</default>
 	</talk>
 	<teller>
-		<default>Beatrice vai sair, mas Zenon lhe segura o braço.</default>
+		<default>Beatrice vira. Zenon segura o braço de Beatrice.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Por favor.</default>
@@ -34,31 +34,37 @@
 		<default>Tá. Mas por quê vão fazer isso?</default>
 	</talk>
 	<talk character="Alan">
-		<default>Pra poder segurá-la.</default>
+		<default>Pra poder segurar ele.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Disso a Mel vai gostar. Vão logo!</default>
+		<default>Disso Mel vai gostar.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Vou com vocês!</default>
+		<out>Vou com vocês!</out>
 	</talk>
 	<teller>
 		<default>Kat entra na sala.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Quero falar com a Michele.</default>
+		<default>Quero falar com Michele.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Disso ela não vai gostar.</default>
+		<default>Disso Mel não vai gostar.</default>
 	</talk>
 	<teller>
-		<default>Os três saem. Mel chega à casa de Michele. Entra no quarto dela.</default>
+		<default>Kat encara Beatrice. Kat, Zenon e Alan saem.</default>
+	</teller>
+	<teller>
+		<first>Casa de Michele. Michele está na cama.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Dormindo? Já? Não era para estar treinando?</default>
+		<arrive>Dormindo? Já? Não era para estar treinando?</arrive>
 	</talk>
 	<teller>
-		<default>Michele se levanta. Zenon e Alan estão andando e alguém puxa Kat. Eles não vêem. Ela se debate e é jogada no chão.</default>
+		<default>Michele se levanta.</default>
+	</teller>
+	<teller>
+		<first>Kat, Zenon e Alan estão andando. Alguém puxa Kat. Zenon e Alan continuam, sem notar. Kat se debate, a pessoa joga Kat no chão. Kat olha: é Edmont.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Mel comprou uma arma nova.</default>
@@ -67,69 +73,76 @@
 		<default>E o que você tem a ver com isso?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Eu nada. Mas Michele tem. Arma nova é um costume atlante quando o inimigo é muito odiado. É tudo que tenho a dizer.</default>
+		<default>Eu nada. Mas Michele tem. Arma nova é um costume atlante quando o inimigo é muito odiado.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Por que está fazendo isso?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não é a hora certa dela matar a pessoa errada. Ainda.</default>
+		<default>Não é a hora certa de Mel matar a pessoa errada. Ainda.</default>
 	</talk>
 	<teller>
-		<default>Kat sai. Vai correndo até a casa de Michele. Encontra Michele e Mel lutando. Não consegue fazer nada.</default>
+		<default>Kat sai. Corre. Vê Zenon e Alan. Para. Vai por outro lado. Atravessa a ponte entre Hera e Ares. Chega a casa de Michele. Mel e Michele estão no jardim. Michele está com uma espada também, ofegante. Mel gira a espada no ar.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Mãe...</default>
+		<default>Mel...</default>
 	</talk>
 	<teller>
-		<default>Não parece ter nenhuma delas vencendo, mas Michele está mais cansada. Kat pega o celular e liga para casa. Mel encurrala Michele, apontando a espada para ela.</default>
+		<default>Kat olha para Mel, então para Michele. Volta a olhar para Mel. Kat pega o celular. Mel ataca com a espada, Michele defende, Mel chuta Michele. A espada cai longe. Michele levanta, Mel coloca a ponta da espada embaixo do queixo de Michele.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Me diz a verdade, achou que esse seu treinamentozinho de bosta, esse cursinho intensivo "aprenda a lutar em uma semana" ia me vencer??? Eu também não sou humana e devia ter lembrado disso antes de me atacar. Acha que só porque foi a primeira vampira pode me derrubar? E digo só mesmo! Porque, perto do que eu sou, isso é absolutamente nada!</default>
+		<default>Me diz a verdade, achou que esse seu treinamentozinho de bosta, esse cursinho intensivo "aprenda a lutar em uma semana", ia me vencer? Eu também não sou um ser humano, e devia ter lembrado disso antes de me atacar. Acha que só porque foi a origem vampir pode me derrubar? Perto do que eu sou, isso é absolutamente nada.</default>
 	</talk>
 	<teller>
-		<default>Com uma corrente, Kat arranca a espada de Mel.</default>
+		<default>Uma corrente arranca a espada de Mel. Mel olha para o lado. Kat está com a corrente.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Andou treinando?</default>
 	</talk>
 	<talk character="Kat">
-		<default>De noite. Michele me treina, com o que os dois ensinam.</default>
+		<default>De noite. Michele me treina, com o que ensinam.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Qual o problema??? Acha que não posso te proteger???</default>
+		<default>Qual o problema? Acha que não posso te proteger?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não é isso.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Droga, será que não entende que eu não quero você lutando??? Se você aprender a lutar, vai querer lutar sempre, proteger outras pessoas e eu não quero você lutando!</default>
+		<default>Droga, será que não entende que eu não quero você lutando?! Se você aprender a lutar, vai querer lutar sempre, proteger outras pessoas e eu não quero você lutando!!!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não vai poder me proteger pra sempre.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vou! Vou sim! Se eu morrer, eu volto pra te proteger! Será que não entende que eu sou mais forte??? O que tá na sua mão direita, tá na minha esquerda, eu vou viver mais e não morro assim tão fácil! Será que ainda não entendeu que você é tudo que eu tenho??? Já perdi filho demais, não quero perder você também...</default>
+		<default>Vou! Vou sim! Se eu morrer, eu volto pra te proteger! Será que não entende que eu sou mais forte?! O que tá na sua mão direita, tá na minha esquerda, não morro assim tão fácil! Será que ainda não entendeu que você é tudo que eu tenho?! Já perdi cria demais, não quero perder você também!!!</default>
 	</talk>
 	<teller>
-		<default>Kat abraça Mel.</default>
+		<default>Michele engole seco. Kat solta a corrente, vai até Mel e abraça.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Não vai me perder. Não vai.</default>
 	</talk>
 	<teller>
-		<default>Elas chegam em casa. Derik olha para Kat.</default>
+		<first>MEAK. Mel e Kat entram. Derik olha para Kat.</first>
 	</teller>
 	<talk character="Kat">
-		<default>Michele está viva.</default>
+		<default>Michele vive.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Isso é ótimo.</default>
-		<teller>olha para Mel</teller>
-		<default>Não queria que nada acontecesse com você por causa daquela egocentrista.</default>
 	</talk>
 	<teller>
-		<default>Estela abraça Mel. Kat e Derik fazem o mesmo. 06/05 (terça), 19:00. Kat e Estela voltam felizes.</default>
+		<default>Derik olha para Mel.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Não queria que nada acontecesse com você por causa daquela pessoa.</default>
+	</talk>
+	<teller>
+		<default>Estela vai em direção a Mel e abraça. Derik vai também, abraçando junto. Kat sorri.</default>
+	</teller>
+	<teller>
+		<first>Dias depois. Noite. Kat e Estela entram em casa. Sorrisos.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Nossa, como estão...</default>
@@ -141,54 +154,66 @@
 		<default>Eu não duvidava.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Segunda à quinta, das 14:00 às 21:00! E com um bom salário!</default>
+		<default>Segunda a quinta, das 14:00 às 21:00! E com um bom salário!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Por que não sexta?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele disse que acontecem coisas na sexta e, como não somos treinadas, melhor ele arranjar outros pra cuidar na sexta e no fim de semana.</default>
+		<default>Douglas disse que acontecem coisas na sexta e, como não temos treinamento, melhor arranjar outros pra cuidar na sexta e no fim de semana.</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Derik">
 		<default>Zenon e Alan.</default>
 	</talk>
 	<teller>
-		<default>Os dois chegam. Alan está com um grande sorriso.</default>
+		<default>Zenon e Alan chegam. Alan está com um grande sorriso. Derik olha pro teto.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Arranjou bico de garoto propaganda de dentista?</default>
+	<talk character="Derik">
+		<default>Um milhão de reais?</default>
 	</talk>
-	<talk character="Zenon">
-		<default>Não. O grupo aceitou que treinemos Michele.</default>
+	<teller>
+		<default>Zenon franze a sobrancelha.</default>
+	</teller>
+	<talk character="Derik">
+		<default>É, não deu.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Arranjou bico pra fazer propaganda de dentista?</default>
+	</talk>
+	<talk character="Alan">
+		<default>O grupo aceitou que treinemos Michele.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Por quê?</default>
 	</talk>
-	<talk character="Alan">
-		<default>Ela não aceitou outros.</default>
-	</talk>
 	<talk character="Zenon">
-		<default>E podemos ficar de olho nela.</default>
+		<default>Ela não aceitou outros. Podemos ficar de olho nela.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Isso sim é um bom motivo.</default>
+		<default>Isso sim é um bom motivo pra sorrir.</default>
 	</talk>
 	<teller>
-		<default>Mais tarde, Alan e Zenon estão sentados, em silêncio. Então...</default>
+		<default>Zenon e Alan sobem para o quarto. Zenon deita na cama de cima, Alan na de baixo.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Zenon, acha mesmo que não devemos falar com elas sobre Alete?</default>
+		<default>Zenon?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Sim?</default>
+	</talk>
+	<talk character="Alan">
+		<default>Acha mesmo que não devemos falar com elas sobre Alete?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Temos que resolver isso sozinhos.</default>
 	</talk>
 	<teller>
-		<default>Noutro lugar, Beatrice está num quarto. Liga um gravador.</default>
+		<default>Casa de Beatrice e Angely. Quarto. Beatrice está na janela. Tira o celular do bolso. Abre um aplicativo de reprodução. Arrasta até um cinco sextos. Coloca para tocar.</default>
 	</teller>
 	<talk character="Michele">
-		<default>É, fiz. Mas está vivo e meu serviço foi limpo.</default>
+		<out>É, fiz. Mas está vivo e meu serviço foi limpo.</out>
 	</talk>
-	<talk character="Bea">
-		<default>Tonta.</default>
-	</talk>
+	<teller>
+		<default>O aplicativo para. Beatrice guarda o celular no bolso. Sorri.</default>
+	</teller>
 </story>
