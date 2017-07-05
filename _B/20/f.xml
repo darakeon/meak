@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="20" scene="f">
 	<teller>
-		<default>Ela respira fundo. Olha pro teto. Volta a olhar para Angely.</default>
+		<default>Shy respira fundo. Olha para o teto. Olha para Angely.</default>
 	</teller>
 	<talk character="Shy">
 		<default>Existiram outros vampiros. Nada que tenha se reproduzido como é hoje, como são os filhos de Andrews, mas existiram. Por isso tantas lendas em tantos lugares. Padoi foi um deles. Ele que levou César a fazer o que fez.</default>
 	</talk>
 	<talk character="Ang">
-		<default>E como ele foi preso?</default>
+		<default>E como prenderam?</default>
 	</talk>
 	<talk character="Shy">
 		<default>César juntou todas as versões dele e aprisionou.</default>
@@ -22,10 +22,10 @@
 		<default>Como sabe disso?</default>
 	</talk>
 	<talk character="Shy">
-		<default>Ele sentiu tontura porque leu coisa demais. Não leu isso?</default>
+		<default>O Tioure sentiu tontura porque leu coisa demais. Não leu isso?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ele sentiu tontura porque leu sua morte. Da primeira vida.</default>
+		<default>Sentiu tontura porque leu sua morte. Da primeira vida.</default>
 	</talk>
 	<talk character="Shy">
 		<default>Foi Padoi. Só isso que ele leu sobre o desgraçado?</default>
@@ -34,19 +34,22 @@
 		<default>Sim.</default>
 	</talk>
 	<talk character="Shy">
-		<default>Foi em outra vida minha que eu soube o que tinha acontecido, o que César tinha feito. Vão matá-lo?</default>
+		<default>Foi em outra vida minha que eu soube o que tinha acontecido, o que César tinha feito. Vão matar ele?</default>
 	</talk>
 	<talk character="Edmont">
 		<arrive>Talvez um caminho mais direto.</arrive>
 	</talk>
+	<teller>
+		<default>Shy olha para Edmont.</default>
+	</teller>
 	<talk character="Shy">
-		<default>Ele precisa matar quem está profetizado para matá-lo.</default>
+		<default>Padoi precisa matar quem está profetizado para matar ele.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Nos contaram...</default>
+		<default>Nos contaram.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Como se mata ele? Só caso nosso plano não funcione.</default>
+		<default>Como se mata Padoi? Só caso nosso plano não funcione.</default>
 	</talk>
 	<talk character="Shy">
 		<default>Fora a pessoa da profecia, só um primeiro vampiro. Até onde sei, estão todos mortos.</default>
@@ -61,16 +64,19 @@
 		<default>Caso seja a pessoa que está destinada, o que tem que fazer?</default>
 	</talk>
 	<talk character="Shy">
-		<default>Em qualquer dos casos, tem que beber o sangue dele.</default>
+		<default>Em qualquer dos casos, tem que beber todo o sangue dele.</default>
 	</talk>
 	<talk character="Ang">
-		<default>E pra isso teria que derrubá-lo.</default>
+		<default>E pra isso teria que derrubar Padoi.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>É, não. Bora?</default>
 	</talk>
 	<teller>
-		<default>Edmont sai. Angely chega ao hotel. Entra no quarto de Melody.</default>
+		<default>Edmont sai. Angely baixa a cabeça.</default>
+	</teller>
+	<teller>
+		<first>Angely chega ao hotel. Entra no quarto. Melody está olhando pela janela.</first>
 	</teller>
 	<talk character="Ang">
 		<default>Preciso falar com você.</default>
@@ -79,56 +85,47 @@
 		<default>Fale.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Talvez ele vá atrás de Katerine.</default>
+		<default>Talvez vá atrás de Kat.</default>
 	</talk>
+	<teller>
+		<default>Mel olha para Angely.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Desconfiamos que ela seja sua filha também.</default>
+		<default>Padoi largou Glória para trás. Não tentou impedir que corresse.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Do que tá falando?</default>
+		<default>E eu tive outra criança.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Quem foi, Mel? Quem era o pai da criança?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não quero falar disso.</default>
-	</talk>
-	<talk character="Ang">
-		<default>E se a vida da Katerine depender disso?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não interessa quem era o pai, porque desconfiam...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Achamos que trocaram o seu bebê com o da nossa mãe, que esse sim teria nascido morto.</default>
-	</talk>
-	<talk character="Mel">
-		<irony>Quer dizer que não é a primeira vez que isso acontece comigo? Que sorte a minha!</irony>
-	</talk>
-	<talk character="Ang">
-		<default>Se acalma. As duas estão vivas, se for isso.</default>
+		<default>Mas não sabemos se Padoi sabe disso.</default>
 	</talk>
 	<teller>
-		<default>Ela respira fundo, com raiva.</default>
+		<default>Mel olha pela janela. Vira para Angely.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Vamos voltar?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Podemos tentar pegá-lo aqui...</default>
+		<default>Podemos tentar pegar aqui...</default>
 	</talk>
 	<teller>
-		<default>Um barulho agudo. Uma luz. Os dois se entreolham. Edmont entra.</default>
+		<default>Um barulho agudo. Mel tampa os ouvidos. Uma luz intensa entra pela janela. Passa. Mel olha para a janela. Olha para a porta. Edmont entra.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Não vamos pegá-lo aqui.</default>
+		<default>Já era.</default>
 	</talk>
 	<teller>
-		<default>No templo, todos estão reunidos, incluindo as crianças de Dancan.</default>
+		<first>Templo. Mel, Angely, Edmont, Fábio, Trinity, Rob, Glória, Buí, Dearg, Dubh, Groc, Vermell e Negre. Mel olha ao redor.</first>
 	</teller>
+	<talk character="Fábio">
+		<default>A gente vai ter que passar por um monte de Realidades de novo?</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Padoi forçou a ligação dessa Realidade com a sua.</default>
+	</talk>
 	<talk character="Mel">
 		<default>Droga.</default>
 	</talk>
@@ -136,14 +133,14 @@
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá sobrando um.</default>
+		<default>A conta não bate.</default>
 	</talk>
 	<talk character="Rob">
-		<default>Não tá, não.</default>
+		<default>Bate sim.</default>
 	</talk>
-	<talk character="Nit">
-		<default>Como assim?</default>
-	</talk>
+	<teller>
+		<default>As pessoas olham para Rob. Trinity se aproxima de Rob.</default>
+	</teller>
 	<talk character="Rob">
 		<default>Vai se ver livre das minhas "bichices".</default>
 	</talk>
@@ -151,69 +148,94 @@
 		<default>Não achei que tava falando a sério.</default>
 	</talk>
 	<teller>
-		<default>Ela vacila, mas o abraça. Mel pega uma das meninas e coloca dentro da caixa. Fábio tira.</default>
+		<default>Trinity engole seco. Fecha as mãos. Abraça Rob. Mel Buí e coloca dentro de uma caixa. Fábio pega Buí e tira.</default>
 	</teller>
 	<talk character="Fábio">
 		<default>Calma, Mel, vamos organizar.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Eu vou com Edmont e as meninas.</default>
+		<default>Eu vou com Edmont, Buí, Dubh, Vermell e Glória.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>E vamos depois, com os meninos? Tá, acho que funciona.</default>
+		<default>E vamos depois, com o resto? Acho que funciona.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não vou deixar Edmont com minha filha.</default>
+		<default>Não vou deixar Edmont com minha criança.</default>
 	</talk>
 	<talk character="Nit">
-		<default>Então você vai com Edmont e as meninas.</default>
+		<default>Então você vai com Edmont e... Etc.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não, Edmont vai no segundo grupo. Angely, pra caixa.</default>
 	</talk>
 	<teller>
-		<default>Angely se abaixa perto das crianças.</default>
+		<default>Angely vai até as crianças. Se abaixa.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Vamos fazer uma viagem agora, mas não tenham medo. Vai ficar tudo bem. Assim que chegarem do outro lado, nos esperem.</default>
+		<default>Vamos fazer uma viagem agora, mas não tenham medo. Vai ficar tudo bem. Assim que chegarem do outro lado, esperem a gente.</default>
 	</talk>
 	<teller>
-		<default>Ele pega cada uma das meninas e coloca numa caixa, Glória por último.</default>
+		<default>Angely pega Buí, coloca em uma caixa. Dubh na caixa de um lado, Vermell na caixa de outro. As caixas fecham. Angely pega Glória. Coloca em uma quarta caixa.</default>
 	</teller>
 	<talk character="Glória">
-		<default>Vou tomar conta delas.</default>
+		<default>Vou tomar conta de todo mundo.</default>
 	</talk>
 	<teller>
-		<default>Angely beija a testa dela. Espera Melody entrar numa caixa. Ela cruza os braços. Ele a abraça e entra. Ela entra em outra caixa. Som, luz. Caixas abertas.</default>
+		<default>Angely beija a testa de Glória. Glória deixa. A caixa fecha. Angely olha para Melody. Melody cruza os braços. Angely entra em uma caixa. Deita. A caixa fecha. Mel entra em outra caixa. Fecha também. Som, luz. As pessoas fecham os olhos, tapam os ouvidos, exceto Edmont. Para. Todo mundo destapa. Edmont entra em uma caixa.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Bora, molecada.</default>
+		<default>Bora, criançada.</default>
 	</talk>
 	<teller>
-		<default>Edmont entra numa caixa. Esta se fecha. Trinity, Fábio e Rob ajudam os meninos a entrarem, cada um ajudando um. Fábio abraça Rob e entra em uma caixa, que se fecha.</default>
+		<default>Edmont deita. A caixa se fecha. Fábio balança a cabeça para os lados. Pega Dearg no colo, coloca em uma caixa. Trinity pega Groc, faz o mesmo. Rob ajuda Negre a subir. As crianças se olham.</default>
+	</teller>
+	<talk character="Rob">
+		<default>Vai ficar tudo bem, gente! Vamos lá! É um passeio divertido!</default>
+	</talk>
+	<talk character="Negre">
+		<default>E porque você não vai?</default>
+	</talk>
+	<talk character="Rob">
+		<default>Porque... Ai, tá vendo? Criança só faz pergunta complicada. Todo mundo deitando aí, vai, comportadinhos...</default>
+	</talk>
+	<teller>
+		<default>Dearg, Groc, Negre deitam-se. As caixas fecham. Fábio vai até Rob.</default>
+	</teller>
+	<talk character="Fábio">
+		<default>Não era por te julgar. Edmont é o problema.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Eu sei. Cê não queria que eu me ferisse também, né? Já caiu ali, não caiu? Confessa!</default>
+	</talk>
+	<teller>
+		<default>Fábio sorri e balança a cabeça para os lados. Abraça Rob. Dá um beijo na testa. Vai até uma caixa. Entra.</default>
 	</teller>
 	<talk character="Nit">
 		<default>Vai ficar bem aqui?</default>
 	</talk>
 	<talk character="Rob">
-		<default>Não posso voltar. Sinto muito. Te adoro, moça, mesmo com toda a sua machesa. Aliás, dava até pra me apaixonar, se tivesse um acessório. Juro que foi minha melhor amiga até hoje...</default>
-	</talk>
-	<talk character="Nit">
-		<default>Pára de viadagem.</default>
+		<default>Não posso voltar. Sinto muito. Te adoro, moça, mesmo com toda a sua machesa. Aliás, dava até pra me apaixonar, se eu gostasse de mulher. Juro que foi minha melhor amiga até hoje...</default>
 	</talk>
 	<teller>
-		<default>Ele sorri.</default>
+		<default>Trinity cruza os braços.</default>
+	</teller>
+	<talk character="Nit">
+		<default>Pára de frescura.</default>
+	</talk>
+	<teller>
+		<default>Rob sorri.</default>
 	</teller>
 	<talk character="Rob">
 		<default>Isso. Essa é a mulher forte que eu...</default>
-		<teller>ela vai chorar e o abraça</teller>
-		<default>...conheço.</default>
 	</talk>
+	<teller>
+		<default>Trinity descruza os braços, abraça Rob forte. Rob solta os ombros. Abraça Trinity. Solta.</default>
+	</teller>
 	<talk character="Rob">
 		<default>Ai, pára, se não desabo também!</default>
 	</talk>
 	<teller>
-		<default>Rob a afasta.</default>
+		<default>Rob afasta. Trinity passa a mão no rosto de Rob.</default>
 	</teller>
 	<talk character="Nit">
 		<default>Se cuida. E pára de dar pra vampiro.</default>
@@ -222,9 +244,9 @@
 		<default>Podexá. Sem guarda-costas eu vou andar só na luz do Sol. Imagina que bronzeado lindo que vou ficar?!</default>
 	</talk>
 	<teller>
-		<default>Ela entra na caixa.</default>
+		<default>Trinity sorri. Vai até a última caixa aberta. Entra. Deita. A caixa fecha.</default>
 		<division>2ª RLDD</division>
-		<default>10/12/2006, 17h. Zenon está entrando na MEAK, com Melody.</default>
+		<default>MEAK SP. Melody e Zenon entram.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Como me acharam?</default>
@@ -233,17 +255,26 @@
 		<default>Andrea sabia de todos os casos de Hugo, o que incluía Louise, e essa aí, por incluir Louise.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Mas ela não saberia onde estava...</default>
+		<default>Mas não saberia onde estava...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Rust. Mandou lembranças à Beatrice e disse pra você não confundir isso com amizade, que ele ainda te odeia.</default>
+		<default>Rust. Mandou lembranças a Beatrice e disse pra você não confundir isso com amizade, que ainda te odeia.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Botei dois filhos no mundo, abandonei os dois, deixei que tivessem um caso. Como se não bastasse, mato os dois. Sabe o pior? A garota cismou que queria... Comigo. Isso é nojento. Acho que vou pro inferno.</default>
+		<default>Botei dois filhos no mundo, abandonei os dois, deixei que tivessem um caso. Como se não bastasse, mato os dois. Sabe o pior? A garota cismou que queria... Comigo.</default>
+	</talk>
+	<teller>
+		<default>Zenon respira fundo.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Isso é nojento. Acho que vou pro inferno.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ahã. Você vai.</default>
+		<default>É. Você vai.</default>
 	</talk>
+	<teller>
+		<default>Zenon olha para Melody.</default>
+	</teller>
 	<talk character="Zenon">
 		<irony>Obrigado.</irony>
 	</talk>
@@ -251,13 +282,16 @@
 		<default>Foi mal, o confeti acabou, e o próximo carnaval tá longe.</default>
 	</talk>
 	<teller>
-		<default>Beatrice está no chuveiro. Edmont chega a abraça.</default>
+		<first>Beatrice está no chuveiro. Edmont abraça Beatrice pela cintura, que está de costas. Beatrice fecha os olhos.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Sentiu falta?</default>
 	</talk>
+	<teller>
+		<default>Beatrice engole seco. Abre os olhos.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Da Mel? Sim. Do Fábio? Também. De você? Não.</default>
+		<default>Mel? Sim. Fábio? Também. Você? Não.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Aléxis está com a Michele agora. Beleno fugiu.</default>
@@ -266,7 +300,7 @@
 		<default>Como sabe com quem estive?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Achei umas anotações interessantes. Ah, esqueci de uma: Zenon e você não estão mais juntos.</default>
+		<default>Achei umas anotações interessantes. Ah, tem Zenon. Mas não estão mais juntos.</default>
 	</talk>
 	<talk character="Bea">
 		<default>E daí?</default>
@@ -275,26 +309,26 @@
 		<default>Não seja tão cruel. Sonhei com você algumas vezes lá.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Cadê o Angely?</default>
+		<default>Cadê Angely?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por que quer saber dele?</default>
+		<default>Por que quer saber de Angely?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Quero mesmo é saber por que eu sei que a Trinity está na cidade.</default>
+		<default>Quero mesmo é saber por que eu sei que Trinity tá na cidade.</default>
 	</talk>
 	<teller>
-		<default>Ele a vira pra si.</default>
+		<default>Edmont vira Beatrice para si. Passa a mão no rosto de Beatrice.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Não vamos falar disso agora.</default>
 	</talk>
 	<teller>
-		<default>Ele a beija. Ela não tenta resistir, passa os braços em volta do pescoço dele. Noite. Chegando à casa de Zenon, ele entrega uma caixa com cadernos a Mel.</default>
+		<default>Beatrice beija Edmont. Edmont coloca as mãos nas costas de Beatrice.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Que isso?</default>
-	</talk>
+	<teller>
+		<first>Noite. Casa de Zenon. Zenon entra. Mel entra atrás. Zenon vai até o quarto. Volta com uma caixa de papelão sem tampa, com cadernos dentro, entrega a Mel. Mel franze a sobrancelha.</first>
+	</teller>
 	<talk character="Zenon">
 		<default>Escrevi enquanto não estava.</default>
 	</talk>
@@ -302,13 +336,13 @@
 		<default>Legal.</default>
 	</talk>
 	<teller>
-		<default>Ela coloca a caixa no sofá. Vai para a cozinha.</default>
+		<default>Mel pousa a caixa no sofá. Vai para a cozinha. Zenon franze a testa.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Sabe o quanto isso é frustrante?</default>
 	</talk>
 	<teller>
-		<default>Ele vai até a cozinha.</default>
+		<default>Zenon vai até a cozinha. Melody pega um copo de água.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Escrevi com todo o cuidado tudo que...</default>
@@ -323,13 +357,13 @@
 		<default>Papel pode queimar.</default>
 	</talk>
 	<teller>
-		<default>Ele vai até a sala, pega a caixa, volta com ela para a cozinha, coloca na mesa, pega um fósforo, acende e joga nos cadernos. Eles ficam intactos.</default>
+		<default>Zenon vai até a sala, pega a caixa, volta para a cozinha, coloca na mesa, pega um fósforo, acende e joga dentro da caixa. Os cadernos não pegam fogo.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Viu?</default>
 	</talk>
 	<teller>
-		<default>Começa a pegar fogo na caixa. Melody joga água.</default>
+		<default>O canto da caixa onde caiu o fósforo começa a pegar fogo. Zenon arregala os olhos. Melody joga o copo de água no fogo. Apaga. Zenon olha para o chão.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Contra água também.</default>
@@ -337,23 +371,26 @@
 	<talk character="Mel">
 		<default>Computadores tem backups.</default>
 	</talk>
+	<teller>
+		<default>Zenon olha para Mel. Cruza os braços.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Eles nunca funcionam direito.</default>
+		<default>Nunca funcionam direito.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Quantos anos você tem mesmo?</default>
+		<default>Tem a nuvem. Poderia armazenar onde quisesse. Quantos anos você tem mesmo?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Angely tá por aí? Acho que ele vai entender melhor...</default>
+		<default>Angely tá por aí? Acho que vai entender melhor...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele e Edmont estão se preparando o pedido de desculpas.</default>
+		<default>Angely e Edmont estão se preparando o pedido de desculpas.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Do que?</default>
 	</talk>
 	<teller>
-		<default>Olha para a mão dela. Uma aliança.</default>
+		<default>Zenon olha para a mão de Mel. Uma aliança. Aponta.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Peraí, isso é novo!</default>
@@ -361,24 +398,39 @@
 	<talk character="Mel">
 		<default>Cara, ainda não desistiu?</default>
 	</talk>
+	<teller>
+		<default>Zenon baixa a mão. Cruza os braços.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Não precisa ser rude. Já namorei a Beatrice e a Michele enquanto estava fora. Eu já superei isso.</default>
+		<default>Não precisa ser rude. Já namorei Beatrice e Michele enquanto estava fora. Eu já superei isso.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Papa-anjo.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Você também é mais nova que eu! Ei, tá fugindo do assunto!</default>
+		<default>Você também tem menos idade que eu!</default>
+	</talk>
+	<teller>
+		<default>Mel balança a cabeça para os lados e ri.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Isso deveria contar a seu favor?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Tá fugindo do assunto!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Casei com o Fábio.</default>
 	</talk>
 	<talk character="Fábio">
-		<arrive>E casamento para atlantes não envolve sexo. Cara, será que vou ter que repetir muito isso?</arrive>
+		<arrive>E casamento para atlantes não envolve sexo necessariamente. Cara, será que vou ter que repetir muito isso?</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Pra todos os seus namorados, pelo menos.</default>
+		<default>Provavelmente.</default>
 	</talk>
+	<teller>
+		<default>Fábio olha para Zenon.</default>
+	</teller>
 	<talk character="Fábio">
 		<default>Não, Zenon, ninguém desvira gay.</default>
 	</talk>
@@ -388,48 +440,58 @@
 	<talk character="Fábio">
 		<default>Tava processando uma mentira pra justificar seu espanto.</default>
 	</talk>
+	<teller>
+		<default>Zenon fecha os olhos.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Tá, volta pro tal pedido de desculpas...</default>
 	</talk>
+	<teller>
+		<default>Zenon abre os olhos.</default>
+	</teller>
 	<talk character="Glória">
 		<arrive>Mamãe, mamãe...</arrive>
 	</talk>
+	<teller>
+		<default>Glória vem e abraça as pernas de Mel. Zenon olha para Glória.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Ok, vai me dizer que foi artificial?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Lembra do Dancan?</default>
+		<default>Lembra de Dancan?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>É um dos seis?! Trouxeram seis crianças pra cá???</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Não.</default>
-		<teller>Zenon fica aliviado</teller>
+	</talk>
+	<talk character="Zenon">
+		<default>Ah, bom...</default>
+	</talk>
+	<talk character="Fábio">
 		<default>Foram sete.</default>
 	</talk>
+	<teller>
+		<default>Zenon joga as mãos pra cima.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Ah!</default>
 	</talk>
 	<teller>
-		<default>Zenon sai andando. Kat entra e abraça Mel.</default>
+		<default>Zenon sai. Kat entra na cozinha. Abraça Mel. Se afasta.</default>
 	</teller>
-	<talk character="Kat">
-		<default>Mãe...</default>
-	</talk>
 	<talk character="Mel">
 		<default>Preciso conversar com você.</default>
 	</talk>
-	<teller>
-		<default>Elas se sentam.</default>
-	</teller>
 	<talk character="Glória">
 		<default>Mas eu tô com fome...</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Vem, elas precisam falar.</default>
+		<default>Vem, precisam falar.</default>
 	</talk>
 	<teller>
-		<default>Fábio leva a menina.</default>
+		<default>Fábio pega Glória pela mão. Saem.</default>
 	</teller>
 </story>
