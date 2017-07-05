@@ -7,13 +7,13 @@
 		<default>Pra que o jornal?</default>
 	</talk>
 	<teller>
-		<default>Ang entrega o jornal a Derik. Sai, calado. Derik procura algo no jornal.</default>
+		<default>Ang entrega o jornal a Derik. Vai para a escada e sobe. Derik abre o jornal. Vira páginas. Para.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Não precisamos mais tentar encontrar a filha daquele cara. Como era mesmo o nome dela?</default>
+		<default>Não precisamos mais tentar encontrar a pessoa.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Roberta. Por quê?</default>
+		<default>Por quê?</default>
 	</talk>
 	<talk character="Derik">
 		<default>A polícia já encontrou.</default>
@@ -22,7 +22,7 @@
 		<default>Que bom pra ela e pra família...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Morta num beco.</default>
+		<default>A polícia encontrou o corpo em um beco.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Nem tão bom.</default>
@@ -40,25 +40,22 @@
 		<default>Ang não parecia triste.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Talvez ele saiba que ela foi pro céu, ou sei lá o que...</default>
+		<default>Talvez saiba que foi pro céu, ou sei lá o que...</default>
 	</talk>
 	<talk character="Estela">
 		<default>Saber como?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Bom, ele é quase um santo, não é?</default>
+		<default>Bom, é quase anjo, não é?</default>
 	</talk>
-	<teller>
-		<default>Mel entra na sala.</default>
-	</teller>
 	<talk character="Mel">
-		<default>Não vão acreditar, vou ter que ver um caso de traição no Rio de Janeiro!</default>
+		<arrive>Não vão acreditar, vou ter que ir pra Rio de Janeiro!</arrive>
 	</talk>
 	<talk character="Estela">
 		<default>Não é meio longe?</default>
 	</talk>
 	<talk character="Mel">
-		<default>É, mas a mulher vai pagar a passagem e, com o que tá oferecendo, não há como recusar. Vou levar Ang.</default>
+		<default>É, mas a pessoa vai pagar a passagem. Disse que acha que a pessoa com quem tá se meteu com demônios ou algo assim. Vou levar Ang.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Tá. Quando vão?</default>
@@ -67,46 +64,53 @@
 		<default>Agora, de preferência.</default>
 	</talk>
 	<teller>
-		<default>Ela sai. Derik, que está com o jornal, acha um bilhete.</default>
+		<default>Mel sai. Derik fecha o jornal. Cai um papel dobrado. Derik pega. Franze a sobrancelha.</default>
 	</teller>
 	<talk character="Derik">
 		<default>É pra você...</default>
 	</talk>
 	<teller>
-		<default>Ele entrega o bilhete a Zenon, que abre e lê.</default>
+		<default>Derik entrega o bilhete a Zenon. Zenon abre.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Não fique assim, não se pode salvar a todos...</default>
+		<read>Não fique assim, não se pode salvar a todos...</read>
 	</talk>
 	<talk character="Derik">
 		<default>Estranho... Quem será que escreveu isso?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Será que foi o Ang?</default>
+		<default>Será que foi Angely?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não é a caligrafia dele.</default>
+		<default>Não é a caligrafia.</default>
 	</talk>
 	<talk character="Zenon">
 		<hushed>Renata...</hushed>
 	</talk>
 	<talk character="Derik">
-		<default>Como?</default>
+		<default>Que?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Nada... Tenho que sair.</default>
 	</talk>
 	<teller>
-		<default>Cemitério, 0:00. (23/02 – domingo)</default>
+		<first>Meia-noite. Cemitério. Renata está em frente ao túmulo, olhando para o túmulo. Zenon se aproxima. Olha para o túmulo também.</first>
 	</teller>
 	<talk character="Zenon">
-		<default>Eu sinto muito...</default>
+		<default>Eu sinto muito.</default>
 	</talk>
 	<talk character="Renata">
 		<default>Eu não.</default>
-		<teller>Zenon estranha</teller>
+	</talk>
+	<teller>
+		<default>Zenon olha para Renata.</default>
+	</teller>
+	<talk character="Renata">
 		<default>Ela teve uma boa vida. Além do que, nunca fez nada de tão ruim. Não deve tá sofrendo agora...</default>
 	</talk>
+	<teller>
+		<default>Zenon olha para o túmulo.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Não tem medo?</default>
 	</talk>
@@ -129,7 +133,13 @@
 		<default>Seu pai deve tá preocupado.</default>
 	</talk>
 	<talk character="Renata">
-		<default>Acho que ele não liga muito pra mim. Vivia pela Roberta... Não deve nem ter notado que saí... Ele pediu que entregasse isso. Não sabia onde estavam.</default>
+		<default>Acho que ele não liga muito pra mim. Vivia pela Roberta... Não deve nem ter notado que saí...</default>
+	</talk>
+	<teller>
+		<default>Renata pega um papel no bolso. Estende a Zenon, que vira novamente para si.</default>
+	</teller>
+	<talk character="Renata">
+		<default>Ele pediu que entregasse isso. Não sabia onde estavam.</default>
 	</talk>
 	<teller>
 		<default>Renata entrega um cheque a Zenon.</default>
@@ -138,18 +148,22 @@
 		<default>Não posso aceitar, não ajudamos sua irmã...</default>
 	</talk>
 	<talk character="Renata">
-		<default>Mas tentaram...</default>
+		<default>Mas tentaram.</default>
 	</talk>
 	<teller>
-		<default>Os dois ficam quietos durante algum tempo.</default>
+		<default>Silêncio.</default>
 	</teller>
 	<talk character="Renata">
 		<default>Qual seu...</default>
-		<teller>olha pra trás e não vê mais Zenon</teller>
-		<default>nome...</default>
 	</talk>
 	<teller>
-		<default>23/02 (domingo), 20:00, num bar em Ares.</default>
+		<default>Renata vida para o lado. Olha ao redor.</default>
+	</teller>
+	<talk character="Renata">
+		<default>Nome.</default>
+	</talk>
+	<teller>
+		<first>20h. Bar em Ares. Johnatan senta em uma cadeira na mesa de Renata.</first>
 	</teller>
 	<talk character="Johnatan">
 		<default>Tem horas, senhorita?</default>
@@ -158,7 +172,7 @@
 		<default>Dá pra ver que não tô usando relógio.</default>
 	</talk>
 	<teller>
-		<default>Johnatan dá um sorriso</default>
+		<default>Johnatan dá um sorriso.</default>
 	</teller>
 	<talk character="Johnatan">
 		<default>Acho que essa não colou...</default>
@@ -206,19 +220,19 @@
 		<default>Que alívio. Seria a terceira que eu encontraria hoje.</default>
 	</talk>
 	<talk character="Renata">
-		<default>Sério?</default>
+		<default>Eu disse pessoa, não homem.</default>
 	</talk>
 	<talk character="Johnatan">
-		<default>Devo ter vocação pra isso.</default>
+		<default>Ah, então vocês é aqueles negócios de assexuada?</default>
 	</talk>
 	<talk character="Renata">
-		<default>Qual seu nome?</default>
+		<default>O termo certo é assexual, mas não. Eu só não sou muito sociável. Acho que estou um pouco mais hoje. Qual seu nome?</default>
 	</talk>
 	<talk character="Johnatan">
 		<default>Pode me chamar de Johnatan. É assim que me chamam ultimamente.</default>
 	</talk>
 	<teller>
-		<default>Nesse momento, Zenon entra no bar e vê Renata conversando com o vampiro. Ele senta numa cadeira no balcão e fica observando.</default>
+		<default>Zenon entra no bar e vê Renata e Johnatan. Zenon senta numa cadeira no balcão, olhando para Renata e Johnatan.</default>
 	</teller>
 	<talk character="Renata">
 		<default>Tenho que ir. Meu pai já deve tá preocupado...</default>
@@ -227,13 +241,13 @@
 		<default>Posso te levar em casa?</default>
 	</talk>
 	<teller>
-		<default>Renata percebe que Zenon está olhando.</default>
+		<default>Renata olha para Zenon. Johnatan olha na mesma direção, Renata levanta a mão. Rosa sai de trás do balcão, com uma máquina na mão.</default>
 	</teller>
 	<talk character="Renata">
-		<default>Claro.</default>
+		<default>Pode ser.</default>
 	</talk>
 	<teller>
-		<default>Eles saem do bar. Zenon os segue, sem que Johnatan perceba. Johnatan e Renata vão conversando pelo caminho. Sem que Renata perceba, ela acaba se desviando do caminho de casa e indo parar no prédio abandonado.</default>
+		<first>Renata e Johnatan estão andando. Chegam a mureta virada para o mar.</first>
 	</teller>
 	<talk character="Renata">
 		<default>Onde estamos?</default>
@@ -245,16 +259,17 @@
 		<default>Na sua última parada.</default>
 	</talk>
 	<teller>
-		<default>Ele mostra os dentes e morde Renata. Zenon chega.</default>
+		<default>Johnatan mostra os caninos. Crava em Renata. Afasta e olha para Zenon.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Se eu fosse você não faria isso...</default>
+		<arrive>Se eu fosse você não faria isso.</arrive>
 	</talk>
 	<talk character="Johnatan">
 		<default>Ah, é?</default>
-		<teller>se volta pra Zenon</teller>
-		<default>E por que não?</default>
 	</talk>
+	<teller>
+		<default>Johnatan olha para Zenon.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Não vai querer me irritar.</default>
 	</talk>
@@ -262,16 +277,16 @@
 		<default>Johnatan joga Renata no chão.</default>
 	</teller>
 	<talk character="Johnatan">
-		<default>Achei primeiro...</default>
+		<default>Achei primeiro.</default>
 	</talk>
 	<teller>
-		<default>Eles começam a lutar. Johnatan acerta Zenon com a estaca no estômago e foge.</default>
+		<default>Zenon tenta cravar uma estaca em Johnatan, mas Johnatan segura. Torce o braço de Zenon, fazendo derrubar a estaca e joga Zenon no chão. Zenon levanta e olha ao redor. Arregala os olhos. Johnatan puxa de volta a estaca, que enfiou pelas costas, na altura do estômago. Johnatan olha para Renata. Corre. Renata se aproxima de Zenon.</default>
 	</teller>
 	<talk character="Renata">
 		<default>Você tá bem?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Apenas um ferimento leve...</default>
+		<default>Só um ferimento leve...</default>
 	</talk>
 	<teller>
 		<default>Zenon cai no chão.</default>
@@ -280,13 +295,13 @@
 		<default>Deixa que eu te ajudo...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Saia daqui.</default>
+		<default>Sai daqui...</default>
 	</talk>
 	<talk character="Renata">
 		<default>Não vou te deixar aqui jogado, salvou minha vida!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Há mais alguém...</default>
+		<default>Tem mais alguém...</default>
 	</talk>
 	<talk character="Amanda">
 		<arrive>Não se preocupe, não vou machucar a garota.</arrive>
@@ -301,22 +316,22 @@
 		<default>Ajuda ele, tá ferido...</default>
 	</talk>
 	<talk character="Amanda">
-		<default>Não se preocupe com ele... Preocupe-se com você. Johnatan não vai te deixar escapar assim tão fácil.</default>
+		<default>Não se preocupe com ele. Preocupe-se com você. Johnatan não vai te deixar escapar assim tão fácil.</default>
 	</talk>
 	<teller>
-		<default>Renata ajuda Zenon a chegar em Hera.</default>
+		<default>MEAK. Zenon entra, com apoio de Renata.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Zenon!</default>
 	</talk>
 	<teller>
-		<default>Kat se assusta ao Vê-lo ferido e se vira pra Renata.</default>
+		<default>Kat olha pra Renata.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Por que fez isso com ele?</default>
+		<default>Por que fez isso?</default>
 	</talk>
 	<teller>
-		<default>Derik vê que Renata tem uma marca de mordida no pescoço.</default>
+		<default>Derik olha para o pescoço de Renata.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Kat, não chega muito perto...</default>
@@ -328,13 +343,16 @@
 		<default>Ajuda a distrair o cara pra te largar. Se eu chegasse atacando, ele quebraria seu pescoço antes de vir pra cima de mim.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Por um pouco ele não acertou.</default>
+		<default>Por um pouco não acertou...</default>
 	</talk>
 	<talk character="Renata">
 		<default>Bom, tenho que ir...</default>
 	</talk>
 	<teller>
-		<default>Renata sai. Rio. Mel e Ang estão num, carro.</default>
+		<default>Renata ajuda Zenon a chegar ao sofá. Sai. Derik e Kat se entreolham.</default>
+	</teller>
+	<teller>
+		<first>Rio. Mel e Ang estão em um carro.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Viu? Mais fácil do que pensávamos.</default>
@@ -349,7 +367,7 @@
 		<default>Eu sei...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pode ficar sossegado. Vamos pedir a informação que queremos, pagar por ela e pronto.</default>
+		<default>Vamos pedir a informação que queremos, pagar e pronto.</default>
 	</talk>
 	<teller>
 		<default>Ang baixa a cabeça.</default>
@@ -358,70 +376,61 @@
 		<default>Sei que não gosta de desonestidade, mas vai ter que se acostumar. As pessoas não ajudam de graça nesse planeta.</default>
 	</talk>
 	<teller>
-		<default>Os dois saem do carro. Entram no lugar.</default>
+		<default>Saem do carro. Entram no lugar. Não existe muita claridade, há música. Pessoas dançando sobre o balcão. Iara se aproxima.</default>
 	</teller>
-	<talk character="dona">
+	<talk character="Iara">
 		<default>Oi, o casalzinho veio procurar alguma coisa diferente?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Viemos atrás de uma informação.</default>
+		<default>Viemos atrás de uma informação. Uma pessoa que tem vindo aqui com alguma frequência.</default>
 	</talk>
-	<talk character="dona">
-		<default>Se ajudássemos detetives, não sobreviveríamos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Acontece que, se dissermos à mulher dele que ele veio aqui, ela vai vir e armar o maior barraco.</default>
-	</talk>
-	<talk character="dona">
-		<default>Se ela fosse desse tipo, não tinha contratado alguém.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ficou com medo de estar errada. Primeiro ela olhou pra gente e disse que, se estivesse errada, falaria com ele e esperaria perdão. Se estivesse certa, tacaria fogo nele e na mulher que andou com ele. Acho que ela vai querer tacar fogo em tudo aqui, já que não vai saber quem aqui andou e quem não andou com ele.</default>
-	</talk>
-	<talk character="dona">
+	<talk character="Iara">
 		<default>Como eu poderia saber de quem está falando? Sou péssima fisionomista...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se lembrará melhor com a cara de surpresa dele quando a trouxermos?</default>
+		<default>E qual a cor do papel que poderia melhorar essa sua capacidade?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Mel...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que foi? Acha que não sou capaz de apelar, Angely?</default>
+		<default>Ang, eu sei que..</default>
 	</talk>
 	<talk character="Ang">
 		<default>Não é isso...</default>
 	</talk>
 	<teller>
-		<default>Angely se apoia em Mel. Desmaia. Um grupo se junta à volta dele. Num quarto, o marido da mulher que contratou os dois conversa com uma mulher.</default>
+		<default>Angely se apoia em Mel. Desmaia.</default>
 	</teller>
-	<talk character="p">
+	<teller>
+		<first>Quarto. Ângelo sentou-se na cama. Sônia recostou-se na penteadeira.</first>
+	</teller>
+	<talk character="Sônia">
 		<default>Nossa, realmente não achei que viria me visitar aqui! Sempre marca em outro lugar...</default>
 	</talk>
-	<talk character="h">
+	<talk character="Ângelo">
 		<default>Não queria, mas tinha que te entregar isso.</default>
 	</talk>
 	<teller>
-		<default>Ele entrega um pacote pra ela. Ela abre: é dinheiro.</default>
+		<default>Ângelo entrega um pacote para Sônia. Sônia abre: dinheiro.</default>
 	</teller>
-	<talk character="p">
+	<talk character="Sônia">
 		<default>Já disse que não precisa...</default>
 	</talk>
-	<talk character="h">
+	<talk character="Ângelo">
 		<default>Não precisa como? Não vou te deixar na mão.</default>
 	</talk>
-	<talk character="p">
+	<talk character="Sônia">
 		<default>Eu tenho um emprego.</default>
 	</talk>
-	<talk character="h">
+	<talk character="Ângelo">
 		<default>Um emprego?! Isso aqui não é...</default>
 	</talk>
-	<talk character="p">
+	<talk character="Sônia">
 		<default>Acha mesmo que quero ser sustentada por você? Nem se ficasse paraplégica.</default>
 	</talk>
 	<teller>
-		<default>Mel chega com Ang no quarto de hotel. Depois de algum tempo, ele acorda.</default>
+		<first>Angely acorda. Está na cama do hotel.</first>
 	</teller>
 	<talk character="Ang">
 		<default>Onde...?</default>
@@ -433,18 +442,18 @@
 		<default>Desculpe.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Primeiro no tribunal, agora aqui... Angely, quero saber a verdade. Você está doente ou algo assim?</default>
+		<default>Primeiro no tribunal, agora aqui. Quero saber a verdade. Você tá doente ou algo assim?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Não, eu só...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tudo bem. Não quer me contar, ótimo. Amanhã eu vou sozinha até lá, disfarçada.</default>
+		<default>Tudo bem. Não quer me contar, ótimo. Amanhã eu vou só até lá, com disfarce.</default>
 	</talk>
 	<talk character="Ang">
-		<default>A mulher vai ter reconhecer.</default>
+		<default>A pessoa vai te reconhecer.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, ouvi alguém falando com ela que iam ter que sair dali e passar cinco dias fora, por causa de um cliente, sei lá. Quando chegarmos à Hera, vamos a algum médico e vou descobrir o que há com você.</default>
+		<default>Não. Amanhã não vai. Quando chegarmos a Hera, vamos descobrir o que tem com você, seja com medicina ou com magia.</default>
 	</talk>
 </story>
