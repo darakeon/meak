@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="13" scene="a">
 	<teller>
-		<default>04/07 (sexta), 17:00. Beatrice está sentada no sofá e Zenon está deitado no colo dela. Conversam na sala.</default>
+		<default>Anoitecer. Beatrice está no sofá e Zenon está no colo de Beatrice.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Você não é má.</default>
@@ -12,25 +12,35 @@
 	<talk character="Zenon">
 		<default>Ele te agarrou a força?</default>
 	</talk>
+	<teller>
+		<default>Beatrice olha para o vazio.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Sim. Ele disse que eu agia como criança trancando as portas, passei a agir como tal. O problema foi eu dizer que ele agia como um animal derrubando-as, daí ele aderiu à minha lógica.</default>
+		<default>Disse que eu agia como criança trancando as portas, passei a agir como tal. Eu disse que agia como um animal derrubando as portas. Aderiu a minha lógica.</default>
 	</talk>
+	<teller>
+		<default>Zenon franze a sobrancelha.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Mas você... gostou?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Sabe, no começo tentei me livrar, mas depois ele começou a me beijar, gostei dele me segurando... Depois ele me disse que nenhuma mulher gostava disso. A partir desse momento passei a acreditar que eu era mesmo filha do inferno, que tinha que ser má. Durou algum tempo. Quando conheci Edmont, percebi que não queria ser má. De repente não tinha mais graça ver pessoas gritando, correndo... Chorei escondida muitas vezes.</default>
+		<default>Eu entrei na coisa. Gostei dele me segurando, não sei o que tem em mim. Depois ele me disse que nenhuma mulher gostava disso. A partir desse momento passei a acreditar que eu era mesmo cria do inferno, que tinha que ser ruim. Durou algum tempo. Quando conheci Edmont, percebi que não queria ser assim. De repente não tinha mais graça ver pessoas gritando, correndo...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Você tem salvação, pelo menos se arrependeu rápido, eu...</default>
-		<teller>levanta</teller>
+	</talk>
+	<teller>
+		<default>Zenon levanta bruscamente do sofá. Beatrice vai um pouco para trás, olhando para Zenon, franzindo a sobrancelha.</default>
+	</teller>
+	<talk character="Zenon">
 		<default>O que você tá fazendo aqui???</default>
 	</talk>
 	<teller>
-		<default>Ela olha para trás. Há um rapaz, de 17 anos, encostado na porta (Guilherme).</default>
+		<default>Beatrice olha para a porta.</default>
 	</teller>
 	<talk character="Guilherme">
-		<default>Acredita que levou 26 anos pra alguém encontrar meu corpo e enterrá-lo? Só aí eu pude acordar... Mas isso foi compensado com a linda donzela que estava no cemitério nessa hora. Tinha um sangue doce como...</default>
+		<default>Acredita que levou 26 anos pra alguém encontrar meu corpo e enterrar? Só aí eu pude acordar... Mas isso foi compensado. Havia alguém no cemitério. Tinha um sangue doce como...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não respondeu minha pergunta.</default>
@@ -41,32 +51,35 @@
 	<talk character="Zenon">
 		<default>Devia ter continuado naquele poço.</default>
 	</talk>
+	<teller>
+		<default>Guilherme dá passos em direção a Zenon.</default>
+	</teller>
 	<talk character="Guilherme">
-		<default>Quando acordei e saí, percebi que meu corpo não queimaria no sol nem se desfaria por uma estaca enquanto eu não mandasse uma alma pra seu destino... Mas minha sede era tanta que nem pude aproveitar disso.</default>
+		<default>Quando acordei e saí, percebi que meu corpo não queimaria no sol nem se desfaria por uma estaca enquanto eu não mandasse uma alma pra seu destino. Mas minha sede era tanta que nem pude aproveitar.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ainda não respondeu.</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Deixou meu pai me colocar naquele buraco, junto com a minha madrasta, viva e grávida... Aliás, até hoje não sei se era meu irmão ou meu filho. Sabe, eu aprendi cedo que vampiros não respiram. Enquanto ela morria sem ar, eu percebi que eu continuava ali, mas sem poder mover um músculo. Bom, mas isso são águas passadas e, como dizem, não movem moinhos.</default>
+		<default>Deixou meu pai me colocar naquele buraco, junto com a minha madrasta, viva e grávida. Aliás, até hoje não sei se era meu irmão ou meu filho. Sabe, eu aprendi cedo que vampiros não respiram. Enquanto ela morria sem ar, eu percebi que eu continuava ali, mas sem poder mover um músculo. Bom, mas isso são águas passadas e, como dizem, não movem moinhos.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Vou te dar uma chance de ir embora.</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Temos muito em comum. Você também seduzia donzelas...</default>
+		<default>Temos muito em comum. Você também seduzia donzelas.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não as fazia crer que era o diabo pra não me dedurarem.</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>...também dormia com sua madrasta...</default>
+		<default>Também dormia com sua madrasta.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não a torturava com isso.</default>
+		<default>Não torturava ela com isso.</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>...e também causou a morte dela.</default>
+		<default>E também causou a morte dela.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não foi enfurnada viva, nem estava grávida, muito menos de filho meu.</default>
@@ -84,7 +97,7 @@
 		<default>Mas nós não temos o direito de decidir isso.</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Então vamos todos pro inferno, afinal precisamos nos alimentar!</default>
+		<default>Então vamos todos pro inferno, afinal precisamos nos alimentar.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Nós escolhemos isso.</default>
@@ -96,23 +109,26 @@
 		<default>Os vampiros vão todos pro inferno.</default>
 	</talk>
 	<teller>
-		<default>Beatrice olha para Zenon. Este não percebe.</default>
+		<default>Beatrice olha para Zenon. Zenon continua olhando para Guilherme.</default>
 	</teller>
 	<talk character="Guilherme">
 		<default>Claro. Uma pessoa boa não escolhe ser vampiro. Ela sabe que vai pro céu e, se pensa que vai pro inferno, acha isso justo. Não é matar que nos manda pro inferno, e sim a cobiça pela vida eterna, a vaidade de sermos sempre jovens. Mas tanto eu quanto você sabemos que, se formos julgados pela crueldade, eu serei absolvido. Já você...</default>
 	</talk>
 	<teller>
-		<default>Ela fica olhando fixamente para Guilherme.</default>
+		<default>Beatrice olha para Guilherme.</default>
 	</teller>
 	<talk character="Guilherme">
 		<default>Não apresenta sua amiga? Acho que ela gostou de mim.</default>
 	</talk>
 	<teller>
-		<default>Beatrice sobe correndo. Entra no quarto, deita na cama e chora. Zenon entra.</default>
+		<default>Beatrice olha para o chão. Sobe correndo as escadas. Entra no quarto, deita na cama, enfia a cara no travesseiro. Zenon entra.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Que foi??? Você já o conhece???</default>
+		<default>Que foi??? Você já conhece ele???</default>
 	</talk>
+	<teller>
+		<default>Beatrice se vira.</default>
+	</teller>
 	<talk character="Bea">
 		<screamed>Sai daqui!</screamed>
 	</talk>
@@ -120,13 +136,13 @@
 		<default>Eu? Bea...</default>
 	</talk>
 	<teller>
-		<default>Ela joga uma banco nele, que desvia.</default>
+		<default>Beatrice se senta, pega o móvel de cabeceira, joga contra Zenon. Zenon sai da frente e o móvel acerta a parede do corredor.</default>
 	</teller>
 	<talk character="Bea">
 		<screamed>Sai!</screamed>
 	</talk>
 	<teller>
-		<default>Zenon sai. Chega na sala e Guilherme não está mais.</default>
+		<default>Zenon sai. Desce as escadas. Chega a sala. Ninguém.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Droga.</default>
@@ -137,12 +153,18 @@
 	<talk character="Zenon">
 		<default>Alguma coisa que eu disse... Viu um cara?</default>
 	</talk>
+	<teller>
+		<default>Kat franze a sobrancelha.</default>
+	</teller>
 	<talk character="Kat">
-		<default>Um monte deles durante a minha vida.</default>
+		<default>Um monte durante a minha vida.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não, um cara aqui, agora!</default>
 	</talk>
+	<teller>
+		<default>Kat desfranze.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Não. Mas vi um em um sonho meu.</default>
 	</talk>
@@ -153,16 +175,16 @@
 		<default>Quem?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Esse cara de quem está falando!</default>
+		<default>Esse cara de quem tá falando!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Na verdade, o cara de quem estou falando é bem violento e deixa corpos estraçalhados.</default>
+		<default>Na verdade, quem estou falando deixa corpos estraçalhados.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ah. Talvez ele tenha mudado de tática.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Que seja. Está nas Ilhas, atua de noite, mas precisamos ver nos livros o que é. Se não for seu amigo, claro, porque, se for, você já sabe o que é.</default>
+		<default>Que seja. Tá nas Ilhas, faz as coisas de noite, mas precisamos ver nos livros o que é. Se não for seu amigo, claro, porque, se for, você já sabe o que é.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Um vampiro.</default>
@@ -173,14 +195,20 @@
 	<talk character="Zenon">
 		<default>Tem certeza?</default>
 	</talk>
+	<teller>
+		<default>Kat cruza os braços.</default>
+	</teller>
 	<talk character="Kat">
-		<default>Tá me chamando de lesa? Eu sei o que é um vampiro!</default>
+		<default>Eu sei o que é um vampiro.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Tá. Vou chamar Alan e Beleno e vamos atrás disso.</default>
 	</talk>
 	<teller>
-		<default>Zenon sai. Kat nota um envelope sobre a recepção. Dentro, convites para uma peça de teatro. 21:00. Alan e Zenon chegam sujos. Beleno entra.</default>
+		<default>Zenon sai. Kat olha para o balcão. Vai até o balcão e pega um envelope. Abre. Convites para uma peça de teatro.</default>
+	</teller>
+	<teller>
+		<first>Noite. Alan e Zenon entram. Estão completamente cheios de gosma. Derik trava o rosto. Beleno entra atrás.</first>
 	</teller>
 	<talk character="Beleno">
 		<default>Não consigo olha para vocês e não rir.</default>
@@ -195,13 +223,13 @@
 		<default>Vou tomar um banho.</default>
 	</talk>
 	<teller>
-		<default>Alan sobe. Zenon sobe atrás.</default>
+		<default>Alan sobe. Zenon sobe também.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Quem vai pegar o sabonete?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Hahaha.</default>
+		<out>Hahaha.</out>
 	</talk>
 	<talk character="Derik">
 		<default>Que aconteceu?</default>
@@ -216,7 +244,7 @@
 		<default>Quê???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Tô brincando. Estela tá com ela, mas só porque Inês tá dormindo, com cinco anos e vocês deixaram a recepção sozinha.</default>
+		<default>Brincadeira. Estela tá lá também, mas só porque Inês tá dormindo, com cinco anos, e vocês deixaram a recepção sem ninguém.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Vou lá.</default>
@@ -234,24 +262,37 @@
 		<arrive>Derik, isso é seu?</arrive>
 	</talk>
 	<teller>
-		<default>Kat entrega os convites que achara a Derik.</default>
+		<default>Kat entrega os convites a Derik.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Não.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Tem um outro papel...</default>
-		<teller>entrega o papel também</teller>
-		<default>parece que foi molhado, mas tá em branco.</default>
 	</talk>
 	<teller>
-		<default>Derik pega um isqueiro. Acende e passa o fogo por debaixo do papel. Aparece o nome de Zenon.</default>
+		<default>Kat entrega um pedaço de papel.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Parece que foi molhado em algum momento, mas tá em branco.</default>
+	</talk>
+	<teller>
+		<default>Derik baixa e pega um isqueiro no balcão.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Não sabia que tínhamos isqueiro...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Achei em um quarto, nunca voltaram pra buscar.</default>
+	</talk>
+	<teller>
+		<default>Derik acende e passa o fogo por debaixo do papel, na parte de cima. Aparece escrito Zenon.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Nem vou escurecer o resto, é pro Zenon... Melhor não lermos.</default>
+		<default>Nem vou escurecer o resto, é pra Zenon, melhor não ler.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Só viu o nome dele, pode ser algo sobre ele, não para ele.</default>
+		<default>Só viu o nome, pode ser algo sobre Zenon, não para Zenon.</default>
 	</talk>
 	<talk character="Derik">
 		<default>De curiosidade...</default>
@@ -260,13 +301,13 @@
 		<default>Kat sobe.</default>
 	</teller>
 	<talk character="Kat">
-		<screamed>Zenon!</screamed>
+		<out>Zenon!</out>
 	</talk>
 	<talk character="Derik">
-		<default>Morreu o gato.</default>
+		<default>... morreu o gato.</default>
 	</talk>
 	<teller>
-		<default>Guilherme entra no Teatro. Uma mulher puxa seu braço.</default>
+		<first>Guilherme entra no Teatro. Synt passa o braço dentro de seu braço.</first>
 	</teller>
 	<talk character="Synt">
 		<default>Olha só, Don Juan prestigiando minha peça?</default>
@@ -278,7 +319,7 @@
 		<default>Bem. E cadê sua companhia?</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Descobri alguém que adoraria rever. Daí deixei os convites com ele. E sabe que não ando com companhias.</default>
+		<default>Descobri alguém que adoraria rever. Daí deixei os convites com ele. Sabe que não ando com companhias.</default>
 	</talk>
 	<talk character="Synt">
 		<default>Verdade. Mas ainda acaba se matando, de tanto sair com suicidas.</default>
@@ -296,7 +337,7 @@
 		<default>São os de estréia, no melhor lugar. Hoje só vim para reconhecimento.</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Não rejeitei. Até vim te pedir outro. Mas não podia deixar de provocá-lo.</default>
+		<default>Não rejeitei. Até vim te pedir outro. Mas não podia deixar de provocar ele.</default>
 	</talk>
 	<talk character="Synt">
 		<default>Zenon?</default>
@@ -305,37 +346,49 @@
 		<default>Quem mais seria?</default>
 	</talk>
 	<talk character="Synt">
-		<default>Bom, com você provocando, poderia ser metade dos que conheço, isso porque a outra metade não te conhece, mas como a provocação fui eu...</default>
+		<default>Bom, com você provocando, poderia ser metade dos que conheço, isso porque a outra metade não te conhece. Mas como a provocação fui eu...</default>
 	</talk>
 	<talk character="Guilherme">
 		<default>Ficou sabendo que agora ele caça vampiros?</default>
 	</talk>
+	<teller>
+		<default>Synt franze a sobrancelha.</default>
+	</teller>
 	<talk character="Synt">
-		<default>Não. Explique-se.</default>
+		<default>Explique-se.</default>
 	</talk>
 	<teller>
-		<default>Na MEAK...</default>
+		<first>MEAK.</first>
 	</teller>
 	<talk character="Zenon">
-		<default>Vai com o Derik.</default>
+		<default>Vai com Derik.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não gosta de teatro?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não. Eu poderia ir com Beatrice, mas ela está brava comigo...</default>
+		<default>Não. Eu poderia ir com Beatrice, mas tá com raiva de mim...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Um ótimo jeito de se reconciliarem.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Deixo esses de presente pra vocês. Se eu for, vou comprar os convites para nós dois, ela pode pensar que só não quis jogar os convites fora.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tá. Obrigado!</default>
+		<default>Deixo esses de presente pra vocês. Se eu for, vou comprar os convites para nós dois, Bea pode pensar que só não quis jogar os convites fora.</default>
 	</talk>
 	<teller>
-		<default>Kat abraça Zenon e sai. Zenon vai até o quarto de Beatrice.</default>
+		<default>Kat sorri.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Tá. Valeu!</default>
+	</talk>
+	<teller>
+		<default>Kat abraça Zenon e sai. Zenon sobe. Anda pelo corredor. Para perto do móvel de cabeceira quebrado. Bate na porta.</default>
+	</teller>
+	<talk character="Bea">
+		<out>Entra.</out>
+	</talk>
+	<teller>
+		<default>Zenon entra no quarto. Beatrice está na cama, sentou-se com os joelhos encolhidos, abraçando-os.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Tá melhor agora?</default>
@@ -350,7 +403,7 @@
 		<default>Você não acredita no que me disse, né?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Do que está falando?</default>
+		<default>Do que tá falando?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Disse que eu tenho salvação e, quando aquele cara chegou, mudou isso para "os vampiros vão todos pro inferno".</default>
@@ -365,13 +418,13 @@
 		<default>NÃO! Quer dizer... Você não demorou tanto.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Tempo faz diferença? Ainda sim fiz pessoas sofrerem.</default>
+		<default>Tempo faz diferença? Ainda sim, fiz pessoas sofrerem.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Tá. Então vamos pensar que quem tem que julgar isso é Deus.</default>
 	</talk>
 	<teller>
-		<default>Beatrice vai até ele e o abraça. O afasta. Enxuga o rosto.</default>
+		<default>Beatrice levanta, vai até Zenon e abraça. Zenon abraça de volta, colocando a mão atrás da cabeça de Bea. Beatrice se afasta. Limpa o rosto com as mãos.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Tá, agora seu problema.</default>
@@ -380,11 +433,20 @@
 		<default>Que problema?</default>
 	</talk>
 	<talk character="Bea">
-		<default>A desculpa que deu à Katerine é mais furada que o Titanic.</default>
+		<default>Sabe o Titanic?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Sei...</default>
+	</talk>
+	<talk character="Bea">
+		<default>Menos furado que sua desculpa.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Você queria ir? Se eu soubesse...</default>
 	</talk>
+	<teller>
+		<default>Bea cruza os braços.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Não é isso.</default>
 	</talk>
@@ -392,7 +454,7 @@
 		<default>Não sabia que garotas deprimidas escutavam a conversa das pessoas.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não fuja do assunto.</default>
+		<default>Não foge do assunto.</default>
 	</talk>
 	<teller>
 		<default>Zenon baixa a cabeça.</default>
@@ -410,28 +472,28 @@
 		<default>Um homem?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não. Aconteceu em meados do século retrasado.</default>
+		<default>Não. Bom...</default>
 	</talk>
 	<teller>
-		<default>1850. Synt chega a um prédio com um homem. Há vários corpos esparramados no chão.</default>
+		<division>1850</division>
+	</teller>
+	<teller>
+		<default>Synt chega a um prédio com Abel. Vários corpos esparramados no chão. Abel dá passos para trás.</default>
 	</teller>
 	<talk character="Synt">
-		<default>Droga.</default>
+		<default>Droga!</default>
 	</talk>
-	<talk character="homem">
-		<default>Que aconteceu aqui?</default>
+	<talk character="Abel">
+		<default>Que aconteceu aqui?!</default>
 	</talk>
 	<talk character="Synt">
 		<screamed>Sei que está me seguindo!</screamed>
 	</talk>
-	<talk character="homem">
+	<talk character="Abel">
 		<default>Ah?!</default>
 	</talk>
-	<teller>
-		<default>Aparece outra mulher.</default>
-	</teller>
 	<talk character="Valesca">
-		<default>Zenon e Clítia.</default>
+		<arrive>Zenon e Clítia.</arrive>
 	</talk>
 	<talk character="Synt">
 		<default>Como sabe?</default>
@@ -440,9 +502,9 @@
 		<default>Não quis fazer uma festinha com eles.</default>
 	</talk>
 	<talk character="Synt">
-		<default>Vão ver a festinha que vou fazer.</default>
+		<default>Vão ver a festinha que vou fazer...</default>
 	</talk>
 	<teller>
-		<default>Synt mostra os dentes e vira para o homem. Este se assusta.</default>
+		<default>Synt mostra os dentes e vira para Abel. Abel arregala os olhos.</default>
 	</teller>
 </story>
