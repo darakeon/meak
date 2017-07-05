@@ -15,13 +15,13 @@ function AjustHeight() {
 
     var head = ScaleHeight(".head");
 
-    var mainHeight = windowHeight - general - head - main;
+    var mainHeight = windowHeight - general - main;
 
     $(".main").height(mainHeight);
 }
 
-    var secureSpace = 10;
 
+var secureSpace = 10;
 
 function AjustFinalMargin() {
     var main = NumericValueCss(".main", "height");

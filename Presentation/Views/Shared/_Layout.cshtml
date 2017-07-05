@@ -20,21 +20,25 @@
         @Html.Partial("Partial/LogOn")
     </div>
 
-    <div class="head">
-        @Html.Partial("Partial/Head")
-    </div>
+    <div class="content">
+        <div class="resizer">
+            <button class="sizeLess lightback">A &ndash; &ndash;</button>
+            <button class="sizeMore lightback">A + +</button>
+        </div>
 
-    <div class="menu">
-        @Html.Partial("Partial/Menu")
-    </div>
+        <div class="left">
+            <div class="head">
+                <img alt="MEAK" src="@Url.Content(@"~/Assets/images/logo.png")" />
+            </div>
 
-    <div class="resizer">
-        <button class="sizeLess darkback">A &ndash; &ndash;</button>
-        <button class="sizeMore darkback">A + +</button>
-    </div>
+            <div class="menu">
+                @Html.Partial("Partial/Menu")
+            </div>
+        </div>
 
-    <div class="main lightback hidden">
-        @RenderBody()
+        <div class="main lightback hidden">
+            @RenderBody()
+        </div>
     </div>
 </body>
 </html>

@@ -1,9 +1,8 @@
 .resizer
 {
-    position: absolute;
-    right: 70px;
-    top: 145px;
     z-index: 1;
+    float: right;
+    margin: -30px 35px;
 }
 
 .resizer button
@@ -13,14 +12,6 @@
     padding: 0;
     vertical-align: middle;
     border: none;
-    opacity: 0.4;
-    filter: alpha(opacity=40);
-}
-
-.resizer button:hover
-{
-    opacity: 1;
-    filter: alpha(opacity=100);
 }
 
 .resizer .sizeLess
