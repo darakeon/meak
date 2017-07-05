@@ -1,0 +1,30 @@
+.scenes .scene
+{
+    display: none;
+}
+
+.scenes .reading
+{
+    display: block;
+}
+
+
+.SceneChanger
+{
+    padding: 0;
+    text-align: center;
+}
+
+.SceneChanger li
+{
+    border: 1px solid #000;
+    display: inline-block;
+    width: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.SceneChanger .chosen
+{
+    background: #000;
+}

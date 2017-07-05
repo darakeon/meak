@@ -33,13 +33,19 @@
 </p>
     
 
-        
-@for (var s = 0; s < Model.Story.SceneList.Count; s++)
-{
-    Model.SceneCounter = s;
+@Html.Partial("Partial/ChangeScene", Model.Story.SceneList.Count)
 
-    @Html.Partial("Author/Scene")
-}
+<div class="scenes">
+    @for (var s = 0; s < Model.Story.SceneList.Count; s++)
+    {
+        Model.SceneCounter = s;
+
+        @Html.Partial("Author/Scene")
+    }
+</div>
+
+@Html.Partial("Partial/ChangeScene", Model.Story.SceneList.Count)
+
 
 <p class="sign">
     <img alt="Handhara Akeon" src="@Url.Content(@"~/Assets/images/sign.gif")" />

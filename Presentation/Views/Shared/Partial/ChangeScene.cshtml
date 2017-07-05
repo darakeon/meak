@@ -1,0 +1,10 @@
+﻿@model System.Int32
+
+<ul class="SceneChanger">
+    @for (int s = 0; s < Model; s++)
+    {
+        <li scene="@s" class="@if (s == 0) { @("chosen") }  sceneChanger@(s)">
+            &nbsp;
+        </li>
+    }
+</ul>

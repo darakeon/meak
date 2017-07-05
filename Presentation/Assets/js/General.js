@@ -8,6 +8,8 @@ function LayoutAndWork() {
 
     AjustLogin();
 
+    SceneChanger();
+
     $(window).resize(AjustMainDivSize);
     $(window).resize(AjustLogin);
 }

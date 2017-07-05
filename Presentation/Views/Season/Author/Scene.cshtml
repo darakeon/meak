@@ -6,7 +6,7 @@
     var html = new { id = "form_" + Model.SceneCounter };
 }
 
-<div class="scene" id="Scene@(Model.SceneCounter)">
+<div class="scene @if(Model.SceneCounter == 0) { @("reading") }" id="Scene@(Model.SceneCounter)">
     @using (Ajax.BeginForm("EditScene", route, ajaxOptions, html))
     {
         for (var s = 0; s <= Model.SceneCounter; s++)

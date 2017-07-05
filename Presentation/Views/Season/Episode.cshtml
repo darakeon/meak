@@ -8,50 +8,64 @@
 }
 
 
+
 <p class="title">
     @Model.Story.Title
 </p>
 
-@foreach (var scene in Model.Story.SceneList)
-{
-    <div class="scene">
-        @foreach (var paragraph in scene.ParagraphTypeList)
-        {
-            <div class="paragraph @paragraph.ToString().ToLower()">
-                @if (paragraph == Structure.Enums.ParagraphType.Talk)
-                {
-                    @("– ")
-            
-                    foreach (var piece in scene.TalkList[talkCounter].Pieces)
-                    {
-                        if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
-                
-                        <span class="talk_@(piece.Style)">@piece.Text</span>
 
-                        if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
-                    }
-            
-                    @(" (" + scene.TalkList[talkCounter].Character + ")")
+@Html.Partial("Partial/ChangeScene", Model.Story.SceneList.Count)
+
+
+<div class="scenes">
+    @for (var s = 0; s < Model.Story.SceneList.Count; s++)
+    {
+        var scene = Model.Story.SceneList[s];
         
-                    talkCounter++;
-                }
-                else if (paragraph == Structure.Enums.ParagraphType.Teller)
-                {
-                    foreach (var piece in scene.TellerList[tellerCounter].Pieces)
+        <div class="scene @if(s == 0) { @("reading") }" id="Scene@(s)">
+            @foreach (var paragraph in scene.ParagraphTypeList)
+            {
+                <div class="paragraph @paragraph.ToString().ToLower()">
+                    @if (paragraph == Structure.Enums.ParagraphType.Talk)
                     {
-                        <div class="teller_@(piece.Style)">@piece.Text</div>
+                        @("– ")
+            
+                        foreach (var piece in scene.TalkList[talkCounter].Pieces)
+                        {
+                            if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
+                
+                            <span class="talk_@(piece.Style)">@piece.Text</span>
+
+                            if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
+                        }
+            
+                        @(" (" + scene.TalkList[talkCounter].Character + ")")
+        
+                        talkCounter++;
                     }
+                    else if (paragraph == Structure.Enums.ParagraphType.Teller)
+                    {
+                        foreach (var piece in scene.TellerList[tellerCounter].Pieces)
+                        {
+                            <div class="teller_@(piece.Style)">@piece.Text</div>
+                        }
 
-                    tellerCounter++;
-                }
-            </div>
-        }
+                        tellerCounter++;
+                    }
+                </div>
+            }
     
-    </div>
+        </div>
 
-    talkCounter = 0;
-    tellerCounter = 0;
-}
+            talkCounter = 0;
+            tellerCounter = 0;
+    }
+</div>
+
+
+
+@Html.Partial("Partial/ChangeScene", Model.Story.SceneList.Count)
+
 
 <p class="sign">
     <img alt="Handhara Akeon" src="@Url.Content(@"~/Assets/images/sign.gif")" />

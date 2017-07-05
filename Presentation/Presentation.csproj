@@ -75,6 +75,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\css\Author\screen_LogOn.css" />
+    <Content Include="Assets\css\screen_Scene.css" />
     <Content Include="Assets\css\screen_Legend.css" />
     <Content Include="Assets\css\Season.css" />
     <Content Include="Assets\css\Main.css" />
@@ -132,6 +133,7 @@
     <Content Include="Assets\js\Author\SaveChangeColor.js" />
     <Content Include="Assets\js\Back.js" />
     <Content Include="Assets\js\Author\Suggestion.js" />
+    <Content Include="Assets\js\SceneChanger.js" />
     <Content Include="Assets\js\Legend.js" />
     <Content Include="Assets\js\lib\jquery-1.6.1.min.js" />
     <Content Include="Assets\js\lib\jquery.unobtrusive-ajax.min.js" />
@@ -192,6 +194,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Season\Author\Scene.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Partial\ChangeScene.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
