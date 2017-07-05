@@ -41,7 +41,7 @@
 		<default>Alan se vira e olha para Janaína.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Eu ia dizer. Ela veio falar com Estela sobre os cargos.</default>
+		<default>Eu ia dizer. Janaína veio falar com Estela sobre os cargos.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Não quis te ofender. É que achei que não trabalhasse.</default>
@@ -56,10 +56,10 @@
 		<default>E recebo os impostos. Estela?</default>
 	</talk>
 	<talk character="Derik">
-		<default>No quarto dela. Alan, leva a Janaína lá, já que é seu quarto também.</default>
+		<default>No quarto. Alan, leva a Janaína lá, já que é seu quarto também.</default>
 	</talk>
 	<teller>
-		<default>Os dois sobem. Entram no quarto de Estela.</default>
+		<default>Alan sobe, Janaína segue. Passam pelo corredor. Entram no quarto.</default>
 	</teller>
 	<talk character="Janaína">
 		<default>Oi.</default>
@@ -83,7 +83,7 @@
 		<arrive>Querem ajuda?</arrive>
 	</talk>
 	<talk character="Estela">
-		<default>Vai ficar com o Derik, se não ele dorme da recepção.</default>
+		<default>Vai ficar com Derik, se não dorme da recepção.</default>
 	</talk>
 	<teller>
 		<default>Inês sai. Janaína se senta no chão, onde também está Estela.</default>
@@ -155,13 +155,13 @@
 		<default>Não é bom sairmos dos nossos empregos, são estratégicos, Alan treina mais um para a agência e trabalhamos numa loja que, no submundo, vende armas.</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Tá. Mas insisto em pagá-los.</default>
+		<default>Tá. Mas insisto em pagar.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Se você quer assim...</default>
 	</talk>
 	<teller>
-		<default>07/07 (segunda), 5:00. Beatrice e Zenon chegam. Encontram Inês, Derik e uma garota, aparentando uns seis anos, todos dormindo. Zenon fica estático.</default>
+		<first>Dia seguinte. Fim da madrugada. Beatrice e Zenon chegam. Encontram Inês, Derik e uma criança, aparentando seis anos, dormindo. Zenon trava.</first>
 	</teller>
 	<talk character="Bea">
 		<hushed>Como alguém pode fazer isso com uma criança???</hushed>
@@ -170,10 +170,10 @@
 		<hushed>Conheço essa.</hushed>
 	</talk>
 	<talk character="Bea">
-		<hushed>Ela é muito ruim?</hushed>
+		<hushed>É muito ruim?</hushed>
 	</talk>
 	<talk character="Zenon">
-		<hushed>Não sei. Vi o enterro dela quando eu tinha 10 anos. Depois só de relance. Ouvi falar que gosta de ser amiga imaginária.</hushed>
+		<hushed>Não sei. Vi o enterro quando eu tinha 10 anos. Depois só de relance. Ouvi falar que gosta de ser amiga imaginária.</hushed>
 	</talk>
 	<talk character="Bea">
 		<hushed>Meu Deus...</hushed>
@@ -188,18 +188,22 @@
 		<hushed>Sem alma.</hushed>
 	</talk>
 	<teller>
-		<default>Zenon pega uma estaca e se aproxima da garota. Guilherme o joga longe e pega a menina no colo. Derik e Inês acordam.</default>
+		<default>Zenon pega uma estaca e se aproxima. Voa contra a parede. Pega a criança no colo. Derik e Inês acordam.</default>
 	</teller>
 	<talk character="Guilherme">
 		<default>Lica, você tá bem???</default>
-		<teller>ela se segura forte nele</teller>
+	</talk>
+	<teller>
+		<default>Lica se segura forte em Guilherme.</default>
+	</teller>
+	<talk character="Guilherme">
 		<screamed>Que ia fazer, seu animal???</screamed>
 	</talk>
 	<talk character="Zenon">
 		<screamed>É uma vampira de primeira linhagem! E agora eu caço de vampiros! É seu novo caso, virou pedófilo???</screamed>
 	</talk>
 	<teller>
-		<default>Guilherme se vira para Beatrice.</default>
+		<default>Guilherme olha para Beatrice.</default>
 	</teller>
 	<talk character="Guilherme">
 		<default>Segura o idiota do seu namorado, se não ele vira pó rapidinho!</default>
@@ -211,32 +215,38 @@
 		<default>Inês, não percebeu o que ela era???</default>
 	</talk>
 	<teller>
-		<default>Inês começa a chorar, Derik a abraça.</default>
+		<default>Inês começa a chorar. Derik pega Inês no colo, abraça e levanta.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Tá ficando louco??? Deu pra atacar criancinhas agora???</default>
+		<default>Enlouqueceu??? Deu pra atacar criancinhas agora???</default>
 	</talk>
 	<teller>
-		<default>Derik sobe a escada com Inês no colo.</default>
+		<default>Derik sobe a escada com Inês.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Temos que jogá-la no sol.</default>
+		<default>Temos que jogar ela no sol.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Uma estaca deve doer menos.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Acho que, se ela for inocente, talvez seja transformada em humana de novo. Se tiver uma estaca cravada no peito, não vai adiantar muita coisa.</default>
+		<default>Acho que, se for inocente, talvez isso reverta a transformação. Se tiver uma estaca cravada no peito, não vai adiantar muita coisa.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Isso quer dizer que devo te jogar no sol?</default>
 	</talk>
+	<teller>
+		<default>Zenon olha para baixo.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Eu... não seria perdoado.</default>
+		<default>Eu não seria perdoado.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Depois de assustar uma criança, não mesmo.</default>
+		<default>Depois disso aqui, não mesmo.</default>
 	</talk>
+	<teller>
+		<default>Zenon olha para Bea.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Ela pode ser...</default>
 	</talk>
@@ -250,7 +260,10 @@
 		<default>Não vai pedir desculpa?</default>
 	</talk>
 	<teller>
-		<default>Zenon encara Beatrice. Esta devolve. Guilherme entra num do hotel com Lica. Coloca-a no chão.</default>
+		<default>Zenon encara Beatrice. Beatrice cruza os braços.</default>
+	</teller>
+	<teller>
+		<first>Guilherme em num do hotel com Lica. Coloca Lica no chão.</first>
 	</teller>
 	<talk character="Lica">
 		<default>Ainda bem que me protegeu.</default>
@@ -286,10 +299,22 @@
 		<default>Conta estórias legais.</default>
 	</talk>
 	<teller>
-		<default>Guilherme sorri. De noite, Lica e Inês estão brincando com Lego. Beleno entra no quarto.</default>
+		<default>Guilherme sorri.</default>
+	</teller>
+	<talk character="Guilherme">
+		<default>E Derik?</default>
+	</talk>
+	<talk character="Lica">
+		<default>É quase um milagre! Nem parece adulto, de tão legal!</default>
+	</talk>
+	<teller>
+		<default>Guilherme balança a cabeça para os lados.</default>
+	</teller>
+	<teller>
+		<first>Noite. Lica e Inês estão no chão, Lego espalhado.</first>
 	</teller>
 	<talk character="Beleno">
-		<default>Inês, eu preciso falar com você.</default>
+		<arrive>Inês, eu preciso falar com você.</arrive>
 	</talk>
 	<talk character="Inês">
 		<default>Por quê?</default>
@@ -297,6 +322,9 @@
 	<talk character="Beleno">
 		<default>Não podemos ficar aqui.</default>
 	</talk>
+	<teller>
+		<default>Inês cruza os braços.</default>
+	</teller>
 	<talk character="Inês">
 		<default>Por que não?</default>
 	</talk>
@@ -304,22 +332,22 @@
 		<default>Olha, eu sei que você não entende, mas tenho certeza que, se eu...</default>
 	</talk>
 	<teller>
-		<default>Inês arregala os olhos e sai correndo. Lica estranha, veste a capa e vai atrás. Beleno também. Começam a correr pela casa. Entram no quarto de Alan. Na confusão...</default>
+		<default>Inês arregala os olhos, levanta e corre. Lica franze a sobrancelha. Levanta, veste a capa, e vai atrás. Beleno balança a cabeça para os lados. Vai atrás. As crianças entram no quarto de Alan. Beleno entra. Segura alguém.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Peguei!</default>
 	</talk>
 	<teller>
-		<default>A luz de novo.</default>
+		<default>Uma luz intensa. Apaga.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Peraí, você não é...</default>
 	</talk>
 	<talk character="Lica">
-		<screamed>Solta!</screamed>
+		<screamed>Me solta!</screamed>
 	</talk>
 	<teller>
-		<default>Lica o empurra. Olha para o próprio corpo.</default>
+		<default>Lica empura Beleno. Grita. Olha para baixo, para os braços e pernas.</default>
 	</teller>
 	<talk character="Lica">
 		<default>Eu tô... Tô... Adulta...</default>
@@ -334,7 +362,7 @@
 		<default>Sua boca não tá muito suja pra quem acabou de crescer?</default>
 	</talk>
 	<teller>
-		<default>Ela senta no chão e começa a chorar.</default>
+		<default>Lica senta no chão. Começa a chorar.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Desculpa, não quis dizer isso.</default>
@@ -352,7 +380,7 @@
 		<default>Bom, nunca desfiz, mas...</default>
 	</talk>
 	<teller>
-		<default>Beleno vai até Lica. Luz. Lica fica com cara de 20 anos. Grita com ele e corre.</default>
+		<default>Beleno vai até Lica. Segura nos braços. Luz novamente. Apaga. Lica envelheceu ainda mais, parecendo um ser humano adulto. Grita. Corre.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Piorou.</default>
@@ -363,6 +391,9 @@
 	<talk character="Alan">
 		<default>Talvez fosse a intenção dela.</default>
 	</talk>
+	<teller>
+		<default>Inês para na frente de Beleno, apontando o dedo.</default>
+	</teller>
 	<talk character="Inês">
 		<default>Se tocar em mim de novo, frito suas mãos!</default>
 	</talk>
@@ -370,13 +401,13 @@
 		<default>Inês sai.</default>
 	</teller>
 	<talk character="Alan">
-		<default>É, acho que ela já tá crescida o suficiente.</default>
+		<default>Acho que ela já tá crescida o suficiente.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Não enche, Alan!</default>
 	</talk>
 	<teller>
-		<default>Guilherme chega em casa. Encosta Lica na parede. Sente o cheiro e se afasta.</default>
+		<first>Guilherme chega em casa. Encosta Lica na parede. Sente o cheiro. Se afasta.</first>
 	</teller>
 	<talk character="Guilherme">
 		<default>Não pode ser...</default>
@@ -388,10 +419,10 @@
 		<default>Impossível.</default>
 	</talk>
 	<talk character="Lica">
-		<default>Mas ele fez! Agora sou adulta.</default>
+		<default>Mas ele fez! Agora sou adulta!</default>
 	</talk>
 	<teller>
-		<default>Ele acende a luz. Vê as lágrimas dela e a abraça.</default>
+		<default>Guilherme acende a luz. Lica ainda está com a roupa semi-rasgada, com lágrimas nos olhos. Guilherme abraça Lica.</default>
 	</teller>
 	<talk character="Guilherme">
 		<default>Não chora...</default>
@@ -401,7 +432,11 @@
 	</talk>
 	<talk character="Guilherme">
 		<default>Não!</default>
-		<teller>a afasta</teller>
+	</talk>
+	<teller>
+		<default>Guilherme afasta Lica e olha nos olhos.</default>
+	</teller>
+	<talk character="Guilherme">
 		<default>Não pode fazer isso.</default>
 	</talk>
 	<talk character="Lica">
@@ -417,12 +452,12 @@
 		<default>Dorme. Se acalma.</default>
 	</talk>
 	<talk character="Lica">
-		<default>Duvido que tenha pedido calma para alguém.</default>
+		<default>Duvido que tenha pedido calma para alguém...</default>
 	</talk>
 	<talk character="Guilherme">
 		<default>Vem cá...</default>
 	</talk>
 	<teller>
-		<default>Guilherme a leva para a cama. Deitam. Ela acaba dormindo.</default>
+		<default>Guilherme pega a mão de Lica. Vai até a cama. Lica deita. Guilherme deita atrás, abraçando Lica. Guilherme dá um beijo na cabeça de Lica. Lica fecha os olhos.</default>
 	</teller>
 </story>
