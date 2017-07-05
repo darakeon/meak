@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Structure.Enums;
 
 namespace Structure.Entities
 {
@@ -12,7 +11,7 @@ namespace Structure.Entities
             EpisodeList = new List<Episode>();
         }
 
-        public Season(String path, OpenEpisodeOption getEpisode = OpenEpisodeOption.GetCode) : this()
+        public Season(String path) : this()
         {
             ID = path[path.Length - 1].ToString();
 
@@ -20,19 +19,25 @@ namespace Structure.Entities
                 .GetDirectories(path)
                 .ToList();
 
-            episodeFiles.ForEach(ef =>
-                insertInEpisodeList(ef, getEpisode));
+            episodeFiles.ForEach(insertInEpisodeList);
         }
 
-        private void insertInEpisodeList(String file, OpenEpisodeOption getEpisode)
+        private void insertInEpisodeList(String file)
         {
             var dir = new DirectoryInfo(file);
 
-            var episode = dir.Name;
-            var season = dir.Parent.Name.Replace("_", "");
-            var path = dir.Parent.Parent.FullName;
+	        if (dir.Parent == null || dir.Parent.Parent == null)
+				return;
 
-            EpisodeList.Add(new Episode(path, season, episode));
+	        var episodeName = dir.Name;
+
+	        var seasonName = dir.Parent.Name.Replace("_", "");
+	        var path = dir.Parent.Parent.FullName;
+
+	        var episode = new Episode(path, seasonName, episodeName);
+
+	        if (episode.CanSee())
+		        EpisodeList.Add(episode);
         }
 
 

@@ -13,7 +13,7 @@
             @Countdown.GetTimeLeft() days
         </div>
         <div class="header lightback">
-            @Html.RouteLink("Add Episode", route, new { action = "AddEpisode" })
+            @Html.RouteLink("Add Episode", route, new { action = "AddEpisode", controller = "Season" })
         </div>
         <br /><br />
     }
