@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="13" scene="g">
 	<teller>
-		<default>20:00. Kat entra no quarto. Estela levanta.</default>
+		<default>Noite. Kat passa pelo corredor e entra em seu quarto. Estela sai de seu quarto e vai até Kat.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Aconteceu alguma coisa???</default>
@@ -10,19 +10,34 @@
 		<default>Aonde? Por quê?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Eles não estão mais lá embaixo???</default>
+		<default>Eles não tão mais lá embaixo???</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eles quem???</default>
+		<default>Quem???</default>
 	</talk>
 	<talk character="Estela">
 		<default>Ai, meu Deus!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eu e Michele estamos pensando em sair pra caçar Etos, queríamos saber se Alan e Zenon queriam ir. Que está acontecendo?!</default>
+		<default>Eu e Michele estamos pensando em sair pra caçar Etos, queríamos saber se Alan e Zenon queriam ir. Que está acontecendo?</default>
 	</talk>
 	<talk character="Alan">
-		<default>Tá namorando o cara que o Zenon tava atrás. Eles tavam conversando.</default>
+		<arrive>Estela tá namorando.</arrive>
+	</talk>
+	<teller>
+		<default>Kat sorri.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Isso é bom!</default>
+	</talk>
+	<teller>
+		<default>Kat olha para Alan e Estela e desfaz o sorriso.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Não?</default>
+	</talk>
+	<talk character="Alan">
+		<default>É o cara que o Zenon tava atrás. Eles tavam conversando.</default>
 	</talk>
 	<talk character="Kat">
 		<default>E...</default>
@@ -34,13 +49,13 @@
 		<default>Tinha cinzas no chão???</default>
 	</talk>
 	<talk character="Kat">
-		<default>Agora eu tô é preocupada com o Zenon, voltou estourado da última.</default>
+		<default>Agora eu tô é preocupada com Zenon, voltou em frangalhos da última.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Os móveis estariam quebrados.</default>
 	</talk>
 	<teller>
-		<default>As duas se entreolham. Os três descem. Acham um bilhete.</default>
+		<default>Kat e Estela se entreolham. Estela sai. Alan e Estela seguem. Kat vê um bilhete na recepção. Pega.</default>
 	</teller>
 	<talk character="Kat">
 		<default>"Fomos atrás de Etos".</default>
@@ -52,25 +67,29 @@
 		<default>Deixaram o bilhete.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Cadê o Derik?</default>
+		<default>Cadê Derik?</default>
 	</talk>
 	<talk character="Derik">
 		<out>Aqui!</out>
 		<arrive>Alguém precisa de alguma coisa?</arrive>
 	</talk>
 	<talk character="Kat">
-		<default>E a Michele?</default>
+		<default>E Michele?</default>
 	</talk>
 	<teller>
-		<default>Michele aparece, também vinda da cozinha.</default>
+		<default>Michele aparece, também vindo da cozinha.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Peraí, o que estavam fazendo os dois sozinhos???</default>
-		<teller>Derik abre a boca para falar</teller>
-		<default>Esquece. Derik, ache Beleno, você e ele vão procurar pelo Zenon e Guilherme pelo ar. Eu, Alan e Michele procuramos por terra, Estela toma um copo d’água e fica dentro do quarto.</default>
+		<default>Vocês?! Juntos?!</default>
 	</talk>
 	<teller>
-		<default>Todos saem da sala, fica apenas Estela. Ela olha em volta e sobe. Alguém sobe atrás dela. Ela entra no quarto. Vê um livro em cima da cama, aberto numa página. Olha a capa: é sobre pégasos. Na página...</default>
+		<default>Derik abre a boca.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Esquece. Derik, ache Beleno, vocês vão procurar Zenon e Guilherme pelo ar. Eu, Alan e Michele procuramos por terra, Estela toma um copo de água e fica dentro do quarto.</default>
+	</talk>
+	<teller>
+		<default>Kat sai. Alan, Derik e Michele seguem. Estela olha em volta. Sobe. Alguém sobe atrás. Estela entra no quarto. Vê um livro em cima da cama, aberto em uma página. Olha a capa: é sobre pégasos.</default>
 	</teller>
 	<talk character="Estela">
 		<default>"Os ossos de uma vítima de pégasos se desfazem em um dia. Se forem enterrados, o vampiro"... Droga... Volta à vida... Tenho que avisar...</default>
@@ -97,7 +116,10 @@
 		<default>Brincar?</default>
 	</talk>
 	<teller>
-		<default>Lica segura Estela. Etos aparece. Lica sorri. Domingo (27/07), 8:00. Todos chegam em casa. Guilherme pega um bilhete. Sobe correndo. Encontra Lica dormindo e Estela amarrada no canto do quarto. Lica se levanta.</default>
+		<default>Lica segura Estela. Etos entra. Lica sorri.</default>
+	</teller>
+	<teller>
+		<first>Manhã. MEAK. Kat, Zenon, Michele, Derik, Beleno, Alan e Guilherme entram. Guilherme cheira o ar e franze a testa. Vai até o balcão e pega um bilhete. Sobe correndo. Lica está dormindo e Estela com amarras no canto do quarto. Lica se levanta.</first>
 	</teller>
 	<talk character="Lica">
 		<default>Que foi? Você não quis, arranjei quem quisesse.</default>
@@ -109,13 +131,13 @@
 		<default>Não fizemos nada com ela. Aula teórica. Quer participar da prática?</default>
 	</talk>
 	<talk character="Guilherme">
-		<default>Ela tem 14 anos.</default>
+		<default>Ela tem 16 anos.</default>
 	</talk>
 	<talk character="Lica">
 		<default>Etos estava me falando de um feitiço para te consertar...</default>
 	</talk>
 	<teller>
-		<default>Guilherme joga Lica pela janela, mas ela o puxa junto. Os dois viram pó. Estela vai até a janela devagar. Alan chega. Ela o abraça.</default>
+		<default>Guilherme pega Lica. Joga pela janela. Lica puxa Guilherme junto. Viram pó. Estela levanta devagar. Vai até a janela devagar. Uma lágrima cai de seus olhos. Alan chega. Vira Estela. Estela abraça Alan. Alan abraça Estela.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Que aconteceu?</default>
@@ -124,10 +146,13 @@
 		<default>Ele mandou ela embora... Mas ela levou ele junto. Por que sempre vão embora sem me explicar nada?</default>
 	</talk>
 	<talk character="Alan">
-		<default>Você é nova ainda. Ainda vai se decepcionar mais. Mas eu tô aqui.</default>
+		<default>Você é nova ainda. Ainda vai se decepcionar mais. Mas eu tô aqui. Vou estar aqui sempre.</default>
 	</talk>
 	<teller>
-		<default>Ela o abraça mais forte. 07/09/2003. Todos estão na frente da MEAK. Derik está sentado no chão com um grande livro.</default>
+		<default>Estela abraça Alan mais forte.</default>
+	</teller>
+	<teller>
+		<first>Dias depois. MEAK, lado de fora. Derik está no chão, sentou-se, com um grande livro.</first>
 	</teller>
 	<talk character="Alan">
 		<default>Temos mesmo que ficar todos aqui fora?</default>
@@ -139,7 +164,7 @@
 		<default>Alan vai entrar, mas Zenon segura-lhe o braço.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Não, Derik, vamos ficar todos aqui, afinal, trabalhou nisso, né, Alan?</default>
+		<default>Não, Derik, vamos ficar todos aqui, afinal, trabalhou muito nisso, né, Alan?</default>
 	</talk>
 	<talk character="Alan">
 		<default>Ele disse que...</default>
@@ -154,21 +179,25 @@
 		<default>Sete vezes no espaço, guardado do mundo, fechado de cinco trancas, viradas três vezes.</default>
 	</talk>
 	<teller>
-		<default>Ele joga um pó azul na porta aberta, depois um líquido vermelho e uma fumaça roxa aparece. A porta bate, ele se afasta. Pára a fumaça.</default>
+		<default>Derik joga um pó azul na porta de entrada aberta do quartinho ao lado da MEAK. Depois um líquido vermelho. Uma fumaça roxa aparece. A porta bate, Derik se afasta. Pára a fumaça.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Só isso?</default>
 	</talk>
 	<teller>
-		<default>A MEAK desaba em si mesma (como uma implosão). Todos ficam olhando, sem reação. Derik folheia o livro.</default>
+		<default>MEAK desaba em si, como uma implosão. Zenon dá passos para trás, Kat protege Estela com o braço, Beleno pega Inês e levanta voo para trás, Zenon coloca o braço na frente de Michele, Beatrice puxa Alan. As pessoas ficam olhando. Derik folheia o livro.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Quem vamos processar?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Tá no final do feitiço, a bruxa "Lahi"... Nascida em 1900... Morta em 1870??? Ah, tá, é...</default>
-		<teller>olha pra todos, que o encaram</teller>
-		<default>Antes de Cristo. Você não estão com caras muito boas.</default>
+		<default>Tá no final do feitiço, a bruxa "Lahi"... Nascida em 1900... Morta em 1870??? Ah, tá, é antes de Cristo...</default>
+	</talk>
+	<teller>
+		<default>Derik olha para todos.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Você não estão com caras muito boas.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Derik, querido, não devia ter olhado isso antes?</default>
@@ -176,4 +205,61 @@
 	<talk character="Derik">
 		<default>Acho que vou ter que limpar sozinho, né?</default>
 	</talk>
+	<teller>
+		<division>Algum tempo, algum lugar</division>
+	</teller>
+	<talk character="Uehfo">
+		<default>Parece que estavam se virando muito bem.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Acho que Mel matava Etos em um segundo. Ou Lica, talvez Lica fosse o problema.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Talvez Mel tivesse ido para cama com Etos e Lica e Guilherme e estaria todo mundo feliz.</default>
+	</talk>
+	<talk character="Xien">
+		<default>É, faz mais sentido. Bom, aparentemente estava controlando Ludmila o tempo todo da outra vez.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Mel nunca é a vítima.</default>
+	</talk>
+	<talk character="Xien">
+		<default>É. Não mais.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Nilrem...</default>
+	</talk>
+	<talk character="Xien">
+		<default>Mel era uma criança.</default>
+	</talk>
+	<teller>
+		<default>Uehfo olha para o nada.</default>
+	</teller>
+	<talk character="Xien">
+		<default>Tava me referindo a segunda criança.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Não dá pra amar algo que depende da sua vida e não ficar vulnerável.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Tenho medo disso. Acho que não conseguiria carregar uma criança.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Talvez a transformação de Angely tivesse mais a ver com isso.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Será?</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Acho que podemos acelerar isso um pouco. Que acha?</default>
+	</talk>
+	<teller>
+		<default>Xien sorri.</default>
+	</teller>
+	<talk character="Uehfo">
+		<default>Não se empolga. Não é tanto assim.</default>
+	</talk>
+	<teller>
+		<default>Xien desfaz o sorriso e solta os ombros. Uehfo pega a mão de Xien.</default>
+	</teller>
 </story>
