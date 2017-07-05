@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="16" scene="g">
 	<teller>
-		<default>Passam no hospital, pegam Psique e Rafael e vão pra antiga cabana de Íris.</default>
+		<default>Antiga cabana de Íris.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Que bom que chegaram.</default>
@@ -16,31 +16,31 @@
 		<default>Achei que tinham curado ela.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Fizeram uma besteira. Acabaram modificando o vírus e ele ficou mais forte. À essa hora já está contagioso. Sorte que estamos só nós aqui.</default>
+		<default>Fizeram uma besteira. Só alteraram o vírus. A essa hora, já está contagioso. Sorte que estamos só nós aqui.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ei, você é humana!</default>
+		<default>Ei, você é humana! Ou meio-humana...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Se esse vírus metido me invadir, mato ele num segundo! Me congelo desmaiando e...</default>
+		<default>Se esse vírus metido me invadir, mato num segundo! Me congelo desmaiando e...</default>
 	</talk>
 	<teller>
 		<default>Todos se entreolham.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Não, ela poderia morrer.</default>
+		<default>Não, poderia morrer.</default>
 	</talk>
 	<talk character="Derik">
-		<default>E o que acha que vai acontecer com ela se o vírus vencer???</default>
+		<default>E o que acha que vai acontecer com se o vírus vencer???</default>
 	</talk>
 	<teller>
-		<default>Eles vão até o quarto. Vazio.</default>
+		<default>Vão até o quarto. Vazio.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Mas eles estavam aqui!</default>
+		<default>Mas estavam aqui!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pra onde ele levou ela???</default>
+		<default>Pra onde Angely levou Dara???</default>
 	</talk>
 	<talk character="Kat">
 		<default>Vai acabar fazendo uma besteira.</default>
@@ -48,17 +48,17 @@
 	<talk character="Zenon">
 		<default>Estamos fazendo o que aqui ainda???</default>
 	</talk>
-	<talk character="Mel">
-		<default>Você fica.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Por que???</default>
+	<talk character="Psique">
+		<arrive>Não vai adiantar.</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Vai amanhecer!</default>
+		<default>Por que?</default>
+	</talk>
+	<talk character="Psique">
+		<default>Por que eu já tentei.</default>
 	</talk>
 	<teller>
-		<default>Os três saem. Angely está perto de uma cachoeira, com Dara nos braços. Senta ela no chão, encostada numa árvore.</default>
+		<first>Angely está com Dara nos braços. Estão na frente de uma cachoeira, na parte de baixo. Senta Dara no chão. Encosta em uma árvore.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Aqui é o lugar que te falei.</default>
@@ -67,7 +67,7 @@
 		<default>É bonito...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não está mais chateada?</default>
+		<default>Não está mais triste?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Não... Tá quente aqui.</default>
@@ -88,7 +88,7 @@
 		<default>Pra que isso?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Vou amarrar suas mãos e seus pés em volta de mim, pra não ter perigo de cair.</default>
+		<default>Vou amarrar você em mim, pra não ter perigo de cair.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Não precisa me carregar, não quero que tenha mais trabalho...</default>
@@ -97,61 +97,67 @@
 		<default>Eu levo, não tem problema. Não estou cansado, sou forte.</default>
 	</talk>
 	<teller>
-		<default>Ele senta-se à frente dela, amarra as mãos e os pés dela em volta de si. Sobe pelo lado da cachoeira. Chega lá em cima antes de amanhecer. Encosta-se numa árvore, colocando ela à sua frente.</default>
+		<default>Angely se senta na frente de Dara, entre as pernas, de costas. Passa o pano da blusa em volta da cintura sua e de Dara. Dara segura em Angely, com as pernas e os braços. Angely levanta, Dara escorrega um pouco. Angely senta. Pega o resto do pano e dá nas mãos de Dara. Dara segura o pano com as duas mãos, os braços em volta de Angely. Angely escala a cachoeira. Chegam em cima antes de amanhecer. Angely encosta-se em uma árvore e coloca Dara a sua frente.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Aqui de cima é ainda mais lindo.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mais alguma coisa que queira pedir?</default>
+		<default>Mais alguma coisa que queira pedir? Pode me pedir o que quiser...</default>
 	</talk>
 	<teller>
-		<default>Dara puxa as mãos dele, colocando-as em volta de sua cintura. Vira a cabeça e o beija. Ele deixa cair uma lágrima. Mel chega, acompanhada de Psique. Angely se levanta e levanta Dara em seu colo.</default>
+		<default>Dara puxa os braços de Angely. Os aperta em volta de si. Se vira de lado. Angely beija a cabeça de Dara. Uma lágrima cai de seu rosto.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Temos que matá-la antes que o vírus se torne contagioso.</default>
+	<talk character="Dara">
+		<default>Eu ativei o GPS do celular. Psique tá vindo. Já deve estar chegando.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Por que?</default>
 	</talk>
-	<talk character="Psique">
-		<default>Quando se tornar contagioso, até uma planta transmitirá o vírus.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vamos ter que queimar o corpo depois.</default>
+	<talk character="Dara">
+		<default>Eu vou morrer. Você já me deu muito de isso não ser entre estranhos. Psique não é uma pessoa qualquer querendo salvar o mundo. Ela tentou me salvar.</default>
 	</talk>
 	<teller>
-		<default>Angely olha pra Dara.</default>
+		<default>Psique chega. Está com uma roupa especial. Mel chega também. Angely levanta, com Dara nos braços.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Se esperarmos mais, Dara vai começar a sentir dor.</default>
+	</talk>
+	<talk character="Dara">
+		<default>Já está doendo.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Por que não me disse?</default>
+	</talk>
+	<talk character="Dara">
+		<default>Porque você me fez não sentir.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Você saiu de casa porque eu desmaiei. Você tomou o remédio porque eu te dei.</default>
+	</talk>
+	<talk character="Dara">
+		<default>Não matei minha irmã nem fugi com um demônio por sua causa também. E lutei e salvei pessoas. E, no final, não me transformei em um monstro por você também.</default>
+	</talk>
+	<teller>
+		<default>Dara beija Angely. Angely coloca Dara em pé no chão. Dara abraça Angely. Se vira, se apoiando em Angely, ficando de costas. Aponta o horizonte.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Tá nascendo...</default>
 	</talk>
 	<teller>
-		<default>Ele coloca ela sentada junto à árvore. A beija. Ela olha pro nascer do sol.</default>
+		<default>Angely abraça Dara.</default>
+	</teller>
+	<talk character="Dara">
+		<default>Não quero que você fique. Quero que lembre de mim viva.</default>
+	</talk>
+	<teller>
+		<default>Angely abraça Dara um pouco mais forte.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Adeus, meu amor...</default>
+		<default>Qualquer coisa que pedir.</default>
 	</talk>
 	<teller>
-		<default>Angely passa a mão no rosto de Dara. Beija sua testa de novo. Se levanta e vai até a beira da cachoeira. Pula.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Angely!</default>
-	</talk>
-	<talk character="Psique">
-		<default>Não é alto o suficiente pra matá-lo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas...</default>
-	</talk>
-	<talk character="Psique">
-		<default>Lembro da última vez que ele esteve no hospital. Acredite, ele vai voltar sem nenhuma arranhão pra casa.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Só agora eu percebo como o nascer do sol é lindo...</default>
-	</talk>
-	<teller>
-		<default>Psique se agacha junto de Dara. Tira uma injeção do bolso. Suas mãos começam a tremer.</default>
+		<default>Angely ajuda Dara a se sentar perto de uma árvore. Passa a mão no rosto de Dara. Beija sua testa de novo. Se levanta e vai até a beira da cachoeira. Pula. Mel olha na direção da cachoeira. Psique se aproxima de Dara. Não olha nos olhos. Abre uma maleta pequena. Tira uma injeção. As mãos tremem.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Não consigo fazer isso.</default>
@@ -159,26 +165,17 @@
 	<talk character="Dara">
 		<default>Mel...</default>
 	</talk>
-	<talk character="Mel">
-		<default>Não posso!</default>
-	</talk>
-	<talk character="Dara">
-		<default>Por favor.</default>
-	</talk>
 	<teller>
-		<default>Psique sai perturbada de perto. Mel vai pegar a injeção, mas Psique não deixa.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Vai acabar aplicando errado.</default>
-	</talk>
-	<teller>
-		<default>Dara estende o braço. Mel se senta ao lado dela e a abraça. Psique aplica a injeção.</default>
+		<default>Mel vai até Psique. Estende a mão. Psique entrega a injeção. Mel abaixa perto de Dara. Psique sai de perto. Mel dá um beijo na cabeça de Dara. Afasta. Dara estende o braço. Mel aplica a injeção.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Pede pro Angely guardar as...</default>
 	</talk>
 	<teller>
-		<default>Ela cede. Mel não consegue conter as lágrimas. Depois elas cremam o corpo e voltam pra cidade. Mel vai à casa de Denise. Esta a abraça, assim que ela chega. Bryan chega em seguida e Mel deixa ela com ele. Vai ao escritório do pai de Dara (dentro da casa).</default>
+		<default>Dara fecha os olhos. Mel abraça Dara. Lágrimas caem do rosto de Mel.</default>
+	</teller>
+	<teller>
+		<first>Casa de Denise. Mel chega. Denise vai na direção de Mel e abraça Mel. Bryan levanta e vem na direção de Denise. Denise abraça Bryan. Mel continua entrando na casa, vai até o escritório.</first>
 	</teller>
 	<talk character="pai dela">
 		<default>Então, não tinha jeito.</default>
@@ -190,7 +187,7 @@
 		<default>Olha aqui, eu não...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tanta frieza... Sua filha morreu. Será que entende isso? Não é dinheiro, não se compra uma vida.</default>
+		<default>Tanta frieza... Dara morreu. Será que entende isso? Não é dinheiro, não se compra uma vida.</default>
 	</talk>
 	<talk character="pai dela">
 		<default>Eu amava minha filha.</default>
@@ -202,10 +199,10 @@
 		<default>Nós dávamos tudo a ela. Fizemos o que podíamos. Ela tinha tudo o que queria...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela queria atenção. Amor. Um pai e uma mãe, não dinheiro.</default>
+		<default>Dara queria atenção. Amor. Um pai e uma mãe, não dinheiro.</default>
 	</talk>
 	<teller>
-		<default>Mel sai do escritório. Volta pro carro. Zenon trouxera ela em seu carro. Se afasta quando ela abre a porta, pra que o raio não o acerte.</default>
+		<default>Mel sai do escritório. Volta pro carro. Zenon está no banco do carona, todo coberto.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Esqueceu de entregar a caixa.</default>
@@ -214,7 +211,7 @@
 		<default>Isso não pertence a eles.</default>
 	</talk>
 	<teller>
-		<default>Eles chegam na casa.</default>
+		<default>MEAK. Mel entra. Zenon também. Zenon carrega uma caixa de veludo vermelho, com partes prata.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Será que ele já voltou?</default>
@@ -229,7 +226,7 @@
 		<default>Vem cá.</default>
 	</talk>
 	<teller>
-		<default>Mel vai até ele e o abraça. Zenon trazia a caixa de veludo vermelho com partes em prata onde estavam as cinzas de Dara. Angely vai até ele.</default>
+		<default>Mel vai até Angely. Abraça. Afasta. Angely olha para Zenon.</default>
 	</teller>
 	<talk character="Angely">
 		<default>É o que estou pensando?</default>
@@ -247,6 +244,6 @@
 		<default>Até poderem juntar com os meus.</default>
 	</talk>
 	<teller>
-		<default>Angely leva a caixa pra seu quarto. Abre uma gaveta, pega uma bolsinha e tira uma correntinha de prata com um pequeno rubi. Abre a caixa com as cinzas e coloca a correntinha dentro. Fecha a caixa e coloca na cabeceira de sua cama. Deita-se em sua cama e adormece depois de várias lágrimas. O lençol o cobre, aparentemente sem interferência de ninguém.</default>
+		<default>Zenon entrega a caixa para Angely. Angely vai para seu quarto. Abre uma gaveta. Pega uma bolsinha. Tira uma correntinha de prata com um pequeno rubi. Abre a caixa com as cinzas. Coloca a correntinha dentro. Fecha a caixa. Coloca na cabeceira de sua cama.</default>
 	</teller>
 </story>
