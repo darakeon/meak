@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="19" scene="c">
 	<teller>
-		<default>Em Zorana, Beatrice e Selina estão numa sala. Entra um vampiro.</default>
+		<default>Zorana. Beatrice e Selina estão em uma sala. Augusto entra.</default>
 	</teller>
 	<talk character="Augusto">
 		<default>Você por aqui...</default>
@@ -16,10 +16,10 @@
 		<default>É. Meu novo namorado.</default>
 	</talk>
 	<talk character="Augusto">
-		<default>Um humano?</default>
+		<default>Um humano? Sério?</default>
 	</talk>
 	<talk character="Selina">
-		<default>Ele não me largou pra ficar louca.</default>
+		<irony>Não me largou pra ficar louca. Já é um ótimo partido.</irony>
 	</talk>
 	<talk character="Augusto">
 		<default>Foi necessário. E eu tinha razão, saiu e já espalhou a notícia...</default>
@@ -34,8 +34,11 @@
 		<default>Sou?</default>
 	</talk>
 	<talk character="Augusto">
-		<default>Primeiro, veio até aqui com caçadores. Depois, mandou-os embora e ficou. Agora, tentou defender Selina. Parece parte dos mocinhos. Mas falei com a mãe da criança. Pelo que ela disse, conseguiu parecer cruel. O que pode significar que possa ser assim.</default>
+		<default>Primeiro, veio até aqui com caçadores. Depois, mandou eles embora e ficou. Agora, tentou defender Selina. Parece parte dos mocinhos. Mas falei com a mãe da criança. Pelo que ela disse, conseguiu parecer cruel. O que pode significar que talvez possa ser assim.</default>
 	</talk>
+	<teller>
+		<default>Selina revira os olhos.</default>
+	</teller>
 	<talk character="Selina">
 		<default>Fala a verdade. Tá louco pra trepar com ela.</default>
 	</talk>
@@ -49,19 +52,19 @@
 		<default>Ela é bonita, e qualquer homem olharia.</default>
 	</talk>
 	<talk character="Selina">
-		<default>Ah, tá falando se tô com ciúmes de você querer ela? Ah, isso não, por que teria? Realmente, não vejo motivos...</default>
+		<irony>Ah, tá falando se tô com ciúmes de você querer ela? Ah, isso não, por que teria? Realmente, não vejo motivos...</irony>
 	</talk>
 	<teller>
-		<default>Augusto não gosta. Sai.</default>
+		<default>Augusto trava a boca. Sai.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Não devia provocá-lo.</default>
+		<default>Não devia provocar.</default>
 	</talk>
 	<talk character="Selina">
 		<default>Foda-se.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não quero ficar louca.</default>
+		<default>Não quero ficar louca. Tem bastante piração pra lembrar da minha vida antes.</default>
 	</talk>
 	<talk character="Selina">
 		<default>Vamos explodir essa merda toda e que se dane.</default>
@@ -91,13 +94,19 @@
 		<default>Não sabe o que é isso.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Imagina um cara que fica obcecado pela meia-irmã, estupra ela, tem uma filha com ela, e depois persegue a filha, essa filha tem uma filha com outro homem, aí ele seqüestra a criança, cria, transa com ela, a transforma em vampira e fica pelo mundo matando e torturando gente com ela. Sim, eu sei o que é isso. Talvez eu possa até dizer que sinto isso dentro de mim.</default>
+		<default>Imagina um cara que fica obcecado pela meia-irmã, estupra ela, tem uma filha com ela, e depois persegue a filha, essa filha tem uma filha com outra pessoa, aí ele seqüestra a criança, que é neta dele, cria, transa com ela, a transforma em vampira e fica pelo mundo matando e torturando gente com ela.</default>
 	</talk>
 	<talk character="Selina">
-		<default>Por isso conseguiu assustar a mulher?</default>
+		<default>Você é a neta?</default>
+	</talk>
+	<teller>
+		<default>Beatrice suspira fundo.</default>
+	</teller>
+	<talk character="Selina">
+		<default>Por isso conseguiu assustar a mulher? Já andou pelo caminho errado então?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Todo mundo tem algo ruim em si. O que eu puder usar pra ajudar, uso. Deixa que eu discuto isso depois que passar pro outro lado.</default>
+		<default>Todo mundo tem algo ruim em si. O que eu puder usar pra ajudar, uso. Se isso vai me mandar pro inferno depois, eu vou deixar pra descobrir o dia que conseguirem me derrubar.</default>
 	</talk>
 	<talk character="Selina">
 		<default>Me perguntou se conheci Rust. Conheceu ele?</default>
@@ -109,13 +118,13 @@
 		<default>Ele tem uma pedra que nem a sua, só que no braço.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ainda vou descobrir o que é, exatamente.</default>
+		<default>Ainda vou descobrir o que é.</default>
 	</talk>
 	<talk character="Selina">
 		<default>Tô com fome.</default>
 	</talk>
 	<teller>
-		<default>Selina sai. Beatrice a segue. Saem do castelo. Olham em volta.</default>
+		<default>Selina sai. Beatrice segue. Saem do castelo. Olham em volta.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Que fazemos agora?</default>
@@ -130,10 +139,10 @@
 		<default>Quer sangue?</default>
 	</talk>
 	<talk character="Bea">
-		<irony>Chamamos alguém?</irony>
+		<irony>Chamamos alguém? Tipo a vaca do restaurante no fim do mundo?</irony>
 	</talk>
 	<teller>
-		<default>Um cara vem e se ajoelha na frente delas.</default>
+		<default>Kandar se aproxima e se ajoelha na frente de Selina e Beatrice. Beatrice franze a sobrancelha.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Ah...</default>
@@ -142,13 +151,19 @@
 		<default>Levanta. E dá o pulso.</default>
 	</talk>
 	<teller>
-		<default>Ele obedece. Dá o outro pulso para Beatrice. As duas mordem ele. Ele se segura um tempo, mas acaba caindo. Elas o encostam numa parede.</default>
+		<default>Kandar levanta e estende o pulso esquerdo. Selina morde. Kandar sorri. Estende o outro pulso a Beatrice. Dá o outro pulso para Beatrice. Beatrice morde. Bebem. Kandar cai de joelhos. Beatrice e Selina levantam, de cada lado, e colocam Kandar em um banco. Kandar baixa e levanta a cabeça, ainda sorrindo. Beatrice olha para Selina.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Tá sujo.</default>
 	</talk>
 	<teller>
-		<default>Selina passa a mão de um lado da boca. Beatrice limpa, do outro. Selina a beija. Beatrice a afasta.</default>
+		<default>Selina passa a mão de um lado da boca.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Não, do outro...</default>
+	</talk>
+	<teller>
+		<default>Beatrice passa a mão do outro lado da boca de Selina. Selina puxa Beatrice e beija. Beatrice se afasta.</default>
 	</teller>
 	<talk character="Selina">
 		<default>Que foi?</default>
@@ -163,10 +178,13 @@
 		<default>Por que nunca dá.</default>
 	</talk>
 	<teller>
-		<default>Beatrice entra. Selina continua andando pela cidade. Beatrice encontra Juliana dentro do castelo.</default>
+		<default>Beatrice entra. Selina balança a cabeça para os lados. Segue para a cidade.</default>
+	</teller>
+	<teller>
+		<first>Beatrice anda dentro do castelo. Vê Juliana. Se aproxima.</first>
 	</teller>
 	<talk character="Bea">
-		<default>Por que veio com ela?</default>
+		<default>Por que veio com Clítia?</default>
 	</talk>
 	<talk character="Juliana">
 		<default>Ajuda a gente a sair daqui.</default>
@@ -175,8 +193,11 @@
 		<default>Quê?</default>
 	</talk>
 	<talk character="Juliana">
-		<default>Ela achou que estaríamos melhor aqui. Mas sei que ela não está bem...</default>
+		<default>Clítia achou que a gente ia ficar melhor aqui... Mas sei que ela não tá bem...</default>
 	</talk>
+	<teller>
+		<default>Beatrice franze a sobrancelha.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Agora se importa?</default>
 	</talk>
@@ -190,7 +211,7 @@
 		<arrive>Sobre seus amigos que saíram... Acho que vão querer trazer outros.</arrive>
 	</talk>
 	<talk character="Bea">
-		<default>Faz diferença? O Grupo já sabe de vocês.</default>
+		<default>Faz diferença? O grupo já sabe de vocês.</default>
 	</talk>
 	<talk character="Augusto">
 		<default>Por causa de Selina. E eu já dei um jeito nisso.</default>
@@ -199,16 +220,20 @@
 		<default>No que?</default>
 	</talk>
 	<talk character="Augusto">
-		<default>Selina vai voltar pra onde não devia ter saído. E agora não tem ninguém para tirá-la de lá. Vamos fechar a entrada.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Perfeito. Acha que vai me prender aqui?</default>
-	</talk>
-	<talk character="Augusto">
-		<default>Na verdade, tenho certeza. Ou pode achar outra saída.</default>
+		<default>Selina vai voltar pra onde não devia ter saído. E agora não tem ninguém para tirar ela de lá. Vamos fechar a entrada.</default>
 	</talk>
 	<teller>
-		<default>Augusto sai.</default>
+		<default>Beatrice cruza os braços.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Acha que vai me prender aqui?</default>
+	</talk>
+	<talk character="Augusto">
+		<default>Na verdade, tenho certeza.</default>
+		<irony>Ou pode achar outra saída.</irony>
+	</talk>
+	<teller>
+		<default>Augusto ri. Sai.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Sempre tem outra saída.</default>
@@ -217,7 +242,7 @@
 		<default>Não quero ficar aqui.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ele deve ter nos ouvido conversando.</default>
+		<default>Deve ter ouvido a gente conversando.</default>
 	</talk>
 	<talk character="Juliana">
 		<default>E daí?</default>
@@ -229,7 +254,7 @@
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Eles ficam no deserto?</default>
+		<default>Ficam no deserto?</default>
 	</talk>
 	<talk character="Juliana">
 		<default>Acha que levaram Clítia?</default>
@@ -238,7 +263,7 @@
 		<default>Tenho certeza. Você obedece. Ela não.</default>
 	</talk>
 	<teller>
-		<default>Elas ouvem um barulho. Dali à algum tempo, estão perto da escada. Derrubada. Alan e Bruno não conseguem mais abrir a porta.</default>
+		<default>Um barulho muito forte, o chão estremece. Superfície. Alan e Bruno puxam a porta. Não abre. Alan para. Bruno também. Alan olha para o céu.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Vamos chamar o Derik.</default>
@@ -247,40 +272,49 @@
 		<default>Quem é Derik?</default>
 	</talk>
 	<teller>
-		<default>Dali a pouco, Derik está sentado no chão, com um livro no colo.</default>
+		<first>Derik está no chão, com um livro no colo.</first>
 	</teller>
 	<talk character="Alan">
 		<default>Tem certeza que não vai implodir?</default>
 	</talk>
-	<talk character="Derik">
-		<default>Isso foi há mais de três anos atrás. E pelo menos não tivemos mais que ouvir uns aos outros na hora errada.</default>
-	</talk>
 	<teller>
-		<default>Ele se levanta.</default>
+		<default>Derik olha para Alan.</default>
 	</teller>
 	<talk character="Derik">
-		<default>E, se implodir, é melhor. Abre um buraco e passamos.</default>
+		<default>Isso foi há mais de três anos atrás.</default>
 	</talk>
 	<teller>
-		<default>Em outro lugar, Clítia está num quarto, penteando os cabelos. Um homem entra.</default>
+		<default>Derik se levanta.</default>
+	</teller>
+	<talk character="Derik">
+		<default>E, se implodir, melhor ainda. Abre um buraco e passamos.</default>
+	</talk>
+	<teller>
+		<first>Clítia está em um quarto, penteando os cabelos. Um homem entra.</first>
 	</teller>
 	<talk character="Clítia">
 		<default>Já vou descer.</default>
 	</talk>
 	<talk character="homem">
-		<default>Não sou de frescura. Não precisa se lavar. Não lembro mesmo qual a última vez que tomei banho.</default>
+		<default>Não sou de frescura. Não precisa se lavar. Não lembro mesmo qual a última vez que tomei banho!</default>
 	</talk>
 	<talk character="Clítia">
 		<default>Já trepei com uns cinco, me dá um tempo.</default>
 	</talk>
 	<teller>
-		<default>Ele levanta ela pelo pescoço e tira o dinheiro do bolso.</default>
+		<default>Ele pega Clítia pelos braços, joga na cama. Joga o dinheiro em cima de Clítia.</default>
 	</teller>
 	<talk character="homem">
 		<default>Eu tô pagando. Agora cala a boca e vamos logo que eu tenho que voltar pra casa ainda hoje.</default>
 	</talk>
 	<teller>
-		<default>Ele rasga a roupa dela e a vira de costas. Ela fecha os olhos. Ele dá um gemido de dor. Ela olha pra trás. Está atravessado com uma espada. Cai. Selina.</default>
+		<default>O homem sobe em cima de Clítia. Clítia respira fundo e olha para o teto. Ele levanta o vestido de Clítia. Ele dá um grito.</default>
+	</teller>
+	<talk character="Clítia">
+		<default>Nossa, essa foi rápida...</default>
+	</talk>
+	<teller>
+		<default>O homem cai para trás. Clítia se senta. Ele está com uma espada atravessada no corpo. Selina chuta ele no chão e puxa a espada das costas.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Obrigada...</default>
@@ -289,61 +323,72 @@
 		<default>Tente se lembrar de quem é.</default>
 	</talk>
 	<talk character="Clítia">
-		<default>Eu sei quem sou. Mas teremos que sair daqui. Se virem isso, seremos queimadas.</default>
+		<default>Eu sei quem sou. Mas vamos ter que sair daqui. Se virem isso, seremos queimadas.</default>
 	</talk>
 	<talk character="Selina">
 		<default>Você é uma vampira. Estamos num deserto e está tendo alucinações.</default>
 	</talk>
 	<talk character="Clítia">
-		<default>Estou tendo alucinações e uma delas veio me contar isso? Difícil.</default>
+		<default>Estou tendo alucinações e uma delas veio me contar isso? Parece bem difícil.</default>
 	</talk>
+	<teller>
+		<default>Selina revira os olhos.</default>
+	</teller>
 	<talk character="Selina">
 		<default>Não sou só uma alucinação...</default>
 	</talk>
 	<talk character="Clítia">
-		<irony>É meu "eu interior"? Falou estamos... Já transei com homens letrados que falavam disso...</irony>
+		<irony>É meu "eu interior"?</irony>
+		<default>Falou que</default>
+		<frizz>estamos</frizz>
 	</talk>
 	<talk character="Selina">
 		<default>É sério.</default>
 	</talk>
 	<talk character="Clítia">
-		<default>Vou comer alho e te provar que não sou uma vampira. Agora vamos sair daqui, antes que nos linchem.</default>
+		<default>Vou comer alho e te provar que não sou uma vampira. Agora vamos sair daqui, antes que nos peguem.</default>
 	</talk>
 	<teller>
-		<default>As duas saem. Noite. Zenon está entrando num motel com Etos. Etos toca a campainha do balcão. De novo. Uma mulher aparece.</default>
+		<first>Noite. Zenon e Etos estão entrando em um motel. Etos toca a campainha do balcão. Nada. Toca de novo. Liana aparece.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Viemos encontrar alguém.</default>
 	</talk>
-	<talk character="recepcionista">
+	<talk character="Liana">
 		<default>Não temos mais quartos.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Já foi reservado.</default>
 	</talk>
-	<talk character="recepcionista">
+	<talk character="Liana">
 		<default>As reservas foram canceladas.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não, ela já está aí dentro...</default>
+		<default>Não, já está aí dentro...</default>
 	</talk>
-	<talk character="recepcionista">
+	<talk character="Liana">
 		<default>Não é possível. Todos os quartos estão vazios...</default>
 	</talk>
 	<teller>
-		<default>A mulher se assusta e entrega a chave. Zenon olha para Etos. Ele mostrara os dentes para a mulher.</default>
+		<default>Liana arregala os olhos. Pega uma chave e coloca no balcão. Zenon olha para Etos. Etos está com os dentes a mostra.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Esqueci de dizer que tinha senha.</default>
 	</talk>
 	<teller>
-		<default>Etos pega a chave e sobe. Num quarto, um vampiro está em cima de Valesca. Eles se beijam. O vampiro voa pela janela. Etos.</default>
+		<default>Etos pega a chave. Sobe. Zenon segue. Em um quarto, um vampiro está em cima de Valesca. Se beijam. O vampiro voa pela janela. Valesca se senta e encara Etos.</default>
 	</teller>
 	<talk character="Valesca">
-		<default>Devia ter sido mais delicado. Cortou minha boca.</default>
+		<default>Podia ter sido mais delicado. </default>
 	</talk>
 	<teller>
-		<default>Etos a beija. Zenon entra no quarto.</default>
+		<default>Coloca a mão no lábio inferior.</default>
+	</teller>
+	<talk character="Valesca">
+		<default>Cortou minha boca.</default>
+	</talk>
+	<teller>
+		<default>Etos beija Valesca. Zenon entra no quarto. Cruza os braços. Etos se afasta de Valesca.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Disse que só falava pessoalmente.</default>
@@ -357,6 +402,9 @@
 	<talk character="Valesca">
 		<default>Mas o motivo é minha recompensa. Pelo telefone não tem graça. Nem no vibracall.</default>
 	</talk>
+	<teller>
+		<default>Zenon revira os olhos.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Tá, eu volto quando terminarem.</default>
 	</talk>
@@ -364,34 +412,40 @@
 		<default>Zenon sai.</default>
 	</teller>
 	<talk character="Valesca">
-		<default>Quem disse que só ele tem que me recompensar?</default>
+		<default>Quem disse que só Etos tem que me recompensar?</default>
 	</talk>
 	<teller>
-		<default>Ele volta. Respira fundo.</default>
+		<default>Zenon volta. Respira fundo.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Como você não faz filha da putice pela metade, imagino que esteja querendo me ver com Etos. Etos é um filha da puta e meio, então já devia saber. Eu não tenho tempo a perder, então podem ficar aí se divertindo o quanto quiserem.</default>
+		<default>Como você não sacaneia pela metade, imagino que esteja querendo me ver com Etos. Etos é um cuzão e meio, então já devia saber. Eu não tenho tempo a perder, então podem ficar aí se divertindo o quanto quiserem.</default>
 	</talk>
 	<talk character="Valesca">
 		<default>Você é como nós. Não faz sacrifício pelos outros.</default>
 	</talk>
 	<talk character="Etos">
-		<default>Uma trepada não deve valer mais que a vida dela.</default>
+		<default>Uma trepada não deve valer mais que a vida de Beatrice.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Pergunte a si mesmo. Parece que achou que valia. Posso me virar sozinho.</default>
+		<default>Esse é exatamente o ponto. Pergunte a si mesmo. Parece que achou que valia. Posso me virar sem vocês.</default>
 	</talk>
+	<teller>
+		<default>Valesca franze a sobrancelha.</default>
+	</teller>
 	<talk character="Valesca">
 		<default>Ela quem?</default>
 	</talk>
 	<talk character="Etos">
 		<default>Beatrice.</default>
 	</talk>
+	<teller>
+		<default>Valesca levanta.</default>
+	</teller>
 	<talk character="Valesca">
 		<default>Depois você me dá minha recompensa.</default>
 	</talk>
 	<teller>
-		<default>Chega perto do ouvido dele.</default>
+		<default>Chega perto do ouvido de Zenon.</default>
 	</teller>
 	<talk character="Valesca">
 		<default>Vou cobrar com juros.</default>
@@ -400,22 +454,22 @@
 		<default>Beatrice é mais flexível que Zenon.</default>
 	</talk>
 	<teller>
-		<default>Zenon joga Valesca na cama e encosta Etos contra a parede.</default>
+		<default>Zenon joga Valesca na cama, encosta Etos contra a parede e fica a centímetros do rosto.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Que tal deixá-la em paz?</default>
+		<default>Que tal deixar Bea em paz?</default>
 	</talk>
 	<teller>
-		<default>Ele solta Etos e sai.</default>
+		<default>Zenon solta Etos. Encara Valesca. Sai. Valesca levanta as palmas para cima.</default>
 	</teller>
 	<talk character="Valesca">
 		<default>Como se forçássemos alguma coisa!</default>
 	</talk>
 	<teller>
-		<default>Selina está andando com Clítia.</default>
+		<first>Selina e Clítia andam por uma vila.</first>
 	</teller>
 	<talk character="Clítia">
-		<default>Claro, e porque você está aqui mesmo?</default>
+		<default>Claro, e porque você tá aqui mesmo?</default>
 	</talk>
 	<talk character="Selina">
 		<default>Preciso de ajuda pra sair.</default>
@@ -424,7 +478,7 @@
 		<default>Papai pode ajudar você.</default>
 	</talk>
 	<teller>
-		<default>Um homem aparece, só de calça.</default>
+		<default>Selina olha para um homem. Este está apenas de calça.</default>
 	</teller>
 	<talk character="Selina">
 		<default>Que tá fazendo fora do inferno?</default>
@@ -433,27 +487,33 @@
 		<default>Vim te buscar. Vou ser sua tortura lá.</default>
 	</talk>
 	<teller>
-		<default>Selina corre. Clítia corre também. 28/11, manhã. Alan está dormindo. Encosta em Bruno. Este o empurra. Ele volta. De novo. Terceira vez. Bruno o empurra e ele cai no chão. Derik olha pra trás.</default>
+		<default>Selina corre. Clítia corre também.</default>
+	</teller>
+	<teller>
+		<first>Manhã. Alan está dormindo em um banco. Encosta em Bruno. Bruno empurra. Alan volta. Bruno empurra de novo. Alan vem a terceira vez. Bruno abre os olhos e empurra Alan para o chão. Derik olha pra trás.</first>
 	</teller>
 	<talk character="Bruno">
 		<default>Isso é pra parar de babar em mim.</default>
 	</talk>
+	<teller>
+		<default>Bruno coloca a cabeça para trás e fecha os olhos.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Acha mesmo que acordou ele?</default>
+		<default>Acha mesmo que acordou?</default>
 	</talk>
 	<teller>
-		<default>Bruno volta a olhar para Alan. Ele está deitado no chão. Se vira, ainda dormindo. Acha um livro, apóia a cabeça e continua dormindo.</default>
+		<default>Bruno abre os olhos e vai para a beirada do banco. Alan está no chão. Apalpa o chão, puxa um livro para baixo da cabeça e continua dormindo.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Aí é esculhambação!</default>
 	</talk>
 	<teller>
-		<default>Derik levanta e pega o livro. Lê a capa.</default>
+		<default>Derik levanta e pega o livro de Alan. Alan resmunga. Derik lê a capa.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Era isso...</default>
 	</talk>
 	<teller>
-		<default>Volta a se sentar na frente da porta. Bruno se anima. Acorda Alan.</default>
+		<default>Bruno endireita o corpo.</default>
 	</teller>
 </story>
