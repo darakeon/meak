@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="14" scene="b">
 	<teller>
-		<default>Na outra casa, Zenon está com Michele. Ele começa a descer a mão. Michele o afasta.</default>
+		<default>Zenon está com Michele. Zenon começa a descer a mão. Michele afasta Zenon.</default>
 	</teller>
 	<talk character="Michele">
 		<default>A sua casa é a de cima.</default>
@@ -10,7 +10,7 @@
 		<default>Quê?</default>
 	</talk>
 	<teller>
-		<default>Zenon olha pra trás. Vê Beleno.</default>
+		<default>Zenon olha pra trás. Beleno.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Realmente, errou de andar, é a de cima agora.</default>
@@ -19,13 +19,16 @@
 		<default>Preciso conversar.</default>
 	</talk>
 	<teller>
-		<default>Michele e Zenon se afastam um pouco, Beleno senta no meio deles. Os dois se entreolham por trás dele, que está inclinado pra frente.</default>
+		<default>Michele e Zenon se afastam um pouco. Beleno senta no meio, curvando-se para a frente. Michele e Zenon se entreolham por trás.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Acham que Beatrice gosta de Inês?</default>
 	</talk>
+	<teller>
+		<default>Zenon e Michele olham para Beleno.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Não. Por quê? Você gosta dela?</default>
+		<default>Não. Por quê? Você gosta de Beatrice?</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Acho que sim. Acham que minha irmã... É uma...</default>
@@ -37,25 +40,28 @@
 		<default>Claro que não...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ela sai com Alete pra se divertirem...</default>
+		<default>Sai com Alete pra se divertirem...</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Como sabem que ela sai com Alete???</default>
+		<default>Como sabem que sai com Alete???</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Eu já vi. Elas saem para procurar companhia para a noite.</default>
+		<default>Eu já vi. Saem para procurar companhia pra noite.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Costumam matar vampiros assim.</default>
 	</talk>
+	<teller>
+		<default>Beleno levanta e abre as asas, com um sorriso.</default>
+	</teller>
 	<talk character="Beleno">
-		<default>Então ela está fazendo isso pra caçá-los???</default>
+		<default>Então tá fazendo isso pra caçar vampiros???</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Bom...</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Ai, que alívio! Está fazendo com bons fins!</default>
+		<default>Ai, que alívio! Tá fazendo com bons fins!</default>
 	</talk>
 	<talk character="Michele">
 		<default>Beleno...</default>
@@ -64,49 +70,58 @@
 		<default>Vocês me ajudaram muito, obrigado!</default>
 	</talk>
 	<teller>
-		<default>Beleno levanta e sai.</default>
+		<default>Beleno sai.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Ele é um garoto realmente estranho.</default>
+		<default>É uma criança realmente estranha.</default>
 	</talk>
 	<talk character="Michele">
-		<default>Que tal começarmos de onde paramos?</default>
+		<default>Que tal voltarmos de onde paramos?</default>
 	</talk>
 	<teller>
-		<default>Zenon se aproxima de Michele de novo. Beleno sai voando por aí. Desce num prédio de Ares. Está ouvindo barulho de luta. Chega um homem armado.</default>
+		<default>Zenon se aproxima de Michele de novo.</default>
 	</teller>
-	<talk character="homem">
-		<default>Meu Deus!</default>
+	<teller>
+		<first>Beleno desce em um prédio de Ares. Barulhos de coisas batendo. Vai até uma claraboia. Olha para baixo. Pessoas lutando. Diogo chega com uma pistola. Arregala os olhos, baixando a pistola.</first>
+	</teller>
+	<talk character="Diogo">
+		<default>Meu Deus! Estamos condenados...</default>
 	</talk>
+	<teller>
+		<default>Beleno vira para trás e revira os olhos.</default>
+	</teller>
 	<talk character="Beleno">
 		<default>Não sou um anjo.</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Diogo">
 		<default>Não?</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Que está acontecendo lá embaixo?</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Diogo">
 		<default>É um torneio.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Qual o prêmio?</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Diogo">
 		<default>Dinheiro. Muito dinheiro.</default>
 	</talk>
 	<teller>
-		<default>06/02 (segunda), 14:00. Estela e Derik chegam a um apartamento. Um homem abre a porta e dá passagem. Eles entram, ele se senta, eles se sentam. Silêncio.</default>
+		<first>Dia seguinte. Tarde. Estela e Derik chegam a um apartamento. Oto abre a porta e dá passagem. Estela e Derik entram, Oto se senta, Estela e Derik se sentam. Silêncio.</first>
 	</teller>
 	<talk character="Estela">
 		<default>Eu disse que não cobrávamos por hora, mas...</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Oto">
 		<default>Minha filha. Tá tentando entrar num torneio. Adotou o nome de Shy. Quero que vão a este endereço.</default>
 	</talk>
 	<teller>
-		<default>O homem entrega um papel a Estela. 20:00. Zenon vai a um prédio. Entra num vestiário. Repentinamente, Bel (Beleno) o empurra contra a parede.</default>
+		<default>Oto entrega um papel a Estela.</default>
+	</teller>
+	<teller>
+		<first>Noite. Zenon entra em um vestiário. Beleno empurra Zenon contra a parede.</first>
 	</teller>
 	<talk character="Beleno">
 		<default>Não quero ter que acabar com você lá dentro.</default>
@@ -133,16 +148,16 @@
 		<default>Da agência. Tenho que tirar uma garota.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Não tem garotas aqui, tá querendo me enganar?</default>
+		<default>Não tem garotas aqui, não deixam crianças entrarem, tá querendo me enganar?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tem uma garota inscrita, o pai dela diz que tá de trapa.</default>
+		<default>Tem uma garota inscrita, o pai dela diz que tá fazendo coisa.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Quê???</default>
+		<default>Fazendo coisa???</default>
 	</talk>
 	<teller>
-		<default>Zenon se faz soltar.</default>
+		<default>Zenon empurra Beleno.</default>
 	</teller>
 	<talk character="Zenon">
 		<hushed>Trapaça.</hushed>
@@ -151,25 +166,25 @@
 		<default>Não pode trapacear aqui.</default>
 	</talk>
 	<teller>
-		<default>Todos olham.</default>
+		<default>Todos olham. Zenon coloca a mão nas costas de Beleno e dá um sorrisinho.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Mas eu nem estou inscrito!</default>
 	</talk>
-	<teller>
-		<default>Zenon coloca a mão nas costas de Beleno e dá um sorrisinho.</default>
-	</teller>
 	<talk character="Beleno">
 		<default>Você...</default>
 	</talk>
+	<teller>
+		<default>Zenon desfaz o sorriso.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Preciso falar com você sobre seu pai.</default>
 	</talk>
 	<teller>
-		<default>Zenon praticamente empurra Beleno pra fora dali.</default>
+		<default>Zenon coloca a segunda mão nas costas de Beleno e vai empurrando para fora. Saem. Estão no terraço.</default>
 	</teller>
 	<talk character="Zenon">
-		<hushed>Eu chutei a sua mãe por acaso???</hushed>
+		<default>Eu chutei a sua mãe por acaso???</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Você disse que era sobre meu pai!</default>
@@ -181,19 +196,37 @@
 		<default>Ele voltou?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Estava me referindo ao fato de parecer que queria que me comessem vivo lá dentro... Esquece. O que tenho a dizer que é tenho serviço aqui, da MEAK.</default>
+		<default>Tava me referindo ao fato de parecer que queria que me comessem vivo lá dentro... Se bem que acho que é o único que... Esquece.</default>
 	</talk>
+	<talk character="Beleno">
+		<default>Que tem o meu pai?!</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Foi uma desculpa pra afastar você do resto do pessoal!</default>
+	</talk>
+	<teller>
+		<default>Beleno encara Zenon. Vai voltar para o vestiário, Zenon puxa Beleno de volta.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Eu tenho serviço aqui, da MEAK.</default>
+	</talk>
+	<teller>
+		<default>Beleno sorri.</default>
+	</teller>
 	<talk character="Beleno">
 		<default>Que bom, trabalho!</default>
 	</talk>
+	<teller>
+		<default>Zenon franze a sobrancelha.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Meu trabalho!</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Fale logo!</default>
+		<default>Fala logo!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tem uma garota aqui que não era pra estar. Ela está usando um truque pra ganhar e, se descobrirem, está ferrada.</default>
+		<default>Tem uma garota aqui que não era pra estar. Ela tá usando um truque pra ganhar e, se descobrirem, tá ferrada.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>As lutas são até a morte.</default>
@@ -202,13 +235,16 @@
 		<default>Só se o vencedor quiser.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Então o plano é vencê-la e dar clemência?</default>
+		<default>Então o plano é vencer ela e dar clemência?</default>
 	</talk>
+	<teller>
+		<default>Zenon franze a sobrancelha.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Pretende matar seus oponentes?</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Só os vampiros. Estou com fome.</default>
+		<default>Agora que falou, só os vampiros. Estou com fome.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Espero não te enfrentar.</default>
@@ -216,11 +252,17 @@
 	<talk character="Beleno">
 		<default>Contou o plano, agora o trabalho é meu.</default>
 	</talk>
+	<teller>
+		<default>Zenon cruza os braços.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>E como vai me impedir de executá-lo eu mesmo?</default>
+		<default>E como vai me impedir de executar eu mesmo?</default>
 	</talk>
 	<teller>
-		<default>Bel dá um sorriso sádico. Zenon se afasta. Os dois somem. 2:00 (07/02 – terça), Bel está no seu quarto e chega uma garota. Ela arruma suas coisas no armário. Deita-se na cama debaixo. Ele está deitado também.</default>
+		<default>Beleno abre as asas. Zenon arregala os olhos.</default>
+	</teller>
+	<teller>
+		<default>Madrugada. Beleno está em seu quarto, na cama de cima. Uma pessoa chega. Arruma suas coisas no armário. Deita-se na cama de baixo.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Qual seu nome?</default>
@@ -256,11 +298,14 @@
 		<default>Ainda é uma beliche. Por que não gosta que saibam seu nome?</default>
 	</talk>
 	<talk character="Shy">
-		<default>Curiosidade tira a atenção.</default>
+		<default>Não gosto de dar informação nenhuma.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Prometo que não conto pra ninguém, se você não roncar.</default>
 	</talk>
+	<teller>
+		<default>Shy ri.</default>
+	</teller>
 	<talk character="Shy">
 		<default>Olhe a sua volta, está mesmo pensando em dormir?</default>
 	</talk>
@@ -280,50 +325,50 @@
 		<default>Se não tivesse gostado de mim, não me falaria isso.</default>
 	</talk>
 	<talk character="Shy">
-		<default>Não estou avisando, estou dizendo que você já era.</default>
+		<default>Não tô avisando. Tô dizendo que você já era.</default>
 	</talk>
 	<teller>
-		<default>12:00. Beleno cai no ringue. Tenta se levantar, mas não consegue. Está todo quebrado. A platéia grita a palavra morte. Shy, com uma espada na mão, vai até Beleno. Joga a espada.</default>
+		<first>Sol a pino. Beleno cai no ringue. Tenta se levantar, mas não consegue. Machucados por todo o corpo. A platéia grita "Morte!". Shy, com uma espada na mão, vai até Beleno. Joga a espada.</first>
 	</teller>
 	<talk character="Shy">
-		<default>712.</default>
+		<screamed>712.</screamed>
 	</talk>
 	<teller>
-		<default>Todos se calam. Um juiz pega algumas folhas numa gaveta.</default>
+		<default>As pessoas se calam. Diogo pega um livro em uma gaveta. Abre. Folheia. Para. Lê.</default>
 	</teller>
-	<talk character="juiz">
+	<talk character="Diogo">
 		<default>Clemência???</default>
 		<screamed>Quem fez esta regra???</screamed>
 	</talk>
 	<talk character="Shy">
-		<default>Não importa quem fez, está no torneio, posso usá-la.</default>
+		<default>Não importa quem fez, tá no torneio, posso usar.</default>
 	</talk>
 	<teller>
-		<default>Ele rasga o contrato, olhando com ódio para Shy.</default>
+		<default>Diogo arranca a página do livro. Olha para Shy.</default>
 	</teller>
-	<talk character="juiz">
-		<default>Entrou na luta sabendo que poderia fazer isso. Pra esta luta isso vai valer. As batalhas estão suspensas por hoje. Haverá uma reunião à noite, onde ditaremos as novas regras. Quem quiser sair depois da reunião, está livre. Reiniciaremos o torneio amanhã de manhã.</default>
+	<talk character="Diogo">
+		<default>Entrou na luta sabendo que poderia fazer isso. Pra essa luta isso vai valer. As batalhas estão suspensas por hoje. Haverá uma reunião à noite, onde ditaremos as novas regras. Quem quiser sair depois da reunião, tá livre. Reiniciaremos o torneio amanhã de manhã.</default>
 	</talk>
 	<teller>
-		<default>Ele sai. Shy ajuda Bel a se levantar.</default>
+		<default>Diogo sai. Shy estende a mão para Beleno. Beleno apoia e se levanta. Shy coloca o braço de Beleno por cima de seu ombro.</default>
 	</teller>
 	<talk character="Beleno">
-		<default>Vão jogar os piores em cima de você agora. Por que fez isso?</default>
+		<default>Por que fez isso? Vão jogar os piores em cima de você agora.</default>
 	</talk>
 	<talk character="Shy">
-		<default>Por que você não é um desses piores.</default>
+		<default>Você não é um desses piores.</default>
 	</talk>
 	<teller>
-		<default>Eles saem do ringue. 20:00. Beleno chega na MEAK. Inês olha para ele.</default>
+		<first>Noite. Beleno chega na MEAK. Inês olha para Beleno.</first>
 	</teller>
 	<talk character="Inês">
 		<default>Anotou a placa?</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Não se preocupem mais com o caso da garota do torneio. Ela derruba qualquer um.</default>
+		<default>Não se preocupem mais com o caso da garota do torneio. Derruba qualquer um.</default>
 	</talk>
 	<talk character="Inês">
-		<default>Não era o Zenon que tava cuidando disso?</default>
+		<default>Não era Zenon que tava cuidando disso?</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Era, disse bem. Mais alguma coisa?</default>
@@ -332,13 +377,13 @@
 		<default>Nada.</default>
 	</talk>
 	<teller>
-		<default>Beleno sai. Chega em casa. Encontra Beatrice.</default>
+		<default>Beleno sai. Chega em casa. Beatrice dá um passo para trás.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Amanhã vou procurar no jornal se algum avião caiu por causa de pássaro na turbina.</default>
 	</talk>
 	<teller>
-		<default>Ele a encosta na parede e a beija. Ela o afasta.</default>
+		<default>Beleno encosta Beatrice na parede e beija. Beatrice afasta Beleno.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Essa mania é genética então?</default>
@@ -347,24 +392,28 @@
 		<default>Meu pai fazia isso?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Os dois. Mas o Angely falava comigo antes e era mais delicado. Tem consciência de que não sou uma boneca de sex shop?</default>
+		<default>Os dois. Mas Angely falava comigo antes e era mais delicado. Tem consciência de que não sou uma boneca de sex shop?</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Às vezes simplesmente me dá vontade de te beijar.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Então siga o exemplo certo.</default>
-		<teller>sai da sala</teller>
-		<default>Ou daqui a pouco vai estar olhando pros seus amigos, "me enchi da sua cara", e joga pela janela.</default>
 	</talk>
 	<teller>
-		<default>Beleno senta-se no sofá, com uma cara estranha.</default>
+		<default>Beatrice sai da sala.</default>
+	</teller>
+	<talk character="Beatrice">
+		<out>Ou daqui a pouco vai estar olhando pros seus amigos, "também quero isso aqui", e mata.</out>
+	</talk>
+	<teller>
+		<default>Beleno franze a testa e se senta no sofá.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Estou esquecendo de alguma coisa.</default>
 	</talk>
 	<teller>
-		<default>No ringue de lutas, Shy está se preparando para entrar. Seu adversário (encapuzado) a olha.</default>
+		<first>Ringue. Shy está na entrada. César, com capuz, olha para Shy.</first>
 	</teller>
 	<talk character="César">
 		<default>Você é humana.</default>
@@ -373,45 +422,58 @@
 		<default>Sou.</default>
 	</talk>
 	<teller>
-		<default>Ele tira um bracelete do pulso dela. Ela toma de volta e coloca.</default>
+		<default>César tira um bracelete do pulso de Shy. Shy toma de volta e recoloca.</default>
 	</teller>
 	<talk character="Shy">
-		<default>Que está fazendo?</default>
+		<default>Que tá fazendo?!</default>
 	</talk>
 	<talk character="César">
 		<default>Apenas achei bonito. Queria ver. E queria que me tocasse.</default>
 	</talk>
+	<teller>
+		<default>Shy balança a cabeça para os lados.</default>
+	</teller>
 	<talk character="Shy">
 		<default>Pervertido.</default>
 	</talk>
 	<teller>
-		<default>Ele se cala e sai. No ringue, algum tempo depois, ela cai. Ele está parado.</default>
+		<default>Shy olha para o ringue.</default>
+	</teller>
+	<talk character="Shy">
+		<default>Vai ser bom te derrubar.</default>
+	</talk>
+	<teller>
+		<default>César sai. Algum tempo depois, Shy cai no ringue. César olha para Shy.</default>
 	</teller>
 	<talk character="César">
-		<default>Vou dar clemência a ela. Deu ao outro, deve preferir viver.</default>
+		<default>Vou dar clemência. Deu a Beleno, deve preferir viver.</default>
 	</talk>
-	<talk character="juiz">
-		<default>Não pode. Já tiramos esta regra.</default>
+	<talk character="Diogo">
+		<default>Não pode. Tiramos esta regra.</default>
 	</talk>
 	<talk character="Shy">
-		<default>Está usando poderes!</default>
+		<default>Tá usando poderes!</default>
 	</talk>
 	<teller>
 		<default>Silêncio geral.</default>
 	</teller>
 	<talk character="César">
-		<default>Posso usar. São meus mesmo e minha raça está certa na minha ficha. E os seus, de onde vêm?</default>
+		<default>Posso usar. São meus mesmo e minha raça tá certa na minha ficha. E os seus, de onde vêm?</default>
 	</talk>
 	<talk character="Shy">
 		<default>Não tenho poderes.</default>
 	</talk>
 	<talk character="César">
-		<default>Ah... Não naturalmente. Eu também li o regulamento.</default>
-		<teller>se aproxima dela</teller>
+		<default>Não naturalmente. Eu também li o regulamento.</default>
+	</talk>
+	<teller>
+		<default>César se aproxima de Shy e abaixa.</default>
+	</teller>
+	<talk character="César">
 		<default>Não era perversão, minha criança. Talvez eu possa te ensinar algo quando te ganhar.</default>
 	</talk>
 	<teller>
-		<default>09/02 (quinta), 20:00. O telefone toca. Inês atende.</default>
+		<first>Dois dias depois, noite. O telefone toca. Inês atende.</first>
 	</teller>
 	<talk character="Inês">
 		<default>MEAK, no que posso ajudar? ### Não fizemos o trabalho??? ### Sua filha sumiu???</default>
@@ -424,7 +486,7 @@
 		<default>Fala.</default>
 	</talk>
 	<talk character="Inês">
-		<default>Primeiro, já mandei não tomar banho aí que alguém pode chegar e você entope o ralo com as penas, segundo, não disse que tinha resolvido o caso da garota do ringue???</default>
+		<default>Primeiro, já mandei não tomar banho aí que alguém pode chegar e você entope o ralo com as penas. Segundo, não disse que tinha resolvido o caso da garota do ringue???</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Não, eu disse que ela sabia se defender.</default>
@@ -438,10 +500,10 @@
 	<talk character="Inês">
 		<default>Já estamos resolvendo o problema. ### Claro, sua filha vai voltar inteira.</default>
 	</talk>
+	<teller>
+		<default>Inês encara Beleno. Beleno sai.</default>
+	</teller>
 	<talk character="Inês">
 		<default>Vamos resolver sim...</default>
 	</talk>
-	<teller>
-		<default>Inês encara Beleno. Este sai.</default>
-	</teller>
 </story>
