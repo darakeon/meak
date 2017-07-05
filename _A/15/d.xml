@@ -1,33 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="15" scene="d">
-	<talk character="delegado">
+	<teller>
+		<default>Roger entra na sala de Brad.</default>
+	</teller>
+	<talk character="Roger">
 		<default>Andrews, temos dois fugitivos pra você... O que ela tá fazendo aqui de novo???</default>
 	</talk>
 	<talk character="Mel">
 		<default>Desde quando é proibido entrar na delegacia?</default>
 	</talk>
-	<talk character="delegado">
+	<talk character="Roger">
 		<default>Mas é proibido roubar arquivos.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não vim roubar arquivos, vim ver meu namorado.</default>
 	</talk>
-	<talk character="delegado">
+	<talk character="Roger">
 		<default>Seu namorado? Você é namorado dela?</default>
 	</talk>
 	<teller>
-		<default>Brad fica confuso. Então bota a mão na cintura dela.</default>
+		<default>Brad abre a boca. Fecha. Bota a mão na cintura dela.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Tem algo contra?</default>
 	</talk>
-	<talk character="delegado">
+	<talk character="Roger">
 		<default>Tenho serviço pra você.</default>
 		<teller>pousa duas folhas na mesa</teller>
 		<default>Mataram o filho de Lokslay e fugiram. Descobre onde estão.</default>
 	</talk>
 	<teller>
-		<default>Mel observa as folhas. O delegado sai.</default>
+		<default>Mel olha as folhas. Roger sai. Mel encara Brad.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Que foi?</default>
@@ -36,16 +39,16 @@
 		<default>Agora já pode tirar a mão daí.</default>
 	</talk>
 	<talk character="Brad">
-		<default>Ah, desculpe...</default>
+		<default>Ah, desculpa...</default>
 	</talk>
 	<teller>
-		<default>Brad tira sua mão da cintura dela. Ela sai.</default>
+		<default>Brad tira a mão da cintura de Mel. Mel sai. Brad senta. Levanta. Senta de novo.</default>
 	</teller>
 	<talk character="Brad">
-		<default>E aquele negócio de... Acho que ela esqueceu.</default>
+		<default>Acho que ela esqueceu.</default>
 	</talk>
 	<teller>
-		<default>Mel volta em casa.</default>
+		<first>MEAK.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Não podemos contar com a polícia.</default>
@@ -66,7 +69,7 @@
 		<default>Falou que estávamos aqui???</default>
 	</talk>
 	<talk character="Mel">
-		<irony>Não tá vendo o policial atrás de mim?</irony>
+		<irony>Falei. Tô com um policial em casa bolso nesse momento.</irony>
 	</talk>
 	<talk character="Clarice">
 		<default>Temos que sair do país!</default>
@@ -75,16 +78,16 @@
 		<default>Você realmente não gosta daqui, né?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, ele nunca vai achar que estão aqui.</default>
+		<default>Não, nunca vão achar que estão aqui.</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Mas e se...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vão dormir e manhã resolveremos isso.</default>
+		<default>Vão dormir e amanhã resolveremos isso.</default>
 	</talk>
 	<teller>
-		<default>Ela sai da sala. Vai até o quarto de Angely.</default>
+		<default>Mel vai até o quarto de Angely.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Quero saber por que brigou comigo e tentou agarrar Clarice.</default>
@@ -96,7 +99,7 @@
 		<default>Não finge que não sabe.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Era isso que eles estavam falando...</default>
+		<default>Era isso que estavam falando...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Angely...</default>
@@ -120,7 +123,7 @@
 		<default>Acredita em mim agora?</default>
 	</talk>
 	<teller>
-		<default>Edmont acaba de sair da casa de Psique. Encontra Beatrice.</default>
+		<default>Edmont entra no quarto de hotel.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Como fez isso?</default>
@@ -132,16 +135,16 @@
 		<default>Trocou de lugar com seu irmão.</default>
 	</talk>
 	<teller>
-		<default>Ele a encosta na parede bruscamente.</default>
+		<default>Edmont encosta Beatrice na parede bruscamente.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Não gostou de passar algum tempo com meu irmãozinho?</default>
+		<default>Não gostou de passar algum tempo com Angely?</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Se quer saber, ele é melhor que você.</default>
 	</talk>
 	<teller>
-		<default>Edmont afasta-se de Beatrice. Encara-a. Pega o pulso dela e a leva pro alto de um prédio abandonado.</default>
+		<default>Edmont afasta-se de Beatrice. Encara. Pega Beatrice pelo pulso. Sai pela janela, e sobe até o terraço.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Repete o que disse.</default>
@@ -150,13 +153,16 @@
 		<default>Que vai fazer? Me jogar daqui?</default>
 	</talk>
 	<teller>
-		<default>Ele rasga a roupa dela. Ela toma um pequeno susto. Ele a olha de cima à baixo.</default>
+		<default>Edmont se afasta. Olha Beatrice de cima a baixo.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Estragar isso? Não.</default>
 	</talk>
 	<teller>
-		<default>Edmont a joga no chão e sobe em cima dela. Na manhã seguinte, Angely vai até a mesa do café da manhã e ninguém consegue olhá-lo.</default>
+		<default>Edmont puxa Beatrice e beija.</default>
+	</teller>
+	<teller>
+		<first>Manhã seguinte. Angely vai até a mesa do café da manhã e ninguém consegue olhar em sua direção.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Que eu fiz dessa vez?</default>
@@ -180,7 +186,7 @@
 		<default>Arranjar dinheiro.</default>
 	</talk>
 	<teller>
-		<default>Algum tempo depois, Mel adentra no escritório da casa de Lokslay.</default>
+		<first>Escritório da casa de Lokslay.</first>
 	</teller>
 	<talk character="Lokslay">
 		<default>Não sabia que tinha diploma de advogada...</default>
@@ -189,25 +195,25 @@
 		<default>Na verdade, não tenho.</default>
 	</talk>
 	<teller>
-		<default>Lokslay, que estava de costas pra porta, vira-se pra ela.</default>
+		<default>Lokslay, que estava de costas pra porta, vira-se pra Mel.</default>
 	</teller>
 	<talk character="Lokslay">
 		<default>Então há algum engano, me disseram que vinha procurar emprego...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sei que um dos advogados não foi... Desligado ainda.</default>
+		<default>Sei que uma pessoa que não vocês não... Desligaram. Ainda.</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>Tenho meus assassinos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Aqueles incompetentes? Matei dois deles...</default>
+		<default>Com aquele nível de incompetência? Matei dois.</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>Então foi você...</default>
 	</talk>
 	<talk character="Mel">
-		<default>É. E sei onde eles estão.</default>
+		<default>É. E sei onde estão.</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>E o que vai querer pela informação?</default>
@@ -216,16 +222,16 @@
 		<default>Quem disse que vou dizer?</default>
 	</talk>
 	<talk character="Lokslay">
-		<default>Se está protegendo eles, por que...</default>
+		<default>Se está protegendo elas, por que...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não estou protegendo. Não vou dizer onde estão, eu mesma farei o serviço.</default>
+		<default>Não estou protegendo. Não vou dizer onde estão, eu farei o serviço.</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>Ah... E se eu não confiar em você?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então vão continuar vivos.</default>
+		<default>Então vão continuar respirando e te denunciando felizes.</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>Qual é a proposta?</default>
@@ -243,46 +249,48 @@
 		<default>A pousada?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Soube que foi a primeira propriedade dos Lokslay e que só é lembrada quando se vai fazer os testamentos na família.</default>
+		<default>Soube que foi a primeira propriedade da família Lokslay e que só lembram quando se vai fazer os testamentos na família.</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>Pra que quer aquilo? Tem perigo de cair na sua cabeça...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que vou fazer é da minha conta. Aceita ou não?</default>
+		<default>O que vou fazer é da minha conta. Aceita ou não?</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>Agora fiquei curioso. Se você quer é por que vale alguma coisa...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não tanto quanto vale a morte daqueles dois pra você.</default>
+		<default>Não tanto quanto valem as mortes pra você.</default>
 	</talk>
 	<talk character="Lokslay">
 		<default>Então você sai perdendo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu disse pra você. Sim ou não?</default>
+		<default>Eu disse</default>
+		<frizz>pra você</frizz>
+		<default>. Tem a ver com família. Sim ou não?</default>
 	</talk>
 	<talk character="Lokslay">
-		<default>Mandarei transferir para o seu nome assim que um deles, pelo menos, estiver morto.</default>
+		<default>Mandarei transferir para o seu nome assim que uma delas, pelo menos, estiver morta.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Matarei ela primeiro.</default>
+		<default>Testemunha primeiro.</default>
 	</talk>
 	<talk character="Lokslay">
-		<default>Por que não ele?</default>
+		<default>Por que não a advogada?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tenho certeza que quer que eu mate ele primeiro.</default>
+		<default>Tenho certeza que quer o contrário.</default>
 	</talk>
 	<teller>
-		<default>Mel sai. Lokslay manda de um homem a siga. Ela percebe que está sendo seguida, mas não se importa. vai até o tal lugar: é uma casa antiga. Ela entra e vai ao andar de cima. Ouve um barulho. Volta à sala principal.</default>
+		<default>Mel sai da sala. Pega o elevador. Desce. Sobe na moto. Coloca o capacete. Olha no retrovisor. Vai até uma pousada abandonada. Entra. Sobe as escadas. Ouve um barulho. Volta a recepção.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Sabia que estava aqui.</default>
 	</talk>
 	<teller>
-		<default>Edmont solta o corpo do cara que a seguia.</default>
+		<default>Edmont solta um corpo.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Beatrice ainda está viva?</default>
@@ -309,10 +317,16 @@
 		<default>Pedi...</default>
 	</talk>
 	<teller>
-		<default>Edmont chuta de leve o corpo</default>
+		<default>Edmont chuta de leve o corpo.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ah, claro. Beatrice não vai ficar muito tempo com você, ela é volúvel.</default>
+		<default>Ah, claro.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Te fiz um favor. Tava te seguindo.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Eu sei. Era pra continuar seguindo. Ia despistar e ia voltar com o rabo entre as pernas pro chefe. Provavelmente acabaria na morte de qualquer jeito. Beatrice não vai ficar muito tempo com você, é volúvel.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não quer a mim, quer Angely. Só que nunca vai conseguir.</default>
@@ -321,34 +335,34 @@
 		<default>Pensei que...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ele ficou ao lado dela algum tempo, mas não aconteceu nada. No máximo um beijo. Como eu dizia, ela está comigo por que quer Angely.</default>
+		<default>Ficou ao lado de Beatrice algum tempo, mas não aconteceu nada. No máximo um beijo. Como eu dizia, tá comigo por que quer Angely.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Um dia ela descobre que não pode consegui-lo.</default>
+		<default>Um dia descobre que não pode conseguir.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Nesse dia eu já vou ter largado ela faz tempo.</default>
+		<default>Nesse dia eu já vou ter largado faz tempo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você vai ser jovem até morrer, mais vai ter o mesmo tempo de vida de um atlante comum. Angely um dia vai morrer.</default>
+		<default>Angely um dia vai morrer. É mais difícil, mas a gente morre.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Aí é que está. Será que ele vai envelhecer?</default>
+		<default>Aí é que está. Será que Angely vai?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele nunca vai aceitar virar vampiro.</default>
+		<default>Nunca vai aceitar virar vampiro.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não é disso que estou falando. Talvez ele não envelheça por que eu não vou envelhecer.</default>
+		<default>Não é disso que estou falando. Talvez não aconteça com Angely porque não acontecerá comigo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Ou talvez o contrário aconteça.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Eu esperarei pra ver.</default>
+		<default>Vou pagar pra ver.</default>
 	</talk>
 	<teller>
-		<default>Mel sai. De tarde, ela chega em casa.</default>
+		<first>Tarde. MEAK.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Por que demorou tanto?</default>
@@ -369,7 +383,7 @@
 		<default>Ainda não podem sair daqui, mas já sei exatamente o que fazer.</default>
 	</talk>
 	<teller>
-		<default>Clarice e Íris ficam intrigados. Angely estranha o olhar de Mel. Ela vai pra seu quarto e ele a segue.</default>
+		<default>Angely franze a testa. Clarice e Íris se entreolham. Mel vai para o quarto. Angely segue.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Que fez afinal?</default>
@@ -390,7 +404,7 @@
 		<default>Você viveu seis anos. Eu até hoje não pude parar pra respirar.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Bom, somos de Saturno!</default>
+		<default>Bom, somos de Saturno.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Eu vi uma casa legal...</default>
@@ -414,10 +428,10 @@
 		<default>Angely baixa a cabeça e sai.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Angely, eu não queria ser estúpida...</default>
+		<default>Angely, não era essa a intenção...</default>
 	</talk>
 	<teller>
-		<default>Mel vai atrás dele.</default>
+		<default>Mel sai.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Desculpa, eu fui meio...</default>

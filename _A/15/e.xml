@@ -1,40 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="15" scene="e">
 	<teller>
-		<default>Ele vai sair, mas, quando abre a porta, encontra Psique.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Eu preciso falar com você.</default>
-	</talk>
-	<teller>
-		<default>Mel está na escada.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Droga, ele tinha que sair!</default>
-	</talk>
-	<teller>
-		<default>Ela vai até a cozinha e encontra Íris.</default>
+		<default>Mel chega a sala. Vai até a cozinha. Íris fecha a geladeira.</default>
 	</teller>
 	<talk character="Íris">
-		<default>Mel, eu tava pensando naquele beijo que demos ...</default>
+		<default>Mel, eu tava pensando naquele dia na floresta...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Gosta de outra e fica dando em cima de mim?</default>
-	</talk>
-	<talk character="Íris">
-		<default>Outra quem???</default>
+		<default>Ou em Clarice e quer fugir do assunto de qualquer jeito.</default>
 	</talk>
 	<teller>
-		<default>Ela o encara. Íris baixa a cabeça.</default>
+		<default>Íris baixa a cabeça.</default>
 	</teller>
 	<talk character="Íris">
 		<default>Ela não gosta de mim.</default>
 	</talk>
 	<talk character="Mel">
-		<irony>Claro, quem sabe ela não aprontou aquele escândalo por que tava afim da Denise?</irony>
+		<irony>Claro, quem sabe não aprontou aquele escândalo por que tava afim de Denise?</irony>
 	</talk>
 	<talk character="Íris">
-		<default>Acha que ela é lésbica???</default>
+		<default>Isso na verdade faria sentido...</default>
 	</talk>
 	<teller>
 		<default>Mel suspira fundo e sai.</default>
@@ -46,10 +31,10 @@
 		<default>Clarice chega na cozinha.</default>
 	</teller>
 	<talk character="Clarice">
-		<default>Será que poderemos voltar à nossas vidas normais?</default>
+		<default>Será que poderemos voltar as nossas vidas normais?</default>
 	</talk>
 	<teller>
-		<default>Íris beija Clarice. Ela fica surpresa e muda.</default>
+		<default>Íris olha na direção da porta, por onde Mel saíra. Beija Clarice. Afasta. Clarice fica olhando para Íris.</default>
 	</teller>
 	<talk character="Íris">
 		<default>Não vai falar nada?</default>
@@ -58,22 +43,28 @@
 		<default>Eu... É...</default>
 	</talk>
 	<talk character="Íris">
-		<default>Não vai me dizer que é lésbica...?</default>
+		<default>Não vai me dizer que é hétero...?</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Não!</default>
 	</talk>
 	<talk character="Íris">
-		<default>Que alívio!</default>
+		<default>Ou que sou macho demais pra você...</default>
 	</talk>
 	<talk character="Clarice">
-		<default>Por que está dizendo isso?</default>
+		<default>Eu sou pan.</default>
 	</talk>
 	<talk character="Íris">
-		<default>Nada.</default>
+		<default>Ah?</default>
+	</talk>
+	<talk character="Clarice">
+		<default>A gente pode continuar com a outra coisa que você tava fazendo?</default>
+	</talk>
+	<talk character="Íris">
+		<default>Ah... Claro.</default>
 	</talk>
 	<teller>
-		<default>De noite, Psique vai pra casa. Angely vai procurar Edmont.</default>
+		<first>Noite. Angely sai da casa de Psique. Vai até a pensão abandonada.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Por que está fazendo isso?</default>
@@ -85,55 +76,55 @@
 		<default>Sabe do que estou falando.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não acha ela muito...</default>
+		<default>Não acha Psique muito...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Casada.</default>
+		<default>Com compromisso. Monogâmico.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>E daí?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não é o Edmont que conheci. Ele nunca faria isso.</default>
+		<default>Não é Edmont que conheci. Nunca faria isso.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Você dormiu com as quatro e elas têm namorado.</default>
+		<default>Você dormiu com...</default>
 	</talk>
 	<talk character="Angely">
 		<default>É diferente.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Só por que Psique usa uma aliança?</default>
+		<default>Só por que Psique usa aliança?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não, por que eu estava completamente bêbado.</default>
+		<default>Não, por que me drogaram.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ah... Então me lembrarei de encher a cara da próxima vez.</default>
+		<default>Ah... Vou me lembrar de usar umas coisas na próxima vez.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Estou falando sério!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Acha que fazer uma mulher trair o marido é muito? Do que acha que tenho me alimentado?</default>
+		<default>Acha que fazer alguém trair? Do que acha que tenho me alimentado?</default>
 	</talk>
 	<teller>
 		<default>Angely se cala.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Falando em problemas, se eu fosse você, ficava perto da Mel. Acho que ela tá aprontando alguma.</default>
+		<default>Falando em problemas, se eu fosse você, ficava perto de Mel. Acho que tá aprontando alguma.</default>
 	</talk>
 	<teller>
-		<default>Edmont sai. Angely volta pra casa. Vai até a cozinha e sente um cheiro estranho. Desliga o gás.</default>
+		<first>MEAK. Angely chega. Franze a testa. Cheira o ar. Vai até o fogão e desliga o gás.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Mel!</default>
 	</talk>
 	<teller>
-		<default>Angely vai até o quarto dela. Estava procurando algo no guarda-roupas.</default>
+		<default>Angely vai até o quarto. Mel está tira coisas do guarda-roupas.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Que está fazendo?</default>
+		<default>Que tá fazendo?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Nada.</default>
@@ -145,7 +136,7 @@
 		<default>Que cabeça...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Poderia explodir a casa.</default>
+		<default>Podia explodir a casa.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Tá, desculpa!</default>
@@ -157,16 +148,16 @@
 		<default>Devem estar no quarto, já viu que horas são?</default>
 	</talk>
 	<teller>
-		<default>Ele olha o relógio: 3:00.</default>
+		<default>Olha o relógio na cabeceira.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Não sabia que era tão tarde.</default>
+		<default>Três da madrugada. Não sabia que era tão tarde.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Vai dormir, então.</default>
 	</talk>
 	<teller>
-		<default>Angely vai pra seu quarto. Fica pensando em Dara. De manhã sai e vai à casa dela.</default>
+		<first>Manhã. Casa de Dara.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Dara está?</default>
@@ -175,7 +166,7 @@
 		<default>Não.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Onde ela foi?</default>
+		<default>Onde foi?</default>
 	</talk>
 	<talk character="Denise">
 		<default>Melody ligou e ela foi.</default>
@@ -187,7 +178,7 @@
 		<default>Não tenho certeza.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, Beatrice está num hotel, dormindo. Edmont chega e, quando ele sobe em cima dela, ela acorda.</default>
+		<default>Hotel. Beatrice está dormindo. Edmont chega. Sobe em cima de Beatrice. Beatrice abre os olhos.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Que está fazendo aqui?</default>
@@ -199,13 +190,13 @@
 		<default>Aquilo o que?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não se faça de desentendida.</default>
+		<default>Não finge que não entendeu.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Não sei realmente do que está falando.</default>
+		<default>Não sei realmente do que tá falando.</default>
 	</talk>
 	<teller>
-		<default>Edmont arranca uma corrente com uma pedra do pescoço de Beatrice.</default>
+		<default>Edmont pega uma pedra no pescoço de Beatrice. Arranca a corrente.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Então o que é isso?</default>
@@ -232,7 +223,7 @@
 		<default>2030?</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta.</default>
+		<default>Edmont se levanta.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Se você não conseguir, fica comigo pra sempre.</default>
@@ -241,7 +232,7 @@
 		<default>Beatrice se senta na cama.</default>
 	</teller>
 	<talk character="Beatrice">
-		<default>Mas isso não será um grande sacrifício.</default>
+		<default>Mas isso não vai ser um grande sacrifício.</default>
 	</talk>
 	<teller>
 		<default>Edmont coloca a pedra sobre um móvel.</default>
@@ -259,7 +250,7 @@
 		<default>Handhara também.</default>
 	</talk>
 	<teller>
-		<default>Ele se vira pra ela.</default>
+		<default>Edmont se vira pra ela.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Não acredita tanto que ele não vai ceder?</default>
@@ -268,39 +259,37 @@
 		<default>Aceito.</default>
 	</talk>
 	<teller>
-		<default>Ela ri. Ele vai até ela e a beija.</default>
+		<default>Beatrice ri. Edmont vai até Beatrice e beija.</default>
 	</teller>
 	<talk character="Edmont">
 		<thought>Eu nunca fui humano, mesmo...</thought>
 	</talk>
 	<teller>
-		<default>Tarde. Angely chega em casa. Encontra Íris com Clarice na cozinha. Se vira de costas.</default>
+		<first>Tarde. Angely chega em casa. Encontra Íris com Clarice na cozinha. Se vira de costas.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Têm certeza que vão fazer isso aqui?</default>
 	</talk>
 	<teller>
-		<default>Os dois se afastam. Íris não sabe onde esconder a cara e Clarice fica vermelha.</default>
+		<default>Se afastam. Íris olha para o chão. Clarice enrubrece.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Onde a Mel foi?</default>
+		<default>Onde Mel foi?</default>
 	</talk>
 	<talk character="Íris">
 		<default>Saiu logo cedo e não disse onde.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu precisava falar com ela.</default>
+		<default>Eu precisava falar.</default>
 	</talk>
 	<talk character="Clarice">
-		<default>Chegou isso</default>
-		<teller>pega algo sobre a mesa</teller>
-		<default>pra você.</default>
+		<default>Chegou isso pra você.</default>
 	</talk>
 	<teller>
-		<default>Angely pega a carta e lê. Derik chega.</default>
+		<default>Clarice pega uma carta sobre a mesa e entrega a Angely. Angely abre. Lê.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Angely, Kat tá muito, muito estranha!</default>
+		<arrive>Angely, Kat tá agindo muito, muito estranho!</arrive>
 	</talk>
 	<talk character="Clarice">
 		<default>Quem é esse?</default>
@@ -312,7 +301,7 @@
 		<default>Você é namorado da Mel?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Da Kat.</default>
+		<default>Kat.</default>
 	</talk>
 	<talk character="Clarice">
 		<default>Ah, bom...</default>
@@ -321,7 +310,7 @@
 		<default>Clarice sai da cozinha.</default>
 	</teller>
 	<talk character="Derik">
-		<default>E se eu fosse namorado da Mel???</default>
+		<default>E se fosse Mel???</default>
 	</talk>
 	<talk character="Íris">
 		<default>Primeiro que você não tem idade, segundo que iria ser o maior dos cornos.</default>
@@ -330,15 +319,19 @@
 		<default>Angely? Angely?!</default>
 	</talk>
 	<teller>
-		<default>Derik pega a carta.</default>
+		<default>Derik pega a carta de Angely.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Droga, o que tá escrito aqui???</default>
 	</talk>
 	<talk character="Íris">
 		<default>Daquí, eu sei várias línguas...</default>
-		<teller>pega a carta</teller>
-		<default>Mas não essa.</default>
+	</talk>
+	<teller>
+		<default>Íris pega a carta de Derik.</default>
+	</teller>
+	<talk character="Íris">
+		<default>Dessa época. E planeta.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Angely!</default>
@@ -353,7 +346,7 @@
 		<default>Nenhuma.</default>
 	</talk>
 	<teller>
-		<default>Ele pega a carta e sai. Derik vai atrás dele.</default>
+		<default>Angely pega a carta. Sai. Derik segue.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Angely...</default>
@@ -362,22 +355,22 @@
 		<default>Olha, não tem nada aqui que...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não é isso. É sobre a Kat. Ela tá muito estranha.</default>
+		<default>Não é isso. É sobre Kat. Tá agindo muito estranho.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Como estranha?</default>
+		<default>Como?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Acho que a companhia da Agatha não tá fazendo muito bem a ela.</default>
+		<default>Acho que a companhia de Agatha não tá fazendo muito bem.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Acha que ela tá traindo você?</default>
+		<default>Acha que tá traindo você?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não... Por que, você acha???</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não acho que seria do feitio dela.</default>
+		<default>Não acho que seria do feitio.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Ah, bom...</default>
@@ -392,13 +385,13 @@
 		<default>Qual é o problema afinal?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ah, claro! É que ela anda querendo dormir comigo.</default>
+		<default>Ah, claro! É que anda querendo dormir comigo.</default>
 	</talk>
 	<talk character="Angely">
 		<default>E daí?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Mas ela tem quatorze anos!</default>
+		<default>Mas tem quatorze anos!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ah, está falando dormir de...</default>
@@ -407,27 +400,12 @@
 		<default>Derik encara Angely.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Talvez ela devesse ir a um médico.</default>
+		<default>Já tentou conversar?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Claro! Vai lá falar isso pra ela!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nós vamos.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que???</default>
-	</talk>
-	<talk character="Angely">
-		<default>E vamos agora.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu não vou!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ela é ou não é sua namorada???</default>
+		<default>Desviar do assunto e fugir conta?</default>
 	</talk>
 	<teller>
-		<default>Os dois saem.</default>
+		<default>Angely encara Derik.</default>
 	</teller>
 </story>
