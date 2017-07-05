@@ -22,7 +22,7 @@ function SaveKey() {
 
             if (canSubmit) {
                 if (pressedCtrl && e.which == 89) {
-                    SaveCurrentScene()
+                    SaveCurrentScene();
                     pressedCtrl = false;
                 }
             }

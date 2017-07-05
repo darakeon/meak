@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using System;
+using System.Web;
 using System.Web.Mvc;
 using Structure.Helpers;
 
@@ -8,8 +9,22 @@ namespace Presentation.Helpers
     {
         protected override bool AuthorizeCore(HttpContextBase httpContext)
         {
-            return !UrlUserType.IsAuthor(httpContext.Request.Url)
-                || base.AuthorizeCore(httpContext);
+            var authorized = !UrlUserType.IsAuthor(httpContext.Request.Url)
+                             || base.AuthorizeCore(httpContext);
+            
+            var isAjax = httpContext.Request.IsAjaxRequest();
+
+            if (authorized)
+                return true;
+
+            if (isAjax)
+                throw new ApplicationException();
+
+            return false;
         }
+
+        
+
+
     }
 }

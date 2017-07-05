@@ -8,6 +8,6 @@ function SceneChanger() {
         $(".scenes .reading").removeClass("reading");
         $("#Scene" + scene).addClass("reading");
 
-        $(".main").scrollTop(0);
+        $(document).scrollTop(0);
     });
 }

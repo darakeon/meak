@@ -1,4 +1,5 @@
 ﻿@model Presentation.Models.SeasonEpisodeModel
+@using Structure.Enums;
 
 @{
     ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
@@ -28,36 +29,50 @@
     @for (var s = 0; s < Model.Story.SceneList.Count; s++)
     {
         var scene = Model.Story.SceneList[s];
+        var lastIsTeller = false;
         
         <div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(s)">
             @foreach (var paragraph in scene.ParagraphTypeList)
             {
-                <div class="paragraph @paragraph.ToString().ToLower()">
-                    @if (paragraph == Structure.Enums.ParagraphType.Talk)
-                    {
-                        @("– ")
-            
-                        foreach (var piece in scene.TalkList[talkCounter].Pieces)
-                        {
-                            if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
+                if (lastIsTeller && paragraph == ParagraphType.Teller)
+                {
+                    <br /><br />
+                }
+
+                lastIsTeller = paragraph == ParagraphType.Teller;
                 
-                            <span class="talk_@(piece.Style)">@piece.Text</span>
-
-                            if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
-                        }
-            
-                        @(" (" + scene.TalkList[talkCounter].Character + ")")
-        
-                        talkCounter++;
-                    }
-                    else if (paragraph == Structure.Enums.ParagraphType.Teller)
+                <div class="paragraph @paragraph.ToString().ToLower()">
+                    @switch (paragraph)
                     {
-                        foreach (var piece in scene.TellerList[tellerCounter].Pieces)
-                        {
-                            <div class="teller_@(piece.Style)">@piece.Text</div>
-                        }
+                        case ParagraphType.Talk:
+                            
+                            @("– ")
+            
+                            foreach (var piece in scene.TalkList[talkCounter].Pieces)
+                            {
+                                if (piece.Style == TalkStyle.Teller) { @(" – ") }
+                
+                                <span class="talk_@(piece.Style)">@piece.Text</span>
 
-                        tellerCounter++;
+                                if (piece.Style == TalkStyle.Teller) { @(" – ") }
+                            }
+            
+                            @(" (" + scene.TalkList[talkCounter].Character + ")")
+        
+                            talkCounter++;
+
+                            break;
+                            
+                        case ParagraphType.Teller:
+                        
+                            foreach (var piece in scene.TellerList[tellerCounter].Pieces)
+                            {
+                                <div class="teller_@(piece.Style)">@piece.Text</div>
+                            }
+
+                            tellerCounter++;
+
+                            break;
                     }
                 </div>
             }

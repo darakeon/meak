@@ -11,7 +11,8 @@ function SaveBeginColor(id) {
 
 
 
-function SaveSuccess(formId) {
+function SaveSuccess(formId, data) {
+    alert(data);
     EnableForm(formId);
     SaveSuccessColor("#save_status");
 }

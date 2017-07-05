@@ -4,7 +4,7 @@
     var scene = Model.Story.SceneList[Model.SceneCounter];
     var formId = "form_" + scene.ID;
 
-    var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin('" + formId + "')", OnSuccess = "SaveSuccess('" + formId + "')", OnFailure = "SaveFailure('" + formId + "')" };
+    var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin('" + formId + "')", OnSuccess = "SaveSuccess('" + formId + "', data)", OnFailure = "SaveFailure('" + formId + "')" };
     var route = new { sceneID = scene.ID, episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
     var html = new { id = formId };
 }
