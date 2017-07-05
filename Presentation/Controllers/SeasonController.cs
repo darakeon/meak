@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Configuration;
 using System.IO;
+using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Presentation.Models;
+using Structure.Entities;
 using Structure.Enums;
 using Presentation.Helpers;
 using Structure.Data;
@@ -16,43 +18,29 @@ namespace Presentation.Controllers
     public class SeasonController : Controller
     {
         #region INIT
-        private BaseModel.Paths paths;
+        private Paths paths;
+        private EpisodeXML episodeXML;
         
         protected override void Initialize(RequestContext requestContext)
         {
             base.Initialize(requestContext);
 
-            var folder = ConfigurationManager.AppSettings["Path"];
+            episodeXML = new EpisodeXML(Server);
 
-            if (folder == null)
-                throw new Exception("XML Path not configured.");
-
-
-            var xmlPath = 
-                folder.Substring(1, 1) == ":"
-                    ? folder
-                    : Path.Combine(Server.MapPath("~"), folder);
-
-
-            if (!Directory.Exists(xmlPath))
-                throw new Exception(String.Format("Path '{0}' doesn't exists.", xmlPath));
-
-
-
+            var xmlPath = episodeXML.PathXML;
             var cssPath = Server.MapPath("~/Assets/css");
 
-
-            paths = new BaseModel.Paths(xmlPath, cssPath);
+            paths = new Paths(xmlPath, cssPath);
         }
         #endregion
 
 
 
-        public ActionResult Index(String season, String returnUrl)
+        public ActionResult Index(String seasonID, String returnUrl)
         {
-            return String.IsNullOrEmpty(season)
+            return String.IsNullOrEmpty(seasonID)
                 ? index(returnUrl)
-                : episodes(season);
+                : episodes(seasonID);
         }
 
         private ActionResult index(String returnUrl)
@@ -71,9 +59,9 @@ namespace Presentation.Controllers
             return View("Intro" + introNum, model);
         }
 
-        private ActionResult episodes(String season)
+        private ActionResult episodes(String seasonID)
         {
-            var model = new SeasonSeasonModel(paths, season);
+            var model = new SeasonSeasonModel(paths, seasonID);
 
             return View("Season", model);
         }
@@ -81,18 +69,13 @@ namespace Presentation.Controllers
 
 
 
-        public ActionResult Episode(String season, String episode, String scene = SceneXML.FirstScene)
+        public ActionResult Episode(String seasonID, String episodeID)
         {
-            SceneXML xml;
-
+            Episode episode;
 
             try
             {
-                xml = new SceneXML(paths.Xml, season, episode, scene, OpenEpisodeOption.GetStory);
-            }
-            catch (FileNotFoundException)
-            {
-                return View("Error", new ErrorModel(paths) { Message = "Temporada, Capítulo e/ou Cena não encontrado(s)." });
+                episode = episodeXML.GetEpisode(seasonID, episodeID);
             }
             catch (Exception e)
             {
@@ -100,11 +83,9 @@ namespace Presentation.Controllers
             }
 
 
-            var model = new SeasonEditEpisodeModel(paths) { Story = xml.Scene };
+            var model = new SeasonEditEpisodeModel(paths) { Story = episode };
 
 
-            EpisodeNavigation.SetNavigation(model, paths.Xml);
-            
             model.GetSuggestionLists();
 
 
@@ -116,7 +97,7 @@ namespace Presentation.Controllers
 
             return View(model);
         }
-
+        
         private ActionResult editEpisode(SeasonEpisodeModel model)
         {
             EpisodeEditionHelper.PutCharacter(model.Story);
@@ -124,38 +105,40 @@ namespace Presentation.Controllers
             return View("Author/Episode", model);
         }
 
+
+
         [HttpPost]
-        public ActionResult Episode(SeasonEpisodeModel model, String season, String episode, String scene = SceneXML.FirstScene)
+        public ActionResult Episode(SeasonEpisodeModel model, String seasonID, String episodeID, String sceneID)
         {
-            var xml = new SceneXML(paths.Xml, season, episode, scene) {Scene = model.Story};
+            var xml = new SceneXML(paths.Xml, seasonID, episodeID, sceneID) {Scene = model.Story[sceneID]};
 
             EpisodeEditionHelper.CutCharacter(xml.Scene);
 
             xml.WriteStory();
 
-            return RedirectToAction("Episode", new { season, episode });
+            return RedirectToAction("Episode", new { season = seasonID, episode = episodeID });
         }
 
 
 
         [HttpPost]
-        public ActionResult Adder(String type, String subtype, Int32? paragraph, Int32? teller, Int32? talk, Int32? piece)
+        public ActionResult Adder(String scene, String type, String subtype, Int32? paragraph, Int32? teller, Int32? talk, Int32? piece)
         {
             var adder = new Adder(paths);
 
             switch ((type + subtype).ToLower())
             {
                 case "pieceteller":
-                    adder.SetPieceTeller(piece ?? 0, teller ?? 0, talk ?? 0);
+                    adder.SetPieceTeller(scene, piece ?? 0, teller ?? 0, talk ?? 0);
                     break;
                 case "piecetalk":
-                    adder.SetPieceTalk(piece ?? 0, talk ?? 0, teller ?? 0);
+                    adder.SetPieceTalk(scene, piece ?? 0, talk ?? 0, teller ?? 0);
                     break;
                 case "paragraphteller":
-                    adder.SetParagraphTeller(paragraph ?? 0, teller ?? 0, talk ?? 0);
+                    adder.SetParagraphTeller(scene, paragraph ?? 0, teller ?? 0, talk ?? 0);
                     break;
                 case "paragraphtalk":
-                    adder.SetParagraphTalk(paragraph ?? 0, talk ?? 0, teller ?? 0);
+                    adder.SetParagraphTalk(scene, paragraph ?? 0, talk ?? 0, teller ?? 0);
                     break;
                 default:
                     throw new Exception("Unknown Adder Type.");
@@ -189,5 +172,6 @@ namespace Presentation.Controllers
 
             return RedirectToAction("Episode", new { season = xml.Scene.Episode.Season.ID, episode = xml.Scene.Episode.ID });
         }
+
     }
 }

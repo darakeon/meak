@@ -1,4 +1,4 @@
-﻿using Presentation.Helpers;
+﻿using Structure.Data;
 using Structure.Entities;
 
 namespace Presentation.Models
@@ -6,15 +6,15 @@ namespace Presentation.Models
     public class SeasonEpisodeModel : BaseModel
     {
         public SeasonEpisodeModel() {
-            Story = new Scene();
+            Story = new Episode();
         }
 
         public SeasonEpisodeModel(Paths paths) : base(paths)
         {
-            Story = new Scene();
+            Story = new Episode();
         }
 
-        public Scene Story { get; set; }
+        public Episode Story { get; set; }
         
     }
 }

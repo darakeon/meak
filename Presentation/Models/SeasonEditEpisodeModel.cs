@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using Structure.Data;
 using Structure.Enums;
 using StringExtension = Structure.Extensions.StringExtension;
 
@@ -10,6 +12,7 @@ namespace Presentation.Models
         protected SeasonEditEpisodeModel() { }
         public SeasonEditEpisodeModel(Paths paths) : base(paths) { }
 
+        public String SceneCounter { get; set; }
         public Int32 TellerCounter { get; set; }
         public Int32 TalkCounter { get; set; }
         public Int32 ParagraphCounter { get; set; }
@@ -27,7 +30,7 @@ namespace Presentation.Models
         {
             get
             {
-                return Story.ParagraphTypeList[ParagraphCounter];
+                return Story[SceneCounter].ParagraphTypeList[ParagraphCounter];
             }
         }
 
@@ -44,14 +47,22 @@ namespace Presentation.Models
                     .AsEnumerable()
                     .ToArray();
 
-            CharacterList =
-                Story.TalkList
+            var characterList = new List<String>();
+
+            Story.SceneList
+                .ForEach(s => s.TalkList
                     .Select(t => t.Character)
+                    .ToList()
+                    .AddRange(characterList));
+
+            CharacterList = 
+                characterList
                     .Distinct()
                     .Where(c => !c.Contains("/")
                         && StringExtension.IsName(c))
                     .OrderBy(c => c)
                     .ToArray();
         }
+
     }
 }

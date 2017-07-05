@@ -1,5 +1,6 @@
 ﻿using System;
 using Presentation.Models.General;
+using Structure.Data;
 
 namespace Presentation.Models
 {
@@ -20,19 +21,6 @@ namespace Presentation.Models
         public LogOnModel LogOn { get; set; }
         public CssModel Css { get; set; }
 
-
-
-        public class Paths
-        {
-            public Paths(String xmlPath, String cssPath)
-            {
-                Xml = xmlPath;
-                Css = cssPath;
-            }
-
-            public String Xml { get; private set; }
-            public String Css { get; private set; }
-        }
     }
 
 }

@@ -1,39 +1,83 @@
 ﻿using System;
 using Structure.Entities;
+using Structure.Enums;
 
 namespace Presentation.Helpers
 {
     public class EpisodeEditionHelper
     {
-        public static void CutCharacter(Scene episode)
+        public static void CutCharacter(Episode episode)
         {
-            foreach (var talk in episode.TalkList)
+            foreach (var scene in episode.SceneList)
             {
-                foreach (var piece in talk.Pieces)
-                {
-                    var pieceHasCharacter = !String.IsNullOrEmpty(piece.Text)
-                                            && piece.Text.Contains("(");
-
-                    if (pieceHasCharacter)
-                        piece.Text = piece.Text
-                            .Substring(
-                                0, piece.Text.IndexOf("(")
-                            )
-                            .Trim();
-                }
+                CutCharacter(scene);
             }
         }
 
-        public static void PutCharacter(Scene episode)
+        public static void CutCharacter(Scene scene)
         {
-            foreach (var talk in episode.TalkList)
+            foreach (var talk in scene.TalkList)
             {
-                foreach (var piece in talk.Pieces)
-                {
-                    piece.Text += String.Format(" ({0})", talk.Character);
-                }
+                CutCharacter(talk);
             }
         }
+
+        public static void CutCharacter(Talk talk)
+        {
+            foreach (var piece in talk.Pieces)
+            {
+                CutCharacter(piece);
+            }
+        }
+
+        public static void CutCharacter(Piece<TalkStyle> piece)
+        {
+            var pieceHasCharacter = !String.IsNullOrEmpty(piece.Text)
+                                    && piece.Text.Contains("(");
+
+            if (pieceHasCharacter)
+                piece.Text = piece.Text
+                    .Substring(
+                        0, piece.Text.IndexOf("(")
+                    )
+                    .Trim();
+        }
+
+
+
+
+
+        public static void PutCharacter(Episode episode)
+        {
+            foreach (var scene in episode.SceneList)
+            {
+                PutCharacter(scene);
+            }
+        }
+
+        public static void PutCharacter(Scene scene)
+        {
+            foreach (var talk in scene.TalkList)
+            {
+                PutCharacter(talk);
+            }
+        }
+
+        public static void PutCharacter(Talk talk)
+        {
+            foreach (var piece in talk.Pieces)
+            {
+                PutCharacter(talk, piece);
+            }
+        }
+
+        public static void PutCharacter(Talk talk, Piece<TalkStyle> piece)
+        {
+            piece.Text += String.Format(" ({0})", talk.Character);
+        }
+
+
+
     }
 }
 

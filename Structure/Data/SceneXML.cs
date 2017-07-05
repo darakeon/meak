@@ -230,5 +230,6 @@ namespace Structure.Data
                     new Piece<TalkStyle> { Style = TalkStyle.Default, Text = "_" }
                 }, Character = "Akeon" };
         }
+
     }
 }

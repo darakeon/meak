@@ -1,4 +1,6 @@
-﻿namespace Presentation.Models
+﻿using Structure.Data;
+
+namespace Presentation.Models
 {
     public class SeasonIndexModel : BaseModel
     {

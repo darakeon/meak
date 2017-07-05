@@ -36,6 +36,7 @@
       <HintPath>..\Library\Ak\Ak.DataAccess.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
@@ -45,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\EpisodeXML.cs" />
+    <Compile Include="Data\Paths.cs" />
     <Compile Include="Data\SceneXML.cs" />
     <Compile Include="Data\ParagraphXML.cs" />
     <Compile Include="Data\PieceXML.cs" />
@@ -62,6 +65,7 @@
     <Compile Include="Extensions\FileInfoExtension.cs" />
     <Compile Include="Entities\Season.cs" />
     <Compile Include="Extensions\StringExtension.cs" />
+    <Compile Include="Helpers\StoriesException.cs" />
     <Compile Include="Helpers\UrlUserType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

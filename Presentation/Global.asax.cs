@@ -33,29 +33,29 @@ namespace Presentation
 
             routes.MapRoute(
                 "AuthorScene", // Route name
-                "Author/{controller}/{season}/{action}/{episode}/{scene}", // URL with parameters
-                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional, scene = SceneXML.FirstScene } // Parameter defaults
+                "Author/{controller}/{seasonID}/{action}/{episodeID}/{sceneID}", // URL with parameters
+                new { controller = "Season", seasonID = UrlParameter.Optional, action = "Index", episodeID = UrlParameter.Optional, sceneID = SceneXML.FirstScene } // Parameter defaults
             );
 
             routes.MapRoute(
                 "Author", // Route name
-                "Author/{controller}/{season}/{action}/{episode}", // URL with parameters
-                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional } // Parameter defaults
+                "Author/{controller}/{seasonID}/{action}/{episodeID}", // URL with parameters
+                new { controller = "Season", seasonID = UrlParameter.Optional, action = "Index", episodeID = UrlParameter.Optional } // Parameter defaults
             );
 
 
 
             routes.MapRoute(
                 "Scene", // Route name
-                "{controller}/{season}/{action}/{episode}/{scene}", // URL with parameters
-                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional, scene = SceneXML.FirstScene } // Parameter defaults
+                "{controller}/{seasonID}/{action}/{episodeID}/{sceneID}", // URL with parameters
+                new { controller = "Season", seasonID = UrlParameter.Optional, action = "Index", episodeID = UrlParameter.Optional, sceneID = SceneXML.FirstScene } // Parameter defaults
             );
 
 
             routes.MapRoute(
                 "Default", // Route name
-                "{controller}/{season}/{action}/{episode}", // URL with parameters
-                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional } // Parameter defaults
+                "{controller}/{seasonID}/{action}/{episodeID}", // URL with parameters
+                new { controller = "Season", seasonID = UrlParameter.Optional, action = "Index", episodeID = UrlParameter.Optional } // Parameter defaults
             );
         }
 

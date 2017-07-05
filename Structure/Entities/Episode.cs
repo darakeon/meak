@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Structure.Data;
 
 namespace Structure.Entities
@@ -34,6 +35,12 @@ namespace Structure.Entities
         public override String ToString()
         {
             return ID;
+        }
+
+        
+        public Scene this[String scene]
+        {
+            get { return SceneList.SingleOrDefault(s => s.ID == scene); }
         }
 
     }
