@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="10" scene="b">
 	<teller>
-		<default>Angely volta para o carro.</default>
+		<default>Angely volta. Entra no carro.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Então?</default>
@@ -13,13 +13,13 @@
 		<default>E você vai obedecer?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela perguntou se eu vi alguém e, quando eu descrevi a garota que estava lá, ela disse que com certeza a culpa não é minha.</default>
+		<default>Perguntou se eu vi alguém e, quando eu descrevi a pessoa que tava lá, ela disse que com certeza a culpa não é minha.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Falou isso pra você não ficar com a consciência pesada.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não foi, tinha algo errado.</default>
+		<default>Não foi, tinha alguma coisa errada.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Que isso na sua mão?</default>
@@ -36,20 +36,14 @@
 	<talk character="Derik">
 		<default>A carteira dela?!</default>
 	</talk>
-	<talk character="Mel">
-		<default>Por que fez isso?!</default>
-	</talk>
 	<talk character="Angely">
 		<default>Eu peguei pra descobrir quem ela é.</default>
 	</talk>
 	<teller>
-		<first>Edmont está na cozinha da casa. Ele dá risada. Mel chega.</first>
+		<first>Edmont está na cozinha da casa. Dá risada. Mel chega.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Está dando risada depois do que fez?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que andou aprontando?</default>
+		<arrive>Tá dando risada depois do que fez?!</arrive>
 	</talk>
 	<talk character="Edmont">
 		<default>Não vão desmontar a banda? Por que ainda temos que ficar respondendo às perguntas daquelas criaturas sem vida própria?</default>
@@ -58,10 +52,12 @@
 		<default>Então é isso que você quer?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não. É isso que vocês querem.</default>
+		<default>Não. É isso que </default>
+		<frizz>vocês </frizz>
+		<default>querem.</default>
 	</talk>
 	<teller>
-		<default>Ele sai da cozinha.</default>
+		<default>Edmont sai da cozinha.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Tem mais alguma coisa. Eu conheço ele.</default>
@@ -70,9 +66,6 @@
 		<default>Mudando de assunto... Já que você já deu uma de mão leve, vamos logo saber quem é a garota.</default>
 	</talk>
 	<teller>
-		<default>Mel e Angely sobem pro escritório.</default>
-	</teller>
-	<teller>
 		<first>Na casa de Dara, Denise e Bryan estão na sala. Toca a campainha. Dara vem até a sala para atender.</first>
 	</teller>
 	<talk character="Dara">
@@ -80,6 +73,9 @@
 	</talk>
 	<talk character="Denise">
 		<default>Vamos deixar eles sozinhos.</default>
+	</talk>
+	<talk character="Dara">
+		<default>Não...</default>
 	</talk>
 	<teller>
 		<default>Denise sai com Bryan.</default>
@@ -94,13 +90,13 @@
 		<default>Eu desculpo.</default>
 	</talk>
 	<teller>
-		<default>Dara vai fechar a porta, mas ele não deixa.</default>
+		<default>Dara empurra a porta para fechar. Edmont segura.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Precisamos conversar.</default>
 	</talk>
 	<teller>
-		<first>Na tarde do dia seguinte, Angely e Mel vão até a casa da garota. Tocam a campainha.</first>
+		<first>Tarde. Angely e Mel tocam uma campainha.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Acho que não tem ninguém em casa.</default>
@@ -108,55 +104,49 @@
 	<talk character="Angely">
 		<default>Eu tô ouvindo alguém brigando.</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Jay">
 		<out>Atende logo essa droga dessa campainha!</out>
 	</talk>
 	<talk character="Angely">
 		<default>Não chegamos numa boa hora.</default>
 	</talk>
 	<teller>
-		<default>Alguém abre a porta.</default>
+		<default>Luiza abre a porta.</default>
 	</teller>
-	<talk character="empregada">
+	<talk character="Luiza">
 		<default>Sim?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Podemos falar com o dono da casa?</default>
+		<default>A casa é sua?</default>
 	</talk>
-	<talk character="empregada">
-		<default>Ele não está.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então você sempre costuma fazer isso?</default>
-	</talk>
-	<talk character="empregada">
-		<default>Isso o que?</default>
+	<talk character="Luiza">
+		<default>Eu? Não... Não teria todo esse dinheiro. É do seu Jay. Ele não tá.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Engrossar a voz e mandar à si mesma atender a campainha.</default>
+		<default>Era você se mandando atender a campainha?</default>
 	</talk>
-	<talk character="empregada">
+	<talk character="Luiza">
 		<default>Não é uma boa hora.</default>
 	</talk>
 	<teller>
-		<default>A mulher vai fechar, mas Mel segura a porta e entra. Angely entra junto.</default>
+		<default>Mel passa por Luiza e entra.</default>
 	</teller>
 	<talk character="Angely">
 		<default>É importante.</default>
 	</talk>
-	<talk character="empregada">
+	<talk character="Luiza">
 		<default>Não podem entrar assim...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Já entramos.</default>
 	</talk>
 	<teller>
-		<default>A empregada leva os dois vão até o escritório. Tem um homem em pé falando com a garota. Esta está de costas, sentada numa cadeira.</default>
+		<default>Mel encara Angely. Angely olha pra pessoa. A pessoa faz sinal para que Angely entre. Os três vão até o escritório. Há duas pessoas, uma virada para a entrada, uma de costas, sentada numa cadeira.</default>
 	</teller>
 	<talk character="Jay">
 		<default>Quem são vocês?!</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Mel">
 		<default>É sobre a sua filha.</default>
 	</talk>
 	<teller>
@@ -172,7 +162,7 @@
 		<default>É sobre a outra. Agnes.</default>
 	</talk>
 	<talk character="Jay">
-		<default>Onde ela está?!</default>
+		<default>Onde ela tá?!</default>
 	</talk>
 	<talk character="Angely">
 		<default>No hospital...</default>
@@ -184,7 +174,7 @@
 		<default>Sim?</default>
 	</talk>
 	<talk character="Psique">
-		<out>Agnes está aqui. Ela está bem. Mas eu tenho certeza que foi a Djanira de novo e, se não der um jeito nisso, não vai tirá-la da minha casa dessa vez.</out>
+		<out>Agnes tá aqui. Ela tá bem. Mas eu tenho certeza que foi a Djanira de novo e, se não der um jeito nisso, não vai tirá-la da minha casa dessa vez.</out>
 	</talk>
 	<talk character="Jay">
 		<default>Tem um rapaz aqui, loiro, cabelo grande, alto, olho claro...</default>
@@ -202,7 +192,7 @@
 		<default>Então, atropelou minha filha hoje à tarde?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Senhor, não foi por...</default>
+		<default>Não foi por...</default>
 	</talk>
 	<talk character="Jay">
 		<default>Djanira, o que fez?</default>
@@ -217,7 +207,7 @@
 		<default>Acha que fui eu quem empurrei ela pra frente do carro?</default>
 	</talk>
 	<teller>
-		<default>Jay se senta e apoia a cabeça nas mãos.</default>
+		<default>Jay se senta na cadeira principal. Apoia os cotovelos na mesa e a cabeça nas mãos.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Tudo bem?</default>
@@ -235,39 +225,36 @@
 		<default>Mesmo assim vou ter que freqüentar uma escola.</default>
 	</talk>
 	<talk character="Jay">
-		<default>Acompanha os dois até a porta.</default>
+		<default>Luiza, acompanha os dois até a porta.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Podemos falar com o senhor?</default>
+		<default>Precisamos falar.</default>
 	</talk>
 	<talk character="Jay">
 		<default>Não vou processá-lo, pode ficar sossegado.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Acho que podemos ajudá-lo, senhor...</default>
+		<default>Acho que podemos ajudar.</default>
 	</talk>
-	<talk character="Jay">
-		<default>Meu nome é Jay.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Jay. Podemos ajudá-lo.</default>
-	</talk>
+	<teller>
+		<default>Jay olha para Mel.</default>
+	</teller>
 	<talk character="Jay">
 		<default>Vocês tem idéia de algum planeta pra onde eu possa mandá-la?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Estamos falando sério.</default>
+	<talk character="Mel">
+		<default>É sério.</default>
 	</talk>
 	<talk character="Jay">
-		<default>Djanira, vai pro seu quarto. E você...</default>
-		<teller>fala com a empregada</teller>
-		<default>...cuida pra que ela não saia de lá.</default>
+		<default>Djanira, vai pro seu quarto. </default>
+		<teller>olha para Luiza</teller>
+		<default>E você cuida pra que ela não saia de lá.</default>
 	</talk>
 	<talk character="Djanira">
 		<default>Carpe Diem, Angely.</default>
 	</talk>
 	<teller>
-		<default>A empregada sai com Djanira.</default>
+		<default>Luiza sai com Djanira.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Latim.</default>
@@ -275,13 +262,14 @@
 	<talk character="Jay">
 		<default>Sabe várias línguas, mas qualquer imbecil conhece essa expressão. Sentem-se.</default>
 	</talk>
+	<teller>
+		<default>Mel e Angely se sentam.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Como estávamos dizendo...</default>
-		<teller>se senta</teller>
-		<default>...talvez possamos ajudá-lo com isso.</default>
+		<default>Como estávamos dizendo, talvez possamos ajudar com isso.</default>
 	</talk>
 	<talk character="Jay">
-		<default>São milagreiros?</default>
+		<default>São psicólogos?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não, mas já vimos isso antes.</default>
@@ -292,12 +280,30 @@
 	<talk character="Mel">
 		<default>Uma garota tentando matar a própria irmã? Sim, já vimos.</default>
 	</talk>
+	<teller>
+		<default>Jay respira fundo. Levanta. Vai até a janela.</default>
+	</teller>
 	<talk character="Jay">
-		<default>Desde pequena Djanira sempre agiu estranho com Agnes. Inventava várias brincadeiras pra por a vida da irmã em risco. Levei-as ao teatro e acabei perdendo-as de vista. Quando encontrei Djanira ela disse que estava brincando com a irmã. Perguntei onde Agnes estava e Djanira olhou com um sorriso pra cima. Agnes tinha ido buscar um ursinho que Djanira houvera jogado lá em cima, numa estrutura de ferro. Não pude mais participar do grupo de teatro por que eles não queriam as duas lá. Outra vez eu as levei até um bar onde tinha arranjado emprego e Djanira mandou Agnes se esconder na cidade. Despedido de novo. Tive que sair no meio do período pra encontrar Agnes. Ela já quase perdeu a vida várias vezes por causa da irmã. Então recebi uma herança. Pensei que colocando ela em melhores escolas, com pessoas mais civilizadas, dando uma vida melhor, ela se comportaria. Mas isso não aconteceu. Agnes tenta dizer que não é ela, mas eu sei que é. E não posso arriscar a vida de uma porque a outra... Meu Deus. Deus me perdoe.</default>
+		<default>Desde pequena Djanira sempre agiu estranho com Agnes. Inventava várias brincadeiras pra por a vida da irmã em risco. Levei as duas ao teatro e acabei perdendo de vista. Quando encontrei Djanira ela disse que estava brincando com a irmã. Perguntei onde Agnes estava e Djanira olhou com um sorriso pra cima. Agnes tinha ido buscar um ursinho que Djanira houvera jogado lá em cima, numa estrutura de ferro. Não pude mais participar do grupo de teatro por que eles não queriam as duas lá. Outra vez eu as levei até um bar onde tinha arranjado emprego e Djanira mandou Agnes se esconder na cidade. Despedido de novo. Tive que sair no meio do expediente pra encontrar Agnes. Ela já quase perdeu a vida várias vezes por causa da irmã.</default>
+	</talk>
+	<teller>
+		<default>Jay volta a se sentar na cadeira. Olha para baixo. Olha para eles. Suspira novamente.</default>
+	</teller>
+	<talk character="Jay">
+		<default>Então recebi uma herança. Pensei que colocando ela em melhores escolas, com pessoas mais civilizadas, dando uma vida melhor, ela se comportaria. Mas isso não aconteceu. Agnes tenta dizer que não é ela, mas eu sei que é. E não posso arriscar a vida de uma porque a outra...</default>
+	</talk>
+	<teller>
+		<default>Jay apoia os cotovelos na mesa e esconde o rosto nas mãos.</default>
+	</teller>
+	<talk character="Jay">
+		<default>Meu Deus. Deus me perdoe.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Agnes já está melhor?</default>
 	</talk>
+	<teller>
+		<default>Jay olha para eles.</default>
+	</teller>
 	<talk character="Jay">
 		<default>Sim, está.</default>
 	</talk>
@@ -314,16 +320,16 @@
 		<default>Não. As duas foram criadas do mesmo jeito. Enquanto uma é um anjo, a outra, Deus que me perdoe, mas parece filha do diabo. Como vocês vêm, não há como ajudarem.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Onde está sua esposa?</default>
+		<default>Onde está a progenitora... A mãe das crianças?</default>
 	</talk>
 	<talk character="Jay">
 		<default>Por que está perguntando?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Pode ser algo com que ela tenha tido contato durante a gravidez.</default>
+		<default>Pode ser algo com que tenha tido contato durante a gravidez.</default>
 	</talk>
 	<talk character="Jay">
-		<default>Ela foi assassinada a sete anos.</default>
+		<default>Foi assassinada há sete anos.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Desculpe.</default>
@@ -343,7 +349,7 @@
 	<talk character="Jay">
 		<default>Por que eu esconderia algo tão a vista?</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Mel">
 		<default>Está tão à mão que uma pessoa jamais procuraria nada ali.</default>
 	</talk>
 	<talk character="Jay">
@@ -380,7 +386,7 @@
 		<arrive>Pai...</arrive>
 	</talk>
 	<teller>
-		<default>Jay abraça Agnes. Ouve-se o som de um carro indo embora. Djanira, aproveitando a distração geral, pega a caixa e sai. Angely vai atrás dela.</default>
+		<default>Jay corre e abraça Agnes. Ouve-se o som de um carro indo embora. Djanira pega a caixa e sai. Mel olha para Angely, que vai atrás.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Por que pegou a caixa?</default>
@@ -395,24 +401,22 @@
 		<default>Não é ódio.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Você leu o que há aí?</default>
+		<default>Você leu o que tem aí?</default>
 	</talk>
 	<talk character="Djanira">
 		<default>Leve isso pra um lugar seguro.</default>
-		<teller>Djanira tira o pergaminho de dentro da caixa</teller>
+	</talk>
+	<teller>
+		<default>Djanira tira o pergaminho de dentro da caixa e estende para Angely.</default>
+	</teller>
+	<talk character="Djanira">
 		<default>Quando ler, vai me entender.</default>
 	</talk>
 	<teller>
-		<default>Angely pega o pergaminho. Djanira fecha a caixa e volta ao escritório. Esbarra em Mel, que estava voltando. Esta a encara.</default>
+		<default>Angely pega o pergaminho. Djanira fecha a caixa. Angely entrega a carteira de Agnes para Djanira. Djanira volta ao escritório. Esbarra em Mel. Mel encara. Djanira segue.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Garota estranha.</default>
-	</talk>
-	<talk character="Angely">
-		<default>É.</default>
-	</talk>
 	<teller>
-		<default>Ele devolve a carteira de Agnes em cima da mesa. Eles voltam à MEAK.</default>
+		<first>MEAK.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Pensei que Edmont estaria aqui.</default>
