@@ -1,3 +1,402 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="04" scene="f">
+	<teller>
+		<default>Na MEAK...</default>
+	</teller>
+	<talk character="Derik">
+		<default>Ela tá muito mal...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Como queria que ela estivesse?!</default>
+	</talk>
+	<talk character="Estela">
+		<default>Mas por que ele não matou ela?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Tem algo estranho... Meu sonho não era na casa da Renata.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Quer dizer que ele vai matá-la.</default>
+	</talk>
+	<talk character="Renata">
+		<default>Não foi ele...</default>
+	</talk>
+	<talk character="Estela">
+		<default>Deve tá delirando.</default>
+	</talk>
+	<teller>
+		<default>Eles cuidam dela. 28/02 (sexta), 12:00.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Será que ela já acordou?</default>
+	</talk>
+	<talk character="Mel">
+		<arrive>Ela quem?</arrive>
+	</talk>
+	<talk character="Derik">
+		<default>Ah, vocês já chegaram?!</default>
+	</talk>
+	<talk character="Mel">
+		<irony>Não, sou o holograma que veio avisar da volta!</irony>
+	</talk>
+	<talk character="Kat">
+		<default>Estávamos falando da Estela.</default>
+	</talk>
+	<teller>
+		<default>Estela entra na sala.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Mel? Tão rápido?</default>
+	</talk>
+	<talk character="Mel">
+		<irony>É, ela me parece mesmo ter acabado de acordar!</irony>
+	</talk>
+	<talk character="Estela">
+		<default>Ah?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Acho que vamos ter que contar.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Tá. Conta, Derik.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Eu??? Por que eu???</default>
+	</talk>
+	<talk character="Estela">
+		<default>Por que você deu a idéia.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Ok. Lembra daquela garota, irmã da que foi encontrada no beco?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Renata?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Sim.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Que tem ela?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Bom, uma vampira que o Johnatan...</default>
+	</talk>
+	<talk character="Estela">
+		<default>Só impressão minha ou ele tá mesmo começando do meio?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Deixe-me explicar do começo!</default>
+	</talk>
+	<talk character="Mel">
+		<default>Tá, então...</default>
+	</talk>
+	<talk character="Kat">
+		<default>A Renata acabou descobrindo que o cara que matou a irmã transformou a mãe dela. Daí a mãe se jogou pela janela com o vampiro, pra salvar a Renata. Depois uma bruxa que o vampiro transformou veio atrás da Renata e, antes de virar pó, fez um feitiço.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Feitiço?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Explica você essa parte.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Bom, se Zenon encostasse nela, viraria mau e só depois que ela fosse dessa pra melhor ele ia voltar ao normal.</default>
+	</talk>
+	<talk character="Mel">
+		<default>E ninguém nem me avisa?! Cadê o Zenon?!</default>
+	</talk>
+	<talk character="Derik">
+		<default>Achamos que ele já virou mal.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Tem alguma sugestão do que fazer agora?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Eu avisei...</default>
+	</talk>
+	<talk character="Renata">
+		<arrive>Não foi ele.</arrive>
+	</talk>
+	<talk character="Derik">
+		<default>Deveria tá descansando.</default>
+	</talk>
+	<talk character="Renata">
+		<default>Tô bem, temos que achá-lo.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Pelo jeito ainda tá delirando.</default>
+	</talk>
+	<talk character="Renata">
+		<default>Não, foi um outro vampiro.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Que outro vampiro?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Não tá tentando protegê-lo, tá?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Por que ela faria isso? Se alguém tentasse me matar, com certeza não ia tentar protegê-lo. A menos que...</default>
+		<teller>olha pra Renata, que está ainda no lado escuro da sala</teller>
+		<default>Peraí, você se recuperou rápido demais!</default>
+	</talk>
+	<teller>
+		<default>Estela corre e pega uma estaca.</default>
+	</teller>
+	<talk character="Renata">
+		<default>Calma...</default>
+		<teller>abre a cortina</teller>
+		<default>...não vou fazer nada.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Ela tem outros motivos para protegê-lo.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Que outros motivos?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Bem...</default>
+		<teller>Renata o encara</teller>
+		<default>Nada.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Falando em nada</default>
+		<teller>encara Derik</teller>
+		<default>Eu sonhei hoje de novo.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Alguma diferença?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Parecia mais real.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Vai ser hoje.</default>
+	</talk>
+	<teller>
+		<default>Angely entra na sala, com duas pequenas malas.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Espero que não fiquemos mais tão longe de casa...</default>
+	</talk>
+	<teller>
+		<default>Renata se assusta.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Que foi?</default>
+	</talk>
+	<talk character="Renata">
+		<default>É ele, o vampiro...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Foi isso que você sentiu no Rio!</default>
+	</talk>
+	<talk character="Derik">
+		<default>Olha, provavelmente o tal vampiro é parecido...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Parecido não, idêntico a ele! Só que com cabelos pretos e olhos cinzas, né?</default>
+	</talk>
+	<talk character="Renata">
+		<default>É.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Edmont.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Melhor ir atrás dele.</default>
+	</talk>
+	<teller>
+		<default>Ang sai. Em Ares, uma garota entra num prédio abandonado.</default>
+	</teller>
+	<talk character="garota">
+		<default>Tem alguém aqui?</default>
+	</talk>
+	<talk character="homem">
+		<default>Posso ajudar?</default>
+	</talk>
+	<talk character="garota">
+		<default>Eu cheguei na ilha a pouco e tô perdida...</default>
+	</talk>
+	<talk character="homem">
+		<default>Não vai mais ter esse problema...</default>
+	</talk>
+	<talk character="garota">
+		<default>Qual seu nome?</default>
+	</talk>
+	<talk character="homem">
+		<default>Zenon.</default>
+	</talk>
+	<teller>
+		<default>Na MEAK...</default>
+	</teller>
+	<talk character="Kat">
+		<default>Temos que achá-lo, antes que faça alguma vítima...</default>
+	</talk>
+	<talk character="Renata">
+		<default>Que vão fazer?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Bom, ele deve ter encostado em você...</default>
+	</talk>
+	<talk character="Estela">
+		<default>Não apareceu até agora. Isso é um mau sinal.</default>
+	</talk>
+	<talk character="Renata">
+		<default>Que vão fazer?!</default>
+	</talk>
+	<talk character="Mel">
+		<default>Sabe o que vamos ter que fazer...</default>
+	</talk>
+	<talk character="Renata">
+		<default>Não vou deixar que matem ele!</default>
+	</talk>
+	<talk character="Kat">
+		<default>Renata, ele é mau agora!</default>
+	</talk>
+	<talk character="Renata">
+		<screamed>Dane-se!</screamed>
+	</talk>
+	<talk character="Derik">
+		<default>Deus, é pior do que eu pensava...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não pode nos impedir!</default>
+	</talk>
+	<talk character="Renata">
+		<default>Não é culpa dele, não vou deixar que pague por isso!</default>
+	</talk>
+	<teller>
+		<default>Renata sai e Derik vai atrás.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Que vai fazer?</default>
+	</talk>
+	<talk character="Renata">
+		<default>Vou encontrá-lo!</default>
+	</talk>
+	<teller>
+		<default>Kat, Mel e Estela chegam. Renata pula do penhasco e cai na água.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Ela é louca???</default>
+	</talk>
+	<talk character="Derik">
+		<default>Pode ser, mas calculou direitinho e ainda tá viva.</default>
+	</talk>
+	<talk character="Mel">
+		<default>É melhor acharmos antes que seja tarde.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Que acham que ele vai fazer?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Não quer voltar a ser bom...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Se ela viver eternamente, ele tá livre.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Pra sempre.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Acham que ele vai transformá-la?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Eu pelo menos tenho certeza.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Se passava à noite?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Sim...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Então ainda temos algum tempo.</default>
+	</talk>
+	<teller>
+		<default>Noutro lugar, Zenon (o que já estava aqui) está conversando com Clítia.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Não acredito que ele caiu!</default>
+	</talk>
+	<talk character="Clítia">
+		<default>Logo logo eu trago ele pro nosso lado.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Não sei pra que você quer ele.</default>
+	</talk>
+	<talk character="Clítia">
+		<default>Também não sei porque foi atrás de Astride.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Querendo alguma coisa diferente?</default>
+	</talk>
+	<talk character="Clítia">
+		<default>É. Ele é bom de cama.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Não precisa ficar repetindo. Já sei, você tá com inveja da Virgine e tá querendo um capacho pra você também!</default>
+	</talk>
+	<talk character="Clítia">
+		<default>Talvez.</default>
+	</talk>
+	<teller>
+		<default>22:00.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Ora, ora, ora, se não é o sr. bonzinho... Desistiu do perdão?</default>
+	</talk>
+	<teller>
+		<default>Zenon solta uma garota e dá um sorriso de malícia.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>E o que te fez voltar?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Sei tanto quanto sei sobre a primeira mudança.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Parece que Soraia e Clítia estavam certas. Há um bar aqui perto, se ainda estiver com sede.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Quem sabe eu acho a garota que Melody salvou agora pouco. E minha sede nunca acaba.</default>
+	</talk>
+	<teller>
+		<default>Kat e Derik estão no bar. Eles vêem Zenon.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Zenon...</default>
+		<teller>Derik fala, mas vê Edmont</teller>
+		<default>Parece que ele já não tá mais com tanta raiva do "olhos de prata"...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Que vamos fazer?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Se Renata o encontrar aqui, podemos impedir que o pior aconteça...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Mas e se ela não encontrar ele aqui? Droga...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Que?</default>
+	</talk>
+	<teller>
+		<default>Derik se vira e vê que duas garotas sentaram à mesa junto a Zenon e Edmont.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Não olha, vai perceber que estamos aqui.</default>
+		<teller>ele se desvira rapidamente</teller>
+		<default>Tarde demais, ele já percebeu...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Que faremos?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Bom, o único jeito é ficarmos aqui e esperarmos que Renata apareça...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Realmente, se sairmos eles nos pegam.</default>
+	</talk>
 </story>
