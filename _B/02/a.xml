@@ -1,64 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="02" scene="a">
 	<teller>
-		<default>18/01 (sábado). Angely chega à sala. Encontra Kat e Mel conversando.</default>
+		<default>18/01/2003. Angely chega a sala, de roupa preta. Kat e Mel estão no sofá.</default>
 	</teller>
 	<talk character="Kat">
 		<default>E aí, quando as aulas começam?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Março. Mel, só tem vaga pra professor de matemática.</default>
+		<default>Março. Mel, só tem vaga pra dar aula de matemática.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então vou ter que arranjar outro serviço. Por que a roupa preta?</default>
+		<default>Então vou ter que arranjar outro serviço.</default>
 	</talk>
-	<talk character="Ang">
-		<default>Luto.</default>
-	</talk>
+	<teller>
+		<default>Mel olha para Angely. Angely baixa a cabeça.</default>
+	</teller>
 	<talk character="Kat">
-		<default>Quem morreu???</default>
-	</talk>
-	<talk character="Ang">
-		<default>Handhara.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Achei que isso tivesse parado...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Mas não parou.</default>
+		<default>Talvez não devêssemos fazer luto.</default>
 	</talk>
 	<talk character="Derik">
-		<arrive>Não tinham visto que ele só comprou roupas pretas?</arrive>
+		<arrive>Não tinham visto que só comprou roupas pretas?</arrive>
 	</talk>
 	<talk character="Kat">
-		<default>Isso pode acabar fazendo mal a você.</default>
+		<default>Isso pode acabar te fazendo mal.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não sei se vai ter um momento em nossas vidas que as pessoas vão parar de morrer ao nosso redor.</default>
+	</talk>
+	<teller>
+		<default>Kat olha para Mel.</default>
+	</teller>
+	<talk character="Ang">
+		<default>A gente tem que se preocupar em arrumar esse lugar.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Espero que o ouro seja verdadeiro.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Podem ficar sossegados. Agora temos que nos preocupar em arrumar esse lugar.</default>
+		<default>Não estavam usando antes já?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, temos que verificar se aquele é verdadeiro.</default>
+		<default>Nem tanto. A maior parte do tempo Zenon e Beatrice traziam a comida. Só impus a Beatrice que não matasse ninguém.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Demos um quarto dele à Alan.</default>
+		<default>Demos um quarto a Alan.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Falamos pra ele pra falar com os tais donos e ver se era verdadeiro.</default>
+		<default>Pedimos pra verificar.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Espero que seja.</default>
 	</talk>
 	<teller>
-		<default>Toca o telefone.</default>
+		<default>Toca o celular de Mel. Mel atende.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ah, oi Alan... ### A Estela tá bem, sim. ### Que? ### Voltando pra casa? ### Então a casa já é nossa... ### Sim, Melody Lorrage e Angely Kallend.</default>
+		<default>Oi. ### Estela tá bem. ### Que? ### Voltando pra casa? ### Então o casarão já é nosso... ### Sim, Melody Lorrage e Angely Kallend.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Mel, eu preciso de um identidade também! Derik Kgalir!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Alan, eu tava esquecendo do namorado da minha irmã. ### Já tinha falado? ### Isso mesmo. ### Tá, eu sei, na frente dos outros vou ter que chamá-la de filha. ### Não vou esquecer. ### Sim, vamos cuidar bem da sua prima. ### Tchau.</default>
+		<default>Alan, eu tava esquecendo de Derik... ### Já tinha falado? ### Isso mesmo. ### Tá, eu sei, esqueceu que eu já tive que ter identidade feita antes? ### Não vou esquecer. ### Sim, vamos cuidar bem de Estela. ### Tchau.</default>
 	</talk>
 	<teller>
 		<default>Mel desliga.</default>
@@ -67,13 +70,16 @@
 		<default>Pelo menos agora sabemos que é verdadeiro.</default>
 	</talk>
 	<talk character="Ang">
-		<default>A partir de agora tenho um nome a menos na minha assinatura.</default>
+		<default>Um nome a menos na assinatura.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Vamos precisar reformar tudo isso aqui.</default>
 	</talk>
+	<teller>
+		<default>Inês entra na sala, esfregando o olho.</default>
+	</teller>
 	<talk character="Inês">
-		<arrive>É mais fácil derrubar.</arrive>
+		<special>É mais fácil derrubar.</special>
 	</talk>
 	<talk character="Mel">
 		<default>Estava dormindo?</default>
@@ -82,16 +88,16 @@
 		<mute>Sim.</mute>
 	</talk>
 	<talk character="Kat">
-		<arrive>Acho que vamos precisar de ajuda para a reforma.</arrive>
+		<default>Acho que vamos precisar de ajuda para a reforma.</default>
 	</talk>
 	<teller>
-		<default>Eles começam a reforma na casa. Contratam pessoas da ilha, alunos que quisessem dinheiro. 01/02 (sábado). De noite, Ang está sem sono e vai até o sótão. A porta está emperrada.</default>
+		<default>01/02/2002. Noite. Ang vai até o sótão. A porta está emperrada.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Devia ter chamado um chaveiro hoje, sabia que tinha esquecido algo...</default>
+		<default>Devia ter chamado um chaveiro hoje, sabia que tinha esquecido alguma coisa...</default>
 	</talk>
 	<teller>
-		<default>A porta se abre. Ele estranha. Entra. Encontra vários quadros cobertos. Descobre-os: uma garota, na maioria deles.</default>
+		<default>A porta se abre. Angely franze a sobrancelha. Entra. Vários quadros cobertos. Descobre alguns. Uma pessoa, na maioria deles.</default>
 	</teller>
 	<talk character="Leo">
 		<ghost>Ela parece um anjo...</ghost>
@@ -100,7 +106,7 @@
 		<default>Como entrou aqui?</default>
 	</talk>
 	<talk character="Leo">
-		<ghost>Me ouves?!</ghost>
+		<ghost>Me ouve?!</ghost>
 	</talk>
 	<talk character="Ang">
 		<default>E vejo também... Por que?</default>
@@ -121,90 +127,102 @@
 		<ghost>Não há outra.</ghost>
 	</talk>
 	<talk character="Ang">
-		<default>Então, desde quando está audio-visualmente inacessível?</default>
+		<default>Então, desde quando ninguém te vê ou ouve?</default>
 	</talk>
 	<talk character="Leo">
 		<ghost>Perdi a conta dos anos.</ghost>
 	</talk>
 	<talk character="Ang">
-		<default>Que te prende aqui?</default>
+		<default>O que te prende aqui?</default>
 	</talk>
 	<talk character="Leo">
 		<ghost>Não sei, talvez o fato de eu ter me suicidado.</ghost>
 	</talk>
+	<teller>
+		<default>Angely franze a sobrancelha.</default>
+	</teller>
 	<talk character="Ang">
 		<default>Por que fez isso?</default>
 	</talk>
 	<talk character="Leo">
-		<ghost>Se eu explicar-te só um pedaço, não vais entender-me. Se for explicar-te minha vida toda, vais dormir.</ghost>
+		<ghost>Se eu te explicar só um pedaço, não vai me entender. Se for explicar minha vida toda, vai dormir.</ghost>
 	</talk>
 	<talk character="Ang">
 		<default>Prometo que não.</default>
 	</talk>
 	<teller>
-		<default>Angely se senta numa cadeira.</default>
+		<default>Angely se senta em uma cadeira.</default>
 	</teller>
 	<talk character="Leo">
 		<ghost>Desde pequeno eu me dava muito bem com minha prima. Meu pai não entendia isso... Geralmente não há muito acordo, já que éramos quase irmãos. Um dia, quando eu já tinha uns dezoito anos, meu pai me disse que ia fazer algo que já devia ter feito há anos... Fiquei com medo.</ghost>
 	</talk>
 	<teller>
-		<default>Ele se recorda de ter ido a pé a um lugar estranho. Todos bebiam e havia mulheres com roupas que ele não houvera visto antes.</default>
+		<division>Passado</division>
+	</teller>
+	<teller>
+		<default>Leo caminha com Manuel. Entram em uma casa. Homens bebendo e mulheres com pouca ou nenhuma roupa.</default>
 	</teller>
 	<talk character="Leo">
-		<default>Pai, tu não disseste à minha prima que isso é pecado?</default>
+		<default>Pai, não disse pra minha prima que isso é pecado?</default>
 	</talk>
-	<talk character="pai">
+	<talk character="Manuel">
 		<default>Essas mulheres são, como vou dizer...? Próprias para isso.</default>
 	</talk>
 	<teller>
-		<default>Ele não entende. O pai dele fala com uma mulher. Ele vê um conhecido e vai falar com este.</default>
+		<default>Manuel vai até Dolores. Leo olha para Flávio. Vai até Flávio.</default>
 	</teller>
 	<talk character="Leo">
 		<default>Pra que serve esse lugar?</default>
 	</talk>
 	<teller>
-		<default>Tanto o homem quanto as mulheres que estão com ele riem. A mulher com quem seu pai havia falado se aproximava e ouve.</default>
+		<default>Flávio ri. Jéssica pega a mão de Leo.</default>
 	</teller>
-	<talk character="p">
+	<talk character="Jéssica">
 		<default>Vem que eu te mostro.</default>
 	</talk>
 	<teller>
-		<default>Eles sobem para um quarto. Ela o leva pela mão, enquanto ele olha para o pai, sem compreender o que se passava. Chegam ao quarto. Ela tentar tirar a blusa do rapaz, mas ele se afasta.</default>
+		<default>Jéssica leva Leo pela mão. Leo olha para Manuel. Sobem para um quarto. Jéssica fecha a porta. Se aproxima de Leo e pega nos botões da camisa. Leo se afasta.</default>
 	</teller>
 	<talk character="Leo">
-		<default>Que estás a fazer?!</default>
+		<default>Que que você tá fazendo?!</default>
 	</talk>
-	<talk character="p">
+	<talk character="Jéssica">
 		<default>Com a roupa não tem como fazer...</default>
 	</talk>
 	<talk character="Leo">
 		<default>Meu pai não deixa minha prima nem chegar perto de homens...</default>
 	</talk>
-	<talk character="p">
+	<talk character="Jéssica">
 		<default>Querido, ela é uma moça de família.</default>
 	</talk>
 	<talk character="Leo">
-		<default>E tu nasceste do que?!</default>
+		<default>E você nasceu do que?!</default>
 	</talk>
-	<talk character="p">
-		<default>Odeio quando os pais não falam com os filhos antes de sair de casa... Vou explicar-te.</default>
+	<talk character="Jéssica">
+		<default>Odeio quando os pais não falam com os filhos antes de sair de casa...</default>
 	</talk>
 	<teller>
-		<default>Ela explica o que faz, sobre como os homens agem e como elas são tratadas pela sociedade fora dali.</default>
+		<default>Jéssica se senta na cama. Olha para Leo. Aponta a cama com os olhos.</default>
 	</teller>
-	<talk character="p">
+	<talk character="Jéssica">
+		<default>Não vou te forçar a nada. Já fizeram comigo, não acho legal.</default>
+	</talk>
+	<teller>
+		<default>Leo se senta.</default>
+	</teller>
+	<talk character="Jéssica">
 		<default>Por que esta revolta?</default>
 	</talk>
 	<talk character="Leo">
 		<default>Que raios faz-te aceitar isto?!</default>
 	</talk>
-	<talk character="p">
+	<talk character="Jéssica">
 		<default>Não sou só eu...</default>
 	</talk>
 	<talk character="Leo">
 		<default>Deveriam se rebelar!</default>
 	</talk>
-	<talk character="p">
+	<talk character="Jéssica">
 		<default>E do que viveríamos?</default>
 	</talk>
 	<teller>
