@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="10" scene="b">
 	<teller>
-		<default>Angely vai até a MEAK. Mel está conversando com Beatrice. Ele coloca o jornal sobre o balcão.</default>
+		<default>MEAK. Mel e Beatrice estão na sala. Angely entra e coloca um jornal sobre o balcão.</default>
 	</teller>
-	<talk character="Ang">
-		<default>Reconhecem?</default>
-	</talk>
 	<talk character="Mel">
-		<default>Mas é a garota do quadro!</default>
+		<default>É a pessoa do quadro...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ele não disse que ela tinha sido morta por um vampiro?</default>
+		<default>Leo não disse que um vampiro tinha matado?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Deve ter virado vampira, o corpo não ia se conservar tanto.</default>
+		<default>Deve ter se transformado, o corpo não ia se conservar tanto.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Tanto? Não sabemos quanto tempo ele tinha de morto.</default>
+		<default>Não sabemos quanto tempo Leo tinha de morte.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Só o tempo que ele nos perturbou já dava pra ter apodrecido.</default>
+		<default>Só o tempo que perturbou a gente já dava pra ter apodrecido.</default>
 	</talk>
+	<teller>
+		<default>Beatrice pega o jornal.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Cadê as marcas de mordida?</default>
 	</talk>
@@ -28,13 +28,13 @@
 		<default>Provavelmente no ângulo que a foto não pegou.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Um fotógrafo omitiria algo assim? Não. Alguém na polícia impediu pra não gerar lendas, ou alguém estava interessado em impedir?</default>
+		<default>Um fotógrafo não omitiria iss. Alguém na polícia impediu pra não gerar lendas, ou alguém estava interessado em impedir?</default>
 	</talk>
 	<teller>
-		<default>12:00. Íris e Henrique entram no necrotério da polícia.</default>
+		<first>Sol a pino. Íris e Henrique entram no necrotério.</first>
 	</teller>
 	<talk character="Íris">
-		<default>Malditos policiais, chegaram antes de nós... Se você tivesse sido mais rápido, teríamos pegado ela antes!</default>
+		<default>Malditos policiais, chegaram antes... Se você tivesse sido mais rápido, a gente tinha pego ela antes!</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Tem mesmo uma vampira aqui, dá pra sentir.</default>
@@ -49,7 +49,7 @@
 		<default>Que bom pra você, não teve que fazer nada.</default>
 	</talk>
 	<talk character="Henrique">
-		<default>A culpa não é minha se só tem hetero aqui...</default>
+		<default>A culpa não é minha se só tem HT aqui...</default>
 	</talk>
 	<talk character="Íris">
 		<default>Tem policial mulher no departamento.</default>
@@ -76,7 +76,7 @@
 		<default>Pra substituir a Beatrice?</default>
 	</talk>
 	<talk character="Íris">
-		<irony>Meu Deus, tem vida inteligente entre os homens!</irony>
+		<irony>Meu Deus, você tem um cérebro!</irony>
 	</talk>
 	<talk character="Henrique">
 		<default>Ele não tinha proibido a gente de falar em Deus?</default>
@@ -85,19 +85,31 @@
 		<default>Faça um favor ao mundo. Fica quieto.</default>
 	</talk>
 	<teller>
-		<default>Procuram o corpo. Acham-na.</default>
+		<default>Íris vai até uma gaveta. Abre. Tira o pano. Henrique vai abrir gavetas do outro lado. Íris abre três gavetas. Na quarta, tira o pano e para.</default>
+	</teller>
+	<talk character="Íris">
+		<default>Aqui.</default>
+	</talk>
+	<teller>
+		<default>Henrique se aproxima.</default>
 	</teller>
 	<talk character="Henrique">
 		<default>Falei que era melhor ter trazido uma roupa!</default>
 	</talk>
 	<talk character="Íris">
-		<default>Temos que enterrá-la, para ela acordar.</default>
+		<default>Não acho que precise mesmo...</default>
+	</talk>
+	<talk character="Henrique">
+		<default>Desiste, reconheço HT de longe.</default>
+	</talk>
+	<talk character="Íris">
+		<default>Temos que enterrar, para ela acordar.</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Então não era mais fácil ter esperado no cemitério?</default>
 	</talk>
 	<teller>
-		<default>Íris encara Henrique.</default>
+		<default>Íris puxa o pano, cobrindo Pandora, e encara Henrique.</default>
 	</teller>
 	<talk character="Henrique">
 		<default>Que é?</default>
@@ -106,10 +118,10 @@
 		<default>Se tivesse tido essa idéia antes, eu não tinha que ter feito o que fiz!</default>
 	</talk>
 	<talk character="Henrique">
-		<default>Somos vampiros, entrávamos escondidos e matávamos quem nos visse.</default>
+		<default>Somos vampiros, a gente entrava escondido e matava quem visse a gente.</default>
 	</talk>
 	<talk character="Íris">
-		<default>Ok, agora que está brilhante, nos dê uma idéia que sirva para agora, não algo que deveríamos ter feito!</default>
+		<default>Ok, agora que tá brilhante, nos dê uma idéia que sirva para agora, não algo que deveríamos ter feito!</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Podemos matar alguém, tirar a roupa, vestir ela e sair pela porta da frente.</default>
@@ -133,7 +145,7 @@
 		<default>Quê???</default>
 	</talk>
 	<teller>
-		<default>Dali a pouco, Ricardo entra no necrotério e encontra Henrique sem roupa.</default>
+		<first>Ricardo entra no necrotério. Dá um passo para trás. Henrique está sem roupa.</first>
 	</teller>
 	<talk character="Rick">
 		<default>Mas o que é isso???</default>
@@ -142,7 +154,7 @@
 		<default>Olha, ouve um engano, eu não sei o que eu tava fazendo na gaveta, mas eu juro que não tô morto!</default>
 	</talk>
 	<talk character="Rick">
-		<default>Não lembro de te ver entrar aqui.</default>
+		<default>Não lembro de te ver entrar aqui...</default>
 	</talk>
 	<talk character="Henrique">
 		<irony>É uma grande coincidência, eu também não lembro de ter entrado!</irony>
@@ -158,14 +170,18 @@
 	</talk>
 	<talk character="Henrique">
 		<default>É, o que tá aqui...</default>
-		<teller>Ricardo estranha</teller>
+	</talk>
+	<teller>
+		<default>Ricardo franze a testa.</default>
+	</teller>
+	<talk character="Henrique">
 		<default>Minha namorada iria adorar!</default>
 	</talk>
 	<talk character="Rick">
 		<default>Ah, claro. Pensei que... Esquece.</default>
 	</talk>
 	<teller>
-		<default>Angely está andando pela cidade. Edmont está em seu apartamento.</default>
+		<first>Angely está andando pela cidade. Edmont está em seu apartamento.</first>
 	</teller>
 	<talk character="Ang">
 		<thought>Não vai me ajudar?</thought>
@@ -174,16 +190,16 @@
 		<thought>Não.</thought>
 	</talk>
 	<talk character="Ang">
-		<thought>Temos que achá-la.</thought>
+		<thought>Temos que achar Pandora.</thought>
 	</talk>
 	<talk character="Edmont">
-		<thought>Sabe o que farei se encontrá-la.</thought>
+		<thought>Sabe o que vou fazer se encontrar.</thought>
 	</talk>
 	<talk character="Ang">
 		<thought>Vai me fazer mergulhar de novo?</thought>
 	</talk>
 	<talk character="Edmont">
-		<thought>Farei isso quantas vezes eu puder. Sabe que adoro te atazanar, mas não é por isso. Você sabe, não fui alterado e um atlante normal não nega fogo.</thought>
+		<thought>Farei isso quantas vezes eu puder. Sabe que adoro te atazanar, mas não é por isso. Eu não resisto, não sou um anjo.</thought>
 	</talk>
 	<talk character="Ang">
 		<thought>Lá vem você...</thought>
@@ -192,7 +208,7 @@
 		<thought>Ah, desculpa, esqueci que você não gosta de ser superior.</thought>
 	</talk>
 	<talk character="Ang">
-		<thought>Se eu não soubesse que você achava que Beatrice ia te matar, pensaria que virou vampiro por causa da sua cobiça.</thought>
+		<thought>Se eu não soubesse que você achava que Beatrice ia te matar, pensaria que se transformou por causa da sua cobiça.</thought>
 	</talk>
 	<talk character="Edmont">
 		<thought>Esqueceu? Não pensa mais nada a meu respeito, simplesmente sabe!</thought>
@@ -201,7 +217,7 @@
 		<thought>Não precisa ficar me lembrando.</thought>
 	</talk>
 	<teller>
-		<default>Mel chega à delegacia. Ricardo olha para ela.</default>
+		<first>Delegacia. Mel entra. Ricardo vem em sua direção.</first>
 	</teller>
 	<talk character="Rick">
 		<default>Não devia estar dirigindo a escola?</default>
@@ -225,7 +241,7 @@
 		<default>Eu tava bêbado!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Meu amigo não costuma ser escandaloso, sabe, daquele tipo que gosta de usar coisas cor-de-rosa. A menos que se trate de dinheiro.</default>
+		<default>Dá pra ver isso no vídeo.</default>
 	</talk>
 	<talk character="Rick">
 		<default>Por que veio atrás de mim? Podia ter saído com alguém aqui.</default>
@@ -243,22 +259,25 @@
 		<default>Veio reconhecer o corpo? Alguma identidade da garota?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não. Pra isso tenho amigos.</default>
+		<default>Não. Pra isso tenho amizades.</default>
 	</talk>
 	<teller>
-		<default>Eles vão até o necrotério. Ricardo começa a procurar o corpo. Nada. Sai. Volta.</default>
+		<default>Ricardo revira os olhos e sai. Mel segue. Entram no necrotério. Ricardo abre uma gaveta. Sorri.</default>
 	</teller>
 	<talk character="Rick">
 		<default>Acho que foi roubado.</default>
 	</talk>
 	<talk character="Mel">
-		<default>E você fala isso com essa cara de felicidade???</default>
+		<default>E você fala isso com essa cara de felicidade?!</default>
 	</talk>
 	<talk character="Rick">
-		<default>Vou tomar uma bronca e vou ter que caçar quem fez isso, mas ao menos você não teve o que queria e não pode descontar em mim!</default>
+		<default>Vou tomar uma bronca e vou ter que caçar quem fez isso, mas ao menos você não teve o que queria e não pode descontar em mim.</default>
 	</talk>
 	<teller>
-		<default>Melody sai. Chegando em casa, encontra Beatrice.</default>
+		<default>Melody revira os olhos. Sai.</default>
+	</teller>
+	<teller>
+		<first>MEAK. Mel entra.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Bom, acho que pode começar a procurar nas suas fontes.</default>
@@ -267,39 +286,43 @@
 		<default>Angely ainda não deu notícia.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não acho que ela vá estar em algum lugar que o Ang não tenha problemas em entrar.</default>
+		<default>Não acho que vá estar em algum lugar que Ang não tenha problemas em entrar.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Cemitério.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Quê?</default>
+		<default>Ah?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ang pode entrar em cemitérios, e ela tem que ser enterrada para acordar, até onde sei.</default>
+		<default>Ang pode entrar em cemitérios, e tem que passar pelo enterro para acordar, até onde sei.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Mas, seja lá quem for, não vai fazer isso. Óbvio demais.</default>
 	</talk>
 	<teller>
-		<default>Beatrice pega o telefone. Digita o número. Ninguém atende.</default>
+		<default>Beatrice pega o telefone. Digita o número. Espera.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Nessas ilhas, há cinco lugares para se enterrar alguém: o cemitério, que seria muito óbvio; essa parte da Ilha em que fica a MEAK, que nós veríamos; o teatro, que é muito público; a igreja, onde eles jamais se atreveriam, e a área de preservação...</default>
+		<default>Tem cinco lugares aqui para se enterrar alguém: cemitério, que seria muito óbvio; essa parte da Ilha em que fica a MEAK, que nós veríamos; o teatro, que é muito público; a igreja, onde eles jamais se atreveriam; e a área de preservação.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Grande e sem vigilância.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Exatamente.</default>
-		<teller>coloca o telefone de volta</teller>
-		<default>E teremos que ir nós mesmas.</default>
+		<default>Exato.</default>
 	</talk>
 	<teller>
-		<default>22:00. Henrique e Íris estão sentados na floresta.</default>
+		<default>Beatrice coloca o telefone de volta no gancho.</default>
+	</teller>
+	<talk character="Bea">
+		<default>A gente vai ter que ir pessoalmente.</default>
+	</talk>
+	<teller>
+		<first>Noite. Floresta de Ares. Henrique e Íris sentaram no chão.</first>
 	</teller>
 	<talk character="Henrique">
 		<default>Que merda, não lembro de ter demorado tanto pra acordar!</default>
@@ -308,7 +331,7 @@
 		<default>Só o que falta, descobrirmos que ela não deteriorou porque é santa, e não porque virou vampira!</default>
 	</talk>
 	<talk character="Henrique">
-		<default>Se amanhecer, vou deixá-la aqui!</default>
+		<default>Se amanhecer, vou deixar ela aqui!</default>
 	</talk>
 	<talk character="Íris">
 		<default>Quando amanhecer, não poderemos mesmo sair daqui, já que não trouxemos nada para nos cobrir, pensando no quão fechada é a floresta.</default>
@@ -317,7 +340,7 @@
 		<default>Culpa sua!</default>
 	</talk>
 	<talk character="Íris">
-		<default>Não te obriguei à vir sem nada, dei a idéia e você aceitou!</default>
+		<default>Não te obriguei a vir sem nada, dei a idéia e você aceitou!</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Era bem capaz de, se eu viesse com algo e você não, você me roubasse e me deixasse pra morrer.</default>
@@ -335,7 +358,13 @@
 		<default>Somos mortos.</default>
 	</talk>
 	<talk character="Íris">
-		<default>Isso... NÃO! Melhor nós esquecermos isso, que acha?</default>
+		<default>Isso... NÃO!</default>
+	</talk>
+	<teller>
+		<default>Íris levanta. Henrique levanta também e bate a roupa.</default>
+	</teller>
+	<talk character="Íris">
+		<default>Melhor nós esquecermos isso, que acha?</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Claro.</default>
@@ -353,7 +382,7 @@
 		<arrive>Oi.</arrive>
 	</talk>
 	<teller>
-		<default>Os dois se assustam.</default>
+		<default>Íris e Henrique se viram e dão passos para trás.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Não têm mesmo instinto, nem sentiram eu me aproximar. Podia ser um bicho selvagem.</default>
@@ -362,7 +391,7 @@
 		<default>Aí eu ia ter o que comer...</default>
 	</talk>
 	<talk character="Bea">
-		<default>E aí, o que estão fazendo?</default>
+		<default>E aí, o que tão fazendo?</default>
 	</talk>
 	<talk character="Íris">
 		<default>Estávamos esperando você. Edmont mandou te levarmos de volta.</default>
@@ -371,17 +400,26 @@
 		<irony>Ah, meu Deus! Quem vai me salvar???</irony>
 	</talk>
 	<talk character="Henrique">
-		<default>É pra ficar com medo mesmo, nós vamos te levar para...</default>
+		<default>É pra ficar com medo mesmo!</default>
 	</talk>
+	<teller>
+		<default>Íris olha para Henrique.</default>
+	</teller>
 	<talk character="Íris">
 		<default>Ela tá tirando uma com a gente, idiota!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Mel, pode atirar, eles não sabem de nada.</default>
+		<default>Mel, pode atirar, não sabem de nada.</default>
 	</talk>
+	<teller>
+		<default>Henrique olha ao redor.</default>
+	</teller>
 	<talk character="Henrique">
-		<default>Sabemos de muita coisa! O que querem saber???</default>
+		<default>Sabemos de muita coisa!!! O que querem saber???</default>
 	</talk>
+	<teller>
+		<default>Íris suspira.</default>
+	</teller>
 	<talk character="Íris">
 		<default>Ela não está aqui, Beatrice está nos...</default>
 	</talk>
@@ -395,8 +433,11 @@
 		<default>Cavem.</default>
 	</talk>
 	<talk character="Henrique">
-		<default>Que vai fazer, enterrar nossas cinzas?</default>
+		<default>Que vai fazer?! Enterrar nossas cinzas?</default>
 	</talk>
+	<teller>
+		<default>Beatrice revira os olhos.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Não são covas pra vocês.</default>
 	</talk>
@@ -407,7 +448,7 @@
 		<default>Não, acho que elas vão enterrar resto de algum...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Parem de blefar. Pra que mais viriam à floresta?</default>
+		<default>Parem de blefar. Pra que mais viriam a floresta?</default>
 	</talk>
 	<talk character="Íris">
 		<default>Viemos enterrar corpos de vítimas nossas.</default>
