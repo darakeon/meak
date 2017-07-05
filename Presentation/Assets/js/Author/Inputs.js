@@ -45,8 +45,10 @@ function SaveKey() {
             Pressed(e.which, true);
 
             if (canSubmit) {
-                if (pressedCtrl && e.which == 89)
+                if (pressedCtrl && e.which == 89) {
                     $("form:visible").submit();
+                    pressedCtrl = false;
+                }
             }
             else {
                 alert('WAIT!');
