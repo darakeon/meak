@@ -69,6 +69,12 @@ namespace Structure.Data
             if (xml["scene"] != Scene.ID)
                 throw new Exception(String.Format("Scene [{0}] and file name [{1}] doesn't match.", xml["scene"], Scene.ID));
 
+            if (xml["episode"] != Scene.Episode.ID)
+                throw new Exception(String.Format("Episode [{0}] and file path [{1}] doesn't match.", xml["episode"], Scene.Episode.ID));
+
+            if (xml["season"] != Scene.Episode.Season.ID)
+                throw new Exception(String.Format("Season [{0}] and file path [{1}] doesn't match.", xml["season"], Scene.Episode.Season.ID));
+
             if (!String.IsNullOrEmpty(xml.Value))
                 throw new Exception("Story pieces out of tags: " + xml.Value);
 
