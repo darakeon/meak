@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="11" scene="f">
 	<teller>
-		<default>Os outros três chegam em casa. Zenon vai ao banheiro. Ouve-se a descarga. Ele volta.</default>
+		<default>MEAK. Zenon, Mel e Fábio chegam. Zenon vai ao banheiro. Descarga. Zenon volta.</default>
 	</teller>
 	<talk character="Fábio">
 		<default>Jogou suas cinzas no esgoto?</default>
@@ -16,7 +16,7 @@
 		<default>Não acho.</default>
 	</talk>
 	<teller>
-		<default>Zenon sobe. Entra em seu quarto. Beatrice o beija. O joga na cama.</default>
+		<default>Zenon sobe. Entra em seu quarto. Beatrice puxa e beija. Joga Zenon na cama.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Peraí...</default>
@@ -25,13 +25,16 @@
 		<default>Peraí o escambal, me deixou esperando!</default>
 	</talk>
 	<teller>
-		<default>Ela sobe em cima dele e o beija. 7:00 (07/06 – sábado). Zenon olha para Beatrice, que está deitada.</default>
+		<default>Beatrice sobe em cima de Zenon e continua beijando.</default>
+	</teller>
+	<teller>
+		<first>Manhã. Zenon acorda. Olha para Beatrice ao seu lado. Beatrice acorda.</first>
 	</teller>
 	<talk character="Bea">
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ninguém te contou. Não tiveram tempo, não é?</default>
+		<default>Ninguém te contou. Acho que não tiveram tempo.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Do que tá falando?</default>
@@ -43,17 +46,20 @@
 		<default>Tá dizendo que não aconteceu ontem???</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ontem sim. Mas não fui eu quem te... abordou na cidade.</default>
+		<default>Ontem sim. Mas não fui eu quem te... abordou... na cidade.</default>
 	</talk>
+	<teller>
+		<default>Beatrice se senta na cama.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Droga. Eu sabia que tava bom demais pra...</default>
-		<screamed>Trepou comigo ontem assim?</screamed>
+		<default>Droga. Eu sabia que tava bom demais pra... Pera...</default>
+		<screamed>Trepou comigo ontem mesmo assim?</screamed>
 	</talk>
 	<talk character="Zenon">
 		<default>Sssshhh! Olha as palavras!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Por que fez aquilo ontem?</default>
+		<default>Por que fez aquilo ontem?!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Você me atacou!</default>
@@ -62,23 +68,35 @@
 		<default>Ah, claro, só iria pra cama comigo se eu te atacasse! Beleza, agora nem mais comestível eu sou!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não é isso! Eu só não queria começar as coisas mentindo.</default>
+		<default>Não é isso! Eu só não queria começar as coisas mentindo...</default>
 	</talk>
 	<talk character="Bea">
 		<default>Começar o que?!</default>
 	</talk>
+	<teller>
+		<default>Zenon se senta.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Tá, agora quem tá se sentindo rejeitado sou eu.</default>
+		<default>Tá, agora quem tá se sentindo rejeitado sou eu...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Você nem sabe o que ele me disse.</default>
+		<default>Você nem sabe o que ele me disse!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Na verdade, sei. Desde que ele morreu. Eu disse "podia ter sido eu", Mel disse que não, mas era eu. Era eu antes. E, de repente, tudo que fiz ficou tão mais...</default>
+		<default>Na verdade, sei.</default>
+	</talk>
+	<teller>
+		<default>Zenon baixa a cabeça.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Desde que ele morreu. Eu disse "podia ter sido eu", Mel disse que não, mas era eu. Era eu antes. E, de repente, tudo que fiz ficou tão mais... Mais...</default>
 	</talk>
 	<talk character="Bea">
 		<default>Recente.</default>
 	</talk>
+	<teller>
+		<default>Zenon olha para Beatrice.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Recente.</default>
 	</talk>
@@ -89,7 +107,7 @@
 		<default>"Lembrar é reviver".</default>
 	</talk>
 	<teller>
-		<default>Bea vai até Zenon e o beija. Ele a abraça pela cintura.</default>
+		<default>Zenon levanta e vai até a janela. Beatrice levanta, vai até Zenon, e abraça pelas costas.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Você continua bom de cama, se ainda quiser saber.</default>
@@ -101,13 +119,13 @@
 		<default>Quer testar de novo?</default>
 	</talk>
 	<teller>
-		<default>Mel acorda. Fábio está dormindo do seu lado.</default>
+		<first>Mel abre os olhos. Fábio está dormindo do seu lado. Mel toca o rosto de Fábio. Fábio abre os olhos.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Assim seu pai vai viver se animando à toa.</default>
 	</talk>
 	<teller>
-		<default>Fábio acorda e levanta.</default>
+		<default>Fábio levanta.</default>
 	</teller>
 	<talk character="Fábio">
 		<default>Do que estávamos falando quando dormimos?</default>
@@ -131,46 +149,40 @@
 		<default>Como assim? Nem fizemos nada...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, sexo é só uma necessidade do corpo, dormir junto é que simboliza o casamento pra nós. É a hora em que está mais vulnerável.</default>
+		<default>Bom, sexo é só uma necessidade do corpo, dormir junto é muito mais confiança. Casamento não era sobre sexo, era sobre confiança. É a hora em que está mais vulnerável.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Então vocês... ficam com outras pessoas?</default>
+		<default>Então vocês... ficam... com outras pessoas?</default>
 	</talk>
 	<talk character="Mel">
-		<default>É tudo muito diferente por lá.</default>
+		<default>É tudo muito diferente por lá. Nem casamento nem sexo são exclusividade.</default>
 	</talk>
-	<talk character="Fábio">
-		<default>Te incomoda eu ter...</default>
-	</talk>
+	<teller>
+		<default>Mel levanta.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Ah, não, claro que não.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Ang disse que você transa com pessoas que mal conhece.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas você eu conheço. Eu queria sair daqui.</default>
+		<default>Eu queria sair daqui.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Pra onde?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Queria treinar você.</default>
+		<default>Preciso reencontrar alguém que conheço. Queria treinar você.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Sou treinado.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não como um atlante. Eles não conhecem isso, não sabiam o que era.</default>
+		<default>Não como atlante. Não conhecem isso, não sabiam o que era.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Vai me ensinar sua língua?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se você quiser.</default>
+		<default>Nossa. Se você quiser.</default>
 	</talk>
 	<teller>
-		<default>10:00. Lúcio e Daniel chegam à casa de Janaína. Ela os encontra na sala.</default>
+		<first>Casa de Janaína. Janaína desce para a sala. Encontra Lúcio e Daniel.</first>
 	</teller>
 	<talk character="Janaína">
 		<default>Tá, o que vieram fazer aqui?</default>
@@ -212,7 +224,7 @@
 		<default>A mãe da garota virou vampira e veio atrás.</default>
 	</talk>
 	<talk character="Lúcio">
-		<default>Matei-a na frente da minha filha.</default>
+		<default>Matei ela na frente da minha filha.</default>
 	</talk>
 	<talk character="Daniel">
 		<default>Ela podia machucar a garota. Quando o Lúcio viu, tava abaixada na frente da menina. A única reação que conseguiu ter foi pegar a besta, apontar e...</default>
@@ -222,17 +234,21 @@
 	</talk>
 	<talk character="Janaína">
 		<default>Nem todo vampiro vira mal, Etos...</default>
-		<teller>baixa a cabeça, depois volta a olhar</teller>
+	</talk>
+	<teller>
+		<default>Janaína baixa a cabeça. Volta a olhar para Lúcio e Daniel.</default>
+	</teller>
+	<talk character="Janaína">
 		<default>Olha, eu lembraria se fosse. Lembro de várias coisas de antes.</default>
 	</talk>
 	<talk character="Nit">
 		<arrive>Jana, você sabe se a Beatrice tem...</arrive>
 	</talk>
 	<teller>
-		<default>Nit olha pra Lúcio.</default>
+		<default>Nit olha pra Lúcio. Daniel olha Trinity de cima a baixo.</default>
 	</teller>
 	<talk character="Daniel">
-		<default>Ih, Lúcio, acho que sua filha também tem uma opção diferente...</default>
+		<default>Lúcio, acho que sua filha também tem uma opção diferente...</default>
 	</talk>
 	<talk character="Nit">
 		<screamed>Que ele tá fazendo aqui???</screamed>
@@ -241,13 +257,13 @@
 		<default>Olha aqui, eu sou o...</default>
 	</talk>
 	<teller>
-		<default>Trinity tira uma arma (de fogo) da cintura e aponta pra Lúcio.</default>
+		<default>Trinity tira uma arma de fogo da cintura. Aponta pra Lúcio.</default>
 	</teller>
 	<talk character="Nit">
 		<default>Você vem comigo.</default>
 	</talk>
 	<teller>
-		<default>Daniel tenta desarmá-la, mas ela o joga no chão.</default>
+		<default>Daniel vai na direção de Trinity. Trinity volta o braço da arma, chuta a cara de Daniel e volta a apontar a arma para Lúcio.</default>
 	</teller>
 	<talk character="Lúcio">
 		<default>Daniel, eu preciso te lembrar sua idade?</default>
@@ -264,19 +280,26 @@
 	<talk character="Janaína">
 		<default>Qual o problema?!</default>
 	</talk>
+	<teller>
+		<default>Nit olha para Janaína.</default>
+	</teller>
 	<talk character="Nit">
-		<default>Não se mete!</default>
-		<teller>fala com Janaína, volta a olhar para Lúcio</teller>
+		<screamed>Não se mete!</screamed>
+	</talk>
+	<teller>
+		<default>Janaína olha para Lúcio.</default>
+	</teller>
+	<talk character="Nit">
 		<default>Vem.</default>
 	</talk>
 	<teller>
-		<default>Lúcio vai com Trinity. Mel e Fábio estão na sala. Alete chega com Inês no colo (com a transformação, Mel não reconhece).</default>
+		<first>MEAK. Mel e Fábio estão na sala. Alete entra com Inês no colo. Mel franze a sobrancelha.</first>
 	</teller>
 	<talk character="Alete">
 		<default>Oi. O pai dela tá aí?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não sei quem é o pai dela.</default>
+		<default>Não sei quem é, como vou saber...</default>
 	</talk>
 	<talk character="Alete">
 		<default>É a Inês. O Beleno me aprontou essa.</default>
@@ -285,10 +308,10 @@
 		<default>Ah?!</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Eu sei que não tenho coisa alguma com isso, mas quem é essa?</default>
+		<default>Eu sei que não tenho coisa alguma com isso, mas quem é?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Inês é filha do Angely, essa aí é a Alete, ela era namorada de um professor que morreu. O Beleno não sei se você conhece...</default>
+		<default>Inês é de Angely, a pessoa segurando é Alete, namorava com Xisto, que dava aula na escola, e morreu. Beleno não sei se você conhece...</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Isso tá ficando complicado.</default>
@@ -297,25 +320,25 @@
 		<default>Eu tô com o Beleno agora.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele também é filho do Ang.</default>
+		<default>Também é de Ang.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Angely me disse que é infértil.</default>
+		<default>Não sabia que Ang tinha filhos. Muito menos em idade de estar com alguém.</default>
 	</talk>
 	<talk character="Alete">
-		<default>Na verdade são filhos do Edmont, só não gostam de dizer.</default>
+		<default>Na verdade são de Edmont, só não gostam de dizer.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Edmont não é vampiro?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela é fênix, ele pégaso. Eu explico depois. Qual o problema, Alete?</default>
+		<default>Inês é fênix, Beleno é pégaso. Eu explico depois. Qual o problema, Alete?</default>
 	</talk>
 	<talk character="Alete">
 		<default>Ela cresceu mais do que devia.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não era pra crescer assim? Quatro vezes mais rápido que um humano?</default>
+		<default>Não era pra crescer assim? Quatro vezes mais rápido que seres humanos?</default>
 	</talk>
 	<talk character="Alete">
 		<default>Sabe quando ela nasceu?</default>
@@ -328,7 +351,7 @@
 		<screamed>Ela só tem 4 meses!</screamed>
 	</talk>
 	<talk character="Fábio">
-		<default>Deveria estar com cara de um ano.</default>
+		<default>Deveria estar com cara de pouco mais de um ano.</default>
 	</talk>
 	<talk character="Alete">
 		<default>E estava! Até Beleno fazer isso!</default>
@@ -346,7 +369,7 @@
 		<default>Serve você!</default>
 	</talk>
 	<teller>
-		<default>Alete leva Derik. Daniel e Janaína entram.</default>
+		<default>Alete pega Derik pela mão e sobe. Daniel e Janaína entram.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Que caras são essas?</default>
@@ -355,7 +378,7 @@
 		<default>Sabe a minha amiga que levou Beatrice na escola?</default>
 	</talk>
 	<teller>
-		<default>Em Ares, Trinity rouba um barco e vai para alto mar. Pega alguns galões de gasolina e junta-os na frente de Lúcio.</default>
+		<first>Mar. Barco. Cordas amarram Lúcio. Galões de gasolina na sua frente.</first>
 	</teller>
 	<talk character="Lúcio">
 		<default>Que vai fazer?</default>
@@ -379,10 +402,10 @@
 		<default>Pode não ser...</default>
 	</talk>
 	<talk character="Nit">
-		<default>Que decepção. Não tinha treinado tanto se soubesse que ia encontrar alguém fraco e sem reação, um velho, apesar da idade, implorando pela própria vida. Tinha te procurado com 12.</default>
+		<default>Que decepção. Não tinha treinado tanto se soubesse que ia encontrar alguém fraco e sem reação, um velho, apesar da idade, implorando pela própria vida. Tinha te procurado com doze.</default>
 	</talk>
 	<talk character="Lúcio">
-		<default>Não tô implorando pela minha vida. Tô tentado te irritar e somos treinados para conversar com o seqüestrador, para quando nos acharem, sabermos qual o problema. Poupa o tempo de arrancar as coisas dele. Tava me procurando porque? Matei seu namorado? A namorada? Os dois?</default>
+		<default>Tava me procurando porque? Matei seu namorado? A namorada? Os dois?</default>
 	</talk>
 	<talk character="Nit">
 		<default>Eu planejava te procurar daqui a dois anos.</default>
@@ -399,12 +422,18 @@
 	<talk character="Nit">
 		<default>Minha mãe era.</default>
 	</talk>
+	<teller>
+		<default>Lúcio engole seco.</default>
+	</teller>
 	<talk character="Lúcio">
-		<default>Co-como assim?!</default>
+		<default>Como assim?</default>
 	</talk>
 	<talk character="Nit">
 		<default>Perdeu a coragem agora?</default>
 	</talk>
+	<teller>
+		<default>Lúcio empalidece.</default>
+	</teller>
 	<talk character="Lúcio">
 		<default>Não pode ser...</default>
 	</talk>
@@ -415,16 +444,23 @@
 		<default>Eu sinto muito...</default>
 	</talk>
 	<talk character="Nit">
-		<default>Sente??? Você me disse que eu nunca mais veria minha mãe e, quando ela aparece, você manda pro inferno, e diz que sente muito??? Larga mão de ser falso! Eu pelo menos vou te mandar pro inferno sem o mínimo resquício de remorso e não vou ficar dizendo que "sinto muito".</default>
+		<screamed>Sente???</screamed>
+		<default>Você me disse que eu nunca mais veria minha mãe e, quando ela aparece, você manda pro inferno, e diz que sente muito??? Larga mão de ser falso! Eu pelo menos vou te mandar pro inferno sem o mínimo resquício de remorso e não vou ficar dizendo que "sinto muito"!</default>
 	</talk>
 	<teller>
-		<default>Fábio e Mel chegam no porto. Uma mulher está perto de um barco.</default>
+		<first>Porto. Fábio e Mel se aproximam de Fran.</first>
 	</teller>
 	<talk character="Fran">
 		<default>Vocês são da polícia?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Não exatamente. Meu nome é Fábio, o dela é Melody.</default>
+		<default>Não exatamente...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Temos uma agência, sou Melody.</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Fábio.</default>
 	</talk>
 	<talk character="Fran">
 		<default>Françoise.</default>
@@ -436,7 +472,7 @@
 		<default>Uma garota levou o Hermes.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Ela chegou a machucá-lo?</default>
+		<default>Chegou a machucar?</default>
 	</talk>
 	<talk character="Fran">
 		<default>Hermes é um barco. Meu marido, Sófocles, é o dono dele.</default>
@@ -448,15 +484,24 @@
 		<arrive>Ela tava levando um cara.</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Já fomos informados.</default>
+		<default>Já sabemos.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Podemos levar esse outro barco?</default>
 	</talk>
 	<talk character="Fran">
-		<default>Juram trazer os dois inteiros? Não temos como nos virar sem isso.</default>
+		<default>Juram trazer os dois inteiros? Não temos como nos virar sem isso!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vocês dois vão ter que vir conosco, não sabemos levar barco.</default>
+		<default>Vão ter que vir junto, não sei pilotar barco.</default>
 	</talk>
+	<teller>
+		<default>Sofócles olha para Fábio.</default>
+	</teller>
+	<talk character="Fábio">
+		<default>Nem sequer ando de bicicleta.</default>
+	</talk>
+	<teller>
+		<default>Sófocles e Fran se entreolham.</default>
+	</teller>
 </story>
