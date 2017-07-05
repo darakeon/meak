@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="18" scene="d">
 	<teller>
-		<default>Na casa de Mel e Angely, ela chega de madrugada.</default>
+		<default>Madrugada. MEAK. Mel entra. Zenon levanta do sofá.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Mel...</default>
@@ -10,7 +10,7 @@
 		<default>Se não se importa, preciso usar o telefone.</default>
 	</talk>
 	<teller>
-		<default>Ela pega o telefone e ele segura a mão dela. Ela fica com receio.</default>
+		<default>Mel pega o telefone. Zenon tira da tomada. Mel encara Zenon.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Eu preciso me explicar.</default>
@@ -22,90 +22,89 @@
 		<default>Não pude impedir que o irmão fosse morto.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mas ela está viva.</default>
+		<default>Mas Tereza tá viva.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ainda parece brava comigo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sem ressentimentos. Mas ainda preciso ligar, pra uma empresa de reformas.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Essa casa não me parece precisar de...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não, é pra casa que ganhei quando mandei Lokslay pro lugar dele.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Por que vai se mudar?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu e Angely precisamos de mais privacidade.</default>
-		<teller>digita o número</teller>
-		<default>Alô? ### Tem alguém me ouvindo? ### Tem alguém me ouvindo? ### Reponde, tem alguém me ouvindo???</default>
-		<teller>desliga</teller>
-		<default>Mudo.</default>
+		<default>Sem ressentimentos. Mas ainda preciso usar meu telefone. Se você não tiver quebrado puxando da tomada, claro.</default>
 	</talk>
 	<teller>
-		<default>Na casa de Tereza, Alex desliga o telefone. Há mais dois caça-vampiros na sala.</default>
+		<default>Zenon religa o telefone. Mel pega a disca.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Alô? ### Tem alguém me ouvindo? ### Tem alguém me ouvindo? ### Reponde, tem alguém me ouvindo???</default>
+	</talk>
+	<teller>
+		<default>Mel bufa. Desliga.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Que foi?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Tô com fome. E com preguiça.</default>
+	</talk>
+	<teller>
+		<default>Casa de Tereza. Alex desliga o telefone.</default>
 	</teller>
 	<talk character="Alex">
-		<default>Bom, vocês já sabem quem é Zenon...</default>
+		<default>Bom, vocês já sabem quem é o Zenon...</default>
 	</talk>
-	<talk character="cv1">
+	<talk character="José">
 		<default>Minha avó conheceu ele quando tinha vinte e cinco.</default>
 	</talk>
 	<talk character="Tereza">
-		<arrive>Não o matem, por favor.</arrive>
+		<arrive>Não mata ele, por favor.</arrive>
 	</talk>
 	<talk character="Alex">
 		<default>Que bom que acordou, não vai precisar de ninguém para... Que???</default>
 	</talk>
 	<talk character="Tereza">
-		<default>Matem-no e estarão matando-me.</default>
+		<default>Se matarem ele, vão estar me matando.</default>
 	</talk>
-	<talk character="cv2">
-		<default>Está falando do vampiro que matou seu irmão! Nutre algo por esse...</default>
+	<teller>
+		<default>Cláudia franze a testa.</default>
+	</teller>
+	<talk character="Cláudia">
+		<default>Tá falando do vampiro que matou seu irmão! Você tem alguma coisa com esse...</default>
 	</talk>
 	<talk character="Tereza">
 		<default>Fiz um feitiço. Pra isso tinha usado o livro.</default>
 	</talk>
-	<talk character="cv1">
-		<default>Do que ela está falando?</default>
+	<talk character="José">
+		<default>Do que ela tá falando?</default>
 	</talk>
 	<talk character="Alex">
 		<default>Ela pegou o dezenove sem que ninguém visse.</default>
 	</talk>
-	<talk character="cv1">
+	<talk character="José">
 		<default>Pensei que Zenon fosse mais velho...</default>
 	</talk>
-	<talk character="cv2">
+	<talk character="Cláudia">
 		<default>Estamos em 2023, mas estamos no século XXI.</default>
 	</talk>
-	<talk character="cv1">
+	<talk character="José">
 		<default>Ah...</default>
 	</talk>
 	<talk character="Alex">
-		<default>Vamos prendê-lo, desfazer o feitiço e matá-lo.</default>
+		<default>Vamos prender ele, desfazer o feitiço e matar depois.</default>
 	</talk>
-	<talk character="cv2">
+	<talk character="Cláudia">
 		<default>Não é bruxa.</default>
 	</talk>
 	<talk character="Tereza">
-		<default>Não, fiz apenas esse feitiço.</default>
+		<default>Não, fiz só esse feitiço.</default>
 	</talk>
-	<talk character="cv2">
-		<default>Só tem um feitiço desse gênero que uma humana comum pode fazer. Só não sei onde achá-lo.</default>
+	<talk character="Cláudia">
+		<default>Só tem um feitiço desse gênero que uma humana comum pode fazer. Só não sei onde achar.</default>
 	</talk>
 	<teller>
-		<default>Na casa de Mel...</default>
+		<default>MEAK.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Bom, eu tenho que...</default>
 	</talk>
-	<teller>
-		<default>Ele vai sair, mas ela lhe segura a mão.</default>
-	</teller>
 	<talk character="Mel">
 		<default>Não, não vai.</default>
 	</talk>
@@ -116,19 +115,19 @@
 		<default>Pode sair de noite.</default>
 	</talk>
 	<teller>
-		<default>Zenon estranha. Mel vai até ele e o beija. Ele a abraça pela cintura. Continuam se beijando. Então Alex e os outros dois caça-vampiros invadem a casa. Zenon, instintivamente, coloca Mel atrás dele. Ela sai. Ele olha pra ela. Angely está na casa de Kat. Ela acorda.</default>
+		<default>Alex, Cláudia e José entram, com bestas. Zenon olha para Mel. Casa de Kat. Kat acorda.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Não deixa!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sonhou o que?</default>
+		<default>O quê?!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Zenon.</default>
 	</talk>
 	<teller>
-		<default>Voltando...</default>
+		<default>MEAK.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Não seria capaz de...</default>
@@ -143,73 +142,73 @@
 		<default>Achou que ela não pensasse.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Estão esperando o que?</default>
+		<default>Achei que queriam morto. Se eu soubesse que iam enrolar, tinha feito o serviço.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>É, o que?</default>
+		<irony>É mesmo, o que estão esperando?!</irony>
 	</talk>
 	<talk character="Alex">
-		<default>Tereza fez um feitiço. Temos que tirar antes de matá-lo.</default>
+		<default>Tereza fez um feitiço. Temos que tirar antes de matar Zenon.</default>
 	</talk>
 	<teller>
-		<default>Está amanhecendo quando Angely chega.</default>
+		<first>Manhã. Angely chega.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Mel, eu preciso falar sobre Zenon...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não precisa me alertar, já prenderam ele.</default>
+		<default>Não precisa me alertar, já prenderam.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Que???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Por que o espanto? Atirei em Elian...</default>
+		<default>Por que se espanta? Atirei em Elian.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Errou.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Por que tenho má mira. Se fosse por minha vontade, teria sobrado a roupa e o pó dele ali. Por que com Zenon seria diferente?</default>
+		<default>Por que minha mira é uma merda. Se fosse por minha vontade, teria sobrado a roupa e o pó. Por que com Zenon seria diferente?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Que tal por que ele é não é mau?</default>
+		<default>Por que não é ruim.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Você e sua mania de achar que...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Pergunte à Kat então!</default>
+		<default>Pergunte a Kat.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela estava sonhando com ele desde o princípio. Anteontem ele foi a um bar. Voltei lá e um barman disse que ele tinha ido falar com um controlador de sonhos.</default>
+		<default>Tava sonhando desde o começo. Anteontem Zenon foi a um bar. Voltei lá e me disseram que tinha ido falar com alguém que controla sonhos.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Acha mesmo que ele estava...</default>
+		<default>Acha mesmo que estava...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Tenho certeza.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Pois acho mais acertado o contrário.</default>
+		<default>Zenon disse que tava sonhando com Tereza. Pode ser que...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Por que? Já sei, Edmont jurou pra você que...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Pára, Mel.</default>
+		<default>Para, Mel. Por favor.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que foi? Ah, esqueci que não consegue acreditar que seu irmão...</default>
+		<default>Que foi? Ah, esqueci que não consegue acreditar que Edmont...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não é disso que estou falando.</default>
+		<default>Não é disso que eu tô falando.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Do que mais poderia ser?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não está conseguindo convencer nem à si mesma que Zenon é mau.</default>
+		<default>Não tá conseguindo convencer nem a si que Zenon é ruim.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Se acha isso, não me conhece.</default>
@@ -218,10 +217,10 @@
 		<default>Então é pior. Não consegue parar de pensar nele, mesmo sabendo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vou esquecê-lo. Esqueci Elian.</default>
+		<default>Vou esquecer. Esqueci Elian.</default>
 	</talk>
 	<teller>
-		<default>Tarde. Doutro lado da cidade, Edmont está com Beatrice.</default>
+		<first>Tarde. Edmont está com Beatrice. Estão na cama.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Eu não falei que era fácil?</default>
@@ -230,7 +229,7 @@
 		<default>Como sabia que Tereza tinha matado Rust?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Eu vi. Daí foi só dizer isso àquele imbecil e esperar que Zenon fosse defender Tereza. Só que achei que Zenon chegaria primeiro e Igor o mataria.</default>
+		<default>Eu vi. Daí foi só dizer isso a Yuri e esperar que Zenon fosse defender Tereza. Só que achei que Zenon chegaria primeiro e Igor mataria.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Iniciantes.</default>
@@ -242,7 +241,7 @@
 		<default>Ainda bem que não aparento isso.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Bom, espero que Zenon não fuja, ou que volte ao que era. Não quero ele perto de Mel.</default>
+		<default>Bom, espero que Zenon não fuja, ou que volte ao que era. Não quero perto de Mel.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Preocupado com sua irmã?</default>
@@ -254,22 +253,22 @@
 		<default>Me quer tanto assim?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não preciso ganhar a aposta pra te ter. É apenas meu ego falando.</default>
+		<default>Não preciso ganhar a aposta pra te ter. É só meu ego falando.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>E o que ele tá dizendo?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Pra eu seduzir Mel e deixá-la se matar depois. Então vir atrás de você e prendê-la num quarto, pra só eu poder entrar.</default>
+		<default>Pra eu seduzir Mel e deixar se matar depois. Então vir atrás de você e prender num quarto, pra só eu poder entrar.</default>
 	</talk>
 	<teller>
-		<default>Beatrice fica muda.</default>
+		<default>Beatrice levanta e vai até a janela. Edmont ri.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Se mostra tão forte, me provoca e, no entanto, vira um copo de cristal quando eu respondo.</default>
+		<default>Se mostra tão forte, me provoca e vira um copo de cristal quando eu respondo.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Tem algo errado com você. Parece que falta algo.</default>
+		<default>Tem alguma coisa errada com você. Parece que falta algo.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>E o que poderia ser?</default>
@@ -278,51 +277,51 @@
 		<default>Não sei. Sinto o mesmo com Angely.</default>
 	</talk>
 	<teller>
-		<default>Ele a encosta na parede, com a mão na garganta dela.</default>
+		<default>Edmont joga Beatrice na cama, sobe em cima e segura os braços contra a cama.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Não repita mais isso. Nunca mais.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, Zenon está acorrentado numa cama.</default>
+		<first>Zenon em uma cama. Está com correntes.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Não acredita que um vampiro possa mudar, não é?</default>
 	</talk>
-	<talk character="cv1">
+	<talk character="José">
 		<default>Calado.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não deve mesmo acreditar. Fui o único no mundo.</default>
 	</talk>
-	<talk character="cv1">
+	<talk character="José">
 		<default>Não acredito que alguém que tortura e mata uma mulher grávida possa mudar.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Eu...</default>
 	</talk>
-	<talk character="cv1">
+	<talk character="José">
 		<default>Quieto, sua voz me irrita!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Te irrita o fato de eu estar inteiro.</default>
 	</talk>
 	<teller>
-		<default>Ele pega uma estaca e enfia no estômago de Zenon. Tereza – que estava na sala observando Alex e o outro caça-vampiros procurarem o feitiço – sente a dor e grita.</default>
+		<default>José pega uma estaca e enfia no estômago de Zenon. Tereza, na sala, cai no chão, com a mão no estômago. </default>
 	</teller>
-	<talk character="cv2">
+	<talk character="Cláudia">
 		<default>Tudo bem??</default>
 	</talk>
 	<talk character="Tereza">
-		<default>Está doendo... Meu estômago...</default>
+		<default>Tá doendo... Meu estômago...</default>
 	</talk>
 	<teller>
-		<default>Alex sobe e tira a estaca do estômago de Zenon. Ouve-se outro grito de Tereza.</default>
+		<default>Alex bufa. Sobe e tira a estaca do estômago de Zenon. Ouve-se outro grito de Tereza.</default>
 	</teller>
 	<talk character="Alex">
-		<default>Não faça mais isso!</default>
+		<default>Não faz mais isso!</default>
 	</talk>
-	<talk character="cv1">
+	<talk character="José">
 		<default>Ele me provocou...</default>
 	</talk>
 	<talk character="Alex">
@@ -331,8 +330,8 @@
 	<talk character="Zenon">
 		<default>Quer trocar de lugar?</default>
 	</talk>
-	<talk character="Alex/cv1">
-		<default>Calado!</default>
+	<talk character="Alex/José">
+		<default>Cala a boca!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Posso pelo menos saber qual feitiço que ela fez?</default>
@@ -346,7 +345,7 @@
 	<teller>
 		<default>Alex sai do quarto.</default>
 	</teller>
-	<talk character="cv1">
+	<talk character="José">
 		<default>Não somos idiotas.</default>
 	</talk>
 </story>
