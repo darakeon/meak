@@ -31,13 +31,10 @@
 		<default>Não fuja do assunto.</default>
 	</talk>
 	<teller>
-		<default>Alan cruza os braços.</default>
-	</teller>
-	<teller>
-		<default>Zenon chega.</default>
+		<default>Alan cruza os braços. Zenon chega.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Alan, viu a Mel?</default>
+		<default>Alan, viu Mel?</default>
 	</talk>
 	<talk character="Michele">
 		<default>Vocês dois são pagos para me treinar!</default>
@@ -52,11 +49,14 @@
 		<default>Acho que queria se livrar de você.</default>
 	</talk>
 	<teller>
-		<default>Os dois olham para ela.</default>
+		<default>Zenon e Alan olham para Michele.</default>
 	</teller>
 	<talk character="Michele">
 		<default>Vou pedir outros treinadores para os CVs.</default>
 	</talk>
+	<teller>
+		<default>Zenon cruza os braços.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Fala de alguém que te seque quando "sem querer" sua roupa rasga?</default>
 	</talk>
@@ -67,7 +67,7 @@
 		<default>Olha aqui você! Nos contratou como treinadores, não pra satisfazer seus desejos de adolescente mimada, se quer alguém que fique te secando, ótimo, mas bons treinadores não fazem isso, e vai acabar batendo seu recorde de tempo de vida, no sentido negativo! Melhor começar a se comportar como gente, e isso inclui tratar as pessoas como gente!</default>
 	</talk>
 	<talk character="Alan">
-		<default>E acho melhor ir para a escola também, porque ninguém vai te sustentar só porque sabe lutar!</default>
+		<default>E acho melhor ir para a escola também, porque ninguém vai te sustentar só porque sabe lutar...</default>
 	</talk>
 	<talk character="Michele">
 		<default>Você é sustentado só por isso.</default>
@@ -76,31 +76,43 @@
 		<default>Mas você é uma mulher.</default>
 	</talk>
 	<teller>
-		<default>Zenon pára um instante. Dá um soco em Alan.</default>
+		<default>Zenon respira fundo. Encara Alan.</default>
 	</teller>
-	<talk character="Zenon">
-		<default>Você tem que estudar sim, mas é pra não sair falando besteiras como ele.</default>
+	<talk character="Alan">
+		<default>Que foi?</default>
 	</talk>
 	<teller>
-		<default>Michele ri e sai. Zenon ajuda Alan a levantar.</default>
+		<default>Zenon dá um soco em Alan.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Você tem que estudar sim, mas é pra não sair falando besteiras como Alan.</default>
+	</talk>
+	<teller>
+		<default>Michele ri. Sai. Zenon dá a mão a Alan, que pega a mão e levanta.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Fez isso pra ela ir pra escola?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não, foi porque não consegui expressar em palavras o tamanho da idiotice que você falou. Agora temos que achar Melody.</default>
+		<default>Soraia ou Melody.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Pera, não vai...</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Eu devia gravar sua cara quando falo esses nomes, e te mostrar quando falar asneira de novo.</default>
 	</talk>
 	<teller>
-		<default>Os dois saem. Beatrice chega na MEAK.</default>
+		<first>MEAK. Beatrice entra. Derik está na recepção.</first>
 	</teller>
 	<talk character="Bea">
-		<default>Desculpe o tremendo atraso, não foi pra escola por minha causa?</default>
+		<default>Desculpa! Não foi pra escola por minha causa?!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não, eu não vou mais à escola. Mas não gosto de telefone, pode ficar com seu trabalho.</default>
+		<default>Não, eu não vou mais a escola. Mas não gosto de telefone, pode ficar com seu trabalho.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não era pra Mel estar aqui pra me dar bronca?</default>
+		<default>Mel não deveria estar aqui pra me dar bronca?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Ela saiu. Não voltou ainda.</default>
@@ -109,24 +121,28 @@
 		<default>Alan e Zenon?</default>
 	</talk>
 	<teller>
-		<default>Toca o telefone. Beatrice atende.</default>
+		<default>Toca o telefone. Derik sai de trás do balcão, Beatrice entra e atende.</default>
 	</teller>
 	<talk character="Bea">
-		<default>MEAK, descreva seu problema e digo se podemos ajudar. ### Alan... ### Não, ela ainda não voltou. ### Podia cuidar um pouco da sua própria vida, que acha? ### Tá, esquece. Continua procurando.</default>
-		<teller>desliga o telefone</teller>
-		<default>Bom, Kat e Estela estão na aula, né?</default>
+		<default>MEAK, descreva seu problema e digo se podemos ajudar. ### Alan... ### Não, ainda não voltou. ### Podia cuidar um pouco da sua própria vida, que acha? ### Tá, esquece. Continua procurando.</default>
+	</talk>
+	<teller>
+		<default>Beatrice desliga o telefone.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Bom, Kat e Estela estão em aula, né?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Sim.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Então vai ter que ser você mesmo pra me ajudar.</default>
+		<default>Então vai ter que ser você pra me ajudar.</default>
 	</talk>
 	<teller>
-		<default>16:00. Derik está andando no esgoto. Um vampiro a ataca. Beatrice mata.</default>
+		<first>Tarde. Derik está andando no esgoto. Alguém vai pegar Derik por trás, vira pó. Beatrice cravara uma estaca.</first>
 	</teller>
 	<talk character="Derik">
-		<default>Não era ela.</default>
+		<default>Não era.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Informação desnecessária. Quantos já foram?</default>
@@ -134,79 +150,77 @@
 	<talk character="Derik">
 		<default>Perdi a conta. Por que será que acho que não tá funcionando?</default>
 	</talk>
+	<teller>
+		<default>Beatrice cruza os braços atrás de si e balança o corpo.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Por que você é pessimista?</default>
-		<teller>Derik a encara</teller>
+	</talk>
+	<teller>
+		<default>Derik cruza os braços e encara Beatrice. Beatrice para. Solta os ombros.</default>
+	</teller>
+	<talk character="Bea">
 		<default>Tá, admito, isso não é um bom plano. Mas até que valeu pra alguma coisa.</default>
 	</talk>
 	<talk character="Derik">
 		<default>É, descobri que não tenho problemas do coração.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Daqui a duas horas poderemos subir à superfície.</default>
+		<default>Daqui a duas horas poderemos subir a superfície.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Isso não é pleonasmo?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Estamos atrás de uma vampira perigosa e está preocupado com o meu português???</default>
+		<default>Estamos atrás de uma criatura perigosa e está preocupado com o meu português?!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Bom...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Vamos logo, temos mais o que fazer. Continue andando.</default>
+		<default>Vamos logo, temos mais o que fazer. Continua andando.</default>
 	</talk>
 	<teller>
-		<default>Melody acorda. Olha para Rust, vai até o banheiro. Ele chega na porta.</default>
+		<first>Melody acorda. Vira para o lado, olha para Rust. Vai até o banheiro. Rust chega na porta.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Quanto tempo faz que não...</default>
 	</talk>
 	<talk character="Rust">
-		<default>Uns três anos.</default>
+		<default>Não lembro. Cansou?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nossa.</default>
-	</talk>
-	<talk character="Rust">
-		<default>Tá cansada?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Só nunca tinha encontrado alguém com tanto fôlego.</default>
+		<default>Nem. Mas nem todo mundo tem tanto fôlego.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Apesar dos meus mais de oitocentos anos, ainda consigo alguma coisa.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você não é mau.</default>
+		<default>Você não é ruim.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Devo considerar que já encontrou muitos outros muito melhores?</default>
+		<default>Devo considerar que já encontrou muitas outras pessoas muito melhores?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não tô falando disso. Tô falando de bondade e maldade.</default>
+		<default>Não tô falando disso.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Eu...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não é.</default>
+		<default>A gente pode só não entrar nesse assunto?</default>
 	</talk>
 	<teller>
-		<default>Rust vai até ela e a beija, para que não fale mais. 19:00. Beatrice está com Derik, em Ares.</default>
+		<first>Anoitecer. Ares. Beatrice e Derik andam.</first>
 	</teller>
 	<talk character="Bea">
-		<default>Tá, agora temos que achar a vagaba.</default>
+		<default>Tá, agora temos que achar Pandora. Deve estar caçando.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não era mais fácil pedir ajuda pro resto do pessoal?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Se não pudermos pegar uma vampira recém-acordada, o que poderemos?</default>
+		<default>Se não pudermos pegar vampir que mal acordou, o que poderemos?</default>
 	</talk>
 	<teller>
-		<default>21:00. Derik está andando pela cidade, sozinho. Chega a um beco.</default>
+		<default>Noite. Derik está andando, só. Chega a um beco. Solta os ombros.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Será que vou ter que pintar um alvo na...</default>
@@ -224,44 +238,45 @@
 		<default>Derik olha para os lados.</default>
 	</teller>
 	<talk character="Derik">
-		<thought>Não era pra ela já ter aparecido?!) Não. Estou precisando de ajuda de um vampiro.</thought>
+		<thought>Não era pra já ter aparecido?!</thought>
+		<default>Não. Estou precisando de ajuda de vampir.</default>
 	</talk>
 	<talk character="Pandora">
 		<default>Pra que?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Você é vampira?</default>
+		<default>Você é vampir?</default>
 	</talk>
 	<talk character="Pandora">
 		<default>Sim.</default>
 	</talk>
 	<talk character="Derik">
-		<screamed>Temos uma vampira aqui!</screamed>
+		<screamed>Temos vampir aqui!</screamed>
 	</talk>
 	<teller>
 		<default>Pandora olha para os lados.</default>
 	</teller>
 	<talk character="Pandora">
-		<default>Com quem fala?</default>
+		<default>Com quem tá falando?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Meu amigo fantasma. Estamos precisando achar um vampiro porque ele quer saber da noiva dele.</default>
+		<default>Amizade fantasma. Estamos precisando achar vampir porque quer saber da pessoa com quem teve um noivado.</default>
 	</talk>
 	<talk character="Pandora">
-		<default>E por que um vampiro saberia da noiva dele?</default>
+		<default>E por que um vampiro saberia disso?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Por que ela tem o poder de transformar vampiros em imortais.</default>
+		<default>Por que essa pessoa tem o poder de transformar vampirs em imortais.</default>
 	</talk>
 	<talk character="Pandora">
-		<default>Os CVs podem ter pego ela por isso.</default>
+		<default>Os CVs podem ter pego essa... pessoa... por isso.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Caça-vampiros, porque não pensamos nisso?! Oi, onde você foi??? Tem uma vampira aqui, não era isso que queria???</default>
-		<screamed>Será que vou ter que virar lanche antes de você falar com ela???</screamed>
+		<default>CVs! Porque não pensamos nisso?! Oi, onde você foi??? Tem vampir aqui, não era isso que queria???</default>
+		<screamed>Será que vou ter que virar lanche antes de você falar???</screamed>
 	</talk>
 	<teller>
-		<default>Beatrice aparece, atrás de Pandora, com uma besta. Então Alete aparece atrás de Beatrice. Ela aponta a arma para Alete. Fica revezando.</default>
+		<default>Beatrice aparece, atrás de Pandora, com uma besta. Alete aparece atrás de Beatrice. Beatrice aponta a arma para Alete. Encosta na parede, fica com a besta armada, olhando para Alete a Pandora.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Derik, sai daqui!</default>
@@ -273,25 +288,25 @@
 		<default>Vai ser mais útil buscando ajuda que de alvo!</default>
 	</talk>
 	<talk character="Pandora">
-		<default>Posso segui-lo.</default>
+		<default>Posso seguir ele.</default>
 	</talk>
 	<teller>
 		<default>Derik vira pássaro e foge.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Não, querida, galinha são aves, mas não voam.</default>
+		<irony>Vai lá. Boa sorte. Ah, aquela parte da gente virar morcego é lenda.</irony>
 	</talk>
 	<talk character="Alete">
 		<default>Por que precisamos brigar?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Agora fala? E não me parece mais tão chateada com a morte de Xisto...</default>
+		<default>Agora fala? E não me parece mais tão triste com a morte de Xisto...</default>
 	</talk>
 	<talk character="Alete">
-		<default>Cansei de ser idiota. Agora danem-se todos os humanos.</default>
+		<default>Cansei de ser idiota. Danem-se todos os humanos.</default>
 	</talk>
 	<teller>
-		<default>Beatrice se lembra de ter dito aquela frase a Elian.</default>
+		<default>Beatrice respira fundo. Olha para baixo. Olha para Alete.</default>
 	</teller>
 	<talk character="Alete">
 		<default>E os vampiros bonzinhos também.</default>
@@ -303,22 +318,25 @@
 		<default>Mentira.</default>
 	</talk>
 	<teller>
-		<default>Pandora desarma Beatrice e a beija. Derik chega a MEAK, em seu quarto. Abre uma gaveta com o bico (há cordões amarrados nas maçanetas). Pega algumas roupas e leva até o banheiro. Segundos depois sai, já vestido e corre até o quarto de Estela e Kat (bem desastrado e escorregando).</default>
+		<default>Pandora chuta a besta de Beatrice. Segura as mãos de Beatrice contra a parede.</default>
+	</teller>
+	<teller>
+		<first>MEAK. Derik entra pela janela de seu quarto. Sobe em uma cômoda, empurra uma gaveta com a pata, pega roupas com o bico e vai até o banheiro. Sai, com roupas. Corre até o quarto de Estela e Kat, escorregando no caminho.</first>
 	</teller>
 	<talk character="Derik">
-		<default>Cadê a Mel???</default>
+		<default>Cadê Mel???</default>
 	</talk>
 	<talk character="Kat">
 		<default>Que aconteceu???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Com ela acho que nada, mas com Beatrice...</default>
+		<default>Com Mel acho que nada, mas com Beatrice...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Por que está preocupado com ela???</default>
+		<default>Por que se preocupa com Beatrice?!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Fomos atrás de Pandora e pegaram ela!</default>
+		<default>Fomos atrás de Pandora e pegaram Beatrice!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Dane-se!</default>
@@ -327,13 +345,13 @@
 		<default>Quem é Pandora???</default>
 	</talk>
 	<talk character="Derik">
-		<default>A garota que enterramos.</default>
+		<default>A pessoa que enterramos.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Peraí, ela já não tinha sido enterrada e não tinha continuado...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Sei lá, mas ela acordou e tá com o Edmont agora.</default>
+		<default>Sei lá, mas acordou e tá com Edmont agora.</default>
 	</talk>
 	<talk character="Estela">
 		<default>E porque Angely não interfere?</default>
@@ -345,38 +363,35 @@
 		<default>Sim.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Por que saiu com ela?</default>
+		<default>Por que saíram juntos?!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Beatrice?</default>
+		<default>Beatrice...?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Deixa de ser cínico, sabe que é dela que tô falando!</default>
+		<default>Deixa de cinismo, sabe que é Beatrice!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Íamos caçar Pandora.</default>
 	</talk>
 	<talk character="Kat">
 		<irony>Ah, você luta muito bem...</irony>
-		<default>Ela quis é dar em cima de você!</default>
+		<default>Quis é te levar de novo pra cama!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Mesmo que eu quisesse ela, o que é impossível estando com você, ela tá com o Angely agora.</default>
+		<default>Eu estou com você, e Beatrice está com Angely.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Com o meu pai? Não acredito! Que merda!</default>
+		<default>Angely?! Não acredito! Que merda!</default>
 	</talk>
 	<talk character="Estela">
 		<default>Com licença, eu tô tentando entender porque Ang não acaba com a farra!</default>
 	</talk>
-	<talk character="Kat">
-		<default>Por que ele tá muito ocupado, na farra com a vagabunda da Beatrice!</default>
-	</talk>
 	<talk character="Derik">
-		<default>Não, Angely fica excitado quando Edmont está, Edmont tá usando isso pra acabar com a vida do Angely e por isso fomos atrás de Pandora!</default>
+		<default>Angely se altera junto com Edmont, Edmont tá usando isso pra acabar com a vida de Angely e por isso fomos atrás de Pandora!</default>
 	</talk>
 	<talk character="Kat">
-		<irony>Ah, claro, ela é boazinha...</irony>
+		<irony>Ah, claro, Beatrice é legal...</irony>
 	</talk>
 	<talk character="Derik">
 		<default>Se chama amor. Não acredito que tenha que te descrever isso. Tenho, Katerine?</default>
@@ -385,61 +400,52 @@
 		<default>Está comparando aquela coisa comigo???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não, ela não é tão ciumenta e é capaz de perdoar!</default>
+		<default>Não, Beatrice não mente.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eu te perdoei.</default>
+		<default>Quem disse que minto?!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Acho que não. Não estou dizendo que deveria me perdoar, tô só pedindo pra não fingir que consegue se não consegue.</default>
+		<default>Não estou dizendo que deveria me perdoar, tô só pedindo pra não fingir que consegue se não consegue.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Eu já te perdoei!</default>
 	</talk>
-	<talk character="Derik">
-		<default>Prova.</default>
-	</talk>
 	<teller>
-		<default>Algum silêncio.</default>
+		<default>Derik olha para baixo. Kat suspira.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Vamos ligar pra Zenon e Alan. Pra eles ajudarem a Beatrice.</default>
+		<default>Vamos ligar pra Zenon e Alan. Pra ajudarem Beatrice.</default>
 	</talk>
 	<teller>
-		<default>0:00 (28/05 – quarta). Beatrice acorda num quarto. Se veste. É o apartamento de Edmont. Ela sai. Vai até o lago em Hera, pela passagem subtérrea. Edmont chega, com Pandora.</default>
+		<first>Virada do dia. Apartamento de Edmont. Beatrice abre os olhos. Levanta. Se veste. Olha os cômodos. Ninguém. Sai. Atravessa a cidade, a floresta, vai até o porto. Entra em uma caverna. Anda até o final. Desce uma escadaria de pedra. Está no lago de Hera. Senta-se na beira da água. Edmont e Pandora chegam, atrás de Beatrice.</first>
 	</teller>
 	<talk character="Bea">
-		<default>Parece que já arranjou uma substituta.</default>
+		<default>Parece que já arranjou quem substitua.</default>
 	</talk>
 	<talk character="Pandora">
 		<default>E se eu matasse ela pra você?</default>
 	</talk>
 	<teller>
-		<default>Edmont sente um forte dor de cabeça.</default>
+		<default>Edmont coloca as mãos na cabeça e cai no chão. Beatrice arregala os olhos e levanta. Pandora se afasta. Angely está em sua casa, na cama. Olhos fechados, joelhos dobrados, pernas encostadas no tórax, braços abraçando as pernas.</default>
 	</teller>
 	<talk character="Edmont">
 		<thought>Vai ser assim, é???</thought>
 	</talk>
-	<teller>
-		<default>Angely está concentrado, em outro lugar.</default>
-	</teller>
 	<talk character="Ang">
-		<thought>Sim. Vai ter que mandá-la pro lugar dela.</thought>
+		<thought>Sim. Vai ter que mandar Pandora para seu lugar.</thought>
 	</talk>
-	<teller>
-		<default>Edmont...</default>
-	</teller>
 	<talk character="Edmont">
-		<thought>Vou matá-la se Beatrice não matar. Se Beatrice tiver que continuar viva e não conseguir derrotar Pandora, seu Deus vai ter que fazer um milagre.</thought>
+		<thought>Vou matar se Beatrice não matar. Se Beatrice tiver que continuar a viver e não conseguir derrotar Pandora, sua amizade vai ter que fazer um milagre.</thought>
 	</talk>
 	<teller>
-		<default>Os dois desmaiam. Beatrice e Pandora começam a lutar. Pandora consegue jogar Beatrice no chão.</default>
+		<default>Edmont cai de lado. Angely também. Beatrice olha para Pandora. Dá um chute. Pandora defende. Devolve o chute. Beatrice cai na areia. Olha para Edmont. Vai até Edmont. Pandora puxa a joga Beatrice na areia de novo. Sobe em cima e segura seus braços.</default>
 	</teller>
 	<talk character="Pandora">
 		<default>Parece que não é tão forte como ele descreveu... Sabe, você não devia criar alguém se não tem competência pra cuidar dele.</default>
 	</talk>
 	<teller>
-		<default>Alguém enfia uma estaca em Pandora. É Fábio.</default>
+		<default>Pandora arregala os olhos. Vai para trás, sentando sobre Beatrice. Desfaz. Beatrice levanta. Vê Fábio.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Mas você...</default>
@@ -447,25 +453,34 @@
 	<talk character="Fábio">
 		<default>Será que foi isso? Morri pra te salvar e ressuscitei pra isso?</default>
 	</talk>
+	<teller>
+		<default>Beatrice engole seco.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Olha, eu tenho que te dar uma notícia. Talvez você seja um fantasma.</default>
+		<default>Talvez você seja um fantasma.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Saí do meu caixão. Vim direto pra cá, não consegui pensar em mais nenhum lugar.</default>
+		<default>Saí do meu caixão. Vim direto pra cá, não consegui pensar em mais nenhum lugar. Gosto desse lago. E deu pra me lavar.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Tem certeza que saiu?</default>
+		<default>Tem certeza que saiu? De repente foi só sua alma.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Bom, tava todo sujo de terra quando saí e não ficou nada no caixão.</default>
+		<default>Bom, nunca vi alma carregar terra quando passa.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Quando foi isso?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Há cinco dias, no meu aniversário.</default>
+		<default>Cinco dias. Era meu aniversário.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Bom presente. Acho que vou te levar pra MEAK.</default>
+		<default>Bom presente.</default>
+	</talk>
+	<teller>
+		<default>Beatrice olha para Edmont.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Acho que vou te levar pra MEAK.</default>
 	</talk>
 </story>
