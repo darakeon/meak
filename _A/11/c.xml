@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="11" scene="c">
 	<teller>
-		<default>De tarde, Edmont vai à casa de Denise. Encontra as garotas reunidas na sala.</default>
+		<default>Casa de Denise.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Ele não ficou com nenhuma de nós.</default>
@@ -18,59 +18,74 @@
 	<talk character="Edmont">
 		<arrive>Se querem alguma coisa com ele, não é se jogando na frente dele que vão conseguir.</arrive>
 	</talk>
+	<teller>
+		<default>Annie, Denise, Helene e Agatha olham para a porta. Edmont está encostado no batente. Denise se levanta.</default>
+	</teller>
 	<talk character="Denise">
-		<default>Tudo bem, você é irmão dele, tem que saber alguma coisa.</default>
+		<default>Tudo bem, você é irmão dele, tem que saber alguma coisa!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ele parece chateado com algo. Acho que aborreceram ele com o que aprontaram.</default>
+		<default>Amgely parece não muito feliz. Acho que aborreceram com o que aprontaram.</default>
 	</talk>
 	<talk character="Helene">
-		<default>Aquela noite íamos fazer...</default>
+		<default>Aquela noite a gente ia fazer...</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Não!</default>
 	</talk>
+	<teller>
+		<default>Edmont se endireita. Encara Agatha.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Agora fala.</default>
 	</talk>
 	<talk character="Annie">
 		<default>Bom, pode parecer bobo, mas...</default>
 	</talk>
-	<talk character="Denise">
+	<talk character="Agatha">
 		<default>Pensamos em fazer um feitiço para ele.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Confie em mim, não é o melhor jeito. Dara tá aí?</default>
+		<default>Confie em mim, não é o melhor jeito. Já devia saber disso, aliás. Dara tá aí?</default>
 	</talk>
 	<talk character="Denise">
 		<default>Ela saiu, faz pouco tempo.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tá, obrigado.</default>
+		<default>Valeu.</default>
 	</talk>
+	<teller>
+		<default>Edmont se vira de costas.</default>
+	</teller>
 	<talk character="Helene">
 		<default>Ei! Não vai nos ajudar?</default>
 	</talk>
+	<teller>
+		<default>Edmont ri. Vira de volta.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Tratem ele como um amigo, parem de sair de casa e comecem a estudar pro vestibular. Todas você vão ter que fazer faculdade.</default>
+		<default>Tratem ele como um amigo, parem de sair de casa e comecem a estudar pro vestibular. Vocês vão ter que fazer faculdade.</default>
 	</talk>
 	<talk character="Annie">
 		<default>Até parece que assim se conquista um homem...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Angely não gosta de garotas que se atiram em cima dele. Sobre estudar... Várias vezes ele ia falar com Meg e ela tava estudando, isso deixava ele mais ansioso. E também, ele é inteligente, se tiverem uma dúvida terão uma desculpa pra falar com ele sem parecer que estão com outras intenções.</default>
+		<default>Angely ajudar com estudos.</default>
 	</talk>
 	<teller>
-		<default>Edmont sai. Elas se entreolham. Edmont fica andando pela cidade. Dez horas da noite. Mel, Edmont e Angely procuram mais informações.</default>
+		<default>Edmont sai. Se entreolham.</default>
+	</teller>
+	<teller>
+		<first>Dez horas da noite. Mel, Edmont, Kat e Angely estão no escritório.</first>
 	</teller>
 	<talk character="Edmont">
-		<default>Ei, ela dormiu!</default>
+		<default>Ei, dormiu!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Só agora que percebeu?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por que ela está dormindo?</default>
+		<default>Por que tá dormindo?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Aproveitou o silêncio.</default>
@@ -79,49 +94,40 @@
 		<default>Ah?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Esqueceram do que ela faz aqui?</default>
+		<default>Esqueceram do que Kat faz aqui?</default>
 	</talk>
 	<talk character="Angely">
-		<default>E o Derik?</default>
+		<default>E Derik?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Dois desligados... Saiu voando faz tempo. Vou lá fazer alguma coisa pra nos alimentarmos, já que só eu percebi que não vivemos de brisa por aqui.</default>
+		<default>Ceis caíram dentro dos livros? Saiu voando faz quatro horas.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Vou fazer alguma coisa pra gente comer.</default>
 	</talk>
 	<teller>
-		<default>Mel desce a escada. Ouve um barulho no banheiro.</default>
+		<default>Edmont desce a escada. Um barulho no banheiro.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Derik?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não, Papai Noel!</default>
+		<out>Não, Papai Noel!</out>
 	</talk>
 	<talk character="Mel">
 		<default>Só consegue voar quatro horas?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Quando tem pessoas praticando tiro ao alvo, sim.</default>
-	</talk>
-	<teller>
-		<default>Toca o telefone. Mel atende.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Sim... ### Tá certo. Eu aviso eles.</default>
-	</talk>
-	<teller>
-		<default>Mel desliga.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Quem era?</default>
+		<out>Quando tem pessoas praticando tiro ao alvo, sim.</out>
 	</talk>
 	<talk character="Mel">
-		<default>Uma informante.</default>
+		<out>Edmont! Vem cá!</out>
 	</talk>
 	<teller>
-		<default>Ela sobe a escada. Derik vai com ela.</default>
+		<default>Edmont sobe de volta. Derik segue.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Meninos, sabem onde é o hotel Sweet Flower?</default>
+		<default>Sabem onde é o hotel Sweet Flower?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Sim.</default>
@@ -133,22 +139,28 @@
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que estão fazendo aí sentados??? Vamos!</default>
+		<default>Informante. Vamos esperar saírem?!</default>
 	</talk>
 	<teller>
-		<default>Os dois saem. Derik fica intrigado.</default>
+		<default>Edmont e Angely saem.</default>
+	</teller>
+	<talk character="Mel">
+		<screamed>Não esqueçam de levar bestas!</screamed>
+	</talk>
+	<teller>
+		<default>Derik tapa o ouvido. Mel encara.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Quem é seu informante?</default>
+		<default>Que informante?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Ficarão sabendo, se tudo correr bem.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Por que ela tá dormindo?</default>
+		<default>Por que Kat tá dormindo?</default>
 	</talk>
 	<talk character="Mel">
-		<default>É o que ela faz de útil.</default>
+		<default>É o que faz de útil.</default>
 	</talk>
 	<talk character="Derik">
 		<default>E o que vocês estavam fazendo?</default>
@@ -157,7 +169,7 @@
 		<default>Procurando algo mais sobre vampiros. Será que tem alguma loja que vende livros desse tipo?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Desse negócio de vampiros e cia?</default>
+		<default>Desse negócio de vampiros e companhia?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Sim.</default>
@@ -178,48 +190,52 @@
 		<default>Por que???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Somos os únicos que não estamos fazendo absolutamente nada.</default>
+		<default>Só nós que estamos fazendo absolutamente nada.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, uma mulher pára um táxi próximo ao hotel onde estavam Dilan e Andrews. Atrás, o motorista, morto.</default>
+		<default>Um táxi para.</default>
 	</teller>
 	<talk character="Kassandra">
-		<default>"Se quiser pode pagar de outro jeito..."... Hã, otário.</default>
+		<default>"Se quiser pode pagar de outro jeito..."... Otário.</default>
 	</talk>
 	<teller>
-		<default>Ela entra no hotel e vai até o elevador. Sobe até o andar 13. Vai passando pelas portas.</default>
+		<default>Kassandra sai da porta da frente do táxi. Atrás, o motorista, morto. Entra no hotel e vai até o elevador. Sobe até o andar 13. Anda pelo corredor.</default>
 	</teller>
 	<talk character="Kassandra">
 		<default>Aqui não... Aqui não... Também não... Esse.</default>
-		<teller>Kassandra tira um cartão da bolsa e passa na porta, que abre</teller>
-		<default>Dilan sabia que eu viria. Devem ter saído pra caçar. Será que avisou os outros?</default>
 	</talk>
 	<teller>
-		<default>Dara chega em casa. Senta-se no sofá.</default>
+		<default>Kassandra tira um cartão do bolso. Passa na porta. A porta abre.</default>
 	</teller>
-	<talk character="mãe delas">
+	<talk character="Kassandra">
+		<default>Sabia que eu viria. Devem ter saído pra caçar. Será que avisou os outros?</default>
+	</talk>
+	<teller>
+		<first>Dara chega em casa. Senta-se no sofá.</first>
+	</teller>
+	<talk character="Lola">
 		<default>Handhara, querida, sabe onde está Denise?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Não, mãe.</default>
 	</talk>
-	<talk character="pai delas">
+	<talk character="Ricardo">
 		<default>Onde será que ela foi?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Ela sai toda noite e volta sempre inteira.</default>
 	</talk>
 	<teller>
-		<default>Ela vai pra seu quarto. Pega o laptop, entra na rede.</default>
+		<default>Dara vai pra seu quarto. Pega o laptop.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Bom, lá vou eu.</default>
 	</talk>
 	<teller>
-		<default>Edmont e Angely se separam. A moto de Angely começa a dar problemas e ele pára em frente ao hotel. Kassandra está saindo.</default>
+		<first>Angely para a moto. Olha para o hotel.</first>
 	</teller>
 	<talk character="Kassandra">
-		<default>Problemas?</default>
+		<arrive>Problemas?</arrive>
 	</talk>
 	<talk character="Angely">
 		<default>Não entendo. Estava ótima agora pouco.</default>
@@ -233,29 +249,26 @@
 	<talk character="Kassandra">
 		<default>Seu rosto não me é estranho.</default>
 	</talk>
-	<teller>
-		<default>Andrews chega.</default>
-	</teller>
 	<talk character="Andrews">
-		<default>Quanto tempo.</default>
+		<arrive>Quanto tempo.</arrive>
 	</talk>
 	<talk character="Kassandra">
 		<default>Bom te ver de novo.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Eu vou entrar, deixar-te a conversar com teu amigo.</default>
+		<default>Eu vou entrar, pode continuar a conversa com seu amigo.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não precisa se incomodar, eu já tô indo.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Se é o que estás a pensar, não temos nada.</default>
+		<default>Não se preocupe, não temos nada.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não, eu preciso mesmo ir. Tchau.</default>
 	</talk>
 	<teller>
-		<default>Angely sai, levando a moto.</default>
+		<default>Angely sai, levando a moto sem estar montado.</default>
 	</teller>
 	<talk character="Kassandra">
 		<default>Lá se foi meu jantar.</default>
@@ -264,10 +277,10 @@
 		<default>Era caça-vampiros.</default>
 	</talk>
 	<talk character="Kassandra">
-		<default>Eu notei o que ele trazia. Seria uma pena matá-lo.</default>
+		<default>Eu notei o que ele trazia. Uma pena.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Vieste ver-me?</default>
+		<default>Veio me ver?</default>
 	</talk>
 	<talk character="Kassandra">
 		<default>Foi bom você ensinar os humanos. Ficou mais interessante caçar.</default>
@@ -282,7 +295,7 @@
 		<default>Dilan sim. Eu fui observar todas essas mudanças.</default>
 	</talk>
 	<talk character="Kassandra">
-		<default>Você chegou a visitar o "novo" continente?</default>
+		<default>Você chegou a visitar o "novo" continente antes?</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Só o sul. Era tudo mato. Dilan me disse que Argo vive no subterrâneo.</default>
@@ -294,46 +307,52 @@
 		<default>E Rust?</default>
 	</talk>
 	<talk character="Kassandra">
-		<default>Virgine está tentando acabar com o grupo de caça vampiros, da última vez que o vi estava com ela.</default>
+		<default>Virgine está tentando acabar com o grupo de caça vampiros, da última vez que vi estava com ela. Ah, não, pera, todas as vezes que vi estava com ela.</default>
 	</talk>
 	<talk character="Andrews">
-		<irony>Então vós não podeis vencer meros humanos?</irony>
+		<irony>Então não pode vencer meros humanos?</irony>
 	</talk>
 	<talk character="Kassandra">
-		<default>Parece que ensinou eles muito bem. Com o tempo todos desistiram. Rust foi o primeiro, depois eu, Dilan e Argo. Só Virgine ainda tenta.</default>
+		<default>Parece que ensinou eles muito bem. Com o tempo todos desistiram. Dilan e eu desistimos numa noite bebendo. Até brindamos a você. Argo tem um jeito estranho, você sabe, sempre soube. Só Virgine ainda tenta. E, claro, Rust, arrastado.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Encharcais o mundo de vampiros em minha ausência?</default>
+		<default>Encheram o mundo de vampiros na minha ausência?</default>
 	</talk>
 	<talk character="Kassandra">
 		<default>Não.</default>
 	</talk>
 	<teller>
-		<default>Um breve silêncio.</default>
+		<default>Andrews olha para cima.</default>
 	</teller>
 	<talk character="Kassandra">
 		<default>Não teve tempo de arranjar algo hoje.</default>
 	</talk>
 	<teller>
-		<default>Andrews a puxa e a beija.</default>
+		<default>Andrews se aproxima de Kassandra. Beija.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Não estou com sede.</default>
+		<default>Não estou com sede. Pensei em outra coisa.</default>
+	</talk>
+	<talk character="Kassandra">
+		<default>Só agora? Eu teria pensado assim que saísse do túmulo.</default>
 	</talk>
 	<teller>
-		<default>Ele dá um sorriso e entra no hotel. Angely liga pra Mel. Ela vem buscá-lo.</default>
+		<default>Andrews dá um sorriso. Entra no hotel. Kassandra balança a cabeça para os lados. Vai em outra direção.</default>
+	</teller>
+	<teller>
+		<first>Angely está parado com a moto.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Qual o problema com a moto?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sabotagem.</default>
+		<default>Não sei, só sei que, se não tivesse bons ouvidos, agora tava no hospital.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Quem poderia ter sido?</default>
+		<default>Será que foi quem sabotou o avião?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não sei, só sei que, se não tivesse bons ouvidos, agora tava no hospital.</default>
+		<default>Acha que foi sabotagem?</default>
 	</talk>
 	<talk character="Mel">
 		<default>E o Edmont?</default>
@@ -342,70 +361,73 @@
 		<default>Toca, toca e não atende.</default>
 	</talk>
 	<teller>
-		<default>Os dois voltam pra casa. Num bar, Edmont observa Dilan conversar com uma garçonete.</default>
+		<default>Um bar, Edmont está no balcão. Dilan está em uma mesa.</default>
 	</teller>
-	<talk character="garçonete">
+	<talk character="Linda">
 		<default>Não caio nisso.</default>
 	</talk>
 	<talk character="Dilan">
 		<default>Tenho cara de enganador?</default>
 	</talk>
-	<talk character="garçonete">
+	<talk character="Linda">
 		<default>Não, mas...</default>
 	</talk>
 	<talk character="Dilan">
 		<default>Já sei, não confia em si mesma.</default>
 	</talk>
-	<talk character="garçonete">
+	<talk character="Linda">
 		<default>Também não é isso.</default>
 	</talk>
 	<talk character="Dilan">
 		<default>Então não há problemas.</default>
 	</talk>
-	<talk character="gerente">
-		<default>Tá aberto ainda, sabia?</default>
+	<talk character="João">
+		<arrive>Tá aberto ainda, sabia?</arrive>
 	</talk>
 	<teller>
-		<default>Ela se levanta da mesa e vai até Edmont.</default>
+		<default>Linda se levanta da mesa. Arruma o avental. Vai até Edmont.</default>
 	</teller>
-	<talk character="garçonete">
+	<talk character="Linda">
 		<default>Posso te ajudar em alguma coisa?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Estou aqui atrás um cara que fugiu do hospício.</default>
+		<default>Estou aqui atrás alguém que fugiu do hospício.</default>
 	</talk>
-	<talk character="garçonete">
-		<default>Ele está aqui?</default>
+	<teller>
+		<default>Linda olha ao redor.</default>
+	</teller>
+	<talk character="Linda">
+		<default>Está aqui?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Sim. Na verdade, era o homem com quem conversava.</default>
+		<default>Sim. Na verdade, era a pessoa com quem conversava.</default>
 	</talk>
-	<talk character="garçonete">
+	<talk character="Linda">
 		<default>Sério???</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Que ele te disse?</default>
+		<default>Que te disse?</default>
 	</talk>
-	<talk character="garçonete">
+	<talk character="Linda">
 		<default>Que é de uma agência de modelos.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Às vezes é isso, às vezes diz que tem um grupo de teatro...</default>
 	</talk>
-	<talk character="garçonete">
+	<talk character="Linda">
 		<default>Peraí, você não é daquela banda...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Um amigo pediu pra eu ajudá-lo a encontrar esse louco.</default>
+		<default>Uma pessoa pediu pra eu ajudar a encontrar esse louco.</default>
 	</talk>
-	<talk character="garçonete">
+	<talk character="Linda">
 		<default>Obrigado por me avisar. Ele é perigoso?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Todas as garotas que estiveram com ele desapareceram.</default>
+		<default>Todas as garotas desapareceram.</default>
 	</talk>
 	<teller>
-		<default>A garçonete vai pra trás do balcão. Dilan vai até Edmont.</default>
+		<default>Linda vai pra trás do balcão. Dilan vai até Edmont.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Você está caçando e alguém afugenta sua presa. O que você faz?</default>
@@ -426,7 +448,7 @@
 		<default>Arranco até pararem de nascer.</default>
 	</talk>
 	<teller>
-		<default>Dilan se levanta e sai. Kassandra se senta ao seu lado.</default>
+		<default>Dilan se levanta e sai. Kassandra se senta com Edmont.</default>
 	</teller>
 	<talk character="Kassandra">
 		<default>Oi.</default>
@@ -441,13 +463,19 @@
 		<default>Eu realmente tenho que ir.</default>
 	</talk>
 	<teller>
-		<default>Edmont se levanta da mesa. Sai e não vê Dilan. Volta pra casa. Manhã seguinte, dia do primeiro show: Edmont acorda e vai até o escritório. Encontra Mel sentada na cadeira e com a cabeça sobre um livro na mesa e Derik no chão com a cara num livro; ambos dormem. Vai até a cozinha e encontra Kat acordada, fazendo café.</default>
+		<default>Edmont se levanta da mesa. Paga a conta. Corre para fora. Olha para os lados. Suspira.</default>
 	</teller>
+	<teller>
+		<first>Manhã seguinte, dia do primeiro show. Edmont acorda. Vai até o escritório. Encontra Mel sentada na cadeira e com a cabeça sobre um livro na mesa e Derik no chão, também com a cabeça em um livro. Dormem. Vai até a cozinha.</first>
+	</teller>
+	<talk character="Edmont">
+		<default>Sabe fazer café?</default>
+	</talk>
 	<talk character="Kat">
 		<default>Ainda bem que pelo menos você tá acordado.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Que horas eles foram dormir?</default>
+		<default>Que horas foram dormir?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não sei. Faz uma hora que acordei.</default>
@@ -462,14 +490,10 @@
 		<default>Deve estar...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Presente!</default>
-		<teller>Angely adentra a cozinha</teller>
+		<arrive>Presente!</arrive>
 		<default>O que conseguiu ontem?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Irritar um vampiro.</default>
 	</talk>
-	<teller>
-		<default>Eles acordam Mel e saem.</default>
-	</teller>
 </story>
