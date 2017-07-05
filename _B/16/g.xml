@@ -1,38 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="16" scene="g">
 	<teller>
-		<default>Beatrice fecha os olhos e se concentra. Abre.</default>
+		<default>Tarde. Rust e Beatrice estão na cama. Deitaram-se, estão olhando para o teto.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Ela disse que sou dela agora também.</default>
+		<default>Agora não tá só, podemos lutar contra isso.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Bem vinda ao meu mundo.</default>
+		<default>Também é atlante, né?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Somos em dois, podemos lutar contra isso.</default>
+		<default>Sabe muito sobre atlantes?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Também é filha de um Atlante, não é?</default>
+		<default>Quem me gerava me contava. Era. Morreu por causa disso. Por não ser um ser humano. Na mão de seres humanos. Como são as criaturas que vocês tentam proteger.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Sabe sobre atlantes?</default>
+		<default>Parece que não é só Virgine que te força.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Minha mãe me contava. Ela era. Morreu por causa disso. Por não ser humana. Na mão de humanos. Como são todos os bonzinhos que vocês tentam proteger.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Parece que não é só a Virgine que te força.</default>
-	</talk>
-	<talk character="Rust">
-		<default>Vou pro inferno de um jeito ou de outro, se ela me deixar morrer.</default>
+		<default>Vou pro inferno de um jeito ou de outro, se Virgine me deixar morrer.</default>
 	</talk>
 	<teller>
-		<default>Beatrice lembra de algo e pega uma chave embaixo da cama.</default>
+		<default>Beatrice franze a testa. Levanta, agacha e pega uma chave embaixo da cama.</default>
 	</teller>
 	<talk character="Rust">
-		<default>Sim, ela sempre deixa a chave. E conta sempre onde deixou.</default>
+		<default>Sim, sempre deixa a chave. E conta sempre onde deixou.</default>
 	</talk>
+	<teller>
+		<default>Beatrice levanta.</default>
+	</teller>
 	<talk character="Bea">
 		<default>E porque nunca foge?</default>
 	</talk>
@@ -40,17 +37,20 @@
 		<default>Eu sempre fujo.</default>
 	</talk>
 	<teller>
-		<default>Rust pega a chave das mãos de Beatrice, abre a porta e faz sinal pra que ela passe. Sai também. Beatrice pega a chave das mãos dele, tranca e joga a chave na privada.</default>
+		<default>Rust levanta. Pega a chave da mão de Beatrice, abre a porta. Sai. Beatrice sai também. Pega a chave da mão de Rust, tranca a gaiola e joga a chave pela janela.</default>
 	</teller>
 	<talk character="Rust">
-		<default>Ela fica irritada com essas coisas.</default>
+		<default>Virgine se irrita com essas coisas.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Dane-se. Vou procurar Aléxis.</default>
 	</talk>
 	<talk character="Argo">
-		<arrive>Ela o levou pra Grécia de volta.</arrive>
+		<arrive>Virgine levou pra Grécia de volta.</arrive>
 	</talk>
+	<teller>
+		<default>Rust e Beatrice olham para Argo.</default>
+	</teller>
 	<talk character="Rust">
 		<irony>Que pena.</irony>
 	</talk>
@@ -61,7 +61,7 @@
 		<default>E o que estamos esperando?</default>
 	</talk>
 	<teller>
-		<default>Argo sai. Rust o segue, Beatrice também. 21:00. Argo e Rust chegam.</default>
+		<first>Noite. Argo e Rust chegam em uma sala. Aléxis, de olhos fechados, está com correntes no pulso, vão até o teto. Kassandra, Dilan e Virgine estão na sala.</first>
 	</teller>
 	<talk character="Kassandra">
 		<default>Até que enfim. Tenho mais o que fazer.</default>
@@ -72,14 +72,23 @@
 	<talk character="Kassandra">
 		<default>Não é da sua conta.</default>
 	</talk>
+	<teller>
+		<default>Dilan sorri.</default>
+	</teller>
 	<talk character="Dilan">
 		<default>Ela tomou um toco.</default>
 	</talk>
+	<teller>
+		<default>Kassandra olha para Dilan.</default>
+	</teller>
 	<talk character="Kassandra">
 		<default>Você também.</default>
 	</talk>
+	<teller>
+		<default>Dilan desmancha o sorriso.</default>
+	</teller>
 	<talk character="Dilan">
-		<default>Não sei do que você está falando.</default>
+		<default>Não sei do que você tá falando.</default>
 	</talk>
 	<talk character="Kassandra">
 		<default>Não precisa se envergonhar, italiano. Muita gente gosta de experimentar coisas novas. A primeira vez sempre dói, depois fica bom.</default>
@@ -91,7 +100,7 @@
 		<default>Virou viado depois de tanto tempo?</default>
 	</talk>
 	<teller>
-		<default>Virgine segura Dilan.</default>
+		<default>Dilan vai na direção de Rust, Virgine coloca o braço na frente, segurando Dilan.</default>
 	</teller>
 	<talk character="Virgine">
 		<default>Temos uma coisa pra fazer.</default>
@@ -100,19 +109,43 @@
 		<default>Ou não.</default>
 	</talk>
 	<teller>
-		<default>Surgem vários vampiros. Depois mais um tanto. Os primeiros com roupas normais, os segundos todos com a mesma roupa.</default>
+		<default>Vampirs com armas invadem o lugar, atrás de Argo. Vampirs que estavam nas sombras, atrás de Virgine, de com roupas iguais, também avançam e levantam armas.</default>
 	</teller>
 	<talk character="Argo">
 		<default>Assim fica fácil os caçadores mirarem, Virgine.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Falei pra ela pintar um alvo na bunda deles também.</default>
+		<default>Já falei pra pintar um alvo na bunda do uniforme também.</default>
 	</talk>
+	<teller>
+		<default>Kassandra olha para Dilan.</default>
+	</teller>
+	<talk character="Kassandra">
+		<default>Acabei de lembrar, tem um bar ótimo aqui perto.</default>
+	</talk>
+	<talk character="Dilan">
+		<default>Não é GLS, é?</default>
+	</talk>
+	<talk character="Kassandra">
+		<default>Não acha que eu vou lembrar onde peguei homem e onde peguei mulher, acha?</default>
+	</talk>
+	<talk character="Dilan">
+		<default>Foda-se, tô afim de encher a cara hoje.</default>
+	</talk>
+	<teller>
+		<default>Rust balança a cabeça para os lados. Dilan olha para Rust.</default>
+	</teller>
+	<talk character="Dilan">
+		<default>Não é isso!</default>
+	</talk>
+	<teller>
+		<default>Dilan sai. Kassandra ri. Sai.</default>
+	</teller>
 	<talk character="Virgine">
 		<default>Que é isso?</default>
 	</talk>
 	<talk character="Argo">
-		<default>Meus amigos.</default>
+		<default>Tenho certeza que não preciso explicar.</default>
 	</talk>
 	<talk character="Virgine">
 		<default>Não concordamos que Aléxis deveria ficar dormindo?</default>
@@ -124,7 +157,7 @@
 		<default>Rust...</default>
 	</talk>
 	<talk character="Rust">
-		<default>Não me contou que tinha raiva de Aléxis porque ele te largou. Tinha dito que era por causa do estupro.</default>
+		<default>Foi você quem matou. Tentando transformar. A pessoa não queria.</default>
 	</talk>
 	<talk character="Virgine">
 		<default>Eu falei a verdade... Quem inventou isso?</default>
@@ -133,43 +166,88 @@
 		<default>Talvez a primeira pessoa pra quem você contou.</default>
 	</talk>
 	<talk character="Virgine">
-		<default>Não contei pra nenhuma pessoa. Contei pra um vampiro. Você não é mais uma pessoa há muito tempo, ou será que já esqueceu? Nem família tem mais...</default>
+		<default>Não contei pra nenhuma pessoa.</default>
+	</talk>
+	<teller>
+		<default>Virgine olha para Argo.</default>
+	</teller>
+	<talk character="Virgine">
+		<default>Contei pra um vampiro. Você não é mais uma pessoa há muito tempo, ou será que já esqueceu? Nem família tem mais.</default>
+	</talk>
+	<teller>
+		<default>Argo olha para o teto. Volta a olhar para Virgine. Virgine olha para Rust.</default>
+	</teller>
+	<talk character="Virgine">
+		<default>Mas foi culpa de Aléxis. Não me ensinou a fazer direito.</default>
+	</talk>
+	<talk character="Rust">
+		<default>Não queria. E você sabia disso.</default>
 	</talk>
 	<talk character="Argo">
-		<default>Vai libertá-lo ou disputaremos isso?</default>
+		<default>Vai libertar ou vamos disputar?</default>
 	</talk>
 	<talk character="Virgine">
 		<default>Por quê?</default>
 	</talk>
 	<talk character="Argo">
-		<default>Não acho mais que ele seja uma ameaça aos meus. E não é prendendo aquele que os ensinou a se defenderem que conseguirei uma trégua.</default>
+		<default>Não acho mais que seja uma ameaça às minhas crias. E não é prendendo quem ensinou CVs a se defenderem que conseguirei uma trégua.</default>
 	</talk>
 	<teller>
-		<default>Beatrice entra. Desamarra Aléxis. Corta o pulso e coloca sangue na boca dele. Ele acorda.</default>
+		<default>Uma lâmina entra pela porta, quebra a corrente de Aléxis, que cai no chão, e prega na parede. Beatrice entra. Mostra os dentes, morde o próprio pulso. Abaixa perto de Aléxis. Coloca o pulso na boca de Aléxis. Aléxis abre os olhos e morde. Bebe. Para. Olha para Argo.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Vamos.</default>
 	</talk>
 	<teller>
-		<default>Rust encara Aléxis. Argo e os seus vão embora, assim que Beatrice sai com Aléxis. Virgine se aproxima de Rust.</default>
+		<default>Rust olha para Aléxis. Aléxis se apoia em Beatrice. Saem. As crias de Argo saem. Argo segue. Virgine se aproxima de Rust.</default>
 	</teller>
 	<talk character="Virgine">
 		<default>Gostou dela, não gostou?</default>
 	</talk>
-	<talk character="Rust">
-		<default>Não vai mais tocá-la.</default>
+	<teller>
+		<default>Rust olha para a porta.</default>
+	</teller>
+	<talk character="Virgine">
+		<default>Dessa vez ao menos é alguém que não vai morrer.</default>
 	</talk>
+	<teller>
+		<default>Rust olha para Virgine.</default>
+	</teller>
+	<talk character="Rust">
+		<default>Não vai mais tocar Beatrice.</default>
+	</talk>
+	<teller>
+		<default>Virgine olha ao redor. Seu grupo sai. Ficam apenas Rust e Virgine na sala.</default>
+	</teller>
 	<talk character="Virgine">
 		<default>E o que eu ganho com isso?</default>
 	</talk>
-	<teller>
-		<default>Rust a encosta na parede.</default>
-	</teller>
 	<talk character="Rust">
-		<default>Que tal o que você não teve coragem de me pedir?</default>
+		<default>Não vai ter mais ninguém. E não tento mais ir embora.</default>
+	</talk>
+	<talk character="Virgine">
+		<default>Não é como se tivesse algo no mundo que fosse te tirar de perto de mim.</default>
+	</talk>
+	<talk character="Rust">
+		<default>Se você acreditasse nisso mesmo, não matava todo mundo que eu chego perto.</default>
 	</talk>
 	<teller>
-		<default>Beija a força. Ela cede. 23/09, 15:00. MEAK. Derik, Kat, Michele, Zenon, Estela, Alan, Soraia, Inês, Janaína, Aqua, Beatrice e Aléxis estão na sala.</default>
+		<default>Rust coloca a mão no bracelete.</default>
+	</teller>
+	<talk character="Rust">
+		<default>E não sei o que fez isso, mas não teria feito.</default>
+	</talk>
+	<teller>
+		<default>Virgine franze a sobrancelha.</default>
+	</teller>
+	<talk character="Rust">
+		<default>Você não...</default>
+	</talk>
+	<talk character="Virgine">
+		<default>Tá. Vai ser mais fácil se parar de brincar de roleta russa.</default>
+	</talk>
+	<teller>
+		<default>Dias depois. Tarde. MEAK. Derik, Kat, Michele, Zenon, Estela, Alan, Soraia, Inês, Janaína, Aqua, Beatrice e Aléxis estão na sala.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Beleno então já não volta?</default>
@@ -199,22 +277,25 @@
 		<default>Katerine, Estela, como estão na escola?</default>
 	</talk>
 	<teller>
-		<default>Ninguém entende. Derik pega um caderno e entrega para Zenon.</default>
+		<default>As pessoas se entreolham. Derik respira fundo, vai para trás do balcão, pega um caderno, volta e estende para Zenon.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Pode anotar na nossa frente. Todo mundo já sabe.</default>
 	</talk>
+	<teller>
+		<default>Zenon pega o caderno. Olha para o chão. Olha para Derik.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Não vou lembrar de tudo pra dizer a Mel.</default>
 	</talk>
 	<teller>
-		<default>Zenon fica sem jeito e sai.</default>
+		<default>Zenon sai com o caderno. Volta, pega uma caneta no balcão e sai.</default>
 	</teller>
 	<talk character="Michele">
-		<default>Traduzindo, gente, ele não tinha motivo pra nos chamar aqui, podem voltar pras suas casas.</default>
+		<default>Traduzindo, gente, não tinha motivo pra chamar a gente aqui aqui, podem voltar pras suas casas.</default>
 	</talk>
 	<teller>
-		<default>Todos saem, exceto Beatrice e Derik.</default>
+		<default>As pessoas saem, exceto Beatrice e Derik. Beatrice se joga no sofá. Derik se senta ao lado.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Então o que tenho é uma doença atlante?</default>
@@ -232,9 +313,48 @@
 		<default>Não há livros sobre atlantes aqui, há?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não que eu tenha encontrado. Pode falar com Rust. Ele parece saber.</default>
+		<default>Não que eu tenha encontrado. Pode falar com Rust. Parece saber.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ele desistiu. Não quero que me convença a fazer o mesmo.</default>
+		<default>Rust desistiu. Não quero que me convença a fazer o mesmo.</default>
 	</talk>
+	<teller>
+		<division>Algum tempo, algum lugar</division>
+	</teller>
+	<talk character="Xien">
+		<default>Rust era como Beatrice.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Sim. Mas com anos a mais de vida.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Porque Virgine prendia Rust?</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Porque lutava bem pra caralho. Era pelos ideais. E precisava de qualquer coisa que pudesse lutar junto.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Então logo que soubesse do anel que estava com Aléxis, com certeza voltaria a tentar matar.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Talvez. Não tinha pensado sobre isso.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Ué, achei que sabia de tudo do futuro.</default>
+	</talk>
+	<teller>
+		<default>Xien arregala os olhos.</default>
+	</teller>
+	<talk character="Xien">
+		<default>Você sabe que Virgine não chega a saber do anel.</default>
+	</talk>
+	<teller>
+		<default>Uehfo respira fundo.</default>
+	</teller>
+	<talk character="Uehfo">
+		<default>Você parece que implora.</default>
+	</talk>
+	<teller>
+		<default>Uehfo some. Xien senta no chão.</default>
+	</teller>
 </story>
