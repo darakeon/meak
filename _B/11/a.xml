@@ -1,28 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="11" scene="a">
 	<teller>
-		<default>31/05 (sábado). 9:00. Kat, Derik, Estela, Alan, Zenon, Fábio e Beatrice estão reunidos na sala da MEAK. Mel chega.</default>
+		<default>Manhã de sábado. MEAK. Hall de entrada. Kat, Estela e Derik estão em um sofá. Zenon e Alan estão em outro. Beatrice está atrás do balcão da recepção. Fábio na frente. Mel vem das escadas. Olha para as pessoas.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Isso aqui tá ficando meio cheio. Daqui a pouco precisarei de um megafone pra falar com todos.</default>
+		<default>Isso aqui tá ficando meio cheio. Daqui a pouco vou precisar de megafone pra falar com todo mundo.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Tenho que fazer contato com o Grupo, eles provavelmente ainda não sabem de mim, mas assim que...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não fique tão preocupado. Não estou te expulsando. Nem você, viu, Beatrice?</default>
+		<default>Tenho que fazer contato com o Grupo, provavelmente ainda não sabem de mim, mas assim que...</default>
 	</talk>
 	<teller>
-		<default>Janaína desce a escada. Olha pra todos.</default>
+		<default>Mel olha para Fábio.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Não tô te expulsando.</default>
+	</talk>
+	<teller>
+		<default>Mel olha para Beatrice.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Nem você.</default>
+	</talk>
+	<teller>
+		<default>Janaína desce a escada. Para. Olha para as pessoas.</default>
 	</teller>
 	<talk character="Janaína">
 		<default>Eu juro que não ia sair sem pagar.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Chegou algo ontem pra você.</default>
+		<default>Chegou uma coisa ontem pra você.</default>
 	</talk>
 	<teller>
-		<default>Beatrice pega um envelope grande e entrega a Janaína. Está abre. Olha todos os papéis. Senta-se.</default>
+		<default>Beatrice pega um envelope grande embaixo do balcão. Janaína se aproxima, Beatrice entrega. Janaína abre. Arregala os olhos. Vai passando folhas e olhando. Para.</default>
 	</teller>
 	<talk character="Janaína">
 		<default>Etos me deu as Ilhas.</default>
@@ -37,8 +46,11 @@
 		<default>Então, tecnicamente, não estamos no Brasil?</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Não, estamos, mas é como se fosse uma grande propriedade privada. Os impostos vão todos para as mãos do dono e ele decide tudo por aqui. Nem um centemilésimo da população brasileira sabe que existimos.</default>
+		<default>Não, estamos, mas é como se fosse uma grande propriedade privada. Tem um sistema próprio de venda e aluguel. Nem um centemilésimo da população brasileira sabe que existimos.</default>
 	</talk>
+	<teller>
+		<default>Kat franze a sobrancelha.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Existe centemilésimo?</default>
 	</talk>
@@ -54,8 +66,11 @@
 	<talk character="Alan">
 		<default>Também tive essa impressão, não parece com a filha do...</default>
 	</talk>
+	<teller>
+		<default>Fábio olha para Alan.</default>
+	</teller>
 	<talk character="Fábio">
-		<default>Parece. Mas ela teria mais idade hoje.</default>
+		<default>Parece. Mas teria mais idade hoje.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Tenho dezenove.</default>
@@ -74,25 +89,30 @@
 	</talk>
 	<talk character="Janaína">
 		<default>Eu ia até a casa do Etos, acertar as coisas.</default>
-		<teller>levanta</teller>
+	</talk>
+	<teller>
+		<default>Janaína guarda os papéis no envelope.</default>
+	</teller>
+	<talk character="Janaína">
 		<default>Não é mais a casa dele, mas ainda vou ter que acertar coisas por lá.</default>
-		<teller>pega a bolsa e tira a carteira</teller>
+	</talk>
+	<teller>
+		<default>Janaína tira uma carteira da bolsa.</default>
+	</teller>
+	<talk character="Janaína">
 		<default>Aceitam cartão?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Nós não temos...</default>
 	</talk>
 	<teller>
-		<default>Beatrice volta para trás da bancada. Tira a maquininha.</default>
+		<default>Beatrice pega uma máquina atrás do balcão. Zenon franze a sobrancelha. Beatrice digita na máquina, entrega a Janaína.</default>
 	</teller>
-	<talk character="Bea">
-		<default>Passe-o aqui e digite a senha.</default>
-	</talk>
 	<talk character="Zenon">
 		<default>Ei, quando isso veio parar aqui?!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Estava treinando Michele quando foi instalado.</default>
+		<default>Estava treinando Michele quando instalaram.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>E quando foi encomendado?</default>
@@ -100,6 +120,9 @@
 	<talk character="Bea">
 		<default>Esperava ver ábacos e dinheiro embaixo do colchão?</default>
 	</talk>
+	<teller>
+		<default>---------------------------------</default>
+	</teller>
 	<talk character="Derik">
 		<default>Falando em guardar, eu tava lendo um negócio... Podemos criar uma dimensão para guardarmos as armas e livros. Assim, se houver outra explosão, apenas precisaremos reabrir a porta.</default>
 	</talk>
