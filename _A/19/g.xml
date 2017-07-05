@@ -1,28 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="19" scene="g">
 	<teller>
-		<default>Angely adentra a sala. Mel está se apoiando nele.</default>
+		<default>Angely e Mel entram na sala. Mel se apoia em Angely.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Mel??? Que fizeram com você???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não sei, ele...</default>
+		<default>Um vampiro me drogou. Virou pó já.</default>
 	</talk>
-	<talk character="Kat">
-		<default>Leva ela pro quarto... Pro seu, é claro.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por que, o que tem de errado com...</default>
+	<talk character="Edmont">
+		<default>Mérito de Beatrice.</default>
 	</talk>
 	<teller>
-		<default>Dione e Derik vêm descendo a escada.</default>
+		<default>Mel encara Edmont.</default>
 	</teller>
+	<talk character="Kat">
+		<default>Melhor ir pro quarto de Angely.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Que tem de errado com...</default>
+	</talk>
 	<talk character="Derik">
-		<default>Não, é sua vez de trocar eles!</default>
+		<arrive>Não, é sua vez de trocar!</arrive>
 	</talk>
 	<talk character="Dione">
-		<default>Por favor, Derik, só dessa vez...</default>
+		<arrive>Por favor, Derik, só dessa vez...</arrive>
 	</talk>
 	<talk character="Derik">
 		<default>Dessa, da última, da penúltima...</default>
@@ -31,25 +34,32 @@
 		<default>Angely, Melody, ainda bem que chegaram!</default>
 	</talk>
 	<teller>
-		<default>Angely pega Melody – que não está conseguindo se segurar – no colo e sobe a escada.</default>
+		<default>Mel fraqueja e Angely segura. Mel encara Kat. Sobe a escada. Angely segue.</default>
 	</teller>
 	<talk character="Dione">
 		<default>Ei, volta... Ah, você não é o Edmont?</default>
 	</talk>
 	<teller>
-		<default>Derik olha pra ele e se esconde atrás de Dione.</default>
+		<default>Derik olha pra Edmont, arregala os olhos e se esconde atrás de Dione.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Como ele entrou aqui???</default>
+		<default>Como entrou aqui???</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Com as pernas.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele não veio pra almoçar ninguém...</default>
-		<teller>se vira pra Edmont</teller>
-		<default>Veio?</default>
+		<default>Não veio pra almoçar ninguém...</default>
 	</talk>
+	<teller>
+		<default>Kat franze a testa e olha para Edmont.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Acho.</default>
+	</talk>
+	<teller>
+		<default>Kat olha na direção da escada.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Não, vim ver se esse tal ritual não vai prejudicar Mel.</default>
 	</talk>
@@ -60,28 +70,43 @@
 		<default>Kat, vem comigo trocar as fraudas?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Mas não era vez da...</default>
+		<default>Mas não era vez de...</default>
 	</talk>
 	<teller>
-		<default>Zenon adentra a sala, tira o capuz (era dia) e pousa, junto com o livro, em cima da mesa da sala – Não antes de encarar Edmont.</default>
+		<default>Zenon na sala, tira um capuz e pousa, junto com o livro, encara Edmont e pousa capuz e licro na mesa da sala.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Tá, se estão de má vontade, eu troco! Não quero que machuquem meus bebês.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Seus?!</default>
+		<default>Tá, se estão de má vontade, eu troco! Não quero que machuquem meus bebês!</default>
 	</talk>
 	<teller>
 		<default>Derik sobe a escada.</default>
 	</teller>
+	<talk character="Zenon">
+		<default>Derik teve filhos enquanto a gente tava fora?</default>
+	</talk>
 	<talk character="Kat">
-		<default>Peraí, Derik! Sabe como trocar fraudas?</default>
+		<default>A gente ficou fora três meses.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Vamo’lá.</default>
+		<default>Se for na forma de cachorro, ele poderia...</default>
 	</talk>
 	<teller>
-		<default>Os dois sobem também.</default>
+		<default>Kat franze as sobrancelhas, com a boa entreaberta.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Derik!!!</default>
+	</talk>
+	<teller>
+		<default>Kat sobe a escada.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Esse sim seria um nível novo de não-monogamia.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Eu só percebi o quanto isso era nojento depois que tinha saído.</default>
+	</talk>
+	<teller>
+		<default>Zenon sobe atrás de Katerine.</default>
 	</teller>
 	<talk character="Dione">
 		<default>Então, você é um vampiro?</default>
@@ -96,7 +121,7 @@
 		<default>Grande parte do que dizem é mentira.</default>
 	</talk>
 	<talk character="Dione">
-		<default>Você chegou a fazer parte da...</default>
+		<default>Você chegou a fazer parte da agência?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Ajudar as pessoas não é pra mim.</default>
@@ -108,16 +133,16 @@
 		<default>É diferente.</default>
 	</talk>
 	<talk character="Dione">
-		<default>Pensei que os vampiros matassem sua família inteira...</default>
+		<default>Pensei que os vampiros matassem a família inteira...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>A maioria sim.</default>
+		<default>Aparentemente acontece bastante. A maioria talvez.</default>
 	</talk>
 	<talk character="Dione">
 		<default>E quantos formam a minoria?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Eu.</default>
+		<default>Que eu conheça, eu.</default>
 	</talk>
 	<talk character="Dione">
 		<default>Isso é... Muito animador. E Zenon?</default>
@@ -129,30 +154,32 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>De tarde, Angely vai até o quarto que pertence à Mel. Quando vai abrir a porta, Zenon está saindo.</default>
+		<first>Tarde. Angely coloca a mão na maçaneta do quarto que pertence a Mel. Zenon abre antes e sai.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Tá todo mundo dormindo, não vamos fazer barulho.</default>
 	</talk>
 	<teller>
-		<default>Eles descem. Mel está na cozinha.</default>
+		<default>Descem. Vão até a cozinha.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Já comeu?</default>
+		<default>Comeu tudo? Não jogou fora?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vê se pode, Zenon, só faltou ele querer me dar comida na boca!</default>
+		<default>Só falta querer me dar comida na boca. Comi sim. Vai verificar o lixo?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Bom, então vamos.</default>
 	</talk>
 	<teller>
-		<default>Eles vão até a sala e tudo que encontram é um bilhete:</default>
+		<default>Mel vai até a sala. Há um bilhete grudado na TV.</default>
 		<letter>Nos encontrem no endereço abaixo.</letter>
-		<default>Eles vão até o endereço: um galpão. Edmont segura Dione.</default>
+	</teller>
+	<teller>
+		<first>Galpão. Mel, Angely e Zenon entram. Dione tem uma corda amarrando seus braços, está em uma cadeira. Edmont está atrás, com uma espada..</first>
 	</teller>
 	<talk character="Edmont">
-		<default>Até que enfim, eu já tava me cansando.</default>
+		<default>Até que enfim, eu já tava cansando.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Sabia que você...</default>
@@ -161,22 +188,25 @@
 		<default>Nem mais uma palavra. Mel, vem comigo.</default>
 	</talk>
 	<teller>
-		<default>Mel olha pra Zenon.</default>
+		<default>Mel dá um passo, Zenon segura. Mel encara Zenon.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Por favor, não...</default>
 	</talk>
+	<teller>
+		<default>Mel puxa o braço.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Ele vai matá-la.</default>
+		<default>Não vou levar a vida de Dione na consciência. Posso me defender.</default>
 	</talk>
 	<teller>
-		<default>Angely olha nos olhos de seu irmão e vê algo errado. Mel vai até Edmont. Ele amarra os punhos dela e leva embora. Deixa Dione. Zenon a desamarra. Angely está distraído.</default>
+		<default>Angely olha nos olhos de Edmont. Franze a testa. Mel vai até Edmont. Edmont amarra os punhos de Mel. Saem. Angely acompanha, com os olhos, ainda com a testa franzida, e a respiração suspensa. Dione se levanta da cadeira. Zenon vai até Dione e desamarra.</default>
 	</teller>
 	<talk character="Dione">
-		<default>Obrigado.</default>
+		<default>Obrigada.</default>
 	</talk>
 	<teller>
-		<default>Zenon toma com um objeto na cabeça. Desmaia. Dione vai atacar Angely também, mas ele a segura.</default>
+		<default>Zenon vai na direção da porta por onde Mel e Edmont saíram, mas Dione acerta-lhe com a cadeira. Zenon desmaia. Angely pega a cadeira de Dione. Dione olha ao redor.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Que aconteceu?</default>
@@ -185,46 +215,46 @@
 		<default>Eu sei que o planeta de vocês explodiu.</default>
 	</talk>
 	<talk character="Angely">
-		<default>E o que isso tem a ver?...</default>
+		<default>E o que isso tem a ver?</default>
 	</talk>
 	<talk character="Dione">
-		<default>Não leu o livro? Vocês precisavam ir à terra natal de vocês...</default>
+		<default>Não leu o livro? Vocês precisavam ir a terra natal de vocês...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não pode ser...</default>
 	</talk>
 	<teller>
-		<default>Angely a solta.</default>
+		<default>Angely dá um passo para trás.</default>
 	</teller>
 	<talk character="Dione">
 		<default>Mas é.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ele vai matá-la?</default>
+		<default>Edmont vai matar?</default>
 	</talk>
 	<teller>
-		<default>Já longe dali, Edmont encosta Mel numa parede.</default>
+		<first>Mel está contra a parede. Edmont segura Mel pelos braços, mas as mãos não têm mais a corda. Mel tem lágrimas nos olhos.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Entende por que estou fazendo isso?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Me solta!</default>
+		<default>Me solta! Por favor!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Então vai ter que ser sem o seu consentimento.</default>
+		<default>Não posso, e sabe disso!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Eu nunca vou te perdoar se fizer isso!</default>
 	</talk>
 	<teller>
-		<default>Mel fica com os olhos em lágrimas. Edmont beija a testa dela, depois a morde. Duas semanas depois, no hospital, Angely entra no quarto de Mel.</default>
+		<default>Edmont beija a testa de Mel. Morde-lhe o pescoço. Mel grita. No galpão, Angely cai no chão de joelhos. Dione balança a cabeça para os lados. Sai correndo. Angely senta sobre os calcanhares. Olha para cima. Cai de lado e se encolhe.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Terá outras chances...</default>
-	</talk>
+	<teller>
+		<first>Hospital.</first>
+	</teller>
 	<talk character="Mel">
-		<default>Ele não tinha esse direito. Fez isso por vingança!</default>
+		<default>Não tinha esse direito. Fez isso por vingança.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não faria... Desculpa...</default>
@@ -233,15 +263,66 @@
 		<default>Por que você pede tanta desculpa em nome do Edmont?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não sei. Eu tentei evitar...</default>
+		<default>Não sei. Eu não consegui evitar...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você é um anjo. O dia que eu descobrir como te separar desse demônio, mando ele pro inferno.</default>
+		<default>Minha vida não era mais importante. E quem tinha que decidir isso era eu.</default>
+	</talk>
+	<teller>
+		<default>Angely baixa a cabeça.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Você é um anjo. O dia que eu descobrir como te separar desse demônio, mando pro inferno.</default>
 	</talk>
 	<talk character="Angely">
 		<default>E se não der?</default>
 	</talk>
 	<teller>
-		<default>Silêncio.</default>
+		<default>Mel olha para a janela.</default>
 	</teller>
+	<teller>
+		<division>Algum tempo, algum lugar</division>
+	</teller>
+	<teller>
+		<default>Uehfo está olhando para longe, de costas para Xien.</default>
+	</teller>
+	<talk character="Xien">
+		<default>Eu não tinha o direito de fazer o que fiz.</default>
+	</talk>
+	<teller>
+		<default>Uehfo vira-se.</default>
+	</teller>
+	<talk character="Uehfo">
+		<default>Sabe quem é você?</default>
+	</talk>
+	<talk character="Xien">
+		<default>Se eu sou Edmont, não podia ter feito. Se sou Angely, não tinha o direito de deixar Edmont fazer.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Tem razão. Agora.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Mel ia morrer pelas mãos da criança?</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Posso te dar um soco, se fizer você se sentir melhor.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Não pagaria o que fiz.</default>
+	</talk>
+	<teller>
+		<default>Uehfo dá um soco em Xien, Xien cai no chão.</default>
+	</teller>
+	<talk character="Uehfo">
+		<default>Agora podemos continuar.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Podemos.</default>
+	</talk>
+	<teller>
+		<default>Uehfo estende a mão para Xien, Xien pega e Uehfo levanta Xien, ficando com o rosto a menos de um palmo do de Xien.</default>
+	</teller>
+	<talk character="Uehfo">
+		<default>Não era uma pergunta.</default>
+	</talk>
 </story>
