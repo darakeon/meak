@@ -1,0 +1,35 @@
+﻿@model Presentation.Models.BaseModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+
+    <link href="@Url.Content("~/Assets/images/favicon.png")" rel="icon" type="image/png" />
+
+    @if (Model.Css != null)
+    {
+        @Html.Partial("Partial/Css", Model.Css)
+    }
+
+    @Html.Partial("Partial/Js")    
+</head>
+
+<body>
+    <div class="login">
+        @Html.Partial("Partial/LogOn")
+    </div>
+
+    <div class="head">
+        @Html.Partial("Partial/Head")
+    </div>
+
+    <div class="menu">
+        @Html.Partial("Partial/Menu")
+    </div>
+
+    <div class="main lightback hidden">
+        @RenderBody()
+    </div>
+</body>
+</html>

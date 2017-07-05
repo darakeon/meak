@@ -1,0 +1,28 @@
+﻿@model Presentation.Models.SeasonEditEpisodeModel
+
+<div class="suggestionHolder">
+    <div id="character">
+        <ul class="suggestionList lightback">
+            @foreach (var character in Model.CharacterList)
+            {
+                <li class="suggestionItem">@character</li>
+            }
+        </ul>
+    </div>
+    <div id="talkStyle">
+        <ul class="suggestionList lightback">
+            @foreach (var talkStyle in Model.TalkStyleList)
+            {
+                <li class="suggestionItem">@talkStyle</li>
+            }
+        </ul>
+    </div>
+    <div id="tellerStyle">
+        <ul class="suggestionList darkback">
+            @foreach (var tellerStyle in Model.TellerStyleList)
+            {
+                <li class="suggestionItem">@tellerStyle</li>
+            }
+        </ul>
+    </div>
+</div>

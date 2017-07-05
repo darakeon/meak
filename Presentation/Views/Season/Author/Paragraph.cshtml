@@ -1,0 +1,52 @@
+﻿@model Presentation.Models.SeasonEditEpisodeModel
+           
+<div class="paragraph @Model.CurrentParagraph.ToString().ToLower()" id="Paragraph@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)">
+            
+    <span class="suggestionCharacter">
+        <adder class="adderTalk" caller="@(Model.CurrentParagraph)" type="Paragraph" subtype="Talk" paragraph="@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)" onclick="AddInputItem(this)">+</adder>
+        <adder class="adderTeller" caller="@(Model.CurrentParagraph)" type="Paragraph" subtype="Teller" paragraph="@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)" onclick="AddInputItem(this)">+</adder>
+    </span>
+
+    @if (Model.CurrentParagraph == Structure.Enums.eParagraph.Talk)
+    {
+        <span class="suggestionCharacter">
+            @Html.TextBoxFor(m => m.Story.TalkList[Model.TalkCounter].Character, 
+                new { 
+                    @class = "darkback auxi", 
+                    rel = ("character_" + Model.TalkCounter), 
+                    suggestion = "character", 
+                    onfocus = "GetSuggestionBox(this)", 
+                    onblur = "ExitSuggestionBox(this)" ,
+                    tabIndex = Model.TabIndex +
+                        2 * Model.Story.TalkList[Model.TalkCounter].Pieces.Count
+                })
+
+            <div class="suggestionBox" id="character_@(Model.TalkCounter)"></div>
+        </span>
+
+        for (var p = 0; p < Model.Story.TalkList[Model.TalkCounter].Pieces.Count; p++)
+        {
+            Model.PieceCounter = p;
+            
+            @Html.Partial("Author/TalkPiece");
+        }
+
+        Model.TalkCounter++;
+        Model.TabIndex++;
+    }
+
+    else if (Model.CurrentParagraph == Structure.Enums.eParagraph.Teller)
+    {
+        for (var p = 0; p < Model.Story.TellerList[Model.TellerCounter].Pieces.Count; p++)
+        {
+            Model.PieceCounter = p;
+            
+            @Html.Partial("Author/TellerPiece");
+        }
+        
+        Model.TellerCounter++;
+    }
+    
+    @Html.HiddenFor(m => m.Story.ParagraphTypeList[Model.ParagraphCounter])
+    
+</div>

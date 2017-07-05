@@ -1,0 +1,8 @@
+﻿@model Presentation.Models.General.CssModel
+           
+@{
+    foreach (var file in Model.Files)
+    {
+        <link href="@Url.Content("~/Assets/css/" + file.Name)" rel="stylesheet" type="text/css" media="@file.Media" />
+    }
+}

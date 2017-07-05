@@ -1,0 +1,33 @@
+.main input
+{
+	background: none;
+}
+
+.main input, .main select
+{
+	border: none;
+	text-align: inherit;
+	font: inherit;
+	color: inherit;
+	margin: 3px 0px;
+}
+
+
+
+.main input.auxi
+{
+	width: 70px;
+}
+
+
+
+.main button
+{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	left: 0px;
+	padding: 5px;
+	font-size: 150%;
+	border: none;
+}

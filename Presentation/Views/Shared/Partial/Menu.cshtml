@@ -1,0 +1,37 @@
+﻿@model Presentation.Models.BaseModel
+
+@{
+    var isAuthor = Structure.Helpers.UrlUserType.IsAuthor(Request.Url);
+    
+    var route = isAuthor ? "Author" : "Default";
+
+    if (isAuthor)
+    {
+        <div class="header lightback">
+            @Html.RouteLink("Add Episode", route, new { action = "AddEpisode" })
+        </div>
+        <br /><br />
+    }
+}
+    
+@foreach (var season in Model.Menu.SeasonList)
+{
+    <div class="header lightback">
+        @Html.RouteLink("Temporada " + season, route, new { action = "Index", controller = "Season", season = season })
+    </div>
+
+    <div class="body darkback">
+        @foreach (var episode in season.EpisodesList)
+        {
+            @Html.RouteLink(
+                episode.ID,
+                route,
+                new { controller = "Season", season = season, action = "Episode", episode = episode },
+                new { @class = "item" }
+            )
+            @(" ")
+        }
+    </div>
+}
+
+@Html.Partial("Partial/Legend");

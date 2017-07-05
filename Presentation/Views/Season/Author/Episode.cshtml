@@ -1,0 +1,58 @@
+﻿@model Presentation.Models.SeasonEditEpisodeModel
+
+@{
+    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var adderPage = Url.Action("Adder");
+}
+
+<script type="text/javascript">var adderPage = '@adderPage';</script>
+
+<script src="@Url.Content("~/Assets/js/Author/Inputs.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Assets/js/Author/Suggestion.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Assets/js/Author/Adder.js")" type="text/javascript"></script>
+
+<script src="@Url.Content("~/Assets/js/Author/General.js")" type="text/javascript"></script>
+
+
+
+@if (@Model.Prev != null)
+{
+    <div class="navigation prevEp">
+        <a href="@Url.RouteUrl("Default", new { controller = "Season", season = Model.Prev.Season, action = "Episode", episode = Model.Prev.Episode })">
+            <img alt="@Model.Prev.Season@Model.Prev.Episode" src="@Url.Content(@"~/Assets/images/Prev.gif")" />
+        </a>
+    </div>
+}
+
+
+@using (Html.BeginForm())
+{
+    <button type="submit" class="darkback" id="save">Salvar</button>
+    
+    @Html.Partial("Suggestion")
+        
+    <p class="title">
+        @Html.TextBoxFor(m => m.Story.Title)
+    </p>
+
+   for (var p = 0; p < Model.Story.ParagraphTypeList.Count; p++)
+   {
+       Model.ParagraphCounter = p;
+        
+        @Html.Partial("Author/Paragraph")
+   }
+}
+
+@if (@Model.Next != null)
+{
+    <div class="navigation nextEp">
+        <a href="@Url.RouteUrl("Default", new { controller = "Season", season = Model.Next.Season, action = "Episode", episode = Model.Next.Episode })">
+            <img alt="@Model.Next.Season@Model.Next.Episode" src="@Url.Content(@"~/Assets/images/next.gif")" />
+        </a>
+    </div>
+}
+
+<p class="sign">
+    <img alt="Handhara Akeon" src="@Url.Content(@"~/Assets/images/sign.gif")" />
+</p>

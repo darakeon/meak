@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95183A9E-DC9C-48FF-90B4-DE7507D5DF06}</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentation</RootNamespace>
+    <AssemblyName>Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ak.MVC">
+      <HintPath>..\Library\Ak\Ak.MVC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages" />
+    <Reference Include="System.Web.Helpers" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\css\Author\screen_AddEpisode.css" />
+    <Content Include="Assets\css\Author\screen_Adder.css" />
+    <Content Include="Assets\css\Author\screen_Suggestion.css" />
+    <Content Include="Assets\css\Author\screen_Form.css" />
+    <Content Include="Assets\css\Author\screen_LogOn.css" />
+    <Content Include="Assets\css\screen_Legend.css" />
+    <Content Include="Assets\css\Season.css" />
+    <Content Include="Assets\css\Main.css" />
+    <Content Include="Assets\css\print_Print.css" />
+    <Content Include="Assets\css\screen_Navigation.css" />
+    <Content Include="Assets\css\Episode.css" />
+    <Content Include="Assets\css\screen_Menu.css" />
+    <Content Include="Assets\css\screen_Head.css" />
+    <Content Include="Assets\css\screen_Main.css" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\SeasonController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\Adder.cs" />
+    <Compile Include="Helpers\EpisodeNavigation.cs" />
+    <Compile Include="Helpers\EpisodeEditionHelper.cs" />
+    <Compile Include="Helpers\StoriesAuthorizeAttribute.cs" />
+    <Compile Include="Models\BaseModel.cs" />
+    <Compile Include="Models\SeasonAddEpisodeModel.cs" />
+    <Compile Include="Models\SeasonEditEpisodeModel.cs" />
+    <Compile Include="Models\ErrorModel.cs" />
+    <Compile Include="Models\General\CssModel.cs" />
+    <Compile Include="Models\General\LogOnModel.cs" />
+    <Compile Include="Models\General\MenuModel.cs" />
+    <Compile Include="Helpers\SeasonEpisode.cs" />
+    <Compile Include="Models\SeasonEpisodeModel.cs" />
+    <Compile Include="Models\SeasonIndexModel.cs" />
+    <Compile Include="Models\SeasonSeasonModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\css\screen_Back.css" />
+    <Content Include="Assets\images\arms.gif" />
+    <Content Include="Assets\images\background\01.jpg" />
+    <Content Include="Assets\images\background\02.jpg" />
+    <Content Include="Assets\images\background\03.jpg" />
+    <Content Include="Assets\images\background\04.jpg" />
+    <Content Include="Assets\images\background\05.jpg" />
+    <Content Include="Assets\images\background\06.jpg" />
+    <Content Include="Assets\images\background\07.jpg" />
+    <Content Include="Assets\images\boxes\dark_background.jpg" />
+    <Content Include="Assets\images\boxes\light_background.jpg" />
+    <Content Include="Assets\images\favicon.png" />
+    <Content Include="Assets\images\logo.gif" />
+    <Content Include="Assets\images\next.gif" />
+    <Content Include="Assets\images\prev.gif" />
+    <Content Include="Assets\images\sign.gif" />
+    <Content Include="Assets\js\AjustBoxes.js" />
+    <Content Include="Assets\js\Author\Adder.js" />
+    <Content Include="Assets\js\Author\Inputs.js" />
+    <Content Include="Assets\js\Author\General.js" />
+    <Content Include="Assets\js\Back.js" />
+    <Content Include="Assets\js\Author\Suggestion.js" />
+    <Content Include="Assets\js\Legend.js" />
+    <Content Include="Assets\js\lib\NumericValue.js" />
+    <Content Include="Assets\js\lib\Scale.js" />
+    <Content Include="Assets\js\General.js" />
+    <Content Include="Assets\js\lib\StringExtension.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Assets\css\screen_Site.css" />
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Structure\Structure.csproj">
+      <Project>{9A3430F3-6A6D-4D21-A4F0-F443725341CD}</Project>
+      <Name>Structure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Season\Episode.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Season\Season.cshtml" />
+    <Content Include="Views\Season\Author\Episode.cshtml" />
+    <Content Include="Views\Season\Author\TalkPiece.cshtml" />
+    <Content Include="Views\Season\Author\TellerPiece.cshtml" />
+    <Content Include="Views\Season\Author\Paragraph.cshtml" />
+    <Content Include="Views\Season\Intro1.cshtml" />
+    <Content Include="Views\Shared\Partial\Menu.cshtml" />
+    <Content Include="Views\Shared\Partial\Head.cshtml" />
+    <Content Include="Views\Shared\Partial\Css.cshtml" />
+    <Content Include="Views\Shared\Partial\Legend.cshtml" />
+    <Content Include="Views\Shared\Partial\LogOn.cshtml" />
+    <Content Include="Views\Shared\Partial\Js.cshtml" />
+    <Content Include="Views\Season\Suggestion.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Season\Intro2.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Season\Author\AddEpisode.cshtml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1176</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,67 @@
+﻿@model Presentation.Models.SeasonEpisodeModel
+
+@{
+    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Int32 talkCounter = 0;
+    Int32 tellerCounter = 0;
+}
+
+
+@if (@Model.Prev != null)
+{
+    <div class="navigation prevEp">
+        <a href="@Url.RouteUrl("Default", new { controller = "Season", season = Model.Prev.Season, action = "Episode", episode = Model.Prev.Episode })">
+            <img alt="@Model.Prev.Season@Model.Prev.Episode" src="@Url.Content(@"~/Assets/images/Prev.gif")" />
+        </a>
+    </div>
+}
+
+<p class="title">
+    @Model.Story.Title
+</p>
+
+@foreach (var paragraph in Model.Story.ParagraphTypeList)
+{
+    <div class="paragraph @paragraph.ToString().ToLower()">
+        @if (@paragraph == Structure.Enums.eParagraph.Talk)
+        {
+            @("– ")
+            
+            foreach (var piece in Model.Story.TalkList[talkCounter].Pieces)
+            {
+                if (piece.Style == Structure.Enums.eTalkStyle.Teller) { @(" – ") }
+                
+                <span class="talk_@(piece.Style)">@piece.Text</span>
+
+                if (piece.Style == Structure.Enums.eTalkStyle.Teller) { @(" – ") }
+            }
+            
+            @(" (" + Model.Story.TalkList[talkCounter].Character + ")")
+        
+            talkCounter++;
+        }
+        else if (@paragraph == Structure.Enums.eParagraph.Teller)
+        {
+            foreach (var piece in Model.Story.TellerList[tellerCounter].Pieces)
+            {
+                <div class="teller_@(piece.Style)">@piece.Text</div>
+            }
+
+            tellerCounter++;
+        }
+    </div>
+}
+
+@if (@Model.Next != null)
+{
+    <div class="navigation nextEp">
+        <a href="@Url.RouteUrl("Default", new { controller = "Season", season = Model.Next.Season, action = "Episode", episode = Model.Next.Episode })">
+            <img alt="@Model.Next.Season@Model.Next.Episode" src="@Url.Content(@"~/Assets/images/next.gif")" />
+        </a>
+    </div>
+}
+
+<p class="sign">
+    <img alt="Handhara Akeon" src="@Url.Content(@"~/Assets/images/sign.gif")" />
+</p>

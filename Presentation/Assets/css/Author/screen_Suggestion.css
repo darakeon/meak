@@ -1,0 +1,44 @@
+.suggestionHolder
+{
+	display: none;
+}
+
+.paragraph .suggestionBox
+{
+	position: relative;
+}
+
+.suggestionCharacter
+{
+	float: right;
+}
+
+.suggestionCharacter .suggestionList
+{
+	text-align: right;
+	right: 0px;
+	left: auto !important;
+}
+
+.paragraph .lightback
+{
+	border: inset #000 1px;
+}
+
+
+.paragraph .suggestionList
+{
+	padding: 0px 5px;
+	margin: -3px 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	white-space: nowrap;
+}
+
+.paragraph .suggestionItem
+{
+	list-style: none;
+	cursor: pointer;
+}

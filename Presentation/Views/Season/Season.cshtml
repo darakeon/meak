@@ -1,0 +1,24 @@
+﻿@model Presentation.Models.SeasonSeasonModel
+
+@{
+    ViewBag.Title = String.Format("MEAK – Temporada {0}", Model.Season);
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p class="title">
+    Temporada @Model.Season
+</p>
+
+@foreach (var episode in Model.EpisodeList)
+{
+    <div class="seasonItemList">
+        <a href="@Url.Action("Episode", "Season", new { season = Model.Season, episode = episode })">
+            <span class="epCode">@(episode):</span>
+            <span class="epTitle">@episode.Title</span>
+        </a>
+    </div>
+}
+
+<p class="sign">
+    <img alt="Handhara Akeon" src="@Url.Content(@"~/Assets/images/sign.gif")" />
+</p>
