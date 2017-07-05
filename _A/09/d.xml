@@ -4,7 +4,7 @@
 		<default>Os dois vão até a casa.</default>
 	</teller>
 	<talk character="Íris">
-		<default>Este é Ky, meu irmão.</default>
+		<default>Ky, meu irmão.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Melody.</default>
@@ -13,7 +13,7 @@
 		<default>Posso te chamar de Mel?</default>
 	</talk>
 	<teller>
-		<default>Ky disfarça a voz.</default>
+		<default>disfarça a voz</default>
 	</teller>
 	<talk character="Mel">
 		<default>Claro.</default>
@@ -22,7 +22,7 @@
 		<default>Saturn?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Exatamente.</default>
+		<default>Sim.</default>
 	</talk>
 	<talk character="Íris">
 		<default>Então acho que não preciso dizer o resto dos nomes.</default>
@@ -31,10 +31,10 @@
 		<default>Claro que não, perdi uma namorada por causa deles.</default>
 	</talk>
 	<talk character="Talita">
-		<default>Oi, Ky.</default>
+		<arrive>Oi, Ky.</arrive>
 	</talk>
 	<talk character="Ky">
-		<default>Oi. Já vou avisando que partiremos de madrugada. Estejam acordados.</default>
+		<default>Partiremos de madrugada. Estejam acordados.</default>
 	</talk>
 	<talk character="Talita">
 		<default>Kat, vamos até o lago de novo?</default>
@@ -58,31 +58,16 @@
 		<default>Você pode aproveitar a paz da natureza, lugar tão calmo como esse não se encontra na cidade.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Está me convidando?</default>
+		<default>Moramos em um lugar afastado.</default>
 	</talk>
 	<talk character="Ky">
-		<default>Se você aceitar.</default>
+		<default>Eu não. Gosto de andar por aqui. Você vem?</default>
 	</talk>
 	<teller>
-		<default>Mel sai com Ky.</default>
+		<default>Mel e Ky saem.</default>
 	</teller>
-	<talk character="Edmont">
-		<default>Legal, agora ficamos aqui moscando.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Eu estou aqui moscando desde os vinte e cinco.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Cartas de novo?</default>
-	</talk>
-	<talk character="Íris">
-		<default>Acho que seu irmão não gostou do meu irmão.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ele esqueceu que nossa irmã tem cinco anos a mais que nós. Não tem problema, jogamos sozinhos.</default>
-	</talk>
 	<teller>
-		<default>Entardece. Ky e Mel estão na floresta.</default>
+		<first>Entardece. Ky e Mel estão na floresta.</first>
 	</teller>
 	<talk character="Ky">
 		<default>E você nunca pensou em fazer carreira solo?</default>
@@ -91,15 +76,13 @@
 		<default>Não, é legal tocar com meus irmãos.</default>
 	</talk>
 	<talk character="Ky">
-		<default>Tá vendo aquele pássaro ali?</default>
-		<teller>Ky aponta um galho</teller>
-		<default>A espécie dele tava ameaçada em dois mil e doze. Agora só existem aqui.</default>
+		<default>Sabe, aqui é meio reserva. Se conseguir não fazer barulho a noite, tem bastante coisa para se ver.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Talita parece meio intimidada com você.</default>
 	</talk>
 	<talk character="Ky">
-		<default>É que uma vez eu tentei beijar ela e acabei assustando a menina.</default>
+		<default>É que uma vez eu bebi demais e ela acabou ficando assustada.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Quantos anos você tem?</default>
@@ -120,13 +103,13 @@
 		<default>Eu queria falar de você...</default>
 	</talk>
 	<teller>
-		<default>Mel pára e olha pra ele. Ele a encosta na árvore.</default>
+		<default>Mel pára e olha pra ele. Ele a encosta devagar na árvore.</default>
 	</teller>
 	<talk character="Ky">
 		<default>...do seus cabelos, dos seus olhos, de sua boca...</default>
 	</talk>
 	<teller>
-		<default>Ele vai beijá-la, mas ela devia e passa por baixo do braço dele.</default>
+		<default>Ele vai beijá-la, mas ela desvia e passa por baixo do braço dele.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Devia melhorar suas cantadas. Parece coisa pra pegar adolescente virgem.</default>
@@ -135,49 +118,13 @@
 		<default>Que tal isso?</default>
 	</talk>
 	<teller>
-		<default>Ky puxa Mel e a beija. Encosta na árvore e continua beijando. Desce pro pescoço e depois olha nos olhos dela.</default>
+		<default>Ky puxa Mel e a encosta de novo na árvore. Beija-a. Passa a beijar o pescoço. Ela o afasta.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Acho que agora sei por que assustou ela.</default>
-	</talk>
-	<talk character="Ky">
-		<default>Você disse que eu não sabia passar cantada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Falei pra melhorar.</default>
-	</talk>
-	<talk character="Ky">
-		<default>Você gostou.</default>
-	</talk>
-	<teller>
-		<default>Mel joga-o no chão e sai.</default>
-	</teller>
-	<talk character="Ky">
-		<default>Você também tem o que melhorar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quer outro?</default>
-	</talk>
-	<talk character="Ky">
-		<default>Quando alguém diz uma verdade que você não gostou, agressão física é confirmação.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Verdade? Você falou uma grande besteira, isso sim!</default>
-	</talk>
-	<talk character="Ky">
-		<default>Mas ficou parecendo que falei uma verdade por causa do empurrão.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que você sabe sobre mim???</default>
-	</talk>
-	<talk character="Ky">
-		<default>Posso não saber o que as mulheres querem dizer com isso, mas sei o que parece que elas quiseram dizer pra nós homens.</default>
-	</talk>
 	<talk character="Mel">
 		<default>É melhor nós voltarmos.</default>
 	</talk>
 	<teller>
-		<default>Eles voltam pra cabana.</default>
+		<first>Na cabana.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Trinca! Ganhei!</default>
@@ -207,7 +154,7 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Eles vão até o quarto. Angely fica atento ao que eles falam.</default>
+		<default>Eles vão até o quarto. Angely os olha saindo, pelo canto do olho.</default>
 	</teller>
 	<talk character="Ky">
 		<default>A família dela tá aumentando cada vez mais o recompensa.</default>
@@ -240,7 +187,7 @@
 		<default>Mas ela ia fugir com você e ia ter menos ainda!</default>
 	</talk>
 	<talk character="Ky">
-		<default>É diferente! Ela não escolheu a esse lugar, nem a você!</default>
+		<default>É diferente! Ela não escolheu a esse lugar, nem te escolheu!</default>
 	</talk>
 	<talk character="Íris">
 		<default>Diferente por que? Por que você é homem???</default>
@@ -287,6 +234,9 @@
 	<talk character="Talita">
 		<default>Estão brigando?</default>
 	</talk>
+	<teller>
+		<default>Ky vira para o canto. Íris baixa a cabeça. Olha para Talita.</default>
+	</teller>
 	<talk character="Íris">
 		<default>Não, nós só estamos conversando.</default>
 	</talk>
@@ -303,10 +253,10 @@
 		<default>A hora que quiser.</default>
 	</talk>
 	<teller>
-		<default>Mel vira para Íris.</default>
+		<default>Íris chega na sala.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Bom, obrigado por ter nos ajudado.</default>
+		<default>Obrigado pela ajuda.</default>
 	</talk>
 	<talk character="Íris">
 		<default>De nada.</default>
@@ -315,7 +265,10 @@
 		<default>Adeus.</default>
 	</talk>
 	<teller>
-		<default>Os cinco saem. Mel vai na frente no carro. Em algumas horas eles estão na casa de Kat. 10:00.</default>
+		<default>Os cinco saem.</default>
+	</teller>
+	<teller>
+		<first>10h00. Eles chegam a casa de Katerine.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Obrigado por ter nos trazido aqui.</default>
@@ -323,11 +276,8 @@
 	<talk character="Ky">
 		<default>Eu tô com um pouco de sede...</default>
 	</talk>
-	<talk character="Kat">
-		<default>Entra aí.</default>
-	</talk>
 	<teller>
-		<default>Ky entra. Agatha acorda em seu quarto e desce a escada correndo. Agatha corre e abraça Edmont.</default>
+		<default>Mel vai até a cozinha e Ky a segue. Agatha acorda em seu quarto e desce a escada correndo. Agatha corre e abraça Edmont.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Que bom que vocês estão bem!</default>
@@ -345,7 +295,7 @@
 		<default>A imprensa descobre qualquer coisa.</default>
 	</talk>
 	<teller>
-		<default>Mel vai até a cozinha com Ky, pegar um copo d’água.</default>
+		<default>Cozinha.</default>
 	</teller>
 	<talk character="Ky">
 		<default>Quem é essa?</default>
@@ -359,14 +309,11 @@
 	<talk character="Mel">
 		<default>Mais ou menos.</default>
 	</talk>
-	<teller>
-		<default>Edmont chega na cozinha.</default>
-	</teller>
 	<talk character="Edmont">
-		<default>Mel, esquecemos de um detalhe: era pra estarmos na Europa!</default>
+		<arrive>Mel, esquecemos de um detalhe. Era pra estarmos na Europa.</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Edmont, deixa as pessoas pensarem que morremos por hoje. Amanhã chamamos algum repórter e contamos que estamos vivos.</default>
+		<default>Ai, deixa as pessoas pensarem que morremos por hoje. Amanhã chamamos algum repórter e contamos que estamos vivos.</default>
 	</talk>
 	<talk character="Kat">
 		<arrive>Ela tá certa, por enquanto só os conhecidos ficam sabendo que estamos bem.</arrive>
@@ -384,7 +331,7 @@
 		<default>Sei lá, deu crise de choro nela.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Deve ser o remédio.</default>
+		<default>Saco.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Vai lá.</default>
@@ -396,7 +343,7 @@
 		<default>Bom, eu não quero queimar a mão.</default>
 	</talk>
 	<teller>
-		<default>Kat sai da cozinha. Angely pega sobre a mesa da sala um jornal. Começa a folheá-lo e encontra a notícia da queda do avião. No canto da página outra notícia.</default>
+		<default>Kat sai da cozinha. Angely pega um jornal na mesa da sala. Começa a folhear e encontra a notícia da queda do avião. No canto da página outra notícia.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Kat, vem cá.</default>
@@ -405,19 +352,19 @@
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Agora acabaram-se as expectativas de encontrar Talita, mas só da parte da polícia. Há boatos de que os pais da menina tenham contratado um detetive particular.</default>
+		<read>Agora acabaram-se as expectativas de encontrar Talita, mas só da parte da polícia. Há boatos de que os pais da menina tenham contratado um detetive particular.</read>
 	</talk>
 	<talk character="Kat">
 		<default>Acha que é a Talita que conhecemos?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Tenho certeza. Encontrei recortes naquela cabana.</default>
+		<default>Tenho certeza. Encontrei um jornal antigo lá.</default>
 	</talk>
 	<talk character="Kat">
 		<default>E por que não me contou?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela ameaçou matar vocês três se eu dissesse algo.</default>
+		<default>Ela ameaçou vocês.</default>
 	</talk>
 	<teller>
 		<default>Ky sai da cozinha.</default>
@@ -465,22 +412,22 @@
 		<default>Aí é que começou?</default>
 	</talk>
 	<talk character="Ky">
-		<default>Talita só tinha doze, eu, vinte e dois. Eu seduzi uma menor, seqüestrei ela e matei uma pessoa, a que tentou levá-la de mim. Nunca mais veria Talita e passaria o resto da vida na cadeia, ou...</default>
+		<default>Talita só tinha quinze, eu, vinte e três. Eu seduzi uma menor, seqüestrei ela e matei uma pessoa, a que tentou levá-la de mim. Nunca mais veria Talita e passaria o resto da vida na cadeia, ou...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Poderia vê-la e continuaria livre.</default>
 	</talk>
 	<talk character="Edmont">
-		<arrive>Isso foi egoísmo.</arrive>
+		<arrive>Escolheu a segunda opção.</arrive>
 	</talk>
 	<talk character="Ky">
-		<default>Eu sei. No começo achei que Íris estava só me ajudando. Talita estava sem memória, mas possivelmente lembraria de tudo se voltasse à cidade. Um ano após isso eu me arrependi de ter escondido e quis devolvê-la à família.</default>
+		<default>No começo achei que Íris estava só me ajudando. Talita estava sem memória, mas possivelmente lembraria de tudo se voltasse à cidade.</default>
 	</talk>
 	<teller>
-		<default>Dois anos antes...</default>
+		<default>Um ano antes.</default>
 	</teller>
 	<talk character="Ky">
-		<default>Dane-se se vou ser preso, eu quero que vá tudo pro inferno, não podemos mais prendê-la aqui!</default>
+		<default>Dane-se se vou ser preso, eu quero que vá tudo pro inferno, não podemos mais prender ela aqui!</default>
 	</talk>
 	<talk character="Íris">
 		<default>Acha que estou fazendo isso por você???</default>
@@ -495,7 +442,7 @@
 		<default>Você disse que me amava.</default>
 	</talk>
 	<talk character="Íris">
-		<default>Pois é, eu deveria ser atriz.</default>
+		<irony>Pois é, eu deveria ser atriz!</irony>
 	</talk>
 	<talk character="Ky">
 		<default>Nunca sentiu nada por mim?</default>
@@ -504,10 +451,10 @@
 		<default>Nojo!</default>
 	</talk>
 	<talk character="Ky">
-		<irony>Agora então é lésbica pra sentir nojo de um cara como eu?!</irony>
+		<irony>Agora então é lésbica pra sentir nojo de homem?!</irony>
 	</talk>
 	<talk character="Íris">
-		<default>Nossa, descobriu a América.</default>
+		<irony>Nossa, descobriu a América.</irony>
 	</talk>
 	<teller>
 		<default>Ky olha pra ela, surpreso.</default>
@@ -545,7 +492,7 @@
 		<default>Não!</default>
 	</talk>
 	<teller>
-		<default>Íris aproveita a distração e desarma Ky, jogando-o no chão. Pega uma espingarda e aponta a ele.</default>
+		<default>Ky para trás. Íris desarma Ky, jogando-o no chão. Pega uma espingarda e aponta a ele.</default>
 	</teller>
 	<talk character="Íris">
 		<default>Talita, sai daqui.</default>
