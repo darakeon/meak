@@ -65,19 +65,15 @@
 		<default>Eu li no jornal.</default>
 	</talk>
 	<talk character="Brad">
-		<default>E adivinhou que eu sou irmão dela do nada? Mente... Peraí, vocês não são aquela banda que o avião caiu?</default>
+		<default>E adivinhou que eu sou irmão dela do nada? Clariviência???</default>
+		<teller>ele aperta os olhos</teller>
+		<default>Peraí, vocês não são aquela banda que o avião caiu?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Brad">
-		<default>São os únicos gêmeos quase idênticos que existem.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E as experiências de laboratório?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Que se dane, não quero saber quem são, quero saber onde está aquele moleque que foi até a casa dos meus pais hoje de manhã.</default>
+		<default>Não é porque eu quero, pode ter certeza. Que se dane, não quero saber quem são, quero saber onde está aquele moleque que foi até a casa dos meus pais hoje de manhã!</default>
 	</talk>
 	<teller>
 		<default>Brad começa a procurar.</default>
@@ -107,7 +103,7 @@
 		<default>Ele tem uns problemas psicológicos. Voltando à Derik, ele esteve aqui sim, mas saiu agora pouco.</default>
 	</talk>
 	<talk character="Brad">
-		<default>Vou ver lá em cima. Você, vem comigo.</default>
+		<default>Vou ver lá em cima. Você vem comigo.</default>
 	</talk>
 	<teller>
 		<default>Kat sobe a escada com Brad.</default>
@@ -160,6 +156,9 @@
 	<teller>
 		<default>Ele vai embora, Mel fecha a porta e volta à cozinha.</default>
 	</teller>
+	<talk character="Kat">
+		<default>Não acredito que ele nem perguntou mais nada do sótão!</default>
+	</talk>
 	<talk character="Mel">
 		<default>Tudo bem, agora vamos pensar num plano pra trazer Talita pra cá.</default>
 	</talk>
@@ -179,7 +178,7 @@
 		<default>Por que eu?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tenho certeza que pode convencer ela de vir.</default>
+		<default>Tenho certeza que pode convencer ela de vir. Ela ficou olhando pra você.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Peraí, eu tenho uma idéia melhor. A Kat pode ir até a casa da Íris, com pretexto de falar com Talita, enquanto Edmont convence a menina a vir.</default>
@@ -206,13 +205,13 @@
 		<default>Por que querem tanto tirar Talita de lá?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Já pensou quando ela descobrir que Íris gosta dela? E se ela reagir mal? Pode enraivecer Íris.</default>
+		<default>Já pensou quando ela descobrir que Íris gosta dela? E se ela reagir mal? A Íris vai ficar puta.</default>
 	</talk>
 	<talk character="Ky">
 		<default>Vocês estão arriscando vidas demais.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Prefere deixar a menina lá, correndo esse risco sozinha?</default>
+		<default>Prefere deixar ela lá, correndo esse risco sozinha?</default>
 	</talk>
 	<talk character="Ky">
 		<default>E qual a desculpa que vão dar pra ela?</default>
@@ -220,21 +219,30 @@
 	<talk character="Kat">
 		<default>Uma caixa de chocolate, eu prometi levar pra Talita!</default>
 	</talk>
+	<teller>
+		<default>Ky suspira fundo.</default>
+	</teller>
 	<talk character="Ky">
-		<default>Tá, vocês venceram, eu ajudo.</default>
+		<default>Eu ajudo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Foi mais fácil do que pensávamos.</default>
 	</talk>
 	<teller>
-		<default>Ky, Mel, Kat e Derik vão no carro. Edmont e Angely pegam as motos. Chegam umas três horas depois da partida. Os garotos ficam perto do lago. Ky leva as garotas até a cabana.</default>
+		<default>Ky, Mel, Kat e Derik vão no carro. Edmont e Angely pegam as motos.</default>
+	</teller>
+	<teller>
+		<first>Horas depois, eles chegam. Os garotos ficam perto do lago. Ky leva as garotas até a cabana.</first>
 	</teller>
 	<talk character="Ky">
 		<default>Íris, você tá aí?</default>
 	</talk>
 	<talk character="Íris">
-		<default>Que você quer???</default>
+		<out>Que você quer???</out>
 	</talk>
+	<teller>
+		<default>Íris vai até a sala.</default>
+	</teller>
 	<talk character="Ky">
 		<default>Você tem visita.</default>
 	</talk>
@@ -365,6 +373,12 @@
 		<default>Talita sai da água.</default>
 	</teller>
 	<talk character="Talita">
+		<default>Devia melhorar sua conversa pra convencer alguém de algo.</default>
+	</talk>
+	<teller>
+		<default>Ela veste um vestido - estava de biquini.</default>
+	</teller>
+	<talk character="Talita">
 		<default>Preciso falar com Íris primeiro.</default>
 	</talk>
 	<talk character="Edmont">
@@ -380,22 +394,31 @@
 		<default>Eu já vi foto dela com namorado...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Foi antes dela decidir mudar de lado. Ky não é irmão dela.</default>
+		<default>As pessoas às vezes levam um tempo para descobrir isso. Principalmente se considerar que foi há 20 anos atrás. E o Ky não é irmão dela. Ela sabe que sua família está te procurando.</default>
 	</talk>
 	<talk character="Talita">
 		<default>Isso é absurdo.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, não é!</default>
+		<default>Talita...</default>
 	</talk>
 	<teller>
-		<default>Ela sai correndo. Edmont vai atrás dela, seguido de Angely e Aurium (Derik versão canina). Eles chegam na cabana.</default>
+		<default>Ela sai correndo. Edmont vai atrás dela, seguido de Angely e Aurium (Derik versão canina).</default>
+	</teller>
+	<teller>
+		<first>Talita entra na cabana e olha para Íris.</first>
 	</teller>
 	<talk character="Talita">
-		<default>Você mentiu pra mim.</default>
+		<default>Você mentiu pra mim?</default>
 	</talk>
 	<talk character="Íris">
-		<default>Por que eu te amo.</default>
+		<default>Do que está falando?</default>
+	</talk>
+	<talk character="Talita">
+		<default>De tudo.</default>
+	</talk>
+	<talk character="Íris">
+		<default>Eu te amo...</default>
 	</talk>
 	<talk character="Talita">
 		<default>Isso não é amor, é obsessão.</default>
@@ -407,7 +430,7 @@
 		<default>Tentamos.</default>
 	</talk>
 	<teller>
-		<default>Íris pega a arma e puxa Kat, fazendo-a de refém. Vira oara Angely.</default>
+		<default>Íris pega a arma e puxa Kat, fazendo-a de refém. Vira para Angely.</default>
 	</teller>
 	<talk character="Íris">
 		<default>Eu falei pra você ficar quieto.</default>
@@ -458,7 +481,7 @@
 		<default>E quem vai me prender? Você?</default>
 	</talk>
 	<talk character="Brad">
-		<default>Chamei reforços antes de entrar aqui. Herói sim, idiota não.</default>
+		<default>Meus colegas que estão a caminho.</default>
 	</talk>
 	<talk character="Íris">
 		<default>Pois quando chegarem só vão pegar um monte de corpos!</default>
@@ -488,13 +511,7 @@
 		<default>Depois de tudo que você fez pra mim, eu nunca mais quero te ver na minha vida.</default>
 	</talk>
 	<teller>
-		<default>Chegam outros policiais.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Gente, melhor dar o fora antes que a imprensa e a polícia notem que estamos aqui.</default>
-	</talk>
-	<teller>
-		<default>Os quatro saem de fininho com as motos e Derik os segue, em forma de pássaro. Talita se senta no chão e começa a chorar.</default>
+		<default>Brad faz sinal para os cinco saírem. Edmont e Mel vão em uma moto, Angely e Kat em outra. Derik voa. Chegam outros policiais. Talita se senta no chão e começa a chorar.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Agora você vai voltar pra casa.</default>
@@ -514,7 +531,7 @@
 		<default>Ninguém.</default>
 	</talk>
 	<teller>
-		<default>Alguns dias depois, chega uma carta de Brad à MEAK:</default>
-		<letter>Ky cumprirá alguns anos de prisão e Íris foi pra um sanatório. Talita está fazendo tratamento pra tentar voltar a memória, já lembra de algumas coisas e voltou a estudar. Não sei quem são na verdade, como encontraram minha irmã ou por que ajudaram ela a se livrar disso, mas de uma coisa eu tenho certeza: Vocês um dia terão a merecida recompensa por tudo o que fizeram. Trouxeram minha irmã de volta e isso dinheiro nenhum no mundo paga.</letter>
+		<first>Alguns dias depois, chega uma carta de Brad à MEAK:</first>
+		<letter>Ky cumprirá alguns anos de prisão e Íris foi pra um sanatório. Talita está fazendo tratamento pra tentar voltar a memória, já lembra de algumas coisas e voltou a estudar. Não sei quem são na verdade, como encontraram minha irmã ou por que ajudaram ela a se livrar disso, mas de uma coisa eu tenho certeza: vocês um dia terão a merecida recompensa por tudo o que fizeram. Trouxeram minha irmã de volta. Isso dinheiro nenhum no mundo paga.</letter>
 	</teller>
 </story>
