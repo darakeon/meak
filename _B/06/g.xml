@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="06" scene="g">
 	<teller>
-		<default>16/03 (domingo). 13:00. Mel e Angely estão no quarto dela.</default>
+		<default>Dia seguinte. Tarde. Quarto de Mel.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Então vai mesmo se mudar?</default>
+		<default>Quer mesmo se mudar?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Assim que arranjar lugar.</default>
@@ -19,7 +19,7 @@
 		<default>E Inês?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Talvez eu leve os dois para morar comigo.</default>
+		<default>Talvez eu leve Inês e Beleno para morar comigo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Mas vai ficar aqui na Ilha, né?</default>
@@ -28,25 +28,25 @@
 		<default>Claro. E, se precisarem de ajuda, é só me chamar.</default>
 	</talk>
 	<teller>
-		<default>21/03 (sexta), 21:00. Estão todos sentados na sala. Angely chega.</default>
+		<default>Dias depois. MEAK. Hall de entrada. Noite. Ang chega. Kat anda de um lado a outro.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Qual afinal é o problema?</default>
+		<default>Que houve?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Derik sumiu.</default>
 	</talk>
 	<teller>
-		<default>Kat está andando de um lado pra outro.</default>
+		<default>Ang olha para Kat.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Eu já devia ter imaginado.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Já revoei tudo, nem um sinal dele.</default>
+		<default>Já revoei tudo, nem um sinal.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Quem viu ele por último?</default>
+		<default>Quem viu por último?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Bom, ele disse "já sei" e saiu correndo.</default>
@@ -58,17 +58,20 @@
 		<default>Nem sinal.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Zenon saiu pra procurar ele, eu espero que...</default>
+		<default>Zenon saiu pra procurar, eu espero que...</default>
 	</talk>
 	<talk character="Zenon">
 		<arrive>Nada.</arrive>
 	</talk>
 	<teller>
-		<default>Ang olha para Kat. Então sente um cheiro de comida vindo da cozinha.</default>
+		<default>Ang cheira o ar.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Quem colocou o que pra cozinhar?</default>
 	</talk>
+	<teller>
+		<default>Mel franze a sobrancelha.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Que eu saiba, não tem nada cozinhando.</default>
 	</talk>
@@ -79,7 +82,7 @@
 		<default>Gente...</default>
 	</talk>
 	<teller>
-		<default>Kat pula em cima dele (indo os dois parar no chão) e o beija.</default>
+		<default>Kat corre e abraça Derik.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Não faz mais isso comigo!</default>
@@ -91,16 +94,16 @@
 		<default>Onde você tava???</default>
 	</talk>
 	<teller>
-		<default>Os dois se levantam.</default>
+		<default>Kat afasta.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Fui ao mercado comprar umas coisas.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não passou por aqui.</default>
+		<default>Não passou pela sala!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Passei pela janela.</default>
+		<default>Entrei pela cozinha.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Pra me assustar?!</default>
@@ -108,23 +111,23 @@
 	<talk character="Derik">
 		<default>Queria fazer uma surpresa...</default>
 	</talk>
-	<talk character="Ang">
-		<default>Por acaso é uma que vai queimar se você não for rápido à cozinha?</default>
+	<talk character="Mel">
+		<default>Por acaso é uma que vai queimar se você não for rápido a cozinha?</default>
 	</talk>
 	<teller>
 		<default>Derik sai correndo. Fecha a porta da cozinha atrás de si.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Ninguém abre a porta, e fiquem esperando na sala!</default>
+		<out>Ninguém abre a porta, e fiquem esperando na sala!</out>
 	</talk>
 	<teller>
-		<default>Todos se entreolham. Depois de alguns segundos, Derik abre a porta da copa.</default>
+		<default>As pessoas se entreolham. Derik abre a porta da copa, que fica atrás do hall.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Como passou praí?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Pulando janelas. Podem vir.</default>
+		<default>Pulando janelas. A gente devia ter uma porta entre a cozinha e a copa. Enfim, podem vir.</default>
 	</talk>
 	<teller>
 		<default>Entram na copa. A mesa está posta.</default>
@@ -139,15 +142,19 @@
 		<default>Pra que tudo isso?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Pra comer?</default>
-		<teller>todos o encaram</teller>
-		<default>Um pedido de desculpas e um agradecimento. As desculpas é pelo cheiro que ficou na cozinha do que era para ser um bolo semana passada. E o agradecimento é por estar vivo.</default>
+		<default>Pra comer.</default>
+	</talk>
+	<teller>
+		<default>Mel encara Derik.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Um pedido de desculpas e um agradecimento. As desculpas é pelo cheiro que ficou na cozinha do que era para ser um bolo semana passada. E o agradecimento é por estar aqui.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Então o segundo é com o Angely?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Com todos. Vocês quem trabalham, eu não faço nada, não sei lutar... Bom, enfim, já que eu não sei fazer nada mais...</default>
+		<default>Com todo mundo. Vocês quem trabalham, eu não faço nada, não sei lutar... Bom, enfim, já que eu não sei fazer nada mais...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não sabia que você sabia cozinhar.</default>
@@ -156,13 +163,10 @@
 		<default>Isso quer dizer que vai aceitar o pedido de casamento?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Vai rogar praga na...</default>
+		<default>Isso....</default>
 	</talk>
-	<teller>
-		<default>Estela tapa a boca de Kat.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Eu sei que a mãe dele merece, mas tem uma criança presente.</default>
+	<talk character="Derik">
+		<default>A gente não tem idade pra isso ainda, Alan.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Fez algum curso de culinária?</default>
@@ -173,17 +177,18 @@
 	<talk character="Estela">
 		<default>Como assim "aqui julgadas coisas de mulher"?</default>
 	</talk>
-	<talk character="Kat">
-		<default>Se você me disser que é gay, eu...</default>
-	</talk>
 	<talk character="Derik">
-		<default>Sabe que eu tava pensando em...</default>
-		<teller>Kat o encara</teller>
-		<default>Perto de você, não dá pra ser gay.</default>
+		<default>É só pedir a lista pro Alan, tenho certeza que tem decorado.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Ô, isso é injusto, tô tentando melhorar!</default>
 	</talk>
 	<teller>
-		<default>Ela vai até ele e o beija.</default>
+		<default>Mel olha para Alan.</default>
 	</teller>
+	<talk character="Alan">
+		<default>Juro, pergunta pro Derik!</default>
+	</talk>
 	<talk character="Derik">
 		<default>E aí, gente, já podem comer, juro que nada do que está sobre a mesa morde.</default>
 	</talk>
