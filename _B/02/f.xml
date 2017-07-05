@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="02" scene="f">
 	<teller>
-		<default>Beatrice, Íris e Henrique (transf. por Beatrice também, vampiro de quem Edmont arrancara os dentes) estavam dentro da MEAK.</default>
+		<default>MEAK. Íris e Henrique entram atrás de Beatrice.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Achei que não pudessem entrar sem serem convidados...</default>
@@ -10,19 +10,28 @@
 		<default>Não se aplica a lugares públicos.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Bem que o Ang podia chegar com o Zenon agora...</default>
+		<default>Bem que Ang podia chegar com o Zenon agora...</default>
 	</talk>
 	<talk character="Íris">
 		<default>Aquele vampiro idiota é amigo deles?</default>
 	</talk>
+	<teller>
+		<default>Mel franze a sobrancelha.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Sim, é.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Era de você que ele tava falando... Não parece colegial.</default>
+		<default>Conhece Zenon?</default>
 	</talk>
 	<talk character="Íris">
-		<default>Tenho 17. Estava apenas enganando aquelas garotas. É fácil num fim de mundo.</default>
+		<default>Trombei com ele antes de virar. Tava tentando invocar um...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Quantos anos tem?</default>
+	</talk>
+	<talk character="Íris">
+		<default>Tenho 17. Tava enganando aquele bando de criança. É fácil num fim de mundo.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não conheço você de algum lugar?</default>
@@ -33,29 +42,50 @@
 	<talk character="Mel">
 		<default>Ia pra Itália?</default>
 	</talk>
+	<teller>
+		<default>Íris franze a sobrancelha.</default>
+	</teller>
 	<talk character="Íris">
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Edmont sabe, Angely sabe. Vivo conversando com Angely.</default>
 	</talk>
+	<teller>
+		<default>Íris cruza os braços.</default>
+	</teller>
 	<talk character="Íris">
 		<default>Não contei isso pra ele.</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Viemos aqui para discutir sua vida ou pegar a criança?</default>
 	</talk>
-	<talk character="Derik">
-		<default>Ela não está aqui.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Ah, não?</default>
+	<teller>
+		<default>Íris descruza os braços e desfranze a sobrancelha. Mel olha para Beatrice.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Você quem transformou Íris. Furou nosso acordo.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Se ela estivesse, Natasha não teria dormido, idiota.</default>
+		<default>Pelo contrário. Salvei Íris. Não fui eu quem mordeu e arrancou todo o sangue.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Chama isso de salvação?</default>
 	</talk>
 	<talk character="Henrique">
-		<default>Então vamos matá-los.</default>
+		<default>Viemos pegar a criança!</default>
+	</talk>
+	<talk character="Derik">
+		<default>Não tá aqui.</default>
+	</talk>
+	<talk character="Íris">
+		<default>Não?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Se ela estivesse, Natasha não teria dormido. Tenho certeza que já tinha explicado isso a vocês.</default>
+	</talk>
+	<talk character="Henrique">
+		<default>Então vamos matar todo mundo.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Vem cá.</default>
@@ -73,7 +103,7 @@
 		<default>Pode repetir o que Edmont disse?</default>
 	</talk>
 	<talk character="Henrique">
-		<default>Pra pegarmos a criança, mas não tocarmos nelas.</default>
+		<default>Pra pegarmos a criança, mas não tocarmos em ninguém.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Ótimo. Quanto tempo levou mesmo para recuperar seus dentes?</default>
@@ -85,19 +115,37 @@
 		<default>Que bom saber que lembra dessas duas coisas.</default>
 	</talk>
 	<talk character="Íris">
-		<default>Ele disse elas, não disse nada sobre ele.</default>
+		<default>Ele não precisa saber.</default>
 	</talk>
 	<teller>
 		<default>Beatrice larga Henrique e olha pra Íris.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Deixa eu explicar uma coisinha: se fizermos isso, eu serei castigada, mas continuarei viva, já vocês...</default>
+		<default>Vão em frente. Edmont vai fazer algo comigo, mas vou continuar com vida. Já vocês...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Você já não está viva.</default>
+		<default>Você já não está com vida.</default>
 	</talk>
+	<teller>
+		<default>Beatrice olha para Derik.</default>
+	</teller>
 	<talk character="Bea">
 		<irony>Engraçado, ontem você não achava isso!</irony>
+	</talk>
+	<teller>
+		<default>Beatrice olha para Mel.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Aliás, querem tentar? Comecem por Melody.</default>
+	</talk>
+	<talk character="Íris">
+		<default>Não gosta dela?</default>
+	</talk>
+	<teller>
+		<default>Beatrice segura uma risada.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Até que vocês são divertidos. Fiquem na de vocês, vai, não tô afim de voltar só.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Temos outra oferta para Edmont.</default>
@@ -109,14 +157,18 @@
 		<default>Os três vampiros saem.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Droga!</default>
+		<default>Ótimo.</default>
 	</talk>
 	<talk character="Derik">
 		<default>E o que vamos fazer?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Primeira coisa...</default>
-		<teller>dá um tapa nele</teller>
+	</talk>
+	<teller>
+		<default>Estela dá um tapa em Derik.</default>
+	</teller>
+	<talk character="Estela">
 		<default>Isso é pela Kat.</default>
 	</talk>
 	<talk character="Derik">
@@ -126,12 +178,16 @@
 		<default>Vamos ter que levar a pedra para Edmont.</default>
 	</talk>
 	<teller>
-		<default>Nat acorda.</default>
+		<default>Nat abre os olhos. Se levanta.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Eles já foram.</default>
-		<teller>as três o encaram</teller>
-		<default>Tá, isso foi imbecil.</default>
+		<default>Já foram.</default>
+	</talk>
+	<teller>
+		<default>Mel encara Derik. Derik olha para Mel. Olha para Nat.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Imagino que já sabia.</default>
 	</talk>
 	<talk character="Nat">
 		<default>Temos que fazer um plano...</default>
@@ -140,19 +196,19 @@
 		<default>Se tentarmos pensar em enganar Edmont, Kat e Leonardo já eram.</default>
 	</talk>
 	<talk character="Nat">
-		<default>Não precisamos enganá-lo. É só pegar a pedra de volta depois.</default>
+		<default>Não precisamos enganar ele. É só pegar a pedra de volta depois.</default>
 	</talk>
 	<talk character="Ang">
-		<arrive>Eu tentei pegar os dois, mas não há como!</arrive>
+		<arrive>Eu tentei pegar os dois, mas não tem como!</arrive>
 	</talk>
 	<teller>
 		<default>Todos olham para a porta e vêem Ang, com lágrimas nos olhos.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Vamos oferecer isso a ele em troca de Kat e Leonardo.</default>
+		<default>Vamos oferecer isso em troca de Kat e Leonardo.</default>
 	</talk>
 	<teller>
-		<default>Mel mostra a pedra. Ang pega a pedra e fica olhando-a.</default>
+		<default>Mel mostra a pedra. Ang pega a pedra e fica olhando.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Olho da Lua...</default>
@@ -164,7 +220,7 @@
 		<default>Como sabe o nome?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Edmont sabe. Alguém um dia achou que estava com isso, por ele não morrer.</default>
+		<default>Edmont sabe. Alguém um dia achou que estava com isso, por não morrer.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Então é esse o nome disso...?</default>
@@ -188,21 +244,22 @@
 		<default>Nosso Andrews.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Por isso Alan não sabia quem era!</default>
+		<default>Ah, é, por isso que Alan não sabia de quem falávamos.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Mas ele não é o primeiro!</default>
 	</talk>
 	<talk character="Nat">
-		<default>Poucos sabem, mas existem duas linhagens de vampiros. Poucos não, na verdade só as quatro raças criadas diretamente junto com a criação dos vampiros e a minha, criada indiretamente.</default>
+		<default>São duas linhagens de vampiros. E quatro raças criadas diretamente junto com a criação dos vampiros e a minha, criada indiretamente.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Podemos deixar as explicações para depois?</default>
 	</talk>
+	<teller>
+		<default>Nat olha no relógio.</default>
+	</teller>
 	<talk character="Nat">
-		<default>Eles falaram meia-noite, são...</default>
-		<teller>olha o relógio</teller>
-		<default>Onze e meia!</default>
+		<default>Sæo onze e meia já.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Então vamos!</default>
@@ -217,24 +274,28 @@
 		<default>Não sabem lutar.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Então nós vamos para a casa da garota, onde está Inês.</default>
+		<default>Então nós vamos pra onde tá Inês.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Fica na...</default>
 	</talk>
 	<talk character="Ang">
 		<default>Não!</default>
-		<teller>todos o olham</teller>
+	</talk>
+	<teller>
+		<default>As pessoas olham para Angely.</default>
+	</teller>
+	<talk character="Ang">
 		<default>Edmont vai saber se eu souber.</default>
 	</talk>
 	<talk character="Nat">
 		<default>Ele tá certo.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Vou indo na frente enquanto vocês explicam para a Mel onde é.</default>
+		<default>Vou indo na frente, vocês explicam pra Mel onde é.</default>
 	</talk>
 	<teller>
-		<default>Ele sai. Chega à praia e encontra Beatrice, Henrique e Íris.</default>
+		<default>Angely chega a praia. Beatrice, Henrique e Íris estão esperando.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Íris?</default>
@@ -246,7 +307,7 @@
 		<default>Como sabe meu nome?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não percebeu que esse é o Angely?</default>
+		<default>Não percebeu que é Angely?</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Aquele que tem uma ligação com o...?</default>
@@ -256,14 +317,18 @@
 	</talk>
 	<talk character="Ang">
 		<default>Vim oferecer uma pedra por outra.</default>
-		<teller>vira pra Íris</teller>
+	</talk>
+	<teller>
+		<default>Angely olha para Íris.</default>
+	</teller>
+	<talk character="Ang">
 		<default>Por que aceitou isso?</default>
 	</talk>
 	<talk character="Íris">
 		<default>Isso o que?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Virar vampira.</default>
+		<default>Virar vampir.</default>
 	</talk>
 	<talk character="Íris">
 		<default>Parece que a ligação de vocês não é tão forte assim, pra não saber...</default>
@@ -272,25 +337,22 @@
 		<default>Acha que dá pra acreditar que queria poder?</default>
 	</talk>
 	<teller>
-		<default>Beatrice faz cara de entediada.</default>
+		<default>Beatrice revira os olhos.</default>
 	</teller>
 	<talk character="Henrique">
 		<default>Você não sabe o que é ser discriminado.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Sei que você não é irmão dela.</default>
+		<default>Como se conheceram?</default>
 	</talk>
 	<talk character="Íris">
-		<default>Não, ele me ajudou e eu soube retribuir.</default>
+		<default>Ele me ajudou e eu soube retribuir.</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Agora nós fazemos o que queremos, somos livres!</default>
 	</talk>
 	<talk character="Ang">
 		<default>Será que são mesmo?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Chega de ladainha!</default>
 	</talk>
 	<talk character="Edmont">
 		<arrive>Tentando desmanchar meu grupo?</arrive>
@@ -302,10 +364,10 @@
 		<default>Leo e Kat vieram com Edmont.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Sou todo ouvidos.</default>
+		<default>Estou ouvindo.</default>
 	</talk>
 	<talk character="Kat">
-		<ghost>Ang, ele tá com a pedra no bolso esquerdo da camisa!</ghost>
+		<ghost>Ang, Edmont tá com a pedra no bolso esquerdo da camisa!</ghost>
 	</talk>
 	<talk character="Edmont">
 		<default>Eu também te ouço, Katerine.</default>
@@ -314,13 +376,16 @@
 		<default>Você quer Inês pra que?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Sou pai dela, não sou?</default>
+		<default>Fui eu quem trouxe ao mundo, não fui?</default>
+	</talk>
+	<talk character="Mel">
+		<default>E cresceu tempo suficiente entre atlantes pra saber que isso não significa nada.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Deixa de birra, você não pode transformar ela numa vampira, nem precisa dos poderes dela.</default>
+		<default>Você não pode transformar em vampir, nem precisa dos poderes. Isso é birra.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Birra... Boa palavra. Ela é minha, por que eu desistiria dela?</default>
+		<default>Birra... Boa palavra. Veio de mim, por que eu desistiria?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Nem pelo Olho da Lua?</default>
@@ -347,10 +412,10 @@
 		<default>É, até que posso usar para isso também.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Liberte eles e nós te entregamos a pedra.</default>
+		<default>Liberte e nós te entregamos a pedra.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, você entrega ela para Angely, eu liberto eles e Angely me entrega.</default>
+		<default>Não, você entrega para Angely, eu liberto e Angely me entrega.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Por que?</default>
@@ -359,29 +424,34 @@
 		<default>Angely não consegue trapacear.</default>
 	</talk>
 	<teller>
-		<default>Mel entrega a pedra à Ang. Edmont pega uma pedra amarela dentro do bolso da camisa. Eles trocam.</default>
+		<default>Mel entrega a pedra a Ang. Edmont pega uma pedra amarela dentro do bolso da camisa. Trocam.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Como libertamos eles?</default>
+		<default>Como libertamos?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Descobre, você é inteligente. Fizeram um mau negócio.</default>
 	</talk>
 	<teller>
-		<default>Todos os vampiros saem.</default>
+		<default>Edmont sai. Beatrice segue. Íris e Henrique olham para Mel. Seguem também.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Que ele quis dizer com isso? É falsa?</default>
+		<default>Que quis dizer com isso? É falsa?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Não. Agora esperaremos um dia de sol sem raios dele na noite anterior.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Uma dia seguinte de uma lua nova... Hoje é lua nova!</default>
+		<default>Hoje</default>
+		<frizz>é</frizz>
+		<default>lua nova.</default>
 	</talk>
 	<teller>
-		<default>08/02 (sábado). Madrugada. Derik está andando pela rua e encontra Beatrice. Nenhum dos dois nota a presença de Kat e Leo.</default>
+		<default>Madrugada. Derik está andando pela rua. Kat e Leo seguem.</default>
 	</teller>
+	<talk character="Bea">
+		<default>Você de novo.</default>
+	</talk>
 	<talk character="Derik">
 		<default>Vai me matar agora?</default>
 	</talk>
@@ -389,86 +459,92 @@
 		<default>Não. Vou deixar você dizer a Kat que aceitou transar comigo por que achou que eu ia te matar.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Mas ela nunca vai acreditar.</default>
+		<default>Mas nunca vai acreditar.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Garoto esperto.</default>
+		<default>Criança esperta.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Acho que vou mesmo deixar o caminho livre.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Livre pra quem? Ela gosta de você.</default>
+		<default>Livre pra quem? Gosta de você.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Por que está fazendo isso?</default>
+		<default>Por que tá fazendo isso?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Isso o que?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Me torturando. Kat está com raiva de mim, não vai querer me ver nunca mais na frente dela. Por que não me mata logo de uma vez?</default>
+		<default>Me torturando. Kat tá com raiva de mim, não vai querer me ver nunca mais na frente. Por que não me mata logo de uma vez?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Sou uma vampira, não uma assassina de suicidas. Não quer mais...</default>
+		<default>Não faço trabalho de suicidas. Não quer mais...</default>
 	</talk>
 	<teller>
-		<default>Beatrice vai tentar se aproximar de Derik, mas ele a afasta.</default>
+		<default>Beatrice se aproxima de Derik, mas Derik afasta.</default>
 	</teller>
 	<talk character="Bea">
-		<irony>Que bonitinho!</irony>
-		<default>Ainda bem que não encontrei alguém igual a você quando era humana e burra, se não tinha casado e tava cheia de filhos.</default>
+		<irony>Que fofura!</irony>
+		<default>Ainda bem que não encontrei alguém igual a você antes, se não tinha casado e tava com um monte de filhos.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Você tinha doze anos quando virou vampira.</default>
+		<default>Você tinha doze anos quando virou vampir.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Nessa época você tinha 14, grande diferença. Com 19, parece mais novo que eu com 12.</default>
 	</talk>
 	<teller>
-		<default>Eles chegam em casa, com a pedra. Colocam-na no quarto de Ang, que dorme.</default>
+		<default>Chegam em casa, com a pedra. Colocam no quarto de Ang, que dorme.</default>
 	</teller>
 	<talk character="Kat">
 		<ghost>Você viu?</ghost>
 	</talk>
 	<talk character="Leo">
-		<ghost>Não acredito que ainda acreditas que ele ame-te!</ghost>
+		<ghost>Não acredito que ainda acha que ele te ama!</ghost>
 	</talk>
+	<teller>
+		<default>======</default>
+	</teller>
 	<talk character="Kat">
-		<ghost>Mas ele ama!</ghost>
+		<ghost>Mas ama!</ghost>
 	</talk>
 	<talk character="Leo">
 		<ghost>É??? Duvido que ele fosse capaz de ficar aqui por você!</ghost>
 	</talk>
 	<talk character="Kat">
-		<ghost>Do que está falando?!</ghost>
-	</talk>
-	<talk character="Leo">
-		<ghost>Esqueça.</ghost>
+		<ghost>Do que tá falando?!</ghost>
 	</talk>
 	<teller>
-		<default>De tarde, Ang está sob o sol. Kat está perto deles, olhando pra Leo.</default>
+		<default>Leo bufa.</default>
 	</teller>
 	<talk character="Leo">
-		<ghost>Por que esta cara? Logo ficarás livre de mim.</ghost>
+		<ghost>Esquece.</ghost>
+	</talk>
+	<teller>
+		<default>Tarde. Ang está sob o sol. Kat está perto, olhando para Leo.</default>
+	</teller>
+	<talk character="Leo">
+		<ghost>Por que essa cara? Logo vai ficar livre de mim.</ghost>
 	</talk>
 	<talk character="Kat">
-		<ghost>Não tenho culpa de gostar de outro.</ghost>
+		<ghost>Não tenho culpa de não ter me apaixonado por você.</ghost>
 	</talk>
 	<talk character="Leo">
-		<ghost>Alguém que te traiu.</ghost>
+		<ghost>Ele te traiu.</ghost>
 	</talk>
 	<talk character="Kat">
-		<ghost>Disse pra ele que tinha terminado. Ele me ama...</ghost>
+		<ghost>Eu tinha terminado. Derik me ama.</ghost>
 	</talk>
 	<talk character="Leo">
-		<ghost>Acreditas que ele seria capaz de qualquer coisa por ti?</ghost>
+		<ghost>Acredita que ele seria capaz de qualquer coisa por ti?</ghost>
 	</talk>
 	<talk character="Kat">
 		<ghost>Acredito.</ghost>
 	</talk>
 	<talk character="Leo">
-		<ghost>Pois tenho certeza que ele não permaneceria aqui por tua causa.</ghost>
+		<ghost>Pois tenho certeza que ele não ficaria aqui por sua causa.</ghost>
 	</talk>
 	<talk character="Kat">
 		<ghost>Do que tá falando?</ghost>
