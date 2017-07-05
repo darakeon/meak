@@ -1,3 +1,471 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="02" scene="b">
+	<teller>
+		<default>De noite...</default>
+	</teller>
+	<talk character="Mel">
+		<default>Tô quebrada.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Também, não parou o dia inteiro.</default>
+	</talk>
+	<teller>
+		<default>Derik chega, emburrado.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Que foi?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Kat tá muito ocupada, conversando com Estela, para falar comigo.</default>
+	</talk>
+	<teller>
+		<default>Inês chega, apoiando as mãos nas paredes (ela está cega).</default>
+	</teller>
+	<talk character="Inês">
+		<arrive>Tô com fome.</arrive>
+	</talk>
+	<talk character="Ang">
+		<default>Bom, gente, tô indo.</default>
+	</talk>
+	<teller>
+		<default>Ang e Inês saem.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Acho que sobramos.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Não tô com sono.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Bom, pelo menos Kat não está tentando te agarrar.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Ela pára um tempo, depois tenta de novo...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Bom, ninguém quer a primeira vez no dia errado.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Dia errado?</default>
+		<teller>pensa um pouco</teller>
+		<default>Ah, tá!</default>
+	</talk>
+	<teller>
+		<default>Silêncio.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Quando foi a sua primeira vez?</default>
+	</talk>
+	<teller>
+		<default>Ang está com Inês e Leonardo na cozinha.</default>
+	</teller>
+	<talk character="Inês">
+		<special>Não entendo como não é meu pai e me ouve...</special>
+	</talk>
+	<talk character="Ang">
+		<default>Digamos que somos muito ligados.</default>
+	</talk>
+	<talk character="Leo">
+		<ghost>Aquela mulher é sua irmã?</ghost>
+	</talk>
+	<talk character="Ang">
+		<default>Melody?</default>
+	</talk>
+	<talk character="Leo">
+		<ghost>Sim.</ghost>
+	</talk>
+	<talk character="Ang">
+		<default>Mais ou menos.</default>
+	</talk>
+	<talk character="Inês">
+		<special>Muito ligados como?</special>
+	</talk>
+	<teller>
+		<default>Dois garotos chegam de fininho na porta da cozinha.</default>
+	</teller>
+	<talk character="garoto 1">
+		<hushed>Não disse que ele falava sozinho?</hushed>
+	</talk>
+	<talk character="garoto 2">
+		<hushed>De repente ele lê pensamentos...</hushed>
+	</talk>
+	<talk character="garoto 1">
+		<hushed>Às vezes ele fala olhando para ela, mas às vezes ele fala com o nada!</hushed>
+	</talk>
+	<talk character="garoto 2">
+		<hushed>Bom, por enquanto isso não prejudica ninguém...</hushed>
+	</talk>
+	<talk character="Mel">
+		<arrive>Tão ouvindo e vendo bem?</arrive>
+	</talk>
+	<teller>
+		<default>Os dois se assustam. Ang olha para a porta, ao mesmo tempo em que Inês e Leo – que ninguém vê.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Por que não se aproximam mais e dizem o que tavam falando?</default>
+	</talk>
+	<talk character="garoto 2">
+		<default>Desculpe, nós...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Se eu deixei ficarem aqui não foi para espionarem Angely ou debaterem o comportamento dele.</default>
+	</talk>
+	<talk character="garoto 2">
+		<default>Estamos indo.</default>
+	</talk>
+	<teller>
+		<default>Eles saem da cozinha.</default>
+	</teller>
+	<talk character="garoto 1">
+		<hushed>Acho que ela ainda gosta dele...</hushed>
+	</talk>
+	<talk character="Mel">
+		<screamed>Eu ouvi isso!</screamed>
+	</talk>
+	<teller>
+		<default>Ouve-se passos subindo a escada.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Bom, acho que vão estranhar você falar sem obter resposta.</default>
+	</talk>
+	<teller>
+		<default>Inês parece se sentir mal. Angely vai até ela.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Alguma coisa errada?</default>
+	</talk>
+	<talk character="Inês">
+		<special>Era pra eu nascer pelo dia 19, Lua Nova... Não entendo...</special>
+	</talk>
+	<talk character="Derik">
+		<arrive>Mel, eu acho que... O que tá acontecendo?!</arrive>
+	</talk>
+	<talk character="Nat">
+		<arrive>Algum problema com ela?</arrive>
+	</talk>
+	<talk character="Mel">
+		<default>Acho que vai nascer...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Não está no tempo certo...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Como sabe?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Quem é você?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Desculpe, Natasha Zandí...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Ah, ouvi algo sobre você quase entrar em coma quando os vampiros...</default>
+	</talk>
+	<talk character="Mel">
+		<screamed>Derik!</screamed>
+	</talk>
+	<talk character="Nat">
+		<default>Não sou um dos inocentes daqui. Vamos levá-la pra perto de água doce.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Aquele lago perto do cemitério...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Não, não pode ser perto de corpos. Tem uma lagoa enorme aqui na ilha.</default>
+	</talk>
+	<talk character="Mel">
+		<default>E é apropriada?</default>
+	</talk>
+	<talk character="Inês">
+		<special>Eu não sou normal, meu pai não é!</special>
+	</talk>
+	<talk character="Ang">
+		<default>Ela me lembrou de uma coisa, o pai dela não foi um humano comum, não é um vampiro comum, talvez ela...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Está ouvindo ela?!</default>
+	</talk>
+	<talk character="Ang">
+		<default>Meu irmão é o pai dela. Somos... muito ligados. E o problema dela?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Como sugeriu, talvez por ele ser diferente, ela também seja.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Mas como sabia que era de vampiro?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Ficam menos agressivos e falam quando é de manigê.</default>
+	</talk>
+	<talk character="Derik">
+		<default>‘Mani...’ o que?!</default>
+	</talk>
+	<talk character="Inês">
+		<special>Tá doendo, não dá pra deixar pra falar depois???</special>
+	</talk>
+	<talk character="Nat">
+		<default>É uma raça...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Ela tá sentindo muita dor.</default>
+	</talk>
+	<talk character="Nat">
+		<default>Ah, desculpe... Precisávamos do pai dela...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Pra que?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Carregá-la. Sabem onde ele está?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Não posso ser eu?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Bom, é um caso a parte, talvez sirva...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Qual o problema de ser outro homem?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Se outro tocar nela a partir de agora, a criança corre o risco de morrer.</default>
+	</talk>
+	<talk character="Inês">
+		<special>Tô sentindo dor, não cócegas! Vão ver o que farei quando crescer!</special>
+	</talk>
+	<talk character="Derik">
+		<default>Então vamos...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Não, só eu e ele vamos.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Por que???</default>
+	</talk>
+	<talk character="Nat">
+		<default>Por que sim! Parem de perguntar, já tô sentindo a dor dela daqui!</default>
+	</talk>
+	<talk character="Inês">
+		<special>Não tá, mesmo!</special>
+	</talk>
+	<teller>
+		<default>Angely pega Inês no colo e sai, com Natasha.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Isso não é justo!</default>
+	</talk>
+	<talk character="Mel">
+		<default>Engraçado, você acabou de dizer que está com saudades dos seis filhos do Dancan, e agora ela vai nascer...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Sabe que no dia do nascimento, apesar de não ser o pai deles, quase fiz um buraco no chão?</default>
+	</talk>
+	<talk character="Kat">
+		<arrive>Pai de quem?</arrive>
+	</talk>
+	<talk character="Estela">
+		<arrive>Ouvimos um barulhão lá de cima...</arrive>
+	</talk>
+	<talk character="Mel">
+		<default>Angely acabou de sair, Inês vai ter a criança.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Mas, se é a criança controlando o corpo da mãe, o certo não seria dizer que ela vai nascer?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não tente entender essa confusão, não há como.</default>
+	</talk>
+	<teller>
+		<default>Enquanto isso, Ang – carregando Inês – e Natasha estão no meio do caminho.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Ela desmaiou...</default>
+	</talk>
+	<talk character="Nat">
+		<default>É natural, o corpo da mãe está morrendo.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Então eu estava mesmo conversando com a criança?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Elas só conversam com o pai, mas geralmente não há convivência.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Não alimentei ela com carne humana, eu...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Não precisava ser humana. Só comem carne humana quando seus pais nem sabem de sua existência, o que é a maioria dos casos.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Não chegam a ser caçadas?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Não, elas seguem seus pais.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Tá querendo dizer que...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Sim, elas se alimentam dos restos que eles deixam pra trás, os corpos. Quando ela fica com fome, ele fica com sede.</default>
+	</talk>
+	<talk character="Ang">
+		<default>E não é ruim mudar esse ciclo?</default>
+	</talk>
+	<talk character="Nat">
+		<default>É até bom! Quando têm companhia do pai durante essa fase, não se entregam tão fácil a vampiros quando crescem.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Você parece nova para saber tanto.</default>
+	</talk>
+	<talk character="Nat">
+		<default>A primeira coisa que aprendi foi sobre as fênixs.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Mesmo assim...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Na verdade tenho 63 anos.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Deixe-me adivinhar... Manigê?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Foi bom ter calhado d’eu encontrá-la antes do nascimento.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Você não envelhece?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Envelheço um ano em três, comparando a um humano.</default>
+	</talk>
+	<talk character="Ang">
+		<default>E as fênixs?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Quatro em um, até os cinco anos.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Depois morrem?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Não, apenas param o crescimento. Depois dos três anos, ou seja, doze, só morrem quando engravidam de um vampiro.</default>
+	</talk>
+	<teller>
+		<default>Ele chegam ao lago. Angely coloca Inês no chão.</default>
+	</teller>
+	<talk character="Nat">
+		<default>Melhor fazermos isso rápido, se não a criança morre sem ar. É um dos jeitos de se matar uma fênix criança.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Por que tenho a impressão que o lago não tem nada a ver com o nascimento da criança?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Por que não sou uma boa atriz?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Que pretende fazer?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Se eu prendê-la a mim, estará mais protegida de seus próprios instintos.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Mas será que ela quer isso?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Me responda você, acha que ela prefere ficar perto de mim ou, quando completar doze anos, se entregar ao primeiro vampiro que aparecer?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Melhor nós tirarmos ela dali logo, estou sentindo algo estranho.</default>
+	</talk>
+	<teller>
+		<default>Natasha pega uma faca e corta a barriga, tirando a criança de dentro. Vai levá-la até o lago, mas Ang segura-lhe o braço.</default>
+	</teller>
+	<talk character="Nat">
+		<default>Calma, quer deixar a criança suja desse jeito?</default>
+	</talk>
+	<teller>
+		<default>Ele solta o braço dela. Ela vai ao lago e lava a criança que, até então dormindo, acorda. Ang olha fixamente o corpo.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Que faremos com isso?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Vai se desfazer sozinho.</default>
+	</talk>
+	<teller>
+		<default>Ang tira a camisa e leva para Natasha. Ela enrola a criança.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Não vi cordão umbilical.</default>
+	</talk>
+	<talk character="Nat">
+		<default>Se desfez, na hora que ela desmaiou. Foi quando a criança perdeu o controle do corpo da mãe.</default>
+	</talk>
+	<teller>
+		<default>Silêncio. Natasha percebe que Ang está querendo pedir algo, mas não sabe se deve. Entrega a criança a ele, que sorri.</default>
+	</teller>
+	<talk character="Nat">
+		<default>Bom, chamou ela pelo nome da mãe, agora vai ficar com esse nome.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Então eu deveria ter chamado por outro nome?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Geralmente, como já disse, ninguém conversa com elas. Por isso só assumem um nome após o nascimento.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Mas, se estão sozinhas, como a criança nasce?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Ficam sempre perto de centros, seus pais são inconscientemente forçados a isso. Não é difícil alguém encontrar uma grávida no chão, morta. Já decidiu?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Acho que ela prefere a sua companhia, do que...</default>
+	</talk>
+	<talk character="Edmont">
+		<arrive>Eu não acho.</arrive>
+	</talk>
+	<teller>
+		<default>Nat e Ang olham pra Edmont.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Os instintos não podem ser renegados assim...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Não tem direito a uma opinião.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Eu sou o pai, quem decide sou eu.</default>
+	</talk>
+	<talk character="Nat">
+		<default>Pai não é quem faz, é quem cuida.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Se eu não me engano, não me deram essa oportunidade.</default>
+	</talk>
+	<talk character="Nat">
+		<default>Se eu não me engano, ela quem escolheu.</default>
+	</talk>
+	<teller>
+		<default>Angely entrega a criança a Natasha. Edmont está armado. Angely acaba desarmando-o. Natasha não entende quando ele enfia a arma em seu próprio peito. Edmont desaparece e Natasha se aproxima de Angely. Vai tirar a arma, mas Ang não deixa.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Faça o que... tem que fazer e... volte para o... casarão...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Mas o que direi aos outros?!</default>
+		<irony>Olha, ele tá morrendo lá na beira do lago, mas eu não tenho nada a ver com isso!</irony>
+	</talk>
+	<talk character="Ang">
+		<default>Diga que... encontramos Edmont... e tive que... segurar ele aqui... pra você fugir com... Inês, apenas... isso. Promete?...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Mas...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Confie... em mim...</default>
+	</talk>
+	<talk character="Nat">
+		<default>Tá bom, você quem sabe.</default>
+	</talk>
 </story>
