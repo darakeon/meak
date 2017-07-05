@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="18" scene="d">
 	<teller>
-		<default>Os três chegam à casa de Beatrice. Alan está no sofá.</default>
+		<default>Casa de Beatrice. Zenon e Aléxis entram. Juliana trava na porta. Zenon franze a sobrancelha. Alan está no sofá.</default>
 	</teller>
 	<talk character="Alan">
 		<default>E aí, vamos sair?</default>
 	</talk>
-	<teller>
-		<default>Juliana pára, vendo Alan.</default>
-	</teller>
 	<talk character="Zenon">
 		<default>A casa não é dele, pode entrar.</default>
 	</talk>
+	<teller>
+		<default>Juliana entra.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Eu não conheço você?</default>
 	</talk>
@@ -20,11 +20,15 @@
 	</talk>
 	<talk character="Alan">
 		<default>Ah, você...</default>
-		<teller>olha para os dois</teller>
-		<default>Ah, não confundi.</default>
 	</talk>
 	<teller>
-		<default>Zenon vira para Juliana.</default>
+		<default>Alan sorri. Olha para Zenon e Aléxis e desfaz o sorriso.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Não, só confundi mesmo.</default>
+	</talk>
+	<teller>
+		<default>Zenon olha para Juliana.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Vocês se conhecem?</default>
@@ -36,7 +40,7 @@
 		<default>É. Foi bom ver vocês.</default>
 	</talk>
 	<teller>
-		<default>Alan sai. Aléxis o traz de volta.</default>
+		<default>Alan sai. Aléxis revira os olhos, sai, traz Alan de volta.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Precisam de ajuda?</default>
@@ -56,14 +60,26 @@
 	<talk character="Juliana">
 		<default>Sou vampira.</default>
 	</talk>
+	<teller>
+		<default>Alan franze a sobrancelha. Aléxis suspira.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Mas não era na época, tava mais nova...</default>
 	</talk>
+	<teller>
+		<default>Aléxis olha para Alan.</default>
+	</teller>
 	<talk character="Aléxis">
-		<default>Não era isso. Juliana, pára de enrolar.</default>
+		<default>Não era isso.</default>
 	</talk>
 	<teller>
-		<default>Ela pega Alan pela mão e senta-se no sofá. Olha pro chão.</default>
+		<default>Aléxis olha para Juliana.</default>
+	</teller>
+	<talk character="Aléxis">
+		<default>Para de enrolar.</default>
+	</talk>
+	<teller>
+		<default>Juliana suspira. Pega Alan pela mão e sentam-se no sofá. Olha pro chão.</default>
 	</teller>
 	<talk character="Juliana">
 		<default>Você não tem filhos, certo?</default>
@@ -87,17 +103,21 @@
 		<default>Ela gosta de crianças?</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta bruscamente.</default>
+		<default>Alan se levanta bruscamente.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Ai, meu Deus, a Estela tá grávida???</default>
+		<default>Ai, meu Deus, Estela tá grávida???</default>
 	</talk>
 	<talk character="Aléxis">
 		<default>Alan...</default>
 	</talk>
 	<talk character="Alan">
 		<default>Mas, se eu não fiz nada...</default>
-		<teller>se senta novamente</teller>
+	</talk>
+	<teller>
+		<default>Alan se senta novamente.</default>
+	</teller>
+	<talk character="Alan">
 		<default>Caralho, acho que nasci pra ser corno...</default>
 	</talk>
 	<talk character="Juliana">
@@ -107,7 +127,7 @@
 		<default>Vou terminar com ela agora!</default>
 	</talk>
 	<teller>
-		<default>Alan sai. Aléxis o traz de volta de novo.</default>
+		<default>Alan sai. Aléxis vai atrás e traz de volta de novo.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Escuta aqui...</default>
@@ -115,9 +135,6 @@
 	<talk character="Aléxis">
 		<default>Engravidou a Juliana quando transou com ela.</default>
 	</talk>
-	<teller>
-		<default>Alan se senta de novo.</default>
-	</teller>
 	<talk character="Alan">
 		<default>Que?</default>
 	</talk>
@@ -126,13 +143,21 @@
 	</talk>
 	<talk character="Alan">
 		<default>Eu tenho uma filha...</default>
-		<teller>ele sorri, mas fecha o rosto, preocupado</teller>
+	</talk>
+	<teller>
+		<default>Alan sorri. Desmancha o sorriso.</default>
+	</teller>
+	<talk character="Alan">
 		<default>Eu tenho uma filha...</default>
-		<teller>se levanta, bravo</teller>
+	</talk>
+	<teller>
+		<default>Alan levanta bruscamente, olhando para Juliana, franzindo o rosto.</default>
+	</teller>
+	<talk character="Alan">
 		<default>Você tem uma filha!</default>
 	</talk>
 	<teller>
-		<default>Aléxis e Zenon não entendem.</default>
+		<default>Aléxis e Zenon se entreolham, franzindo a testa.</default>
 	</teller>
 	<talk character="Aléxis">
 		<default>É. Sua.</default>
@@ -144,18 +169,22 @@
 		<default>Eu não queria...</default>
 	</talk>
 	<talk character="Alan">
-		<irony>Claro, ele te deram o sangue deles enquanto dormia! Numa mamadeira quem sabe!</irony>
+		<irony>Claro, te deram o sangue deles enquanto dormia! Numa mamadeira quem sabe!</irony>
 	</talk>
 	<talk character="Bea">
 		<arrive>Isso é possível.</arrive>
 	</talk>
+	<teller>
+		<default>As pessoas olham para Beatrice.</default>
+	</teller>
 	<talk character="Alan">
 		<default>A mamadeira?</default>
 	</talk>
+	<teller>
+		<default>Beatrice tampa o rosto com a mão. Tira a mão da frente e volta a olhar para Alan.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Não!</default>
-		<teller>olha pra cima, volta a olhar pra Alan</teller>
-		<default>Ser transformado sem querer. Edmont achou que eu fosse matá-lo.</default>
+		<default>Que te transformem sem você querer. Edmont achou que eu fosse matar.</default>
 	</talk>
 	<talk character="Aléxis">
 		<default>E não tentou fugir?</default>
@@ -167,10 +196,10 @@
 		<default>Tem como desfazer isso?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não, não tem como voltar a ser humana.</default>
+		<default>Não, não tem como voltar a ser o que era.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Aléxis, eu preciso falar com você. Deixa ela com a Beatrice.</default>
+		<default>Aléxis, eu preciso falar com você.</default>
 	</talk>
 	<teller>
 		<default>Zenon sai. Aléxis olha para Juliana, para Beatrice e sai. Zenon volta e olha para Alan.</default>
@@ -185,17 +214,21 @@
 		<default>Eu cheguei e você disse "Vamos sair?". Por que veio me procurar aqui?</default>
 	</talk>
 	<talk character="Alan">
-		<default>A Michele disse que era mais fácil te encontrar aqui.</default>
+		<default>Michele disse que era mais fácil te encontrar aqui.</default>
 	</talk>
 	<teller>
-		<default>Bravo, Zenon sai de novo.</default>
+		<default>Zenon bufa e sai.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Matou alguém?</default>
 	</talk>
 	<talk character="Juliana">
 		<default>Não.</default>
-		<teller>olha para baixo</teller>
+	</talk>
+	<teller>
+		<default>Juliana olha para o chão.</default>
+	</teller>
+	<talk character="Juliana">
 		<default>Mas quase mordi Ísis.</default>
 	</talk>
 	<talk character="Alan">
@@ -214,19 +247,19 @@
 		<default>Você nunca mais vai ver ou encostar nela, será que me entendeu?</default>
 	</talk>
 	<teller>
-		<default>Ele sai.</default>
+		<default>Alan sai. Juliana balança a cabeça para os lados.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Ele tá nervoso.</default>
+		<default>Tá com raiva.</default>
 	</talk>
 	<talk character="Juliana">
 		<default>Eu criei ela. Se ele acha que pode...</default>
 	</talk>
 	<talk character="Bea">
-		<default>O pai dele virou vampiro. Por isso a revolta.</default>
+		<default>Tem histórico na família. Por isso a revolta.</default>
 	</talk>
 	<talk character="Juliana">
-		<default>Um deles.</default>
+		<default>Um dos pais dele. E tinha outro.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Sabe da história? Ficou observando?</default>
@@ -235,46 +268,46 @@
 		<default>Talvez. Não interessa agora.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Quem te transformou, virá atrás de você?</default>
+		<default>Quem te transformou, vai vir atrás de você?</default>
 	</talk>
 	<talk character="Juliana">
 		<default>Isso interessa.</default>
 	</talk>
 	<teller>
-		<default>Zenon e Aléxis estão andando. Aléxis segura o braço de Zenon.</default>
+		<first>Zenon e Aléxis estão andando. Aléxis segura o braço de Zenon.</first>
 	</teller>
 	<talk character="Aléxis">
 		<default>Aqui ela não vai ouvir.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Clítia foi quem a transformou.</default>
+		<default>Clítia foi quem transformou.</default>
 	</talk>
 	<talk character="Aléxis">
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ela tá com o cheiro de Clítia.</default>
+		<default>Tá com o cheiro de Clítia.</default>
 	</talk>
 	<talk character="Aléxis">
-		<default>Ela disse que não sabia o nome de quem a transformou.</default>
+		<default>Disse que não sabia o nome de quem transformou.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Talvez Juliana tenha sido mandada por Clítia.</default>
+		<default>Talvez Juliana tenha vindo por Clítia.</default>
 	</talk>
 	<talk character="Aléxis">
 		<default>Não creio.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Por que não? Pensa bem, ela aparece com um suposto filho de Alan...</default>
+		<default>Por que não? Pensa bem, aparece com um suposto filho de Alan...</default>
 	</talk>
 	<talk character="Aléxis">
-		<default>Alan a reconheceu.</default>
+		<default>Alan reconheceu.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>E daí? Era uma prostituta.</default>
 	</talk>
 	<talk character="Aléxis">
-		<default>E você, um assassino. Quando eu cheguei aqui, a conheci. Foi logo antes de Bea me encontrar.</default>
+		<default>E você, um assassino. Quando eu cheguei aqui, conheci ela. Foi logo antes de Bea me encontrar.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Muito conveniente. Estávamos atrás de você.</default>
@@ -283,7 +316,7 @@
 		<default>Acha que Clítia armaria algo há tanto tempo? Pra vir atrás de você?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tá, não. Talvez por você. Talvez seja a Beatrice.</default>
+		<default>Tá, não. Talvez por você. Talve por Beatrice.</default>
 	</talk>
 	<talk character="Aléxis">
 		<default>Juliana é inocente. Se Clítia vier atrás, pegamos. E resolvemos o problema. Simples assim. Ela disse que havia um homem com elas.</default>
@@ -295,10 +328,10 @@
 		<default>Então vamos voltar.</default>
 	</talk>
 	<teller>
-		<default>Na MEAK, Alan chega. Ísis está com Derik na cozinha, comendo.</default>
+		<first>MEAK. Ísis está com Derik na cozinha, comendo.</first>
 	</teller>
 	<talk character="Alan">
-		<default>Ísis?</default>
+		<arrive>Ísis?</arrive>
 	</talk>
 	<talk character="Ísis">
 		<default>Sim?</default>
@@ -306,6 +339,9 @@
 	<talk character="Alan">
 		<default>Qual o nome do seu pai?</default>
 	</talk>
+	<teller>
+		<default>Derik franze a testa.</default>
+	</teller>
 	<talk character="Ísis">
 		<default>Alan. Alan Anjos.</default>
 	</talk>
@@ -313,10 +349,10 @@
 		<default>Sua mãe quem te disse?</default>
 	</talk>
 	<talk character="Ísis">
-		<default>Sim. Disse pra eu procurá-lo, caso algo acontecesse. Disse que tem um serviço perigoso. Acho que é agente secreta, que nem nos filmes.</default>
+		<default>Sim. Disse pra eu procurar ele, caso algo acontecesse. Disse que tem um serviço perigoso. Acho que é agente secreta, que nem nos filmes.</default>
 	</talk>
 	<teller>
-		<default>Ele chega perto dela.</default>
+		<default>Alan chega perto de Ísis.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Querida, tenho que te contar uma coisa. Mamãe...</default>
@@ -334,7 +370,7 @@
 		<default>As pessoas às vezes mudam quando isso acontece. Meu pai... Um deles, eu tinha dois. Um deles virou vampiro. Ele tentou matar minha mãe, e tentou me transformar também. Meu outro pai me salvou.</default>
 	</talk>
 	<talk character="Ísis">
-		<default>Foi aí que começou a chamá-lo de pai?</default>
+		<default>Foi aí que começou a chamar ele de pai?</default>
 	</talk>
 	<talk character="Alan">
 		<default>Não, já tinha dois pais antes.</default>
@@ -350,38 +386,54 @@
 	</talk>
 	<talk character="Alan">
 		<default>Não sei, meu anjo.</default>
-		<teller>tira o RG e entrega pra ela</teller>
-		<default>Mas pode contar comigo. Sabe ler?</default>
 	</talk>
 	<teller>
-		<default>Ela pega o RG. Lê.</default>
+		<default>Alan pega a carteira no bolso. Abre, tira o RG.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Mas pode contar comigo. </default>
+	</talk>
+	<teller>
+		<default>Alan estende o RG a Ísis.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Sabe ler?</default>
+	</talk>
+	<teller>
+		<default>Ísis pega o RG. Olha. Olha para Alan.</default>
 	</teller>
 	<talk character="Ísis">
-		<default>Acho que sei. Você é meu pai?</default>
+		<default>Você é meu pai?</default>
 	</talk>
 	<talk character="Alan">
 		<default>Parece que sim...</default>
 	</talk>
 	<teller>
-		<default>Ela o abraça. Derik levanta e sai.</default>
+		<default>Ísis sai da cadeira e abraça Alan. Derik levanta e sai. Kat está na sala, jogando uma estaca para o alto e pegando.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Quero um filho meu. Assim ninguém vai chegar e dizer "vamos pra casa".</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ok. A gente faz um depois que Clítia for morta.</default>
+		<default>Ok. A gente faz um depois que pegarmos Clítia.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Tava falando sério.</default>
 	</talk>
 	<teller>
-		<default>Derik sai. 12/11, madrugada. Aléxis e Zenon chegam à casa de Beatrice. Michele está sentada no sofá. Algumas coisas quebradas pela sala, uns rasgos na roupa de Michele e arranhões. Ela levanta, meio mancando.</default>
+		<default>Derik sai.</default>
+	</teller>
+	<teller>
+		<first>Madrugada. Casa de Beatrice. Aléxis e Zenon. Michele está no sofá. Algumas coisas quebradas pela sala, uns rasgos na roupa de Michele e arranhões. Michele levanta, meio mancando.</first>
 	</teller>
 	<talk character="Michele">
 		<default>Podem me explicar o que tá acontecendo?</default>
 	</talk>
+	<teller>
+		<default>Zenon olha ao redor.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>A julgar pelo que está à sua volta, não é a gente que tá sabendo.</default>
+		<default>Acho que não é a gente que tá sabendo.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Cheguei aqui e tinha mais uma vampira.</default>
@@ -402,29 +454,39 @@
 		<irony>Não sei, talvez viesse atrás de Aléxis.</irony>
 	</talk>
 	<talk character="Aléxis">
-		<default>Eu tô quieto aqui...</default>
+		<default>Ô, eu tô quieto aqui...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Te fiz uma pergunta, falou ou saiu atacando?</default>
 	</talk>
+	<teller>
+		<default>Michele cruza os braços.</default>
+	</teller>
 	<talk character="Michele">
 		<default>Perguntei primeiro.</default>
 	</talk>
 	<talk character="Zenon">
-		<irony>Então vamos decidir no par ou ímpar quem responde, já que estamos disputando isso como crianças.</irony>
+		<irony>Então vamos decidir no par ou ímpar quem responde, já que estamos disputando isso como crianças!</irony>
 	</talk>
 	<talk character="Michele">
 		<default>Que foi, tá preocupado com sua amada?</default>
 	</talk>
+	<teller>
+		<default>Zenon olha Michele de cima a baixo.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Teoricamente, a mulher que amo no máximo se esfolou.</default>
+		<default>Me parece mulher que amo no máximo se esfolou um pouco.</default>
 		<irony>Ah, esqueci, eu não sei mais se te amo.</irony>
 	</talk>
+	<teller>
+		<default>Michele descruza os braços.</default>
+	</teller>
 	<talk character="Michele">
 		<default>Nunca disse que me amava.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Fica difícil, é um espaço apertado entre uma justificativa e outra do porque respirei fundo. Eu cheguei aqui e você simplesmente deduziu que eu sabia alguma coisa. E, só porque você tem ciúmes da Beatrice, saiu atacando sem perguntar nada. Isso tá ficando insuportável, Michele.</default>
+		<irony>Fica difícil, é um espaço apertado entre uma justificativa e outra do porque respirei fundo.</irony>
+		<default>Eu cheguei aqui e você simplesmente deduziu que eu sabia alguma coisa. E, só porque você tem ciúmes da Beatrice, saiu atacando sem perguntar nada. Isso tá ficando insuportável, Michele.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Era uma vampira.</default>
@@ -436,19 +498,19 @@
 		<default>Zenon sai.</default>
 	</teller>
 	<talk character="Michele">
-		<default>Nem quis saber se a matei.</default>
+		<default>Nem quis saber se matei ela.</default>
 	</talk>
 	<talk character="Aléxis">
 		<default>Beatrice não teria ido embora, teria ficado aqui e te amarrado ou algo assim. E não tem cheiro de cinzas no ar.</default>
 	</talk>
 	<teller>
-		<default>Michele sai.</default>
+		<default>Michele sai. Aléxis olha ao redor. Olha para a porta. Balança a cabeça para os lados.</default>
 	</teller>
 	<talk character="Aléxis">
 		<irony>Não precisa, eu arrumo sozinho.</irony>
 	</talk>
 	<teller>
-		<default>Ele começa a juntar as coisas. Beatrice está na MEAK com Juliana. Soraia olha pra Juliana fixamente.</default>
+		<first>MEAK. Beatrice deitou-se no sofá, olhando para o teto. Juliana sentou-se em outro sofá. Soraia está em frente ao balcão, olhando fixamente Juliana.</first>
 	</teller>
 	<talk character="Juliana">
 		<default>Não vou matar ninguém.</default>
@@ -457,12 +519,18 @@
 		<default>Não enquanto eu estiver de olho.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não precisa se preocupar com Soraia. Como está na dúvida, ela só está esperando um segundo de distração pra te carregar pros CVs.</default>
+		<default>Não precisa se preocupar com Soraia. Tá na dúvida, então tá esperando um segundo de distração pra te carregar pra CVs.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Tá me chamando de covarde?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não. Apenas sei que não desperdiça suas energias. Mas esqueça, eu não vou e distrair.</default>
+		<default>Não. Mas sei que não desperdiça suas energias.</default>
+	</talk>
+	<teller>
+		<default>Beatrice se senta no sofá.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Esquece, não vou me distrair.</default>
 	</talk>
 </story>
