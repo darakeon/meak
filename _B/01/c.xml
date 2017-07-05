@@ -1,70 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="01" scene="c">
 	<teller>
-		<default>Os três descem a escada.</default>
+		<default>Kat, Estela e Derik descem a escada.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ei, vamos parando por aqui!</default>
+		<default>Que tal a gente para por aqui?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Enquanto ainda não estão armados.</default>
+		<default>Enquanto ainda não pegaram em armas...</default>
 	</talk>
 	<talk character="Estela">
 		<default>Alan, ela já não te explicou...</default>
 	</talk>
 	<talk character="Alan">
-		<default>Três pessoas brutalmente assassinadas e quer que eu fique quieto???</default>
-	</talk>
-	<talk character="Estela">
-		<default>Tá, nós enterramos ele bem fundo, não precisa matar o bonzinho por que o mau saiu aprontando!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Por que não pensamos nisso antes?</default>
+		<screamed>Uma pessoa morreu e quer que eu fiquei quieto???</screamed>
 	</talk>
 	<talk character="Mel">
-		<default>É uma boa idéia...</default>
+		<default>Você que não teve competência de achar todos os vampiros!</default>
 	</talk>
 	<talk character="Alan">
-		<default>Tá. Nós vamos trazer seu outro irmão e enterrar esse bem fundo assim que o outro destruir o livro.</default>
+		<default>Certeza que foi seu amiguinho!</default>
+	</talk>
+	<talk character="Mel">
+		<default>Zenon não faria isso! E Beatrice sabe que vou largar pra trás se fizer!</default>
+	</talk>
+	<talk character="Alan">
+		<default>E do que estão se alimentando?!</default>
+		<irony>Margaridas?!</irony>
 	</talk>
 	<teller>
-		<default>Eles saem e vão até o templo.</default>
-		<division>1a RLDD</division>
-		<default>8:00hrs. Angely ainda está no templo, deitado no chão. Dara (fantasma) está perto dele.</default>
+		<default>Mel estende o pulso. Alan olha. Arregala os olhos. Balança a cabeça para os lados.</default>
 	</teller>
-	<talk character="Ang">
-		<default>Estou com fome.</default>
+	<talk character="Alan">
+		<default>Você é mais louca do que imaginei.</default>
 	</talk>
-	<talk character="Dara">
-		<ghost>À essa hora muita gente acha que você está morto.</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Acham que desapareci no mar. Eu podia voltar e dizer que não, mas que não sei onde estão os outros.</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>É, eu não tinha pensado nisso. Você pensa com a simplicidade de uma criança.</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Nunca reparou que crianças conseguem resolver com simplicidade o que os adultos vivem complicando?</ghost>
+	<talk character="Mel">
+		<default>Seus conceitos escrotos não tão me interessando muito no momento. A gente precisa achar Edmont e Angely, e isso é tudo que me interessa agora.</default>
 	</talk>
 	<teller>
-		<default>Ele dá um sorriso.</default>
-	</teller>
-	<talk character="Dara">
-		<ghost>Era pra eu cair?</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Você vem comigo? Vou sair e dizer à todos que estou de volta.</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Estarei com você.</ghost>
-	</talk>
-	<teller>
-		<division>2a RLDD</division>
-		<default>10:00hrs. Os cinco já arrumaram tudo no templo.</default>
+		<first>10h. Templo. Um desenho no chão com sal, velas amarelas, maças pelo chão.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Tá, e agora?</default>
@@ -73,359 +47,204 @@
 		<default>Bom, agora nós esperamos até meio-dia e...</default>
 	</talk>
 	<teller>
-		<default>Aparecem, do nada, três seres. Derik se ajoelha.</default>
+		<default>Kash, Iads e Wige aparecem na sala. Derik se ajoelha.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Não tínhamos que fazer o feitiço antes?</default>
 	</talk>
 	<talk character="Kash">
-		<default>Nós não precisamos ser chamados quando o assunto é de nosso interesse.</default>
+		<default>Nós não precisamos que nos chamem quando o assunto é de nosso interesse.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Nós precisamos de...</default>
+		<default>Nós precisamos...</default>
 	</talk>
 	<talk character="Yads">
 		<default>Nós sabemos.</default>
 	</talk>
+	<teller>
+		<default>Wige olha para Derik.</default>
+	</teller>
 	<talk character="Wige">
-		<default>Já não dissemos a ele que não somos deuses?</default>
+		<default>Já não dissemos que não somos deuses?</default>
 	</talk>
 	<talk character="Yads">
-		<default>Acho que ele não fala nossa língua.</default>
+		<default>Talvez estejamos falando na língua errada.</default>
 	</talk>
-	<talk character="Kat">
+	<talk character="Estela">
 		<default>Derik, quer parar de fazer papel de ridículo???</default>
 	</talk>
 	<teller>
 		<default>Derik se levanta.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Como sabiam que estávamos querendo destruir o livro?</default>
-	</talk>
-	<talk character="Yads">
-		<default>Fomos nós quem mandamos.</default>
+		<default>Como sabiam?</default>
 	</talk>
 	<talk character="Kash">
-		<default>Vai ser mais complicado do que acham trazer seu amigo.</default>
+		<default>Não é como se um evento desse porte passasse desapercebido.</default>
+	</talk>
+	<talk character="Wige">
+		<default>Precisam encontrar algumas coisas para que possamos fazer o feitiço de localização.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Por que?</default>
-	</talk>
-	<talk character="Wige">
-		<default>Ele não ficou no templo.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Como assim???</default>
+		<default>Porque vocês mesmos não podem achar?</default>
 	</talk>
 	<talk character="Yads">
-		<default>Foi até a delegacia e agora todos acham que ele foi o único sobrevivente.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ele pode ser muito inteligente, mas tem horas que ele não pensa mesmo!</default>
+		<default>Não podemos fazer nenhuma interferência física nas Realidades.</default>
 	</talk>
 	<talk character="Kash">
-		<default>Vocês têm que arranjar os itens pra destruir o livro.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Mas isso nós já...</default>
-	</talk>
-	<talk character="Wige">
-		<default>Acha que se tivessem arranjado, nós estaríamos falando?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então o que temos quer arranjar?</default>
-	</talk>
-	<talk character="Yads">
-		<default>Primeiro, limpem esse lugar.</default>
+		<default>Poderíamos destruir uma Realidade fazendo isso, e tudo que há nela.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Pra que?!</default>
-	</talk>
-	<talk character="Kash">
-		<default>Por que a alma do seu irmão está limpa.</default>
-	</talk>
-	<talk character="Wige">
-		<default>Depois vocês terão que buscar elementos puros, livres da sujeira do dinheiro.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Derik, achei que tinha ido buscar, disse que deu trabalho!</default>
+		<default>Mas só de aparecerem aqui já não estão...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Você por acaso pensa que isso se encontra no barzinho da esquina???</default>
-	</talk>
-	<talk character="Alan">
-		<default>Mas isso vai levar muito tempo!</default>
+		<default>Não são seres materiais.</default>
 	</talk>
 	<talk character="Kash">
-		<default>Então é melhor se apressarem. Têm só trinta e oito horas.</default>
+		<default>Derik sabe o feitiço.</default>
 	</talk>
 	<teller>
-		<default>Os três desaparecem.</default>
+		<default>Kash some.</default>
 	</teller>
-	<talk character="Kat">
-		<default>Arrogantes.</default>
-	</talk>
 	<talk character="Derik">
-		<default>Kat!</default>
+		<default>Eu?!</default>
 	</talk>
-	<talk character="Mel">
-		<default>É mesmo, como vamos encontrar tudo em dois dias???</default>
-	</talk>
-	<talk character="Alan">
-		<default>Menos dez horas.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Ah, e vamos ficar xingando, ao invés de ir procurar?! Vamos sair daqui!</default>
+	<talk character="Yads">
+		<default>Sim. Mas vai ter que perder mais uma camada.</default>
 	</talk>
 	<teller>
-		<default>Os cinco saem. Chegando à pensão...</default>
+		<default>Derik olha para o chão. Yads e Wige some.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Bom, então só temos Derik para procurar.</default>
+		<default>Do que tavam falando?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não, Kat também pode!</default>
-	</talk>
-	<talk character="Alan">
-		<default>E como?</default>
+		<default>De uma coisa que eu não posso contar.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Derik está...</default>
+		<default>Por que não?</default>
 	</talk>
 	<talk character="Derik">
+		<default>Kat... Você me ama?</default>
+	</talk>
+	<teller>
+		<default>Derik olha para Kat.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Amo. Fez algo errado?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Não interessa o que fiz antes.</default>
+	</talk>
+	<teller>
+		<default>Derik olha para Mel.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Preciso que lembrem do que eu fiz quando estava com vocês.</default>
+	</talk>
+	<teller>
+		<default>Derik olha para Agatha.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Preciso que saibam que não sou ruim.</default>
+	</talk>
+	<teller>
+		<default>Olha novamente para Kat.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Preciso que acreditem no que digo. Vocês não fazem ideia do quanto preciso disso. Vocês são minha família. Não importa quem estava para trás. Eu não posso voltar pro meu passado. Nem é meu o direito de decidir sobre isso.</default>
+	</talk>
+	<teller>
+		<default>Derik baixa a cabeça.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Vou entender se quiserem que eu vá embora.</default>
+	</talk>
+	<teller>
+		<default>Volta a olhar para Mel.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Mas vocês são tudo o que tenho. E tudo que importa pra mim.</default>
+	</talk>
+	<teller>
+		<default>Kat abraça Derik. Derik abraça de volta. Uma lágrima cai de seu rosto. Alan olha para Estela. Olha para Mel. Mel tira uma espada que trazia nas costas. Derik se vira para Mel. Olha para Alan.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Eu não sei o que ele fez, mas tá parecendo coisa de criança fugida de casa. Ele é humano, e é quase uma criança. Não pode ter sido tão ruim assim.</default>
+	</talk>
+	<teller>
+		<default>Mel guarda a espada.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Vai fazer o que você tem que fazer.</default>
+	</talk>
+	<teller>
+		<default>Mel olha para Derik.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Se for possível, volta com as coisas do feitiço. Acho que você é a única pessoa aqui que pode procurar livremente.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Eu também posso.</default>
+	</talk>
+	<teller>
+		<default>Alan franze a testa.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Como?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Kat...</default>
+	</talk>
+	<talk character="Kat">
 		<default>Já tá na hora de contar.</default>
 	</talk>
-	<teller>
-		<default>Kat encara Derik.</default>
-	</teller>
 	<talk character="Mel">
-		<default>Fala de uma vez, Katerine.</default>
+		<default>O que é?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Mel, lembra quando a Psique morreu e você disse que eu não tinha tido nenhum sonho com isso?</default>
+		<default>Mel, lembra quando Psique morreu e você disse que eu não tinha tido nenhum sonho com isso?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sim, e...</default>
+		<default>Lembro.</default>
 	</talk>
 	<teller>
-		<default>Ela deita-se no sofá. Alan e Estela se assustam quando Kat fica completamente pálida.</default>
+		<default>Kat se senta no chão. Derik senta-se atrás. Kat solta o corpo. Estela arregala os olhos. Alana vai até Kat e pega o pulso. Franze a testa. Olha para Mel.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Tudo bem, isso nós já sabemos.</default>
 	</talk>
 	<teller>
-		<default>Uma cadeira vem "sozinha" até eles. Então Kat volta à seu corpo.</default>
+		<default>Uma das maças no chão sobe no ar. Alan levanta e pega a maça. Olha e passa a mão em volta. Chacoalha um braço no ar. Kat respira fundo. Alan dá um passo para trás e cai no chão.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Então vamos separar os grupos. Um pra achar o que será necessário pra destruir o livro e o outro pra limpar o templo.</default>
+		<default>Derik vai achar o feitiço. Depois vocês procuram os ingredientes.</default>
 	</talk>
 	<teller>
-		<default>12:00. Mel e Alan estão no templo.</default>
+		<default>Alan se levanta e limpa a roupa.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Tô falando que Estela tava fingindo...</default>
+		<default>Tenho acesso a muitas coisas. Posso ajudar.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, ela torceu o pé mesmo... Eu a vi cair da escada.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Foi só pra não vir lavar isso aqui!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não acho que sua prima faria isso.</default>
+		<default>Ótimo. Até que enfim disse algo que gostei de ouvir.</default>
 	</talk>
 	<teller>
-		<division>1a RLDD</division>
-		<default>Ang chega em casa.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Dara? Já estamos seguros...</default>
-	</talk>
-	<teller>
-		<default>Ela aparece.</default>
-	</teller>
-	<talk character="Dara">
-		<ghost>Tem certeza que quer fazer isso?</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Tenho.</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Mas com que vai viver?</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Arranjo um trabalho.</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Não deveria antecipar seu testamento.</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Vai ser tudo doado e não se fala mais nisso.</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Deveria tentar ir atrás de Beatrice.</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Amo você.</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Mas quanto tempo vai conseguir viver com esse amor inocente?</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Mas isso é amor. Contentar-se com a pureza do olhar, a inocência do gesto, a simplicidade das palavras e a sinceridade da alma.</default>
-	</talk>
-	<teller>
-		<default>Dara sorri. Wige aparece.</default>
-	</teller>
-	<talk character="Wige">
-		<default>Tenho algumas coisas pra contar.</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Quem é você?</ghost>
-	</talk>
-	<talk character="Wige">
-		<default>Handhara, você não teve tempo de encontrar sua alma gêmea nesta encarnação.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Wige">
-		<default>Só encontramos a nossa alma gêmea definitivamente na última encarnação.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Quer dizer que...</default>
-	</talk>
-	<talk character="Wige">
-		<default>Tem que liberá-la. Pra ela voltar a nascer.</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Por que?</ghost>
-	</talk>
-	<talk character="Wige">
-		<default>Tente entender...</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Quem é você pra dizer isso??? Não entende nada! Você não é Deus pra saber!</ghost>
-	</talk>
-	<talk character="Wige">
-		<default>Não, não sou, mas...</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Eu amo Angely, quero ficar aqui com ele! Não quero outro! À menos que ele não me ame...</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>É claro que eu...</default>
-	</talk>
-	<talk character="Wige">
-		<default>Você amava Meggie. Agora ama mais Handhara, mas ela ainda não é a sua alma gêmea.</default>
-	</talk>
-	<talk character="Ang">
-		<default>E quem é?</default>
-	</talk>
-	<talk character="Wige">
-		<default>Não posso dizer. Apenas a liberte.</default>
-	</talk>
-	<talk character="Dara">
-		<ghost>Não faça isso, por favor...</ghost>
-	</talk>
-	<teller>
-		<default>Com um gesto de Wige, Dara se materializa.</default>
-	</teller>
-	<talk character="Wige">
-		<default>Para um último adeus.</default>
-	</talk>
-	<teller>
-		<default>Angely vai até ela e a abraça.</default>
-	</teller>
-	<talk character="Wige">
-		<default>É para o bem dos dois.</default>
-	</talk>
-	<teller>
-		<default>Uma lágrima desce o rosto de Angely. Dara passa a mão no rosto dele.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Não é essa a última lembrança que quero sua.</default>
-	</talk>
-	<talk character="Wige">
-		<default>Vocês voltarão à se encontrar.</default>
-	</talk>
-	<teller>
-		<default>Angely dá um beijo na testa de Dara. Ela vai virando luz até desaparecer.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Então, o que eu tenho que fazer agora?</default>
-	</talk>
-	<teller>
-		<default>Yads aparece.</default>
-	</teller>
-	<talk character="Yads">
-		<default>Temos muito o que conversar.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Eu devia ter ido?</default>
-	</talk>
-	<talk character="Wige">
-		<default>Fez muito bem em mandar Beatrice. Ela não teria futuro, o corpo da "alma gêmea" dela não está aqui.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Mas há mais de uma alma gêmea?</default>
-	</talk>
-	<talk character="Yads">
-		<default>Não, apenas um espírito controla mais de um corpo, mas sem poder carregar informações de um corpo à outro. É inconsciente.</default>
-	</talk>
-	<talk character="Ang">
-		<default>E Edmont?</default>
-	</talk>
-	<talk character="Wige">
-		<default>Temos revelações à fazer, à respeito de Zenon, Kat, Derik e Melody.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Estou ouvindo.</default>
-	</talk>
-	<teller>
-		<division>2a RLDD</division>
-		<default>É noite. Alan e Mel chegam em casa.</default>
-	</teller>
-	<talk character="Estela">
-		<default>E aí, limparam tudo?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Quase tudo. Sozinhos.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Se eu não tivesse mancando, eu tinha ido com vocês. Mas também, tinha que ter alguém aqui pra cuidar de Kat, quer dizer, do corpo dela. Imagina se alguém entra aqui e pensa que ela tá morta?</default>
-	</talk>
-	<teller>
-		<default>Estela se levanta mancando.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Peraí, não era esse pé!</default>
-	</talk>
-	<talk character="Estela">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Tá mancando com o pé errado.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Ah, eu...</default>
-	</talk>
-	<teller>
-		<default>Derik sai do banheiro.</default>
+		<default>É noite. Alan e Mel chegam em casa. Estela sentou-se ao lado do sofá onde Kat está, no chão. Derik sai do banheiro.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Gente, tá faltando só uma coisa da lista... Aliás, uma coisa que eu nem tinha visto antes.</default>
+		<default>Tá faltando só uma coisa da lista.</default>
 	</talk>
 	<talk character="Mel">
 		<default>E o que é?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Os dentes de um vampiro que nunca tenha bebido sangue.</default>
+		<default>Dentes de vampiro que nunca tenha bebido sangue.</default>
 	</talk>
 	<teller>
-		<default>Todos se entreolham. Kat acorda.</default>
+		<default>Mel solta os ombros. Alan arregala os olhos. Kat acorda.</default>
 	</teller>
-	<talk character="Mel">
+	<talk character="Alan">
 		<default>Onde raios vamos conseguir isso???</default>
 	</talk>
 	<talk character="Kat">
@@ -435,27 +254,42 @@
 		<default>Dentes de um vampiro que não tenha bebido sangue.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Bom, iremos a um cemitério esperar que alguém tenha resolvido transformar um vampiro hoje.</default>
+		<default>Vou atrás dos meus contatos, ver se conseguem isso em algum cemitério.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Beatrice pode ajudar.</default>
 	</talk>
-	<talk character="Kat">
-		<default>Não, eu tenho certeza que Edmont vai adorar arrancar os dentes de alguém.</default>
-	</talk>
-	<talk character="Edmont">
+	<talk character="Beatrice">
 		<arrive>Falando em mim?</arrive>
 	</talk>
-	<talk character="Mel">
-		<default>Pode nos ajudar?</default>
+	<teller>
+		<default>Alan olha para Beatrice, que sentou-se na janela.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Você já não está além do limite?!</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Legal, quem vai ser minha primeira vítima?</default>
+	<talk character="Beatrice">
+		<default>Não devia ficar em uma casa a venda, é um convite para qualquer pessoa que queira entrar.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Pessoas não precisam de convite.</default>
+	</talk>
+	<talk character="Beatrice">
+		<default>Você não é exatamente do tipo que tem educação, né?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Entra.</default>
+		<default>Precisamos de uma ajuda que deve ser mais fácil para você.</default>
 	</talk>
 	<teller>
-		<default>Alan encara Mel.</default>
+		<default>Beatrice franze a testa.</default>
+	</teller>
+	<talk character="Beatrice">
+		<default>Envolve beber sangue de alguém? Por que tô com fome.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não. Entra aí.</default>
+	</talk>
+	<teller>
+		<default>Beatrice pula para dentro. Alan encara Mel. Mel vai até a cozinha. Beatrice segue.</default>
 	</teller>
 </story>
