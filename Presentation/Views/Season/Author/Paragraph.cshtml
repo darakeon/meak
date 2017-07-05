@@ -12,8 +12,8 @@
         <span class="suggestionCharacter">
             @Html.TextBoxFor(m => m.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Character, 
                 new { 
-                    @class = "darkback auxi", 
-                    rel = ("character_" + Model.TalkCounter), 
+                    @class = "darkback auxi",
+                    rel = ("scene" + Model.SceneCounter + "_character_" + Model.TalkCounter), 
                     suggestion = "character", 
                     onfocus = "GetSuggestionBox(this)", 
                     onblur = "ExitSuggestionBox(this)" ,
@@ -21,7 +21,7 @@
                         2 * Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces.Count
                 })
 
-            <div class="suggestionBox" id="character_@(Model.TalkCounter)"></div>
+            <div class="suggestionBox" id="scene@(Model.SceneCounter)_character_@(Model.TalkCounter)"></div>
         </span>
 
         for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces.Count; p++)

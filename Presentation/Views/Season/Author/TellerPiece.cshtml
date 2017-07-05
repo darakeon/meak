@@ -1,13 +1,13 @@
 ﻿@model Presentation.Models.SeasonEditEpisodeModel
 
 @{var piece = Model.Story.SceneList[Model.SceneCounter].TellerList[Model.TellerCounter].Pieces[Model.PieceCounter];}
-                    
+
 <span class="paragraphPiece" id="Teller@(Model.TellerCounter)_Piece@(Model.PieceCounter)">
     <span class="teller_@(piece.Style)">
         @Html.TextBoxFor(m => m.Story.SceneList[Model.SceneCounter].TellerList[Model.TellerCounter].Pieces[Model.PieceCounter].Style,
             new { 
-                @class = "lightback auxi", 
-                rel = ("tellerStyle" + Model.TellerCounter + "_piece" + Model.PieceCounter), 
+                @class = "lightback auxi",
+                rel = ("scene" + Model.SceneCounter + "_tellerStyle" + Model.TellerCounter + "_piece" + Model.PieceCounter), 
                 suggestion = "tellerStyle", 
                 onfocus = "GetSuggestionBox(this)",
                 onblur = "ExitSuggestionBox(this)",
@@ -23,5 +23,5 @@
         <adder tabIndex="@(Model.TabIndex++)" class="adderPiece" scene="@Model.SceneCounter" type="Piece" subtype="Teller" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" piece="@Model.PieceCounter" onclick="AddInputItem(this)">+</adder>
     </span>
 
-    <div class="suggestionBox" id="tellerStyle@(Model.TellerCounter)_piece@(Model.PieceCounter)"></div>
+    <div class="suggestionBox" id="scene@(Model.SceneCounter)_tellerStyle@(Model.TellerCounter)_piece@(Model.PieceCounter)"></div>
 </span>

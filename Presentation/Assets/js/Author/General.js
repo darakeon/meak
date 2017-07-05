@@ -1,12 +1,9 @@
 $(document).ready(function () {
     AjustHeight();
-    
+
     AjustEditTextSize();
 
-    $(window).resize(AjustEditTextSizeNoParam);
+    $(window).resize(function () {
+        AjustEditTextSize();
+    });
 });
-
-//To not pass any parameters
-function AjustEditTextSizeNoParam() {
-    AjustEditTextSize();
-}

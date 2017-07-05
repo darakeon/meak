@@ -28,7 +28,6 @@ function BorderV(elementIdentifier) {
 
 
 function ScaleWidth(elementIdentifier) {
-
     var width = $(elementIdentifier).width();
 
     return width + ScaleHorizontalEdge(elementIdentifier);

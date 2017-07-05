@@ -56,10 +56,11 @@ namespace Presentation.Models
             var characterList = new List<String>();
 
             Story.SceneList
-                .ForEach(s => s.TalkList
-                    .Select(t => t.Character)
-                    .ToList()
-                    .AddRange(characterList));
+                .ForEach(s =>
+                    characterList.AddRange(
+                        s.TalkList.Select(t => t.Character)
+                    )
+                );
 
             CharacterList = 
                 characterList

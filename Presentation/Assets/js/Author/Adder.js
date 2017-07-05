@@ -30,12 +30,12 @@ function AddPiece(obj) {
         AjustNextPieces(scene, paragraph, piece);
 
 
-        var currentPiece = $("#" + subtype + typedParagraph + "_Piece" + piece);
+        var currentPiece = $("#Scene" + scene + " #" + subtype + typedParagraph + "_Piece" + piece);
 
         currentPiece.after(data);
 
 
-        var newInputID = "#" + subtype + typedParagraph + "_Piece" + (piece + 1);
+        var newInputID = "#Scene" + scene + " #" + subtype + typedParagraph + "_Piece" + (piece + 1);
         AjustThisEditTextSize(newInputID);
 
         $("#save_" + scene).show();
@@ -90,7 +90,7 @@ function AddParagraph(obj) {
 
         AjustNextParagraphs(paragraph, subtype);
 
-        $("#Paragraph" + paragraph).after(data);
+        $("#Scene" + scene + " #Paragraph" + paragraph).after(data);
 
         AjustThisEditTextSize("#Paragraph" + newParagraph);
 

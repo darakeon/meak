@@ -26,6 +26,8 @@ namespace Presentation.Helpers
             {
                 Model.Story.SceneList.Add(new Scene());
             }
+
+            Model.SceneCounter = scene;
         }
 
         public void SetPieceTeller(Int32 scene, Int32 piece, Int32 teller, Int32 talk)
@@ -73,14 +75,16 @@ namespace Presentation.Helpers
 
         public void SetParagraphTeller(Int32 scene, Int32 paragraph, Int32 teller, Int32 talk)
         {
-            Model.Story.SceneList[scene].TellerList = setParagraph<Teller, TellerStyle>(scene, teller, paragraph, ParagraphType.Teller);
+            Model.Story.SceneList[scene].TellerList =
+                setParagraph<Teller, TellerStyle>(scene, teller, paragraph, ParagraphType.Teller);
 
             setCountersAndView(paragraph, teller, talk);
         }
 
         public void SetParagraphTalk(Int32 scene, Int32 paragraph, Int32 talk, Int32 teller)
         {
-            Model.Story.SceneList[scene].TalkList = setParagraph<Talk, TalkStyle>(scene, talk, paragraph, ParagraphType.Talk);
+            Model.Story.SceneList[scene].TalkList =
+                setParagraph<Talk, TalkStyle>(scene, talk, paragraph, ParagraphType.Talk);
 
             setCountersAndView(paragraph, teller, talk);
         }
