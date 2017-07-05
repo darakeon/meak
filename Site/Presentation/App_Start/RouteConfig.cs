@@ -2,7 +2,7 @@
 using System.Web.Routing;
 using Structure.Data;
 
-namespace Presentation.App_Start
+namespace Presentation
 {
     public class RouteConfig
     {
