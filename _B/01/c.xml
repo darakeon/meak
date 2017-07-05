@@ -1,7 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="01" scene="c">
 	<teller>
-		<default>Kat, Estela e Derik descem a escada.</default>
+		<first>Alan e Mel chegam na casa. Estela está conversando com Kat.</first>
+	</teller>
+	<talk character="Alan">
+		<default>Estela, eu disse que hoje era seu dia de cozinhar...</default>
+	</talk>
+	<talk character="Estela">
+		<irony>Claro, eu tava pensando em fazer torta de camas com recheio de mesa!</irony>
+	</talk>
+	<talk character="Kat">
+		<default>Derik disse que ia buscar alguma coisa pra gente.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Chegou alguém querendo comprar a casa?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Só um casal que não gosta de morcegos.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Estela!</default>
+	</talk>
+	<talk character="Kat">
+		<default>Ah, mas são uns bichinhos tão bonitinhos...</default>
+	</talk>
+	<talk character="Alan">
+		<default>Não acredito, agora é complô!</default>
+	</talk>
+	<talk character="Kat">
+		<default>Então, como vamos resolver o problema?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Precisamos de algumas coisas...</default>
+	</talk>
+	<talk character="Derik">
+		<arrive>Trouxe a comida e aproveitei pra trazer uns itens que precisamos da outra vez. Nossa, deu um trabalho...</arrive>
+	</talk>
+	<teller>
+		<default>Derik olha ao redor. Todos estão olhando para Derik</default>
+	</teller>
+	<talk character="Derik">
+		<default>Que tão olhando?</default>
+	</talk>
+	<teller>
+		<first>Dia seguinte. Kat abre os olhos. Senta na cama. Franze a testa.</first>
+	</teller>
+	<talk character="Kat">
+		<default>Derik! Estela!</default>
+	</talk>
+	<teller>
+		<default>Derik senta na cama. Estela vira para o lado de Derik e Kat.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Que é?</default>
+	</talk>
+	<talk character="Alan">
+		<out>Não posso ver isso e simplesmente ficar calado!</out>
+	</talk>
+	<talk character="Mel">
+		<out>Você tá é com preocupação de perder seu emprego!</out>
+	</talk>
+	<teller>
+		<default>Estela abre mais os olhos e senta na cama.</default>
+	</teller>
+	<talk character="Alan">
+		<out>Não, você não entende o que é ser um caça-vampiros!</out>
+	</talk>
+	<talk character="Kat">
+		<default>Melhor apartarmos.</default>
+	</talk>
+	<teller>
+		<default>Kat, Estela e Derik levantam. Descem a escada.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Que tal a gente para por aqui?</default>

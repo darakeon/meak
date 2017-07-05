@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="01" scene="e">
 	<teller>
-		<default>Mel acorda.</default>
+		<default>Noite. Mel acorda.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Droga, onde...</default>
@@ -54,85 +54,181 @@
 	<talk character="Beatrice">
 		<default>Quando eu fizer isso, vou pra longe só pra te irritar.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<teller>
+		<default>Alan olha para Mel.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Isso aqui não é uma amizade, é uma trégua. Assim que acharmos Edmont, a programação volta ao normal.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Alan">
+		<default>E porque a gente vai ficar esperando?!</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Beatrice">
+		<default>Acha mesmo que, se você resolvesse me derrubar agora...</default>
 	</talk>
-	<talk character="">
-		<default />
+	<teller>
+		<default>Alan tira uma estaca da calça e atira contra Beatrice. Beatrice segura a estaca, quase cravada no seu peito.</default>
+	</teller>
+	<talk character="Beatrice">
+		<default>É tudo que você tem?</default>
 	</talk>
-	<talk character="">
-		<default />
+	<teller>
+		<default>Alan tira outra estaca. Mel desarma Alan e joga no chão.</default>
+	</teller>
+	<talk character="Mel">
+		<default>A trégua inclue proteção. Não vai querer brigar comigo.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<teller>
+		<default>Alan levanta.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Acha que tenho pena por ser mulher?</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Kat">
+		<arrive>Mel acabou de te jogar no chão, será que a burrice é tanta que não entende uma ameaça?!</arrive>
 	</talk>
-	<talk character="">
-		<default />
+	<teller>
+		<default>Alan olha para Katerine. Estela entra.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Eu vou indo. Acho que não precisam de mim aqui, já têm bastante proteção.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Mel">
+		<default>Já fugi do exército. Não sei porque achou que alguém aqui tava pedindo a sua proteção.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Alan">
+		<default>Por que você...?</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Mel">
+		<default>Ninguém aqui é humano.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Agatha">
+		<arrive>Eu sou.</arrive>
 	</talk>
-	<talk character="">
-		<default />
+	<teller>
+		<default>Alan olha para Agatha. Inês entra atrás de Agatha.</default>
+	</teller>
+	<talk character="Agatha">
+		<default>Mas tenho uma marca no pescoço e aparentemente sou chamariz de atlante.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Mel">
+		<default>Veio todo mundo?</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Agatha">
+		<default>A gente vai fazer o tal feitiço. Se acharmos outra marca, a gente vai embora de novo, não vai?</default>
 	</talk>
-	<talk character="">
-		<default />
+	<teller>
+		<default>Alan franze a testa.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Quantas vezes vocês já viajaram?</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Kat">
+		<default>Não é como se alguém estivesse contando.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<teller>
+		<default>Alan olha para o chão. Olha para Mel.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Vocês não fazem nem ideia de quanto tempo estão fazendo isso?</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Mel">
+		<default>Por volta de dois anos.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Estela">
+		<default>E como comemoram aniversário?</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Mel">
+		<default>Não tivemos muito tempo pra isso.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Kat">
+		<default>A hora que a gente parar, é mais fácil usar o calendário do lugar.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Estela">
+		<default>As datas não...</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Kat">
+		<default>Não. Já teve vez de a gente sair de um lugar vendo ovos de páscoa e chegar em outro com enfeites natalinos.</default>
 	</talk>
-	<talk character="">
-		<default />
+	<teller>
+		<default>Wige, Kash e Yads aparecem.</default>
+	</teller>
+	<talk character="Kash">
+		<default>Já estão prontos?</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Mel">
+		<default>Era pra ter jogado no controle do templo?</default>
 	</talk>
-	<talk character="">
-		<default />
+	<talk character="Yads">
+		<default>Sim.</default>
 	</talk>
+	<talk character="Beatrice">
+		<default>Boa parte do que a gente fez envolvia algo assim.</default>
+	</talk>
+	<talk character="Yads">
+		<default>Porque é aqui que está concentrado o poder para mudar de Realidade.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Porque não apareceram antes?</default>
+	</talk>
+	<talk character="Yads">
+		<default>Não podemos transportar as pessoas.</default>
+	</talk>
+	<talk character="Wige">
+		<default>O desequilíbrio que causaram nos prendeu aqui.</default>
+	</talk>
+	<teller>
+		<default>Yads encara Wige.</default>
+	</teller>
+	<talk character="Wige">
+		<default>Que foi? Não é como se quisessem nos fazer mal.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Podemos andar com isso?</default>
+	</talk>
+	<teller>
+		<default>Agatha senta no chão, em um canto. Inês se aproxima e deita no colo de Agatha.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Por que elas vieram?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Agatha também quer se despedir de Edmont.</default>
+	</talk>
+	<talk character="Alan">
+		<irony>Trouxeram o fã clube inteiro?</irony>
+	</talk>
+	<talk character="Agatha">
+		<default>Cresci com Edmont e Angely. E tenho a impressão que isso não é da sua conta.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Porque diabos você trouxe tanta gente que podia querer impedir você?!</default>
+	</talk>
+	<teller>
+		<default>Mel cruza os braços.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Agatha tem razão. Não é da sua conta.</default>
+	</talk>
+	<talk character="Kash">
+		<default>Melhor começarmos o feitiço.</default>
+	</talk>
+	<teller>
+		<default>Kash, Yads e Wige cercam o controle do templo. Dão as mãos. Fecham os olhos. Olham para cima. O controle do templo, que estava com brilho, começa a acender mais. Estela dá um passo para trás. Inês levanta e corre para fora. Volta e puxa Agatha pela mão. Mel olha para Alan.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Pega a Estela!</default>
+	</talk>
+	<teller>
+		<default>Mel olha para Derik.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Voa daqui!</default>
+	</talk>
+	<teller>
+		<default>Mel pega Kat e corre. Alan pega Estela e vai atrás. Beatrice corre e Derik sai voando.</default>
+	</teller>
+	<teller>
+		<first>Aurium pousa do outro lado do lago, em uma árvore. Olha as pessoas correndo. Vê pularem no lago. As paredes do templo iluminam. Brilham mais. Aurium fecha um pouco os olhos. Mais luz. Aurium esconde a cabeça na asa direita. Explosão. Aurium cai do galho. Sacode a cabeça. As asas. </first>
+	</teller>
 </story>
