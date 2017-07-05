@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="04" scene="c">
 	<teller>
-		<default>Em Ares, Renata volta ao prédio.</default>
+		<default>Beco onde Johnatan tentou matar Renata. Renata olha para os lados. Baixa a cabeça.</default>
 	</teller>
 	<talk character="Amanda">
-		<default>Por que voltou aqui?</default>
+		<arrive>Por que voltou aqui?</arrive>
 	</talk>
+	<teller>
+		<default>Renata olha para Amanda.</default>
+	</teller>
 	<talk character="Renata">
 		<default>Por que não me matou?</default>
 	</talk>
@@ -19,7 +22,7 @@
 		<default>Se eu fosse você, não voltaria aqui.</default>
 	</talk>
 	<talk character="Renata">
-		<default>Fiquei curiosa... Eu sei por que ele não mata. E você?</default>
+		<default>Sei por que ele não mata. E você?</default>
 	</talk>
 	<talk character="Amanda">
 		<default>Curiosidade mata...</default>
@@ -28,7 +31,7 @@
 		<default>Já percebi que não vai responder. Queria pelo menos saber seu nome.</default>
 	</talk>
 	<talk character="Amanda">
-		<default>Amanda. Melhor você ir, antes que eu mude de idéia com relação a você.</default>
+		<default>Amanda. Melhor você ir, antes que eu mude de idéia.</default>
 	</talk>
 	<talk character="Renata">
 		<default>Por que se transformou em vampira? Não age como uma...</default>
@@ -40,29 +43,29 @@
 		<default>Sei que não têm consciência... Por que não me matou?</default>
 	</talk>
 	<talk character="Amanda">
-		<default>Saia daqui agora!</default>
+		<screamed>Saia daqui agora!</screamed>
 	</talk>
 	<teller>
-		<default>Amanda mostra os dentes e atira um objeto em Renata, que se assusta e vai para casa. 24/02 (segunda), 15:00...</default>
+		<default>Amanda mostra os dentes e joga Renata no chão. Renata se encolhe, colocando os braços na frente do rosto. Tira os braços. Olha ao redor. Levanta e corre.</default>
+	</teller>
+	<teller>
+		<first>Dia seguinte. 15h. MEAK.</first>
 	</teller>
 	<talk character="Kat">
-		<default>Zenon, eu preciso mesmo falar com alguém! Eu tive um sonho, bom você sabe que meus sonhos são...</default>
+		<default>Zenon, eu preciso mesmo falar com alguém!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>E o que era?</default>
+		<default>Que foi?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Aquela garota que você salvou outro dia. Acho que tá com problemas.</default>
+		<default>A pessoa que você salvou outro dia, acho que tá com problemas.</default>
 	</talk>
 	<teller>
-		<default>Renata chega em casa, sobe a escada e vai até o quarto.</default>
+		<default>Renata está na cozinha de casa. Termina de comer, pega o prato, vai até a pia. Ensaboa o prato, enxágua, coloca no escorredor. Passa pela sala, sobe escadas, passa um corredor. Entra em seu quarto. Olha para a janela fechada e franze a sobrancelha. Renata se aproxima da janela. Há um cadeado fechando. A porta se fecha atrás de Renata, Renata se vira.</default>
 	</teller>
 	<talk character="Johnatan">
 		<default>Lembra de mim?</default>
 	</talk>
-	<teller>
-		<default>Johnatan fecha a porta.</default>
-	</teller>
 	<talk character="Renata">
 		<default>Johnatan?! O que quer?!</default>
 	</talk>
@@ -79,31 +82,47 @@
 		<default>Ela foi pro céu, você vai pro inferno!</default>
 	</talk>
 	<talk character="Johnatan">
-		<default>Amanda me pediu que não a machucasse. Acho que ela tá precisando de ajuda. De repente passou a ter sentimentos humanos. Bom, mas deixemos de conversa...</default>
+		<default>Amanda me pediu que não te machucasse. Acho que ela tá precisando de ajuda. De repente passou a ter sentimentos humanos. Deixa pra lá, não tô afim de conversar, nem vendo nenhum diploma de psicologia por aqui, então vamos logo ao que interessa...</default>
 	</talk>
+	<teller>
+		<default>Renata dá um passo para trás.</default>
+	</teller>
 	<talk character="Renata">
 		<default>Por que tá atrás de mim?</default>
 	</talk>
 	<talk character="Johnatan">
 		<default>Digamos que seja orgulho ferido.</default>
 	</talk>
+	<teller>
+		<default>Johnatan dá um passo em direção a Renata.</default>
+	</teller>
 	<talk character="Renata">
 		<default>Vou chamar o...</default>
 	</talk>
-	<talk character="Johnatan">
-		<default>Com que? Sinal de fumaça?</default>
-	</talk>
 	<teller>
-		<default>Johnatan mostra o telefone desligado da parede e quebrado.</default>
+		<default>Johnatan sorri e levanta um celular estilhaçado. Joga aos pés de Renata.</default>
 	</teller>
+	<talk character="Johnatan">
+		<irony>Fica a vontade.</irony>
+	</talk>
 	<talk character="Renata">
 		<default>Por que eu?</default>
 	</talk>
+	<teller>
+		<default>Johnatan contorce o rosto.</default>
+	</teller>
 	<talk character="Johnatan">
 		<default>"Por que eu?"</default>
-		<teller>imita cara de choro</teller>
+	</talk>
+	<teller>
+		<default>Johnatan volta ao normal. Continua se aproximando de Renata.</default>
+	</teller>
+	<talk character="Johnatan">
 		<default>Sabe, você e sua irmã se parecem tanto...</default>
 	</talk>
+	<teller>
+		<default>Johnatan coloca Renata contra a janela.</default>
+	</teller>
 	<talk character="Renata">
 		<default>Foi você quem matou Roberta?</default>
 	</talk>
@@ -114,22 +133,22 @@
 		<arrive>Eu avisei pra não fazer isso...</arrive>
 	</talk>
 	<teller>
-		<default>Zenon chega e Johnatan faz Renata de refém.</default>
+		<default>Johnatan vira e puxa Renata para sua frente.</default>
 	</teller>
 	<talk character="Johnatan">
 		<default>Essa sua doença, mania de defender as pessoas, acho que é contagiosa...</default>
 	</talk>
 	<talk character="Renata">
-		<default>Aquele seu lance de conversar antes... Não ajudou dessa vez.</default>
+		<default>Aquele seu lance de conversar antes... Não ajudou dessa vez...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Deixe a garota ir...</default>
+		<default>Deixa a garota ir...</default>
 	</talk>
 	<talk character="Johnatan">
-		<default>Por que se preocupa tanto com ela? É apenas mais uma humana.</default>
+		<default>Por que se preocupa tanto com ela? É só mais uma humana.</default>
 	</talk>
 	<talk character="Amanda">
-		<arrive>Johnatan, deixe-a ir!</arrive>
+		<arrive>Johnatan, deixe ela ir!</arrive>
 	</talk>
 	<talk character="Johnatan">
 		<default>Sabe, Amanda, não esperava isso de você. Não que eu achasse impossível que tivesse uma família. Mas eles são comida agora. Siga o exemplo do nosso querido amiguinho Zenon. Matou a dele inteira.</default>
@@ -150,28 +169,25 @@
 		<default>Amanda, Amanda, Amanda... Tem tido muitos sentimentos humanos ultimamente. Antes de morrer, acho que Renata quer saber quem era sua mãe...</default>
 	</talk>
 	<talk character="Amanda">
-		<default>Não faça isso, Johnatan, vamos embora daqui, tá? É só soltar ela. Por favor, solta minha filha, você já matou uma!</default>
+		<default>Não faz isso, Johnatan, vamos embora daqui, tá?! É só soltar ela!!! Por favor, solta minha filha, você já matou uma!!!</default>
 	</talk>
 	<talk character="Johnatan">
-		<default>Então foi isso? Não sei, mas acho seria melhor se a levássemos junto.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Não vai levar a garota.</default>
+		<default>Então foi isso que te deixou assim? Não sei, mas acho seria melhor se levássemos essa junto então. Uma família feliz.</default>
 	</talk>
 	<teller>
-		<default>Zenon abre a cortina, Johnatan larga Renata, fugindo do sol, e Amanda se joga em cima de Johnatan, caindo assim os dois pela janela. Renata desce a escada correndo. Chegando à frente da casa ela vê que Amanda ainda estava lá.</default>
+		<default>Zenon corre e dá uma voadora na janela, que estilhaça. Johnatan larga Renata, foge do sol. Zenon se afasta do sol. Amanda chuta na direção de Johnatan, mas Johnatan segura seu pé. Amanda faz soltar. Johnatan pega Amanda pelos braços. Amanda gira os braços para fora, fazendo Johnatan soltar. Abraça Johnatan, levantando, corre e se joga pela janela, com Johnatan. Renata levanta. Sai do quarto. Corre pelo corredor, pelas escadas, sai pela porta da sala e vai para a lateral da casa. Se aproxima de Amanda, que está no chão, com cinzas em si e ao redor.</default>
 	</teller>
 	<talk character="Renata">
 		<default>Amanda...</default>
 	</talk>
+	<teller>
+		<default>Amanda sorri.</default>
+	</teller>
 	<talk character="Amanda">
 		<default>Sou humana de novo...</default>
 	</talk>
 	<talk character="Renata">
-		<default>Vamos levar você pro hospital.</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Tarde demais.</default>
+		<default>Vamos levar você pro hospital...</default>
 	</talk>
 	<teller>
 		<default>Amanda fecha os olhos.</default>
@@ -180,112 +196,132 @@
 		<default>Amanda... Mãe...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ela não tá mais aqui.</default>
+		<arrive>Ela não tá mais aqui.</arrive>
 	</talk>
 	<teller>
-		<default>Rio. Melody entra no prostíbulo. Se aproxima da mulher com quem estava falando o cara que ela seguia.</default>
+		<default>Renata levanta e abraça Derik. Kat olha. Baixa a cabeça.</default>
 	</teller>
-	<talk character="p">
+	<teller>
+		<first>Rio. Melody entra no prostíbulo. Se aproxima de Sônia.</first>
+	</teller>
+	<talk character="Sônia">
 		<default>Nova por aqui?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mais ou menos. Eu tava mesmo é procurando um cara, ele esteve comigo outro dia...</default>
+		<default>Mais ou menos. Eu tava mesmo é procurando uma pessoa, esteve comigo outro dia...</default>
 	</talk>
-	<talk character="p">
+	<talk character="Sônia">
 		<default>Você é mesmo...?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele tá me devendo.</default>
+		<default>A pessoa tá me devendo.</default>
 	</talk>
-	<talk character="p">
+	<talk character="Sônia">
 		<default>Não entram caloteiros aqui.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Pode entrar e...</default>
 	</talk>
-	<talk character="p">
+	<talk character="Sônia">
 		<default>Tá mentindo.</default>
 	</talk>
+	<teller>
+		<default>Mel baixa a cabeça. Olha novamente para Sônia.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Na verdade eu gostei da noite.</default>
 	</talk>
-	<talk character="p">
+	<talk character="Sônia">
 		<default>Pra você estar caçando ele assim, deve ter sido realmente bom.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Se quer saber, eu nem cobrei.</default>
 	</talk>
-	<talk character="p">
+	<talk character="Sônia">
 		<default>Cuidado, vai acabar se apaixonando. Seria uma grande perda.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Acho que ele esteve com você ontem.</default>
+		<default>Acho que esteve com você ontem.</default>
 	</talk>
-	<talk character="p">
+	<talk character="Sônia">
 		<default>Só se tomou droga com você, por que comigo o único que esteve era um velho...</default>
 	</talk>
+	<teller>
+		<default>Mel franze a sobrancelha.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Vi você falando com um cara mais novo...</default>
+		<default>Vi você falando com alguém...</default>
 	</talk>
-	<talk character="p">
+	<talk character="Sônia">
 		<default>Ah, não!</default>
 		<teller>ri</teller>
 		<default>É meu irmão. Deve ter confundido ele com alguém, aquele ali não trairia a mulher nem por uma mulher tão... Bonita quanto você.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você é do tipo que faz programas diferentes?</default>
+		<default>Você não é hétero.</default>
 	</talk>
-	<talk character="p">
-		<default>Diferentes?</default>
-		<teller>ri de novo</teller>
+	<teller>
+		<default>Sônia ri.</default>
+	</teller>
+	<talk character="Sônia">
+		<default>Nem bi eu sou. Mas é a vida, né?</default>
+	</talk>
+	<teller>
+		<default>Sônia olha para Mel.</default>
+	</teller>
+	<talk character="Sônia">
 		<default>Vê-se que você é mesmo nova nisso. Se quiser, eu posso te ensinar algumas coisas...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, eu aprendo sozinha. Por exemplo, aquele cara não deveria estar sozinho...</default>
+		<default>Aprendo rápido. Por exemplo, aquela pessoa não deveria estar só...</default>
 	</talk>
 	<teller>
-		<default>Mel vai até um cara e senta-se à frente dele.</default>
+		<default>Mel desvia de Sônio e vai até uma mesa e senta-se.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Lembra de mim?</default>
 	</talk>
 	<talk character="Rust">
-		<default>A amiga do louco?</default>
+		<default>Claro que lembro.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Vai ter que me fazer um favor.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Ah?!</default>
+		<default>Qual?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você viu a mulher com quem eu tava falando?</default>
+		<hushed>Você viu a pessoa com quem eu tava falando?</hushed>
 	</talk>
 	<teller>
-		<default>Rust olha na direção da mulher.</default>
+		<default>Rust olha na direção de Sônia.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Não era pra olhar! Agora faz um sinal de negativo com a cabeça.</default>
-		<teller>Rust obedece</teller>
+		<hushed>Não era pra olhar! Agora faz um sinal de negativo com a cabeça!</hushed>
+	</talk>
+	<teller>
+		<default>Rust olha para Mel e balança a cabeça para os lados.</default>
+	</teller>
+	<talk character="Mel">
 		<default>Tá, agora vamos sair daqui.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Qual o problema?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela tá me cantando.</default>
+		<default>Tá me cantando.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Tenta. De repente você gosta.</default>
 	</talk>
 	<talk character="Mel">
-		<default>O problema é profissional. Vai me ajudar ou não?</default>
+		<default>Vim aqui a trabalho. E eu já sei que gosto, não que isso seja da sua conta.</default>
 	</talk>
 	<talk character="Rust">
 		<default>E o que eu ganho com isso?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Um obrigado. E não te mato.</default>
+		<default>Não te mato.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Estão tentando isso há mais de oitocentos anos e não conseguiram ainda.</default>
@@ -293,29 +329,47 @@
 	<talk character="Mel">
 		<default>Não é por isso que eu não posso.</default>
 	</talk>
+	<teller>
+		<default>Rust vira o drink que segurava.</default>
+	</teller>
 	<talk character="Rust">
-		<default>Não estou aqui para buscar jantar pra mim. Virgine está indisposta e está com sede.</default>
+		<default>Não estou aqui para buscar jantar pra mim. Virgine não quer caçar, mas está com sede.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não pode fazer isso depois?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Ela não gosta de esperar.</default>
+		<default>Não gosta de esperar.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bandidos são os que têm mais medo de morrer, posso te ajudar...</default>
+		<default>Bandidos são os que têm mais medo de morrer, posso te ajudar a achar algo.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Nossa. Deve ser sério.</default>
 	</talk>
 	<teller>
-		<default>25/02 (terça), noite. No cemitério, Renata está abaixada em frente a uma lápide quando Zenon chega.</default>
+		<default>Rust levanta. Deixa uma nota de cem na mesa. Sai. Mel segue. Chegam a rua.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Alan não sabia de você, porque agora sabe?</default>
+	</talk>
+	<talk character="Rust">
+		<default>Kassandra.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Mas ninguém...</default>
+	</talk>
+	<talk character="Rust">
+		<default>Kassandra sabe de tudo. Quase tudo. Fez um feitiço. Agora todo mundo acha que eu nasci aqui.</default>
+	</talk>
+	<teller>
+		<first>Noite seguinte, cemitério. Renata está em frente a lápide de Amanda, abaixou-se.</first>
 	</teller>
 	<talk character="Zenon">
-		<default>Por que vem ao cemitério só de noite?</default>
+		<arrive>Por que vem ao cemitério só de noite?</arrive>
 	</talk>
 	<talk character="Renata">
-		<default>Sinto falta dela...</default>
+		<default>Sinto falta dela.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ela salvou sua vida...</default>
@@ -330,12 +384,16 @@
 		<default>Você já foi igual ao Johnatan?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Já... Talvez fosse melhor se eu tivesse simplesmente morrido na noite em que fui transformado.</default>
+		<default>Talvez fosse melhor se eu tivesse simplesmente morrido na noite em que fui transformado.</default>
 	</talk>
 	<talk character="Renata">
 		<default>Se você não tivesse sido transformado, muitas pessoas não teriam morrido.</default>
-		<teller>ela se levanta e vira para ele</teller>
-		<default>Mas daí muitos vampiros ainda estariam vivos, matando gente. Não pense nas pessoas que matou. Matando um vampiro pra evitar que ele matasse alguém você já impediu muitas mortes.</default>
+	</talk>
+	<teller>
+		<default>Renata se levanta e vira para Zenon.</default>
+	</teller>
+	<talk character="Renata">
+		<default>Mas daí muitos vampiros ainda estariam vivos, matando gente. Não pense nas pessoas que matou. Matando um vampiro pra evitar que ele matasse alguém, você já impediu muitas mortes.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Eu só queria poder esquecer...</default>
@@ -344,28 +402,28 @@
 		<default>Um dia terá o que tanto procura.</default>
 	</talk>
 	<teller>
-		<default>Ela vai embora.</default>
+		<default>Renata vai andando pelo meio dos túmulos. Zenon perde Renata de vista. Olha para o túmulo.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>É. Talvez.</default>
 	</talk>
 	<teller>
-		<default>No rio, Ang está andando com Mel.</default>
+		<first>Rio.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Aquela mulher tá escondendo alguma coisa, eu sei...</default>
+		<default>Aquela pessoa tá escondendo alguma coisa, eu sei...</default>
 	</talk>
 	<talk character="Ang">
-		<default>Estamos indo à lanchonete, pare de pensar nisso.</default>
+		<default>Estamos indo a lanchonete, para de pensar nisso.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não é possível! A cliente não tem cara de quem desconfia à toa!</default>
+		<default>Não dá. Quem contratou a gente não tem cara de quem desconfia a toa.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Ainda vai ter uma indigestão.</default>
 	</talk>
 	<teller>
-		<default>Mel passa no farol. Ang fica esperando.</default>
+		<default>Mel olha para os lados, então atravessa a rua. Ang fica esperando. Mel olha para trás.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Vai ficar aí?</default>
@@ -377,82 +435,82 @@
 		<default>Só você mesmo...</default>
 	</talk>
 	<teller>
-		<default>Quando o farol fecha, Ang passa. Mas um carro o pega no meio do caminho.</default>
+		<default>Mel cruza os braços. O farol fica amarelo. Então vermelho. Ang começa a atravessar. Um carro vem, freia, mas acerta Ang antes. Mel corre até Ang. Abaixa perto. Olha para a direção.</default>
 	</teller>
 	<talk character="Mel">
-		<irony>Que legal, um daltônico!</irony>
+		<screamed>A porra do farol tava vermelho, caralho!</screamed>
 	</talk>
 	<teller>
-		<default>Mel vai até Ang. Se vira para o motorista.</default>
+		<default>Ângelo sai do carro.</default>
 	</teller>
-	<talk character="Mel">
-		<screamed>Será que você não enxerga???</screamed>
-	</talk>
-	<teller>
-		<default>Ele sai do carro. É o cara que Mel vinha seguindo.</default>
-	</teller>
-	<talk character="h">
+	<talk character="Ângelo">
 		<default>Desculpe, eu tava...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Distraído falando com alguma prostituta ao telefone???</default>
+		<default>Batendo uma enquanto falava no telefone?!</default>
 	</talk>
-	<talk character="h">
+	<talk character="Ângelo">
 		<default>É claro que não!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Me ajuda, porra!</default>
+		<default>Me ajuda, cacete!</default>
 	</talk>
 	<teller>
-		<default>Ang está consciente ainda. O cara ajuda Ang a entrar no carro. Eles vão para o hospital. Mel liga para casa.</default>
+		<default>Ang apoia em Mel. Ângelo apoia do outro lado. Mel coloca a mão pela janela da direção e abre o pino de trás. Abre a porta. Ajudam Ang e entrar no banco de trás. Mel abre a porta da direção e senta-se. Abre o pino lado do banco de carona. Ângelo baixa a cabeça e entra no banco de carona. Mel sai com o carro.</default>
+	</teller>
+	<teller>
+		<first>MEAK. Toca o telefone. Kat atende.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Alô?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Kat?</default>
+		<out>Kat?</out>
 	</talk>
 	<talk character="Kat">
 		<default>Tudo bem aí?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Angely foi atropelado.</default>
+		<out>Angely foi atropelado.</out>
 	</talk>
 	<talk character="Kat">
 		<default>Que???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não se preocupa, o imbecil tava em baixa velocidade.</default>
+		<out>Não se preocupa, a anta tava em baixa velocidade.</out>
 	</talk>
 	<talk character="Kat">
 		<default>Me mata e me ressuscita...</default>
 	</talk>
 	<talk character="Mel">
-		<default>E aí, algum problema?</default>
+		<out>E aí, algum problema?</out>
 	</talk>
 	<talk character="Kat">
 		<default>Nada. Isso aqui tá um tédio só.</default>
 	</talk>
+	<teller>
+		<default>Derik franze a sobrancelha.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Ang deve sair do hospital amanhã mesmo. Sabe que nossa recuperação é rápida...</default>
+		<default>Ang deve sair do hospital amanhã mesmo.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Porque não são humanos. Sei. Já resolveu o caso?</default>
+		<default>Já resolveu o caso?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ainda não. Mas eu vou!</default>
+		<out>Ainda não. Mas eu vou!</out>
 	</talk>
 	<talk character="Kat">
 		<default>Boa sorte.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Obrigado. Pra vocês também.</default>
+		<out>Valeu. Pra vocês também.</out>
 	</talk>
 	<talk character="Kat">
 		<default>Pra nós? Por quê?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pra não morrerem de tédio.</default>
+		<out>Pra não morrerem de tédio.</out>
 	</talk>
 	<talk character="Kat">
 		<default>Ah, tá...</default>
@@ -461,13 +519,13 @@
 		<default>Mel desliga. Kat desliga também.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Por que não contou pra ela sobre Zenon?</default>
+		<default>Por que não contou sobre Zenon?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Pra que preocupá-la? Já tá resolvido.</default>
+		<default>Pra que preocupar Mel? Já resolveu.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Tem certeza? Não sei, aquela garota...</default>
+		<default>Tem certeza? Não sei, Renata...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Eu não sonhei nada, não vai acontecer nada.</default>
