@@ -95,8 +95,6 @@
 	</teller>
 	<talk character="Kat">
 		<default>Água ou lágrimas?</default>
-		<teller />
-		<default />
 	</talk>
 	<teller>
 		<default>Kat passa as mãos no rosto de Derik.</default>
@@ -136,10 +134,6 @@
 	</talk>
 	<talk character="Derik">
 		<default>Você nem se mexia... Só respirava.</default>
-		<teller />
-		<default />
-		<teller />
-		<default />
 	</talk>
 	<teller>
 		<default>Derik baixa a cabeça.</default>
@@ -184,13 +178,7 @@
 		<default>E porque não estava no diário?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Talvez tenha sido algo feito de impulso, talvez Mel ter resistido tenha sido uma falha que Nilrem não querja registrar, pode ser qualquer coisa.</default>
-	</talk>
-	<talk character="Derik">
-		<default />
-	</talk>
-	<talk character="Kat">
-		<default />
+		<default>Talvez tenha sido algo feito de impulso, talvez Mel ter resistido tenha sido uma falha que Nilrem não queria registrar, pode ser qualquer coisa.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Edmont deve saber! Por isso aquilo que Beatrice me contou, que quer Melody...</default>
@@ -206,12 +194,6 @@
 	</talk>
 	<talk character="Derik">
 		<default>Como sabe disso? Mel te contou?</default>
-	</talk>
-	<talk character="Kat">
-		<default />
-	</talk>
-	<talk character="Derik">
-		<default />
 	</talk>
 	<talk character="Kat">
 		<default>Porque diz isso?</default>
@@ -232,22 +214,35 @@
 		<default>É melhor eu ir fazer a janta. Você deve estar com muita fome.</default>
 	</talk>
 	<teller>
-		<default>Derik vai para a cozinha.</default>
+		<default>Derik sai do quarto. Atravessa a sala. Entra na cozinha.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Ah! Acabei achando sobre Lara...</default>
-		<teller>ele fala alto, pra Kat escutar, enquanto pega coisas nos armários para cozinhar</teller>
-		<default>Aliás, de novo... quando aconteceu aquele negócio da Meg, eu tinha achado, esqueci por causa da confusão nem falei mais, ela não tocou de novo no assunto. Agora eu tava tão atordoado que não fui falar ainda com Beatrice...</default>
+		<screamed>Ah! Acabei achando sobre Lara...</screamed>
 	</talk>
 	<teller>
-		<default>Derik pega uma panela no armário. #####</default>
+		<default>Derik pega uma panela no armário.</default>
+	</teller>
+	<talk character="Derik">
+		<screamed>Aliás, de novo... quando aconteceu aquele negócio da Meg, eu tinha achado.</screamed>
+	</talk>
+	<teller>
+		<default>Derik pega um pacote de macarrão no armário.</default>
+	</teller>
+	<talk character="Derik">
+		<screamed>Esqueci por causa da confusão nem falei mais, ela não tocou de novo no assunto.</screamed>
+	</talk>
+	<teller>
+		<default>Derik abre a geladeira e pega um pacote de molho.</default>
+	</teller>
+	<talk character="Derik">
+		<screamed>Agora eu tava tão atordoado que não fui falar ainda com Beatrice...</screamed>
+	</talk>
+	<teller>
+		<default>Derik fecha a porta da geladeira e dá um pulo para trás. Respira fundo.</default>
 	</teller>
 	<talk character="Bea">
-		<arrive>E o que achou?</arrive>
+		<default>E o que achou?</default>
 	</talk>
-	<teller>
-		<default>Ele derruba no chão uma panela que estava em suas mãos.</default>
-	</teller>
 	<talk character="Derik">
 		<default>Por que as pessoas não tocam mais a campainha, e entram dizendo "Olá, tudo bem? Vim fazer uma visita..."</default>
 	</talk>
@@ -267,28 +262,34 @@
 		<default>Pago uma pizza.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Eu te conto enquanto cozinho.</default>
-	</talk>
-	<talk character="Kat">
-		<arrive>Viu? Arranjei um homem único: consegue fazer mais de uma coisa ao mesmo tempo.</arrive>
+		<default>Pizza?! Tá de esculhambação! E eu com consciência pesada de fazer macarrão... </default>
 	</talk>
 	<teller>
-		<default>22:00. Beatrice, sentada, olha para Lara, deitada. Zenon está perto, em pé.</default>
+		<default>Beatrice cruza os braços. Derik revira os olhos.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Te conto enquanto cozinho...</default>
+	</talk>
+	<teller>
+		<first>Beatrice está em uma cadeira. Olha para Lara, que está na cama, ainda no mesmo estado. Zenon em pé.</first>
 	</teller>
 	<talk character="Bea">
-		<default>Ela não merece isso.</default>
+		<default>Não merece isso.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Vai ter que entregar isso para alguém.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não vou deixá-la ser escrava.</default>
+		<default>Não vou deixar que escravizem Lara.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Já imaginou como ela deve estar agoniada, se está aí, sem poder falar, se mexer, nada? E se fosse você?</default>
+		<default>Já imaginou como deve estar a agoni a, se está aí, sem poder falar, se mexer, nada? E se fosse você?</default>
 	</talk>
+	<teller>
+		<default>Beatrice levanta, virando para Zenon.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Não sou eu! Ela nunca fez mal a ninguém! Será que você entende isso?!</default>
+		<default>Não sou eu! Lara nunca fez mal a ninguém! Será que você entende isso?!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Nós dois entendemos.</default>
@@ -300,30 +301,34 @@
 		<default>Ele disse. Ela só acorda quando alguém colocar o anel no dedo...</default>
 	</talk>
 	<teller>
-		<default>Beatrice levanta, encosta Zenon na parede e coloca uma faca no pescoço dele.</default>
+		<default>Beatrice encosta Zenon na parede e coloca-lhe uma faca no pescoço.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Eu sei o que ele disse. Que ela vai ser escrava o resto da eternidade.</default>
+		<default>Eu sei o que Derik disse. Que vai servir alguém o resto da eternidade.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Vai ter que escolher alguém. Alguém da sua confiança...</default>
 	</talk>
 	<talk character="Bea">
-		<irony>Claro! Aí esse alguém morre e ela fica nas mãos de sei lá quem.</irony>
+		<irony>Claro! Aí esse alguém morre e fica nas mãos de sei lá quem.</irony>
 	</talk>
 	<talk character="Zenon">
 		<default>Conhece um que não vai morrer.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Angely não está aqui.</default>
+		<default>Angely não tá aqui.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Peraí, eu sei de alguém... Dá pra tirar isso do meu pescoço?</default>
-		<teller>ela se afasta e guarda a faca</teller>
+	</talk>
+	<teller>
+		<default>Beatrice guarda a faca e se afasta.</default>
+	</teller>
+	<talk character="Zenon">
 		<default>A garota que me libertou. A filha de Lish e Aléxis.</default>
 	</talk>
 	<talk character="Bea">
-		<default>E como vou encontrá-la?</default>
+		<default>E como vou encontrar?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Dei metade da idéia pelo menos. Talvez ela responda ao chamado da mãe.</default>
@@ -338,7 +343,7 @@
 		<default>Por que sua filha insiste em querer carregar o peso do mundo nas costas?</default>
 	</talk>
 	<teller>
-		<default>Kat está jantando. Pára.</default>
+		<first>Kat está comendo. Pára.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Não vai comer?</default>
@@ -350,28 +355,28 @@
 		<default>Sobrar? Já é a terceira vez que repito, faz favor de fazer seu prato.</default>
 	</talk>
 	<teller>
-		<default>Derik levanta. Coloca pouca comida no prato e senta. Kat pega o prato dele, coloca mais, coloca na frente dele.</default>
+		<default>Derik levanta. Pega um prato. Vai até o fogão. Coloca duas colheres de macarrão. Volta a mesa. Senta, colocando o prato a sua frente. Kat revira os olhos, pega o prato, levanta, vai até o fogão, coloca mais três colheres, volta a mesa, coloca o prato na frente de Derik e senta.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ainda está preocupado.</default>
+		<default>Ainda preocupação.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Promete que não faz mais isso?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Posso prometer que sempre voltarei, mas não quanto tempo estarei fora.</default>
+		<default>Posso prometer que sempre voltarei, mas não quanto tempo vou estar fora.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Já é um começo.</default>
 	</talk>
 	<teller>
-		<default>Ela vai até ele e o abraça. Estela chega.</default>
+		<default>Kat levanta, para ao lado de Derik, puxa para si e abraça.</default>
 	</teller>
 	<talk character="Estela">
-		<default>Nossa, pra estarem comendo tanto... Estavam mesmo em lua-de-mel.</default>
+		<arrive>Nossa, pra estarem comendo tanto... Estavam mesmo em lua-de-mel.</arrive>
 	</talk>
 	<teller>
-		<default>Eles se afastam.</default>
+		<default>Se afastam.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Alguma coisa na nossa ausência?</default>
@@ -386,7 +391,7 @@
 		<default>Acabei esquecendo... Você também não contou!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Acho que estava com medo da reação dela.</default>
+		<default>Acho que estava com medo da reação.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Pelo menos ela não vai morrer, nem envelhecer.</default>
@@ -395,8 +400,8 @@
 		<default>Têm certeza que não tem como resolver?</default>
 	</talk>
 	<teller>
-		<default>Derik sai e volta com um papel:</default>
-		<letter>A garota será imortal e não mais envelhecerá. Porém pertencerá àquele que usar o anel e deverá fazer o que ele mandar. Além da imortalidade, após a libertação do anel, a garota terá seu metabolismo parado e sua saúde depende da de seu mestre. O dono tem por obrigação cuidar dela. Quando ele morre, ela cai desmaiada até que outro tome para si o anel.</letter>
+		<default>Derik sai e volta com um papel. Entrega a Kat.</default>
+		<letter>Será imortal e não mais envelhecerá. Porém pertencerá a quem usar o anel e deverá fazer o que mandar. Além da imortalidade, após a libertação do anel, a pessoa terá seu metabolismo parado e sua saúde depende da saúde da pessoa a quem servir. Esta pessoa tem por obrigação cuidar de quem lhe serve. Quando morre, quem serve cai em sono profundo até que outra pessoa tome para si o anel.</letter>
 	</teller>
 	<talk character="Kat">
 		<default>Só isso que acharam?</default>
@@ -405,13 +410,13 @@
 		<default>Isso foi o Derik que resumiu. No livro conta a origem, etc.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Essa origem, será que, se fizer o contrário dela, não acaba com o feitiço?</default>
+		<default>Essa origem, será que, se fizer o contrário, não acaba com o feitiço?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Na verdade, é o jeito de matar a pessoa e quem estiver usando o anel.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Então ela não é imortal.</default>
+		<default>Então não é imortal.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Mas é quase.</default>

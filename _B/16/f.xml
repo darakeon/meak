@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="16" scene="f">
 	<teller>
-		<default>Beleno a segura contra a parede.</default>
+		<default>Beatrice entra em casa. Beleno encosta Beatrice contra a parede.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Não estive com ninguém.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Por isso que está no cio?</default>
+		<default>Por isso que tá no cio?</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Ouvi o que disse pra Zenon.</default>
@@ -22,20 +22,23 @@
 		<default>Falta o que, um mês e meio?</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Um mês. Não deixou de amar Angely porque ele tava cuidando de mim e de Inês. E não deixou de transar com Zenon porque queria Angely.</default>
+		<default>Um mês. Não deixou de amar Angely porque tava cuidando de mim e de Inês. E não deixou de transar com Zenon porque queria Angely.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Não pretendo sair com mais ninguém.</default>
 	</talk>
+	<teller>
+		<default>Beleno se afasta.</default>
+	</teller>
 	<talk character="Beleno">
 		<default>Cada vez é um motivo. Será que não consegue parar de mentir?</default>
 	</talk>
-	<teller>
-		<default>Ela se solta.</default>
-	</teller>
 	<talk character="Bea">
-		<default>Zenon virá falar comigo. É sobre Aléxis.</default>
+		<default>Zenon vai vir falar comigo. É sobre Aléxis.</default>
 	</talk>
+	<teller>
+		<default>Beleno balança a cabeça para os lados.</default>
+	</teller>
 	<talk character="Beleno">
 		<default>Bem que senti o cheiro de outro homem em você...</default>
 	</talk>
@@ -46,10 +49,13 @@
 		<default>Beleno sai voando.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Que droga, Beleno!</default>
+		<screamed>Que droga, Beleno!</screamed>
 	</talk>
 	<teller>
-		<default>Na MEAK, Aléxis está com Aqua do lado de fora. Aléxis é pego por Beleno. Aqua fica com os olhos completamente negros, faz materializar arco e flecha em sua mão e atira em Beleno. Os dois caem no mar. O arco desfaz como apareceu. Ela pula no mar para pegar Aléxis. 15/09. 3:00. Aléxis está na cama com Beatrice. Ela se levanta.</default>
+		<default>MEAK. Aléxis e Aqua estão do lado de fora. Asas. Aléxis some. Aqua olha para cima. Seus olhos ficam brancos completamente. Materializam-se arco e flecha em suas mãos. Atira. As asas brancas caem no mar. O arco some. Aqua corre para a beirada e pula no mar. pula no mar para pegar Aléxis.</default>
+	</teller>
+	<teller>
+		<first>Três meses depois. Madrugada. Aléxis e Beatrice estão na cama. Beatrice se senta na cama.</first>
 	</teller>
 	<talk character="Aléxis">
 		<default>Que foi? Ainda se sente mal com o que aconteceu?</default>
@@ -60,6 +66,9 @@
 	<talk character="Etos">
 		<arrive>Olha só, meu casal preferido.</arrive>
 	</talk>
+	<teller>
+		<default>Beatrice olha para a janela. Aléxis senta na cama.</default>
+	</teller>
 	<talk character="Bea">
 		<irony>Nossa, realmente uma grande coincidência nos encontrar na nossa casa.</irony>
 	</talk>
@@ -67,7 +76,7 @@
 		<default>Vão gostar do que encontrei.</default>
 	</talk>
 	<teller>
-		<default>Beatrice, Etos e Aléxis entram no lugar onde os vampiros nascidos tinham sido presos (um templo subterrâneo na floresta de Ares). Beleno está sentado, com uma criança nos braços e Alete a seu lado. Sente o cheiro deles.</default>
+		<first>Templo abaixo da floresta de Ares. Beatrice, Etos e Aléxis descam. Beleno sentou-se no chão, com uma criança nos braços. Alete está a seu lado. Alete olha e aperta o braço de Beleno. Beleno fareja o ar.</first>
 	</teller>
 	<talk character="Beleno">
 		<default>Que fazem aqui?</default>
@@ -87,6 +96,9 @@
 	<talk character="Inês">
 		<arrive>E eu?</arrive>
 	</talk>
+	<teller>
+		<default>Beatrice e Aléxis olham para Inês. Beleno se levanta, Alete também.</default>
+	</teller>
 	<talk character="Beleno">
 		<default>Pode ficar com a gente se quiser.</default>
 	</talk>
@@ -97,7 +109,7 @@
 		<default>Se não quer...</default>
 	</talk>
 	<talk character="Inês">
-		<default>Pelo menos podemos ir pra outro lugar? Um lugar limpo, uma casa?</default>
+		<default>Pelo menos podemos ir pra outro lugar? Um lugar limpo? Uma casa?</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Em que país?</default>
@@ -106,7 +118,7 @@
 		<default>Beleno...</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Não quer que eu a leve de você?</default>
+		<default>Não quer que eu leve ela de você?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Quero que fique aqui.</default>
@@ -121,13 +133,7 @@
 		<default>Quem te disse que você tinha direito à opinião?</default>
 	</talk>
 	<teller>
-		<default>Beleno se levanta.</default>
-	</teller>
-	<talk character="Beleno">
-		<default>Alete.</default>
-	</talk>
-	<teller>
-		<default>Alete pega a criança dos braços dele e sai.</default>
+		<default>Beleno estende a criança a Alete, que pega a criança e sai.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>A próxima vez que me encontrar e me entregar, será meu próximo jantar.</default>
@@ -141,6 +147,9 @@
 	<talk character="Etos">
 		<default>Mereço recompensa?</default>
 	</talk>
+	<teller>
+		<default>Beatrice olha para Aléxis.</default>
+	</teller>
 	<talk character="Bea">
 		<irony>Você colocou algum cartaz?</irony>
 	</talk>
@@ -151,7 +160,7 @@
 		<irony>Não que eu lembre.</irony>
 	</talk>
 	<teller>
-		<default>Os dois saem. Inês olha para Etos.</default>
+		<default>Beatrice e Aléxis saem. Inês olha para Etos.</default>
 	</teller>
 	<talk character="Inês">
 		<default>Nem olha. Ainda posso colocar fogo em você.</default>
@@ -163,13 +172,13 @@
 		<default>Falou, Calígula.</default>
 	</talk>
 	<teller>
-		<default>Ela sobe. 16:00. Inês acorda na cama da MEAK. Beleno olha para ela.</default>
+		<first>Tarde. Inês acorda na cama da MEAK. Beleno está em pé lhe olhando.</first>
 	</teller>
 	<talk character="Beleno">
 		<default>Tava falando sério quando falou que iria embora comigo?</default>
 	</talk>
 	<talk character="Inês">
-		<default>Se mantém aqui por minha causa, não é?</default>
+		<default>Continua aqui por minha causa, né?</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Nasci pra te defender.</default>
@@ -181,13 +190,13 @@
 		<default>Não toca nesse nome.</default>
 	</talk>
 	<talk character="Inês">
-		<default>Ela não queria te maltratar.</default>
+		<default>Não queria te maltratar.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Não. Ela simplesmente não me queria.</default>
 	</talk>
 	<talk character="Inês">
-		<default>Ela te disse isso.</default>
+		<default>E te disse isso.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Por que não eu? Por que qualquer um menos eu?</default>
@@ -198,17 +207,20 @@
 	<talk character="Beleno">
 		<default>Mas você ela não rejeitou.</default>
 	</talk>
+	<teller>
+		<default>Inês franze a sobrancelha.</default>
+	</teller>
 	<talk character="Inês">
-		<default>Não tentei nada com ela.</default>
+		<default>Não tentei nada com Bea.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Pois é, nem precisou tentar!</default>
 	</talk>
 	<talk character="Inês">
-		<default>Ela quem transformou nosso pai.</default>
+		<default>Foi quem transformou nosso pai.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Então ela me acha parecido com ele?</default>
+		<default>Então ela me acha parecido com ele?!</default>
 	</talk>
 	<talk character="Inês">
 		<default>Não!</default>
@@ -217,22 +229,24 @@
 		<default>Óbvio que não! Por que até com ele ela ficou!</default>
 	</talk>
 	<talk character="Inês">
-		<default>Como quer ter alguma coisa com ela se continua agindo como ele? Como se ela fosse obrigada a isso?</default>
+		<default>Como quer ter alguma coisa com Bea se continua agindo como Edmont? Como se tivesse obrigação disso?</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Ela disse que a obriguei???</default>
+		<default>Ela disse que obriguei ela?!</default>
 	</talk>
 	<talk character="Inês">
-		<default>Não, Beleno! Ela conta muita coisa pra mim, mas isso eu vi!</default>
+		<default>Não, Beleno! Conta muita coisa pra mim, mas isso</default>
+		<frizz>eu</frizz>
+		<default>vi!</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Viu? Do que está falando?!</default>
 	</talk>
 	<talk character="Inês">
-		<default>Você chega, encosta ela na parede e faz o que quer. Acha que ela já não está cansada disso? Teve bastante disso antes de vir pra cá. Precisa de alguém que saiba quem ela é, não mais um que acha ela gostosa.</default>
+		<default>Você chega, encosta na parede, aproveita a fraqueza e faz o que quer. Acha que já não cansou disso? Teve bastante disso antes de vir pra cá. Precisa de alguém que saiba quem ela é, não mais um que acha ela gostosa.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Eu a amo!</default>
+		<default>Eu amo essa desgraçada!!!</default>
 	</talk>
 	<talk character="Inês">
 		<default>Então mostra isso direito!</default>
@@ -241,25 +255,31 @@
 		<default>Já que a conhece tão bem, casa com ela então! Com certeza ela aceita! Aceita qualquer um que não seja eu! Vai ver que ela tem medo que eu acorde com fome no meio da noite e resolva comê-la do jeito que ela não gosta!</default>
 	</talk>
 	<teller>
-		<default>Ele sai voando pela janela. Inês olha para a porta e vê Beatrice.</default>
+		<default>Beleno sai voando pela janela. Inês respira fundo. Arregala os olhos. Olha para a porta. Beatrice parou ali.</default>
 	</teller>
 	<talk character="Inês">
-		<default>Ele tá com raiva.</default>
+		<default>Beleno tá com raiva.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Já ouvi coisas piores do Edmont. Ele vai embora mesmo?</default>
+		<default>Já ouvi coisas piores de Edmont. Beleno vai embora mesmo?</default>
 	</talk>
 	<talk character="Inês">
 		<default>Não sei.</default>
 	</talk>
 	<teller>
-		<default>Beatrice sai. Vai pra casa. Entra, tira a capa. Alguém segura-a colocado um pano na boca e, em pouco tempo, ela desmaia. Acorda com as pernas e os braços acorrentados numa cama, cercada por grades. Do lado de fora das grades, Aléxis está acorrentado no teto, pelos pulsos. Rust numa cadeira dentro das grades, parece drogado, também acorrentado. Vampiros pelo quarto, que é grande. Virgine está atrás de Rust.</default>
+		<default>Beatrice sai.</default>
+	</teller>
+	<teller>
+		<first>Beatrice entra em casa. Tira a capa. Pendura em um gancho na parede. Um braço segura seu corpo, com braços juntos, e uma mão tampa sua boca com um pano. Beatrice se debate. Cede.</first>
+	</teller>
+	<teller>
+		<default>Beatrice abre os olhos. Pernas e os braços acorrentados a uma cama, cercada por grades. O cômodo onde está a gaiola é grande. Do lado de fora das grades, Aléxis está com os pulsos em correntes que ligam ao teto. Rust está em uma cadeira dentro das grades, olhar fixo em Beatrice, também com correntes. Vampirs pelo quarto. Virgine está atrás de Rust.</default>
 	</teller>
 	<talk character="Bea">
-		<default>É assim que faz com que ele faça o que você quer?</default>
+		<default>É assim que faz com que faça o que você quer?</default>
 	</talk>
 	<talk character="Aléxis">
-		<default>Ele tem uma maldição, ou algo do gênero. Tinha 27 anos e cara de 18 quando o encontrei. E um bracelete de esmeralda. Disse que nunca tinha tirava, que diziam para não tirar.</default>
+		<default>Ele tem uma maldição, ou algo do gênero. Tinha 27 anos e cara de 18 quando encontrei. E um bracelete de esmeralda. Disse que nunca tinha tirava, que diziam para não tirar.</default>
 	</talk>
 	<talk character="Virgine">
 		<default>É isso. Eu tiro sempre que quero. Faço o que eu quiser com ele. Sabe o que é mais... interessante?</default>
@@ -268,7 +288,7 @@
 		<default>Que Katerine vai sonhar com isso e acabar com sua festa?</default>
 	</talk>
 	<talk character="Virgine">
-		<default>Katerine sonha com o que está perto, ela percebe quando está dormindo o que está a sua volta e consegue ligar as coisas e saber o que vai acontecer. Quando é perigoso, recebe o alerta.</default>
+		<default>Katerine sonha com o que tá perto, ela percebe quando tá dormindo o que está a sua volta e consegue ligar as coisas e saber o que vai acontecer. Quando é perigoso, recebe o alerta. É como uma visão do mundo mais expandida. Você até vê os carros de movendo, mas só presta atenção se um estiver vindo na sua direção.</default>
 	</talk>
 	<teller>
 		<default>Virgine se senta na cama. Coloca a mão na canela de Beatrice, perto da tornozeleira.</default>
@@ -277,10 +297,10 @@
 		<default>Você foi transformada com 12 anos, com cara de 18. E quando nós falamos cara, nos referimos ao nosso olfato na verdade, com cheiro de 18. Se fizer as contas, os dois são 3 anos a cada 2.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Elian fez um feitiço...</default>
+		<default>Elian fez um feitiço.</default>
 	</talk>
 	<talk character="Kassandra">
-		<arrive>Elian não sabia dessas coisas. A única coisa que ele entendia era a própria mente doente. Pena que era doente demais pra se tornar interessante.</arrive>
+		<arrive>Elian não teve nada a ver com isso. No máximo deve ter descoberto o bracelete de controle.</arrive>
 	</talk>
 	<talk character="Dilan">
 		<arrive>Olha, todo mundo aqui... Vai ser assim tão interessante?</arrive>
@@ -289,13 +309,13 @@
 		<arrive>A gente pode tentar outras coisas.</arrive>
 	</talk>
 	<teller>
-		<default>Dilan dá um pulo (Etos aparecera atrás dele).</default>
+		<default>Dilan se vira e dá passos para trás, olhando para Etos.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Não se assuste, sei que nunca tentou, porque não experimentar?</default>
 	</talk>
 	<teller>
-		<default>Dilan pára e pensa.</default>
+		<default>Dilan abre a boca. Fecha.</default>
 	</teller>
 	<talk character="Aléxis">
 		<default>Pronto, agora isso vai virar um puteiro...</default>
@@ -316,22 +336,28 @@
 		<default>A pedra. Rust também usa desde que nasceu.</default>
 	</talk>
 	<teller>
-		<default>Beatrice tenta soltar a perna.</default>
+		<default>Beatrice puxa a perna.</default>
 	</teller>
 	<talk character="Virgine">
-		<default>Calma. A sua corrente é mais fraca que a dele. Vai soltar assim que eu te livrar disso. Vamos ver se você fica tão interessante quando o Rust. Ah, e eu vou soltá-lo também.</default>
+		<default>Calma. A sua corrente é mais fraca que a dele. Vai soltar assim que eu te livrar disso. Vamos ver se você fica tão interessante quando o Rust.</default>
 	</talk>
 	<teller>
-		<default>20/09. 7:00. Beatrice acorda dentro da jaula. Rust está abraçado com ela. As correntes em que Aléxis estava pendurado agora estão "vazias". Rust está com a braçadeira e ela com a tornozeleira.</default>
+		<default>Virgine levanta.</default>
+	</teller>
+	<talk character="Virgine">
+		<default>Não se preocupe. Vou soltar ele também.</default>
+	</talk>
+	<teller>
+		<first>Manhã. Beatrice abre os olhos. Os braços de Rust estão em volta de Beatrice. As correntes penduradas no teto do lado de fora permanecem, mas Aléxis não. Olha para o braço de Rust, a esmeralda está ali. Em seu tornozelo também. Beatrice se senta na cama.</first>
 	</teller>
 	<talk character="Bea">
 		<default>Rust?</default>
 	</talk>
 	<teller>
-		<default>Ele acorda. Passa a mão no rosto dela.</default>
+		<default>Rust abre os olhos. Se senta.</default>
 	</teller>
 	<talk character="Rust">
-		<default>Que aconteceu?</default>
+		<default>Que houve?</default>
 	</talk>
 	<teller>
 		<default>Rust olha em volta.</default>
@@ -340,13 +366,22 @@
 		<default>Sem corpos dessa vez.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ela costuma fazer muito isso?</default>
+		<default>Costuma fazer muito isso?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Sempre que fica com vontade. Estou com ela há mais de meio milênio, então já perdi a conta.</default>
+		<default>Sempre que fica com vontade. Estou com Virgine há mais de meio milênio, então já perdi a conta. Não parece ter qualquer diferença de quem conheci lá.</default>
 	</talk>
 	<talk character="Bea">
-		<default>E você nunca lembra do que aconteceu?</default>
+		<default>Virgine sabe? Porque, do jeito que falou...</default>
+	</talk>
+	<talk character="Rust">
+		<default>Kassandra tem poderes, mais que muitas pessoas. Pedi que alterasse a realidade. Só quem veio e Kassandra mesmo não afetou.</default>
+	</talk>
+	<teller>
+		<default>Rust levanta da cama. Olha para fora da grade.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Você nunca lembra do que aconteceu?</default>
 	</talk>
 	<talk character="Rust">
 		<default>Pior. Demoro, mas lembro de tudo.</default>
@@ -355,55 +390,70 @@
 		<default>Desistiu de se tornar bom por causa disso?</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta.</default>
+		<default>Rust se vira para Beatrice.</default>
 	</teller>
 	<talk character="Rust">
 		<default>Se Deus quisesse que eu fosse bom, não teria feito o que fez.</default>
 	</talk>
 	<teller>
-		<default>Olha para os lados. Se veste.</default>
+		<default>Rust olha para o chão. Pega uma calça e uma camisa. Joga em cima da cama. Veste a calça, depois a camisa. Se senta na cama, de costas para Beatrice.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Já tentou lutar contra isso?</default>
 	</talk>
+	<teller>
+		<default>Rust olha para o teto.</default>
+	</teller>
 	<talk character="Rust">
 		<default>Quanto pude. E sempre que tenho alguma força pra isso.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Quando não tem, chora sempre?</default>
 	</talk>
-	<talk character="Rust">
-		<default>Eu? Chorando?</default>
-	</talk>
 	<teller>
-		<default>Ela o vira para si. Limpa os olhos dele.</default>
+		<default>Rust baixa a cabeça. Beatrice vai para a frente de Rust. Agacha. Levanta o rosto e limpa as lágrimas com as mãos.</default>
 	</teller>
 	<talk character="Rust">
-		<default>Já tentei me matar. Ela não deixa. Já tentei me livrar. Ela não deixa.</default>
+		<default>Já tentei me matar. Virgine não deixa. Já tentei parar. Virgine não deixa.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Podia ter ficado livre quando veio pra cá.</default>
+	</talk>
+	<talk character="Rust">
+		<default>A culpa é minha. Mas eu só queria poder cuidar de Virgine sem ter que...</default>
+	</talk>
+	<teller>
+		<default>Rust olha para a janela.</default>
+	</teller>
+	<talk character="Rust">
+		<default>Vai ver é parte da minha punição.</default>
 	</talk>
 	<talk character="Bea">
 		<default>E se eu te ajudar?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Ela te prende também. Se é que já não prendeu.</default>
+		<default>Te prende também. Se é que já não prendeu.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Já tentou matá-la?</default>
+		<default>Já tentou matar Virgine.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Não posso.</default>
+		<default>Sabe que não posso.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Precisa de alguém pra colocar no lugar.</default>
+		<default>Acho que precisa de alguém pra colocar no lugar.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Talvez.</default>
+		<default>Fazer cagada com outra pessoa?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Não tenho mais tanta certeza que seja culpa que te prende.</default>
 	</talk>
 	<teller>
-		<default>Ela olha de novo para as correntes no teto.</default>
+		<default>Beatrice olha para as correntes no teto.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Cadê o Aléxis?</default>
+		<default>Cadê Aléxis?</default>
 	</talk>
 	<talk character="Rust">
 		<default>De quadro com o pau do Etos enfiado na bunda. Quem se importa?</default>
@@ -412,28 +462,28 @@
 		<default>Eu me importo.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Virgine é quem é por culpa dele.</default>
+		<default>Virgine é quem é por culpa de Aléxis também.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Tá com pena dela?</default>
+		<default>Tá com pena de Virgine?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Se você pode ter dele...</default>
+		<default>Se você pode ter de Aléxis...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ele se tornou caçador de vampiros. Teve coragem pra enfrentar os próprios instintos.</default>
+		<default>Aléxis se tornou caçador de vampiros. Teve coragem pra enfrentar os próprios instintos.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Me diz se o que aconteceu com a gente dá pra enfrentar!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Além do que, Virgine já era ruim. Aléxis apenas tornou-a imortal. Como você pediu, aliás.</default>
+		<default>Talvez Virgine já fosse ruim. Aléxis apenas fez ser imortal. Como você pediu, aliás.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Obrigado por me lembrar disso.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Também quase me tornei escrava de um monstro que criei.</default>
+		<default>Também quase fiquei a merce pra sempre de um monstro que criei.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Quando encontrar a irmã gêmea boazinha da Virgine, pode me contar.</default>
@@ -442,6 +492,21 @@
 		<default>Tá querendo dizer que foi mais fácil pra mim?!</default>
 	</talk>
 	<talk character="Rust">
-		<default>Tô dizendo só que agora você tá tão ferrada quanto eu. Se eu estou começando a me lembrar, você também deve estar.</default>
+		<default>Não. Só que você tem quem pare Edmont.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Eu tô me oferecendo pra parar Virgine.</default>
+	</talk>
+	<talk character="Rust">
+		<default>Só que agora você tá no mesmo barco que eu. Se eu estou começando a me lembrar, você também deve estar.</default>
+	</talk>
+	<teller>
+		<default>Beatrice fecha os olhos. Abre.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Virgine disse que agora lhe pertenço também.</default>
+	</talk>
+	<talk character="Rust">
+		<default>Espero que o balanço não te dê enjoo.</default>
 	</talk>
 </story>
