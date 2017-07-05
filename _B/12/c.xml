@@ -1,51 +1,117 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="12" scene="c">
 	<teller>
-		<default>Noite. Lucas acorda.</default>
+		<default>1983. Um garoto de quatro anos está num orfanato, sentado no chão, observando as outras crianças. Uma mulher se aproxima.</default>
 	</teller>
-	<talk character="Lucas">
+	<talk character="mulher">
+		<default>Oi.</default>
+	</talk>
+	<talk character="Louis">
+		<default>Meu nome é Louis. Veio adotar?</default>
+	</talk>
+	<talk character="mulher">
+		<default>Ah... Eu...</default>
+	</talk>
+	<talk character="Louis">
+		<default>Só inspetora?</default>
+	</talk>
+	<talk character="mulher">
+		<default>Tá vendo aquele homem, falando com a tia?</default>
+	</talk>
+	<teller>
+		<default>Ela aponta um homem. Ele olha e volta a olhar para ela.</default>
+	</teller>
+	<talk character="Louis">
+		<default>Você a chama de tia?</default>
+	</talk>
+	<talk character="mulher">
+		<default>Não.</default>
+	</talk>
+	<talk character="Louis">
+		<default>Eu também não. É costume das outras crianças.</default>
+	</talk>
+	<teller>
+		<default>Louis olha de novo para o homem.</default>
+	</teller>
+	<talk character="Louis">
+		<default>É seu namorado ou seu irmão?</default>
+	</talk>
+	<talk character="mulher">
+		<default>Marido.</default>
+	</talk>
+	<talk character="Louis">
+		<default>Isso não é a mesma coisa que namorado?</default>
+	</talk>
+	<talk character="mulher">
+		<default>Depende do caso... </default>
+		<teller>ela olha pra ele</teller>
+		<default>No nosso caso, é.</default>
+	</talk>
+	<talk character="Louis">
+		<default>Vão adotar menino ou menina? Terá irmãos?</default>
+	</talk>
+	<teller>
+		<default>Ela olha de volta para ele.</default>
+	</teller>
+	<talk character="mulher">
+		<default>Sou infértil.</default>
+	</talk>
+	<talk character="Louis">
+		<default>Mas isso não é problema. Pode adotar mais de um. Eu recomendo. Uma criança que cresce num orfanato cresce cercada de outras crianças. Algumas adorariam ser filhas únicas, são meio reclusas, mas a maioria não fica muito sozinha...</default>
+	</talk>
+	<talk character="mulher">
+		<default>A mulher disse pra eu vir falar com você.</default>
+	</talk>
+	<talk character="Louis">
+		<default>Aqui me chamam de guia. Nunca uma família que eu tenha achado a criança devolveu. Desde que eu encaminho as coisas, ninguém se fere.</default>
+		<default>Nossa viagem é mais longa. Deixa essa parte com Alan e Fábio também.</default>
+ 	</talk>
+	<teller>
+		<default>Noite. Louis acorda.</default>
+	</teller>
+	<talk character="Louis">
 		<default>Valquíria...</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>A menina que você falou?</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Dionísio? Você vai amanhã, não é?</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>É, tá tudo certo. Ele queria adotar você, mas...</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Ainda bem que não adotou. Preciso ir para outro lugar.</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>Disse que podia contar comigo pro que fosse.</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Desculpe, sei que não queria ser adotado.</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>Não esquenta, eu volto de vez em quando. Se não era difícil convencer as mulheres daqui a me deixarem sair... Encontrou Valquíria?</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Sabe a mulher que esteve aqui?</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>Aquela que você recomendou a Julinha?</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Sim. Terei que arranjar outra pessoa para adotá-la. O marido dela parte e, meses depois, ela também.</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>Ih, sujeira! Ela é a mãe da Valquíria?</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>É. Parece que finalmente encontrei.</default>
 	</talk>
 	<talk character="Dionísio">
 		<default>E não tem jeito de serem seus pais?</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Não. Pode ficar sossegado, não vou cometer um incesto.</default>
 	</talk>
 	<talk character="Dionísio">
@@ -90,89 +156,89 @@
 	<teller>
 		<default>Longe dali, Zenon está numa sala de cadeia. Entra um homem.</default>
 	</teller>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Disseram-me que é sobre Ludmila.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Qual seu nome?</default>
 	</talk>
-	<talk character="Lucas">
-		<default>Lucas. Veio aqui sem saber nem isso?</default>
+	<talk character="Louis">
+		<default>Louis. Veio aqui sem saber nem isso?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>A pessoa que me informou não lembrava.</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Não lembrava... Sei.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Mas me deu o endereço exato. Não sabia que tinha mordomia aqui dentro...</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Todos gostam de mim aqui. Me chamam de poeta. Além do que, me disseram que quem pediu um lugar coberto foi você.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Achei que me levariam pra um lugar coberto no pátio, onde todo mundo recebe as visitas.</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Parece já ter estado em muitas cadeias.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>E você parece mal.</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>É ruim ficar longe da pessoa que você ama. Sabe onde ela está?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Quem?</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Valquíria. Ludmila ficou com ela? Veio negociar isso?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não vim em nome de Ludmila. Ela voltou para as Ilhas e está, digamos, monopolizando uma amiga minha.</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Está com ciúmes?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Essa minha amiga não costuma parar de ligar pro mundo pra se dedicar a um caso.</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Ludmila não conseguiu seduzir Valquíria. Por isso fez tudo o que fez.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Preciso de provas.</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Provas? Então é da polícia?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não. Mas minha amiga não vai acreditar tão facilmente.</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Se eu tivesse provas, acha que estaria aqui, privado da minha liberdade e longe do meu amor? Sabe ao menos onde está Valquíria?</default>
 	</talk>
 	<teller>
-		<default>1983. Lucas entra em casa. Olha para tudo. Volta-se para seus novos pais.</default>
+		<default>1983. Louis entra em casa. Olha para tudo. Volta-se para seus novos pais.</default>
 	</teller>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Devo chamá-los de pais?</default>
 	</talk>
 	<talk character="mulher">
 		<default>Quando quiser.</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Posso usar a cozinha?</default>
 	</talk>
 	<talk character="homem">
 		<default>Você sabe cozinhar?</default>
 	</talk>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Desde a minha outra encarnação.</default>
 	</talk>
 	<teller>
-		<default>Lucas vai para a cozinha</default>
+		<default>Louis vai para a cozinha</default>
 	</teller>
 	<talk character="mulher">
 		<default>Ele é um garoto meio precoce, não acha?</default>
@@ -217,18 +283,18 @@
 		<default>A própria história dos dois diz tudo...</default>
 	</talk>
 	<teller>
-		<default>1983. Lucas está olhando os dois comerem.</default>
+		<default>1983. Louis está olhando os dois comerem.</default>
 	</teller>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Onde eu durmo?</default>
 	</talk>
 	<talk character="mulher">
 		<default>Vou lá te mostrar...</default>
 	</talk>
 	<teller>
-		<default>A mulher sobe com Lucas. Ele olha para todo o quarto. Deita-se na cama. Ela o cobre. Dá um beijo na testa e sai.</default>
+		<default>A mulher sobe com Louis. Ele olha para todo o quarto. Deita-se na cama. Ela o cobre. Dá um beijo na testa e sai.</default>
 	</teller>
-	<talk character="Lucas">
+	<talk character="Louis">
 		<default>Amanhã, quando eu acordar, Valquíria já terá voltado pra esse mundo.</default>
 	</talk>
 	<teller>
@@ -452,5 +518,37 @@
 	</talk>
 	<talk character="Fábio">
 		<default>Não, obrigado.</default>
+	</talk>
+	<teller>
+		<default>Hector abre a porta. Alan e Fábio saem. Hector segura o braço de Fábio.</default>
+	</teller>
+	<talk character="Hector">
+		<default>Quando quiser mudar de profissão, é só falar comigo. Tenho clientes que te adorariam.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Ele não gosta de mulher.</default>
+	</talk>
+	<talk character="Hector">
+		<default>E quem disse que tô falando de mulher?</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Não, obrigado.</default>
+	</talk>
+	<talk character="Hector">
+		<default>Tem certeza? Eu também adoraria.</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Eu não sirvo para esse tipo de coisa.</default>
+	</talk>
+	<talk character="Hector">
+		<default>Sentimental?</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Mais ou menos por aí...</default>
+	</talk>
+	<talk character="Hector">
+		<default>Tá...</default>
+		<teller>solta o braço de Fábio</teller>
+		<default>Até outro dia.</default>
 	</talk>
 </story>
