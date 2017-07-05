@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="11" scene="d">
 	<teller>
-		<default>Enquanto isso, no subterrâneo da cidade...</default>
+		<default>Subterrâneo da cidade.</default>
 	</teller>
 	<talk character="Virgine">
 		<default>Que aconteceu dessa vez?</default>
@@ -12,37 +12,38 @@
 	<talk character="Kassandra">
 		<default>Rust.</default>
 	</talk>
-	<talk character="Dilan">
-		<default>Ninguém tem notícias dele.</default>
+	<talk character="Virgine">
+		<default>Ele some às vezes.</default>
 	</talk>
 	<talk character="Andrews">
 		<arrive>Que pena.</arrive>
 	</talk>
 	<talk character="Argo">
-		<default>Acho que todos aqui já sabem que ele voltou à sanidade.</default>
+		<default>Acho que todos aqui já sabem que ele voltou a sanidade.</default>
 	</talk>
 	<talk character="Virgine">
 		<default>Por que ninguém me avisou que esse desgraçado tinha acordado?</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Obrigado pela parte que me toca.</default>
-		<teller>Andrews toma acento</teller>
-		<default>Soube que cada um de vós criastes características próprias. Argo vive no subterrâneo; Rust quer se tornar uma lenda e acham que ele é um fantasma; Virgine tem um grupo pra destruir os caça-vampiros; Kassandra seduz as vítimas; Dilan as enlouquece.</default>
+	</talk>
+	<teller>
+		<default>Andrews se senta.</default>
+	</teller>
+	<talk character="Andrews">
+		<default>Soube que cada um de vocês criou características próprias. Argo vive no subterrâneo. Rust é tido como um fantasma. Virgine tem um grupo pra destruir os caça-vampiros. Kassandra seduz as vítimas. Dilan as enlouquece.</default>
 	</talk>
 	<talk character="Dilan">
 		<default>Como sabe disso?</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Tenho uma ligação convosco, esqueceram? Se estivéreis por perto e concentrar-me, descubro que estão a fazer.</default>
+		<default>Tenho uma ligação com vocês, esqueceram? Muitas vezes sei exatamente o que estão fazendo.</default>
 	</talk>
 	<talk character="Virgine">
 		<default>Papo furado. Por que não descobriu a nossa armação?</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Estava distante. Não física e sim mentalmente distante.</default>
-	</talk>
-	<talk character="Virgine">
-		<default>Vou embora.</default>
+		<default>Estava distante. Não física, mentalmente distante.</default>
 	</talk>
 	<teller>
 		<default>Virgine se levanta.</default>
@@ -60,10 +61,10 @@
 		<default>Voltou e quer se adaptar a esse mundo. Bem. Mas não queira minha ajuda.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Por que falas assim comigo?</default>
+		<default>Por que fala assim comigo?</default>
 	</talk>
 	<talk character="Virgine">
-		<default>É o primeiro? Resiste mais do que nós? Dane-se! Continuo não gostando de você e não vou ficar aqui demonstrando um falso respeito pelo ser mais desprezível que conheço.</default>
+		<default>É o primeiro? Resiste mais do que nós? Foda-se. Continuo não gostando de você e não vou ficar aqui demonstrando um falso respeito pelo ser mais desprezível que conheço.</default>
 	</talk>
 	<teller>
 		<default>Virgine sai. Dilan se levanta.</default>
@@ -72,28 +73,28 @@
 		<default>Ela tem mais o que fazer fora, eu não tenho mais o que fazer aqui.</default>
 	</talk>
 	<teller>
-		<default>Dilan sai também. Kassandra olha pra Andrews, que sorri. Tanto ela quanto Argo ficam intrigados.</default>
+		<default>Dilan sai também. Kassandra olha pra Andrews, que sorri. Kassandra cruza os braços.</default>
 	</teller>
 	<talk character="Andrews">
 		<default>Reagiram melhor que Rust.</default>
 	</talk>
 	<teller>
-		<default>Andrews fala e sai.</default>
+		<default>Andrews levanta e sai.</default>
 	</teller>
 	<talk character="Argo">
 		<default>Sabe de alguma coisa?</default>
 	</talk>
 	<talk character="Kassandra">
-		<default>Não. O que será que ele está pensando?</default>
+		<default>Não. O que será que ele tá pensando?</default>
 	</talk>
 	<talk character="Argo">
-		<default>De todos nós, ele é o mais imprevisível.</default>
+		<default>De todos nós, é o mais imprevisível.</default>
 	</talk>
 	<talk character="Kassandra">
 		<default>Melhor nós não mexermos mais com ele.</default>
 	</talk>
 	<teller>
-		<default>De noite, Andrews está no balcão de um bar, pensando. Ele observa uma mesa com cinco garotas. Uma delas, que está de costas pro balcão, lhe chama a atenção.</default>
+		<default>Noite. Andrews está no balcão de um bar. Olha uma mesa.</default>
 	</teller>
 	<talk character="Samanta">
 		<default>Tá, Stephany, quem seria o cara perfeito pra você?</default>
@@ -120,7 +121,7 @@
 		<default>Muito amigas... Da onça!</default>
 	</talk>
 	<teller>
-		<default>Stephany faz sinal para a roupa que teve que vestir.</default>
+		<default>Stephany aponta o próprio corpo com as mãos, de cima a baixo.</default>
 	</teller>
 	<talk character="Jenny">
 		<default>Isso foi uma aposta.</default>
@@ -128,8 +129,11 @@
 	<talk character="Amanda">
 		<default>Fala logo!</default>
 	</talk>
+	<teller>
+		<default>Stephany suspira.</default>
+	</teller>
 	<talk character="Stephany">
-		<default>Tá, eu vou pensar... Ele tem que ser diferente. Meio selvagem.</default>
+		<default>Ele tem que ser diferente. Meio selvagem.</default>
 	</talk>
 	<talk character="Samanta">
 		<default>Ê, Stephany!</default>
@@ -150,7 +154,7 @@
 		<default>Descubra o medo no olhar, seja selvagem, você quer um vampiro...</default>
 	</talk>
 	<teller>
-		<default>Andrews se aproxima da mesa. Todas vêem, menos Stephany.</default>
+		<default>Andrews se aproxima da mesa, para atrás de Stephany. Samanta cutuca Amanda. Jenny olha também. Então Lili.</default>
 	</teller>
 	<talk character="Lili">
 		<default>Que deus grego...</default>
@@ -168,7 +172,7 @@
 		<default>Grego sim. Deus não.</default>
 	</talk>
 	<teller>
-		<default>No que Andrews fala, Stephany pula da cadeira, jogando a mesma no chão.</default>
+		<default>Stephany sai bruscamente da cadeira. A cadeira cai no chão. Andrews levanta a cadeira e coloca no lugar.</default>
 	</teller>
 	<talk character="Jenny">
 		<default>Não liga, ela chegou na cidade hoje.</default>
@@ -180,10 +184,10 @@
 		<default>Eu imagino o que faria se eu fosse um vampiro.</default>
 	</talk>
 	<talk character="Samanta">
-		<default>Ia te agarrar...</default>
+		<default>Ia te agarrar!</default>
 	</talk>
 	<teller>
-		<default>Elas dão risada, mas ele está olhando nos olhos de Stephany tão fixamente que nem escuta o que elas dizem.</default>
+		<default>Samanta, Amanda, Jenny e Lili dão risada. Andrews olha fixamente nos olhos de Stephany.</default>
 	</teller>
 	<talk character="Lili">
 		<default>Tá escutando?</default>
@@ -201,7 +205,7 @@
 		<default>Já paguei, vim até aqui com essa roupa ridícula e fiquei algum tempo.</default>
 	</talk>
 	<teller>
-		<default>Stephany sai. Andrews a segue. Jenny vai atrás dele.</default>
+		<default>Stephany vai para o caixa. Andrews olha algum tempo. Vai em direção a saída. Lili cutuca Jenny. Jenny levanta e segura o braço de Andrews.</default>
 	</teller>
 	<talk character="Jenny">
 		<default>Não vai conseguir nada.</default>
@@ -228,31 +232,34 @@
 		<default>Senhorita? Hã, agora sei por que olhou pra esquisitinha comportada.</default>
 	</talk>
 	<teller>
-		<default>Stephany chega na porta de casa.</default>
+		<default>Stephany chega na porta de casa. Derruba a chave. Suspira. Pega do chão.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Não te disseram que é perigoso andar na rua a estas horas?</default>
+		<arrive>Não te disseram que é perigoso andar na rua a essa hora?</arrive>
 	</talk>
+	<teller>
+		<default>Stephany derruba a chave de novo.</default>
+	</teller>
 	<talk character="Stephany">
 		<default>Por que me seguiu???</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Por que fugiste do bar?</default>
+		<default>Por que fugiu do bar?</default>
 	</talk>
 	<talk character="Stephany">
-		<default>Você fala de um jeito engraçado. Disse que era grego...</default>
+		<default>Você não tem sotaque de nada pra ser estrangeiro. Disse que é grego...</default>
 	</talk>
 	<talk character="Andrews">
 		<default>E sou.</default>
 	</talk>
 	<talk character="Stephany">
-		<default>Então fala assim por que aprendeu o português de Portugal.</default>
+		<default>Então devia ter mais o sotaque de português de Portugal.</default>
 	</talk>
 	<teller>
-		<default>Andrews se aproxima dela, que se afasta.</default>
+		<default>Andrews se aproxima de Stephany. Stephany se afasta.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Estás com medo de mim?</default>
+		<default>Tá com medo de mim?</default>
 	</talk>
 	<talk character="Stephany">
 		<default>Eu tenho que entrar.</default>
@@ -261,31 +268,46 @@
 		<default>Stephany abre a porta e Andrews segura seu braço.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Não pareces com elas.</default>
+		<default>Não parece com elas.</default>
 	</talk>
 	<talk character="Stephany">
 		<default>Não sou elas.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Que temes?</default>
+		<default>Do que tem medo?</default>
 	</talk>
 	<talk character="Stephany">
 		<default>Me olhando desse jeito, ainda pergunta?</default>
 	</talk>
 	<teller>
-		<default>Ela puxa seu braço da mão dele e entra. Deita numa rede.</default>
+		<default>Stephany puxa seu braço. Entra. Tranca a porta. Dá um puxão. Coloca a bolsa no sofá. Deita em uma rede.</default>
 	</teller>
 	<talk character="Stephany">
-		<default>Elas também... Nem pra me avisar que tinha um cara atrás de mim. Ele deve ter ouvido o que eu disse. Quando se aproximou, percebeu. Ele quer bancar o engraçadinho comigo. Não vai conseguir.</default>
+		<thought>Elas também... Nem pra me avisar que tinha um cara atrás de mim. Ele deve ter ouvido o que eu disse. Quando se aproximou, percebeu. Ele quer bancar o engraçadinho comigo. Não vai conseguir.</thought>
 	</talk>
 	<teller>
-		<default>Andrews vai andando e encontra uma garota, que lhe pede uma informação. Ele está com sede, ninguém olhando, então... Depois ele se deita na beirada de um chafariz desligado.</default>
+		<default>Andrews segue andando.</default>
+	</teller>
+	<talk character="Paulo">
+		<default>Oi... Eu sou novo na cidade... Preciso saber onde...</default>
+	</talk>
+	<teller>
+		<default>Andrews encosta Paulo no parede. Morde. Paulo se debate. Perde as forças. Andrews solta Paulo. Lambe a lateral da boca. Abaixa a limpa a boca na roupa de Paulo. Pega a carteira. Abre. Senta-se no chão.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Um holandês casado e sério, um russo bandido e rebelde, uma inglesa freira revoltada, uma prostituta francesa que gosta do perigo e um italiano vagabundo e egocentrista. Talvez devesse deixar eles viverem. Tiveram ao menos a coragem de me enfrentar. Os humanos, nem isso. Deixe que a natureza cuida dessas duas espécies em que cada um se julga melhor que o outro. Tenho planos para menina. Talvez ela seja menos escorregadia que Kassandra e menos revoltada que Virgine. Acho que vou ter que livrar-me daquelas amigas dela.</default>
+		<default>Paulo. Não sabe o que fiz. Um holandês casado e sério, um russo bandido e rebelde, uma inglesa freira revoltada, uma prostituta francesa que gosta do perigo e um italiano vagabundo e egocêntrico. Talvez devesse deixar eles viverem. Tiveram ao menos a coragem de me enfrentar. Os humanos, nem isso.</default>
 	</talk>
 	<teller>
-		<default>Ele ri. Os quatro estão voltando do show.</default>
+		<default>Andrews joga a carteira de volta em Paulo.</default>
+	</teller>
+	<talk character="Andrews">
+		<default>Deixe que a natureza cuida dessas duas espécies em que cada um se julga melhor que o outro. Tenho planos para menina. Talvez ela seja menos escorregadia que Kassandra e menos revoltada que Virgine. Acho que vou ter que me livrar daquelas amigas dela. Tem um excesso de perfume, mas acho que darão um bom jantar.</default>
+	</talk>
+	<teller>
+		<default>Andrews ri.</default>
+	</teller>
+	<teller>
+		<first>MEAK.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Tô quebrado...</default>
@@ -300,11 +322,15 @@
 		<default>Somos os únicos artistas que não temos a menor idéia do que temos na agenda.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Por que me deixaram aqui dormindo? Cadê a Kat?</default>
+		<default>Por que me deixaram aqui dormindo? Cadê Kat?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Dormiu no carro.</default>
-		<teller>Angely adentra a sala, com Kat no colo</teller>
+		<arrive>Dormiu no carro.</arrive>
+	</talk>
+	<teller>
+		<default>Angely entra na sala, com Kat no colo. Pousa no sofá.</default>
+	</teller>
+	<talk character="Angely">
 		<default>Quando vão ser os outros cinco?</default>
 	</talk>
 	<talk character="Edmont">
@@ -314,12 +340,19 @@
 		<default>Toca o telefone. Edmont atende.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Alô? Samuel... Quando vão ser os outros? Amanhã??? E depois??? Marcou eles seguidos??? Em outros países??? Tá, tá, tá. Pelo menos isso acaba logo. Tudo bem. Tchau.</default>
-		<teller>desliga o telefone</teller>
+		<default>Alô? ### Samuel... ### Quando vão ser os outros? ### Amanhã??? ### E depois??? ### Marcou eles seguidos??? ### Em outros países??? ### Tá, tá, tá. Pelo menos isso acaba logo. ### Tudo bem.</default>
+	</talk>
+	<teller>
+		<default>Edmont desliga o telefone.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Não tenho mais paciência pra Samuel.</default>
+	</talk>
+	<talk character="Mel">
 		<default>Bom, nos próximos cinco dias, estamos com compromissos.</default>
 	</talk>
 	<teller>
-		<default>Dia do segundo show. De noite, Andrews vai à casa de Stephany. Lili atende a porta.</default>
+		<first>Dia do segundo show. Noite. Casa de Stephany. Lili atende a porta.</first>
 	</teller>
 	<talk character="Andrews">
 		<default>Oi.</default>
@@ -331,7 +364,7 @@
 		<default>Acredita se eu disser que vim te ver?</default>
 	</talk>
 	<talk character="Lili">
-		<default>Não sei. Estava mais interessado em Stephany.</default>
+		<default>Não sei. Estava mais interessado na Stephany.</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Posso entrar?</default>
@@ -343,22 +376,22 @@
 		<default>Eu sei que suas amigas não estão aí.</default>
 	</talk>
 	<talk character="Lili">
-		<default>Que me garante que não vai ficar me enrolando até Stephany chegar?</default>
+		<default>O que me garante que não vai ficar me enrolando até Stephany chegar?</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Então sai você aqui.</default>
 	</talk>
 	<teller>
-		<default>Lili sai. Ele leva ela pra um lugar sem ninguém.</default>
+		<default>Dali a pouco, Lili anda com Andrews pelo bairro. Um beco.</default>
 	</teller>
 	<talk character="Lili">
 		<default>Por que acha que me engana?</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Por que achas que te engano?</default>
+		<default>Por que acha que te engano?</default>
 	</talk>
 	<teller>
-		<default>Ela dá um sorriso.</default>
+		<default>Lili dá um sorriso.</default>
 	</teller>
 	<talk character="Andrews">
 		<default>Que tal irmos à sua casa?</default>
@@ -370,25 +403,25 @@
 		<default>Então?</default>
 	</talk>
 	<teller>
-		<default>Eles vão à casa dela. Entram no quarto e ele começa a beijá-la. Então ela olha o espelho. Ele se vira pra trás. Pega um objeto e atira no espelho.</default>
+		<default>Quarto de Lili. Andrews beija Lili. Lili fecha a porta do quarto. Andrews pega Lili e joga na cama. Lili senta. Andrews continua beijando. Passa ao pescoço. Lili olha o espelho atrás da porta. Para. Andrews se vira pra trás. Pega o rádio relógio e atira no espelho.</default>
 	</teller>
 	<talk character="Andrews">
 		<irony>Sete anos de azar pra mim.</irony>
 	</talk>
 	<talk character="Lili">
-		<default>Você é um, um...</default>
+		<default>Você... Você é... Um...</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Não precisa dizer, eu já sei.</default>
 	</talk>
 	<teller>
-		<default>Lili pega um isqueiro e, literalmente, acende o casaco de Andrews. Ele se levanta e rapidamente joga o casaco no chão e apaga o fogo.</default>
+		<default>Andrews continua beijando Lili. Lili pega um isqueiro. Andrews se afasta de Lili bruscamente. Arranca o casaco, que está pegando fogo. Pisa no casaco. Apaga o fogo.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Podias ter morrido sem sofrer. Mas acho que não posso deixar isso impune.</default>
+		<default>Podia ter morrido sem sofrer. Mas acho que não posso deixar isso impune.</default>
 	</talk>
 	<teller>
-		<default>Duas horas depois, as outras quatro chegam.</default>
+		<default>Duas horas depois. Amanda, Samanta, Jenny e Stephany entram em casa.</default>
 	</teller>
 	<talk character="Amanda">
 		<default>Por que tá triste assim?</default>
@@ -403,16 +436,16 @@
 		<default>Por favor, gente...</default>
 	</talk>
 	<teller>
-		<default>Stephany se joga no sofá. Amanda vai até o quarto e vê Lili na cama, morta. Dá um grito e se afasta da porta do quarto. Jenny e Samanta vão ver o que aconteceu.</default>
+		<default>Stephany se joga no sofá. Amanda sai da sala. Stephany se joga no sofá. Um grito. Jenny e Samanta se entreolham correm na direção do quarto. Stephany revira os olhos.</default>
 	</teller>
 	<talk character="Jenny">
-		<default>Ah, meu Deus... Stephany...</default>
+		<out>Ah, meu Deus... Stephany!</out>
 	</talk>
 	<talk character="Stephany">
 		<default>Que foi?...</default>
 	</talk>
 	<teller>
-		<default>Stephany se levanta, vai até o quarto e fica sem palavras.</default>
+		<default>Stephany se levanta. Vai até o quarto, arrastando os pés. Entra. Para.</default>
 	</teller>
 	<talk character="Samanta">
 		<default>Eu sabia que não devíamos ter deixado ela aqui!</default>
@@ -421,22 +454,23 @@
 		<default>Gente, a culpa não é nossa... É?</default>
 	</talk>
 	<talk character="Stephany">
-		<default>Melhor chamarmos a polícia.</default>
+		<default>Melhor chamar a polícia.</default>
 	</talk>
 	<teller>
-		<default>Elas ligam pra polícia. Eles vêm, ouvem as garotas, recolhem o corpo e as quatro vão pára um hotel. Dia do terceiro show. Andrews segue Jenny e aparece, repentinamente, em sua frente.</default>
+		<default>Dia do terceiro show. Jenny está andando.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Você não parece bem.</default>
+		<arrive>Você não parece bem.</arrive>
 	</talk>
 	<teller>
-		<default>Jenny se assusta.</default>
+		<default>Jenny dá um passo para trás, segurando a bolsa.</default>
 	</teller>
 	<talk character="Jenny">
 		<default>Que tá fazendo aqui?</default>
 	</talk>
 	<talk character="Andrews">
-		<thought>que originalidade!) Andando pela cidade.</thought>
+		<thought>Que originalidade!</thought>
+		<default>Andando pela cidade.</default>
 	</talk>
 	<talk character="Jenny">
 		<default>Quase me mata do coração.</default>
@@ -444,11 +478,14 @@
 	<talk character="Andrews">
 		<default>Sou tão feio assim?</default>
 	</talk>
+	<teller>
+		<default>Jenny solta o corpo.</default>
+	</teller>
 	<talk character="Jenny">
 		<default>Não é isso, é que...</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Sua amiga morreu ontem e você está assustada.</default>
+		<default>Sua amiga morreu ontem e você tá assustada.</default>
 	</talk>
 	<talk character="Jenny">
 		<default>Como sabe?</default>
@@ -469,13 +506,13 @@
 		<default>Não. Na verdade, posso te deixar mais assustada que isso.</default>
 	</talk>
 	<teller>
-		<default>Jenny recua.</default>
+		<default>Jenny trava. Dá mais passos para trás.</default>
 	</teller>
 	<talk character="Jenny">
 		<default>Do que você tá falando?</default>
 	</talk>
 	<teller>
-		<default>Ele a encosta na parede. Ela levanta o joelho e o chuta. Sai correndo. Ele aparece de novo e a joga no chão.</default>
+		<default>Andrews encosta Jenny na parede. Jenny chuta entre as pernas de Andrews. Andrews cai. Jenny corre, olhando para trás. Andrews aparece na frente de Jenny, segura pelos braços. Jenny grita. Andrews joga Jenny no chão.</default>
 	</teller>
 	<talk character="Andrews">
 		<default>Onde acha que vai?</default>
@@ -484,10 +521,13 @@
 		<default>Socorro!</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Sempre gritam a eminência da morte. Isso é uma coisa que não mudou e creio que nunca mudará nas mulheres.</default>
+		<default>Sempre gritam a eminência da morte. Isso é uma coisa que não mudou e creio que nunca mudará.</default>
 	</talk>
 	<teller>
-		<default>Ele a segura e a morde. Ela se debate; de nada adianta. Dia do quarto show. Ligam da delegacia pro hotel. Stephany, Amanda e Samanta vão reconhecer o corpo. Depois voltam ao hotel.</default>
+		<default>Jenny se levanta. Andrews joga Jenny no chão de novo. Sobe em cima de Jenny. Morde. Jenny se debate. Andrews se afasta. Olha para o rosto de Jenny. Sorri. Volta a morder Jenny.</default>
+	</teller>
+	<teller>
+		<first>Dia do quarto show. Stephany, Amanda e Samanta entram em um quarto de hotel.</first>
 	</teller>
 	<talk character="Stephany">
 		<default>Será que isso não pára?</default>
@@ -499,7 +539,7 @@
 		<default>Como vamos saber???</default>
 	</talk>
 	<talk character="Amanda">
-		<default>Isso parece um pesadelo.</default>
+		<default>Isso parece um pesadelo...</default>
 	</talk>
 	<talk character="Stephany">
 		<default>Melhor ficarmos todas juntas.</default>
@@ -508,25 +548,26 @@
 		<default>Ela tá certa.</default>
 	</talk>
 	<teller>
-		<default>A camareira bate à porta.</default>
+		<default>Uma batida a porta.</default>
 	</teller>
-	<talk character="camareira">
+	<talk character="Ronaldo">
 		<default>Tem um senhor chamando uma garota chamada Amanda que está aqui.</default>
 	</talk>
 	<teller>
-		<default>Amanda olha pra elas. Depois desce.</default>
+		<default>Amanda olha para Samanta. Para Stephany. Sai.</default>
 	</teller>
 	<talk character="Amanda">
 		<default>Que tá fazendo aqui?</default>
 	</talk>
 	<talk character="Andrews">
-		<thought>isso já é frase decorada delas!) Eu sei quem está fazendo isso.</thought>
+		<thought>Isso já é frase decorada delas?!</thought>
+		<default>Eu sei quem está fazendo isso.</default>
 	</talk>
 	<talk character="Amanda">
 		<default>Sabe?</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Vim proteger-vos. Na primeira noite não consegui, na segunda não vos encontrei.</default>
+		<default>Vim proteger vocês. Na primeira noite não consegui, na segunda não consegui encontrar vocês.</default>
 	</talk>
 	<talk character="Amanda">
 		<default>Por que estão fazendo isso???</default>
@@ -543,6 +584,9 @@
 	<talk character="Amanda">
 		<default>Por que eu primeiro?</default>
 	</talk>
+	<teller>
+		<default>Andrews revira os olhos.</default>
+	</teller>
 	<talk character="Andrews">
 		<default>Sorteei. Agora vamos.</default>
 	</talk>
