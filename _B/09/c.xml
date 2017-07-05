@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="09" scene="c">
 	<teller>
-		<default>Os dois estão andando. Michele chega.</default>
+		<first>Zenon e Alan estão andando em Ares.</first>
 	</teller>
 	<talk character="Michele">
-		<default>Malas?</default>
+		<arrive>Malas?</arrive>
 	</talk>
 	<talk character="Alan">
 		<default>Droga, bem que o Angely podia estar aqui com a gente!</default>
@@ -19,7 +19,7 @@
 		<default>Bom... Eu...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tem quatorze. Por que não me corrigiu quando eu disse dezenove?</default>
+		<default>Por que não me corrigiu quando eu disse dezenove?</default>
 	</talk>
 	<talk character="Michele">
 		<default>É bom não acharem que sou criança de vez em quando... Peraí, vocês moram na casa da diretora da escola?</default>
@@ -43,7 +43,16 @@
 		<default>Agora têm emprego. Vampiros existem, e se sou mesmo a reencarnação da tal Lish, melhor eu começar a treinar.</default>
 	</talk>
 	<teller>
-		<default>18/04 (sexta). 7:00, ainda no pátio...</default>
+		<default>Zenon sorri. Alan solta os ombros.</default>
+	</teller>
+	<talk character="Michele">
+		<default>Que foi?</default>
+	</talk>
+	<talk character="Alan">
+		<default>Só pode ser praga da Soraia.</default>
+	</talk>
+	<teller>
+		<first>Manhã. Pátio da escola.</first>
 	</teller>
 	<talk character="Michele">
 		<default>Mas é claro que tenho! Por que mais ela ia ficar cozinhando os dois?</default>
@@ -70,7 +79,7 @@
 		<default>Melhor entrarmos agora, antes que tomemos bronca de novo.</default>
 	</talk>
 	<teller>
-		<default>Na hora da saída, Michele vai até a sala dos professores.</default>
+		<first>Sol a pino. Sala de docentes.</first>
 	</teller>
 	<talk character="Michele">
 		<default>Com licença...</default>
@@ -80,7 +89,11 @@
 	</talk>
 	<talk character="Michele">
 		<default>Não é mais fácil falar "dos alunos"?</default>
-		<teller>Mel a encara</teller>
+	</talk>
+	<teller>
+		<default>Mel encara Michele.</default>
+	</teller>
+	<talk character="Michele">
 		<default>Na verdade vim aqui falar com o Angely. Se fosse com você, iria à diretoria.</default>
 	</talk>
 	<talk character="Mel">
@@ -90,31 +103,34 @@
 		<default>Michele se vira para Angely.</default>
 	</teller>
 	<talk character="Michele">
-		<default>Vim dizer que não precisa se preocupar com seus amigos, eles estão na minha casa. Se quiser visitá-los... Apareça quando quiser.</default>
+		<default>Vim dizer que não precisa se preocupar com seus amigos, eles estão na minha casa. Se quiser visitar... Apareça quando quiser.</default>
 	</talk>
 	<teller>
-		<default>Mel a encara. Ela sai.</default>
+		<default>Mel encara. Michele sai.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ela acha que tô ligando pra isso.</default>
+		<default>Acha que tô ligando pra isso.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Acha que ela veio aqui te provocar?</default>
+		<default>Acha que veio aqui te provocar?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tava na cara, ela nem fez questão de esconder.</default>
+		<default>Tava na cara, nem fez questão de esconder.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Bom, eu não sei de nada.</default>
 	</talk>
 	<teller>
-		<default>Ela começa a mexer num armário.</default>
+		<default>Melse vira para uma janela. Suspira.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Sabe o que é mais engraçado? Eu posso arranjar quem eu quiser. Se eu quiser, até o pai dela come na minha mão. Desculpe a falta de modéstia, mas eu não estou mentindo. Então ela acha que levando os dois pra casa dela, vai fazer alguma coisa? Primeiro que, é só eu estralar os dedos e eles voltam, porque olhar pra uma criança como ela é que eles não vão, e segundo que, mesmo que eles não ficassem babando por mim, sou amiga deles e uma garotinha arrogante eles não vão agüentar muito tempo... Angely? Angely?!</default>
+		<default>Sabe o que é mais engraçado? Michele achar que levando Zenon e Alan pra casa vai causar alguma coisa. É só eu estralar os dedos e voltam, nossa amizade, ao menos com Zenon garanto, vale mais que isso. Essa criança arrogante, não vão agüentar muito tempo... </default>
 	</talk>
 	<teller>
-		<default>Mel olha para os lados e Angely não está mais ali. Michele chega em casa. Encontra os dois sentados na sala.</default>
+		<default>Mel vira de volta. A sala está vazia.</default>
+	</teller>
+	<teller>
+		<first>Michele chega em casa. Zenon e Alan estão na sala.</first>
 	</teller>
 	<talk character="Alan">
 		<default>Estávamos discutindo algumas coisas...</default>
@@ -128,11 +144,14 @@
 	<talk character="Alan">
 		<default>Não disse? Toda garota tem.</default>
 	</talk>
+	<teller>
+		<default>Zenon revira os olhos.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Queremos vê-lo.</default>
+		<default>Pode trazer?</default>
 	</talk>
 	<teller>
-		<default>Michele sobe as escadas e desce com três cadernos. Alan está perto da lareira acesa. Ela entrega os diários a Zenon.</default>
+		<default>Michele sobe as escadas e desce com três cadernos. Alan está perto da lareira acesa. Michele entrega os diários a Zenon.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Tudo aqui?</default>
@@ -147,13 +166,13 @@
 		<screamed>Mas que raios está fazendo???</screamed>
 	</talk>
 	<teller>
-		<default>Michele vai na direção da lareira. Alan vai impedi-la, mas ela bate nele. Zenon consegue segurar ela.</default>
+		<default>Michele vai na direção da lareira. Alan tenta segurar, toma um soco e cai no chão. Zenon segura Michele por trás.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Jogamos no fogo as maiores chances de alguém conhecer tudo que se passa na sua cabeça e acabo de perceber que você é fácil demais de se segurar, então é melhor começar a treinar antes que os vampiros descubram o que os CV já sabem.</default>
 	</talk>
 	<teller>
-		<default>Zenon solta ela. Ajuda Alan. Ela fica olhando para a lareira.</default>
+		<default>Zenon solta Michele. Ajuda Alan a levantar. Michele fica olhando para a lareira.</default>
 	</teller>
 	<talk character="Michele">
 		<default>Eu contratei vocês pra me treinarem, não pra me dizerem o que fazer. Tenho seguranças aqui, nenhum vampiro...</default>
@@ -163,7 +182,11 @@
 	</talk>
 	<talk character="Michele">
 		<default>Mas vocês não são vampiros...</default>
-		<teller>olha para Zenon</teller>
+	</talk>
+	<teller>
+		<default>Michele olha para Zenon.</default>
+	</teller>
+	<talk character="Michele">
 		<default>Você não me pareceu normal, mas...</default>
 	</talk>
 	<talk character="Alan">
@@ -171,7 +194,11 @@
 	</talk>
 	<talk character="Michele">
 		<default>Bom, essas roupas de vocês...</default>
-		<teller>Zenon a encara</teller>
+	</talk>
+	<teller>
+		<default>Zenon cruza os braços.</default>
+	</teller>
+	<talk character="Michele">
 		<default>Não, não foi isso.</default>
 	</talk>
 	<talk character="Zenon">
@@ -193,7 +220,7 @@
 		<default>Parte teórica depois, agora a parte prática.</default>
 	</talk>
 	<teller>
-		<default>Eles começam a treiná-la. Etos está com Alete. Não consegue olhar nos olhos dela.</default>
+		<first>Etos está de cabeça baixa.</first>
 	</teller>
 	<talk character="Etos">
 		<default>Você entende porque saímos correndo, não é?</default>
@@ -205,7 +232,7 @@
 		<default>Eu não devia ter feito isso. Tô me sentindo muito mal...</default>
 	</talk>
 	<teller>
-		<default>Ela passa a mão no rosto dele. Ele segura a mão dela.</default>
+		<default>Alete passa a mão no rosto de Etos. Etos segura a mão de Alete.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Não. Não tem perdão.</default>
@@ -217,34 +244,37 @@
 		<default>F... E... N... Tá, fênix, eu sei disso. Mas eu não tinha o direito, do mesmo jeito...</default>
 	</talk>
 	<teller>
-		<default>Ele olha nos olhos dela.</default>
+		<default>Etos olha nos olhos de Alete.</default>
 	</teller>
 	<talk character="Etos">
-		<default>Desde de que encontrei ela, quando ela tinha sete anos, não tenho outra mulher... Não que eu tenha feito algo com uma criança, não me interprete mal! Achei que ia adotá-la, mas quando ela tinha 15 anos me fez mudar de idéia. Literalmente ela fez. Foi até meu quarto e... Não devia ter traído ela.</default>
+		<default>Desde de que encontrei Janaína, quando tinha sete anos, não tenho outra pessoa... Não que eu tenha feito algo com uma criança, não me interprete mal! Achei que ia adotar, mas quando tinha 15 anos me fez mudar de idéia. Literalmente fez. Foi até meu quarto e... Não devia ter traído a confiança de Janaína. Não devia prometer algo que não ia cumprir.</default>
 	</talk>
 	<teller>
-		<default>Ela o deita em seu colo. Em seu olhar, vê-se que está tramando alguma coisa. 27/04 (domingo). Michele procura os dois, mas não encontra. Enquanto isso, Mel procura e não encontra ninguém em casa. Vai até a sala e encontra uma festa surpresa.</default>
+		<default>Alete deita Etos em seu colo. Olha para o teto. Franze a testa. Desfranze.Em seu olhar, vê-se que está tramando alguma coisa.</default>
+	</teller>
+	<teller>
+		<first>Domingo. Michele vira para o lado em sua cama. Pega o relógio. Arregala os olhos e levanta. Olha ao redor. Sai do quarto. Vai até outro quarto. Entra. Duas camas vazias. Melody, na MEAK, entra nos quartos. Ninguém. Chega a sala. As pessoas estão em pé, há um bolo na mesa. Mel olha pra Zenon e Alan.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Vieram escondidos da Michele de novo?</default>
+		<default>Vieram sem Michele saber de novo?</default>
 	</talk>
 	<talk character="Alan">
 		<default>Só isso que sabe dizer?</default>
 	</talk>
-	<talk character="Mel">
-		<default>Tô brincando.</default>
-	</talk>
+	<teller>
+		<default>Mel dá meia risada.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Bom, feliz aniversário!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tem uma coisa... Sei que o do Alan foi dia 19, o da Estela 31 de outubro, o seu que veio com a gente eu não sei.</default>
+		<default>Tem uma coisa... Sei que o de Alan foi dia 19, o de Estela 31 de outubro, o seu que veio com a gente eu não sei.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Qual dos dois quer?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Dois? Está se referindo ao dia que se tornou vampiro? Por que isso não pretendo comemorar.</default>
+		<default>Dois? Está se referindo ao dia que se tornou vampir? Por que isso não pretendo comemorar.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>De certa forma foi bom. Não estaria aqui se não fosse por isso.</default>
@@ -252,6 +282,9 @@
 	<talk character="Michele">
 		<arrive>Oi.</arrive>
 	</talk>
+	<teller>
+		<default>Todo mundo olha para a porta.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Michele.</default>
 	</talk>
@@ -259,49 +292,58 @@
 		<default>Sabe, eu acho que não tem sentido a gente ficar brigando.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu também. É só parar de tentar me provocar.</default>
+		<default>Eu também. Agora é só você parar.</default>
 	</talk>
 	<talk character="Michele">
 		<default>E como prova de que venho em paz, soube do seu aniversário e trouxe até um presente.</default>
 	</talk>
 	<teller>
-		<default>Ela entrega para Mel. Mel abre. Uma blusa. Bem fechada e feia.</default>
+		<default>Michele entrega um embrulho para Mel. Mel abre. Uma blusa de moleton rosa. Mel guarda de volta na embalagem.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Obrigado. Não cabe no meu busto, mas valeu a intenção.</default>
+		<default>Valeu.</default>
+	</talk>
+	<talk character="Michele">
+		<default>Gostou?</default>
 	</talk>
 	<teller>
-		<default>Angely sai da sala. Estela vê e vai atrás.</default>
+		<default>Mel cruza os braços.</default>
+	</teller>
+	<talk character="Mel">
+		<default>É um presente. Não se julga presentes.</default>
+	</talk>
+	<teller>
+		<default>Michele engole seco. Angely sai da sala. Estela franze a sobrancelha. Vai atrás.</default>
 	</teller>
 	<talk character="Estela">
-		<default>Que foi, você tá bem?</default>
+		<default>Que foi, cê tá bem?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Só me senti meio zonzo.</default>
+		<default>Só um pouco de tontura.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Bom, com aquela falsidade toda rolando solta, eu que não sou sensível já não gostei...</default>
+		<default>Bom, com aquela falsidade rolando solta, eu que não sou sensível já não gostei...</default>
 	</talk>
 	<talk character="Ang">
-		<default>Quando elas vão se entender?</default>
+		<default>Mel não fez de falsidade, mas acho que ficou com raiva quando percebeu que era para ser alguma espécie de piada. Quando vão se entender?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Numa previsão bem otimista? Nunca. Vai ter que sair de perto quando essas duas estiverem juntas.</default>
 	</talk>
 	<talk character="Bea">
-		<arrive>Aquela Michele é um entojo...</arrive>
+		<arrive>Michele é um entojo...</arrive>
 	</talk>
 	<talk character="Estela">
 		<default>Ou melhor, três.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Nossa, aquilo não é uma blusa, é uma fantasia de carnaval, aliás, fantasia de carnaval de louco, por que fechada daquele jeito...</default>
+		<default>Você vai a casa de uma pessoa no aniversário da pessoa pra tentar zombar dela?!</default>
 	</talk>
 	<talk character="Estela">
 		<default>Ela se acha, acha que pode com a Mel... Vai se arrepender um dia.</default>
 	</talk>
 	<teller>
-		<default>Ele olha para as duas e sai dali também.</default>
+		<default>Angely respira fundo. Sai.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Será que ele gosta dela?</default>
@@ -318,41 +360,53 @@
 	<talk character="Estela">
 		<default>Ai, desculpa, não era pra ofender...</default>
 	</talk>
-	<teller>
-		<default>Estela olha com cara de "falei merda".</default>
-	</teller>
 	<talk character="Bea">
-		<default>Tudo bem. Já ouvi coisas piores da Kat. Com a diferença que o dela foi intencional...</default>
+		<default>Tudo bem. Já ouvi coisas piores de Kat. Com a diferença que foi intencional.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Desculpe se eu ofender de novo, mas se dormisse com o meu namorado eu também não ia gostar muito.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Então acho que vai ficar com mais raiva da Michele, porque ela tá de olho nos dois.</default>
+		<default>Não foi exatamente...</default>
+	</talk>
+	<teller>
+		<default>Beatrice respira fundo.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Bom, um dia cê vai entender.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Que dois?</default>
+		<default>Eu não tenho namorado, ao menos disso tô a salvo.</default>
+	</talk>
+	<talk character="">
+		<default>Depende.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Do que?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Eu sei que pro Zenon você não liga, mas sei do Alan. Me diz uma coisa, você conviveu a mais tempo com ele, como consegue gostar?</default>
+		<default>Eu sei que pra Zenon você não liga, mas sei de Alan. Me diz uma coisa, você conviveu mais tempo, como consegue gostar?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Talvez estejam certos aqueles que dizem que o amor é cego. Mas o Alan não é meu namorado.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Então quer dizer que não vai se importar com o que fizemos...</default>
+		<default>Ah, que bom. Então quer que não vai se importar com o que fizemos.</default>
 	</talk>
 	<talk character="Estela">
 		<screamed>Quê???</screamed>
 	</talk>
+	<teller>
+		<default>Beatrice ri.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Estava só te testando. E já vi que se importa sim.</default>
+		<default>Desculpa. Não, não fizemos nada. Se quer esconder, vai ter que aprender a disfarçar melhor.</default>
 	</talk>
 	<talk character="Mel">
-		<arrive>Alguém podia levar a cadelinha que tá lá na sala pra passear?</arrive>
+		<arrive>Alguém podia levar a coisa pra passear?</arrive>
 	</talk>
 	<teller>
-		<default>As duas olham pra Mel.</default>
+		<default>Beatrice e Estela olham para Mel.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Sabem de quem estou falando. Hoje é meu aniversário, dei graças de cair num domingo e o único ser que eu não queria ver vem na minha casa...</default>
@@ -364,7 +418,7 @@
 		<default>A Kat!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que tem ela?</default>
+		<default>Que tem Kat?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Bom, às vezes ela conversa com a Michele.</default>
@@ -376,7 +430,7 @@
 		<default>Por quê? Kat não é tão influenciável...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Diga-me com quem tu andas e direi quem tu és. Se ela simplesmente fosse atirada, eu não reclamaria, afinal, santa eu não sou. Mas ela é falsa, é hipócrita, acha que dinheiro compra tudo... Não aturo esse tipo de pessoa.</default>
+		<default>Não quero que Kat passe a achar que é superior aos outros e que dinheiro resolve tudo. Antigamente Kat teria o mesmo nojo que tenho de Michele.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Quer que eu faça alguma coisa?</default>
@@ -394,7 +448,7 @@
 		<default>Ela está sendo treinada pelos dois.</default>
 	</talk>
 	<talk character="Bea">
-		<default>E daí? Eu luto melhor que esses dois incompetentes.</default>
+		<default>E daí? Eu luto melhor que Zenon e Alan juntos.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Mas se ela é mesmo a reencarnação da tal Lish...</default>
@@ -403,12 +457,18 @@
 		<default>Melhor não se arriscar, Beatrice.</default>
 	</talk>
 	<teller>
-		<default>Mel sai.</default>
+		<default>Mel sai. Beatrice sorri.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Ela, preocupada com você?</default>
 	</talk>
+	<teller>
+		<default>Beatrice desfaz o sorriso.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Angely falou a verdade quando disse que ela gosta de tomar conta de todo mundo.</default>
+		<default>Fazia isso quando lutamos por dois anos. Angely fala a verdade quando diz que Mel gosta de tomar conta de todo mundo.</default>
 	</talk>
+	<teller>
+		<default>Estela sai. Beatrice sorri novamente.</default>
+	</teller>
 </story>
