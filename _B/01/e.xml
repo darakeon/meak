@@ -1,3 +1,449 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="01" scene="e">
+	<teller>
+		<division>2a RLDD</division>
+		<default>Noite. Beatrice chega a um lugar cheio de prédios.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Até que enfim civilização...</default>
+	</talk>
+	<talk character="Dilan">
+		<arrive>Estava na Ilha de Hera?</arrive>
+	</talk>
+	<talk character="Bea">
+		<default>Sim.</default>
+	</talk>
+	<teller>
+		<default>Beatrice se vira e fica sem saber o que dizer.</default>
+	</teller>
+	<talk character="Dilan">
+		<default>Que foi?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Preciso sair desse lugar. Ir pra bem longe.</default>
+	</talk>
+	<talk character="Dilan">
+		<default>Fugindo do caça-vampiros?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Não. De um vampiro.</default>
+	</talk>
+	<talk character="Dilan">
+		<default>Não sei o que é pior. Mas por que um vampiro ia estar caçando você?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Ainda não está. Mas vai estar quando descobrir que eu fugi.</default>
+	</talk>
+	<talk character="Dilan">
+		<default>Fugiu? Ele é do tipo que cria e acha que é dono?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Eu quem o criei.</default>
+	</talk>
+	<talk character="Dilan">
+		<default>É, isso é realmente estranho. – dá ombros – Foda-se. Tá com fome?</default>
+	</talk>
+	<teller>
+		<division>1a RLDD</division>
+		<default>Angely chega a uma casa. Está escuro. Passa um carro com o farol aceso e ele vê tudo destruído. Inês está num canto, dormindo.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Inês?</default>
+	</talk>
+	<teller>
+		<default>Ela acorda. Vai pegar uma faca, mas Angely segura sua mão.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Não lembra de mim?</default>
+	</talk>
+	<talk character="Inês">
+		<special>Pai?</special>
+	</talk>
+	<talk character="Ang">
+		<default>É, é natural que faça essa confusão. Vamos sair daqui, tá?</default>
+	</talk>
+	<talk character="Inês">
+		<special>Tô com fome.</special>
+	</talk>
+	<talk character="Ang">
+		<default>Vou te arranjar alguma coisa.</default>
+	</talk>
+	<teller>
+		<default>Inês se levanta e segue com Angely. Depois de algum tempo ele nota que ela observa muito as pessoas.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Melhor não fazer isso. Quanto tempo?</default>
+	</talk>
+	<talk character="Inês">
+		<special>Dois.</special>
+	</talk>
+	<talk character="Ang">
+		<default>Falta um mês então.</default>
+	</talk>
+	<teller>
+		<default>Angely olha pra ela.</default>
+	</teller>
+	<talk character="Inês">
+		<special>Sim.</special>
+	</talk>
+	<teller>
+		<default>Ele ouve a resposta dela, mas não vê a boca se mexer.</default>
+	</teller>
+	<talk character="Yads">
+		<arrive>Que foi, está tentando fazer ela falar alguma coisa? Esqueci de avisar, ela...</arrive>
+	</talk>
+	<talk character="Ang">
+		<default>Mas ela tá falando comigo...</default>
+	</talk>
+	<talk character="Yads">
+		<default>Deve ser coisa da sua imaginação.</default>
+	</talk>
+	<talk character="Ang">
+		<default>É verdade.</default>
+	</talk>
+	<talk character="Yads">
+		<default>Olha, já foi um milagre ela não ter te atacado. São dez horas...</default>
+	</talk>
+	<teller>
+		<default>Samuel – antigo empresário da Saturn – se aproxima dele.</default>
+	</teller>
+	<talk character="Samuel">
+		<default>Temos uma entrevista agora!</default>
+	</talk>
+	<talk character="Ang">
+		<default>Eu...</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Nossa, fazia dez anos que não via um mendigo...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Ela não é mendiga, só está meio... Bom, essa é Inês.</default>
+		<teller>se vira pra ela</teller>
+		<default>Esse é meu antigo empresário.</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Oi, meu nome é Samuel.</default>
+	</talk>
+	<teller>
+		<default>Ele estende a mão e Inês rosna. Ele volta a mão.</default>
+	</teller>
+	<talk character="Samuel">
+		<default>Acho que me enganei, não é mendiga, é a versão feminina do Tarzan...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Eu tinha mesmo que falar com você, não quero mais ter uma vida pública.</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Por que??? Todo mundo quer fama! Todo mundo quer ter o talento que você tem, garoto!</default>
+	</talk>
+	<talk character="Ang">
+		<default>Todo mundo menos eu.</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Olha, é só uma última entrevista...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Mas eu...</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Pela nossa amizade, por favor!</default>
+	</talk>
+	<talk character="Ang">
+		<default>Deixa eu adivinhar, você já tinha marcado isso?</default>
+	</talk>
+	<teller>
+		<default>Samuel faz cara de quem não sabe o que responder.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Tudo bem, eu vou.</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Então melhor tomar um banho e...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Não tenho tanto tempo assim.</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Vai me dizer que ela é canibal e você quer fazer a caridade de matar a fome dela...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Tenho mesmo pouco tempo.</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Tomei a liberdade de contatar uns amigos seus, estão vindo te buscar...</default>
+	</talk>
+	<teller>
+		<default>Chega um carro. Angely vai pra casa de Agatha. Depois de tomar um banho e trocar de roupa, chega à sala. Estão os oito (Agatha, Victor, Annie, Danny, Helene, Raphael, Denise e Bryan) reunidos. Angely se preocupa, lembrando da noite que passou com as quatro mais Agnes. Inês está na sala também.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Algum problema?</default>
+	</talk>
+	<talk character="Victor">
+		<default>Entendemos sua cara, mas não é sobre isso que queremos falar.</default>
+	</talk>
+	<talk character="Agatha">
+		<default>Bom, nós estávamos conversando, sobre o que aconteceu com você...</default>
+	</talk>
+	<talk character="Inês">
+		<special>Fofoqueiros.</special>
+		<teller>Ang encara Inês</teller>
+		<special>Calma, só você tá me ouvindo.</special>
+	</talk>
+	<talk character="Denise">
+		<default>Que foi?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Nada. Estavam falando de...</default>
+	</talk>
+	<talk character="Helene">
+		<default>Que sua dor deve ser muito grande.</default>
+	</talk>
+	<talk character="Inês">
+		<special>Mentira, elas querem é mais um corno pra lista.</special>
+	</talk>
+	<talk character="Danny">
+		<default>Perder toda a sua família assim, deve ser muito ruim mesmo.</default>
+	</talk>
+	<talk character="Inês">
+		<special>Esse até que é verdadeiro, mas, coitado, é burro que dói...</special>
+	</talk>
+	<talk character="Bryan">
+		<default>Eu perdi minha irmã, imagino como deve ser.</default>
+	</talk>
+	<talk character="Inês">
+		<special>Se eu tivesse alergia à hipocrisia...</special>
+	</talk>
+	<talk character="Annie">
+		<default>Se você quiser alguém pra te escutar, estamos aqui.</default>
+	</talk>
+	<talk character="Inês">
+		<special>Escutar??? Você não quer escutar, você quer é...</special>
+	</talk>
+	<talk character="Raphael">
+		<default>Queremos que saiba que somos seus amigos de verdade!</default>
+	</talk>
+	<talk character="Inês">
+		<special>Dele ou da onça? Deixa só eles saberem que doou todo o seu dinheiro...</special>
+	</talk>
+	<talk character="Ang">
+		<default>Danny não é rico.</default>
+	</talk>
+	<talk character="Danny">
+		<default>Que?!</default>
+	</talk>
+	<talk character="Ang">
+		<default>Ah, não, eu tava pensando sozinho. Não é interesse mesmo o que vocês demonstram, têm um de vocês que não é milionário e mesmo assim são amigos!</default>
+	</talk>
+	<talk character="Inês">
+		<special>Putz, essa foi a mais furada que já ouvi...</special>
+	</talk>
+	<talk character="Ang">
+		<default>Inês!</default>
+	</talk>
+	<teller>
+		<default>Todos olham pra ele.</default>
+	</teller>
+	<talk character="Inês">
+		<special>Pronto, agora estão pensando em que hospital vão te internar...</special>
+	</talk>
+	<talk character="Samuel">
+		<arrive>Melhor sairmos agora, ou vamos perder a entrevista!</arrive>
+	</talk>
+	<talk character="Ang">
+		<default>Mas são dez e meia!</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Não vai me dizer que tem horário pra dormir, né???</default>
+	</talk>
+	<teller>
+		<division>2a RLDD</division>
+		<default>Mel acorda.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Droga, onde ele...</default>
+	</talk>
+	<teller>
+		<default>Edmont adentra o templo, trazendo um sanduíche.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Não sabia que ainda comia esse tipo de coisa como vampiro.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Comer eu como, mas isso aqui não é pra mim.</default>
+	</talk>
+	<talk character="Mel">
+		<default>É isca?</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Deixe de se fazer desentendida.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Você não tem coração.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Se quiser, interprete assim: se eu te deixar morrer de fome, Angely me mata quando chegar.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Isso é bem mais seu estilo.</default>
+	</talk>
+	<teller>
+		<default>Mel pega o sanduíche. Alan e Derik chegam.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Obrigado.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Está aceitando comida dele???</default>
+	</talk>
+	<talk character="Mel">
+		<default>Um sanduíche. Se estiver envenenado, antes morrer do veneno que de fome.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Nós também não comemos ainda.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Então por quê não vão procurar alguma coisa pra comer?</default>
+	</talk>
+	<talk character="Alan">
+		<default>Tá chegando a meia-noite... E você, não se alimentou?</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Quando eu me alimentar, vou pra longe só pra te irritar.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Qual era mesmo a frase que Angely tinha que dizer?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Destrua à quem pertence.</default>
+	</talk>
+	<teller>
+		<default>Wige aparece.</default>
+	</teller>
+	<talk character="Wige">
+		<default>Bom, templo limpo... Agora só falta seu irmão sair de público.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Como assim?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Será que alguém percebe se uma personalidade internacional desaparecer no meio da multidão, do nada?</default>
+	</talk>
+	<talk character="Wige">
+		<default>Ele vai trazer alguém.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Quem?</default>
+	</talk>
+	<talk character="Wige">
+		<default>Só posso adiantar que é uma menina, parente dele.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Mas nós não temos mais...</default>
+		<teller>Wige desaparece</teller>
+		<default>...parentes lá.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>De quem será que ela tava falando?</default>
+	</talk>
+	<talk character="Alan">
+		<default>Tem certeza que não tem mais ninguém, sei lá, algum primo distante...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Não, isso é impossível, porque...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não importa porque, importa que não tem.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Mas...</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Deve ser alguma confusão do meu almoço.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Se-se-seu...</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Se continuar falando</default>
+		<teller>Alan estranha</teller>
+		<default>e nos atrasando.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Eles têm que fazer a parte deles primeiro.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Tá, eu vou dar uma volta.</default>
+	</talk>
+	<teller>
+		<default>Edmont sai.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Não adianta se esconder, eu te encontro em qualquer lugar.</default>
+	</talk>
+	<teller>
+		<default>Ouve-se a risada de Edmont.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Bom, agora esperamos que eles consigam trazer Angely antes da meia-noite.</default>
+	</talk>
+	<teller>
+		<division>1a RLDD</division>
+		<default>11:00. Angely está no carro de Samuel. Inês está no banco de trás.</default>
+	</teller>
+	<talk character="Samuel">
+		<default>Não deixa ela colocar a cabeça pra fora!</default>
+	</talk>
+	<talk character="Ang">
+		<default>Ah?</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Sei lá, acho que ela nem tá entendendo o que eu digo...</default>
+	</talk>
+	<talk character="Inês">
+		<special>Entendi até o comentário imbecil, que ele fez pra si mesmo, falando do meu corpo...</special>
+	</talk>
+	<talk character="Ang">
+		<default>Que horas são?</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Onze. Em ponto. Ainda bem que estamos chegando.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Será que vai dar...?</default>
+		<teller>eles vêem um congestionamento</teller>
+		<default>...tempo.</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Que deu aqui?!</default>
+	</talk>
+	<talk character="Ang">
+		<default>Vamos ficar aqui até meia-noite.</default>
+	</talk>
+	<talk character="Samuel">
+		<default>De jeito nenhum! Vou chamar um helicóptero.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Acha que vai ter alguém trabalhando no quinze de novembro?</default>
+	</talk>
+	<talk character="Samuel">
+		<default>É mesmo, é feriado... Do que mesmo?</default>
+	</talk>
+	<talk character="Inês">
+		<special>Mais um segundo aqui e esse cara vai ser meu próximo jantar...</special>
+	</talk>
+	<talk character="Ang">
+		<default>Não conhece mesmo ninguém que tenha helicóptero?</default>
+	</talk>
+	<talk character="Samuel">
+		<default>Bom, tem uma certa atriz que pilota helicóptero e tem cinco.</default>
+	</talk>
+	<teller>
+		<default>Angely pensa um pouco.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Tá, fazer o que?</default>
+	</talk>
+	<teller>
+		<default>A garota do helicóptero chega em meia hora e chega em dez minutos à coletiva.</default>
+	</teller>
 </story>
