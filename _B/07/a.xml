@@ -1,46 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="07" scene="a">
 	<teller>
-		<default>25/03 (terça), 8:00. Mel encontra Angely pensativo.</default>
+		<default>Varanda da MEAK. Manhã. Angely sentou-se no banco e olha para o horizonte.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Que foi?</default>
+		<arrive>Que foi?</arrive>
 	</talk>
 	<talk character="Ang">
 		<default>Tava pensando na Saturn.</default>
 	</talk>
 	<talk character="Mel">
-		<default>E...</default>
+		<default>Por quê?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Nosso sucesso. Foi uma coisa quase inacreditável. Não precisamos de muito tempo, nem sequer lutamos muito pra subir. Foi simplesmente inexplicável.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu sei. Queria saber porque estava pensando nisso agora.</default>
+		<default>E porque estava pensando nisso agora?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Nós dois sempre tivemos tudo muito fácil. Primeiro, nascemos príncipes. Depois a banda. Agora Edmont simplesmente pega o que, como e quando quer.</default>
+		<default>Eu e Edmont sempre tivemos tudo muito fácil. Lá era explicável, não existe a desigualdade daqui. Mas chegamos aqui e Júlio nos adotou, sem questionar.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Acho que Júlio sabia sobre Agatha.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Será?</default>
+	</talk>
+	<talk character="Mel">
+		<default>"Vocês vieram em uma nave espacial, então vou botar vocês pra dormir no quarto com a minha criança, só podem ser criancinhas inocentes mesmo!". Parece razoável?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Tem razão.</default>
+	</talk>
+	<talk character="Mel">
+		<default>E aí, depois que cresceram, veio Saturn, do jeito que veio.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Quando acordei, temos esse ouro.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Foi do dinheiro que tínhamos lá. Trocamos por ouro, não sabíamos em que tempo estaria a realidade. Já te contaram da gárgu...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Agora Edmont simplesmente pega o que, como e quando quer.</default>
 	</talk>
 	<talk character="Mel">
 		<default>A culpa não é sua.</default>
 	</talk>
 	<talk character="Ang">
-		<default>E esse ouro. Como isso veio tão fácil? E é tanto... O meu emprego é outro exemplo. Sem contar que, quando caímos na Terra, simplesmente encontramos uma ótima família.</default>
+		<default>Meu emprego é outro exemplo. Já você... Quando caiu na Terra, você devia ter caído perto da gente.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Enquanto eu fiquei vagando por aí, fugindo de tudo que podia, sendo hacker e outras coisas?</default>
+		<default>Mas minha sorte tava invertida da de vocês. Fiquei vagando por aí, fugindo de tudo que podia, sendo hacker e outras coisas.</default>
 	</talk>
+	<teller>
+		<default>Ang franze a sobrancelha.</default>
+	</teller>
 	<talk character="Ang">
-		<default>"Outras coisas"?</default>
+		<default>Outras coisas?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, cheguei a assaltar uma loja de jóias. Mas foi porque pedi emprego e o cara queria que eu batesse ponto na cama dele!</default>
+		<default>Bom, cheguei a assaltar uma loja de jóias. Pedi emprego e a pessoa me disse que se me comesse me contratava.</default>
 	</talk>
+	<teller>
+		<default>Ang olha para baixo. Olha para Mel.</default>
+	</teller>
 	<talk character="Ang">
-		<default>Tá vendo? Nós nunca precisamos de nada disso. Será que algum dia seremos cobrados?</default>
+		<default>Nós nunca precisamos de nada disso. Será que algum dia a conta vai vir?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Talvez ele, já que foi o único que fez coisas erradas. Não devia estar na escola?</default>
+		<default>Talvez pra Edmont, que fez coisas erradas. Não devia estar na escola?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Dínamis disse que acha melhor eu ficar só com o pessoal da tarde.</default>
@@ -64,7 +94,7 @@
 		<default>Ainda não. Será que tem alguma casa vaga?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Só vai saber se procurar. Não que eu esteja te expulsando, longe de mim querer que...</default>
+		<default>Só vai saber se procurar. Não que eu esteja te expulsando, sabe que, por mim...</default>
 	</talk>
 	<talk character="Ang">
 		<default>Eu sei.</default>
@@ -79,10 +109,10 @@
 		<default>Não, coisa minha.</default>
 	</talk>
 	<teller>
-		<default>Mel sai. 12:15. Ang está na sala e Zenon chega.</default>
+		<first>Sol a pino. Ang está na sala, Zenon vem das escadas.</first>
 	</teller>
 	<talk character="Ang">
-		<default>Viu o Alan?</default>
+		<default>Viu Alan?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Mel saiu?</default>
@@ -100,19 +130,19 @@
 		<default>Essa parte ele não me respondeu.</default>
 	</talk>
 	<teller>
-		<default>Estela passa pela sala. Parece brava. Ang vai atrás e segura o braço dela.</default>
+		<default>Estela passa pela sala, vai para a cozinha. Anda rápido e com o rosto meio contraído. Angely segue. Estela bate a porta da geladeira.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Alguma coisa com errada Alan?</default>
+	<talk character="Angely">
+		<default>Alguma coisa com errada?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Não, alguma coisa errada com um frango mal morto que não devia ter saído andando!</default>
+		<default>Um frango mal morto que não devia ter saído andando!</default>
 	</talk>
 	<teller>
-		<default>Zenon chega. Estela sobe.</default>
+		<default>Estela sai, andando rápido. Zenon entra, desviando de Estela.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Do que ela tava falando?</default>
+		<default>Do que tava falando?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Bom, ela tava procurando um sanduíche agora pouco.</default>
@@ -121,10 +151,10 @@
 		<default>Nem vi o tempo passar, tô atrasado...</default>
 	</talk>
 	<teller>
-		<default>Angely pega uma bolsa sobre a mesa e sai. Derik chega ao quarto e vê Kat com um livro de escola, deitada na cama.</default>
+		<default>Angely pega uma bolsa sobre a mesa e sai. Kat está na cama, deitou-se e olha um livro.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Que está estudando?</default>
+		<arrive>Que está estudando?</arrive>
 	</talk>
 	<talk character="Kat">
 		<default>Classificação de sujeito.</default>
@@ -136,16 +166,19 @@
 		<default>Pode sim.</default>
 	</talk>
 	<teller>
-		<default>Ele faz cara de interrogação e Kat entrega o livro pra ele.</default>
+		<default>Derik franze a sobrancelha. Kat senta, estende o livro a Derik.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Você me pergunta e eu respondo. A resposta tá no fim do livro.</default>
 	</talk>
+	<teller>
+		<default>Derik pega o livro.</default>
+	</teller>
 	<talk character="Estela">
 		<arrive>Pegaram meu sanduíche!</arrive>
 	</talk>
 	<talk character="Kat">
-		<default>Sujeito Indeterminado!</default>
+		<default>Essa é sujeito indeterminado.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não, sujeito morto!</default>
@@ -166,22 +199,28 @@
 		<default>Nem pense em me acusar.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Você não gosta de requeijão.</default>
+		<default>Você não gosta de alface.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Também tem o Beleno aí, sabia?</default>
+		<default>Também tem Beleno aí, sabia?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Aquele que só come folhas e alguns vampiros em ocasiões especiais?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Eu tava com fome, você não voou a noite toda!</default>
+		<default>Eu tava com fome, você não voou a noite toda! E o frango tá lá ainda! Eu não comeria frango!</default>
 	</talk>
 	<talk character="Estela">
-		<default>Então faça outro!</default>
+		<default>É, realmente, seria quase canibalismo... Pera, acho que eu vou comer só frango?! Sou um animal onívoro, não carnívoro!</default>
+	</talk>
+	<talk character="Kat">
+		<default>Ixi, não vem misturar Biologia aqui!</default>
+	</talk>
+	<talk character="Estela">
+		<default>Vai fazer outro!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Tô ajudando a Kat à estudar.</default>
+		<default>Tô ajudando Kat a estudar.</default>
 	</talk>
 	<teller>
 		<default>Kat pega o livro da mão de Derik.</default>
@@ -192,29 +231,26 @@
 	<talk character="Kat">
 		<default>Você fez, você conserta, não me usa de desculpa. Sabe que odeio isso.</default>
 	</talk>
-	<talk character="Derik">
-		<default>Legal...</default>
-	</talk>
 	<teller>
-		<default>Derik sai. Chega na cozinha e abre a geladeira.</default>
+		<default>Derik bufa. Sai. Chega na cozinha e abre a geladeira.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Onde eu vou encontrar frango agora?</default>
+		<default>É, frango, vou ter que arranjar uma nova casa. Mas nem se empolga que agora você vai entrar na dança junto.</default>
 	</talk>
 	<teller>
-		<default>Abre o freezer. Pega um frango congelado, fecha o freezer e a geladeira e coloca o frango sobre a pia. Vai até o armário e pega um pacote de pão. Derruba-o ao ouvir a porta bater sozinha. Vai até ela e tenta abrir, em vão.</default>
+		<default>Pega um prato com um pedaço de frango e coloca sobre a mesa. Vai até uma fruteira e pega uma alface. Barulho da geladeira abrindo e batendo.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Tá, Estela, eu sei que ficou brava, mas eu já vou fazer outro...</default>
+		<default>Tá, Estela, eu sei que ficou com raiva, mas eu já vou fazer...</default>
 	</talk>
 	<teller>
-		<default>Olha para a cadeira e vê o frango "sentado".</default>
+		<default>Derik olha para a cadeira. Um corpo de frango, como se tivesse se sentado.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Ok, senhor frango, deseja alguma coisa?</default>
+		<default>Olha, não fui eu quem pegou seu pedaço, se for exigir, vai ter que pedir para Estela, né, Estela?</default>
 	</talk>
 	<teller>
-		<default>Derik finge esperar uma resposta. Coloca o frango de volta no freezer e tenta abrir a porta de novo. Não conseguindo, tenta abrir a janela. Também não consegue.</default>
+		<default>Derik cruza os braços. Descruza. Pega o frango e coloca no freezer. Vai até a porta, a maçaneta não vira. Vai até a janela. Não abre.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Isso tá ficando sem graça!</default>
@@ -223,22 +259,22 @@
 		<ghost>Vá buscar meu ouro!</ghost>
 	</talk>
 	<teller>
-		<default>Repentinamente, janelas e portas abrem e fecham, batendo. Derik sai correndo da cozinha. Dá um encontrão em Beleno no corredor.</default>
+		<default>Janelas e porta abrem e fecham, batendo. Derik se encolhe. Se aproxima da porta, abre, corre. Sobe as escadas. Dá um encontrão em Beleno no corredor.</default>
 	</teller>
 	<talk character="Beleno">
-		<default>Mas o que é isso???</default>
+		<default>Mas que diabos???</default>
 	</talk>
 	<talk character="Derik">
-		<screamed>É o Leo, o Leo voltou, o Leo taquí!</screamed>
+		<screamed>É Leo, Leo voltou, Leo taquí!</screamed>
 	</talk>
 	<teller>
-		<default>Kat sai no corredor. Estela vem atrás dela.</default>
+		<default>Kat sai no corredor. Estela vem atrás.</default>
 	</teller>
 	<talk character="Derik">
-		<screamed>Ele voltou pra me pegar, ele voltou pra...</screamed>
+		<screamed>Voltou pra me pegar, voltou pra...</screamed>
 	</talk>
 	<teller>
-		<default>Derik pega nos braços de Kat e esta lhe dá um tapa, jogando-o no chão. Pega ele pela mão e leva para dentro do quarto, trancando a porta.</default>
+		<default>Derik pega nos braços de Kat. Kat empurra Derik e dá um tapa. Pega pela mão, leva para dentro do quarto e tranca a porta.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Agora respira e diz o que aconteceu.</default>
@@ -247,7 +283,7 @@
 		<default>Eu tava na cozinha e daí o frango sentou na cadeira e janelas e portas queriam me morder...</default>
 	</talk>
 	<talk character="Kat">
-		<screamed>Vai querer outro tapa???</screamed>
+		<default>Precisa de outro tapa?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não.</default>
@@ -259,13 +295,13 @@
 		<out>Isso é teatro pra não me fazer outro sanduíche!</out>
 	</talk>
 	<teller>
-		<default>Ele sai e encosta Estela na parede.</default>
+		<default>Derik abre a porta, sai e pega nos braços de Estela.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Você não entende??? Leo voltou, quer me pegar! Ele pode querer se vingar de Kat também! Ele pode querer se vingar de todo mundo!</default>
+		<default>Você não entende??? Leo voltou, quer me pegar! Pode querer se vingar de Kat também! Pode querer se vingar de todo mundo!</default>
 	</talk>
 	<teller>
-		<default>Zenon chega e segura Derik.</default>
+		<default>Zenon chega e puxa Derik para sua frente.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Calma, nós estamos aqui, ele não vai te pegar!</default>
@@ -280,7 +316,7 @@
 		<default>Conhece algum espírita?</default>
 	</talk>
 	<teller>
-		<default>Na cidade, Mel sai de um prédio e vai direto até Alan. Desvira o jornal, que está de ponta-cabeça. Ele fecha o jornal.</default>
+		<first>Mel sai de um prédio. Vai até Alan. Pega o jornal de Alan, vira e entrega de volta. Alan pega e fecha o jornal.</first>
 	</teller>
 	<talk character="Alan">
 		<default>Bem que percebi que tinha algo errado.</default>
@@ -298,19 +334,13 @@
 		<default>Não fala de ninguém.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pode não ser alguém específico. Não são só homens que tem necessidades das quais não se fala por aí, apesar deles fazerem bem mais propaganda disso que as mulheres.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Tá pagando pra isso???</default>
-	</talk>
-	<talk character="Mel">
-		<default>Outra diferença, uma mulher não precisa pagar.</default>
+		<default>E quem disse que eu preciso falar? Ou que tenha que ser alguém específico?</default>
 	</talk>
 	<talk character="Alan">
 		<default>Mas como você, logo você, uma pessoa tão séria pode...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Acontece que não gosto de compromissos.</default>
+		<default>Não gosto de compromissos.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Por que não procura pelo menos alguém que você conheça melhor???</default>
@@ -334,11 +364,15 @@
 		<default>E se a pessoa não quisesse envolvimento?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você noivou com a primeira com quem foi pra cama.</default>
+		<default>Você noivou com a primeira pessoa com quem foi pra cama.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Não foi a primeira, quando eu tinha quatorze meu pai me levou num...</default>
-		<teller>Mel o encara</teller>
+	</talk>
+	<teller>
+		<default>Mel encara Alan.</default>
+	</teller>
+	<talk character="Alan">
 		<default>Tá, essa vez não conta.</default>
 	</talk>
 	<talk character="Mel">
@@ -360,25 +394,25 @@
 		<default>Não posso nem tentar?!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Já ouvi essa frase uma vez. De um cara que já tinha engravidado três mulheres, as três de gêmeos.</default>
+		<default>Já ouvi essa frase uma vez. De alguém que já tinha engravidado três pessoas, as três de gêmeos.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Não engravidei ninguém!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Adivinha? Na época nem ele sabia e, algum tempo depois, eu também estava grávida.</default>
+		<default>Adivinha? Na época não sabia e, algum tempo depois, eu também tinhe engravidado.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Ah, claro, quem sabe a prostituta não engravidou, eu tenho uma filha de cinco anos e não sei!</default>
+		<irony>Ah, claro, quem sabe a prostituta não engravidou, eu tenho uma filha de cinco anos e não sei!</irony>
 	</talk>
 	<talk character="Mel">
-		<default>Um homem de doze anos já pode engravidar uma mulher.</default>
+		<default>Se você já pode ter uma ereção, já pode engravidar alguém.</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta e vai embora. 15:00. Chegando à MEAK, Alan vê Zenon andar de um lado para outro.</default>
+		<first>MEAK. Tarde. Zenon anda de um lado para outro.</first>
 	</teller>
 	<talk character="Alan">
-		<default>Que foi?</default>
+		<arrive>Que foi?</arrive>
 	</talk>
 	<talk character="Zenon">
 		<default>Tô esperando a Mel.</default>
@@ -402,13 +436,13 @@
 		<hushed>Acho que isso é comportamento de prostituta, mas...</hushed>
 	</talk>
 	<teller>
-		<default>Alguém toca no ombro de Alan e, quando ele vira-se pra trás, toma um soco. Cai no chão.</default>
+		<default>Alan vê uma mão em seu ombro, vira e toma um soco, indo para trás.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Por que fez isso???</default>
+		<default>Por que fez isso??? Tá treinando pra ser a Mel?! Nunca me disseram que força de soco era hereditária!!!</default>
 	</talk>
 	<talk character="Kat">
-		<irony>Só por quê tava falando mal da minha mãe?</irony>
+		<default>É só pra te lembrar que você não tem nada a ver com a vida de Mel.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Eu só tava avisando Zenon porque ela tá iludindo ele!</default>
@@ -417,16 +451,16 @@
 		<default>Tava esperando ela porque Derik disse que tem um fantasma aqui.</default>
 	</talk>
 	<teller>
-		<default>Alan se levanta.</default>
+		<default>Alan olha para Zenon.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Sério?</default>
 	</talk>
 	<teller>
-		<default>Kat dá um chute em Alan, entre as pernas. Ele cai no chão novamente.</default>
+		<default>Kat dá um chute entre as pernas de Alan. Alan cai no chão.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Minha mãe não ilude ninguém, ela não quer, ela fala.</default>
+		<default>Mel não ilude ninguém, se não quer, fala.</default>
 	</talk>
 	<teller>
 		<default>Derik chega com um monte de cruzes.</default>
@@ -435,14 +469,18 @@
 		<default>Eu já te fiz alguma coisa errada?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não, isso é pro fantasma!</default>
+		<default>Não, isso é pra Leo!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Fantasma não tem nada contra cruz.</default>
+		<default>Fantasma não tem nada contra cruz... Tem?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Pra ter voltado Leo só pode ter feito pacto com o cara lá de baixo...</default>
-		<teller>olha para Alan</teller>
+		<default>Pra ter voltado Leo só pode ter feito pacto com...</default>
+	</talk>
+	<teller>
+		<default>Derik olha para Alan e arregala os olhos.</default>
+	</teller>
+	<talk character="Derik">
 		<default>Ele tá possuído???</default>
 	</talk>
 	<talk character="Zenon">
@@ -455,7 +493,7 @@
 		<arrive>Que aconteceu???</arrive>
 	</talk>
 	<teller>
-		<default>Estela vai até Alan e o ajuda a ir até o sofá.</default>
+		<default>Estela vai até Alan e ajuda a ir até o sofá.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Fui eu.</default>
@@ -479,6 +517,12 @@
 		<default>Cachorro.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ei, eu viro cachorro e não faço uma coisa dessas!</default>
+		<screamed>Ei, eu viro cachorro e não faço uma coisa dessas!</screamed>
+	</talk>
+	<talk character="Estela">
+		<default>Juro que imaginei um cachorro xingando o outro dizendo "seu alan!".</default>
+	</talk>
+	<talk character="Derik">
+		<default>Meu Deus do céu, é contagioso.</default>
 	</talk>
 </story>
