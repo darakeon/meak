@@ -1,22 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="11" scene="c">
 	<teller>
-		<default>22:00. Derik e Estela ainda estão na biblioteca.</default>
+		<default>Noite. Biblioteca. Estela fecha um livro.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Acho melhor irmos pra casa.</default>
 	</talk>
+	<teller>
+		<default>Derik olha para Estela.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Eu também. Mesmo porque, Lis tá fechando com a gente aqui dentro!</default>
+		<default>Ainda aguento um pouco.</default>
 	</talk>
 	<teller>
-		<default>Os dois saem correndo. Chegando em casa, Fábio tá na sala, limpando.</default>
+		<default>Estela aponta a frente.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Lis tá fechando com a gente aqui dentro.</default>
+	</talk>
+	<teller>
+		<default>Derik fecha o livro. MEAK. Derik e Estela entram. Fábio está com uma vassoura, varrendo.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Isso é meu serviço...</default>
 	</talk>
 	<talk character="Fábio">
-		<default>É, me disseram, mas tavam procurando... Encontraram?</default>
+		<default>É, me disseram, mas tavam procurando sobre mim... Encontraram?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Nada.</default>
@@ -25,14 +34,14 @@
 		<default>Bom, melhor irem dormir, têm aula amanhã.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Só ela. Vou te ajudar a dar um jeito nisso.</default>
+		<default>Só ela. Vou te ajudar.</default>
 	</talk>
 	<teller>
-		<default>02/06 (segunda-feira), 12:00. Fábio está na recepção. Derik chega. Fábio sai correndo.</default>
+		<first>Sol a pino. Fábio está na recepção. Derik chega. Fábio sai correndo.</first>
 	</teller>
 	<talk character="Derik">
 		<screamed>Eu falei que devia ter esperado chegar em casa! Agora fica devolvendo tudo!</screamed>
-		<default>Conheço esse tipo de lugar imundo e...</default>
+		<default>Conheço esse tipo de lugar imundo...</default>
 	</talk>
 	<talk character="Caio">
 		<arrive>Com licença...</arrive>
@@ -44,28 +53,28 @@
 		<default>Não, estou procurando uma pessoa...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ah, está procurando pela agência...</default>
+		<default>Ah, veio por causa da agência...</default>
 	</talk>
 	<talk character="Caio">
 		<default>Soraia me disse que ele estava aqui.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ele quem?</default>
+		<default>Quem?</default>
 	</talk>
 	<talk character="Caio">
 		<default>Fábio.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ah... O senhor é alguma coisa dele?</default>
+		<default>Ah... Se conhecem?</default>
 	</talk>
 	<talk character="Caio">
-		<default>Pai. Se for para dizer que ele está morto, eu já sei, mas Soraia disse que ele estava vivo, que tinha acontecido alguma coisa...</default>
+		<default>Sou pai dele. Se for para dizer que ele está morto, eu já sei, mas Soraia disse que ele estava vivo, que tinha acontecido alguma coisa...</default>
 	</talk>
 	<talk character="Derik">
 		<default>Nós estamos investigando isso.</default>
 	</talk>
 	<talk character="Mel">
-		<arrive>Ele não é seu filho.</arrive>
+		<arrive>Não é o que você pensa que é.</arrive>
 	</talk>
 	<talk character="Caio">
 		<default>Eu sabia... Virou um...</default>
@@ -74,13 +83,13 @@
 		<default>Não foi nesse sentido que eu quis dizer.</default>
 	</talk>
 	<teller>
-		<default>Beatrice entra, com uma capa. Tira a capa.</default>
+		<default>Beatrice entra, com uma capa. Tira a capa. Caio dá um passo atrás.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Derik, cadê o Fábio? Trouxe um remédio pro...</default>
+		<default>Derik, cadê Fábio? Trouxe remédio pra...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Acho que ele já deve ter resolvido isso.</default>
+		<default>Acho que já deve ter resolvido isso.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Ah...</default>
@@ -89,7 +98,7 @@
 		<default>Uma vampira.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Senhor... Como é mesmo seu nome?</default>
+		<default>Como é mesmo seu nome?</default>
 	</talk>
 	<talk character="Caio">
 		<default>Eu ainda não disse.</default>
@@ -101,45 +110,49 @@
 		<default>Que fizeram com meu filho???</default>
 	</talk>
 	<talk character="Bea">
-		<default>Nada, ele quem comeu cachorro quente de um cara não muito confiável...</default>
+		<default>Nada, resolveu comer aquele cachorro quente por livre e espontânea vontade...</default>
 	</talk>
 	<talk character="Caio">
 		<default>Isso não é nenhum tipo de gíria pra...?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, não é. E Bea, ele tá falando de outra coisa.</default>
+		<default>Não, não é. Bea, tá falando de outra coisa.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Dele ter ressuscitado? Ela salvou minha vida duas vezes já, sabia?</default>
+		<default>De ter ressuscitado? Salvou minha vida duas vezes já...</default>
 	</talk>
 	<talk character="Caio">
 		<default>Agora ele trabalha contra CVs???</default>
 	</talk>
 	<talk character="Derik">
-		<default>A primeira vez foi de um demônio que Beatrice nos ajudou a matar, eles estavam fazendo um ritual de possessão. A segunda foi de uma vampira de primeira linhagem que só acordou depois de muitos anos, ela tinha sido jogada no mar pelo primo quando foi encontrada morta...</default>
+		<default>A primeira vez foi de demônio que Beatrice nos ajudou a matar, estavam fazendo um ritual de possessão. A segunda foi de vampir de primeira linhagem que só acordou depois de muitos anos, uma pessoa tinha jogado no mar quando encontrou depois da transformação...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Derik, não precisa explicar tanto.</default>
 	</talk>
 	<talk character="Caio">
-		<default>E que tipo de acordo fizeram para ela ajudá-los?</default>
+		<default>E que tipo de acordo fizeram para ela ajudar vocês?!</default>
 	</talk>
 	<talk character="Bea">
 		<default>Não mato mais pessoas.</default>
 	</talk>
 	<talk character="Zenon">
-		<arrive>Ah, mas Estela não tem tanto motivo pra fugir assim dos treinos, Michele não</arrive>
-		<teller>Zenon chega à sala</teller>
-		<default>morde.</default>
+		<out>Ah, mas Estela não tem tanto motivo pra fugir assim dos treinos, Michele não...</out>
+	</talk>
+	<teller>
+		<default>Zenon entra na sala e olha para Caio.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Morde.</default>
 	</talk>
 	<talk character="Caio">
 		<screamed>Maldito!</screamed>
 	</talk>
 	<teller>
-		<default>Caio parte para cima de Zenon, mas Alan entra na frente.</default>
+		<default>Caio vai na direção de Zenon. Alan se coloca na frente.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Ele não faz mais nada, e nos comprometemos a matá-lo se fizer!</default>
+		<default>Ele não faz mais nada, e nos comprometemos a matar ele se fizer!</default>
 	</talk>
 	<talk character="Caio">
 		<screamed>Então vão esperar ele matar alguém aqui dentro??? Quem é dessa vez, Zenon??? Não, deixe-me adivinhar, você gosta dos frágeis, quem pode ser?!</screamed>
@@ -166,7 +179,7 @@
 		<default>Estela, Katerine, pra cima. Você também, Derik. Aliás, Alan, Beatrice e Zenon, sumam daqui também.</default>
 	</talk>
 	<teller>
-		<default>Ficam apenas Mel, Fábio e Caio na sala, os outros sobem. Caio abraça Fábio.</default>
+		<default>Zenon e Beatrice sobem. Estela, Alan e Derik em seguida. Caio abraça Fábio.</default>
 	</teller>
 	<talk character="Caio">
 		<default>Não sabe como me arrependi de tudo que fiz quando te vi ser enterrado!</default>
@@ -178,19 +191,13 @@
 		<default>Não sou mesmo o que falou, Mel. Zenon mentiu pra mim na cara dura e...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Seu "poder" só aparece depois que morre a primeira vez.</default>
+		<default>Talvez o feitiço de esconder tenha inibico isso.</default>
 	</talk>
 	<talk character="Caio">
-		<default>De que está falando?</default>
+		<default>Do que tá falando?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Comecei a falar e não me deixaram terminar. Ele não é seu filho, é?</default>
-	</talk>
-	<talk character="Caio">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não o fez.</default>
+		<default>Comecei a falar e não me deixaram terminar. Foi você quem engravidou a pessoa que gerou Fábio?</default>
 	</talk>
 	<talk character="Caio">
 		<default>É claro que...</default>
@@ -199,22 +206,22 @@
 		<default>Então me explica isso.</default>
 	</talk>
 	<teller>
-		<default>Fábio mostra a mão esquerda.</default>
+		<default>Fábio tira o chinelo e aponta o pé.</default>
 	</teller>
 	<talk character="Caio">
 		<default>Que tem isso? Alergia? Desculpe, mas você ter alergia a algo que eu não tenho não quer dizer que...</default>
 	</talk>
 	<teller>
-		<default>Mel tira a luva e mostra a mão pra ele.</default>
+		<default>Mel tira a luva e mostra a mão para Caio.</default>
 	</teller>
 	<talk character="Caio">
 		<default>E daí?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele é um atlante. Vocês não conhecem isso muito bem, mas...</default>
+		<default>É atlante. Vocês não conhecem isso muito bem, mas...</default>
 	</talk>
 	<talk character="Caio">
-		<default>Ele é meu filho!</default>
+		<screamed>Fábio é humano, como eu!</screamed>
 	</talk>
 	<talk character="Fábio">
 		<default>Tá mentindo.</default>
@@ -222,14 +229,20 @@
 	<talk character="Caio">
 		<default>Como pode saber???</default>
 	</talk>
+	<teller>
+		<default>Fábio sorri.</default>
+	</teller>
 	<talk character="Fábio">
 		<default>Eu sei...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Eu não disse?!</default>
 	</talk>
+	<teller>
+		<default>Fábio desfaz o sorriso.</default>
+	</teller>
 	<talk character="Fábio">
-		<default>Peraí, eu conheço ele muito bem, pode ser por isso.</default>
+		<default>Peraí, eu conheço muito bem, pode ser por isso.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Tá, então vamos continuar esperando.</default>
@@ -238,7 +251,7 @@
 		<default>Do que estão falando???</default>
 	</talk>
 	<teller>
-		<default>No andar de cima, no corredor...</default>
+		<default>Andar de cima, corredor.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Droga, eu quero saber o que tá acontecendo lá!</default>
@@ -256,16 +269,16 @@
 		<default>Estela e Kat passam.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Ah, viu, não agüentam esperar!</default>
+		<default>Ah, viu, não aguentam esperar!</default>
 	</talk>
 	<teller>
-		<default>As duas param. Kat vira pra trás.</default>
+		<default>Kat e Estela param e viram para trás.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Vamos trabalhar, intrometido!</default>
 	</talk>
 	<teller>
-		<default>Elas seguem. Estela ainda olha pra trás, pra Zenon, antes de sumir na escada.</default>
+		<default>Kat e Estela seguem. Estela olha para Zenon um instante antes de sumir na escada.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Você viu isso?</default>
@@ -283,13 +296,13 @@
 		<default>Ah, chega! Não fico aqui em cima, tenho mais o que fazer lá embaixo.</default>
 	</talk>
 	<teller>
-		<default>Derik desce. Chega e vê Caio sentado, Fábio encostado no balcão e Mel em pé no meio da sala.</default>
+		<default>Derik desce. Caio sentou-se no sofá, Fábio encostou no balcão e Mel está em pé no meio da sala.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Terminaram?</default>
 	</talk>
 	<teller>
-		<default>Caio, como que saindo de um transe, olha pra Derik.</default>
+		<default>Caio olha pra Derik.</default>
 	</teller>
 	<talk character="Caio">
 		<default>Peraí... O jeito como me perguntou se eu era algo dele... Vocês dois...</default>
@@ -316,11 +329,11 @@
 		<default>Fábio sobe.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Quer mesmo ter seu filho de volta? Se desculpar? Esqueça seus preconceitos imbecis, senhor...</default>
+		<default>Quer mesmo ter seu filho de volta? Se desculpar? Porque não tá parecendo arrependido como disse, parece que quer continuar a mesma criatura estúpida.</default>
 	</talk>
-	<talk character="Caio">
-		<default>Caio.</default>
-	</talk>
+	<teller>
+		<default>Caio olha para baixo.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Tenho que ir agora. Se quiser um quarto, peça pro Derik te arranjar.</default>
 	</talk>
@@ -331,19 +344,25 @@
 		<default>Faz... Quanto tempo que... Você e meu filho...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não temos nada. Ele falou isso pra te testar.</default>
+		<default>Não temos nada. A questão é que você não deveria se importar se tivéssemos.</default>
 	</talk>
 	<talk character="Caio">
 		<default>Mas você cuida dos serviços da casa...</default>
 	</talk>
+	<teller>
+		<default>Derik fecha a torneira.</default>
+	</teller>
 	<talk character="Derik">
-		<default>É, e minha namorada luta e trabalha. Aliás, seu filho também luta e nem por isso gosta de mulher. Devia olhar pro mundo direito ao invés de continuar com o medievalismo.</default>
+		<default>É, e Kat, com quem namoro, luta e trabalha. Aliás, seu filho também luta e nem por isso gosta de mulher. E, mesmo que eu fosse gay, isso não quer dizer que eu e Fábio teríamos algo. Devia olhar pro mundo direito ao invés de continuar com o medievalismo.</default>
 	</talk>
 	<teller>
-		<default>Caio sai. Quinta (05/06), 7:00. Dois homens chegam. Fábio está na recepção.</default>
+		<default>Caio sai.</default>
+	</teller>
+	<teller>
+		<first>Dia seguinte. Manhã. Fábio está na recepção. Lúcio e Daniel entram. Fábio solta os ombros.</first>
 	</teller>
 	<talk character="Fábio">
-		<default>Lúcio e Daniel. Deixe-me adivinhar...</default>
+		<default>Deixe-me adivinhar...</default>
 	</talk>
 	<talk character="Lúcio">
 		<default>Seu pai está arrependido.</default>
@@ -364,29 +383,32 @@
 		<default>Ao menos você não sai com vampiros.</default>
 	</talk>
 	<teller>
-		<default>Beatrice desce a escada.</default>
+		<default>Beatrice desce a escada. Olha para Lúcio e Daniel.</default>
 	</teller>
 	<talk character="Bea">
-		<default>E esses são...</default>
+		<default>Hóspedes?</default>
 	</talk>
 	<talk character="Daniel">
 		<default>Bom, não os perigosos. E você não foi pra cama com ela!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ei, poderia parar com as ofensas?!</default>
+		<default>Ah, não, só mais gente querendo comprovar que vai pro céu porque quem vai pro inferno sou eu.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Beatrice não é má... Vampira.</default>
+		<default>Beatrice não é ruim.</default>
 	</talk>
 	<talk character="Lúcio">
 		<default>Tudo bem, nós acreditamos.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Melhor falarmos de outra coisa. Estou vivo afinal, não ficam felizes?!</default>
+		<default>Melhor falarmos de outra coisa. Sobrevivi afinal, não ficam felizes?!</default>
 	</talk>
 	<talk character="Lúcio">
 		<default>É claro que sim!</default>
 	</talk>
+	<teller>
+		<default>Lúcio vai até Fábio e abraça. Afasta. Daniel também abraça Fábio. Se afasta.</default>
+	</teller>
 	<talk character="Daniel">
 		<default>Sabe que ele praticamente te adotou depois do que aconteceu.</default>
 	</talk>
@@ -397,19 +419,25 @@
 		<default>Tudo bem, aos poucos estou tentando me contentar. Ainda vou achar minha filha, explicar pra ela o que aconteceu.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Algum... Vampiro a levou?</default>
+		<default>Algum... Vampiro levou?</default>
 	</talk>
 	<talk character="Daniel">
-		<default>Cremos que sim. Talvez, estando nesse meio, você possa nos ajudar!</default>
+		<default>Cremos que sim.</default>
+	</talk>
+	<teller>
+		<default>Daniel sorri.</default>
+	</teller>
+	<talk character="Daniel">
+		<default>Talvez, estando nesse meio, você possa nos ajudar!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não estou nesse meio. Esqueceu?</default>
+		<default>Não estou nesse meio.</default>
 	</talk>
 	<talk character="Daniel">
 		<default>Ah, bom, mas eles ainda te reconhecem como vampira, pode fingir e...</default>
 	</talk>
 	<talk character="Lúcio">
-		<default>Dá pra saber pelo cheiro que ela bebe "água suja", como eles chamam, e não sangue.</default>
+		<default>Dá pra saber pelo cheiro que bebe "água suja", como chamam, e não sangue.</default>
 	</talk>
 	<talk character="Daniel">
 		<default>"Água suja"?!</default>
@@ -418,22 +446,22 @@
 		<default>Chá de uma planta que substitui a necessidade de sangue.</default>
 	</talk>
 	<talk character="Daniel">
-		<default>Ele não é CV de sangue.</default>
+		<default>Não sou CV de sangue.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Agora eu entendi. Tô indo.</default>
 	</talk>
 	<teller>
-		<default>Ela pega uma capa e sai.</default>
+		<default>Beatrice pega uma capa e sai.</default>
 	</teller>
 	<talk character="Fábio">
 		<default>Vai aonde?</default>
 	</talk>
 	<talk character="Bea">
-		<out>Na casa da Janaína!</out>
+		<out>Na casa de Janaína!</out>
 	</talk>
 	<talk character="Fábio">
-		<default>Pede pra ela vir aqui, tá?</default>
+		<default>Pede pra vir aqui, tá?</default>
 	</talk>
 	<talk character="Bea">
 		<out>TÁ.</out>
