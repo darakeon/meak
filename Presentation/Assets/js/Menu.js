@@ -1,4 +1,11 @@
-﻿function ShowStoryNames() {
+﻿function PutLink() {
+    $(".head").click(function () {
+        location = '/';
+    });
+}
+
+
+function ShowStoryNames() {
     $(".storyLink").hover(
         function () { showName(this); },
         function () { hideName(this); });

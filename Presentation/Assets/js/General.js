@@ -1,7 +1,8 @@
 $(document).ready(LayoutAndWork);
 
 function LayoutAndWork() {
-    AjustMainDivSize();
+    PutLink();
+
     ChooseBackground();
 
     //AnimateLegend();
@@ -12,6 +13,5 @@ function LayoutAndWork() {
     SceneChanger();
     FontResizer();
 
-    $(window).resize(AjustMainDivSize);
     $(window).resize(AjustLogin);
 }

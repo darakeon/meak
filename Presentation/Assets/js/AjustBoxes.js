@@ -1,38 +1,3 @@
-function AjustMainDivSize() {
-    AjustHeight();
-
-    $(".main").show();
-
-    AjustFinalMargin();
-}
-
-function AjustHeight() {
-    var windowHeight = $(window).height();
-
-
-    var general = ScaleVerticalEdge("body");
-    var main = ScaleVerticalEdge(".main");
-
-    var head = ScaleHeight(".head");
-
-    var mainHeight = windowHeight - general - main;
-
-    $(".main").height(mainHeight);
-}
-
-
-var secureSpace = 10;
-
-function AjustFinalMargin() {
-    var main = NumericValueCss(".main", "height");
-
-    var paddingBottom = main / 4;
-
-    $(".main .sign img").css("margin-top", paddingBottom);
-}
-
-
-
 function AjustLogin() {
     if ($(".login .inner")[0]) {
         AjustOuterBox();

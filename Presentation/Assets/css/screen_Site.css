@@ -3,7 +3,6 @@ body
     font-size: 75%;
     font-family: Georgia, Garamond, "Times New Roman", "MS Serif", "New York", serif;
     color: #232323;
-    overflow: hidden;
 }
 
 .welcome
@@ -12,11 +11,6 @@ body
 	font-size: 30px;
 	color: #FFF;
 	margin-bottom: 50px;
-}
-
-.hidden
-{
-    display: none;
 }
 
 /* Styles for basic forms
@@ -85,13 +79,14 @@ textarea
 
 .content
 {
-    width: 1126px;
-    margin: auto;
+    width: 1090px;
+    margin: 30px auto;
+    background: url("/Assets/images/logo.png") no-repeat scroll left top transparent;
+    min-height: 200px;
 }
 
 .left
 {
-    width: 240px;
+    width: 220px;
     float: left;
-    margin-top: -80px;
 }
