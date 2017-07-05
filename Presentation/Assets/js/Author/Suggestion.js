@@ -9,6 +9,17 @@ function GetSuggestionBox(obj) {
 
     $("#" + rel + " .suggestionItem").click(function () {
         ChooseOption(this, obj);
+
+        var parent = $(this).closest(".paragraphPiece");
+        var paragraphBox = parent.find("span").first();
+
+        var oldClass = paragraphBox.attr("class");
+        var typeIndex = oldClass.indexOf("_") + 1;
+        var newClass = oldClass.substr(0, typeIndex) + $(this).html();
+
+        paragraphBox
+            .removeClass(oldClass)
+            .addClass(newClass);
     });
 }
 
