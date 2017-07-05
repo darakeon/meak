@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="C" episode="01" scene="b">
+<story season="C" episode="01" scene="a">
 	<teller>
-		<default>Trinity entra no quarto. Estela e Janaína estão abraçadas, embaixo do lençol. Ela bate a porta com força.</default>
+		<default>Casa de Janaína. Trinity entra no quarto, com um sorriso. Desmancha o sorriso. Olha para o chão. Olha para a frente. Se vira para a porta. Balança a cabeçapara os lados. Bate a porta com força. Estela e Janaína se sentam na cama, puxando o lençol.</default>
 	</teller>
 	<talk character="Trinity">
 		<irony>Acho que não sentiu minha falta.</irony>
@@ -9,11 +9,26 @@
 	<talk character="Janaína">
 		<default>Eu...</default>
 	</talk>
+	<teller>
+		<default>Trinity olha para Janaína.</default>
+	</teller>
 	<talk character="Trinity">
-		<default>Você é muito cretina. Eu achando que tinha feito uma burrada de ir embora... Sabe que tive a ilusão de que esse tempo tinha sido o suficiente pra refletir, que agora talvez assumisse?! E você assumiu. Com outra pessoa.</default>
+		<default>Você é muito cretina. Eu achando que tinha feito uma burrada de ir embora...</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Nit...</default>
+	</talk>
+	<talk character="Trinity">
+		<default>Sabe que tive a ilusão de que esse tempo tinha sido o suficiente pra refletir, que agora talvez assumisse?!</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Não é isso, eu...</default>
+	</talk>
+	<talk character="Trinity">
+		<default>E você assumiu. Com outra pessoa.</default>
 	</talk>
 	<teller>
-		<default>Estela acorda, senta na cama e olha para Trinity.</default>
+		<default>Trinity olha para Estela.</default>
 	</teller>
 	<talk character="Trinity">
 		<default>Boa sorte.</default>
@@ -40,67 +55,100 @@
 		<default>Não, ainda não entendeu. Eu não gostei. Não quero fazer de novo.</default>
 	</talk>
 	<teller>
-		<default>Janaína olha para Estela. Não consegue dizer nada. Estela se levanta, se veste.</default>
+		<default>Janaína olha para Estela. Abre a boca. Fecha. Estela levanta e vai ao banheiro. Volta, com roupas.</default>
 	</teller>
 	<talk character="Estela">
-		<default>Vê se toma jeito e assume de uma vez. Não é o fim do mundo.</default>
+		<default>Podia se assumir. Tem dinheiro pra mandar o mundo a merda se necessário, e ninguém ao seu redor que você precise enganar.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Eu sou ruim de cama?</default>
 	</talk>
+	<teller>
+		<default>Estela fecha os olhos e respira fundo. Abre os olhos.</default>
+	</teller>
 	<talk character="Estela">
 		<default>Tá, esquece. Tudo, de preferência.</default>
 	</talk>
 	<teller>
-		<default>Estela olha para Trinity. Vai até ela e beija-a. Trinity se surpreeende, mas retribui. Estela se afasta.</default>
+		<default>Estela olha para Trinity.</default>
 	</teller>
 	<talk character="Estela">
-		<default>É, não.</default>
+		<default>Será que eu podia...</default>
 	</talk>
 	<teller>
-		<default>Estela sai. Trinity começa a rir. Sai também. Noite. Mel está sentada no sofá. Glória dorme em seu colo. Etos entra com Edmont no ombro e o joga no meio da sala.</default>
+		<default>Trinity encolhe os ombros e volta. Estela vai até Trinity e beija. Trinity corresponde. Estela para. Se afasta.</default>
+	</teller>
+	<talk character="Estela">
+		<default>É, não. Foi mal.</default>
+	</talk>
+	<talk character="Trinity">
+		<default>O prazer foi meu.</default>
+	</talk>
+	<teller>
+		<default>Estela sai.</default>
+	</teller>
+	<talk character="Trinity">
+		<screamed>Disponha!</screamed>
+	</talk>
+	<teller>
+		<default>Janaína cruza os braços. Trinity olha para Janaína.</default>
+	</teller>
+	<talk character="Janaína">
+		<default>Precisava se oferecer assim?!</default>
+	</talk>
+	<talk character="Trinity">
+		<default>Que?! Escuta, quase deu pra sentir o gosto da sua...</default>
+	</talk>
+	<teller>
+		<default>Trinity respira fundo. Balança a cabeça para os lados. Sai.</default>
+	</teller>
+	<teller>
+		<first>Noite. Mel está no sofá. Glória dorme em seu colo. Etos entra com Edmont no ombro. Joga no meio da sala. Mel franze a sobrancelha.</first>
 	</teller>
 	<talk character="Etos">
 		<default>De nada.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que aconteceu?!</default>
+		<default>Pois...?</default>
 	</talk>
 	<talk character="Etos">
-		<default>Valesca ia transformar ele num Hades.</default>
+		<default>Valesca ia transformar em Hades.</default>
 	</talk>
 	<talk character="Mel">
-		<default>O que quer dizer isso?!</default>
+		<default>O que isso quer dizer isso?</default>
 	</talk>
 	<talk character="Etos">
-		<default>Vampiro de duas linhagens.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E você impediu?!</default>
+		<default>De duas linhagens.</default>
 	</talk>
 	<teller>
-		<default>Etos fica confuso. Zenon entra.</default>
+		<default>Mel solta o ar forte.</default>
+	</teller>
+	<talk character="Mel">
+		<default>E você impediu.</default>
+	</talk>
+	<teller>
+		<default>Etos franze a sobrancelha. Zenon entra.</default>
 	</teller>
 	<talk character="Etos">
-		<default>Peraí, um segundo... Eu devia ter deixado?!</default>
+		<default>Pera um segundo, eu devia ter deixado?!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Achei que Hades era o nome que a...</default>
 	</talk>
 	<talk character="Etos">
-		<default>Ela só não foi muito criativa nesse sentido.</default>
+		<default>Só não teve muita criatividade nesse sentido.</default>
 	</talk>
 	<teller>
-		<default>Alguns minutos depois, Derik está com um livro em mãos.</default>
+		<first>Derik está com um livro em mãos, no sofá. Mel, Etos e Zenon estão em pé.</first>
 	</teller>
 	<talk character="Derik">
 		<default>Aumento do poder... Das características primitivas...</default>
 	</talk>
 	<talk character="Etos">
-		<default>Foi o que eu disse, perigoso.</default>
+		<default>Foi o que eu disse, pior ideia que já tiveram.</default>
 	</talk>
 	<talk character="Mel">
-		<default>É pra salvar minha filha.</default>
+		<default>É pra salvar minha criança.</default>
 	</talk>
 	<talk character="Etos">
 		<default>Deve ter outro jeito.</default>
@@ -111,4 +159,169 @@
 	<talk character="Etos">
 		<irony>Vai entregar uma bomba nuclear pra uma criança sádica. Fora isso, nada.</irony>
 	</talk>
+	<talk character="Mel">
+		<default>E a sua preocupação do nada? Resolveu salvar o mundo agora?</default>
+	</talk>
+	<talk character="Etos">
+		<irony>É o único planeta que eu tenho.</irony>
+	</talk>
+	<talk character="Zenon">
+		<default>É uma boa ideia deixar Edmont aqui assim, sem amarrar... Ou acorrentar... </default>
+	</talk>
+	<teller>
+		<default>Zenon olha para Edmont.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Fazer um feitiço talvez?</default>
+	</talk>
+	<teller>
+		<default>Etos olha para Zenon.</default>
+	</teller>
+	<talk character="Etos">
+		<default>Não vai acordar tão rápido. Valesca não teve tempo de dar o sangue para Edmont.</default>
+	</talk>
+	<teller>
+		<default>Etos olha para Mel.</default>
+	</teller>
+	<talk character="Etos">
+		<default>Me diz que não acabei nocautear e enfurecer minha única cria por nada.</default>
+	</talk>
+	<talk character="Mel">
+		<default>A conclusão que chegamos era que não tinha como matar Padoi sem apelar. A ideia foi de Angely e Edmont.</default>
+	</talk>
+	<talk character="Etos">
+		<default>Quem falou nisso primeiro, Angely ou Edmont?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Angely quem falou comigo. Não disse o que ia fazer, só que eu teria que segurar Edmont.</default>
+	</talk>
+	<talk character="Etos">
+		<default>E você consegue?</default>
+	</talk>
+	<teller>
+		<default>Zenon olha para Mel. Olha para Etos.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Consegue.</default>
+	</talk>
+	<teller>
+		<default>Etos olha para Zenon. Olha para Mel. Kat entra na sala. Etos olha para Kat. Kat para, olhando para Etos. Olha para Edmont. Olha para Mel.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Que caralhos tá acontecendo aqui?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Edmont tentou se tornar de duas linhagens e Etos impediu.</default>
+	</talk>
+	<talk character="Etos">
+		<default>Valesca no momento está em correntes num lugar seguro. Qual o perigo pra sua criança mesmo?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Padoi. Uma pessoa juntou todas as versões das Realidades e aprisionou. Uma seita tirou da prisão. Existe uma premonição que Glória vai matar Padoi, agora Padoi está atrás de Glória.</default>
+	</talk>
+	<talk character="Etos">
+		<default>Aquela criança tava meio grande para ter feito no tempo que...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Foi antes de virmos. Ficou lá porque eu não sabia que não tinha morrido. Alguém da seita inventou que ia destruir o mundo e Edmont me derrubou. Só que não matou a criança, como achei que tinha feito.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>E o único jeito de destruir é transformar Edmont num monstro?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não foi ideia minha, acha que Angely aprovaria se não fosse o único jeito?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Angely.</default>
+	</talk>
+	<teller>
+		<default>As pessoas olham para Derik.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Pra onde Angely foi?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Saiu com Beatrice.</default>
+	</talk>
+	<teller>
+		<default>Derik vai até o telefone. Disca. Espera. Respira fundo. Coloca no gancho. Disca novamente. Espera.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Beatrice, é Derik. Não sei o que Angely te disse, mas Edmont pediu a cria de Etos pra transformar de novo e Etos impediu. Quando pegar essa mensagem, traz Angely para cá.</default>
+	</talk>
+	<teller>
+		<default>Derik coloca o telefone no gancho.</default>
+	</teller>
+	<talk character="Etos">
+		<default>Só a criança pode matar Padoi?</default>
+	</talk>
+	<talk character="Fábio">
+		<arrive>Até onde sabemos, sim.</arrive>
+	</talk>
+	<talk character="Etos">
+		<default>E o que não sabemos?</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Podemos procurar aqui se não tem algo que não encontramos lá.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Essa Realidade é uma cópia atrasada da outra.</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Mesmo assim...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Vai falar com o grupo. Ver se encontram alguma coisa. Eu duvido.</default>
+	</talk>
+	<talk character="Fábio">
+		<default>Você não quer ter que controlar Edmont.</default>
+	</talk>
+	<talk character="Mel">
+		<default>E é exatamente isso que estou tentando deixar de lado para não tomar uma decisão baseada só em mim.</default>
+	</talk>
+	<teller>
+		<default>Etos ri.</default>
+	</teller>
+	<talk character="Etos">
+		<default>Me explica como tornar Edmont pior que Padoi pra salvar sua criança não é uma decisão baseada só em você.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Edmont eu controlo.</default>
+	</talk>
+	<talk character="Etos">
+		<default>Como?!</default>
+	</talk>
+	<teller>
+		<default>Mel encosta Etos contra a parede. Seu cabelo fica vermelho, seus olhos roxos. O corpo de Kat fraqueja, Derik vai até Kat e segura.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Edmont eu controlo.</default>
+	</talk>
+	<teller>
+		<default>Fábio coloca a mão no ombro de Mel. Mel solta Etos. Entra no quarto e bate a porta.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Achei que...</default>
+	</talk>
+	<teller>
+		<default>Derik abraça Kat. Zenon olha para Fábio.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Melhor você ir ao grupo. Mesmo sendo um mundo atrás, provavelmente não tinham acesso ao grupo lá, então não tinham informações do grupo.</default>
+	</talk>
+	<talk character="Etos">
+		<default>Porque não mandam Melody atrás de Padoi de uma vez?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Porque Mel pode não voltar.</default>
+	</talk>
+	<teller>
+		<default>Fábio sai. Kat se afasta de Derik e segue Fábio. Derik entra no quarto.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Devia ficar feliz. A última vez que isso aconteceu, o alvo pediu pra morrer.</default>
+	</talk>
+	<teller>
+		<default>Etos olha para o quarto. Sai.</default>
+	</teller>
 </story>
