@@ -1,4 +1,6 @@
 function AddInputItem(obj) {
+    $("#save").hide();
+
     var type = $(obj).attr("type");
 
     switch (type) {
@@ -34,6 +36,7 @@ function AddPiece(obj) {
         var newInputID = "#" + subtype + typedParagraph + "_Piece" + (piece + 1);
         AjustThisEditTextSize(newInputID);
 
+        $("#save").show();
     });
 }
 
@@ -88,6 +91,7 @@ function AddParagraph(obj) {
 
         AjustThisEditTextSize("#Paragraph" + newParagraph);
 
+        $("#save").show();
     });
 }
 
