@@ -7,6 +7,8 @@ function AjustEditTextSize(reference) {
 
         var text = main - auxis - adders - scroll;
 
+        $(".title").prepend("[" + reference + "]");
+
         if (!reference) reference = ".paragraph .text";
 
         $(reference).width(text);
