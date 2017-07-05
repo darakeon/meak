@@ -1,43 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="14" scene="g">
 	<teller>
-		<default>Vão para a MEAK. Beleno está esperando.</default>
+		<default>MEAK. Kat, Estela, Michele e Derik entram.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Oi, gente...</default>
 	</talk>
 	<talk character="Michele">
-		<default>Cadê o Zenon?</default>
+		<default>Cadê Zenon?</default>
 	</talk>
 	<talk character="Beleno">
-		<default>É exatamente sobre isso que quero falar, mas falando assim acho que perco a coragem. A Inês foi buscar o Alan, explico quando todos chegarem.</default>
+		<default>É exatamente sobre isso que quero falar, mas falando assim acho que perco a coragem. Inês foi buscar Alan, explico quando todos chegarem.</default>
 	</talk>
 	<teller>
 		<default>Inês e Alan chegam.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Não se aproximem dele!</default>
+		<default>Não se aproximem dele!!!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Alan, você pirou???</default>
+		<default>Alan, que foi?!</default>
 	</talk>
 	<talk character="Alan">
-		<default>Ele matou Zenon!</default>
+		<default>Ele matou Zenon!!!</default>
 	</talk>
+	<teller>
+		<default>Inês olha para Beleno.</default>
+	</teller>
 	<talk character="Inês">
 		<default>Diz que não é verdade...</default>
 	</talk>
 	<talk character="Beleno">
 		<default>E não é!</default>
 	</talk>
+	<teller>
+		<default>Kat dá um passo para trás.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Foi isso que César quis dizer... Quando falou pra te dizer que amigos não são rivais...</default>
 	</talk>
+	<teller>
+		<default>Estela franze a sobrancelha.</default>
+	</teller>
 	<talk character="Estela">
-		<default>Matou ele pra pegar o trabalho?!</default>
+		<default>Matou pra pegar o trabalho?!</default>
 	</talk>
 	<talk character="Alan">
-		<default>Você confessou!</default>
+		<default>Você confessou!!!</default>
 	</talk>
 	<talk character="Michele">
 		<default>Como pôde fazer isso???</default>
@@ -52,25 +61,25 @@
 		<arrive>Olha aqui, seu folgado, você disse que ia ser só um tempinho! Eu não tenho vocação para babá de marmanjo, e ficar escutando a música do elefantinho já é demais!</arrive>
 	</talk>
 	<teller>
-		<default>Todos olham para Alete. Depois para Beleno. Ela entrega uma chave para ele.</default>
+		<default>As pessoas olham para Alete. Então para Beleno. Alete entrega uma chave para Beleno.</default>
 	</teller>
 	<talk character="Alete">
-		<default>Sabe onde está. Deve estar com fome, se recusou a se alimentar do que eu trouxe... E olha que nem era de gente!</default>
+		<default>Sabe onde tá. Deve estar com fome, se recusou a se alimentar do que eu trouxe... E olha que nem era de gente!</default>
 	</talk>
 	<teller>
 		<default>Alete sai.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ela tava falando do Zenon?</default>
+		<default>Alete tava falando de Zenon?</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Eu disse que não tinha matado ele! Não quiseram acreditar!</default>
+		<default>Eu disse que não tinha matado! Não quiseram acreditar!</default>
 	</talk>
 	<talk character="Alan">
 		<default>Pois eu só acredito vendo!</default>
 	</talk>
 	<teller>
-		<default>Dali a algum tempo, Alan abraça Zenon.</default>
+		<first>Alan abraça Zenon.</first>
 	</teller>
 	<talk character="Alan">
 		<default>Vivo... Você tá vivo...</default>
@@ -79,7 +88,7 @@
 		<default>Nem dá pra acreditar que queria me matar há um tempo atrás.</default>
 	</talk>
 	<teller>
-		<default>Ele se afasta.</default>
+		<default>Zenon se afasta.</default>
 	</teller>
 	<talk character="Inês">
 		<default>Ele até chorou, sabia?</default>
@@ -94,13 +103,13 @@
 		<default>Bom saber que não virou nem ossos, nem cinzas.</default>
 	</talk>
 	<teller>
-		<default>Michele o beija.</default>
+		<default>Michele vai até Zenon e beija.</default>
 	</teller>
 	<talk character="Michele">
 		<default>É muito bom saber que está bem.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Só não se aproximem muito que estou com fome. Acho que já sei até o que vai matar isso.</default>
+		<default>Só não se aproximem muito que tô com fome. Mas acho que já sei até o que vai matar isso.</default>
 	</talk>
 	<teller>
 		<default>Zenon olha para Beleno. Inês põe o braço na frente de Zenon.</default>
@@ -110,14 +119,27 @@
 	</talk>
 	<talk character="Zenon">
 		<default>Matança?</default>
-		<teller>olha para todos</teller>
-		<default>Cadê a Beatrice???</default>
+	</talk>
+	<teller>
+		<default>Zenon olha ao redor e arregala os olhos.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Cadê Beatrice???</default>
 	</talk>
 	<talk character="Estela">
 		<default>Viajando. Era em relação a você mesmo... Achamos que Beleno tinha...</default>
 	</talk>
+	<teller>
+		<default>Zenon sorri.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Ele não seria capaz disso... Seria?</default>
+		<default>Ele não seria capaz disso...</default>
+	</talk>
+	<teller>
+		<default>Zenon fecha a expressão.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Seria?</default>
 	</talk>
 	<talk character="Inês">
 		<default>Não seria, não!</default>
@@ -129,21 +151,25 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Zenon vai andando, passa por Beleno... Tenta pegá-lo. Ele foge.</default>
+		<default>Zenon segue para a porta. Tenta segurar Beleno, Beleno se solta, e pula pela janela. Zenon vai até a janela.</default>
 	</teller>
 	<talk character="Zenon">
 		<screamed>Eu ainda aprendo a voar e vou te dar uma surra!</screamed>
-		<teller>todos olham para ele</teller>
-		<default>Eu tava brincando. Perdoei ele.</default>
 	</talk>
 	<teller>
-		<default>Todos (exceto Zenon) saem.</default>
+		<default>Zenon olha para as pessoas. Todo mundo está olhando para Zenon.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Eu tava brincando. Perdoei.</default>
+	</talk>
+	<teller>
+		<default>Estela e Alan saem. Então Kat e Derik. Michele olha para Zenon. Sai. Inês sai também.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>É sério! Não acreditam em mim?</default>
 	</talk>
 	<teller>
-		<default>Noite. Beleno entra na sala de Zenon e Michele. Zenon está sentado no sofá. Levanta e encara Beleno.</default>
+		<first>Noite. Beleno entra na sala de Zenon e Michele. Zenon está no sofá. Levanta e encara Beleno.</first>
 	</teller>
 	<talk character="Beleno">
 		<default>Eu sei que não está muito feliz comigo...</default>
@@ -162,7 +188,11 @@
 	</talk>
 	<talk character="Zenon">
 		<default>Não devia mais ser seu amigo.</default>
-		<teller>se senta</teller>
+	</talk>
+	<teller>
+		<default>Zenon respira fundo. Se senta. </default>
+	</teller>
+	<talk character="Zenon">
 		<default>Por que acha isso?</default>
 	</talk>
 	<talk character="Beleno">
@@ -184,7 +214,7 @@
 		<default>Não, porque eu sabia que você já sabia.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Não é só a Bea. Inês também teve pesadelo.</default>
+		<default>Não é só Bea. Inês também teve pesadelo.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Coincidência.</default>
@@ -193,8 +223,12 @@
 		<default>As duas são sobre a vida delas. Beatrice sobre as vítimas e Inês sobre sua vida passada.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Só se eu causo pesadelos também!</default>
-		<teller>Michele chega na porta</teller>
+		<default>Só se eu causo pesadelos de dormir junto também!</default>
+	</talk>
+	<teller>
+		<default>Michele chega na porta.</default>
+	</teller>
+	<talk character="Zenon">
 		<default>Posso chamar Inês pra...</default>
 	</talk>
 	<talk character="Beleno">
@@ -213,6 +247,45 @@
 		<default>Michele sai.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>É claro que não! Michele! Eu a vi crescer! Michele!</default>
+		<default>É claro que não! Michele! Eu vi Inês crescer! Michele!</default>
 	</talk>
+	<teller>
+		<division>Algum tempo, algum lugar</division>
+	</teller>
+	<talk character="Xien">
+		<default>Tá. Se viraram bem.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Tentaram. Acho que Mel teria derrubado César.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Ou talvez convencesse César a falar.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Kat tem bastante em comum com Mel.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Beleno está mais para o lado de Edmont?</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Bom, só prendeu Zenon porque queria o caso.</default>
+	</talk>
+	<talk character="Xien">
+		<default>E eu?</default>
+	</talk>
+	<teller>
+		<default>Uehfo se aproxima de Xien. Chega perto do ouvido.</default>
+	</teller>
+	<talk character="Uehfo">
+		<hushed>Se você não sabe, como eu vou saber?</hushed>
+	</talk>
+	<teller>
+		<default>Xien baixa a cabeça. Olha para Uehfo. Estende a mão.</default>
+	</teller>
+	<talk character="Xien">
+		<default>Acho que do único jeito que parece possível.</default>
+	</talk>
+	<teller>
+		<default>Uehfo pega a mão de Xien.</default>
+	</teller>
 </story>
