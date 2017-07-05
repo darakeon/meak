@@ -1,6 +1,6 @@
 ﻿namespace Structure.Enums
 {
-    public enum eParagraph
+    public enum ParagraphType
     {
         Teller,
         Talk

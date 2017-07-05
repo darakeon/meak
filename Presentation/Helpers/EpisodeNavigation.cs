@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.IO;
+using System.Linq;
 using Presentation.Models;
 
 namespace Presentation.Helpers
 {
     public class EpisodeNavigation
     {
-        static String XMLPath;
+        static String xmlPath;
         
         static IList<String> episodeList;
         static IList<String> seasonList;
@@ -17,16 +16,16 @@ namespace Presentation.Helpers
         static Int32 episodeNum;
         static Int32 seasonNum;
 
-        public static void SetNavigation(SeasonEpisodeModel model, String xmlPath)
+        public static void SetNavigation(SeasonEpisodeModel model, String xmlPathNavigation)
         {
-            XMLPath = xmlPath;
+            xmlPath = xmlPathNavigation;
 
             var episode = model.Story.ID;
             var season = model.Story.Season.ID;
             
             
-            episodeList = GetEpisodes(season);
-            seasonList = GetSeasons();
+            episodeList = getEpisodes(season);
+            seasonList = getSeasons();
             
 
             episodeNum = episodeList.IndexOf(episode);
@@ -36,20 +35,20 @@ namespace Presentation.Helpers
 
             seasonNum = seasonList.IndexOf(season);
             var firstSeason = seasonNum == 0;
-            var lastSeason = seasonNum + 1 == seasonList.Count; ;
+            var lastSeason = seasonNum + 1 == seasonList.Count;
 
 
-            model.Prev = GetOtherEpisodeLink(firstEpisode, firstSeason, true);
-            model.Next = GetOtherEpisodeLink(lastEpisode, lastSeason, false);
+            model.Prev = getOtherEpisodeLink(firstEpisode, firstSeason, true);
+            model.Next = getOtherEpisodeLink(lastEpisode, lastSeason, false);
 
 
             //return model;
         }
 
 
-        private static IList<String> GetEpisodes(String season)
+        private static IList<String> getEpisodes(String season)
         {
-            var filePath = Path.Combine(XMLPath, "_" + season);
+            var filePath = Path.Combine(xmlPath, "_" + season);
 
             return Directory
                 .GetFiles(filePath, "*.xml")
@@ -59,20 +58,20 @@ namespace Presentation.Helpers
                 .ToList();
         }
 
-        private static IList<String> GetSeasons()
+        private static IList<String> getSeasons()
         {
             return Directory
-                .GetDirectories(XMLPath, "_*")
+                .GetDirectories(xmlPath, "_*")
                 .Select(d =>
                     d.Substring(d.LastIndexOf(@"\") + 2)
                 )
-                .Where(d => GetEpisodes(d).Any())
+                .Where(d => getEpisodes(d).Any())
                 .ToList();
         }
 
-        private static SeasonEpisode GetOtherEpisodeLink(bool isEdgeEpisode, bool isEdgeSeason, bool previous)
+        private static SeasonEpisode getOtherEpisodeLink(bool isEdgeEpisode, bool isEdgeSeason, bool previous)
         {
-            SeasonEpisode seasonEpisode = new SeasonEpisode();
+            var seasonEpisode = new SeasonEpisode();
 
             var diff = previous ? -1 : +1;
 
@@ -81,7 +80,7 @@ namespace Presentation.Helpers
                 if (!isEdgeSeason)
                 {
                     seasonEpisode.Season = seasonList[seasonNum + diff];
-                    episodeList = GetEpisodes(seasonEpisode.Season);
+                    episodeList = getEpisodes(seasonEpisode.Season);
                     seasonEpisode.Episode = previous ? episodeList.Last() : episodeList.First();
                 }
                 else

@@ -12,7 +12,7 @@ namespace Presentation.Models
 		{
 			var pathXml = Path.Combine(paths.Xml, "_" + season); 
 			
-			Season = new Season(pathXml, eOpenEpisodeOption.getTitle);
+			Season = new Season(pathXml, OpenEpisodeOption.GetTitle);
 			EpisodeList = Season.EpisodesList;
 		}
 

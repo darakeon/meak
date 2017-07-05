@@ -24,24 +24,24 @@
 @foreach (var paragraph in Model.Story.ParagraphTypeList)
 {
     <div class="paragraph @paragraph.ToString().ToLower()">
-        @if (@paragraph == Structure.Enums.eParagraph.Talk)
+        @if (@paragraph == Structure.Enums.ParagraphType.Talk)
         {
             @("– ")
             
             foreach (var piece in Model.Story.TalkList[talkCounter].Pieces)
             {
-                if (piece.Style == Structure.Enums.eTalkStyle.Teller) { @(" – ") }
+                if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
                 
                 <span class="talk_@(piece.Style)">@piece.Text</span>
 
-                if (piece.Style == Structure.Enums.eTalkStyle.Teller) { @(" – ") }
+                if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
             }
             
             @(" (" + Model.Story.TalkList[talkCounter].Character + ")")
         
             talkCounter++;
         }
-        else if (@paragraph == Structure.Enums.eParagraph.Teller)
+        else if (@paragraph == Structure.Enums.ParagraphType.Teller)
         {
             foreach (var piece in Model.Story.TellerList[tellerCounter].Pieces)
             {

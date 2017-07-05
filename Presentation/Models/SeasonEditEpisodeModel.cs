@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Structure.Enums;
+using StringExtension = Structure.Extensions.StringExtension;
 
 namespace Presentation.Models
 {
@@ -22,7 +23,7 @@ namespace Presentation.Models
 
 
 
-        public eParagraph CurrentParagraph
+        public ParagraphType CurrentParagraph
         {
             get
             {
@@ -34,12 +35,12 @@ namespace Presentation.Models
         public void GetSuggestionLists()
         {
             TalkStyleList =
-                Enum.GetNames(typeof(eTalkStyle))
+                Enum.GetNames(typeof(TalkStyle))
                     .AsEnumerable()
                     .ToArray();
 
             TellerStyleList =
-                Enum.GetNames(typeof(eTellerStyle))
+                Enum.GetNames(typeof(TellerStyle))
                     .AsEnumerable()
                     .ToArray();
 
@@ -48,7 +49,7 @@ namespace Presentation.Models
                     .Select(t => t.Character)
                     .Distinct()
                     .Where(c => !c.Contains("/")
-                        && c.IsName())
+                        && StringExtension.IsName(c))
                     .OrderBy(c => c)
                     .ToArray();
         }

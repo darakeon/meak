@@ -36,17 +36,17 @@ namespace Presentation.Models.General
 
             public CssFile(String file)
             {
-                this.Name = file.Substring(file.LastIndexOf(@"\") + 1);
+                Name = file.Substring(file.LastIndexOf(@"\") + 1);
 
-                if (this.Name.Contains("_"))
+                if (Name.Contains("_"))
                 {
-                    this.Media = this.Name.Remove(this.Name.LastIndexOf("_")).ToLower();
+                    Media = Name.Remove(Name.LastIndexOf("_")).ToLower();
                 }
             }
 
             public CssFile(String file, String path) : this(file)
             {
-                this.Name = Path.Combine(path, this.Name);
+                Name = Path.Combine(path, Name);
             }
         }
     }

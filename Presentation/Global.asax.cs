@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
 
 namespace Presentation
@@ -44,7 +39,9 @@ namespace Presentation
             );
         }
 
+        // ReSharper disable InconsistentNaming
         protected void Application_Start()
+        // ReSharper restore InconsistentNaming
         {
             //Work-a-round suggested in 
             //http://weblogs.asp.net/scottgu/archive/2010/12/14/update-on-asp-net-mvc-3-rc2-and-a-workaround-for-a-bug-in-it.aspx

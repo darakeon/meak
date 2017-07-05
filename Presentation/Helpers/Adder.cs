@@ -20,7 +20,7 @@ namespace Presentation.Helpers
         public void SetPieceTeller(Int32 piece, Int32 teller, Int32 talk)
         {
             Model.Story.TellerList = 
-                setPieceParagraphList<Teller, eTellerStyle>(teller, piece);
+                setPiecParagraphTypeList<Teller, TellerStyle>(teller, piece);
 
             setCountersAndView(piece, teller, talk, "Teller");
         }
@@ -28,12 +28,12 @@ namespace Presentation.Helpers
         public void SetPieceTalk(Int32 piece, Int32 talk, Int32 teller)
         {
             Model.Story.TalkList = 
-                setPieceParagraphList<Talk, eTalkStyle>(talk, piece);
+                setPiecParagraphTypeList<Talk, TalkStyle>(talk, piece);
 
             setCountersAndView(piece, teller, talk, "Talk");
         }
 
-        private IList<TParagraph> setPieceParagraphList<TParagraph, TPiece>(Int32 talk, Int32 piece)
+        private static IList<TParagraph> setPiecParagraphTypeList<TParagraph, TPiece>(Int32 talk, Int32 piece)
             where TParagraph : Paragraph<TPiece>, new()
             where TPiece : struct
         {
@@ -62,19 +62,19 @@ namespace Presentation.Helpers
 
         public void SetParagraphTeller(Int32 paragraph, Int32 teller, Int32 talk)
         {
-            Model.Story.TellerList = setParagraph<Teller, eTellerStyle>(teller, paragraph, eParagraph.Teller);
+            Model.Story.TellerList = setParagraph<Teller, TellerStyle>(teller, paragraph, ParagraphType.Teller);
 
             setCountersAndView(paragraph, teller, talk);
         }
 
         public void SetParagraphTalk(Int32 paragraph, Int32 talk, Int32 teller)
         {
-            Model.Story.TalkList = setParagraph<Talk, eTalkStyle>(talk, paragraph, eParagraph.Talk);
+            Model.Story.TalkList = setParagraph<Talk, TalkStyle>(talk, paragraph, ParagraphType.Talk);
 
             setCountersAndView(paragraph, teller, talk);
         }
 
-        private IList<TParagraph> setParagraph<TParagraph, TPiece>(int teller, int paragraph, eParagraph eParagraph)
+        private IList<TParagraph> setParagraph<TParagraph, TPiece>(Int32 teller, Int32 paragraph, ParagraphType paragraphType)
             where TParagraph : Paragraph<TPiece>, new()
             where TPiece : struct
         {
@@ -90,7 +90,7 @@ namespace Presentation.Helpers
 
             for (var p = 0; p <= paragraph; p++)
             {
-                Model.Story.ParagraphTypeList.Add(eParagraph);
+                Model.Story.ParagraphTypeList.Add(paragraphType);
             }
 
             return paragraphList;

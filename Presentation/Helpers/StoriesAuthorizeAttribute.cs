@@ -8,10 +8,8 @@ namespace Presentation.Helpers
     {
         protected override bool AuthorizeCore(HttpContextBase httpContext)
         {
-            if (UrlUserType.IsAuthor(httpContext.Request.Url))
-                return base.AuthorizeCore(httpContext);
-            
-            return true;
+            return !UrlUserType.IsAuthor(httpContext.Request.Url)
+                || base.AuthorizeCore(httpContext);
         }
     }
 }

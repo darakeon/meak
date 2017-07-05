@@ -3,7 +3,6 @@ using System.Web.Mvc;
 using Presentation.Models;
 using System.Configuration;
 using Ak.MVC.Authentication;
-using Ak;
 
 namespace Presentation.Controllers
 {
@@ -27,14 +26,11 @@ namespace Presentation.Controllers
 
                 if (String.IsNullOrEmpty(returnUrl))
                     return RedirectToRoute("Author");
-                else
-                    return Redirect(returnUrl);
+            
+                return Redirect(returnUrl);
             }
-            else
-            {
-                return Redirect(@"\");
-            }
-
+            
+            return Redirect(@"\");
         }
 
         public ActionResult LogOff()

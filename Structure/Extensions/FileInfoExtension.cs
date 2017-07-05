@@ -1,4 +1,7 @@
-﻿namespace System.IO
+﻿using System;
+using System.IO;
+
+namespace Structure.Extensions
 {
     public static class FileInfoExtension
     {

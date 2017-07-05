@@ -1,26 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Ak.DataAccess.XML;
 using Structure.Entities;
 
 namespace Structure.Data
 {
-    public class PieceXML<S> where S : struct
+    public class PieceXML<TS> where TS : struct
     {
-        public static Piece<S> GetPiece(Node node, Node child)
+        public static Piece<TS> GetPiece(Node node, Node child)
         {
-            var style = GetStyle(node, child);
+            var style = getStyle(node, child);
 
-            return new Piece<S> { Text = child.Value, Style = style };
+            return new Piece<TS> { Text = child.Value, Style = style };
         }
 
-        private static S GetStyle(Node node, Node child)
+        private static TS getStyle(Node node, Node child)
         {
             try
             {
-                return (S)Enum.Parse(typeof(S), child.Name, true);
+                return (TS)Enum.Parse(typeof(TS), child.Name, true);
             }
             catch
             {
@@ -30,7 +27,7 @@ namespace Structure.Data
 
         
         
-        public static Node SetPiece(Piece<S> piece)
+        public static Node SetPiece(Piece<TS> piece)
         {
             var name = SetStyle(piece.Style);
             var value = piece.Text;
@@ -40,7 +37,7 @@ namespace Structure.Data
             return node;
         }
         
-        public static String SetStyle(S style)
+        public static String SetStyle(TS style)
         {
             return style.ToString().ToLower();
         }

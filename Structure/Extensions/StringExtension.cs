@@ -1,4 +1,6 @@
-﻿namespace System
+﻿using System;
+
+namespace Structure.Extensions
 {
     public static class StringExtension
     {

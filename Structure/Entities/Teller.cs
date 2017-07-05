@@ -2,7 +2,7 @@
 
 namespace Structure.Entities
 {
-    public class Teller : Paragraph<eTellerStyle>
+    public class Teller : Paragraph<TellerStyle>
     {
     }
 }

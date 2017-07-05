@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-using System.Web;
 using Ak.DataAccess.XML;
 using Structure.Entities;
 using Structure.Enums;
@@ -12,7 +11,7 @@ namespace Structure.Data
     {
         public static Talk GetTalk(Node node)
         {
-            Talk talk = GetParagraph<Talk ,eTalkStyle>(node);
+            var talk = getParagraph<Talk ,TalkStyle>(node);
 
             var character = node["character"];
 
@@ -31,19 +30,19 @@ namespace Structure.Data
         
         public static Teller GetTeller(Node node)
         {
-            return GetParagraph<Teller, eTellerStyle>(node);
+            return getParagraph<Teller, TellerStyle>(node);
         }
 
 
-        private static P GetParagraph<P, S>(Node node)
-            where P : Paragraph<S>, new()
-            where S : struct
+        private static TP getParagraph<TP, TS>(Node node)
+            where TP : Paragraph<TS>, new()
+            where TS : struct
         {
-            P paragraph = new P();
+            var paragraph = new TP();
 
             foreach (var child in node)
             {
-                var piece = PieceXML<S>.GetPiece(node, child);
+                var piece = PieceXML<TS>.GetPiece(node, child);
 
                 paragraph.Pieces.Add(piece);
             }
@@ -58,7 +57,7 @@ namespace Structure.Data
 
         public static Node SetTalk(Talk talk)
         {
-            var node = SetParagraph(talk);
+            var node = setParagraph(talk);
             
             node.Add("character", talk.Character);
 
@@ -67,10 +66,10 @@ namespace Structure.Data
 
         public static Node SetTeller(Teller teller)
         {
-            return SetParagraph(teller);
+            return setParagraph(teller);
         }
 
-        private static Node SetParagraph<T>(Paragraph<T> paragraph) where T : struct
+        private static Node setParagraph<T>(Paragraph<T> paragraph) where T : struct
         {
             var nodeName = typeof(T).Name
                     .Replace("Style", "")
@@ -79,16 +78,14 @@ namespace Structure.Data
 
             var node = new Node(nodeName, "");
 
-            var pieces = paragraph.Pieces
-                .Where(p => 
-                    !String.IsNullOrEmpty(p.Text));
-
-            foreach (var piece in pieces)
-            {
-                var child = PieceXML<T>.SetPiece(piece);
-
-                node.Add(child);
-            }
+            paragraph.Pieces
+                .Where(p => !String.IsNullOrEmpty(p.Text))
+                .ToList()
+                .ForEach(
+                    p => node.Add(
+                        PieceXML<T>.SetPiece(p)
+                    )
+                );
 
             return node;
         }

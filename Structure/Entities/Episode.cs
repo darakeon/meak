@@ -10,7 +10,7 @@ namespace Structure.Entities
         {
             Season = new Season();
 
-            ParagraphTypeList = new List<eParagraph>();
+            ParagraphTypeList = new List<ParagraphType>();
             TalkList = new List<Talk>();
             TellerList = new List<Teller>();
         }
@@ -25,7 +25,7 @@ namespace Structure.Entities
 
         public Season Season { get; set; }
 
-        public IList<eParagraph> ParagraphTypeList { get; set; }
+        public IList<ParagraphType> ParagraphTypeList { get; set; }
         public IList<Talk> TalkList { get; set; }
         public IList<Teller> TellerList { get; set; }
 

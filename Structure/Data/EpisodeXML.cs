@@ -1,17 +1,18 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Xml;
 using Ak.DataAccess.XML;
 using Structure.Entities;
 using Structure.Enums;
-using System.IO;
+using FileInfoExtension = Structure.Extensions.FileInfoExtension;
 
 namespace Structure.Data
 {
     public class EpisodeXML
     {
-        readonly String teller = eParagraph.Teller.ToString().ToLower();
-        readonly String talk = eParagraph.Talk.ToString().ToLower();
+        readonly String tellerEnum = ParagraphType.Teller.ToString().ToLower();
+        readonly String talkEnum = ParagraphType.Talk.ToString().ToLower();
 
         public Episode Episode { get; set; }
         public FileInfo FileInfo { get; set; }
@@ -19,7 +20,7 @@ namespace Structure.Data
         private String backupFullName { get; set; }
 
         
-        public EpisodeXML(String folderPath, String season, String episode, eOpenEpisodeOption get = eOpenEpisodeOption.getCode)
+        public EpisodeXML(String folderPath, String season, String episode, OpenEpisodeOption get = OpenEpisodeOption.GetCode)
         {
             var filePath = Path.Combine(folderPath, "_" + season, episode + ".xml");
 
@@ -35,17 +36,22 @@ namespace Structure.Data
 
 
 
-        private void populateEpisode(eOpenEpisodeOption get)
+        private void populateEpisode(OpenEpisodeOption get)
         {
             Episode = new Episode {
-                            ID = FileInfo.NameWithoutExtension(),
+                            ID = FileInfoExtension.NameWithoutExtension(FileInfo),
                             Season = {ID = FileInfo.Directory.Name.Substring(1)}
                         };
 
-            if (get == eOpenEpisodeOption.getTitle)
-                readTitle();
-            else if (get == eOpenEpisodeOption.getStory)
-                readStory();
+            switch (get)
+            {
+                case OpenEpisodeOption.GetTitle:
+                    readTitle();
+                    break;
+                case OpenEpisodeOption.GetStory:
+                    readStory();
+                    break;
+            }
         }
 
         private void readTitle()
@@ -80,14 +86,14 @@ namespace Structure.Data
             }
         }
 
-        private eParagraph defineType(String nodeName)
+        private ParagraphType defineType(String nodeName)
         {
-            eParagraph paragraph;
+            ParagraphType paragraph;
 
-            if (nodeName == teller)
-                paragraph = eParagraph.Teller;
-            else if (nodeName == talk)
-                paragraph = eParagraph.Talk;
+            if (nodeName == tellerEnum)
+                paragraph = ParagraphType.Teller;
+            else if (nodeName == talkEnum)
+                paragraph = ParagraphType.Talk;
             else
                 throw new XmlException(String.Format("Node {0} ({1}º) not recognized.", nodeName, Episode.ParagraphCount));
 
@@ -96,15 +102,15 @@ namespace Structure.Data
             return paragraph;
         }
 
-        private void setText(eParagraph paragraph, Node node)
+        private void setText(ParagraphType paragraph, Node node)
         {
             switch(paragraph)
             {
-                case eParagraph.Talk:
+                case ParagraphType.Talk:
                     var talk = ParagraphXML.GetTalk(node);
                     Episode.TalkList.Add(talk);
                     break;
-                case eParagraph.Teller:
+                case ParagraphType.Teller:
                     var teller = ParagraphXML.GetTeller(node);
                     Episode.TellerList.Add(teller);
                     break;
@@ -117,7 +123,7 @@ namespace Structure.Data
 
         public void WriteStory()
         {
-            var xml = MakeXml();
+            var xml = makeXML();
 
             xml.BackUpAndSave(backupFullName);
         }
@@ -139,19 +145,19 @@ namespace Structure.Data
 
             for (var j = 0; j < 10; j++)
             {
-                Episode.ParagraphTypeList.Add(eParagraph.Teller);
-                Episode.TellerList.Add(TellerDefault());
+                Episode.ParagraphTypeList.Add(ParagraphType.Teller);
+                Episode.TellerList.Add(tellerDefault());
 
                 for (var k = 0; k < 20; k++)
                 {
-                    Episode.ParagraphTypeList.Add(eParagraph.Talk);
-                    Episode.TalkList.Add(TalkDefault());
+                    Episode.ParagraphTypeList.Add(ParagraphType.Talk);
+                    Episode.TalkList.Add(talkDefault());
                 }
             }
 
             Episode.Title = title;
 
-            var xml = MakeXml();
+            var xml = makeXML();
 
             if (episodeExists)
                 xml.BackUpAndSave();
@@ -159,7 +165,7 @@ namespace Structure.Data
                 xml.Overwrite();
         }
 
-        private Node MakeXml()
+        private Node makeXML()
         {
             var xml = new Node(FileInfo.FullName, false);
 
@@ -176,11 +182,11 @@ namespace Structure.Data
 
                 switch (paragraph)
                 {
-                    case eParagraph.Talk:
+                    case ParagraphType.Talk:
                         child = ParagraphXML.SetTalk(Episode.TalkList[talkCounter]);
                         talkCounter++;
                         break;
-                    case eParagraph.Teller:
+                    case ParagraphType.Teller:
                         child = ParagraphXML.SetTeller(Episode.TellerList[tellerCounter]);
                         tellerCounter++;
                         break;
@@ -196,17 +202,17 @@ namespace Structure.Data
 
 
 
-        private static Teller TellerDefault()
+        private static Teller tellerDefault()
         {
             return new Teller { Pieces = {
-                    new Piece<eTellerStyle> { Style = eTellerStyle.Default, Text = "_" }
+                    new Piece<TellerStyle> { Style = TellerStyle.Default, Text = "_" }
                 } };
         }
 
-        private static Talk TalkDefault()
+        private static Talk talkDefault()
         {
             return new Talk { Pieces = {
-                    new Piece<eTalkStyle> { Style = eTalkStyle.Default, Text = "_" }
+                    new Piece<TalkStyle> { Style = TalkStyle.Default, Text = "_" }
                 }, Character = "_" };
         }
     }

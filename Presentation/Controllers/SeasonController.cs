@@ -88,7 +88,7 @@ namespace Presentation.Controllers
 
             try
             {
-                xml = new EpisodeXML(paths.Xml, season, episode, eOpenEpisodeOption.getStory);
+                xml = new EpisodeXML(paths.Xml, season, episode, OpenEpisodeOption.GetStory);
             }
             catch (FileNotFoundException)
             {

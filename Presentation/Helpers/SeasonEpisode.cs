@@ -18,17 +18,17 @@ namespace Presentation.Helpers
             }
             else if (currentEpisode == "20")
             {
-                NextSeason(currentSeason);
+                nextSeason(currentSeason);
                 Episode = "01";
             }
             else
             {
                 Season = currentSeason;
-                NextEpisode(currentEpisode);
+                nextEpisode(currentEpisode);
             }
         }
 
-        private void NextSeason(String currentSeason)
+        private void nextSeason(String currentSeason)
         {
             var currentLetter = currentSeason[0];
             var currentAscii = Convert.ToInt32(currentLetter);
@@ -38,13 +38,13 @@ namespace Presentation.Helpers
             Season = nextLetter.ToString();
         }
 
-        private void NextEpisode(String currentEpisode)
+        private void nextEpisode(String currentEpisode)
         {
             var currentNumber = Convert.ToInt32(currentEpisode);
             var nextNumber = currentNumber + 1;
             var format = nextNumber < 10 ? "0{0}" : "{0}";
 
-            Episode = String.Format(format, nextNumber); ;
+            Episode = String.Format(format, nextNumber);
         }
 
         public bool IsValid()

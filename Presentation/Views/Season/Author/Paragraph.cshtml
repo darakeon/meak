@@ -7,7 +7,7 @@
         <adder class="adderTeller" caller="@(Model.CurrentParagraph)" type="Paragraph" subtype="Teller" paragraph="@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)" onclick="AddInputItem(this)">+</adder>
     </span>
 
-    @if (Model.CurrentParagraph == Structure.Enums.eParagraph.Talk)
+    @if (Model.CurrentParagraph == Structure.Enums.ParagraphType.Talk)
     {
         <span class="suggestionCharacter">
             @Html.TextBoxFor(m => m.Story.TalkList[Model.TalkCounter].Character, 
@@ -35,7 +35,7 @@
         Model.TabIndex++;
     }
 
-    else if (Model.CurrentParagraph == Structure.Enums.eParagraph.Teller)
+    else if (Model.CurrentParagraph == Structure.Enums.ParagraphType.Teller)
     {
         for (var p = 0; p < Model.Story.TellerList[Model.TellerCounter].Pieces.Count; p++)
         {
