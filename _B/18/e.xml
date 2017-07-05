@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="18" scene="e">
 	<teller>
-		<default>Manhã. Soraia vai até a casa de Alan. Ele está dormindo em sua cama, abraçado com Ísis. Há um livro na cama. Ela pega. É de contos para crianças. Ele acorda. Esfrega os olhos.</default>
+		<default>Manhã. Quarto de Estela e Alan. Alan está dormindo em sua cama, abraçou com Ísis. Há um livro na cama. Soraia pega. É de contos para crianças. Alan acorda. Esfrega os olhos.</default>
 	</teller>
 	<talk character="Soraia">
 		<default>Calma, ainda tá cedo. Tava bonitinho você dormindo abraçado com sua filha.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Ela parece um anjo, não parece?</default>
+		<default>Parece um anjo, não parece?</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Parece com você.</default>
@@ -16,7 +16,7 @@
 		<default>Se você diz...</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta.</default>
+		<default>Alan se levanta.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Vou fazer o café dela, quer tomar café com a gente?</default>
@@ -30,6 +30,9 @@
 	<talk character="Soraia">
 		<default>Não, onde ela dormiu?</default>
 	</talk>
+	<teller>
+		<default>Alan olha ao redor.</default>
+	</teller>
 	<talk character="Alan">
 		<default>É mesmo, ela não voltou pra casa...</default>
 	</talk>
@@ -46,7 +49,7 @@
 		<default>Já contaram?!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Antes de você ir lá, ela apareceu...</default>
+		<default>Apareceu na MEAK antes de você ir lá pegar Ísis.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Eu queria contar... Tudo bem, cadê ela?</default>
@@ -55,14 +58,20 @@
 		<default>Tá no quarto.</default>
 	</talk>
 	<teller>
-		<default>Derik aponta, Alan vai correndo. Abre a porta, Kat e Estela acordam assustadas. Vendo que é Alan, Kat guarda o punhal embaixo do travesseiro de volta.</default>
+		<default>Derik aponta, Alan vai correndo. Alan abre a porta bruscamente, Kat senta na cama de uma vez, com um punhal na mão. Estela abre os olhos e se senta também, franzindo a testa, olhando pelos lados. Kat suspira. Guarda o punhal embaixo do travesseiro de volta.</default>
 	</teller>
+	<talk character="Kat">
+		<irony>Podia não tentar arrancar a porta na próxima.</irony>
+	</talk>
 	<talk character="Estela">
-		<default>Pode pegar meu coração lá fora? Devo ter cuspido ele pela boca agora...</default>
+		<irony>Pode pegar meu coração lá fora? Devo ter cuspido ele pela boca agora...</irony>
 	</talk>
 	<talk character="Alan">
 		<default>Achei que ele era meu.</default>
 	</talk>
+	<teller>
+		<default>Estela franze a sobrancelha.</default>
+	</teller>
 	<talk character="Estela">
 		<default>E é... Tava brincando, amor...</default>
 	</talk>
@@ -71,7 +80,7 @@
 		<irony>Acho melhor eu ir embora olhando pra vocês, pra não ser apunhalado pelas costas, né?</irony>
 	</talk>
 	<talk character="Derik">
-		<default>Alan, elas só estavam dormindo.</default>
+		<arrive>Alan, só estavam dormindo.</arrive>
 	</talk>
 	<talk character="Alan">
 		<default>Como sabe?</default>
@@ -82,14 +91,14 @@
 	<talk character="Alan">
 		<default>Os três na mesma cama? É o sonho de todo homem...</default>
 	</talk>
-	<talk character="Derik">
+	<talk character="Kat">
 		<default>Não, é o seu delírio, na verdade. Não fizemos nada.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Não que ela não quisesse, com certeza.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Eu não sou a sua mãe, e com certeza não sou a Helena. Você tava lá com a Ísis, eu não quis atrapalhar...</default>
+		<default>Eu não sou a sua mãe, e com certeza não sou Helena. Você tava lá com Ísis, eu não quis atrapalhar.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Agora vai usar minha filha de desculpa?</default>
@@ -108,7 +117,7 @@
 		<screamed>É, mas não é o meu nome que fala dormindo!</screamed>
 	</talk>
 	<teller>
-		<default>Alan sai. Estela fica sem entender. Começa a chorar. Kat a abraça. Alan sobe de volta. Entra. Vê Juliana. Pega uma besta e aponta pra ela. Ísis se coloca na frente da mãe.</default>
+		<default>Alan sai. Estela abre a boca. Fecha. Começa a chorar. Kat abraça Estela. Olha para Derik. Alan entra em casa. Juliana está na sala. Alan pega uma besta e aponta pra Juliana. Ísis se coloca na frente.</default>
 	</teller>
 	<talk character="Ísis">
 		<default>Abaixa, mãe, abaixa pra eu proteger seu coração!</default>
@@ -123,16 +132,16 @@
 		<default>Sua mãe já está morta, meu anjo. Vem comigo.</default>
 	</talk>
 	<teller>
-		<default>Ele estende o braço para ela.</default>
+		<default>Alan estende a mão para Ísis.</default>
 	</teller>
 	<talk character="Janaína">
 		<arrive>Larga isso, Alan.</arrive>
 	</talk>
 	<talk character="Alan">
-		<default>Você também? Que está fazendo aqui?</default>
+		<default>Você também? Que tá fazendo aqui?</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Estela é quem cuida das coisas. Larga isso.</default>
+		<default>Vim procurar Estela, é quem cuida das coisas. Larga isso.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Por que?</default>
@@ -144,7 +153,7 @@
 		<default>Sua amiga que foi com a Mel?</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Sim. A mãe dela virou vampira quando ela tinha sete. O pai matou a mãe, quando Trinity ia abraçá-la. As cinzas caíram em cima dela, com as roupas. Ela nunca superou isso.</default>
+		<default>Sim. A mãe dela virou vampira quando ela tinha sete. O pai matou a mãe, quando Trinity ia abraçar ela. As cinzas caíram em cima dela, com as roupas. Ela nunca superou isso.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Conheço a história. Meus pais e os dela eram amigos.</default>
@@ -153,13 +162,13 @@
 		<default>Então acho que devia largar isso.</default>
 	</talk>
 	<teller>
-		<default>Ele solta a besta num canto. Encara Juliana. Esta dá um beijo na testa da filha, veste uma capa e sai.</default>
+		<default>Alan baixa a besta. Encara Juliana. Juliana veste o capuz da capa que trazia. Abaixa perto de Ísis, dá um beijo na testa. Levanta e sai. Ísis acompanha Juliana com os olhos.</default>
 	</teller>
 	<talk character="Ísis">
 		<default>Não quero mais que seja meu pai.</default>
 	</talk>
 	<teller>
-		<default>Ísis corre para o quarto. Janaína vai atrás de Ísis.</default>
+		<default>Ísis corre para o quarto. Janaína vai atrás. Ísis se senta em um canto, com os joelhos encolhidos, abraçando. Janaína se senta ao seu lado.</default>
 	</teller>
 	<talk character="Janaína">
 		<default>Seu pai só quer te proteger.</default>
@@ -195,7 +204,7 @@
 		<default>Não, isso não. Mas não quer dizer que ele seja legal.</default>
 	</talk>
 	<teller>
-		<default>Ísis a abraça.</default>
+		<default>Ísis abraça Janaína.</default>
 	</teller>
 	<talk character="Ísis">
 		<default>Quero minha mãe.</default>
@@ -216,7 +225,7 @@
 		<default>Preciso falar com você.</default>
 	</talk>
 	<teller>
-		<default>Janaína sai do quarto. Soraia a segue.</default>
+		<default>Janaína vai para o corredor. Soraia segue.</default>
 	</teller>
 	<talk character="Janaína">
 		<default>Que quer? Mata Juliana, casa com Alan e tem a família perfeita?</default>
@@ -228,7 +237,7 @@
 		<default>Não, eu tava falando de humanos.</default>
 	</talk>
 	<talk character="Soraia">
-		<default>A mãe dessa criança morreu. E, quanto à eu querer ficar com Alan, caso não se lembre, ele tá com a prima dele agora.</default>
+		<default>A mãe dessa criança morreu. E, quanto a eu querer ficar com Alan, caso não se lembre, ele tá com a prima dele agora.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Não me engana com esse papo de que está aqui pra ficar de olho em Beatrice e Zenon.</default>
@@ -249,7 +258,7 @@
 		<default>Não sou lésbica!</default>
 	</talk>
 	<teller>
-		<default>Janaína sai. No quarto...</default>
+		<default>Janaína bufa. Soraia se aproxima de Ísis no quarto.</default>
 	</teller>
 	<talk character="Ísis">
 		<default>O que é preferência sexual?</default>
@@ -270,7 +279,7 @@
 		<default>Essa é uma das coisas.</default>
 	</talk>
 	<teller>
-		<default>Janaína vai até a sala.</default>
+		<default>Janaína volta à sala.</default>
 	</teller>
 	<talk character="Alan">
 		<default>E aí?</default>
@@ -279,8 +288,11 @@
 		<default>Só não aponte mais armas pra mãe dela.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Acha mesmo que Juliana pode ser boazinha?</default>
+		<default>Acha mesmo que Juliana pode não ser ruim?</default>
 	</talk>
+	<teller>
+		<default>Janaína cruza os braços.</default>
+	</teller>
 	<talk character="Janaína">
 		<irony>Se não me engano, a mãe não foi o único parente da menina a se envolver com vampiros.</irony>
 	</talk>
@@ -291,13 +303,13 @@
 		<default>Clítia me enganou!</default>
 	</talk>
 	<teller>
-		<default>Juliana está assistindo TV na MEAK. Zenon chega.</default>
+		<first>Juliana está assistindo TV na MEAK. Zenon chega.</first>
 	</teller>
 	<talk character="Juliana">
 		<default>Esse cara. É o cara que me mordeu.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não foi transformada por ele. Foi transformada por ela.</default>
+		<default>Clítia quem te transformou.</default>
 	</talk>
 	<talk character="Juliana">
 		<default>Como sabe?</default>
@@ -309,7 +321,7 @@
 		<default>Sim.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Fomos transformados pela mesma pessoa.</default>
+		<default>A mesma pessoa transformou a gente.</default>
 	</talk>
 	<talk character="Juliana">
 		<default>E eu posso reconhecer quem foi transformado por ela?</default>
@@ -333,19 +345,19 @@
 		<default>É.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ela ficou louca assim uma vez. Um caçador matou o brinquedo dela. Não queria ser ele.</default>
+		<default>Já enlouqueceu assim uma vez. Um caçador matou o brinquedo dela. Não queria ser ele.</default>
 	</talk>
 	<talk character="Juliana">
-		<default>Acha que ela virá atrás de mim?</default>
+		<default>Acha que ela vai vir atrás de mim?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Se não quiser voltar com ela, é melhor escondermos muito bem sua filha.</default>
+		<default>Se não quiser Clítia, é melhor escondermos muito bem Ísis.</default>
 	</talk>
 	<talk character="Aléxis">
 		<arrive>Agora ela é perseguida por vampiros. Podemos chamar o grupo.</arrive>
 	</talk>
 	<talk character="Zenon">
-		<default>Bom, sabemos que foi ele. Por que tá passando na TV?</default>
+		<default>Por que tá passando na TV?</default>
 	</talk>
 	<talk character="Juliana">
 		<default>As duas ex foram encontradas mortas. Reconheceram os corpos agora.</default>
@@ -357,10 +369,10 @@
 		<default>Com certeza não foi pior do que Clítia fez com o caçador.</default>
 	</talk>
 	<talk character="Aléxis">
-		<default>Vamos falar com Soraia. Acho que ela e Alan podem proteger Ísis.</default>
+		<default>Vamos falar com Soraia. Acho que junto com Alan pode proteger Ísis.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>É melhor tirá-la daqui.</default>
+		<default>É melhor tirar daqui das Ilhas.</default>
 	</talk>
 	<talk character="Bea">
 		<arrive>Falando de que?</arrive>
@@ -369,28 +381,37 @@
 		<default>De tirar Ísis daqui.</default>
 	</talk>
 	<talk character="Aléxis">
-		<default>Foi Clítia quem a transformou.</default>
+		<default>Foi Clítia quem transformou Juliana.</default>
 	</talk>
 	<talk character="Juliana">
 		<default>Não quero ficar longe da minha filha.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Quer sim. Você é o alvo. E, Aléxis, seu prazo para pegar Clítia acabou.</default>
+		<default>Quer sim. Você é o alvo.</default>
 	</talk>
 	<teller>
-		<default>Noite. Estela está no quarto, com Kat.</default>
+		<default>Beatrice olha para Aléxis.</default>
+	</teller>
+	<talk character="Bea">
+		<default>E seu prazo para pegar Clítia acabou.</default>
+	</talk>
+	<teller>
+		<first>Noite. MEAK. Quarto.</first>
 	</teller>
 	<talk character="Kat">
-		<default>De que ele tava falando?</default>
+		<default>De que Alan tava falando?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não sei. Ele nunca disse nada... Ultimamente tem estado estranho. Não sei se é ciúmes do Derik...</default>
 	</talk>
+	<teller>
+		<default>Kat franze a sobrancelha.</default>
+	</teller>
 	<talk character="Kat">
-		<default>Falou o nome do Derik dormindo?</default>
+		<default>Falou o nome de Derik dormindo?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Será que sou mesmo o único aqui que se deu conta?</default>
+		<default>Só eu me dei conta?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Do que?</default>
@@ -405,25 +426,31 @@
 		<default>Não tem mesmo, Estela?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Droga, eu passei a vida inteira babando por ele e ainda tenho que passar por isso??? Eu devia estar com ciúmes! Ele é quem tá sendo cercado pela Soraia, agora essa aí apareceu com uma filha dele a tira-colo...</default>
+		<default>Droga, eu passei a vida inteira babando por ele e ainda tenho que passar por isso??? Eu que devia estar com ciúmes!!! Ele é quem tá sendo cercado pela Soraia, agora essa aí apareceu com uma filha dele a tira-colo...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Mas não está.</default>
+		<default>Mas não tá.</default>
 	</talk>
+	<teller>
+		<default>Estela abre a boca. Fecha. Olha para baixo.</default>
+	</teller>
 	<talk character="Estela">
 		<default>Será que é isso?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Acho que deveria parar pra pensar. Se não vai ficar que nem a Janaína.</default>
+		<default>Acho que deveria parar pra pensar. Se não vai ficar que nem Janaína.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Mas não sou lésbica. Não tenho nenhum preconceito, eu saberia se fosse.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Desculpa, Estela, mas tá falando que nem ela.</default>
+		<default>Desculpa, Estela, mas tá falando igualzinho.</default>
 	</talk>
 	<teller>
-		<default>Ela se levanta. Olha pra eles. Baixa a cabeça. Sai. Vai até a casa de Janaína. Ela está na sala, com vários papéis.</default>
+		<default>Estela olha para Kat. Sai.</default>
+	</teller>
+	<teller>
+		<first>Casa de Janaína. Janaína está no chão, diversos papéis ao redor. Estela entra. Janaína olha para Estela.</first>
 	</teller>
 	<talk character="Janaína">
 		<default>Ainda bem que veio. Fui te procurar na sua casa, você não tava...</default>
@@ -431,6 +458,9 @@
 	<talk character="Estela">
 		<default>Acha que sou lésbica?</default>
 	</talk>
+	<teller>
+		<default>Janaína franze a testa.</default>
+	</teller>
 	<talk character="Janaína">
 		<default>Não sei. Essas coisas não vêm escritas na testa.</default>
 	</talk>
@@ -441,7 +471,7 @@
 		<default>É. Me ajuda?</default>
 	</talk>
 	<teller>
-		<default>Estela se senta com ela.</default>
+		<default>Estela se senta de frente para Janaína.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Tá misturando tudo.</default>
