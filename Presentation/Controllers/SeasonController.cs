@@ -88,17 +88,10 @@ namespace Presentation.Controllers
             if (UrlUserType.IsAuthor())
             {
                 model.TabIndex = 1;
-                return editEpisode(model);
+                return View("Author/Episode", model);
             }
 
             return View(model);
-        }
-        
-        private ActionResult editEpisode(SeasonEpisodeModel model)
-        {
-            EpisodeEditionHelper.PutCharacter(model.Story);
-
-            return View("Author/Episode", model);
         }
 
 
@@ -115,8 +108,6 @@ namespace Presentation.Controllers
         public void EditScene(SeasonEpisodeModel model, String seasonID, String episodeID, String sceneID)
         {
             var xml = new SceneXML(paths.Xml, seasonID, episodeID, sceneID) { Scene = model.Story[sceneID] };
-
-            EpisodeEditionHelper.CutCharacter(xml.Scene);
 
             xml.WriteStory();
         }
