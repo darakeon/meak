@@ -1,12 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="10" scene="f">
 	<teller>
-		<default>Kat anda de um lado para o outro. Angely e Edmont estão sentados, olhando para ela.</default>
+		<default>Kat anda de um lado para o outro. Angely e Edmont estão sentados, olhando para Kat.</default>
 	</teller>
 	<talk character="Mel">
 		<arrive>Gente, desculpa, eu acabei caindo no sono de novo...</arrive>
-		<teller>repara em Kat</teller>
-		<default>Que ela tem?</default>
+	</talk>
+	<teller>
+		<default>Mel olha para Kat. Kat ainda anda de um lado a outro.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Que aconteceu?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Viu o amante da Astride num sonho.</default>
@@ -15,28 +19,28 @@
 		<default>Mas ela não estaria tão nervosa só por isso.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela viu ele matar uma garota.</default>
+		<default>Kat viu matar uma garota.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vou falar com ela... E vocês dois, nem fizeram a comparação, né???</default>
+		<default>Vou falar com Kat... E vocês, nem fizeram a comparação, né???</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tá, olharemos agora, fala lá com ela. Tá dando angústia!</default>
+		<default>Tá, vamos ver, fala lá com Kat, tá dando angústia!</default>
 	</talk>
 	<teller>
-		<default>Eles levantam e vão até a mesa. Mel pega Kat pelo braço e senta-a no sofá, e senta-se ao seu lado.</default>
+		<default>Eles levantam. Vão até a mesa. Mel pega Kat pelo braço e faz sentar no sofá. Senta-se ao lado.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Por que você tá assim?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eles não te falaram?</default>
+		<default>Não te falaram?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não é só isso, eu sei.</default>
 	</talk>
 	<teller>
-		<default>Kat vai se levantar, mas Mel a segura pelo braço.</default>
+		<default>Kat vai se levantar, mas Mel segura pelo braço.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Fala pra mim.</default>
@@ -60,13 +64,13 @@
 		<default>Eu sei que isso deve ser ruim...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Você não entendeu. Era como se estivesse no lugar dela.</default>
+		<default>Você não entendeu. Era como se estivesse no lugar da pessoa.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Está me deixando confusa.</default>
+		<default>Tá confuso.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Quando ele encostou ela na parede, era como se tivesse me encostado. Quando mordeu ela, senti ele me morder. Senti minha vida querer ir embora.</default>
+		<default>Quando encostou Silvia na parede, era como se tivesse me encostado. Quando mordeu, senti me morder. Senti minha vida querer ir embora.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Você tá se envolvendo muito com isso.</default>
@@ -74,8 +78,11 @@
 	<talk character="Kat">
 		<default>Já me disseram que você resolveu virar zumbi.</default>
 	</talk>
+	<teller>
+		<default>Mel olha para Angely e Edmont. Volta a olhar pra Kat.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Eles exageraram um pouco. Kat, não era você que estava lá, tá bom? Nós vamos pegar ele.</default>
+		<default>Exageraram um pouco. Kat, não era você que estava lá, tá bom? Nós vamos pegar o vampiro.</default>
 	</talk>
 	<talk character="Kat">
 		<default>E se continuar assim? E se eu continuar sentindo como se estivesse lá?</default>
@@ -84,7 +91,13 @@
 		<default>Você vai se acostumar.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não, não vou. Acho que é um castigo pela frieza com que eu tratava isso. Sempre tão indiferente, comparando meus problemas com isso.</default>
+		<default>Não, não vou. Acho que é um castigo pela frieza que eu falava disso. Sempre tão indiferente, comparando meus problemas com isso.</default>
+	</talk>
+	<teller>
+		<default>Mel abraça Kat.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Você não tem idade. Não tinha nem que ver isso.</default>
 	</talk>
 	<teller>
 		<first>Tarde.</first>
@@ -92,17 +105,17 @@
 	<talk character="Derik">
 		<arrive>É, foi morta por um vampiro mesmo. Ele não deixou rastro, nenhuma pista.</arrive>
 	</talk>
-	<talk character="Angely">
-		<default>Melhor nós falarmos com elas.</default>
-	</talk>
 	<talk character="Mel">
-		<default>Ei, ainda não terminaram!</default>
+		<default>Melhor nós falarem com Djanira e Astride. A gente termina aqui.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Edmont não é exatamente o rei da delicadeza.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Terminem vocês três, nós vamos lá.</default>
+		<default>Mas falamos primeiro, melhor continuar no mesmo contato.</default>
 	</talk>
 	<teller>
-		<default>Edmont e Angely saem. Não encontram as duas em casa. De noite, eles chegam a um bar e encontram elas.</default>
+		<default>Noite. Angely e Edmont chegam a um bar.</default>
 	</teller>
 	<talk character="Agnes">
 		<default>Oi...</default>
@@ -114,28 +127,28 @@
 		<default>Você jurou que ela não ia ficar sabendo!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ele jurou que não contaria, mas eu não...</default>
+		<default>Mas eu não jurei nada.</default>
 	</talk>
 	<talk character="Djanira">
 		<default>É assim?</default>
 	</talk>
 	<teller>
-		<default>Angely fica em silêncio. Djanira tira uma arma da bolsa e aponta pra Agnes.</default>
+		<default>Angely baixa a cabeça. Djanira tira uma arma da bolsa e aponta pra Agnes.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Djanira, solta isso.</default>
 	</talk>
 	<talk character="Djanira">
-		<default>Pode ser que vocês me culpem agora, mas vão me agradecer depois!</default>
+		<default>Pode ser que vocês me culpem agora, mas vão me agradecer depois.</default>
 	</talk>
 	<teller>
-		<default>Um homem desarma Djanira e a segura. Angely e Edmont tiram Agnes do bar.</default>
+		<default>Zenon trava os braços de Djanira por trás. Um tiro, para o alto. Angely pega Agnes pela mão e corre. Edmont olha para Djanira. Djanira joga Zenon no chão. Edmont corre atrás de Angely e Agnes.</default>
 	</teller>
 	<teller>
 		<first>MEAK.</first>
 	</teller>
 	<talk character="Edmont">
-		<default>Cadê a Kat?</default>
+		<arrive>Cadê a Kat?</arrive>
 	</talk>
 	<talk character="Mel">
 		<default>Demos calmante a ela, estava muito tensa.</default>
@@ -144,13 +157,19 @@
 		<default>E as duas?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Djanira foi desarmada por um cara e fugiu. Agnes saiu do bar com a gente, mas sumiu logo em seguida.</default>
+		<default>Djanira ficou batendo num cara, Agnes correu com Angely, mas saiu correndo pra outro lado. Falamos pra entrar no carro, mas...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tinham razão sobre dormir direito, a primeira coisa que li já dizia tudo: ela se guardaria para ele nessa encarnação, mesmo sem saber.</default>
+		<default>Tinham razão sobre dormir direito, a primeira coisa que li já dizia tudo: se guardaria nessa encarnação, mesmo sem saber.</default>
 	</talk>
 	<teller>
-		<default>Angely vai até a garagem. Edmont o segue.</default>
+		<default>Edmont olha para Angely.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Agnes já inclusive teve um namoro antes.</default>
+	</talk>
+	<teller>
+		<default>Angely sai. Edmont segue.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Angely, não!</default>
@@ -159,10 +178,10 @@
 		<default>Temos que impedir isso!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Eu conversei com Djanira, ela não é de se entregar fácil, não vai cair na dele. Além do que, ele nem sabe de nada!</default>
+		<default>Eu conversei com Djanira, ela não é de se entregar fácil, não vai cair fácil. Além do que, o tal cara provavelmente nem sabe de nada!</default>
 	</talk>
 	<teller>
-		<default>Num beco...</default>
+		<default>Num beco, Zenon está olhando para Djanira.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Entendo que queira matar sua irmã, mas não pode fazer isso no meio de um bar.</default>
@@ -174,7 +193,7 @@
 		<default>Posso te ajudar com isso, se quiser.</default>
 	</talk>
 	<teller>
-		<default>Ele se aproxima dela e tenta beijá-la, mas ela se afasta.</default>
+		<default>Zenon se aproxima de Djanira. Tenta um beijo, mas Djanira se afasta.</default>
 	</teller>
 	<talk character="Djanira">
 		<default>Não sou prostituta.</default>
@@ -198,13 +217,13 @@
 		<default>É fácil. Nenhum deles presta.</default>
 	</talk>
 	<teller>
-		<default>Ela sai. Ele se senta no chão.</default>
+		<default>Djanira sai. Zenon se senta no chão.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Não pode ser.</default>
+		<default>Não pode ser. É verdade.</default>
 	</talk>
 	<teller>
-		<first>Djanira anda pela cidade. Angely se aproxima e para com a moto.</first>
+		<first>Djanira está andando. Uma moto diminui a velocidade ao seu lado.</first>
 	</teller>
 	<talk character="Djanira">
 		<default>Que quer?</default>
@@ -219,16 +238,16 @@
 		<default>Não quero fazer nada com você.</default>
 	</talk>
 	<talk character="Djanira">
-		<default>É, eu ouvi minha irmã falando.</default>
+		<default>É, eu ouvi minha irmã falando. Parece bastante com nada.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Edmont e Agnes estão te procurando também.</default>
+		<default>Estamos procurando você e Agnes pela cidade. Agora te encontrei...</default>
 	</talk>
 	<talk character="Djanira">
 		<default>Descobriram que estou certa?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Estava errada.</default>
+		<default>Não está.</default>
 	</talk>
 	<talk character="Djanira">
 		<default>Diz isso pra eu não matar ela assim que encontrar.</default>
@@ -243,17 +262,20 @@
 		<default>Por favor, não faz isso.</default>
 	</talk>
 	<teller>
-		<first>Enquanto isso...</first>
+		<first>Outra parte da cidade.</first>
 	</teller>
 	<talk character="Agnes">
 		<default>Djanira... Djanira...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Procurando alguém?</default>
+		<arrive>Procurando alguém?</arrive>
 	</talk>
 	<talk character="Agnes">
 		<default>Foi o senhor...</default>
 	</talk>
+	<teller>
+		<default>Zenon olha em volta.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Senhor? Onde?</default>
 	</talk>
@@ -267,13 +289,13 @@
 		<default>Sabe onde ela foi?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Com tanta raiva que ela estava, se eu fosse você, não a procurava.</default>
+		<default>Com tanta raiva que ela estava, se eu fosse você, não procurava.</default>
 	</talk>
 	<talk character="Agnes">
 		<default>Até esqueci de te agradecer.</default>
 	</talk>
 	<teller>
-		<default>Zenon se aproxima dela.</default>
+		<default>Zenon se aproxima de Agnes.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Por que?</default>
@@ -282,22 +304,22 @@
 		<default>Salvou minha vida.</default>
 	</talk>
 	<teller>
-		<default>Zenon mexe no cabelo dela.</default>
+		<default>Zenon mexe no cabelo de Agnes.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Ela não ia atirar.</default>
 	</talk>
 	<talk character="Agnes">
-		<default>Eu não sei. Sempre achei que todo mundo estava errado, mas agora...</default>
+		<default>Eu não sei. Sempre achei que todo mundo tava errado, mas agora...</default>
 	</talk>
 	<teller>
-		<default>Zenon aproxima ela de si.</default>
+		<default>Zenon passa a mão em volta a cintura de Agnes e aproxima de si.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Se ela realmente quisesse você morta, já estaria.</default>
 	</talk>
 	<talk character="Agnes">
-		<default>Que está fazendo?</default>
+		<default>Que tá fazendo?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Você é bem diferente dela.</default>
@@ -309,10 +331,10 @@
 		<default>Ela é mais forte.</default>
 	</talk>
 	<teller>
-		<default>Zenon beija o pescoço dela.</default>
+		<default>Zenon aproxima o nariz do pescoço dela. Cheira. Beija. Agnes estremece.</default>
 	</teller>
 	<talk character="Agnes">
-		<default>Me solta, por favor.</default>
+		<default>Me solta, por favor. Preciso achar minha irmã.</default>
 	</talk>
 	<teller>
 		<default>Zenon mostra seus dentes.</default>
@@ -321,11 +343,14 @@
 		<default>Não.</default>
 	</talk>
 	<teller>
-		<first>Na MEAK...</first>
+		<first>MEAK. Kat está coberta. Aperta o cobertor. Derik levanta.</first>
 	</teller>
 	<talk character="Derik">
 		<default>Que ela tem?</default>
 	</talk>
+	<teller>
+		<default>Mel olha para Kat.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Deve estar tendo algum sonho.</default>
 	</talk>
@@ -335,9 +360,15 @@
 	<talk character="Mel">
 		<default>Droga, tá acontecendo de novo!</default>
 	</talk>
+	<teller>
+		<default>Mel abaixa perto do sofá.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Me solta! Socorro!</default>
 	</talk>
+	<teller>
+		<default>Mel chacoalha Katerine.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Acorda!</default>
 	</talk>
@@ -345,13 +376,19 @@
 		<default>Que isso???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela não tá mais sonhando só como se fosse espectadora!</default>
+		<default>Ela não tá mais sonhando só como se estivesse só vendo!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Kat, acorda!</default>
 	</talk>
 	<teller>
-		<default>Kat pede socorro e arranha o sofá. Enquanto Derik e Mel tentam acordá-la, a voz vai ficando mais fraca. Na cidade, Zenon solta o corpo de Agnes, morta. Na casa, Kat acorda. Abraça Derik.</default>
+		<default>Kat arranha o sofá. Mel chacoalha Kat.</default>
+	</teller>
+	<talk character="Kat">
+		<hushed>Socorro...</hushed>
+	</talk>
+	<teller>
+		<default>Na cidade, Zenon solta o corpo de Agnes. Na casa, Kat acorda. Derik abraça Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Ela está morta... Morta...</default>
@@ -360,24 +397,29 @@
 		<default>Calma, Kat... Calma, meu amor.</default>
 	</talk>
 	<teller>
-		<default>Na cidade, Edmont encontra Angely.</default>
+		<default>Cidade. Edmont para a moto ao lado de outra. Angely vem em sua direção, com o capacete na mão. Djanira vem atrás.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Onde está Agnes?</default>
 		<teller>o celular toca</teller>
-		<default>Mel? O que??? Não pode ser...</default>
+	</talk>
+	<teller>
+		<default>Toca o celular. Edmont atende.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Mel? ### Não pode ser...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Que é?</default>
 	</talk>
 	<teller>
-		<default>Djanira aproveita a distração dos dois e sai. Na MEAK...</default>
+		<default>Djanira balança a cabeça para os lados. Sai. MEAK.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Cadê o calmante???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Já tomou dois comprimidos... Ah, não, Kat, não vou deixar você dormir de novo!</default>
+		<default>Já tomou dois comprimidos, vai fazer efeito daqui a... Ah, não, Kat, não vou deixar você dormir de novo!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Eu preciso!</default>
@@ -386,16 +428,19 @@
 		<default>Mel já foi atrás deles, não pode fazer mais nada!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Me dá isso!</default>
+		<default>Me dá!</default>
 	</talk>
+	<teller>
+		<default>Derik ajoelha na frente de Kat.</default>
+	</teller>
 	<talk character="Derik">
 		<default>Não vai adiantar querer ficar sofrendo por elas! Eu quero você aqui! Eu preciso que você continue comigo!</default>
 	</talk>
 	<teller>
-		<default>Derik deixa uma lágrima cair de seu rosto. Kat abraça Derik.</default>
+		<default>Kat olha para Derik. Senta no sofá. Derik senta ao lado. Kat abraça Derik.</default>
 	</teller>
 	<teller>
-		<first>Djanira está caminhando. Zenon aparece em sua frente.</first>
+		<first>Djanira está caminhando. Trava.</first>
 	</teller>
 	<talk character="Djanira">
 		<default>Você de novo.</default>
@@ -424,7 +469,7 @@
 	<talk character="Djanira">
 		<default>E o que vai fazer, Don Juan?</default>
 	</talk>
-	<talk character="caça-vampiros">
+	<talk character="Paulo">
 		<arrive>Se afasta da menina!</arrive>
 	</talk>
 	<talk character="Djanira">
@@ -434,123 +479,21 @@
 		<default>Qual o problema, caçador? Tem medo de acertar ela?</default>
 	</talk>
 	<teller>
-		<default>Djanira fica pálida.</default>
+		<default>Djanira trava a boca. Olha para Paulo. Paulo está apontando uma besta para Zenon.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Vamos, atire. Ela não vai ficar chocada, agora a pouco ia matar a irmã num bar... Qual o problema? Ainda não aprendeu a usar esse brinquedo?</default>
 	</talk>
 	<teller>
-		<default>Ela dá um chute, desarmando o caçador. Zenon foge.</default>
+		<default>Djanira dá um chute, desarmando Paulo. Paulo levanta e olha ao redor.</default>
 	</teller>
-	<talk character="caça-vampiros">
+	<talk character="Paulo">
 		<default>Que deu em você???</default>
 	</talk>
 	<talk character="Djanira">
 		<default>Eu não sei.</default>
 	</talk>
 	<teller>
-		<default>Ele pega a arma do chão. Djanira sai andando. Ali perto.</default>
+		<default>Paulo pega a arma do chão. Djanira sai andando.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Uma morta e outra desaparecida... Belo serviço.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não falou pra ela que era ela, falou?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Falei, tinha que dizer.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Djanira vai se matar.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ela ia matar a irmã pra impedir isso, vai se matar!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não posso deixar isso acontecer!</default>
-	</talk>
-	<talk character="Mel">
-		<arrive>Onde ela está?</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Saiu sem que percebêssemos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Droga!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Uma morreu pelo que eu não disse, não vou deixar essa morrer pelo que falei demais.</default>
-	</talk>
-	<teller>
-		<default>Em uma igreja.</default>
-	</teller>
-	<talk character="Djanira">
-		<default>Tanto tempo tentando evitar isso... Se eu tivesse pensado que poderia ser eu... Como eu ia imaginar... Me ajuda! Por favor! Me tira daqui, salva o que resta da minha alma... Não deixa eu voltar a encontrar ele!</default>
-	</talk>
-	<teller>
-		<default>Ela sai da igreja. Zenon a vê. Seus olhos brilham. Começa a chover.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Minha Astride.</default>
-	</talk>
-	<teller>
-		<default>Ela olha para ele.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Sabe que é. Minha... Só minha!</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Deus não vai deixar!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Por que diz isso se eu te amo?!</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Isso não é amor! Não chama isso de amor!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Você me pertence!</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Não posso ser eu.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>É sim... Não vê que usou aquele pergaminho como desculpa pra matar sua irmã?! Vem comigo...</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Eu não posso...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Por favor! Eu te amo!</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Antes eu morra!</default>
-	</talk>
-	<teller>
-		<default>Ela fala e um raio cai sobre ela. Zenon é jogado longe. Angely, Edmont e Mel vão até onde caiu o raio. Edmont pega Djanira no colo. Zenon olha de longe. Sente uma tontura. Coloca a mão na cabeça. Olha para Djanira de novo. Faz sinal de negativo com a cabeça, aperta os olhos. Vai embora.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Ainda está viva...</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Obrigado, meu Deus...</default>
-	</talk>
-	<teller>
-		<default>Djanira fala isso e fecha os olhos. Angely verifica o pulso. Olha para o céu. Mel olha em volta e não vê mais Zenon. Dias depois, Edmont está no escritório. Angely sobe.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Deveríamos fechar a agência também.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Já ajudamos pessoas. Perdemos algumas vezes, mas...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Achei que isso tivesse acabado. Beatrice, a família de Kat, o sr. Júlio, Agnes, Djanira... Quantas vidas mais vamos perder?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não podemos vencer sempre.</default>
-	</talk>
 </story>

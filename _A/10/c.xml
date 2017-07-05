@@ -1,7 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="10" scene="c">
 	<teller>
-		<default>Angely pensa em ir à casa de Dara, pra falar com ela, mas Kat chega.</default>
+		<first>MEAK. Angely desce a escada.</first>
+	</teller>
+	<talk character="Angely">
+		<default>Pensei que Edmont estaria aqui.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não está no quarto dele?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Não... Que será que aconteceu?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Geralmente ele estaria dormindo no quarto dele, por causa da farra da noite anterior. Vai ver ele resolveu ficar por lá. Vou subir, preciso de um banho. Aí a gente vê esse troço.</default>
+	</talk>
+	<teller>
+		<default>Mel sobe. Kat chega.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Preciso te contar uma coisa. Sobre a Meg.</default>
@@ -16,7 +31,7 @@
 		<default>Onde está?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Isso é que eu queria saber. Ele desapareceu.</default>
+		<default>Isso é que eu queria saber. Desapareceu.</default>
 	</talk>
 	<talk character="Angely">
 		<default>E por que veio me contar isso agora?</default>
@@ -28,19 +43,22 @@
 		<default>Que tá querendo dizer?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Se cair em mãos erradas, isso pode ser um problema.</default>
+		<default>Se cair em mãos erradas, isso pode ser um problema. Mel tá aí?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Lá em cima.</default>
 	</talk>
 	<teller>
-		<default>Kat sai. Angely se senta no sofá e apoia a mão na cabeça.</default>
+		<default>Kat sai. Angely se senta no sofá.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Será que ela tava falando sério?</default>
 	</talk>
 	<teller>
-		<default>Angely fica ali sentado. Quando lembra que queria falar com Dara, Edmont chega.</default>
+		<default>Edmont chega.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Não te vejo desde à tarde ontem, que andou fazendo?</default>
+		<default>Não te vejo desde a tarde ontem, que andou fazendo?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Falando com alguém.</default>
@@ -55,16 +73,13 @@
 		<default>Edmont pega o pergaminho sobre a mesinha da sala.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Estava te esperando. Preciso de ajuda pra tentar decifrar.</default>
+		<default>Um caso.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>De onde veio?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Bom...</default>
-	</talk>
 	<teller>
-		<first>Na casa de Dara...</first>
+		<default>Casa de Dara.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Por onde você andou?!</default>
@@ -82,10 +97,10 @@
 		<default>Mas vai sujar o nome da família se engravidar ou...</default>
 	</talk>
 	<teller>
-		<default>Dara ri e vai pra seu quarto.</default>
+		<default>Dara ri. Sai.</default>
 	</teller>
 	<teller>
-		<first>Angely e Edmont estão no escritório, tentando decifrar o que estava escrito no pergaminho. Mel chega.</first>
+		<first>Angely e Edmont estão no escritório. Mel chega.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Resolveu voltar ao trabalho?</default>
@@ -100,30 +115,34 @@
 		<default>E pra que serve celular?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pra avisar que o celular está fora de área ou desligado! Tão fazendo o que aí?</default>
+		<default>Pra avisar que o celular está fora de área ou desligado. Tão fazendo o que aí?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Djanira me entregou o pergaminho. Estamos tentando entender.</default>
+		<default>Decifrando pergaminho...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Daquí, que eu faço isso mais rápido que vocês.</default>
+		<default>Dá'qui, que eu faço isso mais rápido que vocês.</default>
 	</talk>
 	<teller>
-		<default>Mel vai até a mesa do escritório.</default>
+		<default>Mel vai até a mesa.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Por que acha isso?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Por que vocês só passaram doze anos aprendendo coisas que prestassem e eu passei vinte e três.</default>
-		<teller>pega o pergaminho</teller>
+	</talk>
+	<teller>
+		<default>Senta e pega o pergaminho.</default>
+	</teller>
+	<talk character="Mel">
 		<default>O que vocês dois fazem juntos em meia hora eu faço sozinha em cinco minutos.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Onde foi que ela esqueceu a modéstia dela?</default>
+		<default>Onde foi que esqueceu a modéstia?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Dentro da barriga da mãe.</default>
+		<default>Dentro da barriga, antes de nascer.</default>
 	</talk>
 	<teller>
 		<default>Mel se senta na cadeira. Edmont e Angely se entreolham.</default>
@@ -132,41 +151,44 @@
 		<default>Vem comigo.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Aonde?</default>
+		<default>Onde?</default>
 	</talk>
 	<teller>
-		<default>Edmont sai do escritório e Angely o segue. Eles entram no carro.</default>
+		<default>Edmont sai do escritório. Angely segue. Entram no carro.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Onde vamos?</default>
+		<default>Aonde vamos?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>À casa da minha namorada.</default>
+		<default>Casa da pessoa com quem estou namorando.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sua namorada?!</default>
+		<default>Namorando?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Lembra que eu disse que passei todo aquele tempo com alguém?</default>
 	</talk>
 	<talk character="Angely">
-		<thought>Será que eu pergunto? Pode ser ela... E se for?</thought>
+		<thought>Será que eu pergunto? Pode ser... E se for?</thought>
 		<default>Quem é?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Dara.</default>
 	</talk>
+	<teller>
+		<default>Angely olha para fora.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Pra que quer que eu vá junto?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Elas resolveram fazer uma festinha particular, sabe essas reuniões de garotas?</default>
+		<default>Resolveram fazer uma festinha particular, sabe essas reuniões de garotas?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ainda sou um homem.</default>
+		<default>Sou homem.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não é disso que eu tô falando.</default>
+		<default>Ninguém tem nada a ver com como você nasceu, nem eu. Não vivi tanto assim entre humanos. Não é disso que eu tô falando.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Do que então?</default>
@@ -178,22 +200,22 @@
 		<default>Não vou sair dormindo com todo mundo que aparece.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não é pra tanto, você nem agüentaria todas elas.</default>
+		<default>Não é pra tanto, você nem conseguiria com todas elas. Acho.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Sabe o que eu quis dizer.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Cara, você tem que sair dessa... Eu vou ficar com Handhara e deixo você lá com as meninas.</default>
+		<default>Cara, você tem que sair dessa... Eu vou ficar com Handhara e deixo você lá.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu não...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Que foi? Acha que elas não vão gostar que você "atrapalhe" a reunião delas?</default>
+		<default>Que foi? Acha que elas não vão gostar que você "atrapalhe" a reunião delas? Tão tudo babando em você.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Como você ficou sabendo dessa... Reunião?</default>
+		<default>Como você ficou sabendo dessa reunião?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Dara me contou.</default>
@@ -217,7 +239,7 @@
 		<first>15:00. Mel, Kat e Derik estão no sótão.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Isso aqui diz que uma delas é a reencarnação de Astride, namorada de um vampiro, e prometeu reencontrá-lo, não deixando mais nenhum homem tocá-la. Diz também que ela cumpriria sua promessa sem perceber nessa encarnação.</default>
+		<default>Isso aqui diz que uma delas é a reencarnação de Astride, uma história de amor mono, e prometeu reencontrar, não se deitando com mais ninguém. Diz também que cumpriria sua promessa sem perceber nessa encarnação.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Bom, você disse que Djanira leu isso, certo?</default>
@@ -226,16 +248,16 @@
 		<default>Sim.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ela deve ser a reencarnação de Astride.</default>
+		<default>Então Djanira deve ser a reencarnação de Astride.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não faz sentido ela tentar matar a irmã por causa disso.</default>
+		<default>Não faz sentido tentar matar Agnes por causa disso.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Claro que faz: primeiro a irmã, depois o pai.</default>
+		<default>Claro que faz: primeiro Agnes, depois Jay.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Isso pode até ser, diz que Astride matou sua família também.</default>
+		<default>Isso pode até ser, diz que Astride matou a família também.</default>
 	</talk>
 	<talk character="Kat">
 		<default>E onde estão aqueles dois?</default>
@@ -247,7 +269,7 @@
 		<default>Pra onde?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não faço a mais puta idéia.</default>
+		<default>Não faço ideia.</default>
 	</talk>
 	<teller>
 		<default>Edmont e Dara estão no jardim.</default>
@@ -256,21 +278,25 @@
 		<default>Quero ver se o Bryan chega aí.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não chamou ele, chamou?</default>
+		<default>Não chamou, chamou?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Não, ele teve que ficar ajudando o pai em casa.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>E ela aproveita pra enfeitar um pouco mais a testa dele.</default>
+		<default>E Denise aproveita pra enfeitar um pouco mais a testa dele. Não entendo porque eles fingem ainda. Podiam só declarar que é uma festa que sai todo mundo com todo mundo e pronto.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Acha mesmo que ele ficou ajudando o pai em casa?</default>
-		<teller>ri</teller>
+	</talk>
+	<teller>
+		<default>Dara balança a cabeça para os lados, rindo.</default>
+	</teller>
+	<talk character="Dara">
 		<default>Trocando de assunto, mas nem tanto, acho que seu irmão vai querer te matar.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Só por que deixei ele na sala sozinho com cinco... garotas?</default>
+		<default>Só por que deixei ele na sala sozinho lá dentro?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Sabe que ele é tímido.</default>
@@ -279,7 +305,7 @@
 		<default>Eu não tinha escolha, agora tô comprometido.</default>
 	</talk>
 	<teller>
-		<default>No quarto de Denise...</default>
+		<default>Quarto de Denise.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Nem vai mais precisar de feitiço, eu tenho algo bem mais garanti... Achei!</default>
@@ -331,44 +357,57 @@
 	</talk>
 	<talk character="Agatha">
 		<default>Não importa! Coloca!</default>
-		<teller>pega o vidro e despeja dentro da garrafa</teller>
-		<default>Tem certeza que seus pais não voltam hoje, nem amanhã de manhã, né?</default>
+	</talk>
+	<teller>
+		<default>Pega o vidro e despeja dentro da garrafa.</default>
+	</teller>
+	<talk character="Agatha">
+		<default>Conheço ele desde sempre, nem sabe o quanto ele é tímido. Tem certeza que seus pais não voltam hoje, nem amanhã de manhã, né?</default>
 	</talk>
 	<talk character="Denise">
 		<default>Tenho...</default>
 	</talk>
 	<teller>
-		<default>Na sala, Angely já estava meio bêbado.</default>
+		<default>Na sala, Angely está no sofá, com um copo vazio na mão.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Tem certeza que não te conheço?</default>
+		<default>Tem certteza que não tchie conhesço?</default>
 	</talk>
 	<teller>
-		<default>Agnes faz menção de responder, mas é interrompida.</default>
+		<default>Agnes abre a boca.</default>
 	</teller>
 	<talk character="Agatha">
-		<default>Agora, vamos ver o quanto você consegue beber de uma vez.</default>
+		<default>Agora, vamos ver quanto cada um consegue beber de uma vez.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Pra que?</default>
+	</talk>
+	<talk character="Agatha">
+		<default>Estamos brincando de testar fôlego. Lembra? Você conseguia por mais tempo que o Edmont até! Você primeiro. Se precisar a gente reenche a garrafa.</default>
 	</talk>
 	<teller>
-		<default>Angely vai até Agatha e pega a garrafa. Bebe tudo de uma vez, secando a garrafa.</default>
+		<default>Angely vai até Agatha, cambaleando. Agatha entrega a garrafa. Quase derruba. Vira a garrafa. Bebe. Bebe. Bebe. Acaba.</default>
 	</teller>
+	<talk character="Angely">
+		<default>Preciso de uma garrafa maior pra brincar disso.</default>
+	</talk>
 	<talk character="Annie">
-		<default>Ele vai se lembrar dessa noite pro resto da vida.</default>
+		<hushed>Ele vai se lembrar dessa noite pro resto da vida.</hushed>
 	</talk>
 	<talk character="Agnes">
-		<default>Tinha o que exatamente lá dentro?</default>
+		<hushed>Tinha o que exatamente lá dentro?</hushed>
 	</talk>
 	<teller>
-		<first>3h. Mel, Derik e Kat ainda estão no sótão, analisando o pergaminho.</first>
+		<first>3h. Mel, Derik e Kat ainda estão no sótão.</first>
 	</teller>
 	<talk character="Derik">
 		<default>A maioria é característica física. Isso não ajuda.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Teríamos que conversar com elas.</default>
+		<default>Teríamos que conversar com Djanira e Agnes.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Talvez se pedíssemos ajuda pros...</default>
+		<default>Talvez se pedíssemos ajuda pra...</default>
 	</talk>
 	<teller>
 		<default>Mel boceja.</default>
@@ -385,16 +424,16 @@
 	<talk character="Mel">
 		<default>Que bom que não</default>
 		<teller>boceja</teller>
-		<default>está bêbado.</default>
+		<default>está caindo de bebedeira.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Eu não.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Peraí, a Mel disse que você tinha saído com o Angely...</default>
+		<default>Peraí, a Mel disse que você tinha saído com Angely...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ele ficou na casa da Denise.</default>
+		<default>Ficou na casa de Denise.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Nossa. Denise?</default>
@@ -403,13 +442,13 @@
 		<default>Na verdade, tem cinco lá.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Que elas vão fazer com ele?!</default>
+		<default>Que vão fazer com Angely?!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Kat, eu sei que você é virgem, mas não precisa exagerar na inocência.</default>
+		<default>Uma coisa que você ainda não fez.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele não aceitaria isso</default>
+		<default>Angely não faria nada</default>
 		<teller>boceja</teller>
 		<default>em sã consciência...</default>
 	</talk>
@@ -417,7 +456,7 @@
 		<default>Em sã consciência não, mas depois de algum álcool...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, se ele não está aqui,</default>
+		<default>Bom, se Angely não está aqui,</default>
 		<teller>boceja</teller>
 		<default>você vai ter que ajudar.</default>
 	</talk>
@@ -427,7 +466,7 @@
 	<talk character="Mel">
 		<default>Temos que descobrir se é</default>
 		<teller>boceja</teller>
-		<default>Agnes ou Djanira a garota</default>
+		<default>Agnes ou Djanira a pessoa</default>
 		<teller>boceja</teller>
 		<default>descrita aqui.</default>
 	</talk>
@@ -440,6 +479,6 @@
 		<default>com sono.</default>
 	</talk>
 	<teller>
-		<default>Edmont pega Mel pela mão e sai com ela do escritório.</default>
+		<default>Edmont pega Mel pela mão. Saem do escritório.</default>
 	</teller>
 </story>

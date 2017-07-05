@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="10" scene="e">
 	<teller>
-		<default>Cinco horas depois, Edmont chega em casa.</default>
+		<default>9:00. Edmont chega em casa.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Por onde andou?</default>
@@ -13,7 +13,7 @@
 		<default>Todo esse tempo?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É, nem notei que o tempo tava passando. Ela é legal, apesar de se esquivar um pouco.</default>
+		<default>É, nem notei que o tempo tava passando. É legal, apesar de se esquivar um pouco.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Eu, Kat e Derik fizemos um questionário, pra vocês responderem e depois compararmos com o pergaminho.</default>
@@ -37,10 +37,10 @@
 		<default>Eu já tô indo dormir. Agora é com vocês, não posso fazer mais nada.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por enquanto. E os dois?</default>
+		<default>Por enquanto. E Kat e Derik?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Kat e Derik? Foram estudar.</default>
+		<default>Foram estudar.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Eu sou a única pessoa responsável por aqui.</default>
@@ -49,7 +49,7 @@
 		<default>Ah?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É. Aliás, eu e Derik. Vocês três são mais que isso. Nem tanto a Kat, mais você e o Angely.</default>
+		<default>É. Aliás, eu e Derik. Vocês três são mais que isso. Nem tanto Kat, mais você e Angely.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Que tá querendo dizer?</default>
@@ -64,16 +64,19 @@
 		<default>Vai ficar querendo. Agora ambos vamos fazer algo que quase não fazemos: você vai dormir e eu vou trabalhar. Amanhã falamos sobre isso.</default>
 	</talk>
 	<teller>
-		<default>Ela vai pra seu quarto. Edmont vai pro escritório. Encontra Angely sentado, olhando pro nada.</default>
+		<default>Sobem a escada. Mel entra no quarto. Edmont vai pro escritório. Angely está sentado, olhando pro nada.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Pensando na vida?</default>
 	</talk>
+	<teller>
+		<default>Angely olha para Edmont. Volta a olhar para o papel.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Mais ou menos.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Quantas perguntas eles fizeram?</default>
+		<default>Quantas perguntas fizeram?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não sei, não terminei ainda.</default>
@@ -84,16 +87,17 @@
 	<talk character="Angely">
 		<default>Estou desde as quatro e meia.</default>
 	</talk>
+	<teller>
+		<default>Vê um livro sobre a mesa.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Tem certeza que eles se basearam só no pergaminho?</default>
-		<teller>vê um livro sobre a mesa e pega</teller>
-		<default>Sacanagem, eles acharam mais coisas.</default>
+		<default>Sacanagem, acharam mais coisa.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Bem que eu vi que o texto tava pequeno pra tanta pergunta.</default>
 	</talk>
 	<teller>
-		<default>Edmont pega as folhas. Uma hora depois, Angely termina. O telefone toca.</default>
+		<default>10h. O telefone toca.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Alô? ### Eu mesmo. ### Oi, Helene. ### Não dá, eu tô ocupado. ### Talvez. ### Tá, tchau.</default>
@@ -102,28 +106,34 @@
 		<default>Ê, Angely...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Que foi? Eu tô pregado.</default>
+		<default>Eu preciso dormir. Não quero falar com ninguém agora.</default>
 	</talk>
 	<teller>
-		<default>Angely desce à cozinha e o telefone toca de novo. Ele atende.</default>
+		<default>Angely sai. Vai até a cozinha. Toca o telefone. Angely atende.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Annie? ### Hoje não. ### Eu tenho algumas coisas pra fazer aqui. ### Tá, tudo bem. ### Tchau.</default>
-		<teller>desliga e toca de novo</teller>
-		<default>Cara, parece que elas combinam...</default>
-		<teller>atende</teller>
-		<default>Agatha... ### Não, eu tenho algumas coisas pra fazer aqui. ### O que? ### Eu tô organizando uma coisa aqui. ### Ele tem namorada agora, esqueceu? ### Sei... ### Tá, tchau.</default>
-		<teller>desliga</teller>
+	</talk>
+	<teller>
+		<default>Angely desliga. Vai até a geladeira. Toca de novo. Volta para a sala. Atende.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Agatha... ### Não, eu tenho algumas coisas pra fazer aqui. ### O que? ### Eu tô organizando uma coisa aqui. ### Ele namora agora, esqueceu? Viu ontem. ### Sei... ### Tá, tchau.</default>
+	</talk>
+	<teller>
+		<default>Desliga.</default>
+	</teller>
+	<talk character="Angely">
 		<default>Agora só falta a Denise.</default>
 	</talk>
 	<teller>
-		<default>Ele volta à cozinha. Abre a geladeira, não pega nada, fecha. Se senta à mesa e olha pras paredes. Boceja. Vai subir a escada e alguém toca a campainha.</default>
+		<default>Volta a cozinha. Abre a geladeira. Olha. Fecha. Se senta à mesa e olha pras paredes. Boceja. Vai até a escada. Campainha. Ele baixa a cabeça.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Quem será à essa hora?... Já vou!</default>
+		<default>Já vou!</default>
 	</talk>
 	<teller>
-		<default>Vai até a porta e atende.</default>
+		<default>Vai até a porta. Abre.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Denise?</default>
@@ -165,7 +175,7 @@
 		<default>Não pareceu ontem.</default>
 	</talk>
 	<teller>
-		<default>Ela coloca a mão na camisa dele e tenta desabotoar. Ele segura as mãos dela.</default>
+		<default>Denise coloca a mão na camisa de Angely e tenta desabotoar. Angely segura as mãos de Denise.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Não posso fazer isso.</default>
@@ -177,7 +187,7 @@
 		<default>Estava bêbado.</default>
 	</talk>
 	<talk character="Denise">
-		<default>Você deve ter algo aí.</default>
+		<default>Você deve ter algo aí, vinho talvez?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu não quero.</default>
@@ -186,73 +196,64 @@
 		<default>Qual o problema?</default>
 	</talk>
 	<teller>
-		<default>Angely baixa a cabeça. Solta as mãos dela.</default>
-	</teller>
-	<talk character="Denise">
-		<default>Eu vou embora.</default>
-	</talk>
-	<teller>
-		<default>Ela sai.</default>
+		<default>Angely baixa a cabeça. Solta as mãos de Denise. Denise balança a cabeça para os lados. Sai.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Duas já foram. Faltam três pra eu me explicar.</default>
+		<default>Faltam três pra eu me explicar.</default>
 	</talk>
 	<teller>
-		<default>Ele sobe pra seu quarto.</default>
-	</teller>
-	<teller>
-		<first>0h00. Edmont termina de responder. Olha para as folhas. Cruza os braços sobre a mesa e apoia a cabeça. Num beco, na cidade...</first>
+		<first>Meia-noite. Edmont joga as folhas na mesa. Olha para as folhas. Cruza os braços sobre a mesa e apoia a cabeça. Cidade.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Você é mesmo uma garota linda.</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Silvia">
 		<default>Continua me chamando como se tivesse o dobro da minha idade.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Só o dobro?</default>
 	</talk>
 	<teller>
-		<default>Ela estranha.</default>
+		<default>Silvia estranha.</default>
 	</teller>
-	<talk character="mulher">
+	<talk character="Silvia">
 		<default>Ainda não me disse quantos anos tem.</default>
 	</talk>
 	<teller>
-		<default>Ele a encosta na parede e mostra seus dentes.</default>
+		<default>Zenon encosta Silvia na parede e mostra seus dentes, com os caninos maiores.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Muito mais do que imagina.</default>
 	</talk>
 	<teller>
-		<first>9h. Angely vai à casa de Annie.</first>
+		<first>9h. Annie atende a campainha.</first>
 	</teller>
 	<talk character="Annie">
 		<default>Angely...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Só vim dizer que foi um engano o que aconteceu...</default>
+		<default>Só vim dizer que foi um engano o que aconteceu.</default>
 	</talk>
 	<teller>
-		<default>Angely vê um cara no sofá.</default>
+		<default>Angely olha para o sofá. Há uma pessoa.</default>
 	</teller>
 	<talk character="Annie">
-		<default>Engano?! Tudo aquilo era engano?!</default>
+		<default>Engano?! Tudo aquilo era engano?! Bom, pode se enganar toda noite aqui em casa...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não gosto desse tipo de coisa.</default>
 	</talk>
 	<talk character="Annie">
-		<default>Peraí, não tá querendo me dizer que você não gosta de...</default>
+		<default>Peraí, não tá querendo me dizer que você não gosta de mulher?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não, não é isso que eu tô falando.</default>
+		<default>Não é sobre isso...</default>
 	</talk>
 	<talk character="Annie">
 		<default>Então explica, que eu não tô entendendo mais nada!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Você sabe que eu não ajo assim, sabe que eu não sou desse tipo.</default>
+		<default>Você sabe que eu não ajo assim, sabe que eu não sou assim.</default>
 	</talk>
 	<talk character="Annie">
 		<default>Tá se explicando por que? Alguém reclamou?</default>
@@ -264,7 +265,10 @@
 		<default>Tudo bem, tchau.</default>
 	</talk>
 	<teller>
-		<default>Annie bate a porta. 10h. Edmont está na cozinha.</default>
+		<default>Annie bate a porta.</default>
+	</teller>
+	<teller>
+		<first>10h. Edmont está na cozinha.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Agatha ligou de novo.</default>
@@ -282,49 +286,43 @@
 		<arrive>Gente, eu tava lendo o que vocês responderam...</arrive>
 	</talk>
 	<talk character="Edmont">
-		<default>Mel, você tá ficando neurótica.</default>
+		<default>Mel, você tá exagerando.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Por que?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Nunca tinha te visto andando de toalha na cabeça, roupão e pantufa.</default>
-	</talk>
 	<talk character="Edmont">
-		<default>E se alguém chega?</default>
+		<default>Nunca tinha te visto andando de toalha na cabeça, roupão e pantufa.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Lembrou de comer?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ei, eu sou a mais velha por aqui, nenhum dos dois é meu pai, tenho cinco anos a mais que vocês.</default>
+		<default>Ei, eu sou a mais velha por aqui, tenho cinco anos a mais que vocês.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Pelo menos ainda não tá andando com a toalha nos pés, o roupão na cabeça e as pantufas no corpo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mel, cadê a tradução do pergaminho?</default>
+		<default>Pelo menos ainda não tá andando com a toalha nos pés, o roupão na cabeça e as pantufas no corpo. Cadê a tradução do pergaminho?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Lá em cima, já vou buscar.</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Não, você vai no seu quarto, se vestir, depois vai comer alguma coisa.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Mas...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Está se entregando demais à isso. Não é assim tão importante.</default>
+		<default>Está se entregando demais à isso.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Tudo bem, meninos, mas vê se vão fazendo alguma coisa enquanto...</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Deixa isso aqui e vai lá.</default>
 	</talk>
 	<teller>
-		<default>Mel deixa as folhas em cima da mesa e sobe. Angely vai até o escritório, pega a tradução do pergaminho e volta. A campainha toca.</default>
+		<default>Mel deixa as folhas em cima da mesa e sai. Angely vai até o escritório. Pega alguns papéis. Desce. Edmont está sentado na sala. A campainha toca.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Quem será?</default>
@@ -333,16 +331,16 @@
 		<default>Espero que nem Agatha, nem Helene.</default>
 	</talk>
 	<teller>
-		<default>Edmont atende a campainha. É Kat.</default>
+		<default>Edmont levanta e abre a porta. Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Você não vai acreditar...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Você tá pálida...</default>
+		<default>Você tá parecendo papel...</default>
 	</talk>
 	<teller>
-		<default>Os dois vão até a cozinha. Kat bebe quase um litro de água.</default>
+		<default>Vão até a cozinha. Edmont pega a garrafa de água. Kat pega a garrafa da mão de Edmont. Vira. Edmont olha para Angely. Kat devolve a garrafa vazia.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Tudo bem, agora pode contar o que aconteceu?</default>
@@ -363,19 +361,22 @@
 		<default>Que seja!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Viu?</default>
+		<default>Então é um vampiro?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Num sonho.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Pode descrevê-lo?</default>
+		<default>Pode descrever?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Tinha cabelos pretos, olhos verdes, pouco menos de dois metros, espanhol, vinte e cinco anos e meio de humanidade, cento e noventa e sete de vampiro...</default>
+		<default>Tinha cabelos pretos, olhos verdes, pouco menos de dois metros, espanhol vinte e cinco anos e meio de humanidade cento e noventa e sete de vampiro...</default>
 	</talk>
+	<teller>
+		<default>Angely se aproxima de Edmont.</default>
+	</teller>
 	<talk character="Angely">
-		<default>Como ela pode saber tudo isso?</default>
+		<default>Como pode saber tudo isso?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não faço a mínima!</default>
@@ -393,19 +394,19 @@
 		<default>Mais alguma coisa?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Tava usando roupa comum e não tinha ninguém com ele... Aliás, tinha, era uma humana.</default>
+		<default>Tava usando roupa comum e não tinha ninguém com ele... Aliás, tinha, era humana.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Era?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Vi ele matar ela...</default>
+		<default>O vampiro matou.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Por isso todo o desespero.</default>
 	</talk>
 	<teller>
-		<default>Toca a campainha. Angely atende.</default>
+		<default>Toca a campainha. Angely vai até a sala. Abre a porta.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Entra aí.</default>
@@ -417,7 +418,7 @@
 		<default>Têm alguma coisa pra eu fazer?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Vai até a cidade e procura saber de Luísa Pereira.</default>
+		<default>Vai até a cidade e procura saber de Silvia Pereira.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ah?!</default>
@@ -435,16 +436,16 @@
 		<default>Já disse que não sei como isso me vem! Só vem!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela teve um sonho de um vampiro que atacou uma garota.</default>
+		<default>Kat teve um sonho de um vampiro que atacou essa pessoa.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Então ela deve estar morta!</default>
+		<default>Então deve estar morta.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Eu tô mandando você ir saber notícias!</default>
 	</talk>
 	<teller>
-		<default>Kat praticamente coloca Derik pra fora.</default>
+		<default>Kat empurra Derik até uma janela. Derik vira pássaro. Pega a roupa e voa.</default>
 	</teller>
 	<talk character="Kat">
 		<default>E não volta enquanto não souber o que puder!</default>
@@ -462,40 +463,46 @@
 		<default>Não tenho dúvidas dessa última afirmação.</default>
 	</talk>
 	<teller>
-		<default>Angely chama Edmont.</default>
+		<default>Angely vai para um canto. Olha para Edmont. Edmont se aproxima de Angely.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Eu acho que ela tá ficando muito abalada com isso.</default>
+		<default>Eu acho que tá ficando muito mal com isso.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela já viu um vampiro matar um humano antes.</default>
+		<default>Já viu um vampiro matar um humano antes.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por isso mesmo, ela foi a única aqui.</default>
+		<default>Por isso mesmo, foi só Kat que viu isso aqui.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tem razão. Mas não podemos simplesmente arrancar o poder dela...</default>
+		<default>Tem razão. Mas não podemos simplesmente arrancar o poder...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Tenho medo que ela acabe cedendo à isso. Eu já tava agradecendo por ela não ter tido mais esses sonhos.</default>
+		<default>Tenho medo que acabe cedendo a isso. Eu já tava agradecendo por não ter tido mais esses sonhos.</default>
 	</talk>
 	<teller>
-		<first>Minutos depois, Derik chega na cidade (em forma de pássaro). Vai até a delegacia.</first>
+		<first>Delegacia. Derik de aproxima de Roger.</first>
 	</teller>
 	<talk character="Derik">
 		<default>Por favor, houve algum...</default>
 	</talk>
-	<talk character="policial">
+	<talk character="Roger">
 		<default>Não enche, garoto!</default>
 	</talk>
 	<talk character="Brad">
-		<default>Deixa ele comigo.</default>
+		<arrive>Deixa ele comigo.</arrive>
 	</talk>
 	<talk character="Derik">
 		<default>Ué, mas você não trabalhava nessa cidade...</default>
 	</talk>
 	<talk character="Brad">
-		<default>É, fui transferido. Que veio fazer aqui, miniatura de aprendiz de detetive?</default>
+		<default>É, fui transferido.</default>
+	</talk>
+	<teller>
+		<default>Brad vai para um canto. Derik segue.</default>
+	</teller>
+	<talk character="Brad">
+		<default>Que veio fazer aqui, miniatura de aprendiz de detetive?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não zoa não! Eu vim ver algo sério.</default>
@@ -506,14 +513,17 @@
 	<talk character="Derik">
 		<default>Ninguém manda em mim!</default>
 	</talk>
+	<teller>
+		<default>Brad cruza os braços e ri.</default>
+	</teller>
 	<talk character="Brad">
 		<default>Já vi que foi a namorada.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Preciso saber sobre uma tal de... Como era o nome... Ah! Luísa Pereira!</default>
+		<default>Preciso saber sobre uma tal de... Como era o nome... Ah! Silvia Pereira!</default>
 	</talk>
 	<teller>
-		<default>Brad fica sério.</default>
+		<default>Brad descruza os braços e fecha o rosto.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Pra que?</default>
@@ -525,7 +535,7 @@
 		<default>Vem comigo.</default>
 	</talk>
 	<teller>
-		<default>Brad leva Derik até o necrotério. Abre uma das gavetas.</default>
+		<default>Brad vai pela delegacia. Derik segue. Passam por uma sala com uma cama no meio. Chegam a uma sala de gavetas. Derik trava na porta. Brad encara. Derik entra. Brad abre uma das gavetas. Derik engole seco.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Vinte e seis anos, saudável, aparentemente sem família, atriz... E agora tá aqui.</default>
@@ -537,12 +547,12 @@
 		<default>Não sabemos ainda.</default>
 	</talk>
 	<teller>
-		<default>Brad fecha a gaveta, percebendo que Derik ficou perturbado.</default>
+		<default>Brad olha para Derik, que olha fixo para o corpo. Fecha a gaveta.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Acho que devia ter vindo um dos outros dois. Você tá bem?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Tô. Pode me levar onde encontraram ela?</default>
+		<default>Pode me levar onde encontraram o corpo?</default>
 	</talk>
 </story>
