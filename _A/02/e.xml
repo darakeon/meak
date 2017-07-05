@@ -78,13 +78,13 @@
 		<default>Eles vão até onde Agatha está.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Ela está bem?</default>
+		<default>Tá bem?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>É, parece que sim.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Leva ela embora, que eu já vou.</default>
+		<default>Vai indo, eu já vou.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Que você vai fazer?</default>
@@ -105,7 +105,7 @@
 		<default>Edmont faz sinal com os olhos para que Angely carregue Agatha. Saem e encontram Sarah.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Sarah, nós encontramos ela junto com a...</default>
+		<default>Sarah, nós encontramos, estavam junt...</default>
 	</talk>
 	<talk character="Sarah">
 		<default>Levem ela logo, eles estão bem atrás de vocês!</default>
@@ -131,7 +131,7 @@
 		<default>Porque não carregam os dois juntos?</default>
 	</talk>
 	<teller>
-		<default>Edmont e Angely carregam Agatha, levam-na até onde está Kat, e lá a deixam, voltando depois à pirâmide.</default>
+		<default>Edmont e Angely carregam Agatha, levam-na até onde está Kat, e lá a deixam, voltando depois à pirâmide. Encontram Sarah.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Tá, o que fazemos agora?</default>
@@ -152,7 +152,7 @@
 		<default>Ei! Você que tá caindo aos pedaços! Eu tô aqui, vem me pegar...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não tinha nada melhor pra falar, não? Que tal "Ô, filho da..."</default>
+		<default>Não tinha nada melhor pra falar, não?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não, acho que isso já funcionou. Agora, corre!</default>
@@ -173,10 +173,10 @@
 		<default>As múmias voltam. Edmont consegue passar por eles correndo. Sai da pirâmide e encontra Angely.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Até que enfim, tava pensando que não vinha mais... Mas e a Meg?</default>
+		<default>Até que enfim, tava pensando que não vinha mais... Mas e Meg?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>A Meg está inteira, mas não deu pra pegar ela...</default>
+		<default>Meg está inteira, mas não deu pra trazer...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Então vamos voltar lá!</default>
@@ -227,7 +227,7 @@
 		<default>Podemos resolver isso...</default>
 	</talk>
 	<teller>
-		<default>Edmont pega John pelo colarinho e arrasta para um beco.</default>
+		<default>Edmont pega John pelo colarinho.</default>
 	</teller>
 	<talk character="John">
 		<default>Não, por favor, faço o que quiserem!</default>
@@ -251,7 +251,7 @@
 		<default>Não tem problema, te bato até você dizer!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Se acalme! Ele vai dizer de onde veio o mapa, é só soltá-lo... Não é, Senhor?...</default>
+		<default>Se acalme! Ele vai dizer de onde veio o mapa, é só soltá-lo... Não é?...</default>
 	</talk>
 	<talk character="John">
 		<default>Digo o que quiserem, mas vai ter que me soltar primeiro!</default>
@@ -269,7 +269,7 @@
 		<default>Único o caralho.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Olha, sr, nós já sabemos que este mapa não é único. Nós temos um igual, que o senhor provavelmente vendeu pro meu tio. Mas deve ser uma cópia do original. Então o senhor tem que nos mostrar com quem conseguiu este mapa.</default>
+		<default>Nós já sabemos que este mapa não é único. Nós temos um igual, que o senhor provavelmente vendeu pro meu tio. Mas deve ser uma cópia do original. Então o senhor tem que nos mostrar com quem conseguiu este mapa.</default>
 	</talk>
 	<talk character="John">
 		<default>Vai custar duzentos dólares.</default>
@@ -278,7 +278,7 @@
 		<default>Tem alguém aqui com a memória meio curta.</default>
 	</talk>
 	<teller>
-		<default>Edmont dá um soco no estômago de John, que cai no chão. Angely segura Edmont. John tenta levantar e sair correndo. Edmont empurra Angely, pega John, e trás de volta, arrastado. </default>
+		<default>Edmont vai bater em John, mas Angely segura Edmont. John tenta sair correndo. Edmont empurra Angely, pega John e encosta na parede..</default>
 	</teller>
 	<talk character="John">
 		<default>Tá bom!!!</default>
@@ -286,19 +286,22 @@
 	<talk character="Edmont">
 		<default>Não disse que do meu jeito era melhor?</default>
 	</talk>
+	<talk character="Angely">
+		<default>Cê podia ter usado essa força aí pra carregar a Agatha.</default>
+	</talk>
 	<teller>
 		<first>Eles vão até a casa do vendedor de mapas.</first>
 	</teller>
 	<talk character="John">
 		<default>Este mapa era de meu pai.</default>
 	</talk>
-	<talk character="Edmont">
+	<talk character="Angely">
 		<default>Tá, onde ele está?</default>
 	</talk>
 	<talk character="John">
 		<default>Morreu há cinco anos.</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Como vende algo que não tem a mínima idéia do que é?!</default>
 	</talk>
 	<talk character="John">
@@ -326,28 +329,13 @@
 		<default>Dezoito, por quê?</default>
 	</talk>
 	<talk character="John">
-		<default>E um de vocês ainda é...</default>
-	</talk>
-	<teller>
-		<default>John cai na gargalhada. Edmont o pega pelo colarinho.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Tá rindo do que?!</default>
-	</talk>
-	<talk character="John">
-		<default>Nada, nada!</default>
-	</talk>
-	<teller>
-		<default>Ele ainda tenta se conter, mas não consegue parar de rir.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Quer outro soco?</default>
+		<default>E um de vocês ainda é virgem?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Solta ele, que se ele não contar, eu mesmo estouro ele!</default>
+		<default>Qual o problema?</default>
 	</talk>
 	<teller>
-		<default>Edmont solta John.</default>
+		<default>John ri.</default>
 	</teller>
 	<talk character="John">
 		<default>Sabe o que é, é que tem uma coisa que eu não coloquei no folheto: só poderiam estar atrás de vocês, se um de vocês nunca tivesse...</default>
@@ -403,7 +391,7 @@
 		<default>Sabe, acabo de me lembrar que eu tenho uns compromissos...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu e meu irmão não conhecemos nada por aqui. Precisamos de ajuda para encontrar esse tal de Sultão.</default>
+		<default>A gente não conhece nada por aqui. Precisamos de ajuda para encontrar esse tal de Sultão.</default>
 	</talk>
 	<talk character="John">
 		<default>São muito importantes esses compromissos.</default>
@@ -424,18 +412,12 @@
 		<default>É aqui que ele mora...</default>
 	</talk>
 	<teller>
-		<default>Logo pula um cara com um facão na frente deles. Angely o derruba e Edmont enfia o facão no cara.</default>
+		<default>Logo pula um cara com um facão na frente deles. Angely desarma.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Precisava matar???</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Era ele ou nós!</default>
-	</talk>
 	<talk character="Sultão">
 		<arrive>Vejo que trouxe amigos.</arrive>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Quem é você?</default>
 	</talk>
 	<talk character="Sultão">
@@ -467,15 +449,14 @@
 	</talk>
 	<talk character="Edmont">
 		<default>Tenho a leve impressão que nunca conseguimos as coisas do seu jeito.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vamos do seu.</default>
+		<teller>joga o facão pra Angely</teller>
+		<default>Espero que saiba se defender tão bem quanto lembro.</default>
 	</talk>
 	<teller>
 		<default>Outros homens surgem, armados. Eles começam a derrubar os homens, enquanto John corre para se esconder. Edmont termina com um facão no pescoço do Sultão.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Poderia nos devolver o objeto que roubou da casa do sr. John?</default>
+		<default>Poderia nos devolver o objeto que roubou da casa do John?</default>
 	</talk>
 	<talk character="John">
 		<default>É! Se não devolver, vamos pegar na marra!</default>
