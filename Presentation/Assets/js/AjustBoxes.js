@@ -20,6 +20,7 @@ function AjustHeight() {
     $(".main").height(mainHeight);
 }
 
+    var secureSpace = 10;
 
 
 function AjustFinalMargin() {

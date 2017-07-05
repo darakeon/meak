@@ -1,5 +1,4 @@
-﻿using System;
-using Presentation.Models.General;
+﻿using Presentation.Models.General;
 using Structure.Data;
 
 namespace Presentation.Models
