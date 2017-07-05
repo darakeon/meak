@@ -78,12 +78,15 @@ namespace Structure.Data
                 return null;
 
             var mainInfoXml = new Node(mainInfoXmlName);
+			var titleNode = getNode(mainInfoXml, titleNodeName);
+			var summaryNode = getNode(mainInfoXml, summaryNodeName);
 
             var info = new Info
             {
-                Title = getNode(mainInfoXml, titleNodeName)["title"],
+				Title = titleNode["title"],
+				Publish = DateTime.Parse(mainInfoXml["publish"]),
                 LastScene = mainInfoXml.Attributes["last"],
-                Summary = getNode(mainInfoXml, summaryNodeName).Value,
+				Summary = summaryNode.Value,
             };
             
             return info;
@@ -107,9 +110,9 @@ namespace Structure.Data
         public class Info
         {
             public String Title { get; internal set; }
-            public String LastScene { get; internal set; }
+			public DateTime Publish { get; internal set; }
+			public String LastScene { get; internal set; }
             public String Summary { get; internal set; }
-
         }
 
     }

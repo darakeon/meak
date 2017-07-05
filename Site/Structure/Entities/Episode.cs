@@ -18,10 +18,11 @@ namespace Structure.Entities
             var info = MainInfoXML.Get(path, season, episode);
 
             ID = episode;
-            Title = info.Title;
-            LastScene = info.LastScene;
-            Summary = info.Summary;
-            Season = new Season { ID = season };
+			Title = info.Title;
+			Publish = info.Publish;
+			LastScene = info.LastScene;
+			Summary = info.Summary;
+			Season = new Season { ID = season };
         }
 
 
@@ -29,16 +30,16 @@ namespace Structure.Entities
         public String ID { get; set; }
 
         public String Title { get; set; }
-        public String Summary { get; set; }
-        public String LastScene { get; set; }
+		public DateTime Publish { get; set; }
+		public String LastScene { get; set; }
+		public String Summary { get; set; }
 
         public List<Scene> SceneList { get; set; }
 
         public Season Season { get; set; }
 
 
-
-        public override String ToString()
+	    public override String ToString()
         {
             return ID;
         }
