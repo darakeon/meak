@@ -69,11 +69,8 @@
 	<talk character="Mel">
 		<default>Vamos levar pra casa abandonada.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Não devíamos chamar um padre?</default>
-	</talk>
 	<teller>
-		<default>Seguem a sugestão de Angely. Eles vão até a casa abandonada. Enterram Beatrice, depois voltam pra casa. É noite.</default>
+		<default>Angely, Edmont e Mel cavam o túmulo. Kat fecha o caixão. Eles pegam uma corda, e mesmo Kat ajuda a descer. Mel e Edmont jogam a terra, enquanto Angely abraça Katerine, que chora. Voltam pra casa. Ficam na sala, estirados nos sofás. É noite. Edmont sai do torpor.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Por que ela parecia tão mais velha do que realmente era?</default>
@@ -87,6 +84,9 @@
 	<talk character="Angely">
 		<default>Kat, você disse que tinha algo pra nos dizer.</default>
 	</talk>
+	<teller>
+		<default>Kat se ajeita no sofá. Suspira. Se levanta.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Na verdade, são três coisas. Primeiro vou mostrar algo que descobri. Não se assustem.</default>
 	</talk>
@@ -109,7 +109,7 @@
 		<default>Quando vi ele, fiquei com medo. Depois, quando acordei, me assustei.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Claro, acordar numa gaveta de necrotério assusta qualquer um!</default>
+		<default>Acordar numa gaveta de necrotério assustaria qualquer um.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Tem também o sonho estranho.</default>
@@ -183,7 +183,7 @@
 		<default>Ver o futuro...</default>
 	</talk>
 	<teller>
-		<default>Kat, que não prestava atenção na conversa deles, vai até a mesa.</default>
+		<default>Kat vai até a mesa.</default>
 	</teller>
 	<talk character="Kat">
 		<default>É isso!</default>
@@ -303,10 +303,16 @@
 		<default>Tudo bem. O problema vai ser pra encontrar esse cara agora.</default>
 	</talk>
 	<teller>
-		<default>Madrugada. Beatrice sai do túmulo.</default>
+		<default>Madrugada. Elian aparece no jardim da casa. A terra começa a se revirar. Uma mão. Outra. Elian a puxa. Ela bate na roupa para a terra sair. Elian pega um lenço e limpa o rosto dela.</default>
 	</teller>
 	<talk character="Elian">
-		<default>Agora és minha. Vamos embora daqui.</default>
+		<default>Agora és minha.</default>
+	</talk>
+	<teller>
+		<default>Eles se beijam.</default>
+	</teller>
+	<talk character="Elian">
+		<default>Vamos embora daqui.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Primeiro vamos até o lago.</default>
@@ -336,7 +342,7 @@
 		<default>Agora.</default>
 	</talk>
 	<teller>
-		<default>Eles se beijam. Quando ele nota que vai amanhecer, eles se escondem na casa mesmo.</default>
+		<default>Eles se beijam. Tiram as roupas. Passado algum tempo, Elian olha para o horizonte. Pega Beatrice no colo e corre para a casa. Amanhece.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Não devíamos ter ficado aqui.</default>
@@ -383,7 +389,7 @@
 		<default>Cadê a Kat?!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ah, meu Deus... Edmont, Angely! Venham aqui!</default>
+		<screamed>Edmont, Angely! Venham aqui!</screamed>
 	</talk>
 	<teller>
 		<default>Na cozinha...</default>
@@ -514,12 +520,12 @@
 	<talk character="Kat">
 		<default>Será que aqui em cima dá pra arranjar um balde de água fria?</default>
 	</talk>
-	<talk character="Mel">
-		<default>Acho que não.</default>
-	</talk>
 	<teller>
 		<default>Mel ri.</default>
 	</teller>
+	<talk character="Mel">
+		<default>Acho que não.</default>
+	</talk>
 	<talk character="Kat">
 		<default>Que merda essa história de vela...</default>
 	</talk>
