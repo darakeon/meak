@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="17" scene="e">
 	<teller>
-		<default>Manhã, 8:00. Zenon fora até casa de Mel e Angely (depois passar em casa e pegar algo pra se proteger), pra acompanhar Angely ao hospital e trazer Mel pra casa. Angely vai dirigindo e Zenon vai atrás, com os vidros pretos fechados. Chegam. Angely sai. Vai andando, mas volta.</default>
+		<default>Manhã, 8:00. Hospital. Angely para o carro na frente. Sai. Olha para o hospital. Olha para o carro.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Não vem?</default>
@@ -9,11 +9,8 @@
 	<talk character="Zenon">
 		<irony>Acha que alguém nota se sair alguma fumaça de mim?</irony>
 	</talk>
-	<talk character="Angely">
-		<default>Achei que tivesse trazido a capa... Bom, eu vou entrar então e trago ela.</default>
-	</talk>
 	<teller>
-		<default>Minutos depois, eles saem.</default>
+		<default>Angely entra no hospital. Alguns minutos depois, sai com Mel.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Tem certeza que não...</default>
@@ -22,37 +19,37 @@
 		<default>Tenho! Você acha que sou de vidro???</default>
 	</talk>
 	<teller>
-		<default>Ela vai abrir a porta do carro e Angely segura.</default>
+		<default>Mel vai até o lado da direção.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Você vai no banco de trás, não dirigindo.</default>
+		<default>Você vai de carona, não dirigindo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Ei!</default>
 	</talk>
 	<teller>
-		<default>Angely destrava a porta.</default>
+		<default>Angely entra e destrava a porta de carona.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Não abra muito essa porta, por favor.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ah, não, pra que vieram os dois???</default>
+		<default>Ah, não, pra que veio também???</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Só queria...</default>
 	</talk>
 	<teller>
-		<default>Mel escancara a porta do carro. Zenon se encolhe e Mel dá um sorriso sacana. Entra e fecha.</default>
+		<default>Mel escancara a porta do carro. Zenon se encolhe no canto atrás da carona. Mel entra e fecha.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Isso por que eu pedi...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Minha vingança.</default>
+		<default>Exatamente porque pediu.</default>
 	</talk>
 	<teller>
-		<default>Angely entra no carro. Eles vão pra casa.</default>
+		<first>MEAK.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Mas você tem que ficar de repouso!</default>
@@ -61,22 +58,43 @@
 		<default>Repouso o escambal, vou achar Psique...</default>
 	</talk>
 	<teller>
-		<default>Toca o telefone e Angely atende. Zenon e Mel continuam discutindo.</default>
+		<default>Toca o telefone. Angely atende.</default>
 	</teller>
+	<talk character="Zenon">
+		<default>Nesse estado você não consegue...</default>
+	</talk>
 	<talk character="Angely">
-		<default>Daqui mesmo? Ah, oi... Quê??? Tá, eu falo pra ela. Tá, tudo bem, tchau.</default>
+		<default>Alô?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Tirou diploma de medicina do cu agora?!</default>
+	</talk>
+	<talk character="Angely">
+		<default>Quê???</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Não é como se precisasse de diploma!</default>
+	</talk>
+	<talk character="Angely">
+		<default>Tá, eu falo pra Mel.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Ah, é, realmente, quem tem diploma eu não escuto também, afinal o diploma é válido pra entender de humanos!</default>
+	</talk>
+	<talk character="Angely">
+		<default>Tá, tudo bem, tchau.</default>
 	</talk>
 	<teller>
 		<default>Angely desliga.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Se eu tô dizendo que vou atrás dela...</default>
+		<default>Se eu tô dizendo que vou atrás de...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não precisa. Já encontraram.</default>
 	</talk>
 	<teller>
-		<default>Na delegacia, Mel reconhece Psique, completamente desfigurada, com apenas o rosto intocado. Tem que prestar depoimento e outras coisas que duram até anoitecer. Quando ela finalmente termina, passa por Brad e Klane.</default>
+		<default>Noite. Delegacia. Brad e Klane conversam.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Então, eles provavelmente brigaram.</default>
@@ -85,13 +103,13 @@
 		<default>Ela deve ter achado que estava ficando arriscado e...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela foi forçada.</default>
+		<arrive>Não estava fazendo isso pela própria vontade.</arrive>
 	</talk>
 	<talk character="Brad">
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Edmont a forçou a ficar com ele. Ameaçou matar Michael. Então Psique deixou o marido.</default>
+		<default>Edmont a forçou a ficarem juntos. Ameaçou matar Michael. Então Psique terminou.</default>
 	</talk>
 	<talk character="Klane">
 		<default>Como sabe disso?</default>
@@ -103,30 +121,34 @@
 		<default>Isso deve ter facilitado os encontros dela com Edmont.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, ela dormiu no quarto do Angely.</default>
-		<teller>os dois olham pra ela</teller>
-		<default>Ele dormiu no chão. Devem ter visto no jornal que a namorada dele morreu faz pouco, ele não é do tipo que corre atrás de outra logo em seguida.</default>
+		<default>Não, Psique dormiu no quarto do Angely.</default>
+	</talk>
+	<teller>
+		<default>Brad franze a testa e Klane levanta as mãos, com as palmas pra cima.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Angely dormiu no chão. Devem ter visto no jornal que a pessoa com quem Angely tava morreu faz pouco. E é a segunda vez que isso acontece. Não é como se Angely estivesse procurando alguém no momento.</default>
 	</talk>
 	<talk character="Klane">
-		<default>Eu vi isso... Ela não era ex do outro?</default>
+		<default>Eu vi isso... Essa que foi recente, não era ex do outro?</default>
 	</talk>
 	<talk character="Brad">
 		<default>Psique e você que deram a injeção na garota, não é?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Só agora vocês deduziram que Edmont está com raiva??? Ah, não...</default>
+		<default>Só agora vocês deduziram que Edmont tá com raiva?!</default>
 	</talk>
 	<talk character="Brad">
-		<default>Então você também está correndo risco!</default>
+		<default>Então você também tá correndo risco!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu não, queridinho, sei me defender muito bem!</default>
+		<default>Sei me defender muito bem.</default>
 	</talk>
 	<talk character="Brad">
-		<default>Ele esquartejou um cara, torturou, com requintes de crueldade, essa médica até a morte, acha que vou te deixar sozinha???</default>
+		<default>Ele esquartejou um cara, torturou, essa médica até a morte, acha que vou te deixar sozinha???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mais um não! Agora só falta a Dancan querer me emprestar os guarda-costas dele!</default>
+		<default>Mais um não! Agora só falta Dancan querer me emprestar guarda-costas!</default>
 	</talk>
 	<teller>
 		<default>Mel sai.</default>
@@ -135,36 +157,33 @@
 		<default>Mais um?</default>
 	</talk>
 	<talk character="Klane">
-		<default>Ela é famosa, não é o único que está de quatro por ela, amigo.</default>
+		<default>Ela é famosa, não é o único que tá de quatro por ela, amigo.</default>
 	</talk>
 	<talk character="Brad">
-		<default>Não estou de quatro por ela!</default>
+		<default>Não tô de quatro por ela!</default>
 	</talk>
 	<talk character="Klane">
 		<default>Não, tá de cinco.</default>
 	</talk>
 	<teller>
-		<default>Klane levanta e sai. Mel sai e Zenon está esperando.</default>
+		<default>Klane levanta e sai. Do lado de fora, Mel encontra Zenon.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>E aí? Era?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não viu o estado em que estava...</default>
+		<default>Não viu o estado em que estava.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Eu imagino.</default>
 	</talk>
-	<teller>
-		<default>Brad vem atrás de Mel.</default>
-	</teller>
 	<talk character="Brad">
-		<default>Olha aqui, eu...</default>
+		<arrive>Olha aqui, eu...</arrive>
 		<teller>encara Zenon</teller>
 		<default>Quem é esse?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Meu amigo. Um dos que está achando que Edmont vai surgir de dentro de uma bolsa e me atacar.</default>
+		<default>Meu amigo. Um dos que tá achando que Edmont vai surgir de debaixo da cama e me atacar.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Zenon.</default>
@@ -176,12 +195,11 @@
 		<default>Andrews... Interessante...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele ajudou uma garota a escapar do primeiro.</default>
+		<default>Ajudou uma garota a escapar do primeiro.</default>
 	</talk>
 	<talk character="Brad">
 		<default>Primeiro?!</default>
-		<teller>passa a falar baixo</teller>
-		<default>Aquele vampiro que esteve aqui era o primeiro?</default>
+		<hushed>Aquele vampiro que esteve aqui era o primeiro?</hushed>
 	</talk>
 	<talk character="Zenon">
 		<default>Se está se referindo à Andrews, sim.</default>
@@ -199,28 +217,34 @@
 		<default>E por que ele está te protegendo do seu...</default>
 	</talk>
 	<teller>
-		<default>Brad se cala.</default>
+		<default>Brad se cala. Engole seco.</default>
 	</teller>
+	<talk character="Mel">
+		<default>Entendeu porque você não pode fazer nada?</default>
+	</talk>
+	<talk character="Brad">
+		<default>Ajudei com...</default>
+	</talk>
 	<talk character="Zenon">
-		<default>Bom, vamos?</default>
+		<default>Me disseram. Andrews te jogou no chão, aí você correu com Stephany. Vai precisar de mais que isso pra enfrentar Edmont.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá...</default>
+		<default>Vamos logo.</default>
 	</talk>
 	<teller>
-		<default>Ao observar algo, Brad, sem explicação alguma, puxa Mel pra perto de si.</default>
+		<default>Brad olha para o carro. Puxa Mel pra perto de si. Mel dá um empurrão em Brad.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ei, o que pensa que está fazendo???</default>
+		<default>Que pensa que tá fazendo???</default>
 	</talk>
 	<talk character="Zenon">
-		<default>É o vidro. Reflete as coisas à volta.</default>
+		<default>É o vidro. Reflete as coisas a volta.</default>
 	</talk>
 	<talk character="Brad">
 		<default>Mas não reflete você.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sim, ele é um vampiro, mas um vampiro que está me ajudando, agora dá licença!</default>
+		<default>Sim, é vampiro, mas tá me ajudando, agora dá licença!</default>
 	</talk>
 	<talk character="Brad">
 		<default>Peraí, vampiros são maus!</default>
@@ -229,10 +253,10 @@
 		<default>Vou te esperar lá perto do seu carro.</default>
 	</talk>
 	<teller>
-		<default>Zenon atravessa a rua e vai até o carro.</default>
+		<default>Zenon atravessa a rua e vai até o carro, encostando-se nele, com os braços cruzados.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ele tem autorização pra entrar na minha casa, se quisesse me matar, já tinha feito.</default>
+		<default>Zenon tem autorização pra entrar na minha casa, se quisesse me matar, já tinha feito.</default>
 	</talk>
 	<talk character="Brad">
 		<default>Talvez esteja esperando!</default>
@@ -244,25 +268,22 @@
 		<default>Você mora com Angely, talvez esteja esperando Angely sair!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Já fiquei várias vezes sozinha com ele.</default>
+		<irony>Claro, esqueci, não é estaca que mata vampiro, é pinto.</irony>
 	</talk>
-	<talk character="Brad">
-		<default>Vocês...</default>
-	</talk>
-	<talk character="Mel">
-		<default>NÃO!</default>
-	</talk>
+	<teller>
+		<default>Mel cruza os braços.</default>
+	</teller>
 	<talk character="Brad">
 		<default>E se ele estiver com Edmont???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele e Edmont se odeiam!</default>
+		<default>Zenon e Edmont se odeiam.</default>
 	</talk>
 	<talk character="Brad">
 		<default>Talvez seja teatro!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Teatro nada, Edmont odeia ele desde quando era humano!</default>
+		<default>É de antes da transformação de Edmont.</default>
 	</talk>
 	<talk character="Brad">
 		<default>Mas talvez seja esse cara que tenha transformado ele em vampiro ou talvez sejam aliados...</default>
@@ -274,43 +295,49 @@
 		<default>São vampiros, Melody!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu sei, merda!</default>
+		<default>Tá parecendo um disco quebrado agora!</default>
 	</talk>
 	<talk character="Brad">
 		<default>Não pode confiar em vampiros!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Como pode saber que todos são maus???</default>
+		<default>Como pode saber que todos são ruins???</default>
 	</talk>
 	<talk character="Brad">
 		<default>Eu não sei.</default>
 	</talk>
 	<teller>
-		<default>Mel encara Brad. Ele a puxa e a beija. Nesse instante, Zenon olha pra eles. Baixa a cabeça e vai embora. Mel empurra Brad.</default>
+		<default>Mel encara Brad. Brad puxa e beija Mel. Zenon desencosta do carro, descruza os braços e franze a testa. Desfranze e olha para o chão. Olha de novo para Brad e Mel. Sai. Brad afasta de Mel.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Que pensa que está fazendo???</default>
+		<default>Que diabos foi isso?</default>
 	</talk>
 	<talk character="Brad">
 		<default>Desculpa, eu...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vai procurar alguma virgenzinha boba pra ver se convence com isso!</default>
+		<default>Tá achando que isso aqui é novela? Que vou pedir sua proteção porque me beijou? Velho, para de assistir desenho infantil, tá te fazendo mal.</default>
 	</talk>
 	<teller>
-		<default>Ela sai. Vai até o carro. Olha pros lados e não vê Zenon. Vai pra casa. Angely está levantando peso em seu quarto.</default>
+		<default>Mel vai até o carro. Olha para os lados. Bufa.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Tentando ficar mais forte pra que? Não tá pensando em ir atrás do...</default>
+		<default>Legal, só tem criança na minha vida mesmo.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Não. Só que se eu ficar sentado no sofá enquanto não aparece nenhum problema pra nós, vou acabar ficando gordo e inflexível.</default>
-	</talk>
+	<teller>
+		<first>MEAK. Angely está fazendo flexão na sala. Mel entra.</first>
+	</teller>
 	<talk character="Mel">
-		<default>Daí ninguém mais olha pra você.</default>
+		<default>Tentando ficar mais forte?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Isso não faz diferença. Só que, se eu fico assim, não posso mais ajudar ninguém. Além do que estou pensando em procurar um emprego.</default>
+		<default>Só mantendo. </default>
+	</talk>
+	<teller>
+		<default>Angely para.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Pensando em arranjar um emprego.</default>
 	</talk>
 	<talk character="Mel">
 		<default>E no que está pensando?</default>
@@ -319,10 +346,10 @@
 		<default>Guarda-costas, segurança... Algo do tipo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vai ficar engraçado você de segurança de alguém famoso.</default>
+		<default>Vai ficar engraçado você de segurança de alguém com fama.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não sei exatamente o que vou fazer, mas parado aqui é que não fico.</default>
+		<default>Não sei exatamente o que vou fazer, mas parar aqui é que não.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Kat não tem tido mais sonhos.</default>
@@ -334,31 +361,31 @@
 		<default>Ou talvez eles não criem tantos problemas, ou hajam muito mais caçadores do que supomos...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Qualquer que seja a resposta, se ela não teve sonhos, não precisamos nos preocupar.</default>
+		<default>Qualquer que seja a resposta, se não teve sonhos, não precisamos nos preocupar.</default>
 	</talk>
 	<talk character="Mel">
-		<default>E se ela tiver perdido esses poderes?</default>
+		<default>E se ela tiver perdido esses poderes? Não devia ter sonhado com o que houve com Psique?</default>
 	</talk>
 	<teller>
-		<default>Angely pára e se levanta.</default>
+		<default>Angely se levanta.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Podemos falar com ela. Se tiver perdido esse, perdeu o outro também.</default>
+		<default>Podemos falar com Kat. Se tiver perdido esse, perdeu o outro também.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Boa idéia.</default>
 	</talk>
 	<teller>
-		<default>Os dois vão até a casa de Kat. Agatha atende à porta (lembrete: elas moravam juntas ainda).</default>
+		<first>Casa de Kat. Agatha atende a porta.</first>
 	</teller>
 	<talk character="Agatha">
 		<default>Oi...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Kat está?</default>
+		<default>Kat tá?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Agatha, cadê meu CD?</default>
+		<arrive>Agatha, cadê meu CD?</arrive>
 	</talk>
 	<talk character="Agatha">
 		<default>Que CD?</default>
@@ -372,6 +399,9 @@
 	<talk character="Kat">
 		<default>Era meu!</default>
 	</talk>
+	<teller>
+		<default>Agatha revira os olhos.</default>
+	</teller>
 	<talk character="Agatha">
 		<default>Ainda é. Eles querem falar com você.</default>
 	</talk>
@@ -382,7 +412,7 @@
 		<default>Cara-de-pau! Mas ela vai ver o que vai acontecer com o vestido azul de veludo dela!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não sabia que a situação tava tão preta assim aqui.</default>
+		<default>Não sabia que a situação tava tão ruim assim aqui.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Se quiser tem um quarto...</default>
@@ -391,7 +421,7 @@
 		<default>De jeito nenhum! Não saio, a casa é minha também!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vende a sua parte pra ela.</default>
+		<default>Vende a sua parte pra Agatha.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Eu não vou desistir assim tão fácil. Esperem só um instante e eu já volto pra falar com vocês.</default>
@@ -403,16 +433,16 @@
 		<default>Essa casa não era da Kat e da Meg?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não lembra do acordo que elas fizeram, pra usar o outro terreno pra testes da empresa?</default>
+		<default>Não lembra do acordo que fizeram, pra usar o outro terreno pra testes da empresa?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sim, mas era herança das duas. Agora fica só no nome da Kat, ela pode expulsar Agatha daqui à hora que quiser...</default>
+		<default>Sim, mas era herança. Agora fica só no nome da Kat, pode expulsar Agatha daqui a hora que quiser...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Isso seria desonesto!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Seria, se Agatha não fosse uma folgada. Faria exatamente isso no lugar da Kat.</default>
+		<default>Eu faria. Conviver com Agatha deve estar uma merda.</default>
 	</talk>
 	<teller>
 		<default>Angely encara Mel.</default>
@@ -427,21 +457,9 @@
 		<default>Tá defendendo a Agatha?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Pra onde ela iria se fizesse isso?</default>
+		<default>Pra onde iria se fizesse isso?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pra casa de algum dos namorados dela. Assim ia ficar mais difícil ela ter tantos.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não devia julgar as pessoas.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se está se referindo ao fato de eu não ter alguém certo, é bem diferente, por que eu não engano ninguém.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não foi nisso que pensei.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Edmont tinha razão. Você é bonzinho demais pra esse mundo...</default>
+		<default>Edmont tinha razão. Você é bonzinho demais pra esse mundo.</default>
 	</talk>
 </story>
