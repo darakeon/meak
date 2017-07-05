@@ -149,17 +149,7 @@ namespace Structure.Data
                 !FileInfo.CreateIfNotExists("<story></story>");
 
 
-            for (var j = 0; j < 10; j++)
-            {
-                Scene.ParagraphTypeList.Add(ParagraphType.Teller);
-                Scene.TellerList.Add(tellerDefault());
-
-                for (var k = 0; k < 20; k++)
-                {
-                    Scene.ParagraphTypeList.Add(ParagraphType.Talk);
-                    Scene.TalkList.Add(talkDefault());
-                }
-            }
+            fakeStory();
 
 
             var storyXML = makeStoryXML();
@@ -172,6 +162,25 @@ namespace Structure.Data
 
             TitleXML.Save(title, folderPath, seasonID, episodeID);
         }
+
+
+
+        private void fakeStory()
+        {
+            for (var j = 0; j < 3; j++)
+            {
+                Scene.ParagraphTypeList.Add(ParagraphType.Teller);
+                Scene.TellerList.Add(tellerDefault());
+
+                for (var k = 0; k < 5; k++)
+                {
+                    Scene.ParagraphTypeList.Add(ParagraphType.Talk);
+                    Scene.TalkList.Add(talkDefault());
+                }
+            }
+        }
+
+
 
         private Node makeStoryXML()
         {
@@ -219,7 +228,7 @@ namespace Structure.Data
         {
             return new Talk { Pieces = {
                     new Piece<TalkStyle> { Style = TalkStyle.Default, Text = "_" }
-                }, Character = "_" };
+                }, Character = "Akeon" };
         }
     }
 }
