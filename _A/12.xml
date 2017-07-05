@@ -75,7 +75,7 @@
 	<talk character="Argo"><default>Temos que prendê-lo de novo.</default></talk>
 	<talk character="Dilan"><default>Ele não está mais tentando nos pegar.</default></talk>
 	<talk character="Argo"><default>A questão é que não temos a menor idéia do que vai acontecer conosco se ele morrer.</default></talk>
-	<talk character="Rust"><default>* Quando aparecer um caça-vampiros capaz de matar Andrews, estaremos mortos, mesmo que continuemos vampiros.</default></talk>
+	<talk character="Rust"><arrive> Quando aparecer um caça-vampiros capaz de matar Andrews, estaremos mortos, mesmo que continuemos vampiros.</arrive></talk>
 	<talk character="Dilan"><default>Até que enfim deu o ar da sua graça.</default></talk>
 	<talk character="Rust"><default>É. Se eu fosse um caça-vampiros, estariam mortos. Estou aqui a mais de dez minutos.</default></talk>
 	<talk character="Argo"><default>Por que acha que estaremos mortos?</default></talk>
@@ -83,7 +83,7 @@
 	<talk character="Argo"><default>Ainda acho que devemos prendê-lo.</default></talk>
 	<talk character="Rust"><default>Acho que sabe de algo que não sabemos.</default></talk>
 	<talk character="Argo"><default>Ele deu à nos o sangue dele.</default></talk>
-	<talk character="Rust"><default>Isso mesmo. Ele deu, não emprestou e não o roubamos. Não devemos nada à ele, não estamos ligados.</default></talk>
+	<talk character="Rust"><default>Isso mesmo. Ele deu, não emprestou e não o roubamos. Não devemos nada a ele, não estamos ligados.</default></talk>
 	<talk character="Dilan"><default>Então como ele sabe onde estamos???</default></talk>
 	<talk character="Rust"><default>Não deviam se preocupar tanto.</default></talk>
 	<talk character="Argo"><default>Você tentou matá-lo.</default></talk>
@@ -100,7 +100,7 @@
 	<talk character="Kassandra"><default>Não tem perigo eu perder ninguém pra ela, esqueceu?</default></talk>
 	<teller><default>Rust solta Kassandra, empurrando-a.</default></teller>
 	<talk character="Kassandra"><default>Não tenho culpa se ela não gosta de homem, ou se gosta de mim.</default></talk>
-	<teller><default>Ele a encara, a puxa de volta e a beija. Enquanto isso, Kat está dormindo e Derik se desespera cada vez mais com os movimentos e gritos dela. Então se transforma em pássaro e sai voando pela janela. Chega à uma igreja.</default></teller>
+	<teller><default>Ele a encara, a puxa de volta e a beija. Enquanto isso, Kat está dormindo e Derik se desespera cada vez mais com os movimentos e gritos dela. Então se transforma em pássaro e sai voando pela janela. Chega a uma igreja.</default></teller>
 	<talk character="Derik"><default>Padre!</default></talk>
 	<talk character="Gabriel"><default>Por que está tão aflito.</default></talk>
 	<talk character="Derik"><default>Deve saber que não existem só humanos, não é?</default></talk>
@@ -128,7 +128,7 @@
 	<talk character="Gabriel"><default>Chama alguém pra nos ajudar!</default></talk>
 	<talk character="Derik"><default>Minha namorada tá com problemas e eu não vou ficar aqui agüentando essa palhaçada!!!</default></talk>
 	<teller><default>Gabriel impede Derik de sair. O outro padre sai, pra buscar ajuda. Andrews continua torturando Mel e, consequentemente, Kat.</default></teller>
-	<talk>
+	<talk character="Andrews">
 	<default>Qual o problema? Não é durona? Tudo bem.</default>
 	<teller>ele levanta o rosto de Mel com a mão</teller>
 	<default>Vou te deixar descansar um pouco. Não quero que você morra.</default>
@@ -137,7 +137,7 @@
 	<teller>beija-a</teller>
 	<default>Aquela sua irmãzinha chata também...</default>
 	<teller>beija-a</teller>
-	<default>Depois eu vou ver o que faço com você. É uma pena ter que bater em você. Mas alguém tem que te dar uma lição. (Andrews)</default>
+	<default>Depois eu vou ver o que faço com você. É uma pena ter que bater em você. Mas alguém tem que te dar uma lição.</default>
 	</talk>
 	<teller><default>Andrews sai. Mel começa a falar, com muito esforço.</default></teller>
 	<talk character="Mel"><default>Acho que estou no esgoto. É bem aberto aqui. Estou pendurada no teto, por correntes presas no meu pulso. Eu não consigo mais falar, não agüento mais... Me ajudem, por favor...</default></talk>
@@ -156,7 +156,7 @@
 	<teller><default>Ele se aproxima e passa a mão em Dalila. Ela bate nele, mas os policiais batem nela. Stephany vai tentar ajudar e jogam ela no canto da cela. Outros policiais seguram Brad.</default></teller>
 	<talk character="delegado"><default>Leva essas cadelas daqui.</default>
 	<teller>ele se levanta</teller><default>E você, não banca o engraçadinho que eu sei que precisa do emprego.</default></talk>
-	<teller><default>Brad sai dali. Pega o telefone, vai à uma sala vazia e liga pra Angely.</default></teller>
+	<teller><default>Brad sai dali. Pega o telefone, vai a uma sala vazia e liga pra Angely.</default></teller>
 	<talk character="Brad"><default>Eu não tenho tempo pra falar, a Stephany foi transferida...</default></talk>
 	<teller><default>Chega o delegado e tira o telefone da mão de Brad.</default></teller>
 	<talk character="delegado"><default>Acho que vai ter que prestar contas, Andrews.</default></talk>
@@ -172,16 +172,16 @@
 	<talk character="Edmont"><default>Talvez ele e a Kat tenham saído.</default></talk>
 	<talk character="Angely"><default>Pode ser. Melhor voltarmos pra casa.</default></talk>
 	<teller><default>Enquanto isso, Stephany e Dalila estão sendo colocadas dentro do helicóptero.</default></teller>
-	<talk><default>Ei, o que está fazendo aqui? (co-piloto)</default></talk>
+	<talk character="co-piloto"><default>Ei, o que está fazendo aqui?</default></talk>
 	<talk character="Andrews"><default>Olhando o céu.</default></talk>
-	<talk><default>Aqui não é lugar de olhar o céu. (co-piloto)</default></talk>
+	<talk character="co-piloto"><default>Aqui não é lugar de olhar o céu.</default></talk>
 	<talk character="Andrews"><default>Não sabia.</default></talk>
-	<talk><default>Então vai olhar noutro lugar. (co-piloto)</default></talk>
+	<talk character="co-piloto"><default>Então vai olhar noutro lugar.</default></talk>
 	<talk character="Andrews"><default>Prefiro ficar aqui.</default></talk>
-	<talk><default>Melhor sair daqui... Aliás, como chegou até aqui??? (co-piloto)</default></talk>
+	<talk character="co-piloto"><default>Melhor sair daqui... Aliás, como chegou até aqui???</default></talk>
 	<teller><default>Andrews se levanta e vai até o co-piloto.</default></teller>
 	<talk character="Andrews"><default>Escalando.</default></talk>
-	<talk><default>Estamos no décimo quinto andar. (co-piloto)</default></talk>
+	<talk character="co-piloto"><default>Estamos no décimo quinto andar.</default></talk>
 	<talk character="Andrews"><default>E daí?</default></talk>
 	<teller><default>No helicóptero...</default></teller>
 	<talk character="piloto"><default>Tá bem preso aí?</default></talk>
@@ -221,7 +221,7 @@
 	<teller><default>Brad atira em Andrews, que joga Dalila no chão e se vira pra Brad.</default></teller>
 	<talk character="Andrews"><default>Que pensas que estás a fazer?</default></talk>
 	<talk character="Brad"><default>Foi você...</default></talk>
-	<talk character="Andrews"><irony>Descobriste sozinho ou precisaste de ajuda? </irony></talk>
+	<talk character="Andrews"><irony>Descobriste sozinho ou precisaste de ajuda?</irony></talk>
 	<teller><default>Stephany pega a arma do co-piloto morto.</default></teller>
 	<talk character="Stephany"><default>Vai embora!!!</default></talk>
 	<talk character="Andrews"><default>Tiros não adiantam.</default></talk>
@@ -309,7 +309,7 @@
 	<teller><default>Na igreja, Derik tá acorrentado.</default></teller>
 	<talk character="Derik"><default>Minha paciência tá enchendo...</default></talk>
 	<talk character="Gabriel"><default>Talvez seja melhor chamar o papa.</default></talk>
-	<talk character="Derik"><thought>E se eu fingisse que aconteceu alguma coisa? Bom, Deus, me ajude, sozinho eu não saio daqui. Sabe que estou perdendo tempo aqui. Sei que mentira é pecado, mas, neste caso, acho que o Senhor perdoa, né?)</thought></talk>
+	<talk character="Derik"><thought>E se eu fingisse que aconteceu alguma coisa? Bom, Deus, me ajude, sozinho eu não saio daqui. Sabe que estou perdendo tempo aqui. Sei que mentira é pecado, mas, neste caso, acho que o Senhor perdoa, né?</thought></talk>
 	<talk character="Derik"><default>É, talvez...</default></talk>
 	<teller><default>O outro padre sai da sala. Derik grita. Um vento entra pela janela e fecha a porta. Gabriel se assusta.</default></teller>
 	<talk character="Derik"><default>Não vou sair!!!</default></talk>
@@ -344,7 +344,7 @@
 	<teller><default>Angely vê uma carta entrar por debaixo da porta. Abre e não vê ninguém. Pega a carta do chão e abre. Um endereço.</default></teller>
 	<talk character="Angely"><default>Que é isso?</default></talk>
 	<talk character="Edmont"><default>Talvez tenha sido o vampiro.</default></talk>
-	<talk character="Derik"><irony>Deve ter usado realmente muito protetor solar! </irony></talk>
+	<talk character="Derik"><irony>Deve ter usado realmente muito protetor solar!</irony></talk>
 	<talk character="Edmont"><default>Pode ter mandado alguém.</default></talk>
 	<teller><default>Toca o telefone. Angely atende.</default></teller>
 	<talk character="Angely"><default>Alô? ### Ah, é você... Ontem você ligou, mas não terminou de... ### Fugiu com ela?! ### Como, ele foi buscá-la?! ### Tá, nós vamos até aí. ### Não sei, mas acho que podemos dar um jeito. ### Tá.</default>
@@ -462,19 +462,19 @@
 	<talk character="Rust"><default>Ir atrás dele.</default></talk>
 	<talk character="Dara"><default>Precisa de mim pra isso?</default></talk>
 	<talk character="Rust"><default>Ele é muito poderoso.</default></talk>
-	<talk character="Dara"><irony>E por que acha que eu teria força pra enfrentá-lo se você sozinho não consegue? </irony></talk>
+	<talk character="Dara"><irony>E por que acha que eu teria força pra enfrentá-lo se você sozinho não consegue?</irony></talk>
 	<talk character="Rust"><default>Nós dois juntos talvez consigamos.</default></talk>
 	<talk character="Dara"><default>Sabe onde ele está?</default></talk>
 	<talk character="Rust"><default>É fácil pra mim achá-lo.</default></talk>
 	<teller><default>Dara vai com Rust. Enquanto isso, no hospital...</default></teller>
 	<talk character="Stephany"><default>Acha mesmo que ficarei segura?</default></talk>
 	<talk character="Alexander"><default>É claro.</default></talk>
-	<talk character="Dalila"><default>* Com licença...</default></talk>
+	<talk character="Dalila"><arrive> Com licença...</arrive></talk>
 	<talk character="Stephany"><default>Você tá viva!!!</default></talk>
 	<talk character="Dalila"><default>É, escapei do seu amigo esquisito.</default></talk>
 	<talk character="Alexander"><default>Ela está falando do...</default></talk>
 	<talk character="Stephany"><default>É.</default></talk>
-	<talk character="Dalila"><irony>Nossa, eu não sabia que odiava tanto ele a ponto disso. </irony><default>Bom, graças a você, não estou numa ilha abandonada agora.</default></talk>
+	<talk character="Dalila"><irony>Nossa, eu não sabia que odiava tanto ele a ponto disso.</irony><default>Bom, graças a você, não estou numa ilha abandonada agora.</default></talk>
 	<talk character="Stephany"><default>Não fui eu quem...</default></talk>
 	<talk character="Dalila"><default>Mesmo assim, indiretamente, é graças a você. Fiquei sabendo que não tem onde ficar.</default></talk>
 	<talk character="Alexander"><default>Agora tem.</default></talk>
@@ -720,7 +720,7 @@
 	<teller><default>Ele olha pros lados.</default></teller>
 	<talk character="Beatrice"><default>Tá lá embaixo. Não ia me arriscar.</default></talk>
 	<talk character="Edmont"><default>Que tá fazendo aqui de novo?</default></talk>
-	<talk character="Beatrice"><irony>Desculpa, eu não sabia que a cidade era sua. </irony></talk>
+	<talk character="Beatrice"><irony>Desculpa, eu não sabia que a cidade era sua.</irony></talk>
 	<talk character="Edmont"><default>Não adianta ter me desarmado, eu...</default></talk>
 	<talk character="Beatrice"><default>Não vim aqui te matar.</default></talk>
 	<talk character="Edmont"><default>Não?</default></talk>
@@ -763,7 +763,7 @@
 	<talk character="Dara"><default>Como???</default></talk>
 	<talk character="Alexander"><default>Com as pernas.</default></talk>
 	<teller><default>Alexander entra.</default></teller>
-	<talk character="Dara"><irony>Tá, pode entrar... </irony></talk>
+	<talk character="Dara"><irony>Tá, pode entrar...</irony></talk>
 	<talk character="Alexander"><default>Peraí, eu te vi...</default></talk>
 	<talk character="Derik"><default>No hospital.</default></talk>
 	<talk character="Dara"><default>Já se conhecem?</default></talk>
@@ -773,8 +773,8 @@
 	<talk character="Alexander"><default>Está insinuando que a culpa é minha???</default></talk>
 	<talk character="Derik"><default>Não, estou dizendo!!!</default></talk>
 	<talk character="Dara"><default>Ei, parem com isso!!! Eu e Derik vamos ao hospital, procura a Dalila.</default></talk>
-	<talk character="Derik"><default>Desculpe, “Eu e Derik”?</default></talk>
-	<talk character="Alexander"><default>“procura”??</default></talk>
+	<talk character="Derik"><default>Desculpe, "Eu e Derik"?</default></talk>
+	<talk character="Alexander"><default>"procura"??</default></talk>
 	<talk character="Dara"><default>É, isso são ordens, entenderam?</default></talk>
 	<teller><default>Eles se calam. Dara sai.</default></teller>
 	<talk character="Alexander"><default>Se invocou...</default></talk>
@@ -862,7 +862,7 @@
 	<talk character="Edmont"><default>Eu te levo em casa.</default></talk>
 	<teller><default>Edmont sai com Dara.</default></teller>
 	<talk character="Derik"><default>Eu vou seguir ela quando sair com Rust.</default></talk>
-	<talk><default>Como? (Alexander/Brad)</default></talk>
+	<talk character="Alexander/Brad"><default>Como?</default></talk>
 	<talk character="Derik"><default>Dá última vez que eu mostrei meu segredo pra um estranho, quiseram me exorcizar.</default></talk>
 	<teller><default>Eles se entreolham. Derik vai pra casa de Kat. Alexander volta pra seu apartamento. Brad volta pra casa. Na casa de Dara, quatro horas da tarde, Edmont está deitado no sofá com a cabeça no colo de Dara.</default></teller>
 	<talk character="Edmont"><default>Acha que o plano vai funcionar?</default></talk>
@@ -875,7 +875,7 @@
 	<talk character="Edmont"><default>Quer mesmo saber?</default></talk>
 	<teller><default>Ela fica indecisa. Ele a beija.</default></teller>
 	<talk character="Edmont"><default>Não.</default></talk>
-	<talk character="Denise"><default>* Edmont!</default></talk>
+	<talk character="Denise"><arrive> Edmont!</arrive></talk>
 	<talk character="Edmont"><default>Que?</default></talk>
 	<talk character="Denise"><default>Eu fiquei sabendo do que aconteceu.</default></talk>
 	<talk character="Edmont"><default>Tenho certeza que Mel vai sair dessa.</default></talk>
@@ -944,7 +944,7 @@
 	<talk character="Rust"><default>Pra quem vai ligar?</default></talk>
 	<talk character="Dara"><default>Pra alguém que pode levar ela pra um lugar seguro.</default></talk>
 	<teller><default>Ela liga pra Brad e ele vem, trazendo Alexander consigo. Brad e Alexander ficam esperando perto do elevador enquanto Dara e Rust tentam convencer a recepcionista de dizer o número do quarto. Derik voa até o hotel e encontra o quarto. Depois desce e vai até a recepção. Dara, ao ver o pássaro, vai atrás dele. Num beco...</default></teller>
-	<talk>
+	<talk character="Dara">
 	<default>Tá, eu vou dizer o número do andar e você dá um sinal quando acertar. Um?</default>
 	<teller>silêncio</teller>
 	<default>Sete?</default>
@@ -953,7 +953,7 @@
 	<teller>silêncio</teller>
 	<default>Décimo terceiro???</default>
 	<teller>Derik bate as asas</teller>
-	<default>Tudo bem, agora... (Dara)</default>
+	<default>Tudo bem, agora...</default>
 	</talk>
 	<talk character="Rust"><default>Isso parece loucura.</default></talk>
 	<talk character="Dara"><default>Confia em mim?</default></talk>
@@ -1035,7 +1035,7 @@
 	<talk character="Rust"><default>Não precisa dizer nada.</default>
 	<teller>Rust olha pra Dara</teller><default>Eu sei o que é isso.</default></talk>
 	<teller><default>Cinco horas da manhã. Andrews chega.</default></teller>
-	<talk character="Andrews"><irony>Tudo isso só pra mim? Devo ficar lisonjeado? </irony></talk>
+	<talk character="Andrews"><irony>Tudo isso só pra mim? Devo ficar lisonjeado?</irony></talk>
 	<teller><default>Edmont levanta e esconde Dara atrás de si. Brad acorda Stephany. Alexander pega a arma.</default></teller>
 	<talk character="Rust"><default>Dessa vez você não escapa.</default></talk>
 	<teller><default>Alexander atira com a besta em Andrews, que ri.</default></teller>

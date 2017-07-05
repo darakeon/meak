@@ -14,7 +14,7 @@
 	<talk character="Angely"><default>Ele é nosso amigo agora...</default></talk>
 	<talk character="Mel"><default>Ele desapareceu de novo, Angely.</default></talk>
 	<talk character="Angely"><default>Não custa tentar.</default></talk>
-	<talk character="Derik"><default>* Tentar o que?</default></talk>
+	<talk character="Derik"><arrive> Tentar o que?</arrive></talk>
 	<teller><default>Angely vai falar, mas Mel interrompe.</default></teller>
 	<talk character="Mel"><default>Nada. Como vai com a Kat?</default></talk>
 	<talk character="Derik"><default>Ainda não quer acreditar. Acha que não quero apresentá-la à minha família.</default></talk>
@@ -78,7 +78,7 @@
 	<talk character="Angely"><default>Teve algum sonho?</default></talk>
 	<talk character="Kat"><default>Nenhum.</default></talk>
 	<teller><default>Derik adentra o escritório – forma de pássaro.</default></teller>
-	<talk character="Mel"><default>Não foi “meio” rápido?</default></talk>
+	<talk character="Mel"><default>Não foi "meio" rápido?</default></talk>
 	<teller><default>Angely abre a gaveta, leva as roupas até o banheiro e sai. Derik entra, fecha a porta e depois sai em forma humana.</default></teller>
 	<talk character="Derik"><default>Ele está num prédio aqui perto.</default></talk>
 	<talk character="Kat"><default>Esse livro chegou pelo correio?</default></talk>
@@ -90,7 +90,7 @@
 	<talk character="Kat"><default>Acorda, poderia ser uma bomba!</default></talk>
 	<talk character="Angely"><default>Não era, está bem?</default></talk>
 	<talk character="Kat"><default>Vamos falar com Zenon então.</default></talk>
-	<talk character="Angely"><default>“Vamos”?</default></talk>
+	<talk character="Angely"><default>"Vamos"?</default></talk>
 	<talk character="Kat"><default>Você não sabe desconfiar de ninguém e Mel não pode ir sozinha.</default></talk>
 	<talk character="Mel"><default>Por que não?</default></talk>
 	<talk character="Kat"><default>E se te cercarem? E se for uma armadilha?</default></talk>
@@ -109,7 +109,7 @@
 	<talk character="Zenon"><default>Não vieram aqui pra ficar me olhando, vieram?</default></talk>
 	<talk character="Mel"><default>Isso.</default>
 	<teller>entrega o livro à Zenon</teller><default>Está em grego.</default></talk>
-	<talk character="Zenon"><default>Qualquer dia ensino essa língua à vocês...</default></talk>
+	<talk character="Zenon"><default>Qualquer dia ensino essa língua a vocês...</default></talk>
 	<talk character="Angely"><default>Mel recebeu pelo correio. Foi você?</default></talk>
 	<talk character="Zenon"><default>Não usaria correio, deixaria na porta. Nunca vi isso na minha...</default></talk>
 	<teller><default>Zenon se cala ao ver o símbolo da capa.</default></teller>
@@ -207,14 +207,14 @@
 	<talk character="Zenon"><default>Não, eu realmente me engano com números em profecias e coisas do tipo. Melhor vocês investigarem isso melhor.</default></talk>
 	<talk character="Mel"><default>E sabe de alguém com quem podemos falar?</default></talk>
 	<talk character="Zenon"><default>É um amigo meu. Ele é paralítico.</default></talk>
-	<teller><default>Noite. Os três chegam à uma casa. Mel e Angely ficam olhando de longe. Zenon toca a campainha. Uma garota de preto atende.</default></teller>
-	<talk><default>Sim? (Ísis)</default></talk>
+	<teller><default>Noite. Os três chegam a uma casa. Mel e Angely ficam olhando de longe. Zenon toca a campainha. Uma garota de preto atende.</default></teller>
+	<talk character="Ísis"><default>Sim?</default></talk>
 	<talk character="Zenon"><default>Preciso falar com...</default></talk>
-	<talk><default>Não soube? (Ísis)</default></talk>
+	<talk character="Ísis"><default>Não soube?</default></talk>
 	<talk character="Zenon"><default>Do que?</default></talk>
-	<talk><default>Meu pai morreu há um mês. (Ísis)</default></talk>
+	<talk character="Ísis"><default>Meu pai morreu há um mês.</default></talk>
 	<talk character="Zenon"><default>Eu... Sinto muito...</default></talk>
-	<talk><default>Pode entrar, posso ajudar em seja lá o que for que procura. (Ísis)</default></talk>
+	<talk character="Ísis"><default>Pode entrar, posso ajudar em seja lá o que for que procura.</default></talk>
 	<teller><default>Zenon entra.</default></teller>
 	<talk character="Mel"><default>Eu ainda preferia ir com ele...</default></talk>
 	<talk character="Angely"><default>Morreu.</default></talk>
@@ -226,46 +226,46 @@
 	<talk character="Angely"><default>Está com medo que aconteça alguma coisa?</default></talk>
 	<talk character="Mel"><default>Estou é curiosa pra saber o que afinal é aquela droga de livro!!!</default></talk>
 	<teller><default>Dentro da casa...</default></teller>
-	<talk><default>Quer alguma coisa? Ai, desculpa, eu esqueci que... (Ísis)</default></talk>
+	<talk character="Ísis"><default>Quer alguma coisa? Ai, desculpa, eu esqueci que...</default></talk>
 	<talk character="Zenon"><default>Não, tudo bem. Você disse que podia me ajudar...</default></talk>
-	<talk><default>Meu pai me ensinou tudo que sabia e eu herdei dele a inteligência e inutilidade pra outras coisas. Felizmente não precisei que alguém morresse pra descobrir minha vocação. (Ísis)</default></talk>
+	<talk character="Ísis"><default>Meu pai me ensinou tudo que sabia e eu herdei dele a inteligência e inutilidade pra outras coisas. Felizmente não precisei que alguém morresse pra descobrir minha vocação.</default></talk>
 	<talk character="Zenon"><default>Não deve ser assim tão ruim.</default></talk>
-	<talk><default>Quer trocar?</default>
-	<teller>Zenon a encara</teller><default>Vai, fala logo, qual o problema? (Ísis)</default></talk>
+	<talk character="Ísis"><default>Quer trocar?</default>
+	<teller>Zenon a encara</teller><default>Vai, fala logo, qual o problema?</default></talk>
 	<talk character="Zenon"><default>Sabe de um livro que causaria a extinção da espécie se fosse lido, um que só tem uma frase?</default></talk>
-	<talk><default>Sim, o Wurksæd... Encontrou ele??? (Ísis)</default></talk>
+	<talk character="Ísis"><default>Sim, o Wurksæd... Encontrou ele???</default></talk>
 	<talk character="Zenon"><default>Por que, foi roubado?</default></talk>
-	<talk><default>Meu pai morreu tentando proteger essa droga!!! (Ísis)</default></talk>
+	<talk character="Ísis"><default>Meu pai morreu tentando proteger essa droga!!!</default></talk>
 	<talk character="Zenon"><default>Tá, não precisa se exaltar!</default></talk>
-	<talk><default>Também está procurando ele? (Ísis)</default></talk>
+	<talk character="Ísis"><default>Também está procurando ele?</default></talk>
 	<talk character="Zenon"><default>Quero saber o que sabe sobre ele.</default></talk>
-	<talk><default>Tem que ser lido no ano cuja soma dos algarismos seja cinco, a frase será lida três vezes e levará sete anos pra a espécie ser destruída. Está com ele??? (Ísis)</default></talk>
+	<talk character="Ísis"><default>Tem que ser lido no ano cuja soma dos algarismos seja cinco, a frase será lida três vezes e levará sete anos pra a espécie ser destruída. Está com ele???</default></talk>
 	<talk character="Zenon"><default>Sim.</default></talk>
-	<talk><default>Por que quer saber...? Não está pensando em voltar a agir como antes e destruir os humanos, está??? (Ísis)</default></talk>
+	<talk character="Ísis"><default>Por que quer saber...? Não está pensando em voltar a agir como antes e destruir os humanos, está???</default></talk>
 	<talk character="Zenon"><default>Não, eu apenas quero saber como destruir aquilo.</default></talk>
-	<talk><default>Encontrou alguém de alma pura? (Ísis)</default></talk>
+	<talk character="Ísis"><default>Encontrou alguém de alma pura?</default></talk>
 	<talk character="Zenon"><default>Mais ou menos.</default></talk>
-	<talk><default>Não tem mais ou menos, ou encontrou ou não!!! (Ísis)</default></talk>
+	<talk character="Ísis"><default>Não tem mais ou menos, ou encontrou ou não!!!</default></talk>
 	<talk character="Zenon"><default>Eu ainda não sei se é.</default></talk>
-	<talk><default>Cuidado, se a pessoa ler e... (Ísis)</default></talk>
+	<talk character="Ísis"><default>Cuidado, se a pessoa ler e...</default></talk>
 	<talk character="Zenon"><default>Não é virgem.</default></talk>
-	<talk><default>Bom, pelas minha contas, vão ter que esperar sete anos. (Ísis)</default></talk>
+	<talk character="Ísis"><default>Bom, pelas minha contas, vão ter que esperar sete anos.</default></talk>
 	<talk character="Zenon"><default>E como se destrói o livro?</default></talk>
-	<talk><default>Se essa pessoa que você encontrou ler a frase cinco vezes. Certifique-se de que não é virgem, por que, se for, vai destruir a raça e depois o livro. (Ísis)</default></talk>
+	<talk character="Ísis"><default>Se essa pessoa que você encontrou ler a frase cinco vezes. Certifique-se de que não é virgem, por que, se for, vai destruir a raça e depois o livro.</default></talk>
 	<talk character="Zenon"><default>Então a pessoa sobrevive?</default></talk>
-	<talk><default>Sim, será o único sobrevivente. (Ísis)</default></talk>
+	<talk character="Ísis"><default>Sim, será o único sobrevivente.</default></talk>
 	<talk character="Zenon"><default>Quer dizer que, se eu lesse, mataria todos os vampiros e só eu ficaria vivo?</default></talk>
-	<talk><default>Você? Ler? Não me faça rir... (Ísis)</default></talk>
+	<talk character="Ísis"><default>Você? Ler? Não me faça rir...</default></talk>
 	<talk character="Zenon"><default>Não é meio contraditório isso?</default></talk>
-	<talk><default>Contraditório? (Ísis)</default></talk>
+	<talk character="Ísis"><default>Contraditório?</default></talk>
 	<talk character="Zenon"><default>Sim, sem sentido. Alguém virgem liberta o mal. Se não for, mata o mal.</default></talk>
-	<talk><default>Uma pessoa virgem não necessariamente é boa. Assim como alguém bom não necessariamente precisa ser virgem. (Ísis)</default></talk>
+	<talk character="Ísis"><default>Uma pessoa virgem não necessariamente é boa. Assim como alguém bom não necessariamente precisa ser virgem.</default></talk>
 	<talk character="Zenon"><default>Então, é ler cinco vezes... Mas como se a pessoa que não é virgem não consegue ler???</default></talk>
-	<talk><default>E por que quem fez esse livro o faria para ser destruído? (Ísis)</default></talk>
+	<talk character="Ísis"><default>E por que quem fez esse livro o faria para ser destruído?</default></talk>
 	<talk character="Zenon"><default>Bom, eu tenho que ir. Cobra ouro como seu pai?</default></talk>
-	<talk><default>Não precisa pagar, é uma informação tola... (Ísis)</default></talk>
+	<talk character="Ísis"><default>Não precisa pagar, é uma informação tola...</default></talk>
 	<talk character="Zenon"><default>Que pode salvar ou destruir o mundo. Se seu dom é esse, deve cobrar por ele ou acabará na miséria. Quanto?</default></talk>
-	<talk><default>Não sei, você está mais acostumado com os valores que ele cobrava. (Ísis)</default></talk>
+	<talk character="Ísis"><default>Não sei, você está mais acostumado com os valores que ele cobrava.</default></talk>
 	<talk character="Zenon"><default>Volto daqui há uma hora. Mas lembre-se de cobrar antes de dar a informação, ou não vão te pagar.</default></talk>
 	<teller><default>Zenon sai. Vai ao encontro de Mel e Angely.</default></teller>
 	<talk character="Mel"><default>Então???</default></talk>
@@ -277,14 +277,14 @@
 	<talk character="Mel"><default>E daí???</default></talk>
 	<talk character="Angely"><default>Estão fazendo tempestade em copo d’água.</default></talk>
 	<teller><default>Os dois encaram Angely.</default></teller>
-	<talk character="Angely"><default>Alguém virgem lê a frase uma vez, daí o outro alguém, o tal “de alma pura”, repete cinco vezes a frase.</default></talk>
+	<talk character="Angely"><default>Alguém virgem lê a frase uma vez, daí o outro alguém, o tal "de alma pura", repete cinco vezes a frase.</default></talk>
 	<teller><default>Mel e Zenon se entreolham. Vão todos pra casa. Zenon, como prometido, volta para pagar Ísis.</default></teller>
 	<talk character="Zenon"><default>Ísis? Você está aí?</default></talk>
 	<teller><default>Muitos vampiros o cercam. Ele tenta lutar, mas é pego.</default></teller>
 	<talk character="Zenon"><default>Que fizeram com a garota?</default></talk>
-	<talk><default>Não me culpe, por favor!!! (Ísis)</default></talk>
+	<talk character="Ísis"><default>Não me culpe, por favor!!!</default></talk>
 	<talk character="Zenon"><default>Fez isso pelo que? Dinheiro?</default></talk>
-	<talk><default>Esqueceu que eu tenho uma irmã mais nova, não é? (Ísis)</default></talk>
+	<talk character="Ísis"><default>Esqueceu que eu tenho uma irmã mais nova, não é?</default></talk>
 	<talk character="Zenon"><default>E vai pagar a faculdade dela com o dinheiro?</default></talk>
 	<talk character="Virgine"><default>Nós até oferecemos dinheiro, mas ela não quis.</default></talk>
 	<talk character="Zenon"><default>Tinha que ser você... Depois ofereceu o que? A vida eterna ao seu lado?</default></talk>
@@ -292,7 +292,7 @@
 	<teller><default>Virgine, que estava na porta, se aproxima de Ísis.</default></teller>
 	<talk character="Virgine"><default>Não quer mesmo, querida? Última chance...</default></talk>
 	<teller><default>Ísis empurra Virgine.</default></teller>
-	<talk><default>Onde está minha irmã??? (Ísis)</default></talk>
+	<talk character="Ísis"><default>Onde está minha irmã???</default></talk>
 	<talk character="Zenon"><default>Ísis, sai daqui!!! Eles não vão te devolver sua irmã!!!</default></talk>
 	<teller><default>Virgine vai até Ísis e quebra o pescoço dela.</default></teller>
 	<talk character="Zenon"><default>Desgraçada...</default></talk>
@@ -311,15 +311,15 @@
 	<talk character="Virgine"><default>Clara é ainda mais bonita que a irmã, sabia?</default></talk>
 	<teller><default>Zenon tenta se soltar.</default></teller>
 	<talk character="Virgine"><default>Levem ele pra minha casa. Vou usá-lo de isca e talvez deixe Clara usá-lo para praticar um pouco depois.</default></talk>
-	<teller><default>Injetam algo em Zenon e este desmaia. Do lado de fora, Angely ainda espera. Desiste antes de amanhecer. Na “MEAK”, Angely chega. Mel o ataca e ele a encosta na parede.</default></teller>
+	<teller><default>Injetam algo em Zenon e este desmaia. Do lado de fora, Angely ainda espera. Desiste antes de amanhecer. Na "MEAK", Angely chega. Mel o ataca e ele a encosta na parede.</default></teller>
 	<talk character="Angely"><default>Que foi, Mel???</default></talk>
 	<talk character="Mel"><default>Desculpa, pensei que fosse o Edmont...</default></talk>
 	<teller><default>Silêncio.</default></teller>
 	<talk character="Mel"><default>Poderia me soltar, por favor?</default></talk>
 	<talk character="Angely"><default>Desculpe.</default></talk>
-	<teller><default>Angely solta Mel. De manhã, Kat vai até a “MEAK”.</default></teller>
+	<teller><default>Angely solta Mel. De manhã, Kat vai até a "MEAK".</default></teller>
 	<talk character="Kat"><default>Então, o que vamos fazer?</default></talk>
-	<talk character="Mel"><default>Descobrir quem é o alguém de “alma pura”.</default></talk>
+	<talk character="Mel"><default>Descobrir quem é o alguém de "alma pura".</default></talk>
 	<talk character="Kat"><default>Podemos procurar pessoas que façam serviço beneficente, ou coisa assim.</default></talk>
 	<talk character="Angely"><default>No meio em que vivemos é que não vamos achar, as pessoas estão sempre buscando dinheiro e mais dinheiro.</default></talk>
 	<talk character="Mel"><default>Tem gente que doa pra instituições...</default></talk>
@@ -418,7 +418,7 @@
 	<talk character="Angely"><default>Você não tem pena, não?</default></talk>
 	<talk character="Kat"><default>Que???</default></talk>
 	<teller><default>Kat se levanta. Angely pisa no pé de Derik. Ele entende, vira pássaro e voa. Kat vai até a janela.</default></teller>
-	<talk character="Kat"><default>Tá tudo acabado, tá ouvindo??? TUDO!!!</default></talk>
+	<talk character="Kat"><default>Tá tudo acabado, tá ouvindo??? Tudo!!!</default></talk>
 	<teller><default>Ela se senta no sofá, emburrada.</default></teller>
 	<talk character="Angely"><default>Kat, também não é assim...</default></talk>
 	<talk character="Kat"><default>É, sim!!! Aliás, não quero mais falar com você, traidor!!!</default></talk>
@@ -486,9 +486,9 @@
 	<teller><default>De noite, Angely vai até o ponto marcado com um livro. Mel e Kat vão atrás de Edmont.</default></teller>
 	<talk character="Edmont"><default>E por que eu faria isso?</default></talk>
 	<talk character="Mel"><default>Tem que fazer! Não sabemos o que ela quer...</default></talk>
-	<talk character="Edmont"><irony>Me importo tanto com Zenon... Ah, e os caça-vampiros, coitadinhos! </irony></talk>
+	<talk character="Edmont"><irony>Me importo tanto com Zenon... Ah, e os caça-vampiros, coitadinhos!</irony></talk>
 	<talk character="Mel"><default>Virgine vai matá-lo se descobrir que aquele não é o verdadeiro. E Angely não pode mentir.</default></talk>
-	<talk character="Edmont"><default>Então entreguem o verdadeiro à ela.</default></talk>
+	<talk character="Edmont"><default>Então entreguem o verdadeiro a ela.</default></talk>
 	<talk character="Kat"><default>Sabe que não podemos!</default></talk>
 	<talk character="Edmont"><default>Que foi? Minha calma te irrita?</default></talk>
 	<teller><default>Angely está com Virgine. Estão cercados por pelo menos quinze vampiros.</default></teller>
@@ -504,7 +504,7 @@
 	<talk character="Virgine"><default>Tem algo errado com esse livro, me entregue.</default></talk>
 	<talk character="Angely"><default>Solte ele primeiro.</default></talk>
 	<talk character="Virgine"><default>Claro. Em quantos pedaços?</default></talk>
-	<teller><default>Ele entrega o livro à ela.</default></teller>
+	<teller><default>Ele entrega o livro a ela.</default></teller>
 	<talk character="Angely"><default>Não é o verdadeiro.</default></talk>
 	<talk character="Virgine"><default>Que pena, estava mentindo tão bem até agora...</default></talk>
 	<talk character="Angely"><default>Não menti, disse que ia tentar convencê-las e tentei. Quando cheguei aqui não falei que era o verdadeiro.</default></talk>
@@ -552,7 +552,7 @@
 	<talk character="v"><default>Virgine ficou com Andrews por que era um vampiro?</default></talk>
 	<talk character="Kassandra"><default>Não. Pensei nisso também. Ela não soube me explicar direito. Agora que Rust não está mais entre nós, não há problemas em falar nisso.</default></talk>
 	<talk character="v"><default>Por que?</default></talk>
-	<talk character="Kassandra"><default>Andrews a abandonou, Rust a amparou. Ela disse à ele que tinha sido violentada por Andrews. Queria vingança.</default></talk>
+	<talk character="Kassandra"><default>Andrews a abandonou, Rust a amparou. Ela disse a ele que tinha sido violentada por Andrews. Queria vingança.</default></talk>
 	<talk character="v"><default>Conhece alguém como Andrews?</default></talk>
 	<teller><default>Na casa de Mel e Angely, ele procura o livro.</default></teller>
 	<talk character="Angely"><default>Mas eu tenho certeza que tava aqui...</default></talk>
@@ -571,7 +571,7 @@
 	<talk character="Kat"><default>Ele não vai entregar livro nenhum se machucarem a gente!</default></talk>
 	<talk character="vo2"><default>Acho que vai, sim.</default></talk>
 	<talk character="vo1"><default>Na verdade, acho que foi o que ele foi fazer lá dentro.</default></talk>
-	<talk character="Kat"><default>Mas ele não vai entregar o livro. Seria pedir “me matem!”!!!</default></talk>
+	<talk character="Kat"><default>Mas ele não vai entregar o livro. Seria pedir "me matem!"!!!</default></talk>
 	<talk character="vo1"><default>Pois ele está lá dentro, com Virgine.</default></talk>
 	<talk character="vo2"><default>Melhor levarmos elas, ela pode ficar zangada se simplesmente a matarmos.</default></talk>
 	<talk character="Mel"><default>Não vão nos levar assim fácil.</default></talk>
@@ -631,7 +631,7 @@
 	<talk character="Kat"><default>Ele sabe matar um vampiro, mas não sabe cortar uma corda.</default></talk>
 	<talk character="Mel"><default>Tem uma faca na minha bota.</default></talk>
 	<talk character="Derik"><default>Por que não disse antes?!</default></talk>
-	<talk character="Mel"><default>“Fiquem calmas, eu sei como desamarrar!”</default></talk>
+	<talk character="Mel"><default>"Fiquem calmas, eu sei como desamarrar!"</default></talk>
 	<teller><default>Angely pega a faca e corta as cordas.</default></teller>
 	<talk character="Angely"><default>Vamos logo, estão todos desacordados lá fora.</default></talk>
 	<teller><default>Os quatro saem.</default></teller>
@@ -655,15 +655,15 @@
 	<talk character="Kat"><default>Tudo bem, então, eu distraio os vampiros e vocês lutam, certo?</default></talk>
 	<teller><default>No prédio onde Zenon está preso, pouco depois, Kat vai até a porta. Há três vampiros de guarda.</default></teller>
 	<talk character="Kat"><default>Ei, você! Poderia me dar uma informação?</default></talk>
-	<talk><default>E o que vou ganhar? (vº1)</default></talk>
+	<talk character="vº1"><default>E o que vou ganhar?</default></talk>
 	<talk character="Kat"><default>Ganhar?</default></talk>
 	<teller><default>Ali perto.</default></teller>
 	<talk character="Mel"><default>Não foi boa essa idéia. Você entra, ajuda o Zenon. Vou ajudar Kat.</default></talk>
 	<teller><default>Mel se aproxima de Kat.</default></teller>
 	<talk character="Mel"><default>Ah, você tá aí... Já sabe pra onde fica a rodoviária?</default></talk>
-	<talk><default>Posso te levar até lá. (vº2)</default></talk>
+	<talk character="vº2"><default>Posso te levar até lá.</default></talk>
 	<talk character="Mel"><default>Desculpe, eu tava falando com a minha irmã.</default></talk>
-	<talk><default>Será que a Virgine fica brava se pararmos pra um lanchinho? (vº3)</default></talk>
+	<talk character="vº3"><default>Será que a Virgine fica brava se pararmos pra um lanchinho?</default></talk>
 	<teller><default>Angely entra no prédio. Vai até uma sala e vê uma garota treinando. Vai pra outra sala.</default></teller>
 	<talk character="vampiro 1"><default>Será que se jogássemos ele na sala com Clara, Virgine ficaria brava?</default></talk>
 	<talk character="vampiro 2"><default>Acho que não, ela já deve estar com o livro.</default></talk>
@@ -908,10 +908,10 @@
 	<talk character="Derik"><default>Isso foi bonito da parte de vocês.</default></talk>
 	<talk character="Kat"><default>Inclusive o barco. Eles vão dizer que ouve uma grande tempestade e todos nos perdemos no mar.</default></talk>
 	<teller><default>Na cabine do capitão, Melody está conversando com ele.</default></teller>
-	<talk><default>É, acho que a natureza está à nosso favor. (capitão)</default></talk>
+	<talk character="capitão"><default>É, acho que a natureza está à nosso favor.</default></talk>
 	<talk character="Mel"><default>Por que?</default></talk>
-	<talk><default>Vem vindo uma tempestade. Acho que não é muito grande, mas podemos dizer que vocês caíram no mar. Espero que não aja realmente ninguém pra ver vocês chegarem. (capitão)</default></talk>
-	<teller><default>Mais tarde, a tempestade. O barco naufraga. É manhã. Angely chega à uma praia. Está tudo deserto. Ele vê os outros, todos do barco, menos Zenon e Edmont, desacordados. Vê o livro ao seu lado. O pega. Dara aparece.</default></teller>
+	<talk character="capitão"><default>Vem vindo uma tempestade. Acho que não é muito grande, mas podemos dizer que vocês caíram no mar. Espero que não aja realmente ninguém pra ver vocês chegarem.</default></talk>
+	<teller><default>Mais tarde, a tempestade. O barco naufraga. É manhã. Angely chega a uma praia. Está tudo deserto. Ele vê os outros, todos do barco, menos Zenon e Edmont, desacordados. Vê o livro ao seu lado. O pega. Dara aparece.</default></teller>
 	<talk character="Dara"><default>Não queria que eu fritasse os dois, não é?</default></talk>
 	<talk character="Angely"><default>Estão aqui também?</default></talk>
 	<talk character="Dara"><default>Sim. Vá cumprir sua missão.</default></talk>
@@ -928,9 +928,9 @@
 	<talk character="Angely"><default>Vou morrer...</default></talk>
 	<talk character="Dara"><default>Não, só vai quando for sua hora. Vou estar te esperando.</default></talk>
 	<teller><default>Dara desaparece. Angely acorda os outros e vão para a parte habitada da ilha.</default></teller>
-	<talk><default>Deixa que eu vou. (capitão)</default></talk>
+	<talk character="capitão"><default>Deixa que eu vou.</default></talk>
 	<talk character="Angely"><default>Mas...</default></talk>
-	<talk><default>Vou perguntar onde fica o templo. (capitão)</default></talk>
+	<talk character="capitão"><default>Vou perguntar onde fica o templo.</default></talk>
 	<teller><default>Ele sai.</default></teller>
 	<talk character="Kat"><default>Vou procurar uma loja de CDs.</default></talk>
 	<talk character="Mel"><default>Pra que???</default></talk>
@@ -966,9 +966,9 @@
 	<talk character="Mel"><default>Compramos.</default></talk>
 	<talk character="vendedor"><default>Voltem sempre!</default></talk>
 	<teller><default>Depois de trocado o dinheiro, vão os cinco pro templo. Chegam lá e encontram Zenon e Edmont (no subterrâneo). O templo tem seis caixas grandes abertas, seis baús e uma pequena construção estranha no centro.</default></teller>
-	<talk><default>Bom, vocês agora estão mortos. (capitão)</default></talk>
+	<talk character="capitão"><default>Bom, vocês agora estão mortos.</default></talk>
 	<talk character="Angely"><default>É. Obrigado pela ajuda, nós...</default></talk>
-	<talk><default>Vocês pagaram. E, se é verdade o que me disseram, é uma honra ajudar. (capitão)</default></talk>
+	<talk character="capitão"><default>Vocês pagaram. E, se é verdade o que me disseram, é uma honra ajudar.</default></talk>
 	<teller><default>Ele sai.</default></teller>
 	<talk character="Mel"><default>Bom, agora, o que fazemos?</default></talk>
 	<teller><default>Derik vai até o centro.</default></teller>

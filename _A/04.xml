@@ -69,7 +69,7 @@
 	<teller><default>Meg baixa a cabeça</default></teller>
 	<talk character="Meg"><default>Como ela estava?</default></talk>
 	<talk character="Angely"><default>Uma palavra de quarto letras.</default></talk>
-	<talk character="Kat"><default>* Viva.</default></talk>
+	<talk character="Kat"><arrive> Viva.</arrive></talk>
 	<teller><default>Meg se levanta. Vai até Kat. Olha pra ela e desmaia. Edmont segura ela. Agatha fica em estado de choque, sentada no sofá. Edmont pega Meg no colo e coloca no outro sofá.</default></teller>
 	<talk character="Mel"><default>Eu sabia que isso não ia prestar.</default></talk>
 	<talk character="Angely"><default>Agatha, acorda.</default></talk>
@@ -110,7 +110,7 @@
 	<talk character="Mel"><default>Foi.</default></talk>
 	<talk character="Meg"><default>Onde ela estava?</default></talk>
 	<talk character="Mel"><default>Perdida na cidade.</default></talk>
-	<talk to="Kat"><default>Fizeram alguma coisa com você? (Meg)</default></talk>
+	<talk character="Meg"><default>Fizeram alguma coisa com você?</default></talk>
 	<talk character="Kat"><default>Fizeram, me ignoraram.</default></talk>
 	<talk character="Meg"><default>Prometo que eu nunca mais deixo você correr perigo.</default></talk>
 	<talk character="Kat"><default>Deixar? Quem disse que deixou? Além do mais, não quero ser superprotegida.</default></talk>
@@ -188,7 +188,7 @@
 	<talk character="Elian"><default>Não cresces, não podes ser tratada como crescida!!!</default></talk>
 	<talk character="Beatrice"><default>Tu que não deixas eu cuidar de minha vida!!!</default></talk>
 	<talk character="Elian"><default>Eu cuidei de ti muito bem até agora!!!</default></talk>
-	<talk character="Beatrice"><default>Mas EU quero cuidar de mim!!!</default></talk>
+	<talk character="Beatrice"><default>Mas</default><frizz>eu</frizz><default>quero cuidar de mim!!!</default></talk>
 	<talk character="Elian"><default>Não podes, não tens idade!!!</default></talk>
 	<talk character="Beatrice"><default>Mas pra ficar contigo eu tenho idade, né???</default></talk>
 	<talk character="Elian"><default>Melhor abrires logo esta droga desta porta!!!</default></talk>
@@ -258,7 +258,7 @@
 	<talk character="Jeremy"><default>Fiquem sabendo do que aconteceu. Parece que são minhas novas chefes.</default></talk>
 	<talk character="Meg"><default>Temos que assumir os negócios de nossos pais.</default></talk>
 	<talk character="Agatha"><default>Por que será que eles nunca mais trouxeram a gente aqui?</default></talk>
-	<talk to="Agatha"><hushed>Você tem namorado. (Meg)</hushed></talk>
+	<talk character="Meg" to="Agatha"><hushed>Você tem namorado.</hushed></talk>
 	<talk character="Jeremy"><default>Bom, vocês tem alguma idéia do que fazer aqui?</default></talk>
 	<talk character="Meg"><default>Qual seu cargo?</default></talk>
 	<talk character="Jeremy"><default>Presidente.</default></talk>
@@ -269,7 +269,7 @@
 	<talk character="Jeremy"><default>Podemos dar uma volta na empresa e eu explico tudo pra vocês.</default></talk>
 	<talk character="Agatha"><default>Todo o prédio é a empresa?</default></talk>
 	<talk character="Jeremy"><default>É.</default></talk>
-	<talk character="Meg"><irony>Que chato! </irony></talk>
+	<talk character="Meg"><irony>Que chato!</irony></talk>
 	<teller><default>Eles vão dar uma volta no prédio. Mel está na delegacia, pra saber detalhes sobre as mortes.</default></teller>
 	<talk character="policial"><default>Bom, os pescoços estavam furados. Os corpos não tinham sangue...</default></talk>
 	<talk character="Mel"><default>Também estava assim o corpo da garota?</default></talk>
@@ -299,7 +299,7 @@
 	<talk character="Mel"><default>Então a casa não tem história, não tem nada???</default></talk>
 	<talk character="Edmont"><default>Esse fantasma é esperto.</default></talk>
 	<talk character="Mel"><default>Por que acha que é um fantasma?</default></talk>
-	<talk character="Angely"><default>Foi o melhor nome que encontramos. Não dá pra ficar chamando de “isso”.</default></talk>
+	<talk character="Angely"><default>Foi o melhor nome que encontramos. Não dá pra ficar chamando de "isso".</default></talk>
 	<talk character="Edmont"><default>E você, o que descobriu?</default></talk>
 	<talk character="Mel"><default>Corpos sem sangue, pescoços furados...</default></talk>
 	<talk character="Angely"><default>vampiros existem?</default></talk>
@@ -309,7 +309,7 @@
 	<teller><default>Eles começam a procurar. Já é de tarde.</default></teller>
 	<talk character="Edmont"><default>Encontrei algo...</default></talk>
 	<talk character="Angely"><default>Espero que explique alguma coisa.</default></talk>
-	<talk character="Edmont"><default>Não podem andar à luz do sol, não podem tocar cruzes, não gostam de igrejas e objetos relacionados à ela. Suas feridas cicatrizam rápido. Sem reflexo...</default></talk>
+	<talk character="Edmont"><default>Não podem andar à luz do sol, não podem tocar cruzes, não gostam de igrejas e objetos relacionados a ela. Suas feridas cicatrizam rápido. Sem reflexo...</default></talk>
 	<talk character="Mel"><default>Por isso aquele espelho enorme na sala.</default></talk>
 	<talk character="Edmont"><default>Bebem sangue, tem dentes caninos grandes e afiados...</default></talk>
 	<talk character="Mel"><default>Duh!!! Isso todo mundo sabe!!!</default></talk>
@@ -371,7 +371,7 @@
 	<talk character="Edmont"><default>Kat, pode acontecer.</default></talk>
 	<talk character="Kat"><default>Você levou a sério???</default></talk>
 	<talk character="Edmont"><default>Sei lá, do jeito que esse mundo tá ficando...</default></talk>
-	<talk character="Kat"><default>“Fui ver a empresa”.</default></talk>
+	<talk character="Kat"><default>"Fui ver a empresa".</default></talk>
 	<talk character="Edmont"><default>Onde fica essa empresa?</default></talk>
 	<talk character="Kat"><default>Como espera que eu saiba?</default></talk>
 	<talk character="Edmont"><default>Sei lá, era do seu pai, não do meu!!!</default></talk>
@@ -821,10 +821,10 @@
 	<teller><default>Edmont tira a bolsa do cachorro e há algumas folha dentro desta.</default></teller>
 	<talk character="Kat"><default>Que isso? Cão-correio?</default></talk>
 	<talk character="Angely"><default>Um mensageiro.</default></talk>
-	<talk character="Edmont"><default>POR QUE TUDO ISSO???</default></talk>
-	<teller><default>No espelho na sala, aparece: “resolvam o caso”.</default></teller>
+	<talk character="Edmont"><screamed>Por que tudo isso???</screamed></talk>
+	<teller><default>No espelho na sala, aparece: "resolvam o caso".</default></teller>
 	<talk character="Angely"><default>Pelo menos ele não quer façamos uma casa de mãos nas costas.</default></talk>
-	<teller><default>Espelho: “Depois que resolverem, decidirão se querem continuar com isso”.</default></teller>
+	<teller><default>Espelho: "Depois que resolverem, decidirão se querem continuar com isso".</default></teller>
 	<talk character="Edmont"><default>Bom, até agora não mudei de idéia.</default></talk>
 	<talk character="Angely"><default>Se for pra escolher entre uma vida normal e isso, prefiro ainda a vida normal.</default></talk>
 	<talk character="Kat"><default>Eu também.</default></talk>
@@ -923,7 +923,7 @@
 	<talk character="Meg"><default>Liga não, é inveja.</default></talk>
 	<teller><default>Mel e Kat chegam.</default></teller>
 	<talk character="Mel"><default>Bom, agora que já acabou o beijódromo, temos mais o que fazer por aqui.</default></talk>
-	<talk character="Agatha"><default>Como, “mais o que fazer”?</default></talk>
+	<talk character="Agatha"><default>Como, "mais o que fazer"?</default></talk>
 	<talk character="Mel"><default>A casa tá uma bagunça.</default></talk>
 	<talk character="Edmont"><default>É mesmo, né?</default></talk>
 	<talk character="Meg"><default>Pô, agora que tava ficando bom...</default></talk>
@@ -995,7 +995,7 @@
 	<talk character="Meg"><default>Por que quer tanto ficar na casa deles?</default></talk>
 	<talk character="Kat"><default>Que você tá pensando que eu sou??? Eles são meus amigos, tá???</default></talk>
 	<talk character="Meg"><default>Tá, tudo bem. Edmont tava lá e ela vai perguntar se ele cuida de você. Mas dessa vez não vai passar a noite lá, não!!!</default></talk>
-	<talk character="Kat"><default>Não precisa ficar com ciúmes, se você chegar no Angely e disser: “deita no chão que eu não quero sujar meus pés”, ele vira pra você e diz: “claro”. Vem Aurium.</default></talk>
+	<talk character="Kat"><default>Não precisa ficar com ciúmes, se você chegar no Angely e disser: "deita no chão que eu não quero sujar meus pés", ele vira pra você e diz: "claro". Vem Aurium.</default></talk>
 	<teller><default>Kat vai pro quarto e o cachorro (Aurium) a segue.</default></teller>
 	<talk character="Meg"><default>Será que ela tava falando sério?... Peraí, do que ela chamou o cachorro???</default></talk>
 	<teller><default>Na casa de Agatha...</default></teller>

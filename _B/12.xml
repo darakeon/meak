@@ -16,7 +16,7 @@
 	<talk character="Michele"><hushed>Por que contratou aquela mulher???</hushed></talk>
 	<talk character="Mel"><default>Tem um bom currículo. E você não manda mais aqui, esqueceu?</default></talk>
 	<talk character="Michele"><hushed>Você não está me entendendo, minha opinião na escola é uma...</hushed></talk>
-	<talk character="Ludmila"><default>* Sobre o que, senhorita Michele?</default></talk>
+	<talk character="Ludmila"><arrive> Sobre o que, senhorita Michele?</arrive></talk>
 	<talk character="Michele"><default>Não era nada, senhora Ludmila. Discussão pessoal.</default></talk>
 	<teller><default>Mel percebe que Michele ficou pálida. Esta sai.</default></teller>
 	<talk character="Mel"><default>Como foi o primeiro dia?</default></talk>
@@ -55,7 +55,7 @@
 	<talk character="Derik"><default>Volume.</default></talk>
 	<talk character="Michele"><default>Quê?</default></talk>
 	<talk character="Derik"><default>Esquece. Sim, eu ouvi, você consegue fazer qualquer um ouvir tudo que diz. Aliás, Zenon devia te ajudar a falar mais baixo também...</default></talk>
-	<talk character="Michele"><default>ESTOU COM UM PROBLEMA MAIOR QUE ESSE, SE IMPORTA???</default></talk>
+	<talk character="Michele"><screamed>Estou com um problema maior que esse, se importa???</screamed></talk>
 	<talk character="Derik"><default>Maior que seu agudo, não dá!</default></talk>
 	<talk character="Michele"><default>Daqui a pouco nem vou mais me preocupar com a Kat com você, parece que tá aviadando!</default></talk>
 	<talk character="Derik"><default>Quer um conselho? Sai daqui, antes que eu ligue pra Mel e peça pra ela te correr, tá?</default></talk>
@@ -109,9 +109,9 @@
 	<talk character="Michele"><default>Mas já era pra estar fraca!</default></talk>
 	<talk character="Alice"><default>Ela é mais forte que o normal.</default></talk>
 	<talk character="Michele"><default>Isso eu sei. Mas não mostra se quer um sinal de fraqueza.</default></talk>
-	<talk character="Alan"><default>* Por isso tava perguntando tanto dela...</default></talk>
+	<talk character="Alan"><arrive> Por isso tava perguntando tanto dela...</arrive></talk>
 	<talk character="Michele"><default>Tava ouvindo???</default></talk>
-	<talk character="Alan"><irony>Ué, achei que tinha instinto suficiente pra saber... </irony><default>Não, só ouvi “não mostra se quer um sinal de fraqueza”. Aliás, devia ter notado quando eu tava chegando. Se distrai demais quando tá fofocando e armando. Parece que vai mesmo bater seus recordes.</default></talk>
+	<talk character="Alan"><irony>Ué, achei que tinha instinto suficiente pra saber...</irony><default>Não, só ouvi "não mostra se quer um sinal de fraqueza". Aliás, devia ter notado quando eu tava chegando. Se distrai demais quando tá fofocando e armando. Parece que vai mesmo bater seus recordes.</default></talk>
 	<talk character="Michele"><default>Tentei falar com Melody sobre Ludmila. Se ela não ouve, azar dela.</default></talk>
 	<teller><default>Ele sai. Chega em casa e encontra Fábio na recepção.</default></teller>
 	<talk character="Alan"><default>Mel tá aí?</default></talk>
@@ -138,17 +138,17 @@
 	<talk character="Fábio"><default>Vocês podem falar com o Jessé.</default></talk>
 	<talk character="Bea"><default>Tão novo na escola quanto Mel.</default></talk>
 	<talk character="Zenon"><default>Mas ele pode nos dar endereços de alunos antigos, que conheçam a tal...</default></talk>
-	<talk character="Kat"><default>* Ludmila?</default></talk>
+	<talk character="Kat"><arrive> Ludmila?</arrive></talk>
 	<talk character="Fábio"><default>Gente, ela tá aí e a gente falando dela, sem nem cuidado aqui...</default></talk>
 	<talk character="Bea"><default>Poderia ser ela descendo. Melhor sairmos daqui.</default></talk>
 	<talk character="Bea"><default>Alguém sabe o endereço do Jessé?</default>
 	<teller>silêncio</teller><default>Pular portões de escola?</default>
 	<teller>Kat e Zenon levantam as mãos</teller><default>Ótimo. Vamos pra escola. Fábio, você inventa algo se alguém perguntar?</default></talk>
 	<talk character="Fábio"><default>Claro.</default></talk>
-	<talk character="Alan"><default>* Peraí, eu esqueci de falar algo!</default></talk>
-	<talk character="Bea"><irony>Ah, o holograma vem com recado? </irony></talk>
+	<talk character="Alan"><arrive> Peraí, eu esqueci de falar algo!</arrive></talk>
+	<talk character="Bea"><irony>Ah, o holograma vem com recado?</irony></talk>
 	<talk character="Alan"><default>Chele disse que tentou avisar Mel de uma coisa, mas que ela não quis ouvir. Eu peguei elas comentando que alguém deveria estar fraco já, e perguntei se era por isso que ela tava perguntando da Mel. Joguei verde e colhi podre.</default></talk>
-	<talk character="Zenon"><irony>Que evolução, você jogando! </irony></talk>
+	<talk character="Zenon"><irony>Que evolução, você jogando!</irony></talk>
 	<talk character="Alan"><default>Obrigado...</default>
 	<teller>sorri, mas percebe</teller><default>Ei, isso não foi um elogio!</default></talk>
 	<talk character="Bea"><default>Vocês três vão pular o muro da escola. Nos encontramos na praça central de Hera.</default></talk>
@@ -163,11 +163,11 @@
 	<teller><default>Kat tapa o rosto.</default></teller>
 	<talk character="Zenon"><default>Alan?</default></talk>
 	<talk character="Alan"><default>Sim?</default></talk>
-	<talk character="Zenon"><default>PULA LOGO ESSA MERDA!!!</default></talk>
+	<talk character="Zenon"><screamed>Pula logo essa merda!!!</screamed></talk>
 	<talk character="Alan"><default>Droga...</default></talk>
 	<teller><default>Alan tenta subir pelo muro. Cai.</default></teller>
 	<talk character="Alan"><default>Eu não consigo!</default></talk>
-	<talk character="Jessé"><default>* Talvez eu possa te ajudar com a chave.</default></talk>
+	<talk character="Jessé"><arrive> Talvez eu possa te ajudar com a chave.</arrive></talk>
 	<talk character="Alan"><default>Ah... É... Oi... Eu... Tava...</default></talk>
 	<talk character="Jessé"><default>Tentando pular o muro. Não achei que fosse ver alguém fazer isso do lado de fora, ainda mais com a sua idade. Não lembro de você.</default></talk>
 	<talk character="Alan"><default>Já passei da idade de estudar.</default></talk>
@@ -193,20 +193,20 @@
 	<talk character="Jessé"><default>Que Melody protege Kat com unhas e dentes?</default></talk>
 	<talk character="Zenon"><default>Não, dos outros alunos...</default></talk>
 	<talk character="Kat"><default>Minha mãe não ia ser injusta!</default></talk>
-	<talk character="Jessé"><default>Ludmila tá convencendo Mel de que todo mundo precisa de “disciplina”, como ela chama. Dizem que, quando esteve aqui da outra vez, com as alunas ela foi mais mansa, mas agora as garotas mesmo se distanciam dela, mesmo com o tratamento melhor.</default></talk>
+	<talk character="Jessé"><default>Ludmila tá convencendo Mel de que todo mundo precisa de "disciplina", como ela chama. Dizem que, quando esteve aqui da outra vez, com as alunas ela foi mais mansa, mas agora as garotas mesmo se distanciam dela, mesmo com o tratamento melhor.</default></talk>
 	<talk character="Alan"><default>Que aconteceu da outra vez pra ela ir embora?</default></talk>
 	<teller><default>Jessé olha para os lados.</default></teller>
 	<talk character="Jessé"><hushed>Pelo que comentaram comigo, ela separou um casal. Mandou um pra cadeia, outro pro hospício.</hushed><default>Agora tenho coisas a fazer lá dentro. Licença.</default></talk>
 	<teller><default>Kat e Zenon saem. Jessé tranca o portão.</default></teller>
 	<talk character="Bea"><default>Eu falei que ela fedia.</default></talk>
-	<teller><default>Na casa de Michele, esta está se vestindo. Ouve uma voz vinda do quarto. Sai e vê uma gravador sobre a cama. “É, fiz. Mas está vivo e meu serviço foi limpo.”. Pega o gravador.</default></teller>
+	<teller><default>Na casa de Michele, esta está se vestindo. Ouve uma voz vinda do quarto. Sai e vê uma gravador sobre a cama. "É, fiz. Mas está vivo e meu serviço foi limpo.". Pega o gravador.</default></teller>
 	<talk character="Bea"><default>Vai quebrar? Tenho outras.</default></talk>
 	<teller><default>Michele se cobre com a toalha.</default></teller>
 	<talk character="Bea"><default>Se eu quisesse te ver, tinha entrado, não esperado você colocar calcinha e sutiã. Aliás, seu enchimento não engana ninguém.</default></talk>
 	<talk character="Michele"><default>Veio me subornar?</default></talk>
 	<talk character="Bea"><default>Vim perguntar o que sabe da Ludmila.</default></talk>
 	<talk character="Michele"><default>Daí não precisava dessa fitinha ridícula. Mas, agora que mostrou, só falo se der todas as cópias que tem.</default></talk>
-	<talk character="Bea"><default>Eu posso fazer mil cópias, te entregar quinhentas e dizer que é tudo. Você nunca vai saber. Mas não vim aqui fazer acordo. Se eu quiser, espalho essa fita pela cidade inteira. Imagina, “filha de magnata quase mata namorado da amiga por que ele é pobre”. Então, vai fazer o que eu quiser.</default></talk>
+	<talk character="Bea"><default>Eu posso fazer mil cópias, te entregar quinhentas e dizer que é tudo. Você nunca vai saber. Mas não vim aqui fazer acordo. Se eu quiser, espalho essa fita pela cidade inteira. Imagina, "filha de magnata quase mata namorado da amiga por que ele é pobre". Então, vai fazer o que eu quiser.</default></talk>
 	<talk character="Michele"><default>Eu sou rica. Pago pra não divulgarem.</default></talk>
 	<talk character="Bea"><default>Divulgarem? Acha mesmo que vou deixar esse prazer pra terceiros? Assim que eu espalhar isso, ninguém vai mais se aproximar de você, nem os interesseiros, porque dinheiro não vai ser nada quando não tiver amigos.</default></talk>
 	<talk character="Michele"><default>Vou pra São Paulo. Isso aqui já tava me enchendo mesmo.</default></talk>
@@ -223,10 +223,10 @@
 	<talk character="Zenon"><default>Separou um casal. Cadeia e hospício.</default></talk>
 	<talk character="Bea"><default>Essa parte Michele não me contou.</default></talk>
 	<talk character="Alan"><default>Foi falar com Michele???</default></talk>
-	<talk character="Kat"><default>Quem você achou que era a “aluna em especial”?</default></talk>
+	<talk character="Kat"><default>Quem você achou que era a "aluna em especial"?</default></talk>
 	<talk character="Alan"><default>Ué, mas então era mais fácil ter mandado você.</default></talk>
 	<talk character="Kat"><default>Michele não quis falar comigo sobre Ludmila, por isso eu não disse nada. Como convenceu a falar com você?</default></talk>
-	<talk character="Bea"><default>Não podemos perder tempo com isso. Ela disse que algumas garotas foram encontradas em coma, elas tinham largado o namorado e eram “amigas” de Ludmila.</default></talk>
+	<talk character="Bea"><default>Não podemos perder tempo com isso. Ela disse que algumas garotas foram encontradas em coma, elas tinham largado o namorado e eram "amigas" de Ludmila.</default></talk>
 	<talk character="Zenon"><default>Tão amigas quanto Mel?</default></talk>
 	<talk character="Bea"><default>Conseguiram o endereço de algum aluno? Não podemos ficar só nessas opiniões.</default></talk>
 	<teller><default>Alan, Zenon e Kat se entreolham. Beatrice os encara. Alguns minutos depois, estão os quatro na frente da escola.</default></teller>
@@ -280,26 +280,26 @@
 	<talk character="Bea"><default>Os que têm ex-namoradas em coma. Vamos ao hospital, procuramos as garotas em coma, falamos com as famílias...</default></talk>
 	<talk character="Zenon"><default>Os dois farão isso. Nós daremos um jeito no mais complicado.</default></talk>
 	<teller><default>1983. Um garoto de quatro anos está num orfanato, sentado no chão, observando as outras crianças. Uma mulher se aproxima.</default></teller>
-	<talk character="mVAL"><default>Oi.</default></talk>
+	<talk character="mulher"><default>Oi.</default></talk>
 	<talk character="Lucas"><default>Meu nome é Lucas. Veio adotar?</default></talk>
-	<talk character="mVAL"><default>Ah... Eu...</default></talk>
+	<talk character="mulher"><default>Ah... Eu...</default></talk>
 	<talk character="Lucas"><default>Só inspetora?</default></talk>
-	<talk character="mVAL"><default>Tá vendo aquele homem, falando com a tia?</default></talk>
+	<talk character="mulher"><default>Tá vendo aquele homem, falando com a tia?</default></talk>
 	<teller><default>Ela aponta um homem. Ele olha e volta a olhar para ela.</default></teller>
 	<talk character="Lucas"><default>Você a chama de tia?</default></talk>
-	<talk character="mVAL"><default>Não.</default></talk>
+	<talk character="mulher"><default>Não.</default></talk>
 	<talk character="Lucas"><default>Eu também não. É costume das outras crianças.</default></talk>
 	<teller><default>Lucas olha de novo para o homem.</default></teller>
 	<talk character="Lucas"><default>É seu namorado ou seu irmão?</default></talk>
-	<talk character="mVAL"><default>Marido.</default></talk>
+	<talk character="mulher"><default>Marido.</default></talk>
 	<talk character="Lucas"><default>Isso não é a mesma coisa que namorado?</default></talk>
-	<talk character="mVAL"><default>Depende do caso... ¬</default>
+	<talk character="mulher"><default>Depende do caso... ¬</default>
 	<teller>ela olha pra ele</teller><default>No nosso caso, é.</default></talk>
 	<talk character="Lucas"><default>Vão adotar menino ou menina? Terá irmãos?</default></talk>
 	<teller><default>Ela olha de volta para ele.</default></teller>
-	<talk character="mVAL"><default>Sou infértil.</default></talk>
+	<talk character="mulher"><default>Sou infértil.</default></talk>
 	<talk character="Lucas"><default>Mas isso não é problema. Pode adotar mais de um. Eu recomendo. Uma criança que cresce num orfanato cresce cercada de outras crianças. Algumas adorariam ser filhas únicas, são meio reclusas, mas a maioria não fica muito sozinha...</default></talk>
-	<talk character="mVAL"><default>A mulher disse pra eu vir falar com você.</default></talk>
+	<talk character="mulher"><default>A mulher disse pra eu vir falar com você.</default></talk>
 	<talk character="Lucas"><default>Aqui me chamam de guia. Nunca uma família que eu tenha achado a criança devolveu. Desde que eu encaminho as coisas, ninguém se fere.</default></talk>
 	<teller><default>Noite. Lucas acorda.</default></teller>
 	<talk character="Lucas"><default>Valquíria...</default></talk>
@@ -354,43 +354,43 @@
 	<talk character="Lucas"><default>Se eu tivesse provas, acha que estaria aqui, privado da minha liberdade e longe do meu amor? Sabe ao menos onde está Valquíria?</default></talk>
 	<teller><default>1983. Lucas entra em casa. Olha para tudo. Volta-se para seus novos pais.</default></teller>
 	<talk character="Lucas"><default>Devo chamá-los de pais?</default></talk>
-	<talk character="mVAL"><default>Quando quiser.</default></talk>
+	<talk character="mulher"><default>Quando quiser.</default></talk>
 	<talk character="Lucas"><default>Posso usar a cozinha?</default></talk>
-	<talk character="pVAL"><default>Você sabe cozinhar?</default></talk>
+	<talk character="homem"><default>Você sabe cozinhar?</default></talk>
 	<talk character="Lucas"><default>Desde a minha outra encarnação.</default></talk>
 	<teller><default>Lucas vai para a cozinha</default></teller>
-	<talk character="mVAL"><default>Ele é um garoto meio precoce, não acha?</default></talk>
-	<talk character="pVAL"><default>Talvez.</default></talk>
-	<talk character="mVAL"><default>Será que saberemos lidar com ele?</default></talk>
-	<talk character="pVAL"><default>Se não soubermos, ele ensina.</default></talk>
+	<talk character="mulher"><default>Ele é um garoto meio precoce, não acha?</default></talk>
+	<talk character="homem"><default>Talvez.</default></talk>
+	<talk character="mulher"><default>Será que saberemos lidar com ele?</default></talk>
+	<talk character="homem"><default>Se não soubermos, ele ensina.</default></talk>
 	<teller><default>2003. Beatrice está num hospício, com um médico.</default></teller>
-	<talk><default>Ela diz que a mulher rouba a força das pessoas. (médico)</default></talk>
+	<talk character="médico"><default>Ela diz que a mulher rouba a força das pessoas.</default></talk>
 	<talk character="Bea"><default>E Ludmila colocou a garota no hospício um mês depois de mandar prender o namorado por sedução de menor?</default></talk>
-	<talk><default>Olha, eu sei, a mulher parece o diabo, mas não podemos fazer nada com o depoimento de uma garota que afirma que a acusada é o próprio demônio... (médico)</default></talk>
+	<talk character="médico"><default>Olha, eu sei, a mulher parece o diabo, mas não podemos fazer nada com o depoimento de uma garota que afirma que a acusada é o próprio demônio...</default></talk>
 	<talk character="Bea"><default>Ela disse isso?</default></talk>
-	<talk><default>Pra você ver. Olha, a garota fica perturbada de vez em quando, mas ela está bem aqui... (médico)</default></talk>
+	<talk character="médico"><default>Pra você ver. Olha, a garota fica perturbada de vez em quando, mas ela está bem aqui...</default></talk>
 	<talk character="Bea"><default>Perturbada por causa do namorado?</default></talk>
-	<talk><default>Não duvido que ele fosse um aproveitador também, aliás, pior, acho que ele é algum tipo de louco. (médico)</default></talk>
+	<talk character="médico"><default>Não duvido que ele fosse um aproveitador também, aliás, pior, acho que ele é algum tipo de louco.</default></talk>
 	<talk character="Bea"><default>Por que acha isso?</default></talk>
-	<talk><default>A própria história dos dois diz tudo... (médico)</default></talk>
+	<talk character="médico"><default>A própria história dos dois diz tudo...</default></talk>
 	<teller><default>1983. Lucas está olhando os dois comerem.</default></teller>
 	<talk character="Lucas"><default>Onde eu durmo?</default></talk>
-	<talk character="mVAL"><default>Vou lá te mostrar...</default></talk>
+	<talk character="mulher"><default>Vou lá te mostrar...</default></talk>
 	<teller><default>A mulher sobe com Lucas. Ele olha para todo o quarto. Deita-se na cama. Ela o cobre. Dá um beijo na testa e sai.</default></teller>
 	<talk character="Lucas"><default>Amanhã, quando eu acordar, Valquíria já terá voltado pra esse mundo.</default></talk>
 	<teller><default>Ela volta à cozinha.</default></teller>
-	<talk character="pVAL"><default>E aí, ele dormiu?</default></talk>
-	<talk character="mVAL"><default>É uma criança, não um robô!</default></talk>
-	<talk character="pVAL"><default>Parecia com sono.</default></talk>
+	<talk character="homem"><default>E aí, ele dormiu?</default></talk>
+	<talk character="mulher"><default>É uma criança, não um robô!</default></talk>
+	<talk character="homem"><default>Parecia com sono.</default></talk>
 	<teller><default>Eles tiram a louça da mesa. Ele abraça-a. Beija-lhe o pescoço.</default></teller>
-	<talk character="mVAL"><default>Não dá mais pra fazer isso em qualquer lugar da casa...</default></talk>
-	<talk character="pVAL"><default>Relaxa, ele tá no quarto dele.</default></talk>
-	<talk character="mVAL"><default>Não sabemos se ele já dormiu.</default></talk>
-	<talk character="pVAL"><default>Foi alguma coisa na comida que me deixou com vontade.</default></talk>
-	<talk character="mVAL"><default>Ele não faria isso!</default></talk>
-	<talk character="pVAL"><default>Não estou falando que foi de propósito. Mas diz que você também não percebeu...</default></talk>
+	<talk character="mulher"><default>Não dá mais pra fazer isso em qualquer lugar da casa...</default></talk>
+	<talk character="homem"><default>Relaxa, ele tá no quarto dele.</default></talk>
+	<talk character="mulher"><default>Não sabemos se ele já dormiu.</default></talk>
+	<talk character="homem"><default>Foi alguma coisa na comida que me deixou com vontade.</default></talk>
+	<talk character="mulher"><default>Ele não faria isso!</default></talk>
+	<talk character="homem"><default>Não estou falando que foi de propósito. Mas diz que você também não percebeu...</default></talk>
 	<teller><default>Ela se vira para ele. Se beijam. Ele coloca a mão na coxa dela.</default></teller>
-	<talk character="mVAL"><default>Já disse que aqui não!</default></talk>
+	<talk character="mulher"><default>Já disse que aqui não!</default></talk>
 	<teller><default>Eles vão para seu quarto. 2003. Fábio e Alan estão na delegacia.</default></teller>
 	<talk character="Alan"><default>Todos os nomes estão aqui?</default></talk>
 	<talk character="Rick"><default>Sim.</default></talk>
@@ -480,21 +480,21 @@
 	<teller><default>Kat e Estela chegam.</default></teller>
 	<talk character="Fábio"><default>Peraí, Ludmila não está aqui?</default></talk>
 	<talk character="Zenon"><default>Mel foi morar com ela em outro lugar.</default></talk>
-	<talk character="Alan"><default>QUÊ???</default></talk>
+	<talk character="Alan"><screamed>Quê???</screamed></talk>
 	<talk character="Fábio"><default>Como assim???</default></talk>
 	<talk character="Kat"><default>Ela foi. Mas peraí, que ouvi um nome... Lucas... Vocês disseram Lucas?</default></talk>
 	<talk character="Zenon"><default>Sim, o cara que Ludmila colocou na cadeia. E Beatrice trouxe a garota, Valquíria, pra cá. Raptou, na verdade!</default></talk>
 	<talk character="Bea"><default>Quer parar???</default></talk>
 	<talk character="Zenon"><default>Tá, desculpa. Só que não sei como vamos nos livrar disso.</default></talk>
-	<talk character="Estela"><default>“Nos livrar”??? Parece que quer matar a garota!!!</default></talk>
+	<talk character="Estela"><default>"Nos livrar"??? Parece que quer matar a garota!!!</default></talk>
 	<talk character="Kat"><default>Sem baderna, por favor, eu tô querendo falar. Vi esse Lucas num sonho.</default></talk>
 	<talk character="Alan"><default>Tá ficando tão mandona quanto a mãe...</default></talk>
 	<talk character="Kat"><default>E você tá parecendo o cebolinha falando. Isso aqui não é briguinha de crianças, nem guerra de sexos, nem nenhuma das besteiras com que pode estar acostumado. Somos uma equipe, não estamos tentando vencer uns aos outros.</default></talk>
 	<talk character="Alan"><default>E o mesmo jeito de me tirar a razão.</default></talk>
-	<talk character="Derik"><default>* Só não vale agarrar minha namorada por isso.</default></talk>
+	<talk character="Derik"><arrive> Só não vale agarrar minha namorada por isso.</arrive></talk>
 	<talk character="Estela"><default>Ué, não tava cuidando dela?</default></talk>
 	<talk character="Derik"><default>Beleno tá de olho...</default></talk>
-	<talk character="Kat"><default>NINGUÉM TÁ MESMO	PRESTANDO ATENÇÃO EM MIM???</default></talk>
+	<talk character="Kat"><screamed>Ninguém tá mesmo	prestando atenção em mim???</screamed></talk>
 	<talk character="Zenon"><default>Seu sonho. Fale.</default></talk>
 	<talk character="Kat"><default>Lucas tem sonhos.</default></talk>
 	<talk character="Alan"><default>Todo mundo tem sonhos.</default></talk>
@@ -510,20 +510,20 @@
 	<talk character="Bea"><default>Pode nos dizer algo mais?</default></talk>
 	<talk character="Kat"><default>Que os pais adotivos morreram. O resto podemos perguntar ao próprio.</default></talk>
 	<teller><default>1984. A mulher está deitada numa cama, suando.</default></teller>
-	<talk character="mVAL"><default>QUE ESTÁ FAZENDO???</default></talk>
+	<talk character="mulher"><screamed>Que está fazendo???</screamed></talk>
 	<talk character="Lucas"><default>Tem que deixá-la sair...</default></talk>
-	<talk character="mVAL"><default>Nem sabemos se é mulher ou o que é!</default></talk>
+	<talk character="mulher"><default>Nem sabemos se é mulher ou o que é!</default></talk>
 	<talk character="Lucas"><default>Confie em mim, eu sei.</default></talk>
-	<talk character="mVAL"><default>Como sabia que meu marido ia morrer???</default></talk>
+	<talk character="mulher"><default>Como sabia que meu marido ia morrer???</default></talk>
 	<talk character="Lucas"><default>E que ela viria. Já disse que vai para junto dele...</default></talk>
-	<talk character="mVAL"><default>Por que quer me matar??? Por que o queria morto??? O que fizemos pra você??? Nós te adotamos, foi isso??? Queria ficar lá??? Por que não...</default></talk>
+	<talk character="mulher"><default>Por que quer me matar??? Por que o queria morto??? O que fizemos pra você??? Nós te adotamos, foi isso??? Queria ficar lá??? Por que não...</default></talk>
 	<talk character="Lucas"><default>Não os matei. Apenas sabia. Sabe que tenho sonhos.</default></talk>
-	<talk character="mVAL"><default>Deveria ter me avisado antes!!!</default></talk>
+	<talk character="mulher"><default>Deveria ter me avisado antes!!!</default></talk>
 	<talk character="Lucas"><default>Não tinha como evitar. Os sonhos foram mandados para não deixá-la sozinha, não para evitarem que vocês reencarnassem.</default></talk>
-	<talk character="mVAL"><default>Está obcecado por ela!!! E a minha filha nem nasceu!!!</default></talk>
+	<talk character="mulher"><default>Está obcecado por ela!!! E a minha filha nem nasceu!!!</default></talk>
 	<teller><default>Ele vai para perto dela.</default></teller>
 	<talk character="Lucas"><default>Está tentando descontar sua dor. Faz isso desde que soube que ele se foi.</default></talk>
-	<talk character="mVAL"><default>E você não sente dor nenhuma.</default></talk>
+	<talk character="mulher"><default>E você não sente dor nenhuma.</default></talk>
 	<talk character="Lucas"><default>No fundo sabe que está falando bobagens. Se não, já teria me devolvido, chamado a polícia ou algo assim.</default></talk>
 	<teller><default>Dionísio entra.</default></teller>
 	<talk character="Dionísio"><default>Oi.</default></talk>
@@ -532,11 +532,11 @@
 	<talk character="Lucas"><default>Estourou a bolsa há algum tempo. O que está fazendo aqui???</default></talk>
 	<talk character="Dionísio"><default>Só por causa de uma bolsa?</default>
 	<teller>Lucas o encara</teller><default>Tô brincando.</default></talk>
-	<talk character="mVAL"><default>Vai chamar todos os amigos de sua seita?!</default></talk>
+	<talk character="mulher"><default>Vai chamar todos os amigos de sua seita?!</default></talk>
 	<talk character="Dionísio"><default>Não ouviu ele perguntar porque estou aqui?</default></talk>
-	<talk character="mVAL"><default>Eu quem não ouviu você responder.</default></talk>
+	<talk character="mulher"><default>Eu quem não ouviu você responder.</default></talk>
 	<talk character="Dionísio"><default>	Daniel é caça-vampiros e está fora.</default></talk>
-	<talk character="mVAL"><default>Vocês são loucos!</default></talk>
+	<talk character="mulher"><default>Vocês são loucos!</default></talk>
 	<talk character="Lucas"><default>Pode me ajudar com ela?</default></talk>
 	<talk character="Dionísio"><default>Já vi alguns filmes, se isso ajuda.</default></talk>
 	<teller><default>A mulher desmaia.</default></teller>
@@ -562,24 +562,24 @@
 	<talk character="Derik"><default>E se ela mentir?</default></talk>
 	<talk character="Fábio"><default>Eu saberei. E não creio que vá mentir.</default></talk>
 	<talk character="Derik"><default>Bom, eu li o que tava escrito. A primeira notícia era que Lucas salvou Valquíria quando a mãe dela morreu em trabalho de parto. A segunda é de que ele foi acusado de sedução de menor por Ludmila, há um ano atrás.</default></talk>
-	<talk character="Lucas"><default>* Só comecei a fazer algo com Valquíria quando ela quis.</default></talk>
+	<talk character="Lucas"><arrive> Só comecei a fazer algo com Valquíria quando ela quis.</arrive></talk>
 	<teller><default>Derik e Fábio olham para Lucas. Zenon e Beatrice entram também.</default></teller>
 	<talk character="Derik"><default>Não era você quem tinha achado loucura tirar Valquíria do hospício?</default></talk>
 	<talk character="Lucas"><default>Hospício???</default></talk>
 	<talk character="Derik"><default>Ela tá lá em cima agora, tá bem.</default></talk>
 	<teller><default>Lucas sobe correndo.</default></teller>
 	<talk character="Bea"><default>Ele tem mesmo os mesmos poderes de Kat.</default></talk>
-	<talk character="Zenon"><default>Se fingiu de morto e fomos como dois patetas ao necrotério, já pensando no que diríamos para Valquíria. E de repente, o presunto se levanta... “Vocês vieram me buscar?”.</default></talk>
+	<talk character="Zenon"><default>Se fingiu de morto e fomos como dois patetas ao necrotério, já pensando no que diríamos para Valquíria. E de repente, o presunto se levanta... "Vocês vieram me buscar?".</default></talk>
 	<talk character="Fábio"><default>Por que ele não usou isso antes?</default></talk>
 	<talk character="Bea"><default>Katerine ligou na cadeia e falou com Lucas. Ensinou pra ele o truque que ele desconhecia.</default></talk>
 	<talk character="Zenon"><default>Se tivéssemos comprado o caixão, ele ia ter que usar de cama!</default></talk>
-	<talk character="Alan"><default>* Zenon, Michele está te chamando para treiná-la.</default></talk>
+	<talk character="Alan"><arrive> Zenon, Michele está te chamando para treiná-la.</arrive></talk>
 	<talk character="Derik"><default>Bom, agora vamos falar com Lucas, ver se ele teve algum sonho a respeito de Ludmila.</default></talk>
 	<talk character="Alan"><default>Não era o cara que tava preso? Deixa que eu falo com ele...</default></talk>
 	<teller><default>Alan vai na direção da escada mas Fábio o puxa de volta. Ele olha para Fábio, tenta ir de novo, mas é puxado de novo.</default></teller>
 	<talk character="Alan"><default>Tá me achando gordo? Acha que preciso de exercício?</default></talk>
 	<talk character="Fábio"><default>Eles ficaram separados um ano, pode deixá-los matar as saudades?</default></talk>
-	<talk character="Zenon"><default>Mesmo porque, acho que até sei como estão “matando a saudade”.</default></talk>
+	<talk character="Zenon"><default>Mesmo porque, acho que até sei como estão "matando a saudade".</default></talk>
 	<talk character="Alan"><default>Ok. Michele então.</default></talk>
 	<teller><default>Zenon pega a capa e sai. Alan vai também.</default></teller>
 	<talk character="Bea"><default>Estou começando a ficar com ciúmes.</default></talk>
@@ -589,7 +589,7 @@
 	<talk character="Derik"><default>Já.</default></talk>
 	<talk character="Bea"><default>Quer dizer que não temos mais o que fazer?</default></talk>
 	<talk character="Fábio"><default>De certa forma, sim.</default></talk>
-	<talk character="Hector"><default>* Com licença...</default></talk>
+	<talk character="Hector"><arrive> Com licença...</arrive></talk>
 	<talk character="Fábio"><default>Esqueceu algum detalhe?</default></talk>
 	<talk character="Bea"><default>Esse é...?</default></talk>
 	<talk character="Fábio"><default>Hector. É amigo de um dos...</default></talk>
@@ -621,7 +621,7 @@
 	<talk character="Lucas"><default>Não. Desde o começo do ano que não os tenho.</default></talk>
 	<teller><default>Batem na porta. Lucas e Valquíria se vestem.</default></teller>
 	<talk character="Lucas"><default>Entre.</default></talk>
-	<talk character="Kat"><default>* Temos um problema.</default></talk>
+	<talk character="Kat"><arrive> Temos um problema.</arrive></talk>
 	<talk character="Lucas"><default>Como assim?</default></talk>
 	<talk character="Kat"><default>Vocês têm vínculos por aqui? Ou poderiam se adaptar a outro lugar?</default></talk>
 	<talk character="Lucas"><default>Por que está dizendo isso?</default></talk>
@@ -641,13 +641,13 @@
 	<talk character="Lucas"><default>Mas vai ser diferente. Vamos para outra Realidade.</default></talk>
 	<talk character="Valquíria"><default>Podemos até levá-lo.</default></talk>
 	<talk character="Lucas"><default>Pode ser. Kat!</default></talk>
-	<talk character="Kat"><default>* Sim?</default></talk>
+	<talk character="Kat"><arrive> Sim?</arrive></talk>
 	<talk character="Lucas"><default>Podemos levar mais alguém?</default></talk>
 	<talk character="Kat"><default>Na verdade, precisamos juntar seis pessoas.</default></talk>
 	<talk character="Lucas"><default>Então tá. Vamos resolver o problema com Ludmila e depois equilibraremos isso.</default></talk>
 	<teller><default>Michele entra no quarto do pai. Olha para a câmera: apagada. Começa a mexer nas coisas dele. Acha um caderno velho. Abre. Algum tempo depois, na sala da MEAK, todos estão reunidos.</default></teller>
 	<talk character="Fábio"><default>Tudo que precisamos é juntar provas.</default></talk>
-	<talk character="Michele"><default>* Provas do que?</default></talk>
+	<talk character="Michele"><arrive> Provas do que?</arrive></talk>
 	<teller><default>Todos olham para Michele. Está com os olhos em lágrimas.</default></teller>
 	<talk character="Michele"><default>Se for contra Ludmila, tô dentro.</default></talk>
 	<talk character="Zenon"><default>Que aconteceu?!</default></talk>
@@ -687,7 +687,7 @@
 	<talk character="Zenon"><default>É, mas eu não posso com Melody e ela me esfola três vezes se eu te deixar contra Ludmila.</default></talk>
 	<talk character="Rob"><default>Estela!!!</default></talk>
 	<talk character="Estela"><default>Rob?</default></talk>
-	<talk character="Rob"><default>* Ela morreu!!!</default></talk>
+	<talk character="Rob"><arrive> Ela morreu!!!</arrive></talk>
 	<talk character="Alan"><default>Ih, meu Deus, essa é a noite dos desastres!!!</default></talk>
 	<talk character="Estela"><default>Vem comigo, Rob...</default></talk>
 	<teller><default>Os dois sobem.</default></teller>
@@ -706,7 +706,7 @@
 	<talk character="Alan"><default>Por que está com ela???</default></talk>
 	<talk character="Janaína"><default>Não estou com ela! Somos só amigas...</default></talk>
 	<talk character="Fábio"><default>Odeio ouvir esse tipo de desculpa, mas acho que parece pior quando o "amigo" sou eu.</default></talk>
-	<talk character="Janaína"><default>NÃO SOU LÉSBICA!</default></talk>
+	<talk character="Janaína"><screamed>Não sou lésbica!</screamed></talk>
 	<talk character="Fábio"><default>Alan, me dá licença?</default></talk>
 	<talk character="Alan"><default>Por quê???</default></talk>
 	<talk character="Fábio"><default>Alan...</default></talk>
@@ -719,10 +719,10 @@
 	<talk character="Janaína"><default>Ela não me trairia!</default></talk>
 	<talk character="Fábio"><default>É difícil entender...</default></talk>
 	<talk character="Janaína"><default>Não ficaria com Mel!!!</default></talk>
-	<talk character="Fábio"><default>Quê? Não tô ouvindo isso, O PROBLEMA ENTÃO É ELA TRANSAR COM OUTRA, NÃO TE MATAR???</default></talk>
-	<talk><default>As duas coisas. (Janaína)</default></talk>
+	<talk character="Fábio"><default>Quê? Não tô ouvindo isso, o problema então é ela transar com outra, não te matar???</default></talk>
+	<talk character="Janaína"><default>As duas coisas.</default></talk>
 	<talk character="Fábio"><default>Não importa, assim que descobrirmos...</default></talk>
-	<talk character="Bea"><default>* Derik e Estela acharam.</default></talk>
+	<talk character="Bea"><arrive> Derik e Estela acharam.</arrive></talk>
 	<teller><default>Minutos depois, na sala...</default></teller>
 	<talk character="Janaína"><default>Terão que matá-la???</default></talk>
 	<talk character="Derik"><default>Sim.</default></talk>
@@ -747,10 +747,10 @@
 	<talk character="Derik"><default>Precisamos da espada que Ludmila usou para fazer o feitiço.</default></talk>
 	<talk character="Fábio"><default>Aí dificulta.</default></talk>
 	<talk character="Alan"><default>Por que não ligamos para Zenon e Kat, para eles pegarem? Já não estão por lá mesmo?</default></talk>
-	<talk character="Fábio"><irony>Assim que o telefone tocar, pedimos para entregarem pra Ludmila, que vai estar na frente deles, e pedimos direto para ela a espada. Quem sabe ela não nos poupa o trabalho e faz o favor de enfiar a espada ela mesma? </irony></talk>
+	<talk character="Fábio"><irony>Assim que o telefone tocar, pedimos para entregarem pra Ludmila, que vai estar na frente deles, e pedimos direto para ela a espada. Quem sabe ela não nos poupa o trabalho e faz o favor de enfiar a espada ela mesma?</irony></talk>
 	<talk character="Alan"><default>Estela e Derik já fizeram o trabalho. Agora eu e Kat distraímos Mel e você, Zenon e Beatrice pegam Ludmila.</default></talk>
-	<talk character="Zenon"><default>* Ele gravou o que eu disse ou é só impressão minha?</default></talk>
-	<talk character="Kat"><default>* Virou papagaio agora?</default></talk>
+	<talk character="Zenon"><arrive> Ele gravou o que eu disse ou é só impressão minha?</arrive></talk>
+	<talk character="Kat"><arrive> Virou papagaio agora?</arrive></talk>
 	<talk character="Bea"><default>Mudou o quadro. Precisamos de uma espada que deve estar com a tal.</default></talk>
 	<talk character="Zenon"><default>Vamos lá e pegamos.</default></talk>
 	<teller><default>Todos encaram Zenon.</default></teller>
@@ -820,7 +820,7 @@
 	<talk character="Bea"><default>Seu grosso!!!</default></talk>
 	<talk character="Zenon"><default>Não se faz de santa, vai...</default></talk>
 	<teller><default>Zenon toma com uma flecha no estômago.</default></teller>
-	<talk character="Ludmila"><default>* Não se fala assim com uma mulher.</default></talk>
+	<talk character="Ludmila"><arrive> Não se fala assim com uma mulher.</arrive></talk>
 	<talk character="Bea"><default>Tô começando a gostar de você!</default></talk>
 	<talk character="Ludmila"><default>Posso matá-lo, se quiser.</default></talk>
 	<talk character="Bea"><default>Isso só provaria que ele venceu. Nem acredito que cheguei a querer algo com ele!</default></talk>
@@ -831,7 +831,7 @@
 	<talk character="Ludmila"><default>Michele.</default></talk>
 	<talk character="Bea"><default>Essa ainda tá iludida com homens. Você liga para a opinião dela?</default></talk>
 	<teller><default>Kat está na porta, com Alan</default></teller>
-	<talk character="Kat"><default>BEATRICE!</default></talk>
+	<talk character="Kat"><screamed>Beatrice!</screamed></talk>
 	<teller><default>Beatrice olha para trás. Kat joga um punhal. Beatrice enfia-o em Ludmila. Está sente dor, mas ri.</default></teller>
 	<talk character="Ludmila"><default>Achou mesmo que seria tão fácil?</default></talk>
 	<talk character="Bea"><default>Droga. Acho que vamos ter que ligar para os dois...</default></talk>
@@ -839,7 +839,7 @@
 	<talk character="Kat"><default>Ao menos não fedeu.</default></talk>
 	<talk character="Bea"><default>E não vai feder nunca mais.</default></talk>
 	<talk character="Alan"><default>Mas como...</default></talk>
-	<talk character="Fábio"><default>* Estava com ela o tempo todo.</default></talk>
+	<talk character="Fábio"><arrive> Estava com ela o tempo todo.</arrive></talk>
 	<talk character="Mel"><default>Acham mesmo que não pegaria isso na primeira oportunidade? Por que não vieram logo falar comigo?</default></talk>
 	<talk character="Zenon"><default>Você era a vítima. O que me lembra, uma flecha no meu estômago não estava no plano...</default></talk>
 	<teller><default>Mel vai até Zenon e arranca a flecha. Beatrice ajuda Zenon a se levantar. 29/06 (domingo), 12:00. Fábio e Mel estão na sala.</default></teller>
@@ -852,7 +852,7 @@
 	<talk character="Mel"><default>Pode tirar isso aqui dentro.</default></talk>
 	<talk character="Edmont"><default>Já vamos sair mesmo.</default></talk>
 	<teller><default>Fábio olha para Mel.</default></teller>
-	<talk character="Fábio"><default>“Vamos”?!</default></talk>
+	<talk character="Fábio"><default>"Vamos"?!</default></talk>
 	<talk character="Mel"><default>Nem olha para mim, eu não falei nada!</default></talk>
 	<talk character="Edmont"><default>Não acha que deixaríamos você ir sem nós, acha?</default></talk>
 	<talk character="Ang"><default>Nós viemos pedir pra ir junto, não é, Edmont?</default></talk>
@@ -860,16 +860,16 @@
 	<talk character="Mel"><default>Tudo bem, precisamos só de mais um assim.</default></talk>
 	<talk character="Fábio"><default>Ué, quem é o outro?</default></talk>
 	<talk character="Mel"><default>Rob pediu para ir, está sem família agora.</default></talk>
-	<talk character="Nit"><default>* Posso ir?</default></talk>
+	<talk character="Nit"><arrive> Posso ir?</arrive></talk>
 	<talk character="Edmont"><default>Legal, tá completo! Vamos?</default></talk>
 	<talk character="Mel"><default>Por que quer ir? Nem sabe para onde vamos...</default></talk>
 	<talk character="Nit"><default>Estão falando em seis. A pessoa que eu amo nunca vai assumir. Se for para sair desta Realidade, eu aceito qualquer lugar que vocês escolham.</default></talk>
-	<talk character="Kat"><default>* Quem vai embora?</default></talk>
+	<talk character="Kat"><arrive> Quem vai embora?</arrive></talk>
 	<talk character="Mel"><default>Katerine, eu queria mesmo falar com você.</default></talk>
 	<talk character="Kat"><default>Ia ser a última a saber?</default></talk>
 	<talk character="Fábio"><default>Na verdade, ninguém sabia. Mel está pensando em me treinar.</default></talk>
 	<talk character="Kat"><default>Vocês me traíram...</default></talk>
-	<talk character="Edmont"><irony>Tá sentida comigo? </irony></talk>
+	<talk character="Edmont"><irony>Tá sentida comigo?</irony></talk>
 	<talk character="Kat"><default>Não ligo pra você. Pode ir pro inferno se quiser.</default></talk>
 	<teller><default>Ang se aproxima de Kat.</default></teller>
 	<talk character="Ang"><default>Ela não faria isso. Teve a idéia há pouco tempo. Daí apareceu Ludmila e deu problema.</default></talk>
@@ -884,51 +884,51 @@
 	<talk character="Ang"><default>Ele é um atlante e não foi treinado como um.</default></talk>
 	<talk character="Mel"><default>Está fazendo algumas afirmações que não estou gostando.</default></talk>
 	<talk character="Ang"><default>Foi Edmont que ficou te espionando, não eu.</default></talk>
-	<talk character="Michele"><default>* E vão assim?</default></talk>
-	<talk character="Rob"><default>* Já estão indo???</default></talk>
+	<talk character="Michele"><arrive> E vão assim?</arrive></talk>
+	<talk character="Rob"><arrive> Já estão indo???</arrive></talk>
 	<talk character="Edmont"><default>Não, Rob, não se preocupe, não vamos sem você.</default></talk>
 	<talk character="Kat"><default>Por que eu não posso ir? Quer dizer, eu também não fui treinada como uma atlante...</default></talk>
 	<talk character="Edmont"><default>Porque alguém tem que botar ordem nessa zona.</default></talk>
 	<teller><default>Todos olham para Edmont.</default></teller>
 	<talk character="Edmont"><default>Fui só eu que notei que ela é tão mandona quanto Mel?</default></talk>
 	<talk character="Kat"><default>Melhor irem agora, então.</default></talk>
-	<talk character="Edmont"><irony>Nossa, achei que você fosse a última a nos expulsar assim! </irony></talk>
+	<talk character="Edmont"><irony>Nossa, achei que você fosse a última a nos expulsar assim!</irony></talk>
 	<talk character="Kat"><default>Você eu expulsaria de bom grado.</default>
 	<teller>vira-se para Mel</teller><default>Quanto mais cedo forem, mais cedo voltam. E daqui a pouco, posso ter alguma idéia para amarrá-los aqui! Vão!</default></talk>
 	<teller><default>Mel abraça Kat. Inês entra correndo na sala e vai para o colo de Angely. Dá um beijo no rosto dele.</default></teller>
 	<talk character="Inês"><default>Boa viagem, papai.</default></talk>
-	<talk character="Beleno"><default>* Inês... Oi.</default></talk>
+	<talk character="Beleno"><arrive> Inês... Oi.</arrive></talk>
 	<talk character="Ang"><default>Eu...</default></talk>
 	<talk character="Beleno"><default>Vai viajar. Inês saiu correndo dizendo isso. Eu...</default></talk>
 	<talk character="Edmont"><default>Cresceu a garota porque estava atrapalhando suas festinhas com Alete.</default></talk>
 	<talk character="Mel"><default>Vamos, antes que Edmont continue com seus belos comentários plenamente inconvenientes...</default></talk>
-	<talk character="Edmont"><irony>Está acelerando isso por mim? Vou chorar. </irony></talk>
+	<talk character="Edmont"><irony>Está acelerando isso por mim? Vou chorar.</irony></talk>
 	<talk character="Mel"><default>Zenon, confio em você pra cuidar disso aqui.</default></talk>
 	<talk character="Zenon"><default>Podexá.</default></talk>
 	<teller><default>Depois das despedidas, Mel, Fábio, Edmont, Angely, Nit e Rob saem. Edmont volta e dá um beijo de língua em Kat. Ele a solta e ela limpa a boca.</default></teller>
 	<talk character="Kat"><default>Seu doente!</default></talk>
 	<talk character="Edmont"><default>Obrigado.</default></talk>
-	<teller><default>Edmont sorri e sai. Em Hera, Angely está em sua cama. Edmont, em Ares, está chegando ao seu apartamento. Os dois “conversam”.</default></teller>
-	<talk character="Edmont"><thought>Insônia?)</thought></talk>
-	<talk character="Ang"><thought>Talvez...)</thought></talk>
-	<talk character="Edmont"><thought>Também não estou com sono.)</thought></talk>
-	<talk character="Ang"><thought>E no que isso me interessa?)</thought></talk>
-	<talk character="Edmont"><thought>Só porque vim aqui a pedido de Mel, não quer dizer que não possamos conversar.)</thought></talk>
-	<talk character="Ang"><thought>Estaria se referindo à sua vinda a Terra e seu falso pedido de desculpas quando chegou?)</thought></talk>
-	<talk character="Edmont"><thought>Pra você ver como eu já era bom nisso desde criança. Mas não é das minhas mentiras que quero falar.)</thought></talk>
-	<talk character="Ang"><thought>Envergonhado?)</thought></talk>
-	<talk character="Edmont"><thought>Nem um pouco. Mas eu estava mesmo pensando em Mel e Kat.)</thought></talk>
-	<talk character="Ang"><thought>Jurou pelo nosso pai deixá-la em paz e não cumpriu.)</thought></talk>
-	<talk character="Edmont"><thought>De que fala?)</thought></talk>
-	<talk character="Ang"><thought>De quando raptou Katerine pra conseguir Inês.)</thought></talk>
-	<talk character="Edmont"><thought>Sabe que eu não faria nada realmente com Katerine. É de outra coisa que eu quero falar. Já notou as semelhanças entre as duas? No cheiro?)</thought></talk>
-	<talk character="Ang"><thought>Sim. E daí?)</thought></talk>
-	<talk character="Edmont"><thought>Mel disse que foi agarrada à força quando engravidou. Um atlante não pode fazer isso, você sabe.)</thought></talk>
-	<talk character="Ang"><thought>Um humano deve ter feito. Então Mel engravidou de um humano. Acha que Kat é filha dela?)</thought></talk>
-	<talk character="Edmont"><thought>O cara que engravidou Mel deve ter trocado os bebês, pra não saberem que era ele o autor do crime.)</thought></talk>
-	<talk character="Ang"><thought>Nossa verdadeira irmã deve ter morrido. Acha que ela mentiu?)</thought></talk>
-	<talk character="Edmont"><thought>Ela disse que perdeu o bebê quando foi jogada da escada. Mas isso aconteceu antes de conhecermos ela.)</thought></talk>
-	<talk character="Ang"><thought>Como ela esconderia isso? O pai, pelo que ela falou, teria interesse em esconder, mas ninguém teria tanto poder. A menos que...)</thought></talk>
-	<talk character="Edmont"><thought>Nilrem.)</thought></talk>
+	<teller><default>Edmont sorri e sai. Em Hera, Angely está em sua cama. Edmont, em Ares, está chegando ao seu apartamento. Os dois "conversam".</default></teller>
+	<talk character="Edmont"><thought>Insônia?</thought></talk>
+	<talk character="Ang"><thought>Talvez...</thought></talk>
+	<talk character="Edmont"><thought>Também não estou com sono.</thought></talk>
+	<talk character="Ang"><thought>E no que isso me interessa?</thought></talk>
+	<talk character="Edmont"><thought>Só porque vim aqui a pedido de Mel, não quer dizer que não possamos conversar.</thought></talk>
+	<talk character="Ang"><thought>Estaria se referindo à sua vinda a Terra e seu falso pedido de desculpas quando chegou?</thought></talk>
+	<talk character="Edmont"><thought>Pra você ver como eu já era bom nisso desde criança. Mas não é das minhas mentiras que quero falar.</thought></talk>
+	<talk character="Ang"><thought>Envergonhado?</thought></talk>
+	<talk character="Edmont"><thought>Nem um pouco. Mas eu estava mesmo pensando em Mel e Kat.</thought></talk>
+	<talk character="Ang"><thought>Jurou pelo nosso pai deixá-la em paz e não cumpriu.</thought></talk>
+	<talk character="Edmont"><thought>De que fala?</thought></talk>
+	<talk character="Ang"><thought>De quando raptou Katerine pra conseguir Inês.</thought></talk>
+	<talk character="Edmont"><thought>Sabe que eu não faria nada realmente com Katerine. É de outra coisa que eu quero falar. Já notou as semelhanças entre as duas? No cheiro?</thought></talk>
+	<talk character="Ang"><thought>Sim. E daí?</thought></talk>
+	<talk character="Edmont"><thought>Mel disse que foi agarrada à força quando engravidou. Um atlante não pode fazer isso, você sabe.</thought></talk>
+	<talk character="Ang"><thought>Um humano deve ter feito. Então Mel engravidou de um humano. Acha que Kat é filha dela?</thought></talk>
+	<talk character="Edmont"><thought>O cara que engravidou Mel deve ter trocado os bebês, pra não saberem que era ele o autor do crime.</thought></talk>
+	<talk character="Ang"><thought>Nossa verdadeira irmã deve ter morrido. Acha que ela mentiu?</thought></talk>
+	<talk character="Edmont"><thought>Ela disse que perdeu o bebê quando foi jogada da escada. Mas isso aconteceu antes de conhecermos ela.</thought></talk>
+	<talk character="Ang"><thought>Como ela esconderia isso? O pai, pelo que ela falou, teria interesse em esconder, mas ninguém teria tanto poder. A menos que...</thought></talk>
+	<talk character="Edmont"><thought>Nilrem.</thought></talk>
 	<teller><default>Katerine acorda.</default></teller>
 </story>

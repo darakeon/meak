@@ -10,9 +10,9 @@
 	<talk character="Mel"><default>Acho melhor nós desistirmos da banda. Repartimos o dinheiro que ganhamos e tentamos cuidar do nosso futuro.</default></talk>
 	<talk character="Angely"><default>Não precisamos chegar à tanto.</default></talk>
 	<talk character="Mel"><default>Sabe quantos compromissos desmarcamos por causa dele?</default></talk>
-	<teller><default> Angely se levanta da cadeira bruscamente.</default></teller>
+	<teller><default>Angely se levanta da cadeira bruscamente.</default></teller>
 	<talk character="Angely"><default>Mel, não podemos abandoná-lo!</default></talk>
-	<talk character="Mel"><default>Não estou dizendo pra abandonarmos ele. Só que, se nós não declararmos acabada a banda, ele acaba com ela! Se nós tivermos dinheiro, cuidarmos do nosso futuro e ele descambar, poderemos dar uma ajuda à ele.</default></talk>
+	<talk character="Mel"><default>Não estou dizendo pra abandonarmos ele. Só que, se nós não declararmos acabada a banda, ele acaba com ela! Se nós tivermos dinheiro, cuidarmos do nosso futuro e ele descambar, poderemos dar uma ajuda a ele.</default></talk>
 	<talk character="Angely"><default>Mel...</default></talk>
 	<talk character="Mel"><default>Edmont só percebera que está caindo quando chegar no final do poço.</default></talk>
 	<talk character="Angely"><default>Eu não sei de mais nada.</default></talk>
@@ -59,7 +59,7 @@
 	<talk character="Edmont"><default>Lembra quando o Angely ficou doente e a Agatha ficou cuidando dele?</default></talk>
 	<teller><default>Kat dá meia volta.</default></teller>
 	<talk character="Kat"><default>Derik, vem comigo!</default></talk>
-	<teller><default>Derik e Kat entram no carro. Angely vai dirigindo, com Edmont do lado. Mel fica atrás, numa janela, “no mundo da lua”. Kat fica insistindo pra Derik contar o que Edmont tinha falado.</default></teller>
+	<teller><default>Derik e Kat entram no carro. Angely vai dirigindo, com Edmont do lado. Mel fica atrás, numa janela, "no mundo da lua". Kat fica insistindo pra Derik contar o que Edmont tinha falado.</default></teller>
 	<talk character="Angely"><hushed>Edmont, o que fez pra Kat mudar de idéia e querer carregar ele?</hushed></talk>
 	<talk character="Edmont"><hushed>Lembrei ela de como Agatha cuidou bem de você.</hushed></talk>
 	<talk character="Angely"><hushed>Hã...</hushed></talk>
@@ -80,21 +80,21 @@
 	<talk character="Edmont"><default>Tô falando, cara. Curte sua vida. Se você tiver que encontrar a garota certa, não vai ser fugindo que isso vai acontecer.</default></talk>
 	<talk character="Angely"><default>Acho que eu já encontrei ela.</default></talk>
 	<talk character="Edmont"><default>Meg ainda??? Por que você não vira monge???</default></talk>
-	<talk character="Angely"><thought>Ele não notou... Ninguém nota. Nem ela.)</thought></talk>
+	<talk character="Angely"><thought>Ele não notou... Ninguém nota. Nem ela.</thought></talk>
 	<teller><default>Eles chegam no lugar em que vão dar a entrevista coletiva. Sentam-se nessa ordem: Kat, Angely, Edmont e Mel. Começam as perguntas e logo surge a questão do adiamento da turnê.</default></teller>
 	<talk character="Samuel"><default>Um repórter de cada vez e máximo de três perguntas por repórter!</default></talk>
-	<talk><default>Então, vocês desmarcaram a última turnê por que o avião caiu? (repórter)</default></talk>
+	<talk character="repórter"><default>Então, vocês desmarcaram a última turnê por que o avião caiu?</default></talk>
 	<talk character="Angely"><default>Na verdade nós adiamos. Vamos ver as datas de novo.</default></talk>
-	<talk><default>E quando vai ser isso? (repórter)</default></talk>
+	<talk character="repórter"><default>E quando vai ser isso?</default></talk>
 	<talk character="Edmont"><hushed>Assim que eu parar da beber.</hushed></talk>
-	<talk><default>Que disse? (repórter)</default></talk>
+	<talk character="repórter"><default>Que disse?</default></talk>
 	<talk character="Angely"><default>Assim que nós reorganizarmos as datas e lugares. Foi melhor assim, poderemos ver isso direito, com mais calma.</default></talk>
-	<talk><default>E já tem alguma idéia de pra onde vão? (repórter)</default></talk>
+	<talk character="repórter"><default>E já tem alguma idéia de pra onde vão?</default></talk>
 	<talk character="Edmont"><hushed>Pro lugar onde tiver mais mulher.</hushed></talk>
 	<talk character="Angely"><default>Não sabemos ainda.</default></talk>
 	<talk character="Mel"><hushed>Que você tá fazendo???</hushed></talk>
 	<talk character="Edmont"><hushed>Acabando com a nossa banda.</hushed></talk>
-	<talk><default>Até quando vocês acham que a banda vai durar? (repórter)</default></talk>
+	<talk character="repórter"><default>Até quando vocês acham que a banda vai durar?</default></talk>
 	<talk character="Edmont"><default>Esperamos que o tempo seja proporcional ao tamanho do meu saco pra aguentar vocês.</default></talk>
 	<talk character="Angely"><default>Edmont!</default></talk>
 	<teller><default>Edmont se levanta e sai.</default></teller>
@@ -123,7 +123,7 @@
 	<talk character="Edmont"><default>Realmente eu não ia gostar se você tivesse dado risada.</default></talk>
 	<talk character="Dara"><default>Que deu em você???</default></talk>
 	<talk character="Edmont"><default>Sinceramente? Não sei. Mas bem que gostou.</default></talk>
-	<talk character="Denise"><default>* Vejo que já está melhor.</default></talk>
+	<talk character="Denise"><arrive> Vejo que já está melhor.</arrive></talk>
 	<talk character="Dara"><default>Por que deixou ele entrar???</default></talk>
 	<talk character="Denise"><default>E como espera que eu consiga segurar um cara desse tamanho?</default></talk>
 	<talk character="Dara"><default>Sai já do meu quarto!</default></talk>
@@ -151,9 +151,9 @@
 	<talk character="Mel"><default>Você atropelou ela!!!</default></talk>
 	<talk character="Angely"><default>Estou falando da outra garota!</default></talk>
 	<talk character="Mel"><default>Coloca ela dentro do carro!</default></talk>
-	<teller><default>Ele pega a garota no colo e coloca dentro do carro. Levam ela à um hospital.</default></teller>
+	<teller><default>Ele pega a garota no colo e coloca dentro do carro. Levam ela a um hospital.</default></teller>
 	<talk character="Angely"><default>Alguém me ajuda aqui!</default></talk>
-	<talk><default>De novo??? (Psique – médica)</default></talk>
+	<talk character="Psique – médica"><default>De novo???</default></talk>
 	<talk character="Angely"><default>De novo o que?</default></talk>
 	<talk character="Psique"><default>Já falei pro pai delas levar Djanira num psicólogo!</default></talk>
 	<talk character="Angely"><default>Do que está falando? Esse é o nome da garota?</default></talk>
@@ -323,7 +323,7 @@
 	<talk character="Angely"><default>Posso ver o pergaminho?</default></talk>
 	<talk character="Djanira"><default>Não precisa, eu te falo o que tá escrito.</default></talk>
 	<talk character="Jay"><default>Você leu???</default></talk>
-	<talk character="Agnes"><default>* Pai...</default></talk>
+	<talk character="Agnes"><arrive> Pai...</arrive></talk>
 	<talk character="Jay"><default>Filha, como você saiu do hospital???</default></talk>
 	<teller><default>Jay abraça Agnes. Djanira, aproveitando a distração geral, pega a caixa e sai. Angely vai atrás dela.</default></teller>
 	<talk character="Angely"><default>Por que pegou a caixa?</default></talk>
@@ -427,7 +427,7 @@
 	<talk character="Angely"><default>Sabe o que eu quis dizer.</default></talk>
 	<talk character="Edmont"><default>Cara, você tem que sair dessa... Eu vou ficar com Handhara e deixo você lá com as meninas.</default></talk>
 	<talk character="Angely"><default>Eu não...</default></talk>
-	<talk character="Edmont"><default>Que foi? Acha que elas não vão gostar que você “atrapalhe” a reunião delas?</default></talk>
+	<talk character="Edmont"><default>Que foi? Acha que elas não vão gostar que você "atrapalhe" a reunião delas?</default></talk>
 	<talk character="Angely"><default>Como você ficou sabendo dessa... Reunião?</default></talk>
 	<talk character="Edmont"><default>Handhara me contou.</default></talk>
 	<teller><default>Na casa de Denise, as meninas já estão lá.</default></teller>
@@ -520,7 +520,7 @@
 	<talk character="Edmont"><default>Você vai dormir. Vem.</default></talk>
 	<teller><default>Edmont pega Mel pela mão e sai com ela do escritório. Amanhece. 10:00. Angely chega em casa, de ressaca. Vai até a cozinha, onde está Edmont.</default></teller>
 	<talk character="Edmont"><default>E aí?</default></talk>
-	<talk character="Angely"><default>“E aí”??? Por que me deixou lá sozinho???</default></talk>
+	<talk character="Angely"><default>"E aí"??? Por que me deixou lá sozinho???</default></talk>
 	<talk character="Edmont"><default>Eu tenho namorada agora, não podia ficar lá no meio com você. Então?</default></talk>
 	<talk character="Angely"><default>Eu acordei na cama dos pais de Denise!</default></talk>
 	<talk character="Edmont"><default>Estou perguntando com quem dormiu.</default></talk>
@@ -550,7 +550,7 @@
 	<talk character="Edmont"><default>Eu acho que elas gostaram.</default></talk>
 	<talk character="Angely"><default>Cara, acho que, depois de ontem, não vou nem ter coragem de olhar pra cara delas...</default></talk>
 	<talk character="Edmont"><default>Isso sim que elas não vão gostar.</default></talk>
-	<talk character="Mel"><default>* Onde esteve?</default></talk>
+	<talk character="Mel"><arrive> Onde esteve?</arrive></talk>
 	<teller><default></default></teller>
 	<talk character="Angely"><default>Lugar nenhum! Descobriram alguma coisa?</default></talk>
 	<talk character="Edmont"><default>É mesmo, ontem eu não encontrei as anotações de vocês.</default></talk>
@@ -566,7 +566,7 @@
 	<talk character="Angely"><default>Nada!!!</default></talk>
 	<teller><default>Toca o telefone. Edmont atende.</default></teller>
 	<talk character="Edmont"><default>Alô? ### Não, ele não tá. ### Tá, eu falo pra ele. ### Tchau.</default>
-	<teller>Edmont desliga</teller><default>Era a... </default>
+	<teller>Edmont desliga</teller><default>Era a...</default>
 	<teller>toca o telefone de novo</teller><default>Não. ### Eu digo. ### Tchau.</default></talk>
 	<talk character="Mel"><default>Quem era?</default></talk>
 	<talk character="Edmont"><default>Helene e Annie.</default></talk>
@@ -748,14 +748,14 @@
 	<talk character="Edmont"><default>Ê, Angely...</default></talk>
 	<talk character="Angely"><default>Que foi? Eu tô pregado.</default></talk>
 	<teller><default>Angely desce à cozinha e o telefone toca de novo. Ele atende.</default></teller>
-	<talk>
+	<talk character="Angely">
 	<default>Annie? ### Hoje não. ### Eu tenho algumas coisas pra fazer aqui. ### Tá, tudo bem. ### Tchau.</default>
 	<teller>desliga e toca de novo</teller>
 	<default>Cara, parece que elas combinam...</default>
 	<teller>atende</teller>
 	<default>Agatha... ### Não, eu tenho algumas coisas pra fazer aqui. ### O que? ### Eu tô organizando uma coisa aqui. ### Ele tem namorada agora, esqueceu? ### Sei... ### Tá, tchau.</default>
 	<teller>desliga</teller>
-	<default>Agora só falta a Denise. (Angely)</default>
+	<default>Agora só falta a Denise.</default>
 	</talk>
 	<teller><default>Ele volta à cozinha. Abre a geladeira, não pega nada, fecha. Se senta à mesa e olha pras paredes. Boceja. Vai subir a escada e alguém toca a campainha.</default></teller>
 	<talk character="Angely"><default>Quem será à essa hora?... Já vou!</default></talk>
@@ -811,7 +811,7 @@
 	<teller><default>Annie bate a porta. Ele dá umas voltas na cidade e chega em casa às dez da manhã. Edmont está na cozinha.</default></teller>
 	<talk character="Edmont"><default>Agatha ligou de novo.</default></talk>
 	<talk character="Angely"><default>Falta ela e a Helene.</default></talk>
-	<talk character="Edmont"><default>Desculpe, “falta”?</default></talk>
+	<talk character="Edmont"><default>Desculpe, "falta"?</default></talk>
 	<talk character="Angely"><default>Já falei com Agnes, Denise e Annie.</default></talk>
 	<talk character="Mel"><default>Gente, eu tava lendo o que vocês responderam...</default></talk>
 	<talk character="Edmont"><default>Mel, você tá ficando neurótica.</default></talk>
@@ -937,7 +937,7 @@
 	<talk character="Angely"><default>Melhor nós falarmos com elas.</default></talk>
 	<talk character="Mel"><default>Ei, ainda não terminaram!</default></talk>
 	<talk character="Edmont"><default>Terminem vocês três, nós vamos lá.</default></talk>
-	<teller><default>Edmont e Angely saem. Não encontram as duas em casa. De noite, eles chegam à um bar e encontram elas.</default></teller>
+	<teller><default>Edmont e Angely saem. Não encontram as duas em casa. De noite, eles chegam a um bar e encontram elas.</default></teller>
 	<talk character="Agnes"><default>Oi...</default></talk>
 	<talk character="Angely"><default>Agnes, tem algo que você precisa saber.</default></talk>
 	<talk character="Djanira"><default>Você jurou que ela não ia ficar sabendo!</default></talk>
@@ -948,7 +948,7 @@
 	<talk character="Djanira"><default>Pode ser que vocês me culpem agora, mas vão me agradecer depois!</default></talk>
 	<teller><default>Um homem desarma Djanira e a segura. Angely e Edmont tiram Agnes do bar e levam ela pra MEAK. No caminho, contam-lhe tudo.</default></teller>
 	<talk character="Edmont"><default>Cadê a Kat?</default></talk>
-	<talk character="Mel"><default>Demos calmante à ela, estava muito tensa.</default></talk>
+	<talk character="Mel"><default>Demos calmante a ela, estava muito tensa.</default></talk>
 	<talk character="Derik"><default>Quem é essa???</default></talk>
 	<talk character="Angely"><default>Agnes.</default></talk>
 	<talk character="Derik"><default>Deixaram a outra sozinha?</default></talk>
@@ -1047,13 +1047,13 @@
 	<talk character="Djanira"><default>Vai fazer o que? Me agarrar a força?</default></talk>
 	<talk character="Zenon"><default>Poderia. Mas não quero.</default></talk>
 	<talk character="Djanira"><default>E o que vai fazer, Don Juan?</default></talk>
-	<talk><default>Se afasta da menina! (caça-vampiros)</default></talk>
+	<talk character="caça-vampiros"><default>Se afasta da menina!</default></talk>
 	<talk character="Djanira"><default>Que isso?</default></talk>
 	<talk character="Zenon"><default>Qual o problema, caçador? Tem medo de acertar ela?</default></talk>
 	<teller><default>Djanira percebe que Angely falava a verdade; Pior: estava seu amante de outra vida ali, ao seu lado. Fica sem palavras.</default></teller>
 	<talk character="Zenon"><default>Vamos, atire. Ela não vai ficar chocada, a pouco ia matar a irmã num bar... Qual o problema? Ainda não aprendeu a usar esse brinquedo?</default></talk>
 	<teller><default>Ela dá um chute, desarmando o caçador. Zenon foge.</default></teller>
-	<talk><default>Que deu em você??? (caça-vampiros)</default></talk>
+	<talk character="caça-vampiros"><default>Que deu em você???</default></talk>
 	<talk character="Djanira"><default>Eu não sei.</default></talk>
 	<teller><default>Ele pega a arma do chão. Djanira sai andando. Ali perto.</default></teller>
 	<talk character="Angely"><default>Uma morta e outra desaparecida... Belo serviço.</default></talk>

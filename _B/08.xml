@@ -75,12 +75,12 @@
 	<talk character="Mel"><default>É meio em cima.</default></talk>
 	<talk character="Dínamis"><default>Você vai saber o que fazer.</default></talk>
 	<teller><default>Dínamis levanta.</default></teller>
-	<talk>
+	<talk character="Dínamis">
 	<default>Já levei o que tinha de meu daqui. Todos os arquivos estão no computador, ou melhor, em mais de um, caso dê problema. Qualquer coisa que você alterar terá que ser salva, depois você manda os novos arquivos para o computador principal, um amigo meu cuida dele e mantém os arquivos em vários lugares, bem seguros. O e-mail tá salvo na lista de endereços do e-mail da escola. A escola tem também um site, mas disso o corpo discente que cuida. Aliás, melhor você fazer uma reunião com o corpo discente e com o docente na segunda pra se apresentar, eles sempre chegam antes. O livro de regras da escola fica na gaveta, melhor você ler umas três vezes. Há algumas regras que não levamos tão a sério, você quem terá que julgar isso. Geralmente faço reuniões às segundas de manhã e às sextas de noite. Nunca precisei de vice, mas se quiser contratar um, tudo bem. Tudo que precisa saber está no livro ou no computador e, se não entendeu nada do que eu falei, eu escrevi tudo aqui...</default>
 	<teller>tira um papel do bolso e entrega a Mel</teller>
 	<default>Agora, se me dão licença, a Austrália me espera.</default>
 	<teller>entrega uma chave a Angely</teller>
-	<default>Fecha a escola pra mim? (DNM)</default>
+	<default>Fecha a escola pra mim?</default>
 	</talk>
 	<teller><default>Sem esperar resposta, ela sai.</default></teller>
 	<talk character="Mel"><default>Será que é tão ruim assim pra ela jogar no meu colo desse jeito?</default></talk>
@@ -117,7 +117,7 @@
 	<talk character="Alan"><default>Mas foi mais pra você, não fui eu quem cutucou.</default></talk>
 	<talk character="Zenon"><default>Vou procurar emprego.</default></talk>
 	<talk character="Alan"><default>À essa hora da noite?</default></talk>
-	<talk character="Zenon"><irony>Não, assim que o sou nascer. Gosto de pegar o sol da manhã, queima mais devagar! </irony></talk>
+	<talk character="Zenon"><irony>Não, assim que o sou nascer. Gosto de pegar o sol da manhã, queima mais devagar!</irony></talk>
 	<teller><default>Zenon sai. Na casa de Angely...</default></teller>
 	<talk character="Bea"><default>Mas ela nunca vai aceitar!</default></talk>
 	<talk character="Ang"><default>A gente pode tentar. Edmont fica vigiando a MEAK. Descobri que Derik foi incumbido de cuidar, mas não pode ficar 24 horas por dia na recepção. Além do que, você pode atender o telefone, pela agência.</default></talk>
@@ -145,13 +145,13 @@
 	<talk character="Ang"><default>Eu sei. Usa a estaca.</default></talk>
 	<talk character="Mel"><default>E você vai ter que me ajudar a falar com os outros.</default></talk>
 	<teller><default>12:30...</default></teller>
-	<talk character="Kat"><default>QUÊ??? AQUELA VAGABUNDA???</default></talk>
+	<talk character="Kat"><screamed>Quê??? Aquela vagabunda???</screamed></talk>
 	<talk character="Estela"><default>Kat, calma...</default></talk>
-	<talk character="Derik"><default>POR QUE VAI TRAZÊ-LA PRA CÁ???</default></talk>
+	<talk character="Derik"><screamed>Por que vai trazê-la pra cá???</screamed></talk>
 	<talk character="Mel"><default>Ela tá morando com Angely.</default></talk>
 	<talk character="Alan"><default>Sem querer ofender Zenon, mas, Angely, ela é uma vampira!!!</default></talk>
 	<talk character="Ang"><default>Eu sei disso.</default></talk>
-	<talk character="Estela"><default>Pra que fazer tempestade em copo d’água? Ela não estaria enganando o Angely, sabe que não duraria muito tempo e sabe que estamos alertas quanto à ela. Ao primeiro mal passo, mandamos pro inferno.</default></talk>
+	<talk character="Estela"><default>Pra que fazer tempestade em copo d’água? Ela não estaria enganando o Angely, sabe que não duraria muito tempo e sabe que estamos alertas quanto a ela. Ao primeiro mal passo, mandamos pro inferno.</default></talk>
 	<talk character="Kat"><default>Pois eu sou a favor de fazer isso agora mesmo, só pela ousadia.</default></talk>
 	<talk character="Estela"><default>Pela ousadia dela pedir emprego aqui ou de agarrar Derik bêbado?</default></talk>
 	<teller><default>Derik baixa a cabeça. Levanta e sai.</default></teller>
@@ -187,16 +187,16 @@
 	<talk character="Ang"><default>Não, por favor...</default></talk>
 	<talk character="Bea"><default>Tudo bem. Você vai aceitar um dia e eu vou saber esperar.</default></talk>
 	<teller><default>Beatrice sai da sala. Edmont, em Ares...</default></teller>
-	<talk character="Edmont"><thought>Tá perdendo a parte boa de morar com ela.)</thought></talk>
+	<talk character="Edmont"><thought>Tá perdendo a parte boa de morar com ela.</thought></talk>
 	<teller><default>Angely, em Hera...</default></teller>
-	<talk character="Ang"><thought>Sua opinião não me importa)</thought></talk>
+	<talk character="Ang"><thought>Sua opinião não me importa</thought></talk>
 	<teller><default>Edmont, em Ares...</default></teller>
-	<talk character="Edmont"><thought>“Não quero perder você..” “Não, por favor...” Que nojo...)</thought></talk>
+	<talk character="Edmont"><thought>"Não quero perder você.." "Não, por favor..." Que nojo...</thought></talk>
 	<teller><default>Angely, em Hera...</default></teller>
-	<talk character="Ang"><thought>Por que não vai tomar um solzinho?)</thought></talk>
+	<talk character="Ang"><thought>Por que não vai tomar um solzinho?</thought></talk>
 	<teller><default>Segunda-feira, 07/04 (segunda), 6:00. Ang, alguns professores e alguns alunos estão na sala dos professores. Mel chega meio atrapalhada. Todos se entreolham.</default></teller>
 	<talk character="Mel"><default>Bom, a Dínamis resolveu ir pra Austrália e, por enquanto, isso aqui tá me parecendo muito confuso, então, por favor, não me façam perguntas muito complicadas. Vou tentar dirigir isso, ela disse que eu podia, mas, se tiverem uma outra indicação, podem fazer. Por enquanto, é só o que tenho a dizer.</default></talk>
-	<talk><default>Tenho uma reclamação sobre uma aluna. Ela não rende, é muito desligada e não presta atenção... (BNR) (Bianor – Geografia)</default></talk>
+	<talk character="Bianor – Geografia"><default>Tenho uma reclamação sobre uma aluna. Ela não rende, é muito desligada e não presta atenção...</default></talk>
 	<talk character="Mel"><default>Já tentou perguntar pra ela por quê disso?</default></talk>
 	<talk character="Bianor"><default>Não, temos que falar direto com os pais dela, isso é falta de vergonha...</default></talk>
 	<talk character="Mel"><default>Talvez a garota esteja com um problema, deveria falar com ela primeiro.</default></talk>
@@ -280,12 +280,12 @@
 	<teller><default>Beatrice sai.</default></teller>
 	<talk character="Fábio"><default>Sabia que ouvido de vampiro é bom, mas não sabia que é tanto...</default></talk>
 	<teller><default>Ela atende o telefone na sala.</default></teller>
-	<talk>
+	<talk character="Bea">
 	<default>MEAK agência de...</default>
 	<teller>olha a cor do telefone</teller>
-	<default>quartos. ### Tudo bem, foi só uma pequena confusão, sou nova no emprego. ### Temos sim, muitos quartos vagos. ### Se temos problemas com hóspedes diferentes? Bom, no momento nem temos ninguém aqui... ### Ótimo! ### QUANTO?! ### A diária não é tão alta... ### Todos os quartos?! ### Mesmo assim é muito mais que o preço que cobramos... ### Não, não estou reclamando, de modo algum, nem sou dona disso aqui...</default>
+	<default>quartos. ### Tudo bem, foi só uma pequena confusão, sou nova no emprego. ### Temos sim, muitos quartos vagos. ### Se temos problemas com hóspedes diferentes? Bom, no momento nem temos ninguém aqui... ### Ótimo! ### Quanto?! ### A diária não é tão alta... ### Todos os quartos?! ### Mesmo assim é muito mais que o preço que cobramos... ### Não, não estou reclamando, de modo algum, nem sou dona disso aqui...</default>
 	<teller>fica preocupada</teller>
-	<default>Só um instantinho, outra ligação, eu já atendo o senhor... (BEA)</default>
+	<default>Só um instantinho, outra ligação, eu já atendo o senhor...</default>
 	</talk>
 	<teller><default>Beatrice sobe.</default></teller>
 	<talk character="Bea"><default>Que susto você me deu!</default></talk>
@@ -310,21 +310,21 @@
 	<talk character="Isauro"><default>Não, não sei.</default></talk>
 	<talk character="Alan"><default>Eu fui CV.</default></talk>
 	<talk character="Isauro"><default>Se foi, quer dizer que foi expulso.</default></talk>
-	<talk character="Zenon"><default>Ele se aliou à uma vampira.</default></talk>
+	<talk character="Zenon"><default>Ele se aliou a uma vampira.</default></talk>
 	<talk character="Alan"><default>Mentira, eu fui enganado por ela!</default></talk>
 	<teller><default>Minutos depois, eles são jogados pra fora do bar. Zenon puxa seu capuz rápido e se cobre (para não virar churrasco).</default></teller>
 	<talk character="Zenon"><default>Por que tinha que dizer que foi enganado???</default></talk>
 	<talk character="Alan"><default>Não queria que ele pensasse que eu...</default></talk>
 	<talk character="Zenon"><default>É mau? Desculpa, mas isso aqui não me parece ter fregueses bonzinhos ou empregados que bebem leitinho quente antes de ir pra cama!</default></talk>
 	<talk character="Alan"><default>Tá me chamando de bebê?!</default></talk>
-	<talk character="Zenon"><default>Além disso, ainda tem o “fui enganado”. Eles não empregariam alguém que foi enganado!</default></talk>
+	<talk character="Zenon"><default>Além disso, ainda tem o "fui enganado". Eles não empregariam alguém que foi enganado!</default></talk>
 	<talk character="Alan"><default>Eu não ia mesmo trabalhar em um lugar de demônios!</default></talk>
 	<talk character="Zenon"><hushed>Isso, diz mais alto. Aproveita e diz que teríamos uma ótima ligação para a nossa agência que caça coisas ruins. Quem sabe eles não mudam de idéia e, ao invés de nos jogar aqui, não nos levam para cima e jogam de lá mesmo!</hushed></talk>
 	<talk character="Alan"><default>Vamos voltar pra casa. Tô com fome...</default></talk>
 	<teller><default>Eles chegam e Derik está na sala, com livros.</default></teller>
 	<talk character="Zenon"><default>Estudando?</default></talk>
 	<talk character="Alan"><default>E o almoço?</default></talk>
-	<talk character="Derik"><irony>Tô fazendo, sinhozinho. Ah, esqueci, a escravidão foi abolida. </irony></talk>
+	<talk character="Derik"><irony>Tô fazendo, sinhozinho. Ah, esqueci, a escravidão foi abolida.</irony></talk>
 	<talk character="Alan"><default>Engraçadinho.</default></talk>
 	<talk character="Derik"><default>Estou procurando um negócio que a Beatrice deixou embaixo do telefone errado.</default></talk>
 	<talk character="Zenon"><default>Ah?</default></talk>
@@ -372,16 +372,16 @@
 	<teller><default>08/04 (terça). 20:00. Mel está com Angely na MEAK.</default></teller>
 	<talk character="Mel"><default>Não sei, ainda não me acostumei com esses... seres.</default></talk>
 	<talk character="Ang"><default>Eles não têm uma energia muito positiva, mas não acho que vão fazer algo errado.</default></talk>
-	<talk character="Mel"><default>“Energia positiva”? Virou espírita ou tá achando que nossos amigos são pilhas gigantes?</default></talk>
+	<talk character="Mel"><default>"Energia positiva"? Virou espírita ou tá achando que nossos amigos são pilhas gigantes?</default></talk>
 	<talk character="Ang"><default>Tem algo errado.</default></talk>
 	<talk character="Mel"><default>Com eles? Já percebi.</default></talk>
 	<talk character="Ang"><default>Não tem a ver com eles. Edmont...</default></talk>
 	<teller><default>Angely sai correndo.</default></teller>
 	<talk character="Mel"><default>Peraí, fala o que tá acontecendo!!!</default></talk>
-	<teller><default>Ele vai para Ares. Chega num apartamento. Bate, ninguém abre. Ele arromba. Vai até o quarto. No espelho a inscrição “FRACO”. Fábio está na cama, de costas.</default></teller>
+	<teller><default>Ele vai para Ares. Chega num apartamento. Bate, ninguém abre. Ele arromba. Vai até o quarto. No espelho a inscrição "FRACO". Fábio está na cama, de costas.</default></teller>
 	<talk character="Fábio"><default>Vou ser expulso?</default></talk>
 	<talk character="Ang"><default>Expulso?</default></talk>
-	<talk character="Fábio"><default>POR QUE VOCÊ VOL...</default>
+	<talk character="Fábio"><screamed>Por que você vol...</screamed>
 	<teller>se vira para a porta</teller><default>Angely.</default></talk>
 	<talk character="Ang"><default>Achou que fosse o Edmont, mas antes achou que fosse outra pessoa.</default></talk>
 	<talk character="Fábio"><default>Soraia. Pode não acreditar, mas já a vi quebrar mais de cem portas.</default></talk>
@@ -398,22 +398,22 @@
 	<talk character="Fábio"><default>Podemos passar numa lanchonete antes?</default></talk>
 	<talk character="Ang"><default>Claro.</default></talk>
 	<teller><default>Eles saem. Na MEAK, Beatrice está na recepção. Ouve um barulho estranho vindo dos fundos da casa. Olha e vê um garoto amarrado e alguns dos hóspedes conversando. Sobe até o quarto de Alan, Zenon e Derik.</default></teller>
-	<talk character="Bea"><default>ACORDEM!</default></talk>
+	<talk character="Bea"><screamed>Acordem!</screamed></talk>
 	<teller><default>Eles pulam da cama.</default></teller>
 	<talk character="Bea"><default>Que estão fazendo dormindo???</default></talk>
 	<talk character="Alan"><default>Acabou de responder, o que deu na sua cabeça???</default></talk>
 	<talk character="Bea"><default>Na minha nada, mas deve ter dado algo na dos nossos hóspedes. Tem um garoto amarrado lá fora...</default></talk>
 	<talk character="Alan"><default>Eu sabia que não podíamos confiar neles!!!</default></talk>
-	<talk character="Zenon"><irony>Engraçado como você sempre guarda tão bem o que percebe... Sempre sabe de tudo, mas só ficamos sabendo que você sabia depois! </irony></talk>
+	<talk character="Zenon"><irony>Engraçado como você sempre guarda tão bem o que percebe... Sempre sabe de tudo, mas só ficamos sabendo que você sabia depois!</irony></talk>
 	<talk character="Alan"><default>Olha aqui...</default></talk>
 	<talk character="Derik"><default>Parem de implicância, temos que salvar alguém aqui!</default></talk>
 	<talk character="Zenon"><default>Ele tá certo. Mas como?</default></talk>
 	<talk character="Derik"><default>Com o nosso banquete surpresa pra eles às dez horas.</default></talk>
-	<talk><default>Ah? (ZNN/ALN)</default></talk>
+	<talk character="Zenon / Alan"><default>Ah?</default></talk>
 	<talk character="Bea"><default>Ótima idéia, Derik. Mas vai envenenar a comida?</default></talk>
 	<talk character="Derik"><default>Seria arriscado, eles podem querer que comamos junto com eles. Mas com todos reunidos, podemos atacar.</default></talk>
 	<talk character="Alan"><default>E você lembra da última vez que tentamos isso?</default></talk>
-	<talk character="Mel"><default>* Eu não tava junto.</default></talk>
+	<talk character="Mel"><arrive> Eu não tava junto.</arrive></talk>
 	<talk character="Zenon"><default>Nossa, se modéstia pagasse imposto, você com certeza seria isenta...</default></talk>
 	<teller><default>Kat e Estela entram no quarto.</default></teller>
 	<talk character="Kat"><default>Reunião?</default></talk>
@@ -494,7 +494,7 @@
 	<teller><default>Todos encaram Derik (menos Fábio e Ang, que de nada sabiam).</default></teller>
 	<talk character="Mel"><default>Fizemos um banquete pra envenená-los porque queriam fazer um sacrifício no nosso jardim.</default></talk>
 	<talk character="Bea"><default>Falando nisso, não é melhor desamarrar o carinha?</default></talk>
-	<talk character="Rob"><default>* Não precisa.</default></talk>
+	<talk character="Rob"><arrive> Não precisa.</arrive></talk>
 	<talk character="Alan"><default>Como se livrou das cordas?</default></talk>
 	<talk character="Rob"><default>Não sei.</default></talk>
 	<talk character="Zenon"><default>E como sabia que estávamos falando de você?</default></talk>
@@ -534,7 +534,7 @@
 	<talk character="Ang"><default>Fábio te salvou.</default></talk>
 	<talk character="Bea"><default>Por quê?</default></talk>
 	<talk character="Ang"><default>Porque ele tem um bom coração.</default></talk>
-	<talk character="Bea"><default>“Tem”, no presente, quer dizer que ainda está vivo?</default></talk>
+	<talk character="Bea"><default>"Tem", no presente, quer dizer que ainda está vivo?</default></talk>
 	<talk character="Ang"><default>Não. Mas continua tendo um bom coração. Longe de nós, mas continua.</default></talk>
 	<talk character="Bea"><default>Conhece algum amigo dele?</default></talk>
 	<talk character="Ang"><default>Soraia. Mas vai ter que ser esconder, Fábio disse que ela é CV de sangue.</default></talk>
@@ -559,7 +559,7 @@
 	<talk character="Zenon"><default>Ele tá certo.</default></talk>
 	<talk character="Mel"><default>Tá.</default></talk>
 	<talk character="Alan"><default>E...</default></talk>
-	<talk character="Mel"><default>Cuidem o “e...” vocês. Não tenho tempo pra isso.</default></talk>
+	<talk character="Mel"><default>Cuidem o "e..." vocês. Não tenho tempo pra isso.</default></talk>
 	<talk character="Zenon"><default>Tá mandando a gente arranjar um lugar mais seguro?</default></talk>
 	<talk character="Mel"><default>Vou ter que soletrar isso? Vocês são os únicos dois que não têm mais o que fazer por aqui.</default></talk>
 	<talk character="Zenon"><default>Ei!</default></talk>
@@ -570,7 +570,7 @@
 	<talk character="Estela"><default>Ah?</default></talk>
 	<talk character="Kat"><default>Você conhece os vampiros?</default></talk>
 	<talk character="Rob"><default>Eles estavam falando do meu lado. Aliás, não sei o que foi pior, ficar amarrado ou ouvi-los falando... Pior quando resolveram contar piadas! Posso conhecer quem salvou minha vida? Quer dizer, o vampiro que fez isso?</default></talk>
-	<talk character="Bea"><default>* Fui eu.</default>
+	<talk character="Bea"><arrive> Fui eu.</arrive>
 	<teller>vem trazendo alguns corpos</teller><default>Vamos queimar isso também.</default></talk>
 	<talk character="Estela"><default>E as cinzas?</default></talk>
 	<talk character="Bea"><default>Não vamos queimar tudo junto, venderemos as cinzas pra alguma lojinha de objetos mágicos.</default></talk>
@@ -587,19 +587,19 @@
 	<talk character="Bea"><default>Mel já disse pra você que não pode caçar vampiros.</default></talk>
 	<talk character="Kat"><default>Vou matar uma que ela não quer matar.</default></talk>
 	<talk character="Bea"><default>Mel não quer matar uma vampira?</default></talk>
-	<talk character="Estela"><default>* Não vai perguntar quem é?</default></talk>
+	<talk character="Estela"><arrive> Não vai perguntar quem é?</arrive></talk>
 	<talk character="Bea"><default>Não tenho nada a ver com isso, mas se quiser me dizer...</default></talk>
-	<talk character="Rob"><default>* Te mandaria olhar no espelho, mas você não tem reflexo...</default></talk>
+	<talk character="Rob"><arrive> Te mandaria olhar no espelho, mas você não tem reflexo...</arrive></talk>
 	<talk character="Bea"><default>Brincadeira idiota...</default></talk>
 	<talk character="Derik"><default>Não é brincadeira.</default></talk>
 	<teller><default>Olhando de novo, ela vê que todos estão armados.</default></teller>
 	<talk character="Bea"><default>Não quero ter que bater em vocês.</default></talk>
 	<talk character="Derik"><default>Não precisa, nós não vamos deixar... Peraí, não disse algo parecido pro Angely, há alguns anos atrás?</default></talk>
 	<talk character="Bea"><default>Não me querem aqui, não é?</default></talk>
-	<talk character="Kat"><irony>Olha só, ela descobriu! </irony></talk>
+	<talk character="Kat"><irony>Olha só, ela descobriu!</irony></talk>
 	<talk character="Bea"><default>Não aceitam que alguém possa mudar...</default></talk>
 	<talk character="Estela"><default>Nós aceitamos! Até aceitamos Zenon, mas você...</default></talk>
-	<talk character="Rob"><default>Sabe, está escrito na sua cara “prostituta assassina”. Não há como.</default></talk>
+	<talk character="Rob"><default>Sabe, está escrito na sua cara "prostituta assassina". Não há como.</default></talk>
 	<teller><default>Ela vai tentar sair, mas eles a atacam. Ela derruba Kat, Estela e Rob, mas encontra Derik na porta, com uma besta apontada para ela.</default></teller>
 	<talk character="Derik"><default>Desculpe, mas tenho que provar pra Kat que é ela que amo.</default></talk>
 	<teller><default>Derik atira. Beatrice acorda em casa.</default></teller>
@@ -623,9 +623,9 @@
 	<talk character="Kat"><default>Pode estar atrás de Mel!</default></talk>
 	<talk character="Derik"><default>Por que ela estaria?!</default></talk>
 	<talk character="Kat"><default>Ela transformou Edmont no que ele é agora, tá que ele não era nenhum santo, mas não era um assassino!!!</default></talk>
-	<talk character="Ang"><default>* Era sim.</default></talk>
+	<talk character="Ang"><arrive> Era sim.</arrive></talk>
 	<teller><default>Os três olham para ele.</default></teller>
-	<talk character="Ang"><default>Ele gostava de matar os adversários desde pequeno. Sempre adorou matar. Pode ser que o vampirismo, que também é um jeito de ter mais poder, suba à cabeça. Mas ninguém muda tanto assim, Kat. Tanto que Beatrice, que não era má, agora está tentando voltar atrás. Sabemos que humana ela não pode mais ser, mas dê uma chance à ela, é só o que peço. Agora vou voltar à escola, Mel pediu pra eu pegar uma coisa aqui. Por favor, tentem ver o lado dela.</default></talk>
+	<talk character="Ang"><default>Ele gostava de matar os adversários desde pequeno. Sempre adorou matar. Pode ser que o vampirismo, que também é um jeito de ter mais poder, suba à cabeça. Mas ninguém muda tanto assim, Kat. Tanto que Beatrice, que não era má, agora está tentando voltar atrás. Sabemos que humana ela não pode mais ser, mas dê uma chance a ela, é só o que peço. Agora vou voltar à escola, Mel pediu pra eu pegar uma coisa aqui. Por favor, tentem ver o lado dela.</default></talk>
 	<teller><default>Angely sai. 17:30, os alunos estão saindo da escola. Mel está na diretoria. Jessé (diretor noturno) entra na sala.</default></teller>
 	<talk character="Jessé"><default>Co-como foi o dia?</default></talk>
 	<talk character="Mel"><default>Bem. Normal.</default></talk>
@@ -646,11 +646,11 @@
 	<talk character="Mel"><default>Uma pessoa que aparece na televisão parece mais... Sei lá... Eles nos transformam em semi deuses. Mas pessoalmente...</default></talk>
 	<talk character="Ang"><default>Você causa efeitos estranhos nos homens.</default></talk>
 	<talk character="Mel"><default>Tem certeza que ele não é gago?</default></talk>
-	<talk character="Derik"><default>* Quem é gago?</default></talk>
+	<talk character="Derik"><arrive> Quem é gago?</arrive></talk>
 	<talk character="Mel"><default>Jessé.</default></talk>
 	<talk character="Derik"><default>Não é, não.</default></talk>
 	<talk character="Ang"><default>Viu?</default></talk>
-	<talk character="Rob"><default>* Oi.</default></talk>
+	<talk character="Rob"><arrive> Oi.</arrive></talk>
 	<talk character="Mel"><default>Não era pra você estar arrumado pra ir à escola?</default></talk>
 	<talk character="Rob"><default>Cara, esqueci completamente... Meus cadernos, minhas coisas, tão tudo lá em casa...</default></talk>
 	<talk character="Mel"><default>Até acertarmos a situação com a sua família, você fica livre, mas assim que acertarmos tudo, vai voltar pra escola e vou cobrar que tenha toda a matéria.</default></talk>
@@ -691,9 +691,9 @@
 	<talk character="Bea"><default>Então por quê perguntou?</default></talk>
 	<talk character="Derik"><default>Nada. Absolutamente nada. Nadinha mesmo.</default></talk>
 	<teller><default>Derik sobe.</default></teller>
-	<talk character="Bea"><default>ESPERO QUE NÃO ESTEJA PENSANDO QUE EU VÁ AGARRAR UMA DAS DUAS NO MEIO DA NOITE!!!</default></talk>
-	<talk character="Derik"><default>NÃO ESTOU!</default></talk>
-	<talk character="Bea"><default>BOM MESMO!</default></talk>
+	<talk character="Bea"><default>Espero que não esteja pensando que eu vá agarrar uma das duas no meio da noite!!!</default></talk>
+	<talk character="Derik"><out>Não estou!</out></talk>
+	<talk character="Bea"><default>Bom mesmo!</default></talk>
 	<teller><default>Mel está saindo do banho (de toalha). Rob entra no quarto.</default></teller>
 	<talk character="Rob"><default>Tá, eu acho que eu devia ter batido à porta...</default></talk>
 	<talk character="Mel"><default>Com certeza.</default></talk>
@@ -727,13 +727,13 @@
 	<talk character="Rob"><default>É claro que não, ela é minha prima, fomos criados como irmãos...</default></talk>
 	<talk character="Mel"><default>Tudo bem, eu vou com você até lá. Mas fico do lado de fora, não tô a fim de ouvir qualquer sugestão de que você esteja me pagando pra fazer isso.</default></talk>
 	<teller><default>Mel está saindo com Rob quando Zenon chega.</default></teller>
-	<talk character="Zenon"><default>Dessa vez eu arranjei um emprego. Foi boa a idéia de eu e Alan nos separarmos, o “fui enganado por uma vampira” não ajuda muito... Onde vão?</default></talk>
+	<talk character="Zenon"><default>Dessa vez eu arranjei um emprego. Foi boa a idéia de eu e Alan nos separarmos, o "fui enganado por uma vampira" não ajuda muito... Onde vão?</default></talk>
 	<talk character="Mel"><default>Resolver o problema do Rob e o meu também.</default></talk>
-	<talk><default>Ah?! (ROB/ZNN)</default></talk>
+	<talk character="Rob / Zenon"><default>Ah?!</default></talk>
 	<talk character="Mel"><default>Vamos falar com seus pais e eu vou aproveitar pra fazer algo que tava precisando à algum tempo, ando me irritando muito fácil.</default></talk>
 	<talk character="Zenon"><default>E o que é?</default></talk>
 	<talk character="Mel"><default>Do que você se alimenta?</default></talk>
-	<talk character="Zenon"><default>AH???</default></talk>
+	<talk character="Zenon"><default>Ah???</default></talk>
 	<talk character="Mel"><default>Tem seus segredos, eu tenho os meus, por quê não vai cuidar da sua vida?</default></talk>
 	<teller><default>Rob e Mel saem. 10/04 (quinta), 18:00. Zenon está saindo, Mel está chegando.</default></teller>
 	<talk character="Zenon"><default>Olha só, quando tempo...</default></talk>
@@ -779,7 +779,7 @@
 	<teller><default>Ela sai. Todos ficam olhando para Ricardo.</default></teller>
 	<talk character="Rick"><default>Que é, não têm mais o que fazer???</default></talk>
 	<talk character="policial"><default>Cuidado, ela já te enganou uma vez...</default></talk>
-	<talk character="Rick"><default>ELA NÃO ME ENGANOU!</default>
+	<talk character="Rick"><screamed>Ela não me enganou!</screamed>
 	<teller>vira-se para a saída</teller><default>Melody, volte aqui! Eu vou com você pra garantir que os testemunhos não serão combinados!!!</default></talk>
 	<teller><default>11/04 (sexta). Rob já foi solto. 4:00. Rob e Angely conversam.</default></teller>
 	<talk character="Rob"><default>É estranho. A melhor noite da minha vida seguida do pior dia.</default></talk>
@@ -788,7 +788,7 @@
 	<talk character="Ang"><default>Pense positivo. Pense que eles estão no céu.</default></talk>
 	<talk character="Rob"><default>Você já perdeu muita gente.</default></talk>
 	<talk character="Ang"><default>Não. Eu nunca perdi ninguém, porque as pessoas não se perdem umas das outras. Agora eu entendo isso.</default></talk>
-	<talk character="Bea"><default>* Não parecia quando falou comigo sobre Edmont.</default></talk>
+	<talk character="Bea"><arrive> Não parecia quando falou comigo sobre Edmont.</arrive></talk>
 	<talk character="Ang"><default>Ele não iria te matar.</default></talk>
 	<talk character="Bea"><default>Preferia que ele me matasse?</default></talk>
 	<talk character="Ang"><default>Se você estivesse nos pensamentos dele, também ia preferir.</default></talk>
@@ -820,7 +820,7 @@
 	<talk character="Derik"><default>Ficou olhando???</default></talk>
 	<talk character="Bea"><default>Estão se beijando na minha frente, só não teria visto se tivesse colocado meus globos oculares sobre o livro.</default></talk>
 	<talk character="Bea"><default>É bem melhor, sim, mas podia ser que estivesse lendo algo sobre yaksahs...</default></talk>
-	<talk character="Bea"><irony>Deixa eu entender, estão tão interessados um no outro que o que eu estou lendo interfere? </irony></talk>
+	<talk character="Bea"><irony>Deixa eu entender, estão tão interessados um no outro que o que eu estou lendo interfere?</irony></talk>
 	<talk character="Kat"><default>Fiquei curiosa, sim, mas beijar o Derik com certeza é melhor que...</default></talk>
 	<talk character="Bea"><default>Estela...</default></talk>
 	<talk character="Derik"><default>Claro, Kat não é lésbica! Ou é?</default></talk>
@@ -885,7 +885,7 @@
 	<talk character="Rob"><default>Ouvi vocês conversando. Só queria ver se ia deixar como quase deixou com o pai da Kat.</default></talk>
 	<talk character="Estela"><default>Que???</default></talk>
 	<talk character="Rob"><default>Ouvi você e Kat conversando.</default></talk>
-	<talk character="Estela"><default>Tá, agora que já sabe que não são só humanos que existem, posso te contar. Angely não é humano. Acho que naturalmente ele já deve beijar bem, mas ele usou um feitiço pra me deixar abalada desse jeito. Nem ele, nem a Kat, nem a Mel são normais. Aliás, eles têm a vantagem de ter atividade cerebral melhor e a desvantagem de se “alterar” mais fácil...</default></talk>
+	<talk character="Estela"><default>Tá, agora que já sabe que não são só humanos que existem, posso te contar. Angely não é humano. Acho que naturalmente ele já deve beijar bem, mas ele usou um feitiço pra me deixar abalada desse jeito. Nem ele, nem a Kat, nem a Mel são normais. Aliás, eles têm a vantagem de ter atividade cerebral melhor e a desvantagem de se "alterar" mais fácil...</default></talk>
 	<teller><default>Rob cruza os braços, em sinal de descrença.</default></teller>
 	<talk character="Rob"><default>Sei.</default></talk>
 	<talk character="Estela"><default>Que, acha que gosto dele???</default></talk>
@@ -917,13 +917,13 @@
 	<teller><default>Ela sai. Angely se senta na cama.</default></teller>
 	<talk character="Ang"><default>Espero que esse tempo não seja com o Edmont.</default></talk>
 	<teller><default>Edmont, em Ares...</default></teller>
-	<talk character="Edmont"><thought>Eu espero o contrário.)</thought></talk>
+	<talk character="Edmont"><thought>Eu espero o contrário.</thought></talk>
 	<teller><default>Angely, em Hera...</default></teller>
-	<talk character="Ang"><thought>Edmont...)</thought></talk>
+	<talk character="Ang"><thought>Edmont...</thought></talk>
 	<teller><default>Edmont, em Ares...</default></teller>
-	<talk character="Edmont"><thought>Sim?)</thought></talk>
+	<talk character="Edmont"><thought>Sim?</thought></talk>
 	<teller><default>Angely, em Hera...</default></teller>
-	<talk character="Ang"><thought>Cala a boca.)</thought></talk>
+	<talk character="Ang"><thought>Cala a boca.</thought></talk>
 	<teller><default>0:00, 12/04 (sábado). Beatrice está andando por Hera. Olha lá para a MEAK. Lá dentro, Rob está com Estela. Derik está na recepção.</default></teller>
 	<talk character="Kat"><default>Mas é horário dele!!!</default></talk>
 	<talk character="Derik"><default>Que problema tem?</default></talk>
@@ -931,7 +931,7 @@
 	<talk character="Derik"><default>É um favor, quer ficar com a Estela um pouco.</default></talk>
 	<talk character="Kat"><default>Eu vou lá chamá-lo. Também quero ficar com você...</default></talk>
 	<teller><default>Kat sobe. Estela está saindo do quarto.</default></teller>
-	<talk character="Kat"><irony>Ah, seu namorado já pode ir assumir o posto dele? </irony></talk>
+	<talk character="Kat"><irony>Ah, seu namorado já pode ir assumir o posto dele?</irony></talk>
 	<talk character="Estela"><default>Terminamos.</default></talk>
 	<talk character="Kat"><default>Nossa, isso é que é recorde. Por quê?</default></talk>
 	<talk character="Estela"><default>Porque não é ele que eu amo.</default></talk>
@@ -954,10 +954,10 @@
 	<talk character="Estela"><default>Como assim?</default></talk>
 	<talk character="Bea"><default>Não transou com ele, transou?!</default></talk>
 	<talk character="Estela"><default>Não!!! Peraí, o que isso te interessa???</default></talk>
-	<talk character="Mel"><default>* Que tá fazendo aqui?</default></talk>
+	<talk character="Mel"><arrive> Que tá fazendo aqui?</arrive></talk>
 	<talk character="Bea"><default>Ele transou com a Mel com a desculpa de que era virgem, daí descobriu que ela era infértil e, se quiser, pergunte pro Angely que reação ele teve. Daí ele vem e de repente se apaixona pela Estela. Ele tentou transar, não tentou?</default></talk>
 	<talk character="Estela"><default>Todo homem faz isso.</default></talk>
-	<talk character="Bea"><default>Aquele velho papo do “você não me ama?” ou “posso te fazer esquecer o canalha que não te merece”, acertei?</default></talk>
+	<talk character="Bea"><default>Aquele velho papo do "você não me ama?" ou "posso te fazer esquecer o canalha que não te merece", acertei?</default></talk>
 	<talk character="Mel"><default>Isso só prova que ele é um cafajeste, e daí?</default></talk>
 	<talk character="Derik"><default>Peraí, se ele é um cafajeste, vai tentar assediar a Kat!</default></talk>
 	<teller><default>Dali a alguns minutos, Rob encostou Kat na parede. Está quase beijando-a. Rob solta Kat e segura um pedaço de madeira com que Derik iria bater nele. Tira o pedaço de madeira das mãos de Derik, o encosta na parede e ri.</default></teller>

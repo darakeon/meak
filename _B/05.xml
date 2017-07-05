@@ -82,7 +82,7 @@
 	<talk character="Kat"><default>Bom, se formos pela lógica, A é primário, B ginásio e C colegial.</default></talk>
 	<talk character="Derik"><default>Ah, então nós seríamos B4?</default></talk>
 	<talk character="Kat"><default>É. Agora temos que descobrir a sala.</default></talk>
-	<talk character="Estela"><default>* Até que enfim encontrei vocês!</default></talk>
+	<talk character="Estela"><arrive> Até que enfim encontrei vocês!</arrive></talk>
 	<talk character="Kat"><default>Que foi?</default></talk>
 	<talk character="Estela"><default>A lista... Eu e Kat estamos na mesma sala, mas você, Derik, tá em outra...</default></talk>
 	<talk character="Derik"><default>Não é possível!!!</default></talk>
@@ -228,7 +228,7 @@
 	<talk character="Bea"><default>Quê???</default></talk>
 	<talk character="Edmont"><default>Ah, desculpa, foi presente seu, né? Eu pego ela de volta depois.</default></talk>
 	<talk character="Bea"><default>Por que deu aquilo à Angely?!</default></talk>
-	<talk character="Edmont"><default>Não precisa ficar tão brava, já disse que vou pegar de volta.</default><irony>Só achei que ia ser bom ele levar, as pessoas não costumam respeitar muito um professor no primeiro dia. </irony></talk>
+	<talk character="Edmont"><default>Não precisa ficar tão brava, já disse que vou pegar de volta.</default><irony>Só achei que ia ser bom ele levar, as pessoas não costumam respeitar muito um professor no primeiro dia.</irony></talk>
 	<teller><default>Edmont se senta ao lado dela.</default></teller>
 	<talk character="Edmont"><default>Vou pegar o presente de volta.</default></talk>
 	<talk character="Bea"><default>Vai mesmo?</default></talk>
@@ -261,7 +261,7 @@
 	<talk character="Estela"><default>Não sabia?</default></talk>
 	<talk character="Ang"><default>Não.</default></talk>
 	<talk character="Estela"><default>Alan me disse que é assim.</default></talk>
-	<talk character="Ang"><irony>Bom, não vou contrariar um caça-vampiros da... Ops, acho que ele não é mais caça-vampiros! </irony></talk>
+	<talk character="Ang"><irony>Bom, não vou contrariar um caça-vampiros da... Ops, acho que ele não é mais caça-vampiros!</irony></talk>
 	<talk character="Estela"><default>Eu tenho coisas mais interessantes pra fazer do que ficar te escutando.</default></talk>
 	<talk character="Ang"><default>Duvido.</default></talk>
 	<talk character="Estela"><default>Por que não vai lustrar sua espada?</default></talk>
@@ -272,9 +272,9 @@
 	<talk character="Alan"><default>Não imagina quantos caçadores solitários tem no mundo.</default></talk>
 	<talk character="Clítia"><default>Eles já começaram assim, você não! Sempre foi acostumado à...</default></talk>
 	<talk character="Alan"><default>Tá achando que eu sou incapaz?!</default></talk>
-	<talk character="Clítia"><default>NÃO ERA ISSO QUE EU TAVA DIZENDO, NÃO DISTORÇA O QUE EU DIGO!!!</default></talk>
+	<talk character="Clítia"><screamed>Não era isso que eu tava dizendo, não distorça o que eu digo!!!</screamed></talk>
 	<teller><default>Alan sai. Ela vai até a janela – que fica à leste – e o vê saindo.</default></teller>
-	<talk character="Zenon *"><default>* Gostei da parte que gritou. Nunca te vi fingir tão bem.</default></talk>
+	<talk character="Zenon *"><arrive> Gostei da parte que gritou. Nunca te vi fingir tão bem.</arrive></talk>
 	<teller><default>Ela continua olhando, sem se virar pra trás.</default></teller>
 	<talk character="Clítia"><default>Talvez por que eu realmente tenha ficado com raiva.</default></talk>
 	<talk character="Zenon *"><default>Não vai me dizer que...</default></talk>
@@ -282,8 +282,8 @@
 	<talk character="Clítia"><default>É claro que não. Só que ele tá dando trabalho demais.</default></talk>
 	<talk character="Zenon *"><default>Tem certeza que não quer ajuda?</default></talk>
 	<talk character="Clítia"><default>Tenho. Vou fazer isso sozinha.</default></talk>
-	<talk character="Zenon *"><default>Já sei por que ficou com raiva, essa era a parte em que você ia dizer “Eu te amo, preciso te ajudar a ficar mais forte, você precisa de mais força”.</default></talk>
-	<talk character="Clítia"><irony>Claro, então ele ia me convidar pra fazermos um piquenique no parque, juraríamos amor eterno e viveríamos felizes para sempre. </irony></talk>
+	<talk character="Zenon *"><default>Já sei por que ficou com raiva, essa era a parte em que você ia dizer "Eu te amo, preciso te ajudar a ficar mais forte, você precisa de mais força".</default></talk>
+	<talk character="Clítia"><irony>Claro, então ele ia me convidar pra fazermos um piquenique no parque, juraríamos amor eterno e viveríamos felizes para sempre.</irony></talk>
 	<talk character="Zenon *"><default>Se continuar falando vai descobrir o que eu comi ontem.</default></talk>
 	<talk character="Clítia"><default>Pior eu, que nem peguei nada.</default></talk>
 	<talk character="Zenon *"><default>Nossa, tá realmente empenhada em convencê-lo, né?</default></talk>
@@ -393,7 +393,7 @@
 	<talk character="Zenon #"><default>Melhor eu ir atrás da Clítia.</default></talk>
 	<teller><default>Estela ainda tenta derrubar a porta. Desiste. Deita-se em sua cama. Derik e Kat vão à escola.</default></teller>
 	<talk character="Kat"><default>Por que não podemos entrar???</default></talk>
-	<talk><default>É contra o regulamento. (segurança)</default></talk>
+	<talk character="segurança"><default>É contra o regulamento.</default></talk>
 	<talk character="Derik"><default>E um professor entrar com uma espada não é?!</default></talk>
 	<talk character="Kat"><default>Vem Derik.</default></talk>
 	<talk character="Derik"><default>Vai desistir?!</default></talk>
@@ -426,7 +426,7 @@
 	<teller><default>Ela empurra-o.</default></teller>
 	<talk character="Clítia"><default>E não se esqueça que eu também tenho força.</default>
 	<teller>pega uma jaqueta</teller><default>Mais força do que você.</default></talk>
-	<teller><default>Clítia sai. Alan a segue. Ela chega à um bar.</default></teller>
+	<teller><default>Clítia sai. Alan a segue. Ela chega a um bar.</default></teller>
 	<talk character="Zenon *"><default>E aí, já conseguiu?</default></talk>
 	<talk character="Clítia"><default>Vai pro inferno.</default></talk>
 	<talk character="Zenon *"><default>É por que ele tá olhando?</default></talk>
@@ -434,7 +434,7 @@
 	<talk character="Zenon *"><default>Nossa, o que ele fez?</default></talk>
 	<talk character="Clítia"><default>Por que não vai caçar alguma virgenzinha e pára de me encher o saco?</default></talk>
 	<teller><default>Zenon se levanta e vai para outra mesa. Alan se senta ao lado dela.</default></teller>
-	<talk character="Clítia"><default>Por que não vai atrás dele? Acaba com a sua angústia de chegar perto da Melody.</default><irony>Ah, você não trouxe máquina fotográfica, né? </irony></talk>
+	<talk character="Clítia"><default>Por que não vai atrás dele? Acaba com a sua angústia de chegar perto da Melody.</default><irony>Ah, você não trouxe máquina fotográfica, né?</irony></talk>
 	<talk character="Alan"><default>E você, vai ficar fazendo o que aqui?</default></talk>
 	<talk character="Clítia"><default>Talvez enchendo a cara. Só não sei como vou pagar. Talvez o barman não ache que meu corpo é frio demais pra ele.</default></talk>
 	<teller><default>Clítia se levanta e sai. Zenon sai também, atrás dela. Alan segue os dois. Clítia entra no esgoto. Seguida pelos dois. Sai do esgoto. Continua andando. Então chega de novo ao apartamento. Zenon chega junto com ela. Ela encosta-se na janela. Zenon chega. Se aproxima. Ela o joga pela janela, acertando Alan. Então, entra o outro Zenon (da outra realidade). Clítia olha pela janela e não vê mais o primeiro.</default></teller>
@@ -453,12 +453,12 @@
 	<talk character="Mel"><default>Não voltou ainda.</default></talk>
 	<teller><default>Derik e Kat chegam.</default></teller>
 	<talk character="Mel"><default>Onde estiveram a noite toda?! Se responderem motel...</default></talk>
-	<talk character="Derik"><default>Chegamos à ir à uma motel sim, mas pra procurar o... Como eles chamam? Ah, “Olhos de Prata”!</default></talk>
+	<talk character="Derik"><default>Chegamos à ir a uma motel sim, mas pra procurar o... Como eles chamam? Ah, "Olhos de Prata"!</default></talk>
 	<talk character="Mel"><default>Que aconteceu???</default></talk>
 	<talk character="Kat"><default>Bom, Angely saiu dando patada. Então seguimos ele. Derik foi até a janela da sala e viu ele tirar a camisa.</default></talk>
 	<talk character="Mel"><default>Como???</default></talk>
 	<talk character="Derik"><default>Ah, ele tirou por cima.</default>
-	<teller>Kat encara-o</teller><default>É, acho que ele só tirou a camisa. Antes disso ele soltou um cínico “sou só eu ou tem mais alguém com calor aqui?”.</default></talk>
+	<teller>Kat encara-o</teller><default>É, acho que ele só tirou a camisa. Antes disso ele soltou um cínico "sou só eu ou tem mais alguém com calor aqui?".</default></talk>
 	<talk character="Mel"><default>Isso não é o Angely!</default></talk>
 	<talk character="Derik"><default>Ele ainda tava loiro...</default></talk>
 	<talk character="Mel"><default>Ainda?!</default></talk>
@@ -479,7 +479,7 @@
 	<talk character="Mel"><default>Isso dá pra perceber.</default></talk>
 	<talk character="Zenon"><default>Mas não é por problema de vista nem por não gostar da cor dos seus olhos.</default></talk>
 	<teller><default>Ela baixa a arma.</default></teller>
-	<talk character="Derik"><default>Se é o que veio com a gente, por que tá chamando o Angely de “seu amigo”?</default></talk>
+	<talk character="Derik"><default>Se é o que veio com a gente, por que tá chamando o Angely de "seu amigo"?</default></talk>
 	<talk character="Zenon"><default>Tô meio confuso... Acho que ela acertou minha cabeça...</default></talk>
 	<teller><default>Zenon fica zonzo. Depois de algum tempo, ele está no quarto. Mel está com ele.</default></teller>
 	<talk character="Mel"><default>Tem certeza que não quer nada?</default></talk>
@@ -531,7 +531,7 @@
 	<talk character="Edmont"><default>É desse tipo de coisa estranha que estou falando. Talvez eu contar te refresque a memória.</default></talk>
 	<talk character="Ang"><default>Tenho mais o que fazer.</default></talk>
 	<teller><default>Angely continua andando. Edmont o segue.</default></teller>
-	<talk character="Edmont"><default>Eu tava andando pela rua, olhando pra todo mundo. A rua só tinha prostíbulo. Comecei a perceber que ninguém mais me chamava a atenção. Nenhuma daquelas mulheres. Então achei que tava mesmo tão vidrado em Handhara que ninguém mais teria graça enquanto não tivesse ela. Passou até aquela besteirada de “almas gêmeas” pela minha cabeça. Mas logo achei que estava obcecado. Foi aí que Beatrice apareceu na minha frente. Olhei para os lados e percebi que tava num beco, só tínhamos eu e ela. Eu perguntei o que ela queria. Então ela mostrou os dentes. Apesar do tempo sem lutar, eu ainda tava bem treinado. Derrubei ela. Parei em cima dela. Ela, que expressão posso usar? Não estava mais com os dentes grandes, sabe, “baixou” eles. O corpo dela tava quente, ela tinha matado alguém há pouco tempo. Mas ela não estava ofegante. Eu estava. “Vai ser aqui?” foi a última frase que ela disse com sentido antes de me “matar”. Claro, ela fez mais algumas coisas, mas não acho que precise te contar. É dedutível.</default></talk>
+	<talk character="Edmont"><default>Eu tava andando pela rua, olhando pra todo mundo. A rua só tinha prostíbulo. Comecei a perceber que ninguém mais me chamava a atenção. Nenhuma daquelas mulheres. Então achei que tava mesmo tão vidrado em Handhara que ninguém mais teria graça enquanto não tivesse ela. Passou até aquela besteirada de "almas gêmeas" pela minha cabeça. Mas logo achei que estava obcecado. Foi aí que Beatrice apareceu na minha frente. Olhei para os lados e percebi que tava num beco, só tínhamos eu e ela. Eu perguntei o que ela queria. Então ela mostrou os dentes. Apesar do tempo sem lutar, eu ainda tava bem treinado. Derrubei ela. Parei em cima dela. Ela, que expressão posso usar? Não estava mais com os dentes grandes, sabe, "baixou" eles. O corpo dela tava quente, ela tinha matado alguém há pouco tempo. Mas ela não estava ofegante. Eu estava. "Vai ser aqui?" foi a última frase que ela disse com sentido antes de me "matar". Claro, ela fez mais algumas coisas, mas não acho que precise te contar. É dedutível.</default></talk>
 	<talk character="Ang"><default>‘Brigado pela aula.</default></talk>
 	<talk character="Edmont"><default>Não, quem vai dar aula agora é você. Vai dar aula o dia inteiro, chegar em casa e descobrir que terá que dar aula amanhã de novo. De novo e sempre. Sabe por que a parte do sempre? Somos atlantes. Não vamos envelhecer, não vamos morrer. É pra sempre. A menos que veja que tudo perdeu a graça ao seu redor.</default></talk>
 	<teller><default>Edmont se cobre com um capuz: o sol está nascendo. Edmont continua a andar, mas Angely pára. 7:10. Angely chega à escola. Vai à sala da diretora.</default></teller>
@@ -548,20 +548,20 @@
 	<talk character="Dínamis"><default>Outras, você quer dizer.</default></talk>
 	<talk character="Ang"><default>Pode ter algum gay dentro da sala.</default></talk>
 	<talk character="Dínamis"><default>Você está passando dos limites.</default></talk>
-	<talk character="Xisto"><default>* Ele e a filha dele.</default></talk>
+	<talk character="Xisto"><arrive> Ele e a filha dele.</arrive></talk>
 	<talk character="Dínamis"><default>Não te vi bater à porta.</default></talk>
 	<talk character="Xisto"><default>Também não vi ele fazer isso.</default></talk>
-	<talk character="Dínamis"><irony>Ah, que beleza, parece que vão abrir duas vagas no colégio! </irony></talk>
+	<talk character="Dínamis"><irony>Ah, que beleza, parece que vão abrir duas vagas no colégio!</irony></talk>
 	<talk character="Xisto"><default>Katerine trouxe uma cruz.</default></talk>
-	<talk character="Ang"><irony>Sinal que ela é religiosa. </irony></talk>
+	<talk character="Ang"><irony>Sinal que ela é religiosa.</irony></talk>
 	<talk character="Xisto"><default>Ocupa uma carteira inteira, será que dá pra alguém tomar um providência?</default></talk>
-	<talk character="Ang"><irony>Por que, você é ateu? </irony></talk>
+	<talk character="Ang"><irony>Por que, você é ateu?</irony></talk>
 	<talk character="Xisto"><default>Tá me provocando?</default></talk>
-	<talk character="Ang"><irony>Não, é só impressão sua. </irony></talk>
+	<talk character="Ang"><irony>Não, é só impressão sua.</irony></talk>
 	<teller><default>Xisto vai partir pra cima de Angely, mas Dínamis se coloca no meio.</default></teller>
 	<talk character="Dínamis"><default>Volta pra sala e manda a aluna vir aqui.</default></talk>
 	<teller><default>Ele sai da sala, com raiva.</default></teller>
-	<talk character="Ang"><irony>Não precisava, amor, eu sei me defender. </irony></talk>
+	<talk character="Ang"><irony>Não precisava, amor, eu sei me defender.</irony></talk>
 	<teller><default>Ela se vira para Angely.</default></teller>
 	<talk character="Dínamis"><default>E você...</default></talk>
 	<teller><default>Angely a encosta na parede e a beija. Puxa as pernas dela para volta de si. Nesse momento, Kat entra na sala. Tapa o rosto.</default></teller>
@@ -606,7 +606,7 @@
 	<teller><default>Na MEAK, Dínamis está conversando com Mel.</default></teller>
 	<talk character="Dínamis"><default>Por que não me contaram isso?</default></talk>
 	<talk character="Mel"><default>Bom, eu não podia adivinhar que Edmont ia jogar um feitiço nele. Acho que vou ter que falar com Edmont, ele passou dos limites dessa vez.</default></talk>
-	<talk character="Kat"><default>* Levaram Angely pro quarto?</default></talk>
+	<talk character="Kat"><arrive> Levaram Angely pro quarto?</arrive></talk>
 	<talk character="Mel"><default>Não, deixamos na sala...</default></talk>
 	<talk character="Kat"><default>Ah, não deixaram, não!</default></talk>
 	<teller><default>12:00. Angely chega à escola. Estão todos saindo. Três professores estão na sala de vídeo.</default></teller>
@@ -616,25 +616,25 @@
 	<talk character="Xisto"><default>Nem tudo que parece é.</default></talk>
 	<talk character="Diana"><default>Então acha que ele fingiu de bonzinho?</default></talk>
 	<talk character="Xisto"><default>Não duvido.</default></talk>
-	<talk character="Ang"><default>* Falando de mim?</default></talk>
+	<talk character="Ang"><arrive> Falando de mim?</arrive></talk>
 	<talk character="Lavine"><default>Não é sempre que um professor falta no segundo dia.</default></talk>
-	<talk character="Ang"><default>Eu vim. Mas me enrolei na diretoria.</default><irony>Nosso distinto professor de história não contou pra vocês? </irony></talk>
+	<talk character="Ang"><default>Eu vim. Mas me enrolei na diretoria.</default><irony>Nosso distinto professor de história não contou pra vocês?</irony></talk>
 	<talk character="Xisto"><default>Ele chegou atrasado e, aparentemente, sumiu depois.</default></talk>
 	<talk character="Ang"><default>Não, depois de chegar atrasado eu briguei com você, a diretora te pediu pra chamar a Kat, esta por sua vez me pegou numa situação complicada com a diretora e tive que fingir que desmaiei. Então me levaram pra casa e agora Melody deve estar chutando tudo por lá.</default></talk>
 	<teller><default>Xisto olha para a mão de Angely.</default></teller>
-	<talk character="Ang"><irony>Que foi? Algum problema com minha água? </irony></talk>
+	<talk character="Ang"><irony>Que foi? Algum problema com minha água?</irony></talk>
 	<teller><default>Natanael entra na sala de vídeo, junto com Alete (ajudante de Xisto), que trazia um computador de mão e um celular.</default></teller>
-	<talk character="Ang"><irony>Olha só, a festa tá completa! </irony></talk>
+	<talk character="Ang"><irony>Olha só, a festa tá completa!</irony></talk>
 	<talk character="Lavine"><default>Não, das pessoas que você enganou, falta a diretora.</default></talk>
 	<talk character="Ang"><default>Já disse, ela tá com a minha irmã.</default></talk>
 	<talk character="Xisto"><default>Sua irmã?</default></talk>
-	<talk character="Ang"><default>É, Melody. Nós terminamos porque descobrimos que éramos irmãos, não tem nada a ver com “só servimos de amigo um ao outro”.</default></talk>
+	<talk character="Ang"><default>É, Melody. Nós terminamos porque descobrimos que éramos irmãos, não tem nada a ver com "só servimos de amigo um ao outro".</default></talk>
 	<teller><default>Alete sai.</default></teller>
 	<talk character="Diana"><default>Tá mentindo...</default></talk>
 	<talk character="Ang"><default>Espantados? Tem coisas bem piores ocultas na minha vida.</default></talk>
 	<teller><default>Xisto vira para Lavine.</default></teller>
 	<talk character="Xisto"><default>Ainda acha que ele parece um anjo?</default></talk>
-	<talk character="Ang"><irony>Um anjo? Ah, obrigado... </irony><default>Mas o meu elogio pra você seria bem diferente disso...</default></talk>
+	<talk character="Ang"><irony>Um anjo? Ah, obrigado...</irony><default>Mas o meu elogio pra você seria bem diferente disso...</default></talk>
 	<teller><default>Natanael vai partir para cima dele, mas Xisto o segura.</default></teller>
 	<talk character="Ang"><default>Como você é comedido! Ou não?</default></talk>
 	<teller><default>Angely sai. Natanael faz menção de ir atrás de Angely, mas é segurado de novo.</default></teller>
@@ -642,11 +642,11 @@
 	<talk character="Diana"><default>Ei, eu sei me defender!</default></talk>
 	<talk character="Xisto"><default>Caso não lembre, devo ser mais forte que você.</default></talk>
 	<teller><default>Xisto sai. No pátio, Alete está escrevendo. Angely chega a pega o computador.</default></teller>
-	<talk character="Ang"><default>“Problemas na Escola, venha rápido”... É amiga do batman por acaso?</default></talk>
+	<talk character="Ang"><default>"Problemas na Escola, venha rápido"... É amiga do batman por acaso?</default></talk>
 	<teller><default>Alete se afasta de Angely. Xisto olha de longe, estão no sol.</default></teller>
 	<talk character="Ang"><default>Acho que não vai me responder... É muda, não é mesmo?</default></talk>
 	<teller><default>Ainda haviam muitos alunos no pátio. Eles vêem, mas ninguém tem coragem de se aproximar. A professora de Artes aparece. Pára perto de Xisto.</default></teller>
-	<talk character="Diana"><default>“Fica aqui com elas, eu vou lá”! Parece que vou ter que resolver isso, né?</default></talk>
+	<talk character="Diana"><default>"Fica aqui com elas, eu vou lá"! Parece que vou ter que resolver isso, né?</default></talk>
 	<teller><default>Ela vai até Angely e pega o computador.</default></teller>
 	<talk character="Ang"><default>Defendendo a garotinha? Cuidado, Xisto vai ficar com ciúmes... Aliás, falando nele, cadê?</default></talk>
 	<teller><default>Angely olha para Xisto.</default></teller>
@@ -658,15 +658,15 @@
 	<teller><default>Lavine chega. No mesmo instante, Angely joga Natanael no chão. Diana tenta atacá-lo, mas também se dá mal. Então ele vai até Lavine. Se agacha.</default></teller>
 	<talk character="Ang"><default>Também não vai tentar me bater?</default></talk>
 	<teller><default>Ela fica pálida. Ele sente algo estranho. Cai no colo dela.</default></teller>
-	<talk character="Mel"><default>* Bom, agora não é fingimento.</default></talk>
+	<talk character="Mel"><arrive> Bom, agora não é fingimento.</arrive></talk>
 	<teller><default>Mel tira um dardo tranqüilizante do pescoço dele. Tira ele do colo de Lavine.</default></teller>
 	<talk character="Mel"><default>Desculpe.</default></talk>
-	<talk character="Lavine"><default>“Desculpe”? Eu tenho que te agradecer.</default></talk>
+	<talk character="Lavine"><default>"Desculpe"? Eu tenho que te agradecer.</default></talk>
 	<talk character="Mel"><default>Não, ele é responsabilidade minha.</default></talk>
 	<teller><default>Dínamis olha para os alunos.</default></teller>
 	<talk character="Dínamis"><default>Que ainda estão fazendo aqui dentro?! Sabia que essa escola não ficava no lugar sem mim!!! Todo mundo pra casa, será que não têm o que fazer???</default></talk>
 	<teller><default>Todos começam a sair. Diana e Natanael se levantam e vão até as três.</default></teller>
-	<talk character="Mel"><default>Acho que devo desculpas à vocês pelo showzinho do meu...</default>
+	<talk character="Mel"><default>Acho que devo desculpas a vocês pelo showzinho do meu...</default>
 	<teller>Mel perceber que vai falar besteira e pára</teller><default>Ex. Nunca vou me acostumar a chamá-lo de Ex.</default></talk>
 	<talk character="Diana"><default>Nós já sabemos.</default></talk>
 	<talk character="Mel"><default>Sabem? Do que?</default></talk>
@@ -691,7 +691,7 @@
 	<talk character="Kat"><default>Isso é feitiçaria. No mínimo.</default></talk>
 	<talk character="Mel"><default>Então eu bato no Edmont até ele dizer como desfazer.</default></talk>
 	<talk character="Kat"><default>Em um segundo ele te derruba, você sabe disso!</default></talk>
-	<talk character="Mel"><default>E o que sugere?! Que eu telefone e diga “Oi, Edmont, como vai a vida, tem matado muito? Pois é, vim pedir pra tirar o feitiço do Angely, pode ser?”???</default></talk>
+	<talk character="Mel"><default>E o que sugere?! Que eu telefone e diga "Oi, Edmont, como vai a vida, tem matado muito? Pois é, vim pedir pra tirar o feitiço do Angely, pode ser?"???</default></talk>
 	<talk character="Kat"><default>Aí que tá, você não faz a menor idéia de onde ele esteja!</default></talk>
 	<talk character="Mel"><default>Eu descubro.</default></talk>
 	<talk character="Kat"><default>Claro, então vejamos por outro ângulo. Tem que ter alguém aqui para controlar o Angely.</default></talk>
@@ -701,7 +701,7 @@
 	<talk character="Mel"><default>Tudo bem. Mandaremos Derik procurar Edmont e eu irei conversar com ele.</default>
 	<teller>Kat encara-a</teller><default>Eu e Zenon. Deve ter algo que Edmont queira conosco.</default></talk>
 	<talk character="Kat"><default>Eu tenho outra idéia.</default></talk>
-	<teller><default>Tarde. Zenon (ZNN) está acorrentado à uma cadeira.</default></teller>
+	<teller><default>Tarde. Zenon (da primeira realidade) está acorrentado a uma cadeira.</default></teller>
 	<talk character="Zenon #"><default>Ele não vai enganar ela muito tempo.</default></talk>
 	<talk character="Clítia"><default>Não se considera esperto pra isso?</default></talk>
 	<talk character="Zenon #"><default>Ela é mais esperta que eu.</default></talk>
@@ -726,7 +726,7 @@
 	<talk character="Ang"><default>Ironizando?</default></talk>
 	<talk character="Estela"><default>Não, dizendo a verdade.</default></talk>
 	<talk character="Ang"><default>Isso até doeria. Mas, por outro lado, até que parece um elogio...</default></talk>
-	<talk character="Estela"><irony>Estou tão preocupada... </irony></talk>
+	<talk character="Estela"><irony>Estou tão preocupada...</irony></talk>
 	<talk character="Ang"><default>Que pena que me sedaram. Estava na parte mais legal... Será que Lavine sente alguma coisa, mesmo sendo paraplégica?</default></talk>
 	<talk character="Estela"><default>Não sei e não estou interessada.</default></talk>
 	<talk character="Ang"><default>Deve sentir, ninguém aceitaria casar com uma mulher que não sente nada.</default></talk>
@@ -744,7 +744,7 @@
 	<talk character="Ang"><default>É...</default></talk>
 	<talk character="Mel"><default>Então tenho um recado para ele.</default>
 	<teller>se senta ao lado de Ang</teller><default>Eu não matava ele porque não podia matar você. Se ele não desfizer isso, não vou ter mais motivos para me segurar.</default></talk>
-	<talk character="Ang"><irony>Tá se referindo à sua vingança pela criança que perdeu? Não precisa, você já botou a Kat no lugar... Ah, não, a Kat tá no lugar da outra criança! </irony></talk>
+	<talk character="Ang"><irony>Tá se referindo à sua vingança pela criança que perdeu? Não precisa, você já botou a Kat no lugar... Ah, não, a Kat tá no lugar da outra criança!</irony></talk>
 	<talk character="Kat"><default>Que outra criança?</default></talk>
 	<teller><default>Mel pega uma faca que Estela estava usando e sai.</default></teller>
 	<talk character="Estela"><default>Ei!</default></talk>
@@ -753,11 +753,11 @@
 	<talk character="Mel"><default>Diz mais alguma coisa e vai ficar irreconhecível.</default></talk>
 	<talk character="Kat"><default>Do que ele tava falando?</default></talk>
 	<talk character="Mel"><default>Fiquei grávida antes de Dancan.</default></talk>
-	<talk character="Ang"><irony>Quanta consideração, lavou a faca para eu não pegar tétano? </irony></talk>
+	<talk character="Ang"><irony>Quanta consideração, lavou a faca para eu não pegar tétano?</irony></talk>
 	<talk character="Kat"><default>Quando tava fugindo?</default></talk>
 	<talk character="Mel"><default>Depois eu te conto isso. Agora vou atrás do Edmont.</default></talk>
 	<talk character="Kat"><default>Derik ainda não chegou.</default></talk>
-	<talk character="Derik"><default>* Falando de mim?</default></talk>
+	<talk character="Derik"><arrive> Falando de mim?</arrive></talk>
 	<talk character="Mel"><default>Pronto, agora posso ir.</default></talk>
 	<talk character="Derik"><default>Na verdade foi outro vampiro conhecido nosso que encontrei.</default></talk>
 	<talk character="Kat"><default>Como assim?</default></talk>
@@ -782,13 +782,13 @@
 	<teller><default>Sem responder, Kat toma um comprimido, se deita num banco e, em poucos minutos, dorme. Estela se senta no chão, na frente dela. Acaba dormindo também. É acordada às 3:00 da manhã (05/03 – quarta), por Clítia. Se assusta.</default></teller>
 	<talk character="Clítia"><default>Parece que você está sozinha aqui.</default></talk>
 	<teller><default>Estela olha para tudo: deserto. Depois olha para Kat.</default></teller>
-	<talk character="Clítia"><irony>Ah, ela não conta, tá dormindo! </irony></talk>
+	<talk character="Clítia"><irony>Ah, ela não conta, tá dormindo!</irony></talk>
 	<talk character="Estela"><default>Eu sabia, você tava mentindo pro Alan...</default></talk>
 	<talk character="Clítia"><default>É, mas acho que não vai poder contar.</default>
 	<teller>passa a língua nos lábios</teller><default>Qual seu tipo sangüíneo?</default></talk>
 	<teller><default>Estela vai correr, mas Clítia se coloca à frente.</default></teller>
 	<talk character="Clítia"><default>Que isso, vai deixar sua amiga pra morrer sozinha?</default></talk>
-	<talk character="Zenon #"><default>* Por que não alguém do seu tamanho?</default></talk>
+	<talk character="Zenon #"><arrive> Por que não alguém do seu tamanho?</arrive></talk>
 	<teller><default>Clítia se vira para Zenon.</default></teller>
 	<talk character="Clítia"><default>Como vou explicar...? Você não tem calor suficiente pra mim.</default></talk>
 	<talk character="Zenon #"><default>Você também fica fria de vez em quando.</default></talk>
@@ -890,7 +890,7 @@
 	<teller><default>Angely dá um sorriso de malícia e vai subir, mas sente uma pequena tontura. Olha para Edmont de volta.</default></teller>
 	<talk character="Edmont"><default>Sinto muito, prefiro ser o único vilão por aqui. Tem mais graça.</default></talk>
 	<teller><default>Edmont sai da casa. Angely vai até o quarto de Beatrice.</default></teller>
-	<talk character="Bea"><default>Vocês acham que sou o que??? “Olha, eu enjoei, agora fica com o meu irmão um pouco enquanto vou atrás de alguém mais interessante”!!! Não sou um objeto pra ele me dar assim pra você!!!</default></talk>
+	<talk character="Bea"><default>Vocês acham que sou o que??? "Olha, eu enjoei, agora fica com o meu irmão um pouco enquanto vou atrás de alguém mais interessante"!!! Não sou um objeto pra ele me dar assim pra você!!!</default></talk>
 	<teller><default>Angely vai até ela e abraça.</default></teller>
 	<talk character="Ang"><default>Não fica assim... Ele não vai mais fazer isso com você. Nem ele, nem eu.</default></talk>
 	<teller><default>Ela fica meio que sem entender. O afasta e olha nos olhos dele.</default></teller>

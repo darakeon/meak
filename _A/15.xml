@@ -14,7 +14,7 @@
 	<talk character="Ky"><default>É, parece que ela dormiu.</default></talk>
 	<talk character="Brad"><default>Você só se livrou dessa por que é um ótimo advogado. Faça mais uma gracinha dessas e nada vai me impedir de ir atrás de você e te tirar o que julga mais precioso, entendeu?</default></talk>
 	<talk character="Ky"><default>Tudo bem.</default></talk>
-	<teller><default>Depois de ser deixado em casa, Ky faz uma faxina. No dia seguinte, chega uma carta pra ele comparecer à uma empresa de advocacia.</default></teller>
+	<teller><default>Depois de ser deixado em casa, Ky faz uma faxina. No dia seguinte, chega uma carta pra ele comparecer a uma empresa de advocacia.</default></teller>
 	<talk character="Lokslay"><default>Então, saiu da prisão à pouco tempo?</default></talk>
 	<talk character="Ky"><default>Sim, senhor, mas...</default></talk>
 	<talk character="Lokslay"><default>Podemos dar um jeito nisso. Ninguém descobrirá.</default></talk>
@@ -31,29 +31,29 @@
 	<talk character="Lokslay"><default>Leve o sr. Ky à sala de Rômulo. Diga que mandei levá-lo junto ao julgamento e depois ocupara o lugar da nossa recente... Demissão.</default></talk>
 	<teller><default>Ky se levanta, aperta a mão de Lokslay e vai à sala de Rômulo.</default></teller>
 	<talk character="Ky"><default>Com licença...</default></talk>
-	<talk><default>Mais um iniciante? (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Mais um iniciante?</default></talk>
 	<talk character="Ky"><default>Como sabe?</default></talk>
-	<talk><default>Ele sempre manda os iniciantes pra mim. Sente-se. (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Ele sempre manda os iniciantes pra mim. Sente-se.</default></talk>
 	<talk character="Ky"><default>Esse julgamento do qual ele falou...</default></talk>
 	<teller><default>Ky se senta.</default></teller>
-	<talk><default>Já está ganho. (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Já está ganho.</default></talk>
 	<talk character="Ky"><default>Como sabe?</default></talk>
-	<talk><default>Nesta empresa ninguém perde um caso. Se perder, não perde duas vezes. (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Nesta empresa ninguém perde um caso. Se perder, não perde duas vezes.</default></talk>
 	<talk character="Ky"><default>É, seu chefe disse que ia tomar o lugar de alguém que tinha sido demitido.</default></talk>
-	<talk><default>Que fez pra impressioná-lo? Soltou algum assassino? (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Que fez pra impressioná-lo? Soltou algum assassino?</default></talk>
 	<talk character="Ky"><default>Não, foi um caso de um homem que fugiu com uma menor.</default></talk>
-	<talk><default>Juízes de menores são os mais difíceis de se vencer. Bom, melhor irmos ou vou me atrasar. (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Juízes de menores são os mais difíceis de se vencer. Bom, melhor irmos ou vou me atrasar.</default></talk>
 	<teller><default>Eles vão até o tribunal. Ky fica assistindo.</default></teller>
 	<talk character="juiz"><default>Vamos dar continuidade ao julgamento. Defesa...</default></talk>
 	<talk character="advogado"><default>A acusação chama a testemunha Clarice Fernand.</default></talk>
-	<talk><hushed>Já ganhamos. (Rômulo)</hushed></talk>
+	<talk character="Rômulo"><hushed>Já ganhamos.</hushed></talk>
 	<teller><default>Clarice entra no tribunal. Ky, que estava perceptivelmente entediado, a olha de cima a baixo. Ela está com uma bolsa de mão e luvas. Rômulo estranha. Ela vai à seu lugar.</default></teller>
 	<talk character="policial"><default>Jura...</default></talk>
 	<talk character="Clarice"><default>Só um instantinho.</default></talk>
 	<teller><default>Ela levanta e vai até Rômulo.</default></teller>
 	<talk character="Clarice"><default>Olha, não queria ofender, mas devia ter pensado um pouco antes de fazer isso.</default>
 	<teller>ela coloca a bolsa sobre a mesa</teller><default>Ninguém me compra.</default></talk>
-	<talk><default>Meritíssimo, ela está... (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Meritíssimo, ela está...</default></talk>
 	<talk character="Clarice"><default>Ah, não quer de volta? Tudo bem.</default></talk>
 	<teller><default>Clarice leva a bolsa ao juiz.</default></teller>
 	<talk character="Clarice"><default>Eu tive o cuidado de não deixar minhas impressões digitais. Depois pode mandar pra um laboratório e ver que esteve nas mãos do advogado ali.</default></talk>
@@ -66,7 +66,7 @@
 	<teller><default>Ky sai atrás de Clarice.</default></teller>
 	<talk character="Clarice"><default>Olha, eu não vou sair com você.</default></talk>
 	<talk character="Ky"><default>E quem te disse que é isso que eu quero?</default></talk>
-	<talk character="Clarice"><default>Por favor, eu percebo quando estou sendo olhada.</default><irony>Ainda mais quando é alguém tão discreto! </irony></talk>
+	<talk character="Clarice"><default>Por favor, eu percebo quando estou sendo olhada.</default><irony>Ainda mais quando é alguém tão discreto!</irony></talk>
 	<talk character="Ky"><default>Mas não é por isso que vim atrás de você.</default></talk>
 	<talk character="Clarice"><default>Seja o que for, eu tenho que ir. Não terminei de arrumar minha mudança ainda.</default></talk>
 	<talk character="Ky"><default>Mudança???</default></talk>
@@ -82,7 +82,7 @@
 	<talk character="Ky"><default>Júnior?!</default></talk>
 	<talk character="Clarice"><default>Sabe muito bem de quem estou falando. Não tem cara de assassino, sabia?</default></talk>
 	<talk character="Ky"><default>Talvez por que eu não seja um!</default></talk>
-	<talk character="Clarice"><default>Então está devendo algo à eles?</default></talk>
+	<talk character="Clarice"><default>Então está devendo algo a eles?</default></talk>
 	<talk character="Ky"><default>Sou advogado... Pode largar essa faca?</default></talk>
 	<talk character="Clarice"><default>Eles não mandam advogados pra fazer o serviço...</default></talk>
 	<teller><default>Ele tira a faca da mão dela e a encosta na parede, com a faca no pescoço.</default></teller>
@@ -134,7 +134,7 @@
 	<talk character="Mel"><default>Pra nossa casa, é claro.</default></talk>
 	<talk character="Clarice"><default>Não conheço você?</default></talk>
 	<talk character="Kat"><default>Vamos logo, antes que descubram que está viva.</default></talk>
-	<teller><default>Os cinco entram no carro. Chegam à uma casa.</default></teller>
+	<teller><default>Os cinco entram no carro. Chegam a uma casa.</default></teller>
 	<talk character="Ky"><default>Essa não é a casa de vocês.</default></talk>
 	<talk character="Mel"><default>É, desde que a nossa explodiu.</default></talk>
 	<talk character="Angely"><default>Mel... Onde foram? Liguei pra casa da Kat o dia inteiro...</default></talk>
@@ -219,15 +219,15 @@
 	<talk character="Angely"><default>Podíamos fazer uma troca.</default></talk>
 	<talk character="Ky"><default>Trocar o que?</default></talk>
 	<talk character="Angely"><default>Sei lá, algo que eles queiram mais.</default></talk>
-	<teller><default>Em um porto, Rômulo está amarrado à uma cadeira perto do mar.</default></teller>
+	<teller><default>Em um porto, Rômulo está amarrado a uma cadeira perto do mar.</default></teller>
 	<talk character="Lokslay"><default>Acho que me decepcionou.</default></talk>
-	<talk><default>Não sabia que ela faria isso! (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Não sabia que ela faria isso!</default></talk>
 	<talk character="Lokslay"><default>Nós temos uma política na empresa...</default></talk>
-	<talk><default>Sou seu filho! (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Sou seu filho!</default></talk>
 	<talk character="Lokslay"><default>Não misturo negócios com família.</default></talk>
-	<talk><default>Não pode fazer isso comigo! (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Não pode fazer isso comigo!</default></talk>
 	<talk character="Lokslay"><default>Seu pai vai lamentar sua morte. Mas o dono da empresa não pode deixar isso impune. Vou te dar um último pedido, como gratificação por ter nos servido por sete anos.</default></talk>
-	<talk><default>Deixe minha filha viva... (Rômulo)</default></talk>
+	<talk character="Rômulo"><default>Deixe minha filha viva...</default></talk>
 	<talk character="Lokslay"><default>Pode ser. Mas infelizmente a sua mulher sabe demais.</default></talk>
 	<teller><default>Lokslay chuta a cadeira, que cai no mar. Vai à empresa.</default></teller>
 	<talk character="Lokslay"><default>Bom, parece que temos duas vagas aqui.</default></talk>
@@ -298,7 +298,7 @@
 	<teller>desligam do outro lado</teller><default>Que falta de educação!</default></talk>
 	<talk character="Mel"><default>Da empresa?</default></talk>
 	<talk character="Ky"><default>Mais ou menos.</default></talk>
-	<talk character="Mel"><default>“Mais ou menos”? A pessoa estava com um pé dentro do prédio e outro fora?</default></talk>
+	<talk character="Mel"><default>"Mais ou menos"? A pessoa estava com um pé dentro do prédio e outro fora?</default></talk>
 	<talk character="Ky"><default>Ele pertence à empresa, diz que está querendo falar comigo, que estou correndo perigo.</default></talk>
 	<talk character="Mel"><default>E precisava dizer? Peraí, você não vai, vai?</default></talk>
 	<talk character="Ky"><default>Qual o problema?</default></talk>
@@ -334,7 +334,7 @@
 	<teller><default>Mel chega à cozinha.</default></teller>
 	<talk character="Mel"><default>Por que estão brigando?</default></talk>
 	<talk character="Ky"><default>Não estamos brigando.</default></talk>
-	<talk character="Mel"><irony>Não, talvez disputando quem grita mais alto. </irony></talk>
+	<talk character="Mel"><irony>Não, talvez disputando quem grita mais alto.</irony></talk>
 	<talk character="Ky"><default>Desculpe, sei que não estou na minha casa...</default></talk>
 	<talk character="Clarice"><default>Sabe, é? Não parece, fica agarrando qualquer uma no meio da sala!</default></talk>
 	<talk character="Mel"><default>Então é isso? Está com ciúmes dele?</default></talk>
@@ -387,7 +387,8 @@
 	<talk character="Mel"><default>Estão agindo como crianças!</default></talk>
 	<talk character="Clarice"><default>Ele é que...</default></talk>
 	<talk character="Mel"><default>Olha, eu vou lá na empresa, ver se consigo descobrir algo. Quando eu voltar, espero que isso esteja resolvido. Entenderam?</default>
-	<teller>silêncio</teller><default>ENTENDERAM?</default></talk>
+	<teller>silêncio</teller><screamed>Entenderam?</screamed>
+</talk>
 	<talk character="Ky"><default>Sim.</default></talk>
 	<talk character="Clarice"><default>Tá.</default></talk>
 	<teller><default>Mel sai. Na casa de Psique, ela está em sua cama.</default></teller>
@@ -435,7 +436,7 @@
 	<talk character="Clarice"><default>Ah??? Não matamos ninguém!!!</default></talk>
 	<talk character="Mel"><default>Não é o que diz a polícia.</default></talk>
 	<talk character="Ky"><default>Falou que estávamos aqui???</default></talk>
-	<talk character="Mel"><irony>Não tá vendo o policial atrás de mim? </irony></talk>
+	<talk character="Mel"><irony>Não tá vendo o policial atrás de mim?</irony></talk>
 	<talk character="Clarice"><default>Temos que sair do país!</default></talk>
 	<talk character="Ky"><default>Você realmente não gosta daqui, né?</default></talk>
 	<talk character="Mel"><default>Não, ele nunca vai achar que estão aqui.</default></talk>
@@ -565,7 +566,7 @@
 	<talk character="Ky"><default>Outra quem???</default></talk>
 	<teller><default>Ela o encara. Ky baixa a cabeça.</default></teller>
 	<talk character="Ky"><default>Ela não gosta de mim.</default></talk>
-	<talk character="Mel"><irony>Claro, quem sabe ela não aprontou aquele escândalo por que tava afim da Denise? </irony></talk>
+	<talk character="Mel"><irony>Claro, quem sabe ela não aprontou aquele escândalo por que tava afim da Denise?</irony></talk>
 	<talk character="Ky"><default>Acha que ela é lésbica???</default></talk>
 	<teller><default>Mel suspira fundo e sai.</default></teller>
 	<talk character="Ky"><default>Que foi?</default></talk>
@@ -645,7 +646,7 @@
 	<talk character="Beatrice"><default>Não acredita tanto que ele não vai ceder?</default></talk>
 	<talk character="Edmont"><default>Aceito.</default></talk>
 	<teller><default>Ela ri. Ele vai até ela e a beija.</default></teller>
-	<talk character="Edmont"><thought>Eu nunca fui humano, mesmo...)</thought></talk>
+	<talk character="Edmont"><thought>Eu nunca fui humano, mesmo...</thought></talk>
 	<teller><default>Tarde. Angely chega em casa. Encontra Ky com Clarice na cozinha. Se vira de costas.</default></teller>
 	<talk character="Angely"><default>Têm certeza que vão fazer isso aqui?</default></talk>
 	<teller><default>Os dois se afastam. Ky não sabe onde esconder a cara e Clarice fica vermelha.</default></teller>
@@ -678,7 +679,7 @@
 	<talk character="Angely"><default>Olha, não tem nada aqui que...</default></talk>
 	<talk character="Derik"><default>Não é isso. É sobre a Kat. Ela tá muito estranha.</default></talk>
 	<talk character="Angely"><default>Como estranha?</default></talk>
-	<talk character="Derik"><default>Acho que a companhia da Agatha não tá fazendo muito bem à ela.</default></talk>
+	<talk character="Derik"><default>Acho que a companhia da Agatha não tá fazendo muito bem a ela.</default></talk>
 	<talk character="Angely"><default>Acha que ela tá traindo você?</default></talk>
 	<talk character="Derik"><default>Não... Por que, você acha???</default></talk>
 	<talk character="Angely"><default>Não acho que seria do feitio dela.</default></talk>
@@ -691,7 +692,7 @@
 	<talk character="Derik"><default>Mas ela tem quatorze anos!</default></talk>
 	<talk character="Angely"><default>Ah, está falando dormir de...</default></talk>
 	<teller><default>Derik encara Angely.</default></teller>
-	<talk character="Angely"><default>Talvez ela devesse ir à um médico.</default></talk>
+	<talk character="Angely"><default>Talvez ela devesse ir a um médico.</default></talk>
 	<talk character="Derik"><default>Claro! Vai lá falar isso pra ela!</default></talk>
 	<talk character="Angely"><default>Nós vamos.</default></talk>
 	<talk character="Derik"><default>Que???</default></talk>
@@ -759,7 +760,7 @@
 	<talk character="Derik"><default>É muito perto.</default></talk>
 	<talk character="Angely"><default>Então como explica o comportamento dela?</default></talk>
 	<talk character="Agatha"><default>Simples: está com medo de perder Derik.</default></talk>
-	<talk character="Derik"><default>Acho que... AH???</default></talk>
+	<talk character="Derik"><default>Acho que... Ah???</default></talk>
 	<talk character="Agatha"><default>Isso mesmo que ouviu.</default></talk>
 	<talk character="Angely"><default>Então acho melhor você conversar com ela sozinho e eu ir pra casa.</default></talk>
 	<talk character="Agatha"><default>Gosto da primeira idéia, mas não da segunda!</default></talk>
@@ -792,7 +793,7 @@
 	<talk character="Angely"><default>Se não foi tão difícil, creio que não fizeram muito exercício. Logo não sentiram tanto calor pra estarem assim...</default></talk>
 	<teller><default>Clarice abotoa a blusa e fica vermelha. Ky coloca a camisa.</default></teller>
 	<talk character="Angely"><default>Ainda lembram onde é o quarto, né?</default></talk>
-	<talk><default>Sim. (Ky/Clarice)</default></talk>
+	<talk character="Ky/Clarice"><default>Sim.</default></talk>
 	<teller><default>Na casa de Brad, este acaba de chegar.</default></teller>
 	<talk character="Talita"><default>Você saiu de casa anteontem, quer me matar de preocupação???</default></talk>
 	<talk character="Brad"><default>Eu não disse que aquele cara não prestava??? Olha aqui...</default></talk>
@@ -831,7 +832,7 @@
 	<talk character="Angely"><default>Pra que?</default></talk>
 	<talk character="Edmont"><default>Tem alguma coisa errada...</default></talk>
 	<talk character="Angely"><default>Isso eu já notei e disse.</default></talk>
-	<talk character="Edmont"><default>Não estou falando de eu ter “morrido”.</default></talk>
+	<talk character="Edmont"><default>Não estou falando de eu ter "morrido".</default></talk>
 	<talk character="Angely"><default>Que mais poderia ser?</default></talk>
 	<teller><default>Kat está assistindo um filme com Derik quando o telefone toca.</default></teller>
 	<talk character="Kat"><default>Alô?</default></talk>
@@ -851,7 +852,7 @@
 	<talk character="Kat"><default>Me abraça.</default></talk>
 	<teller><default>Derik abraça Kat, sem entender. Mel e Dara vão. Na manhã seguinte, quando Lokslay chega em seu escritório, Mel está sentada em sua cadeira.</default></teller>
 	<talk character="Mel"><default>Acho que já leu o jornal.</default></talk>
-	<teller><default>Mel joga sobre a mesa um jornal que contém três fotos: Ky, Clarice e um incêndio. Um título irônico: “RUA SEM SAÍDA”. Era uma reportagem sobre uma fuga com um final trágico. Do outro lado da cidade, Angely pega o jornal com a notícia. Se assusta. Vai pra casa.</default></teller>
+	<teller><default>Mel joga sobre a mesa um jornal que contém três fotos: Ky, Clarice e um incêndio. Um título irônico: "Rua sem saída". Era uma reportagem sobre uma fuga com um final trágico. Do outro lado da cidade, Angely pega o jornal com a notícia. Vai pra casa.</default></teller>
 	<talk character="Angely"><default>Mel!!!</default></talk>
 	<talk character="Edmont"><default>Ela não está.</default></talk>
 	<talk character="Angely"><default>Foi você quem fez isso...</default></talk>
@@ -862,7 +863,7 @@
 	<talk character="Edmont"><default>Ela está nisso. Aliás, não só Kat como Handhara também.</default></talk>
 	<talk character="Angely"><default>Está mentindo... Só pode estar...</default></talk>
 	<talk character="Edmont"><default>Não é tão ruim assim, Angely.</default></talk>
-	<talk character="Angely"><default>“Não é tão ruim”??? Achei que você ainda tinha recuperação...</default></talk>
+	<talk character="Angely"><default>"Não é tão ruim"??? Achei que você ainda tinha recuperação...</default></talk>
 	<talk character="Edmont"><default>Ei, ei, ei...</default></talk>
 	<talk character="Angely"><default>E agora arrastou elas junto... Isso só pode ser um pesadelo!</default></talk>
 	<talk character="Edmont"><default>Não se aflija tanto. Que tal assistirmos um pouco de TV?</default></talk>
@@ -882,10 +883,10 @@
 	<talk character="Mel"><default>Detesto eufemismos. Por que não fala matar?</default></talk>
 	<talk character="Lokslay"><default>Matar é um termo muito forte.</default></talk>
 	<talk character="Mel"><default>Termos fracos são para os fracos.</default></talk>
-	<talk character="Lokslay"><default>Tudo bem. Que tal assim: “Eu matei meu filho, eu matei Rômulo Lokslay Júnior”?</default></talk>
+	<talk character="Lokslay"><default>Tudo bem. Que tal assim: "Eu matei meu filho, eu matei Rômulo Lokslay Júnior"?</default></talk>
 	<talk character="Mel"><default>Como se isso fosse grande coisa perto da sujeira de tudo isso aqui...</default></talk>
 	<talk character="Lokslay"><default>Me admira saber de tanto.</default></talk>
-	<talk character="Mel"><default>Prometi a Clarice que não a mataria se me contasse tudo. Ela tinha guardado os arquivos do pai dela... Aliás, deveria cobrar algo a mais por eles.</default></talk>
+	<talk character="Mel"><default>Prometi a Clarice que não a mataria se me contasse tudo. Ela tinha guardado os arquivos do pai dela. Aliás, deveria cobrar algo a mais por eles.</default></talk>
 	<teller><default>Carl invade a sala.</default></teller>
 	<talk character="Carl"><default>Senhor...</default></talk>
 	<talk character="Lokslay"><default>Estou ocupado.</default></talk>

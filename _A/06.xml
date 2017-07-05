@@ -19,39 +19,39 @@
 	<talk character="Edmont"><default>Tá.</default></talk>
 	<teller><default>Edmont desliga o telefone. Eles procuram em todos os lugares. Se encontram de tarde e combinam onde cada um vai procurar. Enquanto isso, Elian vai à casa do médico que fizera o parto de Lara.</default></teller>
 	<talk character="Elian"><default>Fizeste o que te disse?</default></talk>
-	<talk><default>Por que não pede pra entrar? (médico)</default></talk>
+	<talk character="médico"><default>Por que não pede pra entrar?</default></talk>
 	<talk character="Elian"><default>Já pedi uma vez.</default></talk>
-	<talk><default>Disse tudo que combinamos. Agora falta você pagar. (médico)</default></talk>
+	<talk character="médico"><default>Disse tudo que combinamos. Agora falta você pagar.</default></talk>
 	<talk character="Elian"><default>Claro.</default></talk>
 	<teller><default>Elian o mata. A filha chega e vê o corpo do pai no chão.</default></teller>
-	<talk><default>Que fez com ele? (Inês)</default></talk>
+	<talk character="Inês"><default>Que fez com ele?</default></talk>
 	<talk character="Elian"><default>Está morto, não vês?</default></talk>
 	<teller><default>Ele chuta o corpo.</default></teller>
-	<talk><default>Estou perguntando como matou ele. Não estou vendo cortes, e, pela cor da pele, está sem sangue. (Inês)</default></talk>
+	<talk character="Inês"><default>Estou perguntando como matou ele. Não estou vendo cortes, e, pela cor da pele, está sem sangue.</default></talk>
 	<talk character="Elian"><default>Também vais ser médica?</default></talk>
-	<talk><default>Minha pior nota é em biologia. Mas isso até um analfabeto vê. (Inês)</default></talk>
+	<talk character="Inês"><default>Minha pior nota é em biologia. Mas isso até um analfabeto vê.</default></talk>
 	<talk character="Elian"><default>Não pareces tão nervosa quanto deverias...</default></talk>
-	<talk><default>Tem alguma coisa estranha com você. (Inês)</default></talk>
+	<talk character="Inês"><default>Tem alguma coisa estranha com você.</default></talk>
 	<talk character="Elian"><default>De mim não sei, mas tu tens algo estranho.</default></talk>
-	<talk><default>Eu? (Inês)</default></talk>
+	<talk character="Inês"><default>Eu?</default></talk>
 	<talk character="Elian"><default>É...</default>
 	<teller>ele se aproxima</teller><default>Teu perfume é diferente do de garotas comuns.</default></talk>
-	<talk><default>Não uso perfume. (Inês)</default></talk>
+	<talk character="Inês"><default>Não uso perfume.</default></talk>
 	<talk character="Elian"><default>Teu perfume natural, teu cheiro...</default></talk>
 	<teller><default>Inês olha pra trás dele.</default></teller>
-	<talk><default>Você é bruxo? (Inês)</default></talk>
+	<talk character="Inês"><default>Você é bruxo?</default></talk>
 	<talk character="Elian"><default>Não...</default></talk>
-	<talk><default>Então o que fez com aquele espelho? (Inês)</default></talk>
+	<talk character="Inês"><default>Então o que fez com aquele espelho?</default></talk>
 	<talk character="Elian"><default>Sou um vampiro.</default></talk>
-	<talk><default>Isso não existe. (Inês)</default></talk>
+	<talk character="Inês"><default>Isso não existe.</default></talk>
 	<teller><default>Elian mostra seus dentes. Ela tenta encostar nos dentes dele, mas ele segura as mãos dela e a encosta na parede. Ela olha nos olhos dele e o beija. Quando ele acorda, é noite. Está abraçado à Inês, que dorme.</default></teller>
 	<talk character="Elian"><default>Que aconteceu?</default></talk>
 	<teller><default>Inês acorda.</default></teller>
-	<talk><default>Ainda está aqui... (Inês)</default></talk>
+	<talk character="Inês"><default>Ainda está aqui...</default></talk>
 	<talk character="Elian"><default>Por que não estaria?</default></talk>
-	<talk><default>Da última vez acordei sozinha. (Inês)</default></talk>
+	<talk character="Inês"><default>Da última vez acordei sozinha.</default></talk>
 	<talk character="Elian"><default>Eu preciso ir.</default></talk>
-	<talk><default>Não, por favor! (Inês)</default></talk>
+	<talk character="Inês"><default>Não, por favor!</default></talk>
 	<teller><default>Elian sai confuso da casa de Inês. Edmont está andando pela cidade, ouve um barulho e vai ver o que é. É Beatrice. O barulho que ele ouvira fora o de um corpo caindo.</default></teller>
 	<talk character="Edmont"><default>Quanto tempo, hein?</default></talk>
 	<talk character="Beatrice"><default>Continuas a cara de teu irmão.</default></talk>
@@ -115,7 +115,7 @@
 	<talk character="Mel"><default>É, é provável. Espero que saibam o que estão fazendo.</default></talk>
 	<talk character="Angely"><default>É nossa única chance.</default></talk>
 	<talk character="Mel"><default>Onde vocês estão indo?</default></talk>
-	<teller><default>Angely fala o endereço à Mel. Depois desliga. Eles (Edmont, Angely e Beatrice) chegam num armazém abandonado, afastado do centro. Sobem à uma sala.</default></teller>
+	<teller><default>Angely fala o endereço à Mel. Depois desliga. Eles (Edmont, Angely e Beatrice) chegam num armazém abandonado, afastado do centro. Sobem a uma sala.</default></teller>
 	<talk character="Edmont"><default>Chame ele.</default></talk>
 	<talk character="Beatrice"><default>Elian!!!</default></talk>
 	<talk character="Angely"><default>Estamos com ela, é melhor aparecer!!!</default></talk>
@@ -155,9 +155,11 @@
 	<talk character="Mel"><default>Não podia dizer que ela estava comigo, suas namoradas já encrencam comigo de graça!!!</default></talk>
 	<talk character="Edmont"><default>Estamos ferrados.</default></talk>
 	<talk character="Angely"><default>Eu vou dormir.</default></talk>
-	<teller><default>Elian volta ao hotel. De manhã, acorda e não encontra Beatrice. Na cabeceira da cama, um bilhete:</default></teller>
-	<talk><default>Não é a mim que queres. Fique com ela.
-	Não... Por favor... Não podes ter feito isso... (Elian)</default></talk>
+	<teller>
+<default>Elian volta ao hotel. De manhã, acorda e não encontra Beatrice. Na cabeceira da cama, um bilhete:</default>
+<letter>Não é a mim que queres. Fique com ela.</letter>
+</teller>
+	<talk character="Elian"><default>Não... Por favor... Não podes ter feito isso... (Elian)</default></talk>
 	<teller><default>Ele atira um vaso no espelho. As garotas vão até a casa de Angely e Edmont, que ainda estão dormindo. Mel vai atender a porta.</default></teller>
 	<talk character="Meg"><default>Eles já acordaram?</default></talk>
 	<talk character="Mel"><default>Conhecem a casa.</default></talk>
@@ -182,7 +184,7 @@
 	<talk character="Agatha"><default>Fale.</default></talk>
 	<talk character="Edmont"><default>Kat foi seqüestrada.</default></talk>
 	<talk character="Agatha"><default>Eu não acredito que está fazendo isso...</default></talk>
-	<talk character="Edmont"><default>Pergunte à ela, então.</default></talk>
+	<talk character="Edmont"><default>Pergunte a ela, então.</default></talk>
 	<talk character="Agatha"><default>Posso mesmo?</default></talk>
 	<talk character="Edmont"><default>Por que acha que Mel te telefonou, perguntando se ela estava lá?</default></talk>
 	<talk character="Agatha"><default>Então você estava com ela???</default></talk>
@@ -235,11 +237,11 @@
 	<talk character="Edmont"><default>Vocês brigaram?</default></talk>
 	<talk character="Mel"><default>Ela não acreditou?</default></talk>
 	<talk character="Angely"><default>Acha que eu não confio nela. Disse que estou escondendo mais coisas...</default></talk>
-	<talk character="Edmont"><default>Talvez devesse contar à ela.</default></talk>
+	<talk character="Edmont"><default>Talvez devesse contar a ela.</default></talk>
 	<talk character="Angely"><default>E acha mesmo que iria ficar menos brava? Ela nunca iria me perdoar.</default></talk>
 	<talk character="Mel"><default>Pelo menos saberia a verdade.</default></talk>
 	<talk character="Angely"><default>Mas isso poderia ferrar vocês.</default></talk>
-	<talk character="Edmont"><default>Pode falar à ela apenas que somos caça-vampiros.</default></talk>
+	<talk character="Edmont"><default>Pode falar a ela apenas que somos caça-vampiros.</default></talk>
 	<talk character="Angely"><default>Quando matarmos Elian, eu falo.</default></talk>
 	<talk character="Mel"><default>Por mim vocês podem contar pra elas. Só não sei o que elas vão fazer.</default></talk>
 	<talk character="Jak"><default>3a lição: isto tudo tem que ficar só entre vocês.</default></talk>
@@ -260,7 +262,7 @@
 	<talk character="Elian"><default>Atire. Podes atirar.</default></talk>
 	<talk character="Mel"><default>Não vai me enganar.</default></talk>
 	<talk character="Elian"><default>Eu lembro de ti. Estavas a fugir da polícia.</default></talk>
-	<talk character="Mel"><default>Pedi ajuda à você por que eu não sabia o que você era.</default></talk>
+	<talk character="Mel"><default>Pedi ajuda a você por que eu não sabia o que você era.</default></talk>
 	<talk character="Elian"><default>Ironia. Agora estás a caçar-me.</default></talk>
 	<talk character="Mel"><default>Em comparação ao mal que você fez, me ajudar não foi nada.</default></talk>
 	<talk character="Elian"><default>Incrível. Proteges vidas humanas e consideras à tua própria como nada.</default></talk>
@@ -290,19 +292,19 @@
 	<talk character="Mel"><default>Me solta, por favor.</default></talk>
 	<talk character="Elian"><default>Como naquela noite...</default></talk>
 	<teller><default>Ele a beija. Enquanto isso, Angely está em casa. Edmont volta.</default></teller>
-	<talk character="Edmont"><default>Angely, tem certeza que não quer ir lá e contar à elas? Podemos ir.</default></talk>
+	<talk character="Edmont"><default>Angely, tem certeza que não quer ir lá e contar a elas? Podemos ir.</default></talk>
 	<talk character="Angely"><default>Você está bem com a Agatha. Poderia destruir isso.</default></talk>
 	<talk character="Edmont"><default>Também não agüento mentir.</default></talk>
 	<talk character="Angely"><default>E vamos dizer o que?</default></talk>
 	<talk character="Edmont"><default>Que tal assim...</default></talk>
 	<teller><default>Angely nota Agatha na porta e tenta chamar a atenção de Edmont, mas ele não pára de falar.</default></teller>
-	<talk character="Edmont"><default>“Olha, nós somos ets que viemos pra Terra depois de uma briga... Uma briga não, uma luta entre nós dois, que era pra ter sido até a morte e era também pra ter decidido quem seria o novo príncipe. Ah, esqueci, somos filhos do rei de Saturno... Quer dizer, de um satélite de Saturno.”</default></talk>
+	<talk character="Edmont"><default>"Olha, nós somos ets que viemos pra Terra depois de uma briga... Uma briga não, uma luta entre nós dois, que era pra ter sido até a morte e era também pra ter decidido quem seria o novo príncipe. Ah, esqueci, somos filhos do rei de Saturno... Quer dizer, de um satélite de Saturno."</default></talk>
 	<talk character="Angely"><default>Edmont...</default></talk>
-	<talk character="Edmont"><default>Peraí, deixa eu continuar. “O príncipe seria o primogênito, mas somos gêmeos... Do que eu tava falando mesmo? Ah, claro, nós viemos pra Terra, fomos adotados pelo sr Júlio, mas nem ele nem vocês lembram, por que suas memórias foram apagadas, depois de termos voltado do Egito, de uma aventura com múmias. Ah, mais umas coisinhas: você, Meg, é adotada. A Kat na verdade é filha do irmão do Rith com a nossa mãe, portanto, nossa meia irmã, e não sua irmã.”</default></talk>
+	<talk character="Edmont"><default>Peraí, deixa eu continuar. "O príncipe seria o primogênito, mas somos gêmeos... Do que eu tava falando mesmo? Ah, claro, nós viemos pra Terra, fomos adotados pelo sr Júlio, mas nem ele nem vocês lembram, por que suas memórias foram apagadas, depois de termos voltado do Egito, de uma aventura com múmias. Ah, mais umas coisinhas: você, Meg, é adotada. A Kat na verdade é filha do irmão do Rith com a nossa mãe, portanto, nossa meia irmã, e não sua irmã."</default></talk>
 	<talk character="Angely"><default>Edmont...</default></talk>
-	<talk character="Edmont"><default>Eu não terminei ainda. “Sabe a Mel? Ela também veio do satélite de Saturno, mas ela veio de lá por que ele ia explodir. Mas não precisa se preocupar, não somos totalmente ets, por que nossa mãe era de Terra, mesmo tendo se tornado parte saturniana quando se casou com nosso pai.”</default></talk>
+	<talk character="Edmont"><default>Eu não terminei ainda. "Sabe a Mel? Ela também veio do satélite de Saturno, mas ela veio de lá por que ele ia explodir. Mas não precisa se preocupar, não somos totalmente ets, por que nossa mãe era de Terra, mesmo tendo se tornado parte saturniana quando se casou com nosso pai."</default></talk>
 	<talk character="Angely"><default>Edmont...</default></talk>
-	<talk character="Edmont"><default>Já tô terminando, que impaciência!... “Além do que, nosso povo veio daqui, por isso temos essa marca estranha na mão esquerda, é o mapa de Atlântida, que é a verdadeira origem do nosso povo. Somos praticamente humanos...” Que tal?</default></talk>
+	<talk character="Edmont"><default>Já tô terminando, que impaciência!... "Além do que, nosso povo veio daqui, por isso temos essa marca estranha na mão esquerda, é o mapa de Atlântida, que é a verdadeira origem do nosso povo. Somos praticamente humanos..." Que tal?</default></talk>
 	<talk character="Angely"><default>Você não imagina o que você fez.</default></talk>
 	<teller><default>Angely coloca a mão no rosto.</default></teller>
 	<talk character="Edmont"><default>Que? Usei palavras muito fortes? Não tem problema, eu troco algumas...</default></talk>
@@ -378,7 +380,7 @@
 	<talk character="Mel"><default>Foi isso que fez com ela?</default></talk>
 	<talk character="Elian"><default>Não, ela nem chegou a se levantar da cama.</default></talk>
 	<talk character="Mel"><default>Agarrou ela a força???</default></talk>
-	<talk character="Elian"><default>Eu disse à ela que agia como uma criança e ela passou a agir como tal.</default></talk>
+	<talk character="Elian"><default>Eu disse a ela que agia como uma criança e ela passou a agir como tal.</default></talk>
 	<talk character="Mel"><default>Não acredito no que está me dizendo...</default></talk>
 	<talk character="Elian"><default>Então ela disse que eu parecia um animal. Assim como tu, não resistiu por muito tempo.</default></talk>
 	<talk character="Mel"><default>Desgraçado...</default></talk>
@@ -702,9 +704,11 @@
 	<talk character="Mel"><default>Pessoal...</default></talk>
 	<talk character="Edmont"><default>Mel, onde esteve???</default></talk>
 	<talk character="Kat"><default>Achei que ele poderia ter ido atrás e Beatrice, mas não foi. Viram o jornal?</default></talk>
-	<teller><default>Mel entrega o jornal a Edmont. Ele vê a reportagem de frente:</default></teller>
-	<talk><default>Massacre na igreja. Os policiais se recusam a entrar pra investigar.
-	Acha que foi ele? (Kat)</default></talk>
+	<teller>
+<default>Mel entrega o jornal a Edmont. Ele vê a reportagem de frente:</default>
+<letter>Massacre na igreja. Os policiais se recusam a entrar pra investigar.</letter>
+</teller>
+	<talk character="Kat"><default>Acha que foi ele?</default></talk>
 	<talk character="Mel"><default>Pelo que Elisa disse, foi.</default></talk>
 	<teller><default>Angely adentra a casa. Kat pega papel e caneta.</default></teller>
 	<talk character="Edmont"><default>Que está fazendo?</default></talk>
@@ -741,7 +745,7 @@
 	<talk character="Edmont"><default>Da próxima vez, eu atiro.</default></talk>
 	<teller><default>Kat vai até Aurium e este se levanta.</default></teller>
 	<talk character="Kat"><default>Ele tá bem!!!</default></talk>
-	<talk character="Edmont"><irony>Obrigado pela preocupação. </irony></talk>
+	<talk character="Edmont"><irony>Obrigado pela preocupação.</irony></talk>
 	<teller><default>Mel e Edmont levam Kat (com Aurium) pra casa. Edmont ainda tenta consolar Agatha. É noite quando as duas dormem.</default></teller>
 	<talk character="Mel"><default>Que foi, Edmont?</default></talk>
 	<talk character="Edmont"><default>Não sei... Tô meio zonzo...</default></talk>
@@ -773,42 +777,42 @@
 	<talk character="Kat"><default>Que lugar é esse?</default></talk>
 	<teller><default>Ela se vê acordar numa cama antiga, num quarto antigo, vestida com uma roupa antiga. Olha no espelho e percebe que não é ela, percebendo assim que não tem controle sobre seus atos naquele instante: é apenas uma espectadora de dentro do corpo de Aimeé.</default></teller>
 	<talk character="Diego"><default>Aimeé...</default></talk>
-	<talk><default>Que está fazendo aqui? (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Que está fazendo aqui?</default></talk>
 	<talk character="Diego"><default>Vim te ver.</default></talk>
-	<talk><default>Ah? (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Ah?</default></talk>
 	<talk character="Diego"><default>Está melhor?</default></talk>
-	<talk><default>Sim. Não se preocupe. (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Sim. Não se preocupe.</default></talk>
 	<talk character="Diego"><default>Não vou te morder, não precisa ficar com tanto medo.</default></talk>
-	<talk><default>Não sei, trai seu próprio pai... (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Não sei, trai seu próprio pai...</default></talk>
 	<talk character="Diego"><default>Não tenho culpa se sua mãe vive correndo atrás de mim.</default></talk>
-	<talk><default>Se dissesse não ela pararia. (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Se dissesse não ela pararia.</default></talk>
 	<talk character="Diego"><default>E por que eu diria não?</default></talk>
-	<talk><default>Se tivesse caráter diria. (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Se tivesse caráter diria.</default></talk>
 	<talk character="Diego"><default>Me dê um motivo convincente, um único motivo. Viro padre se me convencer de que devo parar.</default></talk>
-	<talk><default>Saia do meu quarto. (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Saia do meu quarto.</default></talk>
 	<talk character="Diego"><default>Qual o problema? Ah, esqueci! Tem ciúmes de mim...</default></talk>
-	<talk><default>Eu??? (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Eu???</default></talk>
 	<talk character="Diego"><default>Pode falar, eu já sei.</default></talk>
-	<talk><default>Nunca!!! (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Nunca!!!</default></talk>
 	<talk character="Diego"><default>Acha que não sei como me olha?</default></talk>
-	<talk><default>Isso é delírio seu! (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Isso é delírio seu!</default></talk>
 	<talk character="Diego"><default>É?</default></talk>
 	<teller><default>Diego se aproxima e a beija. Ela o empurra e se levanta da cama.</default></teller>
-	<talk><default>Como se atreve??? (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Como se atreve???</default></talk>
 	<talk character="Diego"><default>Bem que gostou.</default></talk>
-	<talk><default>Saia já daqui!!! (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Saia já daqui!!!</default></talk>
 	<teller><default>Ele se levanta e vai encurralando ela.</default></teller>
 	<talk character="Diego"><default>Não saio.</default></talk>
-	<talk><default>Vai embora!! (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Vai embora!!</default></talk>
 	<talk character="Diego"><default>Não vou.</default></talk>
-	<talk><default>Estou mandando! (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Estou mandando!</default></talk>
 	<talk character="Diego"><default>Não está.</default></talk>
-	<talk><default>Vou chamar seu pai. (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Vou chamar seu pai.</default></talk>
 	<talk character="Diego"><default>Não vai.</default></talk>
-	<talk><default>Fique longe... (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Fique longe...</default></talk>
 	<talk character="Diego"><default>Não quer.</default></talk>
 	<teller><default>Ele a beija novamente. A levanta e coloca sobre um móvel, ficando entre suas pernas. Começa a beijar-lhe o pescoço. O pai dele chega ao quarto e ela se assusta. Ele se afasta, com um sorriso sarcástico.</default></teller>
-	<talk><default>Eu, eu... (Aimeé)</default></talk>
+	<talk character="Aimeé"><default>Eu, eu...</default></talk>
 	<talk character="Desirre"><default>Melhor sairmos daqui.</default></talk>
 	<talk character="pai de Diego"><default>Leva ela daqui. Sei julgar onde está o problema.</default></talk>
 	<teller><default>Elas saem. Kat acorda. Vê Aurium com uma capa preta ao seu lado. O abraça.</default></teller>
@@ -960,7 +964,7 @@
 	<teller><default>Angely dorme em sua cama. Edmont sorri. Os três vão pra casa. Dias depois, Kat, Mel, Angely e Edmont estão no jardim. Jak aparece.</default></teller>
 	<talk character="Jak"><default>Parabéns. Última lição: não deixe seu adversário te irritar. Que decidiram?</default></talk>
 	<talk character="Edmont"><default>Há três anos atrás estávamos quase nos tornando normais. Agora temos uma agência de investigações.</default></talk>
-	<talk character="Mel"><default>Com direito à um mensageiro, três lutadores e alguém que vê o futuro confuso nos sonhos.</default></talk>
+	<talk character="Mel"><default>Com direito a um mensageiro, três lutadores e alguém que vê o futuro confuso nos sonhos.</default></talk>
 	<talk character="Angely"><default>E também à não saber o que pode aparecer na nossa frente.</default></talk>
 	<talk character="Kat"><default>Sem contar que nosso mensageiro ora tem quatro patas e pelos, ora tem duas asas, bico e penas...</default></talk>
 	<talk character="Jak"><default>Não vão desistir de ajudar as pessoas, vão?</default></talk>

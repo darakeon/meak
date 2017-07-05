@@ -49,7 +49,7 @@
 	<talk character="Inês"><default>Não, você fica, eu já disse. É só não jogar nada no Derik.</default></talk>
 	<talk character="Leo"><ghost>Não posso tê-la, mas posso ficar perto dela. Mais vale um pássaro na mão que dois voando.</ghost></talk>
 	<talk character="Inês"><default>Isso é.</default></talk>
-	<talk character="Alete"><default>* Falando sozinha?</default></talk>
+	<talk character="Alete"><arrive> Falando sozinha?</arrive></talk>
 	<talk character="Inês"><default>Tem um fantasma aqui.</default></talk>
 	<talk character="Alete"><default>Como assim?</default></talk>
 	<talk character="Inês"><default>Ele é inofensivo.</default></talk>
@@ -73,7 +73,7 @@
 	<teller><default>Ela continua andando.</default></teller>
 	<talk character="Etos"><default>Como sabe? O último corpo era de uma pessoa pública?</default></talk>
 	<talk character="Alete"><default>Vá pro inferno.</default></talk>
-	<talk character="Etos"><irony>Vários caçadores pediram, mas, não sei mesmo porque, não tive vontade de atendê-los. </irony></talk>
+	<talk character="Etos"><irony>Vários caçadores pediram, mas, não sei mesmo porque, não tive vontade de atendê-los.</irony></talk>
 	<teller><default>Alete segura nos braços dele. Ele a encosta na parede.</default></teller>
 	<talk character="Etos"><default>Vai me fritar? Sou mais forte que você.</default></talk>
 	<teller><default>Ela o beija. 23:00. Beatrice e Lara chegam na MEAK. Inês olha para Lara.</default></teller>
@@ -120,9 +120,9 @@
 	<talk character="Inês"><default>Essa é uma boa idéia! Podia ir atrás de Alete pra mim?</default></talk>
 	<talk character="Bea"><default>Ah?!</default></talk>
 	<talk character="Inês"><default>Ela tá estranha. Quando soube que tinha um fantasma aqui...</default></talk>
-	<talk character="Bea"><default>UM FANTASMA? AQUI???</default></talk>
+	<talk character="Bea"><default>Um fantasma? Aqui???</default></talk>
 	<talk character="Inês"><default>É só o Leo.</default></talk>
-	<talk character="Bea"><irony>Ah, sim, tô mais calma agora! </irony></talk>
+	<talk character="Bea"><irony>Ah, sim, tô mais calma agora!</irony></talk>
 	<talk character="Inês"><default>Ele tá arrependido. Tentei contar no telefone, mas você não deixou.</default></talk>
 	<teller><default>Beatrice senta-se.</default></teller>
 	<talk character="Bea"><default>Tem certeza que é seguro?</default></talk>
@@ -146,7 +146,7 @@
 	<teller><default>4:00. Derik acorda e vê Kat na janela.</default></teller>
 	<talk character="Derik"><default>Não dormiu?</default></talk>
 	<talk character="Kat"><default>Estava pensando no sonho que tive.</default></talk>
-	<talk character="Derik"><irony>Que informação precisa! </irony></talk>
+	<talk character="Derik"><irony>Que informação precisa!</irony></talk>
 	<talk character="Kat"><default>Aquele que tive quando eles foram embora.</default></talk>
 	<talk character="Derik"><default>Melody adoraria saber disso. A criança que ela supostamente perdeu...</default></talk>
 	<talk character="Kat"><default>Pode ser que tenha sido só sonho. Ou que seja engano dos dois. Se basearam só nas coisas que se parecem entre nós...</default></talk>
@@ -215,10 +215,10 @@
 	<talk character="Alan"><default>De vampiro?</default></talk>
 	<talk character="Inês"><default>Sim.</default></talk>
 	<talk character="Alan"><default>E por que ela não voltou pra casa?</default></talk>
-	<talk character="Zenon"><irony>Quanta educação e delicadeza! </irony></talk>
+	<talk character="Zenon"><irony>Quanta educação e delicadeza!</irony></talk>
 	<talk character="Lara"><default>Não tenho casa.</default></talk>
 	<talk character="Alan"><default>Então o Grupo tem que cuidar de você.</default></talk>
-	<talk character="Inês"><default>Alan, podia ser menos... “prático”?</default></talk>
+	<talk character="Inês"><default>Alan, podia ser menos... "prático"?</default></talk>
 	<talk character="Alan"><default>Salvamos pessoas, não temos como abrigá-las!</default></talk>
 	<talk character="Zenon"><default>Está grávida!</default></talk>
 	<talk character="Alan"><default>Pior ainda! Sequer uma, quanto mais duas pessoas! Talvez o vampiro esteja atrás da criança, já pensou nisso?</default></talk>
@@ -226,7 +226,7 @@
 	<talk character="Lara"><default>Era meu tio.</default></talk>
 	<talk character="Zenon"><default>Pronto, era eliminação da família, satisfeito, Alan?</default></talk>
 	<talk character="Alan"><default>Por parte de mãe ou por parte de pai?</default></talk>
-	<talk character="Zenon"><default>ISSO LÁ INTERESSA???</default></talk>
+	<talk character="Zenon"><screamed>Isso lá interessa???</screamed></talk>
 	<talk character="Lara"><default>Os dois.</default></talk>
 	<teller><default>Zenon olha para Lara.</default></teller>
 	<talk character="Lara"><default>Meio tio por uma parte e outro meio por outra.</default></talk>
@@ -241,11 +241,11 @@
 	<teller><default>Alan e Zenon se armam.</default></teller>
 	<talk character="Alan"><default>Agora tem um fantasma atrás dela!</default></talk>
 	<talk character="Inês"><default>É só o Leo! Está aqui de antes e não veio fazer mal.</default></talk>
-	<talk character="Zenon"><irony>Ah, sim, tá falando do que jogava as coisas no Derik? </irony></talk>
+	<talk character="Zenon"><irony>Ah, sim, tá falando do que jogava as coisas no Derik?</irony></talk>
 	<talk character="Inês"><default>Katerine permitiu.</default></talk>
 	<teller><default>Os dois guardam as armas.</default></teller>
 	<talk character="Lara"><default>Katerine é a chefe de vocês?</default></talk>
-	<talk><default>Não! (ZNN / ALN)</default></talk>
+	<talk character="Zenon / Alan"><default>Não!</default></talk>
 	<talk character="Lara"><default>Agora que achei que tinha acertado algo...</default></talk>
 	<talk character="Alan"><default>Ela só tem 17 anos. Seria ridículo.</default></talk>
 	<talk character="Zenon"><default>Nós dois e Beatrice somos os responsáveis por aqui.</default></talk>
@@ -257,7 +257,7 @@
 	<talk character="Inês"><default>Mania de grandeza.</default></talk>
 	<teller><default>Alan encara Inês. Zenon veste a capa e sai.</default></teller>
 	<talk character="Alan"><default>Ei, vai me deixar aqui sozinho???</default></talk>
-	<talk character="Beleno"><default>* Tô com fome.</default></talk>
+	<talk character="Beleno"><arrive> Tô com fome.</arrive></talk>
 	<talk character="Inês"><default>Grande novidade! Lara, este é Beleno, um pégaso. Se alimenta de vampiros e plantas em geral.</default></talk>
 	<talk character="Lara"><default>Mas aquele que tava aqui...</default></talk>
 	<talk character="Inês"><default>Quando nasceu pegava o que via pela frente, agora aprendeu a olhar antes. Beatrice e Zenon estão a salvo.</default></talk>
@@ -333,7 +333,7 @@
 	<talk character="Zenon"><default>Se alguém avistar algum avião...</default></talk>
 	<talk character="Kat"><default>Eu disse que tive um sonho!</default></talk>
 	<teller><default>Todos começam a falar ao mesmo tempo e Lara fica assustada.</default></teller>
-	<talk character="Bea"><default>CHEGA!!!</default></talk>
+	<talk character="Bea"><screamed>Chega!!!</screamed></talk>
 	<teller><default>Olham para Beatrice.</default></teller>
 	<talk character="Bea"><default>Lara foi aprovada para ficar aqui, mas na casa de quem?</default></talk>
 	<talk character="Janaína"><default>Na minha. Eu acho.</default>
@@ -355,7 +355,7 @@
 	<talk character="Kat"><default>Vamos, deixamos Estela e Derik na biblioteca e saímos para caçar.</default></talk>
 	<talk character="Beleno"><default>Darei uma busca e aviso se encontrá-la.</default></talk>
 	<teller><default>Os cinco saem. Ficam Beatrice, Inês, Alan, Zenon... e Leo.</default></teller>
-	<talk character="Inês"><irony>Hoje a tarde tinha dois caras aqui dizendo que mandavam em tudo. </irony></talk>
+	<talk character="Inês"><irony>Hoje a tarde tinha dois caras aqui dizendo que mandavam em tudo.</irony></talk>
 	<talk character="Leo"><irony>Eu lembro! Só não lembro quem era...</irony></talk>
 	<teller><default>Alan e Zenon se entreolham.</default></teller>
 	<talk character="Zenon"><default>Vamos procurar Alete também.</default></talk>
@@ -387,7 +387,7 @@
 	<talk character="Alete"><default>Talvez já tenham dado um jeito nele.</default></talk>
 	<talk character="Inês"><default>Talvez você queira vê-lo.</default></talk>
 	<talk character="Alete"><default>Não reclamarei de ocupá-lo pra que você fale com Angely em paz.</default></talk>
-	<talk character="Inês"><default>Meu pai não fica em paz quando estão “ocupando” Edmont.</default></talk>
+	<talk character="Inês"><default>Meu pai não fica em paz quando estão "ocupando" Edmont.</default></talk>
 	<talk character="Alete"><default>Vamos... Beleno também vai, e Zenon, e Kat e Derik.</default></talk>
 	<talk character="Inês"><default>Isso é algum tipo de plano pra separar o pessoal?</default></talk>
 	<talk character="Alete"><default>A sede aqui tá muito cheia. Estela e Derik são equivalentes, ficaria um de cada lado. Michele lutaria por eles e Beatrice também...</default></talk>
@@ -395,13 +395,13 @@
 	<talk character="Alete"><default>Ele não a quer mais.</default></talk>
 	<talk character="Inês"><default>Ela é que não o quer.</default></talk>
 	<talk character="Alete"><default>Isso é o que ela diz.</default></talk>
-	<talk character="Bea"><default>* Não costumo mentir.</default></talk>
+	<talk character="Bea"><arrive> Não costumo mentir.</arrive></talk>
 	<teller><default>Alete se assusta.</default></teller>
 	<talk character="Bea"><default>Ninguém vai. Mel disse que vai voltar. Por que quer voltar pra lá?</default></talk>
 	<talk character="Alete"><default>Isso te interessa?</default></talk>
 	<talk character="Inês"><default>Ué, já esteve na Realidade de onde viemos?</default></talk>
 	<talk character="Alete"><default>Por que diz isso?</default></talk>
-	<talk character="Inês"><default>Eu disse “voltar pra lá” e você confirmou.</default></talk>
+	<talk character="Inês"><default>Eu disse "voltar pra lá" e você confirmou.</default></talk>
 	<talk character="Alete"><default>Já estive em muitos lugares.</default></talk>
 	<talk character="Bea"><default>Afinal, você tem mais de 300 anos.</default></talk>
 	<talk character="Alete"><default>Não vou ficar aqui perdendo meu tempo com você.</default></talk>
@@ -413,7 +413,7 @@
 	<talk character="Inês"><default>De repente...</default></talk>
 	<teller><default>18:00. Alete chega no apartamento que vivia com Beleno. Etos está no chuveiro. Ela entra no banheiro.</default></teller>
 	<talk character="Alete"><default>Que está fazendo?</default></talk>
-	<talk character="Etos"><irony>Virei suicida. Estou tentando me afogar no momento. </irony></talk>
+	<talk character="Etos"><irony>Virei suicida. Estou tentando me afogar no momento.</irony></talk>
 	<talk character="Alete"><default>Quero saber porque ainda está aqui.</default></talk>
 	<talk character="Etos"><default>Porque não me deu vontade de ir embora.</default></talk>
 	<talk character="Alete"><default>Já te paguei o silêncio.</default></talk>
@@ -427,7 +427,7 @@
 	<talk character="Alete"><default>Eu quero dormir.</default></talk>
 	<teller><default>Etos termina de se enxugar, se veste e... Deita.</default></teller>
 	<talk character="Alete"><default>Que está fazendo?</default></talk>
-	<talk character="Etos"><irony>Não consegui me afogar, então pretendo morrer de inanição. Nossa, tenho impressão que já ouvi essa pergunta hoje! </irony></talk>
+	<talk character="Etos"><irony>Não consegui me afogar, então pretendo morrer de inanição. Nossa, tenho impressão que já ouvi essa pergunta hoje!</irony></talk>
 	<talk character="Alete"><default>Eu disse que quero dormir, não...</default></talk>
 	<talk character="Etos"><default>Também não pensava isso. Mas não tem problema, eu não faço barulho.</default></talk>
 	<talk character="Alete"><default>Quero a minha cama só pra mim.</default></talk>
@@ -451,7 +451,7 @@
 	<talk character="Michele"><default>Você vem comigo.</default></talk>
 	<talk character="Alete"><default>Vai sonhando.</default></talk>
 	<teller><default>Vai fechar a porta e Michele abre. A porta pega fogo. Michele pega o extintor e apaga. Alete sumiu. MEAK, 22:00...</default></teller>
-	<talk character="Bea"><default>Simples assim?! “Você vem comigo”?!</default></talk>
+	<talk character="Bea"><default>Simples assim?! "Você vem comigo"?!</default></talk>
 	<talk character="Michele"><default>Achei que eu fosse melhor que ela.</default></talk>
 	<talk character="Bea"><default>É, querida? Só que tem uma diferença entre uma criança e uma criança com um lança-chamas!</default></talk>
 	<talk character="Michele"><default>Esqueci disso. Se não tivesse esquecido, tinha impedido.</default></talk>
@@ -461,7 +461,7 @@
 	<talk character="Bea"><default>Deve estar com problemas, Michele. Ajudamos pessoas, lembra?</default></talk>
 	<talk character="Dionísio"><default>Conhecem um casal, o nome dele é Lucas, o dela é Valquíria...</default></talk>
 	<talk character="Bea"><default>Esses nomes me lembram alguma coisa...</default></talk>
-	<talk character="Derik"><default>* Eles não estão aqui. Foram mandados pra outra Realidade... Por causa de um desequilíbrio causado pelo fato de termos vindo e...</default></talk>
+	<talk character="Derik"><arrive> Eles não estão aqui. Foram mandados pra outra Realidade... Por causa de um desequilíbrio causado pelo fato de termos vindo e...</arrive></talk>
 	<talk character="Bea"><default>Derik, poderia não sair falando disso assim...</default></talk>
 	<talk character="Dionísio"><default>Eu sei que ele tinha poderes... Ou sei lá como se chamavam.</default></talk>
 	<talk character="Derik"><default>Então, minha namorada tem esses poderes, éramos de outra Realidade.</default></talk>
@@ -631,7 +631,7 @@
 	<talk character="Kat"><default>Sonhos.</default></talk>
 	<talk character="Janaína"><default>Foi por ela que ele me trocou.</default></talk>
 	<talk character="Alan"><default>Se você tentar falar com ele...</default></talk>
-	<talk character="Janaína"><default>NEM PENSAR!</default></talk>
+	<talk character="Janaína"><screamed>Nem pensar!</screamed></talk>
 	<talk character="Beleno"><default>Vou tentar encontrá-la de novo.</default></talk>
 	<teller><default>Beleno sai voando.</default></teller>
 	<talk character="Kat"><default>Nem pra pegá-la você faria isso?</default></talk>
@@ -652,7 +652,7 @@
 	<talk character="Alan"><default>Cara isso me lembra aquele filme, como era o nome... Ah! Alien!</default></talk>
 	<teller><default>Kat encara Alan.</default></teller>
 	<talk character="Alan"><default>Que foi?</default></talk>
-	<talk character="Kat"><irony>Espere, eu vou adivinhar. Só falou isso porque simplesmente não arranjou nada mais desagradável pra dizer? </irony></talk>
+	<talk character="Kat"><irony>Espere, eu vou adivinhar. Só falou isso porque simplesmente não arranjou nada mais desagradável pra dizer?</irony></talk>
 	<talk character="Inês"><default>Temos que pegá-la e exorcizá-la então?</default></talk>
 	<talk character="Derik"><default>Convencer Alete a retomar seu corpo, já que se trata de um espírito que tomou conta porque ela permitiu.</default></talk>
 	<talk character="Estela"><default>Sem cruzes, bíblias, padres e água benta.</default></talk>
@@ -694,7 +694,7 @@
 	<talk character="Janaína"><default>Claro. E encontro um igual por lá. Pelo menos com ele tô acostumada.</default></talk>
 	<talk character="Alete"><default>Tem medo de saber o que vai te acontecer no futuro?</default></talk>
 	<talk character="Janaína"><default>Não te interessa.</default></talk>
-	<talk character="Etos"><default>* Eu mato sua réplica lá e você não ficará sabendo de nada.</default></talk>
+	<talk character="Etos"><arrive> Eu mato sua réplica lá e você não ficará sabendo de nada.</arrive></talk>
 	<talk character="Janaína"><default>Claro que deveria estar nisso!</default></talk>
 	<talk character="Etos"><default>Vamos mudar de ares, querida.</default></talk>
 	<teller><default>Etos segura Janaína e injeta algo.</default></teller>
@@ -707,7 +707,7 @@
 	<talk character="Estela"><default>Derik, nem sabemos onde Beatrice vai estar, não precisamos correr!</default></talk>
 	<talk character="Derik"><default>E se ela colocar o anel? Ou quebrar ele de raiva?</default></talk>
 	<talk character="Estela"><default>Ela não vai fazer isso, aposto que colocou ele no lugar mais seguro que podia. E, se ela colocar o anel, não vai ter efeito...</default></talk>
-	<talk character="Derik"><default>“descendentes não podem ser donos”, eu sei, eu li, posso te dizer em que linha estava. Só tô meio atrapalhado.</default></talk>
+	<talk character="Derik"><default>"descendentes não podem ser donos", eu sei, eu li, posso te dizer em que linha estava. Só tô meio atrapalhado.</default></talk>
 	<talk character="Estela"><default>Novidade.</default></talk>
 	<teller><default>Etos segura Derik. Beleno passa voando e pega os dois. Estela olha em volta. Vê os três caírem no mar.</default></teller>
 	<talk character="Estela"><default>Que merda...</default></talk>
@@ -737,7 +737,7 @@
 	<talk character="Alan"><default>Etos? Vai confiar numa informação dele?</default></talk>
 	<talk character="Michele"><default>Etos não mente. Costumava dizer que a verdade é sempre melhor para punir alguém do que a mentira.</default></talk>
 	<talk character="Alan"><default>Mas as fênixs não podem engravidar só de vampiros e...</default></talk>
-	<talk character="Estela"><default>Sim, mas isso se refere a outras “espécies”. Talvez fênix e pégaso sejam a fêmea e o macho da mesma, pensando por esse ângulo, seria possível e até lógico... Não deve ser um fenômeno conhecido pela curta vida que os pégasos costumam ter.</default></talk>
+	<talk character="Estela"><default>Sim, mas isso se refere a outras "espécies". Talvez fênix e pégaso sejam a fêmea e o macho da mesma, pensando por esse ângulo, seria possível e até lógico... Não deve ser um fenômeno conhecido pela curta vida que os pégasos costumam ter.</default></talk>
 	<talk character="Beleno"><default>Ela tem que ficar aqui!</default></talk>
 	<teller><default>No templo, Alete e Etos olham pra Derik. Dionísio e Janaína estão adormecidos nas caixas.</default></teller>
 	<talk character="Derik"><default>E se eu não quiser ajudar?</default></talk>
@@ -757,24 +757,24 @@
 	<talk character="Derik"><default>E perdem a refém. Não vão fazer isso.</default></talk>
 	<talk character="Alete"><default>Uma dica: se Angely estivesse aqui, me reconheceria com certeza...</default></talk>
 	<talk character="Derik"><default>Já era uma mulher?</default></talk>
-	<talk character="Alete"><default>Eu disse UMA dica.</default></talk>
+	<talk character="Alete"><default>Eu disse</default><frizz>uma</frizz><default>dica.</default></talk>
 	<talk character="Derik"><default>Mel deve estar viva, e não faria isso... Nem Lisa, pelo que minha mãe falava que Hery falava...</default></talk>
 	<talk character="Alete"><default>Que Hery?</default></talk>
 	<talk character="Derik"><default>Nada.</default></talk>
 	<talk character="Alete"><default>Escondendo coisas, Derik? Não devia fazer isso. Pode matar alguém...</default></talk>
 	<talk character="Derik"><default>Meggie Catrin.</default></talk>
-	<talk><default>Quanta formalidade. (ALE – MEG)</default></talk>
+	<talk character="Alete – Meggie"><default>Quanta formalidade.</default></talk>
 	<talk character="Derik"><default>Não está atrás de Edmont, está atrás de Angely!</default></talk>
 	<talk character="Meg"><default>Agora vai ter que nos contar como ir.</default></talk>
 	<talk character="Derik"><default>Angely te libertou!</default></talk>
 	<talk character="Meg"><default>Libertou Handhara também. E ela reencarnou, imortal e perto dele.</default></talk>
 	<talk character="Derik"><default>Quem te garante que isso não vai acontecer com você também? Ela reencarnou como filha dele, pode ser que seja por que é pra você ficar com ele.</default></talk>
 	<talk character="Meg"><default>Então eu já dei um jeito nisso. Alete não quer mais viver, porque querem que ela viva?!</default></talk>
-	<talk character="Inês"><default>* Está atrapalhando a ordem natural das coisas.</default></talk>
+	<talk character="Inês"><arrive> Está atrapalhando a ordem natural das coisas.</arrive></talk>
 	<teller><default>Zenon e Kat chegam também. Etos segura Derik.</default></teller>
 	<talk character="Etos"><default>Nem pensem nisso.</default></talk>
 	<talk character="Zenon"><default>Lembra o Edmont. Fazendo as coisas por criancice. Tanto faz pra você ir ou ficar.</default></talk>
-	<talk character="Etos"><default>Assim como ele, eu tenho poder pra executar minhas “criancices”. Quando se vive tanto quanto eu, as coisas começam a ficar entediantes.</default></talk>
+	<talk character="Etos"><default>Assim como ele, eu tenho poder pra executar minhas "criancices". Quando se vive tanto quanto eu, as coisas começam a ficar entediantes.</default></talk>
 	<talk character="Zenon"><default>Vai atrás dele também?</default></talk>
 	<talk character="Etos"><default>Acha que me ofende com essa pergunta? Todos os vampiros de primeira linhagem são bissexuais. Ah, Kat, não precisa ficar preocupada, seu namorado não é meu tipo.</default></talk>
 	<talk character="Meg"><default>Kat, Derik está te escondendo coisas, a mãe dele conheceu seu pai...</default>
@@ -840,7 +840,7 @@
 	<talk character="Meg"><default>Impossível, não saí com nenhuma Manigê!</default></talk>
 	<talk character="Estela"><default>Exatamente por isso deve ter ignorado os sinais.</default></talk>
 	<talk character="Meg"><default>Não tá dando certo, não entenderam? Ela não vai voltar.</default></talk>
-	<talk character="Estela"><default>Quando se fala que uma fênix só pode engravidar de vampiros e manigês, se fala em outras “espécies”. Pégasos e fênixs, teoricamente, são da mesma espécie. Um o macho, o outro a fêmea.</default></talk>
+	<talk character="Estela"><default>Quando se fala que uma fênix só pode engravidar de vampiros e manigês, se fala em outras "espécies". Pégasos e fênixs, teoricamente, são da mesma espécie. Um o macho, o outro a fêmea.</default></talk>
 	<talk character="Meg"><default>Tá blefando!</default></talk>
 	<talk character="Kat"><default>Ué, Meggie... Ama tanto Edmont... Graças a você, ele vai ser vovô.</default></talk>
 	<teller><default>Meg desmaia.</default></teller>

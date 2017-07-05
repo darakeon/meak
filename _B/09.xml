@@ -1,5 +1,5 @@
 ﻿<story title="A Primeira" english="The First">
-	<teller><default>16/04 (quarta). Num apartamento, Janaína (JAN) está deitada na cama. Etos (ETO) sai do banheiro, de toalha.</default></teller>
+	<teller><default>16/04 (quarta). Num apartamento, Janaína está deitada na cama. Etos sai do banheiro, de toalha.</default></teller>
 	<talk character="Etos"><default>Tem certeza que quer viver aqui?</default></talk>
 	<talk character="Janaína"><default>Tenho. Assim você fica em cima do cara, pra ver ele se vai pagar.</default></talk>
 	<talk character="Etos"><default>Estou perguntando de você.</default></talk>
@@ -14,7 +14,7 @@
 	<talk character="Alan"><default>Mel, eu sei que eu devia arranjar emprego, mas não tem nenhum que sirva pra mim. Fui recusado pra tudo. Eu só sirvo pra caçar vampiros mesmo...</default>
 	<teller>baixa a cabeça</teller><default>Não isso não vai convencer ela.</default>
 	<teller>olha para frente</teller><default>Minha vocação é essa. Eu juro que vou fazer tudo o que puder para... Também não.</default></talk>
-	<talk character="Zenon"><default>* Que tal, vou me mudar?</default></talk>
+	<talk character="Zenon"><arrive> Que tal, vou me mudar?</arrive></talk>
 	<talk character="Alan"><default>Isso. Zoa mesmo. Já arranjou...</default></talk>
 	<talk character="Zenon"><default>Bom, essa foi a única que consegui pensar.</default></talk>
 	<talk character="Alan"><default>Peraí, você disse que já tinha emprego!</default></talk>
@@ -22,14 +22,14 @@
 	<talk character="Alan"><default>Cara, será que ela vai expulsar a gente?</default></talk>
 	<talk character="Zenon"><default>Sei lá.</default></talk>
 	<talk character="Alan"><default>Como não? Você convive com ela há quanto tempo?</default></talk>
-	<talk character="Zenon"><default>As “crianças” arranjaram emprego.</default></talk>
+	<talk character="Zenon"><default>As "crianças" arranjaram emprego.</default></talk>
 	<talk character="Alan"><default>Derik não arranjou.</default></talk>
 	<talk character="Zenon"><default>Derik cozinha, Derik lava, Derik costura, Derik limpa...</default></talk>
 	<talk character="Alan"><default>Tá, tá, não precisa ficar enumerando.</default></talk>
 	<talk character="Zenon"><default>Se eles arranjaram emprego e nós não, seria mais digno nós sairmos antes que ela expulse.</default></talk>
 	<talk character="Alan"><default>E pra onde vamos?</default></talk>
 	<talk character="Zenon"><default>Cuidamos disso depois.</default></talk>
-	<talk character="Alan"><default>Claro, assim que estivermos debaixo da ponte!</default><irony>Ah, não, as pontes daqui tem só água embaixo! </irony></talk>
+	<talk character="Alan"><default>Claro, assim que estivermos debaixo da ponte!</default><irony>Ah, não, as pontes daqui tem só água embaixo!</irony></talk>
 	<talk character="Zenon"><default>Você é um homem ou um rato???</default></talk>
 	<talk character="Alan"><default>Vamos ter que virar ratos. Pra viver no esgoto...</default></talk>
 	<talk character="Zenon"><default>Vai fazer isso ou não?</default></talk>
@@ -60,7 +60,7 @@
 	<talk character="Zenon"><default>Para provar que não desistimos assim tão fácil.</default></talk>
 	<talk character="Alan"><default>E vamos aonde?</default></talk>
 	<talk character="Zenon"><default>Sei lá. Cemitério?</default></talk>
-	<teller><default>22:00. Em Ares, depois de algum tempo e “alguma” bebida, os dois já estão caindo.</default></teller>
+	<teller><default>22:00. Em Ares, depois de algum tempo e "alguma" bebida, os dois já estão caindo.</default></teller>
 	<talk character="Alan"><default>Não sabia que vampiro ficava bêbado...</default></talk>
 	<talk character="Zenon"><default>Você bebeu vinho, eu bebi vodka, você não agüentaria um décimo do que bebi sem entrar num coma alcoólico.</default></talk>
 	<talk character="Alan"><default>Tá, agora voltamos lá assim e ela vai nos expulsar mesmo...</default></talk>
@@ -91,7 +91,7 @@
 	<teller><default>Os três riem.</default></teller>
 	<talk character="v3"><default>Podemos matar ele, agora que tá bêbado, e acabar com uma dor de cabeça.</default></talk>
 	<teller><default>Eles atacam Zenon. Duas das garotas saem correndo. Zenon consegue matar um, mas outro o segura. Então o terceiro procura a estaca.</default></teller>
-	<talk><default>Procurando isso? (Michele – MCL)</default></talk>
+	<talk character="Michele"><default>Procurando isso?</default></talk>
 	<teller><default>Michele enfia a estaca nele. Alan acorda. Depois Michele derruba o outro e mata-o também.</default></teller>
 	<talk character="Zenon"><default>Tá, eu devo ter caído e estou tendo alucinações...</default></talk>
 	<talk character="Alan"><default>Ela derrubou todos eles???</default></talk>
@@ -107,7 +107,7 @@
 	<talk character="Alan"><default>Que foi? Se machucou?</default></talk>
 	<talk character="Michele"><default>Quebrei minha unha!</default></talk>
 	<talk character="Zenon"><default>Só isso?!</default></talk>
-	<talk character="Michele"><default>“Só isso”?! Sabe quanto tempo demora pra crescer??? Você gosta que caia qualquer coisa na sua cabeça quando acabou de lavar o cabelo???</default></talk>
+	<talk character="Michele"><default>"Só isso"?! Sabe quanto tempo demora pra crescer??? Você gosta que caia qualquer coisa na sua cabeça quando acabou de lavar o cabelo???</default></talk>
 	<talk character="Alan"><default>Eu não gosto.</default></talk>
 	<talk character="Michele"><default>Por que perguntou meu nome?</default></talk>
 	<talk character="Zenon"><default>Alguém veio falar com você sobre um papo de vampiros e você ser a reencarnação de...</default></talk>
@@ -124,7 +124,7 @@
 	<talk character="Zenon"><default>Fomos desprezados pela mesma mulher, mas daí a virar gay...</default></talk>
 	<talk character="Michele"><default>Ela tava indecisa entre vocês dois?</default></talk>
 	<talk character="Zenon"><default>Não! Bom, ele foi expulso porque estava com ela, mas eu não estou mais com ela.</default></talk>
-	<talk character="Alan"><default>Estamos falando da Clítia ou da Mel?... Peraí, por quê acha que ela escolheria você, senhor “eu sou o melhor”?</default></talk>
+	<talk character="Alan"><default>Estamos falando da Clítia ou da Mel?... Peraí, por quê acha que ela escolheria você, senhor "eu sou o melhor"?</default></talk>
 	<talk character="Zenon"><default>Quer mesmo saber?</default></talk>
 	<talk character="Michele"><default>Eu ficaria indecisa... Apesar das roupas de baixo valor.</default></talk>
 	<talk character="Alan"><default>Será que foi isso?</default></talk>
@@ -145,7 +145,7 @@
 	<talk character="Ang"><default>Foi o que eu pensei. Vão ficar na porta?</default></talk>
 	<teller><default>Os dois entram.</default></teller>
 	<talk character="Alan"><default>Peraí, ele não te convidou!</default></talk>
-	<talk character="Zenon"><default>Convite indireto. Se você disser simplesmente “quer conhecer minha casa?” ou até “pode consertar meu encanamento?”, eu já posso entrar.</default></talk>
+	<talk character="Zenon"><default>Convite indireto. Se você disser simplesmente "quer conhecer minha casa?" ou até "pode consertar meu encanamento?", eu já posso entrar.</default></talk>
 	<talk character="Alan"><default>Que merda...</default>
 	<teller>Zenon o encara</teller><default>Não por você, sabe, pelos outros...</default></talk>
 	<talk character="Zenon"><default>Sei.</default></talk>
@@ -177,8 +177,8 @@
 	<talk character="Zenon"><default>Só se for mais seguro para você, não existe protetor solar cinco mil!</default></talk>
 	<talk character="Ang"><default>Zenon vai com uma capa e Alan fica por perto pra ter certeza que ninguém vai puxar.</default></talk>
 	<teller><default>17/04 (quinta). Manhã. Na escola, as garotas estão conversando baixo no fundo da sala.</default></teller>
-	<talk><default>17?! Sério que ele te deu 17?! (Tatiane – TTN)</default></talk>
-	<talk><default>Não pode dizer pra ele nossas idades! (Alice – ALC)</default></talk>
+	<talk character="Tatiane"><default>17?! Sério que ele te deu 17?!</default></talk>
+	<talk character="Alice"><default>Não pode dizer pra ele nossas idades!</default></talk>
 	<talk character="Michele"><default>Aliás, porque ontem saíram correndo?</default></talk>
 	<talk character="Tati"><default>Você também não saiu?</default></talk>
 	<talk character="Michele"><default>Não me viram?</default></talk>
@@ -220,27 +220,27 @@
 	<talk character="Etos"><default>Não precisa ter medo, eu...</default></talk>
 	<teller><default>Etos olha pra ela direito: o medo desativa a fraqueza normal de uma fênix. Voltando ao normal, a atração vem. 18:00. Janaína chega a casa. Vai subir, mas entram três homens. Ela observa: paletós e gravatas.</default></teller>
 	<talk character="Janaína"><default>Sim?</default></talk>
-	<talk character="pMCL"><default>Deve ser alguma das “amigas” do Sandro...</default></talk>
-	<talk character="pTTN"><default>Ele não tava querendo insistir na garota estranha?</default></talk>
+	<talk character="pai de Michele"><default>Deve ser alguma das "amigas" do Sandro...</default></talk>
+	<talk character="pai de Tatiane"><default>Ele não tava querendo insistir na garota estranha?</default></talk>
 	<talk character="Janaína"><default>Estão se referindo ao antigo dono do lugar?</default></talk>
-	<talk character="pALC"><default>Antigo porque? Ele se mudou?</default></talk>
+	<talk character="pai de Alice"><default>Antigo porque? Ele se mudou?</default></talk>
 	<talk character="Janaína"><default>Sim. Pro inferno. As ilhas agora são minhas.</default></talk>
-	<talk character="pTTN"><default>Matou ele?</default></talk>
-	<talk character="Janaína"><default>Não, meu namorado quem fez isso. Quando ele tentou agarrar uma garota...</default><irony>Será que é a garota estranha que vocês falaram? </irony></talk>
-	<talk character="pMCL"><default>E porque acha que as Ilhas são suas agora?</default></talk>
-	<talk character="pALC"><default>Não sei se você saiu da idade média, mas há mais burocracia hoje em dia que isso...</default></talk>
+	<talk character="pai de Tatiane"><default>Matou ele?</default></talk>
+	<talk character="Janaína"><default>Não, meu namorado quem fez isso. Quando ele tentou agarrar uma garota...</default><irony>Será que é a garota estranha que vocês falaram?</irony></talk>
+	<talk character="pai de Michele"><default>E porque acha que as Ilhas são suas agora?</default></talk>
+	<talk character="pai de Alice"><default>Não sei se você saiu da idade média, mas há mais burocracia hoje em dia que isso...</default></talk>
 	<talk character="Janaína"><default>Eu apenas sei. O que vieram falar com ele?</default></talk>
-	<talk character="pTTN"><default>Sobre a diretora nova da escola. Andou se metendo com quem não devia e tem que ser cortada.</default></talk>
+	<talk character="pai de Tatiane"><default>Sobre a diretora nova da escola. Andou se metendo com quem não devia e tem que ser cortada.</default></talk>
 	<talk character="Janaína"><default>Tem?</default></talk>
-	<talk character="pMCL"><default>Sim. Se você é a nova dona das Ilhas, deve entender que somos muito influentes e...</default></talk>
+	<talk character="pai de Michele"><default>Sim. Se você é a nova dona das Ilhas, deve entender que somos muito influentes e...</default></talk>
 	<talk character="Janaína"><default>Quer dizer, suas filhas não sabem se comportar como gente e agora querem tirar a diretora de lá por isso?</default></talk>
-	<talk character="pALC"><default>A senhorita não está entendendo...</default></talk>
+	<talk character="pai de Alice"><default>A senhorita não está entendendo...</default></talk>
 	<talk character="Janaína"><default>Não, vocês que não estão. Se vamos falar de justiça, depois eu falo com a diretora e vejo se isso foi justo. Se vamos falar de poder, é melhor não falarem mais. Vocês conhecem um cara muito rico chamado Etos?</default></talk>
-	<talk character="pTTN"><default>E-e-etos?</default></talk>
+	<talk character="pai de Tatiane"><default>E-e-etos?</default></talk>
 	<talk character="Janaína"><default>Já vi que sim. Ele é meu namorado. Então saiam daqui. Se quiserem sair das Ilhas, eu não me importo. Mas essas Ilhas, Etos quem me deu e ele pode manter isso aqui sem vocês. Ou talvez com o dinheiro que um de vocês está devendo, não me importa. Mas eu aconselharia à não me ameaçarem mais, pra eu não ter que falar com ele.</default></talk>
 	<teller><default>Os três saem. 19:00. Na casa de Michele...</default></teller>
 	<talk character="Michele"><default>Como assim?!</default></talk>
-	<talk character="pMCL"><default>A garota pode tomar tudo o que temos! Se eu for fazer algo, teremos que tirar ela de lá primeiro. Vai ter que aturar isso por algum tempo.</default></talk>
+	<talk character="pai de Michele"><default>A garota pode tomar tudo o que temos! Se eu for fazer algo, teremos que tirar ela de lá primeiro. Vai ter que aturar isso por algum tempo.</default></talk>
 	<teller><default>Alan e Zenon estão no quarto, pegando suas coisas.</default></teller>
 	<talk character="Alan"><default>Ok. Tem um albergue na...</default></talk>
 	<talk character="Zenon"><default>Vai ter que ir sozinho. Não aceitam vampiros.</default></talk>
@@ -297,7 +297,7 @@
 	<teller><default>Na hora da saída, Michele vai até a sala dos professores.</default></teller>
 	<talk character="Michele"><default>Com licença...</default></talk>
 	<talk character="Mel"><default>Alguma reclamação do corpo discente?</default></talk>
-	<talk character="Michele"><default>Não é mais fácil falar “dos alunos”?</default>
+	<talk character="Michele"><default>Não é mais fácil falar "dos alunos"?</default>
 	<teller>Mel a encara</teller><default>Na verdade vim aqui falar com o Angely. Se fosse com você, iria à diretoria.</default></talk>
 	<talk character="Mel"><default>Mas viria até aqui se não me encontrasse lá... Ou pelo menos eu acho que você pensa.</default></talk>
 	<teller><default>Michele se vira para Angely.</default></teller>
@@ -319,7 +319,7 @@
 	<talk character="Zenon"><default>Tudo aqui?</default></talk>
 	<talk character="Michele"><default>Sim.</default></talk>
 	<teller><default>Zenon vai até Alan. Joga os diários no fogo.</default></teller>
-	<talk character="Michele"><default>MAS QUE RAIOS ESTÁ FAZENDO???</default></talk>
+	<talk character="Michele"><screamed>Mas que raios está fazendo???</screamed></talk>
 	<teller><default>Michele vai na direção da lareira. Alan vai impedi-la, mas ela bate nele. Zenon consegue segurar ela.</default></teller>
 	<talk character="Zenon"><default>Jogamos no fogo as maiores chances de alguém conhecer tudo que se passa na sua cabeça e acabo de perceber que você é fácil demais de se segurar, então é melhor começar a treinar antes que os vampiros descubram o que os CV já sabem.</default></talk>
 	<teller><default>Zenon solta ela. Ajuda Alan. Ela fica olhando para a lareira.</default></teller>
@@ -355,7 +355,7 @@
 	<talk character="Zenon"><default>Qual dos dois quer?</default></talk>
 	<talk character="Mel"><default>Dois? Está se referindo ao dia que se tornou vampiro? Por que isso não pretendo comemorar.</default></talk>
 	<talk character="Zenon"><default>De certa forma foi bom. Não estaria aqui se não fosse por isso.</default></talk>
-	<talk character="Michele"><default>* Oi.</default></talk>
+	<talk character="Michele"><arrive> Oi.</arrive></talk>
 	<talk character="Mel"><default>Michele.</default></talk>
 	<talk character="Michele"><default>Sabe, eu acho que não tem sentido a gente ficar brigando.</default></talk>
 	<talk character="Mel"><default>Eu também. É só parar de tentar me provocar.</default></talk>
@@ -368,7 +368,7 @@
 	<talk character="Estela"><default>Bom, com aquela falsidade toda rolando solta, eu que não sou sensível já não gostei...</default></talk>
 	<talk character="Ang"><default>Quando elas vão se entender?</default></talk>
 	<talk character="Estela"><default>Numa previsão bem otimista? Nunca. Vai ter que sair de perto quando essas duas estiverem juntas.</default></talk>
-	<talk character="Bea"><default>* Aquela Michele é um entojo...</default></talk>
+	<talk character="Bea"><arrive> Aquela Michele é um entojo...</arrive></talk>
 	<talk character="Estela"><default>Ou melhor, três.</default></talk>
 	<talk character="Bea"><default>Nossa, aquilo não é uma blusa, é uma fantasia de carnaval, aliás, fantasia de carnaval de louco, por que fechada daquele jeito...</default></talk>
 	<talk character="Estela"><default>Ela se acha, acha que pode com a Mel... Vai se arrepender um dia.</default></talk>
@@ -378,7 +378,7 @@
 	<talk character="Estela"><default>Bom, ninguém aqui gostava de você, mas você pode ter certeza que depois de conhecer a Michele...</default></talk>
 	<talk character="Bea"><default>Posso levar isso como um elogio?</default></talk>
 	<talk character="Estela"><default>Ai, desculpa, não era pra ofender...</default></talk>
-	<teller><default>Estela olha com cara de “falei merda”.</default></teller>
+	<teller><default>Estela olha com cara de "falei merda".</default></teller>
 	<talk character="Bea"><default>Tudo bem. Já ouvi coisas piores da Kat. Com a diferença que o dela foi intencional...</default></talk>
 	<talk character="Estela"><default>Desculpe se eu ofender de novo, mas se dormisse com o meu namorado eu também não ia gostar muito.</default></talk>
 	<talk character="Bea"><default>Então acho que vai ficar com mais raiva da Michele, porque ela tá de olho nos dois.</default></talk>
@@ -386,9 +386,9 @@
 	<talk character="Bea"><default>Eu sei que pro Zenon você não liga, mas sei do Alan. Me diz uma coisa, você conviveu a mais tempo com ele, como consegue gostar?</default></talk>
 	<talk character="Estela"><default>Talvez estejam certos aqueles que dizem que o amor é cego. Mas o Alan não é meu namorado.</default></talk>
 	<talk character="Bea"><default>Então quer dizer que não vai se importar com o que fizemos...</default></talk>
-	<talk character="Estela"><default>QUÊ???</default></talk>
+	<talk character="Estela"><screamed>Quê???</screamed></talk>
 	<talk character="Bea"><default>Estava só te testando. E já vi que se importa sim.</default></talk>
-	<talk character="Mel"><default>* Alguém podia levar a cadelinha que tá lá na sala pra passear?</default></talk>
+	<talk character="Mel"><arrive> Alguém podia levar a cadelinha que tá lá na sala pra passear?</arrive></talk>
 	<teller><default>As duas olham pra Mel.</default></teller>
 	<talk character="Mel"><default>Sabem de quem estou falando. Hoje é meu aniversário, dei graças de cair num domingo e o único ser que eu não queria ver vem na minha casa...</default></talk>
 	<talk character="Bea"><default>Eu não posso, sol faz mal pra minha pele.</default></talk>
@@ -558,7 +558,7 @@
 	<talk character="Mel"><default>Então parece que ela quem perdeu isso.</default></talk>
 	<talk character="Derik"><default>Kat não vai a uma festa desde o aniversário dela. Sabe como ela gosta disso. Até a Agatha ela aturava, qual o problema com Michele?</default></talk>
 	<talk character="Mel"><default>A Agatha ela aturava. Da Michele ela é amiga. Além do que, Agatha sempre estimulou Kat a te trair e Kat nunca fez isso.</default></talk>
-	<talk character="Derik"><default>ELA FAZIA ISSO???</default></talk>
+	<talk character="Derik"><screamed>Ela fazia isso???</screamed></talk>
 	<talk character="Mel"><default>Kat era menos vaidosa e consumista antes de virar amiga dessa coisa.</default></talk>
 	<talk character="Derik"><default>Acho que está assim porque Michele encrencou com você.</default></talk>
 	<talk character="Mel"><default>Agatha e Meg sempre encrencaram comigo.</default></talk>
@@ -672,11 +672,11 @@
 	<teller><default>Ela descobre.</default></teller>
 	<talk character="Estela"><default>Eu jamais faria isso!!!</default></talk>
 	<talk character="Kat"><default>Ah, claro! Quem sabe ele não te embebedou para se vingar da briga de ontem!!!</default></talk>
-	<talk character="Estela"><default>Olha aqui, mesmo que tivesse acontecido algo, ele também teria culpa, ou acha que estupraria o “coitadinho”???</default></talk>
+	<talk character="Estela"><default>Olha aqui, mesmo que tivesse acontecido algo, ele também teria culpa, ou acha que estupraria o "coitadinho"???</default></talk>
 	<talk character="Kat"><default>Isso mesmo. Vocês dois têm culpa. Vou ligar pra minha mãe, pra ela não se preocupar mais. Pode ficar aí, com seu novo namorado. Do que eu tô falando, não sei quanto tempo tem isso, como posso dizer novo?!</default></talk>
 	<teller><default>Kat sai do quarto. Pega seu celular.</default></teller>
 	<talk character="Kat"><default>Alô? ### Encontrei ele. ### Não precisa se preocupar, está muito bem. Muito melhor que eu. ### Explico quando chegar em casa. ### Não, não vou fazer nada. ### Não precisa vir me buscar eu tô...</default></talk>
-	<talk character="Estela"><default>KAT, TEM ALGO ERRADO COM O DERIK!!!</default></talk>
+	<talk character="Estela"><screamed>Kat, tem algo errado com o derik!!!</screamed></talk>
 	<teller><default>Soltando o celular, Kat entra correndo no quarto. Michele a segue.</default></teller>
 	<talk character="Kat"><default>Que você fez com ele???</default></talk>
 	<teller><default>Kat coloca a mão na cabeça de Derik. Está quente. Ele está suando.</default></teller>
@@ -687,7 +687,7 @@
 	<teller><default>Volta a fechar os olhos.</default></teller>
 	<talk character="Kat"><default>Michele!!! Chama a ambulância!!!</default></talk>
 	<talk character="Michele"><default>Não há automóveis nessa Ilha!!!</default></talk>
-	<talk character="Kat"><default>ENTÃO CHAMA UM MÉDICO, CHAMA ALGUÉM, DROGA, NÃO FICA PARADA!!!</default></talk>
+	<talk character="Kat"><screamed>Então chama um médico, chama alguém, droga, não fica parada!!!</screamed></talk>
 	<teller><default>23:00. Na casa de Michele, Kat está no sofá, deitada no colo de Angely. Levanta.</default></teller>
 	<talk character="Kat"><default>Vou tomar um ar.</default></talk>
 	<teller><default>Kat sai. Olha pro céu.</default></teller>
@@ -698,12 +698,12 @@
 	<talk character="Bea"><default>Nenhum. Bom, tem sim. Se você sofre, Mel sofre o dobro. Angely então... Não quero ver todo mundo assim.</default></talk>
 	<talk character="Kat"><default>E Edmont?</default></talk>
 	<talk character="Bea"><default>Edmont fica feliz. Sempre fica feliz com a desgraça alheia.</default></talk>
-	<talk character="Ang"><default>KAT!!!</default></talk>
+	<talk character="Ang"><screamed>Kat!!!</screamed></talk>
 	<teller><default>Katerine entra. Beatrice fica. Então Mel chega.</default></teller>
 	<talk character="Mel"><default>Vem também.</default></talk>
 	<teller><default>Bea olha para Mel. As duas entram.</default></teller>
 	<talk character="Kat"><default>Fala logo!!!</default></talk>
-	<talk><default>Ele podia ter morrido com o sedativo que tomou. Parece ter alergia a algum dos componentes. (Gustavo – Médico)</default></talk>
+	<talk character="Gustavo – Médico"><default>Ele podia ter morrido com o sedativo que tomou. Parece ter alergia a algum dos componentes.</default></talk>
 	<talk character="Michele"><default>Eu falei pra chamar o nosso antigo médico, esse aí não tem experiência nenhuma!!!</default></talk>
 	<talk character="Kat"><default>Será que ele tentou...</default></talk>
 	<talk character="Estela"><default>Não, Derik não tomou nenhum sedativo, eu tava com ele quando...</default>
@@ -792,12 +792,12 @@
 	<talk character="Mel"><default>Você é alguém que conseguiu ganhar confiança a muito custo. É mais fácil perdoarem a mim que a você.</default></talk>
 	<teller><default>Mel sobe. 18:00. Recepção da MEAK.</default></teller>
 	<talk character="Bea"><default>Mel que não chega...</default></talk>
-	<talk character="Estela"><default>* Pode ir, eu fico.</default></talk>
+	<talk character="Estela"><arrive> Pode ir, eu fico.</arrive></talk>
 	<talk character="Bea"><default>Fica aqui mesmo???</default></talk>
 	<talk character="Estela"><default>Fico.</default></talk>
 	<talk character="Bea"><default>Obrigado, acho que alguém vai fazer uma besteira e tenho que impedir!!! Coloquei etiquetas nos telefones, não terá problemas!!!</default></talk>
 	<teller><default>Beatrice pega sua bolsa e sai. Enquanto isso, Mel chega a uma lanchonete.</default></teller>
-	<talk><default>Veio atrás do emprego? (Douglas – dono da lanchonete)</default></talk>
+	<talk character="Douglas – dono da lanchonete"><default>Veio atrás do emprego?</default></talk>
 	<talk character="Mel"><default>Não, vim comprar. Perguntou porque sou mulher?</default></talk>
 	<talk character="Douglas"><default>Não, é que eu tinha esperança de te ver todo dia. Bom, não deixa de ser porque é mulher, mas...</default></talk>
 	<talk character="Mel"><default>Vim comprar uma arma.</default></talk>
@@ -839,7 +839,7 @@
 	<talk character="Michele"><default>É seu namorado agora?</default></talk>
 	<talk character="Bea"><default>Se fosse, não tinha perguntado. Já tinha partido a sua cara.</default></talk>
 	<talk character="Michele"><default>Veio aqui me...</default>
-	<teller>se aproxima de Bea</teller><default>“Avisar”?</default></talk>
+	<teller>se aproxima de Bea</teller><default>"Avisar"?</default></talk>
 	<talk character="Bea"><default>Não, eu vim ameaçar mesmo. Não sou sua amiga. E você ter feito Derik tomar remédios sem sua autorização e quase ter matado ele, pode dar processo, sabia?</default></talk>
 	<talk character="Michele"><default>Me processe. Quero ver você provar.</default></talk>
 	<talk character="Bea"><default>Posso provar. Você fez.</default></talk>
@@ -872,7 +872,7 @@
 	<teller><default>Kat sai. Vai correndo até a casa de Michele. Encontra Michele e Mel lutando. Não consegue fazer nada.</default></teller>
 	<talk character="Kat"><default>Mãe...</default></talk>
 	<teller><default>Não parece ter nenhuma delas vencendo, mas Michele está mais cansada. Kat pega o celular e liga para casa. Mel encurrala Michele, apontando a espada para ela.</default></teller>
-	<talk character="Mel"><default>Me diz a verdade, achou que esse seu treinamentozinho de bosta, esse cursinho intensivo “aprenda a lutar em uma semana” ia me vencer??? Eu também não sou humana e devia ter lembrado disso antes de me atacar. Acha que só porque foi a primeira vampira pode me derrubar? E digo só mesmo! Porque, perto do que eu sou, isso é absolutamente nada!!!</default></talk>
+	<talk character="Mel"><default>Me diz a verdade, achou que esse seu treinamentozinho de bosta, esse cursinho intensivo "aprenda a lutar em uma semana" ia me vencer??? Eu também não sou humana e devia ter lembrado disso antes de me atacar. Acha que só porque foi a primeira vampira pode me derrubar? E digo só mesmo! Porque, perto do que eu sou, isso é absolutamente nada!!!</default></talk>
 	<teller><default>Com uma corrente, Katerine arranca a espada de Mel.</default></teller>
 	<talk character="Mel"><default>Andou treinando?</default></talk>
 	<talk character="Kat"><default>De noite. Michele me treina, com o que os dois ensinam.</default></talk>

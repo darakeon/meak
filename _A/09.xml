@@ -53,7 +53,7 @@
 	<teller><default>Angely vai com ele. Bryan está com Annie. Ela de fada madrinha, ele de padre.</default></teller>
 	<talk character="Annie"><default>E se Denise ver?</default></talk>
 	<talk character="Denise"><default>Não vai, ela tá lá dentro...</default></talk>
-	<talk character="Dara"><default>* Recepcionando as pessoas.</default></talk>
+	<talk character="Dara"><arrive> Recepcionando as pessoas.</arrive></talk>
 	<teller><default>Dara está de bruxa.</default></teller>
 	<talk character="Bryan"><default>Olha, não é o que você está pensando.</default></talk>
 	<talk character="Dara"><default>Precisa pensar pra descobrir? Acho que não.</default></talk>
@@ -200,7 +200,7 @@
 	<talk character="Angely"><default>Vocês estão bem?</default></talk>
 	<talk character="Kat"><default>Estou me sentindo zonza...</default></talk>
 	<talk character="Mel"><default>Deve ser por causa do que bebemos.</default></talk>
-	<talk character="Edmont"><irony>Sério??? </irony></talk>
+	<talk character="Edmont"><irony>Sério???</irony></talk>
 	<talk character="Kat"><default>Cadê o avião?</default></talk>
 	<talk character="Angely"><default>Afundou.</default></talk>
 	<talk character="Mel"><default>Está anoitecendo.</default></talk>
@@ -240,75 +240,75 @@
 	<talk character="Mel"><default>Ela é só uma garota!!!</default></talk>
 	<teller><default>A menina pára de se mexer. Edmont deixa um pouco da força com que a segurava e ela o chuta. Ele cai no chão. Corre pra trás de alguém que entrou.</default></teller>
 	<talk character="Kat"><default>Edmont, você tá bem???</default></talk>
-	<talk character="Edmont"><default>Quem foi o infeliz que disse “só uma garota”???</default></talk>
+	<talk character="Edmont"><default>Quem foi o infeliz que disse "só uma garota"???</default></talk>
 	<teller><default>Uma mulher entra e aponta uma arma.</default></teller>
 	<talk character="mulher"><default>Que querem aqui?</default></talk>
 	<talk character="Angely"><default>Que bom que fala nossa língua. Qual seu nome?</default></talk>
-	<talk><default>Íris. O que fazem aqui? (Íris)</default></talk>
+<talk character="Íris"><default>Íris. O que fazem aqui?</default></talk>
 	<talk character="Mel"><default>Viu um avião cair?</default></talk>
-	<talk><default>Talita, eles mexeram em algo? (Íris)</default></talk>
+	<talk character="Íris"><default>Talita, eles mexeram em algo?</default></talk>
 	<teller><default>A menina faz sinal de negativo com a cabeça.</default></teller>
 	<talk character="Angely"><default>Então ela também fala nossa língua?</default></talk>
-	<talk><default>Quem são vocês? (Íris)</default></talk>
+	<talk character="Íris"><default>Quem são vocês?</default></talk>
 	<talk character="Mel"><default>Somos de uma banda, nosso avião caiu...</default></talk>
 	<talk character="Kat"><default>Poderia virar essa coisa pra lá?</default></talk>
-	<talk><default>Não até ter certeza de que são inofensivos. (Íris)</default></talk>
+	<talk character="Íris"><default>Não até ter certeza de que são inofensivos.</default></talk>
 	<teller><default>Talita aponta Edmont.</default></teller>
 	<talk character="Talita"><default>Aquele ali me atacou!</default></talk>
 	<talk character="Mel"><default>Te atacou por que você pulou em cima do Angely!</default></talk>
 	<talk character="Talita"><default>Não deviam ter entrado.</default></talk>
 	<talk character="Mel"><default>Escreve propriedade privada na porta então!</default></talk>
-	<talk><default>Ei, você, levanta do chão! (Íris)</default></talk>
+	<talk character="Íris"><default>Ei, você, levanta do chão!</default></talk>
 	<talk character="Angely"><default>Ela chutou ele.</default></talk>
 	<teller><default>Íris baixa a arma. Alguns minutos depois...</default></teller>
-	<talk><default>Está melhor? (Íris)</default></talk>
+	<talk character="Íris"><default>Está melhor?</default></talk>
 	<talk character="Edmont"><default>Mais ou menos.</default></talk>
-	<talk><default>Pelo menos tá conseguindo falar. (Íris)</default></talk>
+	<talk character="Íris"><default>Pelo menos tá conseguindo falar.</default></talk>
 	<talk character="Angely"><default>Achamos que morasse um homem aqui.</default></talk>
-	<talk><default>É, eu vi que mexeram no armário. A única que me parece nunca ter estado no campo é a menina. (Íris)</default></talk>
+	<talk character="Íris"><default>É, eu vi que mexeram no armário. A única que me parece nunca ter estado no campo é a menina.</default></talk>
 	<talk character="Kat"><default>Meu nome é Kat.</default></talk>
 	<talk character="Mel"><default>Foi a primeira pessoa que não se impressionou com o fato deles serem...</default></talk>
-	<talk><default>Gêmeos quase idênticos? Nada mais me impressiona. (Íris)</default></talk>
+	<talk character="Íris"><default>Gêmeos quase idênticos? Nada mais me impressiona.</default></talk>
 	<talk character="Kat"><default>Você mora aqui sem nenhum contato com a civilização?</default></talk>
-	<talk><default>Tem isso. (Íris)</default></talk>
+	<talk character="Íris"><default>Tem isso.</default></talk>
 	<teller><default>Íris aponta aparelho sobre a mesa.</default></teller>
 	<talk character="Angely"><default>Código morse?</default></talk>
-	<talk><default>Sim. (Íris)</default></talk>
+	<talk character="Íris"><default>Sim.</default></talk>
 	<talk character="Edmont"><default>Legal.</default></talk>
 	<talk character="Kat"><default>Esse aparelho está meio ultrapassado, não acha?</default></talk>
-	<talk><default>E pra que eu preciso de outro? Me serve muito bem este. (Íris)</default></talk>
+	<talk character="Íris"><default>E pra que eu preciso de outro? Me serve muito bem este.</default></talk>
 	<talk character="Kat"><default>Tá...</default></talk>
 	<talk character="Mel"><default>Sabe como podemos sair daqui?</default></talk>
-	<talk><default>A essa hora? (Íris)</default></talk>
+	<talk character="Íris"><default>A essa hora?</default></talk>
 	<talk character="Angely"><default>Só uma pergunta: Onde estamos?</default></talk>
-	<talk><default>Brasil. (Íris)</default></talk>
+	<talk character="Íris"><default>Brasil.</default></talk>
 	<talk character="Edmont"><default>Pelo menos isso!</default></talk>
 	<talk character="Mel"><default>Eu vou agora.</default></talk>
-	<talk><default>Pra onde? (Íris)</default></talk>
+	<talk character="Íris"><default>Pra onde?</default></talk>
 	<talk character="Mel"><default>Pra casa. Quanto mais cedo eu sair daqui, mais cedo chego lá.</default></talk>
-	<talk><default>Se sair a essa hora, não chega lá. (Íris)</default></talk>
+	<talk character="Íris"><default>Se sair a essa hora, não chega lá.</default></talk>
 	<talk character="Mel"><default>E vou fazer o que?</default></talk>
-	<talk><default>Vocês podem ficar aqui. (Íris)</default></talk>
+	<talk character="Íris"><default>Vocês podem ficar aqui.</default></talk>
 	<talk character="Kat"><default>Aqui?</default></talk>
-	<talk><default>Têm algum problema em dormir no chão? (Íris)</default></talk>
+	<talk character="Íris"><default>Têm algum problema em dormir no chão?</default></talk>
 	<talk character="Edmont"><default>Desde que não seja no chão lá fora, pra mim, tudo bem.</default></talk>
 	<talk character="Angely"><default>Eu também não reclamo.</default></talk>
 	<talk character="Mel"><default>Já dormi em lugares bem piores que isso.</default></talk>
 	<talk character="Kat"><default>Tem uma rede pra me emprestar, pelo menos?</default></talk>
-	<talk><default>Pensei que nem sabia o que era isso... Talita, pega aquela rede que tá sobrando. (Íris)</default></talk>
+	<talk character="Íris"><default>Pensei que nem sabia o que era isso... Talita, pega aquela rede que tá sobrando.</default></talk>
 	<teller><default>Talita entra num quarto, pega uma rede e traz.</default></teller>
 	<talk character="Kat"><default>É feita à mão...</default></talk>
 	<talk character="Talita"><default>Nunca tinha visto uma rede feita à mão?</default></talk>
 	<talk character="Kat"><default>Não, geralmente são de máquina.</default></talk>
 	<teller><default>Angely pega a rede e pendura nos ganchos.</default></teller>
-	<talk><default>Pode me ajudar com o urso? (Íris)</default></talk>
+	<talk character="Íris"><default>Pode me ajudar com o urso?</default></talk>
 	<talk character="Kat"><default>Urso???</default></talk>
 	<talk character="Mel"><default>Já tá morto, né???</default></talk>
 	<talk character="Talita"><default>Ela não ia trazer um vivo pra cá. Agora é só tirar a pele.</default></talk>
 	<teller><default>Kat e Mel se entreolham.</default></teller>
 	<talk character="Edmont"><default>Eu ajudo.</default></talk>
 	<talk character="Angely"><default>Onde está?</default></talk>
-	<talk><default>Lá fora. (Íris)</default></talk>
+	<talk character="Íris"><default>Lá fora.</default></talk>
 	<teller><default>Íris sai, seguida dos dois.</default></teller>
 	<talk character="Kat"><default>Eu não quero ver isso.</default></talk>
 	<talk character="Mel"><default>Idem.</default></talk>
@@ -320,19 +320,19 @@
 	<talk character="Edmont"><default>Também eu.</default></talk>
 	<teller><default>Angely vai até o quarto de Íris.</default></teller>
 	<talk character="Angely"><default>Ei, psiu, eu acho que tem algo lá fora.</default></talk>
-	<talk><default>Tem um monte de coisa lá fora. (Íris)</default></talk>
+	<talk character="Íris"><default>Tem um monte de coisa lá fora.</default></talk>
 	<talk character="Angely"><default>Tô falando de gente!</default></talk>
-	<talk><default>Vocês se impressionam fácil demais. (Íris)</default></talk>
+	<talk character="Íris"><default>Vocês se impressionam fácil demais.</default></talk>
 	<talk character="Angely"><default>Quantos anos você tem?</default></talk>
-	<talk><default>Trinta e sete, agora me deixa dormir! (Íris)</default></talk>
+	<talk character="Íris"><default>Trinta e sete, agora me deixa dormir!</default></talk>
 	<talk character="Angely"><default>Sério???</default></talk>
-	<talk><default>Volta pra sala ou eu te jogo lá!!! (Íris)</default></talk>
+	<talk character="Íris"><default>Volta pra sala ou eu te jogo lá!!!</default></talk>
 	<teller><default>Ele sai da casa e não vê coisa alguma. Entra de novo e deita. Oito da manhã e só ele está acordado.</default></teller>
 	<talk character="Angely"><default>Vamos, pessoal!!! Kat, levanta ou eu viro a rede!</default></talk>
 	<talk character="Kat"><default>Tá, tudo bem.</default></talk>
 	<teller><default>Kat boceja e se levanta.</default></teller>
 	<talk character="Angely"><default>Me ajuda a acordar eles...</default></talk>
-	<talk character="Kat"><default>Mel... ACORDA!</default></talk>
+	<talk character="Kat"><default>Mel...</default><screamed>Acorda!</screamed></talk>
 	<teller><default>Kat grita no ouvido de Mel, que literalmente pula.</default></teller>
 	<talk character="Kat"><default>Agora acorda ele.</default></talk>
 	<talk character="Angely"><default>Brigadão!</default></talk>
@@ -344,35 +344,35 @@
 	<talk character="Talita"><default>Estou acordada desde as cinco.</default></talk>
 	<talk character="Angely"><default>E eu desde ontem.</default>
 	<teller>Angely se levanta e se vira pra Talita, que se afasta</teller><default>Eu não mordo.</default></talk>
-	<talk><default>Ela não está acostumada com homens. (Íris)</default></talk>
+	<talk character="Íris"><default>Ela não está acostumada com homens.</default></talk>
 	<talk character="Kat"><default>Tem um copo d’água aí?</default></talk>
-	<talk><default>Está com sede? (Íris)</default></talk>
+	<talk character="Íris"><default>Está com sede?</default></talk>
 	<talk character="Kat"><default>É só pro Edmont acordar.</default></talk>
 	<talk character="Edmont"><default>Já acordei!</default></talk>
 	<talk character="Angely"><default>Então vamos.</default></talk>
 	<talk character="Talita"><default>Tá armando o maior temporal lá fora.</default></talk>
-	<talk><default>Eu acho que alcançam a cidade antes de cair a chuva. (Íris)</default></talk>
+	<talk character="Íris"><default>Eu acho que alcançam a cidade antes de cair a chuva.</default></talk>
 	<talk character="Talita"><default>Melhor esperar passar.</default></talk>
-	<talk><default>Mais inda nem começou! (Íris)</default></talk>
+	<talk character="Íris"><default>Mais inda nem começou!</default></talk>
 	<talk character="Edmont"><default>Ela é sua filha?</default></talk>
-	<talk><default>É impossível eu ter uma filha. (Íris)</default></talk>
+	<talk character="Íris"><default>É impossível eu ter uma filha.</default></talk>
 	<talk character="Talita"><default>Deixa eles ficarem aqui, vão acabar se perdendo na floresta!</default></talk>
 	<talk character="Edmont"><default>Se é por isso, não tem jeito. Uma ora vamos sair daqui.</default></talk>
 	<talk character="Talita"><default>Mas com chuva é mais difícil!</default></talk>
-	<talk><default>Talita!!! (Íris)</default></talk>
+	<talk character="Íris"><default>Talita!!!</default></talk>
 	<talk character="Talita"><default>Ky vem aqui de vez em quando, ele leva eles quando vier!</default></talk>
 	<talk character="Edmont"><default>Vamos gente, já incomodamos demais.</default></talk>
 	<teller><default>Eles se dirigem à porta, está trancada.</default></teller>
-	<talk><default>Talita... (Íris)</default></talk>
+	<talk character="Íris"><default>Talita...</default></talk>
 	<teller><default>Talita entrega a chave pra Íris, que a joga pra Edmont. Talita se coloca em frente a porta.</default></teller>
 	<talk character="Talita"><default>Eles vão se perder.</default></talk>
 	<teller><default>Íris encara Talita.</default></teller>
-	<talk><default>Tudo bem, eles podem ficar! (Íris)</default></talk>
+	<talk character="Íris"><default>Tudo bem, eles podem ficar!</default></talk>
 	<teller><default>Ela sai da frente da porta e abraça Íris.</default></teller>
 	<talk character="Talita"><default>Grazie!</default></talk>
 	<teller><default>Talita vai pra seu quarto.</default></teller>
 	<talk character="Edmont"><default>Olha, não queremos incomodar você...</default></talk>
-	<talk><default>Vocês dois: banquem os engraçadinhos e amarro os dois na floresta pra virar janta. (Íris)</default></talk>
+	<talk character="Íris"><default>Vocês dois: banquem os engraçadinhos e amarro os dois na floresta pra virar janta.</default></talk>
 	<teller><default>Íris pega a chave, abre a porta de saída e depois vai pra seu quarto. Os quatro se entreolham. Edmont corta o silêncio.</default></teller>
 	<talk character="Edmont"><default>Será que ela...</default></talk>
 	<talk character="Angely"><default>É.</default></talk>
@@ -390,21 +390,21 @@
 	<talk character="Kat"><default>Sai fora!!!</default></talk>
 	<talk character="Mel"><default>Gente, nós não sabemos se é isso mesmo, tá legal?</default></talk>
 	<teller><default>Íris volta à sala.</default></teller>
-	<talk><default>Mais se querem ficar, não podem ficar o dia inteiro sem fazer nada...</default>
-	<teller>Kat se afasta de Íris</teller><default>Eu te dou medo? (Íris)</default></talk>
+	<talk character="Íris"><default>Mais se querem ficar, não podem ficar o dia inteiro sem fazer nada...</default>
+	<teller>Kat se afasta de Íris</teller><default>Eu te dou medo?</default></talk>
 	<talk character="Kat"><default>Não, não, é que você chegou de repente...</default></talk>
-	<talk><default>Não vou te agarrar, pode ficar sossegada. (Íris)</default></talk>
+	<talk character="Íris"><default>Não vou te agarrar, pode ficar sossegada.</default></talk>
 	<talk character="Kat"><default>Eu não pensei...</default></talk>
-	<talk><default>Pensou sim. E, sim, sou lésbica. (Íris)</default></talk>
+	<talk character="Íris"><default>Pensou sim. E, sim, sou lésbica.</default></talk>
 	<talk character="Angely"><default>Não temos nenhum preconceito.</default></talk>
 	<talk character="Angely"><default>Quanto tempo vai demorar pro tal do Guy...?</default></talk>
-	<talk><default>É Ky. Ele é meu irmão. Vão ter que ter paciência. (Íris)</default></talk>
+	<talk character="Íris"><default>É Ky. Ele é meu irmão. Vão ter que ter paciência.</default></talk>
 	<talk character="Mel"><default>Demora tanto?</default></talk>
-	<talk><default>Sim. (Íris)</default></talk>
-	<talk character="Talita"><default>* Kat, tem um lago aqui perto.</default></talk>
+	<talk character="Íris"><default>Sim.</default></talk>
+	<talk character="Talita"><arrive> Kat, tem um lago aqui perto.</arrive></talk>
 	<talk character="Kat"><default>Lago?</default></talk>
 	<talk character="Talita"><default>É, enorme, vamos lá?</default></talk>
-	<talk><default>Só Ky vem aqui. Ela não tem amigas. (Íris)</default></talk>
+	<talk character="Íris"><default>Só Ky vem aqui. Ela não tem amigas.</default></talk>
 	<talk character="Talita"><default>Então?</default></talk>
 	<talk character="Kat"><default>Tá, mas eu não tenho roupa pra...</default></talk>
 	<talk character="Talita"><default>Depois eu te empresto uma minha! Vamos assim mesmo!</default></talk>
@@ -412,9 +412,9 @@
 	<talk character="Mel"><default>Tá.</default></talk>
 	<teller><default>Elas saem.</default></teller>
 	<talk character="Edmont"><default>Que vamos ficar fazendo aqui?</default></talk>
-	<talk><default>Sabem jogar cartas? (Íris)</default></talk>
+	<talk character="Íris"><default>Sabem jogar cartas?</default></talk>
 	<talk character="Angely"><default>Faz tempo que não vejo um baralho de cartas.</default></talk>
-	<talk><default>Eu tenho um aí. (Íris)</default></talk>
+	<talk character="Íris"><default>Eu tenho um aí.</default></talk>
 	<talk character="Edmont"><default>Tudo bem.</default></talk>
 	<teller><default>Os três ficam jogando. De tarde, no lago...</default></teller>
 	<talk character="Talita"><default>Eles têm namorada?</default></talk>
@@ -430,31 +430,31 @@
 	<talk character="Talita"><default>Que está querendo dizer?</default></talk>
 	<talk character="Mel"><default>Nada. Mudando de assunto, quem são seus pais?</default></talk>
 	<teller><default>Na cabana, os três estão jogando cartas.</default></teller>
-	<talk><default>Eu encontrei ela na floresta, perdida e sem memória. (Íris)</default></talk>
+	<talk character="Íris"><default>Eu encontrei ela na floresta, perdida e sem memória.</default></talk>
 	<talk character="Angely"><default>Nunca tentou descobrir nada?</default></talk>
-	<talk><default>Não, ela nunca perguntou nada. E vocês? (Íris)</default></talk>
+	<talk character="Íris"><default>Não, ela nunca perguntou nada. E vocês?</default></talk>
 	<talk character="Edmont"><default>Mel é nossa irmã por parte de pai e Kat por parte de mãe.</default></talk>
 	<talk character="Angely"><default>Kat mora separada de nós.</default></talk>
-	<talk><default>Justo a mais nova? (Íris)</default></talk>
+	<talk character="Íris"><default>Justo a mais nova?</default></talk>
 	<talk character="Angely"><default>Os pais adotivos dela eram sócios do pai de uma outra garota, as casas eram de ambos.</default></talk>
 	<talk character="Edmont"><default>Quando morreram, deixaram as casas no nome das duas. Kat é menor e foi morar numa casa junto com a filha única do cara que era sócio do pai dela.</default></talk>
-	<talk><default>Melhor não tentarem explicar, já enrolou tudo. Bati. (Íris)</default></talk>
+	<talk character="Íris"><default>Melhor não tentarem explicar, já enrolou tudo. Bati.</default></talk>
 	<talk character="Angely"><default>Peraí, você não tinha nem uma trinca!</default></talk>
-	<talk><default>As três estavam na mão. (Íris)</default></talk>
+	<talk character="Íris"><default>As três estavam na mão.</default></talk>
 	<teller><default>Íris coloca as cartas na mesa.</default></teller>
 	<talk character="Edmont"><default>Ah, não valeu!</default></talk>
-	<talk><default>Valeu sim. (Íris)</default></talk>
+	<talk character="Íris"><default>Valeu sim.</default></talk>
 	<teller><default>Angely vai até a janela.</default></teller>
 	<talk character="Angely"><default>Já começou a chover.</default></talk>
-	<talk><default>Talita sabe andar pela floresta. (Íris)</default></talk>
+	<talk character="Íris"><default>Talita sabe andar pela floresta.</default></talk>
 	<talk character="Edmont"><default>Foi você quem escolheu esse nome?</default></talk>
-	<talk><default>Talita? (Íris)</default></talk>
+	<talk character="Íris"><default>Talita?</default></talk>
 	<talk character="Edmont"><default>É. Você disse que ela estava sem memória quando a encontrou.</default></talk>
-	<talk><default>Fui, fui eu. (Íris)</default></talk>
+	<talk character="Íris"><default>Fui, fui eu.</default></talk>
 	<talk character="Edmont"><default>Quanto tempo faz isso?</default></talk>
-	<talk><default>Três anos. (Íris)</default></talk>
+	<talk character="Íris"><default>Três anos.</default></talk>
 	<talk character="Edmont"><default>E ela nunca lembrou de nada?</default></talk>
-	<talk><default>Seu irmão foi pra marte? (Íris)</default></talk>
+	<talk character="Íris"><default>Seu irmão foi pra marte?</default></talk>
 	<talk character="Edmont"><default>Ah?</default>
 	<teller>Íris aponta Angely, que está olhando pela janela</teller><default>Angely, Angely...</default>
 	<teller>Edmont se aproxima de Angely</teller><default>Terra chamando...</default></talk>
@@ -468,7 +468,7 @@
 	<teller><default>Elas saem do lago e, caminhando pela trilha, Kat é mordida por uma cobra. Talita mata a cobra e Mel carrega Kat no colo à cabana.</default></teller>
 	<talk character="Angely"><default>Mas o que aconteceu???</default></talk>
 	<talk character="Talita"><default>Uma cobra.</default></talk>
-	<talk><default>Coloca ela na rede. (Íris)</default></talk>
+	<talk character="Íris"><default>Coloca ela na rede.</default></talk>
 	<talk character="Edmont"><default>Espero que tenha puxado a resistência da mãe.</default></talk>
 	<teller><default>Angely puxa Edmont num canto.</default></teller>
 	<talk character="Angely"><default>Nossa mãe era humana.</default></talk>
@@ -478,37 +478,37 @@
 	<talk character="Angely"><default>Como Crow conseguiu matá-la então?</default></talk>
 	<talk character="Edmont"><default>Ele tinha veneno na saliva.</default></talk>
 	<teller><default>Talita presta atenção na conversa dos dois.</default></teller>
-	<talk><default>Onde ela foi mordida? Talita, acorda! (Íris)</default></talk>
+	<talk character="Íris"><default>Onde ela foi mordida? Talita, acorda!</default></talk>
 	<talk character="Talita"><default>No braço.</default></talk>
-	<talk><default>Faz muito tempo? (Íris)</default></talk>
+	<talk character="Íris"><default>Faz muito tempo?</default></talk>
 	<talk character="Talita"><default>Não, acho que inda dá tempo.</default></talk>
 	<teller><default>Íris aplica uma injeção em Kat. De noite, Kat fica na rede, com febre. Íris vai até a cozinha e Talita vai atrás dela.</default></teller>
 	<talk character="Talita"><default>Eu ouvi uma conversa estranha.</default></talk>
-	<talk><default>Do que? (Íris)</default></talk>
+	<talk character="Íris"><default>Do que?</default></talk>
 	<talk character="Talita"><default>Acho que eles não são humanos.</default></talk>
-	<talk><default>Já era de se esperar. Eles são irmãos gêmeos quase idênticos. Não há casos assim entre humanos comuns. (Íris)</default></talk>
+	<talk character="Íris"><default>Já era de se esperar. Eles são irmãos gêmeos quase idênticos. Não há casos assim entre humanos comuns.</default></talk>
 	<talk character="Talita"><default>Estou com medo.</default></talk>
-	<talk><default>Você quem pediu pra eles ficarem. (Íris)</default></talk>
+	<talk character="Íris"><default>Você quem pediu pra eles ficarem.</default></talk>
 	<teller><default>Íris volta pra sala. Talita vai pro quarto. Edmont e Mel dormem.</default></teller>
 	<talk character="Angely"><default>Ela vai ficar bem?</default></talk>
-	<talk><default>Vai. Nunca vi esse tipo de cobra por aqui... (Íris)</default></talk>
+	<talk character="Íris"><default>Vai. Nunca vi esse tipo de cobra por aqui...</default></talk>
 	<talk character="Angely"><default>Como assim?</default></talk>
-	<talk><default>Essa cobra era africana. (Íris)</default></talk>
+	<talk character="Íris"><default>Essa cobra era africana.</default></talk>
 	<talk character="Angely"><default>Alguém já veio até aqui?</default></talk>
-	<talk><default>Ky, mais ninguém. (Íris)</default></talk>
+	<talk character="Íris"><default>Ky, mais ninguém.</default></talk>
 	<talk character="Angely"><default>Ele tem algum motivo pra fazer isso?</default></talk>
-	<talk><default>Não!!! (Íris)</default></talk>
+	<talk character="Íris"><default>Não!!!</default></talk>
 	<teller><default>Ela vai pra seu quarto. Angely fica perto da rede. Não consegue dormir e sai andando pela casa. Vai até o quarto de Íris, que está dormindo. Encontra um jornal com o retrato de Talita mais nova e um procura-se embaixo. Íris o surpreende.</default></teller>
-	<talk><default>Que está fazendo aqui? (Íris)</default></talk>
+	<talk character="Íris"><default>Que está fazendo aqui?</default></talk>
 	<talk character="Angely"><default>Que isso?</default></talk>
 	<teller><default>Angely entrega o jornal à Íris.</default></teller>
-	<talk><default>Não é da sua conta. (Íris)</default></talk>
+	<talk character="Íris"><default>Não é da sua conta.</default></talk>
 	<talk character="Angely"><default>Ela não sabe que a família está procurando, sabe?</default></talk>
-	<talk><default>E você não vai dizer nada se quiser que seus irmãos continuem vivos. (Íris)</default></talk>
+	<talk character="Íris"><default>E você não vai dizer nada se quiser que seus irmãos continuem vivos.</default></talk>
 	<talk character="Angely"><default>A menina não é lésbica.</default></talk>
-	<talk><default>Outra coisa que não é da sua conta. (Íris)</default></talk>
+	<talk character="Íris"><default>Outra coisa que não é da sua conta.</default></talk>
 	<talk character="Angely"><default>Não pode esconder isso dela pra sempre.</default></talk>
-	<talk><default>Quer ou não que seus irmãos voltem sãos e salvos pra casa? (Íris)</default></talk>
+	<talk character="Íris"><default>Quer ou não que seus irmãos voltem sãos e salvos pra casa?</default></talk>
 	<teller><default>Angely volta à sala. Chega perto de Kat e passa a mão na cabeça dela. Dorme ali, pendurado na rede, ao lado de Kat. De manhã, Edmont acorda e Talita está olhando pra ele.</default></teller>
 	<talk character="Edmont"><default>Que foi?</default></talk>
 	<talk character="Talita"><default>Estava com calor?</default></talk>
@@ -527,36 +527,36 @@
 	<talk character="Edmont"><default>É tudo que lembra?</default></talk>
 	<talk character="Talita"><default>E da voz dele.</default></talk>
 	<talk character="Edmont"><default>Nem um rosto?</default></talk>
-	<talk><default>Ela já não disse que não lembra de nada? (Íris)</default></talk>
+	<talk character="Íris"><default>Ela já não disse que não lembra de nada?</default></talk>
 	<teller><default>Mel acorda, olha pela janela e vê um carro.</default></teller>
 	<talk character="Mel"><default>Tem alguém aí.</default></talk>
 	<teller><default>Kat acorda, vê Angely dormindo ao seu lado e o acorda. Eles se levantam. Íris vai até a janela.</default></teller>
-	<talk><default>É Ky. A carona de vocês chegou. (Íris)</default></talk>
+	<talk character="Íris"><default>É Ky. A carona de vocês chegou.</default></talk>
 	<talk character="Talita"><default>Ele tem um problema nas cordas vocais.</default></talk>
 	<teller><default>Íris vai lá fora. Um homem sai do carro.</default></teller>
-	<talk><default>Temos companhia. (Íris)</default></talk>
+	<talk character="Íris"><default>Temos companhia.</default></talk>
 	<talk character="Ky"><default>Quem trouxe eles pra cá?</default></talk>
-	<talk><default>Caíram com um avião. Dizem ser de uma banda. (Íris)</default></talk>
+	<talk character="Íris"><default>Caíram com um avião. Dizem ser de uma banda.</default></talk>
 	<talk character="Ky"><default>Parecem inofensivos.</default></talk>
-	<talk><default>Mais um deles achou o jornal. (Íris)</default></talk>
+	<talk character="Íris"><default>Mais um deles achou o jornal.</default></talk>
 	<talk character="Ky"><default>Não vai poder esconder isso por muito tempo.</default></talk>
-	<talk><default>Já viu alguma coisa sobre eles? (Íris)</default></talk>
+	<talk character="Íris"><default>Já viu alguma coisa sobre eles?</default></talk>
 	<talk character="Ky"><default>Acho que sim.</default></talk>
-	<talk><default>Eu disse que você daria carona a eles. (Íris)</default></talk>
+	<talk character="Íris"><default>Eu disse que você daria carona a eles.</default></talk>
 	<talk character="Ky"><default>Por que eu?</default></talk>
-	<talk><default>* Papai Noel ia demorar muito. (Íris)</default></talk>
+	<talk character="Íris"><arrive> Papai Noel ia demorar muito.</arrive></talk>
 	<teller><default>Mel sai na porta e Ky dá um sorriso pra ela.</default></teller>
-	<talk><default>Então? (Íris)</default></talk>
+	<talk character="Íris"><default>Então?</default></talk>
 	<talk character="Ky"><default>Tudo bem.</default></talk>
 	<teller><default>Os dois vão até a casa.</default></teller>
-	<talk><default>Este é Ky, meu irmão. (Íris)</default></talk>
+	<talk character="Íris"><default>Este é Ky, meu irmão.</default></talk>
 	<talk character="Mel"><default>Melody.</default></talk>
 	<talk character="Ky"><default>Posso te chamar de Mel?</default></talk>
 	<teller><default>Ky disfarça a voz.</default></teller>
 	<talk character="Mel"><default>Claro.</default></talk>
 	<talk character="Ky"><default>Saturn?</default></talk>
 	<talk character="Kat"><default>Exatamente.</default></talk>
-	<talk><default>Então acho que não preciso dizer o resto dos nomes. (Íris)</default></talk>
+	<talk character="Íris"><default>Então acho que não preciso dizer o resto dos nomes.</default></talk>
 	<talk character="Ky"><default>Claro que não, perdi uma namorada por causa deles.</default></talk>
 	<talk character="Talita"><default>Oi, Ky.</default></talk>
 	<talk character="Ky"><default>Oi. Já vou avisando que partiremos de madrugada. Estejam acordados.</default></talk>
@@ -571,9 +571,9 @@
 	<talk character="Ky"><default>Se você aceitar.</default></talk>
 	<teller><default>Mel sai com Ky.</default></teller>
 	<talk character="Edmont"><default>Legal, agora ficamos aqui moscando.</default></talk>
-	<talk><default>Eu estou aqui moscando desde os vinte e cinco. (Íris)</default></talk>
+	<talk character="Íris"><default>Eu estou aqui moscando desde os vinte e cinco.</default></talk>
 	<talk character="Edmont"><default>Cartas de novo?</default></talk>
-	<talk><default>Acho que seu irmão não gostou do meu irmão. (Íris)</default></talk>
+	<talk character="Íris"><default>Acho que seu irmão não gostou do meu irmão.</default></talk>
 	<talk character="Edmont"><default>Ele esqueceu que nossa irmã tem cinco anos a mais que nós. Não tem problema, jogamos sozinhos.</default></talk>
 	<teller><default>Entardece. Ky e Mel estão na floresta.</default></teller>
 	<talk character="Ky"><default>E você nunca pensou em fazer carreira solo?</default></talk>
@@ -611,47 +611,47 @@
 	<talk character="Edmont"><default>Trinca!!! Ganhei!!!</default></talk>
 	<talk character="Angely"><default>Você tá roubando!</default></talk>
 	<talk character="Mel"><default>Nossa, o que tá acontecendo aqui?</default></talk>
-	<talk><default>Joga aí com a gente. (Íris)</default></talk>
+	<talk character="Íris"><default>Joga aí com a gente.</default></talk>
 	<talk character="Ky"><default>Vai ter que apartar a briga primeiro se quiser continuar jogando.</default></talk>
 	<talk character="Mel"><default>As meninas não voltaram ainda?</default></talk>
-	<talk><default>Não, elas devem estar lá no lago ainda. (Íris)</default></talk>
+	<talk character="Íris"><default>Não, elas devem estar lá no lago ainda.</default></talk>
 	<talk character="Ky"><default>Posso falar com você?</default></talk>
-	<talk><default>Claro. (Íris)</default></talk>
+	<talk character="Íris"><default>Claro.</default></talk>
 	<teller><default>Eles vão até o quarto. Angely fica atento ao que eles falam.</default></teller>
 	<talk character="Ky"><default>A família dela tá aumentando cada vez mais o recompensa.</default></talk>
-	<talk><default>Você encontrou outra pessoa? Ótimo pra você. Mas não vai tirar ela daqui. (Íris)</default></talk>
+	<talk character="Íris"><default>Você encontrou outra pessoa? Ótimo pra você. Mas não vai tirar ela daqui.</default></talk>
 	<talk character="Ky"><default>Você me forçou a esquecê-la!</default></talk>
-	<talk><default>Não grita, tem gente aí! (Íris)</default></talk>
+	<talk character="Íris"><default>Não grita, tem gente aí!</default></talk>
 	<talk character="Ky"><default>Danem-se eles!</default></talk>
-	<talk><default>Eu já sei o que você quer, quer pegar a recompensa! (Íris)</default></talk>
+	<talk character="Íris"><default>Eu já sei o que você quer, quer pegar a recompensa!</default></talk>
 	<talk character="Ky"><default>Acha que se eu levar ela lá eles vão me dar alguma recompensa??? Vão mandar me guilhotinar, isso sim!!!</default></talk>
-	<talk><default>Então por que quer levá-la? (Íris)</default></talk>
+	<talk character="Íris"><default>Então por que quer levá-la?</default></talk>
 	<talk character="Ky"><default>Ela tem uma casa, uma família! Aqui, nem contato com o mundo!</default></talk>
-	<talk><default>Mas ela ia fugir com você e ia ter menos ainda! (Íris)</default></talk>
+	<talk character="Íris"><default>Mas ela ia fugir com você e ia ter menos ainda!</default></talk>
 	<talk character="Ky"><default>É diferente! Ela não escolheu a esse lugar, nem a você!</default></talk>
-	<talk><default>Diferente por que? Por que você é homem??? (Íris)</default></talk>
+	<talk character="Íris"><default>Diferente por que? Por que você é homem???</default></talk>
 	<talk character="Ky"><default>Por que ela não escolheu!</default></talk>
-	<talk><default>E acha que ela quer voltar pra lá??? Acha que ela sente falta de toda aquela hipocrisia de que era cercada??? (Íris)</default></talk>
+	<talk character="Íris"><default>E acha que ela quer voltar pra lá??? Acha que ela sente falta de toda aquela hipocrisia de que era cercada???</default></talk>
 	<talk character="Ky"><default>Ela me amava, por isso ia fugir comigo!</default></talk>
-	<talk><default>E ia ser abandonada logo em seguida, quando você cansasse dela! (Íris)</default></talk>
+	<talk character="Íris"><default>E ia ser abandonada logo em seguida, quando você cansasse dela!</default></talk>
 	<talk character="Ky"><default>Se eu fizesse isso ela ia voltar pra família dela!</default></talk>
-	<talk><default>Eu nunca abandonaria ela! (Íris)</default></talk>
+	<talk character="Íris"><default>Eu nunca abandonaria ela!</default></talk>
 	<talk character="Ky"><default>Mas ela não te ama!</default></talk>
-	<talk><default>Cala boca! (Íris)</default></talk>
+	<talk character="Íris"><default>Cala boca!</default></talk>
 	<teller><default>As garotas chegam.</default></teller>
 	<talk character="Talita"><default>Cadê a Íris?</default></talk>
 	<talk character="Angely"><default>Ela tá lá dentro com o irmão.</default></talk>
 	<teller><default>Talita entra no quarto.</default></teller>
 	<talk character="Ky"><default>Você sabe que não!!!</default></talk>
 	<talk character="Talita"><default>Estão brigando?</default></talk>
-	<talk><default>Não, nós só estamos conversando. (Íris)</default></talk>
+	<talk character="Íris"><default>Não, nós só estamos conversando.</default></talk>
 	<talk character="Ky"><default>Eu já vou.</default></talk>
 	<teller><default>Ky vai até a sala.</default></teller>
 	<talk character="Ky"><default>Vocês já estão prontos?</default></talk>
 	<talk character="Kat"><default>A hora que quiser.</default></talk>
 	<teller><default>Mel vira para Íris.</default></teller>
 	<talk character="Mel"><default>Bom, obrigado por ter nos ajudado.</default></talk>
-	<talk><default>De nada. (Íris)</default></talk>
+	<talk character="Íris"><default>De nada.</default></talk>
 	<talk character="Edmont"><default>Adeus.</default></talk>
 	<teller><default>Os cinco saem. Mel vai na frente no carro. Em algumas horas eles estão na casa de Kat. 10:00.</default></teller>
 	<talk character="Mel"><default>Obrigado por ter nos trazido aqui.</default></talk>
@@ -672,7 +672,7 @@
 	<teller><default>Edmont chega na cozinha.</default></teller>
 	<talk character="Edmont"><default>Mel, esquecemos de um detalhe: era pra estarmos na Europa!</default></talk>
 	<talk character="Mel"><default>Edmont, deixa as pessoas pensarem que morremos por hoje. Amanhã chamamos algum repórter e contamos que estamos vivos.</default></talk>
-	<talk character="Kat"><default>* Ela tá certa, por enquanto só os conhecidos ficam sabendo que estamos bem.</default></talk>
+	<talk character="Kat"><arrive> Ela tá certa, por enquanto só os conhecidos ficam sabendo que estamos bem.</arrive></talk>
 	<talk character="Edmont"><default>Tá legal.</default></talk>
 	<talk character="Kat"><default>Agatha tá chorando.</default></talk>
 	<talk character="Edmont"><default>Por que?</default></talk>
@@ -706,47 +706,47 @@
 	<talk character="Angely"><default>Aí é que começou?</default></talk>
 	<talk character="Ky"><default>Talita só tinha doze, eu, vinte e dois. Eu seduzi uma menor, seqüestrei ela e matei uma pessoa, a que tentou levá-la de mim. Nunca mais veria Talita e passaria o resto da vida na cadeia, ou...</default></talk>
 	<talk character="Angely"><default>Poderia vê-la e continuaria livre.</default></talk>
-	<talk character="Edmont"><default>* Isso foi egoísmo.</default></talk>
+	<talk character="Edmont"><arrive> Isso foi egoísmo.</arrive></talk>
 	<talk character="Ky"><default>Eu sei. No começo achei que Íris estava só me ajudando. Talita estava sem memória, mas possivelmente lembraria de tudo se voltasse à cidade. Um ano após isso eu me arrependi de ter escondido e quis devolvê-la à família.</default></talk>
 	<teller><default>Dois anos antes...</default></teller>
 	<talk character="Ky"><default>Dane-se se vou ser preso, eu quero que vá tudo pro inferno, não podemos mais prendê-la aqui!!!</default></talk>
-	<talk><default>Acha que estou fazendo isso por você??? (Íris)</default></talk>
+	<talk character="Íris"><default>Acha que estou fazendo isso por você???</default></talk>
 	<talk character="Ky"><default>Que?</default></talk>
-	<talk><default>Se tivesse tentado descobrir quem eu sou, já teria percebido que pouco me importa se você vai preso ou não!!! (Íris)</default></talk>
+	<talk character="Íris"><default>Se tivesse tentado descobrir quem eu sou, já teria percebido que pouco me importa se você vai preso ou não!!!</default></talk>
 	<talk character="Ky"><default>Você disse que me amava.</default></talk>
-	<talk><default>Pois é, eu deveria ser atriz. (Íris)</default></talk>
+	<talk character="Íris"><default>Pois é, eu deveria ser atriz.</default></talk>
 	<talk character="Ky"><default>Nunca sentiu nada por mim?</default></talk>
-	<talk><default>Nojo! (Íris)</default></talk>
-	<talk character="Ky"><irony>Agora então é lésbica pra sentir nojo de um cara como eu?! </irony></talk>
-	<talk><default>Nossa, descobriu a América. (Íris)</default></talk>
+	<talk character="Íris"><default>Nojo!</default></talk>
+	<talk character="Ky"><irony>Agora então é lésbica pra sentir nojo de um cara como eu?!</irony></talk>
+	<talk character="Íris"><default>Nossa, descobriu a América.</default></talk>
 	<teller><default>Ky olha pra ela, surpreso.</default></teller>
 	<talk character="Ky"><default>Eu vou levar Talita daqui...</default></talk>
-	<talk><default>Eu mato você. (Íris)</default></talk>
+	<talk character="Íris"><default>Eu mato você.</default></talk>
 	<talk character="Ky"><default>Então me mate.</default></talk>
-	<talk><default>Viva daqui ela não sai. (Íris)</default></talk>
+	<talk character="Íris"><default>Viva daqui ela não sai.</default></talk>
 	<talk character="Ky"><default>Eu vou levar ela...</default>
 	<teller>Ky aponta um revolver pra Íris</teller><default>Quer você queira, quer não.</default></talk>
 	<teller><default>Talita chega, mas apenas Íris vê.</default></teller>
-	<talk><default>Vai, atira!!! (Íris)</default></talk>
+	<talk character="Íris"><default>Vai, atira!!!</default></talk>
 	<talk character="Ky"><default>Acha que não tenho coragem?</default></talk>
-	<talk><default>Então atira. Não vai levar Talita com você sem me matar primeiro. (Íris)</default></talk>
+	<talk character="Íris"><default>Então atira. Não vai levar Talita com você sem me matar primeiro.</default></talk>
 	<talk character="Talita"><default>Não!!!</default></talk>
 	<teller><default>Íris aproveita a distração e desarma Ky, jogando-o no chão. Pega uma espingarda e aponta a ele.</default></teller>
-	<talk><default>Talita, sai daqui. (Íris)</default></talk>
+	<talk character="Íris"><default>Talita, sai daqui.</default></talk>
 	<talk character="Talita"><default>Não mata ele, por favor.</default></talk>
-	<talk><default>Ele ia me matar! (Íris)</default></talk>
+	<talk character="Íris"><default>Ele ia me matar!</default></talk>
 	<talk character="Talita"><default>Deixa ele ir embora, por favor!</default></talk>
 	<teller><default>Dois anos à frente.</default></teller>
 	<talk character="Ky"><default>Algum tempo depois, eu voltei lá. Ela impôs condições pra que eu visse Talita. Eu aceitei.</default></talk>
 	<talk character="Angely"><default>Talvez se você falasse com a polícia...</default></talk>
-	<talk character="Ky"><irony>Acha mesmo que eles acreditariam? </irony></talk>
+	<talk character="Ky"><irony>Acha mesmo que eles acreditariam?</irony></talk>
 	<teller><default>Derik (forma canina) chega.</default></teller>
 	<talk character="Ky"><default>Eu esperava que essa amnésia passasse alguma hora. Mas já dura três anos.</default></talk>
 	<talk character="Edmont"><default>Não admitir um primeiro erro é cometer um segundo.</default></talk>
 	<talk character="Angely"><default>Ainda pode consertar isso.</default></talk>
 	<talk character="Ky"><default>Como? Se eu tentar tirar Talita de lá, Íris mata ela.</default></talk>
 	<talk character="Edmont"><default>Não se você tivesse ajuda.</default></talk>
-	<talk character="Ky"><irony>De quem? Vocês? </irony></talk>
+	<talk character="Ky"><irony>De quem? Vocês?</irony></talk>
 	<talk character="Angely"><default>Por que não?</default></talk>
 	<teller><default>Ky dá um sorriso de deboche. Vai embora. Edmont e Angely entram. Derik segue-o.</default></teller>
 	<talk character="Edmont"><default>Então, melhor voltarmos pra casa, né?</default></talk>
@@ -781,7 +781,7 @@
 	<talk character="Kat"><default>Do que estavam falando?</default></talk>
 	<teller><default>Eles explicam tudo pra Kat e Derik.</default></teller>
 	<talk character="Angely"><default>Então agora precisamos de alguém pra ir até a casa dos pais de Talita.</default></talk>
-	<talk character="Derik"><default>Bom, não podem ser vocês, qualquer um reconhece o “Saturn”.</default></talk>
+	<talk character="Derik"><default>Bom, não podem ser vocês, qualquer um reconhece o "Saturn".</default></talk>
 	<talk character="Edmont"><default>Exatamente.</default></talk>
 	<talk character="Derik"><default>Ei!!!</default></talk>
 	<talk character="Kat"><default>No jornal tem o endereço deles?</default></talk>
@@ -889,7 +889,7 @@
 	<talk character="Edmont"><default>Levanta, preguiçoso!</default></talk>
 	<teller><default>Quando os dois estão pra sair, Mel chega (10:00). Eles estão na cozinha.</default></teller>
 	<talk character="Mel"><default>Não vão acreditar no que descobri!</default></talk>
-	<talk character="Edmont"><irony>A Íris já roubou um banco? </irony></talk>
+	<talk character="Edmont"><irony>A Íris já roubou um banco?</irony></talk>
 	<talk character="Mel"><default>Não, mas ela matou um professor na faculdade.</default></talk>
 	<talk character="Angely"><default>ÃH???</default></talk>
 	<talk character="Mel"><default>Isso mesmo.</default></talk>
@@ -998,21 +998,21 @@
 	<talk character="Mel"><default>Foi mais fácil do que pensávamos.</default></talk>
 	<teller><default>Ky, Mel, Kat e Derik vão no carro. Edmont e Angely pegam as motos. Chegam umas três horas depois da partida. Os garotos ficam perto do lago. Ky leva as garotas até a cabana.</default></teller>
 	<talk character="Ky"><default>Íris, você tá aí?</default></talk>
-	<talk><default>Que você quer??? (Íris)</default></talk>
+	<talk character="Íris"><default>Que você quer???</default></talk>
 	<talk character="Ky"><default>Você tem visita.</default></talk>
 	<talk character="Mel"><default>Oi.</default></talk>
-	<talk><default>Esqueceu alguma coisa? (Íris)</default></talk>
+	<talk character="Íris"><default>Esqueceu alguma coisa?</default></talk>
 	<talk character="Kat"><default>A Talita pediu pra trazer isso pra ela.</default></talk>
 	<teller><default>Kat mostra a caixa de chocolate.</default></teller>
-	<talk><default>Tão faltando dois. (Íris)</default></talk>
+	<talk character="Íris"><default>Tão faltando dois.</default></talk>
 	<talk character="Mel"><default>Ficaram em casa.</default></talk>
-	<talk><default>E você, por que veio? (Íris)</default></talk>
+	<talk character="Íris"><default>E você, por que veio?</default></talk>
 	<talk character="Mel"><default>Não leve a mal, mas eu não ia deixar a Kat vir sozinha.</default></talk>
 	<teller><default>Mel faz um sinal apontando pra Ky.</default></teller>
-	<talk><default>Fez bem. A especialidade desse aí é enganar garotas novinhas assim. (Íris)</default></talk>
+	<talk character="Íris"><default>Fez bem. A especialidade desse aí é enganar garotas novinhas assim.</default></talk>
 	<teller><default>Ky encara Íris, que não se importa.</default></teller>
 	<talk character="Kat"><default>A Talita tá aí?</default></talk>
-	<talk><default>Ela foi até o lago. Daqui a pouco ela tá de volta. (Íris)</default></talk>
+	<talk character="Íris"><default>Ela foi até o lago. Daqui a pouco ela tá de volta.</default></talk>
 	<teller><default>No lago...</default></teller>
 	<talk character="Edmont"><default>Oi.</default></talk>
 	<teller><default>Ela se assusta com a presença dele e fica só com a cabeça pra fora d’água.</default></teller>
@@ -1052,36 +1052,36 @@
 	<talk character="Edmont"><default>Não, não é!</default></talk>
 	<teller><default>Ela sai correndo. Edmont vai atrás dela, seguido de Angely e Aurium (Derik versão canina). Eles chegam na cabana.</default></teller>
 	<talk character="Talita"><default>Você mentiu pra mim.</default></talk>
-	<talk><default>Por que eu te amo. (Íris)</default></talk>
+	<talk character="Íris"><default>Por que eu te amo.</default></talk>
 	<talk character="Talita"><default>Isso não é amor, é obsessão.</default></talk>
 	<talk character="Mel"><default>Não tínhamos planejado que vocês impediriam ela de vir até aqui?</default></talk>
 	<talk character="Edmont"><default>Tentamos.</default></talk>
 	<teller><default>Íris pega a arma e puxa Kat, fazendo-a de refém. Vira oara Angely.</default></teller>
-	<talk><default>Eu falei pra você ficar quieto. (Íris)</default></talk>
+	<talk character="Íris"><default>Eu falei pra você ficar quieto.</default></talk>
 	<talk character="Ky"><default>Larga ela, Íris.</default></talk>
-	<talk><default>Cala essa boca! (Íris)</default></talk>
+	<talk character="Íris"><default>Cala essa boca!</default></talk>
 	<talk character="Talita"><default>Achei que você fosse gente.</default></talk>
-	<talk><default>Ia fazer alguma diferença? Você não gosta de mim! (Íris)</default></talk>
+	<talk character="Íris"><default>Ia fazer alguma diferença? Você não gosta de mim!</default></talk>
 	<talk character="Talita"><default>Sabia que eu tenho uma família?</default></talk>
-	<talk><default>Chama aquilo de família? Eu sou melhor do que eles! (Íris)</default></talk>
+	<talk character="Íris"><default>Chama aquilo de família? Eu sou melhor do que eles!</default></talk>
 	<talk character="Talita"><default>Não é, não, você é louca!</default></talk>
 	<teller><default>Íris joga Kat no chão.</default></teller>
-	<talk><default>Vocês todos vão morrer agora. São apenas alguns preconceituosos a menos no mundo mesmo. (Íris)</default></talk>
-	<talk character="Brad"><default>* Abaixa a arma!</default></talk>
+	<talk character="Íris"><default>Vocês todos vão morrer agora. São apenas alguns preconceituosos a menos no mundo mesmo.</default></talk>
+	<talk character="Brad"><arrive> Abaixa a arma!</arrive></talk>
 	<talk character="Mel"><default>Como chegou aqui?</default></talk>
 	<talk character="Brad"><default>Coloquei um rastreador no seu bolso sem que notasse.</default></talk>
-	<talk><default>Abaixa você essa droga ou eu mato um deles! (Íris)</default></talk>
+	<talk character="Íris"><default>Abaixa você essa droga ou eu mato um deles!</default></talk>
 	<talk character="Brad"><default>Vai pegar muitos anos de prisão. Você e esse animal em forma de gente.</default></talk>
-	<talk><default>E quem vai me prender? Você? (Íris)</default></talk>
+	<talk character="Íris"><default>E quem vai me prender? Você?</default></talk>
 	<talk character="Brad"><default>Chamei reforços antes de entrar aqui. Herói sim, idiota não.</default></talk>
-	<talk><default>Pois quando chegarem só vão pegar um monte de corpos! (Íris)</default></talk>
+	<talk character="Íris"><default>Pois quando chegarem só vão pegar um monte de corpos!</default></talk>
 	<talk character="Brad"><default>Eu tô avisando, solta a arma e deita no chão!</default></talk>
-	<talk><default>Só por que é um homem mandando? (Íris)</default></talk>
+	<talk character="Íris"><default>Só por que é um homem mandando?</default></talk>
 	<talk character="Brad"><default>Um, dois...</default></talk>
 	<teller><default>Brad vai atirar e Ky se joga em cima de Íris. A arma voa longe.</default></teller>
 	<talk character="Brad"><default>Fiquem no chão e coloquem as mãos onde eu possa ver. Os dois!!!</default></talk>
 	<teller><default>Íris olha para Talita.</default></teller>
-	<talk><default>Depois de tudo que fiz por você vai deixar isso acabar assim? (Íris)</default></talk>
+	<talk character="Íris"><default>Depois de tudo que fiz por você vai deixar isso acabar assim?</default></talk>
 	<talk character="Talita"><default>Depois de tudo que você fez pra mim, eu nunca mais quero te ver na minha vida.</default></talk>
 	<teller><default>Chegam outros policiais.</default></teller>
 	<talk character="Edmont"><default>Gente, melhor dar o fora antes que a imprensa e a polícia notem que estamos aqui.</default></talk>

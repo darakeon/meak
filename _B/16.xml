@@ -37,7 +37,7 @@
 	<talk character="Derik"><default>Deve estar com fome também, dormindo até agora...</default></talk>
 	<talk character="Kat"><default>Não quer saber o que sonhei?</default></talk>
 	<talk character="Derik"><default>Você nem se mexia... Só respirava.</default>
-	<teller>baixa a cabeça</teller><default>Hã, “só”...</default>
+	<teller>baixa a cabeça</teller><default>Hã, "só"...</default>
 	<teller>volta a olhar para ela</teller><default>Acho que foi isso que me manteve com esperança.</default></talk>
 	<teller><default>Kat o abraça. Ele a beija.</default></teller>
 	<talk character="Derik"><default>Pode contar agora.</default></talk>
@@ -66,16 +66,16 @@
 	<teller><default>Derik vai para a cozinha.</default></teller>
 	<talk character="Derik"><default>Ah! Acabei achando sobre a Lara...</default>
 	<teller>ele fala alto, pra Kat escutar, enquanto pega coisas nos armários para cozinhar</teller><default>Aliás, de novo... quando aconteceu aquele negócio da Meg, eu tinha achado, esqueci por causa da confusão nem falei mais, ela não tocou de novo no assunto. Agora eu tava tão atordoado que não fui falar ainda com Beatrice...</default></talk>
-	<talk character="Bea"><default>* E o que achou?</default></talk>
+	<talk character="Bea"><arrive> E o que achou?</arrive></talk>
 	<teller><default>Ele derruba no chão uma panela que estava em suas mãos.</default></teller>
-	<talk character="Derik"><default>Por que as pessoas não tocam mais a campainha, e entram dizendo “Olá, tudo bem? Vim fazer uma visita...”</default></talk>
+	<talk character="Derik"><default>Por que as pessoas não tocam mais a campainha, e entram dizendo "Olá, tudo bem? Vim fazer uma visita..."</default></talk>
 	<talk character="Bea"><default>Não sou uma pessoa e isso não é uma visita. Estranhei vocês sumirem.</default></talk>
 	<talk character="Derik"><default>Já resolvi isso.</default></talk>
 	<talk character="Bea"><default>E resolveu outra coisa também.</default></talk>
 	<talk character="Derik"><default>Kat precisa se alimentar.</default></talk>
 	<talk character="Bea"><default>Pago uma pizza.</default></talk>
 	<talk character="Derik"><default>Eu te conto enquanto cozinho.</default></talk>
-	<talk character="Kat"><default>* Viu? Arranjei um homem único: consegue fazer mais de uma coisa ao mesmo tempo.</default></talk>
+	<talk character="Kat"><arrive> Viu? Arranjei um homem único: consegue fazer mais de uma coisa ao mesmo tempo.</arrive></talk>
 	<teller><default>22:00. Beatrice, sentada, olha para Lara, deitada. Zenon está perto, em pé.</default></teller>
 	<talk character="Bea"><default>Ela não merece isso.</default></talk>
 	<talk character="Zenon"><default>Vai ter que entregar isso para alguém.</default></talk>
@@ -299,10 +299,10 @@
 	<talk character="Aléxis"><default>Uma bruxa?</default></talk>
 	<talk character="Etos"><default>Vampira.</default></talk>
 	<talk character="Aléxis"><default>Da Lish ou minha?</default></talk>
-	<talk character="Etos"><default>Eu poderia começar a usar essa sua nomenclatura também. Afinal, eu quem sou “responsável” pela primeira linhagem, Lish não transformou mais ninguém.</default></talk>
+	<talk character="Etos"><default>Eu poderia começar a usar essa sua nomenclatura também. Afinal, eu quem sou "responsável" pela primeira linhagem, Lish não transformou mais ninguém.</default></talk>
 	<talk character="Aléxis"><default>Não respondeste.</default></talk>
 	<talk character="Etos"><default>Bom, ela foi transformada por Elian, que foi transformado por Kassandra.</default></talk>
-	<talk character="Kassandra"><default>Sabe que a “nomenclatura” me agradou também? Se seguirmos isso, Edmont seria meu...</default></talk>
+	<talk character="Kassandra"><default>Sabe que a "nomenclatura" me agradou também? Se seguirmos isso, Edmont seria meu...</default></talk>
 	<talk character="Aléxis"><default>E por que eu teria que agradar Beatrice?</default></talk>
 	<talk character="Etos"><default>Qualquer homem quer agradá-la.</default></talk>
 	<talk character="Dilan"><default>Algumas mulheres também.</default></talk>
@@ -362,7 +362,7 @@
 	<talk character="Bea"><default>Se você fosse menos afoito, eu te entregaria o anel.</default></talk>
 	<teller><default>Beatrice pega uma bolsa e coloca coisas dentro. Além de roupas, o tranqüilizante de Angely. Desce à casa de Zenon, ele está na sala.</default></teller>
 	<talk character="Bea"><default>Você vem comigo?</default></talk>
-	<talk character="Michele"><default>* Pra onde?</default></talk>
+	<talk character="Michele"><arrive> Pra onde?</arrive></talk>
 	<talk character="Bea"><default>Grécia.</default></talk>
 	<talk character="Michele"><default>Algo especial lá?</default></talk>
 	<talk character="Bea"><default>Não é coisa pra você resolver, Michele.</default></talk>
@@ -419,7 +419,7 @@
 	<teller><default>Toca o telefone de Zenon. Este atende.</default></teller>
 	<talk character="Zenon"><default>Alan?</default></talk>
 	<talk character="Alan"><default>Avisei ao Grupo sobre Aléxis.</default></talk>
-	<talk character="Zenon"><default>QUÊ?!</default></talk>
+	<talk character="Zenon"><default>Quê?!</default></talk>
 	<talk character="Alan"><default>Michele me contou.</default></talk>
 	<talk character="Zenon"><default>Sabia que ela não deixaria barato...</default></talk>
 	<talk character="Alan"><default>Eles foram atrás e descobriram que Aléxis veio para o Brasil.</default></talk>
@@ -454,7 +454,7 @@
 	<talk character="Bea"><default>Você e ele têm uma certa rixa.</default></talk>
 	<talk character="Zenon"><default>Nem sei te dizer como isso começou. Só lembro de nunca ter gostado dele, nada mais.</default></talk>
 	<talk character="Bea"><default>Você deve ter feito algo.</default></talk>
-	<talk character="Zenon"><default>EU?!</default></talk>
+	<talk character="Zenon"><screamed>Eu?!</screamed></talk>
 	<talk character="Bea"><default>Você já foi ruim. Rust é apenas fraco.</default></talk>
 	<talk character="Zenon"><default>Claro! Agora ele é um santo! Faz um pedestal pra ele então!</default></talk>
 	<teller><default>Zenon sai. 23/06 (sexta-feira), 21:00. Aléxis está com uma mulher, andando.</default></teller>
@@ -491,7 +491,7 @@
 	<talk character="Juliana"><default>Minha filha fica bem protegida e bem longe daqui. Uma mulher me ajudou quando eu não sabia pra onde ir. Hoje eu sustento a ela e ela continua me ajudando, cuidando da minha filha.</default></talk>
 	<talk character="Aléxis"><default>E se um vampiro se apaixonasse por você e você não o quisesse, e ele fosse atrás dela?</default></talk>
 	<talk character="Juliana"><default>Vou te contar uma historinha que talvez te faça parar com essa mania de achar que os vampiros é que são perigosos. Sim, um homem já ficou obcecado por mim. Um humano. Sabe quem salvou minha filha, quando eu não esperava que ela precisasse ser salva? Um vampiro. E, adivinha! Ele não tava apaixonado por mim. Nem se quer me conhecia.</default></talk>
-	<talk character="Ísis"><default>* Rust nunca mais veio aqui.</default></talk>
+	<talk character="Ísis"><arrive> Rust nunca mais veio aqui.</arrive></talk>
 	<talk character="Juliana"><default>Ísis!</default>
 	<teller>veste um roupão, rápido, pega a criança e a leva pro quarto</teller><default>Que tá fazendo aqui?! Cadê a Susy?! Por que ela te trouxe aqui?!</default></talk>
 	<talk character="Ísis"><default>Quando o coração das pessoas pára de bater, quer dizer que a pessoa morreu? A vovó tá morta, mamãe?</default></talk>
@@ -553,7 +553,7 @@
 	<talk character="Bea"><default>Não.</default></talk>
 	<talk character="Aléxis"><default>Então porque o tranqüilizante?</default></talk>
 	<talk character="Bea"><default>Eu caço vampiros.</default></talk>
-	<talk character="Aléxis"><irony>Ah, sim, aí soube que eu estava de volta e resolveu matar-me, afinal, não fui eu quem ensinou os CVs e lhes deu poder para subjugar os vampiros! </irony></talk>
+	<talk character="Aléxis"><irony>Ah, sim, aí soube que eu estava de volta e resolveu matar-me, afinal, não fui eu quem ensinou os CVs e lhes deu poder para subjugar os vampiros!</irony></talk>
 	<talk character="Bea"><default>Vim de outra Realidade. Uma que você acordava matando.</default></talk>
 	<talk character="Aléxis"><default>Penso que estavas a espionar-me, que te mandaram, para ver se eu acordava bom ou ruim, então decidiriam se me enterrariam ou não, não foi para o que foste mandada?</default></talk>
 	<talk character="Bea"><default>Dá pra disfarçar a porra do sotaque? A desgraça que me criou falava assim e eu não gosto de ficar lembrando dele!</default></talk>
@@ -611,7 +611,7 @@
 	<talk character="Bea"><default>Ele tá com sede.</default></talk>
 	<teller><default>Zenon tira algo do bolso e joga para Aléxis. Um pacotinho com folhas moídas.</default></teller>
 	<talk character="Zenon"><default>O gosto não é dos melhores...</default></talk>
-	<talk character="policial"><default>MÃOS PRO ALTO!!!</default></talk>
+	<talk character="policial"><screamed>Mãos onde eu possa ver!!!</screamed></talk>
 	<teller><default>Os três olham na direção de quem disse: um policial apontando uma arma para eles.</default></teller>
 	<talk character="Zenon"><default>É pra considerar?</default></talk>
 	<talk character="policial"><default>Eu sei o que é isso! Vocês são traficantes! Ficam vendendo drogas pra crianças em porta de escola!</default></talk>
@@ -626,7 +626,7 @@
 	<talk character="Zenon"><default>Dá um susto nele, falta pouco pra ele se borrar.</default></talk>
 	<teller><default>Aléxis abre a boca, com os caninos crescidos. Toma cinco tiros do policial, que sai correndo em seguida. Beatrice vai até ele.</default></teller>
 	<talk character="Bea"><default>Que merda...</default></talk>
-	<talk character="Aléxis"><irony>E a donzela abaixa sobre o herói ferido e diz: “Que merda...”</irony></talk>
+	<talk character="Aléxis"><irony>E a donzela abaixa sobre o herói ferido e diz: "Que merda..."</irony></talk>
 	<talk character="Bea"><default>Não sou uma donzela e você não é um herói.</default></talk>
 	<talk character="Aléxis"><default>A propósito, ao que você se referia quando disse que não levantava?</default></talk>
 	<talk character="Zenon"><default>Beatrice, aviso: isso não é uma pergunta para saber realmente, ele quer é te provar o contrário!</default></talk>
@@ -641,7 +641,7 @@
 	<talk character="Zenon"><default>Ele não é mal.</default></talk>
 	<talk character="Alan"><default>Eles podem decidir isso.</default></talk>
 	<talk character="Zenon"><default>Eles não tem que decidir nada.</default></talk>
-	<talk character="Soraia"><default>* Nem vocês.</default></talk>
+	<talk character="Soraia"><arrive> Nem vocês.</arrive></talk>
 	<talk character="Zenon"><default>Oi.</default></talk>
 	<talk character="Soraia"><default>Como tem caçado?</default></talk>
 	<talk character="Zenon"><default>Vampiros, demônios... Nada humano.</default></talk>
@@ -670,9 +670,9 @@
 	<talk character="Aléxis"><default>Do que?</default></talk>
 	<talk character="Bea"><default>Etos deve ter te falado... Por isso eu sou a mulher que qualquer um quer agradar, o anel! É quase imortalidade!</default></talk>
 	<talk character="Aléxis"><default>Mas o Olho da Lua era azul...</default></talk>
-	<talk character="Bea"><default>NÃO SE FAÇA DE IDIOTA!</default></talk>
+	<talk character="Bea"><screamed>Não se faça de idiota!</screamed></talk>
 	<teller><default>Alguém bate na porta.</default></teller>
-	<talk character="Bea"><default>QUEM É???</default></talk>
+	<talk character="Bea"><screamed>Quem é???</screamed></talk>
 	<talk character="Lara"><out>Aqua.</out></talk>
 	<teller><default>Beatrice reconhece a voz e abre a porta.</default></teller>
 	<talk character="Bea"><default>Lara?</default></talk>
@@ -724,12 +724,12 @@
 	<talk character="Beleno"><default>Bem que senti o cheiro de outro homem em você...</default></talk>
 	<talk character="Bea"><default>Não é isso...</default></talk>
 	<teller><default>Beleno sai voando.</default></teller>
-	<talk character="Bea"><default>Que droga, BELENO!!!</default></talk>
+	<talk character="Bea"><default>Que droga, Beleno!!!</default></talk>
 	<teller><default>Na MEAK, Aléxis está com Aqua do lado de fora. Aléxis é pego por Beleno. Aqua fica com os olhos completamente negros, faz materializar arco e flecha em sua mão e atira em Beleno. Os dois caem no mar. O arco desfaz como apareceu. Ela pula no mar para pegar Aléxis. 15/09. 3:00. Aléxis está na cama com Beatrice. Ela se levanta.</default></teller>
 	<talk character="Aléxis"><default>Que foi? Ainda se sente mal com o que aconteceu?</default></talk>
 	<talk character="Bea"><default>Sei que Beleno precisava levar um chega pra lá, mas...</default></talk>
-	<talk character="Etos"><default>* Olha só, meu casal preferido.</default></talk>
-	<talk character="Bea"><irony>Nossa, realmente uma grande coincidência nos encontrar na nossa casa. </irony></talk>
+	<talk character="Etos"><arrive> Olha só, meu casal preferido.</arrive></talk>
+	<talk character="Bea"><irony>Nossa, realmente uma grande coincidência nos encontrar na nossa casa.</irony></talk>
 	<talk character="Etos"><default>Vão gostar do que encontrei.</default></talk>
 	<teller><default>Beatrice, Etos e Aléxis entram no lugar onde os vampiros nascidos tinham sido presos (um templo subterrâneo na floresta de Ares). Beleno está sentado, com uma criança nos braços e Alete a seu lado. Sente o cheiro deles.</default></teller>
 	<talk character="Beleno"><default>Que fazem aqui?</default></talk>
@@ -737,7 +737,7 @@
 	<talk character="Beleno"><default>Eu decido o que preciso ou não fazer. Você não decidiu sua vida?</default></talk>
 	<talk character="Aléxis"><default>E elas?</default></talk>
 	<talk character="Beleno"><default>Estão muito bem aqui comigo. Fênixs são selvagens e independentes por natureza.</default></talk>
-	<talk character="Inês"><default>* E eu?</default></talk>
+	<talk character="Inês"><arrive> E eu?</arrive></talk>
 	<talk character="Beleno"><default>Pode ficar com a gente se quiser.</default></talk>
 	<talk character="Inês"><default>Aqui?</default></talk>
 	<talk character="Beleno"><default>Se não quer...</default></talk>
@@ -756,9 +756,9 @@
 	<talk character="Etos"><default>Vai me comer? Isso é uma promessa?</default></talk>
 	<teller><default>Beleno sai.</default></teller>
 	<talk character="Etos"><default>Mereço recompensa?</default></talk>
-	<talk character="Bea"><irony>Você colocou algum cartaz? </irony></talk>
-	<talk character="Aléxis"><irony>Não, você colocou? </irony></talk>
-	<talk character="Bea"><irony>Não que eu lembre. </irony></talk>
+	<talk character="Bea"><irony>Você colocou algum cartaz?</irony></talk>
+	<talk character="Aléxis"><irony>Não, você colocou?</irony></talk>
+	<talk character="Bea"><irony>Não que eu lembre.</irony></talk>
 	<teller><default>Os dois saem. Inês olha para Etos.</default></teller>
 	<talk character="Inês"><default>Nem olha. Ainda posso colocar fogo em você.</default></talk>
 	<talk character="Etos"><default>Talvez você goste.</default></talk>
@@ -802,9 +802,9 @@
 	<teller><default>Virgine se senta na cama. Coloca a mão na canela de Beatrice, perto da tornozeleira.</default></teller>
 	<talk character="Virgine"><default>Você foi transformada com 12 anos, com cara de 18. E quando nós falamos cara, nos referimos ao nosso olfato na verdade, com cheiro de 18. Se fizer as contas, os dois são 3 anos a cada 2.</default></talk>
 	<talk character="Bea"><default>Elian fez um feitiço...</default></talk>
-	<talk character="Kassandra"><default>* Elian não sabia dessas coisas. A única coisa que ele entendia era a própria mente doente. Pena que era doente demais pra se tornar interessante.</default></talk>
-	<talk character="Dilan"><default>* Olha, todo mundo aqui... Vai ser assim tão interessante?</default></talk>
-	<talk character="Etos"><default>* A gente pode tentar outras coisas.</default></talk>
+	<talk character="Kassandra"><arrive> Elian não sabia dessas coisas. A única coisa que ele entendia era a própria mente doente. Pena que era doente demais pra se tornar interessante.</arrive></talk>
+	<talk character="Dilan"><arrive> Olha, todo mundo aqui... Vai ser assim tão interessante?</arrive></talk>
+	<talk character="Etos"><arrive> A gente pode tentar outras coisas.</arrive></talk>
 	<teller><default>Dilan dá um pulo (Etos aparecera atrás dele).</default></teller>
 	<talk character="Etos"><default>Não se assuste, sei que nunca tentou, porque não experimentar?</default></talk>
 	<teller><default>Dilan pára e pensa.</default></teller>
@@ -816,7 +816,7 @@
 	<talk character="Virgine"><default>A pedra. Rust também usa desde que nasceu.</default></talk>
 	<teller><default>Beatrice tenta soltar a perna.</default></teller>
 	<talk character="Virgine"><default>Calma. A sua corrente é mais fraca que a dele. Vai soltar assim que eu te livrar disso. Vamos ver se você fica tão interessante quando o Rust. Ah, e eu vou soltá-lo também.</default></talk>
-	<teller><default>20/09. 7:00. Beatrice acorda dentro da jaula. Rust está abraçado com ela. As correntes em que Aléxis estava pendurado agora estão “vazias”. Rust está com a braçadeira e ela com a tornozeleira.</default></teller>
+	<teller><default>20/09. 7:00. Beatrice acorda dentro da jaula. Rust está abraçado com ela. As correntes em que Aléxis estava pendurado agora estão "vazias". Rust está com a braçadeira e ela com a tornozeleira.</default></teller>
 	<talk character="Bea"><default>Rust?</default></talk>
 	<teller><default>Ele acorda. Passa a mão no rosto dela.</default></teller>
 	<talk character="Rust"><default>Que aconteceu?</default></talk>
@@ -873,8 +873,8 @@
 	<teller><default>Rust pega a chave das mãos de Beatrice, abre a porta e faz sinal pra que ela passe. Sai também. Beatrice pega a chave das mãos dele, tranca e joga a chave na privada.</default></teller>
 	<talk character="Rust"><default>Ela fica irritada com essas coisas.</default></talk>
 	<talk character="Bea"><default>Dane-se. Vou procurar Aléxis.</default></talk>
-	<talk character="Argo"><default>* Ela o levou pra Grécia de volta.</default></talk>
-	<talk character="Rust"><irony>Que pena. </irony></talk>
+	<talk character="Argo"><arrive> Ela o levou pra Grécia de volta.</arrive></talk>
+	<talk character="Rust"><irony>Que pena.</irony></talk>
 	<talk character="Argo"><default>Acho que não vai conseguir fazer o feitiço sem nós lá.</default></talk>
 	<talk character="Rust"><default>E o que estamos esperando?</default></talk>
 	<teller><default>Argo sai. Rust o segue, Beatrice também. 21:00. Argo e Rust chegam.</default></teller>

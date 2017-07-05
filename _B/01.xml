@@ -21,7 +21,7 @@
 	<talk character="Bea"><default>Ele era o escolhido pra destruir o livro?</default></talk>
 	<talk character="Mel"><default>Agora vai fingir que não sabe!!! E eu que acreditei que tinha ido só se despedir de Edmont, não é, senhorita lágrimas de crocodilo?!</default></talk>
 	<talk character="Bea"><default>Não estava mentindo!!!</default></talk>
-	<talk character="Edmont"><default>Desde quando você deve satisfações à ela? É uma vampira e ela, apenas uma caçadora, que nem mira tem.</default></talk>
+	<talk character="Edmont"><default>Desde quando você deve satisfações a ela? É uma vampira e ela, apenas uma caçadora, que nem mira tem.</default></talk>
 	<teller><default>Zenon dá um soco em Edmont, que cai no chão. Beatrice vai até Edmont. Ele se senta e olha pra Zenon.</default></teller>
 	<talk character="Edmont"><default>Não vou nem responder a isso, não quero te desmontar.</default></talk>
 	<talk character="Zenon"><default>Sem problemas, não ia fazer diferença você tentar ou não me bater.</default></talk>
@@ -67,14 +67,14 @@
 	<teller><default>Edmont ri. Zenon fica sentado, quase fora do templo.</default></teller>
 	<talk character="Zenon"><default>Bom, pelo menos agora falta pouco tempo.</default></talk>
 	<teller><default>Ele ouve algo.</default></teller>
-	<talk><default>SERÁ QUE DÁ PRA FAZER MENOS BARULHO??? Que droga...(ZNN)</default></talk>
+	<talk character="Zenon"><screamed>Será que dá pra fazer menos barulho???</screamed><default>Que droga...</default></talk>
 	<teller><default>Os três acabam chegando à ilha principal.</default></teller>
 	<talk character="Alan"><default>Ei, parecem perdidos...</default></talk>
 	<talk character="Mel"><default>Prova que nem sempre as aparências enganam.</default></talk>
 	<talk character="Alan"><default>Eu sou Alan. E vocês?</default></talk>
 	<teller><default>Alan aperta a mão de Mel.</default></teller>
 	<talk character="Mel"><default>Meu nome é Melody, esta é minha irmã,...</default></talk>
-	<talk><default>Nós temos língua. Meu nome é Katerine. Mas pode me chamar de Kat...(KAT)</default></talk>
+	<talk character="Kat"><default>Nós temos língua. Meu nome é Katerine. Mas pode me chamar de Kat...</default></talk>
 	<teller><default>Kat, estende a mão, mas Derik se coloca na frente e aperta a mão de Alan.</default></teller>
 	<talk character="Derik"><default>Eu sou Derik, namorado dela.</default></talk>
 	<teller><default>Alan olha pra Mel.</default></teller>
@@ -121,7 +121,7 @@
 	<teller><default>Os quatro entram. Vão até a sala e se sentam.</default></teller>
 	<talk character="Alan"><default>Ah... E o livro, o que é?</default></talk>
 	<talk character="Mel"><default>Não sabemos o nome, apenas que uma alma pura tem que destruí-lo.</default></talk>
-	<talk character="Alan"><irony>Isso reduz à um milhão... </irony></talk>
+	<talk character="Alan"><irony>Isso reduz a um milhão...</irony></talk>
 	<talk character="Kat"><default>E se alguém virgem ler, destrói sua raça, sendo o único sobrevivente.</default></talk>
 	<talk character="Alan"><default>Tá, caiu pra metade.</default></talk>
 	<talk character="Derik"><default>2003 soma cinco.</default></talk>
@@ -185,14 +185,14 @@
 	<talk character="Íris"><default>Qual o problema, não pode beber sangue humano?...</default></talk>
 	<teller><default>Ela se aproxima dele e toma um soco. Cai no chão.</default></teller>
 	<talk character="Zenon"><default>Desculpa, era o único jeito...</default></talk>
-	<talk character="coveiro"><default>* Que está acontecendo aqui???</default></talk>
+	<talk character="coveiro"><arrive> Que está acontecendo aqui???</arrive></talk>
 	<talk character="Zenon"><default>Conhece essas garotas?</default></talk>
 	<talk character="coveiro"><default>Tenho sempre que espantá-las do cemitério...</default></talk>
 	<talk character="Zenon"><default>Ótimo, pode ligar pra casa delas?</default></talk>
 	<talk character="coveiro"><default>Mas o que você é?</default></talk>
 	<talk character="Zenon"><default>Caçador de vampiros, há dois aqui...</default></talk>
 	<talk character="coveiro"><default>Então deve conhecer Alan?</default></talk>
-	<talk character="Zenon"><thought>Ele deve estar falando de um caça-vampiros... Peraí, será que é o mesmo Alan que me ajudou? Então é melhor eu avisá-lo, lembro pelo que ele passou nessa época... A prima dele, não posso deixar ela morrer... Ísis já tem cinco anos aqui. Falta um ano pra ele saber que tem uma filha. E cinco para ele fazer outra. Mas, se eu avisar, ele não vai passar por isso e não vai me ajudar no futuro. Acho que vou ter que matar à mim mesmo aqui.)</thought></talk>
+	<talk character="Zenon"><thought>Ele deve estar falando de um caça-vampiros... Peraí, será que é o mesmo Alan que me ajudou? Então é melhor eu avisá-lo, lembro pelo que ele passou nessa época... A prima dele, não posso deixar ela morrer... Ísis já tem cinco anos aqui. Falta um ano pra ele saber que tem uma filha. E cinco para ele fazer outra. Mas, se eu avisar, ele não vai passar por isso e não vai me ajudar no futuro. Acho que vou ter que matar a mim mesmo aqui.</thought></talk>
 	<talk character="coveiro"><default>Conhece?</default></talk>
 	<talk character="Zenon"><default>Um que tem uma prima tampinha e chata?</default></talk>
 	<talk character="coveiro"><default>Estela. Eles vão sair da ilha assim que vender a casa.</default></talk>
@@ -203,7 +203,7 @@
 	<teller><default>Ele usa um apito pra chamar outro coveiro. Este vai buscar um carro. Eles colocam as seis dentro do carro. Zenon chega à ilha central. Vai à praia. Vê Mel num quiosque.</default></teller>
 	<talk character="Mel"><default>Não combinamos de esperar na frente do lago???</default></talk>
 	<talk character="Zenon"><default>Haviam aspirantes à projetos de bruxas fajutas...</default></talk>
-	<talk character="Mel"><irony>Ainda bem que você as levou à sério. </irony></talk>
+	<talk character="Mel"><irony>Ainda bem que você as levou à sério.</irony></talk>
 	<talk character="Zenon"><default>E aí, o que conseguiram?</default></talk>
 	<talk character="Mel"><default>Conhecemos um tal de Alan...</default></talk>
 	<talk character="Zenon"><default>Não comprou a casa, comprou?!</default></talk>
@@ -222,15 +222,15 @@
 	<teller><default>Mel encara Zenon. Ele sai. Então Mel repara na roupa do amigo de Alan.</default></teller>
 	<talk character="Mel"><default>Que isso?</default></talk>
 	<talk character="Alan"><default>Esse é meu amigo...</default></talk>
-	<talk><default>J. ("J")</default></talk>
-	<talk character="Mel"><default>“Jota”?</default></talk>
-	<talk><default>Não posso dizer meu nome. (“J”)</default></talk>
+	<talk character="'J'"><default>J.</default></talk>
+	<talk character="Mel"><default>"Jota"?</default></talk>
+	<talk character="'J'"><default>Não posso dizer meu nome.</default></talk>
 	<talk character="Mel"><default>Sabe da história das...</default></talk>
-	<talk><default>Sim. Mas pra trazer seu amigo sem o templo só invocando os três mais poderosos bruxos que existem. As realidades tem várias repetições, inclusive tenho que te avisar que há perigo de encontrar sua réplica mais nova aqui. (“J”)</default></talk>
+	<talk character="'J'"><default>Sim. Mas pra trazer seu amigo sem o templo só invocando os três mais poderosos bruxos que existem. As realidades tem várias repetições, inclusive tenho que te avisar que há perigo de encontrar sua réplica mais nova aqui.</default></talk>
 	<talk character="Mel"><default>Tá, me fale deles.</default></talk>
-	<talk><default>Qualquer pessoa pode ter uma réplica em alguma dimensão. Viajar entre as dimensões, mesmo usando o templo, é perigoso por isso. (“J”)</default></talk>
+	<talk character="'J'"><default>Qualquer pessoa pode ter uma réplica em alguma dimensão. Viajar entre as dimensões, mesmo usando o templo, é perigoso por isso.</default></talk>
 	<talk character="Mel"><default>É meio tarde pro aviso, quer parar de ladainha?!</default></talk>
-	<talk><default>Já vou chegar ao ponto! Esses bruxos, eles não têm réplicas, por isso é difícil encontrá-los. Eles são apenas três para centenas de Realidades! (“J”)</default></talk>
+	<talk character="'J'"><default>Já vou chegar ao ponto! Esses bruxos, eles não têm réplicas, por isso é difícil encontrá-los. Eles são apenas três para centenas de Realidades!</default></talk>
 	<teller><default>Mel fica impaciente.</default></teller>
 	<talk character="Mel"><default>Tá, mas como posso falar com eles?</default></talk>
 	<teller><default>Alan olha pra Zenon, que ainda está olhando pra eles.</default></teller>
@@ -244,7 +244,7 @@
 	<talk character="Alan"><default>Está me ameaçando?</default></talk>
 	<talk character="Zenon"><default>Não, eu...</default></talk>
 	<talk character="Alan"><default>Olha aqui, se tocar um dedo nela, eu juro que te mato!</default></talk>
-	<teller><default>Ele volta para perto de Mel e “J”.</default></teller>
+	<teller><default>Ele volta para perto de Mel e "J".</default></teller>
 	<talk character="Zenon"><default>Tenho que encontrar Clítia.</default></talk>
 	<teller><default>Mel olha pra Zenon. Percebe que ele está preocupado. Os dois olham pra porta ao mesmo tempo. Edmont entra. Alan percebe que Mel está olhando e olha também.</default></teller>
 	<talk character="Alan"><default>Esse desgraçado tava esperando o amigo dele! Mas se ele acha que vou ficar intimidado com isso...</default></talk>
@@ -267,21 +267,21 @@
 	<talk character="Alan"><default>E seu irmão, por que ainda está vivo?</default></talk>
 	<talk character="Mel"><default>Lembra que falei que o outro ficou?</default></talk>
 	<talk character="Alan"><default>Então são gêmeos, um bom outro mau, é isso?</default></talk>
-	<talk><default>Que vida complicada essa sua... (“J”)</default></talk>
-	<teller><default>Mel encara “J”.</default></teller>
+	<talk character="'J'"><default>Que vida complicada essa sua...</default></talk>
+	<teller><default>Mel encara "J".</default></teller>
 	<talk character="Mel"><default>Eles estão ligados. Temos que matar os dois ao mesmo tempo.</default></talk>
 	<talk character="Alan"><default>É só jogar o vampiro no sol e...</default></talk>
 	<teller><default>Os dois encaram Alan.</default></teller>
 	<talk character="Mel"><default>Dá pra ser menos frio? Além do que, não há como fazer isso mesmo que seja a pessoa mais fria. Só Ang vence Edmont e ele não consegue matar ninguém, assim como só Edmont consegue atacar Ang.</default></talk>
 	<teller><default>Zenon vem até eles. Mel encara Zenon.</default></teller>
 	<talk character="Zenon"><default>Que isso?</default></talk>
-	<talk character="Mel"><default>“Você não é a única mulher aqui”?</default></talk>
+	<talk character="Mel"><default>"Você não é a única mulher aqui"?</default></talk>
 	<talk character="Zenon"><default>O Alan...</default></talk>
 	<talk character="Mel"><default>Eu já contei.</default></talk>
 	<talk character="Alan"><default>E eu fingi que acreditei.</default></talk>
 	<teller><default>Zenon viar para Mel.</default></teller>
 	<talk character="Zenon"><default>Posso falar com você em particular?</default></talk>
-	<talk><default>Peraí, eu ainda não disse como podemos chamar os bruxos! (“J”)</default></talk>
+	<talk character="'J'"><default>Peraí, eu ainda não disse como podemos chamar os bruxos!</default></talk>
 	<talk character="Mel"><default>Eu já volto.</default></talk>
 	<teller><default>Os dois saem.</default></teller>
 	<talk character="Mel"><default>Que foi?</default></talk>
@@ -299,10 +299,10 @@
 	<talk character="Mel"><default>Vai fazer alguma besteira. Melhor que resolver isso logo. E ir atrás dele depois.</default></talk>
 	<teller><default>Ela volta ao quiosque.</default></teller>
 	<talk character="Mel"><default>Pode falar, como chamamos eles?</default></talk>
-	<talk><default>Bom... (“J”)</default></talk>
+	<talk character="'J'"><default>Bom...</default></talk>
 	<teller><default>Alan e Mel chegam na casa. Estela está conversando com Kat.</default></teller>
 	<talk character="Alan"><default>Estela, eu disse que hoje era seu dia de cozinhar...</default></talk>
-	<talk character="Estela"><irony>Claro, eu tava pensando em fazer torta de camas com recheio de mesa! </irony></talk>
+	<talk character="Estela"><irony>Claro, eu tava pensando em fazer torta de camas com recheio de mesa!</irony></talk>
 	<talk character="Kat"><default>Derik disse que ia buscar alguma coisa pra gente.</default></talk>
 	<talk character="Alan"><default>Chegou alguém querendo comprar a casa?</default></talk>
 	<talk character="Estela"><default>Só um casal que não gosta de morcegos.</default></talk>
@@ -313,7 +313,7 @@
 	<talk character="Kat"><default>Então, como vamos resolver o problema do Ang?</default></talk>
 	<teller><default>Mel encara Kat. Esta fica esperando uma resposta.</default></teller>
 	<talk character="Mel"><default>Precisamos de algumas coisas...</default></talk>
-	<talk character="Derik"><default>* Trouxe a comida e aproveitei pra encontrar as coisas que precisaríamos pra destruir o livro. Nossa, deu um trabalho... Que estão olhando?</default></talk>
+	<talk character="Derik"><arrive> Trouxe a comida e aproveitei pra encontrar as coisas que precisaríamos pra destruir o livro. Nossa, deu um trabalho... Que estão olhando?</arrive></talk>
 	<teller><default>Depois de algum tempo, Derik voa pela janela (na forma pássaro, é claro).</default></teller>
 	<talk character="Mel"><default>Bom, agora nós teremos mais dois dias. Ang tem que estar aqui na virada do ano.</default></talk>
 	<talk character="Alan"><default>Agora nos resta dormir, já que só podemos chamar eles ao meio-dia.</default></talk>
@@ -353,7 +353,7 @@
 	<talk character="Kash"><default>Nós não precisamos ser chamados quando o assunto é de nosso interesse.</default></talk>
 	<talk character="Alan"><default>Nós precisamos de...</default></talk>
 	<talk character="Yads"><default>Nós sabemos.</default></talk>
-	<talk character="Wige"><default>Já não dissemos à ele que não somos deuses?</default></talk>
+	<talk character="Wige"><default>Já não dissemos a ele que não somos deuses?</default></talk>
 	<talk character="Yads"><default>Acho que ele não fala nossa língua.</default></talk>
 	<talk character="Kat"><default>Derik, quer parar de fazer papel de ridículo???</default></talk>
 	<teller><default>Derik se levanta.</default></teller>
@@ -395,7 +395,7 @@
 	<talk character="Mel"><default>Sim, e...</default></talk>
 	<teller><default>Ela deita-se no sofá. Alan e Estela se assustam quando Kat fica completamente pálida.</default></teller>
 	<talk character="Mel"><default>Tudo bem, isso nós já sabemos.</default></talk>
-	<teller><default>Uma cadeira vem “sozinha” até eles. Então Kat volta à seu corpo.</default></teller>
+	<teller><default>Uma cadeira vem "sozinha" até eles. Então Kat volta à seu corpo.</default></teller>
 	<talk character="Mel"><default>Então vamos separar os grupos. Um pra achar o que será necessário pra destruir o livro e o outro pra limpar o templo.</default></talk>
 	<teller><default>12:00. Mel e Alan estão no templo.</default></teller>
 	<talk character="Alan"><default>Tô falando que Estela tava fingindo...</default></talk>
@@ -446,7 +446,7 @@
 	<teller><default>Yads aparece.</default></teller>
 	<talk character="Yads"><default>Temos muito o que conversar.</default></talk>
 	<talk character="Ang"><default>Eu devia ter ido?</default></talk>
-	<talk character="Wige"><default>Fez muito bem em mandar Beatrice. Ela não teria futuro, o corpo da “alma gêmea” dela não está aqui.</default></talk>
+	<talk character="Wige"><default>Fez muito bem em mandar Beatrice. Ela não teria futuro, o corpo da "alma gêmea" dela não está aqui.</default></talk>
 	<talk character="Ang"><default>Mas há mais de uma alma gêmea?</default></talk>
 	<talk character="Yads"><default>Não, apenas um espírito controla mais de um corpo, mas sem poder carregar informações de um corpo à outro. É inconsciente.</default></talk>
 	<talk character="Ang"><default>E Edmont?</default></talk>
@@ -470,10 +470,10 @@
 	<talk character="Mel"><default>Onde raios vamos conseguir isso???</default></talk>
 	<talk character="Kat"><default>Isso o que?</default></talk>
 	<talk character="Derik"><default>Dentes de um vampiro que não tenha bebido sangue.</default></talk>
-	<talk character="Alan"><default>Bom, iremos à um cemitério esperar que alguém tenha resolvido transformar um vampiro hoje.</default></talk>
+	<talk character="Alan"><default>Bom, iremos a um cemitério esperar que alguém tenha resolvido transformar um vampiro hoje.</default></talk>
 	<talk character="Mel"><default>Beatrice pode ajudar.</default></talk>
 	<talk character="Kat"><default>Não, eu tenho certeza que Edmont vai adorar arrancar os dentes de alguém.</default></talk>
-	<talk character="Edmont"><default>* Falando em mim?</default></talk>
+	<talk character="Edmont"><arrive> Falando em mim?</arrive></talk>
 	<talk character="Mel"><default>Pode nos ajudar?</default></talk>
 	<talk character="Edmont"><default>Legal, quem vai ser minha primeira vítima?</default></talk>
 	<talk character="Mel"><default>Entra.</default></talk>
@@ -509,7 +509,7 @@
 	<talk character="Mel"><default>Bom, amanhã terminamos de limpar o templo.</default></talk>
 	<talk character="Alan"><default>Tô com fome.</default></talk>
 	<teller><default>No cemitério, Edmont vê a garota com quem Zenon tinha brigado no lago.</default></teller>
-	<talk character="Edmont"><default>* Esperando seu irmão sair?</default></talk>
+	<talk character="Edmont"><arrive> Esperando seu irmão sair?</arrive></talk>
 	<talk character="Íris"><default>E o que mais eu estaria fazendo?</default></talk>
 	<talk character="Edmont"><default>Sei lá. Por que deixou ele ser enterrado aqui?</default></talk>
 	<talk character="Íris"><default>Tive que sair correndo, uns policiais chegaram.</default></talk>
@@ -532,7 +532,7 @@
 	<talk character="Henrique"><default>Que graça, um vampiro sem dentes, por que não tira os seus?!</default></talk>
 	<teller><default>Ele vai partir pra cima de Edmont, mas este o joga no chão.</default></teller>
 	<talk character="Edmont"><default>Por que já bebi sangue. Se for por bem, terá sua chance, eles nascem de novo. Se for por mal, aí eu mando os dois pro inferno em seguida.</default></talk>
-	<teller><default>Os cinco vão à um quiosque, jantam e, chegando em casa, encontram Edmont.</default></teller>
+	<teller><default>Os cinco vão a um quiosque, jantam e, chegando em casa, encontram Edmont.</default></teller>
 	<talk character="Alan"><default>Tão rápido?</default></talk>
 	<talk character="Edmont"><default>Táqui, vamos fazer logo isso. Antes que amanheça.</default></talk>
 	<talk character="Estela"><default>Por que antes que amanheça?</default></talk>
@@ -567,7 +567,7 @@
 	<talk character="Mel"><default>Já disse isso.</default></talk>
 	<talk character="Alan"><default>Nem eu!</default></talk>
 	<teller><default>Mel os encara. Eles colocam elas sobre as caixas.</default></teller>
-	<talk character="Mel"><default>“Destrua à quem pertence”, é isso que Ang tem que repetir. Cinco vezes.</default></talk>
+	<talk character="Mel"><default>"Destrua à quem pertence", é isso que Ang tem que repetir. Cinco vezes.</default></talk>
 	<talk character="Alan"><default>Mas por que achou que alguma delas iria repetir?</default></talk>
 	<talk character="Mel"><default>Quando queremos gravar algo pra dizer à alguém, não é o que fazemos?</default></talk>
 	<talk character="Derik"><default>Bom...</default></talk>
@@ -576,7 +576,7 @@
 	<talk character="Kash"><default>Feche e deixe aí até amanhã. Dos acordados, dois ficam de guarda e os outros dois vão para casa, levando as garotas.</default></talk>
 	<talk character="Alan"><default>Eu fico.</default></talk>
 	<talk character="Mel"><default>Mais isso soma seis, nós somos só em...</default></talk>
-	<talk character="Edmont"><default>* Também fico.</default></talk>
+	<talk character="Edmont"><arrive> Também fico.</arrive></talk>
 	<talk character="Mel"><default>Não falei pra ficar lá???</default></talk>
 	<talk character="Edmont"><default>Não, você disse apenas pra eu ficar, não disse aonde. Eu e Alan ficamos e vocês vão.</default></talk>
 	<talk character="Derik"><default>Eu não consigo carregar nenhuma da duas.</default></talk>
@@ -611,7 +611,7 @@
 	<talk character="Edmont"><default>Não...</default></talk>
 	<teller><default>Edmont se afasta dela.</default></teller>
 	<talk character="Mel"><default>Desculpa, eu só tava querendo ajudar.</default></talk>
-	<talk character="Edmont"><default>“Não precisa ser cortês comigo, eu não serei com você.”</default></talk>
+	<talk character="Edmont"><default>"Não precisa ser cortês comigo, eu não serei com você."</default></talk>
 	<teller><default>Mel se senta no chão. Ela acaba adormecendo. Edmont fica olhando.</default></teller>
 	<talk character="Edmont"><default>Que droga. Cadê a Beatrice?</default></talk>
 	<teller><default>Beatrice está numa caverna.</default></teller>
@@ -619,7 +619,7 @@
 	1a RLDD
 	<teller><default>Angely está com Yads.</default></teller>
 	<talk character="Yads"><default>Entendeu tudo?</default></talk>
-	<talk character="Ang"><default>Sim. Tem certeza que só posso dizer a primeira parte à eles?</default></talk>
+	<talk character="Ang"><default>Sim. Tem certeza que só posso dizer a primeira parte a eles?</default></talk>
 	<talk character="Yads"><default>Não pode contar mais nada.</default></talk>
 	<talk character="Ang"><default>Tá. Mas quando eu vou afinal?</default></talk>
 	<talk character="Yads"><default>Quando chegar perto da meia-noite de hoje.</default></talk>
@@ -633,9 +633,9 @@
 	<talk character="Yads"><default>É por isso que é perigoso.</default></talk>
 	<talk character="Ang"><default>Explique-se.</default></talk>
 	2a RLDD
-	<teller><default>Noite. Beatrice chega à um lugar cheio de prédios.</default></teller>
+	<teller><default>Noite. Beatrice chega a um lugar cheio de prédios.</default></teller>
 	<talk character="Bea"><default>Até que enfim civilização...</default></talk>
-	<talk character="Dilan"><default>* Estava na Ilha de Hera?</default></talk>
+	<talk character="Dilan"><arrive> Estava na Ilha de Hera?</arrive></talk>
 	<talk character="Bea"><default>Sim.</default></talk>
 	<teller><default>Beatrice se vira e fica sem saber o que dizer.</default></teller>
 	<talk character="Dilan"><default>Que foi?</default></talk>
@@ -648,7 +648,7 @@
 	<talk character="Bea"><default>Eu quem o criei.</default></talk>
 	<talk character="Dilan"><default>É, isso é realmente estranho. – dá ombros – Foda-se. Tá com fome?</default></talk>
 	1a RLDD
-	<teller><default>Angely chega à uma casa. Está escuro. Passa um carro com o farol aceso e ele vê tudo destruído. Inês está num canto, dormindo.</default></teller>
+	<teller><default>Angely chega a uma casa. Está escuro. Passa um carro com o farol aceso e ele vê tudo destruído. Inês está num canto, dormindo.</default></teller>
 	<talk character="Ang"><default>Inês?</default></talk>
 	<teller><default>Ela acorda. Vai pegar uma faca, mas Angely segura sua mão.</default></teller>
 	<talk character="Ang"><default>Não lembra de mim?</default></talk>
@@ -663,7 +663,7 @@
 	<teller><default>Angely olha pra ela.</default></teller>
 	<talk character="Inês"><special>Sim.</special></talk>
 	<teller><default>Ele ouve a resposta dela, mas não vê a boca se mexer.</default></teller>
-	<talk character="Yads"><default>* Que foi, está tentando fazer ela falar alguma coisa? Esqueci de avisar, ela...</default></talk>
+	<talk character="Yads"><arrive> Que foi, está tentando fazer ela falar alguma coisa? Esqueci de avisar, ela...</arrive></talk>
 	<talk character="Ang"><default>Mas ela tá falando comigo...</default></talk>
 	<talk character="Yads"><default>Deve ser coisa da sua imaginação.</default></talk>
 	<talk character="Ang"><default>É verdade.</default></talk>
@@ -716,7 +716,7 @@
 	<talk character="Ang"><default>Inês!</default></talk>
 	<teller><default>Todos olham pra ele.</default></teller>
 	<talk character="Inês"><special>Pronto, agora estão pensando em que hospital vão te internar...</special></talk>
-	<talk character="Samuel"><default>* Melhor sairmos agora, ou vamos perder a entrevista!</default></talk>
+	<talk character="Samuel"><arrive> Melhor sairmos agora, ou vamos perder a entrevista!</arrive></talk>
 	<talk character="Ang"><default>Mas são dez e meia!</default></talk>
 	<talk character="Samuel"><default>Não vai me dizer que tem horário pra dormir, né???</default></talk>
 	2a RLDD
@@ -772,8 +772,8 @@
 	<talk character="Inês"><special>Entendi até o comentário imbecil, que ele fez pra si mesmo, falando do meu corpo...</special></talk>
 	<talk character="Ang"><default>Que horas são?</default></talk>
 	<talk character="Samuel"><default>Onze. Em ponto. Ainda bem que estamos chegando.</default></talk>
-	<talk><default>Será que vai dar...?</default>
-	<teller>eles vêem um congestionamento</teller><default>...tempo.(ANG)</default></talk>
+	<talk character="Ang"><default>Será que vai dar...?</default>
+	<teller>eles vêem um congestionamento</teller><default>...tempo.</default></talk>
 	<talk character="Samuel"><default>Que deu aqui?!</default></talk>
 	<talk character="Ang"><default>Vamos ficar aqui até meia-noite.</default></talk>
 	<talk character="Samuel"><default>De jeito nenhum!!! Vou chamar um helicóptero.</default></talk>
@@ -797,7 +797,7 @@
 	<teller><default>Angely vê Inês correndo atrás de alguém, sai do seu lugar, atravessa o público e chega até Inês, segurando-a.</default></teller>
 	<talk character="Ang"><default>Não!</default></talk>
 	<teller><default>Todos ficam olhando.</default></teller>
-	<talk character="Yads"><default>Desculpa, mas vai ter que ir assim!!! Quando chegar, repita “destrua à quem pertence”, cinco vezes!!!</default></talk>
+	<talk character="Yads"><default>Desculpa, mas vai ter que ir assim!!! Quando chegar, repita "destrua à quem pertence", cinco vezes!!!</default></talk>
 	<talk character="Ang"><default>Que?</default></talk>
 	<teller><default>Angely segura Inês e fecha os olhos. Os dois desaparecem, com uma luz muito intensa, quase cegando quem olhava.</default></teller>
 	2a RLDD
@@ -884,9 +884,9 @@
 	<talk character="Alan"><default>Bom, vou ter que voltar para a minha casa, para...</default></talk>
 	<talk character="Mel"><default>Não vai, não.</default></talk>
 	<talk character="Alan"><default>Que foi? A casa não caiu...</default></talk>
-	<talk character="Estela"><default>* Que história é essa???</default></talk>
+	<talk character="Estela"><arrive> Que história é essa???</arrive></talk>
 	<talk character="Mel"><default>De acertar sua cabeça ou da casa cair nela?</default></talk>
-	<talk character="Kat"><default>* Os dois!</default></talk>
+	<talk character="Kat"><arrive> Os dois!</arrive></talk>
 	<talk character="Mel"><default>Zenon disse que a casa ia cair, para eu não comprar a casa. Ele não quer que Alan saia daqui.</default></talk>
 	<talk character="Alan"><default>Aquele...</default></talk>
 	<talk character="Mel"><default>Ele disse que vai acontecer algo muito ruim.</default></talk>
@@ -905,7 +905,7 @@
 	<talk character="Derik"><default>Sim.</default></talk>
 	<talk character="Estela"><default>É muito caro, ele tá cobrando os olhos da cara!</default></talk>
 	<talk character="Derik"><default>Nós temos um certo baú de ouro...</default></talk>
-	<talk character="Alan"><default>UM BAÚ DE OURO???</default></talk>
+	<talk character="Alan"><screamed>Um baú de ouro???</screamed></talk>
 	<teller><default>Kat pisa no pé de Derik.</default></teller>
 	<talk character="Derik"><default>Assim eu fico sem pé!</default></talk>
 	<talk character="Kat"><default>Se não quer isso, controla a língua!</default></talk>
@@ -961,7 +961,7 @@
 	<talk character="Ang"><default>Não, apenas me explique isso.</default></talk>
 	<talk character="Mel"><default>Eu já arrumei tudo direitinho, agora é só eles criarem... Bom, vou te explicar tudo.</default></talk>
 	<teller><default>Minutos depois, Kat chega ao quarto onde estão Mel e Ang.</default></teller>
-	<talk character="Kat"><default>* Tava pensando, nós não existimos aqui...</default></talk>
+	<talk character="Kat"><arrive> Tava pensando, nós não existimos aqui...</arrive></talk>
 	<talk character="Mel"><default>Era sobre isso que estávamos falando. Você é menor de idade.</default></talk>
 	<talk character="Kat"><default>E daí?</default></talk>
 	<talk character="Mel"><default>Ang completará vinte e nove em 2003, não vinte e três. Eu continuo com a mesma idade e você também. Eu e Ang nos conhecemos no orfanato. Meu sobrenome é Lorrage e o dele é Kallend, fui adotada por franceses e ele por ingleses.</default></talk>
@@ -986,8 +986,8 @@
 	<teller><default>Kat sai. Ang e Mel se entreolham. Na sala, Alan está de mala – pouca coisa – pronta.</default></teller>
 	<talk character="Alan"><default>Não precisa mais reclamar que eu fico te carregando pra lá e pra cá.</default></talk>
 	<talk character="Estela"><default>Até que era legal.</default></talk>
-	<talk character="Mel"><default>* Tem certeza que vai mesmo?</default></talk>
-	<talk character="Ang"><default>* Pode ficar aqui, se for porque quer resolver problemas, somos mestres em atraí-los.</default></talk>
+	<talk character="Mel"><arrive> Tem certeza que vai mesmo?</arrive></talk>
+	<talk character="Ang"><arrive> Pode ficar aqui, se for porque quer resolver problemas, somos mestres em atraí-los.</arrive></talk>
 	<talk character="Alan"><default>Deixei minha noiva na casa da minha mãe... Por enquanto elas se dão bem, mas relação de sogra e nora geralmente não dá certo. Mando o convite quando for me casar.</default></talk>
 	<talk character="Estela"><default>Você tem só vinte anos... Por que quer casar tão cedo? Além do que, ela é cinco anos mais velha que você, isso é um absurdo!</default></talk>
 	<teller><default>Alan ri.</default></teller>

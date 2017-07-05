@@ -8,11 +8,11 @@
 	<talk character="Zenon"><default>Simples, coloque um espelho na porta.</default></talk>
 	<teller><default>Noutro lado da cidade, os pais de uma garota vão viajar.</default></teller>
 	<talk character="Tereza"><default>Aproveitem bem, não é sempre que o papai consegue tirar férias.</default></talk>
-	<talk><default>Isso vai ser bom... Mas tem certeza que não quer ir conosco? (mãe)</default></talk>
+	<talk character="mãe"><default>Isso vai ser bom... Mas tem certeza que não quer ir conosco?</default></talk>
 	<talk character="Tereza"><default>Não, vocês precisam de um tempo sozinhos.</default></talk>
-	<talk><default>Você é a filha que toda mãe pede à Deus. Se não fosse essa sua mania de... (mãe)</default></talk>
+	<talk character="mãe"><default>Você é a filha que toda mãe pede à Deus. Se não fosse essa sua mania de...</default></talk>
 	<talk character="Tereza"><default>Ah, por favor, mãe, não começa! Não quero discutir antes de você viajar. Não quero ficar aqui brava com você, nem quero que vá com raiva.</default></talk>
-	<talk><default>Está bem. (mãe)</default></talk>
+	<talk character="mãe"><default>Está bem.</default></talk>
 	<talk character="pai"><default>Tudo pronto!</default>
 	<teller>ele entra na sala</teller><default>Vamos?</default></talk>
 	<teller><default>A mãe a abraça, depois o pai. Eles saem. Ela vai pro quarto, até a janela. Acena pra seus pais. Pega velas vermelhas numa gaveta. Espalha pelo quarto. Cobre o espelho. Pega um livro grosso com um desenho e um XIX na capa.</default></teller>
@@ -20,7 +20,7 @@
 	<teller><default>Ela começa a folhear.</default></teller>
 	<talk character="Tereza"><default>Que legal, esse nasceu na primeira hora e primeiro minuto do primeiro dia, primeiro mês e primeiro ano do século dezenove... Diego Leonard, espanhol... 1801, 1826. Vinte e cinco anos de humano e quase duzentos de vampiro. Perfeito.</default></talk>
 	<teller><default>Pega um papel e faz algumas contas. Depois, ela acende as velas. Fecha a janela, arranca a página do livro. Pega uma folha e segura junto com a página do livro arrancada. Senta-se bem no meio do quarto e começa a ler a folha.</default></teller>
-	<talk character="Tereza"><default>Diego Leonard, nascido e morto em Espanha, tendo visto 9264 sóis e nunca mais. Tendo sido amaldiçoado pela sombras para o resto de tua existência. Me escuta agora. Tu e só tu. Te chamo agora, te chamo pra cá, te chamo pra mim, te chamo por mim. Que tu não descanses enquanto não me encontrares. Que eu sofra teus males, que o que te fere também me fira. Que me encontres por tua intuição, que saibas que sou eu, mesmo nunca tendo me visto. Que sonhes comigo e que eu sonhe contigo. Que tenhas uma face de anjo. Se não me levares, que te tornes um ser fraco e viva o resto de tua vida preso à mim, atormentado. Que não esperes muito tempo, que me encontres e me leves logo, que já sou tua e só tua. Que teu coração escute meu chamado. Que me queiras para ti e só para ti. Que não me abandones. Que venhas para perto e me leves para longe. Não me importa o que acontecerá, não me importa pra onde me levarás, só me leve daqui, me tire deste lugar. Tu matas e eu sei disso. Quero que me leves daqui quanto antes. Que morras se deixar outro me fazer dele.</default></talk>
+	<talk character="Tereza"><default>Diego Leonard, nascido e morto em Espanha, tendo visto 9264 sóis e nunca mais. Tendo sido amaldiçoado pela sombras para o resto de tua existência. Me escuta agora. Tu e só tu. Te chamo agora, te chamo pra cá, te chamo pra mim, te chamo por mim. Que tu não descanses enquanto não me encontrares. Que eu sofra teus males, que o que te fere também me fira. Que me encontres por tua intuição, que saibas que sou eu, mesmo nunca tendo me visto. Que sonhes comigo e que eu sonhe contigo. Que tenhas uma face de anjo. Se não me levares, que te tornes um ser fraco e viva o resto de tua vida preso a mim, atormentado. Que não esperes muito tempo, que me encontres e me leves logo, que já sou tua e só tua. Que teu coração escute meu chamado. Que me queiras para ti e só para ti. Que não me abandones. Que venhas para perto e me leves para longe. Não me importa o que acontecerá, não me importa pra onde me levarás, só me leve daqui, me tire deste lugar. Tu matas e eu sei disso. Quero que me leves daqui quanto antes. Que morras se deixar outro me fazer dele.</default></talk>
 	<teller><default>Nesse instante, na casa de Mel e Angely...</default></teller>
 	<talk character="Zenon"><default>Mas eu tô dizendo que...</default></talk>
 	<teller><default>Zenon fica de frente pra Mel. Eles vão se beijar, mas ele sente uma dor muito forte. Abaixa-se com a mão na altura do estômago.</default></teller>
@@ -139,7 +139,7 @@
 	<talk character="Zenon"><default>Vim protegê-la.</default></talk>
 	<teller><default>Rust a larga.</default></teller>
 	<talk character="Rust"><default>Então não é o Zenon que conheço.</default></talk>
-	<teller><default>Tereza, ouvindo a palavra “Zenon”, lembra-se do feitiço.</default></teller>
+	<teller><default>Tereza, ouvindo a palavra "Zenon", lembra-se do feitiço.</default></teller>
 	<talk character="Zenon"><default>Não sou mesmo. Esse morreu faz pouco mais de um ano.</default></talk>
 	<talk character="Rust"><default>Mas creio que ainda não gosta de mim.</default></talk>
 	<talk character="Zenon"><default>Isso realmente não há como mudar.</default></talk>
@@ -350,7 +350,7 @@
 	<teller><default>Kat vai pro quarto de Mel.</default></teller>
 	<talk character="Angely"><default>Parece até apai...</default></talk>
 	<talk character="Mel"><default>De jeito nenhum!!!</default></talk>
-	<talk character="Angely"><irony>Eu sei, não está interessada nele, está preocupada como se preocuparia com qualquer vampiro que anda sobre a terra. Afinal você é uma caça-vampiros! </irony></talk>
+	<talk character="Angely"><irony>Eu sei, não está interessada nele, está preocupada como se preocuparia com qualquer vampiro que anda sobre a terra. Afinal você é uma caça-vampiros!</irony></talk>
 	<talk character="Mel"><default>Tá, talvez eu esteja... Vamos pra casa dessa Tereza, e não me enche.</default></talk>
 	<teller><default>Na casa de Tereza, ela está trancada dentro do quarto. Alguém tenta arrombar a porta. Ela sai pela janela, mas quem tentava arrombar a porta a pega e a leva pra sala.</default></teller>
 	<talk character="Tereza"><default>Por que está atrás de mim???</default></talk>
@@ -432,7 +432,7 @@
 	<teller><default>Na casa de Tereza, Alex desliga o telefone. Há mais dois caça-vampiros na sala.</default></teller>
 	<talk character="Alex"><default>Bom, vocês já sabem quem é Zenon...</default></talk>
 	<talk character="cv1"><default>Minha avó conheceu ele quando tinha vinte e cinco.</default></talk>
-	<talk character="Tereza"><default>* Não o matem, por favor.</default></talk>
+	<talk character="Tereza"><arrive> Não o matem, por favor.</arrive></talk>
 	<talk character="Alex"><default>Que bom que acordou, não vai precisar de ninguém para... Que???</default></talk>
 	<talk character="Tereza"><default>Matem-no e estarão matando-me.</default></talk>
 	<talk character="cv2"><default>Está falando do vampiro que matou seu irmão!!! Nutre algo por esse...</default></talk>
@@ -474,7 +474,7 @@
 	<talk character="Angely"><default>Que tal por que ele é não é mau?</default></talk>
 	<talk character="Mel"><default>Você e sua mania de achar que...</default></talk>
 	<talk character="Angely"><default>Pergunte à Kat então!</default></talk>
-	<talk character="Mel"><default>Ela estava sonhando com ele desde o princípio. Anteontem ele foi à um bar. Voltei lá e um barman disse que ele tinha ido falar com um controlador de sonhos.</default></talk>
+	<talk character="Mel"><default>Ela estava sonhando com ele desde o princípio. Anteontem ele foi a um bar. Voltei lá e um barman disse que ele tinha ido falar com um controlador de sonhos.</default></talk>
 	<talk character="Angely"><default>Acha mesmo que ele estava...</default></talk>
 	<talk character="Mel"><default>Tenho certeza.</default></talk>
 	<talk character="Angely"><default>Pois acho mais acertado o contrário.</default></talk>
@@ -524,7 +524,7 @@
 	<talk character="cv1"><default>Ele me provocou...</default></talk>
 	<talk character="Alex"><default>Humanos morrem de dor, apesar de não fazer grande efeito nesse maldito vampiro!</default></talk>
 	<talk character="Zenon"><default>Quer trocar de lugar?</default></talk>
-	<talk><default>Calado! (Alex/cv1)</default></talk>
+	<talk character="Alex/cv1"><default>Calado!</default></talk>
 	<talk character="Zenon"><default>Posso pelo menos saber qual feitiço que ela fez?</default></talk>
 	<talk character="Alex"><default>Não.</default></talk>
 	<talk character="Zenon"><default>Eu poderia ajudar, conheço...</default></talk>
@@ -619,7 +619,7 @@
 	<talk character="Angely"><default>Ele não matou Igor. Tereza sabe que...</default></talk>
 	<talk character="Mel"><default>Foi outra enganada, o libertou!</default></talk>
 	<talk character="Angely"><default>Não, ela não está enganada!</default></talk>
-	<talk character="Mel"><default>Pode ser que não. Afinal, ela fez um feitiço pra chamar ele pra ela... Aliás, eu tenho que agradecer à ela. Não fosse esse bendito feitiço eu não teria descoberto o que Zenon é realmente. Vou agradecer livrando ela dele.</default></talk>
+	<talk character="Mel"><default>Pode ser que não. Afinal, ela fez um feitiço pra chamar ele pra ela... Aliás, eu tenho que agradecer a ela. Não fosse esse bendito feitiço eu não teria descoberto o que Zenon é realmente. Vou agradecer livrando ela dele.</default></talk>
 	<teller><default>No casarão que era de Lokslay...</default></teller>
 	<talk character="Edmont"><default>Detesto quando alguém tem idéia de se esconder aqui.</default></talk>
 	<talk character="Beatrice"><default>Melhor não tentar tirá-lo, fica mais forte quando está em transe.</default></talk>
@@ -660,7 +660,7 @@
 	<talk character="Zenon"><default>Vou te levar pra longe daqui.</default></talk>
 	<talk character="Tereza"><default>Não precisa...</default></talk>
 	<talk character="Zenon"><default>Precisa sim.</default></talk>
-	<teller><default>Tereza lembra: “Que venhas para perto e me leves para longe”.</default></teller>
+	<teller><default>Tereza lembra: "Que venhas para perto e me leves para longe".</default></teller>
 	<talk character="Tereza"><default>É o feitiço...</default></talk>
 	<talk character="Zenon"><default>Você fez. Você quis. E ainda quer.</default></talk>
 	<talk character="Tereza"><default>Não pedi pra me transformar em vampira.</default></talk>
@@ -709,7 +709,7 @@
 	<teller><default>Angely pega Mel e sai. Deixa ela perto de Tereza e vai embora. Zenon olha pro fogo. Depois pra fora. Não há como escapar. Então o céu escurece, fica completamente nublado. No dia seguinte, Mel está na casa de Tereza, no quarto da garota. Alex, Tereza e os outros dois caça-vampiros estão lá também, na sala. Ela pega um caderno. Começa a ler. Minutos depois, ela desce.</default></teller>
 	<talk character="Mel"><default>Parabéns, Tereza, enganou todo mundo...</default></talk>
 	<talk character="Alex"><default>Ah, você está bem!</default></talk>
-	<talk character="Mel"><default>“Ela olhava tudo... Tudo que citasse aquela palavra tão procurada. Em busca daquele ser que sabia existir, o que todos negavam. Mas ela só sabia isso sobre ele: que existia; que estava em algum lugar; e que a esperava.”</default>
+	<talk character="Mel"><default>"Ela olhava tudo... Tudo que citasse aquela palavra tão procurada. Em busca daquele ser que sabia existir, o que todos negavam. Mas ela só sabia isso sobre ele: que existia; que estava em algum lugar; e que a esperava."</default>
 	<teller>fecha o caderno</teller><default>Que significa isso?</default></talk>
 	<talk character="Tereza"><default>É só algo que estou escrevendo.</default></talk>
 	<talk character="Mel"><default>Mentira. Tem mais algumas aqui, querem ouvir?</default></talk>
@@ -719,7 +719,7 @@
 	<talk character="Mel"><default>Não tem, não. Matem ela, depois Zenon.</default></talk>
 	<talk character="Tereza"><default>Ela não está dizendo coisa com coisa...</default></talk>
 	<talk character="Alex"><default>Que isso, Mel?</default></talk>
-	<talk character="Mel"><default>“Um dia eu vou encontrá-lo... Meu vampiro. Meu dono. Aí estarão todos perdidos. Vou matar cada um deles. Da forma mais dolorosa e devagar que puder.”</default></talk>
+	<talk character="Mel"><default>"Um dia eu vou encontrá-lo... Meu vampiro. Meu dono. Aí estarão todos perdidos. Vou matar cada um deles. Da forma mais dolorosa e devagar que puder."</default></talk>
 	<teller><default>Alex pega o caderno e vê que era isso mesmo escrito.</default></teller>
 	<talk character="Alex"><default>Pode explicar isto?</default></talk>
 	<teller><default>Ela tenta fugir, a seguram. Nesse instante, os pais dela chegam.</default></teller>
@@ -728,10 +728,10 @@
 	<talk character="pai"><default>Saiam já da minha casa!</default></talk>
 	<talk character="cv1"><default>Senhora, sua filha...</default></talk>
 	<talk character="Tereza"><default>Ainda bem que chegaram.</default></talk>
-	<talk><default>Estávamos tentando ligar, não atendia, então viemos. (mãe)</default></talk>
+	<talk character="mãe"><default>Estávamos tentando ligar, não atendia, então viemos.</default></talk>
 	<teller><default>Mel pega uma arma.</default></teller>
 	<talk character="Mel"><default>Se afastem dela.</default>
-	<teller>se dirige aos pais dela, depois à ela</teller><default>Você vem comigo.</default></talk>
+	<teller>se dirige aos pais dela, depois a ela</teller><default>Você vem comigo.</default></talk>
 	<talk character="Alex"><default>Mel, não é assim que...</default></talk>
 	<talk character="Mel"><default>Cala a boca. Vai vir também.</default></talk>
 	<talk character="Alex"><default>Que?</default></talk>
@@ -765,7 +765,7 @@
 	<teller><default>Edmont vai até ela e a beija. Ela segura a pedra em seu pescoço. Ele fica zonzo. Ela olha nos olhos dele e vê eles mudarem: azuis. Dá um sorriso.</default></teller>
 	<talk character="Beatrice"><default>Angely?</default></talk>
 	<talk character="Angely"><default>Zenon...</default></talk>
-	<teller><default>Numa estrada que Zenon indicara à Angely, Edmont se vê dirigindo um carro. Zenon olha pro espelho e vê os olhos dele mudarem. Sem dar tempo à ele, Edmont sorri e atira o carro para o penhasco. De noite, Mel, Tereza e Alex chegam à praia.</default></teller>
+	<teller><default>Numa estrada que Zenon indicara à Angely, Edmont se vê dirigindo um carro. Zenon olha pro espelho e vê os olhos dele mudarem. Sem dar tempo a ele, Edmont sorri e atira o carro para o penhasco. De noite, Mel, Tereza e Alex chegam à praia.</default></teller>
 	<talk character="Tereza"><default>Vai fazer o que? Me matar afogada?</default></talk>
 	<talk character="Mel"><default>Não sei ainda.</default></talk>
 	<talk character="Alex"><default>Melody, chega de besteira.</default></talk>
@@ -830,7 +830,7 @@
 	<talk character="Mel"><default>Acho que vamos.</default></talk>
 	<talk character="Zenon"><default>Tá, eu ajudo.</default></talk>
 	<talk character="Mel"><default>Eu poderia estar falando de mim e Angely.</default></talk>
-	<talk character="Zenon"><default>Leio pensamentos. Eu perguntaria “Vamos?” e você diria “É, eu, você, Angely, Derik e Kat”.</default></talk>
+	<talk character="Zenon"><default>Leio pensamentos. Eu perguntaria "Vamos?" e você diria "É, eu, você, Angely, Derik e Kat".</default></talk>
 	<talk character="Mel"><default>Que bom. Assim provavelmente já sabe que vou te pedir desculpa.</default></talk>
 	<talk character="Zenon"><default>Tudo bem. O que acha, Angely?</default></talk>
 	<teller><default>Angely adentra a cozinha.</default></teller>
@@ -841,22 +841,22 @@
 	<talk character="Mel"><default>E Tereza?</default></talk>
 	<teller><default>No dia seguinte, eles vão ao enterro da garota. Angely se dirige aos pais.</default></teller>
 	<talk character="Angely"><default>Eu tentei evitar...</default></talk>
-	<talk><default>Não é culpa sua. (mãe)</default></talk>
+	<talk character="mãe"><default>Não é culpa sua.</default></talk>
 	<talk character="pai"><default>Ela procurou isso. Não parece a mesma filha que criei.</default></talk>
 	<talk character="Angely"><default>Foi corajosa. Ela lutou, não se entregou fácil.</default></talk>
-	<talk><default>Mesmo? (mãe)</default></talk>
+	<talk character="mãe"><default>Mesmo?</default></talk>
 	<talk character="Angely"><default>Sim. E ela disse pra mim que amava vocês.</default></talk>
 	<talk character="pai"><default>Se Igor tivesse ficado, teria sido evitado.</default></talk>
-	<talk><default>Se nós tivéssemos deixado ele seguir sua vida e continuar perto de nós ao mesmo tempo, aí sim ele teria evitado! (mãe)</default></talk>
+	<talk character="mãe"><default>Se nós tivéssemos deixado ele seguir sua vida e continuar perto de nós ao mesmo tempo, aí sim ele teria evitado!</default></talk>
 	<talk character="Angely"><default>Não briguem. Eles não querem ver vocês brigando.</default></talk>
-	<talk><default>Mas nós... (mãe)</default></talk>
+	<talk character="mãe"><default>Mas nós...</default></talk>
 	<talk character="pai"><default>Agora não temos mais ninguém... Onde erramos?</default></talk>
 	<talk character="Angely"><default>Não erraram. Por que não adotam uma criança? Ou melhor, duas.</default></talk>
-	<talk><default>Pra que? (mãe)</default></talk>
+	<talk character="mãe"><default>Pra que?</default></talk>
 	<talk character="Angely"><default>Não querem ficar sozinhos. Há crianças com o mesmo sentimento, abandonadas.</default></talk>
 	<talk character="pai"><default>Pra criarmos errado de novo?</default></talk>
 	<talk character="Angely"><default>Não criaram errado. Eu queria pedir desculpa...</default></talk>
-	<talk><default>Não foi você quem matou nossos filhos! (mãe)</default></talk>
+	<talk character="mãe"><default>Não foi você quem matou nossos filhos!</default></talk>
 	<talk character="Angely"><default>É estranho. Me sinto culpado assim mesmo.</default></talk>
 	<teller><default>Angely sai.</default></teller>
 </story>

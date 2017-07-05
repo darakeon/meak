@@ -34,7 +34,7 @@
 	<talk character="Alan"><default>Vai fazer um buraco no chão.</default></talk>
 	<teller><default>Ele puxa uma arma e aponta pra Alan.</default></teller>
 	<talk character="Bruno"><default>Posso fazer em você, se preferir assim.</default></talk>
-	<talk character="Ulisses"><default>* Bruno, melhor ficar mais calmo.</default></talk>
+	<talk character="Ulisses"><arrive> Bruno, melhor ficar mais calmo.</arrive></talk>
 	<talk character="Bruno"><default>É o novo bronze do Rio?</default></talk>
 	<talk character="Ulisses"><default>Promoção do outro para prata. Saudade do anterior?</default></talk>
 	<talk character="Bruno"><default>Nem um pouco.</default></talk>
@@ -45,7 +45,7 @@
 	<teller><default>Bruno guarda a arma e se encosta na parede.</default></teller>
 	<talk character="Bruno"><default>Então, por que nos chamou aqui?</default></talk>
 	<talk character="Ulisses"><default>Vou ser breve. Vocês são os três únicos que conheço que têm alguma ligação com vampiros caçadores de outros vampiros e que vocês julgam confiáveis.</default></talk>
-	<talk character="Bruno"><default>Você também “julga confiáveis”, não nos chamaria aqui caso contrário.</default></talk>
+	<talk character="Bruno"><default>Você também "julga confiáveis", não nos chamaria aqui caso contrário.</default></talk>
 	<talk character="Alan"><default>E por que precisa de vampiros?</default></talk>
 	<talk character="Ulisses"><default>Tudo bem, eu sei que vocês dois tiveram problemas conosco, mas podem deixar isso de lado um instante e deixar eu falar?</default></talk>
 	<teller><default>Alan mostra a tatuagem queimada.</default></teller>
@@ -128,7 +128,7 @@
 	<talk character="Selina"><default>Tenta, Lish.</default></talk>
 	<teller><default>Michele encara Selina e sai.</default></teller>
 	<talk character="Zenon"><default>Vamos hoje pra tal cidade?</default></talk>
-	<talk character="Selina"><irony>Que bom, você fala. </irony></talk>
+	<talk character="Selina"><irony>Que bom, você fala.</irony></talk>
 	<talk character="Ulisses"><default>Selina, como eu já disse...</default></talk>
 	<talk character="Selina"><default>Tá, quem vai comigo?</default></talk>
 	<talk character="Ulisses"><default>Não pode ir com humanos.</default></talk>
@@ -176,7 +176,7 @@
 	<talk character="Bruno"><default>Quer morrer?!</default></talk>
 	<teller><default>Bruno aponta pra frente.</default></teller>
 	<talk character="Alan"><default>Calma, não tô te cantando...</default></talk>
-	<talk character="Bruno"><default>OLHA PRA FRENTE!!!</default></talk>
+	<talk character="Bruno"><screamed>Olha pra frente!!!</screamed></talk>
 	<teller><default>A van pára de uma vez. Aléxis, Selina e Zenon se seguram atrás. O sol está para nascer. Alan desce e vai até a pessoa parada em frente à van.</default></teller>
 	<talk character="Alan"><default>Podia ter morrido.</default></talk>
 	<teller><default>Tira a capa: Beatrice.</default></teller>
@@ -265,7 +265,7 @@
 	<talk character="Zenon"><default>Adivinha.</default></talk>
 	<talk character="Juliana"><default>Ela só raptou ele porque não queriam deixar a gente em paz.</default></talk>
 	<talk character="Aléxis"><default>Raptou quem?</default></talk>
-	<talk character="Clítia"><default>* Não contaram a vocês?</default></talk>
+	<talk character="Clítia"><arrive> Não contaram a vocês?</arrive></talk>
 	<talk character="Selina"><default>Conte então.</default></talk>
 	<talk character="Clítia"><default>Raptei o prata do Rio. Sinto muito, ele tentou matar vampiros aqui e tive que matá-lo. Sabe como é, são mais velhos que eu.</default></talk>
 	<talk character="Bea"><default>Primeira linhagem?</default></talk>
@@ -283,7 +283,7 @@
 	<talk character="Zenon"><default>As duas resolveram ficar.</default></talk>
 	<talk character="Aléxis"><default>Não entendeu, não é?</default></talk>
 	<talk character="Zenon"><default>Entender o que?</default></talk>
-	<talk character="Aléxis"><default>“Dá tchau pro Etos por mim.”</default></talk>
+	<talk character="Aléxis"><default>"Dá tchau pro Etos por mim."</default></talk>
 	<talk character="Zenon"><default>E daí que ela ficou lá pra se livrar de Etos?</default></talk>
 	<talk character="Aléxis"><default>Não. Clítia citou que teve que matar o cara porque ele queria matar vampiros mais velhos que ela.</default></talk>
 	<talk character="Zenon"><default>Etos é o vampiro mais velho vivo... Mas talvez você fosse mais velho que eles.</default></talk>
@@ -297,7 +297,7 @@
 	<teller><default>Alan pega o celular e liga para Soraia. Dali a pouco, Zenon chega à MEAK (SP). Derik está amarrado e amordaçado, com cara de tédio. Zenon tira a mordaça.</default></teller>
 	<talk character="Zenon"><default>Que aconteceu?</default></talk>
 	<talk character="Derik"><default>Etos, pra variar.</default></talk>
-	<talk character="Etos"><default>* Cadê a Beatrice?</default></talk>
+	<talk character="Etos"><arrive> Cadê a Beatrice?</arrive></talk>
 	<talk character="Zenon"><default>Vem comigo.</default></talk>
 	<teller><default>Em Zorana, Beatrice e Selina estão numa sala. Entra um vampiro.</default></teller>
 	<talk character="Augusto"><default>Você por aqui...</default></talk>
@@ -327,7 +327,7 @@
 	<talk character="Selina"><default>Prefiro isso do que voltar com ele.</default></talk>
 	<talk character="Bea"><default>Não é feio.</default></talk>
 	<talk character="Selina"><default>É. E bom de cama. O problema não é o que faz comigo, é o que faz com as outras.</default></talk>
-	<talk character="Bea"><default>E acha que ir parar num buraco ajuda? Só deixa mais tempo livre pra fazer seja lá o que faz com “as outras”.</default></talk>
+	<talk character="Bea"><default>E acha que ir parar num buraco ajuda? Só deixa mais tempo livre pra fazer seja lá o que faz com "as outras".</default></talk>
 	<talk character="Selina"><default>Não sabe o que é isso.</default></talk>
 	<talk character="Bea"><default>Imagina um cara que fica obcecado pela meia-irmã, estupra ela, tem uma filha com ela, e depois persegue a filha, essa filha tem uma filha com outro homem, aí ele seqüestra a criança, cria, transa com ela, a transforma em vampira e fica pelo mundo matando e torturando gente com ela. Sim, eu sei o que é isso. Talvez eu possa até dizer que sinto isso dentro de mim.</default></talk>
 	<talk character="Selina"><default>Por isso conseguiu assustar a mulher?</default></talk>
@@ -342,7 +342,7 @@
 	<talk character="Selina"><default>Pra que?</default></talk>
 	<talk character="Bea"><default>Também tô com fome.</default></talk>
 	<talk character="Selina"><default>Quer sangue?</default></talk>
-	<talk character="Bea"><irony>Chamamos alguém? </irony></talk>
+	<talk character="Bea"><irony>Chamamos alguém?</irony></talk>
 	<teller><default>Um cara vem e se ajoelha na frente delas.</default></teller>
 	<talk character="Bea"><default>Ah...</default></talk>
 	<talk character="Selina"><default>Levanta. E dá o pulso.</default></talk>
@@ -361,7 +361,7 @@
 	<talk character="Bea"><default>Agora se importa?</default></talk>
 	<talk character="Juliana"><default>Ela não faz nada porque ameaçaram me jogar num desses buracos.</default></talk>
 	<talk character="Bea"><default>Talvez ela mereça seja lá o que estão fazendo com ela.</default></talk>
-	<talk character="Augusto"><default>* Sobre seus amigos que saíram... Acho que vão querer trazer outros.</default></talk>
+	<talk character="Augusto"><arrive> Sobre seus amigos que saíram... Acho que vão querer trazer outros.</arrive></talk>
 	<talk character="Bea"><default>Faz diferença? O Grupo já sabe de vocês.</default></talk>
 	<talk character="Augusto"><default>Por causa de Selina. E eu já dei um jeito nisso.</default></talk>
 	<talk character="Bea"><default>No que?</default></talk>
@@ -399,7 +399,7 @@
 	<talk character="Selina"><default>Você é uma vampira. Estamos num deserto e está tendo alucinações.</default></talk>
 	<talk character="Clítia"><default>Estou tendo alucinações e uma delas veio me contar isso? Difícil.</default></talk>
 	<talk character="Selina"><default>Não sou só uma alucinação...</default></talk>
-	<talk character="Clítia"><irony>É meu “eu interior”? Falou estamos... Já transei com homens letrados que falavam disso... </irony></talk>
+	<talk character="Clítia"><irony>É meu "eu interior"? Falou estamos... Já transei com homens letrados que falavam disso...</irony></talk>
 	<talk character="Selina"><default>É sério.</default></talk>
 	<talk character="Clítia"><default>Vou comer alho e te provar que não sou uma vampira. Agora vamos sair daqui, antes que nos linchem.</default></talk>
 	<teller><default>As duas saem. Noite. Zenon está entrando num motel com Etos. Etos toca a campainha do balcão. De novo. Uma mulher aparece.</default></teller>
@@ -453,7 +453,7 @@
 	<teller><default>Volta a se sentar na frente da porta. Bruno se anima. Acorda Alan. Duas horas depois, Bruno está sentado, com cara de tédio, e Alan dormindo de novo.</default></teller>
 	<talk character="Derik"><default>É isso...</default></talk>
 	<talk character="Bruno"><default>Quantas vezes vai falar algo do gênero antes de resolver o problema?!</default></talk>
-	<talk character="Derik"><irony>Já que pode fazer melhor, porque não vem aqui e resolve? </irony></talk>
+	<talk character="Derik"><irony>Já que pode fazer melhor, porque não vem aqui e resolve?</irony></talk>
 	<teller><default>Derik se levanta.</default></teller>
 	<talk character="Derik"><default>Preciso de Léo.</default></talk>
 	<teller><default>Pega o celular e liga para Estela (que está nas Ilhas).</default></teller>
@@ -463,16 +463,16 @@
 	<talk character="Derik"><default>Não. Mas, se disser...</default></talk>
 	<talk character="Estela"><default>Bem.</default></talk>
 	<talk character="Derik"><default>Queria saber se Léo...</default></talk>
-	<talk character="Leo"><default>* Aqui.</default></talk>
+	<talk character="Leo"><arrive> Aqui.</arrive></talk>
 	<teller><default>Derik derruba o telefone. Encara Léo. Pega o telefone de volta.</default></teller>
 	<talk character="Derik"><default>Obrigado, já achei ele.</default></talk>
 	<talk character="Estela"><default>Tá. Boa sorte aí.</default></talk>
 	<teller><default>Estela desliga o telefone. Vai até Katerine. Ela está dormindo. Chega a segurar o lençol, mas não diz nada.</default></teller>
-	<talk character="Michele"><default>* Derik de novo?</default></talk>
+	<talk character="Michele"><arrive> Derik de novo?</arrive></talk>
 	<talk character="Estela"><default>Falou com Aléxis?</default></talk>
 	<talk character="Michele"><default>Ele está perto.</default></talk>
 	<talk character="Estela"><default>Perto quanto?</default></talk>
-	<talk character="Aléxis"><default>* Suficiente.</default></talk>
+	<talk character="Aléxis"><arrive> Suficiente.</arrive></talk>
 	<teller><default>Aléxis encosta a mão na testa de Katerine.</default></teller>
 	<talk character="Aléxis"><default>Sabe se o que ela está tendo é de agora? Se está acontecendo agora?</default></talk>
 	<talk character="Michele"><default>Acho que sim.</default></talk>
@@ -487,7 +487,7 @@
 	<talk character="Michele"><default>Explica isso direito.</default></talk>
 	<teller><default>Em outro lugar, Selina é encostada contra a parede pelo homem que a perseguia. Clítia está desacordada, num canto.</default></teller>
 	<talk character="homem"><default>Não achou mesmo que sua amiga fosse te salvar, achou? Transou com ela? Por que eu adoraria ver isso...</default></talk>
-	<talk character="Juliana"><default>* Então pode soltá-la. Posso fazer isso pra você.</default></talk>
+	<talk character="Juliana"><arrive> Então pode soltá-la. Posso fazer isso pra você.</arrive></talk>
 	<talk character="homem"><default>Onde arranjou tantas amigas bonitas?</default></talk>
 	<talk character="Juliana"><default>Não sou amiga dela. Tô precisando de uma grana.</default></talk>
 	<talk character="homem"><default>Não tenho grana pra puta.</default></talk>
@@ -495,11 +495,11 @@
 	<talk character="homem"><default>Mas vocês gostam. Se não gostassem, não fariam isso.</default></talk>
 	<talk character="Juliana"><default>Se não tem grana, vai ter que me soltar.</default></talk>
 	<teller><default>Juliana consegue empurrá-lo. Ele dá um tapa nela e a amarra. Busca Selina, que fugira, e amarra também.</default></teller>
-	<talk character="Ísis"><default>* Mamãe?</default></talk>
+	<talk character="Ísis"><arrive> Mamãe?</arrive></talk>
 	<talk character="Juliana"><default>Sai daqui!</default></talk>
 	<teller><default>Ísis vai desamarrar a mãe, mas ele a segura.</default></teller>
 	<talk character="homem"><default>Lembra de quando você era desse tamanhinho e papai brincava com você?</default></talk>
-	<talk character="Juliana"><default>SOLTA ELA!!! SOLTA ELA AGORA!!!</default></talk>
+	<talk character="Juliana"><screamed>Solta ela!!! Solta ela agora!!!</screamed></talk>
 	<teller><default>De repente, o homem solta a criança. Beatrice. Ela bebe todo o sangue dele. Acorda Clítia.</default></teller>
 	<talk character="Clítia"><default>Uma vampira...</default></talk>
 	<talk character="Selina"><default>A propósito, alho não adianta.</default></talk>
@@ -521,7 +521,7 @@
 	<talk character="Bruno"><default>Por isso precisava de um fantasma?</default></talk>
 	<talk character="Derik"><default>Sim. Agora podemos passar.</default></talk>
 	<talk character="Alan"><default>Você fica e guarda a porta.</default></talk>
-	<talk character="Derik"><irony>Deixa eu adivinhar, se os vampiros tentarem passar, sirvo de aperitivo pra atrasá-los? </irony></talk>
+	<talk character="Derik"><irony>Deixa eu adivinhar, se os vampiros tentarem passar, sirvo de aperitivo pra atrasá-los?</irony></talk>
 	<talk character="Bruno"><default>Vamos todos.</default></talk>
 	<teller><default>Os quatro descem. Noite. Zenon e Aléxis vêem a porta estourada. Descem correndo. 29/11. Horas depois, Zenon tromba com Bruno. Os dois caem. Aléxis chega também. Os dois se levantam.</default></teller>
 	<talk character="Zenon"><default>Foi mal.</default></talk>
@@ -575,7 +575,7 @@
 	<talk character="Clítia"><default>Clítia?</default></talk>
 	<talk character="Selina"><default>Ela ainda tá na época do Rei-sol.</default></talk>
 	<talk character="Bea"><default>Vamos ao Novo Mundo.</default></talk>
-	<talk character="Juliana"><default>Mas estamos no “Novo Mundo”.</default></talk>
+	<talk character="Juliana"><default>Mas estamos no "Novo Mundo".</default></talk>
 	<talk character="Clítia"><default>Não, estamos na Europa.</default></talk>
 	<talk character="Selina"><default>Não, é uma floresta. Por magia, estamos na Amazônia.</default></talk>
 	<talk character="Clítia"><default>Amazônia?</default></talk>
@@ -615,28 +615,28 @@
 	<talk character="Clítia"><default>Podemos continuar?</default></talk>
 	<talk character="Selina"><default>Agora acredita em nós?</default></talk>
 	<talk character="Clítia"><default>Não. Mas qualquer lugar pra onde forem deve ser melhor do que o lugar de onde eu saí.</default></talk>
-	<teller><default>Elas continuam andando. Chegam à uma porta. Beatrice tenta abrir. Não consegue.</default></teller>
+	<teller><default>Elas continuam andando. Chegam a uma porta. Beatrice tenta abrir. Não consegue.</default></teller>
 	<talk character="Bea"><default>Clítia, está vendo uma porta?</default></talk>
 	<talk character="Clítia"><default>Não, estou vendo uma árvore.</default></talk>
 	<teller><default>Selina dá um soco nela. Ela cai. Juliana a segura.</default></teller>
 	<talk character="Juliana"><default>Porque fez isso?</default></talk>
 	<talk character="Selina"><default>Convencemos você quando acordou. Duvido que consigamos diferente com ela. E não tô afim de esperar.</default></talk>
 	<teller><default>30/11. Etos andando com Valesca. Entram num bar. Sentam-se. Um homem se aproxima.</default></teller>
-	<talk><default>Chá de Daxlidan? (garçom)</default></talk>
+	<talk character="garçom"><default>Chá de Daxlidan?</default></talk>
 	<talk character="Etos"><default>Servem outra coisa?</default></talk>
-	<talk><default>Bolo de Daxlidan, torta de... (garçom)</default></talk>
+	<talk character="garçom"><default>Bolo de Daxlidan, torta de...</default></talk>
 	<talk character="Etos"><default>Daxlidan?</default></talk>
-	<talk><default>Sim. Temos de vários jeitos. (garçom)</default></talk>
+	<talk character="garçom"><default>Sim. Temos de vários jeitos.</default></talk>
 	<talk character="Valesca"><default>Não quebram esse regime nunca?</default></talk>
-	<talk><default>Podem falar com a gerência, se quiserem. (garçom)</default></talk>
+	<talk character="garçom"><default>Podem falar com a gerência, se quiserem.</default></talk>
 	<talk character="Valesca"><default>Tem a vida eterna e vira garçom?</default></talk>
 	<talk character="Etos"><default>Deixa eu adivinhar, o gerente é seu cunhado?</default></talk>
-	<talk><default>Meu namorado. A dona é minha cunhada. (garçom)</default></talk>
+	<talk character="garçom"><default>Meu namorado. A dona é minha cunhada.</default></talk>
 	<talk character="Etos"><default>Não disse? Bar familiar.</default></talk>
 	<talk character="Valesca"><default>Queremos falar com Argo.</default></talk>
-	<talk><default>Ele não está aqui. (garçom)</default></talk>
+	<talk character="garçom"><default>Ele não está aqui.</default></talk>
 	<talk character="Valesca"><default>Então mataremos todos vocês. Como fizemos nos três bares anteriores.</default></talk>
-	<talk character="Argo"><default>* Não, vocês não vão.</default></talk>
+	<talk character="Argo"><arrive> Não, vocês não vão.</arrive></talk>
 	<talk character="Valesca"><default>Finalmente.</default></talk>
 	<talk character="Argo"><default>Porque estão matando meus filhos?</default></talk>
 	<talk character="Valesca"><default>Porque é divertido.</default></talk>
@@ -693,7 +693,7 @@
 	<talk character="Derik"><default>Que é? Eu sabia como fazer o feitiço lá, não aqui.</default></talk>
 	<talk character="Aléxis"><default>Podemos tentar a mesma coisa.</default></talk>
 	<talk character="Derik"><default>E caímos junto com a escada no meio do caminho? Não sabemos quanto tempo pode durar.</default></talk>
-	<talk character="Augusto"><default>* E não farão de novo.</default></talk>
+	<talk character="Augusto"><arrive> E não farão de novo.</arrive></talk>
 	<teller><default>Augusto está com um exército da cidade. Tentam lutar, mas em vão. São presos na masmorra do castelo. 1/12. Augusto aparece.</default></teller>
 	<talk character="Augusto"><default>Bom dia, crianças.</default></talk>
 	<talk character="Derik"><default>Que fará conosco?</default></talk>
@@ -784,7 +784,7 @@
 	<talk character="Kat"><default>Mas eu prefiro morrer que te trair.</default></talk>
 	<talk character="Derik"><default>Por favor... Eu te amo... Não lute com ele...</default></talk>
 	<talk character="Kat"><default>Não tem outro jeito. Ele vai matar todos. Ele vai te matar.</default></talk>
-	<teller><default>Ela o beija. Vai embora. Ele ainda grita por ela. Mais tarde, muitos guardas aparecem. Acorrentam eles. Levam à um grande estádio, onde começa a luta. Augusto é mais forte que Katerine, porém ela é mais ágil. Ela o derruba e fica com uma estaca no peito dele. Todos os que estão assistindo se levantam, com armas. Derik vira pássaro, soltando-se, voa até o meio da arena, e volta a virar humano.</default></teller>
+	<teller><default>Ela o beija. Vai embora. Ele ainda grita por ela. Mais tarde, muitos guardas aparecem. Acorrentam eles. Levam a um grande estádio, onde começa a luta. Augusto é mais forte que Katerine, porém ela é mais ágil. Ela o derruba e fica com uma estaca no peito dele. Todos os que estão assistindo se levantam, com armas. Derik vira pássaro, soltando-se, voa até o meio da arena, e volta a virar humano.</default></teller>
 	<talk character="Derik"><default>Que há com vocês?! Ele quis lutar com ela! Com isso, ele deu permissão para ser morto!!! Ele permitiu!!!</default></talk>
 	<teller><default>Augusto derruba Katerine. Pega Derik de refém.</default></teller>
 	<talk character="Augusto"><default>Mas eu venci a luta.</default></talk>
@@ -911,7 +911,7 @@
 	<teller><default>Selina olha pra Zenon, que olha pra trás. Ele continua andando.</default></teller>
 	<talk character="Bea"><default>Vai pra casa, Selina. Seu troféu já morreu e você ainda deve ter o gosto das cinzas dele na boca. Bruno deve estar te esperando. Espera do lado de fora, caso algum ache que fugiu, vitorioso.</default></talk>
 	<teller><default>Beatrice segue em frente, seguida de Aléxis. Selina toca a própria boca e sorri. Segue Zenon. 2/12. Beatrice e Aléxis chegam à cidade. Os vampiros estão reunidos.</default></teller>
-	<talk character="Bea"><default>Viemos buscar o corpo de Katerine. Nosso feiticeiro disse que vai se matar, se não puder ao menos enterrar “o corpo do amor da vida dele”.</default></talk>
+	<talk character="Bea"><default>Viemos buscar o corpo de Katerine. Nosso feiticeiro disse que vai se matar, se não puder ao menos enterrar "o corpo do amor da vida dele".</default></talk>
 	<teller><default>Um nativo aponta Aléxis.</default></teller>
 	<talk character="vampiro"><default>Foi ele que você viu?</default></talk>
 	<teller><default>Ao sinal de sim do nativo, o vampiro atira com uma besta em Aléxis. Beatrice arranca a estaca do peito de Aléxis.</default></teller>
@@ -930,14 +930,14 @@
 	<teller><default>Começam a brigar. Um vampiro faz de Beatrice refém, o outro pega Aléxis. Katerine acorda.</default></teller>
 	<talk character="vampira"><default>Eu sabia. Tem algo errado com vocês.</default></talk>
 	<teller><default>Outros vampiros surgem, que não eram da cidade. Os vampiros dali conseguem matar alguns que chegaram, mas acabam sendo mortos por estes, que são muitos. A população cerca os vampiros chegados. Eles protegem Aléxis, Katerine e Beatrice. Argo sobe numa pedra.</default></teller>
-	<talk character="Argo"><default>ESPEREM!!!</default></talk>
+	<talk character="Argo"><screamed>Esperem!!!</screamed></talk>
 	<teller><default>Os nativos param.</default></teller>
 	<talk character="Argo"><default>Vão fazer o que? Nos matar e se matar depois? Pra que?</default></talk>
-	<talk character="Shy"><default>* Somos vampiros de direito.</default></talk>
+	<talk character="Shy"><arrive> Somos vampiros de direito.</arrive></talk>
 	<teller><default>Shy chega com seu grupo – os vampiros nascidos.</default></teller>
 	<talk character="Shy"><default>Podemos ficar aqui e não mataremos seus filhos. Não torturaremos ninguém.</default></talk>
 	<talk character="nativo"><default>Mataram os mais velhos!</default></talk>
-	<talk character="Etos"><default>* Não.</default></talk>
+	<talk character="Etos"><arrive> Não.</arrive></talk>
 	<teller><default>Etos passa por entre os vampiros nascidos.</default></teller>
 	<talk character="Etos"><default>Eu ordenei. Portanto eu matei. Sou o mais velho vampiro vivo. Posso matar quem eu quiser.</default></talk>
 	<teller><default>Um nativo se aproxima. Cheira o pulso de Etos.</default></teller>

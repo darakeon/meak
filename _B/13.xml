@@ -37,13 +37,13 @@
 	<talk character="Guilherme"><default>Não apresenta sua amiga? Acho que ela gostou de mim.</default></talk>
 	<teller><default>Beatrice sobe correndo. Entra no quarto, deita na cama e chora. Zenon entra.</default></teller>
 	<talk character="Zenon"><default>Que foi??? Você já o conhece???</default></talk>
-	<talk character="Bea"><default>SAI DAQUI!!!</default></talk>
+	<talk character="Bea"><screamed>Sai daqui!!!</screamed></talk>
 	<talk character="Zenon"><default>Eu? Bea...</default></talk>
 	<teller><default>Ela joga uma banco nele, que desvia.</default></teller>
-	<talk character="Bea"><default>SAI!!!!!!!!!</default></talk>
+	<talk character="Bea"><screamed>Sai!!!!!!!!!</screamed></talk>
 	<teller><default>Zenon sai. Chega na sala e Guilherme não está mais.</default></teller>
 	<talk character="Zenon"><default>Droga.</default></talk>
-	<talk character="Kat"><default>* Que foi?</default></talk>
+	<talk character="Kat"><arrive> Que foi?</arrive></talk>
 	<talk character="Zenon"><default>Alguma coisa que eu disse... Viu um cara?</default></talk>
 	<talk character="Kat"><default>Um monte deles durante a minha vida.</default></talk>
 	<talk character="Zenon"><default>Não, um cara aqui, agora!</default></talk>
@@ -70,13 +70,13 @@
 	<talk character="Derik"><default>Que aconteceu?</default></talk>
 	<talk character="Beleno"><default>Kat teve um sonho e fomos atrás. Quem tá cuidando da Inês?</default></talk>
 	<talk character="Derik"><default>Michele.</default></talk>
-	<talk character="Beleno"><default>QUÊ???</default></talk>
+	<talk character="Beleno"><default>Quê???</default></talk>
 	<talk character="Derik"><default>Tô brincando. Estela tá com ela, mas só porque Inês tá dormindo, com cinco anos e vocês deixaram a recepção sozinha.</default></talk>
 	<talk character="Beleno"><default>Vou lá.</default></talk>
 	<talk character="Derik"><default>Não, fica aqui, eu...</default></talk>
 	<talk character="Beleno"><default>Já ficou com ela o dia inteiro, sou irmão dela, sabia???</default></talk>
 	<teller><default>Beleno sobe.</default></teller>
-	<talk character="Kat"><default>* Derik, isso é seu?</default></talk>
+	<talk character="Kat"><arrive> Derik, isso é seu?</arrive></talk>
 	<teller><default>Kat entrega os convites que achara a Derik.</default></teller>
 	<talk character="Derik"><default>Não.</default></talk>
 	<talk character="Kat"><default>Tem um outro papel...</default>
@@ -86,7 +86,7 @@
 	<talk character="Kat"><default>Só viu o nome dele, pode ser algo sobre ele, não para ele.</default></talk>
 	<talk character="Derik"><default>De curiosidade...</default></talk>
 	<teller><default>Kat sobe.</default></teller>
-	<talk character="Kat"><default>ZENON!</default></talk>
+	<talk character="Kat"><screamed>Zenon!</screamed></talk>
 	<talk character="Derik"><default>Morreu o gato.</default></talk>
 	<teller><default>Guilherme entra no Teatro. Uma mulher puxa seu braço.</default></teller>
 	<talk character="Synt"><default>Olha só, Don Juan prestigiando minha peça?</default></talk>
@@ -117,7 +117,7 @@
 	<talk character="Zenon"><default>Juro que achei que era comigo que queria fazer isso.</default></talk>
 	<talk character="Bea"><default>Você não acredita no que me disse, né?</default></talk>
 	<talk character="Zenon"><default>Do que está falando?</default></talk>
-	<talk character="Bea"><default>Disse que eu tenho salvação e, quando aquele cara chegou, mudou isso para “os vampiros vão todos pro inferno”.</default></talk>
+	<talk character="Bea"><default>Disse que eu tenho salvação e, quando aquele cara chegou, mudou isso para "os vampiros vão todos pro inferno".</default></talk>
 	<talk character="Zenon"><default>Desculpe. Não falava de você. Falava de mim, dele...</default></talk>
 	<talk character="Bea"><default>Também fui cruel propositalmente e me arrependi. Se você vai, então...</default></talk>
 	<talk character="Zenon"><default>NÃO! Quer dizer... Você não demorou tanto.</default></talk>
@@ -140,7 +140,7 @@
 	<teller><default>1850. Synt chega a um prédio com um homem. Há vários corpos esparramados no chão.</default></teller>
 	<talk character="Synt"><default>Droga.</default></talk>
 	<talk character="homem"><default>Que aconteceu aqui?</default></talk>
-	<talk character="Synt"><default>SEI QUE ESTÁ ME SEGUINDO!!!</default></talk>
+	<talk character="Synt"><screamed>Sei que está me seguindo!!!</screamed></talk>
 	<talk character="homem"><default>Ah?!</default></talk>
 	<teller><default>Aparece outra mulher.</default></teller>
 	<talk character="Valesca"><default>Zenon e Clítia.</default></talk>
@@ -212,7 +212,7 @@
 	<talk character="Zenon"><default>Você e Derik podem organizar isso?</default></talk>
 	<talk character="Estela"><default>Por mim, tudo bem.</default></talk>
 	<talk character="Derik"><default>Vou cuidar da construção do armário. A dimensão pode ter até sete vezes mais tamanho que o construído.</default></talk>
-	<talk><default>Eu ajudo. (BEA / MIC)</default></talk>
+	<talk character="Bea / Michele"><default>Eu ajudo.</default></talk>
 	<teller><default>As duas olham uma para outra.</default></teller>
 	<talk character="Kat"><default>Já estará ajudando Estela com os cargos e a legalização, eu e Michele ajudamos o Derik.</default></talk>
 	<talk character="Bea"><default>Eu...</default></talk>
@@ -227,18 +227,18 @@
 	<talk character="Inês"><default>Quero ficar aqui...</default></talk>
 	<talk character="Beleno"><default>Tá, tá, tá... Saco.</default></talk>
 	<teller><default>Beatrice está em seu quarto, pegando as coisas pra ir pro outro quarto.</default></teller>
-	<talk character="Michele"><default>* Acha que vou roubar?</default></talk>
+	<talk character="Michele"><arrive> Acha que vou roubar?</arrive></talk>
 	<talk character="Bea"><default>Não.</default></talk>
 	<talk character="Michele"><default>Não precisa ficar me vetando.</default></talk>
 	<talk character="Bea"><default>Não faria isso por um simples motivo: agora sabe que estar do outro lado não é bom. Foi assim, tomando porrada, que eu me consertei.</default></talk>
 	<teller><default>19:00. Zenon está caçando na cidade. Está lutando com dois vampiros. Enfia uma estaca no primeiro, o segundo o ataca com uma lata de lixo, colocando-a em cima de Zenon (ele fica dentro dela). Quando se livra, não vê o vampiro. Olha para cima e o encontra. Sobe no prédio.</default></teller>
 	<talk character="vampiro"><default>Aí, cara, você não quer me matar...</default></talk>
-	<talk character="Zenon"><irony>É, e você não ia matar aquele casal. </irony></talk>
+	<talk character="Zenon"><irony>É, e você não ia matar aquele casal.</irony></talk>
 	<talk character="vampiro"><default>Exatamente!</default></talk>
 	<talk character="Zenon"><default>Estou sendo irônico.</default></talk>
 	<teller><default>Tenta fugir, mas Zenon o segura. Enfia a estaca.</default></teller>
 	<talk character="Zenon"><default>Assim nem tem graça.</default></talk>
-	<talk character="Guilherme"><default>* Como é ser encestado?</default></talk>
+	<talk character="Guilherme"><arrive> Como é ser encestado?</arrive></talk>
 	<talk character="Zenon"><default>Legal, pague dois e leve três?</default></talk>
 	<teller><default>Guilherme finge estar com pena e sem jeito.</default></teller>
 	<talk character="Guilherme"><default>Desculpe, eu sei que pode ficar chateado... Essa não é minha praia. Mas você é um cara legal, vai encontrar alguém, eu sei que vai.</default></talk>
@@ -296,12 +296,12 @@
 	<talk character="Alan"><default>Tá.</default></talk>
 	<talk character="Kat"><default>Temos algo para fazer aqui?</default></talk>
 	<talk character="Derik"><default>Alan, não devia estar caçando, como Beatrice e Zenon?</default></talk>
-	<talk character="Kat"><default>Boa idéia. Já treinei demais. Alan, vamos sair, eu, você e Michele. CHELE!!! MI!!!</default></talk>
+	<talk character="Kat"><default>Boa idéia. Já treinei demais. Alan, vamos sair, eu, você e Michele.</default><screamed>Chele!!! Mi!!!</screamed></talk>
 	<teller><default>Katerine sobe a escada.</default></teller>
 	<talk character="Alan"><default>Obrigado por estragar minha noite.</default></talk>
 	<talk character="Derik"><default>Você nem sustenta isso aqui. Se vamos ter uma agência mesmo, temos que trabalhar. Afinal, quem vai entrar com o dinheiro não somos nós.</default></talk>
 	<talk character="Alan"><default>Mas por que ela vai financiar isso aqui? Não é uma coisa que vá dar lucro e sei que o namorado rico ela já perdeu...</default></talk>
-	<talk character="Janaína"><default>* Não preciso dele.</default></talk>
+	<talk character="Janaína"><arrive> Não preciso dele.</arrive></talk>
 	<teller><default>Alan se vira e olha para Janaína.</default></teller>
 	<talk character="Derik"><default>Eu ia dizer. Ela veio falar com Estela sobre os cargos.</default></talk>
 	<talk character="Alan"><default>Não quis te ofender. É que achei que não trabalhasse.</default></talk>
@@ -314,9 +314,9 @@
 	<talk character="Estela"><default>Que ótimo, você veio... Alan, que tá fazendo aqui?</default></talk>
 	<talk character="Alan"><default>É meu quarto também.</default></talk>
 	<talk character="Estela"><default>Pensei que estivesse caçando.</default></talk>
-	<talk character="Kat"><default>* E ele vai.</default></talk>
+	<talk character="Kat"><arrive> E ele vai.</arrive></talk>
 	<teller><default>Kat sai do quarto. Volta, puxa Alan pelo braço.</default></teller>
-	<talk character="Inês"><default>* Querem ajuda?</default></talk>
+	<talk character="Inês"><arrive> Querem ajuda?</arrive></talk>
 	<talk character="Estela"><default>Vai ficar com o Derik, se não ele dorme da recepção.</default></talk>
 	<teller><default>Inês sai. Janaína se senta no chão, onde também está Estela.</default></teller>
 	<talk character="Janaína"><default>Já pensou em alguma coisa?</default></talk>
@@ -354,8 +354,8 @@
 	<talk character="Zenon"><hushed>Sem alma.</hushed></talk>
 	<teller><default>Zenon pega uma estaca e se aproxima da garota. Guilherme o joga longe e pega a menina no colo. Derik e Inês acordam.</default></teller>
 	<talk character="Guilherme"><default>Lica, você tá bem???</default>
-	<teller>ela se segura forte nele</teller><default>QUE IA FAZER, SEU ANIMAL???</default></talk>
-	<talk character="Zenon"><default>É UMA VAMPIRA DE PRIMEIRA LINHAGEM!!! E AGORA EU SOU CAÇA-VAMPIROS!!! É SEU NOVO CASO, VIROU PEDÓFILO???</default></talk>
+	<teller>ela se segura forte nele</teller><screamed>Que ia fazer, seu animal???</screamed></talk>
+	<talk character="Zenon"><screamed>É uma vampira de primeira linhagem!!! E agora eu caço de vampiros!!! É seu novo caso, virou pedófilo???</screamed></talk>
 	<teller><default>Guilherme se vira para Beatrice.</default></teller>
 	<talk character="Guilherme"><default>Segura o idiota do seu namorado, se não ele vira pó rapidinho!</default></talk>
 	<teller><default>Guilherme sai com Lica no colo. Derik encara Zenon.</default></teller>
@@ -395,7 +395,7 @@
 	<talk character="Beleno"><default>Peguei!!!</default></talk>
 	<teller><default>A luz de novo.</default></teller>
 	<talk character="Beleno"><default>Peraí, você não é...</default></talk>
-	<talk character="Lica"><default>SOLTA!</default></talk>
+	<talk character="Lica"><screamed>Solta!</screamed></talk>
 	<teller><default>Lica o empurra. Olha para o próprio corpo.</default></teller>
 	<talk character="Lica"><default>Eu tô... Tô... Adulta...</default></talk>
 	<talk character="Beleno"><default>Adolescente.</default></talk>
@@ -446,7 +446,7 @@
 	<talk character="Beleno"><default>Só posso chegar alguém a idade que cheguei.</default></talk>
 	<talk character="Bea"><default>E daí??? Quero continuar com a minha!!!</default></talk>
 	<talk character="Zenon"><default>E como você chegou à idade que tem?</default></talk>
-	<talk character="Beleno"><default>Usando outras pessoas. Primeiro, cresci junto com Inês, não o suficiente, e Natasha me deixou lá. Daí uma criança me encontrou. Ele queria me levar pra casa, achou que eu era um “bichinho legal”.</default></talk>
+	<talk character="Beleno"><default>Usando outras pessoas. Primeiro, cresci junto com Inês, não o suficiente, e Natasha me deixou lá. Daí uma criança me encontrou. Ele queria me levar pra casa, achou que eu era um "bichinho legal".</default></talk>
 	<talk character="Zenon"><default>E você?</default></talk>
 	<talk character="Beleno"><default>Cresci e voei. O garoto ficou chorando, depois eu voltei e falei com ele. Ficou tudo bem.</default></talk>
 	<talk character="Zenon"><default>Bom, agora temos uma inimiga declarada.</default></talk>
@@ -489,7 +489,7 @@
 	<talk character="Guilherme"><default>Sabe muito bem que não é tão simples assim.</default></talk>
 	<talk character="Lica"><default>Um dia. Se não fizer, eu faço.</default></talk>
 	<teller><default>Ela sai. Dali a pouco, está olhando para o mar.</default></teller>
-	<talk character="Etos"><default>* De que festa você fugiu?</default></talk>
+	<talk character="Etos"><arrive> De que festa você fugiu?</arrive></talk>
 	<talk character="Lica"><default>Do velório da sua mãe. Estavam soltando fogos, não vai fazer mais nenhum como você.</default></talk>
 	<talk character="Etos"><default>Não tem como ela fazer outro, me fizeram e jogaram a forma fora.</default></talk>
 	<talk character="Lica"><default>Deviam ter jogado você junto.</default></talk>
@@ -549,7 +549,7 @@
 	<letter>Eu senti o cheiro dela em você. E também pelo cheiro sei com que freqüência se alimenta, isso é coisa de quem evita matar. Não tentaria o que tentou se não fosse por ela. Não se mate por uma mulher. A maioria é melhor que qualquer homem, mas esta era uma das exceções.</letter>
 	</teller>
 	<talk character="Guilherme"><default>Minha culpa... Se o tivesse matado... Ou não tivesse aceitado o pedido dela... Nunca devia ter feito todas as vontades... Poderia estar viva ainda...</default></talk>
-	<talk character="Etos"><default>* A sua filhinha?</default></talk>
+	<talk character="Etos"><arrive> A sua filhinha?</arrive></talk>
 	<teller><default>Guilherme olha para a janela. Etos desce, fecha a janela, a cortina e tira a capa. Guilherme o encosta na parede, mas Etos o joga na cama e sobe em cima, segurando-lhe os braços.</default></teller>
 	<talk character="Etos"><default>Eu poderia até te estuprar aqui.</default></talk>
 	<talk character="Guilherme"><default>Acha que estou me importando com alguma coisa?</default></talk>
@@ -570,7 +570,7 @@
 	<talk character="Zenon"><default>E porque ia matá-lo então?</default></talk>
 	<talk character="Guilherme"><default>Ela acreditava.</default></talk>
 	<talk character="Zenon"><default>Você...</default></talk>
-	<talk character="Guilherme"><default>MATÁ-LO VAI TRAZÊ-LA DE VOLTA???</default></talk>
+	<talk character="Guilherme"><screamed>Matá-lo vai trazê-la de volta???</screamed></talk>
 	<teller><default>Zenon se cala. Guilherme termina o buraco. Pega uma caixa artesanal, beija e coloca no buraco. Enterra.</default></teller>
 	<talk character="Guilherme"><default>Pronto. Pode fazer agora.</default></talk>
 	<talk character="Zenon"><default>Você está diferente de...</default></talk>
@@ -580,7 +580,7 @@
 	<talk character="Guilherme"><default>Não os de primeira linhagem.</default></talk>
 	<talk character="Bea"><default>E isso você não é.</default></talk>
 	<talk character="Guilherme"><default>Amor muda muito as pessoas.</default></talk>
-	<talk character="Zenon"><irony>Não quer convidá-lo para entrar para a agência, não??? </irony></talk>
+	<talk character="Zenon"><irony>Não quer convidá-lo para entrar para a agência, não???</irony></talk>
 	<teller><default>Guilherme vai embora. 18/07 (sexta), 12:00. Janaína está na sala, conversando com Estela.</default></teller>
 	<talk character="Estela"><default>Você não tem mesmo vontade de procurar Etos?</default></talk>
 	<talk character="Janaína"><default>Não sei. Quando o conheci, era ruim. Se vestia e se portava de forma...</default></talk>
@@ -602,7 +602,7 @@
 	<talk character="Etos"><default>Você seria uma prostituta hoje se eu não tivesse te tirado dos seus pais.</default></talk>
 	<talk character="Janaína"><default>Seria uma se te aceitasse de volta.</default></talk>
 	<talk character="Etos"><default>E quem disse que quero? Já disse que estou aqui atrás de Lish.</default></talk>
-	<talk character="Michele"><default>* Então terá que dar meia-volta.</default></talk>
+	<talk character="Michele"><arrive> Então terá que dar meia-volta.</arrive></talk>
 	<teller><default>Etos mede Michele de cima a baixo.</default></teller>
 	<talk character="Etos"><default>Paty demais. Cheguei tarde, vou esperar a próxima.</default>
 	<teller>sai</teller><default>Talvez Aléxis te queira assim.</default></talk>
@@ -612,21 +612,21 @@
 	<talk character="Michele"><default>Carta pra você.</default></talk>
 	<teller>
 	<default>Michele entrega um envelope a Estela. Esta sobe. Abre o envelope.</default>
-	<letter>ADNIL E ECOV. RAJIEB ET AIREUQ.</letter>
+	<letter>adnil e ecov. rajieb et aireuq.</letter>
 	<default>Ela pega um papel e responde.</default>
-	<letter>AZELEB ALEP OS SAOSSEP SA RAGLUJ AIREVED OAN.</letter>
+	<letter>azeleb alep os saossep sa ragluj aireved oan.</letter>
 	<default>Manda para o endereço que tem na carta. Continuam se correspondendo.</default>
-	<letter>OGLUJ OAN. AROF ROP E ORTNED ROP ADNIL E ECOV SAM.</letter>
-	<letter>EBAS OMOC?</letter>
-	<letter>OTIEJ UES.</letter>
-	<letter>UES O E OMOC E?</letter>
-	<letter>RECEHNOC EM REUQ?</letter>
-	<letter>OREUQ. ORUGES LACOL MUN.</letter>
-	<letter>ECOV ARAP UO MIM ARAP ORUGES?</letter>
-	<letter>SIOD SO ARAP.</letter>
-	<letter>OMOC MET OAN. RECEHNOC EM REUQ ES, ODANODNABA OIDERP O ETA AV, SERA ME. RESUP ES LOS O ODNAUQ AIAS. OHLEPSE EDNARG MU EHCA.</letter>
+	<letter>ogluj oan. arof rop e ortned rop adnil e ecov sam.</letter>
+	<letter>ebas omoc?</letter>
+	<letter>otiej ues.</letter>
+	<letter>ues o e omoc e?</letter>
+	<letter>recehnoc em reuq?</letter>
+	<letter>oreuq. oruges lacol mun.</letter>
+	<letter>ecov arap uo mim arap oruges?</letter>
+	<letter>siod so arap.</letter>
+	<letter>omoc met oan. recehnoc em reuq es, odanodnaba oiderp o eta av, sera me. resup es los o odnauq aias. ohlepse ednarg mu ehca.</letter>
 	<default>25/07 (sexta), 20:00. Estela vai até o prédio. Seguindo as instruções, ela procura um grande espelho. Quando encontra, no chão à frente do espelho:</default>
-	<letter>ERIV ES OAN.</letter>
+	<letter>eriv es oan.</letter>
 	<default>Há também uma mesinha com um pano preto.</default>
 	</teller>
 	<talk character="Estela"><default>Por que?</default></talk>
@@ -722,7 +722,7 @@
 	<talk character="Estela"><default>Não pretendo transar com ele. Não agora.</default></talk>
 	<talk character="Janaína"><default>Tá, mas é anormal ele se sentir atraído por você. E, bom, ainda tem um perigo... Zenon disse que ele só sai com suicidas.</default></talk>
 	<talk character="Estela"><default>Isso não quer dizer que vá me matar. E nem sabemos se...</default></talk>
-	<talk character="Zenon"><default>* É ele.</default></talk>
+	<talk character="Zenon"><arrive> É ele.</arrive></talk>
 	<talk character="Estela"><default>Tava escutando atrás da porta?</default></talk>
 	<talk character="Zenon"><default>Sumiu. Ninguém sabe onde está. Com certeza está aprontando.</default></talk>
 	<talk character="Estela"><default>Por que acha que é?</default></talk>
@@ -741,7 +741,7 @@
 	<talk character="Janaína"><default>Está mesmo desesperada.</default></talk>
 	<talk character="Estela"><default>Não estou, não!</default></talk>
 	<talk character="Janaína"><default>Não pode ficar obedecendo ordem! Não precisa montar também, mas não se curve, isso é o pior erro!</default></talk>
-	<talk character="Etos"><default>* Você acha?</default></talk>
+	<talk character="Etos"><arrive> Você acha?</arrive></talk>
 	<talk character="Janaína"><default>Que está fazendo aqui?</default></talk>
 	<talk character="Etos"><default>É divertido assustar vocês.</default></talk>
 	<talk character="Janaína"><default>Quem disse que me assustou?</default></talk>
@@ -758,7 +758,7 @@
 	<talk character="Janaína"><default>Não.</default></talk>
 	<talk character="Estela"><default>Vamos num bar? Uma boate, ou algo assim?</default></talk>
 	<talk character="Janaína"><default>Pode ser...</default></talk>
-	<talk character="Etos"><default>* Sei onde tem um GLS!</default></talk>
+	<talk character="Etos"><arrive> Sei onde tem um GLS!</arrive></talk>
 	<teller><default>As duas jogam almofadas nele (na janela), mas ele vai embora a tempo.</default></teller>
 	<talk character="Janaína"><default>Que saco!</default></talk>
 	<teller><default>Janaína olha pela janela. Não o vê.</default></teller>
@@ -869,8 +869,8 @@
 	<talk character="Estela"><default>Ele me agarrou! Não tive como fugir!!!</default></talk>
 	<talk character="Guilherme"><default>Ele não faz isso. Prefere convencer pra jogar na nossa cara depois.</default></talk>
 	<talk character="Estela"><default>É sério, droga! Veio e me abraçou, começou a dizer coisas, tão... perto...</default></talk>
-	<talk character="Guilherme"><default>É DISSO QUE TÔ falaNDO!</default></talk>
-	<talk character="Estela"><default>EU NÃO SOU MAIS UMA CRIANÇA, EU PRECISO DE ALGO, NÃO POSSO FICAR SÓ NESSE JOGO DE ESCONDE!!! O PRIMEIRO CARA QUE ME BEIJOU TAVA ATACADO E BEIJARIA QUALQUER COISA QUE APARECESSE, O SEGUNDO TAVA POSSUÍDO E FUI DESCOBRIR DEPOIS QUE ERA GAY, COMO ACHA QUE ME SINTO???</default></talk>
+	<talk character="Guilherme"><screamed>É disso que tô falando!</screamed></talk>
+	<talk character="Estela"><screamed>Eu não sou mais uma criança, eu preciso de algo, não posso ficar só nesse jogo de esconde!!! O primeiro cara que me beijou tava atacado e beijaria qualquer coisa que aparecesse, o segundo tava possuído e fui descobrir depois que era gay, como acha que me sinto???</screamed></talk>
 	<teller><default>Silêncio.</default></teller>
 	<talk character="Estela"><default>Você ainda tá aí?</default></talk>
 	<talk character="Guilherme"><default>É só isso que está procurando? Só sexo?</default></talk>
@@ -896,13 +896,13 @@
 	<talk character="Alan"><default>Cuidado, tem o mesmo nome do cara que o Zenon tá atrás.</default></talk>
 	<teller><default>Ela baixa a cabeça.</default></teller>
 	<talk character="Guilherme"><default>Meu problema com o Zenon é meio pessoal. Mas sei de alguém que precisa ser caçado.</default></talk>
-	<talk character="Zenon"><default>* Quer me ensinar a fazer meu serviço?</default></talk>
+	<talk character="Zenon"><arrive> Quer me ensinar a fazer meu serviço?</arrive></talk>
 	<teller><default>Estela abraça Guilherme.</default></teller>
 	<talk character="Guilherme"><default>Podem nos deixar a sós?</default></talk>
 	<teller><default>Olha para ele. Sobe, levando Alan.</default></teller>
 	<talk character="Zenon"><default>Por que veio atrás da Estela?</default></talk>
 	<talk character="Guilherme"><default>Etos. Falou coisas dela. Achei que fosse suicida.</default></talk>
-	<talk character="Zenon"><irony>E agora que descobriu que não é, resolveu namorar com ela. </irony></talk>
+	<talk character="Zenon"><irony>E agora que descobriu que não é, resolveu namorar com ela.</irony></talk>
 	<talk character="Guilherme"><default>Sabe muito bem com quem ela se parece.</default></talk>
 	<talk character="Zenon"><default>Não, eu não tinha me tocado. Era mesmo apaixonado pela sua madrasta?! Você é doente, sabia?</default></talk>
 	<talk character="Guilherme"><default>Transformou um cara de 17 anos e o doente sou eu?!</default></talk>
@@ -920,7 +920,7 @@
 	<talk character="Kat"><default>Agora eu tô é preocupada com o Zenon, voltou estourado da última.</default></talk>
 	<talk character="Alan"><default>Os móveis estariam quebrados.</default></talk>
 	<teller><default>As duas se entreolham. Os três descem. Acham um bilhete.</default></teller>
-	<talk character="Kat"><default>“Fomos atrás de Etos”.</default></talk>
+	<talk character="Kat"><default>"Fomos atrás de Etos".</default></talk>
 	<talk character="Estela"><default>Deviam ter me avisado!!!</default></talk>
 	<talk character="Alan"><default>Deixaram o bilhete.</default></talk>
 	<talk character="Kat"><default>Cadê o Derik?</default></talk>
@@ -930,7 +930,7 @@
 	<talk character="Kat"><default>Peraí, o que estavam fazendo os dois sozinhos???</default>
 	<teller>Derik abre a boca para falar</teller><default>Esquece. Derik, ache Beleno, você e ele vão procurar pelo Zenon e Guilherme pelo ar. Eu, Alan e Michele procuramos por terra, Estela toma um copo d’água e fica dentro do quarto.</default></talk>
 	<teller><default>Todos saem da sala, fica apenas Estela. Ela olha em volta e sobe. Alguém sobe atrás dela. Ela entra no quarto. Vê um livro em cima da cama, aberto numa página. Olha a capa: é sobre pégasos. Na página...</default></teller>
-	<talk character="Estela"><default>“Os ossos de uma vítima de pégasos se desfazem em um dia. Se forem enterrados, o vampiro”... Droga... Volta à vida... Tenho que avisar...</default></talk>
+	<talk character="Estela"><default>"Os ossos de uma vítima de pégasos se desfazem em um dia. Se forem enterrados, o vampiro"... Droga... Volta à vida... Tenho que avisar...</default></talk>
 	<teller><default>Estela se vira e vê Lica.</default></teller>
 	<talk character="Lica"><default>Você foi legal comigo quando vim aqui da primeira vez. Por que não vai ser agora de novo?</default></talk>
 	<talk character="Estela"><default>Mandou matar meu amigo.</default></talk>
@@ -961,7 +961,7 @@
 	<talk character="Alan"><default>Só isso?</default></talk>
 	<teller><default>A MEAK desaba em si mesma (como uma implosão). Todos ficam olhando, sem reação. Derik folheia o livro.</default></teller>
 	<talk character="Zenon"><default>Quem vamos processar?</default></talk>
-	<talk character="Derik"><default>Tá no final do feitiço, a bruxa “Lahi”... Nascida em 1900... Morta em 1870??? Ah, tá, é...</default>
+	<talk character="Derik"><default>Tá no final do feitiço, a bruxa "Lahi"... Nascida em 1900... Morta em 1870??? Ah, tá, é...</default>
 	<teller>olha pra todos, que o encaram</teller><default>Antes de Cristo. Você não estão com caras muito boas.</default></talk>
 	<talk character="Estela"><default>Derik, querido, não devia ter olhado isso antes?</default></talk>
 	<talk character="Derik"><default>Acho que vou ter que limpar sozinho, né?</default></talk>

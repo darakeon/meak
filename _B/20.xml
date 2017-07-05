@@ -28,7 +28,7 @@
 	<talk character="Mel"><default>Ele teve uma filha?</default></talk>
 	<talk character="Bea"><default>Um casal na verdade. Aliás, viraram literalmente um casal. Bom, se eu contar minha história as pessoas ficarão mais enojadas.</default></talk>
 	<talk character="Mel"><default>Não entendi essa...</default></talk>
-	<talk character="Fábio"><default>* Ela tá falando casal no sentido daqui, Mel. Sexo.</default></talk>
+	<talk character="Fábio"><arrive> Ela tá falando casal no sentido daqui, Mel. Sexo.</arrive></talk>
 	<talk character="Mel"><default>Ah, tá.</default></talk>
 	<talk character="Bea"><default>Tem outro?</default></talk>
 	<talk character="Fábio"><default>Casamento para os atlantes significa se unir a alguém, pode ser que você nem faça sexo com a pessoa. Pode ser um irmão, inclusive.</default></talk>
@@ -82,7 +82,7 @@
 	<teller><default>Ela se vira para ele, que está amarrado e amordaçado. Vai até ele e tira a mordaça.</default></teller>
 	<talk character="Zenon"><default>Duvido que ela falasse de mim tanto assim. Não fui eu quem a transformou. E Clítia era muito melhor que eu nisso.</default></talk>
 	<talk character="vampira"><default>Mas você era o pai dela. Você a rejeitou, Clítia a quis. Ela era daquele tipo que, é só ser rejeitada, que a vontade aumenta. Ela disse que queria muito saber como você era de cama. Que até viu, mas...</default></talk>
-	<talk character="Zenon"><default>VIU?!</default></talk>
+	<talk character="Zenon"><screamed>Viu?!</screamed></talk>
 	<talk character="vampira"><default>Clítia a escondeu e deixou ver.</default></talk>
 	<teller><default>Ela se aproxima de Zenon. O beija. Desce a mão. Vira cinzas. Zenon se assusta.</default></teller>
 	<talk character="Mel"><default>Trepando com qualquer uma e ainda tenho que te salvar. Não mudou nada mesmo.</default></talk>
@@ -92,7 +92,7 @@
 	<teller><default>22/10/2027. Melody e Fábio lutam. Fábio derruba Melody.</default></teller>
 	<talk character="Mel"><default>Tá ficando bom nisso.</default></talk>
 	<talk character="Fábio"><default>Assim que eu conseguir derrubar Edmont.</default></talk>
-	<talk character="Edmont"><default>* Falando de mim?</default></talk>
+	<talk character="Edmont"><arrive> Falando de mim?</arrive></talk>
 	<talk character="Mel"><default>Onde está Trinity?</default></talk>
 	<talk character="Edmont"><default>Irmão errado. Ela tá estudando, com Angely.</default></talk>
 	<talk character="Fábio"><default>E Rob?</default></talk>
@@ -121,7 +121,7 @@
 	<teller><default>Melody sorri.</default></teller>
 	<talk character="Edmont"><default>Temos que achá-la. Foi raptada. Acho que foi Dione.</default></talk>
 	<teller><default>Ela se senta. Levanta, enfiando uma espada em Edmont. Torce.</default></teller>
-	<talk character="Mel"><default>Por que não me contou antes?! EU A TERIA PROTEGIDO!!!</default></talk>
+	<talk character="Mel"><default>Por que não me contou antes?!</default><screamed>Eu a teria protegido!!!</screamed></talk>
 	<teller><default>Fábio entra na sala e afasta Mel. Tira a espada.</default></teller>
 	<talk character="Fábio"><default>Esqueceu que fere o Angely também?!</default></talk>
 	<talk character="Mel"><default>Dane-se!!! Ele não protegeu ela!!!</default></talk>
@@ -206,7 +206,7 @@
 	<teller><default>Trinity abre a boca pra responder, Edmont vira de uma vez e dá um grito. Ela cai da cadeira. Ele começa a rir. Ela aperta um botão na pulseira.</default></teller>
 	<talk character="Nit"><default>Tá tudo bem, Fábio.</default></talk>
 	<talk character="Edmont"><default>Então, há um jeito?</default></talk>
-	<talk character="Nit"><irony>Que bom que está tão preocupado com toda essa situação que tem tempo pra gracinhas. </irony></talk>
+	<talk character="Nit"><irony>Que bom que está tão preocupado com toda essa situação que tem tempo pra gracinhas.</irony></talk>
 	<talk character="Edmont"><default>Quão perto daqui Fábio está?</default></talk>
 	<talk character="Nit"><default>Suficiente.</default></talk>
 	<talk character="Edmont"><default>Pra isto?</default></talk>
@@ -221,13 +221,13 @@
 	<talk character="Fábio"><default>Se ele apitar, quer dizer que ele tirou do braço dela. Se não...</default></talk>
 	<talk character="Rob"><default>Se não o quê???</default></talk>
 	<teller><default>Nenhum apito.</default></teller>
-	<talk character="Fábio"><default>DROGA!</default></talk>
+	<talk character="Fábio"><screamed>Droga!</screamed></talk>
 	<teller><default>Joga o aparelho no chão.</default></teller>
 	<talk character="Fábio"><default>Não devia ter deixado ela lá...</default></talk>
 	<talk character="Rob"><default>Ele não iria matá-la... Angely não deixaria...</default></talk>
 	<talk character="Fábio"><default>Teve vezes em que Angely não conseguiu parar Edmont.</default></talk>
 	<talk character="Rob"><default>Ele te contou?</default></talk>
-	<talk character="Fábio"><default>Sim.</default><irony>Quem teria dito? Edmont? </irony></talk>
+	<talk character="Fábio"><default>Sim.</default><irony>Quem teria dito? Edmont?</irony></talk>
 	<teller><default>Fábio se senta.</default></teller>
 	<talk character="Fábio"><default>Será que ele... Transformou ela?</default></talk>
 	<talk character="Rob"><default>Ele não faria isso. Não transforma ninguém.</default></talk>
@@ -242,14 +242,14 @@
 	<teller><default>Fábio sai, bravo. Tarde. Melody está numa loja. O vendedor traz uma espada.</default></teller>
 	<talk character="Mel"><default>Não, não é essa ainda.</default></talk>
 	<talk character="vendedor"><default>Mas é o que me descreveu...</default></talk>
-	<talk character="Edmont"><default>* E esta?</default></talk>
+	<talk character="Edmont"><arrive> E esta?</arrive></talk>
 	<teller><default>Melody vai até ele. Pega a espada.</default></teller>
 	<talk character="Mel"><default>Quem te garante que não vou enfiá-la em você?</default></talk>
 	<talk character="Edmont"><default>Por que esta é pra Dione.</default></talk>
 	<teller><default>Edmont vai até o balcão, tira o celular da mão do vendedor (que estava ligando pra polícia), joga no chão, pisa e devolve pra ele.</default></teller>
 	<talk character="Edmont"><default>Obrigado, mas não levaremos nada hoje.</default></talk>
 	<teller><default>Os dois saem da loja. Fábio está sentado no chão do lugar onde tinha prendido Edmont.</default></teller>
-	<talk character="Ang"><default>* Não foi uma boa idéia.</default></talk>
+	<talk character="Ang"><arrive> Não foi uma boa idéia.</arrive></talk>
 	<talk character="Fábio"><default>Por que não impediu?</default></talk>
 	<talk character="Ang"><default>Não se preocupe com Trinity.</default></talk>
 	<talk character="Fábio"><default>Deve estar no céu agora.</default></talk>
@@ -328,7 +328,7 @@
 	<talk character="Dione"><default>Não é um ótimo plano?</default></talk>
 	<talk character="Fábio"><default>Seria. Se eu não soubesse que não terá tempo de falar, antes que Melody e Edmont te partam em duas.</default></talk>
 	<talk character="Dione"><default>E o feitiço que fiz? Se eu morrer, Glória morre.</default></talk>
-	<talk character="Edmont"><default>* Ela tá blefando?</default></talk>
+	<talk character="Edmont"><arrive> Ela tá blefando?</arrive></talk>
 	<talk character="Fábio"><default>Não.</default></talk>
 	<teller><default>Edmont dá um soco em Dione, que desmaia. Melody chega e vai até a criança. Abaixa perto dela.</default></teller>
 	<talk character="Mel"><default>Oi...</default></talk>
@@ -349,10 +349,10 @@
 	<talk character="Ang"><default>Não é a melhor solução.</default></talk>
 	<talk character="Mel"><default>Você não precisa sujar as mãos. Eu farei isso. Não vai nem precisar se sentir culpado pelo Edmont.</default></talk>
 	<talk character="Ang"><default>Mas, Mel...</default></talk>
-	<talk character="Mel"><default>Que quer que eu faça? Entregue pra polícia? <irony>Claro, isso vai impedir muita coisa! </irony> Acorda, Angely. Pára de assistir desenho. Ela não ficaria presa.</default></talk>
+	<talk character="Mel"><default>Que quer que eu faça? Entregue pra polícia?<irony>Claro, isso vai impedir muita coisa!</irony>Acorda, Angely. Pára de assistir desenho. Ela não ficaria presa.</default></talk>
 	<talk character="Ang"><default>Ela não é a única da seita.</default></talk>
 	<talk character="Mel"><default>Mato todos eles.</default></talk>
-	<talk character="Fábio"><default>* Anteontem estava me falando sobre agir racionalmente.</default></talk>
+	<talk character="Fábio"><arrive> Anteontem estava me falando sobre agir racionalmente.</arrive></talk>
 	<talk character="Mel"><default>E porque isso é irracional?</default></talk>
 	<talk character="Fábio"><default>Temos que eliminar o mestre deles. Cortamos a cabeça da cobra.</default></talk>
 	<talk character="Mel"><default>E como vai fazer isso? Ele está por aqui, já?</default></talk>
@@ -365,7 +365,7 @@
 	<teller><default>Angely sai. Edmont chega e derruba os dois. Dione vem pela mesma porta. Pega uma moto, Dione sobe na garupa e os dois fogem. Angely volta e ajuda Melody a se levantar.</default></teller>
 	<talk character="Mel"><default>Que merda foi essa???</default></talk>
 	<talk character="Ang"><default>Edmont ouviu o que Fábio falou. Disse a Dione que levará Glória embora, e que cuidará para que se torne imortal.</default></talk>
-	<talk character="Mel"><default>Será que não é exatamente isso que ela quer? Porque essa era a “profecia” original.</default></talk>
+	<talk character="Mel"><default>Será que não é exatamente isso que ela quer? Porque essa era a "profecia" original.</default></talk>
 	<talk character="Ang"><default>Ela não conseguiria enganar Fábio.</default></talk>
 	<talk character="Mel"><default>Ele disse que acha isso, ele não leu que ela ia enterrar Glória.</default></talk>
 	<talk character="Fábio"><default>Edmont provavelmente não pretende cumprir a promessa.</default></talk>
@@ -422,7 +422,7 @@
 	<talk character="Ang"><default>Rob!</default></talk>
 	<talk character="Rob"><default>É sério, olha...</default></talk>
 	<teller><default>Rob abre o porta-malas. Fábio está dentro, machucado.</default></teller>
-	<talk character="Rob"><irony>Moita ocupada. E acho que ele não tá dormindo. </irony></talk>
+	<talk character="Rob"><irony>Moita ocupada. E acho que ele não tá dormindo.</irony></talk>
 	<teller><default>Angely mexe nele. Ele acorda.</default></teller>
 	<talk character="Ang"><default>Que aconteceu?</default></talk>
 	<talk character="Fábio"><default>Levaram a Glória...</default></talk>
@@ -468,8 +468,8 @@
 	<talk character="Mel"><default>Será que Dione enfiou uma estaca no Edmont?</default></talk>
 	<talk character="Rob"><default>Mas a vadia não queria transformar a fofinha?</default></talk>
 	<talk character="Mel"><default>Ela poderia usar qualquer vampiro pra isso.</default></talk>
-	<talk character="Nit"><default>* Melhor procurarmos como quebrar isso.</default></talk>
-	<talk character="Rob"><default>AI, CRIATURA, NÃO ME MATA DO CORAÇÃO!!!</default>
+	<talk character="Nit"><arrive> Melhor procurarmos como quebrar isso.</arrive></talk>
+	<talk character="Rob"><screamed>Ai, criatura, não me mata do coração!!!</screamed>
 	<teller>pára, arregala os olhos</teller><default>Você tá viva!!!</default></talk>
 	<teller><default>Rob a abraça.</default></teller>
 	<talk character="Nit"><default>Não exatamente.</default></talk>
@@ -487,7 +487,7 @@
 	<talk character="Nit"><default>Ele botou a mão no peito quando desmaiou?</default></talk>
 	<teller><default>Ouvem Dione gritar.</default></teller>
 	<talk character="Nit"><default>Edmont se vingando?</default></talk>
-	<talk character="Mel"><default>Foda-se! ANGELY, ACORDA!</default></talk>
+	<talk character="Mel"><default>Foda-se!</default><screamed>Angely, acorda!</screamed></talk>
 	<talk character="Nit"><default>Rob, responde minha pergunta.</default></talk>
 	<talk character="Rob"><default>Ele não colocou a mão no peito, só desmaiou.</default></talk>
 	<talk character="Nit"><default>Dione não enfiou nenhuma estaca no Edmont.</default></talk>
@@ -533,7 +533,7 @@
 	<talk character="Edmont"><default>Qual a garantia que tenho que não vai voltar atrás de nós de novo?</default></talk>
 	<talk character="Padoi"><default>A mesma que tenho de que não deixará a garota me matar.</default></talk>
 	<talk character="Edmont"><default>E o que eu poderia fazer contra uma profecia?</default></talk>
-	<talk character="Dione"><default>* Você mesmo disse. Não é qualquer um.</default></talk>
+	<talk character="Dione"><arrive> Você mesmo disse. Não é qualquer um.</arrive></talk>
 	<talk character="Edmont"><default>Você parece joão-bobo, que volta quando a gente bate. Tive uma namorada assim, sabe, ela...</default></talk>
 	<talk character="Dione"><default>Você pode impedir Glória.</default></talk>
 	<talk character="Edmont"><default>Tá mentindo. De novo. Que tal vermos se gosta do gosto do seu intestino?</default></talk>
@@ -545,20 +545,20 @@
 	<talk character="Edmont"><default>Não sei.</default></talk>
 	<teller><default>Angely acorda do lado de fora. Rob se aproxima dele.</default></teller>
 	<talk character="Rob"><default>Que aconteceu?</default></talk>
-	<talk character="Edmont"><default>* Nada que importe agora. Vamos embora.</default></talk>
+	<talk character="Edmont"><arrive> Nada que importe agora. Vamos embora.</arrive></talk>
 	<teller><default>Tarde. Edmont está no subterrâneo. Um homem tenta atacá-lo, ele o encosta contra a parede.</default></teller>
 	<talk character="Edmont"><default>Lembro desse uniforme.</default></talk>
-	<talk character="vampiro"><default>VAMOS RESSUSCITÁ-LA E NÃO PODEM FAZER NADA PRA IMPEDIR!</default></talk>
+	<talk character="vampiro"><screamed>Vamos ressuscitá-la e não podem fazer nada pra impedir!</screamed></talk>
 	<talk character="Edmont"><default>Tá, só pára de cuspir. Que cheiro é...</default></talk>
 	<teller><default>Edmont solta o vampiro, limpa as mãos uma na outra, depois na roupa.</default></teller>
-	<talk character="Edmont"><default>Ok. Preciso de informações sobre uma seita. Devem ter se esbarrado, eles queriam trazer um “mestre” deles também. E já matei um com seu uniforme e a tatuagem deles.</default></talk>
+	<talk character="Edmont"><default>Ok. Preciso de informações sobre uma seita. Devem ter se esbarrado, eles queriam trazer um "mestre" deles também. E já matei um com seu uniforme e a tatuagem deles.</default></talk>
 	<talk character="vampiro"><default>Estamos nos ajudando.</default></talk>
 	<talk character="Edmont"><default>Pois eles já conseguiram.</default></talk>
-	<talk character="vampiro"><default>Sério?! NOS TRAÍRAM!!!</default></talk>
+	<talk character="vampiro"><default>Sério?!</default><screamed>Nos traíram!!!</screamed></talk>
 	<talk character="Edmont"><default>Onde é o esconderijo deles?</default></talk>
 	<talk character="vampiro"><default>Existe um par de ilhas que quase ninguém conhece. Dá pra viajar no tempo num templo que existe nelas...</default></talk>
 	<talk character="Edmont"><default>Uma curiosidade: por quê?</default></talk>
-	<talk character="vampiro"><default>Faremos o APOCALIPSE!</default></talk>
+	<talk character="vampiro"><default>Faremos o Apocalipse!</default></talk>
 	<talk character="Edmont"><default>Ahã. Isso é o nome de algum bolo que você pegou a receita na internet?</default></talk>
 	<talk character="vampiro"><default>Quê?</default></talk>
 	<teller><default>Edmont enfia uma estaca nele.</default></teller>
@@ -595,19 +595,19 @@
 	<talk character="Edmont"><default>Óbvio.</default></talk>
 	<talk character="Mel"><default>Não pensa que vai dirigindo, né?</default></talk>
 	<teller><default>O capitão da primeira viagem deles às Ilhas chega.</default></teller>
-	<talk><default>Não, eu vou. (capitão)</default></talk>
+	<talk character="capitão"><default>Não, eu vou.</default></talk>
 	<talk character="Ang"><default>Faz bastante tempo.</default></talk>
-	<talk><default>Me lembro como se fosse ontem. Parece até um déjà vu. (capitão)</default></talk>
-	<talk character="Edmont"><default>Ele conseguiu comprar o barco novo com as entrevistas que deu falando sobre nós.</default><irony>Não é lindo? </irony></talk>
+	<talk character="capitão"><default>Me lembro como se fosse ontem. Parece até um déjà vu.</default></talk>
+	<talk character="Edmont"><default>Ele conseguiu comprar o barco novo com as entrevistas que deu falando sobre nós.</default><irony>Não é lindo?</irony></talk>
 	<talk character="Ang"><default>O dele foi destruído por nossa causa.</default></talk>
 	<talk character="Edmont"><default>Aquele que ele nos vendeu?</default></talk>
-	<talk><default>Eu não faço mais do que minha obrigação levando-os de graça. Só espero que o mar não esteja tão bravo dessa vez. (capitão)</default></talk>
-	<talk character="Mel"><irony>Bom, vamos embora? Glória não está numa aula de balé. </irony></talk>
+	<talk character="capitão"><default>Eu não faço mais do que minha obrigação levando-os de graça. Só espero que o mar não esteja tão bravo dessa vez.</default></talk>
+	<talk character="Mel"><irony>Bom, vamos embora? Glória não está numa aula de balé.</irony></talk>
 	<teller><default>Angely baixa a cabeça. Melody sai. O capitão liga o barco. Trinity entra na cabine e encara Edmont. Edmont sai. Ela olha para Angely.</default></teller>
 	<talk character="Nit"><default>Porque não impediu?</default></talk>
 	<talk character="Ang"><default>Ser vampiro não é nenhum crime.</default>
 	<teller>baixa a cabeça</teller><default>Ele ia te matar. Eu fiz ele te transformar.</default></talk>
-	<talk character="Nit"><default>COMO ASSIM??? EU PREFERIA TER MORRIDO!!!</default></talk>
+	<talk character="Nit"><screamed>Como assim??? Eu preferia ter morrido!!!</screamed></talk>
 	<talk character="Ang"><default>Não. Você preferia não ter que matar ninguém.</default>
 	<teller>ele se aproxima dela</teller><default>Desde que veio, só consegue pensar em voltar. Em ver Janaína.</default></talk>
 	<teller><default>Ela se vira, ele a vira de volta, ela abaixa a cabeça.</default></teller>
@@ -620,7 +620,7 @@
 	<talk character="Nit"><default>Mas existem muitas realidades, porque acha que seria justo aquela?</default></talk>
 	<talk character="Ang"><default>Acho que Katerine é mesmo filha de Melody. Se for isso, a tal profecia pode não ser sobre Glória.</default></talk>
 	<talk character="Nit"><default>Como eu vou viver assim?</default></talk>
-	<talk character="Rob"><default>* Anime-se. Talvez assim você consiga ficar com ela.</default></talk>
+	<talk character="Rob"><arrive> Anime-se. Talvez assim você consiga ficar com ela.</arrive></talk>
 	<teller><default>Trinity encara Rob. Sai, esbarrando em Fábio no caminho. Angely baixa a cabeça e sai também.</default></teller>
 	<talk character="Fábio"><default>Que aconteceu?</default></talk>
 	<talk character="Rob"><default>Eu só quis dizer que, como Janaína estava com o Etos, talvez ela goste de vampiros.</default></talk>
@@ -653,11 +653,11 @@
 	<talk character="Fábio"><default>E existem de segunda?</default></talk>
 	<talk character="Nit"><default>Poucos. Mas qualquer número é maior que zero.</default></talk>
 	<teller><default>Angely está deitado na cama. Edmont na de baixo.</default></teller>
-	<talk character="Edmont"><thought>Pronto para o sacrifício?)</thought></talk>
-	<talk character="Ang"><thought>Não enche.)</thought></talk>
-	<talk character="Edmont"><thought>Por quê? Que vai fazer se eu encher? Sair correndo? Não pode me tirar daqui.)</thought></talk>
-	<talk character="Ang"><thought>Pelo menos vou ter um descanso de você.)</thought></talk>
-	<talk character="Edmont"><thought>Não sabemos disso ainda.)</thought></talk>
+	<talk character="Edmont"><thought>Pronto para o sacrifício?</thought></talk>
+	<talk character="Ang"><thought>Não enche.</thought></talk>
+	<talk character="Edmont"><thought>Por quê? Que vai fazer se eu encher? Sair correndo? Não pode me tirar daqui.</thought></talk>
+	<talk character="Ang"><thought>Pelo menos vou ter um descanso de você.</thought></talk>
+	<talk character="Edmont"><thought>Não sabemos disso ainda.</thought></talk>
 	<teller><default>Manhã. Eles chegam às Ilhas. Descem no porto. Rob e Trinity vão para o hotel com as crianças. Fábio, Mel, Angely e Edmont vão ao templo escondido embaixo da floresta. César está olhando para as estátuas. Uma garota vem na direção dele. Edmont a segura.</default></teller>
 	<talk character="César"><default>Não!</default></talk>
 	<teller><default>Eles o olham.</default></teller>
@@ -672,7 +672,7 @@
 	<teller><default>Ele sente tontura. Ela sorri.</default></teller>
 	<talk character="Shy"><default>Tioure.</default></talk>
 	<teller><default>Aparecem caçadores. Os vampiros nascidos se juntam num grupo. Edmont mostra os dentes pros caçadores. Eles atiram em Edmont. Angely desmaia. Um dos caçadores olha para tatuagem de Fábio, reconhece. Mel percebe.</default></teller>
-	<talk character="Mel"><irony>Que bom que seus amigos finalmente chegaram. Estavam esperando ele beber todo mundo no canudinho? </irony></talk>
+	<talk character="Mel"><irony>Que bom que seus amigos finalmente chegaram. Estavam esperando ele beber todo mundo no canudinho?</irony></talk>
 	<talk character="Fábio"><default>Podem levá-los? Estavam presos aqui.</default></talk>
 	<teller><default>Os caçadores saem. Os nascidos saem junto. Tarde.</default></teller>
 	<talk character="Mel"><default>Achei que não podia mentir.</default></talk>
@@ -681,7 +681,7 @@
 	<talk character="Fábio"><default>Há séculos. Aquele homem os prendeu achando que eram monstros. São os atlantes que ficaram aqui. Li isso quando ela disse que era humana, acho que ela mentiu pra confirmar o que sou.</default></talk>
 	<talk character="Mel"><default>Tioures existem há muito tempo.</default></talk>
 	<talk character="Fábio"><default>Bota tempo nisso.</default></talk>
-	<teller><default>Melody levanta e olha para fora. Edmont volta (“desvira” cinzas). Noite. Angely acorda.</default></teller>
+	<teller><default>Melody levanta e olha para fora. Edmont volta ("desvira" cinzas). Noite. Angely acorda.</default></teller>
 	<talk character="Mel"><default>Então, vamos agora?</default></talk>
 	<teller><default>Dione está com Padoi no templo. Glória está sentada, brincando. Está cercada de velas. Ele fala algumas palavras em uma língua estranha. As velas apagam.</default></teller>
 	<talk character="Dione"><default>Não deveríamos matá-la? Foi outro disfarce?</default></talk>
@@ -722,7 +722,7 @@
 	<talk character="Shy"><default>Foi Padoi. Só isso que ele leu sobre o desgraçado?</default></talk>
 	<talk character="Ang"><default>Sim.</default></talk>
 	<talk character="Shy"><default>Foi em outra vida minha que eu soube o que tinha acontecido, o que César tinha feito. Vão matá-lo?</default></talk>
-	<talk character="Edmont"><default>* Talvez um caminho mais direto.</default></talk>
+	<talk character="Edmont"><arrive> Talvez um caminho mais direto.</arrive></talk>
 	<talk character="Shy"><default>Ele precisa matar quem está profetizado para matá-lo.</default></talk>
 	<talk character="Ang"><default>Nos contaram...</default></talk>
 	<talk character="Edmont"><default>Como se mata ele? Só caso nosso plano não funcione.</default></talk>
@@ -745,7 +745,7 @@
 	<talk character="Ang"><default>E se a vida da Katerine depender disso?</default></talk>
 	<talk character="Mel"><default>Não interessa quem era o pai, porque desconfiam...</default></talk>
 	<talk character="Ang"><default>Achamos que trocaram o seu bebê com o da nossa mãe, que esse sim teria nascido morto.</default></talk>
-	<talk character="Mel"><irony>Quer dizer que não é a primeira vez que isso acontece comigo? Que sorte a minha! </irony></talk>
+	<talk character="Mel"><irony>Quer dizer que não é a primeira vez que isso acontece comigo? Que sorte a minha!</irony></talk>
 	<talk character="Ang"><default>Se acalma. As duas estão vivas, se for isso.</default></talk>
 	<teller><default>Ela respira fundo, com raiva.</default></teller>
 	<talk character="Mel"><default>Vamos voltar?</default></talk>
@@ -758,7 +758,7 @@
 	<talk character="Mel"><default>Tá sobrando um.</default></talk>
 	<talk character="Rob"><default>Não tá, não.</default></talk>
 	<talk character="Nit"><default>Como assim?</default></talk>
-	<talk character="Rob"><default>Vai se ver livre das minhas “bichices”.</default></talk>
+	<talk character="Rob"><default>Vai se ver livre das minhas "bichices".</default></talk>
 	<talk character="Nit"><default>Não achei que tava falando a sério.</default></talk>
 	<teller><default>Ela vacila, mas o abraça. Mel pega uma das meninas e coloca dentro da caixa. Fábio tira.</default></teller>
 	<talk character="Fábio"><default>Calma, Mel, vamos organizar.</default></talk>
@@ -793,7 +793,7 @@
 	<talk character="Mel"><default>Rust. Mandou lembranças à Beatrice e disse pra você não confundir isso com amizade, que ele ainda te odeia.</default></talk>
 	<talk character="Zenon"><default>Botei dois filhos no mundo, abandonei os dois, deixei que tivessem um caso. Como se não bastasse, mato os dois. Sabe o pior? A garota cismou que queria... Comigo. Isso é nojento. Acho que vou pro inferno.</default></talk>
 	<talk character="Mel"><default>Ahã. Você vai.</default></talk>
-	<talk character="Zenon"><irony>Obrigado. </irony></talk>
+	<talk character="Zenon"><irony>Obrigado.</irony></talk>
 	<talk character="Mel"><default>Foi mal, o confeti acabou, e o próximo carnaval tá longe.</default></talk>
 	<teller><default>Beatrice está no chuveiro. Edmont chega a abraça.</default></teller>
 	<talk character="Edmont"><default>Sentiu falta?</default></talk>
@@ -836,13 +836,13 @@
 	<talk character="Mel"><default>Papa-anjo.</default></talk>
 	<talk character="Zenon"><default>Você também é mais nova que eu! Ei, tá fugindo do assunto!!!</default></talk>
 	<talk character="Mel"><default>Casei com o Fábio.</default></talk>
-	<talk character="Fábio"><default>* E casamento para atlantes não envolve sexo. Cara, será que vou ter que repetir muito isso?</default></talk>
+	<talk character="Fábio"><arrive> E casamento para atlantes não envolve sexo. Cara, será que vou ter que repetir muito isso?</arrive></talk>
 	<talk character="Mel"><default>Pra todos os seus namorados, pelo menos.</default></talk>
 	<talk character="Fábio"><default>Não, Zenon, ninguém desvira gay.</default></talk>
 	<talk character="Zenon"><default>Como sabia que eu...</default></talk>
 	<talk character="Fábio"><default>Tava processando uma mentira pra justificar seu espanto.</default></talk>
 	<talk character="Zenon"><default>Tá, volta pro tal pedido de desculpas...</default></talk>
-	<talk character="Glória"><default>* Mamãe, mamãe...</default></talk>
+	<talk character="Glória"><arrive> Mamãe, mamãe...</arrive></talk>
 	<talk character="Zenon"><default>Ok, vai me dizer que foi artificial?</default></talk>
 	<talk character="Mel"><default>Lembra do Dancan?</default></talk>
 	<talk character="Zenon"><default>É um dos seis?! Trouxeram seis crianças pra cá???</default></talk>
@@ -879,7 +879,7 @@
 	<talk character="Mel"><default>Edmont sabia. Porque ele não me contou?</default></talk>
 	<talk character="Kat"><default>Talvez Angely tenha impedido.</default></talk>
 	<talk character="Mel"><default>Ele não conseguiu impedir Edmont de transformar Trinity.</default></talk>
-	<talk character="Ang"><default>* Mas impedi de matá-la.</default></talk>
+	<talk character="Ang"><arrive> Mas impedi de matá-la.</arrive></talk>
 	<talk character="Mel"><default>Se estavam me contando as mentiras que disseram, poderiam ter dito mais essa.</default></talk>
 	<talk character="Ang"><default>Prometi a Domnik.</default></talk>
 	<talk character="Mel"><default>Edmont não.</default></talk>
@@ -891,7 +891,7 @@
 	<teller><default>Ele pula pela janela e some na noite. Beatrice vai até a MEAK. O pessoal da MEAK em São Paulo – Katerine, Derik, Zenon – e quem voltara da outra Realidade – Angely, Mel, Fábio, Trinity e as crianças – estão na sala.</default></teller>
 	<talk character="Bea"><default>Que está acontecendo?</default></talk>
 	<talk character="Nit"><default>Transou com o Edmont?</default></talk>
-	<talk character="Bea"><irony>Oi, também estava com saudades! </irony></talk>
+	<talk character="Bea"><irony>Oi, também estava com saudades!</irony></talk>
 	<talk character="Nit"><default>É, ele arranjou um substituto pro Rob.</default></talk>
 	<talk character="Fábio"><default>Trinity.</default></talk>
 	<talk character="Bea"><default>Ok, o que está acontecendo? Tenho certeza que é mais importante que o que eu faço ou deixo de fazer com a minha...</default></talk>

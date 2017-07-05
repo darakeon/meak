@@ -8,8 +8,8 @@
 	<talk character="Ang"><default>Handhara.</default></talk>
 	<talk character="Mel"><default>Achei que isso tivesse parado...</default></talk>
 	<talk character="Ang"><default>Mas não parou.</default></talk>
-	<talk character="Derik"><default>* Não tinham visto que ele só comprou roupas pretas?</default></talk>
-	<talk character="Kat"><default>Isso pode acabar fazendo mal à você.</default></talk>
+	<talk character="Derik"><arrive> Não tinham visto que ele só comprou roupas pretas?</arrive></talk>
+	<talk character="Kat"><default>Isso pode acabar fazendo mal a você.</default></talk>
 	<talk character="Ang"><default>Podem ficar sossegados. Agora temos que nos preocupar em arrumar esse lugar.</default></talk>
 	<talk character="Mel"><default>Bom, temos que verificar se aquele é verdadeiro.</default></talk>
 	<talk character="Derik"><default>Demos um quarto dele à Alan.</default></talk>
@@ -26,7 +26,7 @@
 	<talk character="Inês"><special>* É mais fácil derrubar.</special></talk>
 	<talk character="Mel"><default>Estava dormindo?</default></talk>
 	<talk character="Inês"><mute>Sim.</mute></talk>
-	<talk character="Kat"><default>* Acho que vamos precisar de ajuda para a reforma...</default></talk>
+	<talk character="Kat"><arrive> Acho que vamos precisar de ajuda para a reforma...</arrive></talk>
 	<teller><default>Eles começam a reforma na casa. Contratam pessoas da ilha, alunos que quisessem dinheiro. 01/02 (sábado). De noite, Ang está sem sono e vai até o sótão. A porta está emperrada.</default></teller>
 	<talk character="Ang"><default>Devia ter chamado um chaveiro hoje, sabia que tinha esquecido algo...</default></talk>
 	<teller><default>A porta se abre. Ele estranha. Entra. Encontra vários quadros cobertos. Descobre-os: uma garota, na maioria deles.</default></teller>
@@ -69,13 +69,13 @@
 	<talk character="Leo"><default>Deveriam se rebelar!</default></talk>
 	<talk character="p"><default>E do que viveríamos?</default></talk>
 	<teller><default>Ele sai do quarto. Quando passa pelo salão principal, seu pai tenta segurá-lo. Leva um soco.</default></teller>
-	<talk character="Leo"><default>SEUS HIPÓCRITAS!!! EU TENHO NOJOS DE TODOS AQUI!!! SÃO UMA VERGONHA!!!</default></talk>
+	<talk character="Leo"><screamed>Seus hipócritas!!! Eu tenho nojo de todos aqui!!! São uma vergonha!!!</screamed></talk>
 	<teller><default>Leonardo sai do prostíbulo e corre para casa. Lá, vai até o quarto da prima. Ela se assusta e senta-se na cama. Ele a abraça. Quando o pai dele chega, ele está sentado ao lado da cama, com a cabeça no colo da prima.</default></teller>
 	<talk character="pai"><default>Seu...</default></talk>
 	<talk character="prima"><default>Vais expulsá-lo de casa?</default></talk>
-	<talk character="pai"><default>É CLARO QUE VOU!!! NÃO QUERO UM FILHO QUE NÃO GOSTA DE MULHER!!!</default></talk>
+	<talk character="pai"><screamed>É claro que vou!!! Não quero um filho que não gosta de mulher!!!</screamed></talk>
 	<talk character="prima"><default>Pois eu vou junto.</default></talk>
-	<talk character="pai"><default>NÃO, TU TE CASARÁS, COMO ESTÁ MARCADO!</default></talk>
+	<talk character="pai"><screamed>Não, tu te casarás, como está marcado!</screamed></talk>
 	<teller><default>Ela se levanta da cama e vai até o pai dele.</default></teller>
 	<talk character="prima"><default>Meu noivo estava naquele lugar?</default></talk>
 	<talk character="pai"><default>Mas é claro!!! Ele é homem, não é como este trapo!!!</default></talk>
@@ -191,7 +191,7 @@
 	<talk character="garoto 2"><hushed>De repente ele lê pensamentos...</hushed></talk>
 	<talk character="garoto 1"><hushed>Às vezes ele fala olhando para ela, mas às vezes ele fala com o nada!</hushed></talk>
 	<talk character="garoto 2"><hushed>Bom, por enquanto isso não prejudica ninguém...</hushed></talk>
-	<talk character="Mel"><default>* Tão ouvindo e vendo bem?</default></talk>
+	<talk character="Mel"><arrive> Tão ouvindo e vendo bem?</arrive></talk>
 	<teller><default>Os dois se assustam. Ang olha para a porta, ao mesmo tempo em que Inês e Leo – que ninguém vê.</default></teller>
 	<talk character="Mel"><default>Por que não se aproximam mais e dizem o que tavam falando?</default></talk>
 	<talk character="garoto 2"><default>Desculpe, nós...</default></talk>
@@ -199,21 +199,21 @@
 	<talk character="garoto 2"><default>Estamos indo.</default></talk>
 	<teller><default>Eles saem da cozinha.</default></teller>
 	<talk character="garoto 1"><hushed>Acho que ela ainda gosta dele...</hushed></talk>
-	<talk character="Mel"><default>EU OUVI ISSO!</default></talk>
+	<talk character="Mel"><screamed>Eu ouvi isso!</screamed></talk>
 	<teller><default>Ouve-se passos subindo a escada.</default></teller>
 	<talk character="Mel"><default>Bom, acho que vão estranhar você falar sem obter resposta.</default></talk>
 	<teller><default>Inês parece se sentir mal. Angely vai até ela.</default></teller>
 	<talk character="Ang"><default>Alguma coisa errada?</default></talk>
 	<talk character="Inês"><special>Era pra eu nascer pelo dia 19, Lua Nova... Não entendo...</special></talk>
-	<talk character="Derik"><default>* Mel, eu acho que... O que tá acontecendo?!</default></talk>
-	<talk character="Nat"><default>* Algum problema com ela?</default></talk>
+	<talk character="Derik"><arrive> Mel, eu acho que... O que tá acontecendo?!</arrive></talk>
+	<talk character="Nat"><arrive> Algum problema com ela?</arrive></talk>
 	<talk character="Mel"><default>Acho que vai nascer...</default></talk>
 	<talk character="Nat"><default>Não está no tempo certo...</default></talk>
 	<talk character="Ang"><default>Como sabe?</default></talk>
 	<talk character="Derik"><default>Quem é você?</default></talk>
 	<talk character="Nat"><default>Desculpe, Natasha Zandí...</default></talk>
 	<talk character="Derik"><default>Ah, ouvi algo sobre você quase entrar em coma quando os vampiros...</default></talk>
-	<talk character="Mel"><default>DERIK!!!</default></talk>
+	<talk character="Mel"><screamed>Derik!!!</screamed></talk>
 	<talk character="Nat"><default>Não sou um dos inocentes daqui. Vamos levá-la pra perto de água doce.</default></talk>
 	<talk character="Derik"><default>Aquele lago perto do cemitério...</default></talk>
 	<talk character="Nat"><default>Não, não pode ser perto de corpos. Tem uma lagoa enorme aqui na ilha.</default></talk>
@@ -241,13 +241,13 @@
 	<talk character="Nat"><default>Não, só eu e ele vamos.</default></talk>
 	<talk character="Derik"><default>Por que???</default></talk>
 	<talk character="Nat"><default>Por que sim!!! Parem de perguntar, já tô sentindo a dor dela daqui!!!</default></talk>
-	<talk character="Inês"><special>Não tá, MESMO!</special></talk>
+	<talk character="Inês"><special>Não tá, mesmo!</special></talk>
 	<teller><default>Angely pega Inês no colo e sai, com Natasha.</default></teller>
 	<talk character="Derik"><default>Isso não é justo!</default></talk>
 	<talk character="Mel"><default>Engraçado, você acabou de dizer que está com saudades dos seis filhos do Dancan, e agora ela vai nascer...</default></talk>
 	<talk character="Derik"><default>Sabe que no dia do nascimento, apesar de não ser o pai deles, quase fiz um buraco no chão?</default></talk>
-	<talk character="Kat"><default>* Pai de quem?</default></talk>
-	<talk character="Estela"><default>* Ouvimos um barulhão lá de cima...</default></talk>
+	<talk character="Kat"><arrive> Pai de quem?</arrive></talk>
+	<talk character="Estela"><arrive> Ouvimos um barulhão lá de cima...</arrive></talk>
 	<talk character="Mel"><default>Angely acabou de sair, Inês vai ter a criança.</default></talk>
 	<talk character="Estela"><default>Mas, se é a criança controlando o corpo da mãe, o certo não seria dizer que ela vai nascer?</default></talk>
 	<talk character="Mel"><default>Não tente entender essa confusão, não há como.</default></talk>
@@ -300,7 +300,7 @@
 	<talk character="Ang"><default>Mas, se estão sozinhas, como a criança nasce?</default></talk>
 	<talk character="Nat"><default>Ficam sempre perto de centros, seus pais são inconscientemente forçados a isso. Não é difícil alguém encontrar uma grávida no chão, morta. Já decidiu?</default></talk>
 	<talk character="Ang"><default>Acho que ela prefere a sua companhia, do que...</default></talk>
-	<talk character="Edmont"><default>* Eu não acho.</default></talk>
+	<talk character="Edmont"><arrive> Eu não acho.</arrive></talk>
 	<teller><default>Nat e Ang olham pra Edmont.</default></teller>
 	<talk character="Edmont"><default>Os instintos não podem ser renegados assim...</default></talk>
 	<talk character="Nat"><default>Não tem direito a uma opinião.</default></talk>
@@ -310,7 +310,7 @@
 	<talk character="Nat"><default>Se eu não me engano, ela quem escolheu.</default></talk>
 	<teller><default>Angely entrega a criança a Natasha. Edmont está armado. Angely acaba desarmando-o. Natasha não entende quando ele enfia a arma em seu próprio peito. Edmont desaparece e Natasha se aproxima de Angely. Vai tirar a arma, mas Ang não deixa.</default></teller>
 	<talk character="Ang"><default>Faça o que... tem que fazer e... volte para o... casarão...</default></talk>
-	<talk character="Nat"><default>Mas o que direi aos outros?!</default><irony>Olha, ele tá morrendo lá na beira do lago, mas eu não tenho nada a ver com isso!!! </irony></talk>
+	<talk character="Nat"><default>Mas o que direi aos outros?!</default><irony>Olha, ele tá morrendo lá na beira do lago, mas eu não tenho nada a ver com isso!!!</irony></talk>
 	<talk character="Ang"><default>Diga que... encontramos Edmont... e tive que... segurar ele aqui... pra você fugir com... Inês, apenas... isso. Promete?...</default></talk>
 	<talk character="Nat"><default>Mas...</default></talk>
 	<talk character="Ang"><default>Confie... em mim...</default></talk>
@@ -323,7 +323,7 @@
 	<talk character="Estela"><default>Babão?</default></talk>
 	<talk character="Nat"><default>Apegado a crianças.</default></talk>
 	<talk character="Kat"><default>Babão já é um eufemismo.</default></talk>
-	<talk character="Mel"><default>* Cadê o Angely?!</default></talk>
+	<talk character="Mel"><arrive> Cadê o Angely?!</arrive></talk>
 	<talk character="Nat"><default>Encontramos o irmão dele.</default></talk>
 	<talk character="Mel"><default>E...?</default></talk>
 	<teller><default>Ela fica olhando pra Mel, pensando em como explicar.</default></teller>
@@ -351,7 +351,7 @@
 	<talk character="Mel"><default>Bom, pelo menos de um berço ela precisa.</default></talk>
 	<teller><default>Derik vai para a cozinha.</default></teller>
 	<talk character="Estela"><default>Tá com ciúmes da criança?</default></talk>
-	<talk character="Kat"><default>Meu namorado, que não parava de falar dela, agora está babando nela... O QUE VOCÊ ACHA?!</default></talk>
+	<talk character="Kat"><default>Meu namorado, que não parava de falar dela, agora está babando nela...</default><screamed>O que você acha?!</screamed></talk>
 	<talk character="Mel"><default>É só uma criança...</default></talk>
 	<talk character="Kat"><default>Dizem isso porque não é o Zenon, nem o Alan babando nela! Vou dormir!</default></talk>
 	<teller><default>Kat sai da sala.</default></teller>
@@ -370,8 +370,8 @@
 	<talk character="Leo"><ghost>Consegui ser ouvido! Agora só falta ser visto...</ghost></talk>
 	<talk character="Mel"><default>Bom, ver ainda não estamos vendo...</default></talk>
 	<teller><default>Kat chega à sala. Derik vem atrás, trazendo a pequena Inês.</default></teller>
-	<talk character="Derik"><default>* Mas Kat, não...</default></talk>
-	<talk character="Kat"><default>* Que caras são essas?</default></talk>
+	<talk character="Derik"><arrive> Mas Kat, não...</arrive></talk>
+	<talk character="Kat"><arrive> Que caras são essas?</arrive></talk>
 	<teller><default>Estela pega a criança das mãos de Derik, como quisesse protegê-la.</default></teller>
 	<talk character="Derik"><default>Ei!</default></talk>
 	<talk character="Leo"><ghost>Não precisas me olhar desse jeito, não vou pegar a criança.</ghost></talk>
@@ -406,7 +406,7 @@
 	<talk character="Mel"><default>Melhor eu arranjar algo pra você fazer, pra parar de pensar besteiras... Já sei, sobrevoe a ilha e vê se encontra o Angely.</default></talk>
 	<talk character="Derik"><default>Bom, já que ela não liga mais pra mim mesmo...</default></talk>
 	<teller><default>Mel encara Derik. Ele vai até a janela, se transforma em pássaro e voa. Ela pega a roupa e leva para cima. Depois, vai ao quarto da Kat. Estela está segurando a criança.</default></teller>
-	<talk character="Mel"><default>Será que não deveríamos levá-la à um hospital?</default></talk>
+	<talk character="Mel"><default>Será que não deveríamos levá-la a um hospital?</default></talk>
 	<talk character="Estela"><default>Talvez. Mas quem fica cuidando da Kat?</default></talk>
 	<talk character="Leo"><ghost>Eu cuido!</ghost></talk>
 	<talk character="Estela"><default>Será que podemos confiar?</default></talk>
@@ -418,7 +418,7 @@
 	<teller><default>Minutos depois, Ang está no sofá, desacordado, enquanto Mel conversa com Nat na cozinha.</default></teller>
 	<talk character="Nat"><default>Juro que não sei... Primeiro ele enfiou aquela arma nele mesmo e o outro sumiu, depois eu voltei e tirei a arma, senti tontura e desmaiei... Quando acordei ele tava assim!</default></talk>
 	<talk character="Mel"><default>Tenho uma hipótese... Ang causou o primeiro sumiço de Edmont, você tirou a arma e Edmont reapareceu. Eles lutaram até amanhecer... Mas por que?</default></talk>
-	<talk character="Nat"><default>Há um certo ritual, pra proteger a criança de se entregar à um vampiro facilmente... Edmont não queria que fizesse. Se eu morrer, o ritual é desfeito.</default></talk>
+	<talk character="Nat"><default>Há um certo ritual, pra proteger a criança de se entregar a um vampiro facilmente... Edmont não queria que fizesse. Se eu morrer, o ritual é desfeito.</default></talk>
 	<talk character="Mel"><default>Certo, então por isso Angely lutou, pra te defender. A propósito, tem alguma idéia do por que desmaiou?</default></talk>
 	<talk character="Nat"><default>Não sou humana e não suporto ficar perto de um vampiro sem uma fênix menor por perto.</default></talk>
 	<talk character="Mel"><default>Então, quando amanheceu, Edmont ‘se vingou’, dessa vez o desmaio de Angely foi causado pelo ‘sumiço’ dele, não o contrário. Edmont sumiu e não havia mais impedimento, por isso você acordou. O que é uma fênix menor?</default></talk>
@@ -444,9 +444,9 @@
 	<talk character="Nat"><default>Esqueci.</default></talk>
 	<talk character="Ang"><default>Bom, eu posso cometer algum erro, então...</default></talk>
 	<teller><default>Kat chega na copa e fica ouvindo.</default></teller>
-	<talk character="Nat"><default>É o seguinte, as fênixs crescem quatro anos em um, comparadas à vocês. Aos três viram adultas e aos cinco param de envelhecer. Quando crianças podem morrer sufocadas, afogadas ou se todo seu sangue for roubado. Já adultas só morrem se engravidarem de um vampiro. Para isso é preciso que eles façam sexo e depois ele beba o sangue todo dela. Caso ele não faça a última parte, não há gravidez, consequentemente continua viva.</default></talk>
+	<talk character="Nat"><default>É o seguinte, as fênixs crescem quatro anos em um, comparadas a vocês. Aos três viram adultas e aos cinco param de envelhecer. Quando crianças podem morrer sufocadas, afogadas ou se todo seu sangue for roubado. Já adultas só morrem se engravidarem de um vampiro. Para isso é preciso que eles façam sexo e depois ele beba o sangue todo dela. Caso ele não faça a última parte, não há gravidez, consequentemente continua viva.</default></talk>
 	<talk character="Ang"><default>E o tal Pacto?</default></talk>
-	<talk character="Nat"><default>‘Marte sob Lua’. Liguei ela à mim e agora ela só vai se entregar se ele conseguir beijá-la. Elas tem costumes diurnos, eles noturnos, então é fácil evitar o contato.</default></talk>
+	<talk character="Nat"><default>‘Marte sob Lua’. Liguei ela a mim e agora ela só vai se entregar se ele conseguir beijá-la. Elas tem costumes diurnos, eles noturnos, então é fácil evitar o contato.</default></talk>
 	<talk character="Ang"><default>Não encontramos o nome manigê...</default></talk>
 	<talk character="Nat"><default>Eu tinha uma mãe haimagê e uma dumani. Procure as duas raças.</default></talk>
 	<talk character="Mel"><default>Ah, é uma fusão?</default></talk>
@@ -455,7 +455,7 @@
 	<talk character="Nat"><default>Tá brincando comigo...</default></talk>
 	<talk character="Derik"><default>Eu juro, eram seis crianças!</default></talk>
 	<talk character="Nat"><default>Que habilidade... Sorte da mulher com quem você casar!</default></talk>
-	<talk character="Kat"><default>* Ou azar.</default></talk>
+	<talk character="Kat"><arrive> Ou azar.</arrive></talk>
 	<teller><default>Kat está furiosa.</default></teller>
 	<talk character="Derik"><default>Que foi?</default></talk>
 	<talk character="Kat"><default>Ainda pergunta?</default></talk>
@@ -471,20 +471,20 @@
 	<talk character="Kat"><default>Então você quer terminar, é isso???</default></talk>
 	<talk character="Derik"><default>Você quem terminou.</default>
 	<teller>baixa a cabeça</teller><default>Faz tempo.</default></talk>
-	<talk character="Kat"><default>TÁ, ENTÃO PROCURA ALGUÉM QUE TE AGÜENTE, POR QUE EU TAMBÉM JÁ CANSEI!!! VOCÊ NÃO É HOMEM, DESAPARECE DA MINHA VIDA!!!</default></talk>
+	<talk character="Kat"><screamed>Tá, então procura alguém que te agüente, por que eu também já cansei!!! Você não é homem, desaparece da minha vida!!!</screamed></talk>
 	<teller><default>Derik olha pra Kat com os olhos em lágrimas. Sai. Kat sobe.</default></teller>
 	<talk character="Kat"><default>Nunca mais vou namorar um cara menor de duzentos anos!!!</default></talk>
 	<talk character="Estela"><default>Nossa, que isso?!</default></talk>
 	<talk character="Kat"><default>Derik disse que eu acabei com nosso namoro, vê se pode!!!</default></talk>
 	<talk character="Estela"><default>É... Bom... Não andava dando lá muita atenção pra ele.</default></talk>
-	<talk character="Kat"><default>ELE É QUE SÓ FICAVA BABANDO EM CIMA DAQUELA...</default></talk>
+	<talk character="Kat"><screamed>Ele é que só ficava babando em cima daquela...</screamed></talk>
 	<talk character="Estela"><default>É só um bebê!!!</default></talk>
 	<talk character="Kat"><default>Daqui há cinco anos ela vai estar com cara de vinte! E depois vai ficar com cara de novinha até morrer! Se ainda fosse filha dele...</default></talk>
 	<talk character="Estela"><default>Então é isso...</default></talk>
 	<talk character="Kat"><default>É.</default></talk>
 	<talk character="Estela"><default>Derik nunca vai te trocar.</default></talk>
-	<talk character="Kat"><default>Ele vai acabar se apegando à ela. Prefiro que ele vá agora do que me faça sofrer mais depois...</default></talk>
-	<talk character="Estela"><irony>Otimista... </irony></talk>
+	<talk character="Kat"><default>Ele vai acabar se apegando a ela. Prefiro que ele vá agora do que me faça sofrer mais depois...</default></talk>
+	<talk character="Estela"><irony>Otimista...</irony></talk>
 	<teller><default>Derik está andando pela Ilha, com uma garrafa na mão, já, digamos, meio alto. Beatrice se aproxima.</default></teller>
 	<talk character="Derik"><default>Achei que tivesse ido embora, ou morrido, sei lá...</default></talk>
 	<talk character="Bea"><default>Apenas me afastei para Edmont se acalmar.</default></talk>
@@ -530,10 +530,10 @@
 	<talk character="Ang"><default>Acho que você...</default></talk>
 	<talk character="Kat"><ghost>E o cara-de-pau ainda fingiu que tava chateado com a separação!</ghost></talk>
 	<talk character="Ang"><default>Ele não tava bêbado, não?</default></talk>
-	<talk character="Kat"><ghost>BÊBADO?!</ghost></talk>
+	<talk character="Kat"><ghost>Bêbado?!</ghost></talk>
 	<talk character="Ang"><default>Não creio que fosse atrás de uma vampira se quisesse te trair simplesmente.</default></talk>
 	<talk character="Kat"><ghost>Ele quis ir atrás de quem eu mais odeio, isso sim!</ghost></talk>
-	<talk character="Mel"><default>*Angely, viu a Katerine?</default></talk>
+	<talk character="Mel"><arrive>Angely, viu a Katerine?</arrive></talk>
 	<talk character="Ang"><default>Ué, ela taquí...</default></talk>
 	<talk character="Kat"><ghost>Ai, até esqueci de voltar ao normal!</ghost></talk>
 	<teller><default>Algum silêncio. Kat está ao lado de Mel, mas ela não pode ver.</default></teller>
@@ -551,17 +551,17 @@
 	<talk character="Ang"><default>Se acalme, talvez seja a raiva...</default></talk>
 	<talk character="Mel"><default>Raiva de que?</default></talk>
 	<talk character="Ang"><default>Deu um pé em Derik e ele foi atrás de outra.</default></talk>
-	<talk character="Kat"><ghost>NÃO FUI EU QUEM QUIS TERMINAR E ELE NÃO FOI SIMPLESMENTE ATRÁS DE OUTRA, FOI ATRÁS DA BEATRICE!!!</ghost></talk>
+	<talk character="Kat"><ghost>Não fui eu quem quis terminar e ele não foi simplesmente atrás de outra, foi atrás da Beatrice!!!</ghost></talk>
 	<talk character="Mel"><default>Ela disse algo?</default></talk>
 	<talk character="Ang"><default>Me deu uma bronca, disse que quem terminou foi ele e que ele não foi atrás de outra simplesmente, foi atrás de Beatice.</default></talk>
 	<talk character="Mel"><default>Então ela tem razão.</default></talk>
-	<talk character="Nat"><default>* Que está acontecendo?</default></talk>
+	<talk character="Nat"><arrive> Que está acontecendo?</arrive></talk>
 	<talk character="Ang"><default>Kat consegue sair do corpo, mas não tá conseguindo voltar agora.</default></talk>
 	<talk character="Kat"><ghost>Tira essa criança maldita daqui!!!</ghost></talk>
 	<talk character="Ang"><default>Você está se descontrolando...</default></talk>
 	<talk character="Mel"><default>Que foi, Angely?</default></talk>
 	<talk character="Ang"><default>Ela não quer Inês aqui...</default></talk>
-	<talk character="Edmont"><default>* Pode ficar sossegada, ela não vai ficar.</default></talk>
+	<talk character="Edmont"><arrive> Pode ficar sossegada, ela não vai ficar.</arrive></talk>
 	<teller><default>Edmont aparece na porta, todo coberto. Ang entra na frente de Natasha.</default></teller>
 	<talk character="Edmont"><default>Vamos lutar se novo? Tá ficando entediante já...</default></talk>
 	<talk character="Mel"><default>Por que não desiste, já que você sempre perde?</default></talk>
@@ -597,7 +597,7 @@
 	<talk character="Ang"><default>Sem brigas, está bem?!</default></talk>
 	<talk character="Nat"><default>Eu sei que é difícil para você escolher entre duas filhas, mas vai ter que fazer isso!!!</default></talk>
 	<teller><default>Melody olha pra Angely, já com lágrimas nos olhos.</default></teller>
-	<talk character="Ang"><thought>Deus, dois meses e já convencemos até à nós mesmos.)</thought></talk>
+	<talk character="Ang"><thought>Deus, dois meses e já convencemos até à nós mesmos.</thought></talk>
 	<talk character="Mel"><default>Angely, o que você vai fazer?</default></talk>
 	<talk character="Ang"><default>Nenhuma vida é mais importante que outra, droga, não dá pra escolher assim! Temos que salvar as duas!!! Não é como escolher que roupa usar ou o que comer!!!</default></talk>
 	<teller><default>Silêncio.</default></teller>
@@ -614,7 +614,7 @@
 	<talk character="Ang"><default>Katerine sabe com quem você esteve.</default></talk>
 	<talk character="Derik"><default>Ela fez alguma coisa??? Aconteceu alguma coisa com ela???</default></talk>
 	<talk character="Ang"><default>Tava conversando com Leo e não conseguiu voltar para o corpo. Acho que foi a raiva.</default></talk>
-	<talk character="Derik"><default>Mas eu falei pra ela pra não ficar fazendo isso à torto e direito... Peraí, não seria “não tá conseguindo”??? Não tem mais jeito agora??? Que aconteceu com o corpo dela???</default></talk>
+	<talk character="Derik"><default>Mas eu falei pra ela pra não ficar fazendo isso à torto e direito... Peraí, não seria "não tá conseguindo"??? Não tem mais jeito agora??? Que aconteceu com o corpo dela???</default></talk>
 	<talk character="Ang"><default>Edmont levou ela e Leonardo. Só vai devolver se entregarmos Inês.</default></talk>
 	<talk character="Derik"><default>Você não pode localizar seu irmão?</default></talk>
 	<talk character="Ang"><default>Poder eu posso, mas, se fossem fazer um plano, eu teria que me afastar. Ele poderia descobrir.</default></talk>
@@ -642,9 +642,9 @@
 	<talk character="Mel"><default>Não dá pra pegar um fantasma!!!</default></talk>
 	<talk character="Nat"><default>E acha mais fácil pegar um bebê?! Por que acha que ele preferiu levar sua filha?!</default></talk>
 	<talk character="Derik"><default>Acho que vou atrás do Angely...</default></talk>
-	<talk character="Mel"><default>PRA ME TORTURAR, É ISSO QUE ELE GOSTA DE FAZER!!!</default></talk>
-	<talk character="Nat"><default>COMO SE INÊS FOSSE TER ALGUMA OUTRA SERVENTIA PRA ELE!!! VOCÊ MESMOS DISSERAM QUE ELE NÃO PRECISA DELA!!!</default></talk>
-	<talk character="Derik"><default>QUEREM PARAR COM ISSO???</default>
+	<talk character="Mel"><screamed>Pra me torturar, é isso que ele gosta de fazer!!!</screamed></talk>
+	<talk character="Nat"><screamed>Como se inês fosse ter alguma outra serventia pra ele!!! Você mesmos disseram que ele não precisa dela!!!</screamed></talk>
+	<talk character="Derik"><screamed>Querem parar com isso???</screamed>
 	<teller>as duas olham pra ele</teller><default>Brigar não vai levar a nada. Aliás, aposto que é isso exatamente que ele quer. Cadê a Inês?</default></talk>
 	<talk character="Nat"><default>Tá lá em cima, dormindo.</default></talk>
 	<talk character="Derik"><default>Dormindo ou sendo seqüestrada!</default></talk>
@@ -652,7 +652,7 @@
 	<talk character="Derik"><default>Primeiro, temos que pedir à alguém pra ficar com a criança.</default></talk>
 	<talk character="Mel"><default>Deixa eu ver se entendi, está dando ordens?</default></talk>
 	<talk character="Derik"><default>Vocês estão com a cabeça quente demais pra pensar em alguma coisa.</default></talk>
-	<talk character="Nat"><irony>Engraçado, Katerine não era a sua namorada? Não amava tanto ela? </irony></talk>
+	<talk character="Nat"><irony>Engraçado, Katerine não era a sua namorada? Não amava tanto ela?</irony></talk>
 	<talk character="Derik"><default>Só vim aqui por isso. Vou deixar pra me desesperar depois, quando tiver que explicar o que eu fiz.</default></talk>
 	<teller><default>Enquanto isso, Leo e Kat estão num lugar estranho, em silêncio.</default></teller>
 	<talk character="Leo"><ghost>Queria pedir-te desculpas.</ghost></talk>
@@ -739,7 +739,7 @@
 	<teller><default>Nat pega a pá.</default></teller>
 	<talk character="Nat"><default>Não estou reconhecendo vocês...</default></talk>
 	<talk character="Estela"><default>Nós temos que ir!</default></talk>
-	<talk character="Mel"><default>* Esqueceu a pedra...</default></talk>
+	<talk character="Mel"><arrive> Esqueceu a pedra...</arrive></talk>
 	<teller><default>Mel entra com uma pedra azul pequena. Derik e Estela respiram aliviados.</default></teller>
 	<talk character="Mel"><default>Nossa, que caras são essas?</default></talk>
 	<talk character="Derik"><default>Nós pensamos que...</default></talk>
@@ -763,7 +763,7 @@
 	<teller><default>Na cozinha...</default></teller>
 	<talk character="Derik"><hushed>Nossa, que susto que ela deu na gente...</hushed></talk>
 	<talk character="Estela"><hushed>Eu não me assustei tanto assim.</hushed></talk>
-	<talk character="Derik"><hushed>“Nós temos que ir!”</hushed></talk>
+	<talk character="Derik"><hushed>"Nós temos que ir!"</hushed></talk>
 	<talk character="Estela"><hushed>Também não foi assim!</hushed></talk>
 	<talk character="Derik"><hushed>Não, esqueci de fingir que ia sair correndo...</hushed></talk>
 	<talk character="Estela"><hushed>Você tava com muito mais medo que eu!</hushed></talk>
@@ -776,7 +776,7 @@
 	<talk character="Nat"><default>Por que mentiram?!</default></talk>
 	<talk character="Derik"><default>Alan mentiu antes.</default></talk>
 	<teller><default>Mel e Nat encaram Derik e Estela.</default></teller>
-	<talk character="Estela"><default>Num olha qu’essa cara, não, queriam que disséssemos o que, “olha, tem um vampiro atrás da criança... À propósito, Alan mentiu, você realmente quase virou janta de um ser que era pra estar enterrado!!!”???</default></talk>
+	<talk character="Estela"><default>Num olha qu’essa cara, não, queriam que disséssemos o que, "olha, tem um vampiro atrás da criança... À propósito, Alan mentiu, você realmente quase virou janta de um ser que era pra estar enterrado!!!"???</default></talk>
 	<talk character="Mel"><default>Tudo bem, agora podemos falar com Edmont, ver se ele aceita a oferta.</default></talk>
 	<talk character="Derik"><default>E se ele não aceitar?</default></talk>
 	<talk character="Nat"><default>Primeiro temos que achá-lo.</default></talk>
@@ -792,7 +792,7 @@
 	<teller>boceja</teller><default>vampiros da ilha...</default></talk>
 	<teller><default>Mel ampara Nat até o sofá e esta adormece.</default></teller>
 	<talk character="Mel"><default>Que faremos agora?</default></talk>
-	<talk character="Bea"><default>* Nos entreguem a criança.</default></talk>
+	<talk character="Bea"><arrive> Nos entreguem a criança.</arrive></talk>
 	<teller><default>Beatrice, Íris e Henrique (transf. por Beatrice também, vampiro de quem Edmont arrancara os dentes) estavam dentro da MEAK.</default></teller>
 	<talk character="Mel"><default>Achei que não pudessem entrar sem serem convidados...</default></talk>
 	<talk character="Estela"><default>Não se aplica a lugares públicos.</default></talk>
@@ -825,7 +825,7 @@
 	<teller><default>Beatrice larga Henrique e olha pra Íris.</default></teller>
 	<talk character="Bea"><default>Deixa eu explicar uma coisinha: se fizermos isso, eu serei castigada, mas continuarei viva, já vocês...</default></talk>
 	<talk character="Derik"><default>Você já não está viva.</default></talk>
-	<talk character="Bea"><irony>Engraçado, ontem você não achava isso! </irony></talk>
+	<talk character="Bea"><irony>Engraçado, ontem você não achava isso!</irony></talk>
 	<talk character="Mel"><default>Temos outra oferta para Edmont.</default></talk>
 	<talk character="Bea"><default>Na praia, meia-noite. É o prazo final.</default></talk>
 	<teller><default>Os três vampiros saem.</default></teller>
@@ -841,12 +841,12 @@
 	<talk character="Nat"><default>Temos que fazer um plano...</default></talk>
 	<talk character="Mel"><default>Se tentarmos pensar em enganar Edmont, Kat e Leonardo já eram.</default></talk>
 	<talk character="Nat"><default>Não precisamos enganá-lo. É só pegar a pedra de volta depois.</default></talk>
-	<talk character="Ang"><default>* Eu tentei pegar os dois, mas não há como!</default></talk>
+	<talk character="Ang"><arrive> Eu tentei pegar os dois, mas não há como!</arrive></talk>
 	<teller><default>Todos olham para a porta e vêem Ang, com lágrimas nos olhos.</default></teller>
-	<talk character="Mel"><default>Vamos oferecer isso à ele em troca de Kat e Leonardo.</default></talk>
+	<talk character="Mel"><default>Vamos oferecer isso a ele em troca de Kat e Leonardo.</default></talk>
 	<teller><default>Mel mostra a pedra. Ang pega a pedra e fica olhando-a.</default></teller>
 	<talk character="Ang"><default>Olho da Lua...</default></talk>
-	<talk><default>QUE?! (EST/MEL/DRK)</default></talk>
+	<talk character="Estela / Mel / Derik"><screamed>Que?!</screamed></talk>
 	<talk character="Nat"><default>Como sabe o nome?</default></talk>
 	<talk character="Ang"><default>Edmont sabe. Alguém um dia achou que estava com isso, por ele não morrer.</default></talk>
 	<talk character="Mel"><default>Então é esse o nome disso...?</default></talk>
@@ -892,8 +892,8 @@
 	<talk character="Henrique"><default>Agora nós fazemos o que queremos, somos livres!</default></talk>
 	<talk character="Ang"><default>Será que são mesmo?</default></talk>
 	<talk character="Bea"><default>Chega de ladainha!</default></talk>
-	<talk character="Edmont"><default>* Tentando desmanchar meu grupo?</default></talk>
-	<talk character="Mel"><default>* Temos outra proposta para você.</default></talk>
+	<talk character="Edmont"><arrive> Tentando desmanchar meu grupo?</arrive></talk>
+	<talk character="Mel"><arrive> Temos outra proposta para você.</arrive></talk>
 	<teller><default>Leo e Kat vieram com Edmont.</default></teller>
 	<talk character="Edmont"><default>Sou todo ouvidos.</default></talk>
 	<talk character="Kat"><ghost>Ang, ele tá com a pedra no bolso esquerdo da camisa!</ghost></talk>
@@ -933,7 +933,7 @@
 	<talk character="Derik"><default>Me torturando. Kat está com raiva de mim, não vai querer me ver nunca mais na frente dela. Por que não me mata logo de uma vez?</default></talk>
 	<talk character="Bea"><default>Sou uma vampira, não uma assassina de suicidas. Não quer mais...</default></talk>
 	<teller><default>Beatrice vai tentar se aproximar de Derik, mas ele a afasta.</default></teller>
-	<talk character="Bea"><irony>Que bonitinho! </irony><default>Ainda bem que não encontrei alguém igual a você quando era humana e burra, se não tinha casado e tava cheia de filhos.</default></talk>
+	<talk character="Bea"><irony>Que bonitinho!</irony><default>Ainda bem que não encontrei alguém igual a você quando era humana e burra, se não tinha casado e tava cheia de filhos.</default></talk>
 	<talk character="Derik"><default>Você tinha doze anos quando virou vampira.</default></talk>
 	<talk character="Bea"><default>Nessa época você tinha 14, grande diferença. Com 19, parece mais novo que eu com 12.</default></talk>
 	<teller><default>Eles chegam em casa, com a pedra. Colocam-na no quarto de Ang, que dorme.</default></teller>
@@ -972,7 +972,7 @@
 	<talk character="Mel"><default>Duvido muito.</default></talk>
 	<talk character="Nat"><default>Derik se recupera?</default></talk>
 	<talk character="Mel"><default>Acho que sim, ele é forte.</default></talk>
-	<talk character="Estela"><default>* Eu realmente nunca ia imaginar vocês amigas!</default></talk>
+	<talk character="Estela"><arrive> Eu realmente nunca ia imaginar vocês amigas!</arrive></talk>
 	<teller><default>Estela traz Inês. Entrega à Nat.</default></teller>
 	<talk character="Ang"><default>Eu posso pegar ela, só mais uma vez?</default></talk>
 	<talk character="Nat"><default>Claro...</default></talk>
@@ -999,7 +999,7 @@
 	<talk character="Derik"><default>Parece que as crianças não ficam muito tempo perto de mim.</default></talk>
 	<talk character="Nat"><default>Um dia você vai ter os seus.</default></talk>
 	<talk character="Derik"><default>Não sei, a Kat...</default></talk>
-	<talk character="Kat"><default>* Que tem eu aí, hein?</default></talk>
+	<talk character="Kat"><arrive> Que tem eu aí, hein?</arrive></talk>
 	<talk character="Estela"><default>Estávamos falando de crianças.</default></talk>
 	<talk character="Kat"><default>Bom, por enquanto só quero saber de me recuperar do susto... E agradecer por ter meu corpo de volta!!!</default></talk>
 	<talk character="Mel"><default>Falando nisso, você não vai mais usar isso, entendeu?</default></talk>

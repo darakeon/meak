@@ -2,9 +2,9 @@
 	<teller><default>Uma garota corre. Tem em mãos uma faca, suja de sangue. Alguém a encosta na parede, derrubando a faca. O sangue molha a terra.</default></teller>
 	<talk character="vampiro"><default>Pensa que pode se livrar de mim só com isso?</default></talk>
 	<teller><default>Começa a tremer o chão.</default></teller>
-	<talk character="vampiro"><default>MERDA!!! EU TINHA QUE TER ESQUECIDO DISSO???</default></talk>
+	<talk character="vampiro"><screamed>Merda!!! Eu tinha que ter esquecido disso???</screamed></talk>
 	<teller><default>Eles caem, a garota corre, o vampiro vai atrás. Volta, puxando-a pelo braço. Um homem está deitado no chão.</default></teller>
-	<talk><default>Andrews... (Dilan - vampiro)</default></talk>
+	<talk character="Dilan - vampiro"><default>Andrews...</default></talk>
 	<teller><default>Ele sorri. Andrews se levanta.</default></teller>
 	<talk character="Andrews"><default>Quanto tempo eu fiquei preso, Dilan?</default></talk>
 	<talk character="Dilan"><default>Cinco séculos. Deve estar com fome.</default></talk>
@@ -35,7 +35,7 @@
 	<talk character="Angely"><default>Você tem a empresa do seu pai.</default></talk>
 	<talk character="Edmont"><default>Problema temos nós.</default></talk>
 	<talk character="Mel"><default>Se vamos terminar a banda, o momento é esse. Nossa agenda finalmente tá livre.</default></talk>
-	<talk character="Samuel"><default>* Até que enfim os encontrei!</default></talk>
+	<talk character="Samuel"><arrive> Até que enfim os encontrei!</arrive></talk>
 	<talk character="Angely"><default>Não é uma boa hora.</default></talk>
 	<talk character="Samuel"><default>Marquei um show pra depois de amanhã.</default></talk>
 	<talk character="Mel"><default>Depois de amanhã?</default></talk>
@@ -124,34 +124,34 @@
 	<teller><default>Os dois entram no prédio. Andrews fica do lado de fora, com a outra garota, afogado em lembranças.</default></teller>
 	<teller><default>Dois adolescentes correndo. A moça cai. O rapaz volta até ela. Ela está chorando.</default></teller>
 	<talk character="rapaz"><default>Levante, não podes desistir agora!!!</default></talk>
-	<talk><default>Não adianta, elas vão me pegar... (moça)</default></talk>
+	<talk character="moça"><default>Não adianta, elas vão me pegar...</default></talk>
 	<talk character="rapaz"><default>Eu sei onde podemos encontrar uma igreja, tá logo ali...</default></talk>
 	<teller><default>Ela se levanta. Eles continuam correndo. Chegam à igreja, que está fechada.</default></teller>
 	<talk character="rapaz"><default>Abram!!!</default></talk>
-	<talk><default>Não vão abrir... (moça)</default></talk>
+	<talk character="moça"><default>Não vão abrir...</default></talk>
 	<talk character="padre"><out>Não abrigaremos uma bruxa!!!</out></talk>
 	<talk character="rapaz"><default>Mas ela não é mais bruxa, é disso que fugimos!!!</default></talk>
 	<talk character="padre"><out>Estás enfeitiçado por ela!!!</out></talk>
 	<talk character="rapaz"><default>Desgraçados!!!!!!! Abram!!!!!</default></talk>
 	<teller><default>Depois de alguns minutos, ele se cansa de bater.</default></teller>
 	<talk character="rapaz"><default>Te levanta.</default></talk>
-	<talk><default>Que vais fazer? (moça)</default></talk>
+	<talk character="moça"><default>Que vais fazer?</default></talk>
 	<talk character="rapaz"><default>Vamos fugir.</default></talk>
-	<talk><default>Não podemos fugir a vida toda... (moça)</default></talk>
+	<talk character="moça"><default>Não podemos fugir a vida toda...</default></talk>
 	<talk character="rapaz"><default>Não precisaremos da vida toda.</default></talk>
 	<teller><default>A moça começa a chorar. Ele abraça ela.</default></teller>
 	<talk character="rapaz"><default>Não chores. Prometi à tua mãe que cuidaria de ti. Ela foi como uma mãe pra mim e eu vou cumprir minha promessa.</default></talk>
 	<teller><default>Eles saem e vão até uma casa que parece abandonada. Acabam dormindo. Ele acorda cedo. Passa a mão no rosto dela, que ainda dorme. Se levanta e sai. A garota ouve vozes lhe chamando e acorda. Meia hora depois ele volta. Ela atravessou um pedaço de madeira em seu próprio coração. Ainda está viva. Ele vai até ela e a coloca em seu colo. A mão dela fraqueja e solta o crucifixo que segurava. Ela fecha os olhos. Ele retira a estaca.</default></teller>
-	<talk>
+	<talk character="rapaz">
 	<default>Ainda há beleza em teu rosto...</default>
 	<teller>beija-a</teller>
 	<default>Doce em tua boca...</default>
 	<teller>abraça-a</teller>
 	<default>Calor em teu corpo... Mas o brilho de teus olhos foi apagado...</default>
 	<teller>beija-a de novo</teller>
-	<default>Eu te amo... Quisera eu ter dito-te isto quando pude sentir teu coração tão perto e tua respiração tão leve. Agora é tão tarde. É sempre tão tarde à tudo. (rapaz)</default>
+	<default>Eu te amo... Quisera eu ter dito-te isto quando pude sentir teu coração tão perto e tua respiração tão leve. Agora é tão tarde. É sempre tão tarde à tudo.</default>
 	</talk>
-	<talk character="bruxa"><default>* Tua dor seja eterna!!!</default></talk>
+	<talk character="bruxa"><arrive> Tua dor seja eterna!!!</arrive></talk>
 	<talk character="rapaz"><default>Tu fizeste isso?</default></talk>
 	<talk character="bruxa"><default>Achaste mesmo que ias ficar com ela depois de teres desdenhado-me tanto? É o castigo que merecem. Trocaste-me por uma traidora!!!</default></talk>
 	<talk character="rapaz"><default>Ela era tão doce... Não queria tão mal aos outros como ti.</default></talk>
@@ -160,7 +160,7 @@
 	<teller><default>Ele vai até ela, encosta-a na parede.</default></teller>
 	<talk character="bruxa"><default>Não pode ser, não tens esta força!!!</default></talk>
 	<talk character="rapaz"><default>Isso é força de ódio. Se Deus não me ajudou a protegê-la, que o Demônio me ajude a vingá-la!!!</default></talk>
-	<teller><default>Ela olha pra feição dele que mudara. Agora eram seus caninos maiores. Ele sorriu quando viu que ela se espantara. Se virou pra trás e olhou o espelho. Depois se virou novamente à ela e mordeu seu pescoço. O sangue tinha um gosto maravilhoso. Ele bebeu até que sentiu o coração dela parar. Então soltou o corpo morto da jovem. Voltou a sua face normal. Olhou pra janela.</default></teller>
+	<teller><default>Ela olha pra feição dele que mudara. Agora eram seus caninos maiores. Ele sorriu quando viu que ela se espantara. Se virou pra trás e olhou o espelho. Depois se virou novamente a ela e mordeu seu pescoço. O sangue tinha um gosto maravilhoso. Ele bebeu até que sentiu o coração dela parar. Então soltou o corpo morto da jovem. Voltou a sua face normal. Olhou pra janela.</default></teller>
 	<talk character="rapaz"><default>Deveríamos temer a escuridão da noite. E ela foi morta aqui, no dia... Não quero mais ver-te, luz de merda!!!</default></talk>
 	<teller><default>Ele bate a janela e a tranca. Repete com todas. A luz que entra é pouca.</default></teller>
 	<talk character="rapaz"><default>E pra que me serve este maldito espelho? Pra ver-me? Então não serve.</default></talk>
@@ -214,7 +214,7 @@
 	<talk character="Dilan"><default>Ah?</default>
 	<teller>Dilan vai até a janela</teller><default>Tá vendo? Está mesmo ficando louca. Não tem nada lá em baixo.</default></talk>
 	<talk character="garota"><default>Não estou louca, você me mordeu e está saindo sangue!!!</default></talk>
-	<talk character="Dilan"><irony>Só falta dizer agora que sou um vampiro. </irony><default>Se acalme.</default>
+	<talk character="Dilan"><irony>Só falta dizer agora que sou um vampiro.</irony><default>Se acalme.</default>
 	<teller>pega-a pela mão e trás pra perto de si</teller><default>Bebeu demais.</default>
 	<teller>a abraça</teller><default>Não há sangue nenhum.</default></talk>
 	<teller><default>Ele a morde e ela o afasta. Vê os dentes dele e grita. Ele segura ela.</default></teller>
@@ -340,9 +340,9 @@
 	<talk character="Andrews"><default>Vou voltar a ser igual aos outros.</default></talk>
 	<talk character="Kassandra"><default>E quem te disse isso?</default></talk>
 	<talk character="Andrews"><default>Uma mulher que tinha uma grande força.</default></talk>
-	<talk character="Kassandra"><irony>Ah, é? </irony></talk>
+	<talk character="Kassandra"><irony>Ah, é?</irony></talk>
 	<talk character="Andrews"><default>Uma força maior que a do homem de capa preta, mas inclinada ao lado contrário...</default></talk>
-	<talk character="Kassandra"><irony>E por acaso chamava-se Maria? </irony></talk>
+	<talk character="Kassandra"><irony>E por acaso chamava-se Maria?</irony></talk>
 	<teller><default>Andrews é atingido por algo e sente tontura.</default></teller>
 	<talk character="Andrews"><default>Eu sabia, armais pra mim...</default></talk>
 	<talk character="Kassandra"><default>Já devias saber.</default></talk>
@@ -358,7 +358,7 @@
 	<talk character="Mel"><default>Mais alguma visão de Kat?</default></talk>
 	<talk character="Angely"><default>Não. Foi um vampiro diferente que ele encontrou.</default></talk>
 	<talk character="Mel"><default>Diferente como?</default></talk>
-	<talk character="Kat"><default>* Imune a estacas?</default></talk>
+	<talk character="Kat"><arrive> Imune a estacas?</arrive></talk>
 	<talk character="Edmont"><default>Como sabe?...</default>
 	<teller>ele pára, pensa</teller><default>Que pergunta idiota!</default></talk>
 	<talk character="Mel"><default>Tudo bem, o que foi dessa vez?</default></talk>
@@ -367,7 +367,7 @@
 	<talk character="Helene"><default>Que droga.</default></talk>
 	<talk character="Annie"><default>Talvez devêssemos armar outra coisa.</default></talk>
 	<talk character="Agatha"><default>Embebedar ele de novo não dá.</default></talk>
-	<talk character="Edmont"><default>* Se querem alguma coisa com ele, não é se jogando na frente dele que vão conseguir.</default></talk>
+	<talk character="Edmont"><arrive> Se querem alguma coisa com ele, não é se jogando na frente dele que vão conseguir.</arrive></talk>
 	<talk character="Denise"><default>Tudo bem, você é irmão dele, tem que saber alguma coisa.</default></talk>
 	<talk character="Edmont"><default>Ele parece chateado com algo. Acho que aborreceram ele com o que aprontaram.</default></talk>
 	<talk character="Helene"><default>Aquela noite íamos fazer...</default></talk>
@@ -418,17 +418,17 @@
 	<talk character="Mel"><default>Sim.</default></talk>
 	<talk character="Derik"><default>Acho que teria que estar no meio desses seres pra saber.</default></talk>
 	<talk character="Mel"><default>Então vamos nos virar com o que tem aqui.</default></talk>
-	<talk character="Derik"><default>Desculpe... “Vamos”?</default></talk>
+	<talk character="Derik"><default>Desculpe... "Vamos"?</default></talk>
 	<talk character="Mel"><default>Eu e você.</default></talk>
 	<talk character="Derik"><default>Por que???</default></talk>
-	<talk character="Mel"><default>Somos os únicos que não estamos fazendo absolutamente NADA.</default></talk>
+	<talk character="Mel"><default>Somos os únicos que não estamos fazendo absolutamente nada.</default></talk>
 	<teller><default>Enquanto isso, uma mulher pára um táxi próximo ao hotel onde estavam Dilan e Andrews. Atrás, o motorista, morto.</default></teller>
-	<talk character="Kassandra"><default>“Se quiser pode pagar de outro jeito...”... Hã, otário.</default></talk>
+	<talk character="Kassandra"><default>"Se quiser pode pagar de outro jeito..."... Hã, otário.</default></talk>
 	<teller><default>Ela entra no hotel e vai até o elevador. Sobe até o andar 13. Vai passando pelas portas.</default></teller>
 	<talk character="Kassandra"><default>Aqui não... Aqui não... Também não... Esse.</default>
 	<teller>Kassandra tira um cartão da bolsa e passa na porta, que abre</teller><default>Dilan sabia que eu viria. Devem ter saído pra caçar. Será que avisou os outros?</default></talk>
 	<teller><default>Dara chega em casa. Senta-se no sofá.</default></teller>
-	<talk><default>Handhara, querida, sabe onde está Denise? (mãe delas)</default></talk>
+	<talk character="mãe delas"><default>Handhara, querida, sabe onde está Denise?</default></talk>
 	<talk character="Dara"><default>Não, mãe.</default></talk>
 	<talk character="pai delas"><default>Onde será que ela foi?</default></talk>
 	<talk character="Dara"><default>Ela sai toda noite e volta sempre inteira.</default></talk>
@@ -456,12 +456,12 @@
 	<talk character="Andrews"><default>Existem outros privilégios. Controle de população, a lei da selva...</default></talk>
 	<talk character="Kassandra"><default>Achei que tivessem saído pra caçar.</default></talk>
 	<talk character="Andrews"><default>Dilan sim. Eu fui observar todas essas mudanças.</default></talk>
-	<talk character="Kassandra"><default>Você chegou a visitar o “novo” continente?</default></talk>
+	<talk character="Kassandra"><default>Você chegou a visitar o "novo" continente?</default></talk>
 	<talk character="Andrews"><default>Só o sul. Era tudo mato. Dilan me disse que Argo vive no subterrâneo.</default></talk>
 	<talk character="Kassandra"><default>Você deve ter achado estranho.</default></talk>
 	<talk character="Andrews"><default>E Rust?</default></talk>
 	<talk character="Kassandra"><default>Virgine está tentando acabar com o grupo de caça vampiros, da última vez que o vi estava com ela.</default></talk>
-	<talk character="Andrews"><irony>Então vós não podeis vencer meros humanos? </irony></talk>
+	<talk character="Andrews"><irony>Então vós não podeis vencer meros humanos?</irony></talk>
 	<talk character="Kassandra"><default>Parece que ensinou eles muito bem. Com o tempo todos desistiram. Rust foi o primeiro, depois eu, Dilan e Argo. Só Virgine ainda tenta.</default></talk>
 	<talk character="Andrews"><default>Encharcais o mundo de vampiros em minha ausência?</default></talk>
 	<talk character="Kassandra"><default>Não.</default></talk>
@@ -477,25 +477,25 @@
 	<talk character="Mel"><default>E o Edmont?</default></talk>
 	<talk character="Angely"><default>Toca, toca e não atende.</default></talk>
 	<teller><default>Os dois voltam pra casa. Num bar, Edmont observa Dilan conversar com uma garçonete.</default></teller>
-	<talk><default>Não caio nisso. (garçonete)</default></talk>
+	<talk character="garçonete"><default>Não caio nisso.</default></talk>
 	<talk character="Dilan"><default>Tenho cara de enganador?</default></talk>
-	<talk><default>Não, mas... (garçonete)</default></talk>
+	<talk character="garçonete"><default>Não, mas...</default></talk>
 	<talk character="Dilan"><default>Já sei, não confia em si mesma.</default></talk>
-	<talk><default>Também não é isso. (garçonete)</default></talk>
+	<talk character="garçonete"><default>Também não é isso.</default></talk>
 	<talk character="Dilan"><default>Então não há problemas.</default></talk>
 	<talk character="gerente"><default>Tá aberto ainda, sabia?</default></talk>
 	<teller><default>Ela se levanta da mesa e vai até Edmont.</default></teller>
-	<talk><default>Posso te ajudar em alguma coisa? (garçonete)</default></talk>
+	<talk character="garçonete"><default>Posso te ajudar em alguma coisa?</default></talk>
 	<talk character="Edmont"><default>Estou aqui atrás um cara que fugiu do hospício.</default></talk>
-	<talk><default>Ele está aqui? (garçonete)</default></talk>
+	<talk character="garçonete"><default>Ele está aqui?</default></talk>
 	<talk character="Edmont"><default>Sim. Na verdade, era o homem com quem conversava.</default></talk>
-	<talk><default>Sério??? (garçonete)</default></talk>
+	<talk character="garçonete"><default>Sério???</default></talk>
 	<talk character="Edmont"><default>Que ele te disse?</default></talk>
-	<talk><default>Que é de uma agência de modelos. (garçonete)</default></talk>
+	<talk character="garçonete"><default>Que é de uma agência de modelos.</default></talk>
 	<talk character="Edmont"><default>Às vezes é isso, às vezes diz que tem um grupo de teatro...</default></talk>
-	<talk><default>Peraí, você não é daquela banda... (garçonete)</default></talk>
+	<talk character="garçonete"><default>Peraí, você não é daquela banda...</default></talk>
 	<talk character="Edmont"><default>Um amigo pediu pra eu ajudá-lo a encontrar esse louco.</default></talk>
-	<talk><default>Obrigado por me avisar. Ele é perigoso? (garçonete)</default></talk>
+	<talk character="garçonete"><default>Obrigado por me avisar. Ele é perigoso?</default></talk>
 	<talk character="Edmont"><default>Todas as garotas que estiveram com ele desapareceram.</default></talk>
 	<teller><default>A garçonete vai pra trás do balcão. Dilan vai até Edmont.</default></teller>
 	<talk character="Dilan"><default>Você está caçando e alguém afugenta sua presa. O que você faz?</default></talk>
@@ -524,7 +524,7 @@
 	<talk character="Argo"><default>Está faltando alguém.</default></talk>
 	<talk character="Kassandra"><default>Rust.</default></talk>
 	<talk character="Dilan"><default>Ninguém tem notícias dele.</default></talk>
-	<talk character="Andrews"><default>* Que pena.</default></talk>
+	<talk character="Andrews"><arrive> Que pena.</arrive></talk>
 	<talk character="Argo"><default>Acho que todos aqui já sabem que ele voltou à sanidade.</default></talk>
 	<talk character="Virgine"><default>Por que ninguém me avisou que esse desgraçado tinha acordado?</default></talk>
 	<talk character="Andrews"><default>Obrigado pela parte que me toca.</default>
@@ -644,7 +644,7 @@
 	<talk character="Lili"><default>Nossa, como você é direto!</default></talk>
 	<talk character="Andrews"><default>Então?</default></talk>
 	<teller><default>Eles vão à casa dela. Entram no quarto e ele começa a beijá-la. Então ela olha o espelho. Ele se vira pra trás. Pega um objeto e atira no espelho.</default></teller>
-	<talk character="Andrews"><irony>Sete anos de azar pra mim. </irony></talk>
+	<talk character="Andrews"><irony>Sete anos de azar pra mim.</irony></talk>
 	<talk character="Lili"><default>Você é um, um...</default></talk>
 	<talk character="Andrews"><default>Não precisa dizer, eu já sei.</default></talk>
 	<teller><default>Lili pega um isqueiro e, literalmente, acende o casaco de Andrews. Ele se levanta e rapidamente joga o casaco no chão e apaga o fogo.</default></teller>
@@ -828,7 +828,7 @@
 	<talk character="Stephany"><default>Posso ajudar em alguma coisa aqui?</default></talk>
 	<talk character="Mel"><default>Pode. Brad me disse que você falou de um vampiro...</default></talk>
 	<talk character="Stephany"><default>Também acha que estou louca?</default></talk>
-	<talk character="Mel"><default>“Também”?</default></talk>
+	<talk character="Mel"><default>"Também"?</default></talk>
 	<talk character="Stephany"><default>Ele não acredita em mim. Dá pra ver nos olhos deles, me olha como se eu fosse uma pobre menina louca.</default></talk>
 	<talk character="Mel"><default>Vou ser sincera. Ele acha que você ficou traumatizada, por que suas amigas morreram. Acha mesmo que pirou.</default></talk>
 	<talk character="Stephany"><default>Por que ele tá me ajudando então?</default></talk>
@@ -867,7 +867,7 @@
 	<talk character="Stephany"><default>Fiz uma aposta, tive que ir com elas a um bar e aí que tudo começou...</default></talk>
 	<talk character="Mel"><default>Se não tivesse ido, talvez ele tivesse matado elas do mesmo jeito. Peraí, disse que fez uma aposta...</default></talk>
 	<talk character="Stephany"><default>É, não costumo sair muito de casa.</default></talk>
-	<talk character="Mel"><default>Sobre aquele negócio de descrição do “homem perfeito”, o que você disse?</default></talk>
+	<talk character="Mel"><default>Sobre aquele negócio de descrição do "homem perfeito", o que você disse?</default></talk>
 	<talk character="Stephany"><default>Tenho que falar?</default></talk>
 	<talk character="Mel"><default>Disse que sua amiga comentou que queria um vampiro, talvez ele só tenha ouvido isso. Por que ela disse isso?</default></talk>
 	<talk character="Stephany"><default>Veja o medo no olhar, seja selvagem... Era só uma brincadeira, queria assustar elas. Não era pra ninguém ter ouvido!</default></talk>
@@ -893,9 +893,9 @@
 	<talk character="Stephany"><default>Não é loucura! Quer dizer, ele está trás de mim, o que tenho a perder?</default></talk>
 	<talk character="Angely"><default>Que tal sua vida? Nós nunca faremos isso.</default></talk>
 	<talk character="Stephany"><default>Vou perder a vida se ele me pegar.</default></talk>
-	<talk character="Kat"><default>* Não tenha tanta certeza.</default></talk>
+	<talk character="Kat"><arrive> Não tenha tanta certeza.</arrive></talk>
 	<talk character="Angely"><default>Outro sonho?</default></talk>
-	<talk character="Derik"><default>* Ele sabia que ela estava vendo e ouvindo ele.</default></talk>
+	<talk character="Derik"><arrive> Ele sabia que ela estava vendo e ouvindo ele.</arrive></talk>
 	<talk character="Kat"><default>Estava conversando comigo enquanto o observava.</default></talk>
 	<talk character="Edmont"><default>Como ele podia saber?</default></talk>
 	<talk character="Kat"><default>Não sei. Foi estranho.</default></talk>
@@ -928,7 +928,7 @@
 	<talk character="Stephany"><default>Mas eu estou.</default></talk>
 	<talk character="Kat"><default>Que vamos fazer?</default></talk>
 	<talk character="Derik"><default>Primeiro teremos que atraí-lo.</default></talk>
-	<talk character="Kat"><default>Isso é óbvio, o problema é “como?”!</default></talk>
+	<talk character="Kat"><default>Isso é óbvio, o problema é "como?"!</default></talk>
 	<talk character="Derik"><default>Então pergunta direito.</default></talk>
 	<talk character="Mel"><default>Alguém tem alguma sugestão?</default>
 	<teller>silêncio</teller><default>Nem uma idéiazinha?</default></talk>
@@ -1015,7 +1015,7 @@
 	<talk character="Edmont"><default>Ela ficou lá.</default></talk>
 	<talk character="Derik"><default>Mas por que??? Pra que???</default></talk>
 	<talk character="Edmont"><default>Acham que ela matou as amigas.</default></talk>
-	<talk character="Angely"><default>* Cadê a Mel?</default></talk>
+	<talk character="Angely"><arrive> Cadê a Mel?</arrive></talk>
 	<talk character="Kat"><default>Ela saiu pra ir atrás de Andrews.</default></talk>
 	<talk character="Angely"><default>Sozinha???</default></talk>
 	<talk character="Edmont"><default>Eu tinha ido à delegacia.</default></talk>

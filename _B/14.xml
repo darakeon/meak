@@ -24,7 +24,7 @@
 	<talk character="Inês"><default>Definitivamente absolutamente nada. Além de Alan me perguntar se eu não me sinto como a mosca por crescer assim, é claro.</default></talk>
 	<talk character="Zenon"><default>Sempre doce e sutil.</default></talk>
 	<talk character="Inês"><default>Expulsei daqui dizendo que Janaína iria ver Estela. Gato escaldado...</default></talk>
-	<talk character="Kat"><default>* Terceiro ano do colegial, isso sim é vida!!! Logo, logo saímos e...</default></talk>
+	<talk character="Kat"><arrive> Terceiro ano do colegial, isso sim é vida!!! Logo, logo saímos e...</arrive></talk>
 	<talk character="Zenon"><default>Não vai fazer faculdade?</default></talk>
 	<talk character="Kat"><default>Como assim?</default></talk>
 	<talk character="Zenon"><default>Sua mãe vai dar cria se souber.</default></talk>
@@ -34,13 +34,13 @@
 	<talk character="Zenon"><default>Ele completou lá.</default></talk>
 	<talk character="Kat"><default>Estela não vai fazer faculdade.</default></talk>
 	<talk character="Zenon"><default>Vai continuar os estudos com o Grupo. Peraí, essa felicidade toda, juntando ao cheiro...</default></talk>
-	<talk character="Derik"><default>* Venceu a aposta.</default></talk>
+	<talk character="Derik"><arrive> Venceu a aposta.</arrive></talk>
 	<talk character="Kat"><default>Mas tomei banho, não era pra estar sentindo!</default></talk>
 	<talk character="Zenon"><default>Não acredito nisso!</default></talk>
 	<talk character="Kat"><default>Você foi com...</default></talk>
-	<talk character="Michele"><default>* Doze anos de idade. Pelo menos é o que sei.</default></talk>
+	<talk character="Michele"><arrive> Doze anos de idade. Pelo menos é o que sei.</arrive></talk>
 	<teller><default>Michele e Zenon se beijam.</default></teller>
-	<talk character="Bea"><irony>Pessoal, atenção, tem algum voyeur aqui? </irony></talk>
+	<talk character="Bea"><irony>Pessoal, atenção, tem algum voyeur aqui?</irony></talk>
 	<teller><default>Zenon afasta Michele e encara Beatrice.</default></teller>
 	<talk character="Bea"><default>Acho que não.</default></talk>
 	<talk character="Zenon"><default>Não devia ter contado, né?</default></talk>
@@ -104,15 +104,15 @@
 	<talk character="Beleno"><default>A pergunta foi direta.</default></talk>
 	<talk character="Bea"><default>Ela me contou.</default></talk>
 	<talk character="Beleno"><default>Contou como?</default></talk>
-	<talk character="Bea"><default>Não lembro... Talvez tenha sentido pelo cheiro... SEI LÁ, NÃO ME PERTURBA, BELENO!!!</default></talk>
+	<talk character="Bea"><default>Não lembro... Talvez tenha sentido pelo cheiro...</default><screamed>Sei lá, não me perturba, Beleno!!!</screamed></talk>
 	<teller><default>Beatrice sai. Na outra casa, Alan dorme. Estela está olhando-o.</default></teller>
-	<talk character="Etos"><default>* Oi.</default></talk>
+	<talk character="Etos"><arrive> Oi.</arrive></talk>
 	<talk character="Estela"><default>Já menstrua?</default></talk>
 	<talk character="Etos"><default>Olha que um dia eu consigo.</default></talk>
 	<talk character="Estela"><default>Aí poderá entrar. Mas vai estar tão puto que não vai lembrar. Agora dá licença que eu vou tentar dormir, assim como o meu namorado está fazendo.</default></talk>
 	<teller><default>Estela levanta e fecha a janela em que Etos estava. Deita-se de lado. Alan abraça-a. Ela sorri.</default></teller>
 	<talk character="Estela"><default>Tava ouvindo tudo, né?</default></talk>
-	<talk character="Alan"><default>Estava. Adorei a parte em que frisou “meu namorado”.</default></talk>
+	<talk character="Alan"><default>Estava. Adorei a parte em que frisou "meu namorado".</default></talk>
 	<talk character="Estela"><default>Meu. Todinho meu.</default></talk>
 	<teller><default>Derik está na cozinha.</default></teller>
 	<talk character="Leo"><ghost>Oi.</ghost></talk>
@@ -122,7 +122,7 @@
 	<talk character="Derik"><default>Essa voz...</default></talk>
 	<talk character="Leo"><ghost>Não vim brigar. Queria ficar aqui com vocês.</ghost></talk>
 	<talk character="Derik"><default>Era só o que me faltava!</default></talk>
-	<talk character="Kat"><default>* Falando sozinho?</default></talk>
+	<talk character="Kat"><arrive> Falando sozinho?</arrive></talk>
 	<talk character="Derik"><hushed>O Leo tá aqui!</hushed></talk>
 	<talk character="Kat"><default>Leo?</default></talk>
 	<talk character="Derik"><hushed>Fala baixo!!!</hushed></talk>
@@ -135,9 +135,9 @@
 	<talk character="Derik"><default>Pra ir?</default></talk>
 	<talk character="Leo"><ghost>Pra ficar.</ghost></talk>
 	<talk character="Kat"><default>Se está aqui há tanto tempo, deve saber que matamos Pandora.</default></talk>
-	<talk character="Leo"><ghost>O QUÊ???</ghost></talk>
+	<talk character="Leo"><ghost>O quê???</ghost></talk>
 	<talk character="Derik"><default>Acho que ele ainda não sabia.</default></talk>
-	<talk character="Kat"><default>Leo? Você tá aí? LEO???</default></talk>
+	<talk character="Kat"><default>Leo? Você tá aí?</default><screamed>Leo???</screamed></talk>
 	<talk character="Derik"><default>Acho que ele se zangou.</default></talk>
 	<talk character="Kat"><default>Dane-se.</default></talk>
 	<talk character="Derik"><default>Não vai poder mais virar fantasma.</default></talk>
@@ -151,7 +151,7 @@
 	<talk character="Beleno"><default>Preciso conversar.</default></talk>
 	<teller><default>Michele e Zenon se afastam um pouco, Beleno senta no meio deles. Os dois se entreolham por trás dele, que está inclinado pra frente.</default></teller>
 	<talk character="Beleno"><default>Acham que Beatrice gosta de Inês?</default></talk>
-	<talk character="Zenon"><default>Não, porquê, você gosta dela?</default></talk>
+	<talk character="Zenon"><default>Não. Por quê? Você gosta dela?</default></talk>
 	<talk character="Beleno"><default>Acho que sim. Acham que minha irmã... É uma...</default></talk>
 	<talk character="Zenon"><default>Não...</default></talk>
 	<talk character="Michele"><default>Claro que não...</default></talk>
@@ -240,7 +240,7 @@
 	<teller><default>12:00. Beleno cai no ringue. Tenta se levantar, mas não consegue. Está todo quebrado. A platéia grita a palavra morte. Shy, com uma espada na mão, vai até Beleno. Joga a espada.</default></teller>
 	<talk character="Shy"><default>712.</default></talk>
 	<teller><default>Todos se calam. Um juiz pega algumas folhas numa gaveta.</default></teller>
-	<talk character="juiz"><default>Clemência??? QUEM FEZ ESTA REGRA???</default></talk>
+	<talk character="juiz"><default>Clemência???</default><screamed>Quem fez esta regra???</screamed></talk>
 	<talk character="Shy"><default>Não importa quem fez, está no torneio, posso usá-la.</default></talk>
 	<teller><default>Ele rasga o contrato, olhando com ódio para Shy.</default></teller>
 	<talk character="juiz"><default>Entrou na luta sabendo que poderia fazer isso. Pra esta luta isso vai valer. As batalhas estão suspensas por hoje. Haverá uma reunião à noite, onde ditaremos as novas regras. Quem quiser sair depois da reunião, está livre. Reiniciaremos o torneio amanhã de manhã.</default></talk>
@@ -261,7 +261,7 @@
 	<talk character="Bea"><default>Os dois. Mas o Angely falava comigo antes e era mais delicado. Tem consciência de que não sou uma boneca de sex shop?</default></talk>
 	<talk character="Beleno"><default>Às vezes simplesmente me dá vontade de te beijar.</default></talk>
 	<talk character="Bea"><default>Então siga o exemplo certo.</default>
-	<teller>sai da sala</teller><default>Ou daqui a pouco vai estar olhando pros seus amigos, “me enchi da sua cara”, e joga pela janela.</default></talk>
+	<teller>sai da sala</teller><default>Ou daqui a pouco vai estar olhando pros seus amigos, "me enchi da sua cara", e joga pela janela.</default></talk>
 	<teller><default>Beleno senta-se no sofá, com uma cara estranha.</default></teller>
 	<talk character="Beleno"><default>Estou esquecendo de alguma coisa.</default></talk>
 	<teller><default>No ringue de lutas, Shy está se preparando para entrar. Seu adversário (encapuzado) a olha.</default></teller>
@@ -281,7 +281,7 @@
 	<talk character="César"><default>Ah... Não naturalmente. Eu também li o regulamento.</default>
 	<teller>se aproxima dela</teller><default>Não era perversão, minha criança. Talvez eu possa te ensinar algo quando te ganhar.</default></talk>
 	<teller><default>09/02 (quinta), 20:00. O telefone toca. Inês atende.</default></teller>
-	<talk character="Inês"><default>MEAK, no que posso ajudar? ### Não fizemos o trabalho??? ### Sua filha sumiu??? BELENO!!!</default></talk>
+	<talk character="Inês"><default>MEAK, no que posso ajudar? ### Não fizemos o trabalho??? ### Sua filha sumiu???</default><screamed>Beleno!!!</screamed></talk>
 	<teller><default>Beleno sai do banheiro de toalha.</default></teller>
 	<talk character="Beleno"><default>Fala.</default></talk>
 	<talk character="Inês"><default>Primeiro, já mandei não tomar banho aí que alguém pode chegar e você entope o ralo com as penas, segundo, não disse que tinha resolvido o caso da garota do ringue???</default></talk>
@@ -331,7 +331,7 @@
 	<talk character="Kat"><default>Pára de enrolar, sabe ou não onde ele está?</default></talk>
 	<talk character="Inês"><default>Eu não tinha pensado nisso até agora mas vocês acabaram de me deixar nervosa o Beleno chegou todo arrebentado e não tocou no nome do Zenon...</default></talk>
 	<teller><default>Ela pega o telefone e liga pra Beleno.</default></teller>
-	<talk character="Inês"><default>CADÊ O ZENON? ### COMO ASSIM, NÃO QUERIA TE DAR O TRABALHO??? BELENO???</default></talk>
+	<talk character="Inês"><screamed>Cadê o zenon? ### Como assim, não queria te dar o trabalho??? Beleno???</screamed></talk>
 	<teller><default>Inês bate o telefone. Todos ficam olhando.</default></teller>
 	<talk character="Estela"><default>Inês, você tá apaixonada pelo Zenon?</default></talk>
 	<talk character="Inês"><default>Beleno não mataria ele por dinheiro, mataria?</default></talk>
@@ -392,7 +392,7 @@
 	<teller><default>Beleno sai pela janela e voa.</default></teller>
 	<talk character="Bea"><default>Alan...</default></talk>
 	<talk character="Alan"><default>Zenon era meu amigo... Me bateu umas vezes aí, tivemos uma brigas, mas... Era meu amigo, droga!</default></talk>
-	<teller><default>Beatrice abraça Alan. Lembra-se do que falara (Ou daqui a pouco vai estar olhando pros seus amigos, “me enchi da sua cara”, e joga pela janela). Alan afasta.</default></teller>
+	<teller><default>Beatrice abraça Alan. Lembra-se do que falara (Ou daqui a pouco vai estar olhando pros seus amigos, "me enchi da sua cara", e joga pela janela). Alan afasta.</default></teller>
 	<talk character="Alan"><default>Eu quero matar Beleno.</default></talk>
 	<talk character="Bea"><default>Tem essa garota que temos que ajudar. Depois vamos atrás dele. Deve ter tido um motivo pra fazer isso. Pras crianças, Zenon sumiu e Beleno também. Por enquanto, tá?</default></talk>
 	<talk character="Alan"><default>Tá.</default></talk>
@@ -458,14 +458,14 @@
 	<talk character="Beleno"><default>Ele te drogou?</default></talk>
 	<talk character="Shy"><default>Não.</default></talk>
 	<talk character="Beleno"><default>Ele é rico...</default></talk>
-	<talk character="Shy"><default>QUE ACHA QUE SOU???</default></talk>
+	<talk character="Shy"><screamed>Que acha que sou???</screamed></talk>
 	<talk character="Beleno"><default>Estava no torneio por dinheiro.</default></talk>
 	<talk character="Shy"><default>Isso é diferente.</default></talk>
 	<talk character="Beleno"><default>É trapaça de qualquer jeito.</default></talk>
 	<talk character="Shy"><default>Quer parar de me chamar de trapaceira?!</default></talk>
 	<talk character="Beleno"><default>Mas porque não quer mais ser salva?</default></talk>
 	<talk character="Shy"><default>Eu fui salva. Meu pai ia deixar me matarem. Talvez ele mesmo fizesse.</default></talk>
-	<talk character="Beleno"><default>QUÊ???</default></talk>
+	<talk character="Beleno"><screamed>Quê???</screamed></talk>
 	<talk character="Shy"><default>César me disse que estou reencarnando há tempos, que ele fez um feitiço pra que uma espécie ficasse como pedra, enquanto me matassem.</default></talk>
 	<talk character="Beleno"><default>Morrer todo mundo morre.</default></talk>
 	<talk character="Shy"><default>Tem um hora certa, em que eu lembro de tudo.</default></talk>
@@ -546,7 +546,7 @@
 	<talk character="Michele"><default>Não, ele nos entregou.</default></talk>
 	<teller><default>Katerine coloca a mão no rosto.</default></teller>
 	<talk character="Beleno"><default>Que foi?</default></talk>
-	<talk character="Kat"><default>“Que foi?” Ele pode ter criado isso num programa de computador e mandado revelar como fotos ou até pode ter feito a pedra com as próprias mãos!</default></talk>
+	<talk character="Kat"><default>"Que foi?" Ele pode ter criado isso num programa de computador e mandado revelar como fotos ou até pode ter feito a pedra com as próprias mãos!</default></talk>
 	<talk character="Michele"><default>Não pensamos nisso.</default></talk>
 	<talk character="Beleno"><default>Melhor irmos lá e procurarmos a pedra.</default></talk>
 	<teller><default>Eles saem. Minutos depois, Alan, Inês e Beatrice chegam a MEAK.</default></teller>
@@ -592,7 +592,7 @@
 	<talk character="Kat"><default>Então isso é sobre dinheiro?</default></talk>
 	<talk character="César"><default>Não. Se trata de descanso.</default></talk>
 	<talk character="Michele"><default>Descanso?</default></talk>
-	<talk character="Shy"><default>* Ele não vai morrer se eu não morrer.</default></talk>
+	<talk character="Shy"><arrive> Ele não vai morrer se eu não morrer.</arrive></talk>
 	<talk character="Michele"><default>Ninguém quer morrer!</default></talk>
 	<talk character="Beleno"><default>Então porque não nos mostra a pedra?</default></talk>
 	<talk character="Shy"><default>Que pedra?</default></talk>
@@ -669,7 +669,7 @@
 	<talk character="Inês"><default>Tô confundindo tudo, isso foi antes de eu estar no outro corpo!!!</default></talk>
 	<talk character="Estela"><default>Conheceu Edmont em outra encarnação?</default></talk>
 	<talk character="Inês"><default>Não sei. Tô confusa... Parece que me lembro de algumas coisas de outra encarnação.</default></talk>
-	<talk character="Derik"><default>* Sério???</default></talk>
+	<talk character="Derik"><arrive> Sério???</arrive></talk>
 	<teller><default>As duas se assustam.</default></teller>
 	<talk character="Estela"><default>Quer nos matar???</default></talk>
 	<talk character="Derik"><default>E o que aconteceu pra você lembrar?</default></talk>
@@ -699,7 +699,7 @@
 	<talk character="Estela"><default>Ah, Derik, Kat disse que estaria em casa.</default></talk>
 	<talk character="Derik"><default>Tá, vou indo, preciso dormir.</default></talk>
 	<teller><default>Derik sai.</default></teller>
-	<talk character="Estela"><irony>E eu vou pra casa ver o... Ah, me esqueci, meu namorado viajou sem me avisar! </irony></talk>
+	<talk character="Estela"><irony>E eu vou pra casa ver o... Ah, me esqueci, meu namorado viajou sem me avisar!</irony></talk>
 	<talk character="Inês"><default>Bom, então fica lá dormindo.</default></talk>
 	<teller><default>Estela volta pra casa. 23:00. Em sua casa, Shy acorda. Vai até o quarto do seu pai. Ele está chorando.</default></teller>
 	<talk character="Shy"><default>Que foi?...</default></talk>
@@ -713,7 +713,7 @@
 	<talk character="Shy"><default>Não, ele tava me treinando. Queria que eu não morresse, para eles acordarem, assim ele morreria.</default></talk>
 	<talk character="pai"><default>Como assim???</default></talk>
 	<talk character="Shy"><default>Parece que não são tão maus assim.</default></talk>
-	<talk character="Soraia"><default>* Estamos falando dos nascidos agora. Pode ser que não sejam maus, apenas selvagens.</default></talk>
+	<talk character="Soraia"><arrive> Estamos falando dos nascidos agora. Pode ser que não sejam maus, apenas selvagens.</arrive></talk>
 	<talk character="pai"><default>Soraia é uma caçadora de vampiros.</default></talk>
 	<talk character="Soraia"><default>A lenda diz que são muito mais perigosos que os que conhecemos.</default></talk>
 	<talk character="Shy"><default>Acredita em lendas?</default></talk>
@@ -773,9 +773,9 @@
 	<talk character="Kat"><default>Vai demorar com isso.</default></talk>
 	<talk character="Michele"><default>Esperava que eu carregasse uma espátula? Sou caçadora, não pintora.</default></talk>
 	<teller><default>Kat vai tirando a tinta. Acha algo que parece um alfabeto. Derik se aproxima.</default></teller>
-	<talk><default>Bom, são este...</default>
+	<talk character="Derik"><default>Bom, são este...</default>
 	<teller>toca um deles</teller><default>Este... E... Este!</default>
-	<teller>toca o terceiro</teller><default>(DRK)</default></talk>
+	<teller>toca o terceiro</teller></talk>
 	<teller><default>Uma espécie de portal se abre. 19:00. No continente, Beatrice está andando e uma garota esbarra nela. Ela a segura. Um caminhão passa do lado das duas.</default></teller>
 	<talk character="Bea"><default>Que foi???</default></talk>
 	<talk character="Lara"><default>Vampiro...</default></talk>
@@ -794,7 +794,7 @@
 	<talk character="Derik"><default>É, mas...</default></talk>
 	<teller><default>A pedra em cima de move. César olha para eles.</default></teller>
 	<talk character="César"><default>Que fazem aqui?</default></talk>
-	<talk character="Estela"><irony>Estamos jogando cartas. </irony></talk>
+	<talk character="Estela"><irony>Estamos jogando cartas.</irony></talk>
 	<talk character="César"><default>Posso jogar junto?</default></talk>
 	<teller><default>César pega uma escada e eles sobem.</default></teller>
 	<talk character="Derik"><default>Onde estamos?</default></talk>
@@ -819,7 +819,7 @@
 	<teller><default>05/03, domingo, 12:00. Shy está em casa, terminando um prato de comida. Raspa ao prato. Lambe. Estende o prato para Soraia.</default></teller>
 	<talk character="Shy"><default>Quero mais.</default></talk>
 	<talk character="Soraia"><default>Tem certeza que cabe mais?</default></talk>
-	<talk character="Shy"><default>Ainda tô com fome! É meu último dia de vida, não é??? EU QUERO MAIS COMIDA!!!</default></talk>
+	<talk character="Shy"><default>Ainda tô com fome! É meu último dia de vida, não é???</default><screamed>Eu quero mais comida!!!</screamed></talk>
 	<talk character="Soraia"><default>Talvez seja ansiedade... Ou gravidez.</default></talk>
 	<talk character="Shy"><default>Não, eu sou virgem, tô com fome!!!</default></talk>
 	<teller><default>Soraia pega o prato e enche de comida de novo. Shy volta a comer. Tocam a campainha. Soraia atende.</default></teller>
@@ -849,7 +849,7 @@
 	<teller><default>Shy olha para Soraia. Lembra de uma cena, de quando tentou matar César. Depois uma segunda, em que tentou matar de novo. Então de várias vezes presa em jaulas e morta, em diferentes épocas. Muitas lembranças surgem em sua mente. César foge. Shy olha para Soraia, que ainda está voltada para a porta. Joga-a no chão e vai atrás de César. 14:00. Derik, Kat, Michele e Estela chegam ao lugar de onde tinham saído. Abrem. Pegam a escada e descem. O que eram estátuas agora são pessoas olhando para eles.</default></teller>
 	<talk character="Derik"><default>Meu Deus...</default></talk>
 	<talk character="Michele"><default>Onde está César?</default></talk>
-	<talk character="Shy"><default>* Morto.</default></talk>
+	<talk character="Shy"><arrive> Morto.</arrive></talk>
 	<talk character="Estela"><default>Você...</default></talk>
 	<talk character="Shy"><default>Sim. Ele queria isso e era o jeito de tirar o feitiço.</default></talk>
 	<talk character="Derik"><default>Por que ele os prendeu?</default></talk>
@@ -886,7 +886,7 @@
 	<talk character="Michele"><default>Como pôde fazer isso???</default></talk>
 	<talk character="Alan"><default>Agora que não tem como fugir, vai negar???</default></talk>
 	<talk character="Beleno"><default>Não confessei nada, eu disse que tinha tirado ele do caminho, mas...</default></talk>
-	<talk character="Alete"><default>* Olha aqui, seu folgado, você disse que ia ser só um tempinho!!! Eu não tenho vocação para babá de marmanjo, e ficar escutando a música do elefantinho já é demais!!!</default></talk>
+	<talk character="Alete"><arrive> Olha aqui, seu folgado, você disse que ia ser só um tempinho!!! Eu não tenho vocação para babá de marmanjo, e ficar escutando a música do elefantinho já é demais!!!</arrive></talk>
 	<teller><default>Todos olham para Alete. Depois para Beleno. Ela entrega uma chave para ele.</default></teller>
 	<talk character="Alete"><default>Sabe onde está. Deve estar com fome, se recusou a se alimentar do que eu trouxe... E olha que nem era de gente!!!</default></talk>
 	<teller><default>Alete sai.</default></teller>
@@ -914,7 +914,7 @@
 	<talk character="Derik"><default>Vamos para casa agora?</default></talk>
 	<talk character="Zenon"><default>Claro.</default></talk>
 	<teller><default>Zenon vai andando, passa por Beleno... Tenta pegá-lo. Ele foge.</default></teller>
-	<talk character="Zenon"><default>EU AINDA APRENDO A VOAR E VOU TE DAR UMA SURRA!</default>
+	<talk character="Zenon"><screamed>Eu ainda aprendo a voar e vou te dar uma surra!</screamed>
 	<teller>todos olham para ele</teller><default>Eu tava brincando. Perdoei ele.</default></talk>
 	<teller><default>Todos (exceto Zenon) saem.</default></teller>
 	<talk character="Zenon"><default>É sério! Não acreditam em mim?</default></talk>
@@ -937,10 +937,10 @@
 	<talk character="Beleno"><default>As duas são sobre a vida delas. Beatrice sobre as vítimas e Inês sobre sua vida passada.</default></talk>
 	<talk character="Zenon"><default>Só se eu causo pesadelos também!</default>
 	<teller>Michele chega na porta</teller><default>Posso chamar Inês pra...</default></talk>
-	<talk character="Beleno"><default>DE JEITO NENHUM!!! ACHA QUE MINHA IRMÃ É O QUE???</default></talk>
+	<talk character="Beleno"><screamed>De jeito nenhum!!! Acha que minha irmã é o que???</screamed></talk>
 	<teller><default>Beleno sai.</default></teller>
 	<talk character="Zenon"><default>Mas eu não tava falando disso...</default></talk>
 	<talk character="Michele"><default>Ah, não tava não?</default></talk>
 	<teller><default>Michele sai.</default></teller>
-	<talk character="Zenon"><default>É claro que não! Michele! Eu a vi crescer!!! MICHELE!!!</default></talk>
+	<talk character="Zenon"><default>É claro que não! Michele! Eu a vi crescer!!! Michele!!!</default></talk>
 </story>

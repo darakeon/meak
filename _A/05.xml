@@ -116,26 +116,26 @@
 	<talk character="Edmont"><default>Será que tem algum lugar aqui com essa descrição?</default></talk>
 	<talk character="Angely"><default>Vamos ter que perguntar.</default></talk>
 	<talk character="Angely"><default>Ei, você!</default></talk>
-	<talk><default>Eu? (garçonete)</default></talk>
+	<talk character="garçonete"><default>Eu?</default></talk>
 	<talk character="Angely"><default>É, pode ser.</default></talk>
 	<teller><default>A garçonete vai até a mesa.</default></teller>
 	<talk character="Edmont"><default>Nós chegamos a pouco na cidade e queríamos saber de algum lugar perto do centro, não muito movimentado e que não esteja na lista.</default></talk>
-	<talk><default>Tem alguns lugares com essa descrição. Mas pra que isso? (garçonete)</default></talk>
+	<talk character="garçonete"><default>Tem alguns lugares com essa descrição. Mas pra que isso?</default></talk>
 	<talk character="Edmont"><default>Somos investigadores. Temos que nos esconder.</default></talk>
-	<talk><default>Tá... Eu vou anotar e já trago pra vocês. (garçonete)</default></talk>
+	<talk character="garçonete"><default>Tá... Eu vou anotar e já trago pra vocês.</default></talk>
 	<teller><default>Ela passa pelo bar.</default></teller>
-	<talk character="Angely"><default>Por que disse isso à ela?</default></talk>
+	<talk character="Angely"><default>Por que disse isso a ela?</default></talk>
 	<talk character="Edmont"><default>Acha mesmo que ela acreditou?</default></talk>
 	<talk character="Angely"><default>Não.</default></talk>
 	<teller><default>A garçonete volta.</default></teller>
-	<talk><default>Tá aqui. Não são fugitivos, né? (garçonete)</default></talk>
+	<talk character="garçonete"><default>Tá aqui. Não são fugitivos, né?</default></talk>
 	<talk character="Angely"><default>É uma história meio complicada e você não acreditaria.</default></talk>
-	<talk><default>Tá... Boa sorte então. (garçonete)</default></talk>
+	<talk character="garçonete"><default>Tá... Boa sorte então.</default></talk>
 	<talk character="Edmont"><default>Obrigado. Ah, a conta.</default></talk>
-	<talk><default>Ah, claro. São seis. (garçonete)</default></talk>
+	<talk character="garçonete"><default>Ah, claro. São seis.</default></talk>
 	<talk character="Angely"><default>Aqui.</default>
 	<teller>coloca uma nota de dez na mesa</teller><default>Quatro pela informação.</default></talk>
-	<talk><default>Tá, obrigado. (garçonete)</default></talk>
+	<talk character="garçonete"><default>Tá, obrigado.</default></talk>
 	<teller><default>Eles saem e começam a procurar. Enquanto isso, Mel chega em casa. Vai até o escritório e encontra Kat dormindo.</default></teller>
 	<talk character="Mel"><default>Kat, acorda...</default></talk>
 	<talk character="Kat"><default>Ah???</default></talk>
@@ -178,7 +178,7 @@
 	<talk character="Edmont"><default>Também percebi algo estranho. Vamos voltar e falar com Mel.</default></talk>
 	<teller><default>Eles voltam pra MEAK. Se encontram no escritório.</default></teller>
 	<talk character="Kat"><default>Nossa, vocês estão parecendo pingüins!</default></talk>
-	<talk character="Edmont"><irony>Nem tinha percebido! </irony></talk>
+	<talk character="Edmont"><irony>Nem tinha percebido!</irony></talk>
 	<talk character="Angely"><default>Bom, acho que descobrimos onde o vampiro pode estar.</default></talk>
 	<talk character="Edmont"><default>Um lugar perto do centro, não muito movimentado e que não está na lista.</default></talk>
 	<talk character="Mel"><default>É, um lugar perfeito.</default></talk>
@@ -216,11 +216,11 @@
 	<talk character="Agatha"><default>Teoria é bem melhor.</default></talk>
 	<talk character="Meg"><default>Com certeza.</default></talk>
 	<teller><default>Meg pega um papel sobre a mesa.</default></teller>
-	<talk character="Meg"><default>Ei!!! Quem deu à ela o direito de ficar indo na casa do meu namorado???</default></talk>
+	<talk character="Meg"><default>Ei!!! Quem deu a ela o direito de ficar indo na casa do meu namorado???</default></talk>
 	<talk character="Agatha"><default>Calma, Meg, ela tem só dez anos!!!</default></talk>
 	<talk character="Meg"><default>Mesmo assim.</default></talk>
 	<talk character="Agatha"><default>Acho que você ainda tá bêbada.</default></talk>
-	<talk character="Meg"><default>Nossa, é mesmo um “já” que você devia ter dito, ela diz aqui que saiu de manhã... São dez horas!!!</default></talk>
+	<talk character="Meg"><default>Nossa, é mesmo um "já" que você devia ter dito, ela diz aqui que saiu de manhã... São dez horas!!!</default></talk>
 	<talk character="Agatha"><default>Caracas... E ela não voltou ainda. Acho que devíamos ir buscá-la.</default></talk>
 	<talk character="Meg"><default>Ela sabe o caminho de casa. Foi sozinha, volte sozinha.</default></talk>
 	<talk character="Agatha"><default>Mas se formos buscar ela é um pretexto pra ver eles.</default></talk>
@@ -246,7 +246,7 @@
 	<talk character="Mel"><default>Entrem.</default></talk>
 	<teller><default>Elas entram e Mel vai até a cozinha.</default></teller>
 	<talk character="Meg"><default>Bom, não precisamos nos preocupar em um deles nos trair com ela...</default></talk>
-	<talk character="Agatha"><default>Realmente... Viu como ela chama eles? “os meninos”...</default></talk>
+	<talk character="Agatha"><default>Realmente... Viu como ela chama eles? "os meninos"...</default></talk>
 	<talk character="Angely"><default>Oi...</default></talk>
 	<talk character="Meg"><default>Então Angely, que decidiu?</default></talk>
 	<talk character="Angely"><default>Não sei direito...</default></talk>
@@ -348,7 +348,7 @@
 	<talk character="Edmont"><default>É, e são seis ainda!!!</default></talk>
 	<talk character="Mel"><default>Já é tarde. Íamos levantar às quatro!!!</default></talk>
 	<talk character="Edmont"><default>Vai acordar o Angely!</default></talk>
-	<talk character="Angely"><default>* Eu já acordei.</default></talk>
+	<talk character="Angely"><arrive> Eu já acordei.</arrive></talk>
 	<talk character="Edmont"><default>Sorte sua!</default></talk>
 	<teller><default>Edmont cobre a cabeça com um travesseiro.</default></teller>
 	<talk character="Angely"><default>Eu já sei, vou buscar um copo d’água.</default></talk>
@@ -542,7 +542,7 @@
 	<talk character="Edmont"><default>Já virou o ano e nós não conseguimos nada.</default></talk>
 	<talk character="Mel"><default>Nem pegar o cara...</default></talk>
 	<talk character="Angely"><default>... nem arranjar emprego.</default></talk>
-	<talk character="Kat"><default>* Gente, gente!!!</default></talk>
+	<talk character="Kat"><arrive> Gente, gente!!!</arrive></talk>
 	<talk character="Angely"><default>Que foi, Kat?</default></talk>
 	<talk character="Kat"><default>Lembra que o fantasma disse que algumas coisas não mudaram???</default></talk>
 	<talk character="Edmont"><default>Calma, Kat, respira, fala pela boca...</default></talk>
@@ -555,7 +555,7 @@
 	<talk character="Edmont"><default>Eles disseram que tocamos bem. Pediram pra irmos fazer um teste.</default></talk>
 	<talk character="Angely"><default>Droga!</default></talk>
 	<talk character="Mel"><default>Que foi? Isso não é bom?</default></talk>
-	<talk character="Edmont"><default>Kinyn fazia parte da nossa “banda”.</default></talk>
+	<talk character="Edmont"><default>Kinyn fazia parte da nossa "banda".</default></talk>
 	<talk character="Angely"><default>Quando é isso?</default></talk>
 	<talk character="Edmont"><default>Daqui à cinco dias.</default></talk>
 	<talk character="Kat"><default>Como vão encontrar alguém à tempo?</default></talk>
@@ -579,7 +579,7 @@
 	<teller><default>Edmont pega a folha e lê: Construam suas vidas. Não podem se dedicar apenas à isso, pois não lhes trará dinheiro. Quando Aurium voltar, vocês retomaram a agência.</default></teller>
 	<talk character="Angely"><default>As chaves...</default></talk>
 	<teller><default>Eles pegam suas chaves. Aurium levou os chaveiros e as chaves que davam acesso ao escritório e ao subterrâneo.</default></teller>
-	<talk character="Edmont"><default>NÓS AINDA PODEMOS ENCONTRAR ELE SOZINHOS!!!</default></talk>
+	<talk character="Edmont"><screamed>Nós ainda podemos encontrar ele sozinhos!!!</screamed></talk>
 	<talk character="Angely"><default>Acho que ele tem razão.</default></talk>
 	<talk character="Kat"><default>Kinyn não fazia o vocal também?</default></talk>
 	<talk character="Angely"><default>É, fazia.</default></talk>
@@ -696,26 +696,26 @@
 	<talk character="Kat"><default>E estiveram aqui ontem.</default></talk>
 	<talk character="Angely"><default>Que droga... Esse é o nosso problema: sempre chegando atrasados.</default></talk>
 	<talk character="Mel"><default>Temos que ser mais rápidos se queremos mesmo fazer algo decente.</default></talk>
-	<talk><default>Ei, eu conheço vocês... (garçonete)</default></talk>
+	<talk character="garçonete"><default>Ei, eu conheço vocês...</default></talk>
 	<talk character="Edmont"><default>Não, você não conhece.</default></talk>
-	<talk><default>É, eu já tava reconhecendo... (garçonete)</default></talk>
+	<talk character="garçonete"><default>É, eu já tava reconhecendo...</default></talk>
 	<talk character="Angely"><default>Por favor, não fale.</default></talk>
-	<talk><default>Vocês quatro poderiam assinar meu caderno? (garçonete)</default></talk>
+	<talk character="garçonete"><default>Vocês quatro poderiam assinar meu caderno?</default></talk>
 	<talk character="Mel"><default>Tá, mas não fale pra ninguém, tudo bem?</default></talk>
 	<teller><default>A garçonete pega um caderno e eles assinam.</default></teller>
-	<talk><default>A música de vocês é muito legal. (garçonete)</default></talk>
+	<talk character="garçonete"><default>A música de vocês é muito legal.</default></talk>
 	<talk character="Edmont"><default>Obrigado... Escuta, podia nos dar uma informação?</default></talk>
-	<talk><default>Sim? (garçonete)</default></talk>
+	<talk character="garçonete"><default>Sim?</default></talk>
 	<talk character="Mel"><default>Viu esse homem aqui ontem?</default></talk>
 	<teller><default>Mel mostra a folha com o desenho que Angely tinha feito de Elian.</default></teller>
-	<talk><default>Ele estava ontem aqui. Chegou com uma garota, mas eles brigaram e ela saiu com um outro cara e ele saiu com uma outra, que parecia pouco mais velha. (garçonete)</default></talk>
+	<talk character="garçonete"><default>Ele estava ontem aqui. Chegou com uma garota, mas eles brigaram e ela saiu com um outro cara e ele saiu com uma outra, que parecia pouco mais velha.</default></talk>
 	<talk character="Edmont"><default>Alguém veio procurando ele?</default></talk>
-	<talk><default>Não. Vão pedir a conta agora? (garçonete)</default></talk>
+	<talk character="garçonete"><default>Não. Vão pedir a conta agora?</default></talk>
 	<talk character="Kat"><default>É, pode ser.</default></talk>
 	<teller><default>A garçonete vai até o balcão.</default></teller>
 	<talk character="Kat"><default>Eles não brigaram. Era teatro, com certeza. Não iriam brigar num bar.</default></talk>
 	<talk character="Mel"><default>Se eles estão num hotel de luxo, então melhor começarmos a procurar.</default></talk>
-	<talk><default>Aqui está a conta. (garçonete)</default></talk>
+	<talk character="garçonete"><default>Aqui está a conta.</default></talk>
 	<teller><default>Eles pagam a conta e vão procurar nos hotéis onde ele poderia estar. Angely vai com Mel e Edmont com Kat. É noite já e Angely e Mel entram num hotel da cidade.</default></teller>
 	<talk character="Angely"><default>Senhorita, precisamos de uma informação...</default></talk>
 	<talk character="recepcionista"><default>Não damos informações sobre os clientes do hotel.</default></talk>
@@ -939,7 +939,7 @@
 	<talk character="Elisa"><default>As namoradas deles sabem o que vocês são?</default></talk>
 	<talk character="Mel"><default>Não, elas não sabem que somos caça-vampiros.</default></talk>
 	<talk character="Elisa"><default>Elas não ficam com ciúmes?</default></talk>
-	<talk character="Mel"><irony>Imagina... </irony></talk>
+	<talk character="Mel"><irony>Imagina...</irony></talk>
 	<teller><default>Mel pega a moto, Elisa sobe na garupa e elas saem também. Chegando na casa.</default></teller>
 	<talk character="Mel"><default>Kat?</default></talk>
 	<talk character="Elisa"><default>Você está aí?</default></talk>

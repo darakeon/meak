@@ -18,7 +18,7 @@
 	<talk character="Zenon"><default>A Soraia tá aqui dentro.</default></talk>
 	<talk character="Michele"><default>De novo?! Ela não tem mais o que fazer, não?!</default></talk>
 	<talk character="Zenon"><default>Trouxe jantar pelo menos?</default></talk>
-	<talk character="Soraia"><default>* Não deviam estar levantando, pra caçar?</default></talk>
+	<talk character="Soraia"><arrive> Não deviam estar levantando, pra caçar?</arrive></talk>
 	<talk character="Zenon"><default>Não tem nada acontecendo nessas ilhas.</default></talk>
 	<talk character="Soraia"><default>Então já não deviam estar aqui.</default></talk>
 	<talk character="Michele"><default>Devia arranjar um namorado.</default></talk>
@@ -79,7 +79,7 @@
 	<teller><default>Beatrice sai. Encontra Zenon na cidade.</default></teller>
 	<talk character="Bea"><default>Procurando?</default></talk>
 	<talk character="Zenon"><default>Não agüentei. Falei pra Michele falar pra Soraia que fui dar pro Etos se ela perguntar.</default></talk>
-	<talk character="Etos"><default>* Mas aí eu preciso confirmar.</default></talk>
+	<talk character="Etos"><arrive> Mas aí eu preciso confirmar.</arrive></talk>
 	<talk character="Zenon"><default>Não, aí você se aproveita que faz tempo que ela não...</default></talk>
 	<talk character="Bea"><default>Zenon!</default></talk>
 	<talk character="Etos"><default>Não é má idéia.</default></talk>
@@ -97,7 +97,7 @@
 	<talk character="Bea"><default>Não existem pessoas de gelo. Eu vou procurar o Etos e impedir que tente algo com ela.</default></talk>
 	<talk character="Zenon"><default>Sabe que só tem um jeito.</default></talk>
 	<talk character="Bea"><default>Por isso que você vai comigo.</default></talk>
-	<talk character="Zenon"><default>EU?!</default></talk>
+	<talk character="Zenon"><screamed>Eu?!</screamed></talk>
 	<teller><default>Beatrice pega Zenon pelo braço e sai arrastando. Procuram e nada. Dali a pouco, vê do alto de um prédio uma vampira segurando uma pessoa. Pula, a vampira o vê e ele tira uma estaca e enfia nela.</default></teller>
 	<talk character="Zenon"><default>Que merda...</default></talk>
 	<talk character="garota"><default>Você me salvou... Veio do céu?</default></talk>
@@ -182,7 +182,7 @@
 	<teller><default>Beatrice sente um vento. Rola pro chão. Pega o celular em cima da cama, com cuidado.</default></teller>
 	<talk character="Bea"><default>Acho que vão achar que o apocalipse tá chegando. Tem um cara alado indo te buscar.</default></talk>
 	<talk character="Zenon"><default>Tá brincando?! Será que ele lembra que não posso sair no sol?</default></talk>
-	<talk character="Bea"><default>Acho que sim... Qualquer coisa, pega algum pano aí, antes que ele chegue... Zenon? ZENON?!</default></talk>
+	<talk character="Bea"><default>Acho que sim... Qualquer coisa, pega algum pano aí, antes que ele chegue... Zenon? Zenon?!</default></talk>
 	<teller><default>Ela desliga o telefone. Anda de um lado pra outro. Instantes depois, um barulho na sala da casa. Zenon está no chão da sala. Ligeiramente queimado e inconsciente. Ela vai até ele.</default></teller>
 	<talk character="Beleno"><default>Não adianta tirar o pulso.</default></talk>
 	<talk character="Bea"><irony>Eu tava mesmo pensando em fazer isso. Que você fez?</irony></talk>
@@ -219,10 +219,10 @@
 	<teller><default>Zenon abre os olhos.</default></teller>
 	<talk character="Beleno"><default>Toma isso aqui.</default></talk>
 	<teller><default>Ele vai pegar o copo de Beleno, Aléxis entra, pega o copo e se afasta.</default></teller>
-	<talk character="Aléxis"><irony>Que tal fazer com água benta? Queima melhor. </irony></talk>
-	<talk character="Beleno"><irony>Bom dia pra você também. </irony></talk>
+	<talk character="Aléxis"><irony>Que tal fazer com água benta? Queima melhor.</irony></talk>
+	<talk character="Beleno"><irony>Bom dia pra você também.</irony></talk>
 	<talk character="Aléxis"><default>Vi um risco no céu, vindo pra cá...</default></talk>
-	<talk character="Beleno"><irony>E aí veio ver se tinha caído alguma criança de Kripton? </irony></talk>
+	<talk character="Beleno"><irony>E aí veio ver se tinha caído alguma criança de Kripton?</irony></talk>
 	<talk character="Aléxis"><default>Ah?!</default></talk>
 	<talk character="Zenon"><default>Onde você arranja tempo pra ver televisão, Beleno? Aliás, onde arranjou uma televisão?</default></talk>
 	<talk character="Beleno"><default>Vai pro inferno. E de nada.</default></talk>
@@ -266,7 +266,7 @@
 	<talk character="Soraia"><default>Então estou livre.</default></talk>
 	<talk character="Zenon"><default>Não sei, tô pensando em encomendar uma faixa com uma declaração de amor pra você nesse exato momento. Pelo menos assim você ficaria ocupada.</default></talk>
 	<talk character="Soraia"><default>Não é uma má idéia. Eu serviria de isca.</default></talk>
-	<talk character="Estela"><irony>Se não nos esforçássemos pra te achar, interpretaria mal? </irony></talk>
+	<talk character="Estela"><irony>Se não nos esforçássemos pra te achar, interpretaria mal?</irony></talk>
 	<teller><default>Zenon começa a procurar algo nos bolsos. Revira, não acha.</default></teller>
 	<talk character="Alan"><default>Que foi?</default></talk>
 	<talk character="Zenon"><default>Meu anel...</default></talk>
@@ -285,7 +285,7 @@
 	<talk character="Bea"><default>Ela roubou.</default></talk>
 	<talk character="Michele"><default>Era filha dele.</default></talk>
 	<teller><default>As duas, que haviam falado ao mesmo tempo, olham uma para outra.</default></teller>
-	<talk character="Zenon"><irony>Obrigado, Michele. </irony></talk>
+	<talk character="Zenon"><irony>Obrigado, Michele.</irony></talk>
 	<talk character="Michele"><default>Não contou pra ela? Tá com medo que ela termine com você?!</default></talk>
 	<talk character="Aléxis"><default>Vocês estão juntos?</default></talk>
 	<talk character="Bea"><default>Eu sabia. Não, não estamos juntos.</default></talk>
@@ -297,7 +297,7 @@
 	<talk character="Soraia"><default>Lindo. Tudo o que a gente precisa.</default></talk>
 	<talk character="Aléxis"><default>Bom, ainda estamos no meio da tarde. Vamos dormir, Beatrice?</default></talk>
 	<teller><default>Aléxis sai. Beatrice o segue.</default></teller>
-	<talk character="Soraia"><default>MAS O QUE É ISSO?</default></talk>
+	<talk character="Soraia"><screamed>Mas o que é isso?</screamed></talk>
 	<talk character="Estela"><default>E a gente tem que estudar pra prova, né?</default></talk>
 	<teller><default>Estela, Katerine e Derik saem. Apenas Alan permanece.</default></teller>
 	<talk character="Soraia"><default>Vai me ajudar a achar esse cara.</default></talk>
@@ -329,7 +329,7 @@
 	<talk character="Derik"><default>Agora sim acertou na temperatura.</default></talk>
 	<teller><default>Ele dá a mamadeira pra criança. Katerine está deitada na cama ao lado. Estela está ao lado dela. Soraia está na sala.</default></teller>
 	<talk character="Soraia"><default>Precisou acontecer alguma coisa com um dos de vocês pra vocês se mexerem... Que absurdo...</default></talk>
-	<talk character="Alan"><default>AMOR, ONDE É QUE TÁ O ESPARADRAPO?!</default></talk>
+	<talk character="Alan"><screamed>Amor, onde é que tá o esparadrapo?!</screamed></talk>
 	<talk character="Soraia"><default>Não sei o que ainda estamos fazendo aqui.</default></talk>
 	<talk character="Alan"><default>Protegendo a casa, nossos dois pesquisadores e nossa vidente, além de uma criança.</default></talk>
 	<teller><default>Beleno está amarrado numa cama no Hotel. Uma das asas foi cortada. Ele está suando. Um homem se aproxima.</default></teller>
@@ -394,7 +394,7 @@
 	<talk character="Alan"><default>Que a irmã foi morta.</default></talk>
 	<talk character="Rick"><default>Ela não tá falando.</default></talk>
 	<talk character="Alan"><default>Talvez eu consiga fazê-la falar.</default></talk>
-	<talk character="Rick"><irony>Com todo esse seu charme? </irony></talk>
+	<talk character="Rick"><irony>Com todo esse seu charme?</irony></talk>
 	<talk character="Alan"><default>Tá de TPM?</default></talk>
 	<talk character="Rick"><default>Quer um conselho?</default></talk>
 	<talk character="Alan"><default>Dispenso, eu quero falar com ela.</default></talk>
@@ -437,7 +437,7 @@
 	<talk character="Inês"><default>Está tentando culpar o Beleno.</default></talk>
 	<talk character="Alan"><default>Ah?! Pra que ele faria isso?</default></talk>
 	<talk character="Derik"><default>Tava dormindo quando o Zenon falou?</default></talk>
-	<talk character="Inês"><irony>Só porque ele quer! </irony><default>Mas não vai, mesmo!</default></talk>
+	<talk character="Inês"><irony>Só porque ele quer!</irony><default>Mas não vai, mesmo!</default></talk>
 	<teller><default>Hugo está sentado na cama. Beleno está na cama, suando.</default></teller>
 	<talk character="Hugo"><default>Acha que ele sobrevive?</default></talk>
 	<talk character="Andrea"><default>Não se tirar a segunda asa agora.</default></talk>
@@ -463,7 +463,7 @@
 	<talk character="Hugo"><default>Vai fazer o que? Gritar?</default></talk>
 	<teller><default>Ele se vira para correr e bate de frente em Hugo. Cai no chão. Começa a se arrastar. Hugo o levanta.</default></teller>
 	<talk character="Hugo"><default>Acabou com todas as chances que tinha de eu ser delicado.</default></talk>
-	<talk character="Henrique"><default>* EI!</default></talk>
+	<talk character="Henrique"><arrive> Ei!</arrive></talk>
 	<teller><default>Hugo olha para traz.</default></teller>
 	<talk character="Henrique"><default>Não vai fazer isso.</default></talk>
 	<talk character="rapaz"><default>Henrique?!</default></talk>
@@ -490,13 +490,13 @@
 	<talk character="Estela"><default>Pois se eu estivesse lá, enfiaria uma estaca nos três.</default></talk>
 	<talk character="Kat"><default>Duas coisas. Primeira: os dois iriam preferir uma estaca. Segunda: você não ia querer estar lá.</default></talk>
 	<teller><default>Soraia entra no quarto.</default></teller>
-	<talk character="Soraia"><irony>Previu algo? </irony></talk>
-	<talk character="Kat"><irony>Que você tinha ido embora. Ah, não, esse era sonho! </irony></talk>
+	<talk character="Soraia"><irony>Previu algo?</irony></talk>
+	<talk character="Kat"><irony>Que você tinha ido embora. Ah, não, esse era sonho!</irony></talk>
 	<teller><default>Alan entra.</default></teller>
 	<talk character="Alan"><default>Chamou reforço, Soraia?</default></talk>
 	<talk character="Soraia"><default>Não me ouvem. Acham que estou paranóica.</default></talk>
 	<talk character="Estela"><default>Então estão um passo antes de nós. Estão precisando conviver mais com você, aí terão certeza.</default></talk>
-	<talk character="Derik"><default>* Boa noite, amor...</default></talk>
+	<talk character="Derik"><arrive> Boa noite, amor...</arrive></talk>
 	<teller><default>Derik vai até Katerine e a beija. Está com a filha de Beleno no colo.</default></teller>
 	<talk character="Kat"><default>Alguém lembrou de ser doce!</default></talk>
 	<talk character="Estela"><default>Ele sempre fica babão com bebê no colo.</default></talk>
@@ -510,7 +510,7 @@
 	<talk character="Inês"><default>Sabe dizer perto de que prédio está?</default></talk>
 	<teller><default>Alan e Zenon chegam.</default></teller>
 	<talk character="Alan"><default>MEAK!</default></talk>
-	<talk character="Zenon"><default>Grita “pizza”, quem sabe ele aparece.</default></talk>
+	<talk character="Zenon"><default>Grita "pizza", quem sabe ele aparece.</default></talk>
 	<teller><default>Sai o rapaz de traz de uma lata.</default></teller>
 	<talk character="Zenon"><default>Já tinha sido atacado antes?</default></talk>
 	<talk character="rapaz"><default>Não...</default></talk>
@@ -528,9 +528,9 @@
 	<teller><default>Os dois olham para a sala. Sangue. Vão até o quarto. Henrique está deitado de lado na cama.</default></teller>
 	<talk character="Zenon"><default>Levanta daí, vai ter a eternidade pra superar seja lá o que ele tiver feito.</default></talk>
 	<teller><default>Ele olha para Zenon. Alan impede que ele acerte Zenon com uma estaca, jogando-o no canto do quarto com uma cadeira. Zenon encosta-o contra a parede.</default></teller>
-	<talk character="Henrique"><default>A CULPA É SUA!!!</default></talk>
+	<talk character="Henrique"><screamed>A culpa é sua!!!</screamed></talk>
 	<talk character="Zenon"><default>Ele quem te mandou fazer isso?</default></talk>
-	<talk character="Henrique"><default>ELE NÃO MANDARIA EM MIM NEM QUE FOSSE O PRÓPRIO DIABO! AQUELE MALDITO!!! MALDITO!!!</default></talk>
+	<talk character="Henrique"><screamed>Ele não mandaria em mim nem que fosse o próprio diabo! Aquele maldito!!! Maldito!!!</screamed></talk>
 	<teller><default>Henrique tenta se soltar, até que consegue e pula pela janela. Alan e Zenon olham pela janela.</default></teller>
 	<talk character="Alan"><default>Ele morreu?</default></talk>
 	<talk character="Zenon"><default>Não. Teria cinzas no ar.</default></talk>
@@ -542,7 +542,7 @@
 	<talk character="Zenon"><default>Tinha uma tatuagem nas costas?</default></talk>
 	<talk character="garota"><default>Sim. Acho que era um nome.</default></talk>
 	<teller><default>Tarde. Katerine e Estela estão na casa do rapaz.</default></teller>
-	<talk><default>Meu filho, não pode ficar correndo atrás de rabo de saia desse jeito! (mãe)</default></talk>
+	<talk character="mãe"><default>Meu filho, não pode ficar correndo atrás de rabo de saia desse jeito!</default></talk>
 	<talk character="pai"><default>Não nega o sangue, fazer o que?</default></talk>
 	<talk character="Kat"><default>Então essa garota, a tatuagem nas costas dela...</default></talk>
 	<talk character="rapaz"><default>Meu nome.</default></talk>
@@ -661,7 +661,7 @@
 	<talk character="Bea"><default>Não sei, algo me diz que não... Tem certeza que não o transformou?</default></talk>
 	<teller><default>Na casa de Katerine, ela acorda.</default></teller>
 	<talk character="Kat"><default>Estela! Derik! Eu já sei qual a ligação deles...</default></talk>
-	<teller><default>Katerine encontra um bilhete: “Só você, no templo”. Chegando no mesmo, Derik está numa gaiola. Ele segura Estela.</default></teller>
+	<teller><default>Katerine encontra um bilhete: "Só você, no templo". Chegando no mesmo, Derik está numa gaiola. Ele segura Estela.</default></teller>
 	<talk character="Hugo"><default>Não sabia que seu namorado virava tanta coisa. Cachorro, pássaro... Pena que, quando fui pegá-lo, eu tava usando a cortina...</default></talk>
 	<talk character="Kat"><default>Hugo.</default></talk>
 	<talk character="Hugo"><default>Falou umas coisas interessantes enquanto dormia.</default></talk>
@@ -693,14 +693,14 @@
 	<talk character="Derik"><default>Ele me cortou as penas das asas. Meus braços estão quase sem pêlos, vê?</default></talk>
 	<talk character="Kat"><default>Você nunca teve...</default></talk>
 	<talk character="Derik"><default>Deixa pra lá. O que tô dizendo é que não posso voar por uns dias.</default></talk>
-	<talk character="Kat"><default>E Beleno ele levou. QUE MERDA!!!</default></talk>
+	<talk character="Kat"><default>E Beleno ele levou.</default><screamed>Que merda!!!</screamed></talk>
 	<teller><default>11/10. Katerine está dormindo. Acorda e corre até a porta da casa. Abre e Estela está no colo de Andrea, esta de capuz. Ela coloca Estela no sofá e Katerine se aproxima.</default></teller>
 	<talk character="Andrea"><default>Não aconteceu nada com ela. Está dormindo apenas.</default></talk>
 	<teller><default>Katerine se levanta e olha para Andrea.</default></teller>
 	<talk character="Andrea"><default>Não conte para ele. Posso proteger qualquer um que ele tente atacar.</default></talk>
 	<talk character="Kat"><default>Como posso saber disso?</default></talk>
 	<talk character="Andrea"><default>Sou eu quem o protege.</default></talk>
-	<talk character="Bea"><default>* Sim, é.</default></talk>
+	<talk character="Bea"><arrive> Sim, é.</arrive></talk>
 	<teller><default>Beatrice entra e tira seu capuz.</default></teller>
 	<talk character="Bea"><default>Queremos Beleno de volta. E essa brincadeirinha do Hugo acaba aqui.</default></talk>
 	<talk character="Andrea"><default>Ela sabe?</default></talk>
@@ -716,9 +716,9 @@
 	<talk character="Bea"><default>Vai se entregar e dizer que foi você e desfazer seja lá o que ele tenha feito.</default></talk>
 	<talk character="Andrea"><default>Posso desfazer, mas não me entregar. Não posso deixá-lo desprotegido.</default></talk>
 	<talk character="Bea"><default>Não sei o que vai fazer, mas vai tirá-lo de lá.</default></talk>
-	<talk character="Hugo"><default>* Não vai, não.</default></talk>
+	<talk character="Hugo"><arrive> Não vai, não.</arrive></talk>
 	<talk character="Andrea"><default>Que está fazendo aqui?</default></talk>
-	<talk character="Hugo"><default>Talvez o mesmo que você. <irony>Ah, não, eu não vim barganhar com ninguém. </irony> Vamos pra casa.</default></talk>
+	<talk character="Hugo"><default>Talvez o mesmo que você.<irony>Ah, não, eu não vim barganhar com ninguém.</irony>Vamos pra casa.</default></talk>
 	<talk character="Kat"><default>Não, vocês vão tirar ele de lá.</default></talk>
 	<teller><default>Hugo ri.</default></teller>
 	<talk character="Hugo"><default>Se não o quê?</default></talk>
@@ -759,8 +759,8 @@
 	<talk character="Kat"><default>Você não tá se lamentando, tá?</default></talk>
 	<talk character="Bea"><default>Tenho medo de iludir Beleno.</default></talk>
 	<teller><default>Beleno está dentro da cadeia. Ricardo está olhando pela janela. Muitos repórteres. Fecha e persiana.</default></teller>
-	<talk character="Rick"><default>Que merda. Temos que arranjar um cara muito parecido com ele e botar asas falsas. Quando precisávamos encontrar o cara, ninguém ajudava, agora aparece essa aberração e sai no jornal “Anjo confessa crimes. Será o fim do mundo?”. Se eu pego o maldito que vazou essa merda...</default></talk>
-	<talk character="Bea"><default>* Viemos falar com Beleno.</default></talk>
+	<talk character="Rick"><default>Que merda. Temos que arranjar um cara muito parecido com ele e botar asas falsas. Quando precisávamos encontrar o cara, ninguém ajudava, agora aparece essa aberração e sai no jornal "Anjo confessa crimes. Será o fim do mundo?". Se eu pego o maldito que vazou essa merda...</default></talk>
+	<talk character="Bea"><arrive> Viemos falar com Beleno.</arrive></talk>
 	<talk character="Rick"><default>Que bom. Pode convencê-lo de nos contar de onde é?</default></talk>
 	<talk character="Kat"><default>Se não sabe de onde ele é, como sabe de quem falamos?</default></talk>
 	<talk character="Bea"><default>Ele deve ter falado o nome.</default></talk>
@@ -781,7 +781,7 @@
 	<talk character="Bea"><default>Isso vai melhorar ou piorar a situação?</default></talk>
 	<talk character="Rick"><default>Não sei.</default></talk>
 	<talk character="Bea"><default>Só perguntou de curioso. Ok. Percebi que tava olhando. Achei que fosse ajudar.</default></talk>
-	<talk character="Rick"><default>Ah, claro!!! Agora eu saio lá e digo “Ei, gente, o anjo não é culpado, enfeitiçaram ele, vamos deixá-lo voltar pro céu!!!”</default></talk>
+	<talk character="Rick"><default>Ah, claro!!! Agora eu saio lá e digo "Ei, gente, o anjo não é culpado, enfeitiçaram ele, vamos deixá-lo voltar pro céu!!!"</default></talk>
 	<teller><default>Os dois se entreolham e olham para ele, como se pensassem na idéia.</default></teller>
 	<talk character="Rick"><default>Peraí, não levaram a sério, né?</default></talk>
 	<teller><default>Dali a pouco, Beleno está com uma auréola falsa e uma roupa branca.</default></teller>
@@ -812,7 +812,7 @@
 	<talk character="Zenon"><default>Diz pra ele que o Beleno tá sobrevoando...</default></talk>
 	<talk character="Alan"><default>Zenon mandou... ### Como ouviu? ### Orelhas de vampiros, sei.</default>
 	<teller>pára um instante</teller><default>Isso ficou parecendo meio duende, né?</default></talk>
-	<talk character="Soraia"><default>* Que estão fazendo?</default></talk>
+	<talk character="Soraia"><arrive> Que estão fazendo?</arrive></talk>
 	<talk character="Zenon"><default>Vamos sair. Caçar Hugo.</default></talk>
 	<talk character="Alan"><default>Beatrice mandou dizer...</default></talk>
 	<talk character="Zenon"><default>Hugo tá ferido. Ela o jogou em cima de uma espada.</default></talk>
@@ -845,7 +845,7 @@
 	<talk character="Hugo"><default>Sabe que eu tinha certeza que essa era a mais bem presa?</default></talk>
 	<teller><default>Hugo abaixa perto dela.</default></teller>
 	<talk character="Hugo"><default>Com o medo, o sangue ferve e corre mais rápido. Líquidos quentes e remexidos tem cheiro mais forte. Pena que, se essa mesa cair, vai te cortar em tantos pedacinhos que não vai ter uma gota de sangue que não vá esparramar pelo chão.</default></talk>
-	<talk character="Kat"><default>* Se quer saber o segredo, solta ela.</default></talk>
+	<talk character="Kat"><arrive> Se quer saber o segredo, solta ela.</arrive></talk>
 	<talk character="Hugo"><default>Claro, aí você me dá aquele livro de presente.</default></talk>
 	<teller><default>Ela entrega um papel a ele. Ele abre, com um sorriso de vitória. Lê. Fecha o rosto. Corta a corda. Kat tenta segurar, mas não consegue. Levanta a mesa. Janaina caíra num fundo falso. Olha para os lados e não vê mais Hugo.</default></teller>
 	<talk character="Kat"><default>Isso vai feder...</default></talk>
@@ -877,7 +877,7 @@
 	<talk character="Zenon"><default>Não posso voltar no tempo. Não posso desfazer o que fiz.</default></talk>
 	<talk character="Hugo"><default>Como se você se importasse. Ninguém se importa. Só ela se importa comigo. E eu com ela.</default></talk>
 	<talk character="Zenon"><default>Não disse que ela morreu no parto?</default></talk>
-	<talk character="Henrique"><default>* Existem outras pessoas que só tem uma pessoa no mundo.</default></talk>
+	<talk character="Henrique"><arrive> Existem outras pessoas que só tem uma pessoa no mundo.</arrive></talk>
 	<talk character="Hugo"><default>Olha só... Como vai seu namorado? Até esqueci de ir atrás dele...</default></talk>
 	<talk character="Henrique"><default>Sabe que é muito perigoso tirar de alguém a única coisa que esse alguém tem? Porque se você não tem nada, não tem nada a perder.</default></talk>
 	<talk character="Hugo"><default>Que vai fazer? Explodir o prédio?</default></talk>
@@ -894,7 +894,7 @@
 	<talk character="Andrea"><default>Eu disse que podia me matar, não te autorizei a tocar em mim.</default></talk>
 	<teller><default>Ela puxa a besta, que está na mão dele, apontando para o próprio peito.</default></teller>
 	<talk character="Andrea"><default>Aproveita. Sua amiga tá acordando. Ela não sabe de nada. Tudo que verá é você transformar uma vampira em cinzas.</default></talk>
-	<talk character="Beleno"><default>* Henrique não virou pó.</default></talk>
+	<talk character="Beleno"><arrive> Henrique não virou pó.</arrive></talk>
 	<talk character="Zenon"><default>Está vivo?</default></talk>
 	<talk character="Beleno"><default>Não. A última coisa que ele disse foi que a mãe dele disse pra não ficar perto da janela. Não entendi.</default></talk>
 	<talk character="Andrea"><default>Não foi você quem matou meu filho?</default></talk>
@@ -921,10 +921,10 @@
 	<teller><default>Ele vai para a janela.</default></teller>
 	<talk character="Zenon"><default>Pior é que eu tinha.</default></talk>
 	<teller><default>Ela o abraça. No outro andar, Beatrice está no colo de Aléxis.</default></teller>
-	<talk character="Aléxis"><default>Entendo ele um pouco. Tive que recorrer à uma filha para parar outra.</default></talk>
+	<talk character="Aléxis"><default>Entendo ele um pouco. Tive que recorrer a uma filha para parar outra.</default></talk>
 	<talk character="Bea"><default>Não sei. Parece que, quanto mais tentamos fazer o certo, pior fica.</default></talk>
 	<talk character="Aléxis"><default>Fizemos muito de ruim. Sempre volta.</default></talk>
-	<talk character="Beleno"><default>* E pra quem não fez?</default></talk>
+	<talk character="Beleno"><arrive> E pra quem não fez?</arrive></talk>
 	<teller><default>Beatrice se levanta.</default></teller>
 	<talk character="Beleno"><default>Não precisa se dar ao trabalho. Você já escolheu.</default></talk>
 	<talk character="Bea"><default>Não escolhi nada. E se eu estivesse deitada no colo de uma mulher, por exemplo?</default>
@@ -935,7 +935,7 @@
 	<talk character="Bea"><default>Entendo.</default></talk>
 	<talk character="Beleno"><default>Vou embora.</default></talk>
 	<talk character="Bea"><default>Beleno...</default></talk>
-	<talk character="Beleno"><default>“Fica, precisamos de você”. Não.</default></talk>
+	<talk character="Beleno"><default>"Fica, precisamos de você". Não.</default></talk>
 	<talk character="Bea"><default>Mas...</default></talk>
 	<talk character="Beleno"><default>Não. As asas de Derik estão quase boas. Todo mundo anda por aí caçando o anjo que foi enfeitiçado. Não vou mais ficar aqui.</default></talk>
 	<talk character="Bea"><default>E Inês?</default></talk>
