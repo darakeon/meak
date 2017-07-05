@@ -28,19 +28,19 @@
             <div class="body">
                 @foreach (var episode in season.EpisodesList)
                 {
-                    @Html.RouteLink(
-                        episode.ID,
-                        route,
-                        new { controller = "Season", seasonID = season, action = "Episode", episodeID = episode },
-                        new { @class = "item storyLink", rel = episode.Title }
-                    )
-                    @(" ")
+                    var routeItems = new { controller = "Season", seasonID = season, action = "Episode", episodeID = episode };
+                    var myUrl = Url.RouteUrl(route, routeItems);
+                    
+                    var @selectedClass = Request.Url.AbsoluteUri.Contains(myUrl)
+                        ? "selected" : "";
+                    
+                    <a href="@myUrl" class="item storyLink @selectedClass" rel="@episode.Title">@episode.ID</a>
                 }
 
             </div>
         </div>
         <div class="storyNameSuperBox">
-            <div class="lightback storyNameBox"></div>
+            <div class="darkback storyNameBox"></div>
         </div>
     </div>
 }

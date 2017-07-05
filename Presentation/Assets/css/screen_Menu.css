@@ -1,9 +1,10 @@
 .menu
 {
-	margin: 50px 30px;
-	width: 200px;
+	margin: 5px 30px 50px 30px;
+	width: 180px;
 	float: left;
 	text-align: center;
+	font-size: 11px;
 	font-family: Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
 }
 
@@ -16,6 +17,8 @@
 {
 	padding: 2px;
 	border-radius: 0 0 10px 10px;
+	font-weight: bold;
+	font-size: 12px;
 }
 
 .menu #save_status
@@ -32,6 +35,15 @@
 .menu .body .item
 {
     padding: 0px 8px;
+    opacity: 0.30;
+    filter: alpha(opacity=30);
+}
+
+.menu .body .item:hover,
+.menu .body .item.selected
+{
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
 
 #legend
@@ -50,6 +62,8 @@
 {
 	display: table;
 	width: 100%;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 .storyNameBox:empty
@@ -59,9 +73,10 @@
 
 .storyNameBox
 {
-	height: 40px;
+	height: 34px;
 	vertical-align: middle;
 	display: table-cell;
 	width: 100%;
-	padding: 5px;
+	padding: 2px 10px 4px 10px;
+    border: #CCC dashed 1px;
 }
