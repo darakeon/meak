@@ -1,73 +1,77 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <story season="A" episode="20" scene="a">
 	<teller>
-		<default>Novembro / 2023. Manhã. Angely entra no escritório com um embrulho.</default>
+		<division>Novembro de 2023</division>
 	</teller>
-	<talk character="Angely">
-		<default>Mel, é pra você.</default>
+	<teller>
+		<default>Kat entra na MEAK. Mel desce a escada.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Tá tudo bem com você?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pra mim? Mas eu não encomendei nada...</default>
+		<default>Tá. Por quê?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Liguei e ninguém atendeu. Faz uma semana que voltou do hospital e não falaram comigo.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Foi mal. Tô querendo ficar um pouco no meu canto.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Ah.</default>
 	</talk>
 	<teller>
-		<default>Mel pega o embrulho. Abre: um livro. Começa a folhear.</default>
+		<default>Silêncio.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Grego?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Deixa eu ver...</default>
-		<teller>pega o livro</teller>
-		<default>Acho que vamos ter que falar com Zenon de novo.</default>
+	<talk character="Kat">
+		<default>Pensei em viajar ou coisa do tipo. Pra espairecer, sabe?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Dessa vez não temos nada que ele queira.</default>
+		<default>Eu tô mais pra ficar lendo em casa mesmo.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Ele ia entrar na agência.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que agência?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Bom, não temos...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Biblioteca? Armas? Escritório? É, não temos.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ele é nosso amigo agora...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ele desapareceu de novo, Angely.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não custa tentar.</default>
-	</talk>
-	<talk character="Derik">
-		<arrive>Tentar o que?</arrive>
+	<talk character="Kat">
+		<default>Entendi.</default>
 	</talk>
 	<teller>
-		<default>Angely vai falar, mas Mel interrompe.</default>
+		<default>Silêncio.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Nada. Como vai com a Kat?</default>
+		<default>Veio aqui com algum outro motivo?</default>
 	</talk>
-	<talk character="Derik">
-		<default>Ainda não quer acreditar. Acha que não quero apresentá-la à minha família.</default>
+	<talk character="Kat">
+		<default>Queria ver se estavam bem só.</default>
 	</talk>
-	<talk character="Angely">
-		<default>E se arranjássemos um detector de mentiras?</default>
+	<talk character="Mel">
+		<default>Eu tô.</default>
 	</talk>
-	<talk character="Derik">
-		<default>Acha que estou mentindo???</default>
+	<talk character="Kat">
+		<default>O que tem lido?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Não, apenas acho que assim ela acreditaria. A menos que...</default>
+	<talk character="Mel">
+		<default>Tá entediante lá com a Agatha?</default>
 	</talk>
-	<talk character="Derik">
-		<default>Claro, vou lá em casa buscar o livro de contos de fadas da onde tirei minha história!</default>
+	<teller>
+		<default>Kat olha pra baixo.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Agatha aquietou de repente.</default>
 	</talk>
+	<talk character="Mel">
+		<default>Você contou?</default>
+	</talk>
+	<teller>
+		<default>Kat olha para Mel. Olha para baixo.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Você ficou um mês no hospital. Eu...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não tem problema. Nem faz mais sentido esconder nada. É até bom que saiba, pra se proteger de Edmont, enquanto não resolvemos isso.</default>
+	</talk>
+	<teller>
+		<default>AQUI</default>
+	</teller>
 	<talk character="Mel">
 		<default>Calma, Angely só tá fazendo isso pra você aceitar.</default>
 	</talk>
