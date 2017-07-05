@@ -160,16 +160,16 @@
 		<division>Passado</division>
 	</teller>
 	<teller>
-		<default>Leo caminha com Manuel. Entram em uma casa. Homens bebendo e mulheres com pouca ou nenhuma roupa.</default>
+		<default>Leo caminha com Heric. Entram em uma casa. Homens bebendo e mulheres com pouca ou nenhuma roupa.</default>
 	</teller>
 	<talk character="Leo">
 		<default>Pai, não disse pra minha prima que isso é pecado?</default>
 	</talk>
-	<talk character="Manuel">
+	<talk character="Heric">
 		<default>Essas mulheres são, como vou dizer...? Próprias para isso.</default>
 	</talk>
 	<teller>
-		<default>Manuel vai até Dolores. Leo olha para Flávio. Vai até Flávio.</default>
+		<default>Heric vai até Dolores. Leo olha para Flávio. Vai até Flávio.</default>
 	</teller>
 	<talk character="Leo">
 		<default>Pra que serve esse lugar?</default>
@@ -181,13 +181,13 @@
 		<default>Vem que eu te mostro.</default>
 	</talk>
 	<teller>
-		<default>Jéssica leva Leo pela mão. Leo olha para Manuel. Sobem para um quarto. Jéssica fecha a porta. Se aproxima de Leo e pega nos botões da camisa. Leo se afasta.</default>
+		<default>Jéssica leva Leo pela mão. Leo olha para Heric. Sobem para um quarto. Jéssica fecha a porta. Se aproxima de Leo e pega nos botões da camisa. Leo se afasta.</default>
 	</teller>
 	<talk character="Leo">
 		<default>Que que você tá fazendo?!</default>
 	</talk>
 	<talk character="Jéssica">
-		<default>Com a roupa não tem como fazer...</default>
+		<default>Com a roupa não tem como fazer... Bom, até tem, se quiser.</default>
 	</talk>
 	<talk character="Leo">
 		<default>Meu pai não deixa minha prima nem chegar perto de homens...</default>
@@ -211,11 +211,77 @@
 		<default>Leo se senta.</default>
 	</teller>
 	<talk character="Jéssica">
-		<default>Por que esta revolta?</default>
+		<default>Mulher de família não faz essas coisas com qualquer um, faz só com o marido. E não faz do jeito que a gente faz. Por isso inclusive que eles vêm aqui, porque homem precisa dessas coisas.</default>
 	</talk>
 	<talk character="Leo">
-		<default>Que raios faz-te aceitar isto?!</default>
+		<default>E como sabem que todo homem precisa? Ou quem é mulher que faz isso ou não?</default>
 	</talk>
+	<talk character="Jéssica">
+		<default>Quem faz é quem precisa fazer. Ou quem se apaixona pelo cara e o cara não quer mais. Quem se entrega antes da hora. Ou quem já nasce aqui. São tantos casos... E homem precisa...</default>
+	</talk>
+	<talk character="Leo">
+		<default>Por que?</default>
+	</talk>
+	<talk character="">
+		<default>É natural.</default>
+	</talk>
+	<teller>
+		<default>Jéssica se levanta.</default>
+	</teller>
+	<talk character="Jéssica">
+		<default>Olha pra mim. Não sente nada?</default>
+	</talk>
+	<teller>
+		<default>Leo balança a cabeça para os lados. Jéssica tira a parte de cima. Leo balança de novo a cabeça para os lados.</default>
+	</teller>
+	<talk character="Jéssica">
+		<default>Será que você gosta de homem?</default>
+	</talk>
+	<talk character="Leo">
+		<default>Se mudou faz pouco tempo?</default>
+	</talk>
+	<teller>
+		<default>Jéssica sorri.</default>
+	</teller>
+	<talk character="Jéssica">
+		<default>Agora está estranhando que nunca me viu?</default>
+	</talk>
+	<talk character="Leo">
+		<default>É, eu...</default>
+	</talk>
+	<talk character="Jéssica">
+		<default>As pessoas não se misturam com a gente.</default>
+	</talk>
+	<teller>
+		<default>Leo franze a sobrancelha.</default>
+	</teller>
+	<talk character="Jéssica">
+		<default>Nos consideram... Acham que a gente é pecadora, que vai pro inferno.</default>
+	</talk>
+	<talk character="Leo">
+		<default>Então eu vou pro inferno? E meu pai?</default>
+	</talk>
+	<teller>
+		<default>Jéssica ri. Balança a cabeça para os lados.</default>
+	</teller>
+	<talk character="Jéssica">
+		<default>Você é homem. Homem pode fazer o que quiser. Nem isso seu pai te disse?</default>
+	</talk>
+	<talk character="Leo">
+		<default>Como assim?!</default>
+	</talk>
+	<teller>
+		<default>Jéssica se senta na cama. Olha nos olhos de Leo. Olha para baixo.</default>
+	</teller>
+	<talk character="Jéssica">
+		<default>A culpa sempre vai ser nossa.</default>
+	</talk>
+	<talk character="Leo">
+		<default>Que raios te faz aceitar isto?!</default>
+	</talk>
+	<teller>
+		<default>Jéssica olha para Leo.</default>
+	</teller>
 	<talk character="Jéssica">
 		<default>Não sou só eu...</default>
 	</talk>
@@ -226,109 +292,151 @@
 		<default>E do que viveríamos?</default>
 	</talk>
 	<teller>
-		<default>Ele sai do quarto. Quando passa pelo salão principal, seu pai tenta segurá-lo. Leva um soco.</default>
+		<default>Jéssica levanta, pega a parte de cima e veste de volta.</default>
+	</teller>
+	<talk character="Jéssica">
+		<default>Vocês são todos iguais. Até por nos culparem a culpa é nossa.</default>
+	</talk>
+	<talk character="Leo">
+		<default>Não era isso que eu...</default>
+	</talk>
+	<talk character="Jéssica">
+		<default>Queria dizer?! Pois foi o que disse!</default>
+	</talk>
+	<talk character="Leo">
+		<default>Desculpa... Eu sou muito novo...</default>
+	</talk>
+	<talk character="Jéssica">
+		<screamed>E que idade você acha que eu tenho?!</screamed>
+	</talk>
+	<teller>
+		<default>Jéssica olha para fora. Limpa o rosto. Vai até o espelho. Pega um papel e limpa a maquiagem borrada. Vira-se e sorri para Leo.</default>
+	</teller>
+	<talk character="Jéssica">
+		<default>Não vai contar pro seu pai, né? Olha, pode fazer o que quiser comigo, eu...</default>
+	</talk>
+	<teller>
+		<default>Leo abre mais os olhos e levanta da cama. Balança a cabeça para os lados. Sai do quarto. Jéssica sai atrás. Descem as escadas. No meio do salão, Heric se aproxima, Leo empurra.</default>
 	</teller>
 	<talk character="Leo">
 		<screamed>Seus hipócritas! Eu tenho nojo de todos aqui! São uma vergonha!</screamed>
 	</talk>
 	<teller>
-		<default>Leonardo sai do prostíbulo e corre para casa. Lá, vai até o quarto da prima. Ela se assusta e senta-se na cama. Ele a abraça. Quando o pai dele chega, ele está sentado ao lado da cama, com a cabeça no colo da prima.</default>
+		<default>Leonardo sai correndo. Heric olha para Jéssica.</default>
 	</teller>
-	<talk character="pai">
+	<talk character="Jéssica">
+		<default>Ele não quis, eu tentei, juro!</default>
+	</talk>
+	<talk character="Heric">
+		<default>Depois eu me acerto com você.</default>
+	</talk>
+	<teller>
+		<default>Heric sai. Chega em casa. Vai ao quarto de Leo. Nada. Vai ao quarto de Mariana. Leo está com a cabeça no colo de Mariana.</default>
+	</teller>
+	<talk character="Heric">
 		<default>Seu...</default>
 	</talk>
-	<talk character="prima">
-		<default>Vais expulsá-lo de casa?</default>
+	<talk character="Mariana">
+		<default>Vais expulsar ele de casa?</default>
 	</talk>
-	<talk character="pai">
+	<talk character="Heric">
 		<screamed>É claro que vou! Não quero um filho que não gosta de mulher!</screamed>
 	</talk>
-	<talk character="prima">
+	<talk character="Mariana">
 		<default>Pois eu vou junto.</default>
 	</talk>
-	<talk character="pai">
-		<screamed>Não, tu te casarás, como está marcado!</screamed>
+	<talk character="Heric">
+		<screamed>Não, vai se casar, como está marcado!</screamed>
 	</talk>
 	<teller>
-		<default>Ela se levanta da cama e vai até o pai dele.</default>
+		<default>Mariana levanta da cama. Vai até Heric.</default>
 	</teller>
-	<talk character="prima">
+	<talk character="Mariana">
 		<default>Meu noivo estava naquele lugar?</default>
 	</talk>
-	<talk character="pai">
+	<talk character="Heric">
 		<default>Mas é claro! Ele é homem, não é como este trapo!</default>
 	</talk>
-	<talk character="prima">
-		<default>Antes este trapo que homens que traem a mulher, como o senhor.</default>
+	<talk character="Mariana">
+		<default>Antes este trapo que homens como o senhor.</default>
 	</talk>
 	<teller>
-		<default>Ele vai dar um tapa nela, mas o filho dele o joga no chão, pega a garota pela mão e saem correndo.</default>
+		<default>Heric arma o braço para dar um tapa, Mariana segura. Heric puxa o braço. Leo pega Mariana pela mão e corre.</default>
+	</teller>
+	<teller>
+		<division>Presente</division>
 	</teller>
 	<talk character="Leo">
 		<ghost>Foi a última vez que vi meu pai</ghost>
 	</talk>
 	<talk character="Ang">
-		<default>Nossa...</default>
+		<default>Complicado.</default>
 	</talk>
 	<talk character="Leo">
-		<ghost>Você vai à esse tipo de lugar?</ghost>
+		<ghost>Você vai a esse tipo de lugar?</ghost>
 	</talk>
 	<talk character="Ang">
-		<default>Não... Mas hoje em dia o preconceito não é tanto com esse tipo de trabalho, nem contra mulheres que não são virgens... Eu acho.</default>
+		<default>Nunca fui. Mas deveria. A gente ajuda pessoas. Deve ter bastante gente precisando de ajuda.</default>
 	</talk>
 	<talk character="Mel">
 		<out>Ang...</out>
 		<arrive>Nossa, conseguiu abrir a porta sem arrombar?</arrive>
 	</talk>
 	<talk character="Ang">
-		<default>Não, ela abriu sozinha.</default>
+		<default>Não, abriu só.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Você, dando patada?!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Tô falando sério mesmo, abriu sozinha.</default>
+		<default>Era literal.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então é melhor chamarmos alguém para tirar esse espírito daqui.</default>
+		<default>Então é melhor chamar alguém para tirar esse espírito daqui.</default>
 	</talk>
 	<teller>
-		<default>Ela vira e um objeto voa em sua direção. Ang o pega, sem que este a toque.</default>
+		<default>Mel se vira para fora. Um vaso voa em sua direção. Ang pega.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Não é necessário. Ele não vai fazer mal à ninguém.</default>
+		<default>Não é necessário. Não vai fazer mal à ninguém.</default>
 	</talk>
+	<teller>
+		<default>Mel franze a testa e vira de volta.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Tem certeza?</default>
+		<default>O meu não era literal. Tem mesmo um espírito aqui?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Tenho.</default>
+		<default>Não vai fazer mal.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, melhor você ir dormir que tá tarde.</default>
+		<default>Melhor você ir dormir que tá tarde.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Tá.</default>
 	</talk>
 	<teller>
-		<default>Mel se vira para ele. Os dois ficam parados, em silêncio.</default>
+		<default>Ang não se mexe. Mel cruza os braços.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Não vai?</default>
 	</talk>
 	<teller>
-		<default>Angely sai. Mel ‘conversa’ com o fantasma.</default>
+		<default>Angely sai. Mel olha ao redor.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Olha, se quiser conversar com ele, converse de dia. De noite ele tem que dormir, apesar dele próprio não saber disso.</default>
+		<default>Olha, se quiser conversar com Angely, conversa de dia. De noite tem que dormir, apesar de se comportar como se não precisasse dessas coisas.</default>
 	</talk>
 	<teller>
-		<default>Ele percebe que isso foi deboche dela. Ela sai também, fechando a porta. No dia seguinte (02/02 – domingo), eles estão já terminando a reforma. Mel conversa com as pessoas que ajudaram.</default>
+		<default>Mel sai, fechando a porta. No dia seguinte (02/02 – domingo), eles estão já terminando a reforma. Mel conversa com as pessoas que ajudaram.</default>
+	</teller>
+	<teller>
+		<first>Dia seguinte. Pessoas no salão de entrada.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Bom, hoje nós estamos quase terminando tudo, só falta lá em cima...</default>
 	</talk>
-	<talk character="garoto 1">
+	<talk character="Rodrigo">
 		<default>E o pagamento!</default>
 	</talk>
 	<talk character="Mel">
@@ -340,26 +448,26 @@
 	<teller>
 		<default>Ang está na cidade, comprando tintas.</default>
 	</teller>
-	<talk character="v">
+	<talk character="Dário">
 		<default>Nossa, vocês devem ter muito dinheiro e coragem...</default>
 	</talk>
 	<talk character="Ang">
 		<default>Coragem?</default>
 	</talk>
-	<talk character="v">
+	<talk character="Dário">
 		<default>Reformar aquela casa enorme não é coragem?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Ah!</default>
 	</talk>
-	<talk character="v">
+	<talk character="Dário">
 		<default>Por que, tem tido algum problema na casa?</default>
 	</talk>
 	<talk character="Ang">
 		<default>De que tipo de problema está falando?</default>
 	</talk>
 	<teller>
-		<default>Ele chega em casa, sem ninguém ver, e vai para o sótão.</default>
+		<first>Ang chega em casa. Vai para o sótão.</first>
 	</teller>
 	<talk character="Ang">
 		<default>Não sei seu nome ainda...</default>
@@ -377,10 +485,10 @@
 		<default>Ah...</default>
 	</talk>
 	<teller>
-		<default>Leonardo senta-se no chão, encolhido e com a cabeça sobre os joelhos. Alguém bate à porta.</default>
+		<default>Leonardo senta-se no chão, encolhido e com a cabeça sobre os joelhos. Batida na porta</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ang, estávamos esperando você chegar para começar a reformar isso aí... Por que trancou a porta?</default>
+		<out>Ang, estávamos esperando você chegar para começar aqui... Por que trancou a porta?</out>
 	</talk>
 	<talk character="Ang">
 		<hushed>Que foi?</hushed>
@@ -392,7 +500,7 @@
 		<hushed>Prometo que não deixo.</hushed>
 	</talk>
 	<talk character="Leo">
-		<ghost>Vais dizer o que?</ghost>
+		<ghost>Vai dizer o que?</ghost>
 	</talk>
 	<talk character="Ang">
 		<hushed>Que tal a verdade?</hushed>
@@ -449,7 +557,7 @@
 		<default>De quem são?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Nossa, são bonitos...</default>
+		<arrive>Nossa, são bonitos...</arrive>
 	</talk>
 	<talk character="Ang">
 		<default>Podem servir de decoração da casa.</default>
@@ -464,7 +572,7 @@
 		<default>Ah, tá... Se você quer assim...</default>
 	</talk>
 	<teller>
-		<default>Ele vai para um canto.</default>
+		<default>Angely vai para um canto.</default>
 	</teller>
 	<talk character="Ang">
 		<hushed>Me disse que ontem tinha sido a primeira vez que tinha feito isso...</hushed>
