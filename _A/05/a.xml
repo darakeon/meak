@@ -7,13 +7,13 @@
 		<default>Nós queremos um quarto.</default>
 	</talk>
 	<talk character="recepcionista">
-		<default>A garota é maior?</default>
+		<default>A garota é maior de idade?</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Não te interessa.</default>
 	</talk>
 	<talk character="recepcionista">
-		<default>Olha, se não apresentar a identidade dela, senhor, eu não estou autorizado a ceder um quarto.</default>
+		<default>Sem identidade, não posso dar o quarto.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Podes vir aqui?</default>
@@ -25,25 +25,22 @@
 		<default>Sim, tu. Podes sair aí de trás do balcão?</default>
 	</talk>
 	<teller>
-		<default>O recepcionista dá a volta e fica de frente para Elian. Este o pega pelo pescoço e encosta na parede. Mostra os caninos.</default>
+		<default>A recepcionista dá a volta e fica de frente para Elian. Este a pega pelo pescoço e encosta na parede. Os caninos estão expostos inteiros..</default>
 	</teller>
 	<talk character="Elian">
-		<default>Não, ela não é maior, está comigo e vais arranjar um quarto pra nós. Se pensares em ligar pra polícia ou qualquer outro lugar, pra nos denunciar, chegarão para encontrar teu corpo esquartejado e espalhado por esta espelunca que cai aos pedaços.</default>
+		<default>Não, ela não é maior, está comigo e vais arranjar um quarto pra nós. Se pensares em ligar pra polícia ou qualquer outro lugar, pra nos denunciar, chegarão para encontrar teu corpo esquartejado e espalhado por esta espelunca.</default>
 	</talk>
 	<teller>
-		<default>Elian solta o homem, que rapidamente pega uma chave e entrega a ele. Beatrice ri.</default>
+		<default>Elian solta a mulher, que rapidamente pega uma chave e entrega a ele. Ele pega a chave.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Vamos?</default>
 	</talk>
 	<teller>
-		<default>Ele pega a chave e dá o braço a Beatrice, que coloca o braço sobre o dele.</default>
+		<default>Elian dá o braço a Beatrice, que coloca o braço sobre o dele. Eles seguem para o quarto.</default>
 	</teller>
-	<talk character="Beatrice">
-		<default>Claro.</default>
-	</talk>
 	<teller>
-		<first>Edmont, percebendo que anoiteceu, decide mudar o alvo de sua procura: de um esconderijo a um lugar onde um vampiro procuraria sua presa. Entra num bar.</first>
+		<first>Edmont entra em um bar.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Merda.</default>
@@ -68,14 +65,30 @@
 	</talk>
 	<talk character="Kinyn">
 		<default>Eu não queria entrar o Natal olhando pro focinho dele.</default>
-		<teller>vê um homem olhando pra ela</teller>
-		<default>Bom, deixa eu ir.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>A vontade.</default>
 	</talk>
 	<teller>
-		<default>Edmont olha para o homem que olhava Kinyn. Esta se levanta e vai sentar à mesa, junto a ele.</default>
+		<default>Kinyn vira um copo.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Você e a tequila. Um dia se arrepende.</default>
+	</talk>
+	<talk character="Kinyn">
+		<default>Ok, papai. Não sou eu quem aparece com cara de sono pra ensaiar. Aliás, não esquece que combinamos essa semana.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Se eu esquecer, Angely me lembra.</default>
+	</talk>
+	<teller>
+		<default>Ela olha para um homem que a esta olhando.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Não parece o seu tipo.</default>
+	</talk>
+	<talk character="Kinyn">
+		<default>É porque não tenho um tipo.</default>
+	</talk>
+	<teller>
+		<default>Kinyn se levanta e vai sentar junto ao homem.</default>
 	</teller>
 	<talk character="Kinyn">
 		<default>Então, sozinho?</default>
@@ -87,7 +100,7 @@
 		<first>Edmont chega em casa.</first>
 	</teller>
 	<talk character="Edmont">
-		<default>Então, conseguiram fazer o desenho?</default>
+		<default>E o desenho?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Bom, pelo menos a Kat confirmou.</default>
@@ -96,16 +109,16 @@
 		<default>Estava meio escuro, mas acho que é isso.</default>
 	</talk>
 	<teller>
-		<default>Mel pega o desenho. Fica pálida.</default>
+		<default>Mel pega o desenho. Arregala os olhos.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nada... É que... Eu vi esse cara na casa uma vez...</default>
+		<default>Nada... É que... Eu vi esse cara na casa uma vez... Eu podia...</default>
 	</talk>
 	<teller>
-		<default>Edmont pega o papel. Arregala os olhos.</default>
+		<default>Edmont pega o papel.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Onde fica a casa de Kinyn???</default>
@@ -114,10 +127,10 @@
 		<default>Por que está perguntando?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela estava com esse cara no bar.</default>
+		<default>Ela estava com esse cara no bar!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu não lembro o endereço, eu pego e moto e nós vamos.</default>
+		<default>Eu não lembro o endereço, mas pego e moto e nós vamos.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Vou com vocês.</default>
@@ -126,19 +139,22 @@
 		<default>Alguém tem que cuidar de Kat.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mas...</default>
+		<default>Luto melhor que vocês.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Mas a gente conhece ela.</default>
 	</talk>
 	<teller>
 		<default>Os dois saem.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Acho que tá na hora de você ir pra casa.</default>
+		<default>Hora de ir pra casa.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Por que?</default>
+		<default>Por quê?</default>
 	</talk>
 	<talk character="Mel">
-		<default>São dez da noite, sua irmã vai me matar.</default>
+		<default>São oito da noite, véspera de Natal, sua irmã vai me matar.</default>
 	</talk>
 	<teller>
 		<first>Bryan está na frente de casa, com uma garota. Os dois chegam.</first>
@@ -147,28 +163,19 @@
 		<default>Kinyn!</default>
 	</talk>
 	<talk character="Bryan">
-		<default>Que vocês estão fazendo aqui???</default>
+		<default>Ela tá ocupada com um homem de verdade hoje pelo que vi...</default>
 	</talk>
 	<teller>
-		<default>Edmont derruba a porta. Eles entram. Procuram pela casa. Angely entra em um quarto e sai, com a mão na boca.</default>
+		<default>Edmont derruba a porta. Eles entram. Procuram pela casa. Angely entra em um quarto e sai. Olha para o teto.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Edmont!</default>
 	</talk>
 	<teller>
-		<default>Edmont chega. Entra no quarto. Chega perto da cama. Coloca dois dedos no pescoço dela. Vira a cabeça. Sem marcas. Olha para o lençol. Está sujo de sangue mais abaixo. Olha para o espelho. Uma mensagem escrita com sangue: Feliz Natal. Sai. Bryan chega.</default>
-	</teller>
-	<talk character="Bryan">
-		<default>Ei! Eu vou chamar a polícia! Vão ter que pagar por isso!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É melhor chamar o serviço funerário. Vam'bora.</default>
-	</talk>
-	<teller>
-		<default>Bryan entra. Se ajoelha perto da irmã. Edmont sai. Volta. Toca o ombro de Angely e faz sinal para que saiam, com a cabeça. Angely o segue.</default>
+		<default>Edmont chega. Entra no quarto. Chega perto da cama. Pega o pulso. Vira a cabeça. Sem marcas, em nenhum dos dois lados. Olha para o lençol. Está sujo de sangue mais abaixo. Olha para o espelho. Está escrito "Feliz Natal" com sangue. Ele sai. Olha para Angely, que se senta no chão. Bryan chega olha para os dois. Vai entrar no quarto, Edmont segura-lhe o braço. Ele puxa. Entra no quarto. Grita. Edmont puxa ele de volta. Leva-o até a sala. A moça entra. Edmont olha para ela. Ela abraça Bryan. Edmont volta até a porta do quarto. Coloca a mão no ombro de Angely. Angely olha para Edmont. Edmont estende a mão, Angely segura, Edmont o ajuda a levantar. Eles vão para a sala.</default>
 	</teller>
 	<teller>
-		<first>Na MEAK, Melody corre para a sala quando os ouve entrando. Suspira.</first>
+		<first>Mel está no sofá da sala. Edmont e Angely entram. Ela levanta. Olha para eles. Senta.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Não conseguiram.</default>
@@ -176,14 +183,14 @@
 	<talk character="Edmont">
 		<default>Atrasados de novo.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Levei a Kat em casa. Já são onze e meia. Agatha e Meg pediram pra irem lá.</default>
-	</talk>
 	<talk character="Angely">
-		<default>Que ironia. Véspera de Natal e o cara ainda tá matando.</default>
+		<default>Os pais deles chegaram, a gente achou melhor deixar só a família.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Levei a Kat em casa. Agatha e Meg pediram pra irem pra lá. Já são onze e meia.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Esse cretino deve ter algum fetiche bizarro com isso.</default>
+		<default>Ainda escreveu Feliz Natal no espelho, com o sangue dela. Esse maldito deve ter algum fetiche bizarro com isso.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Temos que pegar ele logo.</default>
@@ -213,40 +220,19 @@
 		<default>Cara, elas não têm que saber disso hoje.</default>
 	</talk>
 	<teller>
-		<default>Eles vão até a casa de Meg.</default>
+		<default>Edmont sobe.</default>
 	</teller>
-	<talk character="Meg">
-		<default>Até que enfim!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É que nós estávamos meio ocupados.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Parecem chateados.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mais ou menos.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por que a Mel não veio?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ela não tava muito bem.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ah, eu não vou ficar segurando vela sozinha!</default>
+	<talk character="Mel">
+		<default>Eu vou com vocês.</default>
 	</talk>
 	<teller>
-		<default>Kat liga pra Mel. Todos passam a noite na casa de Meg e Kat.</default>
-	</teller>
-	<teller>
-		<first>De manhã, Angely, Edmont e Mel voltam pra casa.</first>
+		<default>De manhã, Angely, Edmont e Mel chegam em casa.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Bryan deve estar arrasado.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Eu vou procurar onde está esse desgraçado.</default>
+		<default>Eu vou procurar esse desgraçado.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Bora. Vocês procuram, eu vou ver o que encontro sobre ele.</default>
@@ -258,19 +244,7 @@
 		<default>Não acha que já não tentei? Não encontro nada.</default>
 	</talk>
 	<teller>
-		<default>Os três vão à cidade. Mel entra em um prédio abandonado, um antigo orfanato. Vai até uma sala. Pega a ficha de Beatrice. Há uma árvore genealógica, com fotos, entre os papéis.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Elian Menini. Ele era tio da Lara... Peraí, não era tio, se a menina não era filha do irmão dele... Que bagunça.</default>
-	</talk>
-	<teller>
-		<first>Na casa de Kat...</first>
-	</teller>
-	<talk character="Kat">
-		<default>E caramba! Essas duas continuam dormindo... Eu tenho que falar com eles.</default>
-	</talk>
-	<teller>
-		<default>Kat vai à MEAK. Toca a campainha e ninguém atende. Então Aurium (cachorro) chega. Ela sobe para o escritório. Tenta usar o celular. Sem sinal.</default>
+		<first>Mel entra em um prédio abandonado. Enquanto isso, Kat vai à MEAK. Toca a campainha e ninguém atende. Então Aurium (cachorro) chega. Ela sobe para o escritório. Tenta usar o celular. Sem sinal.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Não acredito que vou ter que ficar aqui esperando...</default>
@@ -313,19 +287,16 @@
 		<default>Árvore de maçãs?! Tá...</default>
 	</talk>
 	<teller>
-		<default>Kat vai até o jardim e encontra a árvore e a porta para o porão da casa. Ela abre a fechadura da porta. Desce a pequena rampa. Vai até o cadeado que tranca os dois armários e abre.</default>
+		<default>Kat vai até o jardim. Há uma árvore e a porta para o porão da casa. Ela abre a fechadura da porta. Desce a pequena rampa. Vai até o cadeado que tranca os dois armários e abre.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Nossa... Caramba...</default>
 	</talk>
 	<teller>
-		<default>Kat fica olhando as armas.</default>
-	</teller>
-	<teller>
-		<first>Enquanto isso, Edmont e Angely descansam num bar.</first>
+		<default>Edmont e Angely estão num bar.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Tá, até agora já vimos quase todos os hotéis, pousadas, pensões e o escambal que estivesse na lista telefônica.</default>
+		<default>Tá, até agora já vimos quase todos os hotéis, pousadas, pensões e o pulgueiros que estivesse na lista telefônica.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Será que saiu da cidade?</default>
@@ -334,34 +305,22 @@
 		<default>Tem alguns lugares que não estão na lista.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Puta, acho que não se hospedaria num lugar que estivesse em lista telefônica.</default>
-	</talk>
-	<talk character="Edmont">
 		<default>Onde você se hospedaria se fosse um vampiro?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Primeiro: Não estaria num lugar da lista telefônica.</default>
-	</talk>
 	<talk character="Edmont">
-		<default>Tá, pode parar de repetir essa.</default>
-	</talk>
-	<talk character="Angely">
 		<default>Perto do centro, pra poder caçar e voltar antes que o sol nascesse.</default>
 	</talk>
-	<talk character="Edmont">
+	<talk character="Angely">
 		<default>Faz sentido. Mas teria que ser um lugar não muito público.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Abandonado não, se alguém comprasse e resolvesse reformar não ia dar certo.</default>
-	</talk>
 	<talk character="Edmont">
-		<default>Essa não conta, ele tava na casa abandonada. Embaixo do nosso nariz, o filha da puta.</default>
+		<default>Abandonado não, se alguém comprasse e resolvesse reformar não ia dar certo... Tá, essa não conta, ele tava na casa abandonada.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não tínhamos como saber.</default>
+		<default>Embaixo do nosso nariz.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>O lugar não estaria na lista telefônica, seria perto do centro, sem movimento.</default>
+		<default>Não tínhamos como saber. O lugar não estaria na lista telefônica, seria perto do centro, sem movimento.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Isso é confuso.</default>
@@ -372,13 +331,13 @@
 	<talk character="Angely">
 		<default>Vamos ter que perguntar.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Ei, você!</default>
+	<talk character="Edmont">
+		<default>Moça!</default>
 	</talk>
 	<talk character="garçonete">
 		<default>Eu?</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>É, pode ser.</default>
 	</talk>
 	<teller>
@@ -474,7 +433,7 @@
 		<default>Descobriu alguma coisa?</default>
 	</talk>
 	<talk character="Mel">
-		<default>É estranho falar com uma garota de dez anos.</default>
+		<default>É estranho falar com uma criança de dez anos.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Tenho certeza que já teve a minha idade também. Descobriu algo ou não?</default>
@@ -501,8 +460,14 @@
 		<default>Lê isso e vai entender.</default>
 	</talk>
 	<teller>
-		<default>Kat pega os recortes. Começa a ler. Quando termina, Mel pega e guarda de volta.</default>
+		<default>Kat pega os recortes. Senta. Mel tira mais papeis da bolsa.</default>
 	</teller>
+	<talk character="Kat">
+		<default>Acho que vai ser uma leitura extensa.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Bom, achei bem mais coisa nuns arquivos...</default>
+	</talk>
 	<talk character="Kat">
 		<default>Tem algo que eu queria dizer. Sobre Aurium.</default>
 	</talk>
