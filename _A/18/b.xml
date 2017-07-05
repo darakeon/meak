@@ -1,52 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="18" scene="b">
-	<talk character="Zenon">
-		<default>Olha quem fala.</default>
-	</talk>
 	<teller>
-		<default>Zenon se faz notar. Começam a falar em russo e Tereza não entende mais nada.</default>
+		<default>Rust solta Tereza e olha para trás.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Nem pra entrar na casa dos outros você pede, obriga.</default>
-	</talk>
-	<talk character="Rust">
-		<default>É meu jeito. Pior é não ter competência pra conseguir o próprio jantar.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Vim protegê-la.</default>
+		<arrive>Who is talking about... Not even to enter in people's house you ask, you make them to allow.</arrive>
+		<translate>Olha quem fala... Nem pra entrar na casa das pessoas você pede, você obriga a deixarem.</translate>
 	</talk>
 	<teller>
-		<default>Rust a larga.</default>
+		<default>Tereza franze a testa.</default>
 	</teller>
 	<talk character="Rust">
-		<default>Então não é o Zenon que conheço.</default>
+		<default>It could be worst, I could be unable to find my own dinner.</default>
+		<translate>Pior é não ter competência pra conseguir o próprio jantar.</translate>
 	</talk>
 	<teller>
-		<default>Tereza, ouvindo a palavra "Zenon", lembra-se do feitiço.</default>
+		<default>Zenon olha para Tereza, depois para Rust.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Não sou mesmo. Esse morreu faz pouco mais de um ano.</default>
-	</talk>
-	<talk character="Rust">
-		<default>Mas creio que ainda não gosta de mim.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Isso realmente não há como mudar.</default>
-	</talk>
-	<talk character="Rust">
-		<default>Tem inveja da minha idade e experiência.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Nunca fui de respeitar os mais velhos.</default>
+		<default>I'm here to protect her.</default>
+		<translate>Vim protegê-la.</translate>
 	</talk>
 	<teller>
-		<default>Zenon investe contra Rust. Eles começam a lutar. Zenon pega um pedaço de madeira do chão, mas Rust o desarma, pegando um menor e indo contra ele. Quando Zenon vê que sua existência acabaria ali, Rust se desfaz em pó. Tereza, à pelo menos três metros de distância, atirara um cabo de vassoura quebrado na ponta, que pusera fim ao que Zenon tantas vezes tentara em vão. Zenon se levanta, abismado.</default>
+		<default>Rust franze a testa.</default>
+	</teller>
+	<talk character="Rust">
+		<default>Zenon that I know would never do it.</default>
+		<translate>Zenon que conheço nunca faria isso.</translate>
+	</talk>
+	<talk character="Zenon">
+		<default>I'm not the same. This one died like an year ago.</default>
+		<translate>Não sou o mesmo. Esse morreu faz pouco mais de um ano.</translate>
+	</talk>
+	<talk character="Rust">
+		<default>I'm wrong in beleving you still dislikes me?</default>
+		<translate>Estou certo de achar que ainda me não gosta de mim?</translate>
+	</talk>
+	<talk character="Zenon">
+		<default>There is no way to change it.</default>
+		<translate>Isso realmente não há como mudar.</translate>
+	</talk>
+	<talk character="Rust">
+		<default>I have envy of my age and experience.</default>
+		<translate>Tem inveja da minha idade e experiência.</translate>
+	</talk>
+	<talk character="Zenon">
+		<default>What kind of experience? With men maybe?</default>
+		<translate>Que tipo de experiência? Com homens talvez?</translate>
+	</talk>
+	<teller>
+		<default>Rust olha para o céu.</default>
+	</teller>
+	<talk character="Rust">
+		<default>And Virgine still asks me way do I want you dead. Human culture is really something trashy.</default>
+		<translate>E Virgine ainda me pergunta porque quero que você morra. Cultura humana é realmente desprezível.</translate>
+	</talk>
+	<teller>
+		<default>Zenon tenta dar um chute no peito de Rust, mas Rust segura o pé. Zenon chuta com o outro pé e se livra. Rust vai para trás, colocando a mão na boca. Sangue. Lambe a mão. Zenon tira uma estaca da calça. Rust desvia o golpe, segura o braço de Zenon e dá um soco. Zenon vai para trás e cai a estaca no chão. Rust pega a estaca. Zenon tenta chutar novamente, dessa vez Rust puxa a perna e Zenon cai no chão. Rust pega a estaca e senta-se em cima de Zenon.</default>
+	</teller>
+	<talk character="Rust">
+		<default>You are so fucking disgusting that I think if, at this very momento, your worst fear is the stake or my body to close to yours.</default>
+		<translate>Você é tão nojento que imagino se, nesse momento, seu pior medo é a estaca ou eu encostado demais em você.</translate>
+	</talk>
+	<teller>
+		<default>Rust abre as mãos, solta a estaca abre mais os olhos e descurva o corpo. Sorri. Se desfaz em pó. Cai um cabo de vassoura, junto com as roupas cheias de cinzas. Zenon se senta. Levanta do chão.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Tem uma boa mira, garota...</default>
 	</talk>
 	<teller>
-		<default>Ele pega no chão uma bracelete de prata, com uma pequena esmeralda. Tereza está muda.</default>
+		<default>Zenon abaixa e pega no chão um bracelete de prata, com uma pequena esmeralda. Guarda no bolso.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Qual seu nome?</default>
@@ -55,7 +78,7 @@
 		<default>Liv. Ele disse que o seu é...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Zenon. Fala russo?</default>
+		<default>Zenon. Fala inglês? Achei que...</default>
 	</talk>
 	<talk character="Tereza">
 		<default>Não. Só que essa palavra me pareceu um nome.</default>
@@ -64,7 +87,7 @@
 		<default>Pelo jeito, acertar foi um golpe de sorte. Melhor eu te levar pra casa agora. Onde mora?</default>
 	</talk>
 	<teller>
-		<default>Ela vai muda e olhando pra ele o caminho inteiro. Chegam a casa dela.</default>
+		<first>Casa de Tereza. Zenon e Tereza param na porta.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Parece não ter ninguém.</default>
@@ -88,13 +111,16 @@
 		<default>Minha esposa. Sou caça-vampiros e ela vai ficar achando que aconteceu algo comigo se eu demorar.</default>
 	</talk>
 	<teller>
-		<default>Zenon sai. Ela entra em casa, feliz.</default>
+		<default>Zenon sai. Tereza entra em casa. Se joga no sofá.</default>
 	</teller>
 	<talk character="Tereza">
 		<default>É ele! Ele existe!</default>
 	</talk>
 	<teller>
-		<default>Ele ouve e estranha. No dia seguinte, tocam a campainha de manhã na casa de Alex. Ele atende.</default>
+		<default>Do lado de fora, Zenon franze a testa. Meneia a cabeça.</default>
+	</teller>
+	<teller>
+		<default>Dia seguinte, manhã. Apartamento de Alex. Toca a campainha. Alex abre.</default>
 	</teller>
 	<talk character="Alexander">
 		<default>Nossa, quanto tempo, hein? Já achei que tivessem te pego na África!</default>
@@ -133,7 +159,7 @@
 		<default>Peraí, você e ela não...?</default>
 	</talk>
 	<talk character="Alex">
-		<default>Ei, amigo, sou eu quem está aqui, não um aproveitador de menores! Ela tem quinze, não é?</default>
+		<default>Velha, sua irmã é um bebê! Ela tem quinze, não é?</default>
 	</talk>
 	<talk character="Igor">
 		<default>Completa hoje, vinte e cinco de fevereiro.</default>
@@ -169,7 +195,7 @@
 		<default>Como assim? Ela não tem...</default>
 	</talk>
 	<talk character="Alex">
-		<default>A mulher da biblioteca se distraiu e acabou deixando que ela levasse.</default>
+		<default>A mulher da biblioteca se distraiu e acabou deixando ela pegar.</default>
 	</talk>
 	<talk character="Igor">
 		<default>Mas pra que ela pegou?</default>
@@ -184,22 +210,22 @@
 		<default>Está.</default>
 	</talk>
 	<teller>
-		<default>De tarde, tocam a campainha na casa de Tereza.</default>
+		<default>Tarde. Casa de Tereza. Toca a campainha.</default>
 	</teller>
 	<talk character="Tereza">
 		<default>Já vou!</default>
 	</talk>
 	<teller>
-		<default>Ela vai de roupão até a porta.</default>
+		<default>Tereza levanta da cama, veste um roupão e vai até a porta.</default>
 	</teller>
 	<talk character="Tereza">
 		<default>Quem é?</default>
 	</talk>
 	<talk character="Igor">
-		<default>Está com voz de sono, não costumava dormir até tão tarde.</default>
+		<out>Está com voz de sono, não costumava dormir até tão tarde.</out>
 	</talk>
 	<teller>
-		<default>Tereza abre a porta rapidamente. Pula em cima de Igor.</default>
+		<default>Tereza abre a porta em um puxão. Pula em cima de Igor.</default>
 	</teller>
 	<talk character="Igor">
 		<default>Nossa, se soubesse que a saudade era tanta, tinha vindo mais cedo!</default>
@@ -207,17 +233,20 @@
 	<talk character="Tereza">
 		<default>Por que demorou tanto???</default>
 	</talk>
+	<teller>
+		<default>Igor franze a testa.</default>
+	</teller>
 	<talk character="Igor">
 		<default>Vamos entrar, não quero ficar dando show aqui fora.</default>
 	</talk>
 	<teller>
-		<default>Eles entram.</default>
+		<default>Tereza desce. Entra. Igor entra e fecha a porta.</default>
 	</teller>
 	<talk character="Igor">
 		<default>Como você cresceu...</default>
 	</talk>
 	<talk character="Tereza">
-		<default>Queria que eu ficasse aquela tampinha até voltar??? Fazem três anos! Você é que cresceu mais do que devia... Andou tomando anabolizante?</default>
+		<default>Queria que eu ficasse aquela tampinha até voltar??? Faz três anos! Você é que cresceu mais do que devia... Andou tomando anabolizante?</default>
 	</talk>
 	<talk character="Igor">
 		<default>Não, é de verdade.</default>
@@ -232,8 +261,17 @@
 		<default>Sobre?</default>
 	</talk>
 	<talk character="Igor">
-		<default>Primeiro, não fui pro exército. Eu sai de casa.</default>
+		<default>Primeiro... Não fui pro exército.</default>
 	</talk>
+	<teller>
+		<default>Igor senta-se no sofá.</default>
+	</teller>
+	<talk character="Igor">
+		<default>Eu sai de casa.</default>
+	</talk>
+	<teller>
+		<default>Tereza senta ao lado de Igor.</default>
+	</teller>
 	<talk character="Tereza">
 		<default>Então por que...</default>
 	</talk>
@@ -259,66 +297,66 @@
 		<default>Nem nossos pais sem sangue, jogados no chão da sala, até torturados?</default>
 	</talk>
 	<teller>
-		<default>Tereza se cala.</default>
+		<default>Tereza olha para baixo.</default>
 	</teller>
 	<talk character="Igor">
 		<default>Então é melhor não brincar com isso.</default>
 	</talk>
 	<teller>
-		<default>Zenon está dormindo. Acorda. Fica perturbado. Anda de um lado pra outro. De noite, ele vai até um bar.</default>
+		<first>Zenon abre os olhos. Levanta. Vai ao banheiro. Lava o rosto. Anda de um lado pra outro. Veste uma camisa. Sai. Chega a um bar grande. Quase todas as mesas ocupadas. Zenon vai até o balcão.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Quero falar com o dono dos sonhos.</default>
 	</talk>
-	<talk character="barman">
-		<default>Morpheu não pode atendê-lo.</default>
+	<talk character="Marcos">
+		<default>Morpheu não pode atender.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>É urgente...</default>
 	</talk>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>Ele não mora mais aqui.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>E pra onde se mudou?</default>
 	</talk>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>Pro além.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ah?</default>
 	</talk>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>Isso mesmo que ouviu. Morpheu está morto.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Então não foi ele.</default>
 	</talk>
-	<talk character="barman">
-		<default>Estou percebendo que há um feitiço sobre você.</default>
+	<talk character="Marcos">
+		<default>Você tá enfeitiçado. Eu percebi isso.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>É, tem sim...</default>
 	</talk>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>De pouco tempo.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Tem certeza?</default>
 	</talk>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>Tenho.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>E pode me dizer algo sobre ele?</default>
 	</talk>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>É de alguém inexperiente.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Só?</default>
 	</talk>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>Conheço quem pode dizer... Sim?</default>
 	</talk>
 	<teller>
@@ -327,52 +365,52 @@
 	<talk character="Zenon">
 		<default>Oi.</default>
 	</talk>
-	<teller>
-		<default>Mel trazia uma estaca e o barman repara.</default>
-	</teller>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>Isso foi só sarcasmo ou está mesmo amigo dela?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Como assim?</default>
 	</talk>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>Uma caça-vampiros e não sabe que ele é um...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ah, sei, sim. Ele me ajudou em algumas coisas...</default>
+		<default>Ah, sei, sim. Me ajudou em algumas coisas...</default>
 	</talk>
-	<talk character="homem">
-		<default>Está ajudando caça-vampiros???</default>
+	<talk character="Marcos">
+		<default>Tá ajudando caça-vampiros???</default>
 	</talk>
 	<teller>
-		<default>Nesse instante, olha o bar inteiro pra eles.</default>
+		<default>Silêncio no bar. Todos olham para o balcão. Zenon ri.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Já falei pra não ficar fazendo esse tipo de brincadeira!</default>
 	</talk>
 	<teller>
-		<default>Param de olhar.</default>
+		<default>Pessoas voltam-se para suas mesas e suas conversas.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Não vai me dizer que é a noite dos vampiros aqui...</default>
+		<default>É noite dos vampiros?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Há alguns vampiros e os humanos que estão aqui provavelmente não acreditam em vampiros ou os caçam.</default>
+		<default>Há alguns vampiros e os humanos que estão aqui provavelmente não acreditam em vampiros ou caçam a gente.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Menos mal.</default>
 	</talk>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>Não respondeu minha pergunta.</default>
 	</talk>
+	<teller>
+		<default>Mel tira a estaca da cintura.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Algum problema com isso?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não, é que...</default>
 	</talk>
-	<talk character="barman">
+	<talk character="Marcos">
 		<default>A última caça-vampiros que saiu daqui com ele foi encontrada com uma estaca no coração.</default>
 	</talk>
 	<teller>
@@ -382,7 +420,7 @@
 		<default>Melody...</default>
 	</talk>
 	<teller>
-		<default>Ela sai. Angely observa de longe, está ocupando uma cadeira no bar. Há uma mulher ao lado dele.</default>
+		<default>Mel sai. Em uma mesa mais para o fundo, Angely olha Mel sair. Virgine senta-se em outra cadeira na mesma mesa.</default>
 	</teller>
 	<talk character="Virgine">
 		<default>Sua irmã?</default>
@@ -394,20 +432,12 @@
 		<default>Manda ela tomar cuidado, aquilo é um dos piores que já vi.</default>
 	</talk>
 	<talk character="Angely">
-		<default>É uma vampira, não é?</default>
+		<default>Você é vampira, né?</default>
 	</talk>
 	<talk character="Virgine">
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não gosto de caçar vampiros, por isso não faço. Mas Mel é uma caça-vampiros. O problema é que ela não tem uma mira muito boa. Mas eu tenho.</default>
-	</talk>
-	<talk character="Virgine">
-		<default>Tá me ameaçando?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu?</default>
-		<teller>ri</teller>
-		<default>Só estou dizendo pra não se preocupar com minha irmã. Mas desculpe se isso te pareceu ameaça.</default>
+		<default>Não tem muito como eu responder a essa pergunta.</default>
 	</talk>
 </story>
