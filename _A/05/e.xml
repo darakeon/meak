@@ -4,21 +4,14 @@
 		<default>No dia seguinte, Edmont e Angely chegam em casa.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Mel, você tá aí?</default>
+		<default>Mel!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Kat, suas irmãs estão preocupadas...</default>
+		<default>Kat!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Que estavam fazendo até essa hora?</default>
 		<teller>Edmont e Angely se entreolham</teller>
-		<default>Tá, deixa pra lá. Eu passei a noite aqui por que vocês fazem muito barulho, não consigo dormir.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Barulho?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não banca o inocente.</default>
+		<arrive>Mel veio pra cá, eu vim também, não queria ser vela.</arrive>
 	</talk>
 	<talk character="Edmont">
 		<default>Mel tá bem?</default>
@@ -48,7 +41,7 @@
 		<arrive>Que horas são?</arrive>
 	</talk>
 	<teller>
-		<default>Mel, ainda meio sonolenta, desce a escada.</default>
+		<default>Mel desce a escada.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Dez da manhã.</default>
@@ -59,11 +52,11 @@
 	<talk character="Kat">
 		<default>Bom, lembram daquele negócio da MEAK?</default>
 	</talk>
-	<talk character="Edmont">
+	<talk character="Mel">
 		<default>De novo isso...</default>
 	</talk>
-	<talk character="Angely">
-		<default>Nós já tentamos arrombar a porta, Kat. E tentamos achá-lo.</default>
+	<talk character="Edmont">
+		<default>Nós já tentamos arrombar a porta, Kat. E tentamos achá-lo. E tentamos achar o Elian.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Eu nunca mais tinha tido aqueles sonhos, lembra?</default>
@@ -71,20 +64,14 @@
 	<talk character="Mel">
 		<default>É, e nós não recebemos mais recados.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Aurium também não voltou mais.</default>
-	</talk>
 	<talk character="Edmont">
-		<default>Eu acho que aquilo tudo acabou.</default>
+		<default>Aurium também não voltou mais.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Ontem eu tive um daqueles sonhos estranhos.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Mas o que te garante que não era apenas um sonho? Todo mundo tem sonhos estranhos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Principalmente tendo passado pelo que você passou.</default>
+		<default>Mas o que te garante que não era apenas um sonho? Todo mundo tem sonhos estranhos. Principalmente tendo passado pelo que você passou.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Eu sei que não era só um sonho.</default>
@@ -96,13 +83,10 @@
 		<default>O pássaro pousa na janela.</default>
 	</teller>
 	<talk character="Mel">
-		<default>...saber?</default>
-	</talk>
-	<talk character="Angely">
 		<default>Não pode ser...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Faz dois anos...</default>
+		<default>Faz dois anos.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Aurium?</default>
@@ -111,10 +95,7 @@
 		<default>Ele desce ao chão, vai pra baixo da mesa e se transforma em cachorro. Edmont pega o chaveiro e vê as outras chaves. Aurium pega a chave de Katerine da bolsa e entrega a ela.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Por que demorou tanto?...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vamos retomar isso?</default>
+		<default>Por que demorou tanto?</default>
 	</talk>
 	<teller>
 		<default>Eles ficam em silêncio por algum tempo.</default>
@@ -126,40 +107,37 @@
 		<default>Na cidade.</default>
 	</talk>
 	<teller>
-		<default>Mel, Edmont, Angely e Kat vão pra cidade.</default>
-	</teller>
-	<teller>
-		<first>Numa cama de hotel, Beatrice está sentada no colo de Elian.</first>
+		<first>Numa cama de hotel, Beatrice está sentada virada para a janela. Elian está deitado.</first>
 	</teller>
 	<talk character="Beatrice">
-		<default>De volta às origens.</default>
+		<default>De volta ao começo.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Não esqueceste por que voltamos, esqueceste?</default>
 	</talk>
 	<teller>
-		<default>Ela olha para o alto. Suspira fundo. Volta a olhar para ele.</default>
+		<default>Ela olha para o alto. Suspira fundo. Vira-se para ele.</default>
 	</teller>
 	<talk character="Beatrice">
-		<default>Porque não esqueces deles. Poderia. Eles nos esqueceram.</default>
+		<default>Porque não esqueces deles.</default>
+	</talk>
+	<teller>
+		<default>Ele cruza os braços.</default>
+	</teller>
+	<talk character="Beatrice">
+		<default>Poderia. Eles nos esqueceram.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Não posso deixar aqueles moleques por aí. Viste a última letra?</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Não é ridículo? Viraram uma banda. Não vai ser difícil.</default>
+		<default>É ridículo. Viraram uma banda. Não vai ser difícil.</default>
 	</talk>
 	<talk character="Elian">
-		<default>Eu já sei quem vou atingir primeiro. Já ajudei um deles.</default>
+		<default>Eu já sei quem vou atingir primeiro. Alguém que já me viu, viu algo em mim.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Ajudaste?</default>
-	</talk>
-	<talk character="Elian">
-		<default>É, ajudei, no tempo que eras humana.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Bonzinho você. Mas isso é passado. Essa parte de nós morreu. Nós matamos. Matar é minha palavra preferida.</default>
+		<default>Isso é passado. Essa parte de nós morreu. Nós matamos. Matar é minha palavra preferida.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Matar, medo, sangue...</default>
@@ -168,34 +146,16 @@
 		<default>Eles se beijam.</default>
 	</teller>
 	<talk character="Beatrice">
-		<default>E quem ajudaste?</default>
+		<default>Melody. Deve estar com vinte e seis agora, não?</default>
 	</talk>
 	<talk character="Elian">
-		<default>Lembra que te disse que conhecia aquela garota de algum lugar?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Melody? Deve estar com vinte e seis agora, não?</default>
-	</talk>
-	<talk character="Elian">
-		<default>Exatamente. Ela precisou fugir da polícia.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Então a mocinha já foi bandida?</default>
-	</talk>
-	<talk character="Elian">
-		<default>Já, mas os dados do que ela havia feito foram apagados.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Ela deve se lembrar de você.</default>
-	</talk>
-	<talk character="Elian">
-		<default>Ah, deve.</default>
+		<default>Exatamente.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Se pensares em...</default>
 	</talk>
 	<talk character="Elian">
-		<default>Foi apenas um noite.</default>
+		<default>Ela bem que é bonita.</default>
 	</talk>
 	<teller>
 		<default>Beatrice se levanta da cama.</default>
@@ -227,9 +187,6 @@
 	<talk character="Kat">
 		<default>E estiveram aqui ontem.</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Sempre chegando atrasados.</default>
-	</talk>
 	<talk character="garçonete">
 		<default>Ei, eu conheço vocês...</default>
 	</talk>
@@ -239,7 +196,7 @@
 	<talk character="garçonete">
 		<default>É, eu já tava reconhecendo...</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Por favor, não fale.</default>
 	</talk>
 	<talk character="garçonete">
@@ -264,7 +221,7 @@
 		<default>Viu esse homem aqui ontem?</default>
 	</talk>
 	<teller>
-		<default>Mel mostra a folha com o desenho que Angely tinha feito de Elian.</default>
+		<default>Mel pega a folha antiga, o desenho de Elian, e entrega a moça.</default>
 	</teller>
 	<talk character="garçonete">
 		<default>Chegou com uma garota, mas eles brigaram e ela saiu com um outro cara e ele saiu com uma outra, que parecia pouco mais velha.</default>
@@ -273,31 +230,25 @@
 		<default>Alguém veio procurando ele?</default>
 	</talk>
 	<talk character="garçonete">
-		<default>Não. Vão pedir a conta agora?</default>
+		<default>Não.</default>
 	</talk>
-	<talk character="Kat">
-		<default>É, pode ser.</default>
+	<talk character="Mel">
+		<default>Agradecemos. Pode nos trazer a conta?</default>
 	</talk>
 	<teller>
 		<default>A garçonete vai até o balcão.</default>
 	</teller>
-	<talk character="Kat">
-		<default>Eles não brigaram. Era teatro, com certeza. Não iriam brigar num bar.</default>
+	<talk character="Edmont">
+		<default>Era teatro, com certeza. Não iriam brigar num bar.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Se eles estão num hotel de luxo, então melhor começarmos a procurar.</default>
+	<talk character="Angely">
+		<default>Se eles estão num hotel de luxo, melhor começarmos a procurar.</default>
 	</talk>
-	<talk character="garçonete">
-		<default>Aqui está a conta.</default>
-	</talk>
-	<teller>
-		<default>Eles pagam a conta e vão procurar nos hotéis onde ele poderia estar. Angely vai com Mel e Edmont com Kat.</default>
-	</teller>
 	<teller>
 		<first>Noite. Angely e Mel entram num hotel da cidade.</first>
 	</teller>
 	<talk character="Angely">
-		<default>Senhorita, precisamos de uma informação...</default>
+		<default>Oi, precisamos de uma informação...</default>
 	</talk>
 	<talk character="recepcionista">
 		<default>Não damos informações sobre os clientes do hotel.</default>
@@ -321,7 +272,7 @@
 		<default>Senhora, por favor, pare com isso.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Me desculpe, sabe como é, mulheres na situação dela choram fácil.</default>
+		<default>Me desculpe, sabe como é, pessoas na situação dela choram fácil.</default>
 	</talk>
 	<talk character="recepcionista">
 		<default>Grávida?</default>
@@ -336,13 +287,19 @@
 		<default>Ele saiu. Mas a garota que estava com ele ainda está aí.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Meu Deus, deve ser aquela piranha mirim...</default>
+		<default>Meu Deus, deve ser aquela menina...</default>
 	</talk>
 	<talk character="recepcionista">
-		<default>Mirim?!</default>
+		<default>Menina?!</default>
 	</talk>
 	<talk character="Angely">
 		<default>É, uma garota de 12 anos que sumiu com ele... Poderia dizer onde ela está?</default>
+	</talk>
+	<talk character="recepcionista">
+		<default>12 anos?! Isso é pedofilia.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Ele não liga muito pra isso.</default>
 	</talk>
 	<talk character="recepcionista">
 		<default>Quarto quinhentos e três. Não falem pra ninguém, certo?</default>
@@ -363,21 +320,21 @@
 		<default>Eu? Pensei em fingir que ele me abandonou, quem pensou na história da gravidez foi você.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Na verdade, foi a recepcionista.</default>
+		<default>Na verdade, foi a recepcionista. E não gostei disso. Na próxima, você vai com Edmont.</default>
 	</talk>
 	<teller>
 		<default>Chegam ao andar. Eles vão até o quarto.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Bom, eu me escondo e você bate.</default>
-	</talk>
 	<talk character="Mel">
+		<default>Bom, você se esconde e eu bato.</default>
+	</talk>
+	<talk character="Angely">
 		<default>Por que?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Fale que você é do hotel. Beatrice nunca te viu.</default>
-	</talk>
 	<talk character="Mel">
+		<default>Falo que sou do hotel. Beatrice nunca me viu.</default>
+	</talk>
+	<talk character="Angely">
 		<default>Tudo bem.</default>
 	</talk>
 	<teller>
@@ -387,7 +344,7 @@
 		<default>Serviço de quarto!</default>
 	</talk>
 	<teller>
-		<default>Ninguém atende. Angely arromba a porta. Eles olham todo o apartamento. Melody entra no banheiro.</default>
+		<default>Ninguém atende. Mel arromba a porta. Angely a encara. Eles olham todo o apartamento. Melody entra no banheiro.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Droga.</default>
@@ -405,22 +362,22 @@
 		<default>Morta?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não precisa ficar assim...</default>
+		<default>Não precisa ficar assim.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Atrasados de novo...</default>
+		<default>Atrasados de novo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Eles são espertos. E nós somos iniciantes.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Vamos pra casa. Temos que planejar isso direito.</default>
+		<default>Não seríamos se tivéssemos continuado.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Edmont e Kat estão procurando nos bares.</default>
+		<default>Não conseguimos. Vamos pra casa. Temos que planejar isso direito.</default>
 	</talk>
 	<teller>
-		<default>Eles descem no elevador. Eles vão sair do hotel e a recepcionista chama-os.</default>
+		<default>Descem o elevador. Passam direto pela recepção. A recepcionista corre atrás. Toca o ombro de Mel.</default>
 	</teller>
 	<talk character="recepcionista">
 		<default>Então?</default>
@@ -435,7 +392,7 @@
 		<default>Vai precisar.</default>
 	</talk>
 	<talk character="recepcionista">
-		<default>São loucos...</default>
+		<default>Vocês são loucos...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não, estávamos caçando um vampiro.</default>
@@ -446,9 +403,6 @@
 	<talk character="Mel">
 		<default>E se acha que vampiros não existem, sobe no quinhentos e três.</default>
 	</talk>
-	<teller>
-		<default>Eles saem do hotel. A recepcionista vai até o quarto e encontra o corpo. Chama a polícia. Mel e Angely voltam pra casa.</default>
-	</teller>
 	<teller>
 		<first>De madrugada Edmont chega em casa.</first>
 	</teller>
@@ -486,7 +440,7 @@
 		<default>Vem do porão...</default>
 	</talk>
 	<teller>
-		<default>Eles descem a escada.</default>
+		<default>Eles vão até a cozinha e descem pelo alçapão. No meio do porão, um homem sorri para eles.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Quem é você?</default>
@@ -504,7 +458,7 @@
 		<default>Fantasma.</default>
 	</talk>
 	<talk character="Jak">
-		<default>Assim está me ofendendo.</default>
+		<default>Assim tá me ofendendo.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Por que tudo isso?</default>
@@ -513,10 +467,7 @@
 		<default>Escolhi vocês.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Deveríamos ficar agradecidos por isso?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Roubou nossas vidas.</default>
+		<default>Deveríamos ficar agradecidos por isso? Roubou nossas vidas.</default>
 	</talk>
 	<talk character="Jak">
 		<default>Não. Eu dei-lhes um opção. Vou deixar vocês tentarem. Se decidirem continuar, continuem...</default>
@@ -525,7 +476,7 @@
 		<default>E se não quisermos?</default>
 	</talk>
 	<talk character="Jak">
-		<default>Daí voltaram àquele dia em que receberam meu recado.</default>
+		<default>Daí voltarão aquele dia em que receberam meu recado.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eles vão morrer?</default>
