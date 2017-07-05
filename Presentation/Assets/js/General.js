@@ -4,7 +4,8 @@ function LayoutAndWork() {
     AjustMainDivSize();
     ChooseBackground();
 
-    AnimateLegend();
+    //AnimateLegend();
+    ShowStoryNames();
 
     AjustLogin();
 

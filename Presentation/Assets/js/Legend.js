@@ -1,4 +1,4 @@
-var legendOpened = true;
+var legendOpened = false;
 
 function AnimateLegend() {
 

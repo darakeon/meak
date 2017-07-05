@@ -12,7 +12,7 @@
 @foreach (var episode in Model.EpisodeList)
 {
     <div class="seasonItemList">
-        <a href="@Url.Action("Episode", "Season", new { season = Model.Season, episode = episode })">
+        <a href="@Url.Action("Episode", "Season", new { seasonID = Model.Season, episodeID = episode })">
             <span class="epCode">@(episode):</span>
             <span class="epTitle">@episode.Title</span>
         </a>

@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Configuration;
-using System.IO;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Presentation.Models;
 using Structure.Entities;
-using Structure.Enums;
 using Presentation.Helpers;
 using Structure.Data;
 using Structure.Helpers;
