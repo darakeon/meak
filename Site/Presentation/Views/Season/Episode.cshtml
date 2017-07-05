@@ -5,15 +5,15 @@
 @{
     ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
     Layout = "~/Views/Shared/_Layout.cshtml";
-    Int32 talkCounter = 0;
-    Int32 tellerCounter = 0;
+    var talkCounter = 0;
+    var tellerCounter = 0;
     
     var topSelector = 
         new TopSelectorModel 
-            {
-                Total = Model.Story.SceneList.Count,
-                Current = Convert.ToInt32(Model.ReadingScene[0]) - 97
-            };
+        {
+            Total = Model.Story.SceneList.Count,
+            Current = Convert.ToInt32(Model.ReadingScene[0]) - 97
+        };
 }
 
 
