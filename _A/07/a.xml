@@ -4,9 +4,6 @@
 		<division>2022</division>
 	</teller>
 	<teller>
-		<default>(ANGELY JÁ CONHECE DARA)</default>
-	</teller>
-	<teller>
 		<default>É noite. Angely está andando pela cidade, de cabeça baixa.</default>
 	</teller>
 	<talk character="mulher">
@@ -40,11 +37,9 @@
 		<default>Sede?</default>
 	</talk>
 	<teller>
-		<default>A mulher o encosta na parede. Tenta mordê-lo. Ele consegue empurrá-la. Ela se levanta e pula em cima dele. Ele tira uma estaca da calça e atravessa o coração da vampira. Sobra pó e o que ela trazia sobre o corpo.</default>
+		<default>A mulher o encosta na parede. Tenta mordê-lo. Ele consegue empurrá-la. Ela se levanta e pula em cima dele. Ele inverte. Tira uma estaca. Chega perto do coração. Joga a estaca longe. Levanta. Ela olha para Angely. Olha para a estaca. Volta a olhar para Angely. Levanta e sai correndo. Angely a olha fugir. Olha para os lados. Suspira. Vai até a estaca. Guarda de volta na cintura.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Caramba.</default>
-		<teller>olha para a estaca</teller>
 		<default>Acho que o Edmont tava certo afinal.</default>
 	</talk>
 	<teller>
@@ -63,22 +58,28 @@
 		<default>Com o Edmont.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Informações bem precisas...</default>
+		<default>Você percebeu que não está sendo muito...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Tem mais vampiros nessa cidade do que imaginávamos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Encontrou um vampiro?</default>
+		<default>Encontrou?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Uma vampira. Ainda bem que eu tinha uma estaca.</default>
+		<default>Ainda bem que eu tinha uma estaca.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Ouviu o Edmont afinal?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Aparentemente ele não tava tão paranóico.</default>
+		<default>Aparentemente ele não tava exagerando.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Matou?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Fugiu.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Chegou convite pra uma festa aí.</default>
@@ -87,7 +88,7 @@
 		<default>Festa?</default>
 	</talk>
 	<teller>
-		<default>Angely pega o convite em cima da mesa.</default>
+		<default>Mel aponta a mesa com a cabeça. Angely vai até a mesa e pega um papel.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Eu não tô afim.</default>
@@ -120,7 +121,7 @@
 		<default>O Edmont e a Kat vão.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Agatha é outra que tá virando uma paty também.</default>
+		<default>Agatha tá ficando cada vez vazia.</default>
 	</talk>
 	<talk character="Angely">
 		<default>É, ela tá mesmo diferente.</default>
@@ -134,16 +135,17 @@
 	<talk character="Mel">
 		<default>Ah, eu esqueci de ver... Quando é essa festa?</default>
 	</talk>
+	<teller>
+		<default>Angely volta a olhar para o papel. Solta os ombros e o ar.</default>
+	</teller>
 	<talk character="Angely">
-		<default>É...</default>
-		<teller>olha o convite e solta os ombros, desanimado</teller>
 		<default>Amanhã.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, deixa eu ver isso.</default>
+		<default>Deixa eu ver isso.</default>
 	</talk>
 	<teller>
-		<default>Mel pega o convite da mão de Angely.</default>
+		<default>Mel vai até Angely e pega o convite da mão.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Merda.</default>
@@ -152,7 +154,7 @@
 		<arrive>Que aconteceu?</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Lembra daquela amiga nojenta da Agatha?</default>
+		<default>Lembra daquela amiga nariz em pé da Agatha?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Qual das?</default>
@@ -178,29 +180,25 @@
 	<talk character="Angely">
 		<default>Fui o último a saber?</default>
 	</talk>
-	<talk character="Mel">
-		<default>Cuidado com essa história de "último a saber".</default>
-	</talk>
 	<talk character="Edmont">
 		<default>Annie ficou chateada. Por que foi embora?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela era tão feia assim?</default>
+		<default>Que houve?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ela tentou me agarrar dentro do bar.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Coitada dela, não viu a cara que ela ficou...</default>
+		<default>Fiquei com dó, não viu a cara que ficou...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Tentou colocar a mão dentro da minha calça.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por isso ficou vermelho daquele jeito.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Claro!</default>
+		<default>Por</default>
+		<frizz>isso</frizz>
+		<default>ficou vermelho daquele jeito.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Conta pra ele.</default>
@@ -209,19 +207,19 @@
 		<default>Que?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele encontrou uma vampira na cidade.</default>
+		<default>Ele encontrou alguém de dentes afiados na cidade.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Que você fez?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Matei.</default>
+		<default>Me defendi. Fugiu.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Peraí, você não tá armado.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele tava.</default>
+		<default>Tava.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Graças a você.</default>
@@ -230,7 +228,7 @@
 		<default>Eu avisei.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sabia que ele ia dizer.</default>
+		<default>Sabia que ia dizer.</default>
 	</talk>
 	<teller>
 		<default>Edmont se joga no sofá.</default>
@@ -239,19 +237,16 @@
 		<default>Agatha pediu pra eu ir buscar ela na escola amanhã.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Por favor, você não aceitou, aceitou?</default>
+		<default>Você não aceitou, aceitou?</default>
 	</talk>
-	<teller>
-		<default>Ele se senta.</default>
-	</teller>
 	<talk character="Edmont">
 		<default>Ela é minha namorada, o que tem demais?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá querendo se exibir!</default>
+		<default>Ela estar querendo se exibir.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Angely, você não aceitaria buscar uma namorada sua na escola?</default>
+		<default>Angely, você não aceitaria buscar alguém que namorasse na escola?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não me meto nesse rolo...</default>
@@ -266,7 +261,7 @@
 		<default>Ela é minha namorada, eu sei que não tá fazendo isso.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Claro, você vive nos pés dela!</default>
+		<default>Você vive nos pés dela.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Eu vou dormir!</default>
@@ -281,13 +276,7 @@
 		<default>Eu...</default>
 	</talk>
 	<teller>
-		<default>Mel abre a porta.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Entra aí...</default>
-	</talk>
-	<teller>
-		<default>Kat entra.</default>
+		<default>Mel levanta. Abre a porta. Kat entra.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Tava entediada.</default>
@@ -296,7 +285,7 @@
 		<default>Como vai o namoro?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ai, ele é tão gentil, tão doce...</default>
+		<default>Ele é tão legal, tão doce...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Kat, você tem treze, mas tem cara de dezoito...</default>
@@ -310,20 +299,36 @@
 	<talk character="Kat">
 		<default>Tem dezoito anos. Por que?</default>
 	</talk>
-	<talk character="Mel">
-		<default>Ih...</default>
-	</talk>
+	<teller>
+		<default>Mel suspira.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Mel, pára com isso! Eu sou nova demais, ele sabe, não vai tentar nada!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tudo bem...</default>
+		<default>Ele é quase adulto, você mal deixou de ser criança.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Você deveria arranjar um namorado.</default>
+		<default>Ele nem me beijar quis.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Compromisso pra que? Namorado só serve pra ficar no pé.</default>
+		<default>Eu sei, mas... Ah?!</default>
+	</talk>
+	<talk character="Kat">
+		<default>Disse isso que você disse. Que gosta de mim, mas que vai esperar. Que, se eu quero, a gente pode namorar, mas não pode fazer nada.</default>
+	</talk>
+	<teller>
+		<default>Kat senta, emburrada.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Não sei se alivio ou se me preocupo mais.</default>
+	</talk>
+	<talk character="Kat">
+		<frizz>Você</frizz>
+		<default>deveria arranjar alguém.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Pra ficar no meu pé? Nem pensar. Humanos são sem noção. Se conhecer alguém atlante, me apresenta.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Tudo bem, não tá mais aqui quem falou.</default>
@@ -335,7 +340,7 @@
 		<default>Pode ser.</default>
 	</talk>
 	<teller>
-		<first>No dia seguinte, de tarde, Edmont está na frente da escola, esperando Agatha. Ela chega e o beija.</first>
+		<first>Dia seguinte. Edmont está na frente da escola, esperando Agatha. Ela chega e o beija.</first>
 	</teller>
 	<talk character="Agatha">
 		<default>Oi...</default>
@@ -377,7 +382,7 @@
 		<default>Que desperdício...</default>
 	</talk>
 	<teller>
-		<default>Eles chegam na casa de Agatha.</default>
+		<default>Casa de Agatha.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>E a Kat, ela mora aqui, lembra???</default>
@@ -394,12 +399,18 @@
 	<talk character="Agatha">
 		<default>A festa é às oito, eu já tô com pouco tempo...</default>
 	</talk>
+	<teller>
+		<default>Edmont baixa a cabeça e olha por cima dos olhos para Agatha.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Está me expulsando?</default>
+		<default>Tá me expulsando?</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Não faz essa cara de criança abandonada, sabe que eu não resisto...</default>
 	</talk>
+	<teller>
+		<default>Edmont sorri.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Esse é o objetivo.</default>
 	</talk>
@@ -424,7 +435,4 @@
 	<talk character="Edmont">
 		<default>Tá...</default>
 	</talk>
-	<teller>
-		<default>Ele pega a moto e sai.</default>
-	</teller>
 </story>
