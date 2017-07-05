@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="18" scene="g">
 	<teller>
-		<default>Depois de algum tempo, ele solta Zenon, que cai. Tereza se levanta. Pega a arma.</default>
+		<default>Angely solta Zenon. Zenon cai na areia, desmaia. Tereza se levanta. Pega a besta. Aponta para Angely.</default>
 	</teller>
 	<talk character="Tereza">
 		<default>Não podem fazer isso comigo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu não disse que ela era louca?</default>
+		<default>Eu não disse? Não vai parar até conseguir!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Tereza, vem comigo.</default>
@@ -19,10 +19,10 @@
 		<default>Melody, Alexander, tirem Zenon daqui.</default>
 	</talk>
 	<talk character="Tereza">
-		<default>Parados!</default>
+		<screamed>Parados!</screamed>
 	</talk>
 	<teller>
-		<default>Alex e Mel não obedecem Tereza e vão embora, levando Zenon.</default>
+		<default>Mel pega Zenon no colo. Sai andando. Alex segue.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Não vai atirar.</default>
@@ -40,40 +40,43 @@
 		<default>Seus pais te amam, seu irmão te amava!</default>
 	</talk>
 	<talk character="Tereza">
-		<default>Não estou falando de família!</default>
+		<screamed>Não tô falando de família!</screamed>
 	</talk>
 	<talk character="Angely">
-		<default>Você tem apenas quinze anos!</default>
+		<default>Você tem só quinze anos!</default>
 	</talk>
 	<talk character="Tereza">
-		<default>E minha vida já está destruída!</default>
+		<screamed>E minha vida já tá destruída!</screamed>
 	</talk>
 	<talk character="Angely">
 		<default>Não é esse seu caminho.</default>
 	</talk>
 	<talk character="Tereza">
-		<default>Dane-se.</default>
+		<screamed>Foda-se!</screamed>
 	</talk>
 	<teller>
-		<default>Edmont surge do nada, pega Tereza e leva. Angely os segue. Chegam ao lugar que Beatrice estivera com Edmont na hora da transfusão de almas. Edmont joga Tereza no chão. Eles começam a lutar. Tereza houvera trazido a arma. Angely pega uma pedaço de madeira e vai atacar Edmont, quando é acertado no estômago por Tereza. Edmont sente uma pequena dor. Depois olha pra ela e mostra seus dentes.</default>
+		<default>Edmont chuta Angely no chão, pega Tereza no colo e corre. Angely corre atrás. Entram no cano grande. Edmont joga Tereza no chão. Angely chega. Dá um chute, Edmont defende. Angely tira uma estaca da calça. Trava e a estaca cai de sua mão. Angely cai no chão, com uma estaca atravessada no estômago. Olha para Edmont, que se curvara, com a mão também no estômago. Edmont se endireita. Olha para Tereza. Cresce o caninos..</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Quer mesmo isso, não é?</default>
 	</talk>
 	<talk character="Tereza">
-		<default>Desde que nasci nunca fiz se quer uma escolha por mim mesma. Sempre fui gentil, doce... Tentei me livrar disso e finalmente consegui. Pelo menos terei a morte que escolhi.</default>
+		<default>Desde que nasci nunca fiz se quer uma escolha por mim mesma. Sempre fui gentil, doce... Tentei me livrar disso e finalmente consegui. Pelo menos vou ter a morte que escolhi.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não, Edmont...</default>
 	</talk>
 	<teller>
-		<default>Ele vai até Tereza. Pega-a. Se vira pra Angely e a morde. Angely tenta se levantar, mas não consegue. Tereza abraça Edmont. Por fim, sucumbe. Edmont passa a mão no sangue dela e solta o corpo. Pega a mão de Angely e passa o sangue na mão dele.</default>
+		<default>Edmont vai até Tereza. Passa seus braços em volta de Tereza e vira Tereza de costas para Angely, ficando de frente. Morde. Angely tenta se levantar, mas cai para trás. Tereza abraça Edmont. Uma lágrima dos olhos de Angely. Tereza solta o corpo. Edmont afasta a boca. Passa a mão no sangue. Solta o corpo. Pega a mão de Angely e passa o sangue na mão.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Era o que ela queria, o que buscava, a meta de toda a sua vida.</default>
+		<default>Era o que queria, o que buscava, a meta de toda a sua vida.</default>
 	</talk>
 	<teller>
-		<default>De tarde, Angely chega em casa. Não faz barulho. Vai até a porta da cozinha.</default>
+		<default>Edmont segue andando. Vai até a saída, onde o sol está nascendo. Sorri. Angely fecha os olhos.</default>
+	</teller>
+	<teller>
+		<first>Tarde. MEAK.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Então, vai mesmo montar uma agência?</default>
@@ -94,84 +97,95 @@
 		<default>Que bom. Assim provavelmente já sabe que vou te pedir desculpa.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tudo bem. O que acha, Angely?</default>
+		<default>Tudo bem. Que acha, Angely?</default>
 	</talk>
-	<teller>
-		<default>Angely adentra a cozinha.</default>
-	</teller>
 	<talk character="Angely">
-		<default>Qual vai ser o nome da agência? Fênix? A que renasceu das cinzas?</default>
+		<arrive>Qual vai ser o nome da agência? Fênix? A que renasceu das cinzas?</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Não, continua com o nome anterior.</default>
+		<default>Continua com o nome anterior.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Também tem esperanças que Edmont volte.</default>
 	</talk>
 	<teller>
-		<default>Silêncio.</default>
+		<default>Mel olha para baixo. Olha para Angely.</default>
 	</teller>
 	<talk character="Mel">
 		<default>E Tereza?</default>
 	</talk>
 	<teller>
-		<default>No dia seguinte, eles vão ao enterro da garota. Angely se dirige aos pais.</default>
+		<default>Dia seguinte. Cemitério. Angely se aproxima de Alberto e Alice.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Eu tentei evitar...</default>
 	</talk>
-	<talk character="mãe">
+	<talk character="Alice">
 		<default>Não é culpa sua.</default>
 	</talk>
-	<talk character="pai">
+	<talk character="Alberto">
 		<default>Ela procurou isso. Não parece a mesma filha que criei.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Foi corajosa. Ela lutou, não se entregou fácil.</default>
 	</talk>
-	<talk character="mãe">
+	<talk character="Alice">
 		<default>Mesmo?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Sim. E ela disse pra mim que amava vocês.</default>
 	</talk>
-	<talk character="pai">
-		<default>Se Igor tivesse ficado, teria sido evitado.</default>
+	<talk character="Alberto">
+		<default>Se Igor tivesse ficado, isso teria sido evitado.</default>
 	</talk>
-	<talk character="mãe">
-		<default>Se nós tivéssemos deixado ele seguir sua vida e continuar perto de nós ao mesmo tempo, aí sim ele teria evitado!</default>
+	<talk character="Alice">
+		<default>Se nós tivéssemos deixado ele seguir sua vida e continuar perto de nós ao mesmo tempo, aí sim ele teria evitado! Tereza saberia!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não briguem. Eles não querem ver vocês brigando.</default>
+		<default>Não briguem. Acho que não querem ver vocês brigando.</default>
 	</talk>
-	<talk character="mãe">
+	<talk character="Alice">
 		<default>Mas nós...</default>
 	</talk>
-	<talk character="pai">
+	<talk character="Alberto">
 		<default>Agora não temos mais ninguém... Onde erramos?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não erraram. Por que não adotam uma criança? Ou melhor, duas.</default>
+		<default>Não erraram. Eu errei.</default>
 	</talk>
-	<talk character="mãe">
-		<default>Pra que?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não querem ficar sozinhos. Há crianças com o mesmo sentimento, abandonadas.</default>
-	</talk>
-	<talk character="pai">
-		<default>Pra criarmos errado de novo?</default>
+	<talk character="Alberto">
+		<default>No que diabos</default>
+		<default>você</default>
+		<default>poderia ter errado?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não criaram errado. Eu queria pedir desculpa...</default>
-	</talk>
-	<talk character="mãe">
-		<default>Não foi você quem matou nossos filhos!</default>
-	</talk>
-	<talk character="Angely">
-		<default>É estranho. Me sinto culpado assim mesmo.</default>
+		<default>Não dá pra explicar. Só sei que errei.</default>
 	</talk>
 	<teller>
 		<default>Angely sai.</default>
+	</teller>
+	<teller>
+		<division>Algum tempo, algum lugar</division>
+	</teller>
+	<talk character="Xien">
+		<default>Eu sei o que foi o erro.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Angely não conseguiu controlar Edmont. Pela primeira vez, Angely perdeu.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Tereza precisava de acompanhamento médico. O desespero era tanto que queria encontrar alguém que, se não ficasse, matasse.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Nunca vou entender isso. Nem as pessoas com essa mania de que vão encontrar a outra metade de si. Não rola só tipo se dar conta de que você é uma pessoa inteira sozinha?</default>
+	</talk>
+	<talk character="Xien">
+		<default>Considerando o quando se propaga essa ideia...</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Que tal a gente voltar? Quero muito ver a próxima parte.</default>
+	</talk>
+	<teller>
+		<default>Uehfo estende a mão para Xien. Xien pega.</default>
 	</teller>
 </story>
