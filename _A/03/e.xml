@@ -316,11 +316,11 @@
 	<teller>
 		<default>Eles abrem e levantam a pequena porta. Descem uma escada espiral de metal. Um espaço grande, com armários embutidos, trancados por um cadeado em duas das paredes e uma outra porta, com rampa. Também haviam 3 motos.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Já descobrimos mais quatro chaves.</default>
-	</talk>
 	<talk character="Edmont">
 		<default>Portinha, moto, armário e esta outra porta.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Falta uma.</default>
 	</talk>
 	<teller>
 		<default>Angely abre os armários. Encontram várias armas. Abrem a porta da rampa. É uma saída pro jardim.</default>
@@ -341,19 +341,28 @@
 		<default>Cara, quem é que tá fazendo isso?</default>
 	</talk>
 	<talk character="Mel">
+		<default>Usando livros e arquivos ao invés de usar só computador?</default>
+	</talk>
+	<teller>
+		<default>Edmont a encara.</default>
+	</teller>
+	<talk character="Mel">
 		<default>Sei lá. Mas não tô com vontade de me jogar na cama e me sentir em casa.</default>
 	</talk>
 	<teller>
-		<default>Havia uma mesa de madeira com um desenho entalhado e um vidro transparente com as cores do símbolo. O símbolo tinha duas espadas, uma de cabo vermelho e outra de azul, cruzadas, com uma rosa amarela sobre elas. Eles olharam tudo em volta. Também havia outra mesa, com computador. Livros estranhos sobre magia e não-humanos.</default>
+		<default>Havia uma mesa de madeira com um desenho entalhado e um vidro transparente com as cores do símbolo. O símbolo tinha duas espadas, uma de cabo vermelho e outra de azul, cruzadas, com uma rosa amarela sobre elas. Eles olharam tudo em volta. Também havia outra mesa, com computador. Angely pega um dos livros.</default>
 	</teller>
-	<talk character="Edmont">
-		<default>Tem alguém aqui?</default>
+	<talk character="Angely">
+		<default>Parece mitologia.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não pode pelos menos mandar um sinal???</default>
+		<default>Na verdade, parece gente levando mitologia a sério.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Alguém aí? Não pode pelos menos mandar um sinal?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Quem está fazendo isso???</default>
+		<default>Quem está fazendo isso?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não vai responder?</default>
@@ -361,22 +370,19 @@
 	<talk character="Angely">
 		<default>Os chaveiros... Duas espadas, uma vermelha e uma azul, e uma flor amarela... Juntando eles corresponde ao símbolo da mesa...</default>
 	</talk>
-	<talk character="Edmont">
-		<default>É... Ninguém responde???</default>
-	</talk>
 	<talk character="Mel">
 		<default>Não dá pra mandar uma explicação?</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Não é possível que ninguém responda...</default>
 	</talk>
 	<teller>
 		<default>Os três descem e entram na casa de novo.</default>
 	</teller>
-	<talk character="Edmont">
+	<talk character="Angely">
 		<default>Temos um andar subterrâneo que tem acesso pela dispensa, um escritório no terceiro andar que separa de todo o resto da casa, um espelho enorme logo na entrada... Sem contar as armas no porão e os livros estranhos no sótão...</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<screamed>Ninguém vai explicar o que está acontecendo???</screamed>
 	</talk>
 	<talk character="Mel">
@@ -385,7 +391,7 @@
 	<talk character="Edmont">
 		<screamed>Quem está fazendo isso???</screamed>
 	</talk>
-	<talk character="Angely">
+	<talk character="Mel">
 		<screamed>Nós não somos brinquedo!</screamed>
 	</talk>
 	<talk character="Edmont">
@@ -397,7 +403,7 @@
 	<talk character="Mel">
 		<screamed>Legal, mas isso não adianta nada!</screamed>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<screamed>Já conhecemos a casa!</screamed>
 	</talk>
 	<teller>
@@ -407,7 +413,7 @@
 		<default>Aguardar?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Que bosta...</default>
+		<default>Droga...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Temos vida, sabia???</default>
@@ -415,24 +421,18 @@
 	<talk character="Angely">
 		<default>Que faremos?</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Bom, hoje é sábado.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu tô cansado. Vou pro meu quarto.</default>
-	</talk>
 	<teller>
-		<default>Eles decidem ir dormir, em seus respectivos quartos.</default>
+		<default>Eles se entreolham. Edmont sai. Angely segue. Mel olha ao redor.</default>
 	</teller>
 	<teller>
-		<first>De manhã, Edmont acorda e vai à casa de Agatha. Ela não está. Então ele vai até a casa de Meg.</first>
+		<first>De manhã, Edmont acorda e vai à casa de Agatha. Ela não está. Então ele volta para casa. Ouve uma voz e bate no quarto de Meg.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Oi...</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Oi, meu amor...</default>
-		<teller>Agatha beija Edmont</teller>
+		<teller>beija Edmont</teller>
 		<default>Tava estranho ontem.</default>
 	</talk>
 	<talk character="Edmont">
@@ -454,10 +454,10 @@
 		<default>E por quê estaria?</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Porque eu tenho gato e você, um mala.</default>
+		<default>Porque eu tenho um namorado e você, um mala.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Meu namorado não é feio.</default>
+		<default>Meu namorado não é ruim assim.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Mas é um mala do mesmo jeito.</default>
@@ -472,10 +472,10 @@
 		<default>Bom, mas nós temos que fazer o trabalho...</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Tá expulsando meu namorado?</default>
+		<default>Tá expulsando meu namorado? Ele mora aqui...</default>
 	</talk>
 	<talk character="Meg">
-		<default>Tô, tchau!</default>
+		<default>Não no meu quarto. Tchau!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Tá, já tô indo.</default>
@@ -502,16 +502,16 @@
 		<default>Tá, vamos fazer o trabalho.</default>
 	</talk>
 	<teller>
-		<first>Ele volta pra casa. Quando chega, os dois já estão acordados.</first>
+		<first>Vai até a quarta casa.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Onde você foi?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não vai querer controlar minha vida, vai?</default>
+		<default>Não moro aqui. Ou a gente mora agora?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não está com uma cara muito boa...</default>
+		<default>Mel dormiu aqui. Disse que parece seguro. Não está com uma cara muito boa...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Você tem alguma esperança com a Meg?</default>
@@ -526,7 +526,7 @@
 		<default>Ela tá namorando.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Um cara da escola?</default>
+		<default>Alguém da escola?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Bryan.</default>
@@ -538,7 +538,7 @@
 		<default>Agatha disse na frente dela e ela não negou.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mas será que não é pra fazer ciúmes?</default>
+		<default>Mas será que não é pra fazer ciúmes? Faz pouco tempo que tô aqui e vi um negócio que parece com isso que estão fazendo... Como era... Ah, novela!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ela tá namorando aquele cara?</default>
