@@ -4,9 +4,10 @@
     var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin('" + Model.SceneCounter + "')", OnSuccess = "SaveSuccess('" + Model.SceneCounter + "')", OnFailure = "SaveFailure('" + Model.SceneCounter + "')" };
     var route = new { sceneID = Model.Story.SceneList[Model.SceneCounter].ID, episodeID = Model.Story.ID };
     var html = new { id = "form_" + Model.SceneCounter };
+    var scene = Model.Story.SceneList[Model.SceneCounter];
 }
 
-<div class="scene @if(Model.SceneCounter == 0) { @("reading") }" id="Scene@(Model.SceneCounter)">
+<div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(Model.SceneCounter)">
     @using (Ajax.BeginForm("EditScene", route, ajaxOptions, html))
     {
         for (var s = 0; s <= Model.SceneCounter; s++)
@@ -14,7 +15,7 @@
             @Html.HiddenFor(m => m.Story.SceneList[s].ID);
         }
         
-        for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].ParagraphTypeList.Count; p++)
+        for (var p = 0; p < scene.ParagraphTypeList.Count; p++)
         {
             Model.ParagraphCounter = p;
         

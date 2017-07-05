@@ -69,7 +69,7 @@ namespace Presentation.Controllers
 
 
 
-        public ActionResult Episode(String seasonID, String episodeID)
+        public ActionResult Episode(String seasonID, String episodeID, String sceneID)
         {
             Episode episode;
 
@@ -83,7 +83,7 @@ namespace Presentation.Controllers
             }
 
 
-            var model = new SeasonEditEpisodeModel(paths) { Story = episode };
+            var model = new SeasonEditEpisodeModel(paths) { Story = episode, ReadingScene = sceneID };
 
 
             model.GetSuggestionLists();

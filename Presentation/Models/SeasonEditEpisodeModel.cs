@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Structure.Data;
 using Structure.Enums;
-using StringExtension = Structure.Extensions.StringExtension;
+using Structure.Extensions;
 
 namespace Presentation.Models
 {
@@ -23,7 +23,6 @@ namespace Presentation.Models
         public String[] CharacterList { get; set; }
         public String[] TalkStyleList { get; set; }
         public String[] TellerStyleList { get; set; }
-
 
 
         public ParagraphType CurrentParagraph
@@ -65,11 +64,11 @@ namespace Presentation.Models
             CharacterList = 
                 characterList
                     .Distinct()
-                    .Where(c => !c.Contains("/")
-                        && StringExtension.IsName(c))
+                    .Where(c => !c.Contains("/") && c.IsName())
                     .OrderBy(c => c)
                     .ToArray();
         }
+
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using Structure.Data;
+﻿using System;
+using Structure.Data;
 using Structure.Entities;
 
 namespace Presentation.Models
@@ -15,6 +16,8 @@ namespace Presentation.Models
         }
 
         public Episode Story { get; set; }
+
+        public String ReadingScene { get; set; }
         
     }
 }

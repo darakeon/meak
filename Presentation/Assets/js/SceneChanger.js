@@ -1,8 +1,8 @@
 function SceneChanger() {
-    $(".SceneChanger li").click(function () {
+    $(".sceneChanger li").click(function () {
         var scene = $(this).attr("scene");
 
-        $(".SceneChanger li.chosen").removeClass("chosen");
+        $(".sceneChanger li.chosen").removeClass("chosen");
         $(".sceneChanger" + scene).addClass("chosen");
 
         $(".scenes .reading").removeClass("reading");

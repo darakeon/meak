@@ -3,10 +3,25 @@
 @{
     ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
     Layout = "~/Views/Shared/_Layout.cshtml";
+
     var adderPage = Url.Action("Adder");
-    var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin('title')", OnSuccess = "SaveSuccess('title')", OnFailure = "SaveFailure('title')" };
     var route = new { episodeID = Model.Story.ID };
     var html = new { id = "form_title" };
+
+    var ajaxOptions = new AjaxOptions
+    { 
+        HttpMethod = "Post", 
+        OnBegin = "SaveBegin('title')", 
+        OnSuccess = "SaveSuccess('title')", 
+        OnFailure = "SaveFailure('title')"
+    };
+
+    var topSelector =
+        new Presentation.Models.General.TopSelectorModel
+        {
+            Total = Model.Story.SceneList.Count,
+            Current = Convert.ToInt32(Model.ReadingScene[0]) - 97
+        };
 }
 
 <script type="text/javascript">var adderPage = '@adderPage';</script>
@@ -33,7 +48,7 @@
 </p>
     
 
-@Html.Partial("Partial/ChangeScene", Model.Story.SceneList.Count)
+@Html.Partial("Partial/ChangeScene", topSelector)
 
 <div class="scenes">
     @for (var s = 0; s < Model.Story.SceneList.Count; s++)
@@ -44,7 +59,7 @@
     }
 </div>
 
-@Html.Partial("Partial/ChangeScene", Model.Story.SceneList.Count)
+@Html.Partial("Partial/ChangeScene", topSelector)
 
 
 <p class="sign">

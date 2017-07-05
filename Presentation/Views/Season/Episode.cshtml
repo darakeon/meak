@@ -5,6 +5,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     Int32 talkCounter = 0;
     Int32 tellerCounter = 0;
+    
+    var topSelector = 
+        new Presentation.Models.General.TopSelectorModel 
+            {
+                Total = Model.Story.SceneList.Count,
+                Current = Convert.ToInt32(Model.ReadingScene[0]) - 97
+            };
 }
 
 
@@ -14,7 +21,7 @@
 </p>
 
 
-@Html.Partial("Partial/ChangeScene", Model.Story.SceneList.Count)
+@Html.Partial("Partial/ChangeScene", topSelector)
 
 
 <div class="scenes">
@@ -22,7 +29,7 @@
     {
         var scene = Model.Story.SceneList[s];
         
-        <div class="scene @if(s == 0) { @("reading") }" id="Scene@(s)">
+        <div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(s)">
             @foreach (var paragraph in scene.ParagraphTypeList)
             {
                 <div class="paragraph @paragraph.ToString().ToLower()">
@@ -57,14 +64,14 @@
     
         </div>
 
-            talkCounter = 0;
-            tellerCounter = 0;
+        talkCounter = 0;
+        tellerCounter = 0;
     }
 </div>
 
 
 
-@Html.Partial("Partial/ChangeScene", Model.Story.SceneList.Count)
+@Html.Partial("Partial/ChangeScene", topSelector)
 
 
 <p class="sign">
