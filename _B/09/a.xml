@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="09" scene="a">
 	<teller>
-		<default>16/04 (quarta). Num apartamento, Janaína está deitada na cama. Etos sai do banheiro, de toalha.</default>
+		<default>Tarde. Apartamento. Janaína está na cama. Etos sai do banheiro, de toalha.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Tem certeza que quer viver aqui?</default>
@@ -16,40 +16,62 @@
 		<default>Se ele não pagar, me dá a Ilha de presente?</default>
 	</talk>
 	<talk character="Etos">
-		<default>Mas só falta uma semana pro seu aniversário... Prometi até o fim do ano para ele pagar...</default>
+		<default>Mas só falta uma semana pro seu aniversário... Prometi até o fim do ano para pagar...</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Meu melhor presente de aniversário foi te conhecer. Não tem como superar. Dá de presente de Natal.</default>
 	</talk>
 	<talk character="Etos">
-		<default>Vou fazer melhor. Eu vou até ele</default>
-		<teller>sobe em cima dela</teller>
-		<default>dizer o que nós já sabemos: que ele não vai conseguir pagar.</default>
-		<teller>começa desabotoar a camisa dela</teller>
-		<default>Ele pode entregar a Ilha. Daí eu te dou ela.</default>
+		<default>Vou fazer melhor. Eu vou até lá...</default>
 	</talk>
+	<teller>
+		<default>Etos sobe em cima de Janaína.</default>
+	</teller>
+	<talk character="Etos">
+		<default>...dizer o que nós já sabemos: que não vai conseguir pagar.</default>
+	</talk>
+	<teller>
+		<default>Etos desabotoa a camisa de Janaína.</default>
+	</teller>
+	<talk character="Etos">
+		<default>Assim pode entregar a Ilha. Daí eu te dou.</default>
+	</talk>
+	<teller>
+		<default>Etos beija Janaína.</default>
+	</teller>
 	<talk character="Janaína">
 		<default>Jura?</default>
 	</talk>
 	<teller>
-		<default>20:00. Alan está em seu quarto.</default>
+		<first>Noite. Alan está em seu quarto.</first>
 	</teller>
 	<talk character="Alan">
 		<default>Mel, eu sei que eu devia arranjar emprego, mas não tem nenhum que sirva pra mim. Fui recusado pra tudo. Eu só sirvo pra caçar vampiros mesmo...</default>
-		<teller>baixa a cabeça</teller>
-		<default>Não isso não vai convencer ela.</default>
-		<teller>olha para frente</teller>
+	</talk>
+	<teller>
+		<default>Alan baixa a cabeça.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Não, isso não vai funcionar.</default>
+	</talk>
+	<teller>
+		<default>Volta a olhar para o espelho.</default>
+	</teller>
+	<talk character="Alan">
 		<default>Minha vocação é essa. Eu juro que vou fazer tudo o que puder para... Também não.</default>
 	</talk>
 	<talk character="Zenon">
 		<arrive>Que tal, vou me mudar?</arrive>
 	</talk>
 	<talk character="Alan">
-		<default>Isso. Zoa mesmo. Já arranjou...</default>
+		<default>Isso. Zoa mesmo. Já...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Bom, essa foi a única que consegui pensar.</default>
 	</talk>
+	<teller>
+		<default>Alan olha para Zenon.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Peraí, você disse que já tinha emprego!</default>
 	</talk>
@@ -63,7 +85,7 @@
 		<default>Sei lá.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Como não? Você convive com ela há quanto tempo?</default>
+		<default>Como não? Você convive com ela há quanto tempo?! Tem ao menos dois anos pelo que disseram!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>As "crianças" arranjaram emprego.</default>
@@ -72,10 +94,22 @@
 		<default>Derik não arranjou.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Derik cozinha, Derik lava, Derik costura, Derik limpa...</default>
+		<default>Derik cozinha, Derik lava, Derik costura, Derik limpa, Derik conserta...</default>
 	</talk>
 	<talk character="Alan">
 		<default>Tá, tá, não precisa ficar enumerando.</default>
+	</talk>
+	<teller>
+		<default>Alan franze a sobrancelha.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Pera, conserta?!</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Lembra do cano que Mel mandou eu consertar outro dia?</default>
+	</talk>
+	<talk character="Alan">
+		<default>Cara, não dá pra bater o Derik. Eu desisto.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Se eles arranjaram emprego e nós não, seria mais digno nós sairmos antes que ela expulse.</default>
@@ -94,19 +128,19 @@
 		<default>Você é um homem ou um rato???</default>
 	</talk>
 	<talk character="Alan">
-		<default>Vamos ter que virar ratos. Pra viver no esgoto...</default>
+		<default>Vamos ter que virar ratos. Pra viver no esgoto.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Vai fazer isso ou não?</default>
 	</talk>
 	<teller>
-		<default>Mel está recepção, conversando com Beatrice, quando eles chegam à sala.</default>
+		<first>Recepção. Mel e Beatrice estão no balcão, Mel do lado de fora. Zenon e Alan descem a escada..</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Estamos atrapalhando?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não se for pra falar de emprego. Alan não, mas você não devia estar procurando emprego agora?</default>
+		<default>Não se for pra falar de emprego. Alan não, mas você não devia estar procurando agora?</default>
 	</talk>
 	<talk character="Alan">
 		<default>É disso que viemos falar.</default>
@@ -120,14 +154,20 @@
 	<talk character="Zenon">
 		<default>E não achamos justo ficarmos aqui.</default>
 	</talk>
+	<teller>
+		<default>Mel encolhe e volta os ombros.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Tá.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Só isso?</default>
 	</talk>
+	<teller>
+		<default>Mel cruza os braços.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Esperava que eu dissesse não? Que eu me jogasse no chão e implorasse para ficarem? Desculpe, mas...</default>
+		<default>Se Alan esperasse algo diferente, que eu pedisse para ficarem, eu até entenderia.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Podia ter demonstrado um pouco mais de...</default>
@@ -138,6 +178,9 @@
 	<talk character="Zenon">
 		<default>Não conseguimos emprego.</default>
 	</talk>
+	<teller>
+		<default>Mel solta os braços.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Se um dia quiserem voltar, as portas estarão abertas.</default>
 	</talk>
@@ -148,22 +191,25 @@
 		<default>Por que não tentam mais uma noite?</default>
 	</talk>
 	<teller>
-		<default>Os dois se entreolham e saem.</default>
+		<default>Zenon e Alan se entreolham. Saem.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Eles não querem ir. Diz uma coisa, Derik está ficando cada vez mais folgado ou é só impressão minha?</default>
+		<default>Não querem ir embora.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não, é que ele cismou que os quartos tinham ficado com um cheiro estranho.</default>
+		<default>Nem deu tempo de apostar quanto tempo levavam para voltar.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Diz uma coisa, Derik está ficando cada vez com mais folga ou é só impressão?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Não, é que cismou que os quartos tinham ficado com um cheiro estranho.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Kat deve ter ficado uma fera.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ela tá ajudando... Com uma roupa bem curta.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Nossa, ela já tá apelando para isso?</default>
+		<default>Tá ajudando.</default>
 	</talk>
 	<teller>
 		<default>Alan e Zenon estão andando.</default>
@@ -181,19 +227,19 @@
 		<default>Sei lá. Cemitério?</default>
 	</talk>
 	<teller>
-		<default>22:00. Em Ares, depois de algum tempo e "alguma" bebida, os dois já estão caindo.</default>
+		<first>Ares.</first>
 	</teller>
 	<talk character="Alan">
 		<default>Não sabia que vampiro ficava bêbado...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Você bebeu vinho, eu bebi vodka, você não agüentaria um décimo do que bebi sem entrar num coma alcoólico.</default>
+		<default>Você bebeu vinho, eu bebi vodka, você não agüentaria um décimo do que bebi sem entrar num coma alcoólico!</default>
 	</talk>
 	<talk character="Alan">
 		<default>Tá, agora voltamos lá assim e ela vai nos expulsar mesmo...</default>
 	</talk>
 	<teller>
-		<default>Os dois dão risada. Param e sentam-se no chão.</default>
+		<default>Zenon e Alan dão risada. Zenon senta-se no chão. Alan senta a sua frente.</default>
 	</teller>
 	<talk character="Alan">
 		<default>E se eu virar garoto de programa, acha que consigo alguma coisa?</default>
@@ -211,76 +257,85 @@
 		<default>Tá mais bêbado que eu...</default>
 	</talk>
 	<teller>
-		<default>Ouve-se gritos.</default>
+		<default>Gritos.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Ou não.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Perfeito, elas não podiam ter sido atacadas antes de ficarmos bêbados?</default>
+		<default>Perfeito, não podia ter sido antes de ficarmos bêbados?!</default>
 	</talk>
 	<talk character="Alan">
 		<default>Ou podíamos não ter ficado bêbados.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Vamos lá. Nem que se distraiam batendo na gente e elas consigam fugir.</default>
+		<default>Vamos lá. Nem que se distraiam batendo na gente e consigam fugir.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Tem certeza?</default>
 	</talk>
 	<teller>
-		<default>Eles seguem até onde está havendo a confusão.</default>
+		<default>Zenon levanta. Dá a mão a Alan, que levanta, quase caindo em seguida, Zenon segura. Seguem até chegar a uma parte.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Ei!</default>
 	</talk>
 	<teller>
-		<default>Os vampiros olham para eles. São três vampiros e três garotas.</default>
+		<default>Emanuel, Diogo, Augusto, Michele, Tatiane e Alice olham para Zenon e Alan.</default>
 	</teller>
-	<talk character="v1">
+	<talk character="Emanuel">
 		<default>Estão aqui para salvar elas?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>É isso mesmo!</default>
 	</talk>
 	<teller>
-		<default>Alan cai no chão.</default>
+		<default>Alan cai no chão. Zenon olha para Alan. Olha de novo para o grupo.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Ou pelo menos eu estou.</default>
 	</talk>
-	<talk character="v2">
+	<talk character="Diogo">
 		<default>Acha que caímos nessa de bêbado?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Bêbado? Ele é que tava bêbado, eu tava levando ele pra casa...</default>
 	</talk>
-	<talk character="v1">
+	<talk character="Emanuel">
 		<default>Ih, cara, ele tá mesmo bêbado...</default>
 	</talk>
-	<talk character="v3">
+	<talk character="Augusto">
 		<default>Ele é vampiro... Deve ser o tal que trocou de lado...</default>
 	</talk>
-	<talk character="v2">
+	<talk character="Diogo">
 		<default>Provavelmente nos dois sentidos...</default>
 	</talk>
 	<teller>
-		<default>Os três riem.</default>
+		<default>Emanuel, Diogo e Augusto riem. Zenon franze a testa.</default>
 	</teller>
-	<talk character="v3">
+	<talk character="Zenon">
+		<default>Tô na dúvida se não achei graça por ser homofobia ou se sou homofóbico e tô bravo porque é comigo...</default>
+	</talk>
+	<talk character="Augusto">
 		<default>Podemos matar ele, agora que tá bêbado, e acabar com uma dor de cabeça.</default>
 	</talk>
 	<teller>
-		<default>Eles atacam Zenon. Duas das garotas saem correndo. Zenon consegue matar um, mas outro o segura. Então o terceiro procura a estaca.</default>
+		<default>Emanuel, Diogo e Augusto largam Michele, Tatiane e Alice e vão na direção de Zenon. Tatiane e Alice correm. Augusto chuta Zenon, Zenon, do chão, passa a perna em Augusto. Zenon levanta, segura um soco de Emanuel, puxa pelo braço e joga contra a parede. Diogo segura Zenon com o braço pelo pescoço, por trás. Zenon joga Diogo por cima de si e crava uma estaca em Diogo, que desfaz. Zenon levanta e toma um soco de Emanuel. Augusto segura Zenon. Emanuel olha ao redor.</default>
 	</teller>
 	<talk character="Michele">
 		<default>Procurando isso?</default>
 	</talk>
 	<teller>
-		<default>Michele enfia a estaca nele. Alan acorda. Depois Michele derruba o outro e mata-o também.</default>
+		<default>Emanuel se vira e Michele enfia a estaca em Emanuel. Emanuel desfaz. Augusto e Zenon franzem a testa. Alan acorda. Augusto vai na direção de Michele. Zenon continua olhando. Augusto pega o pulso de Michele, Michele troca a estaca de mão e crava com a esquerda no peito de Augusto.</default>
+	</teller>
+	<talk character="Augusto">
+		<default>Mas...</default>
+	</talk>
+	<teller>
+		<default>Augusto desfaz em pó.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Tá, eu devo ter caído e estou tendo alucinações...</default>
+		<default>Tá, eu devo ter caído e tô tendo alucinações...</default>
 	</talk>
 	<talk character="Alan">
 		<default>Ela derrubou todos eles???</default>
@@ -310,7 +365,13 @@
 		<default>Peraí, qual seu nome?</default>
 	</talk>
 	<talk character="Michele">
-		<default>Michele. Ah, droga!</default>
+		<default>Michele.</default>
+	</talk>
+	<teller>
+		<default>Michele olha para a mão.</default>
+	</teller>
+	<talk character="Michele">
+		<default>Ah, droga!</default>
 	</talk>
 	<talk character="Alan">
 		<default>Que foi? Se machucou?</default>
@@ -346,11 +407,14 @@
 		<default>CVs são muito bem treinados!</default>
 	</talk>
 	<teller>
-		<default>Michele olha com ar superior pros dois</default>
+		<default>Michele olha para Alan, depois Zenon.</default>
 	</teller>
 	<talk character="Michele">
 		<default>Tô vendo...</default>
 	</talk>
+	<teller>
+		<default>Alan levanta.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Eu não sou CV, e ele é ex CV.</default>
 	</talk>
@@ -359,7 +423,11 @@
 	</talk>
 	<talk character="Alan">
 		<default>Namoro?...</default>
-		<teller>olha para Zenon</teller>
+	</talk>
+	<teller>
+		<default>Alan olha para Zenon, depois para Michele.</default>
+	</teller>
+	<talk character="Alan">
 		<default>Peraí, não tá achando que...</default>
 	</talk>
 	<talk character="Zenon">
@@ -378,7 +446,7 @@
 		<default>Quer mesmo saber?</default>
 	</talk>
 	<talk character="Michele">
-		<default>Eu ficaria indecisa... Apesar das roupas de baixo valor.</default>
+		<default>Eu ficaria indecisa. Apesar das roupas de baixo valor.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Será que foi isso?</default>
@@ -410,4 +478,7 @@
 	<talk character="Michele">
 		<default>Vou voltar pra casa, meus pais vão ficar preocupados.</default>
 	</talk>
+	<teller>
+		<default>Michele segue andando.</default>
+	</teller>
 </story>
