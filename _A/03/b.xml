@@ -49,7 +49,7 @@
 		<default>Oi... Entra aí. Tão fazendo o almoço ainda.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Onde a Meg está?</default>
+		<default>Cadê a Meg?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Lá no quarto dela.</default>
@@ -57,11 +57,11 @@
 	<talk character="Angely">
 		<default>Agatha, pode dizer a ela sobre...</default>
 	</talk>
-	<talk character="Agatha">
+	<talk character="Edmont">
 		<default>Pensei que não queria que ela soubesse.</default>
 	</talk>
 	<talk character="Angely">
-		<default>É virgindade, não viadagem.</default>
+		<default>Tanto faz.</default>
 	</talk>
 	<teller>
 		<default>Agatha vai falar com Meg. Angely e Edmont sentam no sofá da sala. Júlio vai à cozinha. Kat fica na sala.</default>
@@ -78,23 +78,23 @@
 	<talk character="Kat">
 		<default>Será que ela é legal?</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Não sei. Da última vez que a vimos ela tinha uns sete anos.</default>
+	<talk character="Angely">
+		<default>Não sei. Da última vez que a vimos, tinha uns dez anos.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Tá. Brigado.</default>
+		<default>Legal!</default>
 	</talk>
 	<teller>
-		<default>Kat sai.</default>
+		<default>Kat sai, emburrada.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Devíamos ter dito que a última vez que vimos a menina tínhamos treze.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Cinco anos? Faz tanto tempo assim?</default>
+		<default>Quatro anos? Faz tanto tempo assim?</default>
 	</talk>
 	<teller>
-		<default>Edmont faz sinal de positivo com a cabeça. No quarto de Meg...</default>
+		<default>No quarto de Meg...</default>
 	</teller>
 	<talk character="Meg">
 		<default>Jura???</default>
@@ -133,13 +133,13 @@
 		<default>Ele me beijou.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Angely?</default>
+		<default>Angely?!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Edmont.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Peraí, mas vocês não são irmãos?</default>
+		<default>Ah, bom... Peraí, mas vocês não são irmãos?</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Ele é adotado, só fomos criados juntos.</default>
@@ -157,7 +157,7 @@
 		<default>Mas, você não entende...</default>
 	</talk>
 	<talk character="Meg">
-		<default>Faz o seguinte: pense por algum tempo e descubra o que realmente quer.</default>
+		<default>Minha mãe costuma dizer que, quando começa com "você não vai entender", geralmente não faz sentido de verdade.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>E você e Angely?</default>
@@ -169,7 +169,7 @@
 		<default>Ele é tímido, já vou logo avisando...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Pessoal, tá pronto.</default>
+		<arrive>Tá pronto.</arrive>
 	</talk>
 	<talk character="Meg">
 		<default>Tá, nós já estamos descendo.</default>
@@ -181,13 +181,13 @@
 		<default>Angely, ela não vai ligar pra isso.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela vai me zoar até.</default>
+		<default>Ela vai me zoar.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Tarde demais, já falou pra Agatha contar pra ela. Agora já foi.</default>
 	</talk>
 	<talk character="Angely">
-		<default>É. Só esperar. Edmont, por quê você e a Agatha estavam acordados até aquela hora?</default>
+		<default>É. Só esperar. Lembrei de uma coisa, por quê você e a Agatha estavam acordados até aquela hora?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Nada.</default>
@@ -196,7 +196,7 @@
 		<default>Pode falar. Eu já percebi.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Percebeu??? Que???</default>
+		<default>Percebeu?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Como você olha pra Agatha. Ela também não é indiferente.</default>
@@ -205,7 +205,7 @@
 		<default>Ela não quer nada comigo.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela está com medo.</default>
+		<default>Ela tá com medo.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Medo? Medo de que?</default>
@@ -223,7 +223,7 @@
 		<default>Eles vão até a mesa. Rith, Halen, Júlio e Kat ficam conversando, mas os outros quatro nada dizem. Halen numa ponta da mesa, Rith na outra. Num dos lados da mesa, Angely, Edmont e Agatha. Meg está a frente de Angely.</default>
 	</teller>
 	<talk character="Júlio">
-		<default>Mas, naquele dia, eu tava super mal.</default>
+		<default>Mas, naquele dia, eu tava super mal!</default>
 	</talk>
 	<talk character="Rith">
 		<default>Nossa, nem de porre eu fazia isso.</default>
@@ -235,10 +235,22 @@
 		<default>Mico? King Kong, isso sim!</default>
 	</talk>
 	<talk character="Meg">
-		<default>Ah, mas eu conheço um maior. O cara veio se declarar pra mim, no meio de uma festa. Ele também tava de porre, mas ele fez pior. Tentou me beijar, tava com um bafo horrível de cerveja.</default>
+		<default>Ah, mas eu conheço um maior. O cara veio se declarar pra mim, no meio de uma festa. Ele também tava de porre, mas ele fez pior. Tentou me beijar, tava com um bafo horrível de pinga.</default>
+	</talk>
+	<teller>
+		<default>Júlio estranha.</default>
+	</teller>
+	<talk character="Júlio">
+		<default>Quantos anos você tem?</default>
+	</talk>
+	<talk character="Rith">
+		<hushed>Júlio, tá dando bandeira.</hushed>
 	</talk>
 	<talk character="Júlio">
-		<default>E aí?</default>
+		<hushed>Ah?!</hushed>
+	</talk>
+	<talk character="Rith">
+		<hushed>De dinossauro.</hushed>
 	</talk>
 	<talk character="Meg">
 		<default>Eu desviei, ele caiu na piscina. O cara tava mesmo precisando de um banho frio!</default>
@@ -283,7 +295,7 @@
 		<default>Prefiro ir pra escola do que voltar pro Egito!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Aí eu concordo!</default>
+		<default>Concordo!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Gente, vocês viram a Agatha?</default>
@@ -340,16 +352,18 @@
 		<default>Eu, eu...</default>
 	</talk>
 	<talk character="Rith">
-		<default>Acha que precisa explicar pra mim, justo pra mim, o que estava acontecendo? Aliás, eu queria falar de outra coisa com você...</default>
+		<default>Acha que precisa explicar pra mim, justo pra mim, o que estava acontecendo?</default>
+		<teller>ele ri, mas baixa a cabeça, depois volta a olhar pra Angely</teller>
+		<default>Eu queria falar de outra coisa com você...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não está com raiva do meu irmão, está?</default>
+		<default>Reconheceu a gente.</default>
 	</talk>
 	<talk character="Rith">
-		<default>Ele matou meu irmão, mas meu irmão matou seu pai. Queria pedir pra que esquecesse tudo isso.</default>
+		<default>Queria pedir pra que esquecesse tudo isso.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Tudo bem. Edmont não reconheceu ninguém, nem sabia os nomes.</default>
+		<default>Tudo bem. Edmont não reconheceu ninguém, acho que não lembra os nomes.</default>
 	</talk>
 	<talk character="Rith">
 		<default>Meg não sabe de nada. Adotamos ela depois de regularizar a nossa situação. Katerine também não.</default>
@@ -409,8 +423,11 @@
 		<default>Ele a puxa e a beija.</default>
 	</teller>
 	<talk character="Júlio">
-		<default>Nunca pensei que fosse fazer isso.</default>
+		<default>Nunca pensei que você fosse fazer isso.</default>
 	</talk>
+	<teller>
+		<default>Agatha se afasta de Edmont, assustada. Ele olha para Júlio.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Desde de quando está aí?</default>
 	</talk>
@@ -427,13 +444,13 @@
 		<default>Edmont vai pra seu quarto. Lá pega as coisas dele, coloca numa bolsa e sai.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Edmont, que aconteceu???</default>
+		<default>Edmont, que aconteceu?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Júlio descobriu.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Vocês fizeram alguma coisa???</default>
+		<default>Não deu tempo de vocês estarem...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não, eu só estava falando com Agatha e ele ouviu.</default>
@@ -487,6 +504,9 @@
 		<default>Você não tem culpa.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Isso não é tão recente. Mas eu consegui porque achava que era só eu. Agora eu descobri que isso não é só em mim.</default>
+		<default>Isso não é tão recente... Mas achei que era só eu...</default>
 	</talk>
+	<teller>
+		<default>Meg a abraça.</default>
+	</teller>
 </story>

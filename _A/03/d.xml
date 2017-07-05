@@ -7,7 +7,7 @@
 		<default>Sei quem você é.</default>
 	</talk>
 	<talk character="Rith">
-		<default>Você matou meu irmão. Eu perdoei, sabe por quê? Porque você era uma criança e meu irmão tinha matado seu pai. Eu me dispus a te ajudar. Eu falei com Júlio, por causa de você e Agatha. Então não...</default>
+		<default>Eu me dispus a te ajudar. Eu falei com Júlio, por causa de você e Agatha. Então não...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Obrigado.</default>
@@ -18,15 +18,9 @@
 	<talk character="Edmont">
 		<default>Acho que Katerine não tem a culpa que eu ia descontar nela.</default>
 	</talk>
-	<talk character="Rith">
-		<default>Meu irmão também não.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Nem meu pai.</default>
-	</talk>
-	<talk character="Angely">
-		<arrive>Não vão discutir, por favor.</arrive>
-	</talk>
+	<teller>
+		<default>Rith fica meio perdido. Olha para Halen. Ela sorri.</default>
+	</teller>
 	<talk character="Rith">
 		<default>Tudo bem.</default>
 	</talk>
@@ -37,16 +31,16 @@
 		<default>Os três ouvem discussão na sala e correm pra lá.</default>
 	</teller>
 	<talk character="Júlio">
-		<default>Esse garoto que...</default>
+		<default>Esse maldito moleque que...</default>
 	</talk>
 	<teller>
-		<default>Júlio vai falar e Mel, que estava sentada, pega uma faca e aponta pra ele.</default>
+		<default>Júlio vai falar e Mel, que estava sentada, pega uma faca e se levanta.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Cala a boca.</default>
 	</talk>
 	<talk character="Júlio">
-		<default>E com isso que você quer se meter?</default>
+		<default>É com isso que você quer se meter?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Agora, ou te faço calar.</default>
@@ -73,10 +67,10 @@
 		<default>Júlio, eles já conhecem a menina.</default>
 	</talk>
 	<talk character="Júlio">
-		<default>Ah, é???</default>
+		<default>Ah, é? Desde quando?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Desde os três anos.</default>
+		<default>Desde sempre.</default>
 	</talk>
 	<teller>
 		<default>Júlio olha pra Angely e demora a entender.</default>
@@ -106,13 +100,13 @@
 		<default>Eu sabia que filha de vocês eu não era, só não sabia que era filha de pessoas que já moraram em outro planeta...</default>
 	</talk>
 	<talk character="Halen">
-		<default>Sabia???</default>
+		<default>Sabia?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Deviam falar mais baixo de noite.</default>
 	</talk>
 	<talk character="Rith">
-		<default>Até que horas a senhorita fica acordada???</default>
+		<default>Até que horas a senhorita fica acordada?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não tenho culpa se não me deixam dormir com o escândalo que fazem.</default>
@@ -181,13 +175,13 @@
 		<default>Tem um quarto que fica na divisa dos terrenos, lá no fundo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tenho vinte e três anos, sei me virar sozinha.</default>
+		<default>Tenho vinte e dois anos, sei me virar sozinha.</default>
 	</talk>
 	<teller>
 		<default>Mel sai. Eles ficam em silêncio por algum tempo.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Sr Júlio...</default>
+		<default>Sr. Júlio...</default>
 	</talk>
 	<talk character="Júlio">
 		<default>Eu não...</default>
@@ -259,7 +253,7 @@
 		<default>Pra onde está indo?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pro mais longe possível.</default>
+		<default>Pro mais longe possível. Além de tudo aguentar drama de adolescente não dá.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Por que foge dos que querem te ajudar?</default>
@@ -276,14 +270,17 @@
 	<talk character="Angely">
 		<default>Sobe aí.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Leite ninho tá caro.</default>
-	</talk>
+	<teller>
+		<default>Ela o encara.</default>
+	</teller>
 	<talk character="Angely">
-		<default>Não pode ter um amigo mais novo?</default>
+		<default>Não veio atrás de gente a toa, sei que precisa de ajuda.</default>
 	</talk>
+	<teller>
+		<default>Ela suspira fundo.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Cinco anos? É, pode ser.</default>
+		<default>Desce. Eu piloto.</default>
 	</talk>
 	<teller>
 		<default>Mel sobe na moto. Eles vão até a casa de Júlio.</default>
@@ -295,7 +292,7 @@
 		<default>Ele não mora aqui?</default>
 	</talk>
 	<talk character="Júlio">
-		<default>Ele vai ficar na casa de Rith. Agora que está namorando com a minha filha não quero que eles durmam na mesma casa.</default>
+		<arrive>Ele vai ficar na casa de Rith. Agora que está namorando com a minha filha não quero que eles durmam na mesma casa.</arrive>
 	</talk>
 	<talk character="Angely">
 		<default>Ela pode ficar aqui?</default>
@@ -349,7 +346,7 @@
 		<default>Nossa, ninguém arruma mesmo essa casa.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>É melhor irdes embora.</default>
+		<default>É melhor ires embora.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Beatrice?</default>
@@ -358,7 +355,7 @@
 		<default>Cresceste bastante.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Pelas minhas contas, você tem treze. Ou pelo menos deveria ter...</default>
+		<default>Pelas minhas contas, você devia ter uns quatorze...</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Doze. Por quê? Não te parece?</default>
@@ -367,16 +364,16 @@
 		<default>Parece ter uns dezoito...</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Melhor sairdes, Elian voltará antes de amanhecer.</default>
+		<default>Melhor saires, Elian voltará antes de amanhecer.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Você fala tanto desse Elian e eu nunca o vi.</default>
+		<default>Você falava tanto desse Elian, e eu nunca o vi.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Ele sai quando escurece.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Cara estranho. Ninguém nunca viu ele...</default>
+		<default>Aliás, ninguém nunca viu...</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Eu não sou ninguém.</default>
@@ -388,10 +385,10 @@
 		<default>Existe!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Tá, desculpa. Queria vê-lo.</default>
+		<default>Tá, desculpa. Queria ver ele.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Não, vá embora. Ele não gosta que eu fale com humanos...</default>
+		<default>Não, vai embora. Ele não gosta que eu fale com humanos...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ah???</default>
@@ -424,60 +421,9 @@
 		<default>Angely mostra a mão aberta com a cruz na palma. Ela fecha a mão dele.</default>
 	</teller>
 	<talk character="Beatrice">
-		<default>Leves isso daqui. Ele pediu pra que eu queimasse, não sabe que eu guardei pra devolver. Vás agora.</default>
+		<default>Leves isso daqui. Ele pediu pra que eu queimasse, não sabe que eu guardei pra devolver. Vai agora.</default>
 	</talk>
 	<teller>
-		<default>Ela coloca a cruz dentro da pequena bolsa e volta pra casa. Os dias vão se passando. Meg e Agatha ficam com cada vez mais ciúme. Chega o fim do ano. Na sala da casa de Júlio, ele está sentado numa cadeira com um laptop, Agatha sentada no chão, Edmont deitado com a cabeça no colo de Agatha, Rith e Halen num sofá, Angely sentado noutro sofá, Meg na perna do sofá, perto de Angely e Kat no degrau da escada.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Pra onde nós vamos?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Que tal Egito? Nem aproveitamos a viagem direito...</default>
-	</talk>
-	<talk character="Kat">
-		<default>De jeito nenhum!</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Tá, tudo bem!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Que tal Europa?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É pode ser...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Transilvânia.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por quê?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Aproveita o embalo da outra viagem pra continuar conhecendo as coisas estranhas do mundo.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Tá querendo ser salva de novo.</default>
-	</talk>
-	<teller>
-		<default>Mel entra na sala. Meg e Agatha não gostam.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Angely, preciso falar com você.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tá.</default>
-	</talk>
-	<teller>
-		<default>Angely levanta e eles vão até a cozinha.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Droga.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Desiste, Meg.</default>
-	</talk>
-	<teller>
-		<default>Meg atira uma almofada em Kat.</default>
+		<default>Ela coloca a cruz dentro da pequena bolsa e volta pra casa.</default>
 	</teller>
 </story>
