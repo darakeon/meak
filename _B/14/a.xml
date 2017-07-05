@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="14" scene="a">
 	<teller>
-		<default>05/02/2006 (domingo), 3:00. Beatrice e Zenon andam por Ares armados.</default>
+		<division>2006</division>
+	</teller>
+	<teller>
+		<default>Madrugada. Ares. Beatrice e Zenon andam, com bestas nas mãos.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Se eu te perguntar uma coisa, promete que vai ser sincero?</default>
+		<default>Se eu te perguntar uma coisa, promete que não mente?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Perguntar o que?</default>
@@ -15,6 +18,9 @@
 	<talk character="Zenon">
 		<default>Isso seria passar cheque em branco.</default>
 	</talk>
+	<teller>
+		<default>Beatrice franze a sobrancelha.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Não confia em mim ou pretende mentir sobre algo?</default>
 	</talk>
@@ -22,7 +28,7 @@
 		<default>Eu prometo.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Transou com a Michele?</default>
+		<default>Transou com Michele?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Não.</default>
@@ -46,22 +52,28 @@
 		<default>Não.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Cuidado, daqui a pouco ela procura outro.</default>
+		<default>Cuidado, daqui a pouco Michele procura fora.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Acha mesmo que...</default>
 	</talk>
+	<teller>
+		<default>Beatrice ri.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Tô brincando. Se nem a Kat procurou outro ainda!</default>
+		<default>Cê cai em qualquer clichê ainda.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Vamos pra casa?</default>
 	</talk>
+	<teller>
+		<default>Beatrice para de andar. Zenon também.</default>
+	</teller>
 	<talk character="Bea">
 		<default>É, acho que cinco tá bom.</default>
 	</talk>
 	<teller>
-		<default>Os dois chegam na nova MEAK. Apenas um andar com a recepção, sofás, dois quartos ao lado, banheiro; armas e livros na dimensão.</default>
+		<first>MEAK. Uma casa térrea. Entram. A recepção tem uma estante com alguns livros e um telefone, sofás e quatro portas, duas no fundo. Beatrice abre a porta da direita: um banheiro médio, com chuveiro. Vai até a pia e lava as mãos. Depois vai até a porta da esquerda. Um espaço gigantesco. Beatrice vai até Zenon e pendura sua besta. Voltam para a recepção. Beatrice bate em uma porta. Inês abre. Atrás de si, um quarto.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Aconteceu alguma coisa?</default>
@@ -72,56 +84,47 @@
 	<talk character="Zenon">
 		<default>Sempre doce e sutil.</default>
 	</talk>
+	<teller>
+		<default>Inês vai até o sofá e solta o corpo.</default>
+	</teller>
 	<talk character="Inês">
 		<default>Expulsei daqui dizendo que Janaína iria ver Estela. Gato escaldado...</default>
 	</talk>
 	<talk character="Kat">
-		<arrive>Terceiro ano do colegial, isso sim é vida! Logo, logo saímos e...</arrive>
+		<arrive>Último ano de escola! Logo, logo, saímos, e...</arrive>
 	</talk>
 	<talk character="Zenon">
 		<default>Não vai fazer faculdade?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Como assim?</default>
+		<default>Como assim?!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Sua mãe vai dar cria se souber.</default>
+		<default>Mel vai dar cria se souber.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Quando ela voltar, eu faço.</default>
+		<default>Quando voltar, eu faço.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Hahaha.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não acha que vai me obrigar a fazer isso, acha? Por que o Derik nem os estudos aqui completou.</default>
+		<default>Não acha que vai me obrigar a fazer isso, acha? Derik nem os estudos completou.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ele completou lá.</default>
+		<arrive>Já justifiquei isso.</arrive>
 	</talk>
 	<talk character="Kat">
 		<default>Estela não vai fazer faculdade.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Vai continuar os estudos com o Grupo. Peraí, essa felicidade toda, juntando ao cheiro...</default>
-	</talk>
-	<talk character="Derik">
-		<arrive>Venceu a aposta.</arrive>
-	</talk>
-	<talk character="Kat">
-		<default>Mas tomei banho, não era pra estar sentindo!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Não acredito nisso!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Você foi com...</default>
+		<default>Vai continuar os estudos com o Grupo.</default>
 	</talk>
 	<talk character="Michele">
-		<arrive>Doze anos de idade. Pelo menos é o que sei.</arrive>
+		<arrive>E eu também.</arrive>
 	</talk>
 	<teller>
-		<default>Michele e Zenon se beijam.</default>
+		<default>Michele e Zenon se beijam. Continuam se beijando.</default>
 	</teller>
 	<talk character="Bea">
 		<irony>Pessoal, atenção, tem algum voyeur aqui?</irony>
@@ -139,7 +142,7 @@
 		<default>Contado o que?</default>
 	</talk>
 	<teller>
-		<default>Os dois se encaram durante algum tempo.</default>
+		<default>Zenon encara Beatrice durante algum tempo.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Kat, vamos pra casa?</default>
@@ -148,7 +151,7 @@
 		<default>Não vim contar do meu sonho?</default>
 	</talk>
 	<teller>
-		<default>Bea, Inês, Michele e Zenon olham para ela.</default>
+		<default>Bea, Inês, Michele e Zenon olham para Kat.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Que sonho?</default>
@@ -168,20 +171,14 @@
 	<talk character="Derik">
 		<default>É fácil, a profissão do Beleno é comer e Estela e Alan...</default>
 	</talk>
-	<talk character="Kat">
-		<default>Você está desocupado porque quer então!</default>
-	</talk>
-	<talk character="Derik">
-		<default>A gente acabou de sair do quarto!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Usaram o quarto de segurança???</default>
-	</talk>
 	<talk character="Michele">
 		<default>Ei, perguntei o que disse pra ela!</default>
 	</talk>
 	<teller>
-		<default>Inês sai. Encontra Alete e a abraça. Beatrice fica olhando a confusão. Sai dali também. Fica andando pela cidade. Asas e, em minutos, ela se vê em casa.</default>
+		<default>Inês sai. Beatrice olha para as pessoas. Sai dali também. Asas.</default>
+	</teller>
+	<teller>
+		<first>Pousam no jardim de casa.</first>
 	</teller>
 	<talk character="Bea">
 		<default>Carona?</default>
@@ -214,17 +211,21 @@
 		<default>Não sabia que fênixs podiam ser...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Bissexuais? Inês não é.</default>
+		<default>Bissexuais? Podem. Mas Inês não é.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Peraí, então...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Vampiros. Só saem juntas.</default>
+		<default>Vampiros. Só saem junto.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Transformou minha irmã numa prostituta que nem ela???</default>
-		<teller>fica sem jeito</teller>
+	</talk>
+	<teller>
+		<default>Beleno arregala os olhos.</default>
+	</teller>
+	<talk character="Beleno">
 		<default>Ai, desculpa!</default>
 	</talk>
 	<talk character="Bea">
@@ -234,7 +235,7 @@
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ah, droga... Não acredito que...</default>
+		<default>Tá falando sério?!</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Não tinha motivo para pedir desculpa a primeira vez, né?</default>
@@ -246,7 +247,7 @@
 		<default>É que você saia com vampiros.</default>
 	</talk>
 	<talk character="Bea">
-		<default>É, isso é putaria, eu sei disso, por isso não precisava pedir desculpa, entende? Eu mudei, sabia que aquilo tava errado, fala como se ainda fizesse e fosse daquele jeito!</default>
+		<default>É, isso é bizarro, eu sei disso, por isso não precisava pedir desculpa, entende? Eu mudei, sabia que aquilo tava errado, fala como se ainda fizesse e fosse daquele jeito!</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Não... Achei que ainda saísse com vampiros.</default>
@@ -273,22 +274,28 @@
 		<default>Eu sei.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não é a pior profissão do mundo.</default>
+		<default>Não é errado ser prostitura.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Acha que ela está fazendo por dinheiro?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não. Mas não é a pior profissão.</default>
+		<default>Não. Mas não é errado.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Nem é por dinheiro. Como sabe disso???</default>
+		<default>Nem é por dinheiro.</default>
+	</talk>
+	<teller>
+		<default>Beleno franze a sobrancelha.</default>
+	</teller>
+	<talk character="Beleno">
+		<default>Como sabe disso???</default>
 	</talk>
 	<talk character="Bea">
-		<default>Você perguntou o que eu acho.</default>
+		<default>Você perguntou o que eu acho, não disse que sei.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Tá certo. Tô preocupado com ela. Sabe, sair fazendo...</default>
+		<default>Tá certo. Tô preocupado com Inês. Sabe, sair fazendo...</default>
 	</talk>
 	<talk character="Bea">
 		<default>Vampiros não transmitem doenças e fênixs também não pegam.</default>
@@ -309,7 +316,7 @@
 		<default>A pergunta foi direta.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ela me contou.</default>
+		<default>Ela... me contou.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Contou como?</default>
@@ -319,7 +326,10 @@
 		<screamed>Sei lá, não me perturba, Beleno!</screamed>
 	</talk>
 	<teller>
-		<default>Beatrice sai. Na outra casa, Alan dorme. Estela está olhando-o.</default>
+		<default>Beatrice sai.</default>
+	</teller>
+	<teller>
+		<first>Alan dorme. Estela está olhando.</first>
 	</teller>
 	<talk character="Etos">
 		<arrive>Oi.</arrive>
@@ -331,10 +341,12 @@
 		<default>Olha que um dia eu consigo.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Aí poderá entrar. Mas vai estar tão puto que não vai lembrar. Agora dá licença que eu vou tentar dormir, assim como o meu namorado está fazendo.</default>
+		<default>Aí poderá entrar. Mas vai estar tão puto que não vai lembrar. Agora dá licença que eu vou tentar dormir, assim como o</default>
+		<frizz>meu namorado</frizz>
+		<default>tá fazendo.</default>
 	</talk>
 	<teller>
-		<default>Estela levanta e fecha a janela em que Etos estava. Deita-se de lado. Alan abraça-a. Ela sorri.</default>
+		<default>Etos sai da janela. Estela levanta. Fecha a janela em que Etos estava. Deita-se de lado. Alan abraça Estela. Estela sorri.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Tava ouvindo tudo, né?</default>
@@ -346,13 +358,13 @@
 		<default>Meu. Todinho meu.</default>
 	</talk>
 	<teller>
-		<default>Derik está na cozinha.</default>
+		<first>Derik está na cozinha.</first>
 	</teller>
 	<talk character="Leo">
 		<ghost>Oi.</ghost>
 	</talk>
 	<teller>
-		<default>Ele pega uma faca e aponta para o nada.</default>
+		<default>Derik pega uma faca e aponta para o nada.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Quem tá aí???</default>
@@ -409,17 +421,17 @@
 		<default>Se está aqui há tanto tempo, deve saber que matamos Pandora.</default>
 	</talk>
 	<talk character="Leo">
-		<ghost>O quê???</ghost>
+		<ghost>Quê???</ghost>
 	</talk>
 	<talk character="Derik">
-		<default>Acho que ele ainda não sabia.</default>
+		<default>Acho que ainda não sabia.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Leo? Você tá aí?</default>
 		<screamed>Leo???</screamed>
 	</talk>
 	<talk character="Derik">
-		<default>Acho que ele se zangou.</default>
+		<default>Acho que se zangou.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Dane-se.</default>
@@ -428,12 +440,12 @@
 		<default>Não vai poder mais virar fantasma.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Por quê??? Acha que tenho medo dele???</default>
+		<default>Por quê??? Acha que tenho medo de Leo???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não. Eu tenho medo suficiente pra nós dois, tá?</default>
+		<default>Não. Você não tem nenhum. E é por isso que eu tenho medo suficiente pra nós dois.</default>
 	</talk>
 	<teller>
-		<default>Kat o abraça.</default>
+		<default>Kat abraça Derik.</default>
 	</teller>
 </story>
