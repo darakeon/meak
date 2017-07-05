@@ -32,10 +32,15 @@ namespace Structure.Data
             return Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".xml");
         }
 
-        public static String FtpFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
-        {
-            return SceneFilePath(folderPath, seasonID, episodeID, sceneID).Replace(@"\", "/");
-        }
+		public static String FtpDirectoryPath(String folderPath, String seasonID, String episodeID)
+		{
+			return EpisodePath(folderPath, seasonID, episodeID).Replace(@"\", "/");
+		}
+
+		public static String FtpFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
+		{
+			return SceneFilePath(folderPath, seasonID, episodeID, sceneID).Replace(@"\", "/");
+		}
 
         internal static String BackupFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
         {

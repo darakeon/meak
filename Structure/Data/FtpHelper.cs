@@ -31,6 +31,8 @@ namespace Structure.Data
             return upload();
         }
 
+
+
         private Boolean testEpisode()
         {
             var request = newRequest(WebRequestMethods.Ftp.DownloadFile);
@@ -72,26 +74,58 @@ namespace Structure.Data
 
         }
 
-        private string upload()
+
+
+        private String upload()
         {
             var request = newRequest(WebRequestMethods.Ftp.UploadFile);
+
+	        var error = createDirectory();
+
+	        if (!String.IsNullOrEmpty(error))
+		        return error;
 
             copyContent(request);
 
             return getResponse(request);
         }
 
-        private FtpWebRequest newRequest(String method)
+
+
+	    private FtpWebRequest newRequest(String method)
         {
             var url = Paths.FtpFilePath(Config.FtpUrl, season, episode, scene);
             var request = (FtpWebRequest) WebRequest.Create(url);
             
             request.Method = method;
-            request.Credentials = new NetworkCredential(Config.FtpLogin, password);
+            request.Credentials = createCredentials();
             request.UsePassive = false;
 
             return request;
         }
+
+
+	    private String createDirectory()
+		{
+			var url = Paths.FtpDirectoryPath(Config.FtpUrl, season, episode);
+			var request = WebRequest.Create(url);
+			request.Method = WebRequestMethods.Ftp.MakeDirectory;
+			request.Credentials = createCredentials();
+
+		    String error = null;
+
+			using (var response = (FtpWebResponse)request.GetResponse())
+			{
+				if (response.StatusCode != FtpStatusCode.PathnameCreated)
+				{
+					error = response.StatusDescription;
+				}
+			}
+
+		    return error;
+		}
+
+
 
         private void copyContent(FtpWebRequest request)
         {
@@ -108,15 +142,15 @@ namespace Structure.Data
             }
         }
 
-        private static string getResponse(FtpWebRequest request)
+
+
+        private static String getResponse(FtpWebRequest request)
         {
             String error = null;
 
             using (var response = (FtpWebResponse)request.GetResponse())
             {
-                var success = new[] { FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK };
-
-                if (!response.StatusCode.IsIn(success))
+                if (!response.StatusCode.IsIn(ftpSuccessCodes))
                 {
                     error = response.StatusDescription;
                 }
@@ -126,6 +160,22 @@ namespace Structure.Data
 
             return error;
         }
+
+
+
+	    private NetworkCredential createCredentials()
+		{
+			return new NetworkCredential(Config.FtpLogin, password);
+		}
+
+		private static FtpStatusCode[] ftpSuccessCodes
+		{
+			get
+			{
+				return new[] { FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK };
+			}
+		}
+
 
 
     }
