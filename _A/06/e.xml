@@ -13,7 +13,7 @@
 		<default>Meg...</default>
 	</talk>
 	<teller>
-		<default>Mel tenta acalmar Kat. Angely procura Meg pela casa. A encontra no chão da cozinha, jogada, morta. Angely pega ela. A abraça. O desespero lhe traz lágrimas nos olhos.</default>
+		<default>Angely procura Meg pela casa. Encontra-a no chão da cozinha, jogada. Angely abraça-a. Seus olhos enchem de lágrimas.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Eu deveria ter contado...</default>
@@ -21,24 +21,19 @@
 	<teller>
 		<default>Angely vê um recado na parede:</default>
 		<letter>Meus pêsames.</letter>
-	</teller>
-	<talk character="Angely">
-		<default>Não!</default>
-	</talk>
-	<teller>
-		<default>Ele treme. Senta no chão e pega Meg no colo. Beija os lábios. Passa a mão no rosto e nos cabelos. Leva ela pra sua casa, no colo. Pousa no balanço e vai até o porão. Edmont o segue.</default>
+		<default>Puxa Meg para seu colo. Beija os lábios. Passa a mão no rosto e nos cabelos. Leva-a pra sua casa, no colo. Pousa no balanço e vai até o porão. Edmont chega.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Que está fazendo???</default>
+		<default>Que está fazendo?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Vou atrás daquele desgraçado.</default>
+		<default>Vou atrás dele.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Angely, esfrie a cabeça...</default>
+		<default>Angely, esfria a cabeça...</default>
 	</talk>
 	<talk character="Jak">
-		<default>4a lição: nada se consegue de cabeça quente.</default>
+		<default>Ele tem razão. Nada se consegue de cabeça quente.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Vão pro inferno você e suas malditas lições!</default>
@@ -47,7 +42,7 @@
 		<default>Angely, ele tá certo.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ah, é??? Não contei nada pra Meg, esse desgraçado mandou não contar! Viu o que aconteceu???</default>
+		<default>Não contei nada pra Meg, mandou não contar! Viu o que aconteceu?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Angely...</default>
@@ -59,14 +54,17 @@
 		<default>Não, não faria isso.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ah, não???</default>
+		<default>Ah, não?!</default>
 	</talk>
 	<talk character="Jak">
 		<default>Tenho certeza que não.</default>
 	</talk>
+	<teller>
+		<default>Ele senta no chão.</default>
+	</teller>
 	<talk character="Angely">
 		<default>É claro que não.... A culpa não foi dele...</default>
-		<teller>Angely se senta no chão</teller>
+		<teller>olha para o chão</teller>
 		<default>Foi minha...</default>
 	</talk>
 	<talk character="Edmont">
@@ -76,7 +74,7 @@
 		<default>Jak não me obrigou a seguir o que disse... Eu devia tê-la prevenido... Devia ter previsto que ele viria atrás dela...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Agora você tá falando ainda mais besteira.</default>
+		<default>Tá falando mais besteira.</default>
 	</talk>
 	<talk character="Jak">
 		<default>Não está raciocinando bem, Angely.</default>
@@ -85,19 +83,19 @@
 		<default>Ela poderia estar viva... Viva!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Pirou...</default>
+		<default>Angely...</default>
 	</talk>
 	<teller>
-		<default>Angely está meio atordoado. Levanta e joga as armas no chão. Enfim, senta-se, com os olhos já cheios das lágrimas de remorso.</default>
+		<default>Angely vai até o balcão. Se apoia, com a cabeça baixa.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Eu deveria ter contado pra ela... Ou pelo menos deveria estar aqui, ter protegido ela...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Se acalma, tá...</default>
+		<default>Se acalma.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Me acalmar??? Como???</default>
+		<default>Me acalmar?! Como?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Nós vamos pegá-lo. E vamos fazer isso por Elisa, por Rith, por Júlio, por Halen, por Meg e por todos os que ele já matou e torturou.</default>
@@ -109,19 +107,21 @@
 		<default>Não foi!</default>
 	</talk>
 	<teller>
-		<default>Meg é enterrada. Angely passa horas no cemitério. Mel e Edmont se encarregam da imprensa. Manhã, uma semana depois da morte (já é 2022).</default>
+		<default>No dia seguinte, Meg é enterrada. Angely permanece no cemitério. Mel e Edmont se encarregam da imprensa.</default>
+		<division>2022</division>
+		<default>Manhã, uma semana depois da morte. Kat chega na MEAK.</default>
 	</teller>
-	<talk character="Edmont">
+	<talk character="Kat">
 		<default>Você sabe onde está a Mel?</default>
 	</talk>
-	<talk character="Kat">
-		<default>Não a vejo desde o enterro de Meg...</default>
+	<talk character="Edmont">
+		<default>Não. Desde o enterro de Meg...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pessoal...</default>
+		<arrive>Pessoal...</arrive>
 	</talk>
 	<talk character="Edmont">
-		<default>Mel, onde esteve???</default>
+		<default>Mel, onde você tava?!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Achei que ele poderia ter ido atrás e Beatrice, mas não foi. Viram o jornal?</default>
@@ -137,7 +137,7 @@
 		<default>Pelo que Elisa disse, foi.</default>
 	</talk>
 	<teller>
-		<default>Angely adentra a casa. Kat pega papel e caneta.</default>
+		<default>Angely entra. Kat pega papel e caneta.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Que está fazendo?</default>
@@ -146,10 +146,12 @@
 		<default>Anotando o endereço da igreja.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Boa idéia, ele provavelmente deve ter ficado perto da igreja.</default>
+		<default>Tem razão, ele provavelmente deve ter ficado perto da igreja...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não, ele está na igreja.</default>
+		<default>Não, ele está</default>
+		<frizz>na</frizz>
+		<default>igreja.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Como sabe disso?</default>
@@ -157,26 +159,11 @@
 	<talk character="Kat">
 		<default>Um sonho.</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Hoje pegamos ele.</default>
-	</talk>
 	<teller>
-		<default>Os três vão até a igreja. Kat e Aurium vão também. Eles entram pelos fundos da igreja.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Bom, aqui estamos.</default>
-	</talk>
-	<teller>
-		<default>Eles vão procurar, cada um em um canto. Kat fica na porta, caso Elian resolvesse fugir (de capuz). Ele chega em passos silenciosos. Aurium o ataca. Ele atira o cachorro longe.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Socorro!</default>
-	</talk>
-	<teller>
-		<default>Edmont aparece.</default>
+		<default>Os quatro e Aurium vão até a igreja. Os três entram pelos fundos. Se separam e vão procurar, cada um em um canto. Kat fica na porta, caso Elian resolvesse fugir (de capuz). Ele chega em passos silenciosos. Aurium o ataca. Ele atira o cachorro longe. Kat apita. Edmont aparece.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Não encoste nela!</default>
+		<default>Não vai encostar nela!</default>
 	</talk>
 	<talk character="Elian">
 		<default>Qual o problema? Já sei, ela lembra-te a tua namorada... Não tenho eu culpa se acabaste com o meu jantar, tive que procurar outro.</default>
@@ -186,12 +173,6 @@
 	</talk>
 	<talk character="Elian">
 		<default>Então ele era sensível demais pra agüentar que o amor da vida dele morresse? Oras, até minhas vítimas são melhores do que isso...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Engula o que disse.</default>
-	</talk>
-	<talk character="Elian">
-		<default>Quem sabe agora que ele não tá mais ocupado com a namorada ele não arranja algo mais adequado... Um namorado!</default>
 	</talk>
 	<teller>
 		<default>Edmont o ataca, mas é derrubado. Mel aparece com uma besta.</default>
@@ -209,19 +190,19 @@
 		<default>Depois daquele dia? Ainda tens coragem pra me matar?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Um...</default>
+		<default>Acha mesmo que não?</default>
 	</talk>
 	<talk character="Elian">
 		<default>Onde arranjaste essa coragem?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Dois...</default>
+		<default>Não devia mexer com a minha família.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Também ameaçaste naquele dia.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Engula o que disse.</default>
+		<default>Isso não é uma ameaça.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Fraca.</default>
@@ -245,7 +226,7 @@
 		<irony>Obrigado pela preocupação.</irony>
 	</talk>
 	<teller>
-		<default>Mel e Edmont levam Kat (com Aurium) pra casa. Edmont ainda tenta consolar Agatha. É noite quando as duas dormem.</default>
+		<default>Mel e Edmont levam Kat (com Aurium) pra casa. Angely vai para casa sozinho. Edmont fica um pouco com Agatha. É noite quando as duas dormem.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Que foi, Edmont?</default>
@@ -260,7 +241,7 @@
 		<default>Quero pegar aquele cara.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Amanhã tentaremos.</default>
+		<default>Amanhã.</default>
 	</talk>
 	<teller>
 		<default>Os dois vão pra casa.</default>
@@ -272,7 +253,7 @@
 		<default>Angely, você tá em casa???</default>
 	</talk>
 	<teller>
-		<default>Eles sobem a vão até o quarto de Angely. Ele cortou os pulsos.</default>
+		<default>Eles sobem a vão até o quarto de Angely. Ele está deitado. Edmont senta ao lado dele. Sente um cheiro estranho. Puxa o cobertor. Está tudo cheio de sangue: Angely cortou os pulsos.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Ah, meu Deus!</default>
@@ -290,7 +271,8 @@
 		<default>Por que me trouxeram pra cá?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Talvez por que você tenha tido um certo incidente com os pulsos. Se você tá pensando em céu e inferno, esqueceu que os suicidas vão pro outro lado.</default>
+		<irony>Talvez porque você tenha tido um certo incidente com os pulsos.</irony>
+		<default>Se você tá pensando em céu e inferno, esqueceu que os suicidas vão pro outro lado.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu não me importo com isso.</default>
@@ -302,7 +284,7 @@
 		<default>Deve mesmo. A culpa foi minha.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Pára com essa ladainha.</default>
+		<default>Pára com essa merda.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu não tenho o direito de estar vivo.</default>
@@ -317,13 +299,7 @@
 		<default>Então, ele está bem?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Está. EU quero matar aquele maldito.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Matou Rith, Halen, Júlio e Meg, enganou uma garota e conseguiu enlouquecer Angely... Não dá mesmo mais pra agüentar isso.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vou pegá-lo e fazer picadinho dele.</default>
+		<default>Fisicamente, sim. Quero matar eu mesmo aquele maldito.</default>
 	</talk>
 	<teller>
 		<default>Kat está em casa. Dorme. Sonha. Alguém se senta à beira da cama. Está com uma capa preta.</default>
@@ -338,7 +314,7 @@
 		<default>Aimeé...</default>
 	</talk>
 	<talk character="Aimeé">
-		<default>Que está fazendo aqui?</default>
+		<default>Que tá fazendo aqui?</default>
 	</talk>
 	<talk character="Diego">
 		<default>Vim te ver.</default>
@@ -356,7 +332,7 @@
 		<default>Não vou te morder, não precisa ficar com tanto medo.</default>
 	</talk>
 	<talk character="Aimeé">
-		<default>Não sei, trai seu próprio pai...</default>
+		<default>Trai seu próprio pai.</default>
 	</talk>
 	<talk character="Diego">
 		<default>Não tenho culpa se sua mãe vive correndo atrás de mim.</default>
@@ -380,7 +356,7 @@
 		<default>Qual o problema? Ah, esqueci! Tem ciúmes de mim...</default>
 	</talk>
 	<talk character="Aimeé">
-		<default>Eu???</default>
+		<default>Eu?!</default>
 	</talk>
 	<talk character="Diego">
 		<default>Pode falar, eu já sei.</default>
@@ -401,7 +377,7 @@
 		<default>Diego se aproxima e a beija. Ela o empurra e se levanta da cama.</default>
 	</teller>
 	<talk character="Aimeé">
-		<default>Como se atreve???</default>
+		<default>Como se atreve?!</default>
 	</talk>
 	<talk character="Diego">
 		<default>Bem que gostou.</default>
@@ -440,7 +416,7 @@
 		<default>Não quer.</default>
 	</talk>
 	<teller>
-		<default>Ele a beija novamente. A levanta e coloca sobre um móvel, ficando entre suas pernas. Começa a beijar-lhe o pescoço. O pai dele chega ao quarto e ela se assusta. Ele se afasta, com um sorriso sarcástico.</default>
+		<default>Ele a beija novamente. A levanta e coloca sobre um móvel, ficando entre suas pernas. Começa a beijar-lhe o pescoço. O pai dele chega ao quarto, e o joga no chão. Aimeé se assusta. A mãe dela chega também. Diego sorri.</default>
 	</teller>
 	<talk character="Aimeé">
 		<default>Eu, eu...</default>
@@ -479,19 +455,19 @@
 		<default>No hospital.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Elian pegou ele???</default>
+		<default>Elian pegou ele?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não, ele tentou se matar.</default>
 	</talk>
 	<talk character="Kat">
-		<default>A troco de banana???</default>
+		<default>A troco de quê?!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, acha que é o culpado, por que não avisou Meg.</default>
+		<default>Acha que é o culpado, por que não avisou Meg.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Que absurdo! Se for assim, nós todos somos. Qualquer um podia ter falado pra ela.</default>
+		<default>Que absurdo! Se for assim, nós todos somos! Qualquer um podia ter falado pra ela!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Angely é fraco demais. Sempre foi.</default>
@@ -550,8 +526,8 @@
 	<talk character="Kat">
 		<default>Por que diz que Angely é fraco?</default>
 	</talk>
-	<talk character="Kat">
-		<default>Na minha opinião, só as mentiras não são para serem ditas.</default>
+	<talk character="Edmont">
+		<default>Porque ele é.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Por que acha que ele é fraco?</default>
