@@ -3,6 +3,7 @@
     public enum TellerStyle
     {
         Default,
+        First,
         Division,
         Letter,
     }

@@ -29,18 +29,10 @@
     @for (var s = 0; s < Model.Story.SceneList.Count; s++)
     {
         var scene = Model.Story.SceneList[s];
-        var lastIsTeller = false;
         
         <div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(s)">
             @foreach (var paragraph in scene.ParagraphTypeList)
             {
-                if (lastIsTeller && paragraph == ParagraphType.Teller)
-                {
-                    <br /><br />
-                }
-
-                lastIsTeller = paragraph == ParagraphType.Teller;
-                
                 <div class="paragraph @paragraph.ToString().ToLower()">
                     @switch (paragraph)
                     {
