@@ -1,6 +1,6 @@
 function AddInputItem(obj) {
     var scene = $(obj).attr("scene");
-    $("#save_" + scene).hide();
+    canSubmit = false;
 
     var type = $(obj).attr("type");
 
@@ -38,7 +38,7 @@ function AddPiece(obj) {
         var newInputID = "#Scene" + scene + " #" + subtype + typedParagraph + "_Piece" + (piece + 1);
         AjustThisEditTextSize(newInputID);
 
-        $("#save_" + scene).show();
+        canSubmit = true;
     });
 }
 
@@ -94,7 +94,7 @@ function AddParagraph(obj) {
 
         AjustThisEditTextSize("#Paragraph" + newParagraph);
 
-        $("#save_" + scene).show();
+        canSubmit = true;
     });
 }
 

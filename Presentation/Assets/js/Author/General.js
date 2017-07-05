@@ -3,6 +3,9 @@ $(document).ready(function () {
 
     AjustEditTextSize();
 
+    SaveKey();
+    SaveButton();
+
     $(window).resize(function () {
         AjustEditTextSize();
     });
