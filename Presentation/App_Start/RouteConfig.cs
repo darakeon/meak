@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
+using Structure.Data;
 
-namespace Presentation
+namespace Presentation.App_Start
 {
     public class RouteConfig
     {
@@ -14,10 +11,63 @@ namespace Presentation
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                "LogOn", // Route name
+                "Account/{action}", // URL with parameters
+                new {controller = "Account", action = "LogOn"} // Parameter defaults
             );
+
+            routes.MapRoute(
+                "AuthorScene", // Route name
+                "Author/{controller}/{seasonID}/{action}/{episodeID}/{sceneID}", // URL with parameters
+                new
+                    {
+                        controller = "Season",
+                        seasonID = UrlParameter.Optional,
+                        action = "Index",
+                        episodeID = UrlParameter.Optional,
+                        sceneID = SceneXML.FirstScene
+                    } // Parameter defaults
+                );
+
+            routes.MapRoute(
+                "Author", // Route name
+                "Author/{controller}/{seasonID}/{action}/{episodeID}", // URL with parameters
+                new
+                    {
+                        controller = "Season",
+                        seasonID = UrlParameter.Optional,
+                        action = "Index",
+                        episodeID = UrlParameter.Optional
+                    } // Parameter defaults
+                );
+
+
+
+            routes.MapRoute(
+                "Scene", // Route name
+                "{controller}/{seasonID}/{action}/{episodeID}/{sceneID}", // URL with parameters
+                new
+                    {
+                        controller = "Season",
+                        seasonID = UrlParameter.Optional,
+                        action = "Index",
+                        episodeID = UrlParameter.Optional,
+                        sceneID = SceneXML.FirstScene
+                    } // Parameter defaults
+                );
+
+
+            routes.MapRoute(
+                "Default", // Route name
+                "{controller}/{seasonID}/{action}/{episodeID}", // URL with parameters
+                new
+                    {
+                        controller = "Season",
+                        seasonID = UrlParameter.Optional,
+                        action = "Index",
+                        episodeID = UrlParameter.Optional
+                    } // Parameter defaults
+                );
         }
     }
 }
