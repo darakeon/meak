@@ -19,6 +19,7 @@ namespace Structure.Entities
 
             ID = episode;
             Title = info.Title;
+            LastScene = info.LastScene;
             Summary = info.Summary;
             Season = new Season { ID = season };
         }
@@ -29,6 +30,7 @@ namespace Structure.Entities
 
         public String Title { get; set; }
         public String Summary { get; set; }
+        public String LastScene { get; set; }
 
         public List<Scene> SceneList { get; set; }
 
@@ -46,6 +48,7 @@ namespace Structure.Entities
         {
             get { return SceneList.SingleOrDefault(s => s.ID == scene); }
         }
+
 
 
 

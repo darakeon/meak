@@ -24,9 +24,12 @@
 
 @Html.Partial("Partial/ChangeScene", topSelector)
 
+@{
+    var lastScene = Model.Story.SceneList.Count - 1;
+}
 
 <div class="scenes">
-    @for (var s = 0; s < Model.Story.SceneList.Count; s++)
+    @for (var s = 0; s <= lastScene; s++)
     {
         var scene = Model.Story.SceneList[s];
         
@@ -69,6 +72,10 @@
                 </div>
             }
     
+            @if (s == lastScene && Model.Story.LastScene != scene.ID)
+            {
+                <div class="continue">Continua...</div>
+            }
         </div>
 
         talkCounter = 0;

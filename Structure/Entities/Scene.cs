@@ -32,6 +32,10 @@ namespace Structure.Entities
             return ID;
         }
 
-        public Int32 ParagraphCount { get { return ParagraphTypeList.Count; } }
+        public Int32 ParagraphCount
+        {
+            get { return ParagraphTypeList.Count; }
+        }
+
     }
 }

@@ -82,6 +82,7 @@ namespace Structure.Data
             var info = new Info
             {
                 Title = getNode(mainInfoXml, titleNodeName)["title"],
+                LastScene = mainInfoXml.Attributes["last"],
                 Summary = getNode(mainInfoXml, summaryNodeName).Value,
             };
             
@@ -106,7 +107,9 @@ namespace Structure.Data
         public class Info
         {
             public String Title { get; internal set; }
+            public String LastScene { get; internal set; }
             public String Summary { get; internal set; }
+
         }
 
     }
