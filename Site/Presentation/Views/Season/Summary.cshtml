@@ -16,9 +16,7 @@
 		    <a class="title" href="@Url.RouteUrl("Default", new { action = "Episode", controller = "Season", seasonID = Model.Season, episodeID = episode })">
 			    <span class="epCode">@(episode):</span>
 			    <span class="epTitle">@episode.Title</span>
-			    <span class="epPublish">
-				    Public.: @episode.Publish.ToShortDateString()
-			    </span>
+			    <span class="epPublish">@episode.Publish.ToShortDateString()</span>
 		    </a>
 		    <p class="summary">
 			    @episode.Summary
