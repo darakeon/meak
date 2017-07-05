@@ -69,7 +69,9 @@
     <Content Include="Assets\css\Author\screen_AddEpisode.css" />
     <Content Include="Assets\css\Author\screen_Adder.css" />
     <Content Include="Assets\css\Author\screen_Suggestion.css" />
-    <Content Include="Assets\css\Author\screen_Form.css" />
+    <Content Include="Assets\css\Author\screen_Form.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\css\Author\screen_LogOn.css" />
     <Content Include="Assets\css\screen_Legend.css" />
     <Content Include="Assets\css\Season.css" />
@@ -113,7 +115,10 @@
     <Content Include="Assets\images\background\06.jpg" />
     <Content Include="Assets\images\background\07.jpg" />
     <Content Include="Assets\images\boxes\dark_background.jpg" />
+    <Content Include="Assets\images\boxes\green_background.jpg" />
     <Content Include="Assets\images\boxes\light_background.jpg" />
+    <Content Include="Assets\images\boxes\red_background.jpg" />
+    <Content Include="Assets\images\boxes\yellow_background.jpg" />
     <Content Include="Assets\images\favicon.png" />
     <Content Include="Assets\images\logo.gif" />
     <Content Include="Assets\images\next.gif" />
@@ -123,6 +128,7 @@
     <Content Include="Assets\js\Author\Adder.js" />
     <Content Include="Assets\js\Author\Inputs.js" />
     <Content Include="Assets\js\Author\General.js" />
+    <Content Include="Assets\js\Author\SaveChangeColor.js" />
     <Content Include="Assets\js\Back.js" />
     <Content Include="Assets\js\Author\Suggestion.js" />
     <Content Include="Assets\js\Legend.js" />
