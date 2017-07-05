@@ -82,7 +82,7 @@
 		<default>E quem seria?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Pra alguém como eu? Virgine, melhor sair daí...</default>
+		<default>Pra mim? Virgine, melhor sair daí...</default>
 	</talk>
 	<teller>
 		<default>Virgine aparece.</default>
@@ -91,10 +91,7 @@
 		<default>Um vagabundo sedutor de virgenzinhas inocentes como você...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Como se você mesma não tivesse tentado isso várias vezes!</default>
-	</talk>
-	<talk character="Virgine">
-		<default>Sempre consigo o que quero.</default>
+		<irony>Ah, claro, e você casa com todas elas!</irony>
 	</talk>
 	<teller>
 		<default>Zenon se vira, puxando Kassandra para a sua frente.</default>
@@ -130,7 +127,7 @@
 		<default>Peraí, "descobrir o que aconteceu e impedir que aconteça com outros"?!</default>
 	</talk>
 	<talk character="Virgine">
-		<default>vampiros não caçam os outros à toa. Andrews foi culpa de uma santa.</default>
+		<default>Vampiros não caçam os outros à toa. Andrews foi culpa de uma santa.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Fala tanto do Andrews, acho que é apaixonada por ele...</default>
@@ -160,10 +157,10 @@
 		<default>Já disse que...</default>
 	</talk>
 	<talk character="Kassandra">
-		<default>Depois eu quem não penso! Não precisa acertar.</default>
+		<default>Depois eu quem não penso! Não precisa acertar!</default>
 	</talk>
 	<teller>
-		<default>Ele joga ela em cima de Virgine e foge. Edmont estava andando, com a cabeça no mundo da lua. Zenon correndo e... Os dois no chão.</default>
+		<default>Zenon joga Kassandar em cima de Virgine. Corre. Edmont estava andando, de cabeça baixa. Vira a cabeça para cima e fecha os olhos, mas segue andando. Toma uma trombada e vai parar no chão.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Será que não olha onde anda???</default>
@@ -172,13 +169,13 @@
 		<default>Edmont levanta. Zenon também.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Eu estava fugindo, você que devia prestar atenção!</default>
+		<default>Eu eava fugindo, você que devia prestar atenção!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Achei que sentisse quando alguém se aproximava!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>E sinto. Estava distraído.</default>
+		<default>E sinto. Tava distraído.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Então assume?</default>
@@ -190,7 +187,7 @@
 		<default>Um desastrado vir correndo na minha direção pra testar as leis da física? Não é perigo.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tá, Spiderman, considera perigo uma vampira com uma besta na mão?</default>
+		<default>Tá, homem-aranha, considera perigo uma vampira com uma besta na mão?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Depende. Não se for a Virgine.</default>
@@ -199,7 +196,7 @@
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Que é ela ou que não é perigosa pra mim?</default>
+		<default>Que é ela ou que não é perigo pra mim?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Melhor sair daqui...</default>
@@ -217,7 +214,7 @@
 		<default>Virgine.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ah, quem sabe a criança será a destruidora de todos os caça-vampiros...</default>
+		<default>Quem sabe a criança será destruidora de caça-vampiros...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Como assim?</default>
@@ -227,7 +224,11 @@
 	</talk>
 	<talk character="Zenon">
 		<default>Ah...</default>
-		<teller>vai sair, mas volta</teller>
+	</talk>
+	<teller>
+		<default>Zenon olha para o chão. Arregala os olhos e olha novamente para Edmont.</default>
+	</teller>
+	<talk character="Zenon">
 		<default>Peraí, que criança??? E fugir por que???</default>
 	</talk>
 	<talk character="Edmont">
@@ -237,7 +238,7 @@
 		<arrive>Quanto modéstia falar assim do irmão gêmeo...</arrive>
 	</talk>
 	<talk character="Edmont">
-		<default>Por que está me seguindo?</default>
+		<default>Por que tá me seguindo?</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Não queria a passagem?</default>
@@ -246,16 +247,19 @@
 		<default>Vai atrás de Melody?</default>
 	</talk>
 	<teller>
-		<default>Edmont sai sem responder. Zenon vai sair, mas Beatrice lhe segura o braço.</default>
+		<default>Edmont sai. Zenon vira para o outro lado, mas Beatrice lhe segura o braço e Zenon desvira.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Nem oi?</default>
 	</talk>
+	<teller>
+		<default>Zenon puxa o braço.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Tchau.</default>
 	</talk>
 	<teller>
-		<default>Ele vai sair de novo, mas ela o beija. Então dá um sorriso e sai. Ele não entende. Dali a pouco, Beatrice encontra Virgine e Kassandra.</default>
+		<default>Zenon vira e dá um passo, mas Beatrice puxa Zenon e beija. Dá um sorriso e sai. Zenon dá de ombros e continua seu caminho. Beatrice segue na terceira direção, de onde Zenon vinha. Encontra Virgine e Kassandra.</default>
 	</teller>
 	<talk character="Kassandra">
 		<default>Pra que tanta raiva? Você pega ele depois.</default>
@@ -264,16 +268,16 @@
 		<default>"Se me desse com prostitutas, andava com Kassandra"...</default>
 	</talk>
 	<talk character="Virgine">
-		<default>Que está fazendo aqui?</default>
+		<default>Que tá fazendo aqui?</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Resumindo? Absolutamente nada. E vocês?</default>
 	</talk>
 	<talk character="Kassandra">
-		<default>Ela está caçando Zenon.</default>
+		<default>Ela tá caçando Zenon.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>E por que está ajudando?</default>
+		<default>E por que tá ajudando?</default>
 	</talk>
 	<talk character="Kassandra">
 		<default>Também não tenho mais o que fazer.</default>
@@ -301,19 +305,24 @@
 	</talk>
 	<talk character="Virgine">
 		<default>Pelo que sei, ele quem tem você. Te domaram, Beatrice?</default>
-		<teller>ela desvia o olhar</teller>
-		<default>Talvez fosse isso que estivesse precisando:...</default>
-		<teller>vai até ela e coloca a mão em seu queixo, trazendo seu olhar de volta</teller>
-		<default>...ser domada.</default>
 	</talk>
 	<teller>
-		<default>Virgine ri. Beatrice sai. Enquanto isso, Angely chega em casa, com Dione.</default>
+		<default>Beatrice olha para o chão.</default>
+	</teller>
+	<talk character="Virgine">
+		<default>Talvez fosse isso que estivesse precisando.</default>
+	</talk>
+	<teller>
+		<default>Beatrice olha novamente para Virgine, com a boca travada. Virigine ri. Beatrice sai.</default>
+	</teller>
+	<teller>
+		<first>Enquanto isso, Angely chega em casa, com Dione.</first>
 	</teller>
 	<talk character="Dione">
 		<default>Nada, nada, nada...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Pelo menos sabemos que ela não saiu da cidade.</default>
+		<default>Pelo menos sabemos que não saiu da cidade.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Kat não sonhou nada.</default>
@@ -328,7 +337,7 @@
 		<default>Preciso falar com a Mel.</default>
 	</talk>
 	<talk character="Dione">
-		<default>Pegue a senha.</default>
+		<default>Pega a senha.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Quem é essa?</default>
@@ -337,7 +346,7 @@
 		<default>Kat desce até a sala.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Dione, ela é...</default>
+		<default>Dione, é...</default>
 	</talk>
 	<talk character="Dione">
 		<default>Prazer, sou a profetiza que previu que o filho da Melody Lorrage Kallend será a desgraça do mundo.</default>
@@ -353,9 +362,6 @@
 	</talk>
 	<talk character="Derik">
 		<default>Acha que colocamos isso no jornal por acaso???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não precisam repreendê-la tanto.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Por que ninguém me contou???</default>
@@ -382,7 +388,7 @@
 		<default>E que história é essa de "desgraça do mundo"?</default>
 	</talk>
 	<talk character="Derik">
-		<default>É, a criança dela é o sétimo filho de Dancan.</default>
+		<default>É, a criança de Mel é o sétimo filho de Dancan.</default>
 	</talk>
 	<talk character="Dione">
 		<default>Descobri que...</default>
@@ -400,10 +406,10 @@
 		<default>Sexta treze. Posso continuar?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não quero escutar isso de novo, se não se importam, estou com sono.</default>
+		<default>Não quero escutar isso de novo, se não se importam, tô com sono.</default>
 	</talk>
 	<teller>
-		<default>Derik se transforma em pássaro, pega a roupa no bico e sai voando pela janela.</default>
+		<default>Derik sobe a escada.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Continue.</default>
