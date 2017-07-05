@@ -1,4 +1,5 @@
-﻿@model Presentation.Models.SeasonEditEpisodeModel
+﻿@using Structure.Enums
+@model Presentation.Models.SeasonEditEpisodeModel
            
 <div class="paragraph @Model.CurrentParagraph.ToString().ToLower()" id="Paragraph@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)">
             
@@ -7,7 +8,7 @@
         <adder class="adderTeller" scene="@Model.SceneCounter" caller="@Model.CurrentParagraph" type="Paragraph" subtype="Teller" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" talk="@Model.TalkCounter" onclick="AddInputItem(this)">+</adder>
     </span>
 
-    @if (Model.CurrentParagraph == Structure.Enums.ParagraphType.Talk)
+    @if (Model.CurrentParagraph == ParagraphType.Talk)
     {
         <span class="suggestionCharacter">
             @Html.TextBoxFor(m => m.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Character, 
@@ -35,7 +36,7 @@
         Model.TabIndex++;
     }
 
-    else if (Model.CurrentParagraph == Structure.Enums.ParagraphType.Teller)
+    else if (Model.CurrentParagraph == ParagraphType.Teller)
     {
         for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].TellerList[Model.TellerCounter].Pieces.Count; p++)
         {

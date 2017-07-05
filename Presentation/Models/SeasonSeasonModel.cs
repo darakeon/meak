@@ -11,13 +11,13 @@ namespace Presentation.Models
 {
 	public class SeasonSeasonModel : BaseModel
 	{
-		public SeasonSeasonModel(Paths paths, String season) : base(paths)
+		public SeasonSeasonModel(String season)
 		{
-			var pathXml = Paths.SeasonPath(paths.Xml, season); 
+			var pathXml = Paths.SeasonPath(Paths.Xml, season); 
 			
 			Season = new Season(pathXml, OpenEpisodeOption.GetTitle);
 		    
-            setEpisodeList(paths, season);
+            setEpisodeList(Paths, season);
 		}
 
 	    private void setEpisodeList(Paths paths, String season)

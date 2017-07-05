@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Presentation.Models;
-using Structure.Data;
 using Structure.Entities;
 using Structure.Enums;
 
@@ -13,9 +12,9 @@ namespace Presentation.Helpers
         public SeasonEditEpisodeModel Model;
         public String View;
 
-        public Adder(Paths paths)
+        public Adder()
         {
-            Model = new SeasonEditEpisodeModel(paths);
+            Model = new SeasonEditEpisodeModel();
         }
 
         public void SetScene(Int32 scene)

@@ -17,6 +17,10 @@
         @Html.RouteLink("View", "Scene",
             new { seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = scene.ID },
             new { @class = "darkback", target = "_blank" })
+
+        @Html.RouteLink("Upload", "Upload", 
+            new { seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = scene.ID },
+            new { @class = "darkback", target = "_blank" })
     </div>
 
     @using (Ajax.BeginForm("EditScene", route, ajaxOptions, html))

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using Structure.Helpers;
 
 namespace Structure.Data
 {
@@ -29,6 +30,11 @@ namespace Structure.Data
         public static String SceneFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
         {
             return Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".xml");
+        }
+
+        public static String FtpFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
+        {
+            return SceneFilePath(folderPath, seasonID, episodeID, sceneID).Replace(@"\", "/");
         }
 
         internal static String BackupFilePath(String folderPath, String seasonID, String episodeID, String sceneID)

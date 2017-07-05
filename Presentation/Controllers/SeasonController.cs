@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Mvc;
-using System.Web.Routing;
 using Presentation.Models;
-using Structure.Entities;
 using Presentation.Helpers;
 using Structure.Data;
 using Structure.Helpers;
@@ -14,27 +12,6 @@ namespace Presentation.Controllers
     [StoriesAuthorize]
     public class SeasonController : Controller
     {
-        #region INIT
-        private Paths paths;
-        private EpisodeXML episodeXML;
-        private MessageXML messageXML;
-        
-        protected override void Initialize(RequestContext requestContext)
-        {
-            base.Initialize(requestContext);
-
-            episodeXML = new EpisodeXML(Server);
-            messageXML = new MessageXML(Server);
-
-            var xmlPath = episodeXML.PathXML;
-            var cssPath = Server.MapPath("~/Assets/css");
-
-            paths = new Paths(xmlPath, cssPath);
-        }
-        #endregion
-
-
-
         public ActionResult Index(String seasonID, String returnUrl)
         {
             return String.IsNullOrEmpty(seasonID)
@@ -44,23 +21,21 @@ namespace Presentation.Controllers
 
         private ActionResult index(String returnUrl)
         {
-            var model = new SeasonIndexModel(paths)
-                            {
-                                LogOn =
-                                    {
-                                        Is = !String.IsNullOrEmpty(returnUrl),
-                                        ReturnUrl = returnUrl
-                                    },
-
-                                Messages = messageXML.GetAll()
-                            };
+            var model = new SeasonIndexModel
+            {
+                LogOn =
+                {
+                    Is = !String.IsNullOrEmpty(returnUrl),
+                    ReturnUrl = returnUrl
+                },
+            };
 
             return View("Intro", model);
         }
 
         private ActionResult episodes(String seasonID)
         {
-            var model = new SeasonSeasonModel(paths, seasonID);
+            var model = new SeasonSeasonModel(seasonID);
 
             if (!model.EpisodeList.Any())
             {
@@ -80,23 +55,18 @@ namespace Presentation.Controllers
 
         public ActionResult Episode(String seasonID, String episodeID, String sceneID)
         {
-            Episode episode;
+            SeasonEditEpisodeModel model;
 
             try
             {
-                episode = episodeXML.GetEpisode(seasonID, episodeID);
+                model = new SeasonEditEpisodeModel(seasonID, episodeID, sceneID);
             }
             catch (Exception e)
             {
-                return View("Error", new ErrorModel(paths) { Message = e.Message });
+                return View("Error", new ErrorModel { Message = e.Message });
             }
 
-
-            var model = new SeasonEditEpisodeModel(paths) { Story = episode, ReadingScene = sceneID };
-
-
             model.GetSuggestionLists();
-
 
             if (UrlUserType.IsAuthor())
             {
@@ -112,7 +82,7 @@ namespace Presentation.Controllers
         [HttpPost]
         public void EditTitle(SeasonEpisodeModel model, String seasonID, String episodeID)
         {
-            MainInfoXML.Save(model.Story.Title, model.Story.Summary, paths.Xml, seasonID, episodeID);
+            MainInfoXML.Save(model.Story.Title, model.Story.Summary, model.Paths.Xml, seasonID, episodeID);
         }
 
 
@@ -120,7 +90,7 @@ namespace Presentation.Controllers
         [HttpPost]
         public void EditScene(SeasonEpisodeModel model, String seasonID, String episodeID, String sceneID)
         {
-            var xml = new SceneXML(paths.Xml, seasonID, episodeID, sceneID) { Scene = model.Story[sceneID] };
+            var xml = new SceneXML(model.Paths.Xml, seasonID, episodeID, sceneID) { Scene = model.Story[sceneID] };
 
             xml.WriteStory();
         }
@@ -130,7 +100,7 @@ namespace Presentation.Controllers
         [HttpPost]
         public ActionResult Adder(Int32 scene, String type, String subtype, Int32? paragraph, Int32? teller, Int32? talk, Int32? piece)
         {
-            var adder = new Adder(paths);
+            var adder = new Adder();
 
             adder.SetScene(scene);
 
@@ -159,7 +129,7 @@ namespace Presentation.Controllers
 
         public ActionResult AddEpisode()
         {
-            var model = new SeasonAddEpisodeModel(paths);
+            var model = new SeasonAddEpisodeModel();
 
             return View("Author/AddEpisode", model);
         }
@@ -173,7 +143,7 @@ namespace Presentation.Controllers
             }
 
 
-            var xml = new SceneXML(paths.Xml, model.SeasonEpisode.Season, model.SeasonEpisode.Episode);
+            var xml = new SceneXML(model.Paths.Xml, model.SeasonEpisode.Season, model.SeasonEpisode.Episode);
 
             xml.AddNewStory(model.Title);
 

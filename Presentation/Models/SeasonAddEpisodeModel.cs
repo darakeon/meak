@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using Presentation.Helpers;
-using Structure.Data;
 using Structure.Entities;
 
 namespace Presentation.Models
@@ -14,11 +13,6 @@ namespace Presentation.Models
 
 
         public SeasonAddEpisodeModel()
-        {
-            init();
-        }
-
-        public SeasonAddEpisodeModel(Paths paths) : base(paths)
         {
             init();
 

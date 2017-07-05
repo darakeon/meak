@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Web;
 using Ak.DataAccess.XML;
 using Structure.Entities;
 using Structure.Helpers;
@@ -14,11 +13,10 @@ namespace Structure.Data
         public String PathXML { get; private set; }
 
 
-        public MessageXML(HttpServerUtilityBase server)
+        public MessageXML()
         {
-            setXMLPath(server);
+            setXMLPath();
         }
-
 
 
         public IList<Message> GetAll()
@@ -58,7 +56,7 @@ namespace Structure.Data
 
 
 
-        private void setXMLPath(HttpServerUtilityBase server)
+        private void setXMLPath()
         {
             var folder = Config.MessagesPath;
 
@@ -71,7 +69,7 @@ namespace Structure.Data
             PathXML =
                 isAbsolutePath
                     ? folder
-                    : Path.Combine(server.MapPath("~"), folder);
+                    : Path.Combine(Directory.GetCurrentDirectory(), folder);
 
             if (!Directory.Exists(PathXML))
                 throw new Exception(String.Format("Path '{0}' doesn't exists.", PathXML));

@@ -20,54 +20,71 @@ namespace Presentation.App_Start
                 "AuthorScene", // Route name
                 "Author/{controller}/{seasonID}/{action}/{episodeID}/{sceneID}", // URL with parameters
                 new
-                    {
-                        controller = "Season",
-                        seasonID = UrlParameter.Optional,
-                        action = "Index",
-                        episodeID = UrlParameter.Optional,
-                        sceneID = SceneXML.FirstScene
-                    } // Parameter defaults
-                );
+                {
+                    controller = "Season",
+                    action = "Index",
+                    seasonID = UrlParameter.Optional,
+                    episodeID = UrlParameter.Optional,
+                    sceneID = SceneXML.FirstScene
+                } // Parameter defaults
+            );
 
             routes.MapRoute(
                 "Author", // Route name
                 "Author/{controller}/{seasonID}/{action}/{episodeID}", // URL with parameters
                 new
-                    {
-                        controller = "Season",
-                        seasonID = UrlParameter.Optional,
-                        action = "Index",
-                        episodeID = UrlParameter.Optional
-                    } // Parameter defaults
-                );
+                {
+                    controller = "Season",
+                    action = "Index",
+                    seasonID = UrlParameter.Optional,
+                    episodeID = UrlParameter.Optional
+                } // Parameter defaults
+            );
 
+
+
+            routes.MapRoute(
+                "Upload", // Route name
+                "Upload/{seasonID}/{episodeID}/{sceneID}", // URL with parameters
+                new
+                {
+                    controller = "Upload",
+                    action = "Upload",
+                }, // Parameter defaults
+                new
+                {
+                    seasonID = "[A-Z]",
+                    episodeID = "[0-2][0-9]",
+                    sceneID = "[a-z]"
+                }
+            );
 
 
             routes.MapRoute(
                 "Scene", // Route name
                 "{controller}/{seasonID}/{action}/{episodeID}/{sceneID}", // URL with parameters
                 new
-                    {
-                        controller = "Season",
-                        seasonID = UrlParameter.Optional,
-                        action = "Index",
-                        episodeID = UrlParameter.Optional,
-                        sceneID = SceneXML.FirstScene
-                    } // Parameter defaults
-                );
+                {
+                    controller = "Season",
+                    action = "Index",
+                    seasonID = UrlParameter.Optional,
+                    episodeID = UrlParameter.Optional,
+                    sceneID = SceneXML.FirstScene
+                } // Parameter defaults
+            );
 
 
             routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{seasonID}/{action}/{episodeID}", // URL with parameters
                 new
-                    {
-                        controller = "Season",
-                        seasonID = UrlParameter.Optional,
-                        action = "Index",
-                        episodeID = UrlParameter.Optional
-                    } // Parameter defaults
-                );
+                {
+                    controller = "Season",
+                    action = "Index",
+                    seasonID = UrlParameter.Optional,
+                    episodeID = UrlParameter.Optional
+                } // Parameter defaults
+            );
         }
     }
 }

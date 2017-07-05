@@ -2,7 +2,7 @@
 @using Structure.Helpers
 
 @{
-    var isAuthor = Structure.Helpers.UrlUserType.IsAuthor(Request.Url);
+    var isAuthor = UrlUserType.IsAuthor(Request.Url);
     
     var route = isAuthor ? "Author" : "Default";
 

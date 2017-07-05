@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Web;
 using Structure.Entities;
 using Structure.Enums;
 using Structure.Helpers;
@@ -13,9 +12,9 @@ namespace Structure.Data
         public String PathXML { get; private set; }
 
 
-        public EpisodeXML(HttpServerUtilityBase server)
+        public EpisodeXML()
         {
-            setXMLPath(server);
+            setXmlPath();
         }
 
 
@@ -56,7 +55,7 @@ namespace Structure.Data
         }
 
         
-        private void setXMLPath(HttpServerUtilityBase server)
+        private void setXmlPath()
         {
             var folder = Config.StoriesPath;
 
@@ -66,7 +65,7 @@ namespace Structure.Data
             PathXML =
                 folder.Substring(1, 1) == ":"
                     ? folder
-                    : Path.Combine(server.MapPath("~"), folder);
+                    : Path.Combine(Directory.GetCurrentDirectory(), folder);
 
             if (!Directory.Exists(PathXML))
                 throw new Exception(String.Format("Path '{0}' doesn't exists.", PathXML));

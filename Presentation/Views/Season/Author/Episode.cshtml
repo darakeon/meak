@@ -1,4 +1,5 @@
-﻿@model Presentation.Models.SeasonEditEpisodeModel
+﻿@using Presentation.Models.General
+@model Presentation.Models.SeasonEditEpisodeModel
 
 @{
     ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
@@ -19,7 +20,7 @@
     };
 
     var topSelector =
-        new Presentation.Models.General.TopSelectorModel
+        new TopSelectorModel
         {
             Total = Model.Story.SceneList.Count,
             Current = Convert.ToInt32(Model.ReadingScene[0]) - 97
