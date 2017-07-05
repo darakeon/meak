@@ -23,33 +23,70 @@ namespace Structure.Data
 
         public String Upload()
         {
-            var request = newRequest();
+            var fileExists = testEpisode();
+
+            if (fileExists)
+                return "File already exists";
+
+            return upload();
+        }
+
+        private Boolean testEpisode()
+        {
+            var request = newRequest(WebRequestMethods.Ftp.DownloadFile);
+
+            return testResponse(request);
+        }
+
+        private Boolean testResponse(FtpWebRequest request)
+        {
+            try
+            {
+                var fileExists = false;
+
+                using (var response = (FtpWebResponse) request.GetResponse())
+                {
+                    using (var stream = response.GetResponseStream())
+                    {
+                        if (stream != null)
+                        {
+                            using (var reader = new StreamReader(stream))
+                            {
+                                var content = reader.ReadToEnd();
+
+                                if (content.EndsWith("</story>"))
+                                {
+                                    fileExists = true;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                return fileExists;
+            }
+            catch (WebException)
+            {
+                return false;
+            }
+
+        }
+
+        private string upload()
+        {
+            var request = newRequest(WebRequestMethods.Ftp.UploadFile);
 
             copyContent(request);
 
-            String error = null;
-
-            using (var response = (FtpWebResponse) request.GetResponse())
-            {
-                var success = new[]{ FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK };
-
-                if (!response.StatusCode.IsIn(success))
-                {
-                    error = response.StatusDescription;
-                }
-
-                response.Close();
-            }
-
-            return error;
+            return getResponse(request);
         }
 
-        private FtpWebRequest newRequest()
+        private FtpWebRequest newRequest(String method)
         {
             var url = Paths.FtpFilePath(Config.FtpUrl, season, episode, scene);
             var request = (FtpWebRequest) WebRequest.Create(url);
             
-            request.Method = WebRequestMethods.Ftp.UploadFile;
+            request.Method = method;
             request.Credentials = new NetworkCredential(Config.FtpLogin, password);
             request.UsePassive = false;
 
@@ -70,5 +107,26 @@ namespace Structure.Data
                 requestStream.Close();
             }
         }
+
+        private static string getResponse(FtpWebRequest request)
+        {
+            String error = null;
+
+            using (var response = (FtpWebResponse)request.GetResponse())
+            {
+                var success = new[] { FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK };
+
+                if (!response.StatusCode.IsIn(success))
+                {
+                    error = response.StatusDescription;
+                }
+
+                response.Close();
+            }
+
+            return error;
+        }
+
+
     }
 }
