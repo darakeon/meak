@@ -19,7 +19,7 @@
 		<default>Não é isso.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Então o que é???</default>
+		<default>Então o que é?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Esse segredo, não é só meu.</default>
@@ -37,7 +37,7 @@
 		<default>Deixa, deixa. Ele precisa de tempo.</default>
 	</talk>
 	<teller>
-		<default>Meg fica em sua cama, chorando. Angely pega a moto e vai dar uma volta. Anoitece. Ele vê uma adolescente correr e depois um cara jogá-la ao chão. Então solta a moto e vai até eles.</default>
+		<default>Meg fica em sua cama, chorando. Angely pega a moto e vai para a cidade. Anoitece. Ele vê uma adolescente correr e depois um cara jogá-la ao chão. Ela já está machucada. Então solta a moto e vai até eles.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Sinto muito, mas estou com sede.</default>
@@ -63,14 +63,9 @@
 	<talk character="Elian">
 		<default>Não, o coelho da páscoa.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Assusta tanto quanto.</default>
-	</talk>
-	<talk character="Elian">
-		<default>Achas isto também, querida?</default>
-		<teller>Elian puxa a garota pra sua frente</teller>
-		<default>Parece-me que não.</default>
-	</talk>
+	<teller>
+		<default>Angely vai atacá-lo, mas Elian puxa a garota para a sua frente.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Covarde.</default>
 	</talk>
@@ -87,11 +82,13 @@
 		<default>E tu acreditaste.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por que não solta a menina e vem brigar com alguém mais forte?</default>
+		<default>Solta ela. Eu tenho mais sangue.</default>
 	</talk>
 	<talk character="Elian">
-		<default>Mais forte?</default>
-		<teller>ri, depois diz no ouvido da garota – Parece que isso vai ter que ficar pra outra hora... – beija o pescoço dela</teller>
+		<default>Bom argumento.</default>
+		<teller>ri, depois diz no ouvido da garota</teller>
+		<default>Parece que isso vai ter que ficar pra outra hora...</default>
+		<teller>beija o pescoço dela</teller>
 		<default>...quando estivermos sozinhos.</default>
 	</talk>
 	<teller>
@@ -124,7 +121,7 @@
 		<default>Caçar?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não. Mas o encontrei do mesmo jeito.</default>
+		<default>Não sei bem, mas encontrei. Salvei uma garota, mas ela sumiu.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Se não disse nada, deduzo que conseguiu nada.</default>
@@ -145,37 +142,35 @@
 		<default>E não fez nada?</default>
 	</talk>
 	<teller>
-		<default>Mel fica nervosa.</default>
+		<default>Mel trava.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Não me disse nada.</default>
-		<teller>Mel fica aliviada</teller>
+	</talk>
+	<teller>
+		<default>Mel relaxa.</default>
+	</teller>
+	<talk character="Angely">
 		<default>Mas acho que tem algo errado.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Talvez ela tenha ficado com vergonha de não ter conseguido pegá-lo...</default>
-		<teller>Edmont fala e Angely o encara</teller>
-		<default>Tá, isso foi uma idéia imbecil.</default>
+		<teller>Angely o encara</teller>
+		<default>Tá, ideia imbecil.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Devíamos falar com ela.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não acha que ela tem alguma coisa com ele, acha?</default>
+		<default>Será que ela tem alguma coisa com ele? Ele já enganou uma.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não sei. Já conseguiu enganar uma.</default>
-	</talk>
-	<talk character="Edmont">
 		<default>Beatrice tinha doze anos.</default>
 	</talk>
-	<talk character="Angely">
-		<default>As mulheres se deixam enganar fácil pelo coração.</default>
-	</talk>
-	<teller>
-		<default>Mel fica brava.</default>
-	</teller>
 	<talk character="Edmont">
+		<default>Sabe que a morte não é o maior dos crimes para o nosso povo.</default>
+	</talk>
+	<talk character="Angely">
 		<default>É fácil, só falarmos com ela. Acho que tá acordada ainda.</default>
 	</talk>
 	<teller>
@@ -188,25 +183,25 @@
 		<default>Ela corre pro banheiro e liga o chuveiro. Eles batem na porta do quarto.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Que é?</default>
+		<out>Que é?</out>
 	</talk>
 	<talk character="Angely">
 		<default>Precisamos falar com você!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Agora???</default>
+		<out>Agora?!</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Não, estamos dando um aviso prévio pra nos encontrar o ano que vem!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tô tomando banho!</default>
+		<out>Tô tomando banho!</out>
 	</talk>
 	<talk character="Angely">
 		<default>Vai sair logo?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Acabei de entrar!</default>
+		<out>Acabei de entrar!</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Droga.</default>
@@ -251,16 +246,16 @@
 		<default>Meg?</default>
 	</talk>
 	<talk character="Meg">
-		<default>Que é????</default>
+		<default>Que é?!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Nada.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Merda, eu tô com sono, sabia???</default>
+		<default>Merda, eu tô com sono, sabia?!</default>
 	</talk>
 	<teller>
-		<default>Kat adentra o quarto.</default>
+		<default>Kat entra no quarto.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Gente, eu não encontro o Aurium...</default>
@@ -278,7 +273,7 @@
 		<default>Ela derruba um retrato. Angely. Ela toca o retrato.</default>
 	</teller>
 	<talk character="Meg">
-		<default>Por que você mente pra mim? Meu anjo... Não deveria ser capaz de mentir. Eu te amo, sabia? Melhor esquecer isso...</default>
+		<default>Por que você mente pra mim? Meu anjo... Não deveria ser capaz de mentir. Eu te amo, sabia?</default>
 	</talk>
 	<teller>
 		<default>Meg guarda o retrato na gaveta. Encontra uma caixa de música. Abre-a.</default>
@@ -290,7 +285,7 @@
 		<default>Ela pega a foto de volta da gaveta.</default>
 	</teller>
 	<talk character="Meg">
-		<default>Por que está escondendo algo de mim? Será que vocês estão fazendo algo errado? Será que eles estão envolvidos nisso? Acho que você veio do céu e não quer me contar...</default>
+		<default>Por que está escondendo algo de mim? Será que vocês estão fazendo algo errado? Será que eles estão envolvidos nisso? Será que tem a ver com o planeta de vocês? Será que vão embora?</default>
 	</talk>
 	<teller>
 		<default>A campainha toca.</default>
@@ -355,16 +350,16 @@
 		<default>Eu não teria entrado.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Se você vai me matar, não vai me fazer acreditar que ele seja culpado.</default>
+		<default>Não é culpa dele.</default>
 	</talk>
 	<talk character="Elian">
-		<default>Não tem problema, eu vou matar ele também.</default>
+		<default>Tanto faz, irei matá-lo também.</default>
 	</talk>
 	<teller>
 		<default>Elian dá um beijo forçado em Meg. Ela o chuta e tenta fugir, mas ele a alcança. A joga no chão.</default>
 	</teller>
 	<talk character="Elian">
-		<default>Eu podia ser bonzinho e apenas matar-te. Mas parece-me que tu precisas sofrer.</default>
+		<default>Eu podia ser bonzinho e apenas matar-te. Mas me parece que tu precisas sofrer.</default>
 	</talk>
 	<teller>
 		<default>Edmont e Angely estão na cidade.</default>
@@ -373,7 +368,7 @@
 		<default>Temos mais três horas. Depois, amanhece e podemos começar a procurar nos hotéis e blablabla...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Três horas??? É muito tempo...</default>
+		<default>Três horas?! É muito tempo...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Sabe, sobre a Mel ter tido contato com o vampiro e não ter falado?</default>
@@ -385,10 +380,10 @@
 		<default>Notou algo diferente nela da última vez que conversamos sobre ele?</default>
 	</talk>
 	<talk character="Angely">
-		<default>É, parecia ter feito algo errado, agia como se tivesse que contar algo mas não quisesse.</default>
+		<default>Você comentou que ela parecia ter feito algo errado.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Muito estranho isso. Talvez não hoje, mas antes ela tenha tido algo com ele, sem saber de nada.</default>
+		<default>Muito estranho isso. Talvez não hoje, mas antes, talvez ela tenha tido algo com ele, sem saber de nada.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Sei lá. Podemos voltar depois?</default>
@@ -403,13 +398,7 @@
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Tem alguma coisa errada!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Angely, você tá passando bem???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vamos logo!</default>
+		<default>Tem alguma coisa errada.</default>
 	</talk>
 	<teller>
 		<default>Na MEAK...</default>
@@ -424,7 +413,7 @@
 		<default>Kat!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Vem, Aurium...</default>
+		<out>Vem, Aurium...</out>
 	</talk>
 	<teller>
 		<default>Kat entra na sala, seguida de Aurium.</default>
@@ -441,9 +430,6 @@
 	<talk character="Edmont">
 		<default>Mel, nós queríamos falar com você...</default>
 	</talk>
-	<teller>
-		<default>Mel fica preocupada.</default>
-	</teller>
 	<talk character="Mel">
 		<default>Sobre o que?</default>
 	</talk>
@@ -454,16 +440,16 @@
 		<default>Homem não tem sexto sentido...</default>
 	</talk>
 	<talk character="Angely">
-		<default>É sério. Tem algo errado com alguém que eu conheço. Vou à casa de Meg, vejo se elas estão bem.</default>
+		<default>É sério. Tem algo errado com alguém que eu conheço. Acho que vou lá ver se elas estão bem.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Kat e Agatha estavam aqui agora pouco, será que vai acontecer algo no caminho?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Meg ficou sozinha em casa???</default>
+		<default>Meg ficou sozinha em casa?!</default>
 	</talk>
 	<teller>
-		<default>Ele mal termina a frase e o telefone toca. Edmont atende.</default>
+		<default>Toca o telefone. Edmont atende.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Alô? ### Calma, que foi??? ### Tá, nós já vamos aí...</default>
