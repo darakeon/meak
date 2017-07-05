@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="13" scene="a">
 	<teller>
-		<default>Manhã. Kat está no escritório. Ela abre uma gaveta e pega um CD. Derik chega. Ela se assusta, se vira e prensa o CD ao tentar guardá-lo. Este se quebra. Dá um suspiro de raiva.</default>
+		<default>Manhã. Kat está no escritório. Abre uma gaveta. Pega um CD. Derik chega. Kat se assusta, se vira e prensa o CD ao tentar guardar. O CD se quebra. Kat bufa.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Droga!</default>
@@ -13,13 +13,13 @@
 		<default>Não foi culpa sua.</default>
 	</talk>
 	<teller>
-		<default>Kat pega do chão.</default>
+		<default>Kat pega o CD do chão.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Tem um aparelho pra consertar isso, eu vi por aqui...</default>
+		<default>Tem um aparelho pra consertar, eu vi por aqui...</default>
 	</talk>
 	<teller>
-		<default>Derik pega uma caixa. Abre e tira o aparelho de dentro. Coloca o CD dentro do aparelho.</default>
+		<default>Derik vai até uma estante. Pega uma caixa. Abre e tira um aparelho de dentro. Leva até a mesa. Pousa o aparelho. Abre. Kat coloca o CD dentro do aparelho. Derik fecha.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Vai demorar muito?</default>
@@ -40,56 +40,38 @@
 		<default>Kat baixa a cabeça.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Não fica assim, ela vai ficar bem.</default>
+		<default>Não fica assim. Mel vai ficar bem. É mais forte que eu e você junto.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eu sei. Ela é forte.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu queria te mostrar algo.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mostrar? O que?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Surpresa. Vem comigo?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não sei, não to com cabeça...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Vai te fazer bem, esfriar a cabeça.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tá.</default>
+		<default>Eu sei.</default>
 	</talk>
 	<teller>
-		<default>Alguns minutos depois, ela desce até a sala. Angely está assistindo TV. A repórter fala da frente do hospital onde está Mel:</default>
+		<first>Kat desce até a sala. Angely está assistindo TV. Uma pessoa fala da frente de um hospital.</first>
 		<letter>Melody Lorrage Kallend, integrante da banda Saturn, continua internada neste hospital, em coma. Uma enfermeira nos disse que um misterioso homem a trouxe aqui, inconsciente e toda machucada, como se alguém a tivesse torturado. Os médicos dizem que não se sabe...</letter>
 	</teller>
 	<talk character="Kat">
 		<default>Eu vou sair com o Derik, tá?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não tá pedindo permissão, está?</default>
+		<default>Não tá pedindo permissão, tá?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Cadê o Edmont?</default>
+		<default>Cadê Edmont?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Com a Dara.</default>
+		<default>Com Dara.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Vamos?</default>
+		<arrive>Vamos?</arrive>
 	</talk>
 	<teller>
-		<default>Kat sai com Derik. Angely olha pra TV. Passam fotos de Mel. Ele desliga a TV.</default>
+		<default>Kat dá a mão a Derik. Saem. Angely olha pra TV. Passam fotos de Mel. Angely desliga a TV.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Volta pra casa...</default>
 	</talk>
 	<teller>
-		<default>Derik leva Kat a um lago.</default>
+		<first>Lago.</first>
 	</teller>
 	<talk character="Derik">
 		<default>Eu tava voando outro dia e vi isso aqui. Gostou?</default>
@@ -98,31 +80,16 @@
 		<default>É lindo!</default>
 	</talk>
 	<teller>
-		<default>Ela vai até o lago se senta e coloca os pés na água.</default>
+		<default>Kat vai até o lago se senta e coloca os pés na água.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Pena que eu não tô de biquíni! Podia ter me falado pra eu trazer...</default>
 	</talk>
 	<teller>
-		<default>Ele se senta ao lado dela. A beija. Eles continuam se beijando. Ele tenta desabotoar a blusa dela e toma uma tapa. Ela se levanta.</default>
+		<default>Derik se senta ao lado dela. Se abraçam.</default>
 	</teller>
-	<talk character="Kat">
-		<default>Que pensa que tá fazendo???</default>
-	</talk>
-	<talk character="Derik">
-		<default>Calma, eu só...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Que tá pensando que eu sou??? Doce de festa??? Tomate de feira???</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tá fazendo tempestade em copo d’água...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não fala nada! Cala essa boca antes de tomar outro tapa!</default>
-	</talk>
 	<teller>
-		<default>Kat se levanta e sai, com raiva. Acaba esquecendo o CD. De noite, lembra e vai até a MEAK. Vê Angely limpando o chão.</default>
+		<default>Noite. Kat entra no escritório. Angely está limpando o chão.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Que aconteceu?</default>
@@ -134,37 +101,37 @@
 		<default>Isso não é bom.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu consegui resgatar metade do CD.</default>
+		<default>Tem metade do CD aqui.</default>
 	</talk>
 	<talk character="Kat">
 		<default>E a outra metade?</default>
 	</talk>
 	<teller>
-		<default>Angely faz sinal de negativo. Entrega a metade que sobrou pra Kat.</default>
+		<default>Angely balança a cabeça para os lados. Entrega a metade do CD a Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>E agora? Mel vai me matar.</default>
 	</talk>
 	<teller>
-		<default>Angely se anima.</default>
+		<default>Angely abre mais os olhos e endireita o corpo.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Foi vê-la?</default>
+		<default>Mel acordou?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Ah...</default>
-	</talk>
 	<teller>
-		<default>Angely se desanima.</default>
+		<default>Angely solta os ombros.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ela vai ficar bem. Me prometeu.</default>
+		<default>Mel vai ficar bem. Me prometeu.</default>
 	</talk>
 	<teller>
-		<default>Kat joga o resto do CD no lixo e sai. Angely pega. De manhã, chama Edmont no escritório.</default>
+		<default>Kat joga o resto do CD no lixo. Sai. Angely pega.</default>
+	</teller>
+	<teller>
+		<first>Manhã. Escritório. Angely está em uma cadeira. Edmont entra.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Tô precisando de ajuda pra tomar uma decisão.</default>
@@ -173,33 +140,37 @@
 		<default>Sobre o que?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Kat está escondendo alguma coisa. E é sobre a Mel.</default>
+		<default>Kat está escondendo alguma coisa. E é sobre Mel.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>E o que poderia ser?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Uma vez eu entrei no escritório e Mel se assustou. Estava com isto aqui na mão.</default>
-		<teller>Angely pega o resto de CD</teller>
-		<default>Quando ainda estava inteiro.</default>
+	</talk>
+	<teller>
+		<default>Angely aponta o meio CD na mesa.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Tava inteiro.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>E que tem isso?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Kat quebrou o CD e foi usar, desavisada, o aparelho quebrado...</default>
+		<default>Kat quebrou o CD e foi usar, sem saber, o aparelho quebrado...</default>
 	</talk>
 	<teller>
-		<default>Edmont acha graça.</default>
+		<default>Edmont ri.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Explodiu?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela não sabe que pode recuperar o que resta disso.</default>
+		<default>Dá pra recuperar o que resta aqui, não?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>E o que tem aí?</default>
+		<default>Sim. E o que tem aí?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Acho que Mel estava escondendo alguma coisa e falou com Kat.</default>
@@ -214,20 +185,24 @@
 		<default>A troco de que tá dizendo isso?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela disse que Mel prometeu que ia ficar legal e que ia voltar.</default>
+		<default>Disse que Mel prometeu que ia ficar legal e que ia voltar.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Talvez isso tenha sido antes de sair.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não creio. Pelo jeito como ela falou...</default>
+		<default>Não creio. Pelo jeito como falou...</default>
 	</talk>
 	<teller>
 		<default>Kat está em casa. Está escuro.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Até que enfim tava tendo um sonho normal e me acordam... Quem tá aí?</default>
-		<teller>Ela acende a luz</teller>
+	</talk>
+	<teller>
+		<default>Kat acende a luz.</default>
+	</teller>
+	<talk character="Kat">
 		<default>Mel???</default>
 	</talk>
 	<talk character="Mel">
@@ -242,28 +217,32 @@
 	<talk character="Kat">
 		<default>Tava com defeito e explodiu.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Droga!</default>
-	</talk>
+	<teller>
+		<default>Mel solta os ombros e olha para o teto. Suspira.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Que tinha lá?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Tem que ser traduzido.</default>
-		<teller>Mel se senta</teller>
-		<default>Restou alguma coisa do CD?</default>
+	</talk>
+	<teller>
+		<default>Mel senta na cama.</default>
+	</teller>
+	<talk character="">
+		<default>Sobrou alguma coisa do CD?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Metade. Mas, com isso, não se faz nada.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Como não???</default>
+		<default>Como não?!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Espera usar metade do CD?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Com algum conhecimento de informática... O que fez?</default>
+		<default>Dá pra usar. O que fez?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Joguei no lixo...</default>
@@ -272,28 +251,26 @@
 		<default>Volta lá e pega! Eu só vou voltar quando fizer o que pedi!</default>
 	</talk>
 	<teller>
-		<default>Kat acorda. A luz do sol já entra pela janela. São oito da manhã.</default>
+		<default>Kat acorda. A luz do sol entra pela janela. 8h. Levanta da cama. Anda de um lado a outro.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Derik! Derik!</default>
+		<default>Derik!</default>
+		<screamed>Derik!</screamed>
 	</talk>
-	<teller>
-		<default>Agatha se assusta e vai ver o que está acontecendo.</default>
-	</teller>
 	<talk character="Agatha">
-		<default>Ele não tá aqui, Kat!</default>
+		<arrive>Ele não tá aqui, Kat!</arrive>
 	</talk>
 	<teller>
-		<default>Kat fica visivelmente perturbada.</default>
+		<default>Kat para.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Cadê ele?</default>
+		<default>Onde tá então?!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Como espera que eu saiba???</default>
 	</talk>
 	<teller>
-		<default>Kat se levanta da cama mais que rápido e sai do quarto. Agatha a segue.</default>
+		<default>Kat sai do quarto. Agatha segue.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Passou a noite com ele?</default>
@@ -320,25 +297,22 @@
 		<default>Nada.</default>
 	</talk>
 	<teller>
-		<default>Agatha passa por Kat e sai. Kat volta ao quarto, pega o telefone, a agenda e procura o número de Derik. Vai digitar, mas uma lembrança impede.</default>
+		<default>Agatha passa por Kat e sai. Kat volta ao quarto, pega o celular. Clica no nome de Derik. Para.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Melhor não. Talvez... Droga. Preciso dele, pode entrar lá sem ser notado. Não, não quero falar com ele.</default>
+		<thought>Melhor não. Talvez... Droga. Preciso de ajuda, pode entrar lá sem que notem. Não, Mel não vai gostar.</thought>
 	</talk>
 	<teller>
-		<default>Kat coloca a agenda de volta no lugar. Então vai até a MEAK e mexe no lixo.</default>
+		<default>Kat coloca o celular no bolso. Vai até a MEAK. Entra por fora no escritório. Pega a lixeira. Revira.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Droga... Será que eles pegaram?</default>
+		<default>Droga... Será que pegaram?</default>
 	</talk>
-	<teller>
-		<default>Ela começa a olhar em todos os lugares. Angely e Edmont entram no escritório.</default>
-	</teller>
 	<talk character="Edmont">
-		<default>Procurando isto?</default>
+		<arrive>Procurando isto?</arrive>
 	</talk>
 	<teller>
-		<default>Edmont mostra o meio CD. Kat tenta pegar e Edmont tira do caminho.</default>
+		<default>Kat olha para Edmont. Angely vem junto. Em sua mão, o meio CD. Kat vai até Edmont. Edmont levanta mais alto.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Eu preciso falar com vocês.</default>
@@ -347,36 +321,43 @@
 		<default>Sim?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Mel disse que se ela não voltasse imediatamente, era pra ver isso e falar com vocês.</default>
+		<default>Mel disse que se não voltasse imediatamente, era pra ver isso e falar com vocês.</default>
 	</talk>
 	<talk character="Angely">
 		<default>E o que tem no CD?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Um segredo que ela guardou.</default>
+		<default>Um segredo que Mel guardou.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Então fale.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não posso.</default>
-		<teller>Kat se senta</teller>
-		<default>Primeiro por que não sei o que tem aí. Segundo por que a Mel pediu.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ela não poderia adivinhar que ia ficar em coma.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ela falou comigo através dos meus sonhos.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Devemos considerar que ela está...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não! Ela prometeu que vai voltar... Prometeu...</default>
 	</talk>
 	<teller>
-		<default>Kat baixa a cabeça.</default>
+		<default>Kat se senta.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Primeiro por que não sei o que tem aí. Segundo por que Mel pediu.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Não poderia adivinhar que ia ficar em coma.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Falou comigo através dos meus sonhos.</default>
+	</talk>
+	<teller>
+		<default>Edmont franze a testa. Olha para Angely. Depois olha para Kat.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Devemos considerar que Mel tá...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Não! Prometeu que vai voltar... Prometeu...</default>
+	</talk>
+	<teller>
+		<default>Kat baixa a cabeça. Levanta novamente. Levanta-se da cadeira.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Pode me dar isso?</default>
@@ -391,7 +372,7 @@
 		<default>Por que você tem que ler e falar com a gente depois?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não sei, ela pediu.</default>
+		<default>Não sei, Mel pediu.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Pára com isso, Kat.</default>
@@ -400,48 +381,52 @@
 		<default>Vocês não leram, né?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não tem por que não ler, se ela falou pra falar com a gente depois...</default>
+		<default>Não tem por que não ler, se falou pra falar com a gente depois...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Entrega isso pra ela.</default>
+		<default>Entrega pra Kat.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Quê?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não implica, o CD é da Mel. Vale o que ela pediu.</default>
+		<default>Não implica, pertence a Mel. Vale o que Mel pediu.</default>
 	</talk>
 	<teller>
-		<default>Edmont encara Angely. Entrega o CD pra Kat.</default>
+		<default>Edmont encara Angely. Entrega o meio CD pra Kat.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Achei que não houvessem segredos entre as pessoas da agência.</default>
 	</talk>
 	<teller>
-		<default>Ele sai, contrariado.</default>
+		<default>Edmont sai. Angely suspira.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Vou procurar alguém que possa tirar alguma coisa daqui.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu posso fazer isso.</default>
-		<teller>Kat fica desconsertada</teller>
+	</talk>
+	<teller>
+		<default>Kat fica olhando para Angely.</default>
+	</teller>
+	<talk character="Angely">
 		<default>Não confia em mim?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não é isso, é que...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Tudo bem, eu entendi.</default>
+		<default>Ok. Você tem o direito de escolher como resolver isso. Foi pra você que Mel pediu.</default>
 	</talk>
 	<teller>
-		<default>Kat sai. Edmont vai até a casa de Dara.</default>
+		<default>Casa de Dara.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Que foi? Por que tá com essa cara?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>A Kat, tá escondendo alguma coisa que a Mel tava escondendo antes.</default>
+		<default>Kat. Tá escondendo alguma coisa que Mel tava escondendo antes.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Não fica assim.</default>
@@ -471,7 +456,7 @@
 		<default>Vamos sair, assim não dá tempo!</default>
 	</talk>
 	<teller>
-		<default>Ela pega a mão de Edmont e eles se levantam.</default>
+		<default>Dara pega a mão de Edmont. Se levantam.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Eles telefonaram...</default>
@@ -483,13 +468,13 @@
 		<default>Que você tá aqui com seu namorado?</default>
 	</talk>
 	<teller>
-		<default>Denise dá um sorriso de desconserto. Dara senta no sofá de novo.</default>
+		<default>Denise dá um sorriso. Olha para o chão. Dara senta no sofá.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Não pode ser tão ruim assim, pode?</default>
 	</talk>
 	<teller>
-		<default>Noite. Edmont chega em casa.</default>
+		<first>Noite. Edmont chega em casa.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Que cara é essa?</default>
@@ -508,7 +493,11 @@
 	</talk>
 	<talk character="Angely">
 		<default>Esse é o preço.</default>
-		<teller>toca o telefone, Angely atende</teller>
+	</talk>
+	<teller>
+		<default>Toca o telefone.</default>
+	</teller>
+	<talk character="Angely">
 		<default>Alô? ### Sim... ### Nós já vamos.</default>
 	</talk>
 	<teller>
