@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="06" scene="b">
 	<teller>
-		<default>Manhã. Elian entra no quarto do hotel. Olha para a cama. Vai até o banheiro. Olha embaixo da cama. Vê um pedaço de papel marcado com batom na cabeceira. Pega e lê:</default>
+		<default>Manhã. Elian entra no quarto do hotel. Olha para a cama. Vai até o banheiro. Volta. Vai até a cabeceira da cama. Pega um pedaço de papel marcado com batom na cabeceira.</default>
 		<letter>Não é a mim que queres. Fique com ela.</letter>
 	</teller>
 	<talk character="Elian">
 		<default>Não... Por favor... Não podes ter feito isso...</default>
 	</talk>
 	<teller>
-		<default>Ele dá um soco no espelho, despedaçando-o. Senta-se na cama, com a cabeça apoiada nas mãos.</default>
+		<default>Ele dá um soco no espelho, que despedaça. Senta-se na cama, com a cabeça apoiada nas mãos.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Malditos.</default>
@@ -41,7 +41,7 @@
 		<default>Ela abandonou ele.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Traiçoeiros até entre si.</default>
+		<default>Não esperava que eles fossem leais entre si.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Ele tá com raiva.</default>
@@ -56,7 +56,7 @@
 		<default>Tudo bem, nós vamos proteger você, tá?</default>
 	</talk>
 	<teller>
-		<default>Mel abraça Kat. No quarto de Edmont...</default>
+		<default>Mel abraça Kat. No quarto de Edmont.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Me solta.</default>
@@ -73,8 +73,11 @@
 	<talk character="Agatha">
 		<default>É mentira.</default>
 	</talk>
+	<teller>
+		<default>Edmont bufa. Dá um soco na parede. Agatha dá um passo atrás.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Quer a verdade, então?</default>
+		<default>Desculpa... Quer a verdade, então?</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Fale.</default>
@@ -107,7 +110,7 @@
 		<default>Tudo bem, eu acredito.</default>
 	</talk>
 	<teller>
-		<default>Edmont e Agatha se beijam. No quarto de Angely...</default>
+		<default>Edmont e Agatha se beijam. No quarto de Angely.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Por favor...</default>
@@ -185,22 +188,16 @@
 		<default>Vamos, Kat?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Tá, já estou indo. Tchau, Mel.</default>
+		<default>Tchau, Mel.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não tenha medo, tá?</default>
+		<default>Não precisa ter medo, tá?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Tá.</default>
 	</talk>
 	<teller>
-		<default>Kat se levanta do balanço e vai com elas.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Bom, vamos ver no que deu...</default>
-	</talk>
-	<teller>
-		<default>Mel vai até o quarto de Edmont.</default>
+		<default>Kat se levanta do balanço e as segue. Mel espera um tempo. Então levanta e entra na casa. Vai até o quarto de Edmont.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Então?</default>
@@ -217,9 +214,6 @@
 	<talk character="Mel">
 		<default>Melhor nós irmos falar com ele.</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Tomara que ele não tenha contado nada além do combinado.</default>
-	</talk>
 	<teller>
 		<default>Mel e Edmont vão até o quarto de Angely. Ele não está lá. Eles vão até a varanda.</default>
 	</teller>
@@ -232,11 +226,8 @@
 	<talk character="Mel">
 		<default>Tá chorando?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Não, eu não...</default>
-	</talk>
 	<teller>
-		<default>Angely enxuga as lágrimas.</default>
+		<default>Angely passa a mão no rosto.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Vocês brigaram?</default>
@@ -272,7 +263,7 @@
 		<default>Ele tá mal.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É... Mas não podemos parar nossa busca por causa disso.</default>
+		<default>É... Mas não podemos parar por causa disso.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Ah, eu até tava esquecendo de contar. Kat me disse que teve outro sonho.</default>
@@ -298,9 +289,6 @@
 	<teller>
 		<first>De tarde, Mel vai até a pensão onde os vampiros estiveram pela primeira vez. Para a moto e estranha a porta arrombada. Entra. Tudo quebrado. Começa a vasculhar os quartos. Em um deles, encontra um homem de costas.</first>
 	</teller>
-	<talk character="Mel">
-		<default>Não se mova!</default>
-	</talk>
 	<talk character="Elian">
 		<default>Atire.</default>
 	</talk>
@@ -308,22 +296,16 @@
 		<default>Não vai me enganar.</default>
 	</talk>
 	<talk character="Elian">
-		<default>Eu lembro de ti. Fugias da polícia.</default>
+		<default>Sei que viu algo diferente em mim. A sua reação na casa, daquela vez.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pedi ajuda a você por que eu não sabia o que você era.</default>
+		<default>Devo ter notado que não era humano.</default>
 	</talk>
 	<talk character="Elian">
-		<default>Ironia. Agora me caças.</default>
+		<default>Não. Seu olhar. Foi de quem me reconhecia.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Em comparação ao mal que você fez, me ajudar não foi nada.</default>
-	</talk>
-	<talk character="Elian">
-		<default>Incrível. Proteges vidas humanas e consideras a tua própria como nada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É nada perto de todas as que tirou.</default>
+		<default>Não interessa o que foi. Interessa o que você é.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Como se as pessoas que eu matei nunca fossem morrer...</default>
@@ -347,19 +329,19 @@
 		<default>De ti.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Aquela noite não foi nada.</default>
+		<default>Aquilo não foi nada.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Não foi o que ela achou.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tanto não foi nada que estou aqui, armada.</default>
+		<default>Tanto não foi nada que estou aqui, com uma besta apontada para você.</default>
 	</talk>
 	<talk character="Elian">
 		<default>E por que ainda não atiraste?</default>
 	</talk>
 	<teller>
-		<default>Mel aponta a arma pra Elian. Ele chuta a arma. Ela tenta bater nele, mas eles vão parar no chão. Ela tenta empurrá-lo, mas não consegue.</default>
+		<default>Ela atira. Erra. Ele chuta a arma. Ela tenta bater nele, mas eles vão parar no chão. Ela tenta empurrá-lo, mas não consegue.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Devias ter treinado um pouco mais.</default>
@@ -407,7 +389,7 @@
 		<default>Você tá bem com a Agatha. Poderia destruir isso.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Também não agüento mentir.</default>
+		<default>Também não gosto de mentir pra ela.</default>
 	</talk>
 	<talk character="Angely">
 		<default>E vamos dizer o que?</default>
@@ -416,10 +398,10 @@
 		<default>Que tal assim...</default>
 	</talk>
 	<teller>
-		<default>Angely nota Agatha na porta e tenta chamar a atenção de Edmont, mas ele não pára de falar.</default>
+		<default>Angely olha para a porta, arregala os olhos, levanta a mão.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>"Olha, vocês lembram que somos ets, né? Então, não são só ets que existem."</default>
+		<default>Não, pera, agora deixa. "Olha, vocês lembram que somos ets, né? Então, não são só ets que existem."</default>
 	</talk>
 	<talk character="Angely">
 		<default>Edmont...</default>
@@ -438,9 +420,6 @@
 	</talk>
 	<talk character="Edmont">
 		<default>Já tô terminando, que impaciência!... "Agora parece que ela largou ele, mas a gente ainda tem que achar ele. Então é melhor não sairem de casa a noite." Que tal?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você não imagina o que você fez.</default>
 	</talk>
 	<teller>
 		<default>Angely coloca a mão no rosto.</default>
@@ -461,16 +440,13 @@
 		<default>Calma, eu tô só tentando descontrair...</default>
 	</talk>
 	<teller>
-		<default>Edmont nota que Angely está olhando pra porta e olha também.</default>
+		<default>Angely pega Edmont e vira para a porta.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Isso era verdade?</default>
 	</talk>
-	<teller>
-		<default>Edmont fica desconsertado.</default>
-	</teller>
 	<talk character="Edmont">
-		<default>Agatha...</default>
+		<default>A-Agatha...</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Eu acho que eu não tô muito bem...</default>
@@ -479,7 +455,7 @@
 		<default>Agatha sai.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Droga... Por que não me avisou???</default>
+		<default>Por que não me avisou???</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu tentei!</default>
