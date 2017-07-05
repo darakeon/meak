@@ -1,3 +1,530 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="08" scene="f">
+	<teller>
+		<default>Mel chega à recepção da delegacia.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Por favor, eu quero saber sobre a prisão de...</default>
+	</talk>
+	<talk character="Rick">
+		<default>Melody?</default>
+	</talk>
+	<teller>
+		<default>Ela olha pra trás.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Ricardo.</default>
+	</talk>
+	<talk character="Rick">
+		<default>É a primeira vez que te vejo desde que...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Desapareci de madrugada sem dizer nada? Os homens vivem fazendo isso, aposto que você já fez isso muitas vezes.</default>
+	</talk>
+	<talk character="Rick">
+		<default>Já. Mas você é diferente.</default>
+	</talk>
+	<talk character="Mel">
+		<default>No que, exatamente?</default>
+	</talk>
+	<talk character="Rick">
+		<default>Te levei pra minha casa...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Porque eu disse que na minha não podia. Ia me dispensar de manhã, se eu não tivesse saído.</default>
+	</talk>
+	<talk character="Rick">
+		<default>Eu sei que eu já fiz isso com muita mulher, deve ter ouvido minha fama...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não, tava escrito na sua cara mesmo.</default>
+	</talk>
+	<talk character="Rick">
+		<default>...Mas de você eu gostei.</default>
+	</talk>
+	<talk character="Mel">
+		<default>É, eu costumo me vingar pelas outras sem querer. Ou talvez seja por querer. Não importa. Mas não estou aqui para te ver, estou aqui para ver um amigo meu que foi preso ontem, acusado de matar a família...</default>
+	</talk>
+	<talk character="Rick">
+		<default>Roberto Soares?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Como sabe?</default>
+	</talk>
+	<talk character="Rick">
+		<default>Acha que prendemos caras que matam a família inteira à toneladas por dia aqui?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Ele não matou a família dele.</default>
+	</talk>
+	<talk character="Rick">
+		<default>Tem como provar?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Ele tava num motel comigo.</default>
+	</talk>
+	<teller>
+		<default>A delegacia faz silêncio.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Se quiser, posso provar isso.</default>
+	</talk>
+	<talk character="Rick">
+		<default>Ninguém vai lembrar que esteve num lugar assim, ainda mais quando fazem quarenta e oito horas.</default>
+	</talk>
+	<talk character="Mel">
+		<default>48? Não foi ontem?</default>
+	</talk>
+	<talk character="Rick">
+		<default>Então, anteontem não estava com ele...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Sim, mas ainda estávamos na minha casa. E nesse caso, tenho ainda mais testemunhas para te provar isso.</default>
+	</talk>
+	<talk character="Rick">
+		<default>Traga-as aqui e solto seu namorado.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Ele não é meu namorado, é apenas alguém com quem fui pra cama. Que nem com você.</default>
+	</talk>
+	<teller>
+		<default>Ela sai. Todos ficam olhando para Ricardo.</default>
+	</teller>
+	<talk character="Rick">
+		<default>Que é, não têm mais o que fazer???</default>
+	</talk>
+	<talk character="policial">
+		<default>Cuidado, ela já te enganou uma vez...</default>
+	</talk>
+	<talk character="Rick">
+		<screamed>Ela não me enganou!</screamed>
+		<teller>vira-se para a saída</teller>
+		<default>Melody, volte aqui! Eu vou com você pra garantir que os testemunhos não serão combinados!</default>
+	</talk>
+	<teller>
+		<default>11/04 (sexta). Rob já foi solto. 4:00. Rob e Angely conversam.</default>
+	</teller>
+	<talk character="Rob">
+		<default>É estranho. A melhor noite da minha vida seguida do pior dia.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Já vi essa frase num livro. Pelo menos sua prima ainda está viva.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Em choque. E vou ter que arranjar trabalho pra cuidar dela.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Pense positivo. Pense que eles estão no céu.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Você já perdeu muita gente.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Não. Eu nunca perdi ninguém, porque as pessoas não se perdem umas das outras. Agora eu entendo isso.</default>
+	</talk>
+	<talk character="Bea">
+		<arrive>Não parecia quando falou comigo sobre Edmont.</arrive>
+	</talk>
+	<talk character="Ang">
+		<default>Ele não iria te matar.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Preferia que ele me matasse?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Se você estivesse nos pensamentos dele, também ia preferir.</default>
+	</talk>
+	<talk character="Rob">
+		<default>E Mel? Ela me parece tão desiludida com os homens...</default>
+	</talk>
+	<talk character="Ang">
+		<default>Problemas que ela teve no início da vida. Agora só consegue amar como se fosse mãe. Até que apareça alguém que consiga tirar esse bloqueio. Teve um que quase conseguiu, mas morreu antes.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Talvez ela trate todo mundo assim porque não pode ter filhos.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Como assim?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Abortou e quase morreu. Ficou infértil.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Isso deve ser realmente ruim...</default>
+		<teller>fica preocupado</teller>
+		<default>Bom, melhor eu deixar você ir, daqui à pouco amanhece e você tem que dar aula... Hoje ainda é sexta...</default>
+	</talk>
+	<teller>
+		<default>12:15. Estela, Derik e Kat chegam em casa. Estela sobe pro quarto. Encontra Rob.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Que tá fazendo aqui?</default>
+	</talk>
+	<talk character="Rob">
+		<default>Eu... Pedi pro Derik e pra Kat deixarem você subir sozinha.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Por quê?</default>
+	</talk>
+	<talk character="Rob">
+		<default>Preciso falar com você... Sabe, você é uma garota... Bem...</default>
+	</talk>
+	<talk character="Estela">
+		<default>Que foi?</default>
+	</talk>
+	<talk character="Rob">
+		<default>Tá, eu acho melhor eu parar de falar e fazer logo!</default>
+	</talk>
+	<teller>
+		<default>Rob beija Estela. Depois olha para ela.</default>
+	</teller>
+	<talk character="Rob">
+		<default>Será que teria feito melhor falando?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Depende do que quis dizer.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Quer namorar comigo?</default>
+	</talk>
+	<teller>
+		<default>Alan entra no quarto. Estela olha para Alan. Depois vira-se de volta para Rob.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Quero.</default>
+	</talk>
+	<teller>
+		<default>Beatrice está na recepção, parece preocupada enquanto lê um livro.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Que tá vendo aí?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Um livro.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Essa parte dá pra ver.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Podia ser o Kama Sutra. Por que estão interessados? Pareciam fazer coisa melhor...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Ficou olhando???</default>
+	</talk>
+	<talk character="Bea">
+		<default>Estão se beijando na minha frente, só não teria visto se tivesse colocado meus globos oculares sobre o livro.</default>
+	</talk>
+	<talk character="Bea">
+		<default>É bem melhor, sim, mas podia ser que estivesse lendo algo sobre yaksahs...</default>
+	</talk>
+	<talk character="Bea">
+		<irony>Deixa eu entender, estão tão interessados um no outro que o que eu estou lendo interfere?</irony>
+	</talk>
+	<talk character="Kat">
+		<default>Fiquei curiosa, sim, mas beijar o Derik com certeza é melhor que...</default>
+	</talk>
+	<talk character="Bea">
+		<default>Estela...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Claro, Kat não é lésbica! Ou é?</default>
+	</talk>
+	<teller>
+		<default>Derik olha para Kat.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Ai, que susto, achei que tinha lido algo errado... Bom, podem continuar se beijando aí...</default>
+		<irony>Ah, não, esqueci, você e Estela tem que ir trabalhar e Derik tem que cuidar da recepção...</irony>
+		<teller>Bea fecha o livro</teller>
+		<irony>Que pena!</irony>
+	</talk>
+	<teller>
+		<default>Kat encara Beatrice. Sobe. Encontra Estela e Rob, se beijando.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Desculpa interromper, mas temos que trabalhar.</default>
+	</talk>
+	<talk character="Estela">
+		<default>É mesmo, vamos chegar atrasadas!</default>
+	</talk>
+	<talk character="Kat">
+		<default>Rob, temos que nos arrumar.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Eu sei.</default>
+		<teller>Kat aponta a porta para ele</teller>
+		<default>Ah, claro!</default>
+	</talk>
+	<teller>
+		<default>Ele dá mais um beijo em Estela e sai, fechando a porta.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Então?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Bom, os uniformes estão...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Tô querendo saber de vocês!</default>
+	</talk>
+	<talk character="Estela">
+		<hushed>Ele beija quase tão bem quanto o Angely!</hushed>
+	</talk>
+	<teller>
+		<default>Do lado de fora do quarto, Rob estranha.</default>
+	</teller>
+	<talk character="Rob">
+		<hushed>Ela já beijou o pai da própria amiga?!</hushed>
+	</talk>
+	<teller>
+		<default>Dentro do quarto...</default>
+	</teller>
+	<talk character="Kat">
+		<hushed>Desculpe, mas, por razões óbvias, eu nunca beijei ele, pode ser mais específica?!</hushed>
+	</talk>
+	<talk character="Estela">
+		<hushed>Eu também nunca teria beijado, você sabe, deu aquele troço nele e ele quase me agarrou... Se Mel e Alan não tivessem chegado, era bem capaz de eu não ser mais virgem agora...</hushed>
+	</talk>
+	<talk character="Kat">
+		<hushed>Tá, dessa parte eu sei. Mas bem que gostou.</hushed>
+	</talk>
+	<talk character="Estela">
+		<hushed>Como não gostar, foi tão...</hushed>
+	</talk>
+	<talk character="Kat">
+		<hushed>Não estou afim de ouvir detalhes dele, perguntei do Rob!</hushed>
+	</talk>
+	<talk character="Estela">
+		<hushed>Não chega ao Angely, mas é muito bom...</hushed>
+	</talk>
+	<talk character="Kat">
+		<hushed>Ficou realmente encantada, né?</hushed>
+	</talk>
+	<talk character="Estela">
+		<hushed>Com o Angely?</hushed>
+	</talk>
+	<talk character="Kat">
+		<default>É, já deu a resposta. Agora vamos nos arrumar, pra ir pra loja.</default>
+	</talk>
+	<teller>
+		<default>Rob desce as escadas. Encontra Derik na recepção.</default>
+	</teller>
+	<talk character="Derik">
+		<default>E aí?</default>
+	</talk>
+	<talk character="Rob">
+		<default>Ela aceitou!</default>
+	</talk>
+	<talk character="Derik">
+		<default>Legal cara, só toma cuidado com a Beatrice.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Por que?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Ela falou o nome da Estela agora pouco, quando lia um livro.</default>
+	</talk>
+	<teller>
+		<default>Rob fecha a fisionomia.</default>
+	</teller>
+	<talk character="Rob">
+		<default>Sério?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Sim.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Estou pensando numa coisa. Tenho que trabalhar mesmo pra ficar aqui, né?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Acho que sim.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Poderia substituir Beatrice.</default>
+	</talk>
+	<teller>
+		<default>Na escola, 17:30, Angely entra na sala de Mel.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Me chamou?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Sim. Mas não tem a ver com a escola.</default>
+	</talk>
+	<talk character="Ang">
+		<default>E o que seria?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Está escondendo alguma coisa.</default>
+	</talk>
+	<teller>
+		<default>Angely baixa a cabeça.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Cadê o tal Fábio?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Um dos caras tava vivo e tentou atirar na Beatrice. Fábio salvou ela.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Deixa eu entender, ele morreu?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Sim.</default>
+	</talk>
+	<talk character="Mel">
+		<default>E por quê eles tentaram matá-la?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Ela me disse que vocês usaram o sangue dela pra matá-los e que Zenon disse que viriam atrás.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Angely, a verdade é que nem eu, nem ninguém engolimos Beatrice lá. Então diga pra ela não ter esperanças, porque assim que aparecer alguém de mais confiança, nós a substituiremos. E nem adianta me olhar com cara de cachorro abandonado e pedir por favor.</default>
+	</talk>
+	<teller>
+		<default>Jessé entra na sala.</default>
+	</teller>
+	<talk character="Jessé">
+		<default>Ago-gora po-pode ir... Estã-tão com pro-problemas?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Nada da escola. Por que só eu achava que você era gago?</default>
+	</talk>
+	<talk character="Jessé">
+		<default>Q-quê?</default>
+	</talk>
+	<talk character="Ang">
+		<default>Bom, vou sair e deixar vocês sozinhos.</default>
+	</talk>
+	<teller>
+		<default>Angely sai. Depois de algum tempo, Estela está com Rob. Estão sentados na cama. Ele tenta avançar o sinal, mas ela se afasta.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Que tá fazendo?</default>
+	</talk>
+	<talk character="Rob">
+		<default>Ouvi vocês conversando. Só queria ver se ia deixar como quase deixou com o pai da Kat.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Que???</default>
+	</talk>
+	<talk character="Rob">
+		<default>Ouvi você e Kat conversando.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Tá, agora que já sabe que não são só humanos que existem, posso te contar. Angely não é humano. Acho que naturalmente ele já deve beijar bem, mas ele usou um feitiço pra me deixar abalada desse jeito. Nem ele, nem a Kat, nem a Mel são normais. Aliás, eles têm a vantagem de ter atividade cerebral melhor e a desvantagem de se "alterar" mais fácil...</default>
+	</talk>
+	<teller>
+		<default>Rob cruza os braços, em sinal de descrença.</default>
+	</teller>
+	<talk character="Rob">
+		<default>Sei.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Que, acha que gosto dele???</default>
+	</talk>
+	<talk character="Rob">
+		<default>Não, eu já percebi de quem gosta. Aquela resposta hoje de tarde não foi sincera. Só disse sim quando o seu primo entrou.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Tá falando besteira.</default>
+	</talk>
+	<talk character="Rob">
+		<default>Tô mesmo?</default>
+		<teller>puxa Estela de volta para a cama</teller>
+		<default>Eu posso te fazer esquecê-lo.</default>
+	</talk>
+	<teller>
+		<default>Eles se beijam. Beatrice está em casa, com um livro.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Tá, então são esses seus planos, né? Vai ver se eu não te desmascaro...</default>
+	</talk>
+	<teller>
+		<default>Beatrice vai até a MEAK. Na sala, Mel está esperando ela.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Oi, era com você mesmo que eu precisava falar.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Tenho uma má notícia.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Aconteceu alguma coisa???</default>
+	</talk>
+	<talk character="Mel">
+		<default>Encontrei alguém pra te substituir.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Que?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Rob. Olha, a verdade é que o clima pesa aqui entre você e todo mundo, principalmente entre você e a Kat. Se quiser posso te ajudar a arranjar outro emprego, mas...</default>
+	</talk>
+	<talk character="Bea">
+		<default>Era sobre ele que eu vim falar! Ele tá possuído!</default>
+	</talk>
+	<talk character="Mel">
+		<default>Beatrice...</default>
+	</talk>
+	<talk character="Bea">
+		<default>É sério, eu vi no livro, o mestre dos...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Pára. Antes que eu perca a confiança que ganhei em você, pára.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Mel...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Sai daqui. Não queira me deixar irritada.</default>
+	</talk>
+	<teller>
+		<default>Ela sai. Chega em casa, com lágrimas nos olhos. Angely a vê. A abraça.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Ela te demitiu, né?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Já sabia que ela ia fazer isso?!</default>
+	</talk>
+	<talk character="Ang">
+		<default>Ela me disse hoje, ia falar com você, mas já tinha saído quando cheguei.</default>
+	</talk>
+	<teller>
+		<default>Beatrice o afasta.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Preciso de um tempo.</default>
+	</talk>
+	<teller>
+		<default>Ela sai. Angely se senta na cama.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Espero que esse tempo não seja com o Edmont.</default>
+	</talk>
+	<teller>
+		<default>Edmont, em Ares...</default>
+	</teller>
+	<talk character="Edmont">
+		<thought>Eu espero o contrário.</thought>
+	</talk>
+	<teller>
+		<default>Angely, em Hera...</default>
+	</teller>
+	<talk character="Ang">
+		<thought>Edmont...</thought>
+	</talk>
+	<teller>
+		<default>Edmont, em Ares...</default>
+	</teller>
+	<talk character="Edmont">
+		<thought>Sim?</thought>
+	</talk>
+	<teller>
+		<default>Angely, em Hera...</default>
+	</teller>
+	<talk character="Ang">
+		<thought>Cala a boca.</thought>
+	</talk>
 </story>
