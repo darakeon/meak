@@ -194,14 +194,10 @@
     <Content Include="Assets\images\boxes\yellow_background.jpg" />
     <Content Include="Assets\images\favicon.png" />
     <Content Include="Assets\images\logo.png" />
-    <Content Include="Assets\images\matrix\arms.png" />
-    <Content Include="Assets\images\matrix\background.png" />
-    <Content Include="Assets\images\matrix\logo.png" />
-    <Content Include="Assets\images\matrix\prevnext.png" />
-    <Content Include="Assets\images\matrix\sign.png" />
     <Content Include="Assets\images\next.gif" />
     <Content Include="Assets\images\prev.gif" />
     <Content Include="Assets\images\sign.gif" />
+    <Content Include="Assets\images\site-name.png" />
     <Content Include="Assets\js\AjustBoxes.js" />
     <Content Include="Assets\js\Author\Adder.js" />
     <Content Include="Assets\js\Author\General.js" />
@@ -228,8 +224,6 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="packages.config" />
-    <None Include="Assets\images\matrix\background_borderless.rar" />
-    <None Include="Assets\images\matrix\background_original.rar" />
     <Content Include="Views\Season\Author\AddEpisode.cshtml" />
     <Content Include="Views\Season\Author\Episode.cshtml" />
     <Content Include="Views\Season\Author\Paragraph.cshtml" />
@@ -256,6 +250,7 @@
     <Content Include="Web.Arvixe.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="Views\Shared\Partial\Sign.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Structure\Structure.csproj">
