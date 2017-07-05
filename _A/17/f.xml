@@ -33,6 +33,9 @@
 	<talk character="Kat">
 		<default>Não foi pra falar disso que vieram, foi?</default>
 	</talk>
+	<teller>
+		<default>Angely solta os ombros e o ar.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Não. É sobre os sonhos.</default>
 	</talk>
@@ -106,7 +109,7 @@
 		<default>Está atrás do que exatamente?</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Vocês ficam escondendo as coisas. Cresceu como meu irmão, droga, que merda aconteceu pra ficar assim?.</default>
+		<default>Vocês ficam escondendo as coisas. Cresceu como meu irmão, que merda aconteceu pra ficar assim?</default>
 	</talk>
 	<talk character="Angely">
 		<default>A gente pode sair daqui então?</default>
@@ -319,15 +322,15 @@
 		<default>Também não precisa ficar com raiva.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não estou com raiva.</default>
-		<teller>vira pra Derik</teller>
-		<default>Mas estou com frio.</default>
+		<default>Não tô com raiva.</default>
+		<teller>vira para Derik</teller>
+		<default>Mas tô com frio.</default>
 	</talk>
 	<teller>
 		<default>Derik deita ao lado de Kat e abraça.</default>
 	</teller>
 	<teller>
-		<default>Madrugada. Kat acorda, se vira, Derik cai no chão, Kat senta na cama.</default>
+		<first>Madrugada. Kat acorda, se vira, Derik cai no chão, Kat senta na cama.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Preciso falar com Mel!</default>
@@ -372,7 +375,7 @@
 		<default>Por que a Agatha vai querer prender Angely aqui. Vai logo!</default>
 	</talk>
 	<teller>
-		<default>MEAK. Aurium pouso na janela de Mel. Mel abre os olhos. Senta e olha para a janela. Pega o celular. Aperta o botão de ligar. Nada. Levanta e vai até Derik. Pega a bolsa, tira o bilhete:</default>
+		<default>MEAK. Aurium pousa na janela de Mel. Mel abre os olhos. Senta e olha para a janela. Pega o celular. Aperta o botão de ligar. Nada. Levanta e vai até Derik. Pega a bolsa, tira o bilhete:</default>
 		<letter>Mel, venha rápido.</letter>
 	</teller>
 	<talk character="Mel">
