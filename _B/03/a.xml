@@ -1,38 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="03" scene="a">
 	<teller>
-		<default>12/02 (quarta). Angely está na sala. Mel chega, feliz.</default>
+		<default>MEAK. Angely está na sala com um livro. Mel se senta ao seu lado.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Como tá a coisa do controle?</default>
+	</talk>
+	<teller>
+		<default>Angely fecha o livro. Baixa a cabeça.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Bom dia.</default>
+		<default>Na verdade, isso mais baixa poder que temos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sabe que eu tive um sonho muito...</default>
-		<teller>toca o telefone</teller>
-		<default>Alô? ### Se trabalhamos com roupa? ### Não, aqui a gente se veste com pele de gente. Onde você está mesmo? ###</default>
-		<teller>ela coloca o telefone no lugar</teller>
-		<irony>Estranho, desligou.</irony>
+		<default>Pra não explodirem Realidades?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Nossa, acordou de mal-humor?</default>
+		<default>Mais ou menos por aí.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Detesto trotes. E Zenon?</default>
+		<default>Sabe de Zenon?</default>
 	</talk>
+	<teller>
+		<default>Ang olha para Mel.</default>
+	</teller>
 	<talk character="Ang">
 		<default>Zenon?</default>
 	</talk>
 	<talk character="Mel">
-		<default>É, disse que ia procurar ele há uma semana...</default>
+		<default>É, disse que ia procurar há uma semana...</default>
 	</talk>
 	<talk character="Ang">
-		<default>Eu pensei mesmo em procurar, mas acabei indo atrás do Edmont.</default>
+		<default>Eu pensei mesmo em procurar, mas acabei indo atrás de Edmont.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ah, tá... Onde será que ele tá agora?</default>
+		<default>Ah, tá... Onde será que tá agora?</default>
 	</talk>
 	<teller>
-		<default>Zenon está lutando com uma mulher.</default>
+		<first>Zenon tem um braço em volta de seu pescoço.</first>
 	</teller>
 	<talk character="Clítia">
 		<default>Não aprovo sua mudança de comportamento.</default>
@@ -41,10 +46,10 @@
 		<default>Novidade pra você, não vim aqui pedir sua aprovação!</default>
 	</talk>
 	<talk character="Clítia">
-		<default>Devia, já que não pode me derrubar!</default>
+		<default>Devia, já que não pode me derrubar.</default>
 	</talk>
 	<teller>
-		<default>Ela o derruba, com a besta que ele trouxera apontada para o próprio.</default>
+		<default>Clítia joga Zenon no chão. Pega a besta que Zenom trazia e aponta para Zenon.</default>
 	</teller>
 	<talk character="Zenon #">
 		<default>Vai me matar?</default>
@@ -53,96 +58,96 @@
 		<default>Eu já vi você assim uma vez. Vai passar e você vai voltar pra mim.</default>
 	</talk>
 	<teller>
-		<default>Zenon derruba Clítia e fica em cima dela.</default>
+		<default>Zenon levanta do chão. Clítia abaixa a besta. Zenon encosta Clítia contra a parede.</default>
 	</teller>
 	<talk character="Zenon #">
 		<default>Não conta mesmo com isso, conta?</default>
 	</talk>
 	<teller>
-		<default>Clítia inverte a situação.</default>
+		<default>Clítia inverte, encostando Zenon contra a parede.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Não acho que vá voltar. Tenho certeza.</default>
 	</talk>
 	<teller>
-		<default>Ela se levanta e vai embora.</default>
+		<default>Clítia se afasta, sorri e sai.</default>
 	</teller>
 	<talk character="Zenon #">
 		<default>Pelo menos estou mantendo ela longe de Alan. Se desse pra impedir o outro desastre também...</default>
 	</talk>
 	<teller>
-		<default>Dentro de um quarto, duas mulheres – uma de 36 anos e outra de 25 – conversam. A mais nova está na cama, a mais velha se vestindo.</default>
+		<first>Dentro de um quarto, Branca está se vestindo. Helena está na cama, com um lençol sobre o corpo.</first>
 	</teller>
-	<talk character="mãe de Alan">
+	<talk character="Branca">
 		<default>Acho que ele vai aceitar isso...</default>
 	</talk>
 	<talk character="Helena">
 		<default>E como vamos contar?! "Olha, eu não quero mais casar com você porque..."</default>
 	</talk>
-	<talk character="mãe de Alan">
+	<talk character="Branca">
 		<default>Helena, se acalma!</default>
 	</talk>
 	<talk character="Helena">
 		<default>Como?!</default>
 	</talk>
-	<talk character="mãe de Alan">
+	<talk character="Branca">
 		<default>Vou buscar um copo d’água pra você.</default>
 	</talk>
 	<teller>
-		<default>Ela sai do quarto e encontra Alan, sentado à porta. Fica paralisada.</default>
+		<default>Branca sai do quarto. Alan está no chão, sentou-se ao lado da porta. Branca paralisa.</default>
 	</teller>
-	<talk character="mãe de Alan">
+	<talk character="Branca">
 		<default>Alan, eu...</default>
 	</talk>
 	<talk character="Alan">
 		<irony>Bem que me disseram que relação de sogra e nora não dava assim tão certo.</irony>
 	</talk>
 	<teller>
-		<default>Alan entra no quarto e Helena fica pálida.</default>
+		<default>Alan entra no quarto. Helena empalidece.</default>
 	</teller>
 	<talk character="Alan">
 		<irony>Acho que não devia ter dito que a casa tava no nome da minha mãe, né?</irony>
 	</talk>
-	<talk character="mãe de Alan">
+	<talk character="Branca">
 		<default>Não precisa ser sarcástico.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Devo ter aprendido isso com eles... Rir pra não chorar.</default>
 	</talk>
-	<talk character="mãe de Alan">
+	<talk character="Branca">
 		<default>Pode encontrar outra pessoa...</default>
 	</talk>
 	<talk character="Alan">
 		<irony>Bravo!</irony>
 		<teller>bate palma</teller>
-		<irony>É essa sua desculpa? É mais fácil encontrar uma hetero do que uma lésbica? Então quer dizer que sou muito sortudo, conheço duas!</irony>
+		<irony>É essa sua desculpa? É mais fácil encontrar uma mulher normal do que uma sapatão? Então quer dizer que sou muito sortudo, conheço duas!</irony>
 	</talk>
-	<talk character="mãe de Alan">
+	<talk character="Branca">
 		<screamed>Pára com isso! Pare da falar como esse sarcasmo, como um...</screamed>
 	</talk>
 	<talk character="Alan">
 		<irony>Um vampiro? Pode ficar sossegada, se eu fizer como meu pai fez quando descobriu que você não gostava da fruta e for atrás de uma vampira, vai ser só pra ela me matar!</irony>
 	</talk>
 	<teller>
-		<default>Ela dá um tapa na cara dele. Ele olha pra ela.</default>
+		<default>Branca dá um tapa na cara de Alan. Alan olha para Branca.</default>
 	</teller>
 	<talk character="Alan">
 		<irony>Desculpe, não vou te perturbar a lua-de-mel de vocês duas.</irony>
 	</talk>
 	<teller>
-		<default>Alan se retira.</default>
+		<default>Alan sai.</default>
 	</teller>
 	<talk character="Helena">
 		<default>Alan, espera!</default>
 	</talk>
 	<teller>
-		<default>Helena se levanta da cama – ela estava com uma camisola – e vai atrás dele.</default>
+		<default>Helena se enrola no lençol e vai atrás de Alan.</default>
 	</teller>
 	<talk character="Helena">
-		<default>Não aconteceu o que tá pensando...</default>
+		<default>Não é o que você tá pensando...</default>
 	</talk>
 	<talk character="Alan">
-		<irony>Eu nunca vou saber, não sou mulher pra virar lésbica.</irony>
+		<irony>Eu nunca vou saber, não sou mulher pra virar sapatão.</irony>
 	</talk>
 	<talk character="Helena">
 		<default>Pára com esse sarcasmo e me escuta!</default>
@@ -151,36 +156,40 @@
 		<default>Eu escutei tudo, não preciso escutar mais.</default>
 	</talk>
 	<teller>
-		<default>Ela baixa a cabeça. A mãe dele chega.</default>
+		<default>Helena baixa a cabeça. Branca chega.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Vou pedir abrigo a algum amigo meu, amanhã venho buscar algumas roupas.</default>
-		<teller>vira para a mãe</teller>
-		<default>Mas só o que comprei com o meu dinheiro.</default>
+		<default>Vou pedir abrigo a algum amigo meu, amanhã venho buscar roupas.</default>
 	</talk>
 	<teller>
-		<default>Ele sai. Vai para um bar. Vê um amigo, mas não vai até ele porque este está olhando para um vampiro. Senta-se em outra mesa e pega o celular. Liga para o amigo.</default>
+		<default>Alan olha para Branca.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Só o que comprei com meu dinheiro.</default>
+	</talk>
+	<teller>
+		<first>Alan entra em um bar. Vê Diógenes. Diógenes está olhando fixo em uma direção. Alan senta-se em outra mesa e pega o celular. Disca. Diógenes pega o celular e atende.</first>
 	</teller>
 	<talk character="Alan">
 		<default>Não procura, mas estou dentro do bar.</default>
 	</talk>
-	<talk character="caçador">
+	<talk character="Diógenes">
 		<default>Oi pra você também...</default>
 	</talk>
 	<talk character="Alan">
 		<default>Pode voltar aqui depois? Tô precisando dum lugar pra ficar.</default>
 	</talk>
-	<talk character="caçador">
+	<talk character="Diógenes">
 		<default>Assim que eu terminar.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Ótimo. Vê se não esquece qual o bar dessa vez.</default>
 	</talk>
-	<talk character="caçador">
+	<talk character="Diógenes">
 		<default>Ele tá saindo, tchau.</default>
 	</talk>
 	<teller>
-		<default>O cara desliga. Alan pede uma bebida. Clítia se aproxima.</default>
+		<default>Diógenes desliga. Sai. Clítia se aproxima de Alan.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Bem inexperiente seu amigo.</default>
@@ -189,7 +198,7 @@
 		<irony>É?</irony>
 	</talk>
 	<talk character="Clítia">
-		<default>É uma emboscada, qualquer vampiro percebe quando está sendo vigiado.</default>
+		<default>É uma emboscada, qualquer vampiro percebe quando tá sendo vigiado.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Talvez o seu amigo é que seja inexperiente.</default>
@@ -201,41 +210,45 @@
 		<default>Rust?!</default>
 	</talk>
 	<talk character="Clítia">
-		<default>É, o isca da Virgine.</default>
+		<default>É, a nova isca da Virgine.</default>
 	</talk>
 	<teller>
-		<default>Ele se levanta correndo e sai do bar.</default>
+		<default>Alan se levanta correndo e sai do bar.</default>
 	</teller>
 	<talk character="Clítia">
-		<default>Vai de mãos vazias?</default>
-		<teller>grita pra ele, que não ouve</teller>
-		<default>Hã... Idiota.</default>
+		<screamed>Vai de mãos vazias?</screamed>
 	</talk>
 	<teller>
-		<default>Zenon está andando. Sente cheiro de sangue. Uma garota esbarra nele.</default>
+		<default>Clítia suspira fundo.</default>
+	</teller>
+	<talk character="Clítia">
+		<default>Idiota.</default>
+	</talk>
+	<teller>
+		<default>Zenon está andando com uma besta. Fareja o ar. Esmeralda esbarra em Zenon.</default>
 	</teller>
 	<talk character="Zenon #">
 		<default>Que foi???</default>
 	</talk>
-	<talk character="garota">
+	<talk character="Esmeralda">
 		<default>Monstros...</default>
 	</talk>
 	<teller>
-		<default>Ela continua correndo. Zenon vai andando e ouve vozes. Rust está encostado numa parede. Um outro vampiro está sentado em cima do amigo de Alan, este desacordado.</default>
+		<default>Esmeralda continua correndo. Zenon vai andando e ouve vozes. Rust encostou-se em uma parede. Oswald está sentou-se em cima de Diógenes.</default>
 	</teller>
-	<talk character="vampiro">
+	<talk character="Oswald">
 		<default>Não vai querer mesmo?</default>
 	</talk>
 	<talk character="Rust">
 		<default>Não, pode ficar.</default>
 	</talk>
-	<talk character="vampiro">
+	<talk character="Oswald">
 		<default>Bom, sobra mais!</default>
 	</talk>
 	<teller>
-		<default>Rust vai embora. O outro vampiro crava os dentes no amigo de Alan enquanto Zenon se atrapalha com a besta. Finalmente a arma e atira, acertando o coração do vampiro. Vai até o caçador.</default>
+		<default>Rust sai. Oswald crava os dentes em Diógenes. Zenon aponta a besta e percebe que não tem estaca. Olha ao redor, vê um cabo de vassoura, pega e quebra. Oswald olha para Zenon. O cabo de vassoura quebrado atravessa Oswald. Oswald vira cinzas. Zenon vai até Diógenes.</default>
 	</teller>
-	<talk character="caçador">
+	<talk character="Diógenes">
 		<default>Obrigado...</default>
 	</talk>
 	<talk character="Zenon #">
@@ -243,7 +256,11 @@
 	</talk>
 	<talk character="Alan">
 		<arrive>Sair de perto dele? Também acho.</arrive>
-		<teller>Zenon olha pra Alan</teller>
+	</talk>
+	<teller>
+		<default>Zenon olha pra Alan</default>
+	</teller>
+	<talk character="Alan">
 		<default>Mandei se afastar dele agora, desgraçado!</default>
 	</talk>
 	<teller>
@@ -253,19 +270,19 @@
 		<default>Ele precisa de ajuda, temos que...</default>
 	</talk>
 	<talk character="Alan">
-		<default>Calado!</default>
+		<default>Cala a boca!!!</default>
 	</talk>
-	<talk character="caçador">
-		<default>Não é...</default>
+	<talk character="Diógenes">
+		<default>Não foi...</default>
 	</talk>
 	<teller>
-		<default>O caçador fecha os olhos.</default>
+		<default>Diógenes fecha os olhos.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Não precisa de ajuda. Está morto.</default>
+		<default>Não precisa de ajuda. Tá morto.</default>
 	</talk>
 	<talk character="Zenon #">
-		<default>Não aconteceu o que tá pensando...</default>
+		<default>Não é o que você tá pensando...</default>
 	</talk>
 	<talk character="Alan">
 		<screamed>Será que eu só vou ouvir isso hoje???</screamed>
@@ -280,7 +297,7 @@
 		<default>Não, é que eu...</default>
 	</talk>
 	<teller>
-		<default>Alan pega a estaca – que Zenon havia atirado – do chão.</default>
+		<default>Alan pega o cabo de vassoura quebrado.</default>
 	</teller>
 	<talk character="Zenon #">
 		<default>Eu não quero te machucar.</default>
@@ -292,7 +309,7 @@
 		<default>Zenon coloca a besta no chão e chuta para Alan.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Acho que sou idiota? Que vai me comover e vou acreditar que é bonzinho, como fez com Melody?</default>
+		<default>Acha que sou idiota? Que vai me comover e vou acreditar que é bonzinho, como fez com Melody?</default>
 	</talk>
 	<talk character="Zenon #">
 		<default>Se acha mesmo que mereço, então atira logo. Se não, pára de gastar meu tempo.</default>
@@ -301,19 +318,19 @@
 		<default>Se você merece?! Percebe-se mesmo que você não sabe o valor da vida alheia...</default>
 	</talk>
 	<talk character="Zenon #">
-		<default>Apenas me expressei mal.</default>
+		<default>Me expressei mal.</default>
 	</talk>
+	<teller>
+		<default>Alan pega a besta, tira uma estaca da cintura e arma.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Vai se expressar mal no inferno agora.</default>
 	</talk>
-	<teller>
-		<default>Alan arma a besta.</default>
-	</teller>
 	<talk character="Clítia">
 		<arrive>Não mereço um prêmio?</arrive>
 	</talk>
 	<teller>
-		<default>Os dois olham para ela.</default>
+		<default>Alan e Zenon olham para Clítia.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Pelo que?</default>
@@ -322,7 +339,7 @@
 		<default>Te entreguei minha criação.</default>
 	</talk>
 	<talk character="Alan">
-		<irony>Como se isso te tornasse boa moça.</irony>
+		<irony>E isso te torna boa moça.</irony>
 	</talk>
 	<talk character="Clítia">
 		<default>Quem te garante que não?</default>
@@ -336,7 +353,7 @@
 	<talk character="Zenon #">
 		<default>Tenho direito a um último pedido?</default>
 	</talk>
-	<talk character="Clítia / Alan">
+	<talk character="Alan">
 		<default>Não.</default>
 	</talk>
 	<talk character="Zenon #">
@@ -353,11 +370,15 @@
 	</talk>
 	<talk character="Clítia">
 		<default>Que dilema...</default>
-		<teller>vira para Alan</teller>
+	</talk>
+	<teller>
+		<default>Clítia olha para Alan.</default>
+	</teller>
+	<talk character="Clítia">
 		<default>Acreditar em quem matou seu amigo ou em quem entregou o assassino?</default>
 	</talk>
 	<teller>
-		<default>Alan vira a besta para Zenon.</default>
+		<default>Alan olha para Zenon.</default>
 	</teller>
 	<talk character="Zenon #">
 		<default>Não vai acreditar nela, vai?</default>
@@ -366,13 +387,13 @@
 		<default>Ela não mentiu pra mim.</default>
 	</talk>
 	<teller>
-		<default>Zenon desarma Alan, mas Clítia desapareceu.</default>
+		<default>Zenon chuta o braço de Alan. Pega a besta. Olha em volta.</default>
 	</teller>
 	<talk character="Zenon #">
-		<default>Droga!</default>
+		<screamed>Droga!</screamed>
 	</talk>
 	<talk character="Alan">
-		<irony>Pode me matar, não tem ninguém olhando!</irony>
+		<default>Pode me matar, não tem ninguém olhando!</default>
 	</talk>
 	<teller>
 		<default>Alan se levanta.</default>
@@ -381,67 +402,70 @@
 		<default>Por que não atirou nela???</default>
 	</talk>
 	<talk character="Alan">
-		<irony>Vai bancar o bom garoto agora?</irony>
+		<default>Vai bancar o bom garoto agora?!</default>
 	</talk>
 	<teller>
-		<default>Zenon se irrita e joga a arma no chão. Esta se desfaz em pedaços.</default>
+		<default>Zenon se irrita e joga a besta no chão. Se desfaz em pedaços.</default>
 	</teller>
 	<talk character="Zenon #">
-		<default>Não consegue enxergar mesmo um palmo na frente do seu nariz! Depois não sabe porque foi trocado pela própria mãe...</default>
+		<default>Não consegue enxergar mesmo um palmo na frente do seu nariz! Depois não sabe porque foi trocado pela própria mãe!</default>
 	</talk>
 	<teller>
-		<default>Depois que Zenon vira as costas, Alan pega a estaca no chão e atravessa-a no estômago deste, que cai.</default>
+		<default>Zenon se vira. O cabo de vassoura quebrado atravessa seu estômago. Zenon cai.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Não sei se posso te matar, mas isso eu posso fazer.</default>
 	</talk>
 	<teller>
-		<default>Zenon desmaia. 13/02 (quinta), 6:00. Quando acorda, levanta e se queima.</default>
+		<first>Dia seguinte, 6:00. Zenon acorda. Levanta. Se queima em um raio de sol que entrava por um buraco.</first>
 	</teller>
 	<talk character="Clítia">
-		<default>Cuidado, as paredes desse lugar estão parecendo peneiras.</default>
+		<default>Cuidado, as paredes desse lugar tão parecendo peneiras.</default>
 	</talk>
 	<teller>
-		<default>Ele olha para um canto e vê Edmont.</default>
+		<default>Olha para um canto.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Que foi? Não fui eu quem quis atrapalhar seu suicídio, ela quem insistiu pra carregarmos você.</default>
+		<default>Que foi? Não fui eu quem quis atrapalhar seu suicídio, Clítia quem insistiu pra carregarmos você.</default>
 	</talk>
 	<talk character="Zenon #">
 		<default>Trocou Beatrice?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela não é ciumenta.</default>
+		<default>Os conceitos de vocês de relacionamentos são engraçados.</default>
 	</talk>
 	<teller>
-		<default>Em casa, Ang acorda. Mel está do lado dele, ainda dormindo.</default>
+		<default>Ang abre os olhos. Desce da cama de cima da beliche.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Mel, acorda...</default>
+		<default>Mel... Mel, preciso falar...</default>
 	</talk>
 	<teller>
-		<default>Mel pega o relógio, olha e entrega para Angely.</default>
+		<default>Mel pega o relógio, abre os olhos, fecha e estica o relógio para Angely.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Eu sei, Mel, mas eu tive um sonho muito estranho, acho que era real, era com o Zenon...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Me deixa dormir, esse poder quem tem é a Kat.</default>
+		<default>Eu sei, Mel, mas eu tive um sonho muito estranho, acho que era real, era com Zenon...</default>
 	</talk>
 	<teller>
-		<default>Angely sai e volta, minutos depois, com um café da manhã para Mel. Ela se levanta.</default>
+		<default>Mel pousa o relógio de voltana cabeceira.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Que isso?</default>
+		<default>Me deixa dormir, esse poder é de Kat.</default>
+	</talk>
+	<teller>
+		<default>Angely sai. Vai a cozinha. Pega um pão. Passa manteiga. Pega um copo. Coloca café. Pega o pão e o café e sobe. Abaixa ao lado de Mel. Mel abre os olhos.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Isso é jogo sujo.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Vou me trocar, toma seu café e se troca também, temos que sair.</default>
 	</talk>
 	<talk character="Mel">
-		<default>‘Brigado.</default>
+		<default>Valeu.</default>
 	</talk>
 	<teller>
-		<default>Mel se senta (estava deitada). 7:00. Mel desce e encontra Angely no sofá da sala.</default>
+		<first>7:00. Mel desce e encontra Angely no sofá da sala.+++</first>
 	</teller>
 	<talk character="Ang">
 		<default>Então, vamos?</default>
