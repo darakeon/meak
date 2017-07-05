@@ -19,6 +19,8 @@
 	border-radius: 0 0 10px 10px;
 	font-weight: bold;
 	font-size: 12px;
+	background: #511;
+	color: #CCC;
 }
 
 .menu #save_status
@@ -35,15 +37,14 @@
 .menu .body .item
 {
     padding: 0px 8px;
-    opacity: 0.30;
+    color: #BBB;
     filter: alpha(opacity=30);
 }
 
 .menu .body .item:hover,
 .menu .body .item.selected
 {
-    opacity: 1;
-    filter: alpha(opacity=100);
+    color: #E55;
 }
 
 #legend

@@ -4,12 +4,15 @@
 	width: auto;
 	height: auto;
 	font-size: 130%;
+	filter: alpha(opacity=75);
+	opacity: 0.75;
 }
 
 .main p.title
 {
 	text-align: center;
 	font-size: 125%;
+	color: #800;
 }
 
 .main p.title
