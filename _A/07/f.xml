@@ -1,19 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="07" scene="f">
 	<teller>
-		<default>Na manhã do dia seguinte...</default>
+		<default>Na manhã do dia seguinte, Angely levanta e vai até a sala.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Cadê a Mel?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Sei lá... Pensei que ela já tivesse voltado.</default>
-	</talk>
-	<talk character="Angely">
-		<default>É, ela deve estar no quarto.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu vou ver a Agatha...</default>
+		<default>Deve estar no quarto. Eu vou ver a Agatha...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não acha que tá dando muita atenção pra ela?</default>
@@ -37,13 +31,13 @@
 		<default>Como será que está a Dara?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ih, Angely, desencana, ela não é pra você.</default>
+		<default>Ang, desencana, ela não é pra você.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu não tô dizendo nada... Podemos ir até a casa dela?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Também teve esse pressentimento estranho?</default>
+		<default>Pressentimento estranho?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Sei lá, alguma coisa dizendo pra eu ir lá...</default>
@@ -64,7 +58,7 @@
 		<default>Eu ia sair com ela hoje...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Deve estar nas suas coisas, nas minhas é que não haveria de estar.</default>
+		<default>Deve estar nas suas coisas, nas minhas é que não estaria.</default>
 	</talk>
 	<talk character="Denise">
 		<default>Você tem certeza que não viu?</default>
@@ -79,7 +73,7 @@
 		<default>Uma mancha vermelha no busto do seu vestido iria ficar uma graça.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Vejo que vocês não param mesmo de brigar.</default>
+		<arrive>Não param mesmo de brigar.</arrive>
 	</talk>
 	<talk character="Dara">
 		<default>Que tá fazendo aqui?</default>
@@ -103,25 +97,13 @@
 		<default>Por que?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Primeiro, você tem namorada.</default>
+		<default>Você tem namorada.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não tenho mais.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Segundo, você tem cara de sacana.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Isso não é bom?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Terceiro, eu não gosto de você.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Duvido.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Quarto, o quarto é meu e só entra quem eu quiser.</default>
+		<default>Fora.</default>
 	</talk>
 	<talk character="Derik">
 		<default>E não quer que eu fique aqui?</default>
@@ -157,10 +139,14 @@
 		<default>Pra casa?</default>
 	</talk>
 	<talk character="Derik">
-		<default>É claro.</default>
+		<irony>Pro motel.</irony>
+		<default>Claro que é pra casa.</default>
 	</talk>
 	<teller>
-		<default>Eles saem. Denise vai até o quarto de Dara e não a vê. Ela está no escuro.</default>
+		<default>Eles saem.</default>
+	</teller>
+	<teller>
+		<first>Denise vai até o quarto de Dara e não a vê. Ela está no escuro.</first>
 	</teller>
 	<talk character="Dara">
 		<default>Não vai mais sair com Bryan?</default>
@@ -193,7 +179,7 @@
 		<default>Hoje em dia ninguém usa isso.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Eu sei. Tem uma substituta: a besta. Mas eu prefiro essa.</default>
+		<default>Eu sei. Tem armas de fogo. Mas eu prefiro essa.</default>
 	</talk>
 	<talk character="Denise">
 		<default>Por que está dizendo isso? Você não sabe usar essa...</default>
@@ -215,23 +201,20 @@
 	<talk character="Dara">
 		<default>Pra que? Eu já vou mesmo pra cadeia... Isso na melhor das hipóteses.</default>
 	</talk>
-	<teller>
-		<default>Os meninos adentram o quarto.</default>
-	</teller>
 	<talk character="Angely">
-		<default>Solta isso, Dara...</default>
+		<arrive>Solta isso, Dara...</arrive>
 	</talk>
 	<talk character="Dara">
 		<default>Por que?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Vai se arrepender se matar ela.</default>
+		<arrive>Vai se arrepender se matar ela.</arrive>
 	</talk>
 	<talk character="Dara">
 		<default>Não, não vou, não.</default>
 	</talk>
 	<teller>
-		<default>Angely desarma Dara e deixa ela fugir pela janela. Ela pega a moto dele. Ele se senta e coloca a mão na cabeça, visivelmente perturbado. Denise olha pela janela e Dara já foi.</default>
+		<default>Angely desarma Dara. Ela foge pela janela. Ele vai até a janela e vê quando ela pega a moto dele e sai. Ele se senta e coloca a mão na cabeça, visivelmente perturbado. Denise olha pela janela e Dara já foi.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Você deixou ela fugir!</default>
@@ -255,10 +238,10 @@
 		<default>Angely vai sair e Edmont segura o braço dele.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Onde você vai???</default>
+		<default>Onde você vai?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Onde meus instintos me levarem.</default>
+		<default>Atrás dela.</default>
 	</talk>
 	<teller>
 		<default>Edmont solta o braço de Angely.</default>
@@ -267,13 +250,16 @@
 		<default>Eu vou com você.</default>
 	</talk>
 	<teller>
-		<default>Eles pegam a moto e saem à toda velocidade. Chegam a um lugar estranho.</default>
+		<default>Eles pegam a moto e saem à toda velocidade.</default>
+	</teller>
+	<teller>
+		<first>Edmont e Angely chegam a um prédio abandonado.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Tem alguém aqui?</default>
 	</talk>
 	<talk character="Denzel">
-		<default>Ora, ora, ora, se não é o intrometido...</default>
+		<arrive>Se não é o intrometido...</arrive>
 	</talk>
 	<talk character="Angely">
 		<default>Não vai ficar com Dara.</default>
@@ -360,7 +346,7 @@
 		<default>Por que ele me disse que não tinha namorada.</default>
 	</talk>
 	<talk character="Mel">
-		<default>E quem disse que eu sou namorada dele???</default>
+		<default>E quem disse que eu sou namorada dele?!</default>
 	</talk>
 	<talk character="Dara">
 		<default>Sei lá, tem cada retardada por aí...</default>
@@ -374,7 +360,7 @@
 	<talk character="Mel">
 		<default>Será que tem jeito de nos livrarmos dessas correntes?</default>
 		<teller>Mel olha pra uma janela da sala</teller>
-		<default>Kat??? Que tá fazendo aqui???</default>
+		<default>Kat? Que tá fazendo aqui?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Tentando soltar vocês. Eles estão aí, não estão?</default>
@@ -392,13 +378,13 @@
 		<default>Não mesmo. Você deveria aprender a usar alguma arma.</default>
 	</talk>
 	<teller>
-		<default>Elas ouvem barulhos vindos lá de baixo.</default>
+		<default>Elas ouvem o barulho de algo pesado batendo contra a parede.</default>
 	</teller>
 	<talk character="Denzel">
-		<default>Desista, garoto!</default>
+		<out>Desista, garoto!</out>
 	</talk>
 	<teller>
-		<default>Edmont sobe à sala, aproveitando que Angely distrai Denzel.</default>
+		<default>Edmont aparece, com um machado.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Kat, sai da frente.</default>
@@ -422,22 +408,18 @@
 		<default>Kat se afasta.</default>
 	</teller>
 	<talk character="Dara">
-		<default>Ei, cuidado com a minha mão!</default>
+		<default>Cuidado com a</default>
+		<frizz>minha</frizz>
+		<default>mão!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Pode deixar.</default>
 	</talk>
 	<teller>
-		<default>Edmont solta Dara, Dara solta Mel.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Mel, eu trouxe algo...</default>
-	</talk>
-	<teller>
-		<default>Edmont entrega uma besta a Mel.</default>
+		<default>Edmont quebra as correntes de Dara e de Mel. Entrega uma besta a Mel.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Claro, minha mira nem é uma merda!</default>
+		<irony>Claro, minha mira nem é uma merda!</irony>
 	</talk>
 	<talk character="Edmont">
 		<default>Vai ter que se virar.</default>
@@ -467,7 +449,7 @@
 	</teller>
 	<talk character="Dara">
 		<default>Minha vez.</default>
-		<teller>Dara, que estava agachada, se levanta</teller>
+		<teller>se levanta</teller>
 		<default>Ei, Denzel!</default>
 	</talk>
 	<teller>
@@ -475,9 +457,6 @@
 	</teller>
 	<talk character="Denzel">
 		<default>Acha mesmo que só isso vai me matar?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não, isso vai.</default>
 	</talk>
 	<teller>
 		<default>Ela atira outra flecha, dessa vez na testa. Ele, literalmente, derrete.</default>
@@ -489,7 +468,7 @@
 		<default>Ainda acha ele bonito?</default>
 	</talk>
 	<teller>
-		<default>Eles descem a escada e vão até Angely. Ele está ferido, Mel o atingiu.</default>
+		<default>Eles descem a escada e vão até Angely. Ele está ferido. A estaca que Mel atirou.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Angely, desculpa, eu...</default>
@@ -498,13 +477,13 @@
 		<default>Tá tudo bem. Eu me recupero.</default>
 	</talk>
 	<teller>
-		<default>Levam Angely até o hospital. Três dias depois, Angely está em casa. Edmont entra no quarto.</default>
+		<first>Três dias depois, Angely, acaba de chegar do hospital. Edmont entra no quarto.</first>
 	</teller>
 	<talk character="Angely">
 		<default>E a mão, cara?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Novinha. Ser ET tem seus benefícios.</default>
+		<default>Novinha.</default>
 	</talk>
 	<talk character="Angely">
 		<default>E os shows?</default>
