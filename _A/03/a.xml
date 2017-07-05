@@ -4,7 +4,7 @@
 		<default>Chegando no Brasil...</default>
 	</teller>
 	<talk character="Agatha">
-		<default>Ainda bem que você foram mais espertos e contrataram uma empresa de mudança.</default>
+		<default>Ainda bem que você foram mais espertos e compraram tudo novo.</default>
 	</talk>
 	<talk character="Júlio">
 		<default>Ei, eu tava sem dinheiro, tá?</default>
@@ -40,7 +40,7 @@
 		<default>Meg, Agatha e Kat sobem a escada. Angely e Edmont vão pro quarto deles. Júlio se joga no sofá e liga a TV. Anoitece.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Queria te perguntar.</default>
+		<default>Queria te perguntar uma coisa.</default>
 	</talk>
 	<talk character="Angely">
 		<default>O que?</default>
@@ -52,10 +52,13 @@
 		<default>Lembro, por quê?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ele disse que só poderiam estar procurando-nos se um de nós fosse...</default>
+		<default>Ele disse que só poderiam estar nos procurando se um de nós fosse...</default>
 	</talk>
+	<teller>
+		<default>Angely suspira fundo.</default>
+	</teller>
 	<talk character="Angely">
-		<default>Sim, eu sou virgem.</default>
+		<default>Sim, eu sou virgem. Nunca nem beijei ninguém.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Sério? Achei que só não tinha me contado por timidez...</default>
@@ -79,7 +82,7 @@
 		<arrive>De quando à quando vão os bimestres aqui?</arrive>
 	</talk>
 	<talk character="Angely">
-		<default>A quanto tempo tá aí?!</default>
+		<default>Há quanto tempo tá aí?!</default>
 	</talk>
 	<talk character="Meg">
 		<default>Cheguei agora, por quê?</default>
@@ -91,7 +94,7 @@
 		<default>Duram dois meses e meio. Nem sei porque chamam de bimestre...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Período I vai de 1o de fevereiro a 15 de Abril. O II de 16 de abril a 30 de Junho, as férias de 1o a 15 de Julho, o III período de 16 de julho a 30 de setembro e o IV de 1o de outubro a 15 de dezembro.</default>
+		<default>Período I é março e abril. O II de maio e junho, as férias são em julho, o III período agosto e setembro e o IV outubro e novembro.</default>
 	</talk>
 	<talk character="Meg">
 		<default>Tá, brigado. Eu tô indo, tchau.</default>
@@ -279,23 +282,20 @@
 	<talk character="Júlio">
 		<default>Gente, o que aconteceu? Por que ele ficou daquele jeito?</default>
 	</talk>
-	<teller>
-		<default>Júlio pega um copo de suco e coloca na boca.</default>
-	</teller>
 	<talk character="Agatha">
 		<default>Bom, o Angely deixou contar...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ele é virgem.</default>
+		<default>Ele nunca beijou uma garota.</default>
 	</talk>
-	<teller>
-		<default>Quando Edmont fala, Júlio cospe o suco fora e se engasga.</default>
-	</teller>
 	<talk character="Agatha">
-		<default>Calma, respira fundo... Isso...</default>
+		<default>Caramba, achei que ele só era virgem!</default>
+	</talk>
+	<talk character="Edmont">
+		<default>É, agora ele me mata.</default>
 	</talk>
 	<talk character="Júlio">
-		<default>Como assim???</default>
+		<default>Como assim?</default>
 	</talk>
 	<talk character="Edmont">
 		<irony>Bom, não é o signo dele.</irony>
@@ -305,6 +305,9 @@
 	</talk>
 	<talk character="Edmont">
 		<default>Eu vou falar com o Angely.</default>
+	</talk>
+	<talk character="Júlio">
+		<default>Bom, ele tem dezessete, não trinta.</default>
 	</talk>
 	<teller>
 		<default>Edmont vai atrás de Angely. Agatha e Júlio arrumam a cozinha.</default>
@@ -439,6 +442,6 @@
 		<default>Droga.</default>
 	</talk>
 	<teller>
-		<default>Edmont vai pro quarto dele. Angely já está dormindo. Edmont não consegue nem cochilar. Agatha também não.</default>
+		<default>Edmont vai pro quarto dele. Angely já está dormindo. Ele se joga na cama e vira pro canto. Agatha está com os olhos bem abertos, grudados no teto.</default>
 	</teller>
 </story>
