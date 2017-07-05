@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="07" scene="c">
 	<teller>
-		<default>Angely acompanha Mel à biblioteca. 1:00, 26/03 (quarta). (Elisângela - bibliotecária).</default>
+		<default>Madrugada. Biblioteca.</default>
 	</teller>
 	<talk character="Lis">
 		<default>Estamos fechando, só tem uma garota devolvendo um livro aqui...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nós realmente precisamos disso, fizemos um cadastro, em nome da agência...</default>
+		<default>Fizemos um cadastro, em nome da agência, a gente...</default>
 	</talk>
 	<talk character="Lis">
 		<default>A MEAK?</default>
@@ -19,13 +19,13 @@
 		<default>Sinto muito, estou mesmo muito cansada pra ficar aqui, só se vocês conseguirem chamar os outros dois. O telefone deles é esse aqui.</default>
 	</talk>
 	<teller>
-		<default>Lis entrega um cartão à Mel. Ela usa o celular, mas não atendem do outro lado.</default>
+		<default>Lis entrega um cartão a Mel. Mel pega o celular. Digita. Coloca o telefone no ouvido. Espera. Solta os ombros. Desliga. Guarda o celular.</default>
 	</teller>
 	<talk character="Lis">
 		<default>Devem ter saído.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não pode mesmo ficar aqui conosco?</default>
+		<default>Não pode mesmo ficar aqui?</default>
 	</talk>
 	<talk character="Lis">
 		<default>Sinto muito, tenho mesmo que ir. Meu namorado está esperando.</default>
@@ -34,10 +34,10 @@
 		<arrive>Vocês por aqui...</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Quem deveria estranhar éramos nós. Não tinha mais o que fazer e resolveu ler um pouquinho?</default>
+		<default>Não tinha mais o que fazer e resolveu ler um pouquinho?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Se é por causa dos fantasmas, podem ficar sossegados. Já foram embora.</default>
+		<default>Se é por causa dos fantasmas, já foram embora.</default>
 	</talk>
 	<talk character="Lis">
 		<default>Se tivessem me dito que era sobre fantasmas...</default>
@@ -46,45 +46,55 @@
 		<default>Não sabíamos que conhecia esse tipo de coisa.</default>
 	</talk>
 	<talk character="Lis">
-		<default>Nós três que trabalhamos aqui conhecemos isso. Quando quiserem algo do tipo, é só falar conosco.</default>
+		<default>Nós três que trabalhamos aqui conhecemos isso. Quando quiserem algo do tipo, é só falar.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Edmont mandou você se livrar dos fantasmas por quê?</default>
-		<teller>vira-se para Ang</teller>
+	</talk>
+	<teller>
+		<default>Olha para Angely.</default>
+	</teller>
+	<talk character="Mel">
 		<default>E você, porque não me contou logo?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Mas eu...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ele não sabia. Não foi Edmont que mandou eu fazer isso. Fiz porque Angely já me salvou várias vezes.</default>
+		<default>Angely não sabia. Não foi Edmont que mandou eu fazer isso. Fiz porque Angely já me salvou várias vezes.</default>
 	</talk>
 	<talk character="Mel">
 		<default>E quanto vai cobrar?</default>
 	</talk>
 	<talk character="Ang">
-		<screamed>Mel!</screamed>
+		<default>Mel!</default>
 	</talk>
 	<teller>
-		<default>Bea sai.</default>
+		<default>Bea revira os olhos e sai.</default>
 	</teller>
+	<talk character="Ang">
+		<default>Beatrice estava ajudando.</default>
+	</talk>
 	<talk character="Mel">
-		<default>Ela é uma vampira, vai brigar comigo porque ela tá fingindo que ficou chateada?!</default>
+		<default>A última vez que ajudou, foi um acordo que fizemos.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Do que você tem medo?</default>
 	</talk>
 	<teller>
-		<default>Do lado de fora. Edmont pega Beatrice pelo braço, assustando-a.</default>
+		<default>Mel encara Angely. Do lado de fora, Beatrice sai. Edmont puxa Beatrice e coloca contra a parede.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Que esperava, que ela te oferecesse um quarto?</default>
+		<default>Que esperava, que te oferecesse um quarto?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Essa é a parte em que você me mata?</default>
 	</talk>
 	<teller>
-		<default>Edmont passa a mão no rosto dela.</default>
+		<default>Edmont passa a mão no rosto de Beatrice.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Não entendeu ainda que você não é do lado deles? Você é apenas uma criança, não nasceu pra cuidar, mas para ser cuidada. Por saber disso, dessa vez vou te perdoar. Vamos voltar pra casa...</default>
+		<default>Não entendeu ainda que você não é do lado deles? Você é como eu. Dessa vez vou te perdoar. Vamos voltar pra casa...</default>
 	</talk>
 	<talk character="Bea">
 		<default>Que casa?! Alguma que você matou alguém pra ter???</default>
@@ -96,28 +106,34 @@
 		<default>Duvido.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Se fosse mentira, ele já tinha saído aqui e dito isso. Você sabe que sabemos o que o outro faz. Vem comigo, eu vou cuidar de você.</default>
+		<default>Se fosse mentira, ele já tinha saído aqui e dito isso. Você sabe que sabemos, essa coisa agora é praticamente real. Vem comigo, eu vou cuidar de você.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Como vou saber que não vai me maltratar de novo?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Já te dei essa resposta.</default>
+		<default>Já te dei essa resposta. </default>
+	</talk>
+	<talk character="Bea">
+		<default>Mas se você não faz isso só porque Angely está olhando...</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Eu já entendi que não vai mais aceitar minhas grosserias.</default>
 	</talk>
 	<teller>
-		<default>Ele a beija. Eles saem. Angely sai com Mel.</default>
+		<default>Edmont beija Beatrice. Sai, levando Beatrice pela mão. Angely sai com Mel.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Eu não confio nela.</default>
+		<default>Eu não confio.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ela não teria motivos para mentir.</default>
+		<default>Não teria motivos para mentir.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sem contar o principal? Que ela é uma vampira?</default>
+		<default>Sem contar o principal? Ser vampir?</default>
 	</talk>
 	<teller>
-		<default>Edmont e Beatrice entram num apartamento. Ele a encosta na parede, ela o afasta.</default>
+		<default>Edmont e Beatrice entram num apartamento. Edmont puxa Beatrice, Beatrice se afasta.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Que foi?</default>
@@ -132,20 +148,24 @@
 		<default>Seu corpo não tá frio.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Porque fiz uma visita à delegacia e tinha um cara fugindo.</default>
+		<default>Porque fiz uma visita a delegacia e tinha um cara fugindo.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Angely deixou?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Quer parar de falar dele? Já tá me irritando.</default>
+		<default>Quer parar de falar de Angely? Já tá me irritando.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Não tô com vontade de fazer nada.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Sabe o que é isso?</default>
-		<teller>ele se aproxima dela e a abraça</teller>
+	</talk>
+	<teller>
+		<default>Edmont se aproxima de Beatrice e abraça.</default>
+	</teller>
+	<talk character="">
 		<default>Fome. Eu vou ver se arranjo algo pra você.</default>
 	</talk>
 	<talk character="Bea">
@@ -154,44 +174,38 @@
 	<talk character="Edmont">
 		<default>Bom, você não quer mais gente, vejo se arranjo um bicho qualquer.</default>
 	</talk>
+	<talk character="Bea">
+		<default>Está matando animais?</default>
+	</talk>
+	<teller>
+		<default>Edmont revira os olhos. Afasta de Beatrice.</default>
+	</teller>
+	<talk character="">
+		<default>Não precisa matar.</default>
+	</talk>
 	<teller>
 		<default>Edmont sai do quarto.</default>
 	</teller>
 	<talk character="Edmont">
 		<thought>Por essa você me paga, Angely.</thought>
 	</talk>
-	<teller>
-		<default>Angely, em Hera...</default>
-	</teller>
 	<talk character="Ang">
-		<thought>Não queria ela na sua cama?</thought>
+		<thought>Não queria Beatrice?</thought>
 	</talk>
-	<teller>
-		<default>Edmont, no apartamento...</default>
-	</teller>
 	<talk character="Edmont">
-		<thought>Posso arranjar outra.</thought>
+		<thought>Posso arranjar outra pessoa. Posso ver se Henrique está tendo crises de consciência também.</thought>
 	</talk>
-	<teller>
-		<default>Angely, em Hera...</default>
-	</teller>
 	<talk character="Ang">
-		<thought>Sei que prefere ela e foi você quem a fez ficar dependente desse jeito. Ela estava se encontrando, mas você desviou de volta.</thought>
+		<thought>Sei que prefere e foi você quem fez ficar dependente desse jeito. Estava se encontrando, conseguiu viver longe de você, mas você desviou de volta.</thought>
 	</talk>
-	<teller>
-		<default>Edmont, no apartamento...</default>
-	</teller>
 	<talk character="Edmont">
-		<thought>Ela estava se era arrependendo, só devolvi o rumo.</thought>
+		<thought>Estava se era arrependendo, só devolvi o rumo.</thought>
 	</talk>
-	<teller>
-		<default>Angely, em Hera...</default>
-	</teller>
 	<talk character="Ang">
-		<thought>Ela poderia estar caçando os bichos sozinha se você não tivesse feito o que fez.</thought>
+		<thought>Poderia estar caçando os bichos se você não tivesse feito o que fez.</thought>
 	</talk>
 	<teller>
-		<default>Dentro do quarto, Beatrice está olhando tudo em volta. Ela vai sentar-se e a cadeira se move. Ela cai. Olha pros lados. Pega a cadeira e vai sentar-se. Move-se sozinha de novo.</default>
+		<default>Dentro do quarto, Beatrice olha ao redor. Abaixa para sentar, a cadeira se move. Olha para os lados. Pega a cadeira. Move-se de novo.</default>
 	</teller>
 	<talk character="Martim">
 		<ghost>Meu ouro.</ghost>
@@ -203,31 +217,40 @@
 		<ghost>Tem um orfanato aí na frente. Crianças não sabem como fugir de incêndio, ficam apavoradas, sabia?</ghost>
 	</talk>
 	<talk character="Bea">
-		<default>Sou uma vampira, porque me importaria?</default>
+		<default>São gado pra mim, porque me importaria?</default>
 	</talk>
 	<talk character="Martim">
 		<ghost>Você não me engana. Foi tentar me expulsar daquela casa porque?</ghost>
 	</talk>
 	<talk character="Bea">
-		<default>Interesse. Viu um loiro de olhos azuis por lá?</default>
+		<default>Interesse. Viu uma pessoa parecida com...</default>
 	</talk>
 	<talk character="Martim">
 		<ghost>Aquele anjo? Nem consigo aparecer perto dele, ou me mover, por quê você poderia?</ghost>
 	</talk>
 	<talk character="Bea">
-		<irony>Porque eu estou viva?</irony>
+		<irony>Porque eu não morri?</irony>
 	</talk>
 	<talk character="Martim">
-		<ghost>Não se importa mesmo com as crianças? Então fica olhando.</ghost>
+		<ghost>Não se importa mesmo com as crianças?</ghost>
+	</talk>
+	<talk character="Bea">
+		<irony>Vai fazer o que? Tirar as cadeiras delas?</irony>
 	</talk>
 	<teller>
-		<default>Beatrice vai até a janela. Vê um foco de incêndio no prédio. Corre e apaga.</default>
+		<default>Silêncio.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Fantasma?</default>
+	</talk>
+	<teller>
+		<default>Beatrice vai até a janela. Arregala os olhso. Sai pela janela, desce até a rua. Vai para a lateral do prédio. Pula e sobe a escada de emergência. Entra por uma janela. Camas. Crianças acordam. Gritam. Beatrice corre até o extintor, tira da parede. Quebra a alavanca. Vai até o corredor, pega outro, destrava, vai até a labareda e apaga. As crianças se encolhem. Duas pessoas adultas entram. Beatrice sai pela janela. Desce na lateral do prédio novamente.</default>
 	</teller>
 	<talk character="Martim">
 		<ghost>Meu ouro.</ghost>
 	</talk>
 	<teller>
-		<default>3:00. Ela volta para o apartamento. Encontra Edmont com um pitbull.</default>
+		<default>Duas horas depois, Beatrice entra no apartamento. Edmont está na cama. Há um pitbull no canto do quarto.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Onde foi?</default>
@@ -236,7 +259,7 @@
 		<default>Tomar ar.</default>
 	</talk>
 	<teller>
-		<default>Toca o rosto dela.</default>
+		<default>Edmont levanta e vai até Beatrice. Toca seu rosto.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Frio.</default>
@@ -244,29 +267,32 @@
 	<talk character="Bea">
 		<default>Você disse que traria algo, por quê eu iria atrás? Não te faria desfeita.</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Bom mesmo. Tá ali. O dono não deu pra trazer.</default>
-	</talk>
 	<teller>
-		<default>Bea olha para o cachorro amarrado no canto do quarto. Fica olhando algum tempo.</default>
+		<default>Edmont se deita novamente.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Se te deixar mais feliz, ele foi treinado pra atacar crianças, porque o dono não gostava que nenhuma chegasse perto dele. E tá molhado porque dei banho antes de vir pra cá.</default>
+		<default>Tá ali. O dono não deu pra trazer.</default>
 	</talk>
 	<teller>
-		<default>Edmont senta-se e fica olhando.</default>
+		<default>Bea olha para o cachorro amarrado no canto do quarto. Olha algum tempo.</default>
 	</teller>
 	<talk character="Edmont">
-		<thought>Isso é deprimente. Só beijo ela depois disso se escovar os dentes umas dez vezes. Não sei o que era pior, o dono ou isso. Você realmente tá de sacanagem comigo, Angely.</thought>
+		<default>Se te deixar mais feliz, treinaram pra atacar crianças, porque o dono não gostava que nenhuma chegasse perto. E a água é porque dei banho antes de vir pra cá.</default>
 	</talk>
 	<teller>
-		<default>Angely, em Hera.</default>
+		<default>Edmont senta-se. Beatrice se aproxima do pitbul.</default>
 	</teller>
+	<talk character="Bea">
+		<thought>Você é como eu.</thought>
+	</talk>
+	<talk character="Edmont">
+		<thought>Isso é deprimente. Só beijo depois disso se escovar os dentes umas dez vezes. Se bem que o dono não tava em melhor estado. Você realmente tá de sacanagem comigo, Angely.</thought>
+	</talk>
 	<talk character="Ang">
-		<thought>Por mim você morria de fome.</thought>
+		<default>Por mim você morria de fome.</default>
 	</talk>
 	<teller>
-		<default>8:00. Ang está andando pela Ilha. Uma garota segura o braço dele. É a mesma com quem ele tinha saído no dia em que tinha sido enfeitiçado pela espada que Edmont lhe entregou.</default>
+		<first>Manhã. Ang está andando pela Ilha. Brenda segura o braço de Angely.</first>
 	</teller>
 	<talk character="Brenda">
 		<default>Professor?</default>
@@ -283,45 +309,30 @@
 	<talk character="Brenda">
 		<default>Essa é a terceira mais usada.</default>
 	</talk>
-	<teller>
-		<default>Edmont, no apartamento...</default>
-	</teller>
 	<talk character="Edmont">
-		<thought>Tá com tempo agora, porque não repete a dose? Ela é boa em...</thought>
+		<thought>Tá com tempo agora, porque não repete a dose?</thought>
 	</talk>
-	<teller>
-		<default>Angely, em Hera...</default>
-	</teller>
 	<talk character="Ang">
 		<default>Tenho que ir, tenho mesmo.</default>
 	</talk>
-	<teller>
-		<default>Edmont, no apartamento...</default>
-	</teller>
 	<talk character="Edmont">
 		<thought>Mentiroso.</thought>
 	</talk>
-	<teller>
-		<default>Angely, em Hera...</default>
-	</teller>
 	<talk character="Ang">
 		<thought>O fato de você estar me perturbando me faz ter que ir.</thought>
 	</talk>
 	<teller>
-		<default>Edmont, no apartamento...</default>
+		<default>Ares.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Bea...</default>
 	</talk>
 	<teller>
-		<default>Edmont passa a mão nas costas de Beatrice, que está de costas para ele. Angely, em Hera...</default>
+		<default>Edmont passa a mão nas costas de Beatrice, que está de costas.</default>
 	</teller>
 	<talk character="Ang">
 		<thought>Não vai fazer isso.</thought>
 	</talk>
-	<teller>
-		<default>Edmont, no apartamento...</default>
-	</teller>
 	<talk character="Edmont">
 		<thought>Eu disse que você me pagava.</thought>
 	</talk>
@@ -332,7 +343,7 @@
 		<default>Que?</default>
 	</talk>
 	<teller>
-		<default>Ele a beija e sobe em cima dela, entre as pernas, deitando-a na cama. Em Hera, Angely vai pra casa.</default>
+		<default>Edmont se senta e beija Beatrice. Deita Beatrice na cama e fica por cima, entre as pernas de Beatrice. Em Hera, Angely sai correndo. Corre, atravessa a ilha, chega até a MEAK.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Ang, podia falar com os professores...</default>
@@ -353,48 +364,55 @@
 		<default>Mas...</default>
 	</talk>
 	<teller>
-		<default>Angely entra correndo em seu quarto, tranca a porta e entra embaixo do chuveiro de seu quarto. Tira a camisa. Alan desce.</default>
+		<default>Angely entra correndo em seu quarto, tranca a porta, entra no banheiro. Vira o chuveiro para o frio, abre e entra embaixo. Tira a camisa. Alan desce a escada.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Contou pra ele quem tá na cama dele?</default>
+		<default>Contou pra ele quem tá no quarto dele?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu não, ele passou correndo.</default>
+		<default>Eu não, passou correndo.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Bom, correndo daquele jeito, deve ser dor de barriga. Vai ser engraçado Estela saindo correndo.</default>
 	</talk>
 	<teller>
-		<default>Estela entra no banheiro.</default>
+		<default>Mel revira os olhos. Banheiro de Angely.</default>
 	</teller>
 	<talk character="Estela">
-		<default>Angely?</default>
+		<out>Angely?</out>
 	</talk>
 	<talk character="Ang">
 		<default>Estela? Tá fazendo o que aqui?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Desculpa...</default>
-		<teller>se levanta</teller>
+		<out>Desculpa...</out>
+	</talk>
+	<teller>
+		<default>Estela se levanta e vai até a porta do banheiro.</default>
+	</teller>
+	<talk character="Estela">
 		<default>Eu passei mal na escola, Alan me trouxe para casa e eu vim direto aqui, pra falar com você. Fui esperar e acabei caindo no sono...</default>
 	</talk>
 	<teller>
-		<default>Angely parece paralisado. Vira a cabeça de lado, ainda olhando nos olhos de Estela.</default>
+		<default>Angely paralisou. Vira a cabeça de lado, ainda olhando nos olhos de Estela.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Angely? Tá me escutando? Que cara é essa?</default>
 	</talk>
 	<teller>
-		<default>Ele avança na direção dela, ela vai andando pra trás e é encostada na parede.</default>
+		<default>Angely avança na direção de Estela. Estela dá passos para trás. Fica contra a parede. Angely está levemente ofegante.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Angely?</default>
 	</talk>
 	<teller>
-		<default>Angely a beija. Puxa as pernas dela para volta de si. A coloca em sua cama.</default>
+		<default>Chega a mão perto do rosto de Estela, sem tocar. Estela beija Angely. Angely levanta Estela e coloca as pernas dela em volta de si. Vira, continuam se beijando, deita Estela na cama, ficando por cima.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Angely?!</default>
+		<out>Angely?!</out>
 	</talk>
 	<teller>
-		<default>Ele se afasta de Estela e olha nos olhos dela. Ela ainda está meio zonza, meio sem saber o que aconteceu. Ele sai do quarto e quase atropela Mel. Passa correndo. Estela se encolhe na cama. Mel entra no quarto, seguida de Alan.</default>
+		<default>Angely se afasta de Estela. Olha nos olhos de Estela. Sai do quarto, esbarra em Mel e continua. Passa correndo. Mel entra no quarto, Alan entra atrás.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Você tá bem?</default>
@@ -403,7 +421,7 @@
 		<default>Ah?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que ele fez?</default>
+		<default>Que Angely fez?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Me beijou...</default>
@@ -412,7 +430,7 @@
 		<default>Filho duma... Será que era mesmo o Angely?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se fosse o Edmont, tinha levado ela junto quando saiu correndo. Ou tinha gritado que tava ocupado aqui de dentro.</default>
+		<default>Se fosse Edmont, tinha levado junto quando saiu correndo. Ou tinha gritado que tava ocupado aqui de dentro.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Por que ele me beijou?</default>
@@ -427,7 +445,7 @@
 		<default>Ah?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Uma coisa que ele sabe fazer... Mas às vezes não se faz de propósito.</default>
+		<default>Uma coisa que sabemos fazer, mas às vezes não se faz de propósito. E precisa que já ter alguma fagulha na pessoa.</default>
 	</talk>
 	<talk character="Alan">
 		<default>É algum feitiço??? Ele enfeitiçou ela???</default>
@@ -438,11 +456,8 @@
 	<talk character="Alan">
 		<default>Quer fazer o favor de me explicar???</default>
 	</talk>
-	<talk character="Mel">
-		<default>É isso aqui...</default>
-	</talk>
 	<teller>
-		<default>Mel o beija. Quando ela se afasta, Alan entra no banheiro e tranca a porta. Ouve-se o barulho do chuveiro.</default>
+		<default>Mel beija Alan. Se afasta. Alan entra no banheiro, tranca a porta. Barulho de chuveiro.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Boa idéia.</default>
@@ -457,9 +472,6 @@
 		<default>Estela?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Já vi que você é virgem, só assim pra ficar abobada desse jeito.</default>
+		<default>Com virgem é até pior. Vem comigo.</default>
 	</talk>
-	<teller>
-		<default>Angely mergulha no lago.</default>
-	</teller>
 </story>
