@@ -32,7 +32,7 @@ namespace Structure.Entities
 
         public String Title { get; set; }
 
-        protected List<Scene> SceneList { get; set; }
+        public List<Scene> SceneList { get; set; }
 
         public Season Season { get; set; }
 

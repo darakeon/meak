@@ -9,23 +9,32 @@ namespace Presentation.Helpers
     public class EpisodeNavigation
     {
         static String xmlPath;
-        
-        static IList<String> episodeList;
-        static IList<String> seasonList;
 
-        static Int32 episodeNum;
+        static IList<String> seasonList;
+        static IList<String> episodeList;
+        static IList<String> sceneList;
+
         static Int32 seasonNum;
+        static Int32 episodeNum;
+        static Int32 sceneNum;
 
         public static void SetNavigation(SeasonEpisodeModel model, String xmlPathNavigation)
         {
             xmlPath = xmlPathNavigation;
 
-            var episode = model.Story.Episode.ID;
             var season = model.Story.Episode.Season.ID;
-            
-            
-            episodeList = getEpisodes(season);
+            var episode = model.Story.Episode.ID;
+            var scene = model.Story.ID;
+
+
             seasonList = getSeasons();
+            episodeList = getEpisodes(season);
+            sceneList = getScenes(season, episode);
+
+
+            seasonNum = seasonList.IndexOf(season);
+            var firstSeason = seasonNum == 0;
+            var lastSeason = seasonNum + 1 == seasonList.Count;
             
 
             episodeNum = episodeList.IndexOf(episode);
@@ -33,18 +42,30 @@ namespace Presentation.Helpers
             var lastEpisode = episodeNum + 1 == episodeList.Count;
 
 
-            seasonNum = seasonList.IndexOf(season);
-            var firstSeason = seasonNum == 0;
-            var lastSeason = seasonNum + 1 == seasonList.Count;
+            sceneNum = sceneList.IndexOf(scene);
+            var firstScene = sceneNum == 0;
+            var lastScene = sceneNum + 1 == sceneList.Count;
 
 
-            model.Prev = getOtherEpisodeLink(firstEpisode, firstSeason, true);
-            model.Next = getOtherEpisodeLink(lastEpisode, lastSeason, false);
+            model.Prev = getOtherEpisodeLink(firstSeason, firstEpisode, firstScene, true);
+            model.Next = getOtherEpisodeLink(lastSeason, lastEpisode, lastScene, false);
 
 
             //return model;
         }
 
+
+
+        private static IList<String> getSeasons()
+        {
+            return Directory
+                .GetDirectories(xmlPath, "_*")
+                .Select(d =>
+                    d.Substring(d.LastIndexOf(@"\") + 2)
+                )
+                .Where(d => getEpisodes(d).Any())
+                .ToList();
+        }
 
         private static IList<String> getEpisodes(String season)
         {
@@ -58,43 +79,61 @@ namespace Presentation.Helpers
                 .ToList();
         }
 
-        private static IList<String> getSeasons()
+        private static IList<String> getScenes(String season, String episode)
         {
+            var filePath = Path.Combine(xmlPath, "_" + season, episode);
+
             return Directory
-                .GetDirectories(xmlPath, "_*")
+                .GetFiles(filePath, "*.xml")
                 .Select(d =>
-                    d.Substring(d.LastIndexOf(@"\") + 2)
+                    d.Substring(d.LastIndexOf(@"\") + 1, 1)
                 )
-                .Where(d => getEpisodes(d).Any())
+                .Where(d => d != "_")
                 .ToList();
         }
 
-        private static SeasonEpisode getOtherEpisodeLink(bool isEdgeEpisode, bool isEdgeSeason, bool previous)
+
+
+        private static SeasonEpisodeScene getOtherEpisodeLink(Boolean isEdgeSeason, Boolean isEdgeEpisode, Boolean isEdgeScene, Boolean previous)
         {
-            var seasonEpisode = new SeasonEpisode();
+            var ses = new SeasonEpisodeScene();
 
             var diff = previous ? -1 : +1;
 
-            if (isEdgeEpisode)
+            if (!isEdgeScene)
             {
-                if (!isEdgeSeason)
-                {
-                    seasonEpisode.Season = seasonList[seasonNum + diff];
-                    episodeList = getEpisodes(seasonEpisode.Season);
-                    seasonEpisode.Episode = previous ? episodeList.Last() : episodeList.First();
-                }
-                else
-                {
-                    seasonEpisode = null;
-                }
+                ses.Season = seasonList[seasonNum];
+                ses.Episode = episodeList[episodeNum];
+                ses.Scene = sceneList[sceneNum + diff];
+
+                return ses;
             }
-            else
+            
+            if (!isEdgeEpisode)
             {
-                seasonEpisode.Season = seasonList[seasonNum];
-                seasonEpisode.Episode = episodeList[episodeNum + diff];
+                ses.Season = seasonList[seasonNum];
+                ses.Episode = episodeList[episodeNum + diff];
+
+                sceneList = getScenes(ses.Season, ses.Episode);
+                ses.Scene = previous ? sceneList.Last() : sceneList.First();
+
+                return ses;
+            }
+            
+            if (!isEdgeSeason)
+            {
+                ses.Season = seasonList[seasonNum + diff];
+
+                episodeList = getEpisodes(ses.Season);
+                ses.Episode = previous ? episodeList.Last() : episodeList.First();
+
+                sceneList = getScenes(ses.Season, ses.Episode);
+                ses.Scene = previous ? sceneList.Last() : sceneList.First();
+
+                return ses;
             }
 
-            return seasonEpisode;
+            return null;
         }
     }
 }

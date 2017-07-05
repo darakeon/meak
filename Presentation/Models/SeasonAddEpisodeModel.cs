@@ -17,20 +17,19 @@ namespace Presentation.Models
             Init();
 
             var lastSeason = Menu.SeasonList.LastOrDefault() ?? new Season();
-
             var lastEpisode = lastSeason.EpisodesList.LastOrDefault() ?? new Episode();
 
-            SeasonEpisode.Next(lastSeason.ID, lastEpisode.ID);
+            SeasonEpisode.NewEp(lastSeason.ID, lastEpisode.ID);
 
         }
 
         public void Init()
         {
-            SeasonEpisode = new SeasonEpisode();
+            SeasonEpisode = new SeasonEpisodeScene();
         }
 
 
-        public SeasonEpisode SeasonEpisode { get; set; }
+        public SeasonEpisodeScene SeasonEpisode { get; set; }
 
         public String Title { get; set; }
     }

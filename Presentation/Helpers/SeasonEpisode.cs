@@ -2,14 +2,15 @@
 
 namespace Presentation.Helpers
 {
-    public class SeasonEpisode //: IDisposable
+    public class SeasonEpisodeScene //: IDisposable
     {
         public String Season { get; set; }
         public String Episode { get; set; }
+        public String Scene { get; set; }
 
         //public void Dispose() { }
 
-        public void Next(String currentSeason, String currentEpisode)
+        public void NewEp(String currentSeason, String currentEpisode)
         {
             if (currentEpisode == null || currentSeason == null)
             {
@@ -27,6 +28,7 @@ namespace Presentation.Helpers
                 nextEpisode(currentEpisode);
             }
         }
+
 
         private void nextSeason(String currentSeason)
         {
@@ -47,6 +49,8 @@ namespace Presentation.Helpers
             Episode = String.Format(format, nextNumber);
         }
 
+
+
         public bool IsValid()
         {
             try
@@ -59,12 +63,18 @@ namespace Presentation.Helpers
                                    || Convert.ToInt32(Episode) > 20
                                    || Convert.ToInt32(Episode) < 0;
 
-                return !wrongSeason && !wrongEpisode;
+                var wrongScene = Season.Length != 1
+                                  || Season[0] > 'z'
+                                  || Season[0] < 'a';
+
+                return !wrongSeason && !wrongEpisode && !wrongScene;
             }
             catch
             {
                 return false;
             }
         }
+
+
     }
 }

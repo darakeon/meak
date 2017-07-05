@@ -4,6 +4,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using Ak.DataAccess.XML;
 using Ak.Generic.Exceptions;
+using Structure.Data;
 
 namespace Presentation
 {
@@ -32,14 +33,14 @@ namespace Presentation
             routes.MapRoute(
                 "Author", // Route name
                 "Author/{controller}/{season}/{action}/{episode}/{scene}", // URL with parameters
-                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional, scene = UrlParameter.Optional } // Parameter defaults
+                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional, scene = SceneXML.FirstScene } // Parameter defaults
             );
 
 
             routes.MapRoute(
                 "Scene", // Route name
                 "{controller}/{season}/{action}/{episode}/{scene}", // URL with parameters
-                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional, scene = UrlParameter.Optional } // Parameter defaults
+                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional, scene = SceneXML.FirstScene } // Parameter defaults
             );
 
 
