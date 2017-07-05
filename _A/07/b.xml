@@ -58,7 +58,7 @@
 		<default>Bryan.</default>
 	</talk>
 	<talk character="Mel">
-		<default>É, você tem razão, deveríamos ter dito que estávamos doentes.</default>
+		<default>Deveríamos ter dito que estávamos doentes.</default>
 	</talk>
 	<teller>
 		<default>Uma garota se aproxima.</default>
@@ -97,13 +97,28 @@
 		<hushed>Só não come.</hushed>
 	</talk>
 	<teller>
-		<default>Enquanto isso, Angely encontra a garota deitada na cadeira da piscina.</default>
+		<default>Angely encontra a garota deitada na cadeira da piscina.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Por que fez isso?</default>
 	</talk>
 	<talk character="garota">
 		<default>Meu pai me obrigou a ficar em casa.</default>
+	</talk>
+	<talk character="Angely">
+		<default>E por que nos avisou?</default>
+	</talk>
+	<teller>
+		<default>Ela tira o óculos e se senta, olhando para ele.</default>
+	</teller>
+	<talk character="garota">
+		<default>Não lembra mesmo? Ano passado, aquele maluco que me encurralou bêbada?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Não imaginei que você fosse lembrar. Sumiu.</default>
+	</talk>
+	<talk character="garota">
+		<default>Não sabia o que fazer.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Qual seu nome?</default>
@@ -116,12 +131,6 @@
 	</talk>
 	<talk character="garota">
 		<default>Aquela vaca...</default>
-	</talk>
-	<talk character="Angely">
-		<default>A amiga dela é pior.</default>
-	</talk>
-	<talk character="garota">
-		<default>Sério?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Meu nome é...</default>
@@ -184,7 +193,7 @@
 		<default>Então como ele agüenta a Agatha?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sinceramente? Não sei.</default>
+		<default>Fomos criados juntos. Ela tá meio diferente hoje em dia, mas é uma boa pessoa.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Agatha, Helene, Denise, Annie... Todas umas patys nojentas. Agatha não era tanto quando a Meg...</default>
@@ -314,7 +323,10 @@
 		<default>Tá bom, depois você se entende com ele.</default>
 	</talk>
 	<teller>
-		<default>Eles vão embora da festa. Ao chegarem em casa, encontram Mel e Angely na sala.</default>
+		<default>Eles vão embora da festa.</default>
+	</teller>
+	<teller>
+		<first>Ao chegarem em casa, encontram Mel e Angely na sala.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Ao tédio!</default>
@@ -338,7 +350,7 @@
 		<default>Quantos dedos tem aqui?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sua mão é perfeita, tem cinco. Se você não sabe disso, acho que então o bêbado aqui não sou eu!</default>
+		<default>Cinco. Se você não sabe disso, acho que então o bêbado aqui não sou eu!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Ah, Edmont! E a Agatha? Pensei que fosse ficar com ela...</default>
@@ -353,7 +365,7 @@
 		<default>Não eram vocês que diziam que eu era autoritário?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tira as seis primeiras letras, exceto a letra "o".</default>
+		<default>Tira as primeiras letras, exceto a letra "o".</default>
 	</talk>
 	<talk character="Kat">
 		<default>A minha irmã não vai trair ele.</default>
@@ -386,10 +398,10 @@
 		<default>Bom, eu vou dormir. Fica no quarto da Mel.</default>
 	</talk>
 	<teller>
-		<default>No dia seguinte, de tarde, Agatha toca a campainha. Angely acorda e vai atender.</default>
+		<first>No dia seguinte, de tarde, Agatha toca a campainha. Angely acorda e vai atender.</first>
 	</teller>
 	<talk character="Angely">
-		<default>Já vai! Pára de tocar essa porcaria...</default>
+		<default>Já vai! Pára de tocar essa...</default>
 	</talk>
 	<teller>
 		<default>Angely abre a porta. Agatha olha pra Angely que está só de calça, o cabelo bagunçado e com a mão no rosto.</default>
@@ -401,8 +413,11 @@
 		<default>Não fala muito alto não, eu tô com dor de cabeça...</default>
 	</talk>
 	<teller>
-		<default>Agatha entra na casa e chama Edmont.</default>
+		<default>Agatha entra na casa.</default>
 	</teller>
+	<talk character="Agatha">
+		<default>Edmont!</default>
+	</talk>
 	<talk character="Angely">
 		<irony>Tudo bem, entra.</irony>
 	</talk>
@@ -410,7 +425,7 @@
 		<default>Mel acorda.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ele saiu.</default>
+		<arrive>Ele saiu.</arrive>
 	</talk>
 	<talk character="Agatha">
 		<default>Como, saiu?!</default>
@@ -431,7 +446,7 @@
 		<default>Não.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Tá, tudo bem. Quando ele voltar diz a ele que eu estava procurando.</default>
+		<default>Quando ele voltar diz a ele que eu estava procurando.</default>
 	</talk>
 	<teller>
 		<default>Agatha sai. Kat fecha a porta.</default>
@@ -494,7 +509,10 @@
 		<default>Tá, tudo bem...</default>
 	</talk>
 	<teller>
-		<default>Kat vai pra casa. Edmont está na casa de Denise.</default>
+		<default>Kat vai pra casa.</default>
+	</teller>
+	<teller>
+		<first>Edmont está na casa de Denise.</first>
 	</teller>
 	<talk character="Denise">
 		<default>Edmont, Agatha voltou pra casa.</default>
@@ -515,10 +533,7 @@
 		<default>Fale.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>À sós.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Vamos pro jardim.</default>
+		<default>A sós.</default>
 	</talk>
 	<teller>
 		<default>Eles saem pro jardim. Denise liga pra Agatha.</default>
