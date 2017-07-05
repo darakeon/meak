@@ -85,7 +85,7 @@
 		<default>Que não vamos conseguir colocar as mãos no desgraçado.</default>
 	</talk>
 	<talk character="Rith">
-		<default>Não. Que a experiência funcionou.</default>
+		<default>Não. Que a experiência funcionou. Ele se matou semana passada.</default>
 	</talk>
 	<teller>
 		<default>Hery olha para Rith. Sua expressão muda, ele sorri. Sai correndo.</default>
@@ -246,7 +246,7 @@
 		<default>Não quero a sua pena.</default>
 	</talk>
 	<talk character="Rith">
-		<default>Não é pena. É dor de ter ver presa nessa coisa.</default>
+		<default>Não é pena. É dor de ter ver presa nessa... coisa.</default>
 	</talk>
 	<talk character="Halen">
 		<default>Pelo menos estou acordada.</default>
@@ -255,7 +255,10 @@
 		<division>Junho de 2008</division>
 	</teller>
 	<teller>
-		<default>Rith e Hery estão na máquina. Hery programa o painel. Rith está com a mão no sensor. Hery olha para Rith. Liga a máquina. Ela some do laboratório. O general olha para o relógio. Espera alguns segundos. Olha para o espaço da máquina. Ainda vazio. Espera mais. Nada. Em outro lugar, Hery aperta o botão novamente.</default>
+		<default>Rith e Hery estão na máquina. Hery programa o painel. Rith está com a mão no sensor. Hery olha para Rith. Liga a máquina. Ela some do laboratório. O general olha para o relógio. Espera alguns segundos. Olha para o espaço da máquina. Ainda vazio. Espera mais. Nada.</default>
+	</teller>
+	<teller>
+		<first>Em outro lugar, Hery aperta o botão novamente.</first>
 	</teller>
 	<talk character="Hery">
 		<default>Não tá funcionando...</default>
@@ -318,25 +321,28 @@
 		<default>Sabem falar minha língua?</default>
 	</talk>
 	<teller>
-		<default>A pessoa faz um gesto para que Hery espere. Mexe atrás da orelha e começa a falar uma língua estranha. Dali a pouco, chega um homem.</default>
+		<default>A pessoa faz um gesto para que Hery espere. Mexe atrás da orelha e começa a falar algo ininteligível. Dali a pouco, chega outra pessoa.</default>
 	</teller>
-	<talk character="homem">
+	<talk character="pessoa">
 		<default>Como chegaram aqui?</default>
 	</talk>
 	<talk character="Hery">
-		<default>Alguma coisa tirou nós três de onde estávamos, junto com a máquina.</default>
+		<default>Alguma coisa tirou nós dois de onde estávamos, junto com a máquina.</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Rith">
+		<frizz>Nós três.</frizz>
+	</talk>
+	<talk character="pessoa">
 		<default>Três?</default>
 	</talk>
-	<talk character="Hery">
+	<talk character="Rith">
 		<default>Tem uma pessoa dentro da estrutura da máquina. É complicado explicar.</default>
 	</talk>
 	<teller>
 		<first>Depois de algum tempo, os três - Hery, Rith e Halen - estão em uma casa grande, na sala. Uma mulher chega.</first>
 	</teller>
 	<talk character="Luana">
-		<default>Meu nome é Luana. Falo em nome do rei. Vocês, quem são?</default>
+		<default>Meu nome é Luana. Vocês, quem são?</default>
 	</talk>
 	<talk character="Hery">
 		<default>Sou Hery, esse é Rith, meu irmão.</default>
@@ -360,7 +366,7 @@
 		<default>Podem me dar um corpo?! Mesmo que seja um robô baixinho e gordinho, eu aceito!</default>
 	</talk>
 	<talk character="Luana">
-		<default>Ajudaremos você, pode ficar sossegada. Mas porque fizeram isso?</default>
+		<default>Ajudaremos você, calma. Mas porque fizeram isso?</default>
 	</talk>
 	<talk character="Rith">
 		<default>Ela estava em coma. O pai dela ameaçou desligar os aparelhos.</default>
@@ -378,7 +384,7 @@
 		<default>O laboratório na Terra já foi completamente eliminado. Não é uma decisão de vocês, ou sequer nossa. Poderão voltar para casa, se quiserem. Seria melhor que ficassem aqui.</default>
 	</talk>
 	<talk character="Hery">
-		<default>Vamos voltar para casa. E depois viremos para cá e retribuiremos seu favor.</default>
+		<default>Vamos voltar para casa. E depois vamos vir para cá e retribuir seu favor.</default>
 	</talk>
 	<talk character="Luana">
 		<default>A primeira coisa é que não fomos nós que destruímos o laboratório na Terra. A segunda é que vocês levarão séculos para ter tecnologia para vir para cá. Do jeito que caminham, talvez destruam sua própria casa antes disso.</default>
