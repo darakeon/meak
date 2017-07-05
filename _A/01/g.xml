@@ -21,7 +21,7 @@
 		<default>Por que você fez isso?</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Vocês não queriam acordar. Vão se trocar que eu já vou preparar o café.</default>
+		<default>Vocês não queriam acordar. Vão se trocar que hoje é meu dia de fazer o café.</default>
 	</talk>
 	<teller>
 		<default>Agatha sai.</default>
@@ -71,7 +71,7 @@
 		<default>Uma vez eu peguei o copo de champanhe do papai, escondido dele, tomei e fiquei tão bêbada que pensei que uma planta era o coelho da Páscoa. Meu pai diz que eu sou fraca para bebida.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Confundir uma planta com um coelho? Tava mesmo bêbada.</default>
+		<default>Você tem 11 anos. É uma criança. Não tem que fazer coisas de adulto.</default>
 	</talk>
 	<teller>
 		<default>Os três tomam o café da manhã. Arrumam tudo.</default>
@@ -85,32 +85,18 @@
 	<teller>
 		<default>Agatha sai correndo.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Isso não vale!</default>
-	</talk>
-	<teller>
-		<default>Angely corre.</default>
-	</teller>
 	<talk character="Edmont">
-		<default>Video-game?</default>
-		<teller>fica pensativo</teller>
-		<default>Ei, não vou me casar com nenhum padre!</default>
-	</talk>
-	<teller>
-		<default>Edmont corre. Agatha chega por último.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Não valeu...</default>
+		<default>Video-game? Mulher do que?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não valeu?! Você correu na nossa frente! Bem feito ter ficado em último!</default>
+		<default>Falam umas coisas estranhas aqui. Video-game é legal. Vem.</default>
 	</talk>
+	<teller>
+		<default>Os dois chegam na sala. Edmont pega um controle, vira, olha os botões.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>O que faço com isso?</default>
 	</talk>
-	<teller>
-		<default>Edmont pega o controle e aperta os botões.</default>
-	</teller>
 	<talk character="Agatha">
 		<default>Primeiro você coloca o CD e liga o video-game...</default>
 	</talk>
@@ -124,7 +110,7 @@
 		<first>Algumas horas depois.</first>
 	</teller>
 	<talk character="Angely">
-		<default>Quadragésima sexta vez que eu ganho de você!</default>
+		<default>Quadragésima sexta vez que eu ganho.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Você tá contando, é?</default>
@@ -141,7 +127,7 @@
 	<talk character="Júlio">
 		<arrive>Estão se dando bem aí?</arrive>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Ela não larga o controle!</default>
 	</talk>
 	<talk character="Júlio">
@@ -154,7 +140,7 @@
 		<default>É, porque vou ficar no micro aqui em casa, não gasta gasolina eu posso trabalhar até de pijama vou trabalhar a hora que eu quiser não vou gastar dinheiro com um lanche na esquina não vou parar no hospital com o colesterol no céu...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ele sabe respirar?</default>
+		<default>Ensinaram a respirar?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Nós não tínhamos que nos registrar?</default>
@@ -187,7 +173,7 @@
 		<default>Nesse dia dizemos que é o Natal, e é tradição trocarmos presentes, montarmos uma árvore e um presépio.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Mas, por quê trocar presentes? Segundo essa história, quem faz aniversário é Jesus, quem devia ganhar presente é ele.</default>
+		<default>Mas, por quê trocar presentes? Segundo essa história, quem faz aniversário é Jesus, quem devia ganhar presente é...</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Eu também nunca entendi isso, mas sempre foi assim. Então, eu e o papai vamos para uma loja e cada um compra um presente para o outro.</default>
@@ -304,7 +290,7 @@
 		<default>Então vamos pra seção de brinquedos pra escolher um presente pra pessoa que a gente tirou.</default>
 	</talk>
 	<teller>
-		<default>Edmont começa a correr e os dois vão atrás. Caixa do supermercado, alguns minutos depois.</default>
+		<default>Caixa do supermercado, alguns minutos depois.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Cadê ele?</default>
@@ -386,7 +372,7 @@
 		<default>E eu tive tanto trabalho pra embrulhar!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Um game! Obrigado!</default>
+		<default>Um mini-game dos antigos! Obrigado!</default>
 	</talk>
 	<talk character="Júlio">
 		<default>E quem você tirou?</default>
@@ -409,7 +395,7 @@
 		<default>Agora chegou a sua vez Edmont... Quem você tirou?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Bom, senhor Júlio, seu presente é eletrônico, tem quatro rodas e é pequeno.</default>
+		<default>Bom, Júlio, seu presente é eletrônico, tem quatro rodas e é pequeno.</default>
 	</talk>
 	<talk character="Júlio">
 		<default>Um carrinho!</default>
@@ -427,16 +413,19 @@
 		<default>Ele olha para seu presente, e o deixa com cuidado (e relutância) na estante. Pega uma coisa grande.</default>
 	</teller>
 	<talk character="Júlio">
-		<default>Bom, seu presente é rosa, é de boneca...</default>
+		<default>Bom, pro seu presente esse ano, eu me inspirei nos meninos, nessa coisa deles de que não tem diferença, e vi uns jogos que você tava jogando na internet...</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Uma casinha de bonecas!</default>
+		<screamed>Lego!</screamed>
 	</talk>
+	<teller>
+		<default>Agatha agarra a embalagem.</default>
+	</teller>
 	<talk character="Júlio">
 		<default>Você não deixou eu terminar de falar!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não precisava da terceira dica, as duas primeiras já foram óbvias!</default>
+		<default>Não é como se precisasse.</default>
 	</talk>
 	<teller>
 		<default>Agatha abre a embalagem. Edmont vai para um canto, com a guitarra. Júlio pega o carrinho de novo, sorrindo como uma criança. Angely pega o game. Olha na direção da cozinha.</default>
@@ -447,17 +436,8 @@
 	<teller>
 		<default>Júlio desmancha o sorriso de novo. Guarda o carrinho.</default>
 	</teller>
-	<talk character="Edmont">
-		<default>Que gosto tem peru de Natal?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Tem gosto metade de Peru e metade de Natal.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Engraçadinha!</default>
-	</talk>
 	<teller>
-		<default>De noite, eles dormem. De repente, Edmont está com uma espada no pescoço de Angely. Ambos estão mais velhos.</default>
+		<first>De noite, eles dormem. De repente, Edmont está com uma espada no pescoço de Angely. Ambos estão mais velhos.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Achei que...</default>
@@ -494,7 +474,7 @@
 		<default>Haverá uma luta final.</default>
 	</talk>
 	<teller>
-		<default>Angely nota um espelho. Mas há apenas um reflexo, um vulto. Então ele acorda em sua cama. Levanta-se e verifica que Edmont dormia na cama de cima. Volta a deitar.</default>
+		<default>Angely nota um espelho. Mas há apenas um reflexo, um vulto. Ele tenta tocar. Tudo fica turvo. Escuro. Respiração alterada. O escuro clareia e ele vê a parte debaixo da beliche. Olha para os lados. Senta. Sai da cama. Olha para Edmont, que dorme na cama de cima. Volta a deitar.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Está tudo bem agora.</default>
