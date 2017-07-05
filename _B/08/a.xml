@@ -4,7 +4,7 @@
 		<default>Manhã. Sala da MEAK. Mel está em frente ao balcão. A parede da copa foi refeita com madeira, não há mais porta. Kat, Estela e Derik estão no sofá. Zenon e Alan estão perto da porta da cozinha.</default>
 	</teller>
 	<talk character="Mel">
-		<default>A verdade, pessoal, é que achamos que poderíamos viver daquilo pro resto da vida e agora não temos mais. Então, temos que cortar despesas e teremos que trabalhar para sustentar isso aqui. De qual coisa vocês querem saber primeiro?</default>
+		<default>A verdade, pessoal, é que achamos que poderíamos viver daquilo pro resto da vida e agora não temos mais. Então, vamos ter que cortar despesas e trabalhar para sustentar isso aqui. De qual coisa vocês querem saber primeiro?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Vai pelo primeiro que você falou.</default>
@@ -57,14 +57,17 @@
 	<talk character="Alan">
 		<default>Vai nos sobrecarregar!</default>
 	</talk>
+	<teller>
+		<default>Mel cruza os braços.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Vocês não tem vergonha, não? Repararam que só vocês estão reclamando?</default>
+		<default>Vocês não tem vergonha, não? Repararam que só vocês tão reclamando?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>É isso mesmo, só nós vamos protestar?!</default>
 	</talk>
 	<teller>
-		<default>Zenon olha para Kat, Estela e Derik. Kat olha para Estela. Estela encolhe os ombros. Olha para Derik. Derik vira as palmas para cima.</default>
+		<default>Zenon olha para Kat, Estela e Derik. Kat olha para Estela. Estela encolhe os ombros. Kat olha para Derik. Derik vira as palmas para cima. Kat olha para Zenon.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Também não entendi.</default>
@@ -73,7 +76,7 @@
 		<default>Não vão dizer nada?!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não dá pra procurar todomundo junto.</default>
+		<default>Não dá pra procurar todo mundo junto.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Vamos procurar todos os empregos de tarde que encontrarmos e os três tentamos até estarmos todos empregados.</default>
@@ -106,13 +109,13 @@
 		<default>Até esperava isso de Alan... Se bem que a gente só pulava de um lado pra outro, nunca te vi com um emprego.</default>
 	</talk>
 	<teller>
-		<default>Mel desencosta do balcão.</default>
+		<default>Zenon cruza os braços. Mel desencosta do balcão.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Querem ficar aqui o dia inteiro? Ótimo. Posso dar um jeito nisso.</default>
 	</talk>
 	<teller>
-		<default>Algum tempo depois. Alan está limpando o armário. Zenon está lavando a louça. Coloca um pote a direita. Olha para a pilha a esquerda.</default>
+		<first>Algum tempo depois. Alan está limpando o armário. Zenon está lavando a louça. Coloca um pote a direita. Olha para a pilha a esquerda.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Bom, aqui pelo menos não pego sol.</default>
@@ -274,7 +277,7 @@
 		<default>Fecha a escola pra mim?</default>
 	</talk>
 	<teller>
-		<default>Angely abre a boca, Dínamis sai andando. Angely e Mel olham para a porta.</default>
+		<default>Angely abre a boca, Dínamis sai da sala e fecha a porta. Angely e Mel olham para a porta.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Será que é tão ruim assim pra jogar no meu colo desse jeito?</default>
@@ -315,11 +318,14 @@
 	<talk character="Mel">
 		<default>Eu pego o dinheiro que eu pagaria para alguém que não morasse aqui e te pago metade, já que vou querer metade do salário de todo mundo pra sustentar a casa.</default>
 	</talk>
+	<teller>
+		<default>Derik levanta.</default>
+	</teller>
 	<talk character="Derik">
 		<default>Legal!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá sendo irônico?</default>
+		<default>Isso é ironia?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não, é sério, eu gostei... Começo hoje?</default>
@@ -334,7 +340,7 @@
 		<default>Alan e Zenon estão limpando a casa?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Até que eles não são ruins. Ixi, ficamos sem jantar hoje...</default>
+		<default>Até que não são ruins. Só ficamos sem jantar hoje...</default>
 	</talk>
 	<talk character="Derik">
 		<default>Eu preparo um lanche pra todo mundo em dois minutos!</default>
@@ -355,7 +361,7 @@
 		<default>Foi difícil, mas...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Por que cada um não limpou 7?</default>
+		<default>Por que não limparam 7 cada?</default>
 	</talk>
 	<teller>
 		<default>Alan olha para Zenon.</default>
@@ -400,7 +406,7 @@
 		<default>Mas nunca vai aceitar!</default>
 	</talk>
 	<talk character="Ang">
-		<default>A gente pode tentar. Edmont fica vigiando a MEAK. Descobri que Derik vai cuidar, mas não pode ficar 24 horas por dia na recepção. Além do que, você pode atender o telefone, pela agência.</default>
+		<default>A gente pode tentar. Edmont fica vigiando a MEAK. Descobri que Derik vai cuidar, mas não pode ficar 24 horas por dia na recepção.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Mesmo que finja que acredita em mim, vai inventar qualquer coisa. Por exemplo...</default>
@@ -454,7 +460,7 @@
 		<default>Mel cruza os braços.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Pedir pra você voltar, mas já que está em tão boa companhia...</default>
+		<irony>Pedir pra você voltar, mas já que está em tão boa companhia...</irony>
 	</talk>
 	<talk character="Ang">
 		<default>Vai me ajudar com Beatrice ou não?</default>

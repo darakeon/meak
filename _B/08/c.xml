@@ -142,7 +142,7 @@
 		<default>Por enquanto, a gente vai.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Derik, fica, se a coisa ficar feia, cê chama ajuda.</default>
+		<default>Derik, fica, se a coisa ficar feia, chama ajuda.</default>
 	</talk>
 	<teller>
 		<default>Zenon e Alan entram na sala. Zenon toma um soco. Alan tenta cravar uma estaca em quem deu um soco e toma um chute. Seguram Zenon e Alan. Beatrice entra na sala.</default>
@@ -154,11 +154,14 @@
 		<default>Você disse que não tinham problemas com hóspedes diferentes!</default>
 	</talk>
 	<talk character="Lora">
-		<default>Fomos atacados!</default>
+		<default>Nos atacaram!</default>
 	</talk>
 	<talk character="Bea">
 		<default>Tudo bem, não vão mais fazer isso, né gente?!</default>
 	</talk>
+	<teller>
+		<default>Beatrice olha para Alan e Zenon.</default>
+	</teller>
 	<talk character="Alan">
 		<default>São nossos hóspedes???</default>
 	</talk>
@@ -169,10 +172,10 @@
 		<default>Beatrice olha para Lora e Zania, com um sorriso.</default>
 	</teller>
 	<talk character="Zania">
-		<default>Fomos atacados!</default>
+		<default>Nos atacaram!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Essa parte eu já ouvi, mas isso significa que não serão mais. Inclusive, vou ligar para as outras pessoas que moram aqui e avisar de vocês, tá?</default>
+		<default>Essa parte eu já ouvi, mas explicamos agora e isso significa que não farão de novo. Inclusive, vou ligar para as outras pessoas que moram aqui e avisar de vocês, tá?</default>
 	</talk>
 	<talk character="Zania">
 		<default>Se formos...</default>
@@ -189,11 +192,8 @@
 	<talk character="Alan">
 		<default>Ué, eles vão ocupar todos, porque não podem escolher sozinhos?</default>
 	</talk>
-	<teller>
-		<default>Derik entra.</default>
-	</teller>
 	<talk character="Derik">
-		<default>Eu mostro. Os quartos estão lá em cima...</default>
+		<arrive>Eu mostro. Os quartos estão lá em cima...</arrive>
 	</talk>
 	<teller>
 		<first>Escola. Diretoria.</first>
@@ -214,7 +214,7 @@
 		<default>Porque não foram se hospedar no hotel?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Bom, eu até perguntei quando eles disseram que iriam pagar dois milhões, mas...</default>
+		<default>Bom, eu até perguntei quando disseram que iriam pagar dois milhões, mas...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Por que você perguntou??? Podiam ter desistido!!!</default>
@@ -250,7 +250,7 @@
 		<screamed>Peraí, fala o que tá acontecendo!</screamed>
 	</talk>
 	<teller>
-		<first>Ares. Angely chega em um apartamento. Bate. Sem reação. Angely vai contra a porta com o ombro. Corre até o quarto. No espelho, a inscrição "FRAQUEZA". Fábio está na cama, de costas.</first>
+		<first>Ares. Angely chega em um apartamento. Bate. Nada. Angely chuta a porta, a tranca arrebenta, a porta bate contra a parede. Angely entra. Vai até o quarto. No espelho, a inscrição "FRAQUEZA". Fábio está na cama, de costas.</first>
 	</teller>
 	<talk character="Fábio">
 		<default>Vão me expulsar?</default>
@@ -271,13 +271,13 @@
 		<default>Achou que fosse Edmont. Mas antes achou que fosse outra pessoa.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Soraia. Pode não acreditar, mas já a vi quebrar mais de cem portas.</default>
+		<default>Soraia. Pode não acreditar, mas já vi quebrar mais de cem portas.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Por isso perguntou se iam te expulsar.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Alan dormiu com uma vampira e foi expulso.</default>
+		<default>Alan dormiu com Clítia e expulsaram.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Acusou Soraia de estar inventando isso.</default>
@@ -337,11 +337,14 @@
 		<default>Acabou de responder, o que deu na sua cabeça???</default>
 	</talk>
 	<talk character="Bea">
-		<default>Na minha nada, mas deve ter dado algo na dos nossos hóspedes! Tem uma pessoa amarrada lá fora...</default>
+		<default>Na minha nada, mas deve ter dado algo na dos nossos hóspedes! Tem uma pessoa amarrada lá fora!</default>
 	</talk>
 	<talk character="Alan">
 		<default>Eu sabia que não podíamos confiar neles!</default>
 	</talk>
+	<teller>
+		<default>Zenon desce da beliche.</default>
+	</teller>
 	<talk character="Zenon">
 		<irony>Engraçado como você sempre guarda tão bem o que percebe... Sempre sabe de tudo, mas só ficamos sabendo que você sabia depois!</irony>
 	</talk>
@@ -349,7 +352,7 @@
 		<default>Olha aqui...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Parem de implicância, tem alguém em perigo lá embaixo!</default>
+		<default>Parem de implicância, tem gente precisando de ajuda lá embaixo!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>O que vamos fazer?</default>
@@ -361,7 +364,7 @@
 		<default>Ah?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ótima idéia. Vai envenenar a comida?</default>
+		<default>Vai envenenar a comida?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Seria arriscado, podem querer que comamos junto. Mas com todo mundo reunido, podemos atacar.</default>
@@ -373,7 +376,7 @@
 		<arrive>Eu não tava junto.</arrive>
 	</talk>
 	<talk character="Zenon">
-		<default>Nossa, se modéstia pagasse imposto, você com certeza seria isenta...</default>
+		<default>Se modéstia pagasse imposto...</default>
 	</talk>
 	<teller>
 		<default>Kat e Estela entram no quarto.</default>
@@ -384,6 +387,9 @@
 	<talk character="Zenon">
 		<default>Que bom que vocês chegaram, vai ser mais para...</default>
 	</talk>
+	<teller>
+		<default>Mel encara Zenon.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Vai querer colocar as crianças nisso?!</default>
 	</talk>
@@ -406,7 +412,7 @@
 		<default>Isso nós não comemos, então eles não vão falar nada.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Do que estão falando?</default>
+		<default>Do que tão falando?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Vamos fazer um banquete. Caso nos convidem pra comer junto, só serão envenenadas as coisas que não comemos.</default>
