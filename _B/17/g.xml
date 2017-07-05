@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="17" scene="g">
 	<teller>
-		<default>Ele corre na direção de Hugo e atira uma bola de ferro pela janela, pula, e puxa Hugo junto. Andrea chega e só consegue ver as cinzas de Hugo pela janela. Zenon puxa o capuz. A reconhece.</default>
+		<default>Henrique olha para a janela. Hugo olha para a janela. Olha para Henrique. Zenon olha para a janela. Olha para Henrique.</default>
+	</teller>
+	<talk character="Hugo">
+		<default>Já te disseram que frase de efeito não mata ninguém?</default>
+	</talk>
+	<teller>
+		<default>Uma corrente entre pela janela e se enrola em Hugo. Henrique pega as duas pontas da corrente e puxa para perto da janela. Hugo puxa, resiste. Asas entram pela janela, puxam Henrique, e Hugo junto, pelas corrente. Zenon baixa a besta. Baixa a cabeça. Pousa a besta no chão. Anda em direção a janela, devagar. Andrea entra correndo no quarto, passa Zenon, chegando a janela. Olha para baixo. Se afasta da janela. Zenon se aproxima. Puxa o capuz. Andrea, com lágrimas nos olhos, se vira para Zenon.</default>
 	</teller>
 	<talk character="Andrea">
 		<default>Feliz agora?</default>
@@ -16,7 +22,7 @@
 		<default>Eu tentei falar com ele...</default>
 	</talk>
 	<talk character="Andrea">
-		<default>Não se importou naquela época, por que se importa agora?</default>
+		<default>Não se importou naquela época, por que se importa agora?!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Eu mudei.</default>
@@ -25,13 +31,13 @@
 		<default>Já entendi, quer fazer teatro pros seus amigos. Não se preocupe, sou uma vampira, como ele também era, ninguém vai ligar pra isso agora. Pode me matar.</default>
 	</talk>
 	<teller>
-		<default>Ele vai tocar o rosto dela, mas ela se afasta.</default>
+		<default>Zenon levanta a mão em direção ao rosto de Andrea, Andrea dá um passo para trás.</default>
 	</teller>
 	<talk character="Andrea">
 		<default>Eu disse que podia me matar, não te autorizei a tocar em mim.</default>
 	</talk>
 	<teller>
-		<default>Ela puxa a besta, que está na mão dele, apontando para o próprio peito.</default>
+		<default>Andrea olha para Michele. Vai até a besta, pega e estende a Zenon.</default>
 	</teller>
 	<talk character="Andrea">
 		<default>Aproveita. Sua amiga tá acordando. Ela não sabe de nada. Tudo que verá é você transformar uma vampira em cinzas.</default>
@@ -40,11 +46,14 @@
 		<arrive>Henrique não virou pó.</arrive>
 	</talk>
 	<talk character="Zenon">
-		<default>Está vivo?</default>
+		<default>Tá vivo?</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Não. A última coisa que ele disse foi que a mãe dele disse pra não ficar perto da janela. Não entendi.</default>
+		<default>Não. Me disse que quase estraguei o final da peça e fechou os olhos. Não entendi nada. Devia ter me agradecido, não ia conseguir sem ajuda, o cara era quase o dobro dele...</default>
 	</talk>
+	<teller>
+		<default>Andrea olha para Beleno. Olha para Zenon.</default>
+	</teller>
 	<talk character="Andrea">
 		<default>Não foi você quem matou meu filho?</default>
 	</talk>
@@ -52,7 +61,7 @@
 		<default>Faz diferença?</default>
 	</talk>
 	<teller>
-		<default>Ela se senta no chão e chora. Beleno se senta ao lado dela.</default>
+		<default>Andrea se deixa cair no chão. Chora. Beleno mira nos olhos de Zenon. Se senta ao lado de Andrea.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Vai embora, Zenon.</default>
@@ -64,7 +73,7 @@
 		<default>Leva Michele e vai embora.</default>
 	</talk>
 	<teller>
-		<default>Noite. Michele acorda. Zenon está num canto, sentado no chão. Ela se levanta.</default>
+		<first>Noite. Michele abre os olhos. Está em sua cama. Zenon está em um canto, no chão, olhando para o teto. Michele se levanta.</first>
 	</teller>
 	<talk character="Michele">
 		<default>Ai...</default>
@@ -73,7 +82,7 @@
 		<default>Ele era bem forte, né?</default>
 	</talk>
 	<talk character="Michele">
-		<default>Você conseguiu matá-lo?</default>
+		<default>Você conseguiu matar?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Henrique fez isso. Morreu junto.</default>
@@ -82,7 +91,7 @@
 		<default>Pelo menos uma coisa certa ele fez.</default>
 	</talk>
 	<teller>
-		<default>Ele vira o rosto pro canto.</default>
+		<default>Zenon olha para Michele.</default>
 	</teller>
 	<talk character="Michele">
 		<default>Não está lamentando, está?</default>
@@ -97,7 +106,7 @@
 		<default>Consegui achar e perder dois filhos em menos de uma semana.</default>
 	</talk>
 	<teller>
-		<default>Ela o abraça. Ele chora.</default>
+		<default>Michele vai até Zenon. Senta ao lado. Puxa para o colo.</default>
 	</teller>
 	<talk character="Michele">
 		<default>Não é culpa sua.</default>
@@ -109,13 +118,13 @@
 		<default>Não tinha como mudar isso.</default>
 	</talk>
 	<teller>
-		<default>Ele vai para a janela.</default>
+		<default>Zenon levanta. Vai para a janela.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Pior é que eu tinha.</default>
 	</talk>
 	<teller>
-		<default>Ela o abraça. No outro andar, Beatrice está no colo de Aléxis.</default>
+		<default>Michele levanta. Vai até Zenon. Abraça. No outro andar, Beatrice está com a cabeça no colo de Aléxis.</default>
 	</teller>
 	<talk character="Aléxis">
 		<default>Entendo ele um pouco. Tive que recorrer a uma filha para parar outra.</default>
@@ -136,18 +145,28 @@
 		<default>Não precisa se dar ao trabalho. Você já escolheu.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não escolhi nada. E se eu estivesse deitada no colo de uma mulher, por exemplo?</default>
-		<teller>ele a encara</teller>
+		<default>Não escolhi nada. E se eu estivesse no colo de uma mulher, por exemplo?</default>
+	</talk>
+	<teller>
+		<default>Beleno encara Beatrice.</default>
+	</teller>
+	<talk character="Bea">
 		<default>Tá, não foi um bom exemplo.</default>
 	</talk>
+	<teller>
+		<default>Beleno olha para Aléxis.</default>
+	</teller>
 	<talk character="Beleno">
-		<default>Ela me contava que você foi o primeiro que a olhou que não fosse só sexo. Na outra Realidade, sabe?</default>
+		<default>Beatrice me contava que você foi o primeiro que olhou pra ela que não fosse só sexo. Na outra Realidade, sabe?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Ficou com Andrea.</default>
 	</talk>
+	<teller>
+		<default>Beleno olha para Beatrice.</default>
+	</teller>
 	<talk character="Beleno">
-		<default>Ela pediu que não contasse nada sobre ela.</default>
+		<default>Pediu que não contasse nada sobre.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Entendo.</default>
@@ -177,21 +196,72 @@
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Se quiser se despedir dela, vá até a MEAK.</default>
+		<default>Se quiser se despedir, vá até a MEAK.</default>
 	</talk>
 	<talk character="Bea">
-		<default>E sua filha?</default>
+		<default>E sua criança?</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Vai também.</default>
 	</talk>
 	<teller>
-		<default>Ela baixa a cabeça.</default>
+		<default>Beatrice baixa a cabeça.</default>
 	</teller>
 	<talk character="Beleno">
-		<default>Tarde demais. Pare de pensar. Você já fez sua escolha. A menos que queira ir comigo.</default>
+		<default>Tarde demais. Para de pensar. Você já fez sua escolha.</default>
 	</talk>
 	<teller>
-		<default>Beatrice olha para Beleno de novo, com lágrimas nos olhos. O abraça. Ele a beija. Aléxis não gosta, mas não faz nada. Beleno voa.</default>
+		<default>Beleno se vira. Para. Vira de volta.</default>
+	</teller>
+	<talk character="Beleno">
+		<default>A menos que queira ir comigo.</default>
+	</talk>
+	<teller>
+		<default>Beatrice olha para Beleno de novo. Uma lágrima cai de seus olhos. Beatrice vai até Beleno. Abraça. Beleno afasta. Beija Beatrice, que corresponde. Aléxis olha para o teto, se vira. Beleno sai pela porta andando. Barulho de asas.</default>
+	</teller>
+	<teller>
+		<default>Algum tempo, algum lugar</default>
+	</teller>
+	<talk character="Xien">
+		<default>Teve mais alguma?</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Alguma o que?</default>
+	</talk>
+	<talk character="Xien">
+		<default>Cria de Zenon.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Não sei.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Ou não pode falar.</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Ou talvez eu só não saiba.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Beleno foi mesmo embora para sempre?</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Beleno não conseguia aceitar que Beatrice não queria nada consigo. Tem bastante gente assim no mundo. Humanos educam uma parte da população pra ser assim.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Como as pessoas podem acreditar nessas coisas?</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Na metade da panela, tampa da laranja?</default>
+	</talk>
+	<talk character="Xien">
+		<default>Não tá ao contrário?</default>
+	</talk>
+	<talk character="Uehfo">
+		<default>Que diferença faz? Não faz sentido de qualquer jeito.</default>
+	</talk>
+	<talk character="Xien">
+		<default>Você definitivamente tem um ponto.</default>
+	</talk>
+	<teller>
+		<default>Uehfo respira fundo. Estende a mão a Xien. Xien pega a mão de Uehfo.</default>
 	</teller>
 </story>
