@@ -1,77 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="12" scene="c">
-		<teller>
-		<default>1983. Um garoto de quatro anos está num orfanato, sentado no chão, observando as outras crianças. Uma mulher se aproxima.</default>
+	<teller>
+		<division>1983</division>
 	</teller>
-	<talk character="mulher">
+	<teller>
+		<default>Louis sentou-se no chão e olha outras crianças. Carla se aproxima.</default>
+	</teller>
+	<talk character="Carla">
 		<default>Oi.</default>
 	</talk>
 	<talk character="Louis">
 		<default>Meu nome é Louis. Veio adotar?</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Ah... Eu...</default>
 	</talk>
 	<talk character="Louis">
-		<default>Só inspetora?</default>
+		<default>Só olhando?</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Tá vendo aquele homem, falando com a tia?</default>
 	</talk>
 	<teller>
-		<default>Ela aponta um homem. Ele olha e volta a olhar para ela.</default>
+		<default>Carla aponta Marcos. Louis olha para Marcos. Volta a olhar para Carla.</default>
 	</teller>
 	<talk character="Louis">
-		<default>Você a chama de tia?</default>
+		<default>Você chama de tia?</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Não.</default>
 	</talk>
 	<talk character="Louis">
 		<default>Eu também não. É costume das outras crianças.</default>
 	</talk>
 	<teller>
-		<default>Louis olha de novo para o homem.</default>
+		<default>Louis olha de novo para Marcos.</default>
 	</teller>
 	<talk character="Louis">
 		<default>É seu namorado ou seu irmão?</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Marido.</default>
 	</talk>
 	<talk character="Louis">
 		<default>Isso não é a mesma coisa que namorado?</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Depende do caso... </default>
-		<teller>ela olha pra ele</teller>
+	</talk>
+	<teller>
+		<default>Carla olha para Marcos.</default>
+	</teller>
+	<talk character="Carla">
 		<default>No nosso caso, é.</default>
 	</talk>
 	<talk character="Louis">
 		<default>Vão adotar menino ou menina? Terá irmãos?</default>
 	</talk>
 	<teller>
-		<default>Ela olha de volta para ele.</default>
+		<default>Carla olha para Louis.</default>
 	</teller>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Sou infértil.</default>
 	</talk>
 	<talk character="Louis">
 		<default>Mas isso não é problema. Pode adotar mais de um. Eu recomendo. Uma criança que cresce num orfanato cresce cercada de outras crianças. Algumas adorariam ser filhas únicas, são meio reclusas, mas a maioria não fica muito sozinha...</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>A mulher disse pra eu vir falar com você.</default>
 	</talk>
 	<talk character="Louis">
 		<default>Aqui me chamam de guia. Nunca uma família que eu tenha achado a criança devolveu. Desde que eu encaminho as coisas, ninguém se fere.</default>
-		<default>Nossa viagem é mais longa. Deixa essa parte com Alan e Fábio também.</default>
- 	</talk>
+	</talk>
 	<teller>
-		<default>Noite. Louis acorda.</default>
+		<first>Noite. Louis acorda.</first>
 	</teller>
 	<talk character="Louis">
 		<default>Valquíria...</default>
 	</talk>
+	<teller>
+		<default>Dionísio senta na cama.</default>
+	</teller>
 	<talk character="Dionísio">
 		<default>A menina que você falou?</default>
 	</talk>
@@ -100,10 +109,10 @@
 		<default>Aquela que você recomendou a Julinha?</default>
 	</talk>
 	<talk character="Louis">
-		<default>Sim. Terei que arranjar outra pessoa para adotá-la. O marido dela parte e, meses depois, ela também.</default>
+		<default>Sim. Terei que arranjar outra pessoa para adotar a Julinha. O marido dela parte e, meses depois, ela também.</default>
 	</talk>
 	<talk character="Dionísio">
-		<default>Ih, sujeira! Ela é a mãe da Valquíria?</default>
+		<default>Que merda! Mas ela é a mãe da Valquíria?</default>
 	</talk>
 	<talk character="Louis">
 		<default>É. Parece que finalmente encontrei.</default>
@@ -118,7 +127,10 @@
 		<default>Viu isso no sonho?</default>
 	</talk>
 	<teller>
-		<default>22/06/2003. Kat está sentada no quarto.</default>
+		<division>2003</division>
+	</teller>
+	<teller>
+		<default>Kat está no quarto, sentou-se na cama.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Sim.</default>
@@ -127,34 +139,34 @@
 		<default>Então, tá me dizendo que tem alguém com seus poderes por aí?</default>
 	</talk>
 	<talk character="Kat">
-		<default>De repente ele sabe de onde veio!</default>
+		<default>De repente sabe de onde veio!</default>
 	</talk>
 	<talk character="Estela">
 		<default>Mais um problema.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Um problema, não, uma solução! Eu não faço a menor idéia de quem me deu isso... Se ele tem os mesmos poderes...</default>
+		<default>Um problema, não, uma solução! Eu não faço a menor idéia de quem me deu isso... Se tem os mesmos poderes...</default>
 	</talk>
 	<talk character="Estela">
-		<default>Não disse que o garoto tem quatro anos?</default>
+		<default>Não disse que tem quatro anos?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Vou voltar a dormir.</default>
 	</talk>
 	<teller>
-		<default>Kat volta para a sua cama. Estela sai do quarto. Desce e encontra Derik fazendo almoço.</default>
+		<default>Kat deita. Estela sai do quarto. Desce. Vai até a cozinha. Derik está fazendo almoço.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Kat teve um sonho.</default>
 	</talk>
 	<talk character="Derik">
-		<default>E por quê ela chamou só você?!</default>
+		<default>E por quê chamou só você?!</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não chamou, eu já tava no quarto. Voltou a dormir, pra ver se continua.</default>
 	</talk>
 	<teller>
-		<default>Longe dali, Zenon está numa sala de cadeia. Entra um homem.</default>
+		<first>Uma sala cinza. Uma mesa no centro, de metal. Zenon está em uma cadeira. Louis chega e senta-se a sua frente.</first>
 	</teller>
 	<talk character="Louis">
 		<default>Disseram-me que é sobre Ludmila.</default>
@@ -166,10 +178,10 @@
 		<default>Louis. Veio aqui sem saber nem isso?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>A pessoa que me informou não lembrava.</default>
+		<default>A pessoa que me informou não lembrava. Perguntei aos guardas falando do seu caso.</default>
 	</talk>
 	<talk character="Louis">
-		<default>Não lembrava... Sei.</default>
+		<default>Certo.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Mas me deu o endereço exato. Não sabia que tinha mordomia aqui dentro...</default>
@@ -187,7 +199,7 @@
 		<default>E você parece mal.</default>
 	</talk>
 	<talk character="Louis">
-		<default>É ruim ficar longe da pessoa que você ama. Sabe onde ela está?</default>
+		<default>É ruim ficar longe da pessoa que você ama. Sabe onde tá?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Quem?</default>
@@ -216,128 +228,161 @@
 	<talk character="Zenon">
 		<default>Não. Mas minha amiga não vai acreditar tão facilmente.</default>
 	</talk>
+	<teller>
+		<default>Louis ri.</default>
+	</teller>
 	<talk character="Louis">
 		<default>Se eu tivesse provas, acha que estaria aqui, privado da minha liberdade e longe do meu amor? Sabe ao menos onde está Valquíria?</default>
 	</talk>
 	<teller>
-		<default>1983. Louis entra em casa. Olha para tudo. Volta-se para seus novos pais.</default>
+		<division>1983</division>
+	</teller>
+	<teller>
+		<default>Louis entra em casa. Olha para tudo. Volta-se para Carla e Marcos.</default>
 	</teller>
 	<talk character="Louis">
 		<default>Devo chamá-los de pais?</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Quando quiser.</default>
 	</talk>
 	<talk character="Louis">
 		<default>Posso usar a cozinha?</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Marcos">
 		<default>Você sabe cozinhar?</default>
 	</talk>
 	<talk character="Louis">
 		<default>Desde a minha outra encarnação.</default>
 	</talk>
 	<teller>
-		<default>Louis vai para a cozinha</default>
+		<default>Louis vai para a cozinha.</default>
 	</teller>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Ele é um garoto meio precoce, não acha?</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Marcos">
 		<default>Talvez.</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Será que saberemos lidar com ele?</default>
 	</talk>
-	<talk character="homem">
-		<default>Se não soubermos, ele ensina.</default>
+	<talk character="Marcos">
+		<default>Olha, acho que, se não soubermos, ele ensina.</default>
 	</talk>
 	<teller>
-		<default>2003. Beatrice está num hospício, com um médico.</default>
+		<division>2003</division>
 	</teller>
-	<talk character="médico">
+	<teller>
+		<default>Beatrice está andando por um corredor, seguindo Antônio.</default>
+	</teller>
+	<talk character="Antônio">
 		<default>Ela diz que a mulher rouba a força das pessoas.</default>
 	</talk>
 	<talk character="Bea">
-		<default>E Ludmila colocou a garota no hospício um mês depois de mandar prender o namorado por sedução de menor?</default>
+		<default>E Ludmila colocou no hospício um mês depois de mandar prender Louis por sedução de menor?</default>
 	</talk>
-	<talk character="médico">
+	<talk character="Antônio">
 		<default>Olha, eu sei, a mulher parece o diabo, mas não podemos fazer nada com o depoimento de uma garota que afirma que a acusada é o próprio demônio...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ela disse isso?</default>
+		<default>Valquíria disse isso?</default>
 	</talk>
-	<talk character="médico">
-		<default>Pra você ver. Olha, a garota fica perturbada de vez em quando, mas ela está bem aqui...</default>
+	<talk character="Antônio">
+		<default>Pra você ver. Olha, a garota fica perturbada de vez em quando, mas ela tá bem aqui...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Perturbada por causa do namorado?</default>
+		<default>Essa perturbação tem a ver com Louis?</default>
 	</talk>
-	<talk character="médico">
-		<default>Não duvido que ele fosse um aproveitador também, aliás, pior, acho que ele é algum tipo de louco.</default>
+	<talk character="Antônio">
+		<default>Não duvido que ele fosse um aproveitador também, aliás, pior, acho que ele é algum tipo de louco. Talvez devesse estar aqui também.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Por que acha isso?</default>
 	</talk>
-	<talk character="médico">
+	<talk character="Antônio">
 		<default>A própria história dos dois diz tudo...</default>
 	</talk>
 	<teller>
-		<default>1983. Louis está olhando os dois comerem.</default>
+		<division>1983</division>
+	</teller>
+	<teller>
+		<default>Louis está olhando Carla e Marcos comerem.</default>
 	</teller>
 	<talk character="Louis">
 		<default>Onde eu durmo?</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Vou lá te mostrar...</default>
 	</talk>
 	<teller>
-		<default>A mulher sobe com Louis. Ele olha para todo o quarto. Deita-se na cama. Ela o cobre. Dá um beijo na testa e sai.</default>
+		<default>Carla sobe e Louis segue. Carla entra no quarto. Louis entra atrás. Olha para todo o quarto. Deita na cama. Carla cobre Louis. Dá um beijo na testa e sai.</default>
 	</teller>
 	<talk character="Louis">
 		<default>Amanhã, quando eu acordar, Valquíria já terá voltado pra esse mundo.</default>
 	</talk>
 	<teller>
-		<default>Ela volta à cozinha.</default>
+		<default>Carla volta a cozinha.</default>
 	</teller>
-	<talk character="homem">
+	<talk character="Marcos">
 		<default>E aí, ele dormiu?</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>É uma criança, não um robô!</default>
 	</talk>
-	<talk character="homem">
-		<default>Parecia com sono.</default>
+	<talk character="Marcos">
+		<default>É que parecia com sono...</default>
 	</talk>
 	<teller>
-		<default>Eles tiram a louça da mesa. Ele abraça-a. Beija-lhe o pescoço.</default>
+		<default>Marcos tira a panela da mesa e leva para a pia. Pega um pote no armário. Carla trás os pratos. Marcos esvazia a panela no pote e guarda na geladeira. Carla lava os pratos. Marcos pega outra bochinha e lava a panela. Carla sai da cozinha, Marcos olha para a porta, pega os pratos e lava novamente. Olha para trás e Carla está de braços cruzados.</default>
 	</teller>
-	<talk character="mulher">
+	<talk character="Marcos">
+		<default>Cê tá aí faz tempo?</default>
+	</talk>
+	<talk character="Carla">
+		<default>Vou começar a deixar tudo pra você lavar.</default>
+	</talk>
+	<teller>
+		<default>Marcos vai na direção de Carla e beija.</default>
+	</teller>
+	<talk character="Marcos">
+		<default>Não fica brava.</default>
+	</talk>
+	<teller>
+		<default>Marcos beija o pescoço de Carla. Baixa a alça da blusinha, Carla puxa de volta.</default>
+	</teller>
+	<talk character="Carla">
 		<default>Não dá mais pra fazer isso em qualquer lugar da casa...</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Marcos">
 		<default>Relaxa, ele tá no quarto dele.</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Não sabemos se ele já dormiu.</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Marcos">
 		<default>Foi alguma coisa na comida que me deixou com vontade.</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Carla">
 		<default>Ele não faria isso!</default>
 	</talk>
-	<talk character="homem">
+	<talk character="Marcos">
 		<default>Não estou falando que foi de propósito. Mas diz que você também não percebeu...</default>
 	</talk>
 	<teller>
-		<default>Ela se vira para ele. Se beijam. Ele coloca a mão na coxa dela.</default>
+		<default>Carla beija Marcos. Marcos coloca a mão na coxa de Carla. Carla tira.</default>
 	</teller>
-	<talk character="mulher">
-		<default>Já disse que aqui não!</default>
+	<talk character="Carla">
+		<hushed>Já disse que aqui não!</hushed>
 	</talk>
 	<teller>
-		<default>Eles vão para seu quarto. 2003. Fábio e Alan estão na delegacia.</default>
+		<default>Carla pega Marcos para mão e atravessam a sala.</default>
+	</teller>
+	<teller>
+		<division>2003</division>
+	</teller>
+	<teller>
+		<default>Delegacia. Rick entrega um papel a Fábio.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Todos os nomes estão aqui?</default>
@@ -352,37 +397,37 @@
 		<default>Não acreditamos nesse tipo de coisa, estamos no século XX.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Na verdade é o XXI. E não precisa que vocês acreditem, basta que eles sim. Pessoas fazem sacrifícios humanos hoje e não precisam que a polícia acredite que dará certo.</default>
+		<default>XXI, na verdade. E não precisa que vocês acreditem, basta que eles sim. Pessoas fazem sacrifícios humanos hoje e não precisam que a polícia acredite que dará certo.</default>
 	</talk>
 	<talk character="Rick">
 		<default>Tá querendo fazer meu trabalho?!</default>
 	</talk>
 	<talk character="Alan">
-		<default>É exatamente o que vamos fazer, na verdade.</default>
+		<default>É exatamente o que vamos fazer.</default>
 	</talk>
 	<teller>
-		<default>Os dois levantam e saem. Vão ao hospital.</default>
+		<default>Fábio sai, Alan segue. Hospital.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Todas passaram por aqui?</default>
 	</talk>
-	<talk character="enfermeira">
+	<talk character="Alessandra">
 		<default>Todas.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>São esses os nomes dos namorados?</default>
 	</talk>
 	<teller>
-		<default>Fábio entrega a lista à enfermeira. Ela adiciona mais um nome.</default>
+		<default>Fábio entrega um papel a Alessandra. Alessandra tira uma caneta do bolso. Adiciona mais um nome. Devolve a lista a Fábio.</default>
 	</teller>
-	<talk character="enfermeira">
+	<talk character="Alessandra">
 		<default>Esse se matou. Mas pode falar com o amigo dele, que morava com ele.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Obrigado.</default>
 	</talk>
 	<teller>
-		<default>Alan e Fábio saem. No dia seguinte (23/06 – segunda-feira), de noite, eles batem a uma porta na vila. Um homem atende a porta. Olha para os dois.</default>
+		<first>Dia seguinte. Fábio e Alan batem em uma porta. Hector atende. Olha para Alan e Fábio. Coloca as mãos na cintura.</first>
 	</teller>
 	<talk character="Hector">
 		<default>Não atendo em casa.</default>
@@ -390,32 +435,29 @@
 	<talk character="Fábio">
 		<default>Não faço a menor idéia de qual é sua profissão, mas não foi por causa disso que viemos.</default>
 	</talk>
+	<teller>
+		<default>Alan olha para Fábio, depois para Hector.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Acha que eu sou viado???</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Quê???</default>
+		<default>Oi?!</default>
 	</talk>
 	<talk character="Alan">
 		<default>A cara que ele olhou, parecia achar que tenho alguma coisa com você!</default>
 	</talk>
 	<teller>
-		<default>Fábio olha para Alan.</default>
-	</teller>
-	<talk character="Fábio">
-		<default>Você é homófobo por acaso? Tem algum tipo de preconceito?</default>
-	</talk>
-	<teller>
-		<default>Alan olha para a cara dos dois.</default>
+		<default>Fábio tapa o rosto e balança a cabeça para os lados. Alan olha para Hector.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Como é possível gostar de um homem???</default>
+		<default>Como é possível ter tesão em um homem???</default>
 	</talk>
 	<talk character="Fábio">
-		<default>De você é impossível, pode ficar sossegado.</default>
+		<default>Em você é impossível, pode ficar sossegado.</default>
 	</talk>
 	<teller>
-		<default>Hector dá passagem. Fábio entra.</default>
+		<default>Hector ri. Dá passagem e Fábio entra.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Por que eu tenho impressão que você e o Zenon adoram me sacanear???</default>
