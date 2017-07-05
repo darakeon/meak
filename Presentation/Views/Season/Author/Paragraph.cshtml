@@ -3,14 +3,14 @@
 <div class="paragraph @Model.CurrentParagraph.ToString().ToLower()" id="Paragraph@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)">
             
     <span class="suggestionCharacter">
-        <adder class="adderTalk" caller="@(Model.CurrentParagraph)" type="Paragraph" subtype="Talk" paragraph="@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)" onclick="AddInputItem(this)">+</adder>
-        <adder class="adderTeller" caller="@(Model.CurrentParagraph)" type="Paragraph" subtype="Teller" paragraph="@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)" onclick="AddInputItem(this)">+</adder>
+        <adder class="adderTalk" scene="@Model.SceneCounter" caller="@Model.CurrentParagraph" type="Paragraph" subtype="Talk" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" talk="@Model.TalkCounter" onclick="AddInputItem(this)">+</adder>
+        <adder class="adderTeller" scene="@Model.SceneCounter" caller="@Model.CurrentParagraph" type="Paragraph" subtype="Teller" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" talk="@Model.TalkCounter" onclick="AddInputItem(this)">+</adder>
     </span>
 
     @if (Model.CurrentParagraph == Structure.Enums.ParagraphType.Talk)
     {
         <span class="suggestionCharacter">
-            @Html.TextBoxFor(m => m.Story.TalkList[Model.TalkCounter].Character, 
+            @Html.TextBoxFor(m => m.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Character, 
                 new { 
                     @class = "darkback auxi", 
                     rel = ("character_" + Model.TalkCounter), 
@@ -18,13 +18,13 @@
                     onfocus = "GetSuggestionBox(this)", 
                     onblur = "ExitSuggestionBox(this)" ,
                     tabIndex = Model.TabIndex +
-                        2 * Model.Story.TalkList[Model.TalkCounter].Pieces.Count
+                        2 * Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces.Count
                 })
 
             <div class="suggestionBox" id="character_@(Model.TalkCounter)"></div>
         </span>
 
-        for (var p = 0; p < Model.Story.TalkList[Model.TalkCounter].Pieces.Count; p++)
+        for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces.Count; p++)
         {
             Model.PieceCounter = p;
             
@@ -37,7 +37,7 @@
 
     else if (Model.CurrentParagraph == Structure.Enums.ParagraphType.Teller)
     {
-        for (var p = 0; p < Model.Story.TellerList[Model.TellerCounter].Pieces.Count; p++)
+        for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].TellerList[Model.TellerCounter].Pieces.Count; p++)
         {
             Model.PieceCounter = p;
             
@@ -47,6 +47,6 @@
         Model.TellerCounter++;
     }
     
-    @Html.HiddenFor(m => m.Story.ParagraphTypeList[Model.ParagraphCounter])
+    @Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].ParagraphTypeList[Model.ParagraphCounter])
     
 </div>

@@ -1,5 +1,6 @@
 function AddInputItem(obj) {
-    $("#save").hide();
+    var scene = $(obj).attr("scene");
+    $("#save_" + scene).hide();
 
     var type = $(obj).attr("type");
 
@@ -18,14 +19,15 @@ function AddInputItem(obj) {
 
 
 function AddPiece(obj) {
+    var scene = $(obj).attr("scene");
     var subtype = $(obj).attr("subtype");
     var piece = NumericValueAttr(obj, "piece");
     var typedParagraph = NumericValueAttr(obj, subtype);
 
-    $.post(adderPage, { type: "piece", subtype: subtype, piece: piece + 1, teller: typedParagraph, talk: typedParagraph }, function (data) {
+    $.post(adderPage, { type: "piece", scene: scene, subtype: subtype, piece: piece + 1, teller: typedParagraph, talk: typedParagraph }, function (data) {
 
         var paragraph = NumericValueAttr(obj, "paragraph");
-        AjustNextPieces(paragraph, piece);
+        AjustNextPieces(scene, paragraph, piece);
 
 
         var currentPiece = $("#" + subtype + typedParagraph + "_Piece" + piece);
@@ -36,12 +38,12 @@ function AddPiece(obj) {
         var newInputID = "#" + subtype + typedParagraph + "_Piece" + (piece + 1);
         AjustThisEditTextSize(newInputID);
 
-        $("#save").show();
+        $("#save_" + scene).show();
     });
 }
 
-function AjustNextPieces(paragraph, piece) {
-    $("#Paragraph" + paragraph + " .paragraphPiece").each(function () {
+function AjustNextPieces(scene, paragraph, piece) {
+    $("#Scene" + scene + " #Paragraph" + paragraph + " .paragraphPiece").each(function () {
         AjustPiece(this, piece);
     });
 }
@@ -63,6 +65,7 @@ function AjustPiece(obj, piece) {
 
 
 function AddParagraph(obj) {
+    var scene = $(obj).attr("scene");
     var subtype = $(obj).attr("subtype").toLowerCase();
     var caller = $(obj).attr("caller").toLowerCase();
 
@@ -83,7 +86,7 @@ function AddParagraph(obj) {
                                 : newTellerParagraph;
 
 
-    $.post(adderPage, { type: "paragraph", subtype: subtype, paragraph: newParagraph, teller: newTellerParagraph, talk: newTalkParagraph }, function (data) {
+    $.post(adderPage, { scene: scene, type: "paragraph", subtype: subtype, paragraph: newParagraph, teller: newTellerParagraph, talk: newTalkParagraph }, function (data) {
 
         AjustNextParagraphs(paragraph, subtype);
 
@@ -91,7 +94,7 @@ function AddParagraph(obj) {
 
         AjustThisEditTextSize("#Paragraph" + newParagraph);
 
-        $("#save").show();
+        $("#save_" + scene).show();
     });
 }
 

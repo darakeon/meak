@@ -7,10 +7,9 @@ namespace Structure.Data
 {
     public class TitleXML
     {
-        internal static void Save(String title, String folderPath, String seasonID, String episodeID)
+        public static void Save(String title, String folderPath, String seasonID, String episodeID)
         {
-            var path = SceneXML
-                .StoryFilePath(folderPath, seasonID, episodeID, "_");
+            var path = Paths.SceneFilePath(folderPath, seasonID, episodeID, "_");
 
             var exists = new FileInfo(path)
                 .CreateIfNotExists("<story></story>");
@@ -23,9 +22,8 @@ namespace Structure.Data
             
             putAttributes(xml, seasonID, episodeID);
 
-            
-            var backupPath = SceneXML
-                .BackupFilePath(folderPath, seasonID, episodeID, "_");
+
+            var backupPath = Paths.BackupFilePath(folderPath, seasonID, episodeID, "_");
 
 
             if (exists)
@@ -62,7 +60,7 @@ namespace Structure.Data
 
         internal static string Get(String path, String seasonID, String episodeID)
         {
-            var titleXMLName = SceneXML.StoryFilePath(path, seasonID, episodeID, "_");
+            var titleXMLName = Paths.SceneFilePath(path, seasonID, episodeID, "_");
 
             if (!File.Exists(titleXMLName))
                 return null;

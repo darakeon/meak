@@ -14,9 +14,8 @@ function AjustHeight() {
     var main = ScaleVerticalEdge(".main");
 
     var head = ScaleHeight(".head");
-    var button = ScaleHeight("#save");
 
-    var mainHeight = windowHeight - general - head - main - button;
+    var mainHeight = windowHeight - general - head - main;
 
     $(".main").height(mainHeight);
 }

@@ -18,29 +18,39 @@ namespace Presentation.Helpers
             Model = new SeasonEditEpisodeModel(paths);
         }
 
-        public void SetPieceTeller(String scene, Int32 piece, Int32 teller, Int32 talk)
+        public void SetScene(Int32 scene)
         {
-            Model.Story[scene].TellerList = 
-                setPiecParagraphTypeList<Teller, TellerStyle>(teller, piece);
+            Model.Story.SceneList = new List<Scene>();
+
+            for (var s = 0; s <= scene; s++)
+            {
+                Model.Story.SceneList.Add(new Scene());
+            }
+        }
+
+        public void SetPieceTeller(Int32 scene, Int32 piece, Int32 teller, Int32 talk)
+        {
+            Model.Story.SceneList[scene].TellerList = 
+                setPieceParagraphTypeList<Teller, TellerStyle>(teller, piece);
 
             setCountersAndView(piece, teller, talk, "Teller");
         }
 
-        public void SetPieceTalk(String scene, Int32 piece, Int32 talk, Int32 teller)
+        public void SetPieceTalk(Int32 scene, Int32 piece, Int32 talk, Int32 teller)
         {
-            Model.Story[scene].TalkList = 
-                setPiecParagraphTypeList<Talk, TalkStyle>(talk, piece);
+            Model.Story.SceneList[scene].TalkList = 
+                setPieceParagraphTypeList<Talk, TalkStyle>(talk, piece);
 
             setCountersAndView(piece, teller, talk, "Talk");
         }
 
-        private static IList<TParagraph> setPiecParagraphTypeList<TParagraph, TPiece>(Int32 talk, Int32 piece)
+        private static IList<TParagraph> setPieceParagraphTypeList<TParagraph, TPiece>(Int32 paragraph, Int32 piece)
             where TParagraph : Paragraph<TPiece>, new()
             where TPiece : struct
         {
             var paragraphList = new List<TParagraph>();
 
-            for (var t = 0; t <= talk; t++)
+            for (var p = 0; p <= paragraph; p++)
             {
                 paragraphList.Add(new TParagraph());
             }
@@ -61,21 +71,21 @@ namespace Presentation.Helpers
         }
 
 
-        public void SetParagraphTeller(String scene, Int32 paragraph, Int32 teller, Int32 talk)
+        public void SetParagraphTeller(Int32 scene, Int32 paragraph, Int32 teller, Int32 talk)
         {
-            Model.Story[scene].TellerList = setParagraph<Teller, TellerStyle>(scene, teller, paragraph, ParagraphType.Teller);
+            Model.Story.SceneList[scene].TellerList = setParagraph<Teller, TellerStyle>(scene, teller, paragraph, ParagraphType.Teller);
 
             setCountersAndView(paragraph, teller, talk);
         }
 
-        public void SetParagraphTalk(String scene, Int32 paragraph, Int32 talk, Int32 teller)
+        public void SetParagraphTalk(Int32 scene, Int32 paragraph, Int32 talk, Int32 teller)
         {
-            Model.Story[scene].TalkList = setParagraph<Talk, TalkStyle>(scene, talk, paragraph, ParagraphType.Talk);
+            Model.Story.SceneList[scene].TalkList = setParagraph<Talk, TalkStyle>(scene, talk, paragraph, ParagraphType.Talk);
 
             setCountersAndView(paragraph, teller, talk);
         }
 
-        private IList<TParagraph> setParagraph<TParagraph, TPiece>(String scene, Int32 teller, Int32 paragraph, ParagraphType paragraphType)
+        private IList<TParagraph> setParagraph<TParagraph, TPiece>(Int32 scene, Int32 teller, Int32 paragraph, ParagraphType paragraphType)
             where TParagraph : Paragraph<TPiece>, new()
             where TPiece : struct
         {
@@ -91,7 +101,7 @@ namespace Presentation.Helpers
 
             for (var p = 0; p <= paragraph; p++)
             {
-                Model.Story[scene].ParagraphTypeList.Add(paragraphType);
+                Model.Story.SceneList[scene].ParagraphTypeList.Add(paragraphType);
             }
 
             return paragraphList;
@@ -112,5 +122,6 @@ namespace Presentation.Helpers
 
             View = "Author/" + type;
         }
+
     }
 }

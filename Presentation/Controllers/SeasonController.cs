@@ -108,23 +108,31 @@ namespace Presentation.Controllers
 
 
         [HttpPost]
-        public ActionResult Episode(SeasonEpisodeModel model, String seasonID, String episodeID, String sceneID)
+        public void EditTitle(SeasonEpisodeModel model, String seasonID, String episodeID)
         {
-            var xml = new SceneXML(paths.Xml, seasonID, episodeID, sceneID) {Scene = model.Story[sceneID]};
-
-            EpisodeEditionHelper.CutCharacter(xml.Scene);
-
-            xml.WriteStory();
-
-            return RedirectToAction("Episode", new { season = seasonID, episode = episodeID });
+            TitleXML.Save(model.Story.Title, paths.Xml, seasonID, episodeID);
         }
 
 
 
         [HttpPost]
-        public ActionResult Adder(String scene, String type, String subtype, Int32? paragraph, Int32? teller, Int32? talk, Int32? piece)
+        public void EditScene(SeasonEpisodeModel model, String seasonID, String episodeID, String sceneID)
+        {
+            var xml = new SceneXML(paths.Xml, seasonID, episodeID, sceneID) { Scene = model.Story[sceneID] };
+
+            EpisodeEditionHelper.CutCharacter(xml.Scene);
+
+            xml.WriteStory();
+        }
+
+
+
+        [HttpPost]
+        public ActionResult Adder(Int32 scene, String type, String subtype, Int32? paragraph, Int32? teller, Int32? talk, Int32? piece)
         {
             var adder = new Adder(paths);
+
+            adder.SetScene(scene);
 
             switch ((type + subtype).ToLower())
             {

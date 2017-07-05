@@ -18,7 +18,7 @@
 {
     <div class="darkback">
         <div class="header lightback">
-            @Html.RouteLink("Temporada " + season, route, new { action = "Index", controller = "Season", season = season })
+            @Html.RouteLink("Temporada " + season, route, new { action = "Index", controller = "Season", seasonID = season })
         </div>
 
         <div class="body">
@@ -27,7 +27,7 @@
                 @Html.RouteLink(
                     episode.ID,
                     route,
-                    new { controller = "Season", season = season, action = "Episode", episode = episode },
+                    new { controller = "Season", seasonID = season, action = "Episode", episodeID = episode },
                     new { @class = "item" }
                 )
                 @(" ")

@@ -1,10 +1,12 @@
 ﻿@model Presentation.Models.SeasonEditEpisodeModel
 
 @{
-    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Episode.Season, Model.Story.Episode, Model.Story.Episode.Title);
+    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
     Layout = "~/Views/Shared/_Layout.cshtml";
     var adderPage = Url.Action("Adder");
-    var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin", OnSuccess = "SaveSuccess", OnFailure = "SaveFailure" };
+    var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin('title')", OnSuccess = "SaveSuccess('title')", OnFailure = "SaveFailure('title')" };
+    var route = new { episodeID = Model.Story.ID };
+    var html = new { id = "form_title" };
 }
 
 <script type="text/javascript">var adderPage = '@adderPage';</script>
@@ -16,27 +18,27 @@
 
 <script src="@Url.Content("~/Assets/js/Author/General.js")" type="text/javascript"></script>
 
-
-
-@using (Ajax.BeginForm(ajaxOptions))
-{
-    <button type="submit" class="darkback" id="save">Salvar</button>
-    
-    @Html.Partial("Suggestion")
+@Html.Partial("Suggestion")
         
-    <p class="title">
-        @Html.TextBoxFor(m => m.Story.Episode.Title)
-    </p>
+@using (Ajax.BeginForm("EditTitle", route, ajaxOptions, html))
+{
+    <div class="titleChange">
+        <button type="submit" class="darkback" class="save" id="save_title">Salvar</button>
+        @Html.TextBoxFor(m => m.Story.Title)
+    </div>
+}
 
-    <p>
-        Paragraphs last count: @Model.Story.ParagraphTypeList.Count
-    </p>
+<p>
+    Paragraphs last count: @Model.Story.SceneList.Sum(s => s.ParagraphTypeList.Count)
+</p>
+    
 
-    for (var p = 0; p < Model.Story.ParagraphTypeList.Count; p++)
-    {
-        Model.ParagraphCounter = p;
-        @Html.Partial("Author/Paragraph")
-    }
+        
+@for (var s = 0; s < Model.Story.SceneList.Count; s++)
+{
+    Model.SceneCounter = s;
+
+    @Html.Partial("Author/Scene")
 }
 
 <p class="sign">

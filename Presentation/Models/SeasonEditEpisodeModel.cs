@@ -12,7 +12,7 @@ namespace Presentation.Models
         protected SeasonEditEpisodeModel() { }
         public SeasonEditEpisodeModel(Paths paths) : base(paths) { }
 
-        public String SceneCounter { get; set; }
+        public Int32 SceneCounter { get; set; }
         public Int32 TellerCounter { get; set; }
         public Int32 TalkCounter { get; set; }
         public Int32 ParagraphCounter { get; set; }
@@ -30,11 +30,17 @@ namespace Presentation.Models
         {
             get
             {
-                return Story[SceneCounter].ParagraphTypeList[ParagraphCounter];
+                return Story.SceneList[SceneCounter].ParagraphTypeList[ParagraphCounter];
             }
         }
 
 
+        public String CurrentScene
+        {
+            get { return Story.SceneList[SceneCounter].ID; }
+        }
+
+        
         public void GetSuggestionLists()
         {
             TalkStyleList =

@@ -43,5 +43,11 @@ namespace Structure.Entities
             get { return SceneList.SingleOrDefault(s => s.ID == scene); }
         }
 
+
+
+
+
+
+
     }
 }

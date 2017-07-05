@@ -12,6 +12,41 @@
 	margin: 3px 0px;
 }
 
+.titleChange 
+{
+    margin-bottom: 20px;
+}
+
+.titleChange input
+{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+
+
+.main button
+{
+    border: none;
+    padding: 5px;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.main .scene button
+{
+    width: 100%;
+    margin: 25px 0 50px 0;
+}
+
+
+
+
+#Story_Title
+{
+    width: 500px;
+}
+
 
 
 .main input.auxi
@@ -21,35 +56,20 @@
 
 
 
-.main button
-{
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	left: 0px;
-	padding: 5px;
-	font-size: 150%;
-	border: none;
-}
-
-
-
-
-
 .yellowSave
 {
-	background: #220 url("/Assets/images/boxes/yellow_background.jpg") !important;
+	background: #550 url("/Assets/images/boxes/yellow_background.jpg") !important;
 	color: #FFF !important;
 }
 
 .greenSave
 {
-	background: #020 url("/Assets/images/boxes/green_background.jpg") !important;
+	background: #050 url("/Assets/images/boxes/green_background.jpg") !important;
 	color: #FFF !important;
 }
 
 .redSave
 {
-	background: #200 url("/Assets/images/boxes/red_background.jpg") !important;
+	background: #500 url("/Assets/images/boxes/red_background.jpg") !important;
 	color: #FFF !important;
 }

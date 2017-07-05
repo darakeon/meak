@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using System.IO;
+using System.Linq;
 using System.Web;
 using Structure.Entities;
 using Structure.Enums;
@@ -16,7 +17,6 @@ namespace Structure.Data
 
         public EpisodeXML(HttpServerUtilityBase server)
         {
-            episode = new Episode();
             setXMLPath(server);
         }
 
@@ -24,9 +24,16 @@ namespace Structure.Data
 
         public Episode GetEpisode(String seasonID, String episodeID)
         {
-            var xml = getScene(seasonID, episodeID, "");
+            episode = new Episode(PathXML, seasonID, episodeID);
+            
+            var sceneLetters = Paths.SceneLetters(PathXML, seasonID, episodeID);
 
-            episode.SceneList.Add(xml.Scene);
+            foreach (var sceneLetter in sceneLetters)
+            {
+                var xml = getScene(seasonID, episodeID, sceneLetter);
+
+                episode.SceneList.Add(xml.Scene);
+            }
 
             return episode;
         }
@@ -42,7 +49,7 @@ namespace Structure.Data
             }
             catch (FileNotFoundException)
             {
-                throw new StoriesException("Temporada, Capítulo e/ou Cena não encontrado(s).");
+                throw new StoriesException("Temporada e/ou Capítulo não encontrado(s).");
             }
             catch (Exception e)
             {

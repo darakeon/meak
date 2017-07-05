@@ -10,8 +10,8 @@
 
 <script type="text/javascript">
     var homePage = '@(Url.Action("Index", "Season"))';
-    var seasonPage = '@(Url.Action("Index", "Season", new { season = "{0}" }).Replace("%7B", "{").Replace("%7D", "}"))';
-    var episodePage = '@(Url.Action("Episode", "Season", new { season = "{0}", episode = "{1}" }).Replace("%7B", "{").Replace("%7D", "}"))';
+    var seasonPage = '@(Url.Action("Index", "Season", new { seasonID = "{0}" }).Replace("%7B", "{").Replace("%7D", "}"))';
+    var episodePage = '@(Url.Action("Episode", "Season", new { seasonID = "{0}", episodeID = "{1}" }).Replace("%7B", "{").Replace("%7D", "}"))';
 </script>
 
 <script src="@Url.Content("~/Assets/js/AjustBoxes.js")" type="text/javascript"></script>

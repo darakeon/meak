@@ -1,7 +1,7 @@
 ﻿@model Presentation.Models.SeasonEpisodeModel
 
 @{
-    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Episode.Season, Model.Story.Episode, Model.Story.Episode.Title);
+    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
     Layout = "~/Views/Shared/_Layout.cshtml";
     Int32 talkCounter = 0;
     Int32 tellerCounter = 0;
@@ -9,39 +9,48 @@
 
 
 <p class="title">
-    @Model.Story.Episode.Title
+    @Model.Story.Title
 </p>
 
-@foreach (var paragraph in Model.Story.ParagraphTypeList)
+@foreach (var scene in Model.Story.SceneList)
 {
-    <div class="paragraph @paragraph.ToString().ToLower()">
-        @if (@paragraph == Structure.Enums.ParagraphType.Talk)
+    <div class="scene">
+        @foreach (var paragraph in scene.ParagraphTypeList)
         {
-            @("– ")
+            <div class="paragraph @paragraph.ToString().ToLower()">
+                @if (paragraph == Structure.Enums.ParagraphType.Talk)
+                {
+                    @("– ")
             
-            foreach (var piece in Model.Story.TalkList[talkCounter].Pieces)
-            {
-                if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
+                    foreach (var piece in scene.TalkList[talkCounter].Pieces)
+                    {
+                        if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
                 
-                <span class="talk_@(piece.Style)">@piece.Text</span>
+                        <span class="talk_@(piece.Style)">@piece.Text</span>
 
-                if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
-            }
+                        if (piece.Style == Structure.Enums.TalkStyle.Teller) { @(" – ") }
+                    }
             
-            @(" (" + Model.Story.TalkList[talkCounter].Character + ")")
+                    @(" (" + scene.TalkList[talkCounter].Character + ")")
         
-            talkCounter++;
-        }
-        else if (@paragraph == Structure.Enums.ParagraphType.Teller)
-        {
-            foreach (var piece in Model.Story.TellerList[tellerCounter].Pieces)
-            {
-                <div class="teller_@(piece.Style)">@piece.Text</div>
-            }
+                    talkCounter++;
+                }
+                else if (paragraph == Structure.Enums.ParagraphType.Teller)
+                {
+                    foreach (var piece in scene.TellerList[tellerCounter].Pieces)
+                    {
+                        <div class="teller_@(piece.Style)">@piece.Text</div>
+                    }
 
-            tellerCounter++;
+                    tellerCounter++;
+                }
+            </div>
         }
+    
     </div>
+
+    talkCounter = 0;
+    tellerCounter = 0;
 }
 
 <p class="sign">

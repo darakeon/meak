@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using Structure.Data;
 using Structure.Entities;
 using Structure.Enums;
@@ -11,7 +10,7 @@ namespace Presentation.Models
 	{
 		public SeasonSeasonModel(Paths paths, String season) : base(paths)
 		{
-			var pathXml = Path.Combine(paths.Xml, "_" + season); 
+			var pathXml = Paths.SeasonPath(paths.Xml, season); 
 			
 			Season = new Season(pathXml, OpenEpisodeOption.GetTitle);
 			EpisodeList = Season.EpisodesList;

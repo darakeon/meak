@@ -1,10 +1,10 @@
 ﻿@model Presentation.Models.SeasonEditEpisodeModel
 
-@{var piece = Model.Story.TalkList[Model.TalkCounter].Pieces[Model.PieceCounter];}
+@{var piece = Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces[Model.PieceCounter];}
 
 <span class="paragraphPiece" id="Talk@(Model.TalkCounter)_Piece@(Model.PieceCounter)">
     <span class="talk_@(piece.Style)">
-        @Html.TextBoxFor(m => m.Story.TalkList[Model.TalkCounter].Pieces[Model.PieceCounter].Style, 
+        @Html.TextBoxFor(m => m.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces[Model.PieceCounter].Style, 
             new { 
                 @class = "darkback auxi", 
                 rel = ("talkStyle" + Model.TalkCounter + "_piece" + Model.PieceCounter), 
@@ -14,13 +14,13 @@
                 tabIndex = Model.TabIndex++
             })
 
-        @Html.TextBoxFor(m => m.Story.TalkList[Model.TalkCounter].Pieces[Model.PieceCounter].Text, 
+        @Html.TextBoxFor(m => m.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces[Model.PieceCounter].Text, 
             new { 
                 @class = "text",
                 tabIndex = Model.TabIndex++
             })
     
-        <adder class="adderPiece" type="Piece" subtype="Talk" paragraph="@(Model.ParagraphCounter)" talk="@(Model.TalkCounter)" piece="@(Model.PieceCounter)" onclick="AddInputItem(this)">+</adder>
+        <adder class="adderPiece" scene="@Model.SceneCounter" type="Piece" subtype="Talk" paragraph="@(Model.ParagraphCounter)" talk="@(Model.TalkCounter)" piece="@(Model.PieceCounter)" onclick="AddInputItem(this)">+</adder>
     </span>
                 
     <div class="suggestionBox" id="talkStyle@(Model.TalkCounter)_piece@(Model.PieceCounter)"></div>

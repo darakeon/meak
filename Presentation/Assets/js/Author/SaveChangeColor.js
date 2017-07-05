@@ -1,15 +1,15 @@
-﻿function SaveBegin() {
-    $("#save").removeClass("greenSave");
-    $("#save").removeClass("redSave");
-    $("#save").addClass("yellowSave");
+﻿function SaveBegin(letter) {
+    $("#save_" + letter).removeClass("greenSave");
+    $("#save_" + letter).removeClass("redSave");
+    $("#save_" + letter).addClass("yellowSave");
 }
 
-function SaveSuccess() {
-    $("#save").removeClass("yellowSave");
-    $("#save").addClass("greenSave");
+function SaveSuccess(letter) {
+    $("#save_" + letter).removeClass("yellowSave");
+    $("#save_" + letter).addClass("greenSave");
 }
 
-function SaveFailure() {
-    $("#save").removeClass("yellowSave");
-    $("#save").addClass("redSave");
+function SaveFailure(letter) {
+    $("#save_" + letter).removeClass("yellowSave");
+    $("#save_" + letter).addClass("redSave");
 }

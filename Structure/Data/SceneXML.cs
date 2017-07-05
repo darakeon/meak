@@ -1,12 +1,10 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 using System.Xml;
 using Ak.DataAccess.XML;
 using Structure.Entities;
 using Structure.Enums;
 using Structure.Extensions;
-using FileInfoExtension = Structure.Extensions.FileInfoExtension;
 
 namespace Structure.Data
 {
@@ -40,27 +38,13 @@ namespace Structure.Data
             this.seasonID = seasonID;
             this.episodeID = episodeID;
 
-            backupPath = BackupFilePath(folderPath, seasonID, episodeID, sceneID);
+            backupPath = Paths.BackupFilePath(folderPath, seasonID, episodeID, sceneID);
 
-            var storyPath = StoryFilePath(folderPath, seasonID, episodeID, sceneID);
+            var storyPath = Paths.SceneFilePath(folderPath, seasonID, episodeID, sceneID);
             FileInfo = new FileInfo(storyPath);
 
             var episode = new Episode(folderPath, seasonID, episodeID);
             populateScene(get, episode);
-        }
-
-
-
-        public static String StoryFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
-        {
-            return Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".xml");
-        }
-
-        public static String BackupFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
-        {
-            var datetime = DateTime.Now.ToString("yyyyMMddHHmmssfff");
-            var backupFile = String.Format("{0}_{1}{2}-{3}.xml", datetime, seasonID, episodeID, sceneID);
-            return Path.Combine(folderPath, "Backup", backupFile);
         }
 
 
@@ -139,8 +123,6 @@ namespace Structure.Data
             var xml = makeStoryXML();
 
             xml.BackUpAndSave(backupPath);
-
-            TitleXML.Save(Scene.Episode.Title, folderPath, seasonID, episodeID);
         }
 
         public void AddNewStory(String title)
@@ -148,6 +130,8 @@ namespace Structure.Data
             var sceneExists = 
                 !FileInfo.CreateIfNotExists("<story></story>");
 
+
+            TitleXML.Save(title, folderPath, seasonID, episodeID);
 
             fakeStory();
 
@@ -158,9 +142,6 @@ namespace Structure.Data
                 storyXML.BackUpAndSave(backupPath);
             else
                 storyXML.Overwrite();
-
-
-            TitleXML.Save(title, folderPath, seasonID, episodeID);
         }
 
 
