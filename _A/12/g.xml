@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="12" scene="g">
 	<teller>
-		<default>Edmont sobe. Stephany está sentada num canto. Dara ouve um barulho, se prepara para atirar, mas Edmont aparece.</default>
+		<default>Stephany num canto, sentou no chão. Dara aponta a besta para a entrada. Edmont aparece e levanta as mãos. Dara baixa a arma.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Então era de você que ela tava falando?</default>
+		<arrive>Então era de você que Dalila tava falando?</arrive>
 	</talk>
 	<talk character="Rust">
 		<default>Assustei pra aprender que tem coisas com as quais não se brinca.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Cadê o Angely?</default>
+		<default>Cadê Angely?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tá lá em baixo com a garota.</default>
+		<default>Tá lá em baixo, com Dalila.</default>
 	</talk>
 	<talk character="Stephany">
 		<hushed>Ele disse que não me quer mais.</hushed>
@@ -25,27 +25,25 @@
 		<default>Ele disse que ia me transformar em vampira assim que eu acordasse, mas que eu sou um troféu... Que queria atrair vocês pra cá, matar todos e depois, se eu ainda estivesse viva, ia me transformar...</default>
 	</talk>
 	<talk character="Rust">
-		<default>Bem típico de Andrews.</default>
+		<default>Adora parecer a melhor criatura do mundo. Mas é um merda. Bem típico de Andrews.</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Bem típico de qualquer vampiro.</default>
 	</talk>
 	<teller>
-		<default>Brad se aproxima de Stephany e a abraça.</default>
+		<default>Brad se aproxima de Stephany. Abraça.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Eu não vou deixar isso acontecer.</default>
 	</talk>
 	<teller>
-		<default>Todos notam algo naquela cena. Derik chega como pássaro, na janela.</default>
+		<default>Derik (Aurium) chega na janela.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>De...</default>
-		<teller>Edmont percebe que vai falar besteira</teller>
-		<default>Aurium, fique de guarda pra ver quando Andrews chega.</default>
+		<default>De... Aurium, fique de guarda pra ver quando Andrews chega.</default>
 	</talk>
 	<teller>
-		<default>Ele bate as asas, como sinal de afirmação.</default>
+		<default>Derik bate as asas. Vira para fora.</default>
 	</teller>
 	<talk character="Alexander">
 		<default>Você fala com um pássaro?</default>
@@ -54,27 +52,28 @@
 		<default>Handhara também.</default>
 	</talk>
 	<teller>
-		<default>Eles estranham.</default>
+		<default>Alexandre franze a testa.</default>
 	</teller>
 	<teller>
-		<default>Meia-noite, Andrews e Beatrice chegam no hotel. Andrews se aproxima de Dalila e Angely. Beatrice olha pra Angely, de perto do elevador.</default>
+		<first>0h. Andrews e Beatrice entram no saguão do hotel. Angely olha para Beatrice. Beatrice olha de volta. Andrews vê e vai na direção de Dalila e Angely.</first>
 	</teller>
 	<talk character="Andrews">
-		<default>Achei que estavas do meu lado.</default>
+		<default>Achei que tava do meu lado.</default>
 	</talk>
 	<teller>
 		<default>Dalila se segura em Angely.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Qual o problema? Agora acreditas? Quem fez-te acreditar?</default>
-		<teller>silêncio</teller>
-		<default>Tudo bem. Eu descubro. E não viverás muito depois que eu descobrir.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não vai tocar nela.</default>
+		<default>Qual o problema? Agora acredita? Quem te fez acreditar?</default>
 	</talk>
 	<teller>
-		<default>Andrews ri. Vai até o elevador e sobe com Beatrice.</default>
+		<default>Dalila esconde o rosto no braço de Angely.</default>
+	</teller>
+	<talk character="Andrews">
+		<default>Tudo bem. Eu descubro. E não vai viver muito depois que eu descobrir.</default>
+	</talk>
+	<teller>
+		<default>Angely abraça Dalila e lhe dá um beijo na testa. Andrews ri. Barulho do elevador. Beatrice entra. Andrews entra atrás de Beatrice.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Agora podemos ir.</default>
@@ -83,10 +82,10 @@
 		<default>Tem certeza?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Tenho.</default>
+		<default>Sim. Não está mais na rua. Agora eles vão resolver. Não gosto disso, mas a outra opção é pior.</default>
 	</talk>
 	<teller>
-		<default>Angely leva Dalila pra MEAK. Chegando no quarto, Andrews encontra um papel. Ela se senta na cama.</default>
+		<default>Andrews chega no quarto. Pega um papel. Beatrice se senta na cama.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Parece que roubaram seu troféu.</default>
@@ -95,7 +94,7 @@
 		<default>Eu vou pegar de volta.</default>
 	</talk>
 	<teller>
-		<default>Ele vai sair do quarto, mas ela se levanta e segura o braço dele.</default>
+		<default>Vai para a porta. Beatrice franze a testa. Corre até Andrews e segura-lhe o braço.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Não...</default>
@@ -104,37 +103,37 @@
 		<default>Que foi?</default>
 	</talk>
 	<teller>
-		<default>Ele passa a mão no rosto dela.</default>
+		<default>Andrews passa a mão no rosto de Beatrice.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Quando você falou, eu senti uma aflição, um aperto...</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Algumas horas a conversar e já estás apaixonada?</default>
+		<default>Algumas horas conversando e já está apaixonada?</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Deixa eu ir com você.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Não, ficas aqui e me esperas.</default>
+		<default>Não, você fica aqui e me espera.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Viu? Você também está com medo.</default>
+		<default>Também tá com medo.</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Não tenho medo deles me matarem.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Entende o que eu tô sentindo por que está também.</default>
+		<default>Entende o que eu tô sentindo por que tá também.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Vamos deixá-los a esperar mais um pouco então. Até tu te acalmares.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Até você me acalmar.</default>
+		<default>Vamos deixar esperarando mais um pouco então. Até eu te acalmar.</default>
 	</talk>
 	<teller>
-		<default>Ele pega ela no colo e a deita na cama. Três da manhã. No último andar, Rust olha pro horizonte. Dara dorme abraçada a Edmont. Alexander está roncando deitado no chão. Brad observa Stephany, dormindo deitada em seu colo.</default>
+		<default>Andrews pega Beatrice no colo. Deita na cama.</default>
+	</teller>
+	<teller>
+		<first>3h. Último andar. Rust olha para o horizonte. Dara e Edmont estão encostados em um canto, abraçados. Dormem. Alexander ronca, no chão. Brad olha para Stephany, que dorme com a cabeça em seu colo.</first>
 	</teller>
 	<talk character="Rust">
 		<default>Você gosta dela.</default>
@@ -150,35 +149,39 @@
 	</talk>
 	<talk character="Rust">
 		<default>Não precisa dizer nada.</default>
-		<teller>Rust olha pra Dara</teller>
-		<default>Eu sei o que é isso.</default>
 	</talk>
 	<teller>
-		<default>Cinco horas da manhã. Andrews chega.</default>
+		<default>Rust olha para Dara.</default>
+	</teller>
+	<talk character="Rust">
+		<default>É mais inteligente que eu.</default>
+	</talk>
+	<teller>
+		<first>6h. Andrews chega.</first>
 	</teller>
 	<talk character="Andrews">
-		<irony>Tudo isso só pra mim? Devo ficar lisonjeado?</irony>
+		<arrive>Tudo isso só pra mim? Devo ficar lisonjeado?</arrive>
 	</talk>
 	<teller>
-		<default>Edmont levanta e esconde Dara atrás de si. Brad acorda Stephany. Alexander pega a arma.</default>
+		<default>Edmont levanta e puxa Dara para trás de si. Dara dá um tapa em Edmont. Stephany se levanta e encosta na parede. Brad levanta também, coloca a mão na arma que traz na cintura. Alexander senta e aponta uma besta.</default>
 	</teller>
 	<talk character="Rust">
 		<default>Dessa vez você não escapa.</default>
 	</talk>
 	<teller>
-		<default>Alexander atira com a besta em Andrews, que ri.</default>
+		<default>Alexander atira com a besta em Andrews. Andrews dá dois passos para trás. Ri.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Isso é que é instinto de caça-vampiros. Mira perfeita. Pena que não valha de nada!</default>
+		<default>Isso é que é instinto de caça-vampiros. Mira perfeita. Pena que não valha merda nenhuma.</default>
 	</talk>
 	<teller>
-		<default>Ele arranca a estaca e atira ela contra Alexander, mas Brad tem tempo de pegar a arma e desviar a estaca.</default>
+		<default>Andrews arranca a estaca. Atira contra Alexander. Brad consegue impedir que atinja, colocando um pedaço de madeira na frente.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Sabe, se não estivesses abraçado com Stephany quando cheguei, ia achar que ele é teu namorado!</default>
+		<irony>Tem que se decidir, ou Stephany, ou ele. Ou vão acabar te largando por ciúmes.</irony>
 	</talk>
 	<teller>
-		<default>Brad investe contra Andrews, mas é facilmente derrubado. Stephany corre na direção dele. Dara vai até Stephany. Andrews vai até elas.</default>
+		<default>Brad corre na direção de Andrews. Andrews joga Brad no chão. Stephany corre para Brad. Dara vai até Stephany, com uma arma na mão, olhando para Andrews. Andrews olha para Dara.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Não vai ter o que quer!</default>
@@ -187,61 +190,55 @@
 		<default>É mesmo?</default>
 	</talk>
 	<teller>
-		<default>Andrews vai avançar contra Dara, mas Edmont o ataca.</default>
+		<default>Andrews vai na direção de Dara. Edmont passa uma rasteira e derruba Andrews. Andrews se apoia nas mãos e olha para Edmont. Mostra os dentes.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Sai daqui!</default>
+		<screamed>Sai daqui!</screamed>
 	</talk>
 	<talk character="Dara">
-		<default>Mas...</default>
+		<screamed>Eu vim pra ajudar também!</screamed>
 	</talk>
 	<talk character="Brad">
-		<default>Leva a Stephany!</default>
+		<default>Leva Stephany!</default>
 	</talk>
-	<teller>
-		<default>Alexander vai até Rust.</default>
-	</teller>
 	<talk character="Dara">
-		<default>Mas...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vai, por favor, por mim!</default>
+		<default>Você leva! Já encarei mais coisa que você!</default>
 	</talk>
 	<teller>
-		<default>Dara sai com Stephany.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Como o amor é lindo!</default>
-	</talk>
-	<teller>
-		<default>Andrews joga Edmont na parede.</default>
+		<default>Alexander vai até Rust. Brad pega a mão de Stephany e saem.</default>
 	</teller>
 	<talk character="Rust">
-		<default>Ei! Que tal parar de brincar e encarar alguém com a sua força?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Que bom que pediu!</default>
+		<default>Que tal parar de brincar e encarar alguém do seu tamanho?</default>
 	</talk>
 	<teller>
-		<default>Rust e Andrews começam a lutar. Rust pula contra Andrews. Os dois caem pela janela, mas Alexander puxa Rust. Caem os dois no chão. Beatrice acorda no quarto. Uma lágrima. Dara e Stephany voltam ao último andar. Rust olha pra Dara. Ela vai até Edmont. Rust sai. Na MEAK, o telefone toca.</default>
+		<default>Andrews olha para Rust.</default>
+	</teller>
+	<talk character="Andrews">
+		<default>Tava ansioso por isso.</default>
+	</talk>
+	<teller>
+		<default>Andrews vai na direção de Rust. Rust desvia no soco. Derruba Andrews com um chute. Andrews levanta. Rust vai andando de costas, em direção a um canto. Andrews tenta outro soco. Rust desvia e invertem posições. Andrews ri. Desfaz o sorriso. Olha para trás. Quando olha para frente, Rust pula em sua direção. Caem pela janela. Alexandre segura uma corda que estica. Olha para Dara. Dara vem correndo e ajuda a puxar a corda. Rust, que está no final da corda, é puxado para dentro. Dara tira seu casaco e coloca sobre Rust. Beatrice abre os olhos no quarto. Senta-se na cama. Olha para baixo. Olha para a frente. Joga o lençol para o lado e se levanta. Rust olha pra Dara. Dara vai até Edmont. Abraça Edmont. Se beijam. Rust sai.</default>
+	</teller>
+	<teller>
+		<first>Na MEAK, o telefone toca.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Alô?</default>
 	</talk>
 	<talk character="voz no telefone">
-		<default>Cuidado com o seu irmão.</default>
+		<out>Cuidado com o seu irmão.</out>
 	</talk>
 	<talk character="Angely">
 		<default>Ele fez algo errado?</default>
 	</talk>
 	<talk character="voz no telefone">
-		<default>Não, mas pode fazer.</default>
+		<out>Não, mas pode fazer.</out>
 	</talk>
 	<talk character="Angely">
 		<default>Do que está falando?</default>
 	</talk>
 	<talk character="voz no telefone">
-		<default>Ele age mais como vampiro do que caçador.</default>
+		<out>Ele age mais como vampiro do que caçador.</out>
 	</talk>
 	<teller>
 		<default>Desliga.</default>
@@ -256,7 +253,7 @@
 		<default>Ninguém.</default>
 	</talk>
 	<teller>
-		<default>Ainda no prédio. Stephany vai até Brad. De tarde, Brad vai a MEAK.</default>
+		<default>Tarde. MEAK.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Sinto muito, mas você é uma prisioneira.</default>
@@ -273,11 +270,17 @@
 	<talk character="Brad">
 		<default>Vamos?</default>
 	</talk>
+	<teller>
+		<default>Dalila olha para Angely. Angely não levanta a cabeça. Dalila respira fundo. Olha para Brad.</default>
+	</teller>
 	<talk character="Dalila">
 		<default>Tá.</default>
 	</talk>
 	<teller>
-		<default>Dalila vai sair, mas volta e dá um beijo em Angely. Ele passa a mão no rosto dela. Brad a leva até delegacia. Depois volta pra casa. Stephany está de partida.</default>
+		<default>Brad e Dalila saem. Dalila volta. Dá um beijo em Angely. Angely corresponde. Dalila afasta. Angely passa a mão no rosto de Dalila.</default>
+	</teller>
+	<teller>
+		<default>Casa de Brad.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Então, Alexander arrumou documentação falsa?</default>
@@ -298,7 +301,7 @@
 		<default>É.</default>
 	</talk>
 	<teller>
-		<default>Stephany vai sair, Brad segura-lhe o braço.</default>
+		<default>Stephany baixa a cabeça. Vai na direção da porta. Brad vai até Stephany e segura-lhe o braço.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Só mais uma coisa.</default>
@@ -307,7 +310,7 @@
 		<default>Que coisa?</default>
 	</talk>
 	<teller>
-		<default>Ele suspira. Solta o braço dela.</default>
+		<default>Brad suspira. Olha para baixo. Olha para Stephany. Solta o braço.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Vê se se cuida.</default>
@@ -317,5 +320,29 @@
 	</talk>
 	<teller>
 		<default>Stephany sai.</default>
+	</teller>
+	<teller>
+		<division>Algum tempo, algum lugar</division>
+	</teller>
+	<talk character="Homem">
+		<default>Pô, achei que ia demorar tanto quanto Elian!</default>
+	</talk>
+	<talk character="Mulher">
+		<default>Nã. Tiveram ajuda. Inclusive de Dara.</default>
+	</talk>
+	<talk character="Homem">
+		<default>Dara. Gosto de Dara.</default>
+	</talk>
+	<talk character="Mulher">
+		<default>Angely e Edmont também.</default>
+	</talk>
+	<talk character="Homem">
+		<default>Não rola uma pistazinha?</default>
+	</talk>
+	<talk character="Mulher">
+		<default>Eu tô te dando um monte delas. Seu problema é que quer a resposta de uma vez. E isso eu não posso te dar.</default>
+	</talk>
+	<teller>
+		<default>A mulher desaparece.</default>
 	</teller>
 </story>
