@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="04" scene="c">
 	<teller>
-		<default>Edmont liga para a casa de Agatha. Ninguém atende. Ele estranha. Vai até a casa. Não encontra ninguém. Toca a campainha na casa de Meg.</default>
+		<default>Toca a campainha na casa de Meg.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Já vai! Desesperado!</default>
+		<default>Já vai! Ô, desespero!</default>
 	</talk>
 	<teller>
 		<default>Kat atende a porta.</default>
@@ -13,7 +13,19 @@
 		<default>Ah, é você...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tava dormindo até essa hora?</default>
+		<default>Tentei ligar pra Agatha, nem o telefone de casa, nem o celular atendia. Aí fui na casa dela. Não tinha ninguém. Liguei no telefone daqui...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Por isso aquele dragão fez barulho de telefone...</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Que dragão?!</default>
+	</talk>
+	<talk character="Kat">
+		<default>No meu sonho.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Ah... Bom, como eu tava dizendo, o telefone daqui nada, nem celulares... Tava dormindo até essa hora?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Como sabe?</default>
@@ -46,7 +58,7 @@
 		<default>Sei lá, do jeito que esse mundo tá ficando...</default>
 	</talk>
 	<talk character="Kat">
-		<default>"Fui ver a empresa".</default>
+		<default>"Fui ver a empresa". Acho que foram ver o cara que cuida de tudo por lá.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Onde fica essa empresa?</default>
@@ -67,25 +79,31 @@
 		<default>Ei!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Vai procurar ela!</default>
+		<out>Vai procurar ela!</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Que deu em você???</default>
 	</talk>
 	<talk character="Kat">
-		<default>Só por que você é meu irmão mais velho não quer dizer que possa gritar comigo assim!</default>
+		<out>Só por que você é meu irmão mais velho não quer dizer que possa gritar comigo assim!</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Tá, tchau.</default>
 	</talk>
 	<teller>
-		<default>Ela não responde. Edmont volta pra casa. Fica emburrado no sofá. Angely sai do escritório. Chega na sala e vê Edmont.</default>
+		<default>Ela não responde. Dali a pouco, Angely está no escritório, fecha o livro. Sai do escritório. Vai até a cozinha. Faz um sanduíche. Vai para a sala. Edmont está olhando para a TV, trocando os canais, um atrás do outro.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Edmont, tá parecendo criancinha.</default>
+		<default>Sanduíche?</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Acha que elas fariam isso?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Isso o quê?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Gente, ainda não decidimos o que vamos fazer.</default>
+		<arrive>Gente, ainda não decidimos o que vamos fazer.</arrive>
 	</talk>
 	<talk character="Edmont">
 		<default>Ela saiu.</default>
@@ -130,13 +148,13 @@
 		<default>Bom, isso nós vamos ter que descobrir.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Depois que nós descobrirmos. Ou o fantasma fala quem é.</default>
+		<default>Depois que nós descobrirmos o fantasma fala quem é.</default>
 	</talk>
 	<teller>
 		<default>Aparece um papel sobre a mesa: Alguém novo no grupo.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Isso realmente não ajuda!</default>
+		<irony>Juro que nem imaginava essa parte!</irony>
 	</talk>
 	<teller>
 		<default>Edmont se senta. Depois se levanta.</default>
@@ -190,7 +208,7 @@
 		<default>Olha pra trás.</default>
 	</talk>
 	<teller>
-		<default>Agatha olha pra trás e vê Edmont, que não está muito feliz. Kat ri mais ainda.</default>
+		<default>Agatha olha pra trás e vê Edmont. Kat ri mais ainda.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Meu amor, você tava aí...</default>
@@ -217,7 +235,7 @@
 		<default>Agatha encara Meg. Edmont encara Agatha.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Tchau.</default>
+		<default>Já vi que está muito bem, então acho que vou indo.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Edmont, espera...</default>
@@ -265,7 +283,7 @@
 		<default>Então, Edmont, não vai ficar com...</default>
 	</talk>
 	<teller>
-		<default>Agatha vai falar e Edmont a beija.</default>
+		<default>Edmont segura Agatha e a beija. Eles continuam se beijando. Meg e Kat se entreolham. Agatha encosta Edmont na parede.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Ô, querem continuar com isso, continuem na casa dela!</default>
@@ -292,26 +310,26 @@
 		<default>Você quase não queria me dedurar pro irmão dele, né?</default>
 	</talk>
 	<talk character="Kat">
-		<default>É claro, fica aí, enrolando com o Bryan. Não percebeu que Angely é distraído?!</default>
+		<default>Dedurar?! O quê?! Todo mundo já sabe!</default>
 	</talk>
 	<talk character="Meg">
-		<default>Mas eu até beijei ele!!!</default>
+		<default>Mas o Angely não. E eu até beijei ele!!!</default>
 	</talk>
 	<talk character="Kat">
 		<default>E começou a namorar com outro. E fica escondendo.</default>
 		<irony>Tem razão, ele devia mesmo vir até você.</irony>
 	</talk>
 	<teller>
-		<default>Kat sobe a escada. Meg se joga no sofá. Agatha e Edmont vão pra casa de Agatha.</default>
+		<default>Kat sobe a escada. Meg se joga no sofá. Levanta e sobe a escada.</default>
 	</teller>
 	<talk character="Meg">
-		<default>Por que você tá tão quieta?</default>
+		<default>Você parece diferente desde que acordou.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Eu?</default>
 	</talk>
 	<talk character="Meg">
-		<default>É, não fala nada desde que acordou.</default>
+		<default>Não quer conversar sobre o que houve. Geralmente você fala comigo. E acho que não está falando com ninguém.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Impressão sua.</default>
@@ -319,18 +337,16 @@
 	<talk character="Meg">
 		<default>Impressão minha? Falou com quem, com os livros?</default>
 		<teller>Kat fica calada</teller>
-		<default>Tá, tudo bem, não quer dizer, azar seu.</default>
+		<default>Tá, tudo bem, não quer dizer... Não posso fazer nada.</default>
 	</talk>
 	<teller>
-		<first>No dia seguinte, 2:30 da tarde, Meg e Kat almoçam.</first>
+		<first>No dia seguinte, 2:30 da tarde, Meg e Kat almoçam. Toca a campainha. Kat vai abrir.</first>
 	</teller>
 	<talk character="Bryan">
 		<default>Oi, eu sou o Bryan...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ah, é você...</default>
-		<teller>fala com tom de desânimo</teller>
-		<default>Deixa que eu vou chamar.</default>
+		<default>Ah, é você... Deixa que eu vou chamar.</default>
 	</talk>
 	<teller>
 		<default>Kat vai até a cozinha.</default>
@@ -339,7 +355,7 @@
 		<default>Meg, é o seu namorado. Angely é mais bonito.</default>
 	</talk>
 	<teller>
-		<default>Meg olha e Bryan está na porta da cozinha.</default>
+		<default>Meg olha para trás de Kat.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Não liga não, Bryan, sabe como é, irmã mais nova...</default>
@@ -378,7 +394,7 @@
 		<default>Kat...</default>
 	</talk>
 	<teller>
-		<default>Kat sai. Meg fica sem saída.</default>
+		<default>Kat sai.</default>
 	</teller>
 	<talk character="Bryan">
 		<default>Então?</default>
@@ -387,7 +403,7 @@
 		<default>Tá, eu vou me arrumar.</default>
 	</talk>
 	<teller>
-		<default>Meg se arruma e sai com Bryan. Kat chega na casa de Agatha.</default>
+		<default>Kat chega na casa de Agatha.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Agatha...</default>
@@ -441,7 +457,7 @@
 		<default>Vou curtir um pouco mais minhas fotos aqui, mas obrigada.</default>
 	</talk>
 	<teller>
-		<first>Kat vai à casa abandonada. Encontra Beatrice olhando pela janela.</first>
+		<first>Kat vai à casa abandonada. Beatrice está olhando pela janela.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Beatrice?</default>
@@ -450,7 +466,7 @@
 		<default>Estás viva!</default>
 	</talk>
 	<teller>
-		<default>Beatrice se vira e abraça Kat.</default>
+		<default>Beatrice se vira e abraça Kat. Afasta.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Eu não sei como, mas estou.</default>
@@ -459,10 +475,10 @@
 		<default>Que bom...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Nossa, mas você tá diferente de da última vez que a vi...</default>
+		<default>Nossa, mas você tá diferente de da última vez que te vi...</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Não nos vemos faz dois anos. Também mudaste.</default>
+		<default>Não nos vemos faz mais de um ano. Também mudaste.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Quantos anos você tem?</default>
@@ -471,7 +487,7 @@
 		<default>Doze.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eu tenho quase dez, não era pra estarmos tão diferentes.</default>
+		<default>Jurava que era mais velha que eu... Eu tenho quase dez, não era pra estarmos tão diferentes. </default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Esqueças isto. É melhor ires agora.</default>
