@@ -34,10 +34,6 @@ function AddPiece(obj) {
 
         currentPiece.after(data);
 
-
-        var newInputID = "#Scene" + scene + " #" + subtype + typedParagraph + "_Piece" + (piece + 1);
-        AjustThisEditTextSize(newInputID);
-
         canSubmit = true;
     });
 }
@@ -91,8 +87,6 @@ function AddParagraph(obj) {
         AjustNextParagraphs(scene, paragraph, subtype);
 
         $("#Scene" + scene + " #Paragraph" + paragraph).after(data);
-
-        AjustThisEditTextSize("#Paragraph" + newParagraph);
 
         canSubmit = true;
     });
@@ -156,11 +150,6 @@ function AjustNumbers(obj, preced, currentNumber) {
     $(obj).attr("id",
             $(obj).attr("id").replace(current, right)
         );
-}
-
-function AjustThisEditTextSize(newInputID) {
-    var newInputTextID = newInputID + " .text";
-    AjustEditTextSize(newInputTextID);
 }
 
 

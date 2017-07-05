@@ -2,6 +2,7 @@
 .main textarea
 {
 	background: none;
+	width: 590px;
 }
 
 .main input,
@@ -62,6 +63,7 @@
 .main input.auxi
 {
 	width: 70px;
+	border: 1px solid #999;
 }
 
 
@@ -90,4 +92,11 @@ form.disabled *
 {
 	filter: alpha(opacity=75);
 	opacity: 0.75;
+}
+
+
+.suggestionCharacter input,
+.suggestionCharacter .suggestionBox
+{
+    margin-right: 4px;
 }

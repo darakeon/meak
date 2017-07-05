@@ -1,21 +1,3 @@
-function AjustEditTextSize(reference) {
-    if ($(".auxi")[0]) {
-
-        var main = $(".main").width();
-        var auxis = Math.ceil(2 * ScaleWidth(".auxi:visible"));
-        var adders = 3 * ScaleWidth("adder:visible");
-        var scroll = 40;
-
-        var text = main - auxis - adders - scroll;
-
-        if (!reference) reference = ".paragraph .text";
-
-        $(reference).width(text);
-    }
-}
-
-
-
 function SaveButton() {
     $("input").keydown(function () {
         NeedSaveAgain($(this).closest("form").attr("id"));
