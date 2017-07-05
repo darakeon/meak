@@ -4,6 +4,28 @@
         <name>Ak.MVC</name>
     </assembly>
     <members>
+        <member name="T:Ak.MVC.Forms.SelectListExtension">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ak.MVC.Forms.SelectListExtension.CreateSelect``3(System.Collections.Generic.IList{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.Expressions.Expression{System.Func{``0,``2}})">
+            <summary>
+             Create a SelectList from List of objects
+            </summary>
+            <param name="list">The list that will fill the SelectList</param>
+            <param name="value">The property the will fill the values of the options</param>
+            <param name="text">The property the will fill the text that appears in options</param>
+        </member>
+        <member name="M:Ak.MVC.Forms.SelectListExtension.CreateSelect``1(System.Collections.Generic.IDictionary{``0,System.String})">
+            <summary>
+             Create a SelectList from a Enum, using the text.
+             Can't use the number value, MVC don't recognize to assign selected.
+            </summary>
+            <param name="texts">
+             The texts that will appear for the user.
+             key = value of enum // value = text to appear
+             </param>
+        </member>
         <member name="T:Ak.MVC.Authentication.Authenticate">
             <summary>
              To make authentication in MVC easier
@@ -13,7 +35,7 @@
             <summary>
              Authenticate the User
             </summary>
-            <param name="username">the Username or whatever unique string to autheticate the logged-in individual</param>
+            <param name="username">the Username or whatever unique String to autheticate the logged-in individual</param>
             <param name="response">Current Response of the Controller</param>
             <param name="isPersistent">Whether, when browser reopen, the login will be keeped</param>
         </member>
@@ -21,7 +43,7 @@
             <summary>
              Authenticate the User
             </summary>
-            <param name="username">the Username or whatever unique string to autheticate the logged-in individual</param>
+            <param name="username">the Username or whatever unique String to autheticate the logged-in individual</param>
             <param name="response">Current Response of the Controller</param>
             <param name="role">The permission of the individual</param>
             <param name="isPersistent">Whether, when browser reopen, the login will be keeped</param>
@@ -30,7 +52,7 @@
             <summary>
              Authenticate the User
             </summary>
-            <param name="username">the Username or whatever unique string to autheticate the logged-in individual</param>
+            <param name="username">the Username or whatever unique String to autheticate the logged-in individual</param>
             <param name="response">Current Response of the Controller</param>
             <param name="roleList">The list of permissions of the individual</param>
             <param name="isPersistent">Whether, when browser reopen, the login will be keeped</param>
@@ -46,7 +68,7 @@
              Whether there is user logged-in at the site
             </summary>
         </member>
-        <member name="M:Ak.MVC.Authentication.Authenticate.AuthenticatedUser">
+        <member name="M:Ak.MVC.Authentication.Authenticate.GetUsername">
             <summary>
              Return the username that is logged-in
             </summary>
@@ -57,6 +79,36 @@
             </summary>
             <param name="password"></param>
             <returns></returns>
+        </member>
+        <member name="T:Ak.MVC.Route.RouteInfo">
+            <summary>
+             Retrieves the routedata as the property of the controllers
+            </summary>
+        </member>
+        <member name="M:Ak.MVC.Route.RouteInfo.#ctor">
+            <summary>
+             RouteData of the current Url
+            </summary>
+        </member>
+        <member name="M:Ak.MVC.Route.RouteInfo.#ctor(System.Uri)">
+            <summary>
+             RouteData of a specific Url
+            </summary>
+        </member>
+        <member name="M:Ak.MVC.Route.RouteInfo.#ctor(System.Uri,System.String)">
+            <summary>
+             RouteData of a specific Url, cutting the subfolder
+            </summary>
+        </member>
+        <member name="P:Ak.MVC.Route.RouteInfo.RouteData">
+            <summary>
+             Encapsulates information about the Url
+            </summary>
+        </member>
+        <member name="P:Ak.MVC.Route.RouteInfo.Current">
+            <summary>
+             RouteData of the current Url
+            </summary>
         </member>
         <member name="T:Ak.MVC.Authentication.IRole">
             <summary>
@@ -83,23 +135,6 @@
         <member name="P:Ak.MVC.Authentication.AjaxAuthorizeAttribute.Message">
             <summary>
              The message to return as exception
-            </summary>
-        </member>
-        <member name="T:Ak.MVC.Forms.SelectListExtension">
-            <summary>
-            </summary>
-        </member>
-        <member name="M:Ak.MVC.Forms.SelectListExtension.CreateSelect``3(System.Collections.Generic.IList{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.Expressions.Expression{System.Func{``0,``2}})">
-            <summary>
-             Create a SelectList from List of objects
-            </summary>
-            <param name="list">The list that will fill the SelectList</param>
-            <param name="value">The property the will fill the values of the options</param>
-            <param name="text">The property the will fill the text that appears in options</param>
-        </member>
-        <member name="M:Ak.MVC.Forms.SelectListExtension.CreateSelect``1">
-            <summary>
-             Create a SelectList from a Enum, using the number for value and the text to appear in options
             </summary>
         </member>
     </members>

@@ -31,7 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ak.DataAccess">
+    <Reference Include="Ak.DataAccess, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Library\Ak\Ak.DataAccess.dll</HintPath>
     </Reference>
     <Reference Include="System" />

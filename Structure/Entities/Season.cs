@@ -13,19 +13,27 @@ namespace Structure.Entities
             this.EpisodesList = new List<Episode>();
         }
 
-        public Season(String Path, eOpenEpisodeOption getEpisode = eOpenEpisodeOption.getCode) : this() {
+        public Season(String path, eOpenEpisodeOption getEpisode = eOpenEpisodeOption.getCode) : this() {
             
-            this.ID = Path[Path.Length - 1].ToString();
+            ID = path[path.Length - 1].ToString();
 
-            var episodes = Directory
-                .GetFiles(Path, "*.xml")
+            var episodeFiles = Directory
+                .GetFiles(path, "*.xml")
                 .ToList();
 
-            episodes.ForEach(
-                f => this.EpisodesList.Add(new EpisodeXML(f, getEpisode).Episode)
-            );
+            episodeFiles.ForEach(ef =>
+                insertInEpisodeList(ef, getEpisode));
         }
 
+        private void insertInEpisodeList(String file, eOpenEpisodeOption getEpisode)
+        {
+            var fileInfo = new FileInfo(file);
+            var episode = fileInfo.NameWithoutExtension();
+            var season = fileInfo.Directory.Name.Replace("_","");
+            var path = Directory.GetParent(fileInfo.DirectoryName).FullName;
+
+            EpisodesList.Add(new EpisodeXML(path, season, episode, getEpisode).Episode);
+        }
 
 
         public String ID { get; set; }
@@ -35,7 +43,8 @@ namespace Structure.Entities
 
         public override String ToString()
         {
-            return this.ID.ToString();
+            return ID;
         }
+
     }
 }

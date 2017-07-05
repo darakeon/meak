@@ -16,19 +16,26 @@ namespace Structure.Data
         public Episode Episode { get; set; }
         public FileInfo FileInfo { get; set; }
 
-        public EpisodeXML(String filePath, eOpenEpisodeOption get = eOpenEpisodeOption.getCode)
+        private String backupFullName { get; set; }
+
+        
+        public EpisodeXML(String folderPath, String season, String episode, eOpenEpisodeOption get = eOpenEpisodeOption.getCode)
         {
+            var filePath = Path.Combine(folderPath, "_" + season, episode + ".xml");
+
             FileInfo = new FileInfo(filePath);
 
-            PopulateEpisode(get);
+            populateEpisode(get);
+
+            var backupFile = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_" + season + episode + ".xml";
+            backupFullName = Path.Combine(folderPath, "Backup", backupFile);
+
+            FileInfo = new FileInfo(filePath);
         }
 
-        public EpisodeXML(String folderPath, String season, String episode, eOpenEpisodeOption get = eOpenEpisodeOption.getCode)
-            : this(Path.Combine(folderPath, "_" + season, episode + ".xml"), get) { }
 
 
-
-        private void PopulateEpisode(eOpenEpisodeOption get)
+        private void populateEpisode(eOpenEpisodeOption get)
         {
             Episode = new Episode {
                             ID = FileInfo.NameWithoutExtension(),
@@ -36,18 +43,18 @@ namespace Structure.Data
                         };
 
             if (get == eOpenEpisodeOption.getTitle)
-                ReadTitle();
+                readTitle();
             else if (get == eOpenEpisodeOption.getStory)
-                ReadStory();
+                readStory();
         }
 
-        private void ReadTitle()
+        private void readTitle()
         {
             var xml = new Node(FileInfo.FullName, false);
             Episode.Title = xml["title"];
         }
 
-        private void ReadStory()
+        private void readStory()
         {
             var xml = new Node(FileInfo.FullName);
 
@@ -67,13 +74,13 @@ namespace Structure.Data
                 }
 
 
-                var paragraph = DefineType(node.Name);
+                var paragraph = defineType(node.Name);
 
-                SetText(paragraph, node);
+                setText(paragraph, node);
             }
         }
 
-        private eParagraph DefineType(String nodeName)
+        private eParagraph defineType(String nodeName)
         {
             eParagraph paragraph;
 
@@ -89,7 +96,7 @@ namespace Structure.Data
             return paragraph;
         }
 
-        private void SetText(eParagraph paragraph, Node node)
+        private void setText(eParagraph paragraph, Node node)
         {
             switch(paragraph)
             {
@@ -112,7 +119,7 @@ namespace Structure.Data
         {
             var xml = MakeXml();
 
-            xml.BackUpAndSave();
+            xml.BackUpAndSave(backupFullName);
         }
 
         public void AddNewStory(String title)
