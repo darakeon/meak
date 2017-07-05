@@ -4,13 +4,7 @@
 		<division>EDMONT PRECISA EXPLICAR O QUE HOUVE COM DARA</division>
 	</teller>
 	<teller>
-		<default>Noite, num laboratório, um cientista está trabalhando num projeto de anos.</default>
-	</teller>
-	<talk character="Filip">
-		<default>Finalmente... Agora eu me vingo de todos vocês. Nunca mais terapia de choque ou camisa de força... Meu pequeno mensageiro vai mostrar a vocês do que eu sou capaz!</default>
-	</talk>
-	<teller>
-		<default>Ele sai do laboratório. Angely e Mel estão sentados no sofá da sala.</default>
+		<default>Angely e Mel estão sentados no sofá da sala.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Talvez seja melhor pra mim e pra você.</default>
@@ -22,24 +16,28 @@
 		<default>Não foi isso que eu quis dizer.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não queria morar sozinho.</default>
+		<default>Não queria morar só.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Já tá mais que na hora de desgrudarmos. Você e Edmont são gêmeos e...</default>
-		<teller>Angely baixa a cabeça</teller>
-		<default>Desculpe, eu não queria...</default>
+		<default>Já tá mais que na hora da gente desgrudar. Até você e Edmont...</default>
+	</talk>
+	<teller>
+		<default>Angely baixa a cabeça. Mel baixa a cabeça, depois olha para o lado.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Não foi o melhor argumento que já usei na vida.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Tudo bem.</default>
 	</talk>
 	<teller>
-		<default>Angely se levanta e vai pra cozinha.</default>
+		<default>Angely se levanta. Vai para a cozinha.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Eu só tava pensando que talvez fosse melhor se cada um pudesse ter um lugar só pra si, sabe? Acho que nós dois, morando juntos, tiramos a privacidade...</default>
+		<default>Eu só tava pensando que talvez fosse melhor a gente pudesse ter um lugar só pra si, sabe? Acho que, morando juntos, tiramos a privacidade...</default>
 	</talk>
 	<teller>
-		<default>Mel ouve um barulho. Vai até a cozinha e vê Angely no chão.</default>
+		<default>Um barulho forte. Mel levanta e corre até a cozinha. Angely está no chão. Angely se encolhe. Mel se abaixa perto.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Que foi??? Tá sentindo alguma coisa???</default>
@@ -48,7 +46,7 @@
 		<default>Não é nada...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Angely, você tá pálido, tremendo!</default>
+		<default>Angely, sua pele tá pálida, tá tremendo!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não se preocupe, já vai...</default>
@@ -57,49 +55,49 @@
 		<default>Angely desmaia.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ah, meu Deus...</default>
+		<default>Droga!</default>
 	</talk>
 	<teller>
-		<default>Mel vai até o telefone e liga pro primeiro número que consegue pensar.</default>
+		<default>Casa de Dara. Dara está atirando flechas. Coloca a mão no bolso. Tira o telefone. Olha a tela. Franze a testa. Atende.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Alô?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Dara?</default>
+		<out>Dara?</out>
 	</talk>
 	<talk character="Dara">
-		<default>Sim, é ela.</default>
+		<default>Fala.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Disquei o primeiro número que me veio à cabeça...</default>
+		<out>Disquei o primeiro número que me veio à cabeça...</out>
 	</talk>
 	<talk character="Dara">
-		<default>Mel, que foi? Parece assustada...</default>
+		<default>Mel, que foi? Você parece...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Aconteceu de novo!</default>
+		<out>Aconteceu de novo!</out>
 	</talk>
 	<talk character="Dara">
 		<default>Aconteceu de novo o que???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Angely...</default>
+		<out>Angely...</out>
 	</talk>
 	<talk character="Dara">
-		<default>Fica calma, eu tô indo.</default>
+		<default>Calma, eu tô indo.</default>
 	</talk>
 	<teller>
-		<default>Dara desliga o telefone e sai. No meio do caminho, ela percebe que a moto está descarregada. Um carro pára perto dela.</default>
+		<first>Dara para no farol. Acelera pra sair. A moto morre. Tenta ligar, sem sucesso. Leva a moto para a calçada. Um carro para junto.</first>
 	</teller>
 	<talk character="Filip">
 		<default>Precisa de ajuda?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Descarregou.</default>
+		<default>Acho que a gasolina.</default>
 	</talk>
 	<teller>
-		<default>Ela olha pra trás e vê que ela está com uma espécie de arma apontada pra ela.</default>
+		<default>Dara vira. Filip tem uma arma de caça, com um dardo. Dara olha para a arma. Olha para Filip.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Quem é você?</default>
@@ -108,25 +106,25 @@
 		<default>Ninguém que você conheça.</default>
 	</talk>
 	<teller>
-		<default>Ele atira um dardo nela e sai com o carro. Ela tira o dardo do pescoço. Fica zonza. Pega o telefone e liga pra Mel.</default>
+		<default>Filip atira o dardo. Dara coloca o braço na frente. Filip sorri e volta para o carro. Dara dá um passo para trás e aperta os olhos. Pega o telefone. Disca.</default>
 	</teller>
 	<talk character="Dara">
-		<default>Mel?</default>
+		<out>Mel?</out>
 	</talk>
 	<talk character="Mel">
 		<default>Ele já está melhor.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Minha moto descarregou e eu tô meio zonza, podia vir me buscar aqui?</default>
+		<out>Minha moto descarregou e tô com uma zonzeira estranha, podia vir me buscar aqui?</out>
 	</talk>
 	<talk character="Mel">
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Algum tempo depois, na casa deles (Mel e Angely).</default>
+		<first>Casa de Mel e Angely.</first>
 	</teller>
 	<talk character="Dara">
-		<default>Ele parou, quando olhei, atirou isso em mim e foi embora.</default>
+		<default>Parou, quando olhei, atirou isso em mim e foi embora.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Pode ser algum tipo de veneno, melhor irmos ao hospital.</default>
@@ -134,17 +132,20 @@
 	<talk character="Dara">
 		<default>Eu não gosto de hospitais.</default>
 	</talk>
-	<talk character="Angely">
-		<default>E de estar viva ainda?</default>
+	<teller>
+		<default>Mel cruza os braços.</default>
+	</teller>
+	<talk character="Mel">
+		<default>E de viver?</default>
 	</talk>
 	<teller>
-		<default>Vão até o hospital. Fazem exames e nada encontram.</default>
+		<first>Noite. Hospital.</first>
 	</teller>
 	<talk character="Psique">
 		<default>Bom, não me parece nada, mas vou esperar uma melhor análise do dardo. Por que alguém atirou em você?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Talvez alguma fã maluca do Angely.</default>
+		<default>Talvez alguém que seja fã da Saturn. Ainda tem revista postando abobrinha.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Posso ir pra casa?</default>
@@ -152,38 +153,43 @@
 	<talk character="Psique">
 		<default>Pode. Vou fazer novos testes, só pra garantir, você disse que sentiu tontura e eu não gosto muito dessas máquinas.</default>
 	</talk>
+	<teller>
+		<default>Dara olha para Mel.</default>
+	</teller>
 	<talk character="Dara">
-		<default>Viu? Vim no hospital por besteira.</default>
+		<default>Viu? Vim no hospital por besteira. Nem médico confia nessas bostas.</default>
 	</talk>
 	<teller>
-		<default>Ela sai. Encontra Angely do lado de fora.</default>
+		<default>Dara sai. Pega um cigarro do bolso.</default>
 	</teller>
 	<talk character="Angely">
-		<default>E a Mel?</default>
+		<arrive>E a Mel?</arrive>
 	</talk>
 	<talk character="Dara">
-		<default>Ela... Sei lá, deve ter ficado lá dentro.</default>
+		<default>Mel... Sei lá, deve ter ficado lá dentro.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Pra que?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Sabe que não faço a menor idéia? Me leva em casa?</default>
+		<default>Sabe que não faço a menor idéia?</default>
+		<teller>guarda o maço de cigarros</teller>
+		<default>Me leva em casa?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Melhor esperar a...</default>
+		<default>Melhor esperar Mel sair...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Tá, eu vou sozinha.</default>
+		<default>Tá, eu sei ir.</default>
 	</talk>
 	<teller>
-		<default>Dara sai. Angely estranha. Mel sai.</default>
+		<default>Dara sai andando. Angely franze a sobrancelha. Mel sai.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sei lá, ela saiu correndo na minha frente...</default>
+		<default>Sei lá, saiu correndo na minha frente...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Vai pra casa.</default>
@@ -192,67 +198,73 @@
 		<default>Que?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Vou atrás dela, deve ser algum tipo de droga que não detectaram.</default>
+		<default>Vou atrás, deve ser algum tipo de droga que não detectaram.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mas...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Se ela fizer alguma besteira é mais fácil eu segurar.</default>
+		<default>Vai lá. Qualquer coisa, me chama.</default>
 	</talk>
 	<teller>
-		<default>Ele sai. Mel pega o carro e volta pra casa. Angely vai atrás de Dara. Chega à casa que Mel comprará. Sobe a um dos quartos e encontra Dara beijando Edmont. Quando Edmont a vê, ele a afasta.</default>
+		<default>Angely está na sala do casarão que Mel conseguira. Senta-se no chão. Levanta. Vai sair, Edmont segura-lhe o braço.</default>
 	</teller>
+	<talk character="Edmont">
+		<default>Sei que não foi atrás de mim que veio.</default>
+	</talk>
 	<talk character="Angely">
 		<default>Desculpe, eu não quis incomodar.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Já incomodou!</default>
+		<arrive>Já incomodou.</arrive>
 	</talk>
 	<teller>
-		<default>Angely baixa a cabeça e sai.</default>
+		<default>Angely baixa a cabeça. Sai.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Nunca vi você falando assim com ele...</default>
+		<default>Nunca vi você falando assim com Angely...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Ele não é de nada, não se toca de nada! Não sabe o que uma garota quer!</default>
+		<default>Angely não se toca de nada! Não sabe nem o que deve fazer!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Andou bebendo?</default>
+		<default>Andou bebendo? Porque aquilo que eu fiz aquele dia, eu não ia fazer nada com você, e se você bebeu, é a mesma...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Claro que não! Não era isso que você queria???</default>
+		<default>Claro que não! Não era isso que você queria?! Não me queria?!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não era, é o que eu quero.</default>
+		<default>Ainda quero.</default>
 	</talk>
 	<teller>
-		<default>Ele a puxa pra junto de si e continuam se beijando. Angely chega em casa, cabisbaixo.</default>
+		<default>Dara se aproxima e beija Edmont, que abraça e puxa pra junto de si.</default>
+	</teller>
+	<teller>
+		<first>Angely entra na sala. Cabeça baixa. Mel levanta de sopetão do sofá.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Que foi??? Não aconteceu nada com ela, aconteceu???</default>
+		<default>Que foi??? Não aconteceu nada, aconteceu???</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não, ela só voltou pro Edmont.</default>
+		<default>Não, só voltou com Edmont.</default>
+	</talk>
+	<teller>
+		<default>Mel arregala os olhos.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Deve ter algo errado com o tal dardo, mas você não tomou dardo nenhum pra deixar isso assim!</default>
+	</talk>
+	<talk character="Angely">
+		<default>Que esperava que eu fizesse?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela só pode estar muito drogada... E você mais ainda por ter deixado!</default>
+		<default>Onde estavam?</default>
 	</talk>
 	<talk character="Angely">
-		<default>E o que esperava que eu fizesse?</default>
+		<default>Edmont ama Dara. E Dara ama Edmont. Foi Dara quem me mandou embora. E acho que estava lá pra...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Onde eles estavam?</default>
+		<screamed>Esqueceu que Dara tá fora de si?! Edmont pode até transformar Dara!</screamed>
 	</talk>
 	<talk character="Angely">
-		<default>Ele ama ela, não vai fazer nada. Bom, nada além do que ela pediu.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É??? Lembra que ela tá fora de si??? E se ele transformar ela numa vampira???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não tinha pensado nisso.</default>
+		<default>Não cheguei a pensar nisso...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Você pode ser muito inteligente, mas tem horas que sua bondade não te deixa pensar!</default>
@@ -262,9 +274,16 @@
 	</talk>
 	<talk character="Mel">
 		<default>Estão lá?</default>
-		<teller>Angely faz sinal de confirmação</teller>
+	</talk>
+	<talk character="Angely">
+		<default>Sim.</default>
+	</talk>
+	<talk character="Mel">
 		<default>Então vamos agora, antes que seja tarde.</default>
 	</talk>
+	<teller>
+		<default>Angely franze a testa.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Não vai fazer isso.</default>
 	</talk>
@@ -272,34 +291,46 @@
 		<default>Vou sim!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Estou falando dele.</default>
+		<default>Estou falando de Edmont.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não sei. Me deu algo, uma certeza...</default>
+		<default>Não sei. Me deu alguma coisa, uma certeza... Eu sei que não vai.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Confia demais em Edmont.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Não tô pedindo pra confiar em Edmont. Tô pedindo pra confiar em mim.</default>
 	</talk>
 	<teller>
-		<default>Amanhece, entardece, anoitece e amanhece de novo. O telefone toca.</default>
+		<first>Dia seguinte. Toca o telefone. Mel acorda. Atende.</first>
 	</teller>
 	<talk character="Denise">
-		<default>Alô?</default>
+		<out>Alô?</out>
 	</talk>
 	<talk character="Mel">
 		<default>Sim?</default>
 	</talk>
 	<talk character="Denise">
-		<default>Dara tá aí?</default>
+		<out>A Handhara tá aí?</out>
 	</talk>
 	<talk character="Mel">
-		<default>Não... Ela não voltou pra casa?</default>
+		<default>Não... Não voltou pra casa?</default>
 	</talk>
 	<talk character="Denise">
-		<default>Não, eu até estranhei. Pensei que estivesse com Angely.</default>
+		<out>Não, eu até estranhei. Pensei que estivesse com Angely.</out>
 	</talk>
 	<teller>
-		<default>Eles vão até o casarão.</default>
+		<default>Mel desliga o telefone. Levanta. Vai ao quarto de Angely e bate na porta. Abre a porta. Vazio. Vai até a cozinha.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Esquece o café da manhã, acho que sua teoria tava errada.</default>
+	</talk>
+	<teller>
+		<first>Casarão.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Dara!</default>
@@ -307,23 +338,20 @@
 	<talk character="Angely">
 		<default>Edmont?</default>
 	</talk>
-	<teller>
-		<default>Edmont aparece atrás deles.</default>
-	</teller>
 	<talk character="Edmont">
-		<default>Presente.</default>
+		<arrive>Presente.</arrive>
 	</talk>
 	<teller>
-		<default>Mel se assusta e o ataca, mas ele a segura.</default>
+		<default>Mel tira uma estaca da calça e tenta cravar no peito de Edmont, mas Edmont segura.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Ei, o que tá deixando nossa irmãzinha tão escaldada?</default>
+		<default>O que andam caçando pra você ficar nesse susto todo.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Edmont...</default>
 	</talk>
 	<teller>
-		<default>Edmont solta Mel.</default>
+		<default>Edmont solta o braço de Mel.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Vieram procurar Handhara?</default>
@@ -332,37 +360,44 @@
 		<default>Você é que não foi.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Está lá em cima.</default>
+		<default>Tá lá em cima.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se ela não estiver respirando, vou atravessar ela com um pedaço de madeira e enterrar você bem fundo, pra que ninguém ache.</default>
+		<default>Se não estiver respirando, vou atravessar com um pedaço de madeira e enterrar você bem fundo, pra ninguém achar.</default>
 	</talk>
 	<teller>
-		<default>Mel sobe.</default>
+		<default>Mel sobe. Edmont vai até a janela.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Não sei se está respirando. Acho que ela se arrependeu e se matou.</default>
+		<default>Não sei se está respirando. Talvez se arrependeu e se matou.</default>
 	</talk>
 	<teller>
-		<default>Angely olha assustado pra Edmont. Sobe as escadas correndo.</default>
+		<default>Angely arregala os olhos. Sobe as escadas correndo. Mel está perto de Dara, se agaichou. Dara está num canto, se encolheu, abraça as pernas dobradas.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Dara, por favor...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Não encosta em mim!</default>
+		<screamed>Não encosta em mim!</screamed>
 	</talk>
 	<teller>
-		<default>Ele se sente aliviado ao vê-la viva.</default>
+		<default>Angely suspira fundo.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ela não quer que encostemos nela! Só pode ser algo que aquele...</default>
+		<default>Só pode ser algo que Edmont...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não fiz nada.</default>
-		<teller>adentra o quarto</teller>
-		<default>Acordei e ela tava aí no canto.</default>
+		<arrive>Não fiz nada.</arrive>
 	</talk>
+	<teller>
+		<default>Edmont encosta perto da porta e cruza os braços.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Acordei e tava aí no canto. Desse jeito.</default>
+	</talk>
+	<teller>
+		<default>Mel se levanta e encara Edmont. Angely abaixa perto de Dara.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Vem comigo...</default>
 	</talk>
@@ -379,95 +414,97 @@
 		<default>Eu não sou mau. Você sabe disso.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Fez o que com ela afinal???</default>
+		<default>Fez o que afinal???</default>
 	</talk>
+	<teller>
+		<default>Edmont bufa e descruza os braços.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Tenho certeza que sabe, muitos já fizeram com você.</default>
+		<default>Tenho certeza que sabe, já fez tanto quanto eu.</default>
 	</talk>
 	<teller>
-		<default>Edmont sai. Dara fica olhando nos olhos de Angely e acaba segurando a mão dele. Eles vão pra casa. Ele deixa ela no quarto.</default>
+		<default>Edmont sai. Dara olha fixamente nos olhos de Angely. Pega sua mão.</default>
+	</teller>
+	<teller>
+		<first>Tarde. MEAK.</first>
 	</teller>
 	<talk character="Angely">
-		<default>Temos que falar com alguém que entenda disso, os sintomas...</default>
+		<default>Temos que falar com alguém que entenda disso.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Temos é que ir atrás do cara que fez isso.</default>
+		<default>Temos é que ir atrás de quem fez isso. Deve ser a única pessoa que sabe como tirar isso de Dara.</default>
 	</talk>
 	<talk character="Angely">
-		<irony>Com a descrição super detalhada dela, vai ser fácil.</irony>
+		<default>Talvez se eu tentasse falar com Dara de novo...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Temos que dar um jeito, esse maluco deve ser o único que sabe como tirar isso dela.</default>
+		<default>Não. Temos que ir pela descrição que deu do carro.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Talvez se eu tentasse falar com ela de novo...</default>
+		<default>Consegue fazer algo com isso?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não. Temos que ir pela descrição que ela deu do carro.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Aí só entrando no computador do governo, procurar o carro pelos satélites "secretos".</default>
+		<default>Dou meu jeito.</default>
 	</talk>
 	<teller>
-		<default>Noite. Mel encontra três carros suspeitos.</default>
+		<first>Noite. Cozinha.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Precisávamos ser em três pra ir atrás disso.</default>
+		<default>Vou chamar Zenon. Você fica aqui e olha Dara. Depois vemos quem vai atrás do terceiro carro.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Somos em três.</default>
+		<default>Temos alguém.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Derik não conta, Kat menos ainda...</default>
+		<default>Kat não conta, Derik menos ainda...</default>
 	</talk>
 	<teller>
-		<default>Angely a encara.</default>
+		<default>Angely olha fixamente para Mel. Mel franze a testa. Desfranze.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Não, isso não! Se for assim, prefiro pedir ajuda pro Zenon.</default>
+		<default>Não, isso não!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ele é nosso irmão!</default>
+		<default>Mas...</default>
 	</talk>
 	<talk character="Mel">
 		<default>É um vampiro!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Zenon também! Além do que, você vai ter que ficar aqui passando informações e coisas assim.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Isso aqui...</default>
-		<default>...é móvel.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mas é melhor que você fique!</default>
+		<default>Zenon também.</default>
 	</talk>
 	<teller>
-		<default>Ela o encara.</default>
+		<default>Cruza os braços e encara Angely.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Mel, por favor...</default>
+	</talk>
+	<teller>
+		<default>Mel descruza os braços. Bufa.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Tudo bem. Eu falo com Zenon e você com o seu irmão.</default>
+		<default>Tudo bem. Eu falo com Zenon e você com Edmont.</default>
 	</talk>
 	<teller>
-		<default>Noutro lugar, dali há algum tempo...</default>
+		<default>Casarão.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Aposto que ela relutou.</default>
+		<default>Aposto que relutou.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por que?</default>
+		<default>Por que diz isso?</default>
 	</talk>
 	<teller>
 		<default>Edmont ri. Angely baixa a cabeça.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Ela tem seus motivos.</default>
+		<default>Tem seus motivos.</default>
 	</talk>
 	<teller>
 		<default>Angely entrega um telefone a Edmont.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Ela vai ligar dando o lugar exato.</default>
+		<default>Vai ligar dando o lugar exato.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Tá.</default>
