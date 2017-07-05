@@ -47,20 +47,18 @@ namespace Structure.Data
             populateScene(get, episode);
         }
 
-
-
+        #region For Constructor
         private void populateScene(OpenEpisodeOption get, Episode episode)
         {
-            Scene = new Scene {
-                            ID = FileInfo.NameWithoutExtension(),
-                            Episode = episode
-                        };
+            Scene = new Scene
+            {
+                ID = FileInfo.NameWithoutExtension(),
+                Episode = episode
+            };
 
             if (get == OpenEpisodeOption.GetStory)
                 readStory();
         }
-
-
 
         private void readStory()
         {
@@ -72,7 +70,7 @@ namespace Structure.Data
                 throw new Exception("Story pieces out of tags: " + xml.Value);
 
 
-            foreach(var node in xml)
+            foreach (var node in xml)
             {
                 if (!String.IsNullOrEmpty(node.Value))
                     throw new Exception("Story pieces without style: " + node.Value);
@@ -82,10 +80,7 @@ namespace Structure.Data
                 setText(paragraph, node);
             }
         }
-
         
-
-
         private ParagraphType defineType(String nodeName)
         {
             ParagraphType paragraph;
@@ -104,7 +99,7 @@ namespace Structure.Data
 
         private void setText(ParagraphType paragraph, Node node)
         {
-            switch(paragraph)
+            switch (paragraph)
             {
                 case ParagraphType.Talk:
                     var talk = ParagraphXML.GetTalk(node);
@@ -116,21 +111,13 @@ namespace Structure.Data
                     break;
             }
         }
+        #endregion
 
 
-
-
-
-        public void WriteStory()
-        {
-            var xml = makeStoryXML();
-
-            xml.BackUpAndSave(backupPath);
-        }
 
         public void AddNewStory(String title)
         {
-            var sceneExists = 
+            var sceneExists =
                 !FileInfo.CreateIfNotExists("<story></story>");
 
 
@@ -149,6 +136,15 @@ namespace Structure.Data
 
 
 
+        public void WriteStory()
+        {
+            var xml = makeStoryXML();
+
+            xml.BackUpAndSave(backupPath);
+        }
+
+
+
         private void fakeStory()
         {
             for (var j = 0; j < 3; j++)
@@ -162,6 +158,27 @@ namespace Structure.Data
                     Scene.TalkList.Add(talkDefault());
                 }
             }
+        }
+
+        private static Teller tellerDefault()
+        {
+            return new Teller
+            {
+                Pieces = {
+                    new Piece<TellerStyle> { Style = TellerStyle.Default, Text = "_" }
+                }
+            };
+        }
+
+        private static Talk talkDefault()
+        {
+            return new Talk
+            {
+                Pieces = {
+                    new Piece<TalkStyle> { Style = TalkStyle.Default, Text = "_" }
+                },
+                Character = "Akeon"
+            };
         }
 
 
@@ -214,19 +231,8 @@ namespace Structure.Data
                 throw new Exception(String.Format("Season [{0}] and file path [{1}] doesn't match.", xml["season"], Scene.Episode.Season.ID));
         }
 
-        private static Teller tellerDefault()
-        {
-            return new Teller { Pieces = {
-                    new Piece<TellerStyle> { Style = TellerStyle.Default, Text = "_" }
-                } };
-        }
 
-        private static Talk talkDefault()
-        {
-            return new Talk { Pieces = {
-                    new Piece<TalkStyle> { Style = TalkStyle.Default, Text = "_" }
-                }, Character = "Akeon" };
-        }
+
 
     }
 }
