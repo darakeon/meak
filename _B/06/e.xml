@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="06" scene="e">
 	<teller>
-		<default>20:00. Estela e Kat estão com Beleno, andando nas pedras.</default>
+		<default>Noite. Kat, Estela e Beleno estão andando nas pedras.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>É bom poder andar assim, sem aquele capuz.</default>
@@ -28,7 +28,7 @@
 		<default>Por que você não conta para ele?</default>
 	</talk>
 	<teller>
-		<default>Estela fica pálida.</default>
+		<default>Estela olha para Beleno e empalidece.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Do que tá falando?</default>
@@ -46,7 +46,7 @@
 		<default>Eu vou dar uma volta. Mas levo vocês em casa.</default>
 	</talk>
 	<teller>
-		<default>Os três chegam. Mel está na sala, lendo uma revista.</default>
+		<default>MEAK. Mel está na sala. Kat, Estela e Beleno entram.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Só fomos dar uma volta.</default>
@@ -55,7 +55,7 @@
 		<default>Tudo bem, mandei Derik procurar. Mas da próxima vez avisa.</default>
 	</talk>
 	<teller>
-		<default>Beleno vai saindo.</default>
+		<default>Beleno volta na direção da porta.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Isso inclui você.</default>
@@ -70,19 +70,19 @@
 		<default>Voar.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá. Mas vê se volta inteiro.</default>
+		<default>Tá. Mas vê se volta bem.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Vai se acostumando, ela é assim mesmo.</default>
 	</talk>
 	<teller>
-		<default>Mel encara Estela. Beleno sai. Derik entra.</default>
+		<default>Mel encara Estela. Beleno sai.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Alete ainda não encontrei.</default>
+		<arrive>Alete ainda não encontrei.</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Vocês duas, peguem o celular e vão procurar Alete. Me liguem de uma em uma hora. Derik, eu percebi que foi de má vontade.</default>
+		<default>Kat, Estela, peguem o celular e vão procurar Alete. Me liguem de uma em uma hora. Derik, eu percebi que foi de má vontade.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Eu?!</default>
@@ -120,6 +120,9 @@
 	<talk character="Nat">
 		<default>Só se quiserem ter outra fênix criança por aqui.</default>
 	</talk>
+	<teller>
+		<default>Zenon franze a testa.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Eu jamais faria isso!</default>
 	</talk>
@@ -141,8 +144,11 @@
 	<talk character="Zenon">
 		<default>Virei encanador???</default>
 	</talk>
+	<talk character="Mel">
+		<default>Se você tem mais de duzentos anos e não sabe consertar nem a porcaria um encanamento, posso te ensinar, mas acho que devia começar a usar seu tempo de vida pra aprender a fazer coisas úteis.</default>
+	</talk>
 	<teller>
-		<default>Mel o encara. Ele vai para a cozinha.</default>
+		<default>Zenon vai para a cozinha.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Alan, vai com Kat e Estela procurar Alete.</default>
@@ -154,42 +160,49 @@
 		<default>Vai dormir lá fora se continuar falando disso.</default>
 	</talk>
 	<teller>
-		<default>Alan pega uma besta numa gaveta e sai com Estela e Kat.</default>
+		<default>Alan pega uma besta numa gaveta e sai. Estela e Kat seguem.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Derik, Nat, vão dar um jeito na cama do Alan.</default>
+		<default>Derik, Nat, vão dar um jeito na cama do Alan. Aliás, o que tanto aconteceu?!</default>
+	</talk>
+	<talk character="Nat">
+		<default>Ela resolveu brincar com a comida.</default>
 	</talk>
 	<talk character="Derik">
 		<default>E Inês?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu deixo com o Angely.</default>
+		<default>Eu deixo com Angely.</default>
 	</talk>
 	<talk character="Nat">
 		<default>Não querendo te questionar, mas ele já cuidou de alguma criança?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele vai saber o que fazer, por favor.</default>
+		<default>Vai saber o que fazer. Se puderem ir, aproveitem e resolvam a de Nat também.</default>
 	</talk>
 	<teller>
-		<default>Mel pega Inês no colo. Os dois sobem. Angely chega.</default>
+		<default>Mel pega Inês no colo. Derik e Nat sobem.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Ouvi um barulho...</default>
+		<arrive>Ouvi um barulho...</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Já resolvi tudo. Tó.</default>
-		<teller>entrega Inês para Angely</teller>
-		<default>Cuida disso que eu tô precisando de um banho.</default>
+		<default>Já resolvi tudo.</default>
 	</talk>
 	<teller>
-		<default>Ang olha para Inês. Mel sobe.</default>
+		<default>Mel entrega Inês nas mãos de Angely.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Cuida disso que eu tô precisando de um banho. Começa pela frauda, tenho certeza que Inês não cheira assim naturalmente.</default>
+	</talk>
+	<teller>
+		<default>Mel sobe. Ang olha para Inês. Puxa um pouco a frauda atrás. Solta.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Por que eu tenho a estranha sensação de que você tá carregando um certo peso na frauda?</default>
+		<default>Acho que você tá precisando mais do banho que Mel.</default>
 	</talk>
 	<teller>
-		<default>21:00. Alan, Estela e Kat estão andando pela cidade.</default>
+		<first>21:00. Alan, Estela e Kat estão andando pela cidade.</first>
 	</teller>
 	<talk character="Estela">
 		<default>Não sei pra que trouxe essa coisa.</default>
@@ -207,25 +220,19 @@
 		<default>Acho que sim...</default>
 	</talk>
 	<teller>
-		<default>Alete está indo para a parte do lago. Eles a seguem. Ela entra no lago, o que faz eles perderem-na de vista. Do outro lado, ela sai.</default>
+		<default>Alete está andando. Alan, Kat e Estela seguem de longe. Alete vai até o lago, mergulha. Alan, Kat e Estela olham a água. Alete sai do outro lado. Olha para as pessoas, ninguém vê. Se aproxima de Beleno. Beleno se levanta.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Alete?</default>
 	</talk>
 	<teller>
-		<default>Ela o ataca. Ele voa com ela.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Mas cadê...</default>
-	</talk>
-	<teller>
-		<default>Kat e Estela ouvem algo, se entreolham e olham para cima.</default>
+		<default>Alete tira um punhal do bolso, corre na direção de Beleno. Beleno segura o braço de Alete. Uma luz. Beleno ainda segura Alete, mas aparenta mais idade e está maior. Voa com Alete. Kat e Estela olham.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ele pegou ela!</default>
+		<default>Beleno pegou Alete!</default>
 	</talk>
 	<teller>
-		<default>Alan olha para cima.</default>
+		<default>Alan olha para Kat, Kat aponta para cima. Alan olha para Beleno e Alete.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Eu sabia que ele não era confiável!</default>
@@ -237,20 +244,17 @@
 		<default>Atira logo, droga!</default>
 	</talk>
 	<teller>
-		<default>Alan atira e acerta a asa de Beleno. Os dois caem.</default>
+		<default>Alan atira e acerta a asa de Beleno. Caem.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Droga, eu não sei nadar!</default>
 	</talk>
 	<teller>
-		<default>Kat pula na água. Volta trazendo Alete.</default>
+		<default>Kat entra correndo na água. Mergulha. Volta com Alete. Estela se aproxima e ajuda Kat a puxar Alete para a beira.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Banana!</default>
 	</talk>
-	<teller>
-		<default>Estela ajuda a puxar Alete.</default>
-	</teller>
 	<talk character="Alan">
 		<default>Eu também ajudei! Eu quem atirei!</default>
 	</talk>
@@ -261,16 +265,16 @@
 		<default>Kat pega o pulso.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Normal. Carregar ela você consegue?</default>
+		<default>Normal. Precisamos levar pra MEAK.</default>
 	</talk>
 	<teller>
-		<default>Alan pega Alete no colo. Eles voltam pra casa. No dia seguinte, 8:00, ela acorda (15/03 – sábado).</default>
+		<default>Manhã. Alete acorda. Vai até a sala, olha por trás da porta.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Deve ter caído no mar.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Então já tá morto, aquela cachoeira...</default>
+		<default>Então morreu, aquela cachoeira...</default>
 	</talk>
 	<talk character="Estela">
 		<default>Atirou mesmo na asa?</default>
@@ -279,7 +283,7 @@
 		<default>Tô falando que foi...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Então ele já tá morto.</default>
+		<default>Então morreu.</default>
 	</talk>
 	<teller>
 		<default>Alete sorri.</default>
@@ -288,7 +292,10 @@
 		<default>Mas como vamos falar com o Ang?</default>
 	</talk>
 	<teller>
-		<default>Desaparece o sorriso dela. Noutro lugar (prédio abandonado), alguém abre os olhos e vê Beatrice. É Beleno, levanta bruscamente.</default>
+		<default>Alete fecha a expressão.</default>
+	</teller>
+	<teller>
+		<first>Prédio abandonado. Beleno abre os olhos. Vê Beatrice. Levanta bruscamente.</first>
 	</teller>
 	<talk character="Bea">
 		<default>Calma, eu não vou fazer nada.</default>
@@ -303,20 +310,26 @@
 		<default>Vai querer bancar a boazinha?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não acredita porque não estou cercada de pessoas dizendo que sou?</default>
+		<default>Não acredita porque não estou cercada de pessoas dizendo que sou? Eu podia, não fosse minha burrice. Tem gente que chama de amor também.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Não sei. Mas parece estar carregando um peso.</default>
 	</talk>
 	<talk character="Bea">
-		<default>E você parece ser cego. Nem tudo que parece é.</default>
+		<default>E você parece que não enxerga. Nem tudo que parece é.</default>
 	</talk>
 	<teller>
-		<default>Beleno fica quieto.</default>
+		<default>Beleno baixa a cabeça.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Você é mesmo cego...</default>
+		<default>Você não enxerga mesmo...</default>
 	</talk>
+	<talk character="Beleno">
+		<default>Não o que vocês enxergam.</default>
+	</talk>
+	<teller>
+		<default>Beleno olha para Beatrice.</default>
+	</teller>
 	<talk character="Beleno">
 		<default>Qual o peso?</default>
 	</talk>
@@ -345,15 +358,19 @@
 		<default>Não. Ele é como você.</default>
 	</talk>
 	<teller>
-		<default>Beatrice não sabe o que dizer.</default>
+		<default>Beatrice engole seco.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Não quis te ofender.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Não é isso...</default>
-		<teller>pára</teller>
-		<default>Acho que conheço ele.</default>
+	</talk>
+	<teller>
+		<default>Beatrice suspira.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Acho que conheço seu pai.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Conhece?</default>
@@ -368,30 +385,43 @@
 		<default>Foram eles que fizeram isso com a sua asa? Angely não deixaria isso...</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Vim aqui para matar ele. Quer dizer, eu vinha pra matar meu pai, mas...</default>
+		<default>Vim aqui para matar ele. Quer dizer...  Eu vinha pra matar meu pai... Mas...</default>
 	</talk>
 	<talk character="Bea">
 		<default>Por isso disse que era melhor eu não saber...</default>
-		<teller>ela se afasta</teller>
-		<default>Você é o cara que transformou um vampiro em ossos... Vai terminar com isso? Vai me matar?</default>
 	</talk>
 	<teller>
-		<default>Cai uma lágrima dos olhos de Beatrice. Beleno passa a mão no rosto de Beatrice.</default>
+		<default>Beatrice balança a cabeça para os lados e se afasta.</default>
+	</teller>
+	<talk character="Beatrice">
+		<default>Foi você que transformou um vampiro em ossos...</default>
+	</talk>
+	<talk character="Beleno">
+		<default>Eu... Foi... Engano... Eu não sabia que não era ruim... Achei que todos eram...</default>
+	</talk>
+	<talk character="Beatrice">
+		<default>Vai terminar com isso? Vai me matar?</default>
+	</talk>
+	<teller>
+		<default>Cai uma lágrima dos olhos de Beatrice. Beleno olha diretamente nos olhos de Beatrice. Se aproxima. Limpa a lágrima.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Não vou te machucar.</default>
 	</talk>
 	<teller>
-		<default>Ele a beija. Na MEAK, 12:00.</default>
+		<default>Beleno beija Beatrice. </default>
+	</teller>
+	<teller>
+		<first>MEAK. Sol a pino.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Angely ainda não apareceu...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Calma, Mel, ele não morre assim tão fácil...</default>
+		<default>Calma, Mel, não morre assim tão fácil...</default>
 	</talk>
 	<talk character="Mel">
-		<default>E se aquela coisa tiver pego ele???</default>
+		<default>E se aquela coisa tiver pego???</default>
 	</talk>
 	<talk character="Ang">
 		<arrive>Que coisa?</arrive>
@@ -406,26 +436,26 @@
 		<default>Só impressão minha ou você tem falado essa frase muitas vezes ultimamente?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Cadê o Beleno?</default>
+		<default>Cadê Beleno?</default>
 	</talk>
 	<talk character="Alan">
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Ang">
-		<default>É uma pergunta simples... Eu acho.</default>
+		<default>É uma pergunta simples... Eu acho...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Pois é, ele saiu e não voltou. Deve ter herdado isso do pai.</default>
 	</talk>
 	<teller>
-		<default>Alete entrega um papel à Angely:</default>
+		<default>Alete pega papel e caneta no bolso, escreve e entrega a Angely:</default>
 		<letter>Ele me atacou, Alan me defendeu.</letter>
 	</teller>
 	<talk character="Ang">
 		<default>Pégasos não atacam fênixs...</default>
 	</talk>
 	<teller>
-		<default>Ela olha bruscamente na direção da porta da copa. Zenon aparece. Fica olhando pra ela. Nat chega. Olha para os dois.</default>
+		<default>Alete olha bruscamente na direção da porta da copa. Zenon aparece. Para. Fica olhando para Alete. Nat chega. Olha para Alete, então para Zenon.</default>
 	</teller>
 	<talk character="Nat">
 		<default>Angely, leva ela daqui.</default>
@@ -437,7 +467,7 @@
 		<default>Leva agora!</default>
 	</talk>
 	<teller>
-		<default>Ang pega Alete pela mão. Ela fica olhando para trás. Zenon faz menção de ir junto, mas Mel o segura.</default>
+		<default>Ang pega Alete pela mão. Alete fica olhando para trás. Zenon dá um passo em direção a Alete, Mel segura pelo braço.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Você fica.</default>
@@ -449,7 +479,7 @@
 		<default>Sol, fogo, cinzas... Quer um seqüência mais detalhada?</default>
 	</talk>
 	<teller>
-		<default>Estela vem da cozinha, com cara de sono.</default>
+		<default>Estela vem da cozinha, esfregando o olho.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Que está</default>
@@ -457,30 +487,33 @@
 		<default>acontecendo?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vão todos dormir, tá todo mundo com cara de sono aqui.</default>
+		<default>Vai todo mundo dormir, tá todo mundo com cara de sono aqui.</default>
 	</talk>
 	<teller>
-		<default>Todos se entreolham.</default>
+		<default>As pessoas se entreolham.</default>
 	</teller>
 	<talk character="Mel">
-		<screamed>Será que não me ouviram?! Vou ter que colocá-los na cama e contar historinha?!</screamed>
+		<screamed>Será que não me ouviram?! Vou ter que colocar vocês na cama e contar historinha?!</screamed>
 	</talk>
 	<talk character="Zenon">
 		<default>Mel...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ninguém faz nada aqui enquanto não estiver descansado.</default>
+		<default>Ninguém faz nada aqui enquanto não tiver descansado.</default>
 	</talk>
 	<teller>
-		<default>Mel encara todo mundo. Eles obedecem. Ela vai atrás de Angely. Este está sentado no banco de uma praça, com a cabeça apoiada nas mãos. Ela levanta a cabeça dele: os olhos estão em lágrimas.</default>
+		<default>Mel cruza os braços. As pessoas sobem a escada. Mel sai.</default>
+	</teller>
+	<teller>
+		<first>Praça. Ang está em um banco, com a cabeça apoiada nas mãos. Alete está ao lado, de cabeça baixa. Mel se aproxima. Abaixa em frente a Ang. Passa a mão no cabelo de Ang. Ang tira as mãos da frente do rosto. Mel limpa uma lágrima de Ang.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Não fica assim, talvez tenha sido melhor...</default>
+		<default>Não fica assim, talvez tenha sido melhor.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ele não atacaria ninguém sem um motivo... Alguém deve ter feito alguma coisa...</default>
+		<default>Não atacaria ninguém sem um motivo... Alguém deve ter feito alguma coisa... Talvez Edmont...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Olha, agora temos que cuidar de Alete. Eu conheço o dono disso tudo aqui, talvez ele possa ajudar.</default>
+		<default>Olha, agora temos que cuidar de Alete. Eu conheço o dono disso tudo aqui, talvez possa ajudar.</default>
 	</talk>
 </story>
