@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using Ak.Generic.Collection;
 using Structure.Helpers;
@@ -35,7 +37,7 @@ namespace Structure.Data
 
         private Boolean testEpisode()
         {
-            var request = newRequest(WebRequestMethods.Ftp.DownloadFile);
+			var request = newRequest(sceneUrl, WebRequestMethods.Ftp.DownloadFile);
 
             return testResponse(request);
         }
@@ -78,56 +80,89 @@ namespace Structure.Data
 
         private String upload()
         {
-            var request = newRequest(WebRequestMethods.Ftp.UploadFile);
-
-	        var error = createDirectory();
+	        var error = createDirectories();
 
 	        if (!String.IsNullOrEmpty(error))
 		        return error;
 
-            copyContent(request);
-
-            return getResponse(request);
+			return createEpisode();
         }
 
 
 
-	    private FtpWebRequest newRequest(String method)
-        {
-            var url = Paths.FtpFilePath(Config.FtpUrl, season, episode, scene);
-            var request = (FtpWebRequest) WebRequest.Create(url);
-            
-            request.Method = method;
-            request.Credentials = createCredentials();
-            request.UsePassive = false;
-
-            return request;
-        }
-
-
-	    private String createDirectory()
+		private String createDirectories()
 		{
-			var url = Paths.FtpDirectoryPath(Config.FtpUrl, season, episode);
-			var request = WebRequest.Create(url);
-			request.Method = WebRequestMethods.Ftp.MakeDirectory;
-			request.Credentials = createCredentials();
+			var error = createDirectoryIfNotExists(Config.FtpUrl, seasonUrl);
 
-		    String error = null;
+			if (!String.IsNullOrEmpty(error))
+				return error;
 
-			using (var response = (FtpWebResponse)request.GetResponse())
-			{
-				if (response.StatusCode != FtpStatusCode.PathnameCreated)
-				{
-					error = response.StatusDescription;
-				}
-			}
-
-		    return error;
+			return createDirectoryIfNotExists(seasonUrl, episodeUrl);
 		}
 
+		private String createDirectoryIfNotExists(String parentUrl, String directoryUrl)
+		{
+			String error = null;
+
+			var directories = getChildren(parentUrl);
+
+			if (directories == null)
+				return "Cannot read directory";
+
+			var directoryName = directoryUrl.Substring(Config.FtpUrl.Length);
+
+			if (!directories.Contains(directoryName))
+				error = createDirectory(directoryUrl);
+
+			return error;
+		}
+
+	    private IEnumerable<String> getChildren(String url)
+	    {
+			var request = newRequest(url, WebRequestMethods.Ftp.ListDirectory);
+
+			String[] directories;
+
+		    using (var response = (FtpWebResponse) request.GetResponse())
+		    {
+			    using (var stream = response.GetResponseStream())
+			    {
+				    if (stream == null)
+				    {
+					    directories = null;
+				    }
+				    else
+				    {
+					    using (var reader = new StreamReader(stream))
+					    {
+						    directories = reader.ReadToEnd().Split(Environment.NewLine.ToCharArray());
+					    }
+				    }
+			    }
+
+			    response.Close();
+		    }
+
+		    return directories;
+	    }
+
+	    private String createDirectory(String url)
+	    {
+			var request = newRequest(url, WebRequestMethods.Ftp.MakeDirectory);
+			return handleResponse(request, FtpStatusCode.PathnameCreated);
+	    }
 
 
-        private void copyContent(FtpWebRequest request)
+	    private string createEpisode()
+		{
+			var request = newRequest(sceneUrl, WebRequestMethods.Ftp.UploadFile);
+
+			copyEpisodeContent(request);
+
+			return handleResponse(request, ftpSuccessCodes);
+		}
+		
+		private void copyEpisodeContent(FtpWebRequest request)
         {
             var path = new EpisodeXML().PathXML;
             path = Paths.SceneFilePath(path, season, episode, scene);
@@ -144,38 +179,60 @@ namespace Structure.Data
 
 
 
-        private static String getResponse(FtpWebRequest request)
+		private string seasonUrl
+		{
+			get { return Paths.FtpDirectoryPath(Config.FtpUrl, season); }
+		}
+
+		private string episodeUrl
+		{
+			get { return Paths.FtpDirectoryPath(Config.FtpUrl, season, episode); }
+		}
+
+		private string sceneUrl
+		{
+			get { return Paths.FtpFilePath(Config.FtpUrl, season, episode, scene); }
+		}
+
+		private static FtpStatusCode[] ftpSuccessCodes
+		{
+			get { return new[] { FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK }; }
+		}
+		
+		
+		
+		private FtpWebRequest newRequest(String url, String method)
         {
-            String error = null;
+            var request = (FtpWebRequest) WebRequest.Create(url);
+            
+            request.Method = method;
+            request.Credentials = createCredentials();
+			request.UsePassive = true;
 
-            using (var response = (FtpWebResponse)request.GetResponse())
-            {
-                if (!response.StatusCode.IsIn(ftpSuccessCodes))
-                {
-                    error = response.StatusDescription;
-                }
-
-                response.Close();
-            }
-
-            return error;
+            return request;
         }
-
-
 
 	    private NetworkCredential createCredentials()
 		{
 			return new NetworkCredential(Config.FtpLogin, password);
 		}
 
-		private static FtpStatusCode[] ftpSuccessCodes
+		private static String handleResponse(FtpWebRequest request, params FtpStatusCode[] rightAnswers)
 		{
-			get
-			{
-				return new[] { FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK };
-			}
-		}
+			String error = null;
 
+			using (var response = (FtpWebResponse)request.GetResponse())
+			{
+				if (!response.StatusCode.IsIn(rightAnswers))
+				{
+					error = response.StatusDescription;
+				}
+
+				response.Close();
+			}
+
+			return error;
+		}
 
 
     }

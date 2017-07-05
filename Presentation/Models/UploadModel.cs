@@ -1,5 +1,4 @@
 ﻿using System;
-using Presentation.Controllers;
 using Structure.Data;
 
 namespace Presentation.Models
