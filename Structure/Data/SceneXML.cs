@@ -9,55 +9,62 @@ using FileInfoExtension = Structure.Extensions.FileInfoExtension;
 
 namespace Structure.Data
 {
-    public class EpisodeXML
+    public class SceneXML
     {
         readonly String tellerEnum = ParagraphType.Teller.ToString().ToLower();
         readonly String talkEnum = ParagraphType.Talk.ToString().ToLower();
 
-        public Episode Episode { get; set; }
+        public Scene Scene { get; set; }
         public FileInfo FileInfo { get; set; }
 
         private String backupFullName { get; set; }
 
-        
-        public EpisodeXML(String folderPath, String season, String episode, OpenEpisodeOption get = OpenEpisodeOption.GetCode)
+        public const String FirstScene = "a";
+
+
+        public SceneXML(String folderPath, String season, String episode)
+            : this(folderPath, season, episode, FirstScene) { }
+
+        public SceneXML(String folderPath, String season, String episode, String scene)
+            : this(folderPath, season, episode, scene, OpenEpisodeOption.GetCode) { }
+
+        public SceneXML(String folderPath, String seasonID, String episodeID, String sceneID, OpenEpisodeOption get)
         {
-            var filePath = Path.Combine(folderPath, "_" + season, episode + ".xml");
+            var filePath = Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".xml");
 
             FileInfo = new FileInfo(filePath);
 
-            populateEpisode(get);
 
-            var backupFile = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_" + season + episode + ".xml";
-            backupFullName = Path.Combine(folderPath, "Backup", backupFile);
+            var episode = new Episode(folderPath, seasonID, episodeID);
+
+            populateScene(get, episode);
+
+
+            setBackupName(folderPath, seasonID, episodeID, sceneID);
 
             FileInfo = new FileInfo(filePath);
         }
 
 
 
-        private void populateEpisode(OpenEpisodeOption get)
+        private void setBackupName(String folderPath, String season, String episode, String scene)
         {
-            Episode = new Episode {
+            var datetime = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+            var backupFile = String.Format("{0}_{1}{2}-{3}.xml", datetime, season, episode, scene);
+            backupFullName = Path.Combine(folderPath, "Backup", backupFile);
+        }
+
+
+
+        private void populateScene(OpenEpisodeOption get, Episode episode)
+        {
+            Scene = new Scene {
                             ID = FileInfoExtension.NameWithoutExtension(FileInfo),
-                            Season = {ID = FileInfo.Directory.Name.Substring(1)}
+                            Episode = episode
                         };
 
-            switch (get)
-            {
-                case OpenEpisodeOption.GetTitle:
-                    readTitle();
-                    break;
-                case OpenEpisodeOption.GetStory:
-                    readStory();
-                    break;
-            }
-        }
-
-        private void readTitle()
-        {
-            var xml = new Node(FileInfo.FullName, false);
-            Episode.Title = xml["title"];
+            if (get == OpenEpisodeOption.GetStory)
+                readStory();
         }
 
         private void readStory()
@@ -69,8 +76,6 @@ namespace Structure.Data
                 throw new Exception("Story pieces out of tags: " + xml.Value);
             }
 
-
-            Episode.Title = xml["title"];
 
             foreach(var node in xml)
             {
@@ -95,9 +100,9 @@ namespace Structure.Data
             else if (nodeName == talkEnum)
                 paragraph = ParagraphType.Talk;
             else
-                throw new XmlException(String.Format("Node {0} ({1}º) not recognized.", nodeName, Episode.ParagraphCount));
+                throw new XmlException(String.Format("Node {0} ({1}º) not recognized.", nodeName, Scene.ParagraphCount));
 
-            Episode.ParagraphTypeList.Add(paragraph);
+            Scene.ParagraphTypeList.Add(paragraph);
 
             return paragraph;
         }
@@ -108,11 +113,11 @@ namespace Structure.Data
             {
                 case ParagraphType.Talk:
                     var talk = ParagraphXML.GetTalk(node);
-                    Episode.TalkList.Add(talk);
+                    Scene.TalkList.Add(talk);
                     break;
                 case ParagraphType.Teller:
                     var teller = ParagraphXML.GetTeller(node);
-                    Episode.TellerList.Add(teller);
+                    Scene.TellerList.Add(teller);
                     break;
             }
         }
@@ -145,17 +150,17 @@ namespace Structure.Data
 
             for (var j = 0; j < 10; j++)
             {
-                Episode.ParagraphTypeList.Add(ParagraphType.Teller);
-                Episode.TellerList.Add(tellerDefault());
+                Scene.ParagraphTypeList.Add(ParagraphType.Teller);
+                Scene.TellerList.Add(tellerDefault());
 
                 for (var k = 0; k < 20; k++)
                 {
-                    Episode.ParagraphTypeList.Add(ParagraphType.Talk);
-                    Episode.TalkList.Add(talkDefault());
+                    Scene.ParagraphTypeList.Add(ParagraphType.Talk);
+                    Scene.TalkList.Add(talkDefault());
                 }
             }
 
-            Episode.Title = title;
+            Scene.Episode.Title = title;
 
             var xml = makeXML();
 
@@ -169,25 +174,25 @@ namespace Structure.Data
         {
             var xml = new Node(FileInfo.FullName, false);
 
-            xml["title"] = Episode.Title;
+            xml["title"] = Scene.Episode.Title;
 
 
             var talkCounter = 0;
             var tellerCounter = 0;
 
 
-            foreach (var paragraph in Episode.ParagraphTypeList)
+            foreach (var paragraph in Scene.ParagraphTypeList)
             {
                 Node child;
 
                 switch (paragraph)
                 {
                     case ParagraphType.Talk:
-                        child = ParagraphXML.SetTalk(Episode.TalkList[talkCounter]);
+                        child = ParagraphXML.SetTalk(Scene.TalkList[talkCounter]);
                         talkCounter++;
                         break;
                     case ParagraphType.Teller:
-                        child = ParagraphXML.SetTeller(Episode.TellerList[tellerCounter]);
+                        child = ParagraphXML.SetTeller(Scene.TellerList[tellerCounter]);
                         tellerCounter++;
                         break;
                     default:

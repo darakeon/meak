@@ -1,7 +1,7 @@
 ﻿@model Presentation.Models.SeasonEpisodeModel
 
 @{
-    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
+    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Episode.Season, Model.Story.Episode, Model.Story.Episode.Title);
     Layout = "~/Views/Shared/_Layout.cshtml";
     Int32 talkCounter = 0;
     Int32 tellerCounter = 0;
@@ -18,7 +18,7 @@
 }
 
 <p class="title">
-    @Model.Story.Title
+    @Model.Story.Episode.Title
 </p>
 
 @foreach (var paragraph in Model.Story.ParagraphTypeList)

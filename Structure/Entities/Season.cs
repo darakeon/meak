@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Structure.Enums;
-using Structure.Data;
-using FileInfoExtension = Structure.Extensions.FileInfoExtension;
 
 namespace Structure.Entities
 {
@@ -14,12 +12,12 @@ namespace Structure.Entities
             EpisodesList = new List<Episode>();
         }
 
-        public Season(String path, OpenEpisodeOption getEpisode = OpenEpisodeOption.GetCode) : this() {
-            
+        public Season(String path, OpenEpisodeOption getEpisode = OpenEpisodeOption.GetCode) : this()
+        {
             ID = path[path.Length - 1].ToString();
 
             var episodeFiles = Directory
-                .GetFiles(path, "*.xml")
+                .GetDirectories(path)
                 .ToList();
 
             episodeFiles.ForEach(ef =>
@@ -28,12 +26,13 @@ namespace Structure.Entities
 
         private void insertInEpisodeList(String file, OpenEpisodeOption getEpisode)
         {
-            var fileInfo = new FileInfo(file);
-            var episode = FileInfoExtension.NameWithoutExtension(fileInfo);
-            var season = fileInfo.Directory.Name.Replace("_","");
-            var path = Directory.GetParent(fileInfo.DirectoryName).FullName;
+            var dir = new DirectoryInfo(file);
 
-            EpisodesList.Add(new EpisodeXML(path, season, episode, getEpisode).Episode);
+            var episode = dir.Name;
+            var season = dir.Parent.Name.Replace("_", "");
+            var path = dir.Parent.Parent.FullName;
+
+            EpisodesList.Add(new Episode(path, season, episode));
         }
 
 

@@ -81,18 +81,18 @@ namespace Presentation.Controllers
 
 
 
-        public ActionResult Episode(String season, String episode)
+        public ActionResult Episode(String season, String episode, String scene = SceneXML.FirstScene)
         {
-            EpisodeXML xml;
+            SceneXML xml;
 
 
             try
             {
-                xml = new EpisodeXML(paths.Xml, season, episode, OpenEpisodeOption.GetStory);
+                xml = new SceneXML(paths.Xml, season, episode, scene, OpenEpisodeOption.GetStory);
             }
             catch (FileNotFoundException)
             {
-                return View("Error", new ErrorModel(paths) { Message = "Temporada e/ou Capítulo não encontrado(s)." });
+                return View("Error", new ErrorModel(paths) { Message = "Temporada, Capítulo e/ou Cena não encontrado(s)." });
             }
             catch (Exception e)
             {
@@ -100,7 +100,7 @@ namespace Presentation.Controllers
             }
 
 
-            var model = new SeasonEditEpisodeModel(paths) { Story = xml.Episode };
+            var model = new SeasonEditEpisodeModel(paths) { Story = xml.Scene };
 
 
             EpisodeNavigation.SetNavigation(model, paths.Xml);
@@ -125,11 +125,11 @@ namespace Presentation.Controllers
         }
 
         [HttpPost]
-        public ActionResult Episode(SeasonEpisodeModel model, String season, String episode)
+        public ActionResult Episode(SeasonEpisodeModel model, String season, String episode, String scene = SceneXML.FirstScene)
         {
-            var xml = new EpisodeXML(paths.Xml, season, episode) {Episode = model.Story};
+            var xml = new SceneXML(paths.Xml, season, episode, scene) {Scene = model.Story};
 
-            EpisodeEditionHelper.CutCharacter(xml.Episode);
+            EpisodeEditionHelper.CutCharacter(xml.Scene);
 
             xml.WriteStory();
 
@@ -182,11 +182,11 @@ namespace Presentation.Controllers
             }
 
 
-            var xml = new EpisodeXML(paths.Xml, model.SeasonEpisode.Season, model.SeasonEpisode.Episode);
+            var xml = new SceneXML(paths.Xml, model.SeasonEpisode.Season, model.SeasonEpisode.Episode);
 
             xml.AddNewStory(model.Title);
 
-            return RedirectToAction("Episode", new { season = xml.Episode.Season.ID, episode = xml.Episode.ID });
+            return RedirectToAction("Episode", new { season = xml.Scene.Episode.ID, episode = xml.Scene.ID });
         }
     }
 }

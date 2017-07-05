@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Structure.Enums;
+using System.IO;
+using Ak.DataAccess.XML;
 
 namespace Structure.Entities
 {
@@ -9,13 +10,21 @@ namespace Structure.Entities
         public Episode()
         {
             Season = new Season();
-
-            ParagraphTypeList = new List<ParagraphType>();
-            TalkList = new List<Talk>();
-            TellerList = new List<Teller>();
+            SceneList = new List<Scene>();
         }
 
+        public Episode(String path, String season, String episode) : this()
+        {
+            var titleXMLName = Path.Combine(path, "_" + season, episode, "_.xml");
 
+            var titleXML = new Node(titleXMLName);
+
+            Title = titleXML[0]["title"];
+
+            ID = episode;
+
+            Season = new Season { ID = season };
+        }
 
 
 
@@ -23,11 +32,9 @@ namespace Structure.Entities
 
         public String Title { get; set; }
 
-        public Season Season { get; set; }
+        protected List<Scene> SceneList { get; set; }
 
-        public IList<ParagraphType> ParagraphTypeList { get; set; }
-        public IList<Talk> TalkList { get; set; }
-        public IList<Teller> TellerList { get; set; }
+        public Season Season { get; set; }
 
 
 
@@ -36,6 +43,5 @@ namespace Structure.Entities
             return ID;
         }
 
-        public Int32 ParagraphCount { get { return ParagraphTypeList.Count; } }
     }
 }

@@ -1,7 +1,7 @@
 ﻿@model Presentation.Models.SeasonEditEpisodeModel
 
 @{
-    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
+    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Episode.Season, Model.Story.Episode, Model.Story.Episode.Title);
     Layout = "~/Views/Shared/_Layout.cshtml";
     var adderPage = Url.Action("Adder");
     var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin", OnSuccess = "SaveSuccess", OnFailure = "SaveFailure" };
@@ -38,7 +38,7 @@
     @Html.Partial("Suggestion")
         
     <p class="title">
-        @Html.TextBoxFor(m => m.Story.Title)
+        @Html.TextBoxFor(m => m.Story.Episode.Title)
     </p>
 
     <p>

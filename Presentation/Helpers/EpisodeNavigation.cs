@@ -20,8 +20,8 @@ namespace Presentation.Helpers
         {
             xmlPath = xmlPathNavigation;
 
-            var episode = model.Story.ID;
-            var season = model.Story.Season.ID;
+            var episode = model.Story.Episode.ID;
+            var season = model.Story.Episode.Season.ID;
             
             
             episodeList = getEpisodes(season);
@@ -51,9 +51,9 @@ namespace Presentation.Helpers
             var filePath = Path.Combine(xmlPath, "_" + season);
 
             return Directory
-                .GetFiles(filePath, "*.xml")
+                .GetDirectories(filePath)
                 .Select(f =>
-                    f.Substring(f.LastIndexOf(@"\") + 1, 2)
+                    f.Substring(f.LastIndexOf(@"\") + 1)
                 )
                 .ToList();
         }

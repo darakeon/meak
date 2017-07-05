@@ -6,17 +6,17 @@ namespace Presentation.Models
     public class SeasonEpisodeModel : BaseModel
     {
         public SeasonEpisodeModel() {
-            Story = new Episode();
+            Story = new Scene();
         }
 
         public SeasonEpisodeModel(Paths paths) : base(paths)
         {
-            Story = new Episode();
+            Story = new Scene();
             Next = new SeasonEpisode();
             Prev = new SeasonEpisode();
         }
 
-        public Episode Story { get; set; }
+        public Scene Story { get; set; }
 
         public SeasonEpisode Next { get; set; }
         public SeasonEpisode Prev { get; set; }

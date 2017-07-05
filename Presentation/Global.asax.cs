@@ -1,5 +1,9 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.IO;
+using System.Web.Mvc;
 using System.Web.Routing;
+using Ak.DataAccess.XML;
+using Ak.Generic.Exceptions;
 
 namespace Presentation
 {
@@ -27,8 +31,15 @@ namespace Presentation
             
             routes.MapRoute(
                 "Author", // Route name
-                "Author/{controller}/{season}/{action}/{episode}", // URL with parameters
-                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional } // Parameter defaults
+                "Author/{controller}/{season}/{action}/{episode}/{scene}", // URL with parameters
+                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional, scene = UrlParameter.Optional } // Parameter defaults
+            );
+
+
+            routes.MapRoute(
+                "Scene", // Route name
+                "{controller}/{season}/{action}/{episode}/{scene}", // URL with parameters
+                new { controller = "Season", season = UrlParameter.Optional, action = "Index", episode = UrlParameter.Optional, scene = UrlParameter.Optional } // Parameter defaults
             );
 
 

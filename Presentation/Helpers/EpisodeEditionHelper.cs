@@ -5,7 +5,7 @@ namespace Presentation.Helpers
 {
     public class EpisodeEditionHelper
     {
-        public static void CutCharacter(Episode episode)
+        public static void CutCharacter(Scene episode)
         {
             foreach (var talk in episode.TalkList)
             {
@@ -24,7 +24,7 @@ namespace Presentation.Helpers
             }
         }
 
-        public static void PutCharacter(Episode episode)
+        public static void PutCharacter(Scene episode)
         {
             foreach (var talk in episode.TalkList)
             {
