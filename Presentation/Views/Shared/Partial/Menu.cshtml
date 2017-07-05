@@ -1,4 +1,5 @@
 ﻿@model Presentation.Models.BaseModel
+@using Structure.Helpers
 
 @{
     var isAuthor = Structure.Helpers.UrlUserType.IsAuthor(Request.Url);
@@ -8,7 +9,8 @@
     if (isAuthor)
     {
         <div id="save_status" class="darkback">
-            Saved
+            Saved<hr />
+            @Countdown.GetTimeLeft() days
         </div>
         <div class="header lightback">
             @Html.RouteLink("Add Episode", route, new { action = "AddEpisode" })
