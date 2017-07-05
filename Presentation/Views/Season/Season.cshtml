@@ -13,7 +13,7 @@
     @foreach (var episode in Model.EpisodeList)
     {
         <li>
-            <a class="title" href="@Url.Action("Episode", "Season", new { seasonID = Model.Season, episodeID = episode })">
+            <a class="title" href="@Url.RouteUrl("Default", new { action = "Episode", controller = "Season", seasonID = Model.Season, episodeID = episode })">
                 <span class="epCode">@(episode):</span>
                 <span class="epTitle">@episode.Title</span>
             </a>
