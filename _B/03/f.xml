@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="03" scene="f">
 	<teller>
-		<default>Ang olha de volta para Zenon.</default>
+		<default>Mel e Ang se sentam em um banco. Ang olha para Zenon. Mel olha para a bancada.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Aquilo mais parece um pódium.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Bronze dirige os caçadores de um estado, Prata de um país e Ouro do continente. Os da região de Zenon é que vão julgá-lo.</default>
+		<default>Bronze dirige os caçadores de um estado, Prata de um país e Ouro do continente. Os da região de Zenon é que vão julgar.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Como sabe disso?</default>
@@ -16,84 +16,108 @@
 		<default>Eu te falo tudo em casa, o julgamento tá começando.</default>
 	</talk>
 	<teller>
-		<default>Chegam os juízes, vestidos casualmente.</default>
+		<default>Ouro, Prata e Bronze chegam. Todo mundo olha.</default>
 	</teller>
 	<talk character="Ouro">
-		<default>Acusação?</default>
+		<default>Acusador?</default>
+		<translate>Acusação?</translate>
 	</talk>
 	<teller>
 		<default>Soraia levanta na platéia.</default>
 	</teller>
 	<talk character="Ouro">
-		<default>Defesa?</default>
-		<teller>silêncio</teller>
-		<default>Defesa?</default>
+		<default>Defensa?</default>
+		<translate>Defesa?</translate>
 	</talk>
 	<teller>
-		<default>Mel e Ang olham para os lados e não vêm ninguém levantar. Mel se levanta. O Juiz faz sinal para que venham até eles.</default>
-	</teller>
-	<talk character="Soraia">
-		<default>Ela não pode ser a defesa, ela é uma testemunha.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então você não pode ser acusação, está interessada demais na morte dele.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Estiquem os braços direitos.</default>
-	</talk>
-	<teller>
-		<default>Elas esticam os braços. Ele coloca uma pulseira grossa em cada uma, que lhes espeta o braço.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Ai! Pra que isso?!</default>
-	</talk>
-	<talk character="Ouro">
-		<default>Evita que qualquer humano minta.</default>
-	</talk>
-	<teller>
-		<default>É entregue a elas papel e caneta. Os juízes tomam seus lugares.</default>
+		<default>Silêncio. Pessoas olham ao redor.</default>
 	</teller>
 	<talk character="Ouro">
-		<default>Cada uma de vocês terá direito a falar uma vez e apenas uma, com duração máxima de quatro horas. Uma não deve interromper a outra, com penalidade de uma hora por interrupção. A acusação começa, depois a defesa. As objeções devem ser anotadas para depois serem lidas por nós. Daremos o veredicto e esse não poderá ser retirado. Entenderam?</default>
+		<default>Defensa?</default>
+		<translate>Defesa?</translate>
 	</talk>
-	<talk character="Soraia / Mel">
+	<teller>
+		<default>Mel e Ang olham para os lados. Se entreolham. Mel se levanta. Ouro aponta sua frente com as mãos.</default>
+	</teller>
+	<talk character="Soraia">
+		<default>Ela não pode ser a defesa, ela é amiga dele.</default>
+	</talk>
+	<talk character="Mel">
+		<irony>Então você não pode ser acusação, quer demais que Zenon morra.</irony>
+	</talk>
+	<talk character="Ouro">
+		<default>Extiende los brazos derechos.</default>
+		<translate>Estiquem os braços direitos.</translate>
+	</talk>
+	<teller>
+		<default>Mel e Soraia esticam os braços. Ouro coloca uma pulseira grossa em cada braço. A pulseira espeta o braço entre os tendões, se prendendo.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Pra que isso?</default>
+	</talk>
+	<talk character="Ouro">
+		<default>Impide que un ser humano puede mentir.</default>
+		<translate>Impede que um humano possa mentir.</translate>
+	</talk>
+	<teller>
+		<default>Ouro, Prata e Bronze vão até a bancada.Sentam-se Ouro no meio, Prata a sua esquerda e Bronze a direita.</default>
+	</teller>
+	<talk character="Ouro">
+		<default>Cada uno de ustedes tendrá derecho a hablar una vez y sólo una vez, un máximo de cuatro horas. No se debe interrumpir la otra con un tiempo de penalización por la interrupción. La acusación comienza después de la defensa. Las objeciones deben ser registrados y luego ser leídos por nosotros. Vamos a dar el veredicto y que no puede ser eliminado. ¿Entendido?</default>
+		<translate>Cada uma de vocês terá direito a falar uma vez e apenas uma, com duração máxima de quatro horas. Uma não deve interromper a outra, com penalidade de uma hora por interrupção. A acusação começa, depois a defesa. As objeções devem ser anotadas para depois serem lidas por nós. Daremos o veredicto e esse não poderá ser retirado. Entenderam?</translate>
+	</talk>
+	<talk character="Soraia">
 		<default>Sim.</default>
 	</talk>
 	<teller>
-		<default>Soraia relata todas as mortes causadas por Zenon, torturas, cada detalhe de sua vida de massacres: estupros, chacinas, terror, sofrimento e danos ao Grupo. 23:50.</default>
-	</teller>
-	<talk character="Soraia">
-		<default>Então agora ele vem aqui, dizendo-se arrependido. Como já disse, ele usou esse artifício duas vezes para tirar caçadores de seus caminhos. Por que agora ele estaria falando a verdade? Por que acham que um vampiro teria se arrependido do que fez? Ele escolheu isso, ninguém forçou-o a virar o que é. Por que trazer essa cobra para dentro da nossa casa?</default>
-	</talk>
-	<teller>
-		<default>Ang levantara, estava passando mal. Todos na platéia aplaudem Soraia. Ang desmaia. Mel corre até ele, onde se forma uma roda.</default>
+		<default>Ouro olha para Mel.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ang, fala comigo! Foi o Ed... ele que fez alguma coisa?!</default>
+		<default>Ok.</default>
+	</talk>
+	<talk character="Ouro">
+		<default>¿Nombre?</default>
+		<default>Nome?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Melody.</default>
+	</talk>
+	<teller>
+		<default>Duas horas se passam.</default>
+	</teller>
+	<talk character="Soraia">
+		<default>Então agora ele vem aqui, dizendo-se arrependido. Como já disse, ele usou esse artifício duas vezes para tirar caçadores de seus caminhos. Por que agora ele estaria falando a verdade? Por que acham que um vampiro teria se arrependido do que fez? Ele escolheu isso, ninguém forçou ele a virar o que é. Por que trazer essa cobra para dentro da nossa casa?</default>
+	</talk>
+	<teller>
+		<default>A plateia aplaude. Angely coloca a mão na cabeça, na frente da testa. Começa a levantar, acaba caindo no chão. Pessoas se levantam. Mel vai até Angely e se abaixa ao seu lado.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Ang, fala comigo! Edmont fez alguma coisa?!</default>
 	</talk>
 	<talk character="Ang">
-		<hushed>Ira...</hushed>
+		<hushed>Não... Eu só... Tontura...</hushed>
 	</talk>
 	<talk character="Mel">
 		<default>Preciso te tirar daqui!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não, você tem que defender Zenon.</default>
+		<default>Não, você tem que defender Zenon...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Mas...</default>
 	</talk>
 	<talk character="Ang">
-		<default>Tá passando... Posso sair sozinho.</default>
+		<default>Tá passando... Posso sair, você fica...</default>
 	</talk>
 	<teller>
-		<default>Ele levanta-se, ajudado. A mesma pessoa o ajuda a sair. Ele ainda olha para trás e vê Mel olhando-o. Depois que ele sai, todos voltam às cadeiras e Mel volta para a frente. Percebe que Zenon ficou preocupado.</default>
+		<default>Mel ajuda Ang a se levantar. Fábio se aproxima. Mel ajuda Ang a levantar. Ajuda a se apoiar em Fábio, e seguem para a porta. As pessoas voltam a se sentar.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Posso falar com o réu?</default>
+		<default>Posso falar com Zenon?</default>
 	</talk>
 	<talk character="Ouro">
-		<default>Você quem sabe, só tem até as quatro da manhã para defendê-lo.</default>
+		<default>Sólo tienes hasta las cuatro de la mañana para defenderlo.</default>
+		<translate>Só tem até as quatro da manhã para defender ele.</translate>
 	</talk>
 	<teller>
 		<default>Mel vai até Zenon.</default>
@@ -102,7 +126,7 @@
 		<default>Foi o Edmont?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não entendi, mas ele tá bem. Eu não sei como fazer isso...</default>
+		<default>Não entendi, mas tá bem. Eu não sei como fazer isso...</default>
 	</talk>
 	<talk character="Zenon #">
 		<default>Se for pra eu sair daqui, você vai conseguir.</default>
@@ -114,10 +138,10 @@
 		<default>Eles disseram a verdade quando disseram que a pulseira impede mentira.</default>
 	</talk>
 	<teller>
-		<default>Ela se afasta dele, chegando perto dos juízes.</default>
+		<default>Mel se afasta de Zenon, ficando mais perto da bancada, de cabeça baixa.</default>
 	</teller>
 	<talk character="Mel">
-		<thought>A vida dele tá nas minhas mãos... Como eu vou fazer isso? Quatro horas é o que eu vou levar para pensar no que dizer.</thought>
+		<thought>Agora tá nas minhas mãos... Como eu vou fazer isso? Quatro horas é o que eu vou levar para pensar no que dizer.</thought>
 	</talk>
 	<teller>
 		<default>Zenon olha para Mel e se senta na cela.</default>
@@ -126,45 +150,51 @@
 		<thought>Será que morrer no sol dói muito?</thought>
 	</talk>
 	<teller>
-		<default>Mel olha pra todos lá.</default>
+		<default>Mel levanta a cabeça e olha para as pessoas na bancada. Vira-se para a plateia.</default>
 	</teller>
 	<talk character="Mel">
-		<hushed>Estão aqui só para ver ele morrer.</hushed>
+		<hushed>Estão aqui só para ver Zenom morrer.</hushed>
 	</talk>
 	<teller>
-		<default>Ele olha pra ela de novo.</default>
+		<default>Zenon olha pra Mel.</default>
 	</teller>
 	<talk character="Zenon #">
-		<irony>Tá tentando me animar?</irony>
+		<thought>É, acho que vou descobrir hoje.</thought>
 	</talk>
 	<talk character="Mel">
-		<default>É isso, não é? Não importa o que eu vou dizer aqui, vão matá-lo de qualquer jeito. É só isso que vocês querem, menos um vampiro na terra. Não importa se ele está arrependido ou não. Não importa se ele pode ajudar vocês. Nunca aceitariam ajuda de alguém que escolheu o lado errado. Que escândalo, um vampiro está fazendo nosso trabalho! É medo da competição??? Deve ser...</default>
+		<default>É isso, não é? Não importa o que eu vou dizer aqui, vão matar Zenon de qualquer jeito. É só isso que vocês querem, menos um vampir na terra. Não importa se se arrependeu ou não. Não importa se pode ajudar vocês. Nunca aceitariam ajuda de alguém que escolheu o lado errado.</default>
 	</talk>
-	<talk character="CV">
-		<default>Daqui à pouco vai querer que peçamos ajuda a um hamster para impedir uma infestação de camundongos!</default>
+	<talk character="Pedro">
+		<default>Daqui a pouco vai querer que peçamos ajuda a um hamster para impedir uma infestação de camundongos!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Cala a boca, droga! Não estou falando de seres irracionais aqui! Estou falando de alguém que pode ser treinado a fazer bem mais que um hamster, desculpe se você não consegue isso.</default>
+		<default>Não estou falando de seres irracionais aqui. Estou falando de alguém que pode ser treinado a fazer bem mais que um hamster.</default>
 	</talk>
 	<teller>
 		<default>Mel olha para os juízes.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Devem achar que eu tô mentindo. Atuando. Ah, não, eu não posso mentir, não é? E atuação é uma forma de mentira. Afinal, eu tô com essa bosta no meu pulso. Pra que? Pra vocês deixarem ele aqui para fritar? Posso falar oito horas e não vai entrar na cabeça de vocês o que é arrependimento. O que é perdão. Então vocês vão para suas casas, deitar as cabeças em seus travesseiros, sossegados. É claro, ele matou mais de mil pessoas, ou sei lá, mais de dez mil! Mas será que ele não salvou ninguém? Será que ele não pode salvar ninguém? Pode ser que ele vá pro inferno quando morrer, mas será que ele não pode mandar alguns dos que fazem o que ele fazia pra lá antes? Há vidas perdidas por aí.</default>
+		<default>Devem achar que eu tô mentindo. Atuando. Ah, não, eu não posso mentir, não é? E atuação é uma forma de mentira. Afinal, eu tô com essa bosta no meu pulso. Pra que? Pra vocês deixarem Zenon aqui para fritar? Posso falar oito horas e não vai entrar na cabeça de vocês o que é arrependimento. O que é perdão. Então vocês vão para suas casas, deitar as cabeças em seus travesseiros, em paz. É claro, matou mais de mil pessoas, ou sei lá, mais de dez mil! Mas será que não salvou ninguém? Será que não pode salvar ninguém? Pode ser que vá pro inferno quando morrer, mas será que não pode mandar alguns dos que fazem o que fazia pra lá antes? Há vidas perdidas por aí.</default>
 		<teller>Mel vira para a platéia</teller>
-		<default>Vocês mesmos poderiam estar salvando pessoas, se não estivessem aqui vendo esse estúpido julgamento e esperando para ver alguém fritar! Que droga, por que essa platéia tão grande pra ver isso??? Parece mesmo que o mundo está livre dos vampiros, que vocês não têm mais o que fazer!</default>
+		<default>Vocês mesmos poderiam estar salvando pessoas, se não estivessem aqui vendo essa merda de julgamento e esperando para ver alguém fritar! Que droga, por que essa plateia tão grande pra ver isso?! Parece mesmo que o mundo está livre de vampirs, que vocês não têm mais o que fazer!</default>
 	</talk>
 	<teller>
-		<default>Ela se vira de volta para os juízes.</default>
+		<default>Mel se vira de volta para a bancada.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Se forem matar ele, ótimo. Me expliquem antes porque não deixar ele tentar ajudar. Eu até me responsabilizo. Se ele sair da linha, eu mesma irei atrás dele e o coloco numa posição amarrado com uma cobertura em cima que ele comece a fritar de manhã e só termine ao meio dia. Tudo que quero é um chance pra ele.</default>
+		<default>Se forem matar Zenon, ótimo. Me expliquem antes porque não deixar tentar ajudar. Eu até me responsabilizo. Se sair da linha, eu vou e coloco numa posição amarrado com uma cobertura em cima, que comece a fritar de manhã e só termine ao meio dia. Tudo que quero é um chance.</default>
 	</talk>
 	<teller>
-		<default>Mel se vira para a platéia e alguns estão indo embora, outros se levantando. Sai dali também. Lá fora, Fábio segura o braço dela.</default>
+		<default>Mel se vira para a platéia e alguns estão indo embora, outros se levantando. Sai pela porta, andando rápido.</default>
 	</teller>
 	<talk character="Fábio">
-		<default>Seu amigo, ele sumiu...</default>
+		<default>Melody!</default>
+	</talk>
+	<teller>
+		<default>Mel olha para Fábio.</default>
+	</teller>
+	<talk character="Fábio">
+		<default>Angely sumiu...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Como sumiu?!</default>
@@ -176,30 +206,31 @@
 		<default>Droga... Mais essa agora.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Ele disse que ia salvar alguém.</default>
+		<default>Disse que ia salvar alguém.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Salvar?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Não é você que tava falando lá na frente?</default>
+		<default>Sobre Zenon... Melhor não se enganar...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sim.</default>
+		<default>Eu sei que vocês...</default>
 	</talk>
+	<teller>
+		<default>Fábio baixa a cabeça.</default>
+	</teller>
 	<talk character="Fábio">
-		<default>Não se engane.</default>
-		<teller>baixa a cabeça</teller>
-		<default>Já vi ele fazer isso uma vez.</default>
+		<default>Já vi fazer isso uma vez.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Isso o que?</default>
 	</talk>
 	<teller>
-		<default>Ele olha de volta para ela.</default>
+		<default>Fábio olha para Mel.</default>
 	</teller>
 	<talk character="Fábio">
-		<default>Soraia disse a verdade quando falou que ele já desviou dois caçadores enganando desse jeito. Só que ele nunca chegou a ser defendido tanto, nem a ser pego.</default>
+		<default>Soraia disse a verdade quando falou que Zenon já desviou duas pessoas enganando desse jeito. Só que nunca tinham pego, nem tinha quem defendesse.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Dessa vez é verdade, eu sei...</default>
@@ -214,46 +245,63 @@
 		<default>Não.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Não vou tentar te dissuadir agora. Sei que não há como. Se, por muita sorte dele, ele for absolvido, não vai te enganar por muito mais tempo. Ele se cansa rápido. Mantenha ele longe da sua família.</default>
+		<default>Não vou tentar te dissuadir agora. Sei que não tem como. Se, por muita sorte de Zenon, houver absolvição, não vai te enganar por muito mais tempo. Se cansa rápido. Mantenha longe da sua família.</default>
 	</talk>
 	<teller>
-		<default>Fábio sai. Mel volta para o lugar. Apenas estão presentes agora os juízes e Soraia, fora Zenon que estava preso, é claro. Ela vai até eles.</default>
+		<default>Fábio sai. Mel volta para dentro. Sobraram Ouro, Prata, Bronze, Soraia e Zenon.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Vão deixá-lo?</default>
+		<default>Vão deixar Zenon?</default>
 	</talk>
 	<talk character="Prata">
+		<default>No hemos decidido todavía. Tenemos cuatro horas más a la misma.</default>
 		<default>Ainda não decidimos. Temos mais quatro horas pra isso.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pode tirar isso do meu braço? Incomoda um pouco...</default>
+		<default>Pode tirar isso do meu braço?</default>
 	</talk>
 	<talk character="Ouro">
-		<default>Não abre, só se destrói no sol.</default>
+		<default>No se abre, sólo destruye el sol.</default>
+		<translate>Não abre, só se destrói no sol.</translate>
 	</talk>
 	<teller>
-		<default>Mel olha pra Zenon. Este está pensativo, naquela jaula. Lembrando de tudo que passara, da vida que teve. Olha pra Mel. Lembra do pouco tempo que estivera com ela.</default>
+		<default>Mel olha pra Zenon. Zenon está olhando para o teto. Olha para Mel.</default>
 	</teller>
 	<talk character="Zenon #">
-		<thought>Acho que estou ficando idiota. Só pode... Deve ser a morte chegando. Essa espera, parece que querem me torturar. Como se não merecesse! Pelo menos eu tô indo antes de acontecer algo entre eu e ela. Não vai sofrer... É, eu continuo prepotente.</thought>
+		<thought>Acho que estou ficando idiota. Só pode... Deve ser a morte chegando. Essa espera, parece que querem me torturar.</thought>
+	</talk>
+	<teller>
+		<default>Zenon olha para o teto.</default>
+	</teller>
+	<talk character="Zenon #">
+		<default>Como se não merecesse! Pelo menos eu tô indo antes de acontecer algo entre eu e ela. Não vai sofrer...</default>
+	</talk>
+	<teller>
+		<default>Zenon olha para Melody, que se virou para as outras pessoas.</default>
+	</teller>
+	<talk character="Zenon #">
+		<default>É, eu continuo prepotente.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Ainda acho que temos que chamar outros caçadores, podem querer tirar ele daqui...</default>
 	</talk>
 	<talk character="Bronze">
-		<default>Nós ainda nem sabemos se vamos condená-lo.</default>
+		<default>Ni siquiera sabemos si condenamos Zenon.</default>
+		<translate>Nós ainda nem sabemos se vamos condenar Zenon.</translate>
 	</talk>
 	<talk character="Prata">
-		<default>Vocês duas ficam cuidando dele, nós vamos nos reunir e decidir isso.</default>
+		<default>Vocês aqui tomando conta, nós vamos nos reunir e decidir isso.</default>
+		<translate>Estás aquí asumiendo el control, nos juntamos y decidimos que.</translate>
 	</talk>
 	<talk character="Soraia">
 		<default>Esqueceu que ela tá do lado dele?!</default>
 	</talk>
 	<talk character="Ouro">
-		<default>Chama o Fábio. E não briguem.</default>
+		<default>Llama Fabio. Y sin peleas.</default>
+		<translate>Chama Fábio. E sem brigas.</translate>
 	</talk>
 	<teller>
-		<default>Os três saem. Soraia encara Mel.</default>
+		<default>Ouro, Prata e Bronze saem. Soraia encara Mel.</default>
 	</teller>
 	<talk character="Soraia">
 		<default>Parece que vamos ter que ficar aqui.</default>
@@ -270,7 +318,7 @@
 		<default>Acho que foi pra casa.</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Alô, Fábio? ### Vem pra cá. ### Adivinha. ### Se eu gritar, faz eco. ### É claro que precisa. Traga quem puder. ### Vai querer que os amigos dele venham buscá-lo, matem nós duas e ainda livrem a cara desse...?</default>
+		<default>Alô, Fábio? ### Vem pra cá. ### Adivinha. ### Se eu gritar, faz eco. ### É claro que precisa. Traga quem puder. ### Vai querer que os amigos dele venham buscá-lo, matem a gente e ainda livrem a cara desse...?</default>
 		<teller>olha pra Mel</teller>
 		<default>Tô te esperando aqui.</default>
 	</talk>
@@ -290,45 +338,25 @@
 		<default>E daí?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, as pessoas às vezes descobrem que estão com uma doença fatal, mas não tem uma hora marcada assim. Você não olha no relógio e diz "ah, eu tenho três dias, quatro horas, vinte minutos e treze segundos de vida ainda!". Não imagino realmente algo pior que isso.</default>
+		<default>Bom, as pessoas às vezes descobrem que estão com uma doença fatal, mas não tem uma hora marcada assim. Você não olha no relógio e diz "ah, eu tenho três dias, quatro horas, vinte minutos e treze segundos de vida ainda!".</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Já vi coisas piores que isso.</default>
+		<default>Talvez seja melhor que correr, sabendo que não tem chance de sobreviver, mas correr mesmo assim, porque é seu instinto e no fundo você ainda tem alguma esperança.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu não.</default>
+		<default>Esperanças que sabemos que não deveríamos ter são as piores.</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Nunca deve ter visto alguém correr sabendo que não tem chance de sobreviver, mas correndo mesmo assim, porque é seu instinto e no fundo você ainda tem alguma esperança.</default>
+		<default>Tenho impressão de que já passou por merda bem grande também.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não sei o que é isso, mas sei o que é ter um instinto mais forte que você e ter que matar alguém que talvez você goste.</default>
+		<default>Acho que fui quem mais passou, mas não é como se as pessoas ao meu redor tivessem uma história de vida bonitinha e feliz.</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Gostou de um vampiro?</default>
+		<default>Como vieram para nisso?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não sabia que era vampiro. Eu tinha acabado de...</default>
-		<teller>pára</teller>
-		<default>Bom, eu tava numa grande encrenca e ele me ajudou.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Então virou seu príncipe encantado, acertei?</default>
-	</talk>
-	<talk character="Mel">
-		<default>É. Fiquei dois anos com ele e ele sumiu de repente.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Talvez nessa época tenha virado vampiro.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Já era antes.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>E por quê não te transformou?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ele já tinha outra em mente. Dois anos depois o reencontrei. Ele matou uma namorada do Ang. Sumiu por quatro anos e reapareceu. Edmont o transformou em pó.</default>
+		<default>Um cara matou as pessoas que criaram Kat, e quem criou Edmont e Angely. Sumiu por quatro anos e reapareceu. Edmont o transformou em pó.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Não teve coragem?</default>
@@ -342,80 +370,56 @@
 	<talk character="Mel">
 		<default>Atinjo de perto. É o único jeito.</default>
 	</talk>
-	<teller>
-		<default>Fábio chega.</default>
-	</teller>
 	<talk character="Fábio">
-		<default>E aí, algum sinal de decisão?</default>
+		<arrive>E aí, algum sinal de decisão?</arrive>
 	</talk>
 	<talk character="Soraia">
 		<default>Acho que eles simplesmente vão nos deixar aqui, plantados como idiotas, até o sol nascer. Isso se a vagaba francesa não aparecer por aqui.</default>
 	</talk>
-	<talk character="Fábio">
-		<default>Soraia!</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Os pais dela adotivos são franceses!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ah, não, tudo bem, eu sei que ela tá se referindo ao fato de ser uma vampira.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>É que homem tem o dobro dos nossos neurônios, mas cada quatro deles não consegue fazer o trabalho de um nosso.</default>
-	</talk>
 	<teller>
-		<default>Alan aparece.</default>
+		<default>Alan entra no espaço.</default>
 	</teller>
 	<talk character="Soraia">
-		<default>Que está fazendo aqui, foi expulso!</default>
+		<default>Falando nela... Que veio fazer aqui? Foi expulso.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Vim ver ele ser condenado. Me deixaram ver pelo menos isso. Cadê os outros caçadores?</default>
 	</talk>
-	<teller>
-		<default>Soraia fica calada.</default>
-	</teller>
 	<talk character="Fábio">
-		<default>Eles foram embora, tinham mais o que fazer.</default>
+		<default>Foram embora, tinham mais o que fazer.</default>
 	</talk>
 	<talk character="Alan">
 		<default>E vocês não têm?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Temos que cuidar do vampiro.</default>
+		<default>Temos que cuidar de Zenon.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Você é que parece que não tem mais o que fazer, por quê não vai procurar Clítia? Uma noite a mais não vai fazer diferença.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Era por isso que queria tanto prender Zenon?! Ela quem mandou?!</default>
+		<default>Era por isso que queria tanto prender Zenon?! Clítia quem mandou?!</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Não, ela deve ter transado com ele em troca da liberdade de Zenon.</default>
+		<default>Não, ela deve ter trepado com ele em troca da liberdade de Zenon.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Como ele poderia libertar Zenon?</default>
+		<default>Como poderia libertar Zenon?</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Quem acusa executa o acusado em caso de culpa. Eu escolhi assistir o nascer do sol com ele.</default>
+		<default>Quem acusa executa o acusado em caso de culpa. Eu escolhi assistir o nascer do sol junto.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Não estou a serviço da Clítia, foi uma fraqueza, eu sou homem!</default>
 	</talk>
 	<teller>
-		<default>Soraia e Mel ficam indignadas e vão brigar com Alan, quando Fábio segura elas.</default>
+		<default>Fábio dá um soco em Alan.</default>
 	</teller>
-	<talk character="Fábio">
-		<default>Não devem fazer nada.</default>
+	<talk character="Alan">
+		<default>Que merda foi essa agora?!</default>
 	</talk>
-	<teller>
-		<default>Fábio dá um soco na cara de Alan.</default>
-	</teller>
 	<talk character="Fábio">
-		<default>Não seria bom sujarem suas mãos.</default>
+		<default>Tomou um soco por todo mundo que trepou comigo achando que ter pinto e sentimentos não acontece no mesmo corpo.</default>
 	</talk>
 	<teller>
 		<default>Alan se levanta.</default>
@@ -433,10 +437,10 @@
 		<default>Quer mesmo descobrir?</default>
 	</talk>
 	<talk character="Zenon #">
-		<default>Eu não vou matar ninguém!</default>
+		<default>Ei, eu não vou matar ninguém!</default>
 	</talk>
 	<teller>
-		<default>Os três se afastam de Alan. Mel vai sentar sozinha num canto, enquanto Soraia e Fábio ficam num outro lado e Alan fica perto da gaiola.</default>
+		<default>Soraia senta em um banco, olhando para a saída. Fábio fica perto de Soraia. Mel se senta no chão, do outro lado do cercado. Alan se senta também no chão, perto e de frente para a gaiola.</default>
 	</teller>
 	<talk character="Zenon #">
 		<default>Dormiu com Clítia?</default>
@@ -445,7 +449,7 @@
 		<irony>Não sabia que vampiros tinham ciúmes.</irony>
 	</talk>
 	<talk character="Zenon #">
-		<default>Não é ciúmes. Apenas não deixe que ela te engane.</default>
+		<default>Não é ciúmes. Apenas não deixe que te engane.</default>
 	</talk>
 	<talk character="Alan">
 		<default>É a única coisa que vocês sabem fazer.</default>
@@ -466,6 +470,18 @@
 		<default>Tome cuidado pra não perder alguém que realmente ama por causa de paixão.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Não estou apaixonado por ela. Foi uma noite!</default>
+		<screamed>Não estou apaixonado por ela! Foi uma noite! Que merda, ninguém entende isso???</screamed>
+	</talk>
+	<teller>
+		<default>Fábio olha para Alan. Balança a cabeça para os lados. Volta a olhar para além da porta. Alan se levanta.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Peraí, por quê tô me explicando com você???</default>
+	</talk>
+	<talk character="Zenon #">
+		<default>Porque vou morrer e talvez esteja enxergando as coisas mais claramente?</default>
+	</talk>
+	<talk character="Alan">
+		<default>Então aproveite os seus últimos momentos de vida pra refletir, de preferência calado.</default>
 	</talk>
 </story>
