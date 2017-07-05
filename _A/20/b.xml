@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <story season="A" episode="20" scene="b">
 	<teller>
-		<default>Atualmente</default>
+		<division>Atualmente</division>
 		<default>Katerine chega a MEAK. Bate na porta. Passos. Chaves. Mel abre a porta.</default>
 	</teller>
 	<talk character="Kat">
@@ -184,7 +184,6 @@
 	<talk character="Derik">
 		<default>Agora fodeu.</default>
 	</talk>
-	
 	<teller>
 		<default>Toca o telefone na casa de Kat. Kat vai pegar, Agatha corre e atende.</default>
 	</teller>
@@ -230,10 +229,9 @@
 	<teller>
 		<default>Kat desliga o telefone. Barulho de carro.</default>
 	</teller>
-	<talk character="">
+	<talk character="Kat">
 		<screamed>Agatha! Espera!</screamed>
 	</talk>
-	
 	<teller>
 		<first>MEAK. Kat entra no quarto. Olha para Derik, que ainda está no chão. Olha para Angely. Agatha chega. Se aproxima da cama. Kat segurea seu braço, mas Agatha se faz soltar. Derik sai da parede onde estava e puxa Kat mais para o lado da porta. Kat volta para o lado da parede. Agatha encosta em Angely e também toma o tranco, mas Kat segura.</first>
 	</teller>
@@ -264,7 +262,6 @@
 	<talk character="Mel">
 		<default>Tenta.</default>
 	</talk>
-	
 	<teller>
 		<default>Kat se aproxima. Toca. Nada. Derik se aproxima. Mel segura seu braço.</default>
 	</teller>
@@ -290,7 +287,8 @@
 		<default>Não sei. Acabei de te dar toda a informação que tinha.</default>
 	</talk>
 	<teller>
-		<division>Antes</division><default>Mel está na cozinha, bebendo de um copo. Termina o que está no copo, vira para lavar na pia. Lava o copo e coloca na lateral direita da pia.</default>
+		<division>Antes</division>
+		<default>Mel está na cozinha, bebendo de um copo. Termina o que está no copo, vira para lavar na pia. Lava o copo e coloca na lateral direita da pia.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>E aí?</default>
@@ -322,14 +320,18 @@
 	<talk character="Mel">
 		<default>Essa sua necessidade de se provar às vezes é cômica, às vezes é irritante.</default>
 	</talk>
-	<teller><default>Zenon cruza os braços.</default></teller>
+	<teller>
+		<default>Zenon cruza os braços.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Que necessidade de...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Acha que não sei que disse isso porque Rust tinha acabado de te derrubar?</default>
 	</talk>
-	<teller><default>Zenon solta os braços.</default></teller>
+	<teller>
+		<default>Zenon solta os braços.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Onde as pessoas descobrem essas coisas?!</default>
 	</talk>
@@ -369,15 +371,98 @@
 	<talk character="Zenon">
 		<default>Por que Ísis não foi atrás de caça-vampiros?</default>
 	</talk>
-	<teller><default>Zenon desfranze a testa e abre mais os olhos.</default></teller>
+	<teller>
+		<default>Zenon desfranze a testa e abre mais os olhos.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Angely! Angely vai me ajudar!</default>
 	</talk>
-	<teller><default>Zenon coloca a mão entre o queixo e a boca.</default></teller>
+	<teller>
+		<default>Zenon coloca a mão entre o queixo e a boca.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Só precisa ser um plano que não precise matar ou mentir.</default>
 	</talk>
 	<teller>
-		<default>Zenon levanta do sofá e sobe a escada.</default>
+		<first>Zenon e Angely chegam na casa da Ísis. Bate na porta. Ísis abre.</first>
 	</teller>
+	<talk character="Ísis">
+		<default>Não é querendo desdenhar,</default>
+		<default>olha para Angely</default>
+		<default>inclusive adoro as músicas de vocês,</default>
+		<default>olha para Zenon</default>
+		<default>mas essa é toda a ajuda que trouxe?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Talvez o irmão venha.</default>
+	</talk>
+	<talk character="Ísis">
+		<irony>E aí eles vão cantar até a Virgine morrer?</irony>
+	</talk>
+	<talk character="Angely">
+		<default>Me trouxe contando com Edmont?</default>
+	</talk>
+	<talk character="Ísis">
+		<default>Não sei se conhece Virgine, mas se seu nplano era isca, devia ter trazido a Melody.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Ninguém vai ser usado de isca aqui. O irmão dele é vampiro.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Trouxe.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Não foi exatamente isso... Você é forte... É essa coisa de você não matar...</default>
+	</talk>
+	<talk character="Ísis">
+		<default>Se o irmão dele é vampiro, eu tô meio na dúvida do que exatamente você tá querendo matar...</default>
+	</talk>
+	<talk character="Zenon">
+		<default>A gente pode entrar?</default>
+	</talk>
+	<teller>
+		<default>Ísis dá espaço. Zenon e Angely entram. Ísis olha ao redor. Fecha a porta. Zenon senta-se no sofá. Angely encosta em um canto.</default>
+	</teller>
+	<talk character="Ísis">
+		<default>Qual o plano?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Fazer um plano.</default>
+	</talk>
+	<teller>
+		<default>Ísis cruza os braços.</default>
+	</teller>
+	<talk character="Ísis">
+		<default>Parece bom. E o plano B?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Irmos até Virgine tacando fogo em tudo no caminho?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Pretende atrair Edmont por me colocar em risco.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Não! Claro que não! Você me salvou já... Eu...</default>
+	</talk>
+	<teller>
+		<default>Ísis encara Zenon.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Ele é imortal, tá?! Não me olha com essa cara!</default>
+	</talk>
+	<talk character="Ísis">
+		<default>Isso é...?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Teria que matar Edmont junto.</default>
+	</talk>
+	<talk character="Ísis">
+		<default>Se atrair você dois...</default>
+	</talk>
+	<talk character="Angely">
+		<default>Sim.</default>
+	</talk>
+	<talk character="Virgine">
+		<arrive>Era isso que eu precisava saber.</arrive>
+	</talk>
 </story>
