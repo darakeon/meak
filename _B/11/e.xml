@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="11" scene="e">
 	<teller>
-		<default>No dia seguinte (sexta – 06/06), 20:00, Zenon chega na MEAK, esbarrando com Fábio.</default>
+		<default>Dia seguinte. Noite. Zenon chega na MEAK, Fábio está saindo, esbarram. Fábio encara Zenon. Zenon baixa a cabeça.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Beatrice tá aí?</default>
@@ -10,7 +10,7 @@
 		<default>Não devia estar treinando Michele?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ela me liberou pra falar com a Beatrice.</default>
+		<default>Me liberou pra falar com Beatrice.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Lá em cima. Que fez com ela?</default>
@@ -19,67 +19,79 @@
 		<default>Ah... Eu... Eu e ela...</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Se tiver vindo dizer que foi um erro e toda a besteirada que homens inventam pra se livrar, juro que leva uma surra e nem a Mel me segura, entendeu?!</default>
+		<default>Se tiver vindo dizer que foi um erro e toda a besteirada que homens inventam pra se livrar, juro que leva uma surra e nem Mel me segura.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Relaxa, hoje é sexta, vai se divertir...</default>
 	</talk>
 	<teller>
-		<default>Zenon sobe. Fábio não gosta do comentário e volta à recepção. Derik está lendo um livro e não tira os olhos deste.</default>
+		<default>Zenon sobe. Fábio balança a cabeça para os lados. Volta para dentro. Derik está lendo um livro no sofá.</default>
 	</teller>
 	<talk character="Fábio">
 		<default>Derik, não notou nada estranho nele?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Sim, parecia bêbado.</default>
+		<default>Sim, parecia embriaguez.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Bêbado?!</default>
+		<default>Embriaguez?!</default>
 	</talk>
 	<talk character="Derik">
-		<default>É. Deve ter bebido pra vir falar com a Beatrice.</default>
+		<default>É. Deve ter bebido pra vir falar com Beatrice.</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Então ela te contou o que aconteceu?</default>
 	</talk>
+	<teller>
+		<default>Derik olha para Fábio.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Eles transaram, ela quebrou uma vassoura nele quando ele a acordou e ameaçou atravessá-lo com a vassoura, não pelo coração.</default>
+		<default>Transaram, Beatrice quebrou uma vassoura em Zenon quando Zenon acordou Beatrice e ameaçou atravessar Zenon com a vassoura, não pelo coração.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Nossa. Se é só briga de casal, não vou me meter.</default>
+		<default>Nossa. Isso é briga de casal nível vampiros? Ou a gente devia...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Eu vou continuar falando com Beatrice para descobrir.</default>
 	</talk>
 	<teller>
-		<default>Fábio vai até a porta.</default>
+		<default>Fábio vai até a porta. Derik volta para o livro.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Boa caça.</default>
 	</talk>
 	<teller>
-		<default>Ele olha pra Derik.</default>
+		<default>Fábio olha pra Derik.</default>
 	</teller>
 	<talk character="Fábio">
 		<default>Primeiro que não vou sair pra me divertir como ele recomendou, segundo que chamar isso de caça é meio vulgar.</default>
 	</talk>
+	<teller>
+		<default>Derik olha para Fábio.</default>
+	</teller>
 	<talk character="Derik">
 		<default>Tá armado.</default>
 	</talk>
 	<teller>
-		<default>Fábio olha pra baixo. Derik o encara.</default>
+		<default>Fábio olha pra baixo. Olha de volta para Derik. Derik encara Fábio.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Quer desencanar? Tô falando da estaca. A que enfia nos vampiros. Tá, eu tô tentando falar algo que não tenha duplo sentido, mas tá difícil, o que quero dizer é que...</default>
+		<default>Tô falando da estaca. A que enfia nos vampiros. Tá, eu tô tentando falar algo que não tenha duplo sentido, mas tá difícil, o que quero dizer é que...</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Tá, já entendi. Obrigado.</default>
 	</talk>
 	<teller>
-		<default>Derik volta ao livro e Fábio sai. Poucos minutos depois, na cidade, uma garota está encolhida no chão.</default>
+		<default>Derik volta ao livro. Fábio sai.</default>
+	</teller>
+	<teller>
+		<first>Ares. Joana está no chão, se encolheu.</first>
 	</teller>
 	<talk character="Zenon">
-		<default>Olha, não vai adiantar ficar aí encolhida, uma hora vai ter que me dizer onde é sua casa...</default>
+		<default>Olha, não vai adiantar ficar aí encolhida, uma hora vai ter que me dizer onde é sua casa... Eu preciso te levar, o vampiro fugiu, pode voltar aqui...</default>
 	</talk>
 	<teller>
-		<default>Zenon percebe algo estranho. Se vira e vê Fábio.</default>
+		<default>Zenon franze a testa. Se vira.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Pode me ajudar, ela acha que vou...</default>
@@ -101,10 +113,10 @@
 		<default>Fábio aponta a arma pra ele.</default>
 	</teller>
 	<talk character="Zenon">
-		<irony>Legal. Vai me matar aqui ou levar pra viagem?</irony>
+		<irony>Vai me matar aqui ou levar pra viagem?</irony>
 	</talk>
 	<talk character="Fábio">
-		<default>Garota, você tá bem? Ele te fez algo?</default>
+		<default>Criança, você tá bem? Zenon te fez algo?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Tá vendo? Se eu fosse ele, tava usando a garota de escudo.</default>
@@ -112,7 +124,7 @@
 	<talk character="Fábio">
 		<default>Aí ia deixar na cara que é você.</default>
 	</talk>
-	<talk character="garota">
+	<talk character="Joana">
 		<default>Ele tem... Dentes...</default>
 	</talk>
 	<talk character="Zenon">
@@ -120,13 +132,16 @@
 		<default>Você já tá me enchendo, sabia???</default>
 	</talk>
 	<teller>
-		<default>A garota corre pra trás de Fábio.</default>
+		<default>A garota corre para trás de Fábio.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Já tive um enchimento de saco de manhã, agora mais essa...</default>
 	</talk>
 	<teller>
-		<default>Zenon toma com a estaca no estômago. Desmaia. Acorda acorrentado.</default>
+		<default>Zenon toma com a estaca no estômago. Desmaia.</default>
+	</teller>
+	<teller>
+		<first>Zenon abre os olhos. Vê Fábio. Tenta se mexer. Está com correntes.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Onde estamos?</default>
@@ -150,7 +165,7 @@
 		<default>Não disse que era Clítia?</default>
 	</talk>
 	<talk character="Caio">
-		<default>Ela vem se souber que está aqui.</default>
+		<default>Ela vem se souber que você está aqui.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Peraí, você deduziu que sou o outro, isso quer dizer que o outro está...</default>
@@ -159,13 +174,13 @@
 		<default>Não vai me fazer de idiota de novo.</default>
 	</talk>
 	<teller>
-		<default>Mel está no quarto, deitada. Levanta-se, sai e bate na porta do quarto de Beatrice. Ouve alguém cair da cama.</default>
+		<first>Mel está no quarto, deitou-se na cama. Levanta-se, sai e bate na porta do quarto de Beatrice. Ouve um barulho de algo pesado batendo no chão.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Desculpa!</default>
+		<screamed>Desculpa!</screamed>
 	</talk>
 	<teller>
-		<default>Ela continua andando. Desce a escada. Kat e Estela acabam de chegar.</default>
+		<default>Mel continua andando. Desce a escada. Kat e Estela entram.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Antes que pergunte, Derik tá tomando banho.</default>
@@ -174,16 +189,16 @@
 		<default>Kat sobe correndo.</default>
 	</teller>
 	<talk character="Mel">
-		<screamed>Com a porta trancada!</screamed>
+		<screamed>Com a porta trancada! Beatrice tá no próprio quarto!</screamed>
 	</talk>
 	<talk character="Estela">
-		<default>Acho que ela arromba.</default>
+		<default>Talvez a gente tenha que trocar a porta. Por uma inteira.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não disseram que não trabalhavam na sexta?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Não estávamos trabalhando.</default>
+		<default>A gente não tava trabalhando.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Tá um tédio essa casa.</default>
@@ -195,7 +210,7 @@
 		<arrive>Tô me sentindo um inútil.</arrive>
 	</talk>
 	<teller>
-		<default>Estela fica pálida</default>
+		<default>Estela empalidece e olha para Alan.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Por quê?</default>
@@ -240,29 +255,33 @@
 		<default>Alô?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Não deveria atender dizendo que é da agência?</default>
+		<out>Não deveria atender dizendo que é da agência?</out>
 	</talk>
 	<talk character="Alan">
 		<default>Que seja.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Vou te dar um endereço, pode vir até aqui e trazer a Mel?</default>
+		<out>Vou te dar um endereço, pode vir até aqui e trazer Mel?</out>
 	</talk>
 	<talk character="Alan">
 		<default>Se eu encontrar, levo.</default>
 	</talk>
 	<teller>
-		<default>Os dois chegam onde estão Fábio, Zenon e Caio.</default>
+		<first>Mel, Fábio, Alan e Caio estão em uma sala. Zenon continua em correntes.</first>
 	</teller>
 	<talk character="Alan">
 		<default>E se for mesmo o que tá lá?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Como pegou ele?</default>
+		<default>Como pegou?</default>
 	</talk>
 	<talk character="Zenon">
 		<irony>Ele foi muito gentil, tá vendo o furo no meu estômago?</irony>
-		<teller>olha para o próprio estômago</teller>
+	</talk>
+	<teller>
+		<default>Zenon olha para o próprio estômago.</default>
+	</teller>
+	<talk character="Zenon">
 		<irony>Olha só, tá cicatrizando, não quer fazer outro?</irony>
 	</talk>
 	<talk character="Fábio">
@@ -278,7 +297,7 @@
 		<default>Sei lá. Do jeito que é, pode ser que vá até em casa e...</default>
 	</talk>
 	<teller>
-		<default>Minutos depois, Mel bate à porta de Beatrice.</default>
+		<default>Mel bate na porta de Beatrice.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Zenon, cê tá aí?</default>
@@ -290,13 +309,13 @@
 		<hushed>Pelo menos dessa vez pegou numa hora que estávamos descansando...</hushed>
 	</talk>
 	<talk character="Mel">
-		<default>Preciso que ele venha comigo.</default>
+		<default>Preciso que Zenon venha comigo.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Pra quê?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Calma, eu trago de volta.</default>
+		<default>Eu trago de volta.</default>
 	</talk>
 	<teller>
 		<default>Zenon vem até a porta, só de calça.</default>
@@ -305,13 +324,19 @@
 		<default>Se não gosta de sair sem cueca, vai se vestir.</default>
 	</talk>
 	<teller>
-		<default>Ele volta. Beatrice sai e fecha a porta.</default>
+		<default>Zenon volta. Beatrice sai e fecha a porta.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Como sabia que...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Homem tem essa mania e descobri pelo barulho. E aí, vocês realmente...</default>
+		<default>Não faz muito tempo que vocês tão descansando, faz?</default>
+	</talk>
+	<teller>
+		<default>Beatrice olha para baixo.</default>
+	</teller>
+	<talk character="Mel">
+		<default>E vocês?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Bom, estamos tentando.</default>
@@ -320,16 +345,7 @@
 		<default>Não tô falando de sexo.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Eu também não, e nesse quesito não precisamos ficar tentando tanto...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Espero que dê certo. Depois a gente espera a Estela crescer e joga ela em cima do Alan que tá tudo certo.</default>
-	</talk>
-	<talk character="Bea">
-		<default>E você?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vou continuar sendo a mamãe que dá quando quer, pra quem quer.</default>
+		<default>Eu também não. E nesse quesito não precisamos ficar tentando... Só vai...</default>
 	</talk>
 	<teller>
 		<default>Zenon sai.</default>
@@ -341,7 +357,10 @@
 		<default>Vem.</default>
 	</talk>
 	<teller>
-		<default>Os dois saem. No meio do caminho...</default>
+		<default>Mel sai. Zenon segue.</default>
+	</teller>
+	<teller>
+		<first>Ares. Zenon continua seguindo Mel.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Onde vamos?</default>
@@ -350,76 +369,82 @@
 		<default>Vai ficar perguntando?</default>
 	</talk>
 	<teller>
-		<default>Ele se cala.</default>
+		<default>Zenon olha para o outro lado.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Encontraram o outro. Se for o outro. Queremos saber qual dos dois é qual.</default>
 	</talk>
 	<teller>
-		<default>Zenon pára, Mel também.</default>
+		<default>Zenon para.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Ououou, como assim???</default>
 	</talk>
-	<talk character="Mel">
-		<default>Vai ser fácil descobrir quando colocar um do lado do outro.</default>
-	</talk>
 	<teller>
-		<default>Os dois continuam. Chegam onde estava Fábio.</default>
+		<default>Mel para e olha para Zenon.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Já estou desconfiada de quem é o verdadeiro.</default>
-	</talk>
-	<talk character="Zenon amarrado">
-		<default>Verdadeiro?! Me poupe, isso não foi uma clonagem, ou multiplicação, os dois são verdadeiros, só que um de cada lugar.</default>
+		<default>Vai ser fácil descobrir quando colocarmos lado a lado.</default>
 	</talk>
 	<teller>
-		<default>Fábio pega uma estaca e vai na direção do que está amarrado. Mel tira a estaca da mão dele e coloca embaixo do pescoço do que está de pé.</default>
+		<first>Mel e Zenon chegam. Caio fecha o punho e dá um passo. Fábio coloca a mão no peito de Caio.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Tá manso demais.</default>
+		<default>Já estou desconfiada de quem é de verdade.</default>
 	</talk>
-	<talk character="Zenon em pé">
+	<talk character="Zenon - correntes">
+		<default>De verdade?! Me poupe, isso não foi uma clonagem, ou multiplicação, os dois são de verdade, só que um de cada lugar!</default>
+	</talk>
+	<teller>
+		<default>Fábio pega uma estaca no chão e vai na direção a Zenon (correntes). Mel tira a estaca da mão de Fábio e coloca embaixo do pescoço de Zenon (livre).</default>
+	</teller>
+	<talk character="Mel">
+		<default>Calma demais.</default>
+	</talk>
+	<talk character="Zenon - livre">
 		<default>Era falta de sexo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Quantos anos você tem?</default>
 	</talk>
-	<talk character="Zenon em pé">
-		<default>197.</default>
+	<talk character="Zenon - livre">
+		<default>199.</default>
 	</talk>
-	<talk character="Zenon amarrado">
-		<default>222.</default>
+	<talk character="Zenon - correntes">
+		<default>224.</default>
 	</talk>
-	<talk character="Zenon em pé">
+	<talk character="Zenon - livre">
 		<default>Não conto quando eu era humano, não adianta fazer isso.</default>
 	</talk>
-	<talk character="Zenon amarrado">
+	<talk character="Zenon - correntes">
 		<default>Não é o que você conta, é o que ela conta, idiota.</default>
 	</talk>
-	<talk character="Zenon em pé">
+	<teller>
+		<default>Zenon (livre) olha para Mel.</default>
+	</teller>
+	<talk character="Zenon - livre">
 		<default>Nunca fui de falar da minha idade, porque tá perguntando isso???</default>
 	</talk>
 	<talk character="Mel">
 		<default>Quem você ama?</default>
 	</talk>
-	<talk character="Zenon em pé">
+	<teller>
+		<default>Zenon (livre) solta os ombros.</default>
+	</teller>
+	<talk character="Zenon - livre">
 		<default>Você.</default>
 	</talk>
-	<talk character="Zenon amarrado">
+	<talk character="Zenon - correntes">
 		<default>Eu, mim e eu mesmo!</default>
 	</talk>
 	<teller>
-		<default>Fábio enfia a estaca no que estava de pé, transformando-o em pó.</default>
+		<default>Fábio enfia a estaca em Zenon (livre). Zenon (livre) se desfaz em pó. Zenon (correntes) fecha com força os olhos. Abre, arregalando. Olha para Mel.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Zenon nunca admitiria assim, mesmo que amasse.</default>
-	</talk>
 	<talk character="Zenon">
 		<default>Essa foi a experiência mais bizarra que já vivi.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Eu percebi... Ele tava mentindo... Ama a Clítia.</default>
+		<default>Eu percebi... Tava mentindo... Ama Clítia...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Nunca amei...</default>
@@ -428,7 +453,7 @@
 		<screamed>Eu sabia que você era!</screamed>
 	</talk>
 	<teller>
-		<default>Mel abraça Fábio. Caio e Alan acordam. Mel se afasta de Fábio.</default>
+		<default>Mel abraça Fábio. Caio sorri. Mel se afasta de Fábio. Olha para Caio sorrindo e encara.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Dá pra me desamarrar?</default>
@@ -437,22 +462,22 @@
 		<default>Não pode ser sem dar?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Hahaha.</default>
+		<default>Ha-ha-ha.</default>
 	</talk>
 	<teller>
-		<default>Alan vai até Zenon e o desamarra. Zenon recolhe suas cinzas.</default>
+		<default>Alan vai até Zenon. Desacorrenta. Zenon se aproxima das cinzas. Abaixa. Pega as cinzas com as mãos.</default>
 	</teller>
 	<talk character="Caio">
-		<default>Era o que? Vocês dois...</default>
+		<default>Vocês dois...</default>
 	</talk>
 	<teller>
-		<default>Caio fica feliz.</default>
+		<default>Fábio olha para Caio. Olha para Mel. Volta a olhar para Caio.</default>
 	</teller>
 	<talk character="Fábio">
-		<default>Tá vendo?! Ele continua esperando que eu arranje uma esposa e lhe dê netos! Por que não fica logo com o filho do Daniel? Ele também gosta de mulher, pode te dar uma nora se você quiser! Aliás, te dá quantas você quiser!</default>
+		<default>Tá vendo?! Continua esperando que eu arranje uma esposa e lhe te dê netos! Por que não fica logo com o filho do Daniel? Ele também gosta de mulher, pode te dar uma nora se você quiser! Aliás, te dá quantas você quiser!</default>
 	</talk>
 	<teller>
-		<default>Fábio sai. Mel vai atrás dele. Zenon também.</default>
+		<default>Fábio sai. Mel segue. Zenon olha para Caio. Segue também.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Posso te levar até o porto, se quiser.</default>
