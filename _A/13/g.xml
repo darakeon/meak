@@ -219,6 +219,9 @@
 	<teller>
 		<default>Kat olha para Mel. Dara também. Depois para Angely. Então para Edmont. Edmont pousa as mãos na mesa e olha para Mel.</default>
 	</teller>
+	<teller>
+		<trigger>relacionamento abusivo</trigger>
+	</teller>
 	<talk character="Mel">
 		<default>Que, acha que alguém nessa mesa já não adivinhou o que aquele monstro fez comigo?</default>
 	</talk>
@@ -238,13 +241,16 @@
 		<default>Mel levanta da mesa. Pega o meio CD em cima da mesa do escritório. Atira na parede. Os cacos se espalham. Mel grita. Edmont levanta. Angely levanta também. Mel ajoelha no chão. Angely olha para Edmont. Derik levanta e vai até Mel. Abaixa e abraça. Mel abraça de volta. Afasta. Derik levanta, junto com Mel. Leva Mel até a mesa de volta. Mel se senta. Derik senta ao lado de Kat. Kat abraça Derik.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ele me convenceu de que era isso, de que eu era dele. Dali pra frente, não me deixava pensar, não me deixava reagir. Fez o que quis quando quis. Gostava de me provar que podia mandar em mim. Me criticava o tempo todo. Quando me feria mais forte, se eu me afastava, dizia que me amava, que eu era dele. Me convencia de que a gente tinha alguma coisa. De que não era só um maldito egoista, me usando enquanto eu ainda era útil. Quando engravidei, achei que essa era ao menos uma coisa boa.</default>
+		<default>Ele me convenceu de que era isso, de que eu era dele. Dali pra frente, não me deixava pensar, não me deixava reagir. Fez o que quis quando quis. Gostava de me provar que podia mandar em mim. Me criticava o tempo todo. Eu já não tinha muita defesa, ele tirou o que eu tinha. Se eu pudesse pensar, talvez me afastasse. Talvez falasse com Modret. Com Luana. Mas ele controlava cada passo. Se eu me aproximasse de outra pessoa, ele minava. Não podia ter nada que não fosse ele. Tinha que estar disponível pra quando quisesse, no meu canto e só quando não quisesse. Volta e meia fazia eu me sentir um lixo. Quando me feria mais forte, se eu me afastava, dizia que me amava, que eu era dele. Me convencia de que a gente tinha alguma coisa. De que não era só um maldito egoista, me usando enquanto eu ainda era útil.</default>
 	</talk>
+	<teller>
+		<trigger>.</trigger>
+	</teller>
 	<teller>
 		<default>Edmont dá um soco na mesa. Angely senta no chão, no canto. Dara levanta e vai até uma janela.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Eu comecei a pensar que não podia deixar a criança perto de Nilrem. Por mais que eu achasse que amava. Mas aí, minha criança...</default>
+		<default>Quando engravidei, achei que essa era ao menos uma coisa boa. Eu comecei a pensar que não podia deixar a criança perto de Nilrem. Por mais que eu achasse que amava. Mas aí, minha criança...</default>
 	</talk>
 	<teller>
 		<default>Mel baixa a cabeça. Edmont olha para Zenon.</default>
