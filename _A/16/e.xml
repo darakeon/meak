@@ -1,38 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="16" scene="e">
+	<teller>
+		<default>MEAK. Dara entra. Senta no sofá, de braços cruzados. Zenon entra depois, mancando.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Ai, vocês estão bem, graças à Deus...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Cadê o Angely? Ele foi atrás de vocês...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Angely... Bem, ele...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não, você não vai me dizer que...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nem me esperaram?</default>
+		<default>Cadê Angely? Foi atrás de vocês...</default>
 	</talk>
 	<teller>
-		<default>Angely adentra a casa. Dara e Zenon olham e não entendem.</default>
+		<default>Zenon olha para o chão. Depois para Mel.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Preciso falar com você. Melhor ser em particular.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não. Angely não...</default>
+	</talk>
+	<talk character="Angely">
+		<arrive>Nem me esperaram?</arrive>
+	</talk>
+	<teller>
+		<default>Mel dá um empurrão em Zenon, que cai no chão.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Você quer me matar do coração??? Que brincadeira mais idiota!</default>
+		<default>Você quer me matar do coração??? Que brincadeira mais escrota!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Você me disse que a vida de um dependia da do outro!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Os dois estão trabalhando no laboratório?</default>
+		<default>Estão trabalhando no laboratório?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Sim, estão.</default>
 	</talk>
+	<teller>
+		<default>Zenon olha para Angely. Levanta do chão. Vai até Dara.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Vamos para o quarto, Dara...</default>
 	</talk>
+	<teller>
+		<default>Dara levanta de sopetão.</default>
+	</teller>
 	<talk character="Dara">
 		<default>De jeito nenhum! Não vou ficar presa lá, dormindo até vocês descobrirem que isso não tem cura! Se é pra mim morrer, quero aproveitar minhas últimas horas!</default>
 	</talk>
@@ -40,57 +52,64 @@
 		<default>Não são suas últimas horas.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Ah, não? Já sabe a cura?</default>
+		<irony>Ah, não? Já sabe a cura?</irony>
 	</talk>
 	<teller>
-		<default>Angely se aproxima de Dara, passa a mão no rosto dele e a beija.</default>
+		<default>Angely se aproxima de Dara. Pega as mãos entre as suas.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Deus já me tirou Meg, ele não fará essa maldade de novo... Não é possível eu tenha feito tão grande mal que valha isso! Não é possível... Deus é justo.</default>
-		<teller>ele a solta e se ajoelha aos pés dela</teller>
-		<default>A menos que você realmente queira ir, ele não vai levar você de mim. Pode parecer egoísmo, mas eu te imploro, não vá... Não queira me abandonar assim...</default>
+		<default>Já me tiraram Meg, não pode acontecer de novo... Não é possível eu tenha feito algo tão ruim que valha isso! Não é possível...</default>
 	</talk>
 	<teller>
-		<default>Ela o ajuda a se levantar.</default>
+		<default>Angely se ajoelha nos pés de Dara.</default>
+	</teller>
+	<talk character="Angely">
+		<default>A menos que você realmente queira ir, não vão te levar de mim. Pode parecer egoísmo, mas eu te imploro, não vai... Não queira me abandonar assim...</default>
+	</talk>
+	<teller>
+		<default>Dara puxa Angely e faz levantar.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Não fica assim, eu não quero ir! Quero ficar aqui com você...</default>
 	</talk>
 	<teller>
-		<default>Eles vão pro quarto.</default>
+		<default>Dara abraça Angely. Se afasta. Vai para o quarto, levando Angely pela mão.</default>
 	</teller>
-	<talk character="Kat">
-		<default>Nossa... Ele quebrou essa etapa.</default>
+	<talk character="Zenon">
+		<default>Ele quebrou essa etapa.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vamos falar com Psique e Rafael. Ver se eles já descobriram algo.</default>
+		<default>Vamos falar com Psique e Rafael. Ver se já descobriram algo.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, Edmont está andando na rua. Encontra Beatrice.</default>
+		<first>Edmont está andando na rua.</first>
 	</teller>
 	<talk character="Beatrice">
-		<default>Então, confirmou?</default>
+		<arrive>Então, confirmou?</arrive>
 	</talk>
 	<teller>
-		<default>Edmont joga a espada que trazia pra Beatrice. Ela olha para a espada. Ele abre os braços, num sinal para que faça. Ela atravessa ele com a espada. Ele se transforma em pó. Depois de alguns segundos, reaparece na frente dela.</default>
+		<default>Edmont joga a espada que trazia pra Beatrice. Beatrice olha para a espada. Edmont abre os braços, de frente para Beatrice. Beatrice empunha a espada. Beatrice balança a cabeça para os lados. Edmont faz um sinal com a cabeça para baixo e para cima. Beatrice atravessa Edmont com a espada, no coração. Edmont vira pó. Beatrice sorri. Desfaz o sorriso. Olha em volta. Pega a roupa no chão. Joga a espada longe. Dá dois passos a frente. Edmont abraça Beatrice por trás. Beatrice solta a roupa e se vira para Edmont. Beija Edmont. Edmont ri.</default>
 	</teller>
+	<talk character="Edmont">
+		<default>Assustou, pequena?</default>
+	</talk>
 	<talk character="Beatrice">
 		<default>Não sei como teve coragem de arriscar.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ele já sabia que isso aconteceria, por isso enfiou essa espada em mim. Me transformou em pó e foi embora antes que eu voltasse.</default>
+		<default>Angely sabia que isso aconteceria. Vi nos olhos que tinha acabado de descobrir. Por isso enfiou essa espada em mim. Me transformou em pó e foi embora antes que eu voltasse.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Ele é incapaz de tirar uma vida.</default>
+		<default>Angely é incapaz de tirar uma vida.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Quanto mais a do irmão dele.</default>
+		<default>Quanto mais a minha.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Isso é fantástico.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Posso ir lá e transformar Dara numa vampira. Não farão vigilância. Crêem que estou morto.</default>
+		<default>Posso ir lá e transformar Dara em vampira. Não farão vigilância. Crêem que estou morto.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Angely não.</default>
@@ -108,19 +127,19 @@
 		<default>Beatrice ri.</default>
 	</teller>
 	<talk character="Beatrice">
-		<default>E quem disse que eu quero me vingar dela?</default>
+		<default>E quem disse que eu quero me vingar?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Você até hoje diz que deixou Elian. Mas sabe muito bem que ele te trocaria por ela num estalar de dedos. É disso que você tem raiva.</default>
+		<default>Você até hoje diz que deixou Elian. Mas sabe muito bem que te trocaria por Mel num estalar de dedos. É disso que você tem raiva.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Se eu quisesse matá-la, já tinha feito.</default>
+		<default>Se eu quisesse matar, já tinha feito.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não faz por que sabe que eu te mandaria pro inferno. Literalmente.</default>
 	</talk>
 	<teller>
-		<default>Ela não entende.</default>
+		<default>Beatrice franze a testa. Então ri.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Incesto é pecado.</default>
@@ -129,10 +148,10 @@
 		<default>E daí? Sou um vampiro.</default>
 	</talk>
 	<teller>
-		<default>Beatrice percebe que, apesar de estar brincando, havia acertado o motivo.</default>
+		<default>Beatrice fecha a expressão.</default>
 	</teller>
 	<talk character="Beatrice">
-		<default>Está zombando de mim.</default>
+		<default>Tá zombando de mim.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>E por que estaria?</default>
@@ -144,7 +163,7 @@
 		<default>Que tal outra aposta?</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Fale. Esta ainda tenho mais certeza que vou ganhar.</default>
+		<default>Fale. Ainda tenho mais certeza que vou ganhar essa.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Se eu ganhar, anulamos a aposta anterior.</default>
@@ -171,16 +190,16 @@
 		<default>Inclusive Handhara.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela já vai estar morta até lá.</default>
+		<default>Já vai estar morta até lá.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Pensei que a amasse.</default>
+		<default>Pensei que amasse Handhara.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Como ela mesma disse, eu já tive o que queria.</default>
+		<default>Como me disse, eu já tive o que queria.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Mas acabou de dizer que quer transformá-la numa vampira.</default>
+		<default>Mas acabou de dizer que quer transformar em vampira.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Eu disse que podia, não que queria.</default>
@@ -201,28 +220,19 @@
 		<default>Que seja.</default>
 	</talk>
 	<teller>
-		<default>No laboratório que fora montado na casa de Mel e Angely, Psique e Rafael trabalham sem cessar.</default>
+		<first>MEAK.</first>
 	</teller>
 	<talk character="Rafael">
 		<default>Peraí, acho que descobri!</default>
 	</talk>
 	<teller>
-		<default>Ele faz um teste. O vírus desaparece. Em seguida, o sangue endurece.</default>
+		<default>Psique vai até a bancada de Rafael. Rafael pinga sangue e uma mistura em um vidro, fecha e coloca no microscópio. Rafael olha, sorrindo. Fecha a expressão. Sai. Psique vai olhar.</default>
 	</teller>
 	<talk character="Psique">
-		<default>Descobriu como matá-la mais rápido.</default>
-	</talk>
-	<talk character="Rafael">
-		<default>Tá, vamos ver o que há de errado...</default>
+		<default>Descobriu como matar ela mais rápido.</default>
 	</talk>
 	<teller>
-		<default>Rafael pega o papel em que está a fórmula. Deixa cair ácido em cima.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Beleza!</default>
-	</talk>
-	<teller>
-		<default>Psique volta à sua mesa. Enquanto isso, Angely está em seu quarto. Mel chega.</default>
+		<default>Angely está em seu quarto. Mel chega.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Então, já...</default>
@@ -234,7 +244,7 @@
 		<default>Dizem que as pessoas em coma podem nos ouvir.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu sei que ela pode.</default>
+		<default>Eu sei que Dara pode.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Denise ligou pra cá duas vezes.</default>
@@ -246,25 +256,25 @@
 		<default>Não acho que seja com Dara.</default>
 	</talk>
 	<teller>
-		<default>Dali há alguns instantes, Denise entra no quarto, seguida de Derik e Kat.</default>
+		<default>Denise entra no quarto, seguida de Derik e Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Tentamos impedir...</default>
 	</talk>
 	<talk character="Denise">
-		<default>Agora vão me dizer o que há de errado com a minha irmã!</default>
+		<default>Agora vão me dizer o que tem de errado com a minha irmã!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Pegou uma doença grave.</default>
 	</talk>
 	<talk character="Denise">
-		<default>E por que ninguém me disse??? Achei que ela estivesse aqui com Angely, tava até feliz pelos dois! Mas não, ela está doente, e ninguém me avisa!</default>
+		<default>E por que ninguém me disse??? Achei que ela estivesse aqui com Angely, tava até feliz pelos dois! Mas não, ela tá doente, e ninguém me avisa!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ligou pra cá me pedindo pra sair, não achei que estivesse preocupada com sua irmã.</default>
 	</talk>
 	<talk character="Denise">
-		<default>Eu queria arrancar a verdade de você. Depois do quinto telefonema é que fui perceber... Dara!</default>
+		<default>Eu queria arrancar a verdade de você! Depois do quinto telefonema é que fui perceber... Dara!</default>
 	</talk>
 	<teller>
 		<default>Denise se aproxima da cama.</default>
@@ -297,28 +307,25 @@
 		<default>Mas...</default>
 	</talk>
 	<teller>
-		<default>Angely faz sinal pra que Mel vá. Kat e Derik saem também.</default>
+		<default>Angely senta ao lado de Denise. Kat e Derik saem. Mel sai também.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Ela vai sobreviver, né?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sim, ela vai. E ainda vão brigar muito.</default>
+		<default>Sim, vai. E ainda vão brigar muito.</default>
 	</talk>
 	<teller>
-		<default>Denise se senta do lado contrário que Angely estava sentado. No corredor...</default>
+		<default>Corredor.</default>
 	</teller>
-	<talk character="Kat">
-		<default>Denise tem coração...</default>
-	</talk>
 	<talk character="Derik">
-		<default>É uma grande coisa já.</default>
+		<default>Denise tem coração...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Será que os dois conseguiram alguma...?</default>
 	</talk>
 	<teller>
-		<default>Eles ouvem um barulho estranho e vão até o quarto onde tinha sido montado o laboratório. Rafael está no chão. Houvera uma pequena explosão na mesa dele.</default>
+		<default>Um barulho de uma pequena explosão. Mel, Kat e Derik correm até o outro quarto. Rafael está no chão.</default>
 	</teller>
 	<talk character="Psique">
 		<default>Nós queremos salvar uma vida, não inventar um novo tipo de pólvora!</default>
@@ -327,7 +334,7 @@
 		<default>Pelo menos estou fazendo evoluções...</default>
 	</talk>
 	<teller>
-		<default>Rafael se levanta</default>
+		<default>Rafael se levanta.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Você está bem?</default>
@@ -336,7 +343,7 @@
 		<default>Sim... Mais ou menos...</default>
 	</talk>
 	<talk character="Psique">
-		<default>Peraí, gente, acho que consegui alguma coisa! Não... Ela viraria uma morta-viva.</default>
+		<default>Peraí, gente, acho que consegui alguma coisa! Não... Esquece... Viraria uma morta-viva...</default>
 	</talk>
 	<teller>
 		<default>Zenon chega.</default>
@@ -351,7 +358,7 @@
 		<default>Se for, Dara vai morrer.</default>
 	</talk>
 	<teller>
-		<default>Dias se passam e nada se descobre. Dara é levada pra casa, por que não há risco de contágio enquanto não entrar no fim do quinto estágio. Seus pais ficam preocupados e vão atrás dos melhores laboratórios do mundo para tentar curá-la. Pra onde ela vai, Angely vai também. Manhã, casa de Angely e Mel.</default>
+		<first>Semanas depois. MEAK.</first>
 	</teller>
 	<talk character="Psique">
 		<default>Encontramos!</default>
@@ -369,10 +376,10 @@
 		<default>Se ela ainda estiver no quarto estágio, resolverá com certeza!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então temos que ir atrás dela.</default>
+		<default>Então temos que ir atrás de Dara.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mel!</default>
+		<out>Mel!</out>
 	</talk>
 	<talk character="Rafael">
 		<default>Será que os cientistas de fora já...</default>
@@ -381,42 +388,42 @@
 		<default>Os três descem e vão até a sala.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Acordaram ela. Acham que tem o antídoto pra se ela estiver na quinta fase.</default>
+		<default>Acordaram Dara. Acham que tem o antídoto pra se estiver na quinta fase.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Como assim, acham?</default>
+		<default>Como assim, "acham"?</default>
 	</talk>
 	<talk character="Psique">
 		<default>Eles não têm certeza e fazem isso???</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu tentei impedir, mas os pais dela...</default>
+		<default>Eu tentei impedir, mas os pais...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ninguém sabe que é contagioso no final da quinta fase!</default>
+		<default>Essa merda é contagiosa no final da quinta fase!</default>
 	</talk>
 	<talk character="Rafael">
-		<default>Temos que levar isso pra os laboratórios. Ver se eles conseguem alterar.</default>
+		<default>Temos que levar isso pros laboratórios. Ver se conseguem alterar.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Mel, você vai também?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ficarei aqui esperando você me ligar feliz da vida porque ela aceitou se casar com você.</default>
+		<default>Vou ficar aqui esperando. E você me ligar feliz da vida porque aceitou se casar com você.</default>
 	</talk>
 	<teller>
-		<default>Rafael e Psique sobem para pegar o antídoto. Angely fica esperando no carro. Mel fica e os três saem, vão pro Aeroporto (Dara está na Europa). De tarde, chegam ao laboratório. Dara está num quarto, já acordada. Tentam fazer ela tomar o remédio.</default>
+		<default>Laboratório. Dara está num quarto, acordou. Tentam fazer tomar o remédio.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Não quero...</default>
 	</talk>
-	<talk character="mãe dela">
+	<talk character="mãe">
 		<default>Mas você precisa, querida...</default>
 	</talk>
 	<talk character="Dara">
 		<default>Vocês nunca deram o menor valor pra mim.</default>
 	</talk>
-	<talk character="pai dela">
+	<talk character="pai">
 		<default>Não é verdade, nós te amamos.</default>
 	</talk>
 	<talk character="Dara">
@@ -426,34 +433,40 @@
 		<default>Do lado de fora...</default>
 	</teller>
 	<talk character="Angely">
-		<default>Preciso falar com ela! Eu posso fazer ela tomar isso!</default>
+		<default>I need to talk to Dara! I can make her to take the pill!!!</default>
+		<translate>Preciso falar com Dara! Eu posso fazer tomar isso!</translate>
 	</talk>
-	<talk character="segurança">
-		<default>A família não autorizou.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que se dane!</default>
-	</talk>
-	<talk character="segurança">
-		<default>Não era nem pra você estar aqui, garoto, depois do que aprontou.</default>
+	<talk character="George">
+		<default>The family said you can't enter.</default>
+		<translate>A família disse que você não pode entrar.</translate>
 	</talk>
 	<talk character="Angely">
-		<default>Eu juro que não farei de novo, só me deixe entrar...</default>
+		<default>I need to!</default>
+		<translate>Eu preciso entrar!</translate>
 	</talk>
-	<talk character="segurança">
-		<default>Impossível.</default>
+	<talk character="George">
+		<default>I shouldn't even be here, boy, not after what you did.</default>
+		<translate>Não era nem pra você estar aqui, garoto, depois do que aprontou.</translate>
+	</talk>
+	<talk character="Angely">
+		<default>I won't do it again, I swear!</default>
+		<translate>Eu juro que não farei de novo, só me deixe entrar...</translate>
+	</talk>
+	<talk character="George">
+		<default>It's impossible.</default>
+		<translate>Impossível.</translate>
 	</talk>
 	<teller>
-		<default>Angely faz menção de voltar, mas se vira e dá um soco no segurança. Entra na sala.</default>
+		<default>Angely vai até uma janela. Sai. George vai atrás. Olha para baixo. Olha para o lado. Angely entra pela outra janela.</default>
 	</teller>
-	<talk character="pai dela">
+	<talk character="pai">
 		<default>Está fazendo o que aqui???</default>
 	</talk>
 	<talk character="Angely">
 		<default>Dara...</default>
 	</talk>
 	<teller>
-		<default>Ele se aproxima dela e a abraça.</default>
+		<default>Angely se aproxima de Dara e abraça. Afasta.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Você tem que tomar isso, tá?</default>
@@ -471,27 +484,30 @@
 		<default>Por favor...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Você sabe que não vai adiantar... Tanto quanto eu.</default>
+		<default>Você sabe que não vai adiantar... Tanto quanto eu...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ao menos lute. Lute pra mostrar que ao menos tentou ficar do meu lado...</default>
+		<default>Ao menos lute. Luta. Você não é assim. É uma das pessoas mais fortes e incríveis que conheço... Você sabe que ama viver, e que isso é só um efeito, que não é você...</default>
 	</talk>
 	<teller>
-		<default>Angely pega o comprimido e o copo d’água. Ela olha pra ele e acaba tomando o remédio.</default>
+		<default>Angely pega o comprimido e o copo d’água. Dara olha para Angely. Pega o remédio. Coloca na boca. Pega o copo d'água. Olha nos olhos de Angely. Toma a água.</default>
 	</teller>
-	<talk character="mãe dela">
+	<talk character="mãe">
 		<default>Graças à Deus...</default>
 	</talk>
 	<teller>
-		<default>Chegam alguns seguranças e pegam Angely.</default>
+		<default>George chega e puxa Angely.</default>
 	</teller>
-	<talk character="pai dela">
-		<default>Não, deixem ele aqui!</default>
+	<talk character="pai">
+		<default>No, let him!</default>
+		<translate>Não, deixem ele!</translate>
 	</talk>
-	<talk character="segurança">
-		<default>Mas, senhor, ele me...</default>
+	<talk character="George">
+		<default>But, mister, he...</default>
+		<translate>Mas, senhor, ele...</translate>
 	</talk>
-	<talk character="mãe dela">
-		<default>Não interessa, ele fica!</default>
+	<talk character="mãe">
+		<default>Doesn't matter, he will stay here!</default>
+		<translate>Não interessa, ele fica!</translate>
 	</talk>
 </story>
