@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="06" scene="b">
 	<teller>
-		<default>Enquanto isso, Beatrice chega no quarto de hotel onde Edmont está sentado à janela.</default>
+		<default>Beatrice chega a um quarto de hotel. Edmont sentou-se na janela.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Vendo se consegue enxergar Melody?</default>
@@ -14,11 +14,15 @@
 	</talk>
 	<talk character="Edmont">
 		<default>Não.</default>
-		<teller>se vira para ela</teller>
+	</talk>
+	<teller>
+		<default>Edmont vira para Beatrice.</default>
+	</teller>
+	<talk character="Edmont">
 		<default>Como foi o jantar?</default>
 	</talk>
 	<teller>
-		<default>Beatrice mostra um relógio. Edmont vai até ela.</default>
+		<default>Beatrice mostra um relógio. Edmont vai até Beatrice.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Foi tudo que conseguiu?</default>
@@ -45,16 +49,16 @@
 		<default>Pelo que sei, foi o dia em que você nasceu.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Os dias aqui não são os mesmos de lá. Saímos de lá quase no dia da independência e aqui já era ano novo.</default>
+		<default>Os dias aqui não são os mesmos de lá. Os tempos das Realidade são diferentes.</default>
 	</talk>
 	<teller>
-		<default>Ela abre a mão dele, coloca o relógio e fecha a mão.</default>
+		<default>Beatrice abre a mão de Edmont, coloca o relógio e fecha a mão.</default>
 	</teller>
 	<talk character="Bea">
 		<irony>De nada.</irony>
 	</talk>
 	<teller>
-		<default>Beatrice se deita. Ele se senta ao lado dela. Ela está de costas.</default>
+		<default>Beatrice se deita de costas para Edmont. Edmont se senta ao lado.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Preferia alguma coisa viva.</default>
@@ -69,35 +73,38 @@
 		<default>Que outra?</default>
 	</talk>
 	<teller>
-		<default>Ele a vira para si.</default>
+		<default>Edmont vira Beatrice para si.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Duas vagabundas me deram a vida. Minha mãe e você. Eu prefiro essa vida, por isso prefiro você e oito de janeiro, não doze de março.</default>
+		<default>Eu prefiro essa vida, por isso prefiro você e oito de janeiro, não doze de março.</default>
 	</talk>
 	<teller>
 		<default>Beatrice se levanta e vai até a janela.</default>
 	</teller>
 	<talk character="Bea">
-		<default>No caso da sua mãe, quem traia e gostava de outra pessoa era ela. Pelo menos ela teve coragem de ir atrás do que queria e não ficou se lamentando porque não podia ter.</default>
+		<default>No caso de sua mãe, quem gostava de outra pessoa era ela. Pelo menos teve coragem de ir atrás do que queria e não ficou se lamentando porque não podia ter.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>É, mas ela ficou com o pior, como eu. No caso dela foi burrice, mas eu tô me contentando com você enquanto não posso ter o que quero.</default>
 	</talk>
 	<talk character="Bea">
-		<default>E por quê eu? Por que não Inês, ou até mesmo Virgine? Aliás, a Virgine gosta de apanhar bem mais que eu.</default>
+		<default>E por quê eu? Por que não Inês, por exemplo? Pode ir atrás até de Kassandra.</default>
 	</talk>
 	<teller>
 		<default>Edmont a joga na cama.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Inês tá morta. E Virgine... É, talvez eu vá atrás dela mesmo. Ela não fica chorando em cima dos corpos, nem nunca libertou meu jantar.</default>
+		<default>Inês tá morta. E Kassandra... É, talvez eu vá atrás dela mesmo. Ela não fica chorando em cima dos corpos, nem nunca libertou meu jantar.</default>
 	</talk>
 	<teller>
-		<default>6:00. Numa das luxuosas casas de Ares, um homem (Sandro) toma café. Chega um outro homem (Etos).</default>
+		<first>6:00. Casarão em Ares. Sandro toma café.</first>
 	</teller>
 	<talk character="Etos">
-		<default>Ainda não recebi meu pagamento.</default>
+		<arrive>Ainda não recebi meu pagamento.</arrive>
 	</talk>
+	<teller>
+		<default>Sandro derruba a xícara. Olha para Xisto.</default>
+	</teller>
 	<talk character="Sandro">
 		<default>É que é um grande custo manter as Ilhas, mesmo cobrando aluguel de tantas pessoas...</default>
 	</talk>
@@ -105,7 +112,7 @@
 		<default>Os juros são baixos e nem isso você paga.</default>
 	</talk>
 	<talk character="Sandro">
-		<default>Um por cento de um real é baixo, um por cento de um milhão é alto, você tem que entender...</default>
+		<default>Um por cento de um é baixo, um por cento de um milhão é alto, você tem que entender...</default>
 	</talk>
 	<talk character="Etos">
 		<default>Não é porque pegou mais dinheiro que vou diminuir a taxa. Devia medir mais seus atos antes e não depois.</default>
@@ -123,61 +130,79 @@
 		<default>Um lembrete: meus juros não são um por cento, e o que você pegou não está só na casa dos milhões.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, Angely chega atrasado à escola. A sala está vazia. Angely se dirige à diretoria. Bate à porta, e Dínamis o manda entrar.</default>
+		<first>Angely bate na porta da diretoria.</first>
 	</teller>
-	<talk character="Ang">
-		<default>Desculpa, é que um aluno me pediu um livro emprestado e sumiu com ele, tive que ficar procurando... Kat?!</default>
-	</talk>
 	<talk character="Dínamis">
-		<default>Seus alunos estão no auditório.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não me pergunta, ela disse pra eu te esperar aqui.</default>
-	</talk>
-	<talk character="Dínamis">
-		<default>Pode ir com ele.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tá.</default>
-	</talk>
-	<teller>
-		<default>Angely e Kat chegam ao auditório. Encontram uma festa.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Já entendi porque ela me prendeu lá.</default>
+		<default>Entra.</default>
 	</talk>
 	<talk character="Ang">
-		<default>E eu porque o Derik sumiu com o meu livro.</default>
+		<default>Desculpa, é que uma pessoa me pediu um livro emprestado e sumiu, tive que ficar procurando...</default>
+	</talk>
+	<talk character="Dínamis">
+		<default>Seus alunos estão no ginásio.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Aconteceu alguma coisa?</default>
+	</talk>
+	<talk character="Dínamis">
+		<default>Não. Aquele evento eu já cuidei.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Cuidou... Que...</default>
+	</talk>
+	<talk character="Dínamis">
+		<default>É um feitiço, todo mundo esqueceu tudo.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Mas...</default>
+	</talk>
+	<talk character="Dínamis">
+		<default>Mel me disse que não gosta de trapaças, mas acha que mantenho a escola dando lugar até pra professor vampiro como? Até Xisto já fiz esquecer umas coisinhas.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, alguém com um capuz preto adentra a escola. Parece corcunda. Uma garota (Alice), que estava chegando atrasada, vê.</default>
+		<default>Angely baixa a cabeça.</default>
+	</teller>
+	<talk character="Dínamis">
+		<default>Eu preciso manter a escola de pé. Agora, como eu disse, seus alunos estão no ginásio.</default>
+	</talk>
+	<teller>
+		<default>Angely entra no ginásio. Todas as pessoas, balões, enfeites, um bolo grande no centro. Derik vem até Ang.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Escondeu meu livro.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Diz que eles têm uma tradição de fazer uma festa surpresa no primeiro aniversário do professor na escola. Sou novo por aqui, porque diabos acha que eu negaria um pedido da diretoria?</default>
+	</talk>
+	<teller>
+		<first>Uma pessoa baixa anda com um capuz preto pelo corredor. As costas fazem uma grande curva. Alice, está com o passo acelerado. Passa pela pessoa. Franze a testa. Se vira para trás.</first>
 	</teller>
 	<talk character="Alice">
 		<default>Ei, você!</default>
 	</talk>
 	<teller>
-		<default>Ele começa a andar mais rápido. Ela o segue.</default>
+		<default>A pessoa começa a andar mais rápido. Alice segue.</default>
 	</teller>
 	<talk character="Alice">
 		<default>Não vou fazer nada, apenas queria saber o porquê do casaco preto...</default>
 	</talk>
 	<teller>
-		<default>Ela pisa no capuz e este sai. Ela o vê e se espanta.</default>
+		<default>Alice pisa no capuz. A pessoa continua, o capuz fica. Alice arregala os olhos.</default>
 	</teller>
 	<talk character="Alice">
 		<default>Deus do céu...</default>
 	</talk>
 	<teller>
-		<default>A garota corre na direção contrária. Dos olhos cinzas do rapaz, cai uma lágrima. A garota invade a festa que foi feita.</default>
+		<default>A pessoa pega o braço de Alice. Alice puxa. Corre na direção contrária. De um par de olhos cinzas infantis, cai uma lágrima. Invade o ginásio.</default>
 	</teller>
 	<talk character="Alice">
 		<default>Tem um monstro no corredor!</default>
 	</talk>
 	<teller>
-		<default>Todos ficam espantados. Angely vai até ela.</default>
+		<default>As pessoas se calam e olham para Alice. Angely vai até Alice.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Não precisa ficar nervosa, o que foi que viu?</default>
+		<default>Não precisa ficar assim, o que foi que viu?</default>
 	</talk>
 	<talk character="Alice">
 		<default>Ele tava com um capuz preto, eu pedi pra me esperar, disse que só queria saber porque estava com o capuz, mas ele, ele continuou... andando, sem querer eu pisei, o capuz saiu e...</default>
@@ -186,54 +211,58 @@
 		<default>Tudo bem. Melhor você se acalmar, tá?</default>
 	</talk>
 	<teller>
-		<default>Angely abraça-a. Kat está com Derik.</default>
+		<default>Angely abraça Alice. Kat, Derik e Estela estão do outro lado do ginásio. Kat pousa o prato de bolo em uma mesinha.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Melhor irmos verificar.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Mas ela disse que é um monstro!</default>
+		<default>Mas disse que é um monstro!</default>
 	</talk>
 	<talk character="Estela">
-		<default>Ela deve tá querendo se aparecer, essa nojenta adora fazer isso...</default>
+		<default>Ela deve tá querendo se aparecer, adora fazer isso...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Nossa, já arrumou inimizade?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Ela é da parte luxuosa de Ares e se acha o máximo por isso.</default>
+		<default>Ela mora numa mansão e se acha o máximo por isso.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Mesmo assim, temos que ir ver.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Se vocês não se importam, eu prefiro...</default>
-		<teller>as duas o encaram</teller>
-		<default>...ir junto.</default>
 	</talk>
 	<teller>
-		<default>Os três saem disfarçadamente. Procuram pela escola inteira e nada. De tarde, Angely, Kat, Estela e Derik chegam.</default>
+		<default>Kat encara Derik. Derik pousa o prato na mesinha, ao lado do de Kat.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Ir junto.</default>
+	</talk>
+	<teller>
+		<first>Tarde. Angely, Kat, Estela e Derik chegam.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Mel! Mel!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ela deve estar no quarto dela.</default>
+		<default>Deve estar no quarto.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Vou lá ver.</default>
 	</talk>
 	<teller>
-		<default>Estela sobe e encontra Alan beijando Mel no quarto dela. Sem ser percebida, ela volta.</default>
+		<default>Estela sobe. Olha pela porta. Alan está com o rosto quase encostado no de Mel. Arregala os olhos e volta para a sala.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Ela tá ocupada.</default>
 	</talk>
 	<teller>
-		<default>Ela vai para a cozinha. Kat vai atrás. Alan chega segundos depois.</default>
+		<default>Estela vai para a cozinha. Kat segue. Alan chega a sala.</default>
 	</teller>
 	<talk character="Alan">
-		<default>Angely, podia ter me avisado que a Mel tem mão pesada...</default>
+		<default>Alguém podia me avisar que Mel não gosta de beijo repentido.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Você beijou ela?</default>
@@ -242,57 +271,103 @@
 		<default>Lésbica eu sei que ela não é... Ela é feminista, não devia ter tomado a iniciativa, é isso?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ela não gosta de surpresas desse tipo.</default>
+		<default>Devia saber se uma pessoa quer um beijo antes de beijar.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Parece mesmo que a Kat e a Mel são mãe e filha...</default>
-		<teller>Ang e Alan olham pra Derik</teller>
-		<default>Não nessa ordem.</default>
+		<default>Tem que explicar pro Alan que isso funciona mesmo quando a pessoa é uma mulher e ele um homem.</default>
+	</talk>
+	<talk character="Ang">
+		<default>Eu falei uma pessoa, mulher também é uma pessoa.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Outra lição bem importante pra se dar a homens na escola.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Como vocês acham que eu devo falar com ela?</default>
+		<default>Olha, eu nem beijei ela, tá!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Acorda, você deu um beijo nela, acha que ela vai achar que foi sem querer?</default>
+		<default>Por que Mel não deixou.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Realmente duvido.</default>
+		<default>Como você...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Tá, então eu vou te ajudar.</default>
+		<default>Pode até saber como esconder estacas, mas Mel ainda tem mais rapidez que você.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Ok, eu tô disposto a ser...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Um ser humano melhor?</default>
+	</talk>
+	<talk character="Alan">
+		<default>Isso... Como vocês acham que eu devo falar com ela?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Acorda, você tentou arrancar um beijo, acha que Mel vai achar que foi sem querer?</default>
+	</talk>
+	<talk character="Alan">
+		<default>Realmente duvido. "Que caralhos você tá fazendo?" e me pegar pelo pescoço quando continuei... Enfim...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Entendeu que isso tem que ser decisão dela também?</default>
+	</talk>
+	<talk character="Alan">
+		<default>Acho que sim... Achei que as mulheres achassem isso romântico... Sei lá...</default>
+	</talk>
+	<teller>
+		<default>Derik revira os olhos.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Mas eu quero ser... Um ser humano melhor. Eu quero que ela me queira. E se eu der flores?!</default>
+	</talk>
+	<teller>
+		<default>Derik tampa o rosto.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Que foi?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Não dê nada com espinhos. Assim, se ela quiser enfiar no seu...</default>
+	</talk>
+	<talk character="Alan">
+		<default>Tá, eu entendi, sem flores.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Eu vou te ajudar.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Você?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Conheço a Mel há bastante tempo e namoro com a Kat que, apesar de não ter o mesmo sangue, parece um cópia dela, só que um pouco mais irritada.</default>
+		<default>Consegui namorar com Kat e sou sua melhor chance de parar de ser um cuzão.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Meus pêsames.</default>
+		<default>Ei!</default>
 	</talk>
 	<teller>
-		<default>Angely aproveita a distração dos dois e vai até a cozinha.</default>
+		<default>Angely vai até a cozinha.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Olha, eu sei que você gosta dele, mas você tem que entender...</default>
+		<default>Olha, eu sei que você gosta de Alan, mas você tem que entender...</default>
 	</talk>
 	<talk character="Estela">
-		<default>Será que ela não podia ficar só com o Zenon, não?</default>
+		<default>Será que ela não podia ficar só com o Zenon, não?!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ei, ele é adulto, sabe muito bem o que faz, eu garanto que a minha mãe não o beijou à força!</default>
+		<default>Ei, Alan não é criança, sabe muito bem o que faz, eu garanto que Mel não beijou Alan a força!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Foi ele quem beijou ela.</default>
+		<default>Alan quem tentou beijar Mel.</default>
 	</talk>
 	<teller>
-		<default>As duas se assustam – não sabiam que ele estava ali.</default>
+		<default>Estela e Kat olham para Angely.</default>
 	</teller>
 	<talk character="Ang">
-		<default>E tomou um tapa.</default>
+		<default>Mas não conseguiu.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Viu? Agora ele vai desistir e quem sabe não começa a enxergar quem realmente gosta dele?</default>
+		<default>Viu? Agora ele vai desistir e quem sabe não começa a enxergar quem realmente gosta de si?</default>
 	</talk>
 	<talk character="Alan">
 		<arrive>Estela está apaixonada? Por que não me contou?</arrive>
@@ -301,22 +376,28 @@
 		<default>Porque você já devia ter notado.</default>
 	</talk>
 	<teller>
-		<default>Estela sai da cozinha. Kat vai ver Mel.</default>
+		<default>Estela sai da cozinha. Kat sai também. Alan olha para Angely.</default>
+	</teller>
+	<talk character="Ang">
+		<default>Não pergunta pra mim.</default>
+	</talk>
+	<teller>
+		<default>Ang sai. Kat chega ao quarto de Mel.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Oi, tudo bem?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Seja lá o que ele tiver falado, mereceu o tapa. Estávamos procurando arquivos sobre a tal ave que quase pegou o Zenon e ele se aproveitou da minha distração. Avisa ele que, mais uma dessas, e pode continuar trabalhando aqui, mas vai ter que procurar outro lugar pra morar.</default>
+		<default>Seja lá o que tiver falado, mereceu. Estávamos procurando arquivos sobre a tal ave que quase pegou o Zenon e tentou se aproveitar da minha distração. Avisa que, mais uma dessas, e pode continuar trabalhando aqui, mas vai ter que procurar outro lugar pra morar.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Estela viu.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então avisa ela que pode ficar com ele se quiser, porque eu não quero.</default>
+		<default>Então avisa que pode ficar se quiser, porque eu não quero.</default>
 	</talk>
 	<teller>
-		<default>Alan vai entrar no quarto para falar com Kat, mas olha para Mel – que o encara – e sai.</default>
+		<default>Alan entra no quarto, abre a boca olhando para Kat. Mel cruza os braços e encara. Alan olha para Mel e sai.</default>
 	</teller>
 	<talk character="Kat">
 		<default>E aí, o que descobriram sobre a ave estranha?</default>
@@ -325,34 +406,40 @@
 		<default>Nada. Como vai a escola?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Sobre isso eu descobri algo. Sabe a diretora?</default>
+		<default>Sobre isso eu descobri algo. Sabe a pessoa na diretoria?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Dínamis?</default>
 	</talk>
 	<talk character="Kat">
-		<default>É. Ela tá com idéias pra mudar o sistema de ensino na Ilha.</default>
+		<default>É. Tá com idéias pra mudar o sistema de ensino na Ilha.</default>
 	</talk>
 	<talk character="Mel">
 		<default>E...</default>
 	</talk>
 	<talk character="Kat">
-		<default>É dela a idéia de deixar do jeito que conhecemos!</default>
+		<default>É dela a idéia de deixar do jeito que conhecemos lá.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ah, claro... Você sabe qual a especialização que o Angely e o Edmont fizeram?</default>
+		<default>Com a especialização e tudo?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Sim!</default>
+	</talk>
+	<talk character="Mel">
+		<default>Acho que Derik quem mais vai ficar feliz. Aliás, sabe que especialização Ang e Edmont fizeram?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Você não sabe???</default>
 	</talk>
 	<teller>
-		<default>Mel chega ao quarto de Zenon. Ele está conversando com Angely.</default>
+		<default>Mel chega ao quarto de Zenon.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Não tinha me dito que fez especialização pra professor.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Achei que fosse achar idiota.</default>
+		<default>Achei que fosse achar sem sentido.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Por quê? Por que Edmont fez medicina?</default>
@@ -361,25 +448,25 @@
 		<default>Não te contamos o que fizemos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tô me sentindo uma idiota, até Kat sabia!</default>
+		<default>Até Kat sabia!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Que discussão importante, podemos falar do assassino que tentou me pegar?</default>
+		<irony>Que discussão importante, podemos falar do assassino que tentou me pegar?</irony>
 	</talk>
 	<talk character="Ang">
-		<default>Talvez seja coisa da Clítia. Deve estar morrendo de raiva.</default>
+		<default>Talvez seja coisa de Clítia. Deve estar com raiva.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pode ser. Ou do Edmont.</default>
+		<default>Pode ser. Ou Edmont.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não, eu saberia.</default>
+		<default>Eu saberia.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Beatrice?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ela jamais faria nada assim.</default>
+		<default>Não faria algo assim.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Sei que tinha asas.</default>
@@ -388,7 +475,7 @@
 		<arrive>E aí, falando do que?</arrive>
 	</talk>
 	<talk character="Ang">
-		<default>Esse tal pássaro que quase pegou o Zenon.</default>
+		<default>Esse tal pássaro que quase pegou Zenon.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Pássaro? Ouvi dizer de um pássaro estranho que andou rondando por aqui.</default>
@@ -397,7 +484,7 @@
 		<default>Ótimo, tem mais algum detalhe?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Além de alguns dizerem que ele é sinal do apocalipse?</default>
+		<default>Além de alguns dizerem que é sinal do apocalipse?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Isso não ajuda muito.</default>
@@ -409,19 +496,19 @@
 		<default>Não tem medo?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Medo? Por que, acha que ele pode querer me pegar?</default>
+		<default>Medo?</default>
+	</talk>
+	<teller>
+		<default>Derik franze a sobrancelha.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Por que, acha que ele pode querer me pegar?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não, ele não tem. Essa coisa me atacou, deve ter algo contra vampiros, não contra aves, certo, Derik?</default>
+		<default>Essa coisa me atacou, deve ter algo contra vampiros, não contra aves, certo, Derik?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Vendo por esse ângulo...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Como sabe que é ele?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tá, prefere que chame de isso?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Apenas procure, por favor!</default>
@@ -439,10 +526,10 @@
 		<default>Xisto vai preferir que Derik faça o trabalho.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ele não precisa saber disso.</default>
+		<default>Não precisa saber disso.</default>
 	</talk>
 	<teller>
-		<default>De noite, Xisto está na praça com Alete.</default>
+		<first>Noite. Praça.</first>
 	</teller>
 	<talk character="Xisto">
 		<default>Acha que a Katerine é capaz de fazer algo mais drástico?</default>
@@ -472,7 +559,7 @@
 		<default>Tá acreditando nessa estorinha?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Tenho um amigo meu, com algo em comum com você, que quase foi pego por essa estorinha...</default>
+		<default>Tenho um amigo meu, com algo em comum com você, que quase foi pego.</default>
 	</talk>
 	<talk character="Xisto">
 		<default>E o que seria esse algo em comum?</default>
@@ -481,7 +568,7 @@
 		<default>Bom... É...</default>
 	</talk>
 	<teller>
-		<default>Xisto joga Alete no chão e pula em cima de Angely. Passa a tal "ave estranha". Eles se levantam.</default>
+		<default>Xisto joga Alete no chão e pula em cima de Angely, caindo no chão junto. Asas passam. Ang e Xisto levantam.</default>
 	</teller>
 	<talk character="Xisto">
 		<default>Ele vinha na sua direção...</default>
@@ -490,15 +577,15 @@
 		<default>Tem certeza?</default>
 	</talk>
 	<teller>
-		<default>A ave passa de novo e leva Xisto. Alete grita. Tudo que caem são ossos. Alete se aproxima deles, com lágrimas nos olhos. Angely a vira para si.</default>
+		<default>A ave passa de novo. Leva Xisto. Alete grita. Ang olha para o céu. Alguns metros para frente, ossos caem no chão. Alete vai até os ossos. Se ajoelha no chão. Seus olhos estão marejados. Toca nos ossos. Uma lágrima cai. Angely abaixa perto de Alete.</default>
 	</teller>
 	<talk character="Ang">
-		<hushed>Não são dele, vampiros não morrem assim.</hushed>
+		<hushed>Não são de Xisto, vampiros não morrem assim.</hushed>
 	</talk>
 	<talk character="Alete">
 		<default>Pé... g... su...</default>
 	</talk>
 	<teller>
-		<default>Angely a abraça. Ele a leva para a casa dela.</default>
+		<default>Angely abraça Alete.</default>
 	</teller>
 </story>
