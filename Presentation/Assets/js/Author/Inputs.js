@@ -20,12 +20,6 @@ function SaveButton() {
     $("input").keydown(function () {
         NeedSaveAgain($(this).closest("form").attr("id"));
     });
-
-    /*
-    $("#save_status").click(function () {
-        $("form:visible").submit();
-    });
-    */
 }
 
 
