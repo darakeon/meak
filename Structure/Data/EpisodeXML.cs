@@ -65,7 +65,6 @@ namespace Structure.Data
             if (folder == null)
                 throw new Exception("XML Path not configured.");
 
-
             PathXML =
                 folder.Substring(1, 1) == ":"
                     ? folder

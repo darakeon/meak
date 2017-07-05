@@ -20,7 +20,8 @@ namespace Presentation.Controllers
             typedPass = typedPass.EncryptPassword();
 
 
-            if (realLogin != null && typedLogin == realLogin && typedPass == realPass)
+            if (realLogin != null && realPass != null
+                && typedLogin == realLogin && typedPass == realPass)
             {
                 Authenticate.Set(realLogin, Response);
 
