@@ -12,6 +12,8 @@
 <div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(Model.SceneCounter)">
     
     <div class="goHistory">
+        <a href="#" class="darkback" onclick="SaveCurrentScene(); return false;">Save</a>
+
         @Html.RouteLink("View", "Scene",
             new { seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = scene.ID },
             new { @class = "darkback", target = "_blank" })

@@ -40,7 +40,7 @@
 @using (Ajax.BeginForm("EditTitle", route, ajaxOptions, html))
 {
     <div class="titleChange">
-        <button type="submit" class="darkback" class="save" id="save_title">Salvar</button>
+        <button type="submit" class="darkback" class="save" id="save_title">Save</button>
         @Html.TextBoxFor(m => m.Story.Title)<br />
 
         @Html.TextAreaFor(m => m.Story.Summary)

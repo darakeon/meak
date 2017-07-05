@@ -40,7 +40,7 @@ function SaveKey() {
 
             if (canSubmit) {
                 if (pressedCtrl && e.which == 89) {
-                    $(".scenes form:visible").submit();
+                    SaveCurrentScene()
                     pressedCtrl = false;
                 }
             }
@@ -58,4 +58,8 @@ function Pressed(key, set) {
         case (17): pressedCtrl = set; break;
         case (16): pressedShift = set; break;
     }
+}
+
+function SaveCurrentScene() {
+    $(".scenes form:visible").submit();
 }
