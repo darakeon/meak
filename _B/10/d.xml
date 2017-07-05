@@ -13,13 +13,19 @@
 		<default>Leo disse que Pandora queria poder se sustentar. Talvez tenha sido desespero.</default>
 	</talk>
 	<teller>
-		<default>Manhã. Na casa que pertencia a Sandro, Etos chega com Alete.</default>
+		<first>Manhã. Casa de Sandro. Etos e Alete chegam.</first>
 	</teller>
 	<talk character="Etos">
-		<default>Olha, eu vou te levar até um lugar quando anoitecer. Encontrei um cartão no chão. É na outra Ilha, talvez eles possam te ajudar...</default>
+		<default>Olha, eu vou te levar até um lugar quando anoitecer. Encontrei um cartão no chão. É na outra Ilha, talvez possam te ajudar...</default>
 	</talk>
 	<teller>
-		<default>Alete puxa Etos e o beija. Ele se afasta dela. Olha para a porta e vê Janaína. Baixa a cabeça.</default>
+		<default>Alete puxa Etos e beija. Etos se afasta.</default>
+	</teller>
+	<talk character="Etos">
+		<default>Alete...</default>
+	</talk>
+	<teller>
+		<default>Etos olha para a porta e vê Janaína. Baixa a cabeça.</default>
 	</teller>
 	<talk character="Janaína">
 		<default>Então era isso... Mais de um mês te procurando e você tava com outra!</default>
@@ -30,6 +36,9 @@
 	<talk character="Janaína">
 		<screamed>Me deixar em paz??? Acha que preciso de alguma coisa sua???</screamed>
 	</talk>
+	<teller>
+		<default>Etos olha para Janaína.</default>
+	</teller>
 	<talk character="Etos">
 		<default>Tudo que tenho você também conquistou. Nada é só meu.</default>
 	</talk>
@@ -40,7 +49,7 @@
 		<default>É a primeira vez que isso acontece.</default>
 	</talk>
 	<teller>
-		<default>Janaína sai. Alete vai atrás dela.</default>
+		<default>Janaína sai. Alete segue. Para Janaína no jardim.</default>
 	</teller>
 	<talk character="Alete">
 		<default>Você não é nada.</default>
