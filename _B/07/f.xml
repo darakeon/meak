@@ -1,8 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="07" scene="f">
 	<teller>
-		<default>No quarto onde estava Inês, o ex-fantasma está na janela com ela no colo.</default>
+		<default>Beleno e Derik olham pela janela do quarto. Beleno pega Derik no colo e pula pela janela. Coloca Derik no chão. Martim está na beira do penhasco, com Inês no colo.</default>
 	</teller>
+	<talk character="Derik">
+		<default>Avisa na próxima!</default>
+	</talk>
+	<talk character="Beleno">
+		<default>Que achou que eu fosse fazer?!</default>
+	</talk>
+	<talk character="Deri">
+		<default>Sei lá!</default>
+	</talk>
 	<talk character="Martim">
 		<default>É bom estar assim de novo, assim posso fazer ameaças reais.</default>
 	</talk>
@@ -10,7 +19,7 @@
 		<default>Quem disse que não íamos conseguir fazer ela falar aquilo?</default>
 	</talk>
 	<talk character="Derik">
-		<default>E não conseguiram. Ela falou sozinha, não foram vocês que fizeram.</default>
+		<default>E não conseguiram. Falou, mas não foram vocês que fizeram.</default>
 	</talk>
 	<talk character="Martim">
 		<default>Eu quero meu ouro.</default>
@@ -19,13 +28,13 @@
 		<default>Ouro? Que ouro?</default>
 	</talk>
 	<talk character="Martim">
-		<default>Meu ouro roubado. Que vocês roubaram!</default>
+		<default>Meu ouro roubado! Que vocês roubaram!</default>
 	</talk>
 	<teller>
 		<default>Inês começa a chorar.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Não chora, meu amor, ele não vai fazer nada com você...</default>
+		<default>Não chora, meu amor, não vai fazer nada com você...</default>
 	</talk>
 	<talk character="Martim">
 		<default>Você quem pensa.</default>
@@ -43,7 +52,7 @@
 		<default>Beleno abre as asas.</default>
 	</teller>
 	<talk character="Martim">
-		<default>Eu posso matá-la antes de me jogar.</default>
+		<default>Eu posso matar ela antes de me jogar.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Nós não roubamos nada. Aquele ouro foi comprado.</default>
@@ -52,7 +61,7 @@
 		<default>Alguém me roubou!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Muito bem. Pegue o nosso dinheiro com o cara que realmente te roubou e traga aqui. Assim nós te devolvemos o ouro e está tudo limpo.</default>
+		<default>Muito bem. Pegue o nosso dinheiro com o cara que realmente te roubou e traga aqui. Assim nós te devolvemos o ouro e tá tudo limpo.</default>
 	</talk>
 	<talk character="Martim">
 		<default>Acha que não sei que já gastaram meu ouro???</default>
@@ -64,16 +73,19 @@
 		<default>Acha que sou idiota??? Primeiro que não posso voltar pra lá e segundo que vocês fugiriam para outro lugar e...</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Derik, é verdade que você vira pássaro e cachorro?</default>
+		<default>Derik, pega!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Sim.</default>
+		<default>Quê?!</default>
 	</talk>
 	<talk character="Beleno">
-		<default>E se eu disser "pega!"?</default>
+		<default>Eu disse pega!</default>
 	</talk>
 	<teller>
-		<default>Derik olha para Beleno, sem entender. Então entende, vira cachorro e pula em cima do ex-fantasma. Os três (Martim – o ex-fantasma – , Inês e Derik) caem pela janela. Beleno voa e pega Inês. Derik se transforma em pássaro. Beleno olha para baixo e vê o ex-fantasma desaparecer antes de tocar o mar. Voltam pra dentro. 12:00. Derik e Estela estão procurando em livros na biblioteca.</default>
+		<default>Derik olha para Beleno, franzindo a testa. Desfranze. Vira cachorro e pula em Martim. Martim, Derik e Inês caem. Beleno pula, pega Inês. Derik vira pássaro e voa. Beleno olha para Martim e vê Martim desaparecer.</default>
+	</teller>
+	<teller>
+		<first>Sol a pino. Biblioteca.</first>
 	</teller>
 	<talk character="Derik">
 		<default>É isso!</default>
@@ -82,13 +94,13 @@
 		<default>Encontrou?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Se ele for atacado antes da terra dar uma volta, volta à antiga forma e o feitiço não funciona mais.</default>
+		<default>O feitiço leva uma volta da Terra para se firmar. Não podíamos ter atacado antes disso. Agora o feitiço não funciona mais.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Bom, não faltamos a escola em vão. Será que Kat já sonhou alguma coisa?</default>
 	</talk>
 	<teller>
-		<default>Em seu quarto, Kat dorme e sonha. Está num porto. Fica observando.</default>
+		<default>Kat está em seu quarto. #######</default>
 	</teller>
 	<talk character="irmão">
 		<default>Por que me chamou aqui, Martim?</default>
