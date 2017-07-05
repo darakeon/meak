@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <story season="A" episode="20" scene="b">
 	<teller>
-		<division>Agora</division>
+		<default>Atualmente</default>
 		<default>Katerine chega a MEAK. Bate na porta. Passos. Chaves. Mel abre a porta.</default>
 	</teller>
 	<talk character="Kat">
@@ -143,7 +143,7 @@
 		<default>Primeiro a gente acha o feitiço. Aí chamamos Angely e Angely pega Edmont. Então falamos com Mel.</default>
 	</talk>
 	<teller>
-		<division>Dezembro de 2014 - Derik e Agatha estão na sala. Kat chega.</division>
+		<first>Dezembro de 2014. Manhã. Derik e Agatha estão na sala. Kat chega.</first>
 	</teller>
 	<talk character="Kat">
 		<arrive>E aí? Tudo pronto?</arrive>
@@ -184,6 +184,7 @@
 	<talk character="Derik">
 		<default>Agora fodeu.</default>
 	</talk>
+	
 	<teller>
 		<default>Toca o telefone na casa de Kat. Kat vai pegar, Agatha corre e atende.</default>
 	</teller>
@@ -220,241 +221,163 @@
 	<talk character="Derik">
 		<default>Não.</default>
 	</talk>
-	<teller>
+	<talk character="Kat">
 		<default>A gente vai praí.</default>
-	</teller>
-	<talk character="">
-		<default>.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Tá. Até.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Kat desliga o telefone. Barulho de carro.</default>
 	</teller>
 	<talk character="">
-		<default>.</default>
+		<screamed>Agatha! Espera!</screamed>
 	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
+	
 	<teller>
-		<default>.</default>
+		<first>MEAK. Kat entra no quarto. Olha para Derik, que ainda está no chão. Olha para Angely. Agatha chega. Se aproxima da cama. Kat segurea seu braço, mas Agatha se faz soltar. Derik sai da parede onde estava e puxa Kat mais para o lado da porta. Kat volta para o lado da parede. Agatha encosta em Angely e também toma o tranco, mas Kat segura.</first>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Obrigada.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>De nada. Você tá melhor. Antigamente eu teria deixado você se quebrar.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Vou entender isso como um elogio.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>E é.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Ligar pra Mel?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Parece uma boa ideia. E pra qualquer caça-vampiros que conheçamos.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Só consigo lembrar de mortos.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<first>Tarde. Mel entra no quarto. Olha para o teto. Vai na direção de Angely. Kat vai na direção de Mel. Mel toca Angely. Nada acontece. Kat franze a testa.</first>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Mel">
+		<default>Tenta.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
+	
 	<teller>
-		<default>.</default>
+		<default>Kat se aproxima. Toca. Nada. Derik se aproxima. Mel segura seu braço.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Mel">
+		<default>Você não.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Por quê?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Mel">
+		<default>Essa coisa no teto é atlante.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>Um feitiço atlante? Sabe o que significa?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Mel">
+		<default>É um feitiço de sono.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Como desfaz?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Não sei. Acabei de te dar toda a informação que tinha.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<division>Antes</division><default>Mel está na cozinha, bebendo de um copo. Termina o que está no copo, vira para lavar na pia. Lava o copo e coloca na lateral direita da pia.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Zenon">
+		<default>E aí?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Mel">
+		<default>Não sei.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Zenon">
+		<default>Como assim?!</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Mel">
+		<default>Não sabendo.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Zenon">
+		<default>Me diz que é impossível, mas não diz "Não sei"!</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Mel encolhe os ombros e solta. Vai para a sala. Zenon segue.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Zenon">
+		<default>A gente tá falando da Virgine. Ela e Kassandra são as vampiras... As primeiras...</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Mel">
+		<default>Eu sei. Argo foi Edmont que matou, Dilan foi Rust e Rust foi aquela criança que te enfeitiçou.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Zenon">
+		<default>Pesquisei o feitiço. Era meio recíproco, ela ficava mais forte.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Mel">
+		<default>Essa sua necessidade de se provar às vezes é cômica, às vezes é irritante.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<teller><default>Zenon cruza os braços.</default></teller>
+	<talk character="Zenon">
+		<default>Que necessidade de...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Acha que não sei que disse isso porque Rust tinha acabado de te derrubar?</default>
+	</talk>
+	<teller><default>Zenon solta os braços.</default></teller>
+	<talk character="Zenon">
+		<default>Onde as pessoas descobrem essas coisas?!</default>
+	</talk>
+	<talk character="Mel">
+		<default>Edmont contou.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Quando?!</default>
+	</talk>
+	<talk character="Mel">
+		<default>Enquanto eu voltava depois de me drogarem.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Você tá melhor daquilo?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Fico melhor quando as pessoas não perguntam.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Mel sai da cozinha. Zenon segue.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Zenon">
+		<default>E aí?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Mel">
+		<default>E aí o que?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Zenon">
+		<default>Sobre Virgine...</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Mel">
+		<default>Zenon, eu tenho me ocupado de outras coisas recentemente. Estou estudando coisas. E não tenho tempo pra isso. Vai atrás de caça-vampiros. Aí cê se resolve.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Mel sobe. Zenon se joga no sofá. Franze a testa.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Zenon">
+		<default>Por que Ísis não foi atrás de caça-vampiros?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<teller><default>Zenon desfranze a testa e abre mais os olhos.</default></teller>
+	<talk character="Zenon">
+		<default>Angely! Angely vai me ajudar!</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
+	<teller><default>Zenon coloca a mão entre o queixo e a boca.</default></teller>
+	<talk character="Zenon">
+		<default>Só precisa ser um plano que não precise matar ou mentir.</default>
 	</talk>
 	<teller>
-		<default>.</default>
-	</teller>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<teller>
-		<default>.</default>
-	</teller>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<teller>
-		<default>.</default>
-	</teller>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<teller>
-		<default>.</default>
-	</teller>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<teller>
-		<default>.</default>
+		<default>Zenon levanta do sofá e sobe a escada.</default>
 	</teller>
 </story>
