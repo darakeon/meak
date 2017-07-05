@@ -70,7 +70,10 @@
 		<default>Vamos levar pra casa abandonada.</default>
 	</talk>
 	<teller>
-		<default>Angely, Edmont e Mel cavam o túmulo. Kat fecha o caixão. Eles pegam uma corda, e mesmo Kat ajuda a descer. Mel e Edmont jogam a terra, enquanto Angely abraça Katerine, que chora. Voltam pra casa. Ficam na sala, estirados nos sofás. É noite. Edmont sai do torpor.</default>
+		<default>Angely, Edmont e Mel cavam o túmulo. Kat fecha o caixão. Eles pegam uma corda, e mesmo Kat ajuda a descer. Mel e Edmont jogam a terra, enquanto Angely abraça Katerine, que chora. Voltam pra casa. Ficam na sala, estirados nos sofás.</default>
+	</teller>
+	<teller>
+		<first>É noite. Edmont sai do torpor.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Por que ela parecia tão mais velha do que realmente era?</default>
@@ -303,7 +306,7 @@
 		<default>Tudo bem. O problema vai ser pra encontrar esse cara agora.</default>
 	</talk>
 	<teller>
-		<default>Madrugada. Elian aparece no jardim da casa. A terra começa a se revirar. Uma mão. Outra. Elian a puxa. Ela bate na roupa para a terra sair. Elian pega um lenço e limpa o rosto dela.</default>
+		<first>Madrugada. Elian aparece no jardim da casa. A terra começa a se revirar. Uma mão. Outra. Elian a puxa. Ela bate na roupa para a terra sair. Elian pega um lenço e limpa o rosto dela.</first>
 	</teller>
 	<talk character="Elian">
 		<default>Agora és minha.</default>
@@ -380,7 +383,10 @@
 		<default>Minha menina.</default>
 	</talk>
 	<teller>
-		<default>Ela dá outro sorriso. Na MEAK, 10:00hrs da manhã, Agatha e Meg estão tocando a campainha. Os quatro acabaram dormindo na cozinha, em cima de lista telefônica, livros e até caderno de desenho. Mel acorda e vai atender.</default>
+		<default>Ela dá outro sorriso.</default>
+	</teller>
+	<teller>
+		<first>Na MEAK, 10:00hrs da manhã, Agatha e Meg estão tocando a campainha. Os quatro acabaram dormindo na cozinha, em cima de lista telefônica, livros e até caderno de desenho. Mel acorda e vai atender.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Que horas são?</default>

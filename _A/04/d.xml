@@ -25,7 +25,10 @@
 		<default>Bom, eu tô indo.</default>
 	</talk>
 	<teller>
-		<default>Angely desce pela porta de saída da casa. Na casa de Kat, ela está no quarto. Ouve um latido e sai.</default>
+		<default>Angely desce pela porta de saída da casa.</default>
+	</teller>
+	<teller>
+		<first>Na casa de Kat, ela está no quarto. Ouve um latido e sai.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Oi, que você tá fazendo aqui?</default>
@@ -51,7 +54,7 @@
 		<default>Ainda tá com fome? Não tem mais... De onde você veio? Não tem coleira...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Conversando sozinha?</default>
+		<arrive>Conversando sozinha?</arrive>
 	</talk>
 	<talk character="Kat">
 		<default>Quer me matar do coração?!</default>
@@ -153,7 +156,10 @@
 		<default>Cuidado pra não cair aí dentro.</default>
 	</talk>
 	<teller>
-		<default>Eles colocam o capacete e sobem na moto. Ela segura na cintura dele e eles saem. Mel vai até a cidade, com a moto dela. Numa lanchonete encontra Meg com Bryan.</default>
+		<default>Eles colocam o capacete e sobem na moto. Ela segura na cintura dele e eles saem.</default>
+	</teller>
+	<teller>
+		<first>Mel vai até a cidade, com a moto dela. Numa lanchonete encontra Meg com Bryan.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Oi, tudo bem?</default>
@@ -237,7 +243,7 @@
 		<screamed>Vai se arrepender! Ele é um mão virada!</screamed>
 	</talk>
 	<teller>
-		<default>Angely leva Kat à cidade onde eles morreram.</default>
+		<first>Angely leva Kat à cidade onde eles morreram.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Nessa casa toda quebrada?</default>
@@ -309,7 +315,10 @@
 		<default>Tá.</default>
 	</talk>
 	<teller>
-		<default>Eles pegam a moto e voltam. De noite, na casa abandonada, Elian está na frente da porta trancada.</default>
+		<default>Eles pegam a moto e voltam.</default>
+	</teller>
+	<teller>
+		<first>De noite, na casa abandonada, Elian está na frente da porta trancada.</first>
 	</teller>
 	<talk character="Elian">
 		<default>Não vais mesmo abrir, não é?</default>
@@ -366,7 +375,10 @@
 		<default>Entendeste.</default>
 	</talk>
 	<teller>
-		<default>Ele morde o pescoço dela. Ela afasta o rosto dele, olha-o e o beija. Depois ele volta a beber o sangue dela. Ela o abraça. Depois de algum tempo, ela já não tem força. Ele corta o próprio pulso e alimenta-a de seu sangue. De manhã, na casa de Meg...</default>
+		<default>Ele morde o pescoço dela. Ela afasta o rosto dele, olha-o e o beija. Depois ele volta a beber o sangue dela. Ela o abraça. Depois de algum tempo, ela já não tem força. Ele corta o próprio pulso e alimenta-a de seu sangue.</default>
+	</teller>
+	<teller>
+		<first>De manhã, na casa de Meg...</first>
 	</teller>
 	<talk character="Meg">
 		<default>Vai continuar muda como na outra manhã?</default>
@@ -486,7 +498,10 @@
 		<default>Olha, se quiser pegar o carro pra levar a Kat pra algum lugar, pode pegar, não leva ela na moto.</default>
 	</talk>
 	<teller>
-		<default>Os quatro saem da casa. Edmont leva Kat pra MEAK. No escritório, Angely e Mel estão quebrando a cabeça pra tentar pensar em algo.</default>
+		<default>Os quatro saem da casa. Edmont leva Kat pra MEAK.</default>
+	</teller>
+	<teller>
+		<first>No escritório, Angely e Mel estão sentados à mesa, um de frente para o outro.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Peraí, a garota nasceu há doze anos, certo?</default>
