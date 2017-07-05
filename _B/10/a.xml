@@ -1,58 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="10" scene="a">
 	<teller>
-		<default>24/05 (sábado). 17:00. Angely chega à loja de Douglas.</default>
+		<default>Anoitecer. Loja de Douglas. Angely entra, com uma sacola na mão.</default>
 	</teller>
 	<talk character="Douglas">
 		<default>Veio vender mais alguma coisa?</default>
 	</talk>
 	<teller>
-		<default>Angely coloca uma sacola sobre o balcão.</default>
+		<default>Angely pousa a sacola sobre o balcão.</default>
 	</teller>
 	<talk character="Douglas">
-		<default>Aqui não.</default>
+		<default>Aqui não!</default>
 	</talk>
 	<teller>
-		<default>Os dois vão pra trás da lanchonete. Angely coloca a sacola no chão. Douglas vai até ela.</default>
+		<default>Douglas abre a porta atrás de si, entra e Angely segue. Descem a escada. Angely coloca a sacola no chão. Douglas se abaixa perto..</default>
 	</teller>
 	<talk character="Ang">
-		<default>Se fosse você, eu não abriria.</default>
+		<default>Melhor não abrir.</default>
 	</talk>
+	<teller>
+		<default>Douglas olhar para Ang.</default>
+	</teller>
 	<talk character="Douglas">
 		<default>E pode me dizer o que é?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Partes internas de um... O nome tá aqui no papel.</default>
+		<default>Partes internas... O nome tá aqui.</default>
 	</talk>
 	<teller>
-		<default>Angely entrega um papel à Douglas. Ele abre o papel, vai até um computador e digita.</default>
+		<default>Angely entrega um papel a Douglas. Douglas abre o papel, vai até um computador e digita. Abre uma página.</default>
 	</teller>
 	<talk character="Douglas">
 		<default>É, melhor mesmo não abrir.</default>
 	</talk>
 	<teller>
-		<default>Douglas pega uma pacote de dinheiro e entrega para Angely. Ele abre e começa a contar.</default>
+		<default>Douglas pega um envelope e entrega para Angely. Angely abre e começa a contar.</default>
 	</teller>
 	<talk character="Douglas">
 		<default>Tá achando que te roubei???</default>
 	</talk>
 	<talk character="Ang">
-		<default>Da outra vez não deu tudo.</default>
+		<default>Mel pediu para contar.</default>
 	</talk>
 	<talk character="Douglas">
-		<default>Não esqueci da surra do seu irmão.</default>
+		<default>Não esqueci da surra do seu irmão!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não mandei ele fazer aquilo. E... Mel que pediu pra eu contar o dinheiro.</default>
+		<default>Não mandei Edmont fazer aquilo.</default>
 	</talk>
 	<teller>
-		<default>Angely conta o dinheiro. Então vai até a MEAK. Beatrice está na recepção.</default>
+		<first>MEAK. Ang entra.</first>
 	</teller>
 	<talk character="Bea">
-		<default>Que deseja?</default>
+		<default>Deseja um quarto ou está fugindo de demônios de outra dimensão.</default>
 	</talk>
 	<teller>
-		<default>Ele ri. Coloca um pacote sobre o balcão.</default>
+		<default>Ang sorri. Coloca o envelope no balcão.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Entrega isso para a Mel?</default>
@@ -61,7 +64,7 @@
 		<default>Vai pra casa?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Sim. Quer que eu fique?</default>
+		<default>Sim. Por quê?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Queria ficar pra sempre.</default>
@@ -70,24 +73,25 @@
 		<default>Pode ficar.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Queria que nós dois ficássemos aqui.</default>
+		<default>Queria que ficasse também.</default>
 	</talk>
+	<teller>
+		<default>Ang baixa a cabeça.</default>
+	</teller>
 	<talk character="Ang">
 		<default>Não posso.</default>
-		<teller>baixa a cabeça</teller>
-		<default>Não posso ficar ouvindo os planos.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Você não está feliz longe da sua família.</default>
 	</talk>
 	<teller>
-		<default>Ang passa a mão no rosto de Bea.</default>
+		<default>Ang olha para Beatrice.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Seria pior se eu tivesse que sair toda vez que eles vão falar algo.</default>
+		<default>Seria pior se eu tivesse que sair toda vez que vão falar algo.</default>
 	</talk>
 	<teller>
-		<default>Ele sai. Estela chega.</default>
+		<default>Ang sai. Estela chega e se joga no sofá.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Que cara é essa?</default>
@@ -114,19 +118,19 @@
 		<default>Um cara?</default>
 	</talk>
 	<talk character="Bea">
-		<default>É, um loiro, forte, de olhos claros...</default>
+		<default>É, um moreno forte.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ah...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Tô brincando. Ela tá conversando com o Jessé lá no quarto, acho que não tem problema interromper.</default>
+		<default>Tô brincando. Tá conversando com Jessé lá no quarto, acho que não tem problema interromper.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Ela pode estar com ele, fazendo... Algo mais.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ela não dorme com quem periga gostar dela, esqueceu? Ele gagueja quando chega perto dela.</default>
+		<default>Não dorme com quem periga ter sentimentos, esqueceu? Jessé gagueja quando chega perto.</default>
 	</talk>
 	<teller>
 		<default>Zenon sai.</default>
@@ -134,6 +138,9 @@
 	<talk character="Bea">
 		<default>Alan, você vai a uma festa amanhã.</default>
 	</talk>
+	<teller>
+		<default>Alan franze a testa.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Vou?</default>
 	</talk>
@@ -143,6 +150,9 @@
 	<talk character="Estela">
 		<default>Beatrice!</default>
 	</talk>
+	<teller>
+		<default>Alan olha para Estela.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Tá com vergonha de mim?</default>
 	</talk>
@@ -153,13 +163,13 @@
 		<default>Peraí, eu ouvi direito? Desde quando você se importa com isso?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Desde quando Katerine está se importando. O ataque de raiva da Mel não fez um efeito tão duradouro nela. Agora fica no meu ouvido "E aí, quando arranja namorado?" e fica jogando tudo que é lixo da escola em cima de mim.</default>
+		<default>Desde quando Katerine tá se importando. O ataque de raiva da Mel não fez um efeito tão duradouro nela. Agora fica no meu ouvido "E aí, quando arranjar alguém?" e fica jogando tudo que é lixo da escola em cima de mim.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Lixo? Apesar do Derik ser uma exceção, Kat não costuma ter mal gosto.</default>
+		<default>Lixo?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Bom, o Derik, apesar de não ser um deus grego, parece garoto bombril, mil e uma utilidades. Os lixos aos quais me refiro são aqueles que só servem para olhar, se abrir a boca estraga seu dia.</default>
+		<default>São aqueles que só servem para olhar, se abrir a boca estraga seu dia.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Nossa, não sabia que a Kat tava descendo assim de padrão.</default>
@@ -168,10 +178,10 @@
 		<default>Mas tá. Não notou a depressão do Derik?</default>
 	</talk>
 	<talk character="Alan">
-		<default>Isso até eu notei. Aliás, a Kat agora está treinando conosco...</default>
+		<default>Isso até eu notei. Aliás, a Kat agora está treinando com a gente...</default>
 	</talk>
 	<talk character="Estela">
-		<default>Mel autorizou. a mim e a ela.</default>
+		<default>Mel autorizou. A mim e a ela.</default>
 	</talk>
 	<talk character="Alan">
 		<default>E por que você não vai?</default>
@@ -182,16 +192,23 @@
 	<talk character="Alan">
 		<default>Posso te treinar aqui.</default>
 	</talk>
+	<teller>
+		<default>Estela levanta.</default>
+	</teller>
 	<talk character="Estela">
 		<default>Pode? Sério?!</default>
-		<teller>baixa a cabeça</teller>
+	</talk>
+	<teller>
+		<default>Estela solta os ombros.</default>
+	</teller>
+	<talk character="Estela">
 		<default>Não tenho dinheiro pra pagar.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Tá me achando com cara de mercenário???</default>
 	</talk>
 	<teller>
-		<default>Zenon chega e ri.</default>
+		<default>Zenon olha da cozinha.</default>
 	</teller>
 	<talk character="Zenon">
 		<irony>Ah, só porque você tá cobrando da Michele e do Grupo?</irony>
@@ -199,6 +216,9 @@
 	<talk character="Alan">
 		<default>Não cobraria de alguém que não tem dinheiro!</default>
 	</talk>
+	<teller>
+		<default>Zenon volta a sala e cruza os braços.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Isso. Treina a Estela, que tá começando. A Kat e a Michele que já sabem lutar, deixa pra mim, você não tá muito bem...</default>
 	</talk>
@@ -221,28 +241,28 @@
 		<default>Claro!</default>
 	</talk>
 	<teller>
-		<default>Os dois saem.</default>
+		<default>Estela e Alan saem.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Ê, bicho cego, viu... Isso ainda dá confusão.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Por quê? Ela não é lésbica.</default>
+		<default>Por quê? Estela não é lésbica.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ela tem quatorze anos!</default>
+		<default>Ela tem dezesseis anos!</default>
 	</talk>
 	<talk character="Bea">
-		<default>E daí? Fui com 12.</default>
+		<default>E daí? Eu tinha doze.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Você foi criada por um vampiro obcecado por ter uma boneca presa num quarto, que fizesse tudo que ele mandasse. Chegou a acelerar seu crescimento para isso!</default>
 	</talk>
 	<talk character="Bea">
-		<default>Elian era um doente. Mas isso não tem que ter idade. Se já se está produzindo hormônios e as duas pessoas realmente se amam e se previnem contra as possíveis conseqüências...</default>
+		<default>Essa história é um pouco mais complicada do que eu sabia. Elian era um animal. Mas isso não tem que ter idade. Se já se está produzindo hormônios, as duas pessoas realmente desejarem uma a outra e se previnem contra as possíveis conseqüências...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tá, esquece, eu nasci no século retrasado mesmo...</default>
+		<default>Tá, esquece, eu nasci no século retrasado mesmo.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Moralista, aposto que sua primeira vez foi com menos de doze!</default>
@@ -250,53 +270,50 @@
 	<talk character="Zenon">
 		<default>Apostou errado!</default>
 	</talk>
+	<teller>
+		<default>Beatrice cruza os braços.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Ah, é? E quantos anos você tinha?</default>
 	</talk>
 	<teller>
-		<default>Zenon recua em falar.</default>
+		<default>Zenon baixa a cabeça. Olha para fora.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Meu aniversário de doze.</default>
 	</talk>
 	<teller>
-		<default>18:30. Angely chega em casa. Vai até seu quarto e olha para um quadro na parede. É um quadro que Leo fizera, de sua prima.</default>
+		<first>Casa de Angely. Angely entra. Vai até seu quarto. Olha para um quadro na parede, de Pandora.</first>
 	</teller>
 	<talk character="Ang">
-		<default>Acho que esse quadro deveria ir para um museu. Melhor, amanhã mesmo levarei para o teatro pro qual vendemos os outros. Coloco na porta, não terão dificuldade de reconhecer o artista, sempre a mesma modelo...</default>
+		<default>Acho que esse quadro deveria ir para um museu.</default>
 	</talk>
 	<teller>
-		<default>Edmont, em Ares...</default>
+		<default>Ang deita na cama.</default>
 	</teller>
+	<talk character="Ang">
+		<default>Acho que amanhã mesmo vou levar para o teatro que vendemos os outros. Coloco na porta, não vão ter dificuldade de reconhecer artista, sempre mesma pessoa pintada...</default>
+	</talk>
 	<talk character="Edmont">
 		<thought>Isso é comigo?</thought>
 	</talk>
-	<teller>
-		<default>Angely, em Hera...</default>
-	</teller>
 	<talk character="Ang">
-		<thought>Tô falando sozinho.</thought>
+		<thought>Tô falando só.</thought>
 	</talk>
-	<teller>
-		<default>Edmont, em Ares...</default>
-	</teller>
 	<talk character="Edmont">
 		<thought>Não vai adiantar mandar você pensar ao invés de falar, dá no mesmo, então, fale o quanto quiser.</thought>
 	</talk>
-	<teller>
-		<default>Angely, em Hera...</default>
-	</teller>
 	<talk character="Ang">
 		<thought>Quem disse que preciso da sua autorização?</thought>
 	</talk>
 	<teller>
-		<default>Edmont sai de seu apartamento. Vai até a praia. Senta-se numa pedra. Acende um cigarro. Vê uma caixa grande, parece um caixão (de enterro). Vai até ela.</default>
+		<default>Edmont sai de seu apartamento. Vai até a praia. Senta-se em uma pedra. Acende um cigarro. Olha para o mar e franze a sobrancelha. Levanta e vai até a beira. Um caixão.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Parece que finalmente vou ter algum dinheiro.</default>
 	</talk>
 	<teller>
-		<default>Ele pega um telefone. Dali à alguns minutos, Douglas chega, com um carro.</default>
+		<default>Minutos depois, Douglas chega, com um carro. Sai do carro. Vê Edmont, que sentou-se no caixão. Douglas dá um passo atrás.</default>
 	</teller>
 	<talk character="Douglas">
 		<default>Peraí, mas dessa vez eu paguei direito...</default>
@@ -304,6 +321,9 @@
 	<talk character="Edmont">
 		<default>Dessa vez não vou te bater. Quanto acha que vale isso?</default>
 	</talk>
+	<teller>
+		<default>Edmont dá um tapa no caixão. Douglas olha.</default>
+	</teller>
 	<talk character="Douglas">
 		<default>Me parece trazido pela maré...</default>
 	</talk>
@@ -315,14 +335,18 @@
 	</talk>
 	<talk character="Edmont">
 		<default>Achado não é roubado.</default>
-		<teller>levanta e vai até Douglas</teller>
-		<default>Alguma... Dúvida de que é meu?</default>
+	</talk>
+	<teller>
+		<default>Edmont dá um trago no cigarro. Levanta e vai em direção a Douglas. Apaga o cigarro com os dedos.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Alguma dúvida de que é meu?</default>
 	</talk>
 	<talk character="Douglas">
 		<default>Não, de jeito nenhum! Quanto você quer?</default>
 	</talk>
 	<teller>
-		<default>Edmont vai até o caixão.</default>
+		<default>Edmont entrega o cigarro apagado a Dougle. Volta a olhar para o caixão.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Bem antigo... Bem feito... Parece à mão, não acha?</default>
@@ -334,7 +358,7 @@
 		<default>Pode dar a opinião sincera agora.</default>
 	</talk>
 	<teller>
-		<default>Douglas vai até o caixão e examina. Vai abrir, mas Edmont segura.</default>
+		<default>Douglas vai até o caixão. Abaixa. Passa a mão na madeira. Acha o fecho. Coloca a mão. Edmont senta no caixão. Douglas se afasta.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Só se comprar.</default>
@@ -358,40 +382,40 @@
 		<default>É um caixão. Deve ter um corpo. Ou, pela cara, restos de um.</default>
 	</talk>
 	<teller>
-		<default>20:00. Douglas está em casa, com o caixão. Angely chega.</default>
+		<first>Porão da lanchonete de Douglas. Douglas está de braços cruzados, olhando para o caixão. Angely chega pela escada.</first>
 	</teller>
 	<talk character="Douglas">
 		<default>Nossa, como você adivinhou, eu tava pensando em você!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Peça.</default>
+		<default>Fale.</default>
 	</talk>
 	<talk character="Douglas">
 		<default>Pode abrir pra mim?</default>
 	</talk>
 	<teller>
-		<default>Angely abre. Há algo enrolado num pano.</default>
+		<default>Angely vai em direção ao caixão. Douglas corre e se esconde atrás de uma coluna. Angely abre o caixão. Há algo enrolado em um pano.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Parece uma garota.</default>
+		<default>Parece uma pessoa.</default>
 	</talk>
 	<talk character="Douglas">
 		<default>Deixa que eu vejo!</default>
 	</talk>
 	<teller>
-		<default>Douglas, que tinha se escondido, vai até o caixão.</default>
+		<default>Douglas vai até o caixão.</default>
 	</teller>
 	<talk character="Douglas">
 		<default>Pode ir.</default>
 	</talk>
 	<teller>
-		<default>Angely sai.</default>
+		<default>Angely começa a subir a escada.</default>
 	</teller>
 	<talk character="Douglas">
 		<default>Ah, espera!</default>
 	</talk>
 	<teller>
-		<default>Ele volta.</default>
+		<default>Angely para.</default>
 	</teller>
 	<talk character="Douglas">
 		<default>Não veio fazer algo?</default>
@@ -406,33 +430,33 @@
 		<default>Apenas soube.</default>
 	</talk>
 	<teller>
-		<default>Angely vai embora. Douglas levanta o pano. Realmente é uma garota. É a prima de Leo: Pandora. Mas dessa parte Douglas não sabe. Está intacta, como se tivesse morrido naquela hora.</default>
+		<default>Angely termina de subir a escada. Douglas levanta o pano. É Pandora. O corpo está intacto, como se tivesse morrido naquela hora.</default>
 	</teller>
 	<talk character="Douglas">
 		<default>Nossa... Devia ter pedido pra ele abrir... Agora vou ficar tendo pesadelos com isso... Uma funerária!</default>
 	</talk>
 	<teller>
-		<default>Douglas sai, mas volta.</default>
+		<default>Douglas vai até o telefone. Pega. Coloca de volta no gancho.</default>
 	</teller>
 	<talk character="Douglas">
-		<default>Ela está num caixão, vão pensar que assaltei o cemitério... Acho que vou ter que te jogar em algum lugar.</default>
+		<default>Ela tá num caixão, vão pensar que assaltei o cemitério... Acho que vou ter que te jogar em algum lugar...</default>
 	</talk>
 	<teller>
-		<default>Ele leva o corpo até a praia e deixa ali. No dia seguinte (25/05 – domingo), 08:00, Angely passa em frente a uma banca. Volta. Olha para uma foto.</default>
+		<default>Dia seguinte. Manhã. Angely passa em frente a uma banca. Volta. Olha para uma foto.</default>
 	</teller>
-	<talk character="jornaleiro">
+	<talk character="Rafael">
 		<default>Vai levar?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não, é que acho que conheço essa garota...</default>
+		<default>Não, é que acho que conheço essa pessoa...</default>
 	</talk>
-	<talk character="jornaleiro">
+	<talk character="Rafael">
 		<default>Tá falando do corpo que foi achado?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Sim.</default>
 	</talk>
-	<talk character="jornaleiro">
+	<talk character="Rafael">
 		<default>Meus pêsames.</default>
 	</talk>
 </story>
