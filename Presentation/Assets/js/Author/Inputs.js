@@ -8,11 +8,6 @@ function AjustEditTextSize(reference) {
 
         var text = main - auxis - adders - scroll;
 
-        $("#save_status").append("<br />" + main);
-        $("#save_status").append("<br />" + auxis);
-        $("#save_status").append("<br />" + adders);
-        $("#save_status").append("<br />" + text);
-
         if (!reference) reference = ".paragraph .text";
 
         $(reference).width(text);
