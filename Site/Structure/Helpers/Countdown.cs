@@ -6,16 +6,30 @@ namespace Structure.Helpers
     {
         public static String GetTimeLeft()
         {
-            var allTime = DateTime.UtcNow - Config.CountdownStart;
-
-            var timeLeft = Config.CountdownFrequency -
-                (allTime.TotalDays % Config.CountdownFrequency);
-
-            var positions = Math.Ceiling(Math.Log10(Config.CountdownFrequency));
-            var format = Math.Pow(10, positions).ToString().Replace("1", "");
-
-            return Math.Ceiling(timeLeft).ToString(format);
+			return getDaysLeft().ToString("00");
         }
 
+	    private static Double getDaysLeft()
+	    {
+		    var today = DateTime.UtcNow.Date;
+
+		    var allTime = today - Config.CountdownStart;
+
+		    var episodesDone = allTime.TotalDays/Config.CountdownFrequency;
+
+		    if (episodesDone > 19)
+		    {
+			    var nextYearStart = Config.CountdownStart.AddYears(1);
+
+			    return (nextYearStart - today).TotalDays;
+		    }
+
+		    var passedDays = (allTime.TotalDays-1)
+				% Config.CountdownFrequency + 1;
+
+		    var timeLeft = Config.CountdownFrequency - passedDays;
+
+		    return Math.Ceiling(timeLeft);
+	    }
     }
 }
