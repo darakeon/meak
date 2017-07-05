@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="08" scene="e">
 	<teller>
-		<default>Entardece. Na casa de Kat...</default>
+		<default>Tarde. Casa de Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Aurium... Onde é que você se enfiou?!</default>
 	</talk>
 	<teller>
-		<default>Aurium pega um bloco de folhas e entrega à Kat:</default>
-		<letter>Roupas para um cara de 18 anos</letter>
+		<default>Aurium entra. Está com o bloco na boca. Kat pega. Retrai os cantos da boca. Sacode o caderno. Escrito:</default>
+		<letter>Roupas para um alguém de 18 anos</letter>
 	</teller>
 	<talk character="Kat">
 		<default>Pra que?!</default>
 	</talk>
 	<teller>
-		<default>Ele senta e fica olhando pra ela.</default>
+		<default>Aurium senta e fica olhando pra Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Melhor irmos falar com os outros.</default>
 	</talk>
 	<teller>
-		<default>Kat pega a coleira, Aurium puxa da mão dela e guarda.</default>
+		<default>Kat pega a coleira em uma prateleira. Aurium puxa. Kat solta. Aurium guarda de volta.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Tá legal.</default>
 	</talk>
 	<teller>
-		<default>Eles vão até a casa dos três.</default>
+		<first>MEAK.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Ei... Posso entrar?</default>
@@ -38,13 +38,14 @@
 		<default>Foram vocês que escreveram isso?</default>
 	</talk>
 	<teller>
-		<default>Kat entrega o bloco a Edmont.</default>
+		<default>Kat entrega o bloco a Edmont. Aurium fica em pé.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Não... Angely, Mel!</default>
+		<default>Não...</default>
+		<screamed>Angely, Mel!</screamed>
 	</talk>
 	<teller>
-		<default>Mel sai da cozinha e Angely desce a escada.</default>
+		<default>Mel sai da cozinha. Angely desce a escada. Melody olha para Aurium e franze a testa.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Que foi?</default>
@@ -52,6 +53,9 @@
 	<talk character="Edmont">
 		<default>Algum de vocês escreveu isto?</default>
 	</talk>
+	<teller>
+		<default>Angely pega o bloco. Passa para Mel.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Eu não fui.</default>
 	</talk>
@@ -74,7 +78,7 @@
 		<default>Então quem...</default>
 	</talk>
 	<teller>
-		<default>Edmont olha pra Aurium, que tenta chamar a atenção de qualquer jeito.</default>
+		<default>Edmont olha pra Aurium, que ainda está de pé.</default>
 	</teller>
 	<talk character="Jak">
 		<default>Acho que ele quer dizer algo.</default>
@@ -89,7 +93,7 @@
 		<default>Eu acho que eu tenho uma roupa que talvez vá servir.</default>
 	</talk>
 	<teller>
-		<default>Angely sobe a escada. Aurium o segue. Os três sobem também. Jak desaparece e aparece no quarto de Angely, chegando antes deles.</default>
+		<default>Angely sobe a escada. Aurium o segue. Mel, Edmont e Kat se entreolham. Sobem também. Jak desaparece. Edmont entra no quarto de Angely, que está procurando em uma gaveta. Jak já está no quarto.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Ei!</default>
@@ -98,7 +102,7 @@
 		<default>Por isso é bom ser fantasma.</default>
 	</talk>
 	<teller>
-		<default>Angely pega uma roupa. Aurium carrega a roupa pro banheiro e fecha a porta.</default>
+		<default>Angely pega uma roupa. Entrega a Aurium, que carrega a roupa pro banheiro e bate a porta.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Que ele vai fazer? Vestir a roupa?!</default>
@@ -107,7 +111,7 @@
 		<default>Não duvide.</default>
 	</talk>
 	<teller>
-		<default>A porta do banheiro abre.</default>
+		<default>A porta do banheiro abre. Kat arregala os olhos.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Derik?!</default>
@@ -125,7 +129,7 @@
 		<default>Seu cachorro!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Parte do tempo só.</default>
+		<default>P...parte do... tempo... só.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Pensei que só pudesse ser cachorro e pássaro.</default>
@@ -136,15 +140,15 @@
 		<default>cachorro e pássaro. Ser mesmo, sou humano.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Beijei um tomba saco... Acho que vou vomitar...</default>
+		<default>Quase beijei um tomba saco... Acho que vou vomitar...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Sempre fui limpinho...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que os pássaros comem?</default>
+		<default>Ei, eu sempre fui limpinho!</default>
 	</talk>
 	<talk character="Edmont">
+		<default>Que os pássaros comem?</default>
+	</talk>
+	<talk character="Mel">
 		<default>Acho que minhocas.</default>
 	</talk>
 	<talk character="Kat">
@@ -155,16 +159,20 @@
 	</teller>
 	<talk character="Derik">
 		<default>Brigadão, hein!</default>
-		<teller>Derik sai do quarto</teller>
+	</talk>
+	<teller>
+		<default>Derik sai do quarto.</default>
+	</teller>
+	<talk character="Derik">
 		<out>Kat, espera, eu explico!</out>
 	</talk>
 	<teller>
-		<default>Mel vira para Jak.</default>
+		<default>Mel olha para Jak.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Você sabia disso.</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Por que não contou?</default>
 	</talk>
 	<talk character="Jak">
@@ -177,13 +185,13 @@
 		<default>Eu não, ela sim.</default>
 	</talk>
 	<teller>
-		<default>Angely e Edmont olham pra Mel. Jak desaparece.</default>
+		<default>Angely e Edmont olham para Mel. Jak desaparece.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Acho que vou terminar de limpar a casa.</default>
+		<default>Acho que vou limpar a casa.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Se você limpar mais a casa que já limpou, vai gastar o chão e os móveis.</default>
+	<talk character="Edmont">
+		<default>Tá limpa.</default>
 	</talk>
 	<teller>
 		<default>Desperta o relógio de Edmont.</default>
@@ -213,7 +221,7 @@
 		<default>Meu pai?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele... Teve outras mulheres antes da sua mãe...</default>
+		<default>--- AQUI ---</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ele tinha algum outro filho?</default>
