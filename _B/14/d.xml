@@ -1,34 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="14" scene="d">
 	<teller>
-		<default>13:00. Derik está no quarto. Kat chega.</default>
+		<default>Começo de tarde. Derik está no quarto. Kat chega.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Parece preocupado.</default>
+		<default>Que cara é essa?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Atlantes não podem estuprar alguém.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Que bom.</default>
+		<default>Que bom. Eu sei disso.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Como Beleno nasceu?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Sua informação está errada.</default>
+		<default>Sua informação tá errada.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não, ouvi Melody e Angely comentando isso. Agora eu lembrei que Beleno só poderia ter vindo se fosse assim.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Quem foi alterado geneticamente foi Ang, não o outro.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Angely não faria isso, faria?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Edmont trocou de corpo com Ang temporariamente.</default>
+		<default>E se a alteração de corpos pode causar algo?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Angely não estava na biblioteca com vocês?</default>
@@ -43,27 +37,10 @@
 		<default>Ou Inês e Beleno mentiram.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não fariam isso. Vou pesquisar sobre pégasos de novo. Ver se não há uma brecha.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Qual a diferença de explicar isso agora?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Sei lá. Mas não gosto de coisas sem explicação.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Como sua tatuagem?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Jurou que não perguntaria.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Desculpa.</default>
-		<teller>o beija</teller>
-		<default>Desculpa.</default>
+		<default>Não fariam isso. Vou pesquisar sobre pégasos de novo. Ver se não tem uma brecha.</default>
 	</talk>
 	<teller>
-		<default>Beleno entra no quarto de Shy. Ela acaba de sair do banho.</default>
+		<first>Beleno entra no quarto de Shy. Shy está saindo do banho. Cruza os braços.</first>
 	</teller>
 	<talk character="Shy">
 		<default>Ainda bem que me vesti lá dentro.</default>
@@ -75,13 +52,13 @@
 		<default>Não quero mais sair.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Ele te drogou?</default>
+		<default>Te drogou?</default>
 	</talk>
 	<talk character="Shy">
 		<default>Não.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Ele é rico...</default>
+		<default>O dinheiro...</default>
 	</talk>
 	<talk character="Shy">
 		<screamed>Que acha que sou???</screamed>
@@ -101,29 +78,35 @@
 	<talk character="Beleno">
 		<default>Mas porque não quer mais ser salva?</default>
 	</talk>
+	<teller>
+		<default>Shy olha para baixo.</default>
+	</teller>
 	<talk character="Shy">
 		<default>Eu fui salva. Meu pai ia deixar me matarem. Talvez ele mesmo fizesse.</default>
 	</talk>
 	<talk character="Beleno">
-		<screamed>Quê???</screamed>
+		<default>Ah?!</default>
 	</talk>
+	<teller>
+		<default>Shy olha para Beleno.</default>
+	</teller>
 	<talk character="Shy">
 		<default>César me disse que estou reencarnando há tempos, que ele fez um feitiço pra que uma espécie ficasse como pedra, enquanto me matassem.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Morrer todo mundo morre.</default>
+		<default>Bom, mas morrer todo mundo morre, então nunca vai acontecer.</default>
 	</talk>
 	<talk character="Shy">
 		<default>Tem um hora certa, em que eu lembro de tudo.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Ele deve estar mentindo.</default>
+		<default>Deve estar mentindo.</default>
 	</talk>
 	<talk character="Shy">
-		<default>Pois eu acredito. Meu pai sempre me tratou como se ele tivesse feito algo muito errado, achei que fosse em relação a minha mãe, mas agora eu sei que não é passado, é futuro.</default>
+		<default>Eu acredito. Meu pai sempre me tratou como se ele tivesse feito alguma coisa muito errada, achei que fosse em relação a minha mãe. Mas agora eu sei que não é passado, é futuro.</default>
 	</talk>
 	<teller>
-		<default>19:00, na MEAK...</default>
+		<first>MEAK. Noite.</first>
 	</teller>
 	<talk character="Derik">
 		<default>É perfeito.</default>
@@ -132,13 +115,13 @@
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Se ele diz que ela vai ser morta quando lembrar de tudo, ele fica com ela até quando quiser, porque, afinal, ela nunca vai lembrar.</default>
+		<default>Se César diz  que vão assassinar Shy quando lembrar de tudo, César fica com Shy até quando quiser, porque, afinal, Shy nunca vai lembrar.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Ela disse também que ele a está treinando.</default>
+		<default>Ela disse também que ele tá treinando ela.</default>
 	</talk>
 	<talk character="Kat">
-		<default>E daí? Duvido que ele ensine a ela como vencê-lo.</default>
+		<default>E daí? Duvido que ensine como vencer a si.</default>
 	</talk>
 	<talk character="Estela">
 		<default>E, se ele é imortal, ela nem vai tentar isso.</default>
@@ -150,7 +133,7 @@
 		<default>Precisamos descobrir como fazer isso. Mas você ainda não contou o que aconteceu com Zenon.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Perdi dele. Estou cuidando do caso, não estou?</default>
+		<default>Perdi dele. Tô cuidando do caso, não tô?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Como ele é?</default>
@@ -158,8 +141,11 @@
 	<talk character="Beleno">
 		<default>Zenon?</default>
 	</talk>
+	<teller>
+		<default>Derik revira os olhos.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Não, o tal César.</default>
+		<default>César.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Ah, tá... Não sei.</default>
@@ -168,55 +154,58 @@
 		<default>Como não sabe???</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele é cego, Michele.</default>
+		<default>Beleno não enxerga, Michele.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não lê a mente das pessoas?</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Não pensei em fazer isso com Shy, mas tentei com ele no ringue e caí.</default>
+		<default>Não pensei em fazer isso com Shy, mas tentei com César no ringue e caí.</default>
 	</talk>
-	<talk character="Derik">
-		<default>Sabe que tipo de poderes ele tem? Podemos começar com isso.</default>
+	<talk character="Kat">
+		<default>Sabe que tipo de poderes tem? Podemos começar com isso.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Biblioteca?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Primeiro vai me dizer tudo que lembra. Michele, Kat, vocês podem ir lá investigar.</default>
+		<default>Primeiro vai me dizer tudo que lembra.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Bom, a gente vai até lá então, ver se descobrimos mais alguma coisa.</default>
 	</talk>
 	<teller>
-		<default>As duas saem.</default>
+		<default>Kat sai. Michele segue.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Você vai nos descrever, vamos anotar e eu e Estela iremos à biblioteca.</default>
+		<default>Você vai descrever, vamos anotar e eu e Estela vamos pra biblioteca.</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Cadê a Inês?</default>
+		<default>Cadê Inês?</default>
 	</talk>
 	<talk character="Estela">
-		<default>Saiu. Não precisamos dela.</default>
+		<default>Saiu. Não precisamos de Inês.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Aliás, tem gente demais por aqui, poderíamos nos separar e fazer muito mais coisas.</default>
+		<default>Aliás, tem gente demais por aqui, a gente podia se separar e fazer muito mais coisas.</default>
 	</talk>
 	<teller>
-		<default>Kat e Michele chegam ao apartamento de César.</default>
+		<first>Kat e Michele chegam ao apartamento de César.</first>
 	</teller>
 	<talk character="Kat">
-		<default>Nem pra você ele apareceu?</default>
+		<default>Nem pra você apareceu?</default>
 	</talk>
 	<talk character="Michele">
 		<default>Não.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele fez isso algumas vezes lá, mas achei que tivesse parado. Além do que, prometeu pra minha mãe que cuidaria de tudo.</default>
+		<default>Fez isso algumas vezes lá, mas achei que tivesse parado. Não fez isso nenhuma vez aqui. E tinha prometido pra Mel que cuidaria de tudo.</default>
 	</talk>
 	<talk character="Michele">
-		<default>Será que é isso? Bom, nós já crescemos, já estamos treinadas...</default>
+		<default>A gente já cresceu, e temos treino agora.</default>
 	</talk>
 	<talk character="Kat">
-		<default>É mesmo...</default>
+		<default>Tem razão.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Ele dava algum sinal que ia sumir? Mudava o jeito, algo assim?</default>
@@ -224,42 +213,51 @@
 	<talk character="Kat">
 		<default>Nadinha.</default>
 	</talk>
+	<teller>
+		<default>Michele balança a cabeça para os lados.</default>
+	</teller>
 	<talk character="Michele">
 		<default>Não podia ter feito isso comigo.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Bom, não desapareceu tantas vezes assim. Teve uma vez depois que fizeram um feitiço, uma garota, queria um vampiro.</default>
+		<default>Bom, não desapareceu tantas vezes assim. Teve uma vez depois que fizeram um feitiço. Era uma pessoa que queria um vampiro.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Nossa, existe disso?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Nem todo mundo conhece.</default>
+		<default>Nem todo mundo conhece de verdade.</default>
 	</talk>
 	<teller>
-		<default>Kat e Michele batem na porta. César atende. Olha para as duas.</default>
+		<default>Kat e Michele batem na porta. César atende. Olha para Kat e Michele.</default>
 	</teller>
 	<talk character="César">
-		<default>Uma meio-atlante e a criadora da primeira linhagem em minha casa... Entrem, sintam-se à vontade.</default>
+		<default>Uma meio-atlante e a criadora da primeira linhagem na minha casa... Entrem, sintam-se a vontade.</default>
 	</talk>
 	<teller>
-		<default>César dá passagem e as duas entram.</default>
+		<default>César dá passagem. Kat e Michele entram.</default>
 	</teller>
 	<talk character="César">
 		<default>A que devo a visita?</default>
 	</talk>
 	<talk character="Michele">
-		<default>Somos amigas de Shy...</default>
+		<default>Somos amigas de Shy.</default>
 	</talk>
 	<talk character="César">
-		<default>Ah, sim, a garota loira.</default>
+		<default>Ah, sim, a garota loira!</default>
 	</talk>
 	<talk character="Michele">
 		<default>Ela mesma.</default>
 	</talk>
+	<teller>
+		<default>Kat suspira.</default>
+	</teller>
 	<talk character="Kat">
-		<default>Ela não é loira, é?</default>
+		<default>Shy não é loira, é?</default>
 	</talk>
+	<teller>
+		<default>Michele arregala os olhos.</default>
+	</teller>
 	<talk character="Michele">
 		<default>Kat!</default>
 	</talk>
@@ -270,16 +268,16 @@
 		<default>Sim.</default>
 	</talk>
 	<talk character="César">
-		<default>Digam a ele que um amigo não é um rival. E não estou falando de...</default>
+		<default>Digam a ele que um amigo não pode ser um rival. E não estou falando de...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Viemos saber o que quer com a garota.</default>
+		<default>Viemos saber o que quer com Shy.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Podia não ser tão direta.</default>
 	</talk>
 	<teller>
-		<default>César pega um pacote e entrega a Kat. Ela abre. São fotos de uma pedra com algumas coisas escritas.</default>
+		<default>César levanta um dedo. Sai. Volta com um pacote. Entrega a Kat. Kat abre. São fotos de uma pedra com inscrições.</default>
 	</teller>
 	<talk character="Michele">
 		<default>Podia ter scanneado ou tirado as fotos com uma câmera digital...</default>
@@ -300,7 +298,7 @@
 		<default>Acreditariam em mim?</default>
 	</talk>
 	<teller>
-		<default>Ele sai. Elas vão para a MEAK. 20:00.</default>
+		<first>MEAK. Anoitecer.</first>
 	</teller>
 	<talk character="Beleno">
 		<default>Voltaram meio rápido, Derik e Estela acabaram de sair.</default>
@@ -315,10 +313,10 @@
 		<default>Beleno pega o pacote das mãos de Kat.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Delicadeza não paga imposto, sabia???</default>
+		<default>Delicadeza não paga imposto.</default>
 	</talk>
 	<teller>
-		<default>Beleno abre o pacote. Pega durex. Arruma as fotos como num painel.</default>
+		<default>Beleno abre o pacote. Folheia. Vai a um armário, pega durex. Senta no chão. Olha para Michele e Kat. Michele e Kat sentam também, do outro lado. Olhando nos olhos de Michele e Kat, Beleno vai organizando as fotos no chão e colando. Termina.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Como sabia a ordem?</default>
@@ -326,20 +324,29 @@
 	<talk character="Beleno">
 		<default>Por que não era uma parede lisa pintada, pedras tem diferenças de tons.</default>
 	</talk>
-	<talk character="Kat">
+	<talk character="Michele">
 		<default>Você não é cego?</default>
 	</talk>
 	<talk character="Beleno">
-		<default>Mas vocês não. Me deram quatro olhos.</default>
+		<default>Mas vocês não.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Demos quatro olhos a Beleno.</default>
 	</talk>
 	<talk character="Michele">
+		<default>Isso é invasivo.</default>
+	</talk>
+	<talk character="Beleno">
+		<default>Não li nada, me concentrei na visão.</default>
+	</talk>
+	<talk character="Kat">
 		<default>Conhece essa língua?</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Já vi uma vez algumas dessas letras. Não lembro quem olhava. Vocês tiraram as fotos?</default>
 	</talk>
 	<talk character="Michele">
-		<default>Não, ele nos entregou.</default>
+		<default>Não, César nos entregou.</default>
 	</talk>
 	<teller>
 		<default>Kat coloca a mão no rosto.</default>
@@ -347,8 +354,11 @@
 	<talk character="Beleno">
 		<default>Que foi?</default>
 	</talk>
+	<teller>
+		<default>Kat tira a mão e olha para Beleno.</default>
+	</teller>
 	<talk character="Kat">
-		<default>"Que foi?" Ele pode ter criado isso num programa de computador e mandado revelar como fotos ou até pode ter feito a pedra com as próprias mãos!</default>
+		<default>César pode ter criado isso num programa de computador e mandado revelar como fotos ou até pode ter feito a pedra com as próprias mãos.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Não pensamos nisso.</default>
@@ -357,7 +367,10 @@
 		<default>Melhor irmos lá e procurarmos a pedra.</default>
 	</talk>
 	<teller>
-		<default>Eles saem. Minutos depois, Alan, Inês e Beatrice chegam a MEAK.</default>
+		<default>Kat levanta e sai, Michele e Beleno seguindo.</default>
+	</teller>
+	<teller>
+		<first>Alan, Inês e Beatrice chegam a MEAK.</first>
 	</teller>
 	<talk character="Inês">
 		<default>Beleno jamais faria isso... Será que Zenon não morreu no ringue?</default>
@@ -366,40 +379,40 @@
 		<default>Então porque fugiu?</default>
 	</talk>
 	<talk character="Inês">
-		<default>De repente não quisesse contar, se sinta culpado...</default>
+		<default>De repente não quisesse contar, sinta culpa...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Talvez ele seja mesmo culpado. Deveria ter nos contado.</default>
+		<default>Talvez seja mesmo culpado. Deveria ter nos contado.</default>
 	</talk>
 	<talk character="Inês">
-		<default>Vamos fazer o seguinte, vamos procurar Zenon. De repente ele o jogou no continente, algo assim. Mas, por favor, eu quero analisar outras hipóteses!</default>
+		<default>Vamos fazer o seguinte, vamos procurar Zenon. De repente Beleno jogou Zenon no continente, algo assim. Mas, por favor, eu quero analisar outras hipóteses!</default>
 	</talk>
 	<talk character="Bea">
 		<default>Tá. Vamos pro continente. Não espere que procuremos toda vida, ok?</default>
 	</talk>
 	<talk character="Inês">
-		<default>Tudo bem. Além do que, se ele matou Zenon, também está em risco.</default>
+		<default>Tudo bem. Além do que, se matou Zenon, você também está em risco.</default>
 	</talk>
 	<teller>
-		<default>Beatrice baixa a cabeça. Olha de novo para eles.</default>
+		<default>Beatrice baixa a cabeça. Olha de novo para Inês.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Vamos logo.</default>
 	</talk>
 	<talk character="Alan">
-		<default>É melhor você ficar, não é bom ir ao continente.</default>
+		<default>É melhor você ficar, Inês, não é bom ir ao continente.</default>
 	</talk>
 	<talk character="Inês">
 		<default>Mas...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ele está certo. Se eu corro perigo aqui, você...</default>
+		<default>Alan tem razão. Eu corro perigo aqui, você pode ter problemas lá.</default>
 	</talk>
 	<talk character="Inês">
 		<default>Do lado de Beatrice eu não corro, nem ela do meu lado.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Nunca tinha conhecido um pégaso. Acho que só o Edmont tem poder o suficiente pra desafiar o mundo desse jeito. E os que são inexperientes também o são para serem pegos pelos filhos. Você fica.</default>
+		<default>Nunca tinha conhecido um pégaso. Acho que só Edmont tem poder o suficiente pra desafiar o mundo desse jeito. E os que são inexperientes também são para serem pegos pelos filhos. Você fica.</default>
 	</talk>
 	<talk character="Inês">
 		<default>Deixa eu ir com vocês até o porto então.</default>
@@ -408,15 +421,19 @@
 		<default>Só até lá.</default>
 	</talk>
 	<teller>
-		<default>Os três saem. 22:00. Derik e Estela estão na biblioteca.</default>
+		<first>Noite. Derik e Estela estão na biblioteca.</first>
 	</teller>
 	<talk character="Estela">
 		<default>Acho que achei algo...</default>
-		<teller>vai até Derik</teller>
+	</talk>
+	<teller>
+		<default>Estela vai até Derik.</default>
+	</teller>
+	<talk character="Estela">
 		<default>Pensei que estávamos procurando sobre César.</default>
 	</talk>
 	<teller>
-		<default>Derik olha pra ela.</default>
+		<default>Derik olha pra Estela.</default>
 	</teller>
 	<talk character="Derik">
 		<default>É que eu descobri que o nascimento de Beleno é impossível.</default>
@@ -425,10 +442,10 @@
 		<default>Eu sei que conheceu Edmont de antes, mas...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Um atlante não pode estuprar. E não se trata de princípios, é biológico.</default>
+		<default>Atlantes não podem estuprar alguém. E não se trata de princípios, é biológico, é mágico, sei lá.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Sei... Mas ele virou vampiro, talvez algumas características dele tenham se alterado.</default>
+		<default>Ele virou vampiro, talvez algumas características tenham se alterado.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Então devo procurar sobre vampiros, não pégasos.</default>
