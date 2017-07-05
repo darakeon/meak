@@ -1,4 +1,5 @@
-﻿function SaveBegin() {
+﻿function SaveBegin(formId) {
+    DisableForm(formId);
     SaveBeginColor("#save_status");
 }
 
@@ -10,7 +11,8 @@ function SaveBeginColor(id) {
 
 
 
-function SaveSuccess() {
+function SaveSuccess(formId) {
+    EnableForm(formId);
     SaveSuccessColor("#save_status");
 }
 
@@ -21,7 +23,8 @@ function SaveSuccessColor(id) {
 
 
 
-function SaveFailure() {
+function SaveFailure(formId) {
+    EnableForm(formId);
     SaveFailureColor("#save_status");
 }
 
@@ -32,7 +35,7 @@ function SaveFailureColor(id) {
 
 
 
-function NeedSaveAgain() {
+function NeedSaveAgain(formId) {
     NeedSaveAgainColor("#save_status");
 }
 
@@ -40,4 +43,20 @@ function NeedSaveAgainColor(id) {
     $(id).removeClass("greenSave");
     $(id).removeClass("yellowSave");
     $(id).removeClass("redSave");
+}
+
+
+
+function DisableForm(formId) {
+    ToggleForm(formId, true);
+}
+
+function EnableForm(formId) {
+    ToggleForm(formId, false);
+}
+
+function ToggleForm(formId, toggle) {
+    $("#" + formId).toggleClass("disabled", toggle);
+    $("#" + formId + " input").attr('disabled', toggle);
+    $("#" + formId + " button").attr("disabled", toggle);
 }

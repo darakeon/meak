@@ -5,15 +5,17 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 
     var adderPage = Url.Action("Adder");
-    var route = new { episodeID = Model.Story.ID };
-    var html = new { id = "form_title" };
+    var route = new { episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
+    var formId = "form_title";
+    
+    var html = new { id = formId };
 
     var ajaxOptions = new AjaxOptions
     { 
         HttpMethod = "Post", 
-        OnBegin = "SaveBegin('title')", 
-        OnSuccess = "SaveSuccess('title')", 
-        OnFailure = "SaveFailure('title')"
+        OnBegin = "SaveBegin('" + formId + "')", 
+        OnSuccess = "SaveSuccess('" + formId + "')", 
+        OnFailure = "SaveFailure('" + formId + "')"
     };
 
     var topSelector =

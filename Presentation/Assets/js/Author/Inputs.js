@@ -18,7 +18,7 @@ function AjustEditTextSize(reference) {
 
 function SaveButton() {
     $("input").keydown(function () {
-        NeedSaveAgain();
+        NeedSaveAgain($(this).closest("form").attr("id"));
     });
 
     /*

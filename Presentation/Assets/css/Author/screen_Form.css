@@ -73,3 +73,11 @@
 	background: #500 url("/Assets/images/boxes/red_background.jpg") !important;
 	color: #FFF !important;
 }
+
+
+
+form.disabled *
+{
+	filter: alpha(opacity=75);
+	opacity: 0.75;
+}

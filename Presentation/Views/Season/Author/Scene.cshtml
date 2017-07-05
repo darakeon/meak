@@ -1,10 +1,12 @@
 ﻿@model Presentation.Models.SeasonEditEpisodeModel
            
 @{
-    var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin('" + Model.SceneCounter + "')", OnSuccess = "SaveSuccess('" + Model.SceneCounter + "')", OnFailure = "SaveFailure('" + Model.SceneCounter + "')" };
-    var route = new { sceneID = Model.Story.SceneList[Model.SceneCounter].ID, episodeID = Model.Story.ID };
-    var html = new { id = "form_" + Model.SceneCounter };
     var scene = Model.Story.SceneList[Model.SceneCounter];
+    var formId = "form_" + scene.ID;
+
+    var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin('" + formId + "')", OnSuccess = "SaveSuccess('" + formId + "')", OnFailure = "SaveFailure('" + formId + "')" };
+    var route = new { sceneID = scene.ID, episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
+    var html = new { id = formId };
 }
 
 <div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(Model.SceneCounter)">
