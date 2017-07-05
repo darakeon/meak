@@ -88,7 +88,10 @@
 		<default>Não precisa ficar preocupado, meu anjo, mamãe não vai largar vocês.</default>
 	</talk>
 	<teller>
-		<default>Angely dá um beijo no rosto de Lisa, olha para Hery e vai embora. Angely e Edmont chegam em casa. Modret se levanta.</default>
+		<default>Angely dá um beijo no rosto de Lisa, olha para Hery e vai embora.</default>
+	</teller>
+	<teller>
+		<first>Angely e Edmont chegam em casa. Modret se levanta.</first>
 	</teller>
 	<talk character="Modret">
 		<default>Meus meninos. Cadê a mãe de vocês?</default>
@@ -124,7 +127,7 @@
 		<default>Até que durou bastante tempo.</default>
 	</talk>
 	<teller>
-		<default>Noite. Lisa se levanta da cama. Vai até o banheiro. Se olha no espelho. Hery aparece atrás dela e a abraça.</default>
+		<first>Noite. Lisa se levanta da cama. Vai até o banheiro. Se olha no espelho. Hery aparece atrás dela e a abraça.</first>
 	</teller>
 	<talk character="Hery">
 		<default>Sabia que você ainda me queria.</default>
@@ -205,7 +208,7 @@
 		<default>Noite. Um doberman entra no quarto. Lisa acorda, assustada. Vai acordar Hery, mas ele não está na cama. O cachorro avança nela, pegando seu pulso. Hery chega no quarto e bate com uma vassoura na cabeça do cachorro. Bate mais, até ter certeza que o animal não reage mais. Pega um lençol e enrola o pulso de Lisa.</default>
 	</teller>
 	<talk character="Hery">
-		<screamed>Que merda foi essa???</screamed>
+		<screamed>Que merda foi essa?!</screamed>
 	</talk>
 	<talk character="Lisa">
 		<default>É o cachorro do Edmont...</default>
@@ -217,7 +220,7 @@
 		<default>Sim. Sabia que esse bicho era perigoso, avisei para o Modret, mas ele disse que tinha que dar o que o Edmont tinha pedido, porque daria o que Angely pediu...</default>
 	</talk>
 	<teller>
-		<default>No dia seguinte, Lisa acorda se sentindo não muito bem. Sai de casa antes que Hery acorde. No campo, perto de uma árvore, encontra Angely.</default>
+		<first>No dia seguinte, Lisa acorda se sentindo não muito bem. Sai de casa antes que Hery acorde. No campo, perto de uma árvore, encontra Angely.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Mamãe...</default>
@@ -234,8 +237,23 @@
 	<talk character="Angely">
 		<default>Edmont envenenou a saliva dele. Tava treinando ele para alguma coisa.</default>
 	</talk>
+	<teller>
+		<default>Lisa se senta junto da árvore. Coloca a mão na frente da boca. Olha para Angely, que parece não entender. Abre os braços para o filho, que a abraça. O afasta. Sente uma tontura mais forte.</default>
+	</teller>
 	<talk character="Lisa">
-		<default>Então acho que a mamãe vai pro céu. Mas te deixei uma irmãzinha. Você lembra de Halen e de Rith?</default>
+		<default>Lembra quando falamos para vocês que tem uma hora que as pessoas vão embora do corpo e não podem voltar?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Edmont disse que...</default>
+	</talk>
+	<talk character="Lisa">
+		<default>Não é igual o que aconteceu. Eu ia voltar para vocês. Mas agora...</default>
+	</talk>
+	<teller>
+		<default>Ela sente outra tontura.</default>
+	</teller>
+	<talk character="Lisa">
+		<default>Mas te deixei uma irmãzinha. Você lembra de Halen e de Rith?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ahã...</default>
@@ -247,10 +265,10 @@
 		<default>Tá.</default>
 	</talk>
 	<talk character="Lisa">
-		<default>Angely, o papai do céu tá me chamando.</default>
+		<default>Ang, acho que...</default>
 	</talk>
 	<teller>
-		<default>Ela fecha os olhos novamente. Uma lágrima cai dos olhos de Angely. Ele dá um beijo na bochecha de Lisa.</default>
+		<default>Lisa fecha os olhos. Uma lágrima cai dos olhos de Angely. Ele dá um beijo na bochecha de Lisa.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Vou cuidar dela.</default>
@@ -455,6 +473,6 @@
 		<default>Não posso. Edmont nos acharia num instante.</default>
 	</talk>
 	<talk character="Rith">
-		<default>Então estamos indo. Só podemos ir para a Terra. Acho que nunca mais nos veremos.</default>
+		<default>Então acho que nunca mais nos veremos.</default>
 	</talk>
 </story>
