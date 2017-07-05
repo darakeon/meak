@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <story season="A" episode="20" scene="b">
 	<teller>
-		<default>Agora</default>
-<default>Katerine chega a MEAK. Bate na porta. Passos. Chaves. Mel abre a porta.</default>
+		<division>Agora</division>
+		<default>Katerine chega a MEAK. Bate na porta. Passos. Chaves. Mel abre a porta.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Oi. Angely tá em casa?</default>
@@ -34,24 +34,24 @@
 		<talk character="Mel">
 		<default>Então vai ter que resolver isso. Já sobreviveu outras vezes. E Edmont não vai querer que morra, então...</default>
 	</talk>
-<teller>
-<default>Kat franze a testa.</default>
-</teller>
+	<teller>
+		<default>Kat franze a testa.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Que foi?</default>
 	</talk>
-<teller>
-<default>Kat desfranze a testa. Olha pra baixo.</default>
-</teller>
+	<teller>
+		<default>Kat desfranze a testa. Olha pra baixo.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Eu ia sugerir que falasse com Angely.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não, você não ia. Tem um mínimo de noção.</default>
 	</talk>
-<teller>
-<default>Kat olha pra Mel.</default>
-</teller>
+	<teller>
+		<default>Kat olha pra Mel.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Culpa Angely?</default>
 	</talk>
@@ -64,215 +64,164 @@
 	<talk character="Mel">
 		<default>Angely sabe que poderia impedir. Veio me pedir desculpa no hospital.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
 	<teller>
-		<default>.</default>
+		<default>Kat baixa a cabeça novamente.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>Acho que vou indo.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Mel vai até a porta. Abre. Kat sai.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
 	<teller>
-		<default>.</default>
+		<first>Kat chega em casa. Derik levanta do sofá. Kat balança a cabeça para os lados. Derik solta o corpo no sofá. Agatha levanta de sopetão.</first>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Chega. Eu vou lá.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>E vai fazer o que?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Dar um basta nisso. Vou falar com Mel e, se não adiantar, vou falar com Angely. Angely pode vir morar com a gente, não precisa ficar... Ficar...</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>Pagando o que Edmont fez?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>A gente podia procurar um feitiço pra prender Edmont, como prenderam Andrews.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Kat senta no sofá.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>Angely ia cair junto.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Mas a gente podia colocar Edmont numa jaula e alimentar ele...</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>Ia se recusar a comer, pra derrubar Angely.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Uma hora iria aceitar.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>E quem de nós vai viver tanto pra manter isso?</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Derik franze a sobrancelha.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Não te falaram?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>O que?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Não sei você, por ser meio atlante, mas atlantes não envelhecem. Não têm doenças. Só podem morrer se forem mesmo mortos por coisas externas ou se decidirem assim.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>Então teria que se matar?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Não... Tipo... Só morrem.</default>
+	</talk>
+	<talk character="Agatha">
+		<default>Acho que Mel adoraria ser carcereira de Edmont pela eternidade.</default>
+	</talk>
+	<talk character="Derik">
+		<default>A gente pode ir contar pra Mel a ideia...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Não!</default>
+	</talk>
+	<talk character="Agatha">
+		<default>Porque?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Primeiro a gente acha o feitiço. Aí chamamos Angely e Angely pega Edmont. Então falamos com Mel.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<division>Dezembro de 2014 - Derik e Agatha estão na sala. Kat chega.</division>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<arrive>E aí? Tudo pronto?</arrive>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Bom, quase.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Falta o principal.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>O que?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Edmont.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Kat encara Agatha.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Falar com Angely?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>Vamos rezar pra Mel não estar em casa?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Vocês precisam passar por Mel, eu não.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>Eu poderia escalar a janela.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>E correr o risco de se machucar? Eu voo, Kat. E surdina é minha especialidade.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Aurium sobrevoa a MEAK. Pousa no telhado. Levanta voo novamente. Pousa na janela, que está fechada. Segura perto da fechadura com o bico. A fechadura começa a ficar vermelha. Solta do lado de dentro, caindo no chão, fazendo barulho. Aurium voa. Sobrevoa novamente a MEAK e pousa na janela. Abre a janela. Angely está na cama. Aurium dá uma volta no chão. Bate as asas. Angely continua sem se mexer. Aurium berra. Nada. Aurium vira Derik. Se aproxima de Angely e coloca a mão no pulso. No começo do toque, voa contra a parede contrária. Senta-se.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Agora fodeu.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Toca o telefone na casa de Kat. Kat vai pegar, Agatha corre e atende.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Fala.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<out>Kat tá aí?</out>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Não. Fala.</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<out>Angely tá com um feitiço.</out>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Agatha">
+		<default>Como assim?!</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>Kat pega o telefone.</default>
 	</teller>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<out>Não acorda. Fui encostar, tomei um tranco.</out>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>Mel tá aí?</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<out>Agatha disse que você...</out>
 	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Kat">
+		<default>Derik!</default>
 	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<teller>
-		<default>.</default>
-	</teller>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
-	</talk>
-	<talk character="">
-		<default>.</default>
+	<talk character="Derik">
+		<default>Não.</default>
 	</talk>
 	<teller>
-		<default>.</default>
+		<default>A gente vai praí.</default>
 	</teller>
 	<talk character="">
 		<default>.</default>
