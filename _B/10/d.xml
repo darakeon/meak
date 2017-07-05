@@ -49,8 +49,11 @@
 		<default>Quê???</default>
 	</talk>
 	<talk character="Alete">
-		<default>Ele tá com pena de você. Não sabe como você vai se virar sem ele. Etos me contou que, até hoje, você viveu às custas dele. Claro, não disse com essas palavras, ele é meio bobinho. Quando nos encontramos e ele percebeu que me queria, não a você, ele me disse que tava com pena. Com medo do que você poderia fazer se ele te deixasse.</default>
+		<default>Ele tá com pena de você. Não sabe como você vai se virar sem ele. Etos me contou que, até hoje, você viveu às custas dele. Claro, não disse com essas palavras, ele é meio bobinho. Quando nos encontramos e ele percebeu que me queria, não você, ele me disse que tava com pena. Com medo do que você poderia fazer se ele te deixasse.</default>
 	</talk>
+	<teller>
+		<default>Janaína balança a cabeça para os lados.</default>
+	</teller>
 	<talk character="Janaína">
 		<default>Isso é absurdo.</default>
 	</talk>
@@ -58,33 +61,34 @@
 		<default>Por que acha que ele não revidou seus ataques agora?</default>
 	</talk>
 	<teller>
-		<default>Etos está sentado com a foto de Janaína em mãos.</default>
-	</teller>
-	<talk character="Etos">
-		<default>Que foi que eu fiz? Morrer seria mais digno do que ter cedido aos meus instintos... Você quem me trouxe minha alma... Que foi que eu fiz?</default>
-	</talk>
-	<teller>
-		<default>Janaína vai embora. Alete vai até Etos e o abraça. Ele a afasta.</default>
+		<default>Etos sentou-se no sofá. Tem uma foto de Janaína em uma das mãos, um copo com bebida em outra. Alete entra. Etos pousa ambas as coisas na mesa a sua frente e levanta. Alete vem e abraça Etos. Etos afasta Alete.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Que aconteceu?</default>
-		<teller>Alete baixa a cabeça</teller>
-		<default>Não teve mesmo como, não é?</default>
+	</talk>
+	<teller>
+		<default>Alete baixa a cabeça.</default>
+	</teller>
+	<talk character="Etos">
+		<default>Não teve mesmo como, né?</default>
 	</talk>
 	<talk character="Alete">
 		<default>Fi... c... com... go?</default>
 	</talk>
 	<talk character="Etos">
-		<default>Não sei. Eu amo ela, isso seria injusto.</default>
+		<default>Não sei.</default>
 	</talk>
 	<teller>
-		<default>Alete dá um tapa na cara dele. Ele a segura.</default>
+		<default>Alete dá um tapa na cara de Etos. Etos olha para Alete.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Mas que diabos você quer???</default>
 	</talk>
 	<teller>
-		<default>Ela o beija. 13:00. Janaína chega à MEAK. Encontra Beatrice saindo.</default>
+		<default>Alete beija Etos.</default>
+	</teller>
+	<teller>
+		<first>Começo da tarde. MEAK. Janaína entra.</first>
 	</teller>
 	<talk character="Bea">
 		<default>Quer um quarto ou está com problemas? Pela sua cara...</default>
@@ -95,11 +99,14 @@
 	<talk character="Bea">
 		<default>Só se for sobrenatural.</default>
 	</talk>
+	<teller>
+		<default>Janaína solta os ombros.</default>
+	</teller>
 	<talk character="Janaína">
-		<default>Ah. Traição e ser abandonada não me parece sobrenatural.</default>
+		<default>Traição e ser abandonada não me parece sobrenatural.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Depende do caso. Pode ser feitiçaria, algo assim.</default>
+		<default>Depende do caso. Pode ser feitiçaria.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Tá tentando me animar?</default>
@@ -111,7 +118,7 @@
 		<default>Bom, numa coisa ele tem razão, não vou sair de mãos vazias. As Ilhas serão minhas.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ah, você é a garota de quem a Mel falou?</default>
+		<default>Ah, você é a pessoa de quem Mel falou?</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Tem problema se eu pagar mais tarde?</default>
@@ -130,7 +137,11 @@
 	</talk>
 	<talk character="Bea">
 		<default>Como assim? Até eu que fui criada por um...</default>
-		<teller>vai falar, mais pára, pensando que talvez Janaína não conhecesse vampiros</teller>
+	</talk>
+	<teller>
+		<default>Beatrice para. Olha para a saída.</default>
+	</teller>
+	<talk character="Bea">
 		<default>Cafajeste fora da lei. Até eu tenho sobrenome!</default>
 	</talk>
 	<talk character="Janaína">
@@ -140,7 +151,7 @@
 		<default>Sim, o sobrenome dos meus pais.</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Não, me refiro à sua criação.</default>
+		<default>Não, tô falando da sua criação.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Ele era meio pirado.</default>
@@ -148,17 +159,14 @@
 	<talk character="Janaína">
 		<default>Você é vampira?</default>
 	</talk>
-	<talk character="Bea">
-		<default>Como...?</default>
-	</talk>
-	<talk character="Janaína">
-		<default>A capa.</default>
-	</talk>
+	<teller>
+		<default>Beatrice franze a sobrancelha. Janaína aponta a capa atrás de Beatrice.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Ele também é vampiro. Bom, era, agora deve ser saco de pancadas do capeta.</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Eu também tava com um vampiro.</default>
+		<default>Por isso engasgou. Eu também tava com um vampiro.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Já te traiu muitas vezes?</default>
@@ -173,51 +181,58 @@
 		<default>Fênix?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não tem como eles fugirem.</default>
+		<default>Não tem muito como fugir.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Como assim? Posso ter cometido uma injustiça?</default>
-		<teller>pára e pensa</teller>
+	</talk>
+	<teller>
+		<default>Janaína suspira.</default>
+	</teller>
+	<talk character="Janaína">
 		<default>Não, ele se desculpou, não se desculparia se não fosse culpa dele...</default>
 	</talk>
 	<talk character="Bea">
 		<default>Olha, a única fênix de que tenho notícia nas ilhas é uma que não consegue falar direito, inclusive tem gente que acha que ela é muda, porque ela não fala em função do problema.</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Não, aquela ali fala e fala demais até.</default>
+		<default>Não, aquela ali fala! Ô, se fala! Fala demais até!</default>
 	</talk>
 	<teller>
-		<default>22:00. Alete está na cama com Etos. Ele se levanta. Vai até o banheiro. Fica em frente ao espelho.</default>
+		<first>Noite. Alete está na cama com Etos. Etos se levanta. Vai até o banheiro. Fica em frente ao espelho.</first>
 	</teller>
 	<talk character="Etos">
 		<default>Por que pensar parece mais fácil quando se tem reflexo?</default>
 	</talk>
 	<teller>
-		<default>Ela vai até ele e o abraça. Ele a faz soltar, com jeito. Olha nos olhos dela.</default>
+		<default>Alete vai até Etos e abraça. Etos pega as mãos de Alete, abre e se vira. Olha nos olhos de Alete.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Vou te levar até aquele pessoal que te falei.</default>
 	</talk>
 	<teller>
-		<default>Alete se afasta, brava.</default>
+		<default>Alete se afasta. Expressão travada, punhos cerrados.</default>
 	</teller>
 	<talk character="Etos">
-		<default>Olha, eu não posso ficar com você, é absurdo, amo outra e nunca vou deixar de gostar dela! Nem merecer mais nada eu mereço... Traí ela, mesmo que consiga te amar, posso te trair mais tarde, já pensou nisso??? Droga, eu era ruim antes de conhecer Janaína, não faço a menor idéia do que tá acontecendo comigo, não posso mais trazer ninguém pra perto de mim, não sei o que tô virando!</default>
+		<default>Olha, eu não posso ficar com você, é absurdo! Mesmo que consiga te amar, posso te trair mais tarde, já pensou nisso? Não posso simplesmente sair de uma coisa e pular em outra, como se estivesse certo!</default>
 	</talk>
 	<teller>
-		<default>Etos pára e baixa a cabeça.</default>
+		<default>Etos baixa a cabeça.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Vou te levar praquele pessoal, antes que acabe te machucando. Como fiz com Janaína ou pior que isso.</default>
 	</talk>
 	<teller>
-		<default>Alete sai. Ele vai pro quarto e se veste. Depois a procura na casa inteira e não encontra. Ela está andando na rua. Olha para uma janela. Em seu apartamento, Edmont está dormindo de costas na cama, todo esticado, com o rosto virado para o lado contrário da porta. Acorda. Alguém bate à porta.</default>
+		<default>Alete sai. Etos vai para o quarto. Se veste. Vai ao quarto ao lado. Solta os ombros.</default>
+	</teller>
+	<teller>
+		<first>Alete está andando na rua. Olha para uma janela. Balança a cabeça para os lados. Segue. Apartamento de Edmont. Edmont deitou-se de costas na cama, corpo esticado, rosto virado para o lado contrário da porta. Abre os olhos. Batidas na porta.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Entra.</default>
 	</talk>
 	<teller>
-		<default>Valesca entra com Pandora.</default>
+		<default>Valesca abre a porta. Entra. Pandora segue.</default>
 	</teller>
 	<talk character="Valesca">
 		<default>Não posso ficar com ela.</default>
@@ -229,19 +244,19 @@
 		<default>"Coleira"?!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não se enraiveça comigo, quem falou como se você fosse um cachorrinho encontrado na chuva foi ela.</default>
+		<default>Não se enraiveça comigo, quem falou como se você fosse um cachorrinho encontrado na chuva não fui eu.</default>
 	</talk>
 	<talk character="Pandora">
 		<default>Ele nem é tão digno assim, está deitado de um jeito que qualquer um poderia chegar e enfiar uma estaca.</default>
 	</talk>
 	<teller>
-		<default>Edmont ataca Pandora, deixando-a encostada contra parede, com uma estaca apontada contra o coração.</default>
+		<default>Edmont encosta Pandora a contra parede, com uma estaca apontada contra o coração.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Tinha uma estaca debaixo do meu travesseiro e acordei antes de vocês baterem à porta. Agora vou te deixar reagir.</default>
+		<default>Tinha uma estaca debaixo do meu travesseiro e acordei antes de vocês baterem a porta. Agora vou te deixar reagir.</default>
 	</talk>
 	<teller>
-		<default>Ele entrega a estaca a ela. Ela pega a estaca e enfia no coração dele. Ele desaparece, depois volta. Ela se assusta, vai enfiar a estaca de novo, mas ele lhe segura a mão.</default>
+		<default>Edmont afasta. Entrega a estaca a Pandora. Pandora pega a estaca e enfia no coração de Edmont. Edmont desaparece, depois volta, sem roupas. Pandora arregala os olhos, tenta cravar a estaca novamente, mas Edmont segura sua mão.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Deixa aqui.</default>
@@ -250,28 +265,28 @@
 		<default>Até outra vez.</default>
 	</talk>
 	<teller>
-		<default>Valesca sai. Angely e Edmont começam a conversar pelo pensamento.</default>
+		<default>Valesca sai.</default>
 	</teller>
 	<talk character="Ang">
-		<thought>Ela não tem alma.</thought>
+		<thought>Pandora não tem alma.</thought>
 	</talk>
 	<talk character="Edmont">
-		<thought>Valesca provavelmente também não tem, deve ter usado um feitiço pra esconder isso.</thought>
+		<thought>Valesca provavelmente também não tem, deve ter usado algo pra esconder isso.</thought>
 	</talk>
 	<talk character="Ang">
 		<thought>E usou em Pandora também...</thought>
 	</talk>
 	<talk character="Edmont">
-		<thought>...Mas nada funciona duas vezes com um atlante.</thought>
+		<thought>... mas nada funciona duas vezes com atlantes.</thought>
 	</talk>
 	<talk character="Ang">
-		<thought>Vai matá-la?</thought>
+		<thought>Vai matar Pandora?</thought>
 	</talk>
 	<talk character="Edmont">
 		<thought>Vou te mostrar o que vou fazer.</thought>
 	</talk>
 	<teller>
-		<default>Edmont joga Pandora na cama. Ela nem faz menção de resistir. Angely vai até o banheiro. A porta está trancada.</default>
+		<default>Edmont joga Pandora na cama. Pandora sorri. Angely vai até o banheiro. A porta está trancada.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Beatrice?</default>
@@ -280,22 +295,22 @@
 		<default>Tô tomando banho.</default>
 	</talk>
 	<teller>
-		<default>Ela abre a porta, de toalha.</default>
+		<default>Beatrice abre a porta, de toalha.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Tenho que sair pra MEAK daqui a pouco.</default>
 	</talk>
 	<teller>
-		<default>Angely vai sair, mas ela o puxa.</default>
+		<default>Angely vira e dá um passo. Beatrice segura seu braço.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Posso demorar um pouco pra ir.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não preciso usar o banheiro por estar atrasado pra nada, meu problema é outro.</default>
+		<default>Eu preciso...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Eu sei. Não temos ninguém, não haverá traição ou algo errado.</default>
+		<default>Eu sei. Não prometemos nada a ninguém, não tem nada errado.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Bea...</default>
@@ -304,7 +319,7 @@
 		<default>Também não sou de ferro.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Não há amor.</default>
+		<default>Não tem amor.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Mentira. Você tem medo do Edmont.</default>
@@ -313,16 +328,19 @@
 		<default>Não poderia dizer isso se fosse mentira.</default>
 	</talk>
 	<talk character="Bea">
-		<default>A menos que fosse pra me proteger.</default>
+		<default>Tem razão. Acho que não tava falando de si. Não entendeu ainda que eu te amo?</default>
 	</talk>
 	<teller>
-		<default>Beatrice puxa Angely para dentro do banheiro, com jeito. Em casa, Mel está em seu quarto, no computador, verificando coisas da escola. O computador dá problema. Ela tenta resolver. Dá problema de novo. Ela tenta de novo. Nada. Então pega um pedaço de pau e destrói o computador. Zenon, Alan, Estela e Kat entram no quarto segundos depois.</default>
+		<default>Beatrice vai para dentro do banheiro, levando Angely pela mão.</default>
+	</teller>
+	<teller>
+		<first>Quarto de Mel. Mel está na cama com o notebook no colo. Erro no programa. Mel tenta abrir o programa novamente. Mesmo erro. Reinicia o computador. Abre o programa de novo, dessa vez dá tela azul. Mel deixa o note na cama e sai. Volta com um pedaço de madeira. Acerta o computador no meio da tela. Kat, Estela, Zenon e Alan entram no quarto.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Que aconteceu???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele deu pau de novo e eu resolvi dar com o pau nele.</default>
+		<default>Deu pau de novo. Eu resolvi que ia ser divertido dar com o pau nele.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Mas não precisa dele pra trabalhar? Não foi por isso que compramos?</default>
@@ -331,19 +349,19 @@
 		<default>Fichas de papel não executam operações ilegais.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Você é hacker...</default>
+		<default>Mas você é hacker...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não quer dizer que tenha que ter paciência com isso o tempo todo. Principalmente tendo regredido 20 anos.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Tá muito nervosa ultimamente.</default>
+		<default>Tá se alterando muito fácil ultimamente.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Vai ver que é falta de homem.</default>
 	</talk>
 	<teller>
-		<default>Mel olha para Alan. Zenon o fuzila com os olhos. Mel pega uma blusa e sai. Todos ficam em silêncio por algum tempo.</default>
+		<default>Zenon encara Alan. Mel olha para o teto. Sai. As pessoas olham Mel sair. Se entreolham.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Ela não foi...?</default>
@@ -352,7 +370,7 @@
 		<default>Acho que sim.</default>
 	</talk>
 	<teller>
-		<default>Zenon vai atrás de Melody. A encontra na cidade.</default>
+		<first>Ares. Mel está andando. Zenon corre até Mel. Mel para.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Que vai fazer?</default>
@@ -364,7 +382,7 @@
 		<default>Aceitou a sugestão de Alan?!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não precisa ser homem.</default>
+		<default>Não. Não tô afim de homem hoje. Ao menos não cis.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Como assim?!</default>
@@ -373,29 +391,34 @@
 		<default>Algum problema?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Alan quem tem trauma de mulher com mulher. Só não sabia que você...</default>
+		<default>Eu não tinha muita certeza se você...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Atlantes são predominantemente bissexuais, e eu faço parte dessa maioria.</default>
+		<default>Atlantes são predominantemente bissexuais.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Então o Angely e o Edmont...</default>
 	</talk>
 	<talk character="Mel">
-		<default>E há possibilidade da Kat também ser. Mas acho que, do jeito que ela tá com o Derik, nunca vai descobrir.</default>
+		<default>E há possibilidade da Kat também ser. Mas acho que, do jeito que tá com Derik, nunca vai descobrir. A menos que Derik descubra que não é cis.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tá falando do Derik não querer...?</default>
+		<default>Como assim?!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Do amor. A menos que eles resolvam fazer uma festinha. Bom, não tenho nada a ver com essa parte da vida deles.</default>
+		<default>Também pode ser que se dêem conta que monogamia não faz sentido. Mas não tenho nada a ver com essa parte da vida de Kat e Derik.</default>
+	</talk>
+	<teller>
+		<default>Mel franze a sobrancelha.</default>
+	</teller>
+	<talk character="Mel">
 		<irony>Aliás, acabei de lembrar, você também não tem nada a ver com essa parte da minha vida!</irony>
 	</talk>
 	<talk character="Zenon">
 		<default>Mas pode pegar alguma doença saindo com qualquer pessoa assim!</default>
 	</talk>
 	<talk character="Alete">
-		<arrive>Não parecia preocupado com doenças quando estivemos juntos.</arrive>
+		<arrive>Não parecia preocupado com doenças quando tava comigo.</arrive>
 	</talk>
 	<teller>
 		<default>Os dois olham pra ela.</default>
@@ -404,12 +427,15 @@
 		<default>Vampiros não pegam doenças...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nunca se encontrou uma doença que pegasse atlantes. Esteve com ela?</default>
+		<default>Nunca se encontrou uma doença que pegasse atlantes. Esteve com Alete?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>É, bem...</default>
 	</talk>
 	<talk character="Mel">
-		<irony>Assim como você não me contou isso, também não vou te contar o que faço. Viu como é legal assim?</irony>
+		<default>Não era para responder. Não tenho nada a ver com a sua vida, assim como você não tem com a minha.</default>
 	</talk>
+	<teller>
+		<default>Mel sai.</default>
+	</teller>
 </story>
