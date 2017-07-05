@@ -46,11 +46,7 @@
             
                             foreach (var piece in scene.TalkList[talkCounter].Pieces)
                             {
-                                if (piece.Style == TalkStyle.Teller) { @(" – ") }
-                
                                 <span class="talk_@(piece.Style)">@piece.Text</span>
-
-                                if (piece.Style == TalkStyle.Teller) { @(" – ") }
                             }
             
                             @(" (" + scene.TalkList[talkCounter].Character + ")")

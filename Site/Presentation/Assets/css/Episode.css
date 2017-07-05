@@ -1,4 +1,4 @@
-.talk_Arrive {
+﻿.talk_Arrive {
 	color: #C0C;
 }
 
@@ -17,6 +17,11 @@
 .talk_Teller {
 	font-weight: bold;
 }
+
+    .talk_Teller:before,
+    .talk_Teller:after {
+        content: " – ";
+    }
 
 .talk_Screamed {
 	text-transform: uppercase;
@@ -46,6 +51,18 @@
 	color: #C00;
 }
 
+.talk_Translate {
+    font-size: 80%;
+}
+
+    .talk_Translate:before {
+        content: "{";
+    }
+
+    .talk_Translate:after {
+        content: "}";
+    }
+
 
 .teller_Default {
 	font-weight: bold;
@@ -55,10 +72,6 @@
 	font-weight: bold;
 	padding-top: 38px;
 }
-
-    .teller_First input.text {
-	    padding-top: 38px;
-    }
 
 .teller_Letter {
 	font-style: italic;
@@ -73,9 +86,6 @@
 	text-align: right;
 	text-transform: uppercase;
 }
-    .teller_Division input.text {
-	    padding-top: 38px;
-    }
 
 
 
@@ -88,11 +98,6 @@
     cursor: pointer;
     color: #777;
 }
-
-    .teller_Trigger input.text {
-	    padding-top: 10px;
-	    padding-bottom: 10px;
-    }
 
 .trigger-hidden {
     display: none;

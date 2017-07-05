@@ -1,0 +1,26 @@
+﻿.talk_Translate {
+    display: inline;
+}
+    .talk_Translate input {
+        padding: 4px 1px;
+    }
+
+    .talk_Teller:before,
+    .talk_Teller:after,
+    .talk_Translate:before,
+    .talk_Translate:after {
+        content: none;
+    }
+
+.teller_First input.text {
+	padding-top: 38px;
+}
+
+.teller_Division input.text {
+	padding-top: 38px;
+}
+
+.teller_Trigger input.text {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

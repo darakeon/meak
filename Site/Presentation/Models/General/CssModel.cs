@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Web;
+using Structure.Helpers;
 
 namespace Presentation.Models.General
 {
@@ -15,14 +17,16 @@ namespace Presentation.Models.General
                 Files.Add(new CssFile(file));
             }
 
-            foreach (var directory in Directory.GetDirectories(path))
-            {
-                var directoryName = directory.Substring(directory.LastIndexOf(@"\"));
+            var isAuthor = UrlUserType.IsAuthor(HttpContext.Current.Request.Url);
 
-                foreach (var file in Directory.GetFiles(directory))
-                {
-                    Files.Add(new CssFile(file, directoryName));
-                }
+            if (!isAuthor)
+                return;
+
+            var directory = Path.Combine(path, UrlUserType.AUTHOR_PATH);
+
+            foreach (var file in Directory.GetFiles(directory))
+            {
+                Files.Add(new CssFile(file, UrlUserType.AUTHOR_PATH));
             }
         }
 

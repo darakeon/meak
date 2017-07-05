@@ -1,21 +1,34 @@
-﻿<div id="legend" onclick="AnimateLegend()">
+﻿@using Structure.Enums
+<div id="legend" onclick="AnimateLegend()">
     <div class="legend-header">
         Legenda
     </div>
-
+    
+    @{
+        var talkStyles = new Dictionary<TalkStyle, String>
+        {
+            { TalkStyle.Arrive, "Chegada" },
+            { TalkStyle.Default, "Normal" },
+            { TalkStyle.Frizz, "Frisado"},
+            { TalkStyle.Ghost, "Fantasma"},
+            { TalkStyle.Hushed, "Sussurrado / Voz Fraca"},
+            { TalkStyle.Irony, "Ironia / Sarcasmo"},
+            { TalkStyle.Mute, "Gestos"},
+            { TalkStyle.Out, "Longe"},
+            { TalkStyle.Read, "Lido"},
+            { TalkStyle.Screamed, "Gritado"},
+            { TalkStyle.Special, "Só alguns ouvem"},
+            { TalkStyle.Teller, "Ação"},
+            { TalkStyle.Thought, "Pensado"},
+            { TalkStyle.Translate, "Tradução"},
+        };
+    }
+    
     <div class="body lightback">
-        <span class="talk_Arrive">Chegada</span><br />
-        <span class="talk_Frizz">Frisado</span><br />
-        <span class="talk_Out">Longe</span><br />
-        <span class="talk_Read">Lido</span><br />
-        <span class="talk_Teller">Ação</span><br />
-        <span class="talk_Screamed">Gritado</span><br />
-        <span class="talk_Special">Só alguns ouvem</span><br />
-        <span class="talk_Thought">Pensado</span><br />
-        <span class="talk_Hushed">Sussurrado / Voz Fraca</span><br />
-        <span class="talk_Ghost">Fantasma</span><br />
-        <span class="talk_Mute">Gestos</span><br />
-        <span class="talk_Irony">Ironia / Sarcasmo</span><br />
+        @foreach (TalkStyle style in Enum.GetValues(typeof (TalkStyle)))
+        {
+            <span class="talk_@style">@talkStyles[style]</span><br />
+        }
     </div>
 
     <div class="header">

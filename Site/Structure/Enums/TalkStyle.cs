@@ -15,5 +15,6 @@
         Special,
         Teller,
         Thought,
+        Translate,
     }
 }
