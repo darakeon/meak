@@ -16,13 +16,16 @@
 		<default>Será?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Elas moram juntas.</default>
+		<default>Acha que não?</default>
 	</talk>
+	<teller>
+		<default>Angely abaixa perto de Agatha.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Agatha, acorda...</default>
 	</talk>
 	<teller>
-		<default>Kat vai até a casa deles. Angely atende a porta.</default>
+		<default>Toca a campainha. Angely desce e atende.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Que bom que você chegou!</default>
@@ -31,16 +34,31 @@
 		<default>Que aconteceu?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Edmont começou a brincar, como que ensaiando pra contarmos pra elas toda a verdade...</default>
+		<default>Edmont começou a brincar, como que ensaiando pra contarmos pra elas toda a verdade. Só que a Agatha tava ouvindo.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Ele falou muita coisa?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Só não falou do que houve com seus pais e o Júlio.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Bom, elas já sabem que somos aliens.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Bom, você...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Vejo o futuro. Provavelmente porque nasci em Saturno.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Nunca ouvi falar sobre coisas assim acontecerem.</default>
 	</talk>
 	<talk character="Agatha">
 		<arrive>Não, eu entendo, Edmont...</arrive>
 	</talk>
-	<teller>
-		<default>Agatha vai descendo a escada e Edmont vem atrás dela.</default>
-	</teller>
 	<talk character="Edmont">
-		<default>Agatha, eu juro que tava brincando...</default>
+		<arrive>Agatha, eu juro que tava brincando...</arrive>
 	</talk>
 	<talk character="Angely">
 		<default>Não vai comentar com ninguém, vai?</default>
@@ -64,10 +82,10 @@
 		<default>Ele a beija. Ele pega ela pela mão e eles sobem a escada de novo.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Eu não entendo, quando nós chegamos ela não reagiu assim.</default>
+		<default>Eu não entendo, quando chegamos Agatha não reagiu assim.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Tá, já percebi que você não entende dessas coisas, eu vou te explicar: quando chegaram ela tinha dez anos. Crianças entendem melhor essas coisas. Adolescentes fazem tempestade em copo d’água. Então ela cresceu com isso, acostumou.</default>
+		<default>Quando chegaram Agatha tinha onze anos. Crianças entendem melhor essas coisas. Adolescentes fazem tempestade em copo d’água. Então ela cresceu com isso, acostumou.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Então quer dizer que você é criança?</default>
@@ -100,11 +118,8 @@
 		<default>Ela suspira.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Não sei.</default>
+		<default>Eu não sei.</default>
 	</talk>
-	<teller>
-		<default>Kat volta pra casa.</default>
-	</teller>
 	<teller>
 		<first>De noite, na pensão, Mel está com Elian.</first>
 	</teller>
@@ -136,7 +151,7 @@
 		<default>Não mataste por que então?</default>
 	</talk>
 	<talk character="Mel">
-		<default>É assim tão difícil descobrir?</default>
+		<default>Eu não sei.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Venha comigo.</default>
@@ -145,22 +160,10 @@
 		<default>Foi isso que fez com ela?</default>
 	</talk>
 	<talk character="Elian">
-		<default>Tive que ser um pouco mais... Incisivo.</default>
+		<default>Ela tem fraquezas que vocês desconhecem.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Agarrou ela a força?!</default>
-	</talk>
-	<talk character="Elian">
-		<default>Eu disse a ela que agia como uma criança e ela passou a agir como tal.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não acredito no que tá me dizendo...</default>
-	</talk>
-	<talk character="Elian">
-		<default>Então ela disse que eu parecia um animal. Assim como tu, não resistiu por muito tempo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Desgraçado.</default>
+		<default>E usou a fraqueza pra derrubar. Covarde.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Não tenho toda a culpa. Ela pedia pra que eu a transformasse.</default>
@@ -172,7 +175,7 @@
 		<default>Eu só esperei ela se tornar mulher e atendi o pedido.</default>
 	</talk>
 	<teller>
-		<default>Mel sai da pensão. Volta pra casa. De madrugada ela chega.</default>
+		<first>Madrugada. Mel entra na MEAK.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Nossa, até que enfim... Achou ele?</default>
@@ -229,13 +232,13 @@
 		<default>Tá, tudo bem.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Então, vamos?</default>
+		<default>Bora?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ok.</default>
+		<default>Bora.</default>
 	</talk>
 	<teller>
-		<first>Manhã. Beatrice está num hotel. Entra no quarto vizinho.</first>
+		<first>Manhã. Beatrice está num hotel. Entra no quarto vizinho. Um homem se veste. Um corpo na cama. Ele olha para ela. Depois olha de cima a baixo.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Quem é você? Nunca te vi...</default>
@@ -268,13 +271,13 @@
 		<default>Ele me raptou e criou.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Isso é que é querer perfeição...</default>
+		<default>Nossa. Isso é que é querer perfeição...</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Não deu muito certo.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Por que? Está morto?</default>
+		<default>Por que? Morto?</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Não ainda.</default>
@@ -286,7 +289,7 @@
 		<default>Não perderei meu tempo.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Você é vidente pra saber se ele vai morrer?</default>
+		<default>E você é vidente pra saber se ele vai morrer?</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>É um fraco.</default>
@@ -334,7 +337,7 @@
 		<default>Doze.</default>
 	</talk>
 	<teller>
-		<default>Beatrice vai beijá-lo, mas ele impede.</default>
+		<default>Beatrice vai beijá-lo, mas ele se afasta, franzindo a testa.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Não tá falando sério.</default>
@@ -343,7 +346,9 @@
 		<default>Por que não?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Olha pra você mesma.</default>
+		<default>Se olha no espelho...</default>
+		<teller>fecha os olhos e chacoalha a cabeça</teller>
+		<default>Alguém devia se livrar dessa expressão.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Não fui uma garota comum.</default>
@@ -355,19 +360,19 @@
 		<default>Odiava que me comportasse.</default>
 	</talk>
 	<teller>
-		<default>Ela desabotoa a camisa de Zenon. O beija. Ele beija os lábios dela. Depois o pescoço. Desabotoa a camisa dela. Continua beijando-a. Ela olha pro espelho, atrás dele, se levanta mais que rapidamente e desarma um caçador. Então atravessa este com a estaca que ele carregava. O caçador cai no chão.</default>
+		<default>Ela desabotoa a camisa de Zenon. Beija-o. Ele não tenta impedir dessa vez. Passa para o pescoço. Desabotoa a camisa dela. Continua beijando-a. Ela olha pro espelho, atrás dele, se levanta e chuta a besta que estava na mão de uma pessoa. Derruba no chão, senta sobre a pessoa, tira-lhe a estaca da cintura e atravessa o peito da pessoa com a mesma.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Qual o problema? Cobras não podem morder a própria língua?</default>
 	</talk>
 	<teller>
-		<default>Ela levanta o caçador, arranca a estaca de uma vez, o morde e bebe parte do sangue. Zenon se aproxima e ela entrega o caçador. Depois de beber o resto do sangue, ele joga o corpo pela janela (aproveitando que esta fica virada pros fundos do hotel) e encosta Beatrice na parede e a beija. Bem longe, Elian acorda.</default>
+		<default>Beatrice arranca a estaca. Puxa a pessoa, deixando-a sentada. Morde o pescoço. Zenon se senta atrás da pessoa e morde do outro lado. Param. Beatrice sai de cima da pessoa. Zenon pega o corpo e joga pela janela. Encosta Beatrice na parede e a beija. Elian acorda. Levanta e vai para o banheiro. Passa água no rosto. Dá um soco no espelho da pia.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Traidora! Vagabunda!</default>
 	</talk>
 	<teller>
-		<default>Ele destrói um armário. Quebra tudo que consegue ao seu redor. Olha para fora. Olha para cima. Baixa a cabeça. Se joga na cama.</default>
+		<default>Arranca o armário da parede. Vai para o quarto. Quebra todas as portas do guarda-roupas. Arranca o criado mudo e joga contra o espelho no teto. Caem alguns cacos nele. Ele fica olhando para os braços. Tira os cacos. Sacode o lençol da cama, para tirar os que ali estão. Senta-se na cama, de cabeça baixa. Se joga para trás.</default>
 	</teller>
 	<talk character="Kassandra">
 		<default>Você sabia que ela não seria sua.</default>
@@ -379,7 +384,7 @@
 		<default>Quanto tempo...</default>
 	</talk>
 	<talk character="Kassandra">
-		<default>Desde que decidiu ficar com a Lara.</default>
+		<default>Desde que decidiu ficar com Lara.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Não quero me lembrar disso. Estás com ciúmes?</default>
@@ -391,11 +396,14 @@
 		<default>Por que vieste atrás de mim?</default>
 	</talk>
 	<talk character="Kassandra">
-		<default>Atrás de você? Quanta pretensão... Sabe que ando livre pelo mundo, vou a todos os lugares sem ir à lugar algum.</default>
+		<default>Atrás de você? Quanta pretensão... Sabe que ando livre pelo mundo, vou a todos os lugares sem ir a lugar algum.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Talvez por isso não tenha eu ficado contigo.</default>
 	</talk>
+	<teller>
+		<default>Ela ri.</default>
+	</teller>
 	<talk character="Kassandra">
 		<default>Eu que te dispensei.</default>
 	</talk>
@@ -412,10 +420,10 @@
 		<default>Ela ri. Se aproxima e passa sua mão no rosto dele.</default>
 	</teller>
 	<talk character="Kassandra">
-		<default>Não te amo. Mas não quero ver minha cria virar pó.</default>
+		<default>Não te amo. Mas acho que você ainda precisa se ferrar mais antes de morrer. Não seria justo pelo que fez com sua irmã, com sua filha ou com sua neta. Nem pelo que tentou fazer comigo.</default>
 	</talk>
 	<teller>
-		<default>Kassandra vai embora.</default>
+		<default>Ela sai.</default>
 	</teller>
 	<teller>
 		<first>O dia já está na metade quando Edmont e Angely chegam em casa. Mel está com o desenho de Elian na mão.</first>
@@ -496,10 +504,10 @@
 		<default>Talvez seja melhor não saber.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tá. Eu vou falar com a Agatha.</default>
+		<default>Eu vou falar com a Agatha.</default>
 	</talk>
 	<teller>
-		<default>Edmont vai até a porta, mas volta.</default>
+		<default>Edmont vai até a porta, para, ainda de costas.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Vem. Vai ser melhor.</default>
