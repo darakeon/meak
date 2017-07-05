@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Presentation.Models;
@@ -61,7 +62,17 @@ namespace Presentation.Controllers
         {
             var model = new SeasonSeasonModel(paths, seasonID);
 
-            return View("Season", model);
+            if (!model.EpisodeList.Any())
+            {
+                return RedirectToRoute("Default",
+                    new {
+                        action = "Episode", 
+                        seasonID, 
+                        episodeID = "01", 
+                    });
+            }
+
+            return View("Summary", model);
         }
 
 

@@ -26,7 +26,7 @@
             </div>
 
             <div class="body">
-                @foreach (var episode in season.EpisodesList)
+                @foreach (var episode in season.EpisodeList)
                 {
                     var routeItems = new { controller = "Season", seasonID = season, action = "Episode", episodeID = episode };
                     var myUrl = Url.RouteUrl(route, routeItems);

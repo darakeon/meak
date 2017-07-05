@@ -23,7 +23,7 @@ namespace Presentation.Models
             init();
 
             var lastSeason = Menu.SeasonList.LastOrDefault() ?? new Season();
-            var lastEpisode = lastSeason.EpisodesList.LastOrDefault() ?? new Episode();
+            var lastEpisode = lastSeason.EpisodeList.LastOrDefault() ?? new Episode();
 
             SeasonEpisode.NewEp(lastSeason.ID, lastEpisode.ID);
         }

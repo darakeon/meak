@@ -9,7 +9,7 @@ namespace Structure.Entities
     public class Season
     {
         public Season() {
-            EpisodesList = new List<Episode>();
+            EpisodeList = new List<Episode>();
         }
 
         public Season(String path, OpenEpisodeOption getEpisode = OpenEpisodeOption.GetCode) : this()
@@ -32,12 +32,12 @@ namespace Structure.Entities
             var season = dir.Parent.Name.Replace("_", "");
             var path = dir.Parent.Parent.FullName;
 
-            EpisodesList.Add(new Episode(path, season, episode));
+            EpisodeList.Add(new Episode(path, season, episode));
         }
 
 
         public String ID { get; set; }
-        public IList<Episode> EpisodesList { get; set; }
+        public IList<Episode> EpisodeList { get; set; }
 
 
 

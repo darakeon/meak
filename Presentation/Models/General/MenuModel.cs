@@ -21,7 +21,7 @@ namespace Presentation.Models.General
             );
 
             SeasonList = SeasonList
-                .Where(s => s.EpisodesList.Any())
+                .Where(s => s.EpisodeList.Any())
                 .ToList();
         }
 
