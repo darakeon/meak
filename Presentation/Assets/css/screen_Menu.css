@@ -3,7 +3,7 @@
 	margin: 5px 20px 50px 20px;
 	width: 180px;
 	text-align: center;
-	font-size: 11px;
+	font-size: 13px;
 	font-family: Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
 }
 
@@ -16,7 +16,7 @@
 {
 	padding: 2px;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 15px;
 	background: #511;
 	color: #CCC;
 }
@@ -35,7 +35,13 @@
 {
 	padding: 2px;
 	border-radius: 10px 10px 0 0;
+    font-size: 14px;
 }
+
+    .menu #save_status hr
+    {
+	    margin: 0;
+    }
 
 .menu .body 
 {
