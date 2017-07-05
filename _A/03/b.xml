@@ -4,10 +4,10 @@
 		<default>No dia seguinte, de manhã, Edmont vai até a cozinha. Júlio já está acordado.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Bom dia, sr Júlio.</default>
+		<default>Bom dia.</default>
 	</talk>
 	<talk character="Júlio">
-		<default>Faz tanto tempo e vocês ainda não perderam essa mania... Me chama só de Júlio, já disse.</default>
+		<default>Bom dia.</default>
 	</talk>
 	<talk character="Angely">
 		<arrive>Bom dia...</arrive>
@@ -16,7 +16,7 @@
 		<default>Agatha chega na cozinha. Eles tomam café da manhã, calados. Depois arrumam a cozinha, calados também.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Olha, se querem me zoar, me zoem, mas chega de silêncio!</default>
+		<default>Olha, se querem me zoar, me zoem, mas esse silêncio tá me matando!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não é isso.</default>
@@ -43,7 +43,51 @@
 		<default>Olha, o que aconteceu não era pra ter acontecido. Esquece.</default>
 	</talk>
 	<teller>
-		<default>Agatha sai da cozinha. Edmont arruma tudo sozinho. Meio dia, eles vão à casa de Rith, almoçar. Tocam a campainha.</default>
+		<default>Angely pega o cortador de grana.</default>
+	</teller>
+	<talk character="Júlio">
+		<default>Angely, você sabe que... Se você for... Bom, se for...</default>
+	</talk>
+	<talk character="Angely">
+		<default>Gay?</default>
+	</talk>
+	<talk character="Júlio">
+		<default>É... Isso...</default>
+	</talk>
+	<talk character="Angely">
+		<default>Deduziu que sou gay porque nunca saí com uma mulher?</default>
+	</talk>
+	<talk character="Júlio">
+		<default>Não. É que, se for...</default>
+	</talk>
+	<talk character="Angely">
+		<default>Você não vê nenhum problema, é isso?</default>
+	</talk>
+	<talk character="Júlio">
+		<default>É.</default>
+		<teller>silêncio</teller>
+		<default>Sou péssimo nisso, né?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Mais ou menos. Mas acho que sinto atração por mulheres sim. Então, no máximo, posso ser bi.</default>
+	</talk>
+	<talk character="Júlio">
+		<default>Isso não existe de verdade, né?</default>
+	</talk>
+	<teller>
+		<default>Ele ri. Angely olha para ele. Ele para.</default>
+	</teller>
+	<talk character="Júlio">
+		<default>Falei merda, né?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Sim.</default>
+	</talk>
+	<teller>
+		<default>Júlio pega o cortador e começa a cortar a grama.</default>
+	</teller>
+	<teller>
+		<first>Meio dia, eles vão à casa de Rith, almoçar. Tocam a campainha.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Oi... Entra aí. Tão fazendo o almoço ainda.</default>
@@ -52,19 +96,10 @@
 		<default>Cadê a Meg?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Lá no quarto dela.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Agatha, pode dizer a ela sobre...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Pensei que não queria que ela soubesse.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tanto faz.</default>
+		<default>Lá no quarto dela. Ela prefere lavar a louça depois.</default>
 	</talk>
 	<teller>
-		<default>Agatha vai falar com Meg. Angely e Edmont sentam no sofá da sala. Júlio vai à cozinha. Kat fica na sala.</default>
+		<default>Agatha sobe. Angely e Edmont sentam no sofá da sala. Júlio vai à cozinha. Kat fica na sala, desenhando.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Tem alguém nesse lugar da minha idade?</default>
@@ -73,13 +108,13 @@
 		<default>Bom, aqui é meio despovoado, tem só três casas próximas.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tem uma menininha que mora na outra casa.</default>
+		<default>Tem uma criança que mora na outra casa.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Será que ela é legal?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não sei. Da última vez que a vimos, tinha uns dez anos.</default>
+		<default>Não sei. Da última vez que vimos, tinha uns dez anos.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Legal!</default>
@@ -88,34 +123,34 @@
 		<default>Kat sai.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Devíamos ter dito que a última vez que vimos a menina tínhamos treze.</default>
+		<default>Devíamos ter dito que a última vez que vimos tínhamos treze.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Quatro anos? Faz tanto tempo assim?</default>
 	</talk>
 	<teller>
-		<default>No quarto de Meg...</default>
+		<default>No quarto de Meg, Agatha e Meg estão na cama.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Jura???</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Juro.</default>
+		<default>Sim.</default>
 	</talk>
 	<talk character="Meg">
 		<default>Mas ele mesmo disse?</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Não tô falando? Ele quem pediu pra te contar.</default>
+		<default>Disse. Mas não tem nada demais.</default>
 	</talk>
 	<talk character="Meg">
 		<default>Que meigo...</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Ele ficou envergonhado.</default>
+		<default>Meigo?</default>
 	</talk>
 	<talk character="Meg">
-		<default>Você parece preocupada.</default>
+		<default>Ah, sei lá. Parece que todo cara parece ter pressa pra isso, pra mostrar que é macho alpha... Mas você parece preocupada com alguma outra coisa.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Eu?</default>
@@ -129,6 +164,9 @@
 	<talk character="Meg">
 		<default>Pode contar.</default>
 	</talk>
+	<teller>
+		<default>Agatha suspira.</default>
+	</teller>
 	<talk character="Agatha">
 		<default>Ele me beijou.</default>
 	</talk>
@@ -151,7 +189,7 @@
 		<default>Como não??? Eu e ele fomos criados juntos!</default>
 	</talk>
 	<talk character="Meg">
-		<default>E daí? Mais um motivo pra seu pai confiar mais nele, se der em alguma coisa essa história.</default>
+		<default>E daí? Mais um motivo pra confiar mais nele, se der em alguma coisa essa história.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Mas, você não entende...</default>
@@ -163,7 +201,7 @@
 		<default>E você e Angely?</default>
 	</talk>
 	<talk character="Meg">
-		<default>Quem sabe ele não deixa de ser um garotinho inocente?</default>
+		<default>Bom, se ele quiser algo...</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Ele é tímido, já vou logo avisando...</default>
