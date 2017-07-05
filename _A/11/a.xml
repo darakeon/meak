@@ -33,7 +33,7 @@
 		<default>Tá precisando mais.</default>
 	</talk>
 	<teller>
-		<default>Ela tenta fugir, mas Andrews a segura e a morde. Bebe todo o sangue.</default>
+		<default>Ela tenta fugir, mas Andrews a segura e a morde. Ela grita. Ainda tenta empurrá-lo. Não demora muito a parar. Ele a solta e se levanta. Ajeita os trapos que está vestindo.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Parece que mudou de idéia quanto aos humanos.</default>
@@ -42,13 +42,17 @@
 		<default>Parece que nenhum deles se preocupou em me tirar daqui.</default>
 	</talk>
 	<talk character="Dilan">
-		<default>Mas sabe por que nós não te libertamos.</default>
+		<default>Sabe por que</default>
+		<frizz>nós</frizz>
+		<default>não te libertamos.</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Ainda tô com sede.</default>
 	</talk>
 	<talk character="Dilan">
-		<default>Agora sim. Voltou ao normal. Espera... Como aprendeu a...</default>
+		<default>Agora sim.</default>
+		<teller>sorri, mas fecha a expressão em seguida</teller>
+		<default>Espera... Como aprendeu a...</default>
 	</talk>
 	<talk character="Andrews">
 		<default>As pessoas falam. Falam o tempo todo.</default>
