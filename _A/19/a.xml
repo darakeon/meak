@@ -1,19 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="19" scene="a">
 	<teller>
-		<default>Agosto/2023. Mel está no banheiro. Angely bate à porta.</default>
+		<division>Agosto de 2023</division>
+	</teller>
+	<teller>
+		<default>Angely bate a porta do banheiro.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Quanto tempo ainda fica aí?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Só mais um instante...</default>
+		<out>Só mais um instante...</out>
 	</talk>
 	<talk character="Angely">
 		<default>Mel? Que cheiro de queimado é esse?</default>
 	</talk>
 	<teller>
-		<default>Ela abre a porta.</default>
+		<default>Mel abre a porta.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Nada.</default>
@@ -22,55 +25,49 @@
 		<default>Dancan tá esperando no telefone faz um tempão.</default>
 	</talk>
 	<teller>
-		<default>Mel vai até a sala e pega o telefone. Desliga.</default>
+		<default>Mel vai até a sala. Pega o telefone. Desliga.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ele desligou.</default>
+		<default>Desligou.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Parecia que estava realmente querendo falar com você.</default>
+		<default>Parecia que tava realmente querendo falar com você.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Acha que devo ligar de volta?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Estavam saindo, não estavam?</default>
+		<default>Tavam saindo, não tavam?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não adianta ter esperanças, não temos nada.</default>
+		<default>Não adianta Dancan ter esperanças, não temos nada.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por que?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sei o que você e Kat pensam, mas não quero um namorado.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Estava queimando o que lá dentro?</default>
+		<default>Tava queimando o que lá dentro?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Quer mesmo saber?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sim.</default>
+		<default>Se você quiser contar...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então vai morrer de curiosidade.</default>
+		<default>Não quero.</default>
 	</talk>
 	<teller>
-		<default>Ela vai pra seu quarto.</default>
+		<default>Mel vai pra seu quarto.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Ainda bem que era alarme falso.</default>
+		<default>Alarme falso.</default>
 	</talk>
 	<teller>
-		<default>Angely se senta na sala. Pega o laptop e liga no celular.</default>
+		<default>Angely se senta na sala. Pega o notebook. Conecta no celular.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Melhor arranjar logo um emprego.</default>
 	</talk>
 	<teller>
-		<default>Mel pega o telefone e liga pra Dancan.</default>
+		<default>Mel pega o celular. Disca.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Dan?</default>
@@ -88,10 +85,13 @@
 		<default>Então por que ligou ao invés de vir aqui?</default>
 	</talk>
 	<talk character="Dan">
-		<default>Está livre à noite?</default>
+		<default>Tá livre à noite?</default>
 	</talk>
+	<teller>
+		<default>Mel franze a testa.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Desde que não vá me pedir em casamento, tudo bem.</default>
+		<default>Desde que não vá me pedir em casamento, tô.</default>
 	</talk>
 	<talk character="Dan">
 		<default>Juro que não faço.</default>
@@ -100,7 +100,7 @@
 		<default>Onde?</default>
 	</talk>
 	<teller>
-		<default>De noite...</default>
+		<first>Noite. Mel desce a escada. Angely está no sofá, com um livro.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Deixa eu adivinhar... Dancan?</default>
@@ -109,41 +109,29 @@
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Bem, temos vários jeitos de descobrir... Roupa, maquiagem, parece que vai pra uma festa, está saindo com ele há seis meses...</default>
+		<default>Roupa, maquiagem, parece que vai pra uma festa, estão saindo há seis meses...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não é tanto assim.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ou melhor, foi o único cara com quem saiu nos últimos seis meses.</default>
+		<default>Ou melhor, foi a única pessoa com quem saiu nos últimos seis meses. O que é bem estranho.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nós estamos apenas passando o tempo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E como reagiria se descobrisse que ele saiu com outra?</default>
+		<default>Nós estamos apenas passando o tempo. E não é como seu eu tivesse tempo pra ficar saindo com várias pessoas.</default>
 	</talk>
 	<teller>
-		<default>Mel encara Angely.</default>
+		<default>Mel vai na direção da porta, mas se segura na parede. Angely levanta.</default>
 	</teller>
+	<talk character="Mel">
+		<default>Não é nada, só tontura.</default>
+	</talk>
 	<talk character="Angely">
-		<default>Não me parece uma resposta.</default>
+		<default>Liga pra Dancan e diz que não vai.</default>
 	</talk>
 	<teller>
-		<default>Ela vai sair, mas sente tontura. Ele a segura.</default>
+		<default>Mel se endireita e encara Angely.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Que foi, Mel???</default>
-	</talk>
-	<talk character="Mel">
-		<default>Nada, apenas fiquei zonza...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Liga pro Dancan e diz que você não vai.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que???</default>
-	</talk>
 	<talk character="Angely">
 		<default>Acha que vou te deixar dirigir desse jeito?</default>
 	</talk>
@@ -154,103 +142,79 @@
 		<default>Bem mal, só se for!</default>
 	</talk>
 	<talk character="Mel">
-		<default>E como vai me impedir? Vai me amarrar na cama?</default>
+		<default>E como vai me impedir? Vai me amarrar na cama? Depois quer saber por que quero morar sozinha!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Me diz uma coisa... Lembra da última sugestão que deu desse tipo?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Depois quer saber por que quero morar sozinha!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ou eu te levo, ou você não vai.</default>
+		<default>Eu te levo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Vê se pode! Se enxerga!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Acabou de ter tontura, não vou te deixar sair sozinha...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Como se fosse muita coisa!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você quem decide.</default>
+		<default>Acabou de ter tontura, não posso te deixar sair sozinha.</default>
 	</talk>
 	<teller>
-		<default>Mel encara-o de novo.</default>
+		<default>Mel encara de novo. Bufa e revira os olhos. Estende a chave a Angely. Angely sorri e pega a chave. Mel abre a porta e sai. Angely segue.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Pode me levar?</default>
-	</talk>
 	<teller>
-		<default>Angely sorri e pega as chaves do carro. Leva ela até a porta de um bar.</default>
+		<first>O carro para na porta de um bar.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Eu disse pra estacionar do outro lado.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não me importa se você acha que tá "pagando mico",...</default>
+		<default>Não me importa se você acha que tá "pagando mico".</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mico? Isso é pior do que King Kong!</default>
+		<default>King Kong.</default>
 	</talk>
 	<talk character="Angely">
-		<default>...mas eu me importo com você.</default>
+		<default>Me importo com você.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Eu ainda me vingo.</default>
 	</talk>
+	<talk character="Angely">
+		<default>Já fez isso.</default>
+	</talk>
 	<teller>
-		<default>Mel abre a porta do carro e sai.</default>
+		<default>Mel abre a porta do carro e sai. Para na porta do bar. Entrega a CNH.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Se passar mal de novo, me liga, tá?</default>
 	</talk>
 	<teller>
-		<default>Ela tapa o rosto e entra rápido. Ocupa uma mesa e Dan chega logo depois.</default>
+		<default>Mel olha para trás e encara Angely. Angely baixa a cabeça. Liga o carro, olha para frente e arranca. Mel pega o CNH e a comanda, entra. Senta-se a mesa de Dan.</default>
 	</teller>
 	<talk character="Dan">
 		<default>Ainda bem que veio.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Chegou junto comigo?</default>
-	</talk>
-	<talk character="Dan">
-		<default>Sim, por que?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não viu quando entrei, viu?</default>
+		<default>Tava olhando lá pra fora?</default>
 	</talk>
 	<talk character="Dan">
 		<default>Tá se referindo ao seu irmão?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não sei onde esconder minha cara!</default>
+		<default>Me sinto uma criança de três anos.</default>
 	</talk>
 	<talk character="Dan">
 		<default>Ele falou algo sobre você passar mal...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Besteira dele! Ainda não se convenceu que é meu irmão mais novo.</default>
-	</talk>
-	<talk character="Dan">
-		<default>Não liga pra isso.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não ligar???</default>
+		<default>Ainda não se convenceu que quem tem que cuidar sou eu, que tenho mais idade.</default>
 	</talk>
 	<talk character="Dan">
 		<default>Acredite, eu sei o que é pagar um mico por causa de irmãos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sua irmã não mora nos Estados Unidos?</default>
+		<default>Ao menos no seu caso, mora nos Estados Unidos.</default>
 	</talk>
 	<talk character="Dan">
 		<default>Resolveu se mudar. Bom, mas eu tenho algo sério pra conversar com você.</default>
 	</talk>
 	<teller>
-		<default>Nesse momento, chega uma garota e se senta à mesa deles.</default>
+		<default>Dione senta-se a mesa.</default>
 	</teller>
 	<talk character="Dione">
 		<default>Me deixa lá, cuidando daquelas três, enquanto vem se divertir???</default>
@@ -285,11 +249,14 @@
 	<talk character="Dione">
 		<default>Nos conhecemos desde crianças e...</default>
 	</talk>
+	<talk character="Mel">
+		<default>É sério, eu te disse, não tem problema arranjar outra pessoa, se quiser até arranjar um relacionamento que vá terminar comigo, termina, mas não me arranja encrenca nem engana ninguém. Era a única regra. E você conseguiu furar.</default>
+	</talk>
 	<teller>
-		<default>Dan encara Dione. Mel se levanta da mesa. Dan segura o braço dela.</default>
+		<default>Mel se levanta da mesa. Dan segura o braço de Mel. Mel encara Dan e Dan larga.</default>
 	</teller>
 	<talk character="Dan">
-		<default>Melody, espera! Dione, pára de palhaçada!</default>
+		<default>Dione, pára de palhaçada!</default>
 	</talk>
 	<talk character="Dione">
 		<default>É claro! Se você fosse irmã dele ou ao menos conhecesse ele desde criança, provavelmente não ia querer nada com ele! Você não tem com ele a ligação que tenho... Sorte sua e azar meu!</default>
@@ -307,7 +274,7 @@
 		<default>Melody...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pensei que ele era casado e tinha filhas com você...</default>
+		<default>Achei inclusive que tava falando de crianças de vocês.</default>
 	</talk>
 	<talk character="Dione">
 		<default>Nem que eu caísse de cabeça!</default>
@@ -316,7 +283,7 @@
 		<default>Eu preciso falar algo sério com você...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Quem são as três à quem se referiu?</default>
+		<default>Falou em três, três o quê?</default>
 	</talk>
 	<talk character="Dione">
 		<default>Ele não te contou??? Te garanto que é bem pior do que...</default>
@@ -328,16 +295,28 @@
 		<screamed>Podem me dar um pouco de atenção???</screamed>
 	</talk>
 	<teller>
-		<default>Silêncio. O bar inteiro olha pra eles.</default>
+		<default>Mel dá um tapa em Dancan.</default>
 	</teller>
 	<talk character="Dan">
-		<default>Desculpem.</default>
+		<default>Au!</default>
+	</talk>
+	<talk character="Mel">
+		<default>É atenção suficiente, homem das cavernas?! Parou a histeria?!</default>
 	</talk>
 	<teller>
-		<default>Dan disfarça e se senta.</default>
+		<default>Dancan levanta. Todos estão olhando.</default>
 	</teller>
+	<talk character="Dan">
+		<default>Se gostaram, a peça está em cartaz, começa às 18h, tenho convites vip!</default>
+	</talk>
+	<teller>
+		<default>As pessoas param de olhar. Dan se senta. Mel senta também.</default>
+	</teller>
+	<talk character="Dione">
+		<default>Caralho, tenho que reconhecer, você sabe se promover.</default>
+	</talk>
 	<talk character="Mel">
-		<default>Definitivamente, hoje é o dia do mico.</default>
+		<default>Era pra ser um soco, então espero que esteja feliz.</default>
 	</talk>
 	<talk character="Dan">
 		<default>Posso falar com ela sozinho, Dione?</default>
@@ -352,16 +331,16 @@
 		<default>Por que eu não vou voltar pra casa e agüentar aquelas coisas. Não podia ter encontrado piores?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Encontrado?</default>
+		<default>Tô começando a duvidar se Dione tá falando de seres humanos. Se encheu sua casa de cachorros ou gatos, não tem problema, eu gosto de bichos.</default>
 	</talk>
 	<talk character="Dione">
-		<default>À quanto tempo está com ele?</default>
+		<default>Há quanto tempo está com ele?</default>
 	</talk>
 	<talk character="Dan">
 		<default>Seis meses.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não estou com ele!</default>
+		<default>A gente não tá junto!</default>
 	</talk>
 	<talk character="Dan">
 		<default>Não???</default>
@@ -373,35 +352,29 @@
 		<default>Dan levanta.</default>
 	</teller>
 	<talk character="Dan">
-		<default>Mas já foram seis meses!</default>
+		<default>Já foram seis meses!</default>
 	</talk>
 	<talk character="Dione">
 		<default>Com licença, isso não está meio invertido? Não é geralmente o cara que não quer compromisso?</default>
 	</talk>
 	<teller>
-		<default>Mel levanta.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Até parece que você não saiu com nenhuma outra!</default>
-	</talk>
-	<talk character="Dan">
-		<default>Não mesmo!</default>
-	</talk>
-	<teller>
-		<default>Dan senta.</default>
+		<default>Mel olha para Dione. Olha para Dan. Dan senta.</default>
 	</teller>
 	<talk character="Dan">
-		<default>Por que, você saiu?</default>
+		<default>Você saiu com outros caras?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não é da sua conta, não temos nada.</default>
 	</talk>
 	<teller>
-		<default>Mel se vira pra sair, Dan segura-lhe o braço.</default>
+		<default>Mel se levanta. Dan segura-lhe o braço.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Segunda vez que faz isso. Já disse o que aconteceu com o nariz do último?</default>
+		<default>Segunda vez que faz isso. Tá mesmo querendo aquele soco?</default>
 	</talk>
+	<teller>
+		<default>Dancan solta o braço.</default>
+	</teller>
 	<talk character="Dan">
 		<default>Não era isso que eu tinha pra falar.</default>
 	</talk>
@@ -412,19 +385,19 @@
 		<default>Detesto casaisinhos melodramáticos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que???</default>
+		<default>Não somos um casal. Eu não sou parte de nenhum casal.</default>
+	</talk>
+	<teller>
+		<default>Dan sorri. Mel encara. Dan fecha a expressão.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Acho que você não entendeu nada. Talvez não tenha sido uma boa ideia ficar todo esse tempo com você.</default>
 	</talk>
 	<talk character="Dione">
 		<default>Olha, é o seguinte: Dan engravidou três mulheres na mesma noite. Ele sabe que, alguns meses depois, ele engravidou uma outra. E ele acha que foi você.</default>
 	</talk>
 	<teller>
-		<default>Dan solta o braço de Mel. Ela dá um tapa na cara dele.</default>
-	</teller>
-	<talk character="Mel">
-		<default>E ainda queria compromisso! Cachorro!</default>
-	</talk>
-	<teller>
-		<default>Ela vai embora.</default>
+		<default>Mel meneia a cabeça. Sai.</default>
 	</teller>
 	<talk character="Dan">
 		<default>Viu o que você fez???</default>
@@ -442,40 +415,46 @@
 		<default>Só um detalhe???</default>
 	</talk>
 	<teller>
-		<default>Mel chega a pé em casa e nervosa.</default>
+		<first>MEAK. Mel entra e bate a porta.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Acredita que ele engravidou três mulheres???</default>
+		<default>Acredita que Dancan engravidou três pessoas???</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mas foi um mês antes de te conhecer...</default>
+		<default>Foi um mês antes de te conhecer. Aparentemente fez exames depois, pra ver se não tinha pego nada, e não pretende abandonar as pessoas.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Peraí, seu desgraçado, você sabia??????</default>
+		<default>Peraí, desgraça, você sabia??????</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ele veio me pedir conselho, Não sabia como explicar pra você... Não achei que fosse ficar tão brava.</default>
+		<default>Veio me pedir conselho, não sabia como explicar pra você. Não achei que fosse ficar com tanta raiva.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não estou brava! Aliás, ele nem precisava explicar! Não temos nada mesmo! Agora eu vou pro meu quarto e vou dormir. Dane-se ele se saiu fazendo filho por aí! Aliás, por que veio me contar? Acha que eu vou ajudar a sustentar por acaso?</default>
+		<default>Vou pro meu quarto e vou dormir. Dane-se se saiu fazendo criança por aí! Aliás, por que veio me contar? Acha que eu vou ajudar a sustentar por acaso?! Ou que vamos casar e vou criar as crianças e cozinhar pro meu maridinho?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Acha que você também pode estar grávida.</default>
+		<default>Acha que também pode ter te engravidado.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Acha por acaso que eu já sai com ele alguma vez sem... Aliás, ainda bem que não, por que, pra ter engravidado três, ele deve ter realmente saído com um monte de mulheres! Tava a perigo de pegar uma doença até!</default>
+		<default>Camisinha. Tenho certeza que conhece porque usamos, e não parecia que era a primeira vez que via. Aliás, ainda bem que usamos, por que, pra ter engravidado três, ele deve ter realmente saído com um monte de gente! E sem se proteger! Tava a perigo de pegar uma doença até!</default>
+	</talk>
+	<talk character="Angely">
+		<default>A gente não pega, somos...</default>
+	</talk>
+	<talk character="Mel">
+		<screamed>Dancan não sabe disso! Tá simplesmente pouco se fodendo!</screamed>
 	</talk>
 	<teller>
-		<default>Ela vai pra seu quarto. Ele a segue e quase toma com a porta no nariz.</default>
+		<default>Mel vai pra seu quarto. Angely segue. Mel fecha a porta, quase acertando Angely.</default>
 	</teller>
 	<talk character="Mel">
-		<default>E não me perturbe! Estou com sono!</default>
+		<default>E não me perturbe! Tô com sono!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Se tomaram precauções, por que ele acharia que você está grávida?</default>
+		<default>Se tomaram precauções, por que acharia que você engravidou?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Deve ter esquecido!</default>
@@ -484,34 +463,31 @@
 		<default>Mel...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu tô com sono, dá licença???</default>
+		<default>Tô com sono, dá licença???</default>
 	</talk>
 	<talk character="Angely">
 		<default>Amanhã conversamos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se me vier com esse papo amanhã, eu volto pra cama! Ou saio e te deixo falando sozinho!</default>
+		<screamed>Se me vier com esse papo amanhã, eu volto pra cama! Ou saio e te deixo falando!</screamed>
 	</talk>
 	<teller>
-		<default>Angely vai pra seu quarto. No dia seguinte, de tarde, Dan liga.</default>
+		<default>Angely vai pra seu quarto.</default>
+	</teller>
+	<teller>
+		<default>Dia seguinte. Tarde. Toca o telefone. Angely atende. Baixa os ombros. Sobe. Bate na porta de Mel.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Diz que eu não quero falar com ele!</default>
+		<out>Diz que eu não quero falar!</out>
 	</talk>
 	<talk character="Angely">
-		<default>Pára de ser criança.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Criança??? Criança é ele... Irresponsável... Aliás, criança foi o que ele fez! Não, obrigado, não quero entrar pro clube!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mas ele disse que é...</default>
+		<default>Mas disse que é...</default>
 	</talk>
 	<teller>
-		<default>Mel liga o som no maior volume. Angely volta pra sala e pega o telefone.</default>
+		<default>Mel liga o rádio. Aumenta o som para o maior volume. Angely volta pra sala. Pega o telefone.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Ela não quer falar com você, não...</default>
+		<default>Não quer falar com você, não.</default>
 	</talk>
 	<talk character="Dan">
 		<default>Mas eu preciso...</default>
@@ -523,7 +499,7 @@
 		<default>Você acharia idiota.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Se quer fazer uma declaração de amor pra ela, telefone não é...</default>
+		<default>Se quer fazer uma declaração de amor, telefone não é...</default>
 	</talk>
 	<talk character="Dan">
 		<default>Não é isso. Quer dizer, não que eu não goste da sua irmã...</default>
