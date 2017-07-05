@@ -1,19 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="18" scene="f">
 	<teller>
-		<default>Clítia e Davi estão observando.</default>
+		<default>Casa de Janaína. Janaína está no chão, diversos papéis ao redor. Estela entra. Janaína olha para Estela.</default>
+	</teller>
+	<talk character="Janaína">
+		<default>Ainda bem que veio. Fui te procurar na sua casa, você não tava...</default>
+	</talk>
+	<talk character="Estela">
+		<default>Acha que sou lésbica?</default>
+	</talk>
+	<teller>
+		<default>Janaína franze a testa.</default>
+	</teller>
+	<talk character="Janaína">
+		<default>Não sei. Essas coisas não vêm escritas na testa.</default>
+	</talk>
+	<teller>
+		<default>Estela olha para os papéis no chão.</default>
+	</teller>
+	<talk character="Estela">
+		<default>As contas do mês?</default>
+	</talk>
+	<talk character="Janaína">
+		<default>É. Me ajuda?</default>
+	</talk>
+	<teller>
+		<default>Estela se senta de frente para Janaína.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Tá misturando tudo.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Imaginei.</default>
+	</talk>
+	<teller>
+		<default>Jardim da casa. Clítia e Davi olham pela janela.</default>
 	</teller>
 	<talk character="Davi">
 		<default>Acha mesmo?</default>
 	</talk>
 	<talk character="Clítia">
-		<default>A menina está bem guardada. Aléxis, Michele, Alan, Soraia, Zenon, Beatrice, Katerine... Pelo menos dois não hesitariam em apontar uma besta para Juliana. Raptamos Estela, e trocamos. Com Zenon e Beatrice.</default>
+		<default>A menina está bem guardada. Tem Aléxis, Michele, Alan, Soraia, Zenon, Beatrice e Katerine. Pelo menos três não hesitariam em apontar uma besta para Juliana. Raptamos Estela, e trocamos. Com Zenon e Beatrice.</default>
 	</talk>
 	<talk character="Etos">
 		<arrive>Sabia que Alan e Estela discutiram?</arrive>
 	</talk>
 	<teller>
-		<default>Davi se assusta.</default>
+		<default>Davi se encolhe e olha para Etos.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Não.</default>
@@ -25,10 +58,13 @@
 		<default>Adoraria levar as duas, não?</default>
 	</talk>
 	<talk character="Etos">
-		<default>Acho que por isso Estela me atraiu. Ouviu a conversa delas? Também tem um pé do outro lado.</default>
+		<default>Acho que por isso Estela me atraiu. Ouviu a conversa? Estela também tem um pé do outro lado.</default>
 	</talk>
+	<teller>
+		<default>Clítia revira os olhos.</default>
+	</teller>
 	<talk character="Clítia">
-		<default>Estela te atraiu porque ela se mexe.</default>
+		<default>Estela te atraiu porque se mexe.</default>
 	</talk>
 	<talk character="Davi">
 		<default>Quem é você?</default>
@@ -37,7 +73,7 @@
 		<default>Etos. Foi transformado pela primeira vampira da primeira linhagem.</default>
 	</talk>
 	<talk character="Etos">
-		<default>Seu amigo é novo?</default>
+		<default>Criança?</default>
 	</talk>
 	<talk character="Clítia">
 		<default>Sim. Transformei faz pouco tempo.</default>
@@ -51,6 +87,9 @@
 	<talk character="Etos">
 		<default>E no escuro?</default>
 	</talk>
+	<teller>
+		<default>Davi franze a sobrancelha.</default>
+	</teller>
 	<talk character="Davi">
 		<default>Ah?</default>
 	</talk>
@@ -58,25 +97,34 @@
 		<default>Esquece, Etos.</default>
 	</talk>
 	<talk character="Etos">
-		<default>Consegui até Dilan, com aquele jeito de "sou o macho alpha".</default>
+		<default>Consegui até Dilan, com aquele jeito de "sou macho pra caralho".</default>
 	</talk>
+	<teller>
+		<default>Clítia olha para Etos.</default>
+	</teller>
 	<talk character="Clítia">
-		<default>Sério?</default>
+		<default>Sério?!</default>
 	</talk>
 	<talk character="Etos">
-		<default>Não gostou. Mas consegui.</default>
+		<default>Vai negar se perguntar.</default>
 	</talk>
+	<teller>
+		<default>Clítia franze a sobrancelha.</default>
+	</teller>
 	<talk character="Clítia">
 		<default>À força?</default>
 	</talk>
 	<talk character="Etos">
-		<default>Curiosidade.</default>
+		<default>Não! Parece que não me conhece...</default>
 	</talk>
 	<talk character="Davi">
-		<default>Dá pra parar com esse papo? Não viemos aqui pra sequestrá-la?</default>
+		<default>Dá pra parar com esse papo? Não viemos aqui pra sequestrar ela?</default>
 	</talk>
+	<teller>
+		<default>Voltam a olhar para dentro da casa.</default>
+	</teller>
 	<talk character="Etos">
-		<default>Acho melhor levar ela e Derik.</default>
+		<default>Acho melhor levar Estela e Derik.</default>
 	</talk>
 	<talk character="Davi">
 		<default>Quem é Derik?</default>
@@ -103,31 +151,37 @@
 		<default>Só um segundo.</default>
 	</talk>
 	<teller>
-		<default>Etos entra. Puxa Janaína e a amarra. Estela corre pra cozinha, pega uma faca. Etos a desarma e amarra. Leva para a sala. Davi e Clítia entram.</default>
+		<default>Etos pega cordas no chão. Entra. Janaína e Estela levantam. Janaína diz algo a Estela, Estela corre. Etos puxa Janaína, segura e amarra. Estela volta correndo com uma faca, Etos tira a faca de Estela, segura e amarra  com a outra ponta da corda. Pega a faca que Estela trazia, corta a corda, que ligava Janaína com Estela. Davi e Clítia entram.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Agora só falta Derik.</default>
 	</talk>
 	<talk character="Clítia">
-		<default>Não precisamos dele. Tem alguma fixação por ele?</default>
+		<default>Não precisamos de Derik. Tem alguma fixação?</default>
 	</talk>
 	<talk character="Etos">
-		<default>E você tem medo de Katerine.</default>
+		<default>Não. Mas você tem medo de Katerine.</default>
 	</talk>
 	<talk character="Clítia">
-		<default>Será que é por ela? Ou seria Melody?</default>
+		<default>Será que é por Katerine a fixação? Ou seria Melody?</default>
 	</talk>
+	<teller>
+		<default>Etos cruza os braços.</default>
+	</teller>
 	<talk character="Etos">
-		<default>Inventei esse jogo, querida. Não vai me vencer nele.</default>
+		<default>Inventei esse jogo, meu amor. Não vai me vencer nele.</default>
 	</talk>
 	<talk character="Clítia">
 		<default>Acha mesmo?</default>
 	</talk>
+	<teller>
+		<default>Etos descruza os braços. Olha para Davi.</default>
+	</teller>
 	<talk character="Etos">
-		<default>Juliana é mesmo bonita assim, Davi?</default>
+		<default>Juliana é mesmo bonita assim?</default>
 	</talk>
 	<teller>
-		<default>Etos sai.</default>
+		<default>Clítia encara Etos. Etos ri. Sai.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Ele que não tente encostar nela.</default>
@@ -139,7 +193,7 @@
 		<default>Isso não é da sua conta.</default>
 	</talk>
 	<teller>
-		<default>Kat acorda.</default>
+		<default>Kat abre os olhos.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Você tá bem? Desmaiou do nada...</default>
@@ -148,13 +202,13 @@
 		<default>Estela.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Que tem ela?</default>
+		<default>Que tem?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Clítia a seqüestrou. Com ajuda de Etos.</default>
+		<default>Clítia sequestrou. Com ajuda de Etos.</default>
 	</talk>
 	<teller>
-		<default>Um tempo depois, na MEAK, Derik chega, como pássaro.</default>
+		<first>MEAK. As pessoas estão na sala. Aurium chega, como pássaro. Entra no banheiro. Sai Derik.</first>
 	</teller>
 	<talk character="Derik">
 		<default>Nada.</default>
@@ -166,16 +220,25 @@
 		<default>Clítia seqüestrou Estela e Janaína.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Que a Estela estava fazendo com a Janaína?</default>
+		<default>O que Estela estava fazendo com Janaína?</default>
 	</talk>
+	<teller>
+		<default>Kat cruza os braços.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Contas. Vai ter ciúmes agora?</default>
 	</talk>
+	<teller>
+		<default>Alan levanta.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Vou tirar minha filha daqui.</default>
 	</talk>
+	<teller>
+		<default>Juliana levanta.</default>
+	</teller>
 	<talk character="Juliana">
-		<default>Não vai tirá-la de perto de mim.</default>
+		<default>Não vai tirar Ísis de perto de mim.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Você escolheu eles.</default>
@@ -183,32 +246,32 @@
 	<talk character="Juliana">
 		<default>Eu não escolhi nada.</default>
 	</talk>
-	<talk character="Zenon">
-		<default>Alan, vai deixar Estela à própria sorte?</default>
+	<talk character="Kat">
+		<default>Vai deixar Estela a própria sorte?!</default>
 	</talk>
 	<talk character="Alan">
-		<default>Katerine pode salvá-la!</default>
+		<default>Você pode salvar ela!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Será que pode parar um instante e se ouvir?</default>
+		<default>Será que pode parar um instante e se ouvir?!</default>
 	</talk>
 	<teller>
 		<default>Alan se levanta e sai.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Que aconteceu com ele?</default>
+		<default>Que houve?</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Traição demais. Vai voltar. Mesmo porque, ele esqueceu algo.</default>
+		<default>Traição demais. Vai voltar. Mesmo porque, esqueceu uma coisa.</default>
 	</talk>
 	<teller>
-		<default>Ele entra novamente. Vai até a cozinha.</default>
+		<default>Alan entra. Vai até a cozinha. Abaixa perto de Ísis.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Anjo, acorda...</default>
 	</talk>
 	<teller>
-		<default>Ísis acorda.</default>
+		<default>Ísis levanta a cabeça da mesa e olha para Alan.</default>
 	</teller>
 	<talk character="Ísis">
 		<default>Que foi?</default>
@@ -216,6 +279,9 @@
 	<talk character="Alan">
 		<default>Temos que ir. É perigoso aqui para você.</default>
 	</talk>
+	<teller>
+		<default>Ísis se vira para Alan.</default>
+	</teller>
 	<talk character="Ísis">
 		<default>Sempre é perigoso. O mundo é perigoso.</default>
 	</talk>
@@ -228,8 +294,11 @@
 	<talk character="Soraia">
 		<default>Resolveremos isso. Depois vamos.</default>
 	</talk>
+	<teller>
+		<default>Alan levanta e vira para Soraia.</default>
+	</teller>
 	<talk character="Alan">
-		<default>Eles querem Juliana. Ela já se entregou a eles. Por que acha que pode voltar, fingindo que nada aconteceu?</default>
+		<default>Eles querem Juliana. Ela já se entregou pra eles. Por que ela acha que pode voltar, fingindo que nada aconteceu?</default>
 	</talk>
 	<talk character="Zenon">
 		<arrive>A gente sempre quer voltar fingindo que nada aconteceu. É o único jeito de voltar. Acha que esqueci o que fiz com a irmã de Fábio?</arrive>
@@ -238,19 +307,19 @@
 		<default>Tenho que tirar Ísis disso.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Tiraremos.</default>
+		<default>A gente vai tirar.</default>
 	</talk>
 	<teller>
-		<default>Beatrice entra na mansão de Janaína. Etos a segura.</default>
+		<first>Mansão de Janaína. Beatrice entra. Etos puxa Beatrice pra junto de si, deixando de costas para si.</first>
 	</teller>
 	<talk character="Bea">
-		<default>Onde Clítia levou as duas?</default>
+		<default>Onde Clítia levou Estela e Janaína?</default>
 	</talk>
 	<talk character="Etos">
 		<default>Não sei, mas posso descobrir.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Fez isso porque Estela não te quis? Outras mulheres não te quiseram...</default>
+		<default>Fez isso porque Estela não te quis? Outras pessoas não te quiseram.</default>
 	</talk>
 	<talk character="Etos">
 		<default>Não tem a ver com isso. Eu não tenho o que fazer com a minha eternidade. Já fiz o que queria, o que não queria pra me contrariar... Não preciso de um motivo pra fazer nada.</default>
@@ -262,7 +331,7 @@
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Pra trazê-la de volta.</default>
+		<default>Pra trazer as pessoas de volta.</default>
 	</talk>
 	<talk character="Etos">
 		<default>Juliana.</default>
@@ -271,41 +340,53 @@
 		<default>Por que?</default>
 	</talk>
 	<talk character="Etos">
-		<default>Não entendeu. É mais fácil recuperar Juliana, porque Clítia não irá matá-la se tentar pegar a força. Já Janaína e Estela...</default>
+		<default>É mais fácil recuperar Juliana, porque Clítia não vai matar Juliana se tentar pegar a força de volta. Já Janaína e Estela...</default>
 	</talk>
 	<talk character="Bea">
-		<default>E se ela matar as duas quando entregarmos Juliana?</default>
+		<default>E se matar Estela e Janaína quando entregarmos Juliana?</default>
 	</talk>
 	<talk character="Etos">
-		<default>Não acho que ela fará isso. Por que Juliana vai pedir que ela não faça.</default>
+		<default>Não acho que vá fazer isso. Por que Juliana vai pedir que não faça.</default>
 	</talk>
 	<teller>
-		<default>Etos vira Beatrice e a beija. Aléxis chega. Beatrice vira. Abaixa a cabeça e sai.</default>
+		<default>Etos vira Beatrice e beija. Aléxis chega. Beatrice se afasta. Olha para Aléxis. Aléxis engole seco. Sai.</default>
 	</teller>
 	<talk character="Etos">
 		<default>Não é ele que você quer.</default>
 	</talk>
+	<teller>
+		<default>Beatrice olha para Etos.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Acha que é você?</default>
 	</talk>
 	<talk character="Etos">
-		<default>Não. Mas pelo menos sou o único que sabe quem é.</default>
+		<default>Não. Mas pelo menos sei quem é.</default>
 	</talk>
 	<teller>
-		<default>Ele a encosta na parede e a beija. 13/11. Aléxis chega na MEAK.</default>
+		<default>Etos puxa Beatrice e beija.</default>
+	</teller>
+	<teller>
+		<first>Madrugada. MEAK. Aléxis chega.</first>
 	</teller>
 	<talk character="Aléxis">
-		<default>Ela encontrou Etos. Ele disse pra entregarmos Juliana e a pegarmos de volta depois.</default>
+		<default>Encontrou Etos. Etos disse pra entregarmos Juliana e pegarmos de volta depois.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>E cadê ela?</default>
 	</talk>
 	<talk character="Michele">
-		<default>Pagando a informação?</default>
+		<irony>Pagando a informação?</irony>
 	</talk>
+	<teller>
+		<default>Aléxis olha para Michele.</default>
+	</teller>
 	<talk character="Aléxis">
 		<default>Pagar seria se ela não quisesse. Beatrice é do mundo. Juliana?</default>
 	</talk>
+	<teller>
+		<default>Aléxis olha para Juliana.</default>
+	</teller>
 	<talk character="Juliana">
 		<default>Vamos.</default>
 	</talk>
@@ -334,25 +415,31 @@
 		<default>Vamos achar outro jeito.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Entreguemos Juliana.</default>
+		<default>Voto pra entregar Juliana.</default>
 	</talk>
 	<talk character="Juliana">
 		<default>Concordo.</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Eu não. Devemos matá-la.</default>
+		<default>Eu não. A gente devia matar ela.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Matamos depois que tirarmos Estela e Janaína de perigo.</default>
+		<default>Mesmo que eu concordasse com você, temos que tirar Estela e Janaína de perigo.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Será que Derik também deveria ter ciúmes?</default>
 	</talk>
+	<teller>
+		<default>Kat revira os olhos. Soraia olha para Alan.</default>
+	</teller>
 	<talk character="Soraia">
-		<default>Alan, isso já é demais. Pára com isso. Não precisa deixar de ser humano e sentir algo para não se ferir. Ou será que realmente está tão cego?</default>
+		<default>Alan, isso já é demais. Pára com isso. Não precisa deixar de ser humano e sentir algo para não se ferir. Ou será que realmente tá tão cego?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>É, se eu tomasse um sermão de Soraia sobre estar sendo duro demais, ia saber que cheguei no limite.</default>
 	</talk>
 	<teller>
-		<default>Alan vai para a cozinha. Soraia vai atrás.</default>
+		<default>Soraia encara Zenon. Alan vai para a cozinha. Soraia vai atrás.</default>
 	</teller>
 	<talk character="Soraia">
 		<default>Não tem que escolher entre ela e Ísis.</default>
@@ -364,22 +451,22 @@
 		<default>Mesmo que ela não fique com você, estamos falando da sua prima. De uma pessoa que, mesmo que não te queira ao lado dela, te ama. De alguém que nunca fez mal a ninguém.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Por que está dizendo isso?</default>
+		<default>Por que tá dizendo isso?</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Você mantém minha humanidade. Eu mantenho a sua, quando perder.</default>
 	</talk>
 	<teller>
-		<default>Os dois voltam para a sala. Apenas Dionísio.</default>
+		<default>Alan baixa a cabeça. Olha para Soraia. Volta para a sala. Soraia segue. Alan olha para os lados. Apenas Dionísio.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Que aconteceu?</default>
 	</talk>
 	<talk character="Dionísio">
-		<default>Zenon e Juliana foram procurar Clítia. Beatrice ainda não voltou. Katerine e Derik foram pra casa, pra ver se ela sonha algo. Michele e Aléxis saíram, sem explicar.</default>
+		<default>Zenon e Juliana foram procurar Clítia. Beatrice ainda não voltou. Katerine e Derik foram pra casa, pra ver se Katerine sonha algo. Michele e Aléxis saíram, sem explicar.</default>
 	</talk>
 	<teller>
-		<default>Michele e Aléxis chegam na casa dela.</default>
+		<first>Casa de Michele e Zenon. Michele e Aléxis entram.</first>
 	</teller>
 	<talk character="Michele">
 		<default>Não quero ficar aqui esperando. Você e eu fomos os primeiros, é ridículo.</default>
@@ -388,7 +475,7 @@
 		<default>Etos é tão bom assim? Por que ela sempre acaba cedendo a ele?</default>
 	</talk>
 	<talk character="Michele">
-		<default>Ela cede a qualquer um.</default>
+		<default>Ela cede com qualquer um.</default>
 	</talk>
 	<talk character="Aléxis">
 		<default>Não o coração.</default>
@@ -399,17 +486,23 @@
 	<talk character="Aléxis">
 		<default>Sim, ela tem. E você está dizendo isso porque está com ciúmes. Sabe que ela te protegeu. Ela podia ter contado à Katerine.</default>
 	</talk>
+	<teller>
+		<default>Michele baixa a cabeça e cruza os braços.</default>
+	</teller>
 	<talk character="Michele">
 		<default>Pelo jeito, foi só pra Katerine que ela não contou.</default>
 	</talk>
 	<talk character="Aléxis">
 		<default>Ela contou pra quem não faria nada contra.</default>
 	</talk>
+	<teller>
+		<default>Michele olha para Aléxis.</default>
+	</teller>
 	<talk character="Michele">
 		<default>Por que gostam tanto dela?</default>
 	</talk>
 	<teller>
-		<default>Ela se aproxima de Aléxis.</default>
+		<default>Michele descruza os braços e se aproxima de Aléxis.</default>
 	</teller>
 	<talk character="Michele">
 		<default>E porque ninguém me ama?</default>
@@ -421,7 +514,7 @@
 		<default>Não ama mais?</default>
 	</talk>
 	<teller>
-		<default>Michele beija Aléxis.</default>
+		<default>Michele beija Aléxis. Aléxis corresponde. Afasta.</default>
 	</teller>
 	<talk character="Aléxis">
 		<default>Zenon é meu amigo.</default>
@@ -430,7 +523,10 @@
 		<default>Zenon não se importa.</default>
 	</talk>
 	<teller>
-		<default>Ela o beija de novo. Ele a segura pela cintura. Etos está se vestindo.</default>
+		<default>Michele beija de novo. Aléxis segura Michele pela cintura.</default>
+	</teller>
+	<teller>
+		<first>Jardim da casa de Janaína. Etos veste a calça.</first>
 	</teller>
 	<talk character="Etos">
 		<default>Vai nascer o sol.</default>
@@ -439,6 +535,6 @@
 		<default>E daí?</default>
 	</talk>
 	<teller>
-		<default>Ele olha pra cima, suspira, e pega ela no colo.</default>
+		<default>Etos olha pra cima, suspira. Pega Beatrice no colo. Sai.</default>
 	</teller>
 </story>
