@@ -4,13 +4,15 @@
 		<default>No alto do prédio...</default>
 	</teller>
 	<talk character="garota">
-		<default>Eu adoro o vento! O que está acontecendo lá em baixo?</default>
+		<default>Eu adoro o vento!</default>
+		<teller>olha para baixo</teller>
+		<default>Que tá acontecendo?</default>
 	</talk>
 	<talk character="Dilan">
 		<default>Vem cá.</default>
 	</talk>
 	<talk character="garota">
-		<default>Que vai fazer?</default>
+		<default>Pra quê?</default>
 	</talk>
 	<teller>
 		<default>A garota sai da janela.</default>
@@ -19,7 +21,7 @@
 		<default>Vem e vai ver.</default>
 	</talk>
 	<teller>
-		<default>Ela se aproxima dele, que está no escuro. Ele beija os lábios, depois o pescoço dela. Então a morde. Ela se afasta, rapidamente.</default>
+		<default>Ela se aproxima dele, que está no escuro. Ele beija os lábios, depois o pescoço dela. Morde-a. Ela se afasta, bruscamente.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Qual o problema?</default>
@@ -29,11 +31,11 @@
 	</talk>
 	<talk character="Dilan">
 		<default>Eu?</default>
-		<teller>Dilan sai do escuro e se aproxima dela</teller>
+		<teller>sai do escuro</teller>
 		<default>Te mordi?</default>
 	</talk>
 	<teller>
-		<default>Ela olha pra ele: normal. Coloca a mão no pescoço e está sangrando.</default>
+		<default>Ela olha pra ele, que está normal. Coloca a mão no pescoço e está sangrando.</default>
 	</teller>
 	<talk character="garota">
 		<default>Que está acontecendo??? Por que estou sangrando???</default>
@@ -42,7 +44,7 @@
 		<default>Não está sangrando.</default>
 	</talk>
 	<talk character="garota">
-		<default>Estou sim, eu sinto, olha minha mão! Tá suja de sangue!</default>
+		<default>Estou sim, eu sinto! Olha minha mão! Tá suja de sangue!</default>
 	</talk>
 	<talk character="Dilan">
 		<default>Acho que você bebeu demais.</default>
@@ -57,35 +59,39 @@
 		<default>Mas eu estou vendo!</default>
 	</talk>
 	<talk character="Dilan">
-		<default>Se soubesse que era louca, não tinha saído daquele bar com você.</default>
+		<default>Se soubesse que era louca, não tinha saído daquele bar com você...</default>
 	</talk>
 	<talk character="garota">
 		<default>Não sou louca!</default>
 	</talk>
 	<talk character="Dilan">
-		<default>É sim. Primeiro diz que eu te mordi, depois que está sangrando...</default>
+		<default>É sim. Primeiro diz que eu te mordi, depois que está sangrando!</default>
 	</talk>
 	<talk character="garota">
 		<default>Olha minha mão!</default>
 	</talk>
+	<teller>
+		<default>Ele respira fundo.</default>
+	</teller>
 	<talk character="Dilan">
-		<default>Estou vendo. Está limpa.</default>
+		<default>Tô vendo. Tá limpa.</default>
 	</talk>
 	<talk character="garota">
 		<default>Que barulho é esse???</default>
 		<teller>ela vai até a janela</teller>
-		<default>O que estão fazendo?</default>
+		<default>Que estão fazendo???</default>
 	</talk>
 	<talk character="Dilan">
 		<default>Ah?</default>
-		<teller>Dilan vai até a janela</teller>
-		<default>Tá vendo? Está mesmo ficando louca. Não tem nada lá em baixo.</default>
+		<teller>vai até a janela</teller>
+		<default>Tá vendo?! Tá mesmo ficando louca! Não tem nada lá em baixo!</default>
 	</talk>
 	<talk character="garota">
 		<default>Não estou louca, você me mordeu e está saindo sangue!</default>
 	</talk>
 	<talk character="Dilan">
 		<irony>Só falta dizer agora que sou um vampiro.</irony>
+		<teller>respira fundo</teller>
 		<default>Se acalme.</default>
 		<teller>pega-a pela mão e trás pra perto de si</teller>
 		<default>Bebeu demais.</default>
@@ -93,14 +99,20 @@
 		<default>Não há sangue nenhum.</default>
 	</talk>
 	<teller>
-		<default>Ele a morde e ela o afasta. Vê os dentes dele e grita. Ele segura ela.</default>
+		<default>Ela o abraça de volta. Chora. Ele a morde e ela o afasta. Vê os dentes dele e grita. Ele segura ela.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Que há com você???</default>
 	</talk>
+	<teller>
+		<default>Ela o empurra.</default>
+	</teller>
 	<talk character="garota">
-		<default>Não se aproxime!</default>
+		<screamed>Sai de perto de mim!</screamed>
 	</talk>
+	<teller>
+		<default>Ele respira fundo de novo.</default>
+	</teller>
 	<talk character="Dilan">
 		<default>Quer um conselho? Nunca mais beba. Isso afeta você completamente!</default>
 	</talk>
@@ -108,34 +120,34 @@
 		<default>Eu não sou louca!</default>
 	</talk>
 	<talk character="Dilan">
-		<default>Não, só está um pouco bêbada.</default>
+		<default>Não. Só está um pouco bêbada.</default>
 	</talk>
 	<teller>
-		<default>Dilan a puxa, a beija e ela sente o gosto de sangue. Tenta empurrá-lo, então ele a segura mais forte. Então sussurra no ouvido dela.</default>
+		<default>Ele se aproxima dela. Abraça-a. Da um beijo na testa dela. Passa a mão no cabelo dela.</default>
 	</teller>
 	<talk character="Dilan">
-		<default>Tente se controlar, tem que perceber que está vendo coisas.</default>
+		<default>Tô achando que alguém te drogou.</default>
 	</talk>
 	<talk character="garota">
-		<default>Você é um vampiro!</default>
+		<default>Acha?</default>
 	</talk>
 	<talk character="Dilan">
-		<default>Além de parar de beber, deveria parar de assistir filmes de terror. Eles te deixam muito impressionada.</default>
-	</talk>
-	<talk character="garota">
-		<default>Não é ilusão...</default>
-	</talk>
-	<talk character="Dilan">
-		<default>Não pense nisso.</default>
+		<default>Meu anjo, vampiros não existem.</default>
 	</talk>
 	<teller>
-		<default>Dilan a beija. Depois beija o pescoço dela, morde e ela não reage. Ele bebe todo o sangue dela, solta o corpo. Vai até a janela. Percebe uma presença humana.</default>
+		<default>Ele o abraça. Ele a beija. Ela para. Coloca a mão na boca. Sangue. Ele passa a mão no rosto dela.</default>
+	</teller>
+	<talk character="Dilan">
+		<default>Tudo bem. Eu cuido de você.</default>
+	</talk>
+	<teller>
+		<default>Dilan a beija. Depois beija o pescoço dela, morde e ela não reage. Ele bebe todo o sangue dela, solta o corpo. Vai até a janela e começa a olhar para baixo.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Procurando alguma coisa?</default>
 	</talk>
 	<talk character="Dilan">
-		<default>Sim. O meu anel caiu lá embaixo.</default>
+		<default>Sim. Meu anel caiu lá embaixo.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Caiu?</default>
@@ -160,11 +172,14 @@
 	</talk>
 	<talk character="Dilan">
 		<default>Do mesmo modo como você sabe que sou vampiro. E que essa garota não tá desmaiada droga nenhuma.</default>
-		<teller>Dilan sobe na janela e se vira pra Edmont</teller>
-		<default>Mas te garanto que bêbada ela estava.</default>
+		<teller>sobe na janela e se vira pra Edmont</teller>
+		<default>Mas te garanto que bêbada ela tava.</default>
 	</talk>
 	<teller>
-		<default>Dilan pula. Edmont vai até a janela. Vê o vampiro cair em pé e ir embora. Desce o prédio e não encontra ninguém. Então vai pra casa. De manhã, no dia seguinte, vai direto ao escritório, procurar livros.</default>
+		<default>Dilan pula. Edmont vai até a janela. Vê o vampiro cair em pé e ir embora. Desce o prédio e não encontra ninguém.</default>
+	</teller>
+	<teller>
+		<first>Manhã. Angely chega no escritório, e Edmont está com um livro.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Que aconteceu?</default>
@@ -179,7 +194,7 @@
 		<default>Na casa da Dara.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Dara ligou aqui, tava preocupada. O que está procurando?</default>
+		<default>A Dara ligou aqui, tava preocupada. O que tá procurando?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Um vampiro que seja imune a estacas.</default>
@@ -196,62 +211,68 @@
 	<talk character="Edmont">
 		<default>A menos que o coração dele seja contorcionista...</default>
 	</talk>
-	<talk character="Angely">
-		<default>Tudo bem, vamos procurar.</default>
-	</talk>
 	<teller>
-		<default>Andrews está deitado num quarto.</default>
+		<first>Andrews está deitado num quarto.</first>
 	</teller>
 	<talk character="Andrews">
-		<default>Mudou tanta coisa... Mal acredito. Parece outro mundo. Como será que estão os outros que eu criei? Quantos será que já foram criados? E os que ensinei?... Parecem ter ensinado outros.</default>
+		<default>Parece outro mundo.</default>
 	</talk>
 	<teller>
-		<default>Ele começa a se lembrar do por que ensinara os humanos a destruir vampiros. Naquele tempo em que ganhou uma nova vida, achou que precisava de outro nome: Andrews. Matou muitos. Transformou poucos. Estes transformaram outros. Muito tempo depois, quando a novidade acabara, seu coração abrandou e ele pode olhar direito e raça que criara. Então, a decepção: os outros vampiros ainda matavam padres, mas passaram a cometer as maiores atrocidades e se aliaram às bruxas. Fora traído.</default>
+		<division>1300</division>
+	</teller>
+	<teller>
+		<default>Andrews se levanta da cama. Uma mulher está em pé, perto da porta.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Nunca imaginaria que isso se tornaria esta catástrofe. Pedi ajuda ao lado errado. Dizei-me o que fazer para remediar isto. Voltaria no passado e desfaria tudo.</default>
+		<default>Veio me matar?</default>
 	</talk>
 	<talk character="mulher">
-		<default>Isto não é possível, jovem.</default>
+		<default>É o que quer, não é?</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Chama-me de jovem, mas, a julgar por tua voz, és mais que eu.</default>
+		<default>Tem como desfazer tudo que eu fiz?</default>
 	</talk>
 	<teller>
-		<default>Ele se vira e quase cega com a luz.</default>
+		<default>Ela faz sinal de negativo com a cabeça.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Que luz infernal é esta???</default>
+		<default>Não consigo caçá-los. Ficaram espertos. Se rodeiam de outros. Até juntam a bruxas. Não devia tê-los ensinado a criar outros.</default>
 	</talk>
 	<talk character="mulher">
-		<default>Tenhas certeza que não é infernal.</default>
+		<default>Você pode passar o resto da sua vida enumerando o que não devia ter feito. Não será desfeito por isso.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Mas quem és tu?</default>
+		<default>E o que adianta então? Não tenho a quem apelar.</default>
 	</talk>
 	<talk character="mulher">
-		<default>Vim por teu arrependimento.</default>
+		<default>E os humanos?</default>
 	</talk>
+	<teller>
+		<default>Ele ri. Para. Fica em silêncio.</default>
+	</teller>
 	<talk character="Andrews">
-		<default>Não há remédio a mim. Criei uma raça que agora destrói tudo.</default>
+		<default>Estamos falando da mesma coisa?</default>
 	</talk>
 	<talk character="mulher">
-		<default>Mas estás arrependido.</default>
+		<default>Dos vampiros que criou.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>E que me adianta? E que adianta aos que já morreram?</default>
+		<default>Quer que eu fique tentando transformar outros para ver se derrubo os primeiros? E como controlo esses outros?</default>
 	</talk>
 	<talk character="mulher">
-		<default>Só tu sabes como acabar com o mal. Ensina os humanos pra que se livrem disso.</default>
+		<default>Não transforme. Apenas ensine.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Mas como, se eles têm horror de mim?</default>
+		<default>Serão quebrados como gravetos.</default>
 	</talk>
 	<talk character="mulher">
-		<default>Diga a eles que os ensinará. Não negaram ajuda, mesmo vinda doutro lado.</default>
+		<default>Se juntar muitos gravetos, você não consegue quebrar tão fácil.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>E quem és tu?</default>
+		<default>Sempre há como pegá-los sozinhos.</default>
+	</talk>
+	<talk character="mulher">
+		<default>Eles ainda não sabem o que você sabe. Como destruir suas crias.</default>
 	</talk>
 	<teller>
 		<default>A mulher desaparece.</default>
