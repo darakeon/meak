@@ -1,40 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="08" scene="a">
 	<teller>
-		<default>Tarde. Angely sai de seu quarto.</default>
+		<default>Tarde. Angely está no corredor dos quatros. Mel sobe a escada. Olha para ele e cruza os braços.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Angely, já falamos pra você que não pode ficar andando pela casa.</default>
+		<default>Já falamos que não pode ficar andando pela casa.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Mel, eu já tô legal, não precisa...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não, Angely, eu vi o tamanho do buraco que eu fiz no seu estômago. Só passou uma semana e você já quer ficar andando? Volta pro seu quarto.</default>
+		<default>Eu vi o tamanho do buraco que eu fiz no seu estômago. Só passou uma semana e você já quer ficar andando? Volta pro seu quarto.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu não preciso de babá.</default>
+		<default>Eu não preciso de babá...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Daqui a pouco vai querer fazer show desse jeito! Você tem que descansar!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu já tô ótimo.</default>
+		<default>Eu já tô ótimo...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você poderia ter morrido. Volta já. Vai.</default>
+		<default>Você poderia ter morrido.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Sabe que não...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Volta já. Vai.</default>
 	</talk>
 	<teller>
-		<default>Angely respira fundo e volta pra dentro do quarto.</default>
+		<default>Angely respira fundo, solta os ombros. Volta pra o quarto. Olha pela janela.</default>
 	</teller>
 	<talk character="Mel">
 		<out>Deita aí na sua cama, fica quietinho.</out>
 	</talk>
+	<teller>
+		<default>Ele olha para a cama.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Mas e se acontecer alguma coisa?</default>
 	</talk>
 	<talk character="Mel">
-		<out>Os shows foram adiados e não temos nenhum problema na agência. Se aparecer algum problema ainda tem o Edmont. Não precisamos que você fique mais ferido do que já está. Deita e descansa.</out>
+		<out>Os shows foram adiados e não temos nenhum problema na agência. Se aparecer algum problema ainda tem a gente. Não precisamos que você fique mais ferido do que já está. Deita e descansa.</out>
 	</talk>
 	<talk character="Kat">
 		<out>Mel, eu preciso falar com você.</out>
@@ -67,23 +76,23 @@
 		<default>Você voltou pra casa?</default>
 	</talk>
 	<talk character="Dara">
-		<default>É, meus pais arranjaram um psicólogo pra mim. Pelo menos a Denise nem entra mais no meu quarto.</default>
+		<default>É, meus pais arranjaram um psiquiatra pra mim. Pelo menos a Denise nem entra mais no meu quarto.</default>
 	</talk>
 	<talk character="Angely">
 		<default>É, você não se dá bem com a sua irmã mesmo, né?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Se seu irmão fosse um mauricinho metido, também não se daria bem com ele.</default>
+		<default>Se seu irmão fosse metido daquele jeito, também não se daria bem com ele.</default>
 	</talk>
 	<talk character="Angely">
-		<default>A pior coisa de eu ter sido acertado é ter que ficar nessa cama.</default>
+		<default>A pior coisa de eu ter sido acertado é ter que ficar dentro do quarto.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Foi num médico de humanos, deu nisso.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Ah?</default>
-	</talk>
+	<teller>
+		<default>Angely franze a testa.</default>
+	</teller>
 	<talk character="Dara">
 		<default>Edmont me contou tudo.</default>
 	</talk>
@@ -106,7 +115,7 @@
 		<default>Não confia em mim?</default>
 	</talk>
 	<teller>
-		<default>Angely dá um meio riso.</default>
+		<default>Angely dá meio riso.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Sabe onde está meu irmão?</default>
@@ -115,22 +124,22 @@
 		<default>Grudado naquela coisa daquela namorada dele.</default>
 	</talk>
 	<talk character="Angely">
-		<default>É, você não gosta mesmo de delas, né?</default>
+		<default>Tem alguma delas que você goste?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Tenho que olhar todo dia pra uma no café da amanhã.</default>
+		<default>Não é minha espécie preferida. Tenho que olhar todo dia pra uma no café da amanhã.</default>
 	</talk>
 	<teller>
 		<first>Na sala...</first>
 	</teller>
 	<talk character="Kat">
-		<default>Como vamos provar que ela tá arrastando asa por Angely?</default>
+		<default>Como vamos provar que ela tá se atirando no Angely?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não sei, talvez se deixássemos ela entrar no quarto dele...</default>
 	</talk>
 	<talk character="Kat">
-		<default>É, duvido que ela fosse perder uma chance dessas.</default>
+		<default>Duvido que ela fosse perder uma chance dessas.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Tô pensando como.</default>
@@ -145,7 +154,10 @@
 		<default>Bom, podemos dizer que estamos indo pra gravadora e pedir pra ela impedir que Angely faça esforço. Mas o Angely não vai querer ajudar a gente.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Temos que fazer sem ele, antes que ele acabe cedendo. Vai ser pior.</default>
+		<default>Temos que fazer sem ele, antes que dê merda. Vai ser pior.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Acha que ele...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Hoje à noite?</default>
@@ -157,7 +169,7 @@
 		<arrive>Opa, o que tem hoje a noite?</arrive>
 	</talk>
 	<teller>
-		<default>Edmont chega de mãos dadas com Agatha. Dara desce a escada.</default>
+		<default>Agatha entra atrás de Edmont. Dara desce a escada. Agatha abraça e beija Edmont.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Bom, gente, eu já tô indo.</default>
@@ -199,7 +211,7 @@
 		<default>Mas o médico mandou ele ficar deitado e ele não tá querendo obedecer...</default>
 	</talk>
 	<talk character="Agatha">
-		<default>É, ele não gosta de ficar parado.</default>
+		<default>É, ele não gosta de ficar parado. Nenhum dos dois nunca foi muito de gostar de cama. Exceto quando estão mesmo dormindo, porque aí é um inferno acordar.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Tem certeza que quer ficar aqui?</default>
@@ -217,7 +229,7 @@
 		<default>Que tá fazendo aqui?</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Vem, eles vão sair e eu vou cuidar pro meu cunhado não ir parar no hospital de novo.</default>
+		<default>Vem, eles vão sair e eu vou cuidar pra não ir parar no hospital de novo.</default>
 	</talk>
 	<teller>
 		<default>Agatha pega Angely pelo braço e sobe a escada.</default>
@@ -228,29 +240,26 @@
 	<talk character="Edmont">
 		<screamed>Precisa sim!</screamed>
 	</talk>
-	<talk character="Mel">
-		<hushed>Oferecida...</hushed>
-	</talk>
 	<talk character="Edmont">
 		<default>Vamos?</default>
 	</talk>
-	<talk character="Kat">
+	<talk character="Mel">
 		<default>Tá.</default>
 	</talk>
 	<teller>
-		<default>Os três saem. Edmont vai até a moto.</default>
+		<default>Os três saem. Edmont vai até o carro</default>
 	</teller>
 	<talk character="Mel">
-		<default>Edmont, nós vamos fingir que estamos indo à gravadora, deixamos as motos na casa de Kat e voltamos a pé.</default>
+		<default>Edmont, nós vamos fingir que estamos indo à gravadora, deixamos o carro na casa de Kat e voltamos a pé.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Faça o que ela diz.</default>
+		<default>Faz o que ela diz.</default>
 	</talk>
 	<teller>
-		<first>Agatha chega no quarto com um copo d'água. Angely pega o copo e bebe. Deita na cama. Ela encosta na porta.</first>
+		<first>Agatha chega no quarto com um copo d'água. Angely pega o copo e bebe. Deita na cama. Fecha os olhos. Ela encosta na porta.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Quanto tempo eu vou ter que ficar aqui?</default>
@@ -258,6 +267,9 @@
 	<talk character="Agatha">
 		<default>Estamos sozinhos.</default>
 	</talk>
+	<teller>
+		<default>Angely abre os olhos.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Pensei que tivesse esquecido isso.</default>
 	</talk>
@@ -274,7 +286,7 @@
 		<default>Vai mesmo dizer que não sabe?</default>
 	</talk>
 	<teller>
-		<default>Beija-o. Ele a empurra.</default>
+		<default>Agatha abaixa para beijar Angely. Angely empurra Agatha e sai da cama para o chão.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Agatha, pára com isso.</default>
@@ -283,19 +295,19 @@
 		<default>Qual é o problema?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Você é namorada do meu irmão.</default>
+		<default>Você é namorada do Edmont. Vocês decidiram ser mono...</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Seu irmão não está aqui.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não pode trair ele.</default>
+		<default>Não pode trair Edmont.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Qual o problema com uma traiçãozinha de nada?</default>
 	</talk>
 	<talk character="Angely">
-		<default>De nada? Com o irmão dele?</default>
+		<default>De nada?!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>É homem como os outros, não é?</default>
@@ -307,7 +319,7 @@
 		<default>Ele nem vai saber.</default>
 	</talk>
 	<teller>
-		<default>Angely joga Agatha de cima dele e se levanta da cama. Ela se levanta do chão e desabotoa a própria blusa.</default>
+		<default>Agatha se levanta da cama e desabotoa a própria blusa. Angely levanta do chão e dá passos para trás.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Não pensei que fosse reagir assim.</default>
@@ -316,7 +328,7 @@
 		<default>Por que está fazendo isso?</default>
 	</talk>
 	<teller>
-		<default>Ela se aproxima dele.</default>
+		<default>Agatha se aproxima de Angely.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Por que uma garota quer ficar com um cara?</default>
@@ -334,13 +346,13 @@
 		<default>Não são iguais, ele não foge de mim.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mas você é namorada dele.</default>
+		<default>Vocês namoram, Edmont não estaria traindo a confiança de alguém por isso.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Só um detalhe.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não me faça ser estúpido...</default>
+		<default>Não me faça ser estúpido... A gente se conhece desde criança, vocês se gostam...</default>
 	</talk>
 	<teller>
 		<default>Edmont e Mel sobem a escada. Edmont vai até a porta. Angely afasta Agatha.</default>
@@ -348,50 +360,62 @@
 	<talk character="Agatha">
 		<default>Você? Estúpido?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Sai daqui, sua vadia!</default>
-	</talk>
 	<teller>
-		<default>Angely a empurra, jogando-a no chão.</default>
+		<default>Angely empurra Agatha. Ela cai na cama.</default>
 	</teller>
 	<talk character="Agatha">
-		<default>Vai me xingar?</default>
+		<default>Vai me machucar?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Vagabunda, piranha, galinha...</default>
+		<default>Se for necessário.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Sou tudo o que quiser.</default>
+		<default>Legal. Posso medir quem de vocês é melhor. Já amarrou alguém?</default>
 	</talk>
 	<teller>
-		<default>Agatha se levanta. Atrás da porta, Edmont se senta a porta e apoia a cabeça nas mãos. Mel fica observando.</default>
+		<default>Agatha se levanta. Atrás da porta, Edmont se senta a porta e apoia a cabeça nas mãos. Mel desvia o olhar da porta e olha para Edmont.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Não adiantou...</default>
+		<default>Eu não... Era para te afastar.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Esperava me afastar só com isso?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Agatha, eu não queria te xingar, nem te machucar, mas, por favor, sai daqui.</default>
+		<default>Agatha, eu não queria te machucar...</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Por que?</default>
+		<default>Ah, bom. Comecei a achar que isso era tudo que tinha.</default>
 	</talk>
+	<talk character="Angely">
+		<default>...mas, por favor, sai daqui.</default>
+	</talk>
+	<talk character="Agatha">
+		<default>Por quê?</default>
+	</talk>
+	<teller>
+		<default>Angely respira fundo.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Preciso mesmo dizer?</default>
 	</talk>
 	<teller>
-		<default>Angely pega a mão de Agatha e se senta na cama do lado dela.</default>
+		<default>Angely pega a mão de Agatha e leva para a cama. Os dois se sentam.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Agatha, você namora com o meu irmão, não podemos ter nada.</default>
+		<default>Agatha, você namora com o Edmont, não podemos ter nada.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>E se eu desmanchasse com ele?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Nunca, Agatha! Ele te ama e eu nunca me perdoaria!</default>
+		<default>Vocês se amam! Que viagem é essa???</default>
+	</talk>
+	<talk character="Agatha">
+		<default>É assim que as coisas funcionam.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Se você sente atração por outras pessoas, porque não fala com ele sobre isso?!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Está se preocupando à toa, seu irmão vai demorar.</default>
@@ -409,22 +433,22 @@
 		<default>Mas não vai ser você quem vai estar traindo, vou ser eu.</default>
 	</talk>
 	<teller>
-		<default>Edmont abre a porta com um chute. Agatha e Angely se levantam da cama num movimento brusco.</default>
+		<default>A porta vem abaixo. Edmont. Agatha e Angely se levantam da cama bruscamente.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Vagabunda!</default>
+		<default>Eu te mato.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Calma...</default>
 	</talk>
 	<teller>
-		<default>Edmont pegar Agatha, mas Angely segura-o.</default>
+		<default>Edmont tenta pegar Agatha, mas Angely segura Edmont contra a parede.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Tira ela daqui, Mel!</default>
+		<default>Tira a Agatha daqui, Mel!</default>
 	</talk>
 	<teller>
-		<default>Mel tira Agatha do quarto. Elas descem.</default>
+		<default>Mel pega Agatha pelo braço e correm do quarto. Descem a escada. Saem. </default>
 	</teller>
 	<talk character="Mel">
 		<default>Entra no carro.</default>
@@ -433,18 +457,18 @@
 		<default>Por que?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Entra logo sua...</default>
-		<teller>ela respira fundo</teller>
+		<default>Entra logo...</default>
+		<teller>respira fundo</teller>
 		<default>Entra antes que eu desista de te tirar daqui.</default>
 	</talk>
 	<teller>
-		<default>Agatha entra no carro. Edmont joga Angely no chão e vai até a varanda. Desce até o porão. Angely o segue.</default>
+		<default>Agatha entra no carro. Mel entra. Dá a partida. Arranca. Edmont aparece na varanda. Pula da varanda. Entra no porão para porta de trás. Abre um armário. Angely chega ao porão</default>
 	</teller>
 	<talk character="Angely">
 		<default>Que vai fazer?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Vou atrás daquela vadia.</default>
+		<default>Vou atrás daquela maldita.</default>
 	</talk>
 	<teller>
 		<default>Edmont pega um espada.</default>
@@ -462,7 +486,7 @@
 		<default>E daí?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu sei que ela tentou te trair, mas...</default>
+		<default>Eu sei que Agatha tentou te trair, mas...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não percebeu o jeito como ela falava?! Acha mesmo que é a primeira vez que ela faz isso?! Você é mesmo muito inocente.</default>
@@ -471,7 +495,7 @@
 		<default>Edmont, por que simplesmente não termina?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>E todo aquele teatro de estar com ciúmes! Toda essa merda humana de monogamia, pra ir atrás de outros pelas minhas costas! Vou terminar, sim. Com a vida dela.</default>
+		<default>E todo aquele teatro de estar com ciúmes! Toda essa merda humana de monogamia, pra ir atrás de outros pelas minhas costas! Depois de a gente crescer junto!!! Eu achei que conhecia a Agatha!!! Eu amava essa desgraçada!!! Vou terminar, sim. Com a vida dela.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Vai matá-la só por isso?</default>
@@ -486,7 +510,7 @@
 		<default>Ela mentiu. Eu não admito mentiras.</default>
 	</talk>
 	<teller>
-		<default>Edmont sai do porão, pega a moto e parte.</default>
+		<default>Edmont sai do porão. Angely senta em um banco.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Ele não vai encontrar elas.</default>
@@ -495,13 +519,19 @@
 		<arrive>Angely, o que aconteceu?</arrive>
 	</talk>
 	<talk character="Angely">
-		<default>Você e a Mel armaram isso, não é?</default>
+		<default>Você e a Mel armaram isso?</default>
 	</talk>
+	<teller>
+		<default>Kat cruza os braços.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Não podíamos deixar ela enganar o Edmont assim.</default>
 	</talk>
+	<teller>
+		<default>Angely suspira. Olha para o teto. Levanta e olha para Kat.</default>
+	</teller>
 	<talk character="Angely">
-		<default>Ele vai matar ela se encontrá-la.</default>
+		<default>Edmont vai matar Agatha se encontrar.</default>
 	</talk>
 	<talk character="Kat">
 		<default>É natural ele ficar bravo...</default>
@@ -513,25 +543,25 @@
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por que acharam que eu não queria que falassem pra ele? Acharam mesmo que eu queria enganar Edmont? Acharam que eu estava fazendo charme pra Agatha? Acharam que eu queria ficar com ela?!</default>
+		<default>Por que acharam que eu não queria que falassem pra ele? Acharam mesmo que eu queria enganar Edmont? Acharam que eu tava fazendo charme pra Agatha? Acharam que eu queria ficar com ela?!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não, Angely, achávamos que você estava com medo de Agatha virar ele contra nós!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não, vocês tinham esse medo, eu não. Ele nunca acreditaria nela ao invés de acreditar em mim, sou irmão dele!</default>
+		<default>Não, vocês tinham esse medo, eu não. Ele nunca acreditaria na Agatha ao invés de acreditar em mim!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Então por que não falou com ele?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ele vai matar ela!</default>
+		<default>Porque agora Edmont vai matar Agatha!</default>
 	</talk>
 	<talk character="Kat">
 		<default>E o que seria melhor, você ajudá-la à traí-lo?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não é isso que estou dizendo, eu estava conversando com ela...</default>
+		<default>Não é isso que estou dizendo, eu estava conversando com ela... Eu ia convencer Agatha a falar com Edmont, se Agatha falasse...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Você nunca iria convencê-la e, cedo ou tarde, Edmont iria ficar sabendo! Não é nenhum idiota!</default>
@@ -540,63 +570,57 @@
 		<default>Angely se senta no banco grande embutido na parede.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Tá, tudo bem, não vai adiantar falarmos nisso agora.</default>
+		<default>Tá, tudo bem, não vai adiantar falarmos nisso agora. Mel deve ligar, dizendo pra onde elas foram. Espero que Edmont não encontre primeiro.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Mel deve ligar, dizendo pra onde elas foram.</default>
+		<default>Por que tem tanta certeza que ele vai matar?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Espero que ele não as encontre primeiro.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por que tem tanta certeza que ele vai matá-la?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não lembra do que eu falei? Sobre como ficou com raiva da nossa mãe?</default>
+		<default>Não lembra do que eu falei? Sobre como ficou com raiva de Lisa? Não era sobre Lisa querer ficar com Hery, era sobre Lisa ter fugido simplesmente...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Será que ele não mudou?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Nunca tive tanta certeza de algo. Quando ele pegou aquela espada, o ódio no olhar dele...</default>
+		<default>Nunca tive tanta certeza de alguma coisa. Quando Edmont pegou aquela espada, o ódio no olhar dele... Era quase como se pudesse sentir de onde estava.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Por que ele não me matou?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Você não tinha culpa disso.</default>
+		<default>Você não tinha culpa. Ele acabou enxergando isso.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Nem meu pai. Nem nossa mãe.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Às vistas de Edmont, eles eram dois traidores.</default>
+		<default>Às vistas de Edmont, eram dois traidores.</default>
 	</talk>
 	<teller>
-		<default>Kat percebe que Angely está com os olhos cheios de lágrimas.</default>
+		<default>Angely olha para o teto. Olhos úmidos. Kat baixa a cabeça.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Agatha não merece morrer só por isso. Ele deveria simplesmente largá-la. Além do que, ele vai preso, e só por orgulho de homem...</default>
+		<default>Agatha não merece morrer só por isso. Edmont deveria simplesmente terminar. Além do que, vai preso, e só por orgulho...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não, Kat, não é só orgulho. Foi a traição dela que subiu o sangue dele. Acho que tudo voltou. Meu maior medo é que ele também queira voltar àquela luta.</default>
+		<default>Não, Kat, não é orgulho. Foi a traição que subiu o sangue dele. Acho que tudo voltou. Não quero lutar com Edmont de novo.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Mas a luta não era só pela coroa?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Edmont não aceitou a luta pela coroa. Sempre soube que acobertei a fuga de vocês. Agora ele vai achar que acobertei Agatha... Não quero ter que lutar contra o meu irmão de novo...</default>
+		<default>Edmont não aceitou a luta pela coroa. Sempre soube que acobertei a fuga. Agora ele vai achar que acobertei Agatha... Não quero ter que lutar contra Edmont de novo...</default>
 	</talk>
 	<teller>
-		<default>Angely deixa as lágrimas caírem. Kat passa a mão na cabeça dele.</default>
+		<default>Angely fecha os olhos. As lágrimas descem. Kat se aproxima e abraça Angely.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Olha, eu e a Mel estamos aqui pra impedir isso, não vamos deixar nossos... Meus irmãos lutarem um contra o outro.</default>
 	</talk>
 	<teller>
-		<default>Kat se senta ao lado de Angely e deita-o em seu colo.</default>
+		<default>Kat se senta ao lado de Angely. Deita Angely em seu colo.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Olha, nós não vamos deixar Edmont passar dos limites, ele não vai ser preso e muito menos vai querer lutar com você.</default>
+		<default>Nós não vamos deixar Edmont passar dos limites, ele não vai ser preso e muito menos vai querer lutar com você.</default>
 	</talk>
 </story>
