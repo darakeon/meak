@@ -21,13 +21,13 @@
 	<talk character="Denise">
 		<default>E aí, se divertindo?</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Mel">
 		<default>É, sua festa tá legal.</default>
 	</talk>
 	<talk character="Denise">
 		<default>Vocês viram uma garota toda de preto, da minha altura, cabelo preto, óculos escuros e tão branca que parece parede?</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Angely">
 		<default>Não. Quem é?</default>
 	</talk>
 	<talk character="Denise">
@@ -58,7 +58,7 @@
 		<default>Bryan.</default>
 	</talk>
 	<talk character="Mel">
-		<default>É, você tem razão, deveríamos ter dito que estávamos doentes!</default>
+		<default>É, você tem razão, deveríamos ter dito que estávamos doentes.</default>
 	</talk>
 	<teller>
 		<default>Uma garota se aproxima.</default>
@@ -76,10 +76,10 @@
 		<default>Laxante. Se está vazio, o que tinha aqui tá em algum lugar.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Avisa o Edmont que eu aviso a Kat.</default>
+		<irony>Será que ela é a irmã da Denise?</irony>
 	</talk>
 	<talk character="Angely">
-		<default>Com certeza era ela que a Denise tava procurando.</default>
+		<default>Avisa o Edmont que eu aviso a Kat.</default>
 	</talk>
 	<teller>
 		<default>Angely fala com Edmont. Mel vai procurar Kat.</default>
@@ -139,7 +139,7 @@
 		<default>Elogiar o nome não é uma cantada, nem foi você que escolheu...</default>
 	</talk>
 	<talk character="Handhara">
-		<default>Se fosse seria a pior que eu já ouvi.</default>
+		<default>Se fosse, seria a pior que eu já ouvi.</default>
 	</talk>
 	<teller>
 		<default>Angely dá um sorriso tímido.</default>
@@ -187,13 +187,15 @@
 		<default>Sinceramente? Não sei.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Agatha, Helene, Denise, Annie... Todas umas patys nojentas. Agatha não era tanto quando a Meg... Ai, desculpa, eu...</default>
+		<default>Agatha, Helene, Denise, Annie... Todas umas patys nojentas. Agatha não era tanto quando a Meg...</default>
+		<teller>ela abre mais os olhos e coloca a mão na frente da boca</teller>
+		<default>Ai, desculpa, eu...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não, deixa pra lá.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Oi, Angely...</default>
+		<arrive>Oi, Angely...</arrive>
 	</talk>
 	<talk character="Angely">
 		<default>Essa é a Handhara, quer dizer, a Dara.</default>
@@ -207,7 +209,7 @@
 		<default>Você é amiga dela?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu???</default>
+		<default>Eu?!</default>
 	</talk>
 	<talk character="Dara">
 		<default>Tá, já percebi que não.</default>
@@ -231,10 +233,10 @@
 		<default>Tem. E ele tem dezoito.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Minha idade. Bom, eu vou sair disso aqui. Ninguém veio aqui até agora, não devem estar sentindo minha falta. Tchau.</default>
+		<default>Minha idade. Bom, eu vou sair disso aqui. Ninguém veio aqui até agora, não devem estar sentindo minha falta.</default>
 	</talk>
 	<teller>
-		<default>Dara vai até a garagem.</default>
+		<default>Dara sai.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Eu tô afim de ir pra casa...</default>
@@ -249,43 +251,13 @@
 		<default>Tá, tudo bem, mas...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Você vem ou não???</default>
+		<default>Você vem ou não?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Vamos.</default>
 	</talk>
 	<teller>
-		<default>Eles voltam pra casa. Na casa onde estava tendo a festa, num lugar vazio...</default>
-	</teller>
-	<talk character="Kat">
-		<default>Derik, pára.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ainda pergunta???</default>
-	</talk>
-	<talk character="Derik">
-		<default>Calma, eu não vou fazer nada...</default>
-	</talk>
-	<talk character="Kat">
-		<default>E essa sua mão boba???</default>
-	</talk>
-	<teller>
-		<default>Derik baixa a cabeça.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Tá, desculpa.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vamos voltar pra festa, tá?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tá, se quer assim, tudo bem.</default>
-	</talk>
-	<teller>
-		<default>Eles voltam pra festa. Edmont vai falar com Kat.</default>
+		<default>Eles voltam pra casa. Edmont encontra Kat.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Kat, a Mel já te avisou?</default>
@@ -312,7 +284,7 @@
 		<default>Não, mas o Derik comeu.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Edmont, eu vou dormir aqui na casa da Denise, nós temos um trabalho pra entregar na segunda-feira...</default>
+		<arrive>Edmont, eu vou dormir aqui na casa da Denise, nós temos um trabalho pra entregar na segunda-feira...</arrive>
 	</talk>
 	<talk character="Edmont">
 		<default>Tá, tudo bem. Mas e a Kat?</default>
@@ -324,7 +296,7 @@
 		<default>Por mim, tudo bem.</default>
 	</talk>
 	<teller>
-		<default>Agatha beija ele e sai.</default>
+		<default>Agatha beija-o e sai.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Bom, eu não tô mais agüentando essa festa...</default>
@@ -342,7 +314,7 @@
 		<default>Tá bom, depois você se entende com ele.</default>
 	</talk>
 	<teller>
-		<default>Eles vão embora da festa. Chegam em casa, já é tarde.</default>
+		<default>Eles vão embora da festa. Ao chegarem em casa, encontram Mel e Angely na sala.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Ao tédio!</default>
@@ -375,22 +347,16 @@
 		<default>Ela vai dormir na casa da Denise, elas tem um trabalho pra fazer.</default>
 	</talk>
 	<talk character="Mel">
-		<default>E você deixou???</default>
-	</talk>
-	<talk character="Angely">
 		<default>Banana...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não eram vocês que diziam que eu era autoritário???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tira as seis primeiras letras, exceto a letra "o".</default>
+		<default>Não eram vocês que diziam que eu era autoritário?</default>
 	</talk>
 	<talk character="Mel">
-		<screamed>Otário!</screamed>
+		<default>Tira as seis primeiras letras, exceto a letra "o".</default>
 	</talk>
 	<talk character="Kat">
-		<default>Gente, a minha irmã não vai trair ele.</default>
+		<default>A minha irmã não vai trair ele.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Isso é o que você pensa!</default>
@@ -429,7 +395,7 @@
 		<default>Angely abre a porta. Agatha olha pra Angely que está só de calça, o cabelo bagunçado e com a mão no rosto.</default>
 	</teller>
 	<talk character="Agatha">
-		<default>Que aconteceu com você???</default>
+		<default>Que aconteceu com você?!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não fala muito alto não, eu tô com dor de cabeça...</default>
@@ -447,7 +413,7 @@
 		<default>Ele saiu.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Como, saiu???</default>
+		<default>Como, saiu?!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Andando! Plantando bananeira que não foi.</default>
@@ -456,7 +422,7 @@
 		<default>Tô vendo que a farra foi boa aqui ontem...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não, na verdade, quando eu e Edmont chegamos, os dois estavam na cozinha, bebendo. Depois acabaram dormindo no sofá.</default>
+		<default>Não, na verdade, quando eu e Edmont chegamos, os dois estavam na sala, bebendo. Depois acabaram dormindo no sofá.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Tá. Angely, você sabe onde ele foi?</default>
@@ -477,10 +443,7 @@
 		<default>Cara, eu nunca mais bebo...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você viu como ela te mediu de cima a baixo???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Isso por que o namorado dela é o Edmont...</default>
+		<default>Você viu como ela te mediu de cima a baixo?!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Gente, eu tive um sonho, já contei pro Edmont quando ele acordou...</default>
@@ -507,7 +470,7 @@
 		<default>Falamos com ela na festa de ontem.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Então, o que ela tem a ver com seu sonho?</default>
+		<default>O que ela tem a ver com seu sonho?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Bom, eu sonhei que ela tentava matar a irmã.</default>
@@ -517,18 +480,6 @@
 	</talk>
 	<talk character="Kat">
 		<default>Pra ir até lá ver o que foi isso.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pra que? Handhara estaria fazendo um grande bem.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Gente, onde está a bondade de vocês???</default>
-	</talk>
-	<talk character="Angely">
-		<default>É Mel, coitada... Coitada da Dara, iria parar na prisão...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Nossa, vocês dois estão bem hoje, hein? Bem mal humorados!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Tá, vamos ver o que podemos fazer.</default>
@@ -573,22 +524,22 @@
 		<default>Eles saem pro jardim. Denise liga pra Agatha.</default>
 	</teller>
 	<talk character="Denise">
-		<default>Poderia falar com a Agatha?</default>
+		<default>Agatha?</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Tá falando com ela.</default>
+		<default>Sim?</default>
 	</talk>
 	<talk character="Denise">
 		<default>Edmont veio aqui...</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Como foi aí??? Ele sabe que eu já voltei...</default>
+		<default>Por que?</default>
 	</talk>
 	<talk character="Denise">
 		<default>Ele veio procurar a Handhara.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Handhara???</default>
+		<default>Handhara?!</default>
 	</talk>
 	<talk character="Denise">
 		<default>Se eu fosse você, não deixava.</default>
@@ -606,13 +557,13 @@
 		<default>Você alguma vez pensou em matar sua irmã?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Por que está perguntando isso???</default>
+		<default>Por que está perguntando isso?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Seria difícil explicar...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Veio falar comigo pra fazer uma pergunta absurda dessas???</default>
+		<default>Veio falar comigo pra fazer uma pergunta absurda dessas?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Você não está entendendo...</default>
