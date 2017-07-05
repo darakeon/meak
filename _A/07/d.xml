@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="07" scene="d">
 	<teller>
-		<default>Edmont chega em casa ao mesmo tempo que Angely.</default>
-	</teller>
-	<teller>
-		<default>(ANGELY JÁ CONHECE DARA)</default>
+		<default>Edmont chega em casa. Vai fechar a porta, Angely segura, mas Edmont quase bate a porta em Angely.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Que foi, brigou com ela?</default>
@@ -30,7 +27,7 @@
 	<talk character="Edmont">
 		<default>E Handhara?</default>
 	</talk>
-	<talk character="Kat">
+	<talk character="Mel">
 		<default>Não resolvemos problemas humanos.</default>
 	</talk>
 	<talk character="Edmont">
@@ -46,19 +43,13 @@
 		<default>Há outro alguém nessa história. Alguém que está colocando idéias erradas na cabeça da Dara.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não vem com essa, Angely...</default>
+		<default>As pessoas fazem merdas o tempo todo sem influência.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu vi.</default>
-	</talk>
-	<talk character="Mel">
-		<irony>Claro, então alguém está obrigando ela a odiar a irmã?</irony>
-	</talk>
-	<talk character="Angely">
-		<default>Não é isso que estou dizendo. Alguém está fazendo com que esse ódio cresça, pra que Dara faça uma loucura.</default>
+		<default>Não é isso. O ponto não é ela. Tem algo errado com o cara. Uma pessoa não pode criar algo dentro de você, mas pode incentivar.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Por que alguém iria querer Denise morta? Tá certo que ela é uma fresca, mas além de nós só Handhara não gosta dela.</default>
+		<default>Por que alguém iria querer Denise morta? Tá certo que ela é uma fresca, mas além de nós, só Handhara não gosta dela.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não é pra que Denise morra, é pra que Dara mate.</default>
@@ -67,19 +58,19 @@
 		<default>Como assim?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tá, então vai querer nos convencer que alguém quer transformar Handhara em uma assassina?</default>
+		<default>Alguém quer transformar Handhara em uma assassina?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela estava falando com um cara ontem e, pelo jeito como ele falava, eu percebi que, ou quer que ela mate, ou quer afastá-la da família.</default>
+		<default>Data estava falando com um cara ontem. Ele falou em separar Dara da família.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, então, nós não podemos fazer nada. Se quisermos impedir que todas as garotas fujam de casa, vamos perder a vida nisso.</default>
+		<default>Bom, então, nós não podemos fazer nada. Se quisermos impedir que tudo que é adolescente fuja de casa, vamos perder a vida nisso.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Mas, quem quer que tenha mandado esse sonho à Kat, só manda coisas sérias pra nós. Não iria mandar isso de bobeira...</default>
+		<default>Mas, quem quer que tenha mandado esse sonho a Kat, só manda coisas sérias pra nós. Não iria mandar isso de bobeira...</default>
 	</talk>
 	<talk character="Kat">
-		<default>É, ele tá certo.</default>
+		<default>Bom, isso é.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Aquele cara tinha algo de estranho.</default>
@@ -103,19 +94,13 @@
 		<default>Por isso vocês brigaram?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É. Então ela ligou pra casa da Denise e Handhara não estava.</default>
+		<default>Sim. Depois Agatha ligou pra casa de Denise e Handhara não estava.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Gente, três horas, já...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Caracas... Kat, hora de ir pra casa.</default>
+		<default>São três da manhã. Melhor você ir pra casa, Kat.</default>
 	</talk>
 	<teller>
-		<default>Angely leva Kat em casa.</default>
-	</teller>
-	<teller>
-		<first>6:00, Aurium aparece na janela de Angely. Angely vai até a casa de Kat. Kat acorda. Angely entra pela janela do quarto.</first>
+		<first>6:00. Angely acorda e olha para a janela. Aurium está na janela. Angely levanta. Quarto de Kat. Angely entra pela janela.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Kat, que foi?</default>
@@ -157,7 +142,10 @@
 		<default>Pra não acordar Agatha.</default>
 	</talk>
 	<teller>
-		<default>Kat encara Angely. Eles vão até o escritório e começam a procurar. Mel bate na porta do quarto de Edmont.</default>
+		<default>Kat encara Angely.</default>
+	</teller>
+	<teller>
+		<first>Mel bate na porta do quarto de Edmont.</first>
 	</teller>
 	<talk character="Mel">
 		<out>Edmont, posso entrar?</out>
@@ -168,12 +156,16 @@
 	<talk character="Edmont">
 		<default>Entra, tá aberto...</default>
 	</talk>
+	<teller>
+		<default>Mel entra.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Angely tá no escritório.</default>
 	</talk>
+	<teller>
+		<default>Edmont pega o relógio.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Que horas são?!</default>
-		<teller>olha o relógio</teller>
 		<default>Sete da manhã!</default>
 	</talk>
 	<talk character="Mel">
@@ -183,7 +175,7 @@
 		<default>Pensei que ele não tivesse esquecido a Meg.</default>
 	</talk>
 	<talk character="Mel">
-		<default>É melhor nós falarmos com ele.</default>
+		<default>É melhor a gente falar com ele.</default>
 	</talk>
 	<teller>
 		<default>Eles vão até o escritório.</default>
@@ -195,19 +187,22 @@
 		<default>É que nós dormimos, não apenas trabalhamos.</default>
 	</talk>
 	<teller>
-		<default>Angely mostra um livro à Kat.</default>
+		<default>Angely mostra um livro a Kat.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Kat, era algo parecido com isso?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não, era mais feio.</default>
+		<default>Não, era mais... Menos humano.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Menos humano não é defeito.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Do que estão falando?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Kat teve mais um sonho. Eu tava certo, Denzel não é humano.</default>
+		<default>Kat teve mais um sonho. Eu tava certo, Denzel sobrenatural.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Quem é Denzel?</default>
@@ -219,13 +214,13 @@
 		<default>Fugiu, você quer dizer.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Olha, isso é besteira, eu vou ligar pra Denise e provar pra vocês que estão neuróticos.</default>
+		<default>Olha, isso é besteira, eu vou ligar pra Denise e provar pra vocês que estão exagerando.</default>
 	</talk>
 	<teller>
-		<default>Mel pega o telefone e liga pra Denise.</default>
+		<default>Mel pega o telefone. Digita.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Alô? ### Gostaríamos de falar com Handhara... ### Sabe onde ela foi? ### Tá, obrigado.</default>
+		<default>Alô? ### Gostaríamos de falar com Handhara... ### Sabe onde ela foi? ### Tá, agradeço.</default>
 	</talk>
 	<teller>
 		<default>Mel desliga o telefone.</default>
@@ -237,7 +232,7 @@
 		<default>E daí? Ela pode ter saído.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ela saiu ontem e não voltou mais.</default>
+		<default>Saiu. Ontem. Não voltou mais.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Viu?</default>
@@ -249,7 +244,7 @@
 		<default>Angely mostra outro livro à Kat.</default>
 	</teller>
 	<talk character="Kat">
-		<default>É, é ele!</default>
+		<default>É, é isso!</default>
 	</talk>
 	<teller>
 		<default>Edmont pega o livro das mãos de Angely.</default>
@@ -257,29 +252,29 @@
 	<talk character="Edmont">
 		<default>Vai fazê-la matar um parente, fugir com ela, engravidar. Ela morre no parto. A criança será igual ao pai e seguirá exatamente esse traçado.</default>
 	</talk>
-	<talk character="Kat">
-		<default>Mas não seria mais fácil ele simplesmente seqüestrar uma garota, ou convencê-la a fugir com ele?</default>
+	<talk character="Mel">
+		<default>Mas não seria mais fácil ele simplesmente sequestrar uma mulher, ou convencê-la a fugir com ele?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É uma tradição ou algo assim ela matar alguém da família.</default>
+		<default>Precisa ter sangue da família derramado por ela.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não podiam fazer festas de fim de ano?</default>
 	</talk>
-	<talk character="Kat">
+	<talk character="Angely">
 		<default>Ela já foi com ele...</default>
 	</talk>
-	<talk character="Edmont">
+	<talk character="Mel">
 		<default>Ela vai voltar. E vai tentar matar Denise.</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Edmont">
 		<default>É isso que temos que impedir.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Mas... Como?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu vou à casa de Denise.</default>
+		<default>Eu vou na casa de Denise.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Assim? De pijama?</default>
@@ -287,11 +282,8 @@
 	<talk character="Edmont">
 		<default>Já viu que horas são?</default>
 	</talk>
-	<talk character="Kat">
-		<default>Não vão estar acordados à essa hora.</default>
-	</talk>
 	<talk character="Mel">
-		<default>Entendi porque ela pareceu mal humorada no telefone. Quando se passava o seu sonho?</default>
+		<default>Agora entendi porque o mal humor no telefone. Quando se passava o seu sonho?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Estava escuro. Já está claro.</default>
@@ -307,7 +299,25 @@
 	</talk>
 	<talk character="Kat">
 		<irony>Não, sua namorada se preocupa muito comigo!</irony>
-		<default>Me trata como irmã... Amigo a gente escolhe.</default>
+		<default>Me trata como irmã. Amigo a gente escolhe.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Você tava defendendo ela outro dia...</default>
+	</talk>
+	<talk character="Kat">
+		<default>Nunca tinha ouvido ela falar desse jeito.</default>
+	</talk>
+	<teller>
+		<default>Kat baixa a cabeça.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Você deve ter se enganado, Agatha não é assim.</default>
+	</talk>
+	<teller>
+		<default>Mel encara Edmont.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Talvez ela estivesse brava com algo. As pessoas falam besteiras quando estão bravas.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Podemos mandar reformar a casa e fazer um outro quarto aqui.</default>
@@ -315,13 +325,13 @@
 	<talk character="Kat">
 		<default>Vou atrapalhar a vida de vocês pra que? Aquela casa é minha, só que aquela lá esqueceu disso.</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Mel">
 		<default>Mas também foi pro nome dela, não foi?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Foi, mas eu não vendo a minha parte.</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Edmont">
 		<default>Bom, vamos ver se encontramos eles. Se Handhara for mesmo tentar matar Denise, devem estar na cidade ainda.</default>
 	</talk>
 	<talk character="Angely">
@@ -343,7 +353,7 @@
 		<default>Ok.</default>
 	</talk>
 	<teller>
-		<first>Angely vai levar Kat em casa. Chegando lá, Agatha está acordada.</first>
+		<first>Angely e Kat chegam na casa de Kat. Agatha está acordada.</first>
 	</teller>
 	<talk character="Agatha">
 		<default>Que estava fazendo na casa deles já a essa hora?</default>
@@ -382,7 +392,7 @@
 		<default>Então o que é?</default>
 	</talk>
 	<teller>
-		<default>Agatha se aproxima e beija Angely. Tenta desabotoar a camisa dele, mas ele não deixa. Ele afasta ela.</default>
+		<default>Agatha se aproxima e tenta beijar Angely. Angely afasta.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Não posso fazer isso.</default>
@@ -391,7 +401,7 @@
 		<default>Por que não?</default>
 	</talk>
 	<teller>
-		<default>Ela se aproxima dele de novo. Tenta tirar a camisa dele. Angely empurra ela e sai. Kat adentra a sala.</default>
+		<default>Ela se aproxima dele de novo. Tenta desabotoar a camisa dele. Angely empurra e sai. Kat aparece.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Adoro homens tímidos.</default>
@@ -403,16 +413,16 @@
 		<default>E daí?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Então você sabe...</default>
+		<default>Se você sabe, por que...</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Edmont nunca me trairia por aquela coisinha esquisita. Mas é um bom pretexto pra ficar com o outro.</default>
+		<default>Edmont nunca me trairia por aquela coisinha esquisita. Mas é um bom pretexto pra ficar com o Angely.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Angely tem caráter. Não é como você.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Vamos ver até onde vai o caráter dele.</default>
+		<default>Conheço os dois desde pequenos. Sei que ele tem.</default>
 	</talk>
 	<talk character="Kat">
 		<default>E se eu contar pro Edmont?</default>
@@ -427,10 +437,10 @@
 		<default>Angely não vai falar com Edmont.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Falará se eu falar primeiro.</default>
+		<default>Vai se eu falar primeiro.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Digo à Edmont que Angely tava dando em cima de mim, você viu e entendeu errado. Sei que você não gosta de mim e Edmont também sabe.</default>
+		<default>Falo pro Edmont que Angely tava dando em cima de mim, você viu e entendeu errado. Sei que você não gosta de mim e Edmont também sabe.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Acha que ele vai preferir acreditar em você do que em nós dois?</default>
@@ -439,7 +449,7 @@
 		<default>"Ah, Edmont, a Kat só está tentando proteger seu irmão, ela não gosta de mim, você sabe..."</default>
 	</talk>
 	<talk character="Kat">
-		<default>Cretina.</default>
+		<default>Não vai fazer isso... Cresceu com os dois, como pode fazer isso?!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Não trai seu namorado?</default>
@@ -451,14 +461,8 @@
 		<default>É bom, de vez em quando. Pra ele te dar valor.</default>
 	</talk>
 	<teller>
-		<default>Kat se tranca no quarto. Angely vai à cidade.</default>
-	</teller>
-	<teller>
 		<first>De tarde, Angely encontra Mel.</first>
 	</teller>
-	<talk character="Mel">
-		<default>Angely, que coincidência...</default>
-	</talk>
 	<talk character="Angely">
 		<default>Edmont não tá com você, não, né?</default>
 	</talk>
@@ -493,7 +497,7 @@
 		<default>Quando eu fui levar a Kat.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu sabia que ela era uma vagaba, mas nem tanto...</default>
+		<default>Cara, isso é demais até pra ela.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ela esperou a Kat subir, me encurralou e chegou até a tentar abrir minha camisa...</default>
@@ -520,7 +524,7 @@
 		<default>Tudo bem. Mas uma ora ele vai descobrir.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu não quero nem pensar nisso.</default>
+		<default>Eu não quero nem pensar nisso. Eu não vou conseguir olhar pra ele e mentir.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Você fala como se a culpa fosse sua.</default>
@@ -529,21 +533,21 @@
 		<default>Kinyn, Denise, Helene, Annie e agora até Agatha. Não é possível, Edmont é igualzinho a mim...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Todas elas já saíram com ele também.</default>
+		<default>Até onde sei, todas saíram com ele também.</default>
 	</talk>
 	<talk character="Angely">
 		<default>E por que não ficam em cima dele, e não de mim???</default>
 	</talk>
 	<talk character="Mel">
-		<default>Por que já foram. Ele deu pé em todas depois de algum tempo. Você até hoje só teve a Meg.</default>
+		<default>Por que já foram. E terminou logo. Você até hoje só teve a Meg. Pera, isso é o jeito que incentivam homens ou mulheres? Sempre me confundo.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Acho que homens. Talvez pessoas ricas também.</default>
 	</talk>
 	<teller>
-		<default>Eles ficam calados durante algum tempo.</default>
+		<default>Silêncio. Mel levanta.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Melhor nós voltarmos a procurar Denzel.</default>
 	</talk>
-	<teller>
-		<default>Eles se levantam e vão procurar.</default>
-	</teller>
 </story>
