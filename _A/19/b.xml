@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="19" scene="b">
 	<teller>
-		<default>Noite. Casa de Dan. Dione atende a porta de toalha.</default>
+		<default>Noite. Casa de Dan. Dione vai de toalha até a porta. Abre.</default>
 	</teller>
 	<talk character="Dione">
 		<default>Veio falar com Dan?</default>
@@ -10,40 +10,34 @@
 		<default>Sim, e você é...</default>
 	</talk>
 	<talk character="Dione">
-		<default>Deve ser o irmão da Melody.</default>
+		<default>Deve ser o irmão da Melody. Ela não quer realmente falar com ele, né?</default>
 	</talk>
 	<talk character="Angely">
-		<default>E você, a irmã dele.</default>
-	</talk>
-	<talk character="Dione">
-		<default>Ela não quer realmente falar com ele, né?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ele falou algo sobre premonição... Por que está de toalha?</default>
+		<default>Dancan falou algo sobre premonição...</default>
 	</talk>
 	<talk character="Dione">
 		<default>Entra aí, eu vou me trocar. Dan foi até o supermercado com as três.</default>
 	</talk>
 	<teller>
-		<default>Ele entra. Ela faz menção de ir ao quarto, mas volta.</default>
+		<default>Angely entra. Dione vai até o quarto. Volta.</default>
 	</teller>
 	<talk character="Dione">
-		<default>Já conhece Tifani, Julieta e Laura, né?</default>
+		<default>Já conhece as três, né?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sim, ele me apresentou elas.</default>
+		<default>Sim, Dancan me apresentou.</default>
 	</talk>
 	<talk character="Dione">
 		<default>Eles voltam daqui a pouco.</default>
 	</talk>
 	<teller>
-		<default>Dione vai pra seu quarto. Angely fica esperando algum tempo. Então ouve vozes. Dan entra cheio de sacolas e com as três atrás dele.</default>
+		<default>Dione vai pra seu quarto. Angely senta. Olha ao redor. Pega o celular. Descarta notificações. Guarda o celular. Vozes. Dan, com diversas sacolas. Entram atrás dele Laura, Tifani e Julieta.</default>
 	</teller>
 	<talk character="Dan">
 		<default>Fala uma de cada vez!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Está ocupado?</default>
+		<default>Falou pra eu vir, mas acho que...</default>
 	</talk>
 	<talk character="Dan">
 		<default>Desculpa, é que elas cismaram que queriam ir ao supermercado... Pelo jeito, Mel não quis mesmo vir.</default>
@@ -67,16 +61,19 @@
 		<default>Pronto, podemos...</default>
 	</talk>
 	<talk character="Dione">
-		<default>Sem mim?</default>
-		<teller>adentra a sala</teller>
+		<arrive>Sem mim?</arrive>
+	</talk>
+	<teller>
+		<default>Dione senta-se no sofá.</default>
+	</teller>
+	<talk character="Dione">
 		<default>Sou a profetiza aqui, esqueceu?</default>
 	</talk>
 	<talk character="Dan">
 		<default>Se acha demais só por que...</default>
 	</talk>
 	<talk character="Dione">
-		<default>Previ o desastre da sua vida? Imagina...</default>
-		<teller>ironiza</teller>
+		<irony>Previ o desastre da sua vida? Imagina...</irony>
 		<default>Eu bem que te avisei que sexta treze dá azar, mas você não acreditou.</default>
 	</talk>
 	<talk character="Angely">
@@ -86,19 +83,16 @@
 		<default>Ele saiu com essas três aí na sexta treze de janeiro.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Estava bêbado?</default>
+		<default>Alguém te drogou?</default>
 	</talk>
 	<talk character="Dione">
 		<default>Não, é um exibido mesmo. Ele saiu com uma de manhã, outra de tarde e outra de noite.</default>
 	</talk>
+	<teller>
+		<default>Dan tampa o rosto.</default>
+	</teller>
 	<talk character="Angely">
-		<hushed>Preciso falar com as quatro.</hushed>
-	</talk>
-	<talk character="Dione">
-		<default>Quatro?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tava pensando em outra coisa, me desculpem. Mas o que a Mel tem a ver com isso?</default>
+		<default>E o que Mel tem a ver com isso?</default>
 	</talk>
 	<talk character="Dione">
 		<default>Bom, eu sei que o sétimo foi concebido meio ano depois desses seis...</default>
@@ -107,7 +101,19 @@
 		<default>Seis?</default>
 	</talk>
 	<talk character="Dan">
-		<default>Sim, elas estão todas de gêmeos.</default>
+		<default>Sim.</default>
+	</talk>
+	<teller>
+		<default>Dan olha para Angely.</default>
+	</teller>
+	<talk character="Dan">
+		<default>São gêmeos.</default>
+	</talk>
+	<teller>
+		<default>Angely arqueia a sobrancelha.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Três vezes?</default>
 	</talk>
 	<talk character="Dione">
 		<default>Cala a boca e deixa que eu falo. Como ele diz que só saiu com a sua irmã, ela deve estar grávida de um mês agora.</default>
@@ -131,10 +137,10 @@
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Veja os três números.</default>
+		<default>Números. Sua professia tem números repetidos. Humanos... Pessoas usam muito números com feitiços e essas coisas. Ouvi dizer.</default>
 	</talk>
 	<teller>
-		<default>Dione e Dan se calam.</default>
+		<default>Dione e Dan se entreolham.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Tem certeza de tudo isso? Não pode ser apenas...</default>
@@ -142,38 +148,35 @@
 	<talk character="Dione">
 		<default>Eu previ que ele engravidaria as três no mesmo dia.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Então ela terá que...</default>
-	</talk>
 	<talk character="Dan">
-		<default>Sim.</default>
+		<default>Ela vai ter que...</default>
 	</talk>
 	<teller>
 		<default>Dan baixa a cabeça.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Ainda é só uma criança.</default>
+		<default>Ainda é só um feto.</default>
 	</talk>
 	<talk character="Dione">
 		<default>Não acreditaria no que vi que essa simples criança faria. Melhor prevenir do que remediar.</default>
 	</talk>
 	<teller>
-		<default>Todos fazem silêncio.</default>
+		<default>Angely levanta do sofá. Vai até a janela.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Não vou conseguir falar com ela.</default>
+		<default>Não vou conseguir falar com Mel.</default>
 	</talk>
 	<teller>
-		<default>Continua o silêncio.</default>
+		<default>Angely se vira de volta para Dione e Dancan.</default>
 	</teller>
 	<talk character="Angely">
-		<default>É o sétimo filho, talvez seja sete o número.</default>
+		<default>É a sétima criança, talvez seja sete o número. Então quem fez isso acontecer pode estar usando sete, não seis.</default>
 	</talk>
 	<talk character="Dan">
 		<default>Mas então como explica o seis da idade e da diferença de idade entre eles?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Descobriram que elas estavam de sete e, se contarmos a idade a partir de quando foi concebido, ele terá sete anos quando conhecer esse vampiro.</default>
+		<default>Descobriram quando estavam de sete meses e, se contarmos a idade a partir da concepção, terá sete anos quando conhecer esse vampiro.</default>
 	</talk>
 	<talk character="Dione">
 		<default>Então é isso...</default>
@@ -182,7 +185,7 @@
 		<default>Isso o que?</default>
 	</talk>
 	<talk character="Dione">
-		<default>A influência mais forte é o seis, mas depois ele vai se arrepender... Quando completar 777 anos.</default>
+		<default>A influência mais forte é o seis, mas depois vai se arrepender... Quando completar 777 anos.</default>
 	</talk>
 	<talk character="Dan">
 		<default>Não é por isso que deixaremos fazer os 776 anos e 364 dias de maldades.</default>
@@ -191,7 +194,7 @@
 		<default>Quem vai falar com ela então?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu não posso.</default>
+		<default>Não sei nem se concordo em falar.</default>
 	</talk>
 	<talk character="Dan">
 		<default>Bom, então não vai poder nos...</default>
@@ -206,139 +209,157 @@
 		<default>Não posso olhar pra Mel e mentir.</default>
 	</talk>
 	<talk character="Dione">
-		<default>Não estará mentindo.</default>
+		<default>Não vai tá mentindo...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Estarei, se ela perguntar. Já guardo algo dela, isso já está quase me sufocando. Dois segredos eu não agüento.</default>
+		<default>Vou, se perguntar. Já guardo algo, isso já está quase me sufocando. Dois segredos eu não agüento.</default>
 	</talk>
 	<talk character="Dan">
 		<default>Guarda algo dela?</default>
 	</talk>
 	<talk character="Angely">
-		<default>É para o bem dela. Acho que piraria se soubesse. Posso ficar aqui?</default>
+		<default>Não tenho como contar. Posso ficar aqui?</default>
 	</talk>
 	<talk character="Dan">
 		<default>Claro.</default>
 	</talk>
 	<talk character="Dione">
-		<default>Escute meu conselho, não vai conseguir agüentar essas três!</default>
+		<default>Escute meu conselho, não vai conseguir aguentar essas três!</default>
 	</talk>
 	<teller>
-		<default>Dione sai da sala. No dia seguinte, Mel chega na casa de Dan.</default>
+		<default>Dione sai da sala.</default>
+	</teller>
+	<teller>
+		<first>Dia seguinte. Dione abre a porta da casa.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Cadê o Angely?</default>
+		<default>Cadê Angely?</default>
 	</talk>
 	<talk character="Dione">
 		<default>Ah?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não se faz de sonsa, garota.</default>
+		<default>Não finge que não entendeu, criança.</default>
 	</talk>
 	<teller>
-		<default>Dancan chega com o cabelo bagunçado e cara de travesseiro.</default>
+		<default>Dancan entra na sala. Está com o cabelo bagunçado e olheiras.</default>
 	</teller>
 	<talk character="Dan">
 		<default>Mel, eu precisava...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Escutei a conversa de vocês no telefone, sei que ele está aqui.</default>
+		<default>Escutei a conversa de vocês no telefone, sei que está aqui.</default>
 	</talk>
 	<talk character="Dione">
 		<default>Na verdade, acabou de sair.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Estava dormindo até essa hora???</default>
+		<default>Tava dormindo até essa hora?</default>
 	</talk>
 	<talk character="Dan">
 		<default>Sim, fiquei acordado até tarde.</default>
 	</talk>
 	<talk character="Mel">
-		<default>E não devia estar procurando um emprego???</default>
+		<default>E não devia estar procurando um emprego?</default>
 	</talk>
 	<talk character="Dan">
-		<default>Recebi uma proposta de filme, vamos começar a gravar amanhã... Droga eu devia pegar um avião pra Europa!</default>
+		<default>Recebi uma proposta de filme, vamos começar a gravar amanhã...</default>
+	</talk>
+	<teller>
+		<default>Dan arregala os olhos e olha no relógio.</default>
+	</teller>
+	<talk character="Dan">
+		<default>Droga eu devia pegar um avião!</default>
 	</talk>
 	<talk character="Dione">
 		<default>Não vou ficar aqui com elas enquanto grava seu filme!</default>
 	</talk>
+	<teller>
+		<default>Dan olha para Dione.</default>
+	</teller>
 	<talk character="Dan">
-		<default>Te dou metade do que ganhar!</default>
+		<default>Te dou metade do que ganhar.</default>
 	</talk>
 	<talk character="Dione">
-		<default>Fechado.</default>
+		<default>Adoro festas do pijama com grávidas! Vou fazer um chá de bebê pra todo mundo!</default>
 	</talk>
 	<teller>
-		<default>Dan corre pro quarto.</default>
+		<default>Dan corre pro quarto. Dione sorri.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Que história é essa de premonição?</default>
 	</talk>
+	<teller>
+		<default>Dione fecha a expressão.</default>
+	</teller>
 	<talk character="Dione">
 		<default>Dancan, volta aqui!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Você quem viu, vai ter que me explicar.</default>
+		<default>Você quem disse que viu, vai ter que me explicar.</default>
 	</talk>
+	<teller>
+		<default>Dione solta o corpo no sofá. Mel cruza os braços.</default>
+	</teller>
 	<talk character="Dione">
 		<default>Sempre sobra pra mim.</default>
 	</talk>
 	<teller>
-		<default>Angely está andando pela rua. Observa as pessoas.</default>
+		<first>Angely está andando pela rua. Pessoas passam. Angely para. Olha ao redor.</first>
 	</teller>
 	<talk character="Angely">
 		<thought>Todos cuidando de suas vidas... Imagina como todas essas pessoas reagiriam se soubessem que sou de outro planeta...</thought>
 	</talk>
 	<teller>
-		<default>Duas garotas se aproximam.</default>
+		<default>Lena e Maria se aproximam.</default>
 	</teller>
-	<talk character="g1">
+	<talk character="Lena">
 		<default>Você é o...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Angely LK. Saturn.</default>
 	</talk>
-	<talk character="g2">
+	<talk character="Maria">
 		<default>Ai, não acredito que encontramos você aqui!</default>
 	</talk>
-	<talk character="g1">
+	<talk character="Lena">
 		<default>Nunca conseguimos ir num show!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Infelizmente não fazemos mais shows.</default>
+		<default>A gente não faz mais shows.</default>
 	</talk>
-	<talk character="g2">
+	<talk character="Maria">
 		<default>Nós temos todos os CDs...</default>
 	</talk>
-	<talk character="g1">
+	<talk character="Lena">
 		<default>Droga, eu nem tenho uma caneta!</default>
 	</talk>
-	<talk character="g2">
+	<talk character="Maria">
 		<default>Vimos seu irmão outro dia, quer dizer, noite, mas ele tava dentro de um carro e o sinal abriu...</default>
 	</talk>
-	<talk character="g1">
+	<talk character="Lena">
 		<default>Tem caneta???</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não, não costumo andar com canetas...</default>
 	</talk>
-	<talk character="g1">
+	<talk character="Lena">
 		<default>Droga...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Bom, não tenho canetas, mas se servir...</default>
 	</talk>
 	<teller>
-		<default>Angely pega um chaveiro com chaves do bolso. Retira os dois chaveiros e dá um pra cada uma.</default>
+		<default>Angely pega um chaveiro com chaves do bolso. Retira os dois chaveiros e dá a Lena e Maria.</default>
 	</teller>
-	<talk character="g2">
+	<talk character="Maria">
 		<default>Isso é melhor que ganhar na loto!</default>
 	</talk>
 	<teller>
-		<default>Ele dá um sorriso. Chega uma outra garota.</default>
+		<default>Angely dá um sorriso contido.</default>
 	</teller>
 	<talk character="Milene">
-		<default>Nossa, você de novo!</default>
+		<arrive>Nossa, você de novo!</arrive>
 	</talk>
 	<talk character="Angely">
 		<default>Ah?</default>
@@ -353,32 +374,32 @@
 		<default>É, outro dia tava numa lanchonete aqui perto, me deu um autógrafo... Até pego o caderno aqui...</default>
 	</talk>
 	<teller>
-		<default>Angely parece ouvir algo.</default>
+		<default>Angely olha para trás. Volta a olhar para Milene.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Com licença, por favor. Tenho que ir.</default>
+		<default>Tenho que ir.</default>
 	</talk>
 	<talk character="Milene">
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Ele sai.</default>
+		<default>Angely sai.</default>
 	</teller>
-	<talk character="g1">
+	<talk character="Lena">
 		<default>Você viu aquele sorriso???</default>
 	</talk>
-	<talk character="g2">
-		<default>Tão bonitinho, ele nos deu o chaveiro dele!</default>
+	<talk character="Maria">
+		<default>Tão bonitinho, ele deu o chaveiro dele! Será que foi a Mel que deu pra ele???</default>
+	</talk>
+	<talk character="Lena">
+		<default>Devia ter perguntado se ele tinha alguma foto dela! Quem sabe ele te dava também?!</default>
 	</talk>
 	<talk character="Milene">
-		<default>Odeio tietes...</default>
+		<default>Odeio tiete...</default>
 	</talk>
 	<teller>
-		<default>Milene sai. Angely chega a um prédio, por instinto.</default>
+		<default>Angely entra em um prédio. Vai até uma sala nos fundos.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Oi.</default>
-	</talk>
 	<talk character="Edmont">
 		<default>Tem coisa pior que perder a hora e ter que passar o dia num lugar sem saída pro subtérreo?</default>
 	</talk>
@@ -395,37 +416,37 @@
 		<default>E qual o problema?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Assinou seu nome quando estava com a minha aparência.</default>
+		<default>Assinou seu nome quando estava com a minha cara.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Milene.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela te disse o nome dela?</default>
+		<default>Te disse o nome?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ouvi alguém chamando ela.</default>
+		<default>Ouvi alguém chamando.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ah... Melhor tomar mais cuidado quando fizer isso.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por que? Ninguém sabe que estou morto.</default>
+		<default>Por que? Ninguém sabe que morri.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela estranhou.</default>
+		<default>Milene estranhou.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Deve estar estranhando mais ainda nossa conversa, não é, Milene?</default>
+		<default>Deve estar estranhando mais ainda nossa conversa, né Milene?</default>
 	</talk>
 	<teller>
-		<default>Ela se faz notar.</default>
+		<default>Milene sai de trás da parede.</default>
 	</teller>
 	<talk character="Milene">
 		<default>Realmente.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu lembro de você...</default>
+		<default>Pera, eu lembro de você...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não lembra, não.</default>
@@ -437,13 +458,16 @@
 		<default>Mas eu...</default>
 	</talk>
 	<teller>
-		<default>Angely pára. Edmont encara Angely novamente. Angely percebe que o que estava se lembrando na verdade fazia parte da memória de Edmont.</default>
+		<default>Angely para. Edmont continua encarando Angely.</default>
 	</teller>
+	<talk character="Angely">
+		<default>Não é minha, é sua.</default>
+	</talk>
 	<talk character="Milene">
 		<default>"mas eu..."?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Você já foi numa das coletivas. Ele tem boa memória.</default>
+		<default>Ah, sim. Você já foi numa das coletivas, não foi só aquele dia. Angely tem boa memória.</default>
 	</talk>
 	<talk character="Milene">
 		<default>Você também.</default>
@@ -452,24 +476,25 @@
 		<arrive>Mentira. Aliás, além de péssima memória, tem uma péssima educação também.</arrive>
 	</talk>
 	<talk character="Angely">
-		<default>Era a mulher que estava na frente do prédio... Aliás, encontramos você em outro lugar também... Aqui.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Viu?</default>
-		<teller>fala com Milene</teller>
-		<default>Se estiver procurando namorado, escolha o loirinho. Ele é bem melhor.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Melhor? Ele não anda mais atrás de mulheres.</default>
+		<default>Você tava na frente do prédio... Aliás, encontramos você em outro lugar também... Aqui.</default>
 	</talk>
 	<teller>
-		<default>Angely percebe que Kassandra é uma vampira.</default>
+		<default>Kassandra olha para Milene.</default>
 	</teller>
 	<talk character="Kassandra">
-		<default>Qualquer homem vai atrás de mulher. E eu sei que ele não é gay.</default>
+		<default>Viu? Se estiver procurando namorado, escolha o loirinho. Ele é bem melhor.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, o problema é que o amor da vida dele morreu.</default>
+		<default>Melhor? Angely nem quer mais nada com ninguém.</default>
+	</talk>
+	<teller>
+		<default>Angely abre mais os olhos e olha para Kassandra.</default>
+	</teller>
+	<talk character="Kassandra">
+		<default>Todo mundo quer. Vai dizer que descobriu que é assexuado agora?</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Amava alguém, morreu. Aí, pra não esquecer, aconteceu de novo.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Daquela época já era?</default>
@@ -490,8 +515,11 @@
 		<default>Não, eles estavam falando na assinatura quando...</default>
 	</talk>
 	<talk character="Kassandra">
-		<default>Artistas. Sempre loucos. Devia saber disso, é repórter...</default>
+		<default>Artistas. Sempre loucos. Devia saber disso, é repórter.</default>
 	</talk>
+	<teller>
+		<default>Milene olha para Angely. Depois para Edmont.</default>
+	</teller>
 	<talk character="Milene">
 		<default>Claro.</default>
 	</talk>
@@ -508,7 +536,7 @@
 		<default>Depende.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Vai perder a vida se ficar aqui.</default>
+		<default>Sua vida não vai muito longe ficando aqui.</default>
 	</talk>
 	<talk character="Milene">
 		<default>Vai fazer o que comigo?</default>
@@ -523,7 +551,8 @@
 		<default>Vi a entrevista que deu pra última.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Are you for or against me?</default>
+		<default>Je partage pour me aider!</default>
+		<translate>Eu divido se me ajudar!</translate>
 	</talk>
 	<teller>
 		<default>Kassandra ri.</default>
@@ -532,7 +561,7 @@
 		<default>Repórteres costumam saber várias línguas.</default>
 	</talk>
 	<teller>
-		<default>Milene olha pra Edmont, depois pra Angely. Acaba saindo com Angely.</default>
+		<default>Milene olha pra Edmont. Olha para Angely. Sai. Angely olha para Kassandra. Então para Edmont. Segue Milene.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Obrigado, eu tava com sede.</default>
@@ -541,7 +570,7 @@
 		<default>Invadiu meu esconderijo.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Pra que quer pra si um lugar sem acesso ao subtérreo da cidade?</default>
+		<default>Pra que quer um lugar sem acesso?</default>
 	</talk>
 	<talk character="Kassandra">
 		<default>Engano seu. Você que é inexperiente ainda, não sabe encontrar esse tipo de coisa.</default>
@@ -553,19 +582,19 @@
 		<default>Provavelmente nada que me interesse.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Melody está grávida.</default>
+		<default>Melody engravidou.</default>
 	</talk>
 	<talk character="Kassandra">
 		<default>Eu não disse? Peraí, ele não te contou isso...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Como acha que ele descobriu que eu estava com sede?</default>
+		<default>Como acha que descobriu que eu estava com sede?</default>
 	</talk>
 	<talk character="Kassandra">
-		<default>Tá, você lê a mente do seu irmão gêmeo, e daí?</default>
+		<default>Tá, você lê a mente do seu irmão gêmeo. Já vi gêmeos com truques melhores.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, estou falando da criança. Ele estava preocupado.</default>
+		<default>Não é esse o ponto. Tô falando da criança. Tinha preocupação.</default>
 	</talk>
 	<talk character="Kassandra">
 		<default>Onde quer chegar?</default>
