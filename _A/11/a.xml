@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="11" scene="a">
 	<teller>
-		<default>Uma garota corre. Está segurando uma faca suja de sangue. Alguém a encosta em uma árvore. A faca cai no chão.</default>
+		<default>Alex corre. Está segurando uma faca suja de sangue. Dilan encosta Alex em uma árvore. A faca cai no chão.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Acha que pode se livrar de mim só com isso?</default>
 	</talk>
 	<teller>
-		<default>Ele olha para o chão. A terra está remexendo. Ele a solta. Ela corre. Ele corre atrás e arrasta-a de volta. Encontra um homem deitado no chão.</default>
+		<default>Dilan olha para o chão. A terra está remexendo. Dilan solta Alex. Alex corre. Dilan revira os olhos. Corre atrás e arrasta Alex de volta. Encontra alguém deitado no chão.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Andrews...</default>
@@ -25,15 +25,19 @@
 		<default>Tô seco.</default>
 	</talk>
 	<teller>
-		<default>A garota tenta fazer Dilan soltar seu braço.</default>
+		<default>Alex tenta fazer Dilan soltar seu braço.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Deu trabalho, mas pode ficar.</default>
-		<teller>joga-a ao chão</teller>
+	</talk>
+	<teller>
+		<default>Dilan joga Alex no chão.</default>
+	</teller>
+	<talk character="Dilan">
 		<default>Tá precisando mais.</default>
 	</talk>
 	<teller>
-		<default>Ela tenta fugir, mas Andrews a segura e a morde. Ela grita. Ainda tenta empurrá-lo. Não demora muito a parar. Ele a solta e se levanta. Ajeita os trapos que está vestindo.</default>
+		<default>Alex levanta. Andrews puxa Alex pela perna. Derruba. Sobe em cima de Alex. Segura e morde. Alex grita. Ainda tenta empurrar Andrews, empurrando com os pulsos que Andrews segura. Andrews empurra os pulsos de Alex contra o chão. As mãos de Alex afrouxam. A respiração fica mais espaçada. As mãos fraquejam. Os olhos fecham. Andrews se afasta. Se joga para o lado. Senta. Levanta do chão. Ajeita os trapos que está vestindo.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Parece que mudou de idéia quanto aos humanos.</default>
@@ -51,20 +55,24 @@
 	</talk>
 	<talk character="Dilan">
 		<default>Agora sim.</default>
-		<teller>sorri, mas fecha a expressão em seguida</teller>
+	</talk>
+	<teller>
+		<default>Sorri. Fecha o rosto.</default>
+	</teller>
+	<talk character="Dilan">
 		<default>Espera... Como aprendeu a...</default>
 	</talk>
 	<talk character="Andrews">
 		<default>As pessoas falam. Falam o tempo todo.</default>
 	</talk>
 	<teller>
-		<first>Alguns dias depois, Angely está andando na cidade. Toca o telefone.</first>
+		<first>Dias depois. Angely está andando. Toca o telefone.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Mel? ### Esqueci completamente... ### Tá, eu tô indo. Tchau.</default>
 	</talk>
 	<teller>
-		<default>Dali a pouco, senta-se junto com Kat, Edmont e Mel.</default>
+		<default>Lanchonete. Angely senta-se junto a Kat, Edmont e Mel.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Um pouco atrasado.</default>
@@ -73,13 +81,13 @@
 		<default>Tava no mundo da lua.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bom, é o seguinte: o tempo não estica. Então, ou nos livramos da banda, ou da agência.</default>
+		<default>Bom, é o seguinte: o tempo não estica. Ficar fazendo viagens e trabalham não tá rolando. Até pensei que poderia ser útil, porque poderíamos cobrir uma área maior, mas não, Kat não sonha nada fora daqui. Então, ou nos livramos da banda, ou da agência.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Da agência?</default>
 	</talk>
 	<teller>
-		<default>Os três encaram-na.</default>
+		<default>Os três encaram Kat.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Se nos livrarmos da banda, como vamos nos sustentar?</default>
@@ -90,7 +98,7 @@
 	<talk character="Kat">
 		<default>Eu não posso arranjar um emprego!</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Você tem a empresa do seu pai.</default>
 	</talk>
 	<talk character="Mel">
@@ -112,7 +120,7 @@
 		<default>Eu já tinha marcado.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Posso saber por que não nos consultou?</default>
+		<default>Podemos saber por que não nos consultou?</default>
 	</talk>
 	<talk character="Samuel">
 		<default>Sabia que iam recusar.</default>
@@ -187,13 +195,13 @@
 		<default>Peraí, te dou carona pra casa.</default>
 	</talk>
 	<teller>
-		<default>Os dois se levantam e saem.</default>
+		<default>Edmont e Angely se levantam e saem.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Ei, nós estávamos conversando!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Kat, melhor irmos todos pra casa e pensarmos sobre isso direito.</default>
+		<default>Kat, melhor irmos todos pra casa e pensar sobre isso direito.</default>
 	</talk>
 	<teller>
 		<default>Mel se levanta e sai. Derik chega.</default>
@@ -202,7 +210,7 @@
 		<default>Que aconteceu, que cara é essa?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eles tão querendo terminar com a banda.</default>
+		<default>Tão querendo terminar com a banda.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Por que?</default>
@@ -211,7 +219,7 @@
 		<default>Bom, vou deixar vocês sozinhos.</default>
 	</talk>
 	<teller>
-		<default>Samuel sai.</default>
+		<default>Samuel sai. Derik senta na frente de Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Eles acham que não dá tempo pra banda e pra agência.</default>
@@ -220,10 +228,10 @@
 		<default>Nunca vi nenhuma das duas coisas interferir na outra. Não fica com essa carinha, vai?</default>
 	</talk>
 	<teller>
-		<default>Do lado de fora, Angely e Edmont conversam.</default>
+		<default>Lado de fora.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Será que ela aceita?</default>
+		<default>Será que aceita?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Acho que sim.</default>
@@ -247,24 +255,24 @@
 		<default>Tá.</default>
 	</talk>
 	<teller>
-		<default>Mel sobe na moto, Angely sobe atrás. Eles saem.</default>
+		<default>Mel sobe na moto, Angely sobe atrás. Saem.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Fugindo da Denise...</default>
-		<teller>dá um sorriso malicioso, mas trava</teller>
+		<teller>dá um sorriso malicioso, mas desfaz</teller>
 		<default>Mas a Denise tá aqui...</default>
 	</talk>
 	<teller>
-		<default>Ele vê dois caras entrarem no bar. Entra depois deles e se senta no balcão.</default>
+		<default>Edmont vê duas pessoas entrarem no bar. Franze a testa. Entra de volta. Senta-se no balcão.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ele não ia embora?</default>
+		<default>Edmont não ia embora?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Pode ser que ele tenha ficado com sede.</default>
+		<default>Pode ser que tenha ficado com sede.</default>
 	</talk>
 	<teller>
-		<default>Os dois caras se sentam numa mesa.</default>
+		<default>As duas pessoas se sentam em uma mesa.</default>
 	</teller>
 	<talk character="Andrews">
 		<default>Onde estão os outros?</default>
@@ -275,25 +283,26 @@
 	<talk character="Andrews">
 		<default>E dá pra viver lá?</default>
 	</talk>
+	<teller>
+		<default>Dilan ri.</default>
+	</teller>
 	<talk character="Dilan">
-		<default>Dá, dá sim.</default>
-		<teller>ri</teller>
-		<default>Tá vendo aquelas duas olhando pra cá?</default>
+		<default>Dá, dá sim. Tá vendo aquelas duas olhando pra cá?</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Poderiam ser mais discretas.</default>
 	</talk>
 	<talk character="Dilan">
-		<default>Você disse que as pessoas falam...</default>
+		<default>Você disse que as pessoas falam, não ouviu nada disso?</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Não vou me acostumar tão fácil com isso.</default>
 	</talk>
 	<teller>
-		<default>Eles se levantam e vão até a mesa delas. Edmont fica olhando.</default>
+		<default>Dilan se levanta. Andrews segue. Vão até a outra mesa. Edmont fica olhando.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Por que ele tanto olha praquela mesa?</default>
+		<default>Por que tanto olha praquela mesa?</default>
 	</talk>
 	<talk character="Derik">
 		<default>Acho que eu sei. Vamos sair daqui?</default>
@@ -305,7 +314,7 @@
 		<default>Tá vendo o espelho atrás do balcão?</default>
 	</talk>
 	<teller>
-		<default>Kat olha discretamente.</default>
+		<default>Kat olha.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Bom, as duas não viram. Vamos indo.</default>
@@ -314,39 +323,42 @@
 		<default>Mas...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Vamos!</default>
+		<default>Vamos! Nem eu nem você lutamos.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Ainda.</default>
 	</talk>
 	<teller>
-		<default>Edmont vê que Kat saiu.</default>
+		<default>Edmont olha para Kat. Kat olha para Edmont. Baixa a cabeça e sai, seguindo Derik.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Sabe que nós estávamos falando de bruxaria?</default>
 	</talk>
-	<talk character="g1">
+	<talk character="Monique">
 		<default>Sério?</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Já fizeram isso?</default>
 	</talk>
-	<talk character="g2">
+	<talk character="Teresa">
 		<default>Já.</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Não têm medo da igreja?</default>
 	</talk>
 	<teller>
-		<default>As garotas riem. Dilan fala algo baixo pra Andrews. Dali a pouco, estão andando pela cidade.</default>
+		<default>Monique e Teresa riem. Dilan se aproxima do ouvido de Andrews. Dali a pouco, estão andando pela cidade.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Sobre aquele negócio de bruxaria...</default>
 	</talk>
-	<talk character="g1">
+	<talk character="Monique">
 		<default>Fizemos pra uma garota.</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Por que?</default>
 	</talk>
-	<talk character="g2">
+	<talk character="Teresa">
 		<default>Viu uma coisinha que nós tínhamos feito de errado e ameaçou dedurar.</default>
 	</talk>
 	<talk character="Dilan">
@@ -355,161 +367,168 @@
 	<teller>
 		<default>Dilan aponta uma janela.</default>
 	</teller>
-	<talk character="g1">
+	<talk character="Monique">
 		<default>Eu tenho!</default>
 	</talk>
 	<talk character="Dilan">
 		<default>Vem então.</default>
 	</talk>
 	<teller>
-		<default>Os dois entram no prédio. Andrews fica do lado de fora, com a outra garota. Ela fica olhando para ele, mas ele olha para o céu.</default>
+		<default>Dilan pega Monique pela mão. Entram no prédio. Teresa fica olhando para Andrews, mas Andrews olha para o céu.</default>
 	</teller>
 	<teller>
 		<division>1009</division>
 	</teller>
 	<teller>
-		<default>Dois adolescentes correndo. A moça cai. O rapaz volta até ela. Ela está chorando.</default>
+		<default>Dois adolescentes correndo. Uma das pessoas cai. Outra volta. A pessoa caída está chorando.</default>
 	</teller>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Levante, não pode desistir agora!</default>
 	</talk>
-	<talk character="moça">
+	<talk character="Walkíria">
 		<default>Não adianta, elas vão me pegar...</default>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Eu sei onde podemos encontrar uma igreja, tá logo ali...</default>
 	</talk>
 	<teller>
-		<default>Ela se levanta. Eles continuam correndo. Dois padres, ao verem os dois vindo correndo, entram e fecham as portas. Ele chega ofegante e bate na porta.</default>
+		<default>Walkíria se levanta. Continuam correndo. Dois padres, ao verem-nos vindo correndo, entram e fecham as portas. Andrews chega ofegante e bate na porta.</default>
 	</teller>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Abram!</default>
 	</talk>
-	<talk character="moça">
+	<talk character="Walkíria">
 		<default>Não vão abrir...</default>
 	</talk>
 	<talk character="padre">
 		<out>Não abrigaremos uma bruxa!</out>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Mas ela não é mais bruxa, é disso que estamos fugindo!</default>
 	</talk>
 	<talk character="padre">
 		<out>Está enfeitiçado por ela!</out>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Desgraçados! Abram!</default>
 	</talk>
 	<teller>
-		<default>Ela senta no chão, desanimada. Ele bate nas postas com as duas mãos. Chuta a porta. Não se ouve qualquer resposta.</default>
+		<default>Walkíria senta no chão. Andrews bate nas portas com as duas mãos. Chuta a porta. Para. Está ofegante.</default>
 	</teller>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Levanta.</default>
 	</talk>
-	<talk character="moça">
+	<talk character="Walkíria">
 		<default>O que vai fazer?</default>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Vamos fugir.</default>
 	</talk>
-	<talk character="moça">
+	<talk character="Walkíria">
 		<default>Não podemos fugir a vida toda...</default>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Não precisaremos da vida toda.</default>
 	</talk>
 	<teller>
-		<default>A moça começa a chorar. Ele abaixa perto dela.</default>
+		<default>Walkíria chora. Andrews abaixa perto de Walkíria.</default>
 	</teller>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Não chore. Prometi pra sua mãe que cuidaria de você. Ela foi como uma mãe pra mim e eu vou cumprir minha promessa.</default>
 	</talk>
 	<teller>
-		<default>Eles saem e vão até uma casa que parece abandonada.</default>
+		<first>Andrews acorda. Walkíria está dormindo. Andrews passa a mão no rosto de Walkíria. Se levanta e sai. Anda pelos arredores. Sobe em uma árvore. Pega frutas. Enrola na blusa. Volta para a casa. Sala principal. Olha ao redor. Sobe a escada. Entra em um quarto. Sai. A respiração trava. Volta. Anda devagar. Cai no chão. Walkíria está na cama. Uma mão na estaca que atravessa seu peito. Na outra, um crucifixo. Andrews vai até Walkíria. Puxa Walkíria para seu colo. Tira a estaca. Aperta contra seu peito. Pousa a estaca com cuidado sob a cama. Beija a mão que estava na estaca. Abraça Walkíria. Fecha os olhos.</first>
 	</teller>
-	<teller>
-		<first>Ele acorda. Passa a mão no rosto dela, que ainda dorme. Se levanta e sai. Meia hora depois, ele volta. Ela não está na sala principal. Ele sobe. A encontra em um quarto. Uma mão na estaca que atravessa seu peito. Na outra, um crucifixo. Ele vai até ela e a coloca em seu colo. Tira a estaca. Beija-a. Abraça-a.</first>
-	</teller>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Eu te amo...</default>
 	</talk>
-	<talk character="bruxa">
+	<talk character="Lara">
 		<arrive>Sua dor vai ser eterna!</arrive>
 	</talk>
 	<teller>
-		<default>Ele levanta a cabeça e a olha.</default>
+		<default>Andrews abre os olhos. Dá um beijo na testa de Walkíria. Coloca de volta na cama. Levanta, olhando para Walkíria. Vira-se. Olha para Lara.</default>
 	</teller>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Você quem fez isso?</default>
 	</talk>
-	<talk character="bruxa">
-		<default>Não que eu tenha precisado enfiar a estaca. Você não me quis e quis essa traidora. Como achou que isso ia terminar?</default>
+	<talk character="Lara">
+		<default>Não que eu tenha precisado enfiar a estaca. Fizemos tudo por ela, era até um homem antes! Mudamos de cidade pra que ninguém soubesse disso! Mas você não me quis e quis essa traidora. Como achou que isso ia terminar?</default>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Ela era tão doce... Não queria tão mal aos outros como vocês.</default>
 	</talk>
-	<talk character="bruxa">
-		<default>Mas você não é "doce" como dela.</default>
+	<talk character="Lara">
+		<default>Mas você não é "doce" como ela.</default>
 	</talk>
 	<teller>
-		<default>Ele vai até ela, encosta-a na parede, usando apenas uma mão.</default>
+		<default>Andrews vai até Lara, em poucos passos. Encosta Lara na parede, pelo pescoço, usando apenas uma mão.</default>
 	</teller>
-	<talk character="bruxa">
+	<talk character="Lara">
 		<default>Você não é tão forte assim!</default>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Chama ódio. Se Deus não me ajudou a proteger, que o diabo me ajude a me vingar!</default>
 	</talk>
 	<teller>
-		<default>Ela olha para os dentes dele e arregala os olhos. Ele sorri. Se vira pra trás e olha o espelho. Se vira novamente e morde o pescoço dela. Bebe o sangue. Ela para de se mexer. Ele solta o corpo sem vida.</default>
+		<default>Lara olha para os dentes de Andrews e arregala os olhos. Andrews olha para o espelho atrás de Lara. Sorri. Morde o pescoço de Lara. Lara tenta empurrar Andrews. Bate com a mão fechada nas costas de Andrews. Cada vez mais fraco. A mão treme. Solta. Andrews se afasta. O corpo cai, sem vida.</default>
 	</teller>
-	<talk character="rapaz">
-		<default>Eu achei que devia ter medo da noite... O que essa luz de merda protegeu a gente?!</default>
+	<talk character="Andrews">
+		<default>Eu achei que devia ter medo da noite...</default>
+		<screamed>Que que essa luz de merda protegeu a gente?!</screamed>
 	</talk>
 	<teller>
-		<default>Ele bate a janela e a tranca. Repete com todas. A luz que entra é pouca. Olha para o espelho. Pega-o e atira-o no chão, que fica cheio de cacos. Se aproxima da garota que se matara. Pega-a no colo. Vê outro espelho, mas neste já não vê sua imagem. Vai se aproximar do espelho e um raio de sol bate em sua pele e o fere. Se afasta num movimento brusco. Ele percebe que ela parece mais leve, como se ele tivesse mais força.</default>
+		<default>Andrews bate a janela e a tranca. A luz que entra é pouca. Olha para o espelho. Pega e atira no chão. Cacos por todo lado. Se aproxima de Walkíria que se matara. Pega no colo. Outro espelho. Walkíria parece flutuar no seu colo, não há sua imagem. Franze a testa. Se aproxima. Se contrai, dando um passo violento para trás. Coloca Walkíria na cama. Pega o topo do pé da cama e levanta um pouco a cama do chão. Pousa de volta. Vai para a frente da cama. Levanta a cama pela base, com apenas um dedo.</default>
 	</teller>
-	<talk character="rapaz">
+	<talk character="Andrews">
 		<default>Não sou mais humano.</default>
 	</talk>
 	<teller>
-		<default>Silêncio.</default>
+		<default>Vai até o raio de sol que está entrando. Coloca a mão na frente. Queima. Andrews vira a mão para cima.</default>
 	</teller>
-	<talk character="homem">
+	<talk character="Andrews">
 		<default>Sou outra coisa. Superior.</default>
 	</talk>
-	<talk character="homem">
-		<default>E seu sangue será a semente, para dar outra vida aos que escolher. Agora você vai viver de matar. Só sangue terá gosto. Suas feridas não te perturbarão como aos humanos. O espelho e o sol são teus inimigos, um te revela e outro te fere, por ter recusado ambos. Suas crianças serão mortas pelo que levou seu amor humano, por que serão de sua responsabilidade como ela. Precisaram de autorização pra entrar em casas com donos humanos, pois são invasores do mundo. Quanto a praga da garota, também arranjei isso: será eterno, mas não irá envelhecer.</default>
+	<talk character="pessoa">
+		<default>E seu sangue será a semente, para dar outra vida aos que escolher.</default>
 	</talk>
-	<talk character="rapaz">
-		<default>E você, quem é?</default>
+	<teller>
+		<default>Andrews vira bruscamente para a pessoa.</default>
+	</teller>
+	<talk character="pessoa">
+		<default>Agora você vai viver de matar. Só sangue terá gosto. Suas feridas não te perturbarão como aos humanos. O espelho e o sol são teus inimigos, um te revela e outro te fere, por ter recusado ambos. Suas crianças serão mortas pelo que levou seu amor humano, por que serão de sua responsabilidade como era Walkíria. Precisaram de autorização pra entrar em casas com donos humanos, pois são invasores do mundo. Quanto a praga de Lara, não podia mudar, então rearranjei: será eterna sua lembrança, mas não irá envelhecer.</default>
 	</talk>
-	<talk character="homem">
-		<default>Pediu minha ajuda, agora não sabe quem sou?</default>
+	<talk character="Andrews">
+		<default>E você, quem é? O diabo, que chamou?</default>
 	</talk>
-	<talk character="rapaz">
+	<teller>
+		<default>A pessoa sorri.</default>
+	</teller>
+	<talk character="pessoa">
+		<default>Não entenderia.</default>
+	</talk>
+	<talk character="Andrews">
 		<default>E eu, quem sou?</default>
 	</talk>
 	<talk character="homem">
-		<default>Deixa os homens darem nomes. Eles adoram dar nomes.</default>
+		<default>Deixa os humanos darem nome. Adoram dar nomes, a tudo.</default>
 	</talk>
 	<teller>
 		<division>2022</division>
 	</teller>
-	<talk character="garota">
+	<talk character="Teresa">
 		<default>Ei, está me ouvindo?</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Ah?</default>
 	</talk>
-	<talk character="garota">
+	<talk character="Teresa">
 		<default>Eu disse que odeio altura.</default>
 	</talk>
 	<talk character="Andrews">
 		<default>E eu odeio bruxas.</default>
 	</talk>
 	<teller>
-		<default>Ele encosta a garota na parede pelo pescoço e mostra os caninos. Ela se grita. Ele a solta e pega uma estaca. Olha para Edmont.</default>
+		<default>Andrews encosta Teresa na parede pelo pescoço e mostra os caninos. Teresa grita. Andrews solta Teresa e pega uma estaca no ar, atrás de si. Olha para Edmont.</default>
 	</teller>
 	<talk character="Andrews">
 		<default>Está atrapalhando meu jantar.</default>
