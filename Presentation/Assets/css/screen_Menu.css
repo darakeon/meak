@@ -13,14 +13,23 @@
     margin: 0px 0px 20px 0px;
 }
 
-.menu .header
+.menu .header, .menu .legend-header
 {
 	padding: 2px;
-	border-radius: 0 0 10px 10px;
 	font-weight: bold;
 	font-size: 12px;
 	background: #511;
 	color: #CCC;
+}
+
+.menu .header
+{
+	border-radius: 0 0 10px 10px;
+}
+
+.menu .legend-header
+{
+	border-radius: 10px 10px 0 0;
 }
 
 .menu #save_status
@@ -45,11 +54,6 @@
 .menu .body .item.selected
 {
     color: #E55;
-}
-
-#legend
-{
-	cursor: pointer;
 }
 
 .menu a
