@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="07" scene="a">
 	<teller>
+		<division>2022</division>
+	</teller>
+	<teller>
 		<default>É noite. Angely está andando pela cidade, de cabeça baixa.</default>
 	</teller>
 	<talk character="mulher">
@@ -16,7 +19,7 @@
 		<default>Eu te conheço?</default>
 	</talk>
 	<talk character="mulher">
-		<default>Não. Faz pouco que cheguei na cidade. Quantos anos você tem?</default>
+		<default>Não. Faz pouco tempo que cheguei na cidade. Quantos anos você tem?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Vinte e dois. Por que?</default>
@@ -83,38 +86,35 @@
 	<teller>
 		<default>Angely pega o convite em cima da mesa.</default>
 	</teller>
-	<talk character="Angely">
+	<talk character="Mel">
 		<default>Eu não tô afim.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Mas se você não for, eu vou com quem?</default>
-	</talk>
 	<talk character="Angely">
-		<default>Sei lá.</default>
+		<default>Não vai?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Por favor... Edmont vai tá pendurado na Agatha, e a Kat no namorado... Eu não vou lá pra ficar conversando com as paredes...</default>
+		<default>Pra que?</default>
 	</talk>
 	<talk character="Angely">
+		<default>Edmont vai estar com a Agatha, e a Kat com o namorado... Vou ficar falando com as paredes...</default>
+	</talk>
+	<talk character="Mel">
 		<default>Tá.</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Angely">
 		<default>Obrigado!</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Mel">
 		<default>Mas que festa é essa?</default>
 	</talk>
-	<talk character="Mel">
-		<default>Daquela paty que tava no último show...</default>
-	</talk>
 	<talk character="Angely">
+		<default>De uma amiga da Agatha.</default>
+	</talk>
+	<talk character="Mel">
 		<default>Não dá pra dizer que estamos doentes?</default>
 	</talk>
-	<talk character="Mel">
-		<default>Eu queria, mas o Edmont e a Kat vão...</default>
-	</talk>
 	<talk character="Angely">
-		<default>Ah, é, ela é amiga da Agatha, né?</default>
+		<default>O Edmont e a Kat vão.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Agatha é outra que tá virando uma paty também.</default>
@@ -230,7 +230,7 @@
 		<default>Sabia que ele ia dizer.</default>
 	</talk>
 	<teller>
-		<default>Edmont senta no sofá.</default>
+		<default>Edmont se joga no sofá.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Agatha pediu pra eu ir buscar ela na escola amanhã.</default>
@@ -239,7 +239,7 @@
 		<default>Por favor, você não aceitou, aceitou?</default>
 	</talk>
 	<teller>
-		<default>Ele fecha a geladeira e olha pros dois.</default>
+		<default>Ele se senta.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Ela é minha namorada, o que tem demais?</default>
@@ -332,7 +332,7 @@
 		<default>Pode ser.</default>
 	</talk>
 	<teller>
-		<default>No dia seguinte, de tarde, Edmont está na frente da escola, esperando Agatha. Ela chega e o beija.</default>
+		<first>No dia seguinte, de tarde, Edmont está na frente da escola, esperando Agatha. Ela chega e o beija.</first>
 	</teller>
 	<talk character="Agatha">
 		<default>Oi...</default>

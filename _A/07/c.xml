@@ -64,7 +64,7 @@
 		<default>Bom, melhor não tocarmos nesse assunto.</default>
 	</talk>
 	<teller>
-		<default>Na casa da Denise...</default>
+		<first>Na casa da Denise...</first>
 	</teller>
 	<talk character="Dara">
 		<default>Que ódio... Quem ele acha que é?! Só por que é famoso acha que pode ficar mandando em mim?!</default>
@@ -79,7 +79,7 @@
 		<default>Não precisa responder, eu sei.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Que você está fazendo no meu quarto?</default>
+		<default>O que você está fazendo no meu quarto?</default>
 	</talk>
 	<talk character="Denise">
 		<default>Não adianta ficar nervosinha, eu ouvi vocês conversando.</default>
@@ -124,13 +124,13 @@
 		<default>Acha mesmo que eu iria ter algo com aquele lá?</default>
 	</talk>
 	<talk character="Denise">
-		<default>Que fez? Ele ia terminar e você ameaçou contar pra namorada dele?</default>
+		<default>O que fez? Ele ia terminar e você ameaçou contar pra namorada dele?</default>
 	</talk>
 	<teller>
 		<default>Dara pega Denise pelo braço, coloca pra fora do quarto e fecha a porta.</default>
 	</teller>
 	<teller>
-		<default>Noite. Em casa, Kat acorda assustada. Vai à MEAK.</default>
+		<first>Noite. Em casa, Kat acorda assustada. Vai à MEAK.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Gente, eu preciso falar com vocês!</default>
@@ -169,10 +169,13 @@
 		<default>É, realmente...</default>
 	</talk>
 	<teller>
-		<default>Kat levanta e sai. Os três se entreolham.</default>
+		<default>Kat levanta e sai. Os três se entreolham. Ela volta.</default>
 	</teller>
+	<talk character="Kat">
+		<default>Queriam falar da banda?</default>
+	</talk>
 	<teller>
-		<default>Na casa de Denise, algum tempo depois...</default>
+		<first>Na casa de Denise, algum tempo depois...</first>
 	</teller>
 	<talk character="Dara">
 		<screamed>Sai daqui, não volta, que merda, eu já disse!</screamed>
@@ -310,10 +313,10 @@
 		<default>Dara sobe na moto. Denzel encara Angely e dá um sorriso de deboche. Eles saem. Angely volta pra casa.</default>
 	</teller>
 	<teller>
-		<default>Edmont vai até a casa de Agatha.</default>
+		<first>Edmont vai até a casa de Agatha.</first>
 	</teller>
 	<talk character="Kat">
-		<default>Ah, ela não quer falar com você, não.</default>
+		<default>Ela não quer falar com você, não.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Mas por que?</default>

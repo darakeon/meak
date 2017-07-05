@@ -16,10 +16,10 @@
 		<default>Achei que você estivesse em casa.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Temos que ensaiar algumas músicas, o show tá perto.</default>
+		<default>Tava pensando em marcarmos de ensaiar, o show tá perto.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Eu já decorei todas.</default>
+	<talk character="Edmont">
+		<default>Toco de olhos vendados.</default>
 	</talk>
 	<talk character="Mel">
 		<arrive>Eu também, mas não temos mesmo o que fazer.</arrive>
@@ -55,7 +55,7 @@
 		<default>Não é isso que estou dizendo. Alguém está fazendo com que esse ódio cresça, pra que Dara faça uma loucura.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Por que alguém iria querer Denise morta? Tá certo que ela é uma paty nojenta, mas além de nós só Handhara não gosta dela.</default>
+		<default>Por que alguém iria querer Denise morta? Tá certo que ela é uma fresca, mas além de nós só Handhara não gosta dela.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não é pra que Denise morra, é pra que Dara mate.</default>
@@ -69,14 +69,14 @@
 	<talk character="Angely">
 		<default>Ela estava falando com um cara ontem e, pelo jeito como ele falava, eu percebi que, ou quer que ela mate, ou quer afastá-la da família.</default>
 	</talk>
-	<talk character="Edmont">
+	<talk character="Mel">
 		<default>Bom, então, nós não podemos fazer nada. Se quisermos impedir que todas as garotas fujam de casa, vamos perder a vida nisso.</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Edmont">
 		<default>Mas, quem quer que tenha mandado esse sonho à Kat, só manda coisas sérias pra nós. Não iria mandar isso de bobeira...</default>
 	</talk>
 	<talk character="Kat">
-		<default>É, ela tá certa.</default>
+		<default>É, ele tá certo.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Aquele cara tinha algo de estranho.</default>
@@ -109,7 +109,10 @@
 		<default>Caracas... Kat, hora de ir pra casa.</default>
 	</talk>
 	<teller>
-		<default>Angely leva Kat em casa. 6:00, Angely levanta, pega a moto e vai até a casa de Kat. Edmont e Mel continuam dormindo. Kat acorda. Angely entra pela janela do quarto.</default>
+		<default>Angely leva Kat em casa.</default>
+	</teller>
+	<teller>
+		<first>6:00, Aurium aparece na janela de Angely. Angely vai até a casa de Kat. Kat acorda. Angely entra pela janela do quarto.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Kat, que foi?</default>
@@ -145,16 +148,16 @@
 		<default>Vamos pro escritório, procurar algo mais sobre isso.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Só uma pergunta...Por que entrou pela janela?</default>
+		<default>Por que entrou pela janela?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Pra não acordar Agatha.</default>
 	</talk>
 	<teller>
-		<default>Kat encara Angely. Eles vão até o escritório e começam a procurar. Mel vai ao quarto de Edmont.</default>
+		<default>Kat encara Angely. Eles vão até o escritório e começam a procurar. Mel bate na porta do quarto de Edmont.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Edmont, posso entrar?</default>
+		<out>Edmont, posso entrar?</out>
 	</talk>
 	<teller>
 		<default>Edmont acorda. Passa a mão nos olhos.</default>
@@ -285,7 +288,7 @@
 		<default>Não vão estar acordados à essa hora.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Quando se passava o seu sonho?</default>
+		<default>Entendi porque ela pareceu mal humorada no telefone. Quando se passava o seu sonho?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Estava escuro. Já está claro.</default>
@@ -337,7 +340,7 @@
 		<default>Ok.</default>
 	</talk>
 	<teller>
-		<default>Angely vai levar Kat em casa. Chegando lá, Agatha está acordada.</default>
+		<first>Angely vai levar Kat em casa. Chegando lá, Agatha está acordada.</first>
 	</teller>
 	<talk character="Agatha">
 		<default>Que estava fazendo na casa deles já a essa hora?</default>
@@ -445,7 +448,10 @@
 		<default>É bom, de vez em quando. Pra ele te dar valor.</default>
 	</talk>
 	<teller>
-		<default>Kat se tranca no quarto. Angely vai à cidade. De tarde, encontra Mel.</default>
+		<default>Kat se tranca no quarto. Angely vai à cidade.</default>
+	</teller>
+	<teller>
+		<first>De tarde, Angely encontra Mel.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Angely, que coincidência...</default>
