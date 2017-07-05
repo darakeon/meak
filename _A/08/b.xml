@@ -1,23 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="08" scene="b">
 	<teller>
-		<default>Anoitece. O telefone toca. Os dois sobem até a sala. Angely atende.</default>
+		<default>Anoitece. O telefone toca. Angely atende.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Alô? Mel...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Estamos no apartamento de um amigo dela, um tal de Jeremy. Kat tá aí?</default>
+		<out>Estamos no apartamento de um amigo dela, um tal de Jeremy. Kat tá aí?</out>
 	</talk>
 	<talk character="Angely">
 		<default>Tá. Quando vai voltar?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Agora mesmo. Ela vai ficar aqui, é mais seguro.</default>
+		<out>Agora mesmo. Ela vai ficar aqui, é mais seguro.</out>
 	</talk>
 	<talk character="Angely">
 		<default>Tá, tudo bem, até logo.</default>
-		<teller>Angely desliga o telefone</teller>
+	</talk>
+	<talk character="Mel">
+		<default>Até.</default>
+	</talk>
+	<teller>
+		<default>Angely desliga o telefone.</default>
+	</teller>
+	<talk character="Angely">
 		<default>Estão no apartamento de um cara chamado Jeremy, Mel disse que Agatha vai ficar por lá e ela vai voltar.</default>
 	</talk>
 	<talk character="Kat">
@@ -27,40 +34,31 @@
 		<default>Ah?</default>
 	</talk>
 	<talk character="Kat">
-		<default>É, a Agatha é uma inútil nos negócios e eu não tenho tempo, então o presidente é que cuida de tudo. Deve ser ele.</default>
+		<default>O presidente da empresa. Deve ser ele.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Provavelmente.</default>
 	</talk>
+	<teller>
+		<default>Angely se senta no sofá. Edmont chega. Angely levanta.</default>
+	</teller>
 	<talk character="Kat">
-		<default>Tomara que Edmont não...</default>
+		<default>Vai mesmo continuar com isso?</default>
 	</talk>
 	<talk character="Edmont">
-		<arrive>Não o que?</arrive>
-	</talk>
-	<talk character="Kat">
-		<default>Não perca a cabeça. Não fique louco. Não vá parar na cadeia por que foi atrás de algo que não vale nada.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ela me traiu. Não aceito traição.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Sou fruto de uma traição.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas não foi você quem traiu.</default>
+		<default>Ela mentiu. Não aceito mentiras.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Qual vai ser a diferença de matar ela ou não?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Acalmará minha raiva.</default>
+		<default>Vai acalmar minha raiva.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Vai matá-la só por que ela te traiu?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, por que ela tentou me trair com o meu irmão.</default>
+		<default>"Só"?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Tá certo, ela é uma galinha, mas e daí? Por isso vai matá-la?</default>
@@ -90,7 +88,7 @@
 		<default>Eu tenho pena dela.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Angely, quantas vezes ela tentou praticamente te agarrar??? Você lembra???</default>
+		<default>Angely, quantas vezes ela tentou praticamente te agarrar?! Você lembra?!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não acho que ela mereça morrer por isso.</default>
@@ -102,7 +100,7 @@
 		<default>Kat, você não...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Quer saber? Eu não tiro a razão de Edmont por querer vê-la morta. Só estou fazendo isso por que não quero ver meu irmão preso.</default>
+		<default>Quer saber? Só estou fazendo isso por que não quero ver meu irmão preso.</default>
 	</talk>
 	<teller>
 		<default>Kat se levanta.</default>
@@ -111,37 +109,22 @@
 		<default>Onde vai?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Pra casa... Ver se consigo escrever alguma coisa.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vai escrever???</default>
-	</talk>
-	<talk character="Kat">
-		<default>É o que posso ficar fazendo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não vê que estamos com problemas?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ah, é? E o que eu posso fazer? A resposta é: nada. Ninguém pode.</default>
+		<default>Pra casa... Ver se consigo pensar em alguma coisa.</default>
 	</talk>
 	<teller>
 		<default>Ela sai. Ele se deita no sofá.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Que droga, eu pedi tanto pra ela parar... Será que a culpa é minha? Talvez se eu tivesse inventado algo pra eles terminarem...</default>
+		<thought>Que droga, eu pedi tanto pra ela parar... Será que a culpa é minha? Talvez se eu tivesse inventado alguma coisa pra eles terminarem...</thought>
 	</talk>
 	<teller>
-		<default>Edmont, em seu quarto, também fala sozinho.</default>
+		<first>Edmont está em seu quarto, jogado na cama.</first>
 	</teller>
 	<talk character="Edmont">
-		<default>Ela me paga... Me paga... Com o meu irmão... Meu irmão... Como pode ser tão fraco?... Mas foi forte, resistiu a ela, é isso que vale. Ele nunca iria fazer isso comigo.</default>
+		<thought>Ela me paga... Me paga... Com o meu irmão... Meu irmão... Como pode ser tão fraco?... Mas foi forte, resistiu a ela, é isso que vale. Ele nunca iria fazer isso comigo.</thought>
 	</talk>
-	<teller>
-		<default>Angely se encaminha ao quarto, mas resolve ir ao quarto de Edmont.</default>
-	</teller>
 	<talk character="Angely">
-		<default>Posso entrar?</default>
+		<arrive>Posso entrar?</arrive>
 	</talk>
 	<talk character="Edmont">
 		<default>Pode.</default>
@@ -177,7 +160,7 @@
 		<default>Se largar ela também não haverá mais traição.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por isso que a Mel e a Kat nunca gostaram dela... Mas por que elas não me disseram???</default>
+		<default>Por isso que a Mel e a Kat nunca gostaram dela... Mas por que elas não me disseram?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não sabiam se você iria acreditar.</default>
@@ -188,17 +171,11 @@
 	<talk character="Angely">
 		<default>Ela já tentou outras vezes.</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Que???</default>
-	</talk>
+	<teller>
+		<default>Edmont se senta na cama e encara Angely.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Kat viu ela tentar. Por isso elas armaram isso.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E por que você não me contou??? Sabe muito bem que eu acreditaria em você, não nela!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sabia como você reagiria.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não entendo essa pena que você tem dos traidores.</default>
@@ -219,7 +196,7 @@
 		<default>Nem você.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela traiu nosso pai.</default>
+		<default>Ela abandonou nosso pai.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ela era nossa mãe.</default>
@@ -228,19 +205,25 @@
 		<default>Fugiu com outro e nos abandonou.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Nosso pai foi quem seqüestrou ela.</default>
+		<default>Tenho certeza que ela ia voltar. Ela só não ia continuar com o nosso pai.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Se ela não quisesse nada com o nosso pai, não faria nada. Ela traiu os dois. Eu, você e Kat somos as provas vivas disso.</default>
+		<default>Ela traiu os dois. Eu, você e Kat somos as provas vivas disso.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Por que matou o pai de Kat então?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por que ele matou nosso pai. Não deveria te contar, mas... Eu prometi ao nosso pai que me vingaria dos traidores.</default>
+		<default>Por que ele matou nosso pai. Prometi ao nosso pai que me vingaria dos traidores.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Rith e Halen? Ou de mim e Kat também?</default>
+		<default>Nosso pai te pediu isso?</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Não. Ele pediu que cuidasse do povo. Prometi isso sozinho. Hoje eu vejo que não faria sentido. Lisa sabia o que estava fazendo, Rith e Halen não tinham nada a ver com isso.</default>
+	</talk>
+	<talk character="Angely">
+		<default>E Katerine?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Kat não teve culpa.</default>
@@ -249,13 +232,7 @@
 		<default>Mas eu tive, não é?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Você era apenas uma criança, não tinha consciência do que fazia...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tinha sim. Faria de novo. Nosso pai sabia que estava errado. Ele era o melhor lutador que havia. Acha mesmo que ele perderia pra Hery?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Olha, eu...</default>
+		<default>Apenas salvou inocentes da minha raiva cega.</default>
 	</talk>
 	<talk character="Angely">
 		<default>A verdade é que você os culpou pela morte de nosso pai. Eu não.</default>
@@ -279,10 +256,13 @@
 		<default>Foi mesmo? Não é o que eu estou vendo. Será que não está fazendo isso movido por esta raiva que você diz ter morrido?</default>
 	</talk>
 	<teller>
-		<default>Vendo que Edmont fica em silêncio, Angely se levanta e sai do quarto. Vai pra seu quarto. Mel chega e vai até o quarto de Angely.</default>
+		<default>Vendo que Edmont fica em silêncio, Angely se levanta e sai.</default>
+	</teller>
+	<teller>
+		<first>Angely vai pra seu quarto. Deita-se na cama. Suspira.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Como ele ficou?</default>
+		<arrive>Como ele ficou?</arrive>
 	</talk>
 	<talk character="Angely">
 		<default>Quer encontrá-la de qualquer jeito.</default>
@@ -299,6 +279,9 @@
 	<talk character="Mel">
 		<default>Não é da Agatha que eu tô falando.</default>
 	</talk>
+	<teller>
+		<default>Angely baixa a cabeça.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Tirei o retrato da cabeceira da cama.</default>
 	</talk>
@@ -345,7 +328,7 @@
 		<default>Não fala pro Angely, mas Meg gostava do Edmont, não dele.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tadinho...</default>
+		<default>Tá falando sério?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Será que se estivesse trocado seria diferente?</default>
@@ -357,7 +340,7 @@
 		<default>É, teria sido melhor: Edmont aceitaria mais a morte do que a traição. Angely aceitaria mais a traição do que a morte.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Por que nós não podemos prever o futuro?</default>
+		<default>Poderiam ter te mandado isso em sonho.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Poderíamos ter dado um jeito de "trocar".</default>
@@ -377,9 +360,9 @@
 	<talk character="Kat">
 		<default>Talvez não devêssemos mesmo ter contado.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Fizemos tudo errado...</default>
-	</talk>
+	<teller>
+		<default>Novo silêncio.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Mel, lembra daquilo que você pediu pra eu não contar?</default>
 	</talk>
@@ -389,21 +372,8 @@
 	<talk character="Kat">
 		<default>Quase que eu solto.</default>
 	</talk>
-	<teller>
-		<default>Uma folha aparece sobre a mesa.</default>
-		<letter>1o: não ataquem sem saber o que estão atacando;</letter>
-		<letter>2o: uma afirmação vale mais que mil perguntas;</letter>
-		<letter>3o: só quem deve saber do problema é quem nele está envolvido;</letter>
-		<letter>4o: nada se consegue quando se está nervoso(a);</letter>
-		<letter>5o: não aceite provocações e nunca escute o adversário;</letter>
-		<letter>6o: mais importante do que O QUE é COMO fazer;</letter>
-		<letter>7o: não guardem segredos uns dos outros;</letter>
-	</teller>
-	<talk character="Mel">
-		<default>Foi você quem escreveu isso???</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não... Jak!</default>
+	<talk character="Jak">
+		<arrive>Não guardem segredos uns dos outros.</arrive>
 	</talk>
 	<talk character="Mel">
 		<default>Pensei que ele tivesse ido embora...</default>
@@ -446,10 +416,10 @@
 		<default>Isso quem tem que julgar são eles.</default>
 	</talk>
 	<talk character="Mel">
-		<default>E o que digo? Que o pai deles já...</default>
+		<default>E o que digo? Que o pai deles...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Pensei que você tivesse ido embora.</default>
+		<arrive>Pensei que você tivesse ido embora.</arrive>
 	</talk>
 	<teller>
 		<default>Mel estremece ao ouvir a voz de Edmont, que vinha descendo a escada.</default>
@@ -490,32 +460,8 @@
 	<talk character="Jak">
 		<default>Você aceitou a agência.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Jak, ele está falando isso por que está nervoso.</default>
-	</talk>
-	<talk character="Jak">
-		<default>É uma boa hora pra contar pra ele que o pai dele nunca foi santo.</default>
-	</talk>
 	<teller>
-		<default>Jak some.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Do que ele está falando?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Achei que estava dormindo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Estava só deitado. Vim comer alguma coisa. Não respondeu minha pergunta.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Você provocou ele, ele quis te provocar também.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sei...</default>
-	</talk>
-	<teller>
-		<default>Edmont vai pra cozinha. As duas ficam aliviadas.</default>
+		<default>Jak some. Edmont vai pra cozinha. As duas ficam aliviadas.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Ainda bem que ele não ouviu.</default>

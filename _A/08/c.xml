@@ -6,20 +6,14 @@
 	<talk character="Mel">
 		<default>Eu não queria perturbar à essa hora, mas...</default>
 	</talk>
-	<talk character="Agatha">
-		<default>Jeremy...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que aconteceu aqui?</default>
-	</talk>
 	<teller>
-		<default>Mel vê Agatha, que está só com uma camisa de Jeremy.</default>
+		<default>Mel vê Agatha, que está só com uma camisa de Jeremy, e se cala.</default>
 	</teller>
 	<talk character="Jeremy">
 		<default>Droga...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Será que não consegue ficar um dia sem abrir as pernas, não???</default>
+		<default>Tá falando sério?</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Que você tem a ver com isso?</default>
@@ -32,7 +26,7 @@
 		<irony>Contar pra ele?</irony>
 	</talk>
 	<talk character="Mel">
-		<default>Quer saber? Dane-se. Sabe por que estamos impedindo ele de te matar? Por que se ele fizer isso vai pra cadeia. Esse é o único motivo.</default>
+		<default>Acha que estou de protegendo? Só não quero que ele faça merda.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Isso é ridículo. Só por que traí ele...</default>
@@ -62,38 +56,22 @@
 		<default>Agora eu sei por que quis vir pra cá.</default>
 	</talk>
 	<teller>
-		<default>Ela fala e sai do apartamento.</default>
+		<default>Ela vai na direção do elevador.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Não tenho culpa se nem namorado você tem.</default>
 	</talk>
 	<teller>
-		<default>Mel se encaminhava pro elevador, mas pára e volta.</default>
+		<default>Mel para. Ri. Olha para Agatha.</default>
 	</teller>
-	<talk character="Mel">
-		<default>Que disse?</default>
-	</talk>
 	<talk character="Agatha">
 		<default>Eu retiro o que tinha dito antes. Duvido que um deles tenha sequer olhado pra você.</default>
 	</talk>
-	<teller>
-		<default>Ela ri. Não se controla e dá um soco em Agatha.</default>
-	</teller>
 	<talk character="Mel">
-		<frizz>Agora</frizz>
-		<default>eu tô melhor.</default>
+		<default>Tenho certeza que você nunca entenderia. Acho que só não deu em cima do seu pai porque ele morreu antes.</default>
 	</talk>
 	<teller>
-		<default>Jeremy ajuda Agatha a se levantar</default>
-	</teller>
-	<talk character="Jeremy">
-		<default>Não devia tê-la provocado...</default>
-	</talk>
-	<talk character="Mel">
-		<default>E você, não tente defender essa coisa.</default>
-	</talk>
-	<teller>
-		<default>Mel sai do apartamento e volta pra casa. Kat dormiu por lá. Edmont já se arruma pra sair.</default>
+		<default>Mel volta pra casa. Edmont está juntando as coisas pra sair.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Vai atrás da piranha?</default>
@@ -102,31 +80,22 @@
 		<default>Bom saber que tem alguém do meu lado por aqui.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Angely é o único que tá com pena dela aqui.</default>
+		<default>Angely é o único que tá com pena dela.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Aquele lá tem pena até de vírus.</default>
 	</talk>
-	<talk character="Kat">
-		<default>Nós só não queremos que você pague por matar aquela coisa.</default>
-	</talk>
 	<talk character="Mel">
-		<default>Querendo ou não, ela é um ser humano e aos olhos do mundo tem direitos.</default>
+		<default>Mas, querendo ou não, ela é um ser humano. Aos olhos do mundo, tem direitos.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Nisso eu penso depois.</default>
 	</talk>
 	<talk character="Angely">
-		<default>No que?</default>
+		<arrive>No que?</arrive>
 	</talk>
 	<talk character="Mel">
 		<default>No que ele vai fazer com o corpo de Agatha depois que matá-la.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pensei que não estivesse mais pensando nisso.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Pensou errado.</default>
 	</talk>
 	<teller>
 		<default>Kat e Mel saem da cozinha.</default>
@@ -141,31 +110,40 @@
 		<default>Angely se senta à mesa e não responde.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Não precisa responder, eu sei que você gosta de proteger traidores.</default>
+		<default>Tem coração demais pra uma pessoa só.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não, é que tenho coração.</default>
+		<default>Não entendo por que elas...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Coração demais pra uma pessoa só. Aliás, volta pro seu quarto. Precisa descansar.</default>
+		<default>Kat perdeu a família inteira, só teria sobrado a Agatha, e foi abandonada por ela. Mel nunca gostou de nenhuma das duas. Nunca se bicaram. E ela não vê a morte do mesmo jeito que nós.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Mas ela sabe que não deveríamos interromper a vida de alguém assim. Não é assim que somos criados.</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Volta pro seu quarto. Tem que descansar.</default>
 	</talk>
 	<teller>
 		<default>Na sala...</default>
 	</teller>
-	<talk character="Mel">
+	<talk character="Kat">
 		<default>Como podem ser às vezes tão iguais e outras vezes tão diferentes?...</default>
 	</talk>
+	<talk character="Mel">
+		<default>São gêmeos, não a mesma pessoa.</default>
+	</talk>
 	<talk character="Kat">
-		<default>São gêmeos, não a mesma pessoa. Não vai mesmo dizer a eles?</default>
+		<default>Não vai mesmo dizer a eles?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não, Kat. Pra que eles precisam saber?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Pra nada. Mudando de assunto, onde você foi hoje? Saiu tão cedo...</default>
+		<default>Mudando de assunto, onde você foi hoje? Saiu tão cedo...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Eu não quis falar na frente de Edmont, mas eu tenho que contar com alguém, tá entalado na garganta...</default>
+		<default>Que bom que perguntou. Tenho que contar com alguém, tá entalado na garganta...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Que foi?</default>
@@ -174,36 +152,28 @@
 		<default>Eu fui ver se a Agatha ainda estava lá. Quando cheguei no apartamento de Jeremy, ele estava sem camisa e ela estava com a camisa dele.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não...</default>
+		<default>Nossa. Mas ela mal ficou lá...</default>
 	</talk>
 	<talk character="Mel">
-		<default>É. Sabe o que ela me disse quando perguntei com quantos ela tinha traído o Edmont? "De tempos em tempos eu troco"... Adivinha quem era antes dela tentar o Angely?...</default>
-		<teller>Kat olha com espanto pra Mel</teller>
-		<default>Jeremy.</default>
+		<default>Pior. Ela disse que troca de amante de tempos em tempos. Ele foi o alvo antes do Angely. Diz que ele não sabia que ela era comprometida.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Foi ela quem sugeriu o apartamento dele???!</default>
+		<default>Foi ela quem sugeriu o apartamento dele?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Foi... E eu nem desconfiei.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ah, se eu encontro aquela coisa, não vai sobrar nada pro Edmont matar!</default>
+		<default>Edmont vai ser preso.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Calma, Kat. Fora de controle já basta um.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Me dá mais raiva é saber que ele vai ser julgado por isso.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É bem capaz que nós três sejamos apontados como cúmplices, por que sabíamos e não dissemos nada.</default>
+		<default>E somos cúmplices.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Podem ficar sossegadas. Vou dizer que não sabiam de nada.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Edmont, por favor, vai estragar sua vida...</default>
+		<default>Edmont, por favor... Você é novo ainda...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Fala comigo como se eu fosse seu irmão mais novo... Hã, que idéia...</default>
@@ -215,10 +185,10 @@
 		<default>E não podemos ajudar em nada.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Pior é que aquela coisa já deve ter contratado um monte de seguranças.</default>
+		<default>Ela já deve ter contratado um monte de seguranças.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Como vocês podem ser tão frias?</default>
+		<arrive>Como vocês podem ser tão frias?</arrive>
 	</talk>
 	<talk character="Mel">
 		<default>É a mesma facilidade com que ela pode ser vaca daquele jeito.</default>
@@ -235,11 +205,8 @@
 	<teller>
 		<default>Ele corre até a cozinha e não vê ninguém.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Tô começando a ver coisas...</default>
-	</talk>
 	<teller>
-		<default>Entardece. A campainha toca. Angely atende.</default>
+		<first>Entardece. A campainha toca. Angely atende.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Dara...</default>
@@ -263,34 +230,34 @@
 		<default>Agatha tá lá em casa.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Que???</default>
+		<default>Que?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Chegou lá falando um monte de besteiras.</default>
 	</talk>
 	<talk character="Angely">
-		<default>É o primeiro lugar onde ele vai procurar ela...</default>
+		<default>É o primeiro lugar onde ele vai procurar...</default>
 	</talk>
 	<talk character="Dara">
 		<default>Peraí, então é verdade, ele tá mesmo atrás dela?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não foi suficiente pra ela trair ele.</default>
+		<default>Ela tentou trair ele.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Como assim? O que ela fez???</default>
+		<default>Como assim? O que ela fez?</default>
 	</talk>
 	<talk character="Angely">
 		<default>É meio embaraçoso dizer...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Peraí, não foi o que eu tô pensando, foi???</default>
+		<default>Peraí, não foi o que eu tô pensando, foi?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eles saíram, Edmont pediu pra ela ficar aqui, só por que o médico mandou eu descansar...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Ah, não... Ela já tinha feito isso outras vezes?</default>
+		<default>Ela já tinha feito isso outras vezes?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu não entendo, Edmont é igualzinho a mim! Por que ela tinha que fazer isso?</default>
@@ -308,7 +275,7 @@
 		<default>Você já ouviu sua irmã falar alguma coisa de mim?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Ah???</default>
+		<default>Ah?!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Alguma amiga dela?</default>
@@ -317,16 +284,16 @@
 		<default>Por que quer saber?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Kinyn, Helene, Denise, Annie, Agatha... O que elas viram em mim???</default>
+		<default>Queria saber o que viram em mim...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Como você quer que eu saiba???</default>
+		<default>Como você quer que eu saiba?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sei lá! Você é mulher, por isso te perguntei!</default>
+		<default>Você é mulher, por isso te perguntei...</default>
 	</talk>
 	<talk character="Dara">
-		<default>E por que acha que eu tenho obrigação de saber???</default>
+		<default>E por que acha que eu tenho obrigação de saber?!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não é isso que estou dizendo...</default>
@@ -347,22 +314,22 @@
 		<default>Espero que não.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, Jeremy está conversando com um amigo, numa lanchonete.</default>
+		<first>Jeremy está em uma lanchonete.</first>
 	</teller>
 	<talk character="Jeremy">
-		<default>Então você acha que pode haver fundamento, Michael?</default>
+		<default>Então você acha que pode haver fundamento?</default>
 	</talk>
 	<talk character="Michael">
 		<default>Não sei. Eu teria que falar com ela.</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Está lá no meu apartamento. Poderíamos ir até lá pra você falar com ela.</default>
+		<default>Está lá no meu apartamento. Poderíamos ir até lá.</default>
 	</talk>
 	<talk character="Michael">
-		<default>Ela pode não concordar, as mulheres nunca assumem que estão com problemas psicológicos, principalmente algo desse tipo...</default>
+		<default>Ela pode não concordar, é difícil assumir um problema dessa tipo.</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Mas e se minha desconfiança estiver certa???</default>
+		<default>Mas e se minha desconfiança estiver certa?</default>
 	</talk>
 	<talk character="Michael">
 		<default>Jeremy, só passou uma noite com ela, talvez seja exagero seu.</default>
@@ -371,7 +338,7 @@
 		<default>Não foi só uma noite, já estivemos juntos antes...</default>
 	</talk>
 	<talk character="Michael">
-		<default>Olha, eu não posso dar um diagnóstico com base no que alguém veio me dizer. Leva ela no meu escritório, eu faço alguns testes e...</default>
+		<default>Olha, eu não posso dar um diagnóstico com base no que alguém veio me dizer. Leva ela no meu consultório, eu faço alguns testes e...</default>
 	</talk>
 	<talk character="Jeremy">
 		<default>Ela não vai querer ir.</default>
@@ -380,7 +347,10 @@
 		<default>Vai ter que convencê-la.</default>
 	</talk>
 	<teller>
-		<default>Michael pega a maleta e o casaco que trazia consigo, se levanta e sai. Jeremy apoia a cabeça nas mãos, visivelmente preocupado. Então se levanta e vai pro apartamento. Na casa de Denise, 4:00...</default>
+		<default>Michael se levanta e sai. Jeremy apoia a cabeça nas mãos, perturbado. Então se levanta e vai pro apartamento.</default>
+	</teller>
+	<teller>
+		<first>Na casa de Denise, 16:00...</first>
 	</teller>
 	<talk character="Denise">
 		<default>Você não tem medo, não?</default>
@@ -401,31 +371,31 @@
 		<default>Quer mesmo que eu diga como?</default>
 	</talk>
 	<teller>
-		<default>Jeremy liga pra casa de Denise.</default>
+		<default>Toca o telefone.</default>
 	</teller>
 	<talk character="Jeremy">
-		<default>Denise?</default>
+		<out>Denise?</out>
 	</talk>
 	<talk character="Denise">
 		<default>Por que ligou pra cá?</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Posso falar com Agatha?</default>
+		<out>Posso falar com Agatha?</out>
 	</talk>
 	<teller>
-		<default>Agatha faz sinal pra que Denise minta.</default>
+		<default>Agatha faz sinal de negativo para Denise.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Ela não está aqui.</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Eu sei que ela está.</default>
+		<out>Eu sei que ela está.</out>
 	</talk>
 	<talk character="Denise">
 		<default>Olha, eu sinto muito se você não acredita...</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Fala pra ela que eu concordo.</default>
+		<out>Fala pra ela que eu concordo.</out>
 	</talk>
 	<teller>
 		<default>Denise tapa o telefone.</default>
@@ -452,43 +422,43 @@
 		<default>Jerry?</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Agatha, volta pra cá.</default>
+		<out>Agatha, volta pra cá.</out>
 	</talk>
 	<talk character="Agatha">
 		<default>Por que quer que eu fique no seu apartamento?</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Ele não vai vir te procurar aqui.</default>
+		<out>Ele não vai vir te procurar aqui.</out>
 	</talk>
 	<talk character="Agatha">
 		<default>E por que acha que ele vai vir me procurar aqui?</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Ele com certeza vai procurar na casa das suas amigas.</default>
+		<out>Ele conhece sua amiga.</out>
 	</talk>
 	<talk character="Agatha">
 		<default>Não vou ficar aí.</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Por que?</default>
+		<out>Por que?</out>
 	</talk>
 	<talk character="Agatha">
 		<default>Por que você não é homem.</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Que???</default>
+		<out>Que?!</out>
 	</talk>
 	<talk character="Agatha">
 		<default>É isso mesmo que ouviu.</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Olha, eu não posso ficar com você enquanto não resolvermos isso.</default>
+		<out>Olha, eu não posso ficar com você enquanto não resolvermos isso.</out>
 	</talk>
 	<talk character="Agatha">
 		<default>Viu? Não é homem.</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Tá, tudo bem Agatha, eu faço o que você quiser, mas vem pra cá, me disseram que ele já saiu de casa, por favor...</default>
+		<out>Tá, tudo bem Agatha, eu faço o que você quiser, mas vem pra cá, me disseram que ele já saiu de casa, por favor...</out>
 	</talk>
 	<talk character="Agatha">
 		<default>Tá, eu já vou.</default>
@@ -506,6 +476,6 @@
 		<default>Agatha pega a bolsa e sai.</default>
 	</teller>
 	<talk character="Denise">
-		<default>E, Agatha... Cada vez pior.</default>
+		<default>Imagino o que ele ofereceu... Agatha, Agatha... Cada vez pior.</default>
 	</talk>
 </story>

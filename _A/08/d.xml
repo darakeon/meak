@@ -13,13 +13,7 @@
 		<default>Não está tentando me enganar, está?</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Meu amigo disse que pode ter fundamento minha desconfiança.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ah, é? E quem é seu amigo?</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Ele é formado nisso, ele sabe...</default>
+		<default>Meu amigo disse que posso estar certo.</default>
 	</talk>
 	<talk character="Mel">
 		<default>E ele já falou com ela?</default>
@@ -28,22 +22,28 @@
 		<default>Não, mas eu falei com ele...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá, eu vou confiar em você. Vai convencê-la a ir a um médico, pra confirmar isso?</default>
+		<default>Vai convencê-la a ir a um médico, pra confirmar isso?</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Vou. Bom, vou tentar. Mas, enquanto isso, diz que não sabe onde ela está, certo?</default>
+		<default>Vou. Bom, vou tentar. Mas, enquanto isso, diz que não sabe onde ela está.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tudo bem. Vou embora antes que aquela coisa chegue.</default>
+		<default>Tudo bem. Vou indo, com ou sem doença, não quero ver a cara dela.</default>
 	</talk>
 	<talk character="Jeremy">
 		<default>Ah, é, sobre o que aconteceu...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Olha, não me importa se você sabia ou não que ela tinha namorado. O próprio Angely quase acabou cedendo.</default>
+		<default>Eu não tenho nada a ver com isso.</default>
 	</talk>
 	<teller>
-		<default>Mel volta pra casa. Anoitece. Angely está na cozinha e ouve algo estranho. Olha pela janela e vê algo que parece ser uma mulher no jardim.</default>
+		<default>Mel sai. Jeremy espera ela entrar no elevador. Fecha a porta.</default>
+	</teller>
+	<talk character="Jeremy">
+		<default>Se eu soubesse que estava tão perto, não tinha nem encostado na louca da Agatha.</default>
+	</talk>
+	<teller>
+		<first>Anoitece. Angely está na cozinha e ouve algo estranho. Olha pela janela e vê algo que parece ser uma mulher no jardim.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Que foi? Algo errado?</default>
@@ -52,13 +52,13 @@
 		<default>Angely olha pra Mel e, quando volta seu olhar ao jardim, a mulher sumiu.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Nada. Mel, onde você foi?</default>
+		<default>Nada. Onde você foi?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não queimou o jantar dessa vez?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Poderia responder, por favor?</default>
+		<default>Tá mudando de assunto.</default>
 	</talk>
 	<teller>
 		<default>Edmont chega e fica escutando atrás da porta. Mel se senta à mesa.</default>
@@ -73,16 +73,16 @@
 		<default>É, mas ela foi embora.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Como assim???</default>
+		<default>Como assim?!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ele não sabia que ela estava namorando com o Edmont. Nem dessa, nem da outra vez.</default>
+		<default>Ele não sabia que ela estava namorando com o Edmont. Nem dessa, da outra vez.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Outra vez???</default>
+		<default>Outra vez?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pelo jeito ela já traia ele a mais tempo.</default>
+		<default>Pelo jeito ela já traia ele há mais tempo.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Você já não fala dela com tanta raiva.</default>
@@ -104,18 +104,6 @@
 	</talk>
 	<talk character="Edmont">
 		<default>Não, é meu holograma.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por que não me mata também?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sei que não queria nada com ela.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ia acabar acontecendo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Por que você é homem e ela, apesar de se portar como uma cortesã, não é do tipo que um cara olha e nem nota.</default>
 	</talk>
 	<teller>
 		<default>Ele pega uma maçã.</default>
@@ -160,28 +148,31 @@
 		<default>"Por que não?"...</default>
 	</talk>
 	<teller>
-		<default>Angely fica sentado, pensando algum tempo. Depois sobe pra seu quarto. Nenhum deles consegue dormir. Kat também não consegue dormir e sai passeando com Aurium.</default>
+		<first>Madrugada. Kat não consegue dormir. Vai até a cozinha. Pega comida. Aurium a olha.</first>
 	</teller>
 	<talk character="Kat">
-		<default>Aurium! Onde você está??? Que estranho... Olha, eu vou voltar!</default>
+		<default>Isso você quer, né?</default>
 	</talk>
 	<teller>
-		<default>Kat volta pra casa.</default>
+		<default>Ela joga um pedaço de carne. Ele tenta pegar no ar e não consegue. Olha para ela. Ela joga outro. Ele pega no ar. Sai. Ela pega o pedaço do chão e joga no lixo. Balança a cabeça negativamente. Do lado de fora, duas pessoas a observam.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Já tô de saco cheio disso.</default>
+		<default>Preciso falar com ela. Sobre tudo.</default>
+	</talk>
+	<talk character="Jak">
+		<default>Alguém está apaixonado.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Não me interessa o nome que isso tem.</default>
 	</talk>
 	<talk character="Jak">
 		<default>Aguarde mais um tempo.</default>
 	</talk>
 	<teller>
-		<default>Jeremy anda de um lado pro outro, no quarto de seu apartamento.</default>
+		<first>Jeremy anda de um lado pro outro, no quarto de seu apartamento.</first>
 	</teller>
-	<talk character="Jeremy">
-		<default>Como eu vou convencê-la?...</default>
-	</talk>
 	<talk character="Agatha">
-		<default>Jerry, falando sozinho?</default>
+		<arrive>Tá tudo bem?</arrive>
 	</talk>
 	<talk character="Jeremy">
 		<default>Tô sem sono. Pensei que estivesse dormindo.</default>
@@ -217,25 +208,25 @@
 		<default>Agatha se levanta da cama.</default>
 	</teller>
 	<talk character="Jeremy">
-		<default>Onde vai???</default>
+		<default>Onde vai?!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Procurar um homem de verdade.</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Fazer o que???</default>
+		<default>Fazer o que?!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Além de broxa é surdo?</default>
 	</talk>
 	<talk character="Jeremy">
-		<default>Você sabe qual é o perigo de você sair com o primeiro que aparecer???</default>
+		<default>Você sabe qual é o perigo de você sair com o primeiro que aparecer?!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Se for um broxa que nem você eu procuro outro.</default>
 	</talk>
 	<teller>
-		<default>Jeremy pára um pouco, pensa, puxa Agatha e a beija.</default>
+		<default>Jeremy baixa a cabeça e suspira. Agatha vai na direção da porta. Jeremy puxa-a e beija-a.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Mudou de idéia?</default>
@@ -244,7 +235,7 @@
 		<default>Mudei.</default>
 	</talk>
 	<teller>
-		<default>Angely está deitado na cama e ouve uma voz chamar seu nome. Vai até a janela e não vê nada.</default>
+		<first>Angely está deitado na cama e ouve uma voz chamar seu nome. Vai até a janela e nada vê.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Minha imaginação de novo.</default>
@@ -272,12 +263,6 @@
 	</talk>
 	<talk character="Mel">
 		<default>Eu preciso contar algo sobre o seu pai.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Já sei que foi ele que raptou a minha mãe.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu sei que você sabe. É algo que você não sabe...</default>
 	</talk>
 	<talk character="Edmont">
 		<arrive>Não dormiram também?</arrive>
@@ -331,34 +316,16 @@
 		<default>Esquece.</default>
 	</talk>
 	<teller>
-		<default>Mel sai do quarto</default>
-	</teller>
-	<talk character="Angely">
-		<default>Ei, eu detesto isso!</default>
-	</talk>
-	<teller>
 		<default>Mel vai até a cozinha.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Edmont, como você via seu pai?</default>
+		<default>Edmont, lembra do Nilrem?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não entendi o sentido da pergunta.</default>
+		<default>Lembro. Era conselheiro do meu pai, criou ele, e ajudou a gente depois.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Parecia idolatrar ele.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Algo errado?</default>
-	</talk>
-	<talk character="Mel">
-		<default>E se tivesse?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Odeio indiretas.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Acha que ele era perfeito?</default>
+		<default>Acha mesmo que ele era tudo isso?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Você sabe de alguma coisa que eu não saiba?</default>
@@ -377,17 +344,17 @@
 	</teller>
 	<talk character="Edmont">
 		<default>Vou sair.</default>
-		<teller>Edmont fica olhando pra Mel</teller>
+		<teller>fica olhando pra Mel</teller>
 		<default>Não vai dizer nada?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Se você quer continuar pensando nela isso não é problema meu.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Então acha que eu ainda gosto dela??</default>
+		<default>Então acha que eu ainda gosto dela?!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Se não sentisse mais nada, não estaria correndo mais atrás dela.</default>
+		<default>Se não sentisse mais nada, não estaria correndo atrás dela.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Que férias malditas nós tiramos...</default>
@@ -423,16 +390,13 @@
 		<default>Nada.</default>
 	</talk>
 	<teller>
-		<default>Jak desaparece</default>
+		<default>Jak desaparece.</default>
 	</teller>
-	<talk character="Edmont">
-		<default>Esse cara é um pé na idéia. Um só não, uma centopeia inteira.</default>
-	</talk>
 	<teller>
-		<default>Enquanto isso, Angely, que está no jardim, ouve novamente uma voz.</default>
+		<first>Enquanto isso, Angely, que está no jardim, ouve novamente uma voz.</first>
 	</teller>
 	<talk character="Angely">
-		<default>Quem está chamando???</default>
+		<default>Quem está chamando?</default>
 	</talk>
 	<talk character="Meg">
 		<default>Não reconhece mais minha voz?</default>
@@ -456,19 +420,19 @@
 		<default>Falando sozinho?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Onde ela está???</default>
+		<default>Onde ela está?!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela quem?</default>
+		<default>Ela tá estranha, fica jogando indiretas o tempo todo.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Esquece, deve ser minha imaginação.</default>
+		<default>Também está ouvindo?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Mel tá estranha, fica jogando indiretas o tempo todo.</default>
+		<default>Estamos falando da Mel?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu percebi. Parece que quer falar algo e não consegue.</default>
+		<default>Mel... Parece que ela quer falar algo e não consegue.</default>
 	</talk>
 	<teller>
 		<default>Toca o telefone de Edmont e ele atende.</default>
@@ -495,25 +459,5 @@
 	</talk>
 	<talk character="Edmont">
 		<default>Ia, disse bem.</default>
-	</talk>
-	<teller>
-		<default>Entardece. Na casa de Kat...</default>
-	</teller>
-	<talk character="Kat">
-		<default>Aurium... Onde é que você se enfiou???</default>
-	</talk>
-	<teller>
-		<default>Aurium pega um bloco de folhas e entrega à Kat.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Uma roupa??? Pra um garoto de dezoito anos??? Pra que???</default>
-	</talk>
-	<teller>
-		<default>Ele senta e fica olhando pra ela.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Melhor irmos falar com os outros.</default>
-		<teller>Kat pega a coleira, Aurium puxa da mão dela e guarda</teller>
-		<default>Tá legal.</default>
 	</talk>
 </story>
