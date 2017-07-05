@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="14" scene="f">
 	<teller>
-		<default>01/03, quarta, 8:00. Kat acorda assustada.</default>
+		<default>Manhã. Kat acorda, arregalando os olhos. Senta-se. Derik se senta também.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Que foi?!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Shy... Vão matá-la!</default>
+		<default>Shy... Vão matar!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Sabia que ele ainda ia atrás dela!</default>
+		<default>Sabia que ainda ia atrás!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não, ele tava mesmo tentando protegê-la!</default>
+		<default>Não, César tava mesmo tentando proteger!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Quê?! Matamos a garota então???</default>
+		<default>Quê?! Matamos Shy então???</default>
 	</talk>
 	<teller>
-		<default>Kat pega um papel e desenha algo, com uma coordenada embaixo. Derik lê.</default>
+		<default>Kat pega um papel. Desenha algo. Escreve números embaixo. Entrega a Derik. Derik olha. Vai até o computador. Digita os números.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Peraí, acho que isso é onde César mora.</default>
@@ -37,21 +37,21 @@
 		<default>Parece com os símbolos da pedra da fotografia.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Vamos ao apartamento dele, então.</default>
+		<default>Vamos ao apartamento, então.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não é...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Perigoso? Sim. Evitável? Não.</default>
+		<default>Perigoso, mas necessário.</default>
 	</talk>
 	<teller>
-		<default>Ela sai e sobe para a casa de Estela. Michele está lá com ela.</default>
+		<default>Kat sai. Sobe as escadas, para a casa de cima. Bate na porta. Derik segue. Estela abre. Entram. Michele está na sala.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Que isso, vai dar um susto no Alan por ele ter ido sem avisar?</default>
+		<default>Que isso, vai dar um susto em Alan por ter ido sem avisar?</default>
 	</talk>
-	<talk character="Michele">
+	<talk character="Estela">
 		<default>Os dois somem, bem que mereciam.</default>
 	</talk>
 	<talk character="Kat">
@@ -61,16 +61,16 @@
 		<default>Tá.</default>
 	</talk>
 	<teller>
-		<default>As duas levantam. 9:00. Estão no apartamento de César. Kat fecha os olhos e vai andando.</default>
+		<first>Apartamento de César. Kat fecha os olhos. Segue andando.</first>
 	</teller>
 	<talk character="Estela">
-		<default>Que ela tá fazendo?</default>
+		<default>Que tá fazendo?</default>
 	</talk>
 	<talk character="Michele">
-		<default>Lembrando do que sonhou. Sempre faz isso.</default>
+		<default>Lembrando do que sonhou.</default>
 	</talk>
 	<teller>
-		<default>Os três seguem-na. Chegam a uma parede. Kat abre os olhos.</default>
+		<default>Estela, Derik e Michele. Chegam a uma parede. Kat abre os olhos.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Tem alguma coisa errada.</default>
@@ -79,13 +79,13 @@
 		<default>A tinta é nova.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Se tirarmos ela, tiramos a de baixo.</default>
+		<default>Se a gente tirar, tira a de baixo.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não, o que eu quero não era pintado.</default>
 	</talk>
 	<teller>
-		<default>Michele entrega um punhal para Kat.</default>
+		<default>Michele tira um punhal e entrega a Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Vai demorar com isso.</default>
@@ -94,16 +94,22 @@
 		<default>Esperava que eu carregasse uma espátula? Sou caçadora, não pintora.</default>
 	</talk>
 	<teller>
-		<default>Kat vai tirando a tinta. Acha algo que parece um alfabeto. Derik se aproxima.</default>
+		<default>Estela pega o punhal. Começa a raspar a tinta. Kat arqueia as sobrancelhas.</default>
 	</teller>
-	<talk character="Derik">
-		<default>Bom, são este...</default>
-		<teller>toca um deles</teller>
-		<default>Este... E... Este!</default>
-		<teller>toca o terceiro</teller>
+	<talk character="Estela">
+		<default>Pintei casa tanta vez de mudar com Alan... A gente parava em qualquer lugar, eu tinha que fazer parecer um pouco mais com uma casa.</default>
 	</talk>
 	<teller>
-		<default>Uma espécie de portal se abre. 19:00. No continente, Beatrice está andando e uma garota esbarra nela. Ela a segura. Um caminhão passa do lado das duas.</default>
+		<default>Estela consegue descobrir uma lista de símbolos. Derik se aproxima, com o papel na mão.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Estão todos aqui.</default>
+	</talk>
+	<teller>
+		<default>Derik toca três símbolos. A parede de ilumina, as pessoas de afastam.</default>
+	</teller>
+	<teller>
+		<first>Noite. Beatrice está andando. Lara esbarra em Beatrice. Beatrice puxa Lara. Um caminhão passa do lado.</first>
 	</teller>
 	<talk character="Bea">
 		<default>Que foi???</default>
@@ -112,22 +118,25 @@
 		<default>Vampiro...</default>
 	</talk>
 	<teller>
-		<default>23:00, Beatrice chega no apartamento onde estava com Alan.</default>
+		<default>Beatrice chega em um apartamento. Alan está no sofá.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Acho que não vamos encontrá-lo aqui.</default>
+		<default>Acho que não vamos encontrar Zenon aqui.</default>
 	</talk>
+	<teller>
+		<default>Alan olha para baixo.</default>
+	</teller>
 	<talk character="Alan">
-		<default>Sabe que eu até me agarrei à esperança de que ele estivesse vivo?</default>
+		<default>Sabe que eu até me agarrei a esperança de que ele estivesse vivo?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Eu vou ficar por aqui mais um pouco, acho que você deve voltar. Procure saber se foi Beleno quem o matou, nem que precise amarrá-lo até que fale.</default>
+		<default>Eu vou ficar por aqui mais um pouco, acho que você deveria voltar. Procure saber se foi Beleno quem matou, nem que precise amarrar Beleno até falar.</default>
 	</talk>
 	<talk character="Alan">
 		<default>Tá.</default>
 	</talk>
 	<teller>
-		<default>Alan joga tudo dentro da mala, abraça Beatrice e sai. Nas ilhas, Michele, Derik, Estela e Kat estão num lugar sem janelas nem portas, com paredes em pedra e dezenas de estátuas de pessoas. A luz é de tochas. As três estão sentadas no chão. Derik está pulando no meio.</default>
+		<first>Ilhas. Michele, Derik, Estela e Kat estão em um lugar sem janelas nem portas, com paredes em pedra e dezenas de estátuas de pessoas. A luz é de tochas. Michele, Kat e Estela sentaram-se no chão. Derik está pulando no meio.</first>
 	</teller>
 	<talk character="Michele">
 		<default>Não vai alcançar o teto.</default>
@@ -151,7 +160,7 @@
 		<default>É, mas...</default>
 	</talk>
 	<teller>
-		<default>A pedra em cima de move. César olha para eles.</default>
+		<default>A pedra em cima de move. César olha para baixo.</default>
 	</teller>
 	<talk character="César">
 		<default>Que fazem aqui?</default>
@@ -163,7 +172,7 @@
 		<default>Posso jogar junto?</default>
 	</talk>
 	<teller>
-		<default>César pega uma escada e eles sobem.</default>
+		<default>César sai. Volta com uma escada. Desce a escada. Kat, Estela, Michele e Derik sobem.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Onde estamos?</default>
@@ -178,31 +187,34 @@
 		<default>Nada que precisem saber.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Viemos porque descobrimos que realmente estava tentando protegê-la.</default>
+		<default>Viemos porque descobrimos que realmente estava tentando proteger Shy.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Podemos te ajudar, mas vai ter que nos contar o que é aquilo.</default>
 	</talk>
+	<teller>
+		<default>César olha para o céu. Olha para Kat.</default>
+	</teller>
 	<talk character="César">
 		<default>Viram as estátuas?</default>
 	</talk>
-	<talk character="Derik">
-		<default>Sim. Notei que todas estão de boca fechada.</default>
+	<talk character="Kat">
+		<default>Todas estão de boca fechada.</default>
 	</talk>
 	<talk character="César">
-		<default>Sempre ficavam, para que não lhe vissem os dentes. Vampiros nascidos. Foram petrificados. Eu os petrifiquei.</default>
+		<default>Sempre ficavam, para que não lhe vissem os dentes. Vampiros nascidos. Foram petrificados. Eu petrifiquei eles.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Como se desfaz isso?</default>
 	</talk>
 	<talk character="Michele">
-		<default>São vampiros! Não ouviu???</default>
+		<default>São vampiros!!! Não ouviu???</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eu senti algo...</default>
+		<default>Eu senti alguma coisa...</default>
 	</talk>
 	<talk character="César">
-		<default>A bifurcação que separa atlantes e vampiros é mais recente que a que os separa do homo sapiens. São mais próximos de você que os humanos.</default>
+		<default>A bifurcação que separa atlantes e vampiros é mais recente que a que separa do homo sapiens. São mais próximos de você que os humanos.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Se os humanos fossem primos dos atlantes...</default>
@@ -211,7 +223,7 @@
 		<default>Os nascidos seriam irmãos.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não são ferozes, como os CV de sangue acham, não é?</default>
+		<default>Não são ferozes, como os CV de sangue acham, são?</default>
 	</talk>
 	<talk character="César">
 		<default>Nem um pouco.</default>
@@ -220,10 +232,10 @@
 		<default>E o que temos que fazer?</default>
 	</talk>
 	<talk character="César">
-		<default>Impedir que a matem e trazê-la aqui.</default>
+		<default>Impedir que matem Shy e trazer aqui.</default>
 	</talk>
 	<teller>
-		<default>05/03, domingo, 12:00. Shy está em casa, terminando um prato de comida. Raspa ao prato. Lambe. Estende o prato para Soraia.</default>
+		<first>Sol a pino. Shy está em casa, terminando um prato de comida. Raspa ao prato. Lambe. Estende o prato para Soraia. Soraia arca a sobrancelha.</first>
 	</teller>
 	<talk character="Shy">
 		<default>Quero mais.</default>
@@ -236,7 +248,13 @@
 		<screamed>Eu quero mais comida!</screamed>
 	</talk>
 	<talk character="Soraia">
-		<default>Talvez seja ansiedade... Ou gravidez.</default>
+		<default>Talvez seja ansiedade...</default>
+	</talk>
+	<teller>
+		<default>Soraia franze a sobrancelha.</default>
+	</teller>
+	<talk character="Soraia">
+		<default>Ou gravidez...</default>
 	</talk>
 	<talk character="Shy">
 		<default>Não, eu sou virgem, tô com fome!</default>
@@ -251,37 +269,40 @@
 		<default>Estela. Entre.</default>
 	</talk>
 	<teller>
-		<default>Estela entra. Derik vem junto com ela.</default>
+		<default>Estela entra. Derik entra também.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Então, tem visto Alan?</default>
 	</talk>
+	<teller>
+		<default>Soraia cruza os braços.</default>
+	</teller>
 	<talk character="Soraia">
-		<default>Como assim, não sabe onde ele está?</default>
+		<default>Como assim, não sabe onde ele tá?</default>
 	</talk>
 	<talk character="Estela">
 		<default>Olha aqui...</default>
 	</talk>
 	<talk character="Soraia">
-		<default>Clítia ainda está viva e você não sabe onde ele está???</default>
+		<default>Clítia ainda tá viva e você não sabe onde ele tá???</default>
 	</talk>
 	<talk character="Estela">
 		<default>Droga, eu tinha pensado que fosse você quem tivesse...</default>
 	</talk>
 	<teller>
-		<default>Soraia sai da casa, pega seu carro e vai embora.</default>
+		<default>Soraia sai da casa. Barulho de carro arrancando.</default>
 	</teller>
-	<talk character="Derik">
+	<talk character="Kat">
 		<default>Bela tática.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Que tática???</default>
 	</talk>
-	<talk character="Derik">
-		<default>Esquece. Vamos levar a garota.</default>
+	<talk character="Kat">
+		<default>Esquece. Vamos levar Shy.</default>
 	</talk>
 	<teller>
-		<default>Shy aparece com uma besta, ainda mastigando.</default>
+		<default>Shy aparece com uma besta, apontada para Kat, mastigando. As pessoas dão passos para trás.</default>
 	</teller>
 	<talk character="Shy">
 		<default>Pra onde?</default>
@@ -295,32 +316,38 @@
 	<talk character="Derik">
 		<default>Tudo bem, tem relógio lá, te matamos na horinha.</default>
 	</talk>
+	<teller>
+		<default>Estela arregala os olhos.</default>
+	</teller>
 	<talk character="Estela">
 		<default>Derik!</default>
 	</talk>
 	<teller>
-		<default>Os três vão até a MEAK. Shy vê César.</default>
+		<first>MEAK. Kat, Estela, Michele e Derik entram. César está no centro da sala. Shy entra. Olha para Shy.</first>
 	</teller>
 	<talk character="Shy">
 		<default>Tô com fome.</default>
 	</talk>
 	<talk character="César">
-		<default>Venha aqui, eu tenho uma coisa que vai matar sua fome.</default>
+		<default>Sei o que vai matar sua fome.</default>
 	</talk>
 	<teller>
-		<default>Soraia aparece armada.</default>
+		<default>Soraia entra, com uma besta.</default>
 	</teller>
 	<talk character="Soraia">
 		<default>Não vai, mesmo!</default>
 	</talk>
 	<teller>
-		<default>Shy olha para Soraia. Lembra de uma cena, de quando tentou matar César. Depois uma segunda, em que tentou matar de novo. Então de várias vezes presa em jaulas e morta, em diferentes épocas. Muitas lembranças surgem em sua mente. César foge. Shy olha para Soraia, que ainda está voltada para a porta. Joga-a no chão e vai atrás de César. 14:00. Derik, Kat, Michele e Estela chegam ao lugar de onde tinham saído. Abrem. Pegam a escada e descem. O que eram estátuas agora são pessoas olhando para eles.</default>
+		<default>Shy olha para Soraia. Vê várias pessoas com bestas. Outro momento, com armas. Se vê dentro de jaulas. Roupas diferentes. César sai correndo. Soraia, franze a sobrancelha e aponta para César, saindo. Shy joga Soraia no chão. Corre.</default>
+	</teller>
+	<teller>
+		<first>Tarde. Kat, Estela, Michele e Derik chegam ao lugar de onde tinham saído. Kat e Michele movem a pedra. Pegam a escada e descem todo mundo. Dezenas de pessoas, se afastam e vão para os cantos.</first>
 	</teller>
 	<talk character="Derik">
 		<default>Meu Deus...</default>
 	</talk>
-	<talk character="Michele">
-		<default>Onde está César?</default>
+	<talk character="Kat">
+		<default>Onde tá César?</default>
 	</talk>
 	<talk character="Shy">
 		<arrive>Morto.</arrive>
@@ -329,27 +356,27 @@
 		<default>Você...</default>
 	</talk>
 	<talk character="Shy">
-		<default>Sim. Ele queria isso e era o jeito de tirar o feitiço.</default>
+		<default>Sim. César queria isso. Era o jeito de tirar o feitiço.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Por que ele os prendeu?</default>
+		<default>Por que César prendeu todo mundo?</default>
 	</talk>
 	<talk character="Shy">
-		<default>Achava mesmo que éramos perigosos. Quando trouxeram todos, um a um, ele percebeu que não era assim.</default>
+		<default>Achava mesmo que a gente era um perigo. Quando trouxeram todos, um a um, percebeu que não era assim.</default>
 	</talk>
-	<talk character="Kat">
+	<talk character="Michele">
 		<default>Você é rainha deles ou algo do gênero?</default>
 	</talk>
 	<talk character="Shy">
-		<default>Não, apenas a única que tinha sobrevivido.</default>
+		<default>Não, sou quem sobreviveu.</default>
 	</talk>
-	<talk character="Derik">
-		<default>Então porque não falam conosco?</default>
+	<talk character="Kat">
+		<default>Então porque não falam com a gente?</default>
 	</talk>
-	<talk character="Estela">
+	<talk character="Michele">
 		<default>Não devia ter perguntado isso.</default>
 	</talk>
-	<talk character="Derik">
+	<talk character="Kat">
 		<default>Por quê?</default>
 	</talk>
 	<talk character="Estela">
@@ -365,10 +392,10 @@
 		<default>Precisa derrubar uma laranjeira para fazer uma laranjada?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Bom, de qualquer forma, vamos deixar vocês aqui.</default>
+		<default>Zenon e Beatrice não fazem isso, Michele.</default>
 	</talk>
 	<teller>
-		<default>Os quatro saem pela escada. Michele vai até a pedra.</default>
+		<default>Kat sobe a escada. Estela e Derik vão atrás. Michele olha ao redor. Sobe a escada também. Michele vai até a pedra.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Não vai fazer isso.</default>
@@ -380,12 +407,14 @@
 		<default>Sabe que não é a mesma coisa.</default>
 	</talk>
 	<talk character="Michele">
-		<default>Não, você sabe.</default>
+		<default>Não,</default>
+		<frizz>você</frizz>
+		<default>sabe.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Isso quer dizer que não confia em mim?</default>
 	</talk>
 	<teller>
-		<default>Michele baixa a cabeça. Eles saem.</default>
+		<default>Michele baixa a cabeça. Kat segue andando. Estela balança a cabeça para os lados. Segue Kat. Derik ainda olha para Michele. Michele olha para Derik. Segue Kat. Derik também.</default>
 	</teller>
 </story>
