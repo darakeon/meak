@@ -1,14 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="12" scene="e">
-	<talk character="Bea">
-		<default>Estou começando a ficar com ciúmes.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Isso é um bom sinal. Talvez esteja esquecendo Angely.</default>
-	</talk>
-	<talk character="Derik">
-		<default>E que Zenon jamais olharia para Michele.</default>
-	</talk>
+	<teller>
+		<default>Beatrice senta no sofá.</default>
+	</teller>
 	<talk character="Bea">
 		<default>Já limparam a casa?</default>
 	</talk>
@@ -31,13 +25,13 @@
 		<default>Esse é...?</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Hector. É amigo de um dos...</default>
+		<default>Hector. É amizade de...</default>
 	</talk>
 	<talk character="Hector">
 		<default>Na verdade, sou irmão da garota.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Não nos disse isso.</default>
+		<default>Não disse isso.</default>
 	</talk>
 	<talk character="Hector">
 		<default>Fomos criados separados. Conheci através dele, então descobri porque meu pai tinha abandonado a minha mãe.</default>
@@ -51,6 +45,9 @@
 	<talk character="Fábio">
 		<default>Tenho algum trabalho para fazer aqui.</default>
 	</talk>
+	<teller>
+		<default>Hector olha para o chão.</default>
+	</teller>
 	<talk character="Hector">
 		<default>Foi o fora mais educado que já tomei.</default>
 	</talk>
@@ -58,7 +55,7 @@
 		<default>Não é fora, é que não tô com espírito para sair e me divertir, minha amiga desse jeito, com Ludmila...</default>
 	</talk>
 	<talk character="Hector">
-		<default>Ela está há quanto tempo?</default>
+		<default>Faz quanto tempo?</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Do começo do mês.</default>
@@ -67,7 +64,7 @@
 		<default>Então é melhor serem rápidos. Ludmila leva pouquíssimo tempo para acabar com suas vítimas. Aliás, deve estar usando outra também, ou sua amiga já teria ido embora.</default>
 	</talk>
 	<teller>
-		<default>18:00. Na casa de Ludmila, Mel está na cama, dormindo. Ludmila chega. Mel se levanta. Ludmila vai até ela e a beija.</default>
+		<first>Anoitecer. Casa de Ludmila. Mel está na cama, dormindo. Ludmila chega. Mel se levanta. Ludmila vai até Mel e beija.</first>
 	</teller>
 	<talk character="Ludmila">
 		<default>Você é bem resistente. Tive que largar as outras mulheres sempre muito rapidamente, para que não causasse danos.</default>
@@ -86,7 +83,11 @@
 	</talk>
 	<talk character="Ludmila">
 		<default>Que quer dizer isso?</default>
-		<teller>coloca a mão na frente da boca de Mel</teller>
+	</talk>
+	<teller>
+		<default>Ludmila coloca o dedo na frente dos lábios de Mel.</default>
+	</teller>
+	<talk character="Ludmila">
 		<default>Não. Deixe-me pesquisar.</default>
 	</talk>
 	<talk character="Mel">
@@ -96,26 +97,32 @@
 		<default>Sempre encontro o que quero.</default>
 	</talk>
 	<teller>
-		<default>Ludmila a beija de novo. Deita-a. 22:00. Na MEAK, Louis está abraçado com Valquíria. Ela se levanta e olha para ele.</default>
+		<default>Ludmila beija Mel de novo. Beija-lhe o pescoço.</default>
+	</teller>
+	<teller>
+		<first>Noite. MEAK. Louis está na cama, deitou-se com a cabeça no tórax de Valquíria. Valquíria se senta mais para trás e Louis se senta.</first>
 	</teller>
 	<talk character="Valquíria">
 		<default>Temos que pegar Ludmila.</default>
 	</talk>
 	<talk character="Louis">
-		<default>Ela está com uma amiga deles. Estão atrás dela.</default>
+		<default>Ela tá com uma amiga deles. Estão atrás dela.</default>
 	</talk>
 	<talk character="Valquíria">
 		<default>Não teve mais nenhum sonho?</default>
 	</talk>
 	<talk character="Louis">
-		<default>Não. Desde o começo do ano que não os tenho.</default>
+		<default>Não. Desde o começo do ano que não tenho.</default>
 	</talk>
 	<teller>
-		<default>Batem na porta. Louis e Valquíria se vestem.</default>
+		<default>Batem na porta. Louis e Valquíria se levantam. Se vestem.</default>
 	</teller>
 	<talk character="Louis">
 		<default>Entre.</default>
 	</talk>
+	<teller>
+		<default>Kat abre a porta.</default>
+	</teller>
 	<talk character="Kat">
 		<arrive>Temos um problema.</arrive>
 	</talk>
@@ -135,7 +142,7 @@
 		<default>Talvez possamos encontrar outro vidente que possa ir.</default>
 	</talk>
 	<teller>
-		<default>Valquíria pega no braço de Louis.</default>
+		<default>Valquíria pega no braço de Louis. Louis olha para Valquíria, então para Kat.</default>
 	</teller>
 	<talk character="Louis">
 		<default>Pode nos deixar a sós um minuto?</default>
@@ -144,7 +151,7 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Kat sai.</default>
+		<default>Kat sai. Valquíria solta o braço de Louis. Louis vira para Valquíria.</default>
 	</teller>
 	<talk character="Valquíria">
 		<default>Acho que devemos ir.</default>
@@ -159,37 +166,43 @@
 		<default>E Dionísio?</default>
 	</talk>
 	<talk character="Valquíria">
-		<default>Ele saberá se virar.</default>
+		<default>Ele vai saber se virar.</default>
 	</talk>
 	<talk character="Louis">
 		<default>Somos a família dele.</default>
 	</talk>
 	<talk character="Valquíria">
-		<default>Ele vive no mundo, andando por aí, não vai ligar se formos. Só saber onde estamos é o que quer.</default>
+		<default>Ele vive no mundo, andando por aí, não vai ligar se formos. Tem mais gente. Só saber onde estamos é o que quer.</default>
 	</talk>
 	<talk character="Louis">
 		<default>Mas vai ser diferente. Vamos para outra Realidade.</default>
 	</talk>
 	<talk character="Valquíria">
-		<default>Podemos até levá-lo.</default>
+		<default>Podemos até levar ele.</default>
 	</talk>
 	<talk character="Louis">
 		<default>Pode ser. Kat!</default>
 	</talk>
 	<talk character="Kat">
-		<arrive>Sim?</arrive>
+		<out>Sim?</out>
 	</talk>
 	<talk character="Louis">
 		<default>Podemos levar mais alguém?</default>
 	</talk>
+	<teller>
+		<default>Kat entra no quarto.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Na verdade, precisamos juntar seis pessoas.</default>
 	</talk>
 	<talk character="Louis">
-		<default>Então tá. Vamos resolver o problema com Ludmila e depois equilibraremos isso.</default>
+		<default>Então tá. Vamos resolver o problema com Ludmila e depois equilibramos isso.</default>
 	</talk>
 	<teller>
-		<default>Michele entra no quarto do pai. Olha para a câmera: apagada. Começa a mexer nas coisas dele. Acha um caderno velho. Abre. Algum tempo depois, na sala da MEAK, todos estão reunidos.</default>
+		<first>Michele entra no quarto do pai. Olha para a câmera: apagada. Começa a mexer nas coisas. Acha uma gaveta com cadernos diversos. Folheia alguns. Para em um que está incompleto. Começa a ler.</first>
+	</teller>
+	<teller>
+		<first>MEAK. Recepção.</first>
 	</teller>
 	<talk character="Fábio">
 		<default>Tudo que precisamos é juntar provas.</default>
@@ -198,7 +211,7 @@
 		<arrive>Provas do que?</arrive>
 	</talk>
 	<teller>
-		<default>Todos olham para Michele. Está com os olhos em lágrimas.</default>
+		<default>Todos olham para Michele. Tem lágrimas nos olhos.</default>
 	</teller>
 	<talk character="Michele">
 		<default>Se for contra Ludmila, tô dentro.</default>
@@ -216,10 +229,10 @@
 		<default>Minha mãe se matou.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Meu Deus...</default>
+		<default>Michele...</default>
 	</talk>
 	<talk character="Michele">
-		<default>Ela se separou do meu pai e foi morar com Ludmila. Então Ludmila descobriu um feitiço para ficar sempre jovem. Minha mãe não concordou com isso. Mas ela tava grávida e meu pai não sabia. Ludmila se vingou entregando isso, e meu pai me tirou da minha mãe, só deixou ela ficar comigo quando aceitou ficar com ele também. Depois que se cansou, convenceu-a de que era uma má influência por ser lésbica...</default>
+		<default>Ela se separou do meu pai e foi morar com Ludmila. Então Ludmila descobriu um feitiço para ficar sempre jovem. Minha mãe não concordou com isso. Mas minha mãe tava grávida e meu pai não sabia. Ludmila se vingou contando isso pro meu pai, e meu pai me tirou da minha mãe, só deixou ela ficar comigo quando aceitou ficar com ele também. Depois que se cansou, convenceu ela de que era uma má influência por ser lésbica...</default>
 	</talk>
 	<talk character="Alan">
 		<default>Eu sabia que era bruxaria!</default>
@@ -234,7 +247,7 @@
 		<default>Tem algum problema?</default>
 	</talk>
 	<talk character="Kash">
-		<default>Temos que levá-lo agora, ele aceitou?</default>
+		<default>Temos que levar agora, aceitou?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Vocês que vão levar? Não precisam do templo?</default>
@@ -243,7 +256,7 @@
 		<default>Katerine...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Sim, ele aceitou.</default>
+		<default>Sim, aceitou, mas...</default>
 	</talk>
 	<talk character="Louis">
 		<default>Bom, acho que já têm qualquer informação que queiram, mas...</default>
@@ -258,28 +271,31 @@
 		<default>Ei!</default>
 	</talk>
 	<teller>
-		<default>Valquíria também desaparece. Depois os três.</default>
+		<default>Valquíria também desaparece. Depois Kash, Yads e Wige.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Perdemos dois soldados.</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Só impressão ou a informação que precisávamos evaporou?</default>
+		<default>Só impressão ou a informação que a gente precisava evaporou?</default>
 	</talk>
+	<teller>
+		<default>Zenon olha para Kat.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Pode explicar o que acaba de acontecer?</default>
+		<default>Pode explicar o que acabou de acontecer?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Causei um desequilíbrio vindo com os sonhos para cá. Tinha que desfazer a bagunça, poderia trazer muitos problemas.</default>
 	</talk>
 	<talk character="Michele">
-		<default>Vocês não ligam, não é? Sou apenas uma garota fútil que por acaso teve um passado nobre...</default>
+		<default>Vocês não ligam, né? Sou apenas uma garota fútil que por acaso teve um passado nobre...</default>
 	</talk>
 	<talk character="Alan">
 		<default>Permita-me fazer uma correção, mas Lish, ou melhor, você, no começo de sua vida, era bem pior...</default>
 	</talk>
 	<teller>
-		<default>Zenon encara Alan. Vai até Michele e a abraça.</default>
+		<default>Zenon encara Alan. Vai até Michele e abraça.</default>
 	</teller>
 	<talk character="Michele">
 		<default>Não quero voltar pr’aquela casa...</default>
@@ -291,7 +307,16 @@
 		<default>Michele olha para Estela.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Não, dessa vez é verdade. Tem quartos vagos lá em cima, se...</default>
+		<default>Não, dessa vez é verdade.</default>
+	</talk>
+	<teller>
+		<default>Estela e Michele olham para Estela.</default>
+	</teller>
+	<talk character="Michele">
+		<default>Eu fui procurar o caderno porque Ludmila voltou... Eu sabia que meu pai não gostava dela, eu só... Era estranho, ela me tratava diferente das outras garotas...</default>
+	</talk>
+	<talk character="Derik">
+		<default>Tem quartos vagos lá em cima, se...</default>
 	</talk>
 	<talk character="Michele">
 		<default>Posso mesmo?</default>
@@ -309,7 +334,7 @@
 		<default>É, mas eu não posso com Melody e ela me esfola três vezes se eu te deixar contra Ludmila.</default>
 	</talk>
 	<talk character="Rob">
-		<default>Estela!</default>
+		<out>Estela!</out>
 	</talk>
 	<talk character="Estela">
 		<default>Rob?</default>
@@ -330,16 +355,19 @@
 		<default>Acho que vamos ter que deixar o trabalho para amanhã.</default>
 	</talk>
 	<teller>
-		<default>Sábado (28/06), 14:00. Fábio e Beatrice chegam na casa de Janaína. Bea bate na porta do quarto.</default>
+		<first>Tarde. Fábio e Beatrice chegam na casa de Janaína. Bea bate na porta do quarto.</first>
 	</teller>
 	<talk character="Bea">
-		<default>Jana, estou com problemas... Rob, um carinha que ajudamos uma vez, ele precisa de ajuda, de um lugar pra ficar...</default>
+		<default>Jana, estou com problemas... Rob, que ajudamos uma vez, precisa de ajuda, de um lugar pra ficar...</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Janaína?</default>
 	</talk>
 	<teller>
-		<default>Beatrice derruba a porta. Encontram Janaína desacordada. Levam-na para a MEAK. Depois de algum tempo, ela acorda. Está com Fábio e Alan.</default>
+		<default>Beatrice olha para Fábio. Derruba a porta. Encontram Janaína no chão.</default>
+	</teller>
+	<teller>
+		<first>MEAK. Janaína acorda. Está no quarto. Fábio e Alan estão em pé. Fábio está na porta, olhando para fora. Alan na janela.</first>
 	</teller>
 	<talk character="Janaína">
 		<default>Que eu tô fazendo aqui?</default>
@@ -363,16 +391,16 @@
 		<default>Que Hector?</default>
 	</talk>
 	<talk character="Alan">
-		<default>Por que está com ela???</default>
+		<default>Por que tá com ela???</default>
 	</talk>
 	<talk character="Janaína">
-		<default>Não estou com ela! Somos só amigas...</default>
+		<default>Não tô com ela! Somos só amigas...</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Odeio ouvir esse tipo de desculpa, mas acho que parece pior quando o "amigo" sou eu.</default>
 	</talk>
 	<talk character="Janaína">
-		<screamed>Não sou lésbica!</screamed>
+		<default>Não sou lésbica!</default>
 	</talk>
 	<talk character="Fábio">
 		<default>Alan, me dá licença?</default>
@@ -384,7 +412,7 @@
 		<default>Alan...</default>
 	</talk>
 	<teller>
-		<default>Alan sai.</default>
+		<default>Alan sai. Fábio se aproxima e se senta na cama.</default>
 	</teller>
 	<talk character="Fábio">
 		<default>Não precisa se sentir um monstro com isso.</default>
@@ -393,7 +421,7 @@
 		<default>Mas eu não sou!</default>
 	</talk>
 	<talk character="Fábio">
-		<default>Tá. Não vou espalhar isso, mas sei que estava tendo um caso com ela. Ela roubou suas energias, como está fazendo com Mel...</default>
+		<default>Tá. Não vou espalhar isso, mas sei que estava tendo um caso com ela. Ela roubou suas energias, como está fazendo com Mel.</default>
 	</talk>
 	<talk character="Janaína">
 		<default>Jamais faria isso!</default>
@@ -410,9 +438,15 @@
 	<talk character="Janaína">
 		<default>Não ficaria com Mel!</default>
 	</talk>
+	<teller>
+		<default>Fábio levanta.</default>
+	</teller>
 	<talk character="Fábio">
-		<default>Quê? Não tô ouvindo isso, o problema então é ela transar com outra, não te matar???</default>
+		<default>Não tô ouvindo isso, o problema então é ela transar com outra, não te matar???</default>
 	</talk>
+	<teller>
+		<default>Janaína olha para baixo.</default>
+	</teller>
 	<talk character="Janaína">
 		<default>As duas coisas.</default>
 	</talk>
