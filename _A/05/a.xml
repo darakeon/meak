@@ -43,7 +43,7 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Depois de algum tempo, Elian sai. Edmont, percebendo que anoiteceu, decide mudar o alvo de sua procura: de um esconderijo a um lugar onde um vampiro procuraria sua presa. Entra num bar.</default>
+		<first>Edmont, percebendo que anoiteceu, decide mudar o alvo de sua procura: de um esconderijo a um lugar onde um vampiro procuraria sua presa. Entra num bar.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Merda.</default>
@@ -84,7 +84,7 @@
 		<default>Se teu amigo não atrapalhar, não estarei mais.</default>
 	</talk>
 	<teller>
-		<default>Edmont olha ao redor. Uma garçonete vem falar com ele. Ele dispensa a garçonete e volta para casa.</default>
+		<first>Edmont chega em casa.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Então, conseguiram fazer o desenho?</default>
@@ -141,7 +141,7 @@
 		<default>São dez da noite, sua irmã vai me matar.</default>
 	</talk>
 	<teller>
-		<default>Bryan está na frente de casa, com uma garota. Os dois chegam.</default>
+		<first>Bryan está na frente de casa, com uma garota. Os dois chegam.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Kinyn!</default>
@@ -165,7 +165,10 @@
 		<default>É melhor chamar o serviço funerário. Vam'bora.</default>
 	</talk>
 	<teller>
-		<default>Bryan entra. Se ajoelha perto da irmã. Edmont sai. Volta. Toca o ombro de Angely e faz sinal para que saiam, com a cabeça. Angely o segue. Na MEAK, Melody corre para a sala quando os ouve entrando. Suspira.</default>
+		<default>Bryan entra. Se ajoelha perto da irmã. Edmont sai. Volta. Toca o ombro de Angely e faz sinal para que saiam, com a cabeça. Angely o segue.</default>
+	</teller>
+	<teller>
+		<first>Na MEAK, Melody corre para a sala quando os ouve entrando. Suspira.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Não conseguiram.</default>
@@ -234,7 +237,10 @@
 		<default>Ah, eu não vou ficar segurando vela sozinha!</default>
 	</talk>
 	<teller>
-		<default>Kat liga pra Mel. Todos passam a noite na casa de Meg e Kat. De manhã, Angely, Edmont e Mel voltam pra casa.</default>
+		<default>Kat liga pra Mel. Todos passam a noite na casa de Meg e Kat.</default>
+	</teller>
+	<teller>
+		<first>De manhã, Angely, Edmont e Mel voltam pra casa.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Bryan deve estar arrasado.</default>
@@ -258,7 +264,7 @@
 		<default>Elian Menini. Ele era tio da Lara... Peraí, não era tio, se a menina não era filha do irmão dele... Que bagunça.</default>
 	</talk>
 	<teller>
-		<default>Na casa de Kat...</default>
+		<first>Na casa de Kat...</first>
 	</teller>
 	<talk character="Kat">
 		<default>E caramba! Essas duas continuam dormindo... Eu tenho que falar com eles.</default>
@@ -313,7 +319,10 @@
 		<default>Nossa... Caramba...</default>
 	</talk>
 	<teller>
-		<default>Kat fica olhando as armas. Enquanto isso, Edmont e Angely descansam num bar.</default>
+		<default>Kat fica olhando as armas.</default>
+	</teller>
+	<teller>
+		<first>Enquanto isso, Edmont e Angely descansam num bar.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Tá, até agora já vimos quase todos os hotéis, pousadas, pensões e o escambal que estivesse na lista telefônica.</default>
@@ -429,7 +438,10 @@
 		<default>Valeu.</default>
 	</talk>
 	<teller>
-		<default>Eles saem e começam a procurar. Enquanto isso, Mel chega em casa. Vai até o escritório e encontra Kat dormindo.</default>
+		<default>Eles saem e começam a procurar.</default>
+	</teller>
+	<teller>
+		<first>Mel chega em casa. Vai até o escritório e encontra Kat dormindo.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Kat, acorda...</default>
