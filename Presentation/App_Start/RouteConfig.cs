@@ -55,7 +55,7 @@ namespace Presentation.App_Start
                 {
                     seasonID = "[A-Z]",
                     episodeID = "[0-2][0-9]",
-                    sceneID = "[a-z]"
+                    sceneID = "[a-g_]"
                 }
             );
 

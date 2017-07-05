@@ -41,7 +41,12 @@
 @using (Ajax.BeginForm("EditTitle", route, ajaxOptions, html))
 {
     <div class="titleChange">
-        <button type="submit" class="darkback" class="save" id="save_title">Save</button>
+        <button type="submit" class="darkback save">Save</button>
+        
+        @Html.RouteLink("Upload", "Upload",
+            new { seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = "_" },
+            new { @class = "darkback save", target = "_blank" })
+
         @Html.TextBoxFor(m => m.Story.Title)<br />
 
         @Html.TextAreaFor(m => m.Story.Summary)
