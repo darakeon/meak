@@ -1,40 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="17" scene="a">
 	<teller>
-		<default>1820. Zenon (Diego) está num quarto com uma garota, Adele. Beija-lhe o pescoço. Ela se afasta. Ele tira dinheiro do bolso.</default>
+		<division>1820</division>
+	</teller>
+	<teller>
+		<default>Diego está em um quarto com Adele. Está na cama, sentou-se, Adele está de joelhos entre suas pernas. Diego beija o pescoço de Adele. Baixa a manga do vestido. Adele se levanta e se afasta. Diego coloca a mão no bolso e tira dinheiro.</default>
 	</teller>
 	<talk character="Adele">
 		<default>Não é isso.</default>
 	</talk>
-	<talk character="Zenon">
+	<talk character="Diego">
 		<default>É a primeira vez?</default>
 	</talk>
 	<talk character="Adele">
 		<default>Sim.</default>
 	</talk>
-	<talk character="Zenon">
+	<talk character="Diego">
 		<default>Então finge que casou comigo.</default>
 	</talk>
 	<teller>
-		<default>Ele se aproxima dela de novo, tira um anel seu e coloca no dedo dela. Continua beijando-a. Acorda no dia seguinte. Não a vê. Uma mulher entra no quarto.</default>
+		<default>Diego se levanta, tira um anel do dedo mindinho e coloca no anelar de Adele. Pega o queixo dela, levanta e beija. Amanhece. Diego abre os olhos. Olha para a cama. Vazia.</default>
 	</teller>
-	<talk character="mulher">
+	<talk character="Zenaide">
 		<default>Espantou minha nova menina.</default>
 	</talk>
-	<talk character="Zenon">
+	<talk character="Diego">
 		<default>Se fugiu de mim, não era pra estar nesta vida.</default>
 	</talk>
-	<talk character="mulher">
+	<talk character="Zenaide">
 		<default>Ela te contou que era virgem?</default>
 	</talk>
-	<talk character="Zenon">
+	<talk character="Diego">
 		<default>Era isso que ela entendeu quando perguntei se era a primeira vez?</default>
 	</talk>
-	<talk character="mulher">
-		<default>O pai a expulsou porque achou que já tivesse feito alguma coisa.</default>
+	<talk character="Zenaide">
+		<default>O pai expulsou porque achou que tivesse feito alguma coisa.</default>
 	</talk>
 	<teller>
-		<default>Ele ri. Se levanta e sai. Acorda em sua cama, 08/10/2006, domingo. 20:00.</default>
+		<default>Diego ri.</default>
+	</teller>
+	<teller>
+		<division>Atualmente</division>
+	</teller>
+	<teller>
+		<default>Noite. Zenon abre os olhos. Está em sua cama.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Michele?</default>
@@ -49,7 +58,13 @@
 		<default>Por que?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>A Soraia tá aqui dentro.</default>
+		<default>Queria dizer que foi o sonho de quando eu era humano. Mas acho que é por causa da Soraia.</default>
+	</talk>
+	<talk character="Michele">
+		<default>Eu sei que ela é...</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Tá na sala.</default>
 	</talk>
 	<talk character="Michele">
 		<default>De novo?! Ela não tem mais o que fazer, não?!</default>
@@ -60,6 +75,9 @@
 	<talk character="Soraia">
 		<arrive>Não deviam estar levantando, pra caçar?</arrive>
 	</talk>
+	<teller>
+		<default>Zenon senta na cama.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Não tem nada acontecendo nessas ilhas.</default>
 	</talk>
@@ -73,13 +91,13 @@
 		<default>Me importo mais com a vida das pessoas que com a minha...</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Eu sei que não é vida que vai falar, então é melhor não falar, ok? Não precisamos saber da sua vida.</default>
+		<default>Não precisamos saber da sua vida. Nem da outra coisa que você ia dizer.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Ao contrário de você.</default>
 	</talk>
 	<teller>
-		<default>Ela sai. Bate à porta de Alan.</default>
+		<default>Soraia revira os olhos. Sai. Bate a porta de Estela e Alan.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Sim?</default>
@@ -97,16 +115,16 @@
 		<irony>Nosso jantar. Viramos vampiros, não sabia?</irony>
 	</talk>
 	<talk character="Alan">
-		<default>Estela, quem tá aí?</default>
+		<out>Estela, quem tá aí?</out>
 	</talk>
 	<teller>
-		<default>Soraia encara Estela e entra.</default>
+		<default>Soraia encara Estela e entra, esbarrando em Estela.</default>
 	</teller>
 	<talk character="Estela">
-		<irony>Pois não, querida, finja que está em casa!</irony>
+		<irony>Claro, faz de conta que a casa é sua!</irony>
 	</talk>
 	<teller>
-		<default>Estela fecha a porta. Soraia vai até o quarto de Alan e o encara, de braços cruzados.</default>
+		<default>Estela fecha a porta. Soraia vai até quarto. Para na porta de cruza os braços.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Oi.</default>
@@ -118,7 +136,19 @@
 		<irony>Tragam a inquisição, nós estávamos transando!</irony>
 	</talk>
 	<teller>
-		<default>Ela sai e vai bater à porta da casa de Kat e Derik. Derik atende, de lençol.</default>
+		<default>Soraia sai, bufando. Alan levanta da cama e vai para o banheiro.</default>
+	</teller>
+	<talk character="Estela">
+		<screamed>Alan! Roupa da rua!</screamed>
+	</talk>
+	<talk character="Alan">
+		<out>Não tenho culpa!</out>
+	</talk>
+	<talk character="Estela">
+		<default>Vou ter que trocar tudo agora...</default>
+	</talk>
+	<teller>
+		<default>Estela puxa a roupa de cama e joga no chão. Soraia bate a porta de Kat e Derik. Derik abre a porta, enrolou-se em um cobertor, apenas o rosto e as pernas de fora.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Sim?</default>
@@ -133,7 +163,7 @@
 		<default>Por que não procura?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Soraia, hoje é domingo. Porque não simplesmente descansa de vez em quando? Principalmente quando aparentemente nada está acontecendo...</default>
+		<default>Soraia, hoje é domingo. Porque não simplesmente descansa de vez em quando? Principalmente quando aparentemente nada tá acontecendo...</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Aparentemente.</default>
@@ -145,28 +175,42 @@
 		<default>Vai me mandar arranjar um namorado também?</default>
 	</talk>
 	<talk character="Derik">
+		<default>Não. Porque</default>
+		<frizz>você</frizz>
+		<default>quem tem que decidir o que faz da</default>
+		<frizz>sua</frizz>
+		<default>vida. Como</default>
+		<frizz>a gente</frizz>
+		<default>faz com</default>
+		<frizz>a nossa</frizz>
+		<default>.</default>
+	</talk>
+	<teller>
+		<default>Soraia encara Derik.</default>
+	</teller>
+	<talk character="Derik">
 		<default>Olha, se você quer mesmo trabalhar o tempo todo, vai ter que voltar pra onde tem trabalho.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Por que vocês não vão pra lá? Deixem um bilhete dizendo a eles, se é que algum dia eles vão voltar...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Se está tão entediada...</default>
+		<default>A única pessoa com tédio demais pra esperar aqui é você.</default>
 	</talk>
 	<teller>
-		<default>Soraia sai. Derik fecha a porta. Derik joga o lençol no sofá. Está vestido.</default>
+		<default>Soraia sai. Derik fecha a porta. Joga o cobertor no sofá. Está com roupas.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Acho isso sacanagem.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Derik, ela tem que voltar pra vida dela.</default>
+		<default>Soraia tem que voltar pra própria vida.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Por que não podemos simplesmente dizer que estamos de olho, ao invés de fingir que somos relapsos? Acho que ela iria mais fácil.</default>
+		<default>Por que não podemos simplesmente dizer que estamos de olho, ao invés de fingir que estamos pouco nos fodendo? Acho que iria mais fácil.</default>
 	</talk>
 	<teller>
-		<default>Soraia vai até a casa de Aléxis e Beatrice. Abre a porta com tudo. Os dois olham pra ela. Soraia fica feliz.</default>
+		<default>Casa de Beatrice. Soraia abre a porta. Beatrice e Aléxis levantam do chão. Soraia olha para o chão. Uma besta quebrada. Soraia sorri.</default>
 	</teller>
 	<talk character="Soraia">
 		<default>Estão trabalhando?</default>
@@ -178,10 +222,10 @@
 		<default>Deixa eu ver!</default>
 	</talk>
 	<teller>
-		<default>Ela pega arma que estava no chão. Beatrice tira das mãos dela.</default>
+		<default>Soraia entra e pega besta que estava no chão. Beatrice tira das mãos de Soraia.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Ele tava me ensinando a usar.</default>
+		<default>A gente tá tentando consertar.</default>
 	</talk>
 	<talk character="Soraia">
 		<default>Já anoiteceu, podemos caçar.</default>
@@ -196,7 +240,7 @@
 		<default>Soraia sai.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Será que ela vai ficar frustrada?</default>
+		<default>Será que vai se frustrar?</default>
 	</talk>
 	<talk character="Aléxis">
 		<default>Pior que hoje não é nem fingimento... Acho que a gente devia se mudar pra São Paulo.</default>
@@ -205,13 +249,13 @@
 		<default>Sabe porque não vamos. Se você quiser ir...</default>
 	</talk>
 	<teller>
-		<default>Ele se aproxima dela. Segura o rosto dela entre suas mãos.</default>
+		<default>Aléxis se aproxima de Beatrice. Segura o rosto de Beatrice entre suas mãos, olhando nos olhos.</default>
 	</teller>
 	<talk character="Aléxis">
 		<default>Quer que eu vá?</default>
 	</talk>
 	<teller>
-		<default>Ela se afasta.</default>
+		<default>Beatrice se afasta.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Não devia fazer isso.</default>
@@ -220,23 +264,29 @@
 		<default>Achei que era com ele. Mas você tá se protegendo de tudo e de todos.</default>
 	</talk>
 	<teller>
-		<default>Ele a abraça.</default>
+		<default>Beatrice vai até a cozinha e coloca a besta em cima da mesa. Aléxis abraça Beatrice pelas costas. Beatrice pousa seus braços sobre os de Aléxis.</default>
 	</teller>
 	<talk character="Aléxis">
-		<default>Você está segura agora.</default>
+		<default>Você tá segura agora.</default>
 	</talk>
 	<teller>
-		<default>Ela se afasta de novo.</default>
+		<default>Beatrice abre os braços de Aléxis.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Os outros é que não estão.</default>
+		<default>As outras pessoas é que não estão.</default>
 	</talk>
 	<teller>
-		<default>Beatrice sai. Encontra Zenon na cidade.</default>
+		<default>Beatrice sai da cozinha, passa pela sala, pega um casaco e sai de casa. Aléxis vai até a porta. Baixa a cabeça. Fecha a porta.</default>
+	</teller>
+	<teller>
+		<first>Zenon está andando pela cidade.</first>
 	</teller>
 	<talk character="Bea">
-		<default>Procurando?</default>
+		<arrive>Procurando?</arrive>
 	</talk>
+	<teller>
+		<default>Zenon para olha para Beatrice, atrás de si.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Não agüentei. Falei pra Michele falar pra Soraia que fui dar pro Etos se ela perguntar.</default>
 	</talk>
@@ -244,7 +294,7 @@
 		<arrive>Mas aí eu preciso confirmar.</arrive>
 	</talk>
 	<talk character="Zenon">
-		<default>Não, aí você se aproveita que faz tempo que ela não...</default>
+		<default>Não, aí você se aproveita que faz tempo que Soraia não...</default>
 	</talk>
 	<talk character="Bea">
 		<default>Zenon!</default>
@@ -259,19 +309,22 @@
 		<default>Legal, agora vai fazer o que?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Ele não vai matá-la, você sabe disso.</default>
+		<default>Etos não vai matar Soraia, você sabe disso.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Talvez ela se mate pelo que fez depois...</default>
+		<default>Talvez se mate pelo que fez depois. Viu como reagiu com Alan, sabe como olha pra gente.</default>
 	</talk>
+	<teller>
+		<default>Zenon franze a sobrancelha.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Acha que ela cede?</default>
+		<default>Acha que cede?</default>
 	</talk>
 	<talk character="Bea">
 		<default>Acha que não?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Pra mim, ela é de gelo.</default>
+		<default>Pra mim, é de gelo.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Já tentou?</default>
@@ -280,13 +333,25 @@
 		<default>Só pode. Tem umas cicatrizes, mas feia não é. Pra não sair com ninguém, deve ser de gelo.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Ou estar traumatizada. Ou apaixonada.</default>
+		<default>Ou ter algum trauma. Ou amar alguém já.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ou é de gelo.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não existem pessoas de gelo. Eu vou procurar o Etos e impedir que tente algo com ela.</default>
+		<default>Não existem pessoas de gelo.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Tem gente que não gosta de sexo.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Assexual estrito.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Ah... Tem um nome... Isso quer dizer que fui ofensivo, né?</default>
+	</talk>
+	<talk character="Bea">
+		<default>Bem Alan. Eu vou procurar Etos e impedir que tente algo com Soraia.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Sabe que só tem um jeito.</default>
@@ -298,71 +363,98 @@
 		<screamed>Eu?!</screamed>
 	</talk>
 	<teller>
-		<default>Beatrice pega Zenon pelo braço e sai arrastando. Procuram e nada. Dali a pouco, vê do alto de um prédio uma vampira segurando uma pessoa. Pula, a vampira o vê e ele tira uma estaca e enfia nela.</default>
+		<default>Beatrice sai andando. Zenon bufa. Segue Beatrice.</default>
+	</teller>
+	<teller>
+		<first>Zenon está no alto de um prédio. Olha para baixo. Uma pessoa segura outra contra a parede. Pula. Cai no chão, de costas. Fica no chão. Louise solta Maya. Se aproxima de Zenon. Sorri. Zenon se vira e lhe crava uma estaca. Arregala os olhos. Louise se desfaz.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Que merda...</default>
 	</talk>
-	<talk character="garota">
+	<talk character="Maya">
 		<default>Você me salvou... Veio do céu?</default>
 	</talk>
+	<teller>
+		<default>Zenon levanta.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Não vai fazer a piadinha do caiu de cara, ou bateu no poste, pegou fogo e apagaram na porrada, né?</default>
 	</talk>
-	<talk character="garota">
+	<talk character="Maya">
 		<default>Ah?!</default>
 	</talk>
 	<teller>
-		<default>Zenon pega o celular e liga pra Beatrice.</default>
+		<default>Zenon pega o celular. Anda alguns passos, olhando para a tela. Disca. Coloca na orelha e espera.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Pode me ajudar? Pulei de um prédio e me estrepei...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Tá aí um termo que eu não ouvia faz tempo... Tá praticando esportes radicais agora? Pára-quedismo sem pára-quedas?</default>
+		<out>Tá aí um termo que eu não ouvia faz tempo... Tá praticando esportes radicais agora? Pára-quedismo sem pára-quedas?</out>
 	</talk>
 	<talk character="Zenon">
 		<default>É sério. Salvei alguém de uma vampira. Tô perto do prédio abandonado.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Tô indo praí.</default>
+		<out>Tô indo praí.</out>
 	</talk>
 	<teller>
-		<default>Ele desliga. Vai até as roupas.</default>
+		<default>Zenon desliga. Vai até as roupas.</default>
 	</teller>
-	<talk character="garota">
+	<talk character="Maya">
 		<default>Acha que ser lésbica é pecado?</default>
 	</talk>
+	<teller>
+		<default>Zenon abaixa perto das roupas.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Depende, tá traindo alguém?</default>
 	</talk>
 	<teller>
-		<default>A garota se cala.</default>
+		<default>Maya emgole seco. Zenon franze a sobrancelha e olha para Maya.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Usando alguém pra fingir que não é?</default>
 	</talk>
 	<teller>
-		<default>Ela continua calada.</default>
+		<default>Maya olha para o chão. Zenon levanta.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Vai falar com ele.</default>
+		<default>Olha, eu sou hétero, então não tem muito o que eu dar conselho. Mas, se não der mesmo pra sair do armário, talvez pudesse procurar alguém que estivesse no armário também. Vocês podiam até rir disso.</default>
 	</talk>
 	<teller>
-		<default>De cabeça baixa, a garota vai embora.</default>
+		<default>Zenon sorri. Maya continua olhando.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Cada uma que me aparece...</default>
+		<default>Você não vai pro inferno. Pode ir pra casa agora.</default>
 	</talk>
 	<teller>
-		<default>Ele volta a mexer nas roupas. Acha um anel numa corrente. Coloca o anel na mão. Lembra de ter colocado o anel na mão de Adele, quando estava bêbado, num prostíbulo. No dia seguinte, ela fugira. 1836. Ele e Clítia matam seu marido. Ela e sua filha estão reféns deles.</default>
+		<default>Maya sai.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Eu devia começar a vir com uma camiseta com isso escrito.</default>
+	</talk>
+	<teller>
+		<default>Zsnon abaixa perto das roupas novamente. Levanta a camiseta e sacode. Cai uma corrente com um anel. Zenon solta a camiseta e pega o anel. Coloca de volta no mindinho.</default>
+	</teller>
+	<teller>
+		<default>1836</default>
+	</teller>
+	<teller>
+		<default>Um corpo sem sangue no chão. Clítia segura Adele. Zenon segura Louise.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Quem a gente mata primeiro?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Acho que a filha dela.</default>
+		<default>O desespero da sua parece maior. E você ficou com ele.</default>
 	</talk>
+	<talk character="Clítia">
+		<default>Não tenho culpa se seu gosto é tão seletivo.</default>
+	</talk>
+	<teller>
+		<default>Zenon mostra os dentes.</default>
+	</teller>
 	<talk character="Clítia">
 		<default>Não quer se divertir com ela primeiro?</default>
 	</talk>
@@ -370,50 +462,56 @@
 		<default>NÃO!</default>
 	</talk>
 	<teller>
-		<default>Adele tenta se soltar e Clítia segura mais forte.</default>
+		<default>Adele se mexe mais. Clítia segura mais forte.</default>
 	</teller>
 	<talk character="Clítia">
-		<default>Ela merece conhecer essas coisas antes de morrer, não acha? Vai deixar a coitadinha morrer virgem?</default>
+		<default>Não tô falando de forçar, calma. Não somos monstros. Eu ia perguntar pra ela. Acho que merece conhecer essas coisas antes de morrer, não acha? Vai deixar a coitadinha morrer virgem?</default>
 	</talk>
 	<talk character="Adele">
 		<default>Ela é sua filha, Diego, não faz isso!</default>
 	</talk>
 	<teller>
-		<default>Zenon solta Louise, surpreso.</default>
+		<default>Zenon franze a sobrancelha. Solta Louise. Louise se vira e olha para Zenon. Clítia ri. Solta Adele. Adele vai até Louise, abraça.</default>
 	</teller>
 	<talk character="Clítia">
-		<default>Não tinha sentido isso ainda, querido? Podemos levá-la conosco e ensinar a viver, se achar que ela tem tanta vocação quanto você...</default>
+		<default>Não tinha sentido isso ainda, querido? Se te deixar feliz, podemos leva conosco e ensinar a viver. Acha que ela tem tanta vocação quanto você?</default>
 	</talk>
 	<teller>
-		<default>Louise vai até a mãe e quebra-lhe o pescoço.</default>
+		<default>Adele arregala os olhos. Afasta de Louise. Tem uma daca enfiada em seu estômago. Adele cai. Louise olha para Zenon.</default>
 	</teller>
 	<talk character="Louise">
-		<default>Sempre achei que os filhos devessem ficar com os pais.</default>
+		<default>Sempre quis conhecer você.</default>
 	</talk>
 	<talk character="Clítia">
 		<default>Gostei de você...</default>
 	</talk>
+	<teller>
+		<default>Louise olha para Clítia.</default>
+	</teller>
 	<talk character="Louise">
 		<default>Ouvi boatos... É possível fazer o que se faz com homens sem homens?</default>
 	</talk>
 	<talk character="Clítia">
-		<default>Você é bonita, mas não vou largá-lo...</default>
+		<default>Você é bonita, mas não vou largar Zenon. Não faz ideia do quanto...</default>
 	</talk>
 	<talk character="Louise">
-		<default>Não precisa largá-lo.</default>
+		<default>E quem falou nisso?</default>
 	</talk>
 	<teller>
-		<default>Ela beija Clítia, apenas um encostar de bocas.</default>
+		<default>Louise vai até Clítia. Dá um beijo, encostando apenas sua boca na boca de Clítia.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Ainda tem muito que aprender. Mas eu te ensino.</default>
 	</talk>
 	<teller>
-		<default>Clítia a beija, de verdade. Zenon se levanta.</default>
+		<default>Clítia dá um beijo de língua em Louise. Zenon se dirige à porta.</default>
 	</teller>
 	<talk character="Clítia">
 		<default>Aonde vai?</default>
 	</talk>
+	<teller>
+		<default>Zenon franze a sobrancelha e olha para Clítia.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Ela é minha filha...</default>
 	</talk>
@@ -421,6 +519,6 @@
 		<default>Algum problema?</default>
 	</talk>
 	<teller>
-		<default>Ele olha pra ela, com olhar de repreensão. Ela continua olhando como se fosse natural. Ele balança a cabeça. Sai. As duas continuam.</default>
+		<default>Zenon encara Louise. Louise dá um passo em direção a Zenon, Zenon sai da casa. Louise solta os ombros. Vira-se. Vai até Clítia e beija, dessa vez, de língua.</default>
 	</teller>
 </story>
