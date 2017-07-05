@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="10" scene="e">
+	<teller>
+		<default>Zenon para o chão. Franze a sobrancelha. Olha para Alete.</default>
+	</teller>
 	<talk character="Zenon">
 		<default>Peraí, desde quando você fala???</default>
 	</talk>
 	<talk character="Alete">
-		<default>Desde que percebi que meu jeito de boa moça não agrada mais. Um morreu, outro não me quer... Posso virar prostituta.</default>
+		<default>Desde que percebi que meu jeito de boa moça não agrada mais. Um morreu, outro não me quer. Posso virar prostituta.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Só de vampiros?</default>
@@ -16,7 +19,7 @@
 		<default>Torraria seus clientes!</default>
 	</talk>
 	<talk character="Alete">
-		<default>Não teria nenhum obcecado por mim e não ganharia só o que quisessem me pagar, já pegava todo o dinheiro... Peraí, tem os pégasos... Esqueci de testar um dos meus conhecidos, será que dá pra eu fazer o gênero frágil de novo?</default>
+		<default>Não teria nenhum obcecado por mim e não ganharia só o que quisessem me pagar, já pegava todo o dinheiro... Tem os pégasos... Esqueci de testar um dos meus conhecidos, será que dá pra eu fazer o gênero frágil de novo?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Era tudo fingimento?!</default>
@@ -25,13 +28,13 @@
 		<default>Preciso me proteger.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>E por que fui... excluído da lista?</default>
+		<default>E por que fui excluído da lista?</default>
 	</talk>
 	<talk character="Alete">
 		<default>Você quem saiu de fininho. E quem disse que você foi excluído?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Não está fingindo...</default>
+		<default>Não está fingindo.</default>
 	</talk>
 	<talk character="Alete">
 		<default>Você não é chegado em boas moças.</default>
@@ -41,11 +44,15 @@
 	</talk>
 	<talk character="Alete">
 		<default>Beleno. Mas teria que me livrar de Inês.</default>
-		<teller>olha para a janela que estava olhando antes</teller>
+	</talk>
+	<teller>
+		<default>Alete olha novamente para a janela que olhara antes.</default>
+	</teller>
+	<talk character="Alete">
 		<default>Vocês bonzinhos ou fingidos de bonzinhos são muito complicados. Acho que vou ter que procurar entre garotos maus.</default>
 	</talk>
 	<teller>
-		<default>Zenon olha para o prédio e procura algo. Nada.</default>
+		<default>Zenon olha para o prédio.</default>
 	</teller>
 	<talk character="Alete">
 		<default>Devia parar de procurar o que eu quero e começar a procurar o que você quer.</default>
@@ -57,13 +64,22 @@
 		<default>Mandei você procurar o que você quer, não disse o que era.</default>
 	</talk>
 	<talk character="Zenon">
-		<default>É mesmo... A Mel!</default>
+		<default>Tem razão...</default>
 	</talk>
 	<teller>
-		<default>Ele sai. 2:00 (28/05 – quarta). Edmont se levanta da cama.</default>
+		<default>Zenon arregala os olhos.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Mel!</default>
+	</talk>
+	<teller>
+		<default>Zenon corre.</default>
+	</teller>
+	<teller>
+		<first>Madrugada. Edmont se levanta da cama.</first>
 	</teller>
 	<talk character="Edmont">
-		<default>Faz algum tempo que tô me sentindo vigiado, você não?</default>
+		<default>Faz algum tempo que tô sentindo vigia, você não?</default>
 	</talk>
 	<talk character="Pandora">
 		<default>Está falando fora seu irmão?</default>
@@ -75,7 +91,7 @@
 		<default>Já tentou procurar?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Sei que não está perto, sentiria o cheiro.</default>
+		<default>Sei que não tá perto, sentiria o cheiro.</default>
 	</talk>
 	<talk character="Pandora">
 		<default>Olha pela janela.</default>
@@ -84,29 +100,35 @@
 		<default>Talvez fuja.</default>
 	</talk>
 	<talk character="Pandora">
-		<default>Não se gostar de homem. Não há motivos pra fugir de você se a pessoa gosta de homem.</default>
+		<default>Não se gostar de homem. Não tem motivos pra fugir de você se a pessoa gosta de homem.</default>
 	</talk>
 	<teller>
-		<default>Edmont dá um sorriso sacana. Abre a janela e olha direto para Alete, que estava sentada na frente de um poste.</default>
+		<default>Edmont vai até a janela. Abre. Olha para Alete. Alete sentou-se em frente a um post.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Encontrei. É mulher.</default>
+		<default>Encontrei.</default>
 	</talk>
 	<talk character="Pandora">
-		<default>Ué, já não sabia disso?</default>
+		<default>É homem ou mulher?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tenho um bom faro, não sou adivinha. Zenon e Mel estiveram ali embaixo, pelo jeito ela não é muda. Só não sabia que era ela olhando.</default>
+		<default>Alete. Ouvi a conversa mais cedo, Zenon e Mel estiveram ali também. Descobriram que a pessoa fala. Só não sabia que era quem tava olhando.</default>
 	</talk>
 	<talk character="Pandora">
 		<default>Atriz? Adoro atrizes.</default>
 	</talk>
+	<teller>
+		<default>Edmont olha para Pandora.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Por quê?</default>
 	</talk>
 	<talk character="Pandora">
 		<default>Meu pai as odiava. Diz que eram as "incitadoras da luxúria, desobediência e mentira". Pudera, na época eram prostitutas.</default>
 	</talk>
+	<teller>
+		<default>Edmont olha para Alete.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Acho que, na época em que nasceu, atriz e prostituta eram sinônimos.</default>
 	</talk>
@@ -114,16 +136,16 @@
 		<default>Quem sabe ela não é as duas coisas?</default>
 	</talk>
 	<teller>
-		<default>Ele continua olhando para Alete. Ela levanta-se do chão. Ele faz sinal com o dedo para que ela vá até ele. Ela vai até o quarto. Chega na porta. Edmont abre sem que ela bata.</default>
+		<default>Alete levanta-se do chão. Edmont faz um aceno leve com a cabeça para baixo e para cima. Alete entra no prédio. Sobe o elevador. Vai até a porta do quarto. Edmont abre antes que Alete encoste na porta.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Posso te ajudar em alguma coisa?</default>
 	</talk>
 	<talk character="Alete">
-		<default>Do jeito como falou, parecia que sabia.</default>
+		<default>Parecia que sabia.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Estou apenas tentando te irritar. Resolveu largar o Batman?</default>
+		<default>Resolveu largar o Batman?</default>
 	</talk>
 	<talk character="Pandora">
 		<default>"Batman"? Algum caçador de vampiros noturno ou que nos caçava em cavernas, achando que poderíamos virar morcegos?</default>
@@ -141,19 +163,22 @@
 		<default>Bem pior que isso. Pena que voltou ao normal. Vamos ficar falando dele?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É legal. Ele não pode me impedir de falar mal dele, daí ele não fica feliz.</default>
+		<default>É legal. Não pode me impedir de falar mal de si.</default>
 	</talk>
+	<teller>
+		<default>Pandora olha Alete de cima a baixo.</default>
+	</teller>
 	<talk character="Pandora">
 		<default>Também não pode te impedir de fazer uma festinha.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Na verdade, ele tá me pressionando pra matar você e levar Alete pra lá.</default>
+		<default>Na verdade, tá me pressionando pra matar você e levar Alete pra lá.</default>
 	</talk>
 	<talk character="Alete">
-		<default>Adoraria uma festinha com vocês dois.</default>
+		<default>Pegaria você e ele fácil.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não foi nisso que ele pensou.</default>
+		<default>Não foi nisso que Angely pensou.</default>
 	</talk>
 	<talk character="Alete">
 		<default>Que pena. Então acho que não vou.</default>
@@ -162,16 +187,22 @@
 		<default>Achei que seu irmão não matasse nem uma mosca.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Você não tem uma alma para ser salva.</default>
+		<default>Você não tem uma alma para que te salvem.</default>
 	</talk>
 	<talk character="Pandora">
 		<default>E o que é uma alma afinal? Nada.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Digamos que sua alma seja a influência do seu anjo da guarda, que acaba de ser demitido. Virou humano.</default>
+		<default>Pensa que a alma é tipo uma influência de anjo da guarda. Agora se tornou uma criatura humana.</default>
 	</talk>
 	<talk character="Alete">
-		<default>Acho que agora entendi a explosão demográfica. Estou pensando agora... Devia ter aceitado dormir com o dono das Ilhas. A essa hora eram minhas.</default>
+		<default>Acho que agora entendi a explosão demográfica.</default>
+	</talk>
+	<teller>
+		<default>Alete se senta em uma cadeira.</default>
+	</teller>
+	<talk character="Alete">
+		<default>Estou pensando agora... Devia ter aceitado dormir com o dono das Ilhas. A essa hora eram minhas.</default>
 	</talk>
 	<teller>
 		<default>Edmont se aproxima de Alete.</default>
@@ -185,14 +216,20 @@
 	<talk character="Alete">
 		<default>Fênix e vampiro. Há uma atração tão forte que torna os dois irracionais.</default>
 	</talk>
+	<talk character="Edmont">
+		<default>Não só com homens.</default>
+	</talk>
 	<talk character="Pandora">
 		<default>Acabou de transar comigo.</default>
 	</talk>
 	<talk character="Alete">
 		<default>Também não faz muito tempo que estive com alguém.</default>
 	</talk>
+	<talk character="Pandora.">
+		<default>Nunca transei com mulher.</default>
+	</talk>
 	<teller>
-		<default>Ele olha para Pandora. Se afasta de Alete. Senta-se numa cadeira. Alete vai até Pandora. Angely está em seu quarto, andando de um lado a outro.</default>
+		<default>Edmont olha para Pandora. Se afasta de Alete. Senta-se em uma cadeira. Alete vai até Pandora. No quarto de Angely, Angely anda de um lado a outro. Beatrice está na cama, deitou-se.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Não vai descansar para ir à escola?</default>
@@ -204,13 +241,13 @@
 		<default>Matar? Achei que não matava...</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ela teve mais de duzentos anos e decidiu-se pelo mal.</default>
+		<default>Duzentos anos. Pandora preferiu perder a alma. Pediu para perder a alma.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Mas não há mesmo como salvá-la?</default>
+		<default>Mas não há mesmo como salvar?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ela não quer ser salva.</default>
+		<default>Não quer que salvemos.</default>
 	</talk>
 	<talk character="Bea">
 		<default>Como pode saber?</default>
@@ -222,7 +259,7 @@
 		<irony>Deus?</irony>
 	</talk>
 	<teller>
-		<default>Angely olha nos olhos de Beatrice.</default>
+		<default>Angely olha para Beatrice.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Então Edmont não tava inventando...</default>
@@ -237,7 +274,7 @@
 		<default>Mesmo que quiséssemos armar um plano, Edmont veria e ouviria.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Armo um plano sozinha.</default>
+		<default>Armo um plano sem você.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Edmont ouviu isso também.</default>
@@ -246,7 +283,7 @@
 		<default>Sabe que vou fazer algo, mas não sabe o que.</default>
 	</talk>
 	<teller>
-		<default>Melody está saindo de uma casa, sem fazer barulho. Dá de cara com Rust.</default>
+		<first>Melody sai de uma casa. Encosta a porta com cuidado. Vira-se e quase bate em Rust. Contrai o corpo e solta. Coloca a mão no tórax. Tira.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Que tá fazendo aqui?</default>
@@ -267,38 +304,47 @@
 		<default>Um casal que Virgine quer.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Então veio a mando dela.</default>
+		<default>Então veio a mando de Virgine.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Ela nem sabe que estou aqui.</default>
+		<default>Nem sabe que estou aqui.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Vai fazer surpresa?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Acha que, se eu tivesse vindo aqui pra transformar alguém, avisaria uma caçadora? Fui criado pelo mesmo cara que o Dilan, mas não sou tão burro e prepotente.</default>
+		<default>Acha que, se eu tivesse vindo aqui pra transformar alguém, avisaria alguém que me caça? Fui criado pela mesma criarura que criou Dilan, mas não tenho a mesma burrice e prepotência.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Poderia usar isso pra me confundir.</default>
+		<default>Sabe que isso é meio que uma piada interna, né?</default>
+	</talk>
+	<talk character="Rust">
+		<default>Não sabia que não conhecia Dilan.</default>
+	</talk>
+	<talk character="Mel">
+		<default>Você poderia estar tentando me confundir.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Ou poderia ter vindo atrás de você. Fugiu da minha pergunta.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Vai me dizer que não sentiu o cheiro naquela mulher?</default>
+		<default>Eu te disse que tava a trabalho.</default>
 	</talk>
 	<talk character="Rust">
-		<default>Cheiro?</default>
+		<default>Achei que tava mentindo.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Posso dizer que ela dorme com mais de três por noite e não gosta muito de banhos.</default>
+		<default>Por que eu faria isso?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Ah, sim... Então por isso seu desespero.</default>
+		<default>Não sei explicar porque metade dos humanos faz isso. A outra metade é só estupidez, não tem explicação.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Sim.</default>
+		<default>Não sou um ser humano.</default>
 	</talk>
+	<teller>
+		<default>Rust olha para o horizonte.</default>
+	</teller>
 	<talk character="Rust">
 		<default>Vai amanhecer.</default>
 	</talk>
@@ -309,31 +355,34 @@
 		<default>Falsifiquei sua letra pro Jessé. Disse que, por motivos pessoais, não iria hoje. Que tinha que acalmar seus nervos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Já acalmei. Vai me prender, Virgine quer alguma coisa com Edmont?</default>
+		<default>Já acalmei. Vai tentar me prender? Virgine quer alguma coisa com Edmont?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Por que tem que se tratar sempre deles?</default>
+		<default>Por que tem que se tratar sempre de Virgine e Edmont?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Me disseram que você...</default>
 	</talk>
 	<teller>
-		<default>Rust beija Mel. 6:00. Kat e Estela acordam, se trocam e vão ao quarto de Derik.</default>
+		<default>Rust beija Mel.</default>
+	</teller>
+	<teller>
+		<first>Manhã. Quarto de Derik. Kat e Estela entram, com uniforme da escola.</first>
 	</teller>
 	<talk character="Kat">
-		<default>É, Beatrice deve ter chegado. Ele não abandonaria a recepção.</default>
+		<default>É, Beatrice deve ter chegado. Derik não abandonaria a recepção.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Deve ter chegado tarde, ele já devia ter acordado.</default>
+		<default>Deve ter chegado tarde, já devia ter acordado.</default>
 	</talk>
 	<teller>
-		<default>Kat vai até Derik. Passa a mão na cabeça dele. Ele olha para ela. Se levanta bruscamente.</default>
+		<default>Kat vai até Derik. Passa a mão no cabelo de Derik. Derik abre os olhos. Sorri. Arregala os olhos e levanta de uma vez.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Esqueci do café de vocês!</default>
 	</talk>
 	<teller>
-		<default>Ele sai correndo. As duas descem as escadas e vão até a cozinha.</default>
+		<default>Sai correndo. Kat e Estela se entreolham. Saem, passam pelo corredor, descem, atravessam a sala e vão até a cozinha.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Não esqueceu de mais nada, não?</default>
@@ -360,54 +409,58 @@
 		<default>Mas no que se formou? Não lembro de uma matéria que você...</default>
 	</talk>
 	<teller>
-		<default>Ele volta a mexer nas coisas da cozinha.</default>
+		<default>Derik vira para o armário e tira pratos. Pega copos. Coloca um na cafeteira. Liga.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Estela, precisa ser tão dura???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não fiquei chateado. Estou apenas mostrando.</default>
+		<default>Não fiquei mal. Estou apenas mostrando.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Mostrando?!</default>
+		<default>Mostrando?! Se formou em pegar louça no armário?!</default>
 	</talk>
 	<talk character="Derik">
-		<default>Cuidar da casa. Arrumação, cozinha, etc. É profissão levada a sério de onde venho.</default>
+		<default>Cuidar da casa. Arrumação, cozinha, limpeza, etc. É profissão levada a sério de onde venho.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Quando te conheci, parecia meio normal e machista...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Lembra que eu disse que atravessar realidades pode mudar a personalidade de alguém por algum tempo?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mudança brusca...</default>
+		<default>Por isso disse que tinha aprendido isso de onde veio.</default>
 	</talk>
 	<teller>
-		<default>Derik fica a fisionomia.</default>
+		<default>Derik olha para Kat.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Não gosta assim?</default>
+		<default>Algum problema?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Quando te conheci só namorei com você porque beijava bem. Prefiro assim.</default>
+		<default>Cê podia dar todas as informações de uma vez...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Legal. Com licença.</default>
+		<default>Quando eu lembrar de alguma diferente, eu dou.</default>
 	</talk>
 	<teller>
-		<default>Derik pega um copo de café e leva para a sala. As duas o seguem.</default>
+		<default>A cafeteira apita.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Já volto.</default>
+	</talk>
+	<teller>
+		<default>Derik pega o copo de café e vai para a sala. Kat e Estela seguem. Derik se aproxima de Alan, que está no sofá.</default>
 	</teller>
 	<talk character="Estela">
 		<default>Tá, o que o Alan tá fazendo dormindo aí?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Você mesma já respondeu sua pergunta. Tá dormindo.</default>
-		<teller>Estela o encara</teller>
-		<default>Ele falou pra eu ir dormir que ele cuidava. Nunca mais aceito.</default>
+		<default>Já respondeu sua própria pergunta.</default>
 	</talk>
 	<teller>
-		<default>Ele cutuca Alan, que acorda. Entrega o café. Alan toma.</default>
+		<default>Estela encara Derik.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Falou pra eu ir dormir que cuidava da recepção. Nunca mais aceito.</default>
+	</talk>
+	<teller>
+		<default>Derik cutuca Alan. Alan acorda. Derik estende o café. Alan pega. Toma um pouco. Contrai o rosto.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Tá forte!</default>
@@ -419,11 +472,23 @@
 		<default>Michele!</default>
 	</talk>
 	<teller>
-		<default>7:30. Alan chega à casa de Michele.</default>
+		<default>Casa de Michele. Alan chega. Olha o relógio. Franze a sobrancelha.</default>
 	</teller>
-	<talk character="Michele">
-		<default>Tava na farra?!</default>
+	<talk character="Alan">
+		<default>Sete e meia?!</default>
 	</talk>
+	<teller>
+		<default>Alan solta os ombros.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Derik me sacaneou...</default>
+	</talk>
+	<talk character="Michele">
+		<arrive>Tava na farra?!</arrive>
+	</talk>
+	<teller>
+		<default>Alan olha para Michele.</default>
+	</teller>
 	<talk character="Alan">
 		<default>Não. Tava cuidando da MEAK.</default>
 	</talk>
@@ -436,4 +501,7 @@
 	<talk character="Michele">
 		<default>Não fuja do assunto.</default>
 	</talk>
+	<teller>
+		<default>Alan cruza os braços.</default>
+	</teller>
 </story>
