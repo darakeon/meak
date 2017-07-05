@@ -1,13 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="07" scene="c">
 	<teller>
-		<default>Angely e Mel estão na cozinha. Edmont chega.</default>
-	</teller>
-	<teller>
-		<default>(ANGELY JÁ CONHECE DARA)</default>
+		<default>Edmont chega na MEAK. Angely e Mel estão na mesa comendo sanduíches.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Ainda bem que dessa vez resolveram só conversar.</default>
+		<default>Parece mais saudável.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Bebemos até cair, dormimos no sofá e acordamos de ressaca. Acha mesmo que queremos repetir isso?</default>
@@ -25,11 +22,14 @@
 		<default>Com a Handhara.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que disse a ela?</default>
+		<default>Que disse?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Perguntei se ela já tinha pensado em matar a irmã.</default>
 	</talk>
+	<teller>
+		<default>Angely para de mastigar.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Disse isso assim?</default>
 	</talk>
@@ -64,13 +64,13 @@
 		<default>Angely se levanta e sobe a escada.</default>
 	</teller>
 	<talk character="Mel">
-		<default>Bom, melhor não tocarmos nesse assunto.</default>
+		<default>Bom, melhor não tocar nesse assunto.</default>
 	</talk>
 	<teller>
-		<first>Na casa da Denise...</first>
+		<first>Casa da Denise.</first>
 	</teller>
 	<talk character="Dara">
-		<default>Que ódio... Quem ele acha que é?! Só por que é famoso acha que pode ficar mandando em mim?!</default>
+		<default>Que ódio... Quem ele acha que é?! Só porque é famoso acha que pode ficar mandando em mim?!</default>
 	</talk>
 	<talk character="Denise">
 		<arrive>De quem está falando?</arrive>
@@ -81,6 +81,9 @@
 	<talk character="Denise">
 		<default>Não precisa responder, eu sei.</default>
 	</talk>
+	<teller>
+		<default>Dara franze a testa. Desfranze.</default>
+	</teller>
 	<talk character="Dara">
 		<default>O que você está fazendo no meu quarto?</default>
 	</talk>
@@ -88,7 +91,7 @@
 		<default>Não adianta ficar nervosinha, eu ouvi vocês conversando.</default>
 	</talk>
 	<teller>
-		<default>Dara empalidece.</default>
+		<default>Dara fecha a boca. Olha fixo para Denise.</default>
 	</teller>
 	<talk character="Dara">
 		<default>O que você ouviu?</default>
@@ -109,7 +112,7 @@
 		<default>Você não vai ficar com ele. Já viu como se veste? Como se comporta? Se toca, a Agatha é melhor que você.</default>
 	</talk>
 	<teller>
-		<default>Dara fica aliviada. Ri.</default>
+		<default>Dara ri. Solta os ombros. Balança a cabeça olhando para o chão, ainda com o sorriso. Olha para Denise.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Do que está falando?</default>
@@ -130,10 +133,10 @@
 		<default>O que fez? Ele ia terminar e você ameaçou contar pra namorada dele?</default>
 	</talk>
 	<teller>
-		<default>Dara pega Denise pelo braço, coloca pra fora do quarto e fecha a porta.</default>
+		<default>Dara revira os olhos. Pega Denise pelo braço, leva para fora do quarto. Bate a porta.</default>
 	</teller>
 	<teller>
-		<first>Noite. Em casa, Kat acorda assustada. Vai à MEAK.</first>
+		<first>Noite. Em casa, Kat acorda. Respira fundo. Vai até o banheiro. Passa água no rosto. Olha no espelho. Troca de roupa. Corre até a MEAK.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Gente, eu preciso falar com vocês!</default>
@@ -148,9 +151,9 @@
 		<default>Que foi, Kat? Você tá alterada...</default>
 	</talk>
 	<teller>
-		<default>Edmont pega Kat pela mão e faz sentar no sofá.</default>
+		<default>Mel pega a mão de Kat. Vai com Kat até o sofá. Sentam-se.</default>
 	</teller>
-	<talk character="Edmont">
+	<talk character="Mel">
 		<default>Como foi exatamente aquele sonho?</default>
 	</talk>
 	<talk character="Kat">
@@ -172,25 +175,25 @@
 		<default>É, realmente...</default>
 	</talk>
 	<teller>
-		<default>Kat levanta e sai. Os três se entreolham. Ela volta.</default>
+		<default>Kat levanta. Abre a porta. Sai. Fecha a porta. Os três se entreolham. Kat abre a porta de novo.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Queriam falar da banda?</default>
 	</talk>
 	<teller>
-		<first>Na casa de Denise, algum tempo depois...</first>
+		<first>Casa de Denise.</first>
 	</teller>
 	<talk character="Dara">
 		<screamed>Sai daqui, não volta, que merda, eu já disse!</screamed>
 	</talk>
 	<teller>
-		<default>Dara atira um objeto pela janela. Denise entra no quarto.</default>
+		<default>Dara pega uma caixa. Joga pela janela. Denise entra no quarto.</default>
 	</teller>
 	<talk character="Denise">
 		<default>Que isso?! Que está fazendo?!</default>
 	</talk>
 	<talk character="Dara">
-		<default>Qual o problema? Não quer escândalo na sua casa?</default>
+		<default>Qual o problema? Não quer escândalo na sua casa?!</default>
 	</talk>
 	<talk character="Denise">
 		<default>Você é louca!</default>
@@ -205,7 +208,7 @@
 		<default>Não sou eu quem tem toda a atenção dos nossos pais! Tudo é pra você, só você, o que você quer, o que você escolheu, o que você acha melhor!</default>
 	</talk>
 	<talk character="Denise">
-		<default>Pára de fazer tempestade em copo d’água!</default>
+		<default>Pára de fazer tempestade em copo d'água!</default>
 	</talk>
 	<talk character="Dara">
 		<default>Por que?! Por que você quer?! Você pode mandar nos nossos pais, mas em mim não!</default>
@@ -218,18 +221,6 @@
 	</talk>
 	<talk character="Denise">
 		<default>Olha aqui, sua esquisita...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Esquisita? Agora eu sei por que eles preferem você, você é toda certinha, nunca desce do salto, sempre muito educadinha, com amigos, sociável! Paty nojenta, piranha, vaca, vadia!</default>
-	</talk>
-	<talk character="Denise">
-		<default>Eu vou falar com nosso pai...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Isso me dá nojo! Você não reage! Não diz o que pensa! Hipócrita!</default>
-	</talk>
-	<talk character="Denise">
-		<default>Pára com isso!</default>
 	</talk>
 	<talk character="Dara">
 		<default>Qual o problema? Tem algum dos seus amiguinhos aí?!</default>
@@ -253,7 +244,7 @@
 		<default>Dara, volta aqui!</default>
 	</talk>
 	<teller>
-		<default>Angely está do lado de fora da casa. Um cara chega de moto.</default>
+		<default>Angely está do lado de fora da casa. Há também um homem em uma moto. Dara vai na direção dele.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Que você ainda tá fazendo aqui?!</default>
@@ -271,16 +262,16 @@
 		<default>Com minha irmã.</default>
 	</talk>
 	<talk character="Denzel">
-		<default>Já disse pra você, Handhara, vem comigo, larga sua família.</default>
+		<default>Já disse pra você, Handhara, vem comigo, larga essa... "família".</default>
 	</talk>
 	<teller>
-		<default>Dara ignora e vai em outra direção. Denzel desce da moto e segura o braço de Dara.</default>
+		<default>Dara segue andando. Denzel desce da moto, acelera e segura o braço de Dara. Angely vai na direção deles.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Me solta.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Você é surdo?</default>
+		<default>Ei!</default>
 	</talk>
 	<talk character="Dara">
 		<default>Que tá fazendo aqui?</default>
@@ -289,10 +280,10 @@
 		<default>Não se mete nisso, garoto.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Denzel, me solta!</default>
+		<default>Denzel, solta!</default>
 	</talk>
 	<teller>
-		<default>Denzel solta o braço dela.</default>
+		<default>Denzel solta o braço de Dara.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Angely, eu sei me cuidar sozinha.</default>
@@ -306,23 +297,23 @@
 	<talk character="Angely">
 		<default>Então quer mesmo matar sua irmã?</default>
 	</talk>
+	<teller>
+		<default>Dara cruza os braços e encara Angely.</default>
+	</teller>
 	<talk character="Denzel">
-		<default>Handhara, eu te levo daqui.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Ótimo.</default>
+		<default>Eu te levo daqui.</default>
 	</talk>
 	<teller>
-		<default>Dara sobe na moto. Denzel encara Angely e dá um sorriso de deboche. Eles saem. Angely volta pra casa.</default>
+		<default>Dara vai até a moto. Denzel sorri de canto. Olha para Angely. Vai até a moto. Entrega o capacete para Dara. Sobe na moto. Dara sobe atrás. Denzel olha mais uma vez para Angely. Liga a moto. Acelera parada. Arranca.</default>
 	</teller>
 	<teller>
-		<first>Edmont vai até a casa de Agatha.</first>
+		<first>Edmont está na casa de Agatha.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Ela não quer falar com você, não.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Mas por que?</default>
+		<default>Por quê?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Acho que tem algo a ver com a Handhara.</default>
@@ -343,7 +334,7 @@
 		<default>Denise me contou que esteve lá, procurando a Handhara.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Que ciúmes mais bobo...</default>
+		<default>Pera, é ciúmes?!</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Ela ouviu vocês conversando.</default>
@@ -367,7 +358,7 @@
 		<default>Você tá mentindo pra mim.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Aquela garota é meio pirada.</default>
+		<default>Você nem imagina...</default>
 	</talk>
 	<talk character="Agatha">
 		<default>E o que você tava mandando ela não fazer?</default>
@@ -397,7 +388,7 @@
 		<default>Sabe muito bem que ela já tem dezoito.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tanto faz, ela é maluca.</default>
+		<default>Tanto faz.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Escuta, Edmont...</default>
@@ -424,13 +415,13 @@
 		<default>Tudo bem. Já que você acha que eu tava ameaçando a Handhara, então vai lá e pergunta pra ela. Liga lá.</default>
 	</talk>
 	<teller>
-		<default>Agatha pega o telefone e liga pra casa de Denise.</default>
+		<default>Agatha pega o telefone. Digita. Espera.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Alô... ### Denise? ### Sou eu, Agatha. ### Eu quero falar com a Handhara. ### Tá, tudo bem, eu ligo depois.</default>
 	</talk>
 	<teller>
-		<default>Ela desliga e encara Edmont.</default>
+		<default>Agatha desliga e encara Edmont.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>E?</default>
@@ -439,7 +430,7 @@
 		<default>Você sabia que ela não estaria em casa, por isso mandou eu ligar.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Tá, Agatha. Pense o que quiser. Quando você conseguir falar com ela, voltamos a nos falar.</default>
+		<default>Tá, Agatha. Pensa o que quiser. Quando você conseguir falar com ela, voltamos a nos falar.</default>
 	</talk>
 	<teller>
 		<default>Edmont sai.</default>
