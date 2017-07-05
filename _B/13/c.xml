@@ -1,3 +1,428 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="13" scene="c">
+	<teller>
+		<default>Zenon sobe. Alan desce.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Alguém anotou a placa?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Amanhã eu vou ver se há lugar na creche pra Inês. Alan, vai ter que ficar aqui na recepção.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Tá.</default>
+	</talk>
+	<talk character="Kat">
+		<default>Temos algo para fazer aqui?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Alan, não devia estar caçando, como Beatrice e Zenon?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Boa idéia. Já treinei demais. Alan, vamos sair, eu, você e Michele.</default>
+		<screamed>Chele! Mi!</screamed>
+	</talk>
+	<teller>
+		<default>Kat sobe a escada.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Obrigado por estragar minha noite.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Você nem sustenta isso aqui. Se vamos ter uma agência mesmo, temos que trabalhar. Afinal, quem vai entrar com o dinheiro não somos nós.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Mas por que ela vai financiar isso aqui? Não é uma coisa que vá dar lucro e sei que o namorado rico ela já perdeu...</default>
+	</talk>
+	<talk character="Janaína">
+		<arrive>Não preciso dele.</arrive>
+	</talk>
+	<teller>
+		<default>Alan se vira e olha para Janaína.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Eu ia dizer. Ela veio falar com Estela sobre os cargos.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Não quis te ofender. É que achei que não trabalhasse.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>E não mesmo. Fiz um curso de administração, para ajudar Etos. Deve servir para alguma coisa.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Ah, é, você tem as Ilhas!</default>
+	</talk>
+	<talk character="Janaína">
+		<default>E recebo os impostos. Estela?</default>
+	</talk>
+	<talk character="Derik">
+		<default>No quarto dela. Alan, leva a Janaína lá, já que é seu quarto também.</default>
+	</talk>
+	<teller>
+		<default>Os dois sobem. Entram no quarto de Estela.</default>
+	</teller>
+	<talk character="Janaína">
+		<default>Oi.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Que ótimo, você veio... Alan, que tá fazendo aqui?</default>
+	</talk>
+	<talk character="Alan">
+		<default>É meu quarto também.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Pensei que estivesse caçando.</default>
+	</talk>
+	<talk character="Kat">
+		<arrive>E ele vai.</arrive>
+	</talk>
+	<teller>
+		<default>Kat sai do quarto. Volta, puxa Alan pelo braço.</default>
+	</teller>
+	<talk character="Inês">
+		<arrive>Querem ajuda?</arrive>
+	</talk>
+	<talk character="Estela">
+		<default>Vai ficar com o Derik, se não ele dorme da recepção.</default>
+	</talk>
+	<teller>
+		<default>Inês sai. Janaína se senta no chão, onde também está Estela.</default>
+	</teller>
+	<talk character="Janaína">
+		<default>Já pensou em alguma coisa?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Zenon, Beatrice e Beleno estão em operações. Kat, Alan e Michele vão pro reconhecimento e defesa. Derik e eu na pesquisa.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Presidente...?</default>
+	</talk>
+	<talk character="Estela">
+		<default>As pessoas geralmente tomam o comando das coisas quando sabem lidar melhor com o assunto, melhor deixar seguir naturalmente.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>E eu?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Quer fazer algum trabalho?</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Tenho o dinheiro, mas isso não quer dizer que não possa fazer algum serviço. Com um bom programa de computador, as coisas saem fácil, não preciso ficar fazendo contas...</default>
+	</talk>
+	<talk character="Estela">
+		<default>Sabe lutar?</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Nem com barata.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Tá. Eu te coloco na área de pesquisa.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Melhorou. E o orçamento?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Por enquanto, tudo que estamos precisando é pro tal armário que o Derik quer fazer. Eu, Kat e Alan trabalhamos.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Estão sustentando todo mundo???</default>
+	</talk>
+	<talk character="Estela">
+		<default>Michele chegou agora, Beleno toma banho no lago e não usa luz, Inês é uma criança e Derik arruma a casa inteira.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Zenon e Beatrice...</default>
+	</talk>
+	<talk character="Estela">
+		<default>Nem gastam muito e trazem dinheiro dos vampiros e coisas que matam.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Vocês eu sei que trabalham na loja, mas e Alan?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Está sendo pago pelo Grupo para cuidar de Michele.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Peraí, o Zenon também não?</default>
+	</talk>
+	<talk character="Estela">
+		<default>Se demitiu ontem.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Eu posso pagar vocês como pago a polícia...</default>
+	</talk>
+	<talk character="Estela">
+		<default>Não é bom sairmos dos nossos empregos, são estratégicos, Alan treina mais um para a agência e trabalhamos numa loja que, no submundo, vende armas.</default>
+	</talk>
+	<talk character="Janaína">
+		<default>Tá. Mas insisto em pagá-los.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Se você quer assim...</default>
+	</talk>
+	<teller>
+		<default>07/07 (segunda), 5:00. Beatrice e Zenon chegam. Encontram Inês, Derik e uma garota, aparentando uns seis anos, todos dormindo. Zenon fica estático.</default>
+	</teller>
+	<talk character="Bea">
+		<hushed>Como alguém pode fazer isso com uma criança???</hushed>
+	</talk>
+	<talk character="Zenon">
+		<hushed>Conheço essa.</hushed>
+	</talk>
+	<talk character="Bea">
+		<hushed>Ela é muito ruim?</hushed>
+	</talk>
+	<talk character="Zenon">
+		<hushed>Não sei. Vi o enterro dela quando eu tinha 10 anos. Depois só de relance. Ouvi falar que gosta de ser amiga imaginária.</hushed>
+	</talk>
+	<talk character="Bea">
+		<hushed>Meu Deus...</hushed>
+	</talk>
+	<talk character="Zenon">
+		<hushed>É de primeira linhagem. Foi transformada por Valesca.</hushed>
+	</talk>
+	<talk character="Bea">
+		<hushed>Então...</hushed>
+	</talk>
+	<talk character="Zenon">
+		<hushed>Sem alma.</hushed>
+	</talk>
+	<teller>
+		<default>Zenon pega uma estaca e se aproxima da garota. Guilherme o joga longe e pega a menina no colo. Derik e Inês acordam.</default>
+	</teller>
+	<talk character="Guilherme">
+		<default>Lica, você tá bem???</default>
+		<teller>ela se segura forte nele</teller>
+		<screamed>Que ia fazer, seu animal???</screamed>
+	</talk>
+	<talk character="Zenon">
+		<screamed>É uma vampira de primeira linhagem! E agora eu caço de vampiros! É seu novo caso, virou pedófilo???</screamed>
+	</talk>
+	<teller>
+		<default>Guilherme se vira para Beatrice.</default>
+	</teller>
+	<talk character="Guilherme">
+		<default>Segura o idiota do seu namorado, se não ele vira pó rapidinho!</default>
+	</talk>
+	<teller>
+		<default>Guilherme sai com Lica no colo. Derik encara Zenon.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Inês, não percebeu o que ela era???</default>
+	</talk>
+	<teller>
+		<default>Inês começa a chorar, Derik a abraça.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Tá ficando louco??? Deu pra atacar criancinhas agora???</default>
+	</talk>
+	<teller>
+		<default>Derik sobe a escada com Inês no colo.</default>
+	</teller>
+	<talk character="Zenon">
+		<default>Temos que jogá-la no sol.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Uma estaca deve doer menos.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Acho que, se ela for inocente, talvez seja transformada em humana de novo. Se tiver uma estaca cravada no peito, não vai adiantar muita coisa.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Isso quer dizer que devo te jogar no sol?</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Eu... não seria perdoado.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Depois de assustar uma criança, não mesmo.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Ela pode ser...</default>
+	</talk>
+	<talk character="Bea">
+		<default>Tô falando da Inês.</default>
+	</talk>
+	<talk character="Zenon">
+		<default>Ah.</default>
+	</talk>
+	<talk character="Bea">
+		<default>Não vai pedir desculpa?</default>
+	</talk>
+	<teller>
+		<default>Zenon encara Beatrice. Esta devolve. Guilherme entra num do hotel com Lica. Coloca-a no chão.</default>
+	</teller>
+	<talk character="Lica">
+		<default>Ainda bem que me protegeu.</default>
+	</talk>
+	<talk character="Guilherme">
+		<default>Já falhei alguma vez?</default>
+	</talk>
+	<talk character="Lica">
+		<default>Desde que me encontrou, ficou bem mais fácil ficar viva.</default>
+	</talk>
+	<talk character="Guilherme">
+		<default>Continua sendo amiga imaginária.</default>
+	</talk>
+	<talk character="Lica">
+		<default>E você continua fazendo o trabalho dos suicidas.</default>
+	</talk>
+	<talk character="Guilherme">
+		<default>Jeitos de sobreviver sem fazer barulho. Ainda mata quem te diz que você não existe, que é ilusão?</default>
+	</talk>
+	<talk character="Lica">
+		<default>Não apreciam minha ajuda ou crescem. Quem não reclama, fica vivo.</default>
+	</talk>
+	<talk character="Guilherme">
+		<default>Até você se cansar.</default>
+	</talk>
+	<talk character="Lica">
+		<default>Adultos não têm graça.</default>
+	</talk>
+	<talk character="Guilherme">
+		<default>Nem eu?</default>
+	</talk>
+	<talk character="Lica">
+		<default>Conta estórias legais.</default>
+	</talk>
+	<teller>
+		<default>Guilherme sorri. De noite, Lica e Inês estão brincando com Lego. Beleno entra no quarto.</default>
+	</teller>
+	<talk character="Beleno">
+		<default>Inês, eu preciso falar com você.</default>
+	</talk>
+	<talk character="Inês">
+		<default>Por quê?</default>
+	</talk>
+	<talk character="Beleno">
+		<default>Não podemos ficar aqui.</default>
+	</talk>
+	<talk character="Inês">
+		<default>Por que não?</default>
+	</talk>
+	<talk character="Beleno">
+		<default>Olha, eu sei que você não entende, mas tenho certeza que, se eu...</default>
+	</talk>
+	<teller>
+		<default>Inês arregala os olhos e sai correndo. Lica estranha, veste a capa e vai atrás. Beleno também. Começam a correr pela casa. Entram no quarto de Alan. Na confusão...</default>
+	</teller>
+	<talk character="Beleno">
+		<default>Peguei!</default>
+	</talk>
+	<teller>
+		<default>A luz de novo.</default>
+	</teller>
+	<talk character="Beleno">
+		<default>Peraí, você não é...</default>
+	</talk>
+	<talk character="Lica">
+		<screamed>Solta!</screamed>
+	</talk>
+	<teller>
+		<default>Lica o empurra. Olha para o próprio corpo.</default>
+	</teller>
+	<talk character="Lica">
+		<default>Eu tô... Tô... Adulta...</default>
+	</talk>
+	<talk character="Beleno">
+		<default>Adolescente.</default>
+	</talk>
+	<talk character="Lica">
+		<default>Nem posso olhar num maldito espelho!</default>
+	</talk>
+	<talk character="Alan">
+		<default>Sua boca não tá muito suja pra quem acabou de crescer?</default>
+	</talk>
+	<teller>
+		<default>Ela senta no chão e começa a chorar.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Desculpa, não quis dizer isso.</default>
+	</talk>
+	<talk character="Beleno">
+		<default>Não é por sua causa.</default>
+	</talk>
+	<talk character="Inês">
+		<default>Desfaz isso!</default>
+	</talk>
+	<teller>
+		<default>Lica levanta.</default>
+	</teller>
+	<talk character="Beleno">
+		<default>Bom, nunca desfiz, mas...</default>
+	</talk>
+	<teller>
+		<default>Beleno vai até Lica. Luz. Lica fica com cara de 20 anos. Grita com ele e corre.</default>
+	</teller>
+	<talk character="Alan">
+		<default>Piorou.</default>
+	</talk>
+	<talk character="Beleno">
+		<default>Já era cego, fiquei surdo.</default>
+	</talk>
+	<talk character="Alan">
+		<default>Talvez fosse a intenção dela.</default>
+	</talk>
+	<talk character="Inês">
+		<default>Se tocar em mim de novo, frito suas mãos!</default>
+	</talk>
+	<teller>
+		<default>Inês sai.</default>
+	</teller>
+	<talk character="Alan">
+		<default>É, acho que ela já tá crescida o suficiente.</default>
+	</talk>
+	<talk character="Beleno">
+		<default>Não enche, Alan!</default>
+	</talk>
+	<teller>
+		<default>Guilherme chega em casa. Encosta Lica na parede. Sente o cheiro e se afasta.</default>
+	</teller>
+	<talk character="Guilherme">
+		<default>Não pode ser...</default>
+	</talk>
+	<talk character="Lica">
+		<default>Foi o pégaso que fez isso.</default>
+	</talk>
+	<talk character="Guilherme">
+		<default>Impossível.</default>
+	</talk>
+	<talk character="Lica">
+		<default>Mas ele fez! Agora sou adulta.</default>
+	</talk>
+	<teller>
+		<default>Ele acende a luz. Vê as lágrimas dela e a abraça.</default>
+	</teller>
+	<talk character="Guilherme">
+		<default>Não chora...</default>
+	</talk>
+	<talk character="Lica">
+		<default>Não quero ser adulta... Não quero ficar mais viva... Não assim... Faz alguma coisa... Nem que seja...</default>
+	</talk>
+	<talk character="Guilherme">
+		<default>Não!</default>
+		<teller>a afasta</teller>
+		<default>Não pode fazer isso.</default>
+	</talk>
+	<talk character="Lica">
+		<default>Já fez isso pra tantas outras... Por que não pra mim?</default>
+	</talk>
+	<talk character="Guilherme">
+		<default>Se você quisesse mesmo, tinha enfiado a estaca.</default>
+	</talk>
+	<talk character="Lica">
+		<default>Não tenho coragem. Mas eu quero.</default>
+	</talk>
+	<talk character="Guilherme">
+		<default>Dorme. Se acalma.</default>
+	</talk>
+	<talk character="Lica">
+		<default>Duvido que tenha pedido calma para alguém.</default>
+	</talk>
+	<talk character="Guilherme">
+		<default>Vem cá...</default>
+	</talk>
+	<teller>
+		<default>Guilherme a leva para a cama. Deitam. Ela acaba dormindo.</default>
+	</teller>
 </story>
