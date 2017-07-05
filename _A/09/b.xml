@@ -1,52 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="09" scene="b">
 	<teller>
-		<default>Doze horas depois, Angely acorda.</default>
+		<default>Pôr do sol.</default>
 	</teller>
-	<talk character="Angely">
+	<talk character="Mel">
 		<default>Que aconteceu?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Caímos.</default>
 	</talk>
 	<teller>
-		<default>Angely se levanta.</default>
+		<default>Mel se levanta.</default>
 	</teller>
-	<talk character="Angely">
+	<talk character="Mel">
 		<default>Tem alguma idéia de onde estamos?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Antes ou depois do Atlântico.</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Mel">
 		<default>Ou estamos numa ilha no meio do oceano.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Essa é a pior hipótese.</default>
+		<default>Não tava querendo pensar no pior.</default>
 	</talk>
 	<teller>
-		<default>Angely vai até as duas, que estão desmaiadas.</default>
+		<default>Olha para Angely e Kat.</default>
 	</teller>
-	<talk character="Angely">
+	<talk character="Mel">
 		<default>Estão bem?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Devem estar, se você está.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Por que está dizendo isso?</default>
+	<talk character="Mel">
+		<default>Por causa do envenenamento. Provavelmente foi um ataque a gente. Viu mais alguma coisa?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Kat antes de desmaiar mencionou que eu não comi nada.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Acha que foi sabotagem?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Cintos presos, comida envenenada, avião com defeito... Cara, o piloto e o co-piloto sumiram! O avião bateu em árvores e depois caiu na água. Se eu tivesse desmaiado, acho que morria todo mundo afogado. Mesmo comigo acordado, não sei se teríamos sobrevivido se fôssemos humanos.</default>
+		<default>Os cintos tavam presos, o piloto e o co-piloto sumiram. O avião bateu em árvores e depois caiu na água. Se eu tivesse desmaiado, acho que morria todo mundo afogado. Mesmo comigo acordado, não sei se teríamos sobrevivido se fôssemos humanos.</default>
 	</talk>
 	<teller>
-		<default>As duas começam a acordar.</default>
+		<default>Kat abre os olhos. Senta. Olha para Mel e Edmont. Olha para o lado. Chacoalha Angely. Angely levanta assustado.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Vocês estão bem?</default>
@@ -63,7 +57,7 @@
 	<talk character="Kat">
 		<default>Cadê o avião?</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Afundou.</default>
 	</talk>
 	<talk character="Mel">
@@ -76,7 +70,7 @@
 		<irony>Como você não afundou com o peso das ferraduras?</irony>
 	</talk>
 	<teller>
-		<default>Edmont a encara.</default>
+		<default>Edmont encara Mel.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Eles vão nos procurar, não vão?</default>
@@ -88,16 +82,16 @@
 		<default>Quer dizer que só estaremos desaparecidos oficialmente daqui a três dias.</default>
 	</talk>
 	<teller>
-		<default>Edmont levanta e sai.</default>
+		<default>Mel começa a andar em direção à floresta.</default>
 	</teller>
-	<talk character="Mel">
+	<talk character="Edmont">
 		<default>Tá indo aonde?</default>
 	</talk>
-	<talk character="Edmont">
+	<talk character="Mel">
 		<default>Ficar aqui é que não.</default>
 	</talk>
 	<teller>
-		<first>Dali a pouco, estão em uma cabana.</first>
+		<first>Os quatro param em frente a uma cabana. Mel bate a porta. Sem resposta. Abre a porta e entra. Edmont segue. Kat pega na mão de Angely. Entram atrás.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Oi! Alguém em casa?</default>
@@ -106,14 +100,18 @@
 		<default>Edmont abre um armário.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Parece ser de mais de uma pessoa, um homem e...</default>
+		<default>Parece ser de mais de uma pessoa, uma pessoa adulta e...</default>
 	</talk>
 	<teller>
 		<default>Uma garota pula nas costas de Angely. Edmont a pega e coloca contra a parede, segurando pelo pescoço.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Quem é você???</default>
-		<teller>ela fica esperneando e não responde</teller>
+	</talk>
+	<teller>
+		<default>Ela fica esperneando. Não responde.</default>
+	</teller>
+	<talk character="Edmont">
 		<default>Fala!</default>
 	</talk>
 	<teller>
@@ -125,43 +123,34 @@
 	<talk character="Edmont">
 		<default>Fica quieta!</default>
 	</talk>
-	<talk character="Angely">
-		<default>Edmont, calma!</default>
-	</talk>
 	<talk character="Mel">
-		<default>Ela é só uma garota!</default>
+		<default>Edmont, larga ela! É uma criança quase!</default>
 	</talk>
 	<teller>
-		<default>A menina pára de se mexer. Edmont a solta. Ela o chuta. Ele cai no chão. Ela corre.</default>
+		<default>A garota para de se mexer. Edmont solta. A garota sai correndo. Se entreolham. Uma homem entra e aponta uma arma.</default>
 	</teller>
-	<talk character="Kat">
-		<default>Edmont, você tá bem???</default>
-	</talk>
-	<teller>
-		<default>Uma mulher entra e aponta uma arma.</default>
-	</teller>
-	<talk character="mulher">
+	<talk character="Manuel">
 		<default>Que querem aqui?</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Que bom que fala nossa língua. Qual seu nome?</default>
 	</talk>
-	<talk character="Íris">
-		<default>Íris. O que fazem aqui?</default>
+	<talk character="Manuel">
+		<default>Manuel. O que fazem aqui?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Viu um avião cair?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Talita, eles mexeram em algo?</default>
 	</talk>
 	<teller>
-		<default>A menina faz sinal de negativo com a cabeça.</default>
+		<default>Talita faz sinal de negativo com a cabeça.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Então ela também fala nossa língua?</default>
+	<talk character="Edmont">
+		<default>Então também fala nossa língua?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Quem são vocês?</default>
 	</talk>
 	<talk character="Angely">
@@ -170,7 +159,7 @@
 	<talk character="Mel">
 		<default>Poderia virar essa coisa pra lá?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Não até ter certeza de que são inofensivos.</default>
 	</talk>
 	<teller>
@@ -180,60 +169,51 @@
 		<default>Aquele ali me atacou!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Te atacou por que você pulou em cima do Angely!</default>
+		<default>Você pulou em cima do Angely.</default>
 	</talk>
 	<talk character="Talita">
 		<default>Não deviam ter entrado.</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Edmont">
 		<default>Tranca a porta então!</default>
 	</talk>
-	<talk character="Íris">
-		<default>Ei, você, levanta do chão!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ela chutou ele.</default>
+	<teller>
+		<default>Manuel aponta a arma para Edmont.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Edmont soltou... Foi só susto...</default>
 	</talk>
 	<teller>
-		<default>Íris baixa a arma.</default>
+		<default>Manuel olha Katerine, de cima a baixo. Baixa a arma. Mel franze a testa.</default>
 	</teller>
 	<teller>
-		<first>Alguns minutos depois, Edmont está sentado em uma cadeira. Íris entrega um copo d'água para ele. Ele toma.</first>
+		<first>Estão todos sentados ao redor de uma mesa.</first>
 	</teller>
-	<talk character="Íris">
-		<default>Está melhor?</default>
-	</talk>
 	<talk character="Edmont">
-		<default>Mais ou menos.</default>
+		<default>Moram só vocês aqui, não?</default>
 	</talk>
-	<talk character="Íris">
-		<default>Pelo menos tá conseguindo falar.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Achamos que morasse um homem aqui.</default>
-	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>É, eu vi que mexeram no armário.</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Kat">
 		<default>Você é a primeira pessoa que não se impressiona com o fato deles serem...</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Gêmeos quase idênticos? Tanto faz.</default>
 	</talk>
-	<talk character="Kat">
+	<talk character="Mel">
 		<default>Você mora aqui sem nenhum contato com a civilização?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Tem isso.</default>
 	</talk>
 	<teller>
-		<default>Íris aponta um telefone de discar na mesa.</default>
+		<default>Manuel aponta um telefone de discar na mesa.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Esse aparelho está meio ultrapassado, não acha?</default>
+		<default>Tá meio ultrapassado, não acha?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>E pra que eu preciso de outro? Me serve muito bem este.</default>
 	</talk>
 	<talk character="Kat">
@@ -242,13 +222,13 @@
 	<talk character="Mel">
 		<default>Sabe como podemos sair daqui?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>A essa hora?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Onde estamos?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Ainda é Brasil.</default>
 	</talk>
 	<talk character="Edmont">
@@ -257,28 +237,28 @@
 	<talk character="Mel">
 		<default>Eu vou agora.</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Pra onde?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Pra casa. Quanto mais cedo eu sair daqui, mais cedo chego lá.</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Se sair a essa hora, não chega lá.</default>
 	</talk>
 	<talk character="Mel">
 		<default>E vou fazer o que?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Vocês podem ficar aqui.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Aqui?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Têm algum problema em dormir no chão?</default>
 	</talk>
-	<talk character="Edmont">
+	<talk character="Kat">
 		<default>Desde que não seja no chão lá fora, pra mim, tudo bem.</default>
 	</talk>
 	<talk character="Angely">
@@ -287,32 +267,20 @@
 	<talk character="Mel">
 		<default>Já dormi em lugares bem piores que isso.</default>
 	</talk>
-	<talk character="Kat">
+	<talk character="Edmont">
 		<default>Tem uma rede pra me emprestar, pelo menos?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Pensei que nem sabia o que era isso... Talita, pega aquela rede que tá sobrando.</default>
 	</talk>
 	<teller>
-		<default>Talita entra num quarto, pega uma rede e traz.</default>
+		<default>Talita entra num quarto. Barulho de coisas sendo reviradas. Volta com uma rede. Edmont se aproxima de Talita, que dá dois passos atrás. Edmont para. Olha para Manuel. Olha para Talita. Estende os braços. Talita entrega a rede. Edmont olha em volta. Vai até um gancho. Pendura. Vê outro gancho. Pendura o outro lado.</default>
 	</teller>
-	<talk character="Kat">
-		<default>É feita à mão...</default>
-	</talk>
-	<talk character="Talita">
-		<default>Nunca tinha visto uma rede feita à mão?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, geralmente são de máquina.</default>
-	</talk>
-	<teller>
-		<default>Angely pega a rede e pendura nos ganchos.</default>
-	</teller>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<irony>Olha. Daqui a pouco vai me dizer que sabe fazer uma fogueira.</irony>
 	</talk>
 	<teller>
-		<first>De madrugada estão todos dormindo. Angely acorda, ouvindo passos. Vai até Edmont.</first>
+		<first>Madrugada. Angely acorda. Franze a testa. Levanta. Vai até Edmont.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Acorda, eu acho que ouvi alguma coisa.</default>
@@ -327,34 +295,34 @@
 		<default>Eu também.</default>
 	</talk>
 	<teller>
-		<default>Angely vai até o quarto de Íris.</default>
+		<default>Angely vai até o quarto de Manuel.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Acho que tem algo lá fora...</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Tem um monte de coisa lá fora.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Tô falando de gente!</default>
+		<default>Tô falando de gente.</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Vocês se impressionam fácil demais.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Quantos anos você tem?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Trinta e sete, agora me deixa dormir!</default>
 	</talk>
 	<talk character="Angely">
 		<default>Sério???</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Volta pra sala ou eu te jogo lá!</default>
 	</talk>
 	<teller>
-		<default>Ele sai da casa e não vê coisa alguma. Entra de novo e deita.</default>
+		<default>Angely solta o ar e os ombros. Sai da casa. Anda. Olha ao redor. Entra de novo. Deita.</default>
 	</teller>
 	<teller>
 		<first>8:00.</first>
@@ -366,17 +334,20 @@
 		<default>Tá, tudo bem.</default>
 	</talk>
 	<teller>
-		<default>Kat boceja e se levanta.</default>
+		<default>Kat boceja e se senta.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Me ajuda a acordar eles...</default>
 	</talk>
+	<teller>
+		<default>Kat desce da rede, pulando Edmont, que está no chão ao seu lado. Se arrasta até perto de Mel.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Mel...</default>
 		<screamed>Acorda!</screamed>
 	</talk>
 	<teller>
-		<default>Melody dá um pulo. Esfrega o rosto. Encara Kat.</default>
+		<default>Melody levanta bruscamente. Esfrega o rosto. Encara Kat.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Pronto. Agora você acorda o Edmont.</default>
@@ -403,18 +374,18 @@
 		<default>E eu desde ontem.</default>
 	</talk>
 	<teller>
-		<default>Angely se levanta e se vira pra Talita. Ela se afasta bruscamente.</default>
+		<default>Angely se levanta e se vira pra Talita. Talita se afasta bruscamente.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Eu não mordo.</default>
 	</talk>
-	<talk character="Íris">
-		<arrive>Ela não está acostumada com homens.</arrive>
+	<talk character="Manuel">
+		<arrive>Ela não está acostumada com gente de fora. Só comigo.</arrive>
 	</talk>
 	<talk character="Kat">
 		<default>Tem um copo d’água aí?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Está com sede?</default>
 	</talk>
 	<talk character="Kat">
@@ -432,19 +403,19 @@
 	<talk character="Talita">
 		<default>Tá armando o maior temporal lá fora.</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Eu acho que alcançam a cidade antes de cair a chuva.</default>
 	</talk>
 	<talk character="Talita">
 		<default>Melhor esperar passar.</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Mais inda nem começou!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Ela é sua filha?</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>É impossível eu ter uma filha.</default>
 	</talk>
 	<talk character="Talita">
@@ -456,35 +427,35 @@
 	<talk character="Talita">
 		<default>Mas com chuva é mais difícil!</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Talita!</default>
 	</talk>
 	<talk character="Talita">
-		<default>Ky vem aqui de vez em quando, ele leva eles quando vier!</default>
+		<default>Íris vem aqui de vez em quando, ela leva eles quando vier!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não dá pra ficar esperando.</default>
 	</talk>
 	<teller>
-		<default>Edmont vai até a porta. Está trancada. Olha para Íris.</default>
+		<default>Edmont vai até a porta. Vira a maçaneta. Puxa. Nada. Chacoalha. Nada. Olha para Manuel.</default>
 	</teller>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Talita...</default>
 	</talk>
 	<teller>
-		<default>Talita entrega a chave pra Íris, que a joga pra Edmont. Talita se coloca em frente a porta.</default>
+		<default>Talita faz bico e entrega a chave pra Manuel, que joga para Edmont. Talita se coloca em frente a porta.</default>
 	</teller>
 	<talk character="Talita">
 		<default>Eles vão se perder.</default>
 	</talk>
 	<teller>
-		<default>Íris encara Talita.</default>
+		<default>Manuel encara Talita. Talita continua olhando para Manuel.</default>
 	</teller>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Tudo bem, eles podem ficar!</default>
 	</talk>
 	<teller>
-		<default>Ela sai da frente da porta e abraça Íris.</default>
+		<default>Talita sai da frente da porta, corre e abraça Manuel.</default>
 	</teller>
 	<talk character="Talita">
 		<default>Grazie!</default>
@@ -495,10 +466,10 @@
 	<talk character="Angely">
 		<default>Olha, não queremos incomodar você...</default>
 	</talk>
-	<talk character="Íris">
+	<talk character="Manuel">
 		<default>Vocês dois: banquem os engraçadinhos e amarro os dois na floresta pra virar janta.</default>
 	</talk>
 	<teller>
-		<default>Íris pega a chave, abre a porta de saída e depois vai pra seu quarto.</default>
+		<default>Manuel pega a chave, abre a porta de saída e depois vai pra seu quarto.</default>
 	</teller>
 </story>
