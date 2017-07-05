@@ -1,65 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="12" scene="c">
 	<teller>
-		<default>De manhã, vai à MEAK.</default>
+		<default>Manhã. MEAK.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Onde esteve???</default>
+	<talk character="Edmont">
+		<default>Onde tava???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Fui pedir ajuda à uns padres, mas não deu certo.</default>
+		<default>Fui pedir ajuda pra uns padres, mas não deu certo.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Deixou a Kat aqui sozinha! E se ela falou alguma coisa???</default>
+		<default>Deixou Kat aqui sem ninguém! E se falou alguma coisa???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Eu tava apavorado, tá??? Vocês também não iam gostar de ver alguém que amam se revirando e se debatendo daquele jeito!</default>
+		<default>Eu tava congelando de medo, tá??? Vocês também não iam gostar de ver alguém que amam se revirando e se debatendo daquele jeito!!!</default>
+	</talk>
+	<talk character="Edmont">
+		<default>A gente também se importa com Kat!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela é nossa irmã!</default>
+		<default>Edmont...</default>
 	</talk>
 	<talk character="Derik">
-		<default>É, mais vocês não ficaram aqui olhando o que acontecia com ela!</default>
+		<default>É, mais não ficaram aqui olhando o que acontecia!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Estávamos procurando alguma coisa!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Ah, é??? E o que encontraram???</default>
-		<teller>os dois ficam em silêncio</teller>
-		<default>Tá vendo? Ficam me culpando... Eu poderia encontrar alguma coisa muito mais fácil que vocês. Eu posso voar, esqueceram???</default>
 	</talk>
 	<teller>
-		<default>Angely vê uma carta entrar por debaixo da porta. Abre e não vê ninguém. Pega a carta do chão e abre. Um endereço.</default>
+		<default>Edmont olha para Angely. Depois para Derik de volta.</default>
+	</teller>
+	<talk character="Derik">
+		<default>Tá vendo?! Ficam me culpando... Eu poderia encontrar alguma coisa muito mais fácil que vocês!!! Eu posso voar, esqueceram???</default>
+	</talk>
+	<teller>
+		<default>Angely olha para a porta. Uma carta embaixo. Vai até a porta. Abre. Ninguém. Pega a carta do chão. Abre a carta.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Que é isso?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Talvez tenha sido o vampiro.</default>
+		<default>Que isso?</default>
 	</talk>
 	<talk character="Derik">
-		<irony>Deve ter usado realmente muito protetor solar!</irony>
+		<default>Talvez tenha sido o vampiro.</default>
 	</talk>
 	<talk character="Edmont">
+		<irony>Deve ter usado realmente muito protetor solar!</irony>
+	</talk>
+	<talk character="Angely">
 		<default>Pode ter mandado alguém.</default>
 	</talk>
 	<teller>
 		<default>Toca o telefone. Angely atende.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Alô? ### Ah, é você... Ontem você ligou, mas não terminou de... ### Fugiu com ela?! ### Como, ele foi buscá-la?! ### Tá, nós vamos até aí. ### Não sei, mas acho que podemos dar um jeito. ### Tá.</default>
-		<teller>Angely desliga o telefone</teller>
-		<default>Era o Brad, Andrews tentou pegar Stephany ontem.</default>
+		<default>Alô? ### Ah, é você... Ontem você ligou, mas não terminou de...</default>
 	</talk>
+	<teller>
+		<default>Angely franze a testa.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Stephany fugiu?</default>
+	</talk>
+	<teller>
+		<default>Edmont pega o telefone de Angely.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>E cadê ela?</default>
+		<default>Que houve?! ### Como assim, foi buscar?! ### Tá, nós vamos até aí. ### Não sei, mas acho que podemos dar um jeito. ### Tá.</default>
+	</talk>
+	<teller>
+		<default>Edmont desliga o telefone.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Andrews tentou pegar Stephany ontem. Brad ajudou a fugir. Estão na casa dele.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Na casa dele.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vamos até lá então.</default>
+		<default>Melhor irmos pra lá.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Deixa que eu vou.</default>
@@ -70,11 +87,8 @@
 	<talk character="Derik">
 		<default>É, eu vou. É mais fácil vocês saírem daqui pra procurar Andrews se Kat der uma pista do que eu. Não sei usar nem estilingue.</default>
 	</talk>
-	<talk character="Angely">
-		<default>É mesmo.</default>
-	</talk>
 	<teller>
-		<default>Derik sai. Edmont pega o endereço em cima da mesa.</default>
+		<default>Derik sai. Edmont pega o papel em cima da mesa.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Quem de nós vai verificar isso?</default>
@@ -84,65 +98,70 @@
 	</talk>
 	<talk character="Angely">
 		<default>Então vou ficar lá com a Kat...</default>
-		<teller>eles ouvem um grito</teller>
-		<default>Melhor eu subir logo. Boa sorte.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Pra você também.</default>
 	</talk>
 	<teller>
-		<default>Angely sobe a escada. Vai ao quarto de Mel. Chega perto da cama. Kat queima de febre.</default>
+		<default>Kat grita. Angely olha para cima. Olha para Edmont.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Melhor subir logo. Boa sorte.</default>
+	</talk>
+	<talk character="Angely">
+		<default>Pra nós.</default>
+	</talk>
+	<teller>
+		<default>Angely sobe a escada. Entra no quarto de Mel. Chega perto da cama. Kat sua. Angely agacha. Coloca a mão na testa de Kat. Coloca a mão na boca. Sai do quarto. Desce a escada. Vai até a cozinha. Pega um pano. Sobe. Molha o pano na pia do banheiro. Coloca o pano sobre a testa de Kat.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Droga, isso tá indo longe demais... Kat, acorda!</default>
+		<default>Kat, acorda... Eu prometi que te protegeria.</default>
 	</talk>
 	<teller>
-		<default>Ele desce a escada, vai até a cozinha e pega um pano. Sobe, molha o pano e coloca na cabeça de Kat. Na casa de Brad, algum tempo depois...</default>
+		<first>Casa de Brad.</first>
 	</teller>
 	<talk character="Derik">
-		<default>Vim buscar a Stephany.</default>
+		<default>Vim buscar Stephany.</default>
 	</talk>
 	<talk character="Talita">
 		<default>Brad foi pro serviço, pra não estranharem.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Eles não sabem que ele ajudou ela a fugir?</default>
+		<default>Não sabem que ajudou a fugir?</default>
 	</talk>
 	<talk character="Talita">
 		<default>Não, estavam ligando pra cá, mas era pra avisar ele que ela tinha fugido.</default>
 	</talk>
 	<talk character="Derik">
-		<default>E cadê a Stephany?</default>
+		<default>E cadê Stephany?</default>
 	</talk>
 	<talk character="Talita">
 		<default>Tá aqui no quarto, vem.</default>
 	</talk>
 	<teller>
-		<default>Talita vai até o quarto e Derik a segue. A porta está trancada.</default>
+		<default>Talita vai até um quarto. Derik a segue. Talita abaixa a maçaneta. Empurra. Nada.</default>
 	</teller>
 	<talk character="Talita">
-		<default>Stephany, que tá fazendo aí? Stephany? Stephany!</default>
+		<default>Stephany, que tá fazendo aí? Stephany?</default>
+		<screamed>Stephany!</screamed>
 	</talk>
 	<teller>
-		<default>Derik baixa e olha por debaixo da porta. Sente cheiro de sangue.</default>
+		<default>Derik baixa e olha por debaixo da porta. Talita sai. Volta com uma chave. Abre a porta. Stephany está no chão. Os pulsos estão cortados. Talita dá passos para trás.</default>
+	</teller>
+	<talk character="Talita">
+		<default>Já vi isso demais... Droga...</default>
+	</talk>
+	<teller>
+		<default>Derik abaixa perto de Stephany. Coloca a mão sobre o rosto.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Droga, acho que ela fez uma loucura! Dá licença!</default>
+		<default>Ainda tá respirando.</default>
 	</talk>
 	<teller>
-		<default>Ele arromba a porta. Stephany cortou os pulsos. Derik abaixa perto dela</default>
+		<default>Talita sai. Volta com panos. Derik enrola em um pulso, Talita em outro. Pegam Stephany pelos braços e pernas e levam até a sala.</default>
 	</teller>
-	<talk character="Talita">
-		<default>Ah, meu Deus!</default>
-	</talk>
 	<talk character="Derik">
-		<default>Ainda tá respirando. Vamos levá-la pro hospital.</default>
+		<default>Precisamos ir pra um hospital</default>
 	</talk>
-	<teller>
-		<default>Derik arrasta Stephany. Talita o segue.</default>
-	</teller>
 	<talk character="Talita">
-		<default>Como vamos fazer isso???</default>
+		<default>Como vamos fazer isso?!</default>
 	</talk>
 	<talk character="Derik">
 		<default>Eu vi um carro estacionado aí na frente.</default>
@@ -160,46 +179,49 @@
 		<default>Droga... Sabe dirigir?</default>
 	</talk>
 	<talk character="Talita">
-		<default>Sei fazer ligação direta e dirijo mais ou menos. Você não sabe?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Nem menos.</default>
-	</talk>
-	<talk character="Talita">
-		<default>Ai, droga... Ele vai me matar...</default>
+		<default>Sei fazer ligação direta e dirijo mais ou menos.</default>
 	</talk>
 	<teller>
-		<default>Derik coloca Stephany no chão, quebra o vidro (com um objeto) e abre a trava. Arrasta Stephany para o banco de trás do carro. Talita entra no carro, mexe e liga o carro. Eles vão pro hospital. Edmont foi conferir o endereço. Havia sinais de que alguém tinha passado por ali, mas já saíra.</default>
+		<default>Derik franze a testa.</default>
+	</teller>
+	<talk character="Talita">
+		<default>Brad me ensinou. E você?</default>
+	</talk>
+	<talk character="Derik">
+		<default>Nem mais nem menos.</default>
+	</talk>
+	<teller>
+		<first>Edmont está em um prédio abandonado. Há um alçapão. Edmont desce. Correntes no teto. Sangue no chão.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Desgraçado.</default>
 	</talk>
 	<teller>
-		<default>Havia sangue no chão. De tarde, Derik lembra de ligar pra Angely.</default>
+		<default>Tarde. Derik liga para Angely.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Por que ela fez isso?</default>
+		<default>Por que Stephany fez isso?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não sei, Talita disse que ela tava normal.</default>
+		<out>Não sei, Talita disse que tava normal.</out>
 	</talk>
 	<talk character="Angely">
-		<default>Eu não posso ir pra aí, a Kat tá dormindo ainda.</default>
+		<default>Eu não posso ir pra aí, Kat tá dormindo ainda.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Isso é bom e ruim. Sinal de que Edmont não encontrou nada e Mel continua viva.</default>
+		<out>Isso é bom e ruim. Sinal de que Edmont não encontrou nada e Mel continua viva.</out>
 	</talk>
 	<talk character="Angely">
-		<default>É. Se o Edmont voltar eu falo com ele e um de nós vai aí.</default>
+		<default>É. Se o Edmont voltar, um de nós vai aí.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Tá. Tchau. Ah, a Kat tá bem?</default>
+		<out>Tá. Tchau. Ah, a Kat tá bem?</out>
 	</talk>
 	<teller>
-		<default>Angely olha pra Kat. Ela ainda está com febre e está pálida.</default>
+		<default>Angely olha pra Kat. Kat tem a pele pálida e sua muito.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Está.</default>
+		<default>Está dormindo.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Eu vou desligar, ver se tem alguma notícia.</default>
@@ -208,13 +230,13 @@
 		<default>Tá, tchau.</default>
 	</talk>
 	<teller>
-		<default>Desliga o telefone. Passa a mão na cabeça de Kat.</default>
+		<default>Angely desliga o telefone. Passa a mão na cabeça de Kat.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Ele conseguiu fazer as duas sofrerem. Como pode existir alguém tão ruim? Espero que Mel se recupere disso...</default>
+		<default>Conseguiu fazer as duas sofrerem. Como pode existir alguém tão ruim? Espero que Mel se recupere disso... E você também.</default>
 	</talk>
 	<teller>
-		<default>No hospital, Stephany acorda de noite. Talita foi pra casa, mas Derik esperava Stephany acordar, sentado ao lado dela.</default>
+		<default>Noite. Hospital. Stephany acorda. Derik está na cadeira ao lado da cama.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Acho que andou aprontando.</default>
@@ -223,7 +245,7 @@
 		<default>Eu não quero mais ter que fugir.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ei, nós vamos te proteger, não fica assim.</default>
+		<default>Nós vamos te proteger. Não fica assim.</default>
 	</talk>
 	<talk character="Stephany">
 		<default>Fala isso por que não tá no meu lugar.</default>
@@ -240,11 +262,8 @@
 	<talk character="Stephany">
 		<default>Não, apenas estão me protegendo por pena.</default>
 	</talk>
-	<teller>
-		<default>Um homem bate na porta.</default>
-	</teller>
 	<talk character="Alexander">
-		<default>Com licença.</default>
+		<arrive>Com licença.</arrive>
 	</talk>
 	<talk character="Stephany">
 		<default>Sim?</default>
@@ -253,28 +272,25 @@
 		<default>Eu tô procurando uma garota chamada Stephany, é você?</default>
 	</talk>
 	<teller>
-		<default>Derik desconfia dele.</default>
+		<default>Derik franze a testa.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Não, não é ela.</default>
+		<default>Não, não é.</default>
 	</talk>
 	<talk character="Alexander">
-		<default>Desculpe, errei de quarto.</default>
+		<default>Não se registrou com esse nome aqui. Não sou da polícia. Aliás, acho que, a essa hora, já descobriu que a polícia não vai ajudar.</default>
 	</talk>
-	<teller>
-		<default>Ele sai e deixa cair uma cruz no chão. Derik se levanta e pega. Vai atrás dele no corredor.</default>
-	</teller>
 	<talk character="Derik">
-		<default>Ei! Deixou cair isso.</default>
+		<default>Quem garante que você não é do Andrews?</default>
 	</talk>
 	<teller>
-		<default>Alexander se volta e vai até Derik. Pega a cruz e guarda no bolso.</default>
+		<default>Alexander tira uma estaca na cintura da calça e coloca sobre a cama.</default>
 	</teller>
 	<talk character="Alexander">
-		<default>Obrigado.</default>
+		<default>Achei que fosse o Dilan. Parece coisa dele. Não conheço esse, mas deve ser cria. Estamos no rastro de Dilan faz algum tempo.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Stephany é ela sim.</default>
+		<default>Porque tá procurando Stephany?</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Pode me deixar falar com ela?</default>
@@ -285,20 +301,20 @@
 	<talk character="Alexander">
 		<default>Sozinho.</default>
 	</talk>
-	<talk character="Derik">
-		<default>Tá.</default>
-	</talk>
 	<teller>
-		<default>Derik vai embora. Alexander volta ao quarto. Edmont volta pra casa. Uma hora depois, estão os três na MEAK, reunidos no quarto, caso Kat desse alguma pista. Ela está normal.</default>
+		<default>Derik olha para Stephany. Stephany faz um movimento curto de baixar a cabeça e voltar. Derik sai.</default>
+	</teller>
+	<teller>
+		<first>MEAK. Quarto de Mel. Angely está sentado em uma cadeira, Edmont na porta, no batente. Derik entra. Senta-se ao lado da cama.</first>
 	</teller>
 	<talk character="Angely">
-		<default>Ainda bem que ela tá quieta.</default>
+		<default>É bom ver calma.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Será?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Se Mel tivesse morrido, ela acordava.</default>
+		<default>Se Mel tivesse morrido, Kat acordava.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Que conseguiu?</default>
@@ -310,34 +326,30 @@
 		<default>Endereço errado?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, ele já tinha ido embora. E a Stephany?</default>
+		<default>Não, já tinha ido embora. E Stephany?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Cheguei lá e ela tinha cortado os pulsos. Levei ela pro hospital.</default>
+		<default>Cortou os pulsos. Levei pro hospital.</default>
 	</talk>
 	<talk character="Angely">
 		<default>E...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Um cara apareceu e pediu pra falar com ela a sós.</default>
+		<default>Um cara apareceu e pediu pra falar a sós.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Por que deixou???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ele deixou cair, sem querer, um cruz.</default>
+		<default>Stephany pediu. Tinha uma estaca. Falou de um tal de Dilan. Acho que já ouvi o nome.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Uma cruz?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Acho que é caça-vampiros, por isso quer falar com Stephany.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tudo bem. Bom, Kat não disse nada.</default>
+		<default>Kat não disse nada. </default>
+		<teller>baixa a cabeça</teller>
+		<default>Ao menos não inteligível.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Fiquei curioso com uma coisa agora.</default>
+		<default>Deu uma curiosidade agora.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Sim?</default>
@@ -346,19 +358,19 @@
 		<default>Quem será que deixou aquela carta na porta?</default>
 	</talk>
 	<teller>
-		<default>Na casa de Dara, ela está saindo e encontra um cara.</default>
+		<default>Casa de Dara. Dara está saindo.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Quem é você?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Sei que está ajudando anonimamente seus amigos.</default>
+		<default>Sei que está ajudando anonimamente as pessoas que ajudam Stephany.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Do que...</default>
 	</talk>
 	<talk character="Rust">
-		<default>Mandou o endereço onde estava Andrews pra eles.</default>
+		<default>Mandou o endereço onde estava Andrews.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Como sabe disso?</default>
@@ -370,46 +382,43 @@
 		<default>Por que veio atrás de mim a essa hora?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Não sou caça-vampiros. Só estou ajudando por que não gosto dele.</default>
+		<default>Não sou caça-vampiros. Só estou ajudando por que não gosto de Andrews.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Sei...</default>
 	</talk>
 	<talk character="Rust">
-		<default>Devia ter ligado pra eles e falado, o endereço chegou tarde. Andrews já tinha descoberto.</default>
+		<default>Devia ter ligado e falado, o endereço chegou tarde. Andrews já tinha descoberto.</default>
 	</talk>
 	<talk character="Dara">
 		<default>E o que pretende fazer agora?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Ir atrás dele.</default>
+		<default>Ir atrás.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Precisa de mim pra isso?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Ele é muito poderoso.</default>
+		<default>Andrews tem muito poder.</default>
 	</talk>
 	<talk character="Dara">
-		<irony>E por que acha que eu teria força pra enfrentá-lo se você sozinho não consegue?</irony>
+		<irony>E por que acha que eu teria força pra enfrentar o cara se você sozinho não consegue?</irony>
 	</talk>
 	<talk character="Rust">
-		<default>Nós dois juntos talvez consigamos.</default>
+		<default>Nós dois talvez consigamos.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Sabe onde ele está?</default>
 	</talk>
 	<talk character="Rust">
-		<default>É fácil pra mim achá-lo.</default>
+		<default>É fácil pra mim achar. Infelizmente.</default>
 	</talk>
 	<teller>
-		<default>Dara vai com Rust.</default>
-	</teller>
-	<teller>
-		<default>Enquanto isso, no hospital...</default>
+		<first>Hospital.</first>
 	</teller>
 	<talk character="Stephany">
-		<default>Acha mesmo que ficarei segura?</default>
+		<default>Acha mesmo que vou ficar segura?</default>
 	</talk>
 	<talk character="Alexander">
 		<default>É claro.</default>
@@ -420,6 +429,9 @@
 	<talk character="Stephany">
 		<default>Você tá viva!</default>
 	</talk>
+	<teller>
+		<default>Stephany abraça Dalila. Dalila franze a testa. Stephany afasta.</default>
+	</teller>
 	<talk character="Dalila">
 		<default>É, escapei do seu amigo esquisito.</default>
 	</talk>
@@ -461,13 +473,13 @@
 		<default>Melhor que acompanhada de uma fugitiva.</default>
 	</talk>
 	<talk character="Dalila">
-		<default>Contou pra ele???</default>
+		<default>Contou pra ele?!</default>
 	</talk>
 	<talk character="Stephany">
 		<default>Não!</default>
 	</talk>
 	<talk character="Alexander">
-		<default>Citou a ilha.</default>
+		<default>Acabou de dizer que graças a ela não está na ilha. Qualquer um sabe o que isso significa. Ao menos no meu meio.</default>
 	</talk>
 	<talk character="Dalila">
 		<default>Pelo menos ela sabe o que eu sou, você nem isso.</default>
@@ -476,7 +488,9 @@
 		<default>Olha...</default>
 	</talk>
 	<talk character="Stephany">
-		<default>Ei, acho que eu tenho que decidir isso!</default>
+		<default>Ei, acho que</default>
+		<frizz>eu</frizz>
+		<default>tenho que decidir isso!</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Vai preferir confiar nela???</default>
