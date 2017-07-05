@@ -4,7 +4,7 @@
 		<default>É noite e cai um temporal. Edmont e Angely entram numa pensão.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Senhor, nós queríamos saber se chegou um cara estranho aqui...</default>
+		<default>Senhor, nós queríamos saber se chegou um cara aqui...</default>
 	</talk>
 	<talk character="recepcionista">
 		<default>Não, garoto.</default>
@@ -42,14 +42,14 @@
 	<teller>
 		<default>Aurium sai. Angely e Edmont saem e não o vêem.</default>
 	</teller>
-	<talk character="Edmont">
+	<talk character="Angely">
 		<default>Bom, pelo jeito Kat estava certa.</default>
 	</talk>
-	<talk character="Angely">
+	<talk character="Edmont">
 		<default>Eu acho que o recepcionista estava mentindo.</default>
 	</talk>
-	<talk character="Edmont">
-		<default>Também percebi algo estranho. Vamos voltar e falar com Mel.</default>
+	<talk character="Angely">
+		<default>Vamos voltar e falar com Mel.</default>
 	</talk>
 	<teller>
 		<default>Eles voltam pra MEAK. Se encontram no escritório.</default>
@@ -69,11 +69,11 @@
 	<talk character="Mel">
 		<default>É, um lugar perfeito.</default>
 	</talk>
-	<talk character="Edmont">
+	<talk character="Angely">
 		<default>Perguntamos ao recepcionista e ele negou.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Mas nós temos certeza que está lá.</default>
+	<talk character="Edmont">
+		<default>Mas sei que ele tava mentindo.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Tudo bem. Receberam o recado?</default>
@@ -113,9 +113,6 @@
 	</talk>
 	<talk character="Kat">
 		<default>Ele tinha pêlo amarelo, então coloquei o nome de Aurium.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ouro em latim.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não sabia que você sabia latim.</default>
@@ -199,7 +196,7 @@
 		<default>Ei, isso sim é um motivo!</default>
 	</talk>
 	<teller>
-		<default>As duas se levantam, trocam de roupa e vão até a MEAK. Lá, algum tempo antes delas chegarem...</default>
+		<default>As duas se levantam, trocam de roupa e vão até a MEAK.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Nossa, mas então, pela lei, ele era tio-avô dela.</default>
@@ -217,22 +214,7 @@
 		<default>Vale a hipótese.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Mas é melhor irmos ver de novo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É melhor resolvermos isso o mais rápido possível.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Cada dia mais pessoas morrem.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E para podermos ter uma vida normal.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Hoje não tem jeito.</default>
-	</talk>
-	<talk character="Angely">
-		<default>É tarde já.</default>
+		<default>Mas é melhor irmos ver de novo. Para podermos ter uma vida normal.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Kat, melhor você...</default>
@@ -290,8 +272,11 @@
 	<talk character="Kat">
 		<default>Por que está chorando?</default>
 	</talk>
+	<teller>
+		<default>Ela limpa os olhos.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Eu? Chorando? Foi um cisco...</default>
+		<default>Do que tá falando?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não vem com essa, não.</default>
@@ -342,7 +327,7 @@
 		<default>Não diga nada aos dois, eles iriam querer saber quem é.</default>
 	</talk>
 	<talk character="Kat">
-		<default>É melhor enxugar as lágrimas, ou eles vão acabar percebendo.</default>
+		<default>Então vai ter que botar um óculos escuro.</default>
 	</talk>
 	<teller>
 		<default>Mel sobe para o quarto. Kat fica com ela no quarto algum tempo. Depois vai até a sala.</default>
@@ -375,7 +360,7 @@
 		<default>Ainda bem que estavam só beijando mesmo.</default>
 	</talk>
 	<teller>
-		<default>Meg dá um pisão no pé de Kat.</default>
+		<default>Meg encara Kat.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Até amanhã, garotas.</default>
@@ -405,7 +390,7 @@
 		<default>Acho que devia ficar com a sua namorada ao invés de ficar olhando os outros.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É que eu e a Agatha ficamos sempre algum tempo conversando, não ficamos nesse fogo todo aí... Ela foi quem comentou.</default>
+		<default>É que eu e a Agatha ficamos sempre algum tempo conversando, não ficamos nesse fogo todo aí... Ela quem comentou.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não se preocupa que, se eu quisesse fazer alguma coisa, eu subia, não ia ser aqui na sala com certeza!</default>
@@ -486,7 +471,7 @@
 		<default>Ei, não quero ser irmã deles!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Sem problemas, é só de consideração.</default>
+		<default>Sem problemas, vocês são só de consideração.</default>
 	</talk>
 	<talk character="Meg">
 		<default>Então tudo bem.</default>
