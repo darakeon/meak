@@ -196,9 +196,9 @@
 		<default>Sabe, vai nos levar...</default>
 	</talk>
 	<teller>
-		<default>Uma buzina.</default>
+		<default>Uma buzina. Angely olha para fora. Olha ao redor.</default>
 	</teller>
-	<talk character="">
+	<talk character="Angely">
 		<default>Cadê Derik?</default>
 	</talk>
 	<teller>
@@ -337,16 +337,19 @@
 		<default>Então vamos...</default>
 	</talk>
 	<teller>
-		<division>AQUI</division>
-	</teller>
-	<teller>
-		<first>Espanha, duas horas depois de Angely acordar (10bra, 14esp). Edmont bate à porta de um apartamento de hotel. Dan abre.</first>
+		<first>Espanha, 14h. Edmont bate a porta de um apartamento de hotel. Dan abre.</first>
 	</teller>
 	<talk character="Dan">
 		<default>Edmont?!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Qual o espanto, achou que não seriam achados? Você é um ator famoso agora, está quase terminando o filme do século, Melody era de uma banda que acabou no auge, o que pensou que iria acontecer?</default>
+		<default>Qual o espanto, achou que não seriam achados?</default>
+	</talk>
+	<talk character="Dan">
+		<default>Ah... Eu...</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Você tem fama agora, tá quase terminando o filme do século, Melody era de uma banda que acabou no auge, o que pensou que iria acontecer?</default>
 	</talk>
 	<talk character="Dan">
 		<default>Melody me disse que você tinha se afastado de todos, aliás, você sim conseguiu driblar revistas, jornais e...</default>
@@ -364,88 +367,85 @@
 		<default>Melody?</default>
 	</talk>
 	<talk character="Dan">
-		<default>Dormindo. Você não veio aqui tentar convencer Mel à...</default>
+		<default>Dormindo. Você não veio aqui tentar convencer Mel a...</default>
 	</talk>
 	<teller>
-		<default>Edmont faz cara de quem não entendeu.</default>
+		<default>Edmont franze a sobrancelha.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Ao que?</default>
 	</talk>
 	<talk character="Dan">
-		<default>Nada. Ah, eu não estou quase terminando. Já terminaram as gravações, já até recebi meu cache inteiro...</default>
+		<default>Nada. Ah, eu não tô quase terminando. Já terminaram as gravações, já até recebi meu cache inteiro...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Verdade?</default>
+		<default>Sério?</default>
 	</talk>
 	<teller>
-		<default>No aeroporto, Angely vai pegar o avião.</default>
+		<default>Aeroporto. Angely anda de um lado a outro. Toca o telefone. Angely atende.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Por que comprou só uma passagem???</default>
+		<out>Saiu correndo daqui e nem...</out>
 	</talk>
 	<talk character="Angely">
 		<default>Tenho que ir sozinho.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Angely, por que está desse jeito???</default>
+		<out>Angely, por que tá desse jeito???</out>
 	</talk>
 	<talk character="Angely">
-		<default>Droga, essa hora que não passa...</default>
+		<default>Essa hora que não passa...</default>
 	</talk>
 	<teller>
-		<default>Angely olha o relógio. Percebe algo errado: o relógio parou.</default>
+		<default>Angely olha o relógio de pulso. Bate o dedo. Arregala os olhos. Olha a tela do celular.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Que horas são?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Dez e dez.</default>
+		<default>Meu relógio quebrou, me atrasei!</default>
 	</talk>
 	<teller>
-		<default>Ele sai correndo. Kat volta em casa e encontra Zenon sentado no sofá.</default>
+		<default>Angely desliga e sai correndo. Na MEAK, Zenon está no sofá.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ele já foi, vai falar com a Mel...</default>
+		<default>Vai falar com Mel.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Esqueceu o livro.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele vai trazer...</default>
+		<default>Vai trazer...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Ela não vai acreditar nele.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ela sabe que ele não mente.</default>
+		<default>Mel sabe que Ang não mente.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Nem pelo bem dela? Nem pelo bem do mundo?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Melhor nós levarmos...</default>
+		<default>Melhor a gente levar então.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Eu levo. Assim que anoitecer.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Peraí, por que todo mundo me deixa de fora???</default>
+		<default>Por que todo mundo me deixa de fora???</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Acha que vou querer ser o responsável se acontecer alguma coisa com você?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Se me deixar aqui sozinha, vai ser.</default>
+		<default>Se me deixar aqui sem ninguém, vai ser.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Você fica aí com a irmã do atorzinho.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ah, já entendi, você tá é com ciúmes do Dancan!</default>
+		<default>Ah, já entendi, você tá é com ciúmes de Dancan!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>De modo algum!</default>
+		<default>Até parece!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não, é só minha imaginação.</default>
@@ -454,7 +454,7 @@
 		<default>É isso mesmo, você tem uma imaginação muito fértil. Fazer o que, as crianças...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eu não sou criança, tenho quatorze anos!</default>
+		<screamed>Eu não sou criança, tenho quatorze anos!</screamed>
 	</talk>
 	<talk character="Zenon">
 		<default>E eu duzentos e vinte e dois, bebê!</default>
@@ -465,15 +465,15 @@
 	<talk character="Zenon">
 		<default>Mais vinte e cinco de vida. Bom, eu tô indo, tenho que arrumar as coisas pra ir...</default>
 	</talk>
+	<teller>
+		<default>Kat cruza os braços.</default>
+	</teller>
 	<talk character="Kat">
 		<default>E você tem alguma coisa?</default>
 	</talk>
 	<teller>
-		<default>Zenon a encara.</default>
+		<default>Zenon encara Kat.</default>
 	</teller>
-	<talk character="Kat">
-		<default>Ué, pra que um vampiro precisa de pertences se...</default>
-	</talk>
 	<talk character="Zenon">
 		<default>Eu tenho armas, tenho roupas. Não saio roubando as coisas dos outros.</default>
 	</talk>
@@ -481,22 +481,22 @@
 		<default>E com que dinheiro você comprou?</default>
 	</talk>
 	<teller>
-		<default>Ele sai.</default>
+		<default>Zenon sai.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Eu compro uma passagem e vou sozinha!</default>
+		<default>Eu compro uma passagem e vou!</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Você é menor, bebê!</default>
+		<out>Você é menor, bebê!</out>
 	</talk>
 	<teller>
-		<default>Dione desce a escada.</default>
+		<default>Kat se joga no sofá. Dione desce a escada.</default>
 	</teller>
 	<talk character="Dione">
 		<default>Onde estão os dois?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Angely já foi pra Europa e Zenon foi buscar as coisas dele pra ir atrás.</default>
+		<default>Angely já foi pra Europa e Zenon foi buscar coisas pra ir atrás.</default>
 	</talk>
 	<talk character="Dione">
 		<default>Ciúmes da sua irmã. E aí, quais as novas?</default>
@@ -507,6 +507,9 @@
 	<talk character="Dione">
 		<default>Ai, meus sobrinhos...</default>
 	</talk>
+	<teller>
+		<default>Kat arregala os olhos.</default>
+	</teller>
 	<talk character="Kat">
 		<default>É mesmo, esquecemos... Já devem ter nascido!</default>
 	</talk>
