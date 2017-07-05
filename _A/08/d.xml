@@ -325,7 +325,7 @@
 		<default>Esquece.</default>
 	</talk>
 	<teller>
-		<default>Mel sai. Vai até a cozinha.</default>
+		<default>Mel sai até a cozinha.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Edmont, lembra de Nilrem?</default>
@@ -349,14 +349,15 @@
 		<default>Nada é o que parece.</default>
 	</talk>
 	<teller>
-		<default>Silêncio. Angely chega na cozinha. Abre a janela. Amanheceu. Angely abre a geladeira, olha e depois fecha. Sai da cozinha de novo.</default>
+		<default>Silêncio. Mel pega leite na geladeira. Pega achocolatado no armário. Coloca o leite e o achocolatado no copo. Angely chega na cozinha. Abre a janela. Vai até a geladeira. Abre. Olha. Fecha. Sai da cozinha de novo.</default>
 	</teller>
-	<teller>
-		<default>AQUI</default>
-	</tellet>
 	<talk character="Edmont">
 		<default>Vou sair.</default>
-		<teller>fica olhando pra Mel</teller>
+	</talk>
+	<teller>
+		<default>Edmont olha para Mel. Mel continua mexendo achocolatado em um copo.</default>
+	</teller>
+	<talk character="Edmont">
 		<default>Não vai dizer nada?</default>
 	</talk>
 	<talk character="Mel">
@@ -368,6 +369,9 @@
 	<talk character="Mel">
 		<default>Se não sentisse mais nada, não estaria correndo atrás dela.</default>
 	</talk>
+	<teller>
+		<default>Edmont solta o ar e balança a cabeça para os lados.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Que férias malditas nós tiramos...</default>
 	</talk>
@@ -387,7 +391,7 @@
 		<default>Daqui a cinco teremos que viajar.</default>
 	</talk>
 	<teller>
-		<default>Mel sai da cozinha.</default>
+		<default>Mel vira o copo de achocolatado. Sai da cozinha.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Vou acabar com a banda.</default>
@@ -405,7 +409,7 @@
 		<default>Jak desaparece.</default>
 	</teller>
 	<teller>
-		<first>Enquanto isso, Angely, que está no jardim, ouve novamente uma voz.</first>
+		<first>Angely está no jardim, no chão, encostado em uma árvore. Levanta-se bruscamente. Olha para os lados.</first>
 	</teller>
 	<talk character="Angely">
 		<default>Quem está chamando?</default>
@@ -413,6 +417,9 @@
 	<talk character="Meg">
 		<default>Não reconhece mais minha voz?</default>
 	</talk>
+	<teller>
+		<default>Angely vira para trás. Meg está parada olhando para ele, com a cabeça meio de lado.</default>
+	</teller>
 	<talk character="Angely">
 		<default>Meg...</default>
 	</talk>
@@ -423,39 +430,40 @@
 		<default>Onde você está?</default>
 	</talk>
 	<talk character="Meg">
-		<default>Estou me sentindo tão só... Vem comigo?</default>
+		<default>Estou me sentindo só... Vem comigo?</default>
 	</talk>
 	<teller>
-		<default>Edmont sai de dentro da casa e vai até Angely.</default>
+		<default>Edmont sai. Vê Angely. Franze a testa. Vai até Angely.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Falando sozinho?</default>
 	</talk>
+	<teller>
+		<default>Angely olha para Edmont. Olha em volta.</default>
+	</teller>
 	<talk character="Angely">
-		<default>Onde ela está?!</default>
+		<default>Onde ela tá?!</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela tá estranha, fica jogando indiretas o tempo todo.</default>
+		<default>Fica jogando indiretas o tempo todo.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Também está ouvindo?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Estamos falando da Mel?</default>
+		<default>Estamos falando de Mel?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Mel... Parece que ela quer falar algo e não consegue.</default>
 	</talk>
 	<teller>
-		<default>Toca o telefone de Edmont e ele atende.</default>
+		<default>Toca o celular de Edmont. Edmont atende.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Alô? ### É ele. ### Quem? ### De onde nos... ### O que tem ela? ### Que horas? ### Tá, eu vou. ### Já disse que vou. ### Mas qual seu...</default>
-		<teller>a pessoa do outro lado da linha desliga</teller>
-		<default>...nome?</default>
+		<default>Alô? ### Sou eu. ### Quem? ### De onde nos... ### O que tem? ### Que horas? ### Tá, eu vou. ### Já disse que vou. ### Mas qual seu...</default>
 	</talk>
 	<teller>
-		<default>Edmont desliga o telefone.</default>
+		<default>Edmont suspira. Desliga o telefone.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Quem era?</default>
@@ -464,7 +472,7 @@
 		<default>Ninguém.</default>
 	</talk>
 	<teller>
-		<default>Edmont volta pra dentro. Angely vai atrás dele.</default>
+		<default>Edmont volta pra dentro. Angely olha ao redor. Baixa a cabeça. Entra.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Você não ia sair?</default>
