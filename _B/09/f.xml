@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="09" scene="f">
 	<teller>
-		<default>23:00. Na casa de Michele, Kat está no sofá, deitada no colo de Angely. Levanta.</default>
+		<default>Noite, quase madrugada. Casa de Michele. Kat está no sofá, deitou-se no colo de Angely. Levanta.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Vou tomar um ar.</default>
@@ -10,19 +10,25 @@
 		<default>Kat sai. Olha pro céu.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Posso te ajudar.</default>
+		<arrive>Posso te ajudar.</arrive>
 	</talk>
 	<talk character="Kat">
-		<default>Tornar ele um monstro que nem você?</default>
+		<default>Transformar em monstro que nem você?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não sou um monstro. Não sou mais. Se ele ficar alterado no começo, prendemos ele até voltar ao normal.</default>
+		<default>Não sou monstro. Não sou mais. Se se alterar no começo, prendemos até voltar ao normal.</default>
 	</talk>
 	<talk character="Kat">
 		<default>E qual seu interesse nisso?</default>
 	</talk>
 	<talk character="Bea">
-		<default>Nenhum. Bom, tem sim. Se você sofre, Mel sofre o dobro. Angely então... Não quero ver todo mundo assim.</default>
+		<default>Nenhum. Bom, tem sim. Se você sofre, Mel sofre o dobro. Angely então...</default>
+	</talk>
+	<teller>
+		<default>Beatrice baixa a cabeça. Volta a olhar Kat.</default>
+	</teller>
+	<talk character="Bea">
+		<default>Não quero ver todo mundo assim.</default>
 	</talk>
 	<talk character="Kat">
 		<default>E Edmont?</default>
@@ -31,66 +37,73 @@
 		<default>Edmont fica feliz. Sempre fica feliz com a desgraça alheia.</default>
 	</talk>
 	<talk character="Ang">
-		<screamed>Kat!</screamed>
+		<out>Kat!</out>
 	</talk>
 	<teller>
-		<default>Kat entra. Beatrice fica. Então Mel chega.</default>
+		<default>Kat entra correndo. Beatrice dá um passo na direção da porta. Baixa a cabeça. Vira. Mel sai.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Vem também.</default>
 	</talk>
 	<teller>
-		<default>Bea olha para Mel. As duas entram.</default>
+		<default>Bea olha para Mel. Entram.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Fala logo!</default>
 	</talk>
-	<talk character="Gustavo – Médico">
+	<talk character="Bruno">
 		<default>Ele podia ter morrido com o sedativo que tomou. Parece ter alergia a algum dos componentes.</default>
 	</talk>
 	<talk character="Michele">
 		<default>Eu falei pra chamar o nosso antigo médico, esse aí não tem experiência nenhuma!</default>
 	</talk>
+	<teller>
+		<default>Bruno franze a testa e olha para Michele.</default>
+	</teller>
 	<talk character="Kat">
-		<default>Será que ele tentou...</default>
+		<default>Será que Derik tentou...</default>
 	</talk>
 	<talk character="Estela">
 		<default>Não, Derik não tomou nenhum sedativo, eu tava com ele quando...</default>
-		<teller>parece tentar lembrar</teller>
-		<default>Desmaiamos.</default>
+	</talk>
+	<teller>
+		<default>Estela franze a sobrancelha.</default>
+	</teller>
+	<talk character="Estela">
+		<default>Desmaiamos...</default>
 	</talk>
 	<talk character="Ang">
 		<default>Desmaiaram?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Alguém sedou os dois.</default>
+		<default>Alguém sedou vocês.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Talvez alguém esteja querendo algo de Kat.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Atingiram as duas pessoas mais próximas de Kat mais frágeis.</default>
+		<default>Tem razão, atingiram as duas pessoas mais próximas de Kat que eram mais frágeis.</default>
 	</talk>
 	<talk character="Michele">
-		<default>Posso ajudar a protegê-la!</default>
+		<default>Posso ajudar a proteger ela!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pode ficar quieta no seu canto e tentar sair das fraudas. Angely, pega o Derik. Estela, Kat, venham comigo. Vamos pra casa.</default>
+		<default>Pode ficar quieta no seu canto e tentar sair das fraudas. Angely, pega Derik. Estela, Kat, venham comigo. Vamos pra casa.</default>
 	</talk>
 	<teller>
 		<default>Mel sai. Beatrice e Estela saem também.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Mel está nervosa.</default>
+		<default>Mel está com raiva.</default>
 	</talk>
 	<teller>
-		<default>Angely entra no quarto, pega Derik no colo e volta à sala.</default>
+		<default>Angely entra no quarto, pega Derik no colo e volta a sala.</default>
 	</teller>
 	<talk character="Ang">
-		<default>Podemos levar ele pra casa?</default>
+		<default>Podemos levar pra casa?</default>
 	</talk>
-	<talk character="Gustavo">
-		<default>Sim.</default>
+	<talk character="Bruno">
+		<default>Sim. Vai se recuperar com a injeção que dei.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Quanto devemos?</default>
@@ -99,19 +112,19 @@
 		<default>Eu pago. Ao menos isso, ele ficou doente aqui.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Obrigado. Até.</default>
+		<default>Valeu. Até.</default>
 	</talk>
 	<teller>
-		<default>Ele sai com Derik no colo e Kat ao seu lado. Michele pega um cheque.</default>
+		<default>Ang sai com Derik no colo, Kat ao seu lado. Michele pega um cheque.</default>
 	</teller>
 	<talk character="Michele">
 		<default>Quanto?</default>
 	</talk>
-	<talk character="Gustavo">
-		<default>500.</default>
+	<talk character="Bruno">
+		<default>Dois mil.</default>
 	</talk>
 	<teller>
-		<default>Michele preenche o cheque. Entrega para o médico, que sai. Alice chega.</default>
+		<default>Michele preenche o cheque. Entrega para Bruno. Bruno pega e sai. Alice chega.</default>
 	</teller>
 	<talk character="Alice">
 		<default>Vi todo mundo saindo...</default>
@@ -136,32 +149,45 @@
 	</talk>
 	<talk character="Michele">
 		<default>Se eu acho?</default>
-		<teller>ri</teller>
+	</talk>
+	<teller>
+		<default>Michele ri.</default>
+	</teller>
+	<talk character="Michele">
 		<default>Não, eu tenho certeza. Só não tem como provar.</default>
 	</talk>
 	<talk character="Alice">
 		<default>Então não temos que nos preocupar.</default>
 	</talk>
 	<talk character="Michele">
-		<default>Ela não tem cara de quem acha que precise dizer o motivo do que fez.</default>
+		<default>Ela não tem cara de quem acha que precisa justificar pros outros o que faz.</default>
 	</talk>
 	<talk character="Alice">
 		<default>Pode ser. Se fosse sozinha. Mas ela tem que dar exemplo pras crias dela e Angely não vai deixar ela nos matar.</default>
 	</talk>
+	<teller>
+		<default>Michele arregala os olhos.</default>
+	</teller>
 	<talk character="Michele">
 		<default>Matar, acha que ela pensou em algo tão agressivo?</default>
 	</talk>
 	<talk character="Alice">
-		<default>Acho que sim.</default>
+		<default>Acho que sim. Se ela acha que tentamos matar Derik de propósito.</default>
 	</talk>
+	<talk character="Michele">
+		<default>Nossa. Mas eu não... Não chegaria a tanto...</default>
+	</talk>
+	<teller>
+		<default>Michele senta no sofá.</default>
+	</teller>
 	<talk character="Michele">
 		<default>Até que enfim o treinamento pode servir pra alguma coisa.</default>
 	</talk>
 	<teller>
-		<default>0:00 (05/05 – segunda). Zenon e Alan chegam na MEAK. Mel e Ang estão na sala.</default>
+		<first>MEAK. Zenon e Alan chegam. Mel e Ang estão na sala.</first>
 	</teller>
 	<talk character="Zenon">
-		<default>Que foi, aconteceu mais alguma coisa com o Derik?</default>
+		<default>Que foi, aconteceu mais alguma coisa com Derik?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Mel acha que Michele armou isso.</default>
