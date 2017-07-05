@@ -19,13 +19,7 @@
 		<default>Sabe o que eu acho? Estão me escondendo alguma coisa. Não gosto de ser enganado.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Você tem mulher?</default>
-	</talk>
-	<talk character="Sultão">
-		<default>Tenho...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Feio desse jeito, já devia estar acostumado a ser enganado.</default>
+		<default>E porque acha que o que você gosta me importa?</default>
 	</talk>
 	<talk character="Sultão">
 		<default>Vão ou não me dizer o que querem com a porcaria do...</default>
@@ -130,7 +124,7 @@
 		<default>É uma espécie de colar...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ô, sua besta quadrada, este era o galpão de um ladrão... Deve ter muitos colares aí dentro!</default>
+		<default>Era o galpão de um ladrão. Deve ter muitos colares aí dentro.</default>
 	</talk>
 	<talk character="John">
 		<default>Não lembro direito.</default>
@@ -145,10 +139,10 @@
 		<default>Tudo? Que você nasceu burro, não aprendeu nada e esqueceu a metade!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Bom, vamos começar a procurar essa porcaria.</default>
+		<default>Melhor começar a procurar.</default>
 	</talk>
 	<teller>
-		<first>Anoiteceu.</first>
+		<first>Noite.</first>
 	</teller>
 	<talk character="Angely">
 		<default>É esse aqui?</default>
@@ -158,7 +152,7 @@
 	</talk>
 	<talk character="Edmont">
 		<screamed>Droga!</screamed>
-		<default>Faz oito horas que estamos procurando e não encontramos essa por...</default>
+		<default>Faz oito horas que estamos procurando e não encontramos essa porra!</default>
 	</talk>
 	<talk character="John">
 		<screamed>Achei!</screamed>
@@ -218,10 +212,10 @@
 		<default>Amarrado, só pra variar.</default>
 	</talk>
 	<talk character="Sarah">
-		<default>Então, seu irmão é mais experto...</default>
+		<default>Seu irmão é mais esperto.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Estava do lado deles o tempo todo?!</default>
+		<default>Estava do lado das múmias o tempo todo?!</default>
 	</talk>
 	<talk character="Sarah">
 		<default>Ah, tadinho dele, que inocente...</default>
@@ -281,25 +275,31 @@
 		<default>Coloque a pedra dentro do vaso.</default>
 	</talk>
 	<teller>
-		<default>Edmont coloca e tudo começa a desabar. Eles saem correndo. Toda a pirâmide afunda na areia.</default>
+		<default>Edmont coloca e tudo começa a desabar. Eles correm pelos corredores. Angely cai no chão com Meg. Edmont volta, coloca Meg nas costas de Angely, e os dois continuam correndo. Sobem escadas. Saem da pirâmide. A areia está afundando, os pés de Angely ficam presos. Angely afunda na areia. Edmont puxa pelos braços de Meg. Tira. Aproxima o vaso da areia e esta se afasta. Vê uma mão. Puxa. Consegue tirar Angely. Toda a pirâmide afunda na areia.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Ainda bem que saímos...</default>
 	</talk>
+	<teller>
+		<default>Meg acorda. Olha para Angely. Ele tenta levantar, mas bambeia. Ela o sustenta.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Angely, acho que estamos encrencados.</default>
 	</talk>
-	<teller>
-		<default>Angely se vira e vê uma coisa enorme.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Que bicho é esse???</default>
+	<talk character="Meg">
+		<screamed>Que porra é essa?!</screamed>
 	</talk>
-	<talk character="Edmont">
+	<talk character="Angely">
 		<default>Espero que seja herbívoro.</default>
 	</talk>
 	<teller>
-		<default>Edmont abre o vaso e tira o colar. O "bicho" é sugado pra dentro do vaso. Ele fecha o vaso. Repara na fenda ao redor na tampa, com o mesmo formato do colar. Lacra o vaso. De repente, eles se vêem no quarto do hotel. Meg ainda no colo de Angely, o abraça. Agatha e Kat acordam.</default>
+		<default>Meg pega o vaso da mão do Edmont.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Meg, de novo não!</default>
+	</talk>
+	<teller>
+		<default>Meg abre o vaso e tira o colar. O "bicho" é sugado pra dentro do vaso. Meg fecha o vaso. Repara na fenda ao redor na tampa, com o mesmo formato do colar. Lacra o vaso. De repente, eles se vêem no quarto do hotel. Meg abraça Angely. Agatha e Kat acordam.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Será que foi imaginação?</default>
@@ -317,7 +317,7 @@
 		<default>Meg, já acabou.</default>
 	</talk>
 	<teller>
-		<default>Meg olha nos olhos de Angely. Ela beija ele. Júlio abre a porta do quarto.</default>
+		<default>Meg olha nos olhos de Angely. Ela beija ele. Júlio abre a porta do quarto. Os dois se afastam. Rith e Halen chegam.</default>
 	</teller>
 	<talk character="Júlio">
 		<default>Gente, eu dormi a semana inteira...</default>
@@ -352,9 +352,6 @@
 	<talk character="Júlio">
 		<default>Que vocês andaram fazendo?</default>
 	</talk>
-	<teller>
-		<default>Júlio nota que Angely está com Meg no colo. Meg sai do colo de Angely. Ele fica sem jeito.</default>
-	</teller>
 	<talk character="Angely">
 		<default>Nada.</default>
 	</talk>
@@ -362,7 +359,7 @@
 		<default>Vê lá o que vai fazer...</default>
 	</talk>
 	<teller>
-		<default>Júlio fecha a porta. Edmont ri. Agatha dá um tapinha no ombro de Meg.</default>
+		<default>Júlio fecha a porta. Edmont ri. Agatha coloca a mão no ombro de Meg.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Cuida direitinho dele.</default>
@@ -383,10 +380,10 @@
 		<default>Contratamos uma empresa de mudança. Vamos pro Brasil.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>O Angely e a Meg é que vão ficar felizes...</default>
+		<default>Angely e Meg é que vão ficar felizes...</default>
 	</talk>
-	<talk character="Rith">
-		<default>Ah?!</default>
+	<talk character="Júlio">
+		<default>Ah?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Nada.</default>
