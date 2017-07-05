@@ -1,9 +1,12 @@
-.main input
+.main input,
+.main textarea
 {
 	background: none;
 }
 
-.main input, .main select
+.main input,
+.main textarea,
+.main select
 {
 	border: none;
 	text-align: inherit;
@@ -21,6 +24,13 @@
 {
     font-size: 150%;
     font-weight: bold;
+}
+
+.titleChange textarea
+{
+	width: 100% !important;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
 }
 
 

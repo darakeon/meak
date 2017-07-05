@@ -15,8 +15,11 @@ namespace Structure.Entities
 
         public Episode(String path, String season, String episode) : this()
         {
+            var info = MainInfoXML.Get(path, season, episode);
+
             ID = episode;
-            Title = TitleXML.Get(path, season, episode);
+            Title = info.Title;
+            Summary = info.Summary;
             Season = new Season { ID = season };
         }
 
@@ -25,6 +28,7 @@ namespace Structure.Entities
         public String ID { get; set; }
 
         public String Title { get; set; }
+        public String Summary { get; set; }
 
         public List<Scene> SceneList { get; set; }
 

@@ -121,7 +121,7 @@ namespace Structure.Data
                 !FileInfo.CreateIfNotExists("<story></story>");
 
 
-            TitleXML.Save(title, folderPath, seasonID, episodeID);
+            MainInfoXML.Save(title, "", folderPath, seasonID, episodeID);
 
             fakeStory();
 

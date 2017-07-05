@@ -41,7 +41,9 @@
 {
     <div class="titleChange">
         <button type="submit" class="darkback" class="save" id="save_title">Salvar</button>
-        @Html.TextBoxFor(m => m.Story.Title)
+        @Html.TextBoxFor(m => m.Story.Title)<br />
+
+        @Html.TextAreaFor(m => m.Story.Summary)
     </div>
 }
 

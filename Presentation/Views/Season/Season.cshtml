@@ -9,15 +9,20 @@
     Temporada @Model.Season
 </p>
 
-@foreach (var episode in Model.EpisodeList)
-{
-    <div class="seasonItemList">
-        <a href="@Url.Action("Episode", "Season", new { seasonID = Model.Season, episodeID = episode })">
-            <span class="epCode">@(episode):</span>
-            <span class="epTitle">@episode.Title</span>
-        </a>
-    </div>
-}
+<ul class="seasonEpisodesList">
+    @foreach (var episode in Model.EpisodeList)
+    {
+        <li>
+            <a class="title" href="@Url.Action("Episode", "Season", new { seasonID = Model.Season, episodeID = episode })">
+                <span class="epCode">@(episode):</span>
+                <span class="epTitle">@episode.Title</span>
+            </a>
+            <p class="summary">
+                @episode.Summary
+            </p>
+        </li>
+    }
+</ul>
 
 <p class="sign">
     <img alt="Handhara Akeon" src="@Url.Content(@"~/Assets/images/sign.gif")" />

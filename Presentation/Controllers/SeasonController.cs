@@ -106,7 +106,7 @@ namespace Presentation.Controllers
         [HttpPost]
         public void EditTitle(SeasonEpisodeModel model, String seasonID, String episodeID)
         {
-            TitleXML.Save(model.Story.Title, paths.Xml, seasonID, episodeID);
+            MainInfoXML.Save(model.Story.Title, model.Story.Summary, paths.Xml, seasonID, episodeID);
         }
 
 

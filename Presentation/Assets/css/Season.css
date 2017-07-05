@@ -1,23 +1,38 @@
-.seasonItemList
+.seasonEpisodesList
 {
-	line-height: 2;
-	float: left;
-	width: 50%;
-	font-size: 125%;
+	margin: 0;
+	padding: 0;
 }
 
-.seasonItemList .epCode
+.seasonEpisodesList li
+{
+	list-style: none;
+}
+
+.seasonEpisodesList .title
+{
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 7px;
+    display: block;
+    font-size: 115%;
+}
+
+.seasonEpisodesList .epCode
 {
 	font-weight: bold;
 }
 
-.seasonItemList .epTitle
+.seasonEpisodesList .epTitle
 {
 	font-style: italic;
 }
 
-.seasonItemList a
+.seasonEpisodesList .summary
 {
     text-decoration: none;
     color: inherit;
+    margin-bottom: 25px;
+    display: block;
+	text-indent: 50px;
 }
