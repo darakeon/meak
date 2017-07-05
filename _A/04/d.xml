@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="04" scene="d">
 	<teller>
-		<default>Na MEAK, Angely, Edmont e Melody procuram em livros algo mais.</default>
+		<default>Na MEAK, Angely, Edmont e Melody estão no escritório.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Gente, descobri que eles precisam de autorização pra entrar.</default>
+		<default>Eles precisam de autorização pra entrar. Precisamos dar um jeito de dizer isso a Agatha e Meg.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>É melhor pararmos de ler por aqui e começar a agir.</default>
+		<default>Mudei de ideia, acho que não acharemos mais nada nesses livros. Bem que podia ter um ritual pra você invocar eles...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Como?</default>
+		<default>Já teriam sido extintos.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Eu vou ver o lugar onde eles morreram. Vou pegar a Kat.</default>
@@ -21,37 +21,37 @@
 	<talk character="Edmont">
 		<default>Pode ser.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Bom, eu tô indo.</default>
-	</talk>
-	<teller>
-		<default>Angely desce pela porta de saída da casa.</default>
-	</teller>
 	<teller>
 		<first>Na casa de Kat, ela está no quarto. Ouve um latido e sai.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Oi, que você tá fazendo aqui?</default>
 		<teller>se abaixa e passa a mão na cabeça do cachorro</teller>
-		<default>Você é um cachorro muito bonzinho. Que é isso?</default>
+		<default>Que fofura!</default>
 	</talk>
 	<teller>
-		<default>Kat pega uma caixa que o cachorro estava segurando. Dentro da caixa, uma folha com o símbolo, um chaveiro de dois olhos e com três chaves. Também uma bolsinha estranha, escrito MEAK.</default>
+		<default>Ele coloca no chão uma caixa ele segurava. Kat pega. Abre. Tira uma folha com o símbolo, um chaveiro de dois olhos e com três chaves, e uma bolsinha escrito MEAK.</default>
 	</teller>
 	<talk character="Kat">
 		<default>De onde é isso? Hein?</default>
 	</talk>
 	<teller>
-		<default>Ela guarda a chave, a bolsinha e o papel na caixa e leva pra dentro. O cachorro segue ela.</default>
+		<default>Ela guarda a chave, a bolsinha e o papel na caixa e leva pra dentro. O cachorro a segue.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Quer alguma coisa? Está com fome?</default>
 	</talk>
 	<teller>
-		<default>Ela vai até a cozinha e fica dando bolacha pro cachorro. Ele come, e continua ali.</default>
+		<default>Ela vai até a cozinha. Pega um pedaço de carne na geladeira. Bota no chão. Ele fica olhando pra ela.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ainda tá com fome? Não tem mais... De onde você veio? Não tem coleira...</default>
+		<default>Também é vegetariano?</default>
+	</talk>
+	<teller>
+		<default>Ela pega um pacote de bolachas e dá um pra ele, que come.</default>
+	</teller>
+	<talk character="Kat">
+		<default>De onde você veio? Não tem coleira...</default>
 	</talk>
 	<talk character="Angely">
 		<arrive>Conversando sozinha?</arrive>
@@ -69,10 +69,10 @@
 		<default>Não sabia que você tinha um cachorro.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Nem eu. Mas agora eu tenho.</default>
+		<default>Nem eu.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ah, tá... Meg já sabe?</default>
+		<default>Ah, tá... E a Meg?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Vai ficar sabendo.</default>
@@ -87,7 +87,7 @@
 		<default>Que bom.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Tá falando com ironia?</default>
+		<default>Isso é ironia?</default>
 	</talk>
 	<talk character="Angely">
 		<default>Não, é que preciso falar com você.</default>
@@ -132,10 +132,10 @@
 		<default>Ela tem uma exigência: quer ir de moto.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mas é perigoso.</default>
+		<default>Bom, a idade mínima pra humanos é de 10 anos, então acho que ela pode.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Legal.</default>
+		<default>Viu?!</default>
 	</talk>
 	<talk character="Angely">
 		<default>E o Edmont? Cadê?</default>
@@ -146,20 +146,26 @@
 	<talk character="Angely">
 		<default>Tá, esquece que eu perguntei.</default>
 	</talk>
-	<talk character="Kat">
+	<talk character="Mel">
 		<default>Tem dois capacetes?</default>
 	</talk>
+	<talk character="Angely">
+		<default>Não tinha pensado...</default>
+	</talk>
 	<teller>
-		<default>Angely entrega o capacete a Kat.</default>
+		<default>Kat tira um capacete da mochila que trouxera.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Cuidado pra não cair aí dentro.</default>
+		<default>Como arranjou isso? Quanto tempo faz que está pensando nisso?</default>
+	</talk>
+	<talk character="Kat">
+		<default>Desde que vi que tinham motos.</default>
 	</talk>
 	<teller>
 		<default>Eles colocam o capacete e sobem na moto. Ela segura na cintura dele e eles saem.</default>
 	</teller>
 	<teller>
-		<first>Mel vai até a cidade, com a moto dela. Numa lanchonete encontra Meg com Bryan.</first>
+		<first>Mel vai até a cidade, com a moto dela. Para em uma lanchonete. Encontra Meg com Bryan.</first>
 	</teller>
 	<talk character="Mel">
 		<default>Oi, tudo bem?</default>
@@ -182,23 +188,35 @@
 	<talk character="Bryan">
 		<default>Deixa esse viadinho pra lá.</default>
 	</talk>
-	<talk character="Mel">
-		<default>Desculpa, o que disse?</default>
+	<talk character="Meg">
+		<default>Bryan...</default>
 	</talk>
 	<talk character="Bryan">
-		<default>Viadinho.</default>
+		<default>É viadinho. O que eu posso fazer...</default>
+	</talk>
+	<talk character="Mel">
+		<default>Acho que você queria que ele fosse.</default>
 	</talk>
 	<teller>
 		<default>Bryan se levanta da mesa.</default>
 	</teller>
+	<talk character="Bryan">
+		<default>Tá insinuando que eu sou viado?!</default>
+	</talk>
 	<talk character="Mel">
-		<default>Acho que você queria que ele fosse.</default>
+		<default>Chamar você de gay não seria insulto e usar isso como insulto seria rebaixar pessoas gays ao seu nível. Me refiro ao fato de que você sabe que a Meg gosta dele, não de você. E, se ele fosse gay, ela continuaria com você.</default>
+	</talk>
+	<talk character="Bryan">
+		<default>Por que, se estiver ensinuando, posso te mostrar que...</default>
+	</talk>
+	<talk character="Mel">
+		<default>É, você não entendeu. Mas acho que a culpa deve ser minha, por tentar explicar algo a quem não tem vontade de entender.</default>
 	</talk>
 	<talk character="Meg">
 		<default>Por favor, Bryan, eu não gosto disso.</default>
 	</talk>
 	<talk character="Bryan">
-		<default>Por que tem tanta certeza? Ele tá comendo você?</default>
+		<default>Por que tem tanta certeza que ele não é bicha? Ele tá comendo você?</default>
 	</talk>
 	<teller>
 		<default>Mel dá um soco em Bryan.</default>
@@ -207,7 +225,7 @@
 		<default>Meu Deus!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Por que não abre os olhos e enxerga o que tem e o que podia ter?</default>
+		<default>Tenho um problema quando ouço preconceito, uma coceira no punho, sabe? Desculpa te fazer presenciar isso... Não, pera, foi você quem escolheu manter esse traste na sua vida.</default>
 	</talk>
 	<teller>
 		<default>Ela sai. Meg ajuda Bryan a se levantar.</default>
@@ -228,7 +246,7 @@
 		<default>Sinceramente, eu não sei o que todas essas garotas vêem nele.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Ele não fica bancando o machão e chamando todos os caras tímidos de viados.</default>
+		<default>Ele não fica bancando o machão.</default>
 	</talk>
 	<talk character="Bryan">
 		<default>Qual é? Minha irmã, essa daí, agora você também???</default>
@@ -237,7 +255,7 @@
 		<default>Quer saber? Terminou. Eu não agüento mais isso. Tchau.</default>
 	</talk>
 	<teller>
-		<default>Meg se levanta da mesa e deixa Bryan falando (gritando) sozinho.</default>
+		<default>Meg sai.</default>
 	</teller>
 	<talk character="Bryan">
 		<screamed>Vai se arrepender! Ele é um mão virada!</screamed>
@@ -249,7 +267,7 @@
 		<default>Nessa casa toda quebrada?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não tava assim. Eu desmaiei. Eles devem ter tentado resistir.</default>
+		<default>Não tava assim. Eu desmaiei. Eles devem... Ter tentado resistir.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Disseram que você não tinha sinais vitais.</default>
@@ -267,7 +285,7 @@
 		<default>Bom, além de tudo quebrado...</default>
 	</talk>
 	<teller>
-		<default>Angely examina o local. Não havia indícios. Nada que pudesse levar à quem fez aquilo.</default>
+		<default>Angely olha ao redor. Procura algo pelo chão. Vai até outros cômodos. Volta a sala. Senta. Baixa a cabeça.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Será que vampiro tem impressão digital?</default>
@@ -279,7 +297,7 @@
 		<default>Você chegou a ver quem era?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Um homem. Tava meio escuro. Só vi ele...</default>
+		<default>Um homem. Não consegui... Eu...</default>
 	</talk>
 	<teller>
 		<default>Kat abaixa a cabeça e seus olhos ficam marejados.</default>
@@ -314,9 +332,6 @@
 	<talk character="Kat">
 		<default>Tá.</default>
 	</talk>
-	<teller>
-		<default>Eles pegam a moto e voltam.</default>
-	</teller>
 	<teller>
 		<first>De noite, na casa abandonada, Elian está na frente da porta trancada.</first>
 	</teller>
@@ -357,11 +372,53 @@
 		<default>Não, não vais.</default>
 	</talk>
 	<teller>
-		<default>Ele rasga a roupa dela. Continua beijando-a. Ela tenta resistir, mas acaba cedendo a ele, não só por ele conseguir segurá-la, mas também por vontade própria. De tentar afastá-lo passa à segurá-lo. Ela o beija. Eles ficam horas juntos. Ela vai para o banheiro, tomar banho. Ele vai até ela e a abraça.</default>
+		<default>Ele arranca o bracelete que ela trazia no pulso. Os olhos dela ficam mais claros. Ela o beija. Rasga a camisa dele. Ele a beija. Joga-a na cama. Arranca a roupa dela. Olha-a. Ela o puxa.</default>
+	</teller>
+	<teller>
+		<first>Horas depois, ele coloca o bracelete nela. Ela acorda. Se vê sem roupa. Puxa o lençol pra si.</first>
 	</teller>
 	<talk character="Elian">
 		<hushed>Agora não és mais criança.</hushed>
 	</talk>
+	<talk character="Beatrice">
+		<default>Que houve?</default>
+	</talk>
+	<talk character="Elian">
+		<default>Não lembra mesmo?</default>
+	</talk>
+	<teller>
+		<default>Ela olha para lugar nenhum. Depois olha para ele.</default>
+	</teller>
+	<talk character="Beatrice">
+		<default>Era eu?</default>
+	</talk>
+	<talk character="Elian">
+		<default>Sim. Mas livre, como estará quando eu te transformar.</default>
+	</talk>
+	<talk character="Beatrice">
+		<default>A gente pode... Sem tirar...</default>
+	</talk>
+	<talk character="Elian">
+		<default>Você é perfeita. Eu te quero de qualquer jeito.</default>
+	</talk>
+	<talk character="Beatrice">
+		<default>Quero saber como é, com o bracelete.</default>
+	</talk>
+	<talk character="Elian">
+		<default>Eu te amo. Mas preciso que abra mão de certas coisas.</default>
+	</talk>
+	<teller>
+		<default>Ela se levanta, com o lençol. Vai até a janela.</default>
+	</teller>
+	<talk character="Beatrice">
+		<default>O que eu senti... Foi... diferente.</default>
+	</talk>
+	<talk character="Elian">
+		<default>Era puro instinto. Agiu de forma pura, como os animais. Como deve ser.</default>
+	</talk>
+	<teller>
+		<default>Ela solta o lençol. Vira-se para ele.</default>
+	</teller>
 	<talk character="Beatrice">
 		<default>Que vão pro inferno os valores humanos.</default>
 	</talk>
@@ -369,13 +426,15 @@
 		<default>E os seus amigos?</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Danem-se todos os humanos.</default>
+		<default>Danem-se</default>
+		<frizz>todos</frizz>
+		<default> os humanos.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Entendeste.</default>
 	</talk>
 	<teller>
-		<default>Ele morde o pescoço dela. Ela afasta o rosto dele, olha-o e o beija. Depois ele volta a beber o sangue dela. Ela o abraça. Depois de algum tempo, ela já não tem força. Ele corta o próprio pulso e alimenta-a de seu sangue.</default>
+		<default>Ele vai até ela. Beija-a. Beija o pescoço dela. Ela aperta os olhos. Afasta o rosto dele, olha-o e o beija. Depois ele volta ao pescoço dela. Ela o abraça. Depois de algum tempo, o corpo dela amolece nos braços dele. Ele a pega no colo e deita-a na cama. Corta o próprio pulso e coloca na boca de Beatrice. Beija-a, limpando o sangue que estava na boca.</default>
 	</teller>
 	<teller>
 		<first>De manhã, na casa de Meg...</first>
@@ -429,7 +488,7 @@
 		<default>Ê, prigui!</default>
 	</talk>
 	<teller>
-		<default>Kat vai pegar os cartões.</default>
+		<default>Kat sobe.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Então, ontem você saiu com o Bryan?</default>
@@ -447,7 +506,13 @@
 		<default>Eu também, mas fazer o que?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Deve ser inveja.</default>
+		<default>Humanos são criados com preconceito.</default>
+	</talk>
+	<talk character="Meg">
+		<default>Isso não seria preconceito seu?</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Considerando que vivo aqui desde os 12, pode ser que seja.</default>
 	</talk>
 	<talk character="Meg">
 		<default>Vai com a gente?</default>
@@ -477,7 +542,7 @@
 		<default>É, podem ir.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Tá vendo? Agüentar a irmãzinha chata... Isso é que é namorado.</default>
+		<default>Tá vendo? Aguentar a irmãzinha chata... Isso é que é namorado.</default>
 	</talk>
 	<teller>
 		<default>Agatha o beija.</default>
@@ -495,16 +560,22 @@
 		<default>Tá. Tchau, meu amor.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Olha, se quiser pegar o carro pra levar a Kat pra algum lugar, pode pegar, não leva ela na moto.</default>
+		<default>Olha, se quiser pegar o carro pra levar a Kat pra algum lugar, pode pegar. Não leva ela na moto, não importa se ela implorar.</default>
 	</talk>
-	<teller>
-		<default>Os quatro saem da casa. Edmont leva Kat pra MEAK.</default>
-	</teller>
+	<talk character="Edmont">
+		<default>Não pode?</default>
+	</talk>
+	<talk character="Meg">
+		<default>Claro que não! Ela tem 9 anos! Não fez isso, fez?!</default>
+	</talk>
+	<talk character="Edmont">
+		<default>Eu?! Não!</default>
+	</talk>
 	<teller>
 		<first>No escritório, Angely e Mel estão sentados à mesa, um de frente para o outro.</first>
 	</teller>
 	<talk character="Angely">
-		<default>Peraí, a garota nasceu há doze anos, certo?</default>
+		<default>A garota nasceu há doze anos, certo?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Certo.</default>
@@ -531,7 +602,7 @@
 		<default>Pode ser que ela seja a próxima.</default>
 	</talk>
 	<teller>
-		<default>Mel e Angely saem correndo. Vão até a casa.</default>
+		<default>Na casa abandonada.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Beatrice!</default>
@@ -540,22 +611,7 @@
 		<default>Tem alguém aí?!</default>
 	</talk>
 	<teller>
-		<default>Eles procuram no andar de baixo. Nada. Então sobem as escadas.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Tem muitos quartos aqui.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vai pela esquerda, eu vou pela direita.</default>
-	</talk>
-	<teller>
-		<default>Eles vão vendo todos os quartos.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Angely!</default>
-	</talk>
-	<teller>
-		<default>Angely ouve e corre até Mel.</default>
+		<default>Mel e Angely entram nos quartos na parte debaixo. Sobem. Se separam, um para cada lado. Angely entra nos quartos, diversas portas arrombadas. Uma hora, ouve um barulho de algo voando. Corre. Encontra Mel, no corredor.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Acho que chegamos tarde.</default>
@@ -582,7 +638,7 @@
 		<default>Crescia.</default>
 	</talk>
 	<teller>
-		<default>Ele chega perto dela.</default>
+		<default>Ele entra no quarto. Chega perto dela. A cobre com um lençol.</default>
 	</teller>
 	<talk character="Angely">
 		<default>Temos que parar isso.</default>
@@ -602,7 +658,4 @@
 	<talk character="Mel">
 		<default>Sem família. Deve ter crescido aqui.</default>
 	</talk>
-	<teller>
-		<default>Angely sai. Mel procura uma roupa e veste a garota.</default>
-	</teller>
 </story>
