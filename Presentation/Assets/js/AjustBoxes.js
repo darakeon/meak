@@ -60,11 +60,6 @@ function AjustInnerBox() {
             horizontal + "px ";
 
     $(".login").css("padding", padding);
-
-
-    var margin = "-10px";
-
-    $(".login").css("margin", margin);
 }
 
 function LoginVertical() {
