@@ -10,7 +10,7 @@
 		<default>Não sei. Como vamos trazer um caixão pra cá?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Meg deixou levar o carro se precisassem.</default>
+		<arrive>Meg deixou levar o carro se precisassem.</arrive>
 	</talk>
 	<talk character="Edmont">
 		<default>Você tava escutando?</default>
@@ -25,7 +25,7 @@
 		<default>Eu não conto pra ela.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Talvez tenha sido o mesmo que matou seu pai, sua mãe e o sr Júlio.</default>
+		<default>Talvez tenha sido o mesmo que matou seu pai, sua mãe e o senhor Júlio.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Ou talvez não.</default>
@@ -85,7 +85,7 @@
 		<default>Vou amanhã ao hospital onde ela nasceu, verificar isso.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Kat, você disse que tinha algo pra nos dizer...</default>
+		<default>Kat, você disse que tinha algo pra nos dizer.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Na verdade, são três coisas. Primeiro vou mostrar algo que descobri. Não se assustem.</default>
@@ -94,7 +94,7 @@
 		<default>Kat fecha os olhos e caí. Angely pega ela no colo e coloca no sofá. Pouco depois parece estar morta. Depois de poucos minutos ela volta a si.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Ela anulou os próprios sinais vitais...</default>
+		<default>Ela anulou os próprios sinais vitais.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Como fez isso???</default>
@@ -151,7 +151,7 @@
 		<default>Vamos.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Angely, não...</default>
+		<default>Angely, não.</default>
 	</talk>
 	<teller>
 		<default>Angely sobe a escada com Kat. Depois abre a portinha que tem no corredor. Eles sobem.</default>
@@ -163,10 +163,10 @@
 		<default>Nunca pediram.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por que fez isso???</default>
+		<default>Por que fez isso?!</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tá enlouquecendo? Ela lembra também, mas...</default>
+		<default>Tá enlouquecendo?</default>
 	</talk>
 	<talk character="Angely">
 		<default>A sigla.</default>
@@ -179,7 +179,7 @@
 	</talk>
 	<talk character="Mel">
 		<default>Olhos...</default>
-		<teller>Mel pára, pensa</teller>
+		<teller>pára, pensa</teller>
 		<default>Ver o futuro...</default>
 	</talk>
 	<teller>
@@ -243,7 +243,7 @@
 		<default>Legal, ele vai querer ir pra escola com a gente?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Como entendeu o que ele queria dizer???</default>
+		<default>Como entendeu o que ele queria dizer?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Cabe uma folha dentro da bolsa.</default>
@@ -260,8 +260,14 @@
 	<talk character="Angely">
 		<default>Um mensageiro.</default>
 	</talk>
+	<talk character="Kat">
+		<default>Já ouviu falar em celular?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Bom, eles ainda não pegam muito bem por aqui.</default>
+	</talk>
 	<talk character="Edmont">
-		<screamed>Por que tudo isso???</screamed>
+		<screamed>Por que tudo isso?</screamed>
 	</talk>
 	<teller>
 		<default>No espelho na sala, aparece: "resolvam o caso".</default>
@@ -374,7 +380,7 @@
 		<default>Que horas são?</default>
 	</talk>
 	<talk character="Meg">
-		<default>Cadê a Kat???</default>
+		<default>Cadê a Kat?!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Ah, meu Deus... Edmont, Angely! Venham aqui!</default>
@@ -401,7 +407,7 @@
 		<default>Angely!</default>
 	</talk>
 	<teller>
-		<default>Edmont e Angely se levantam rápido</default>
+		<default>Edmont e Angely se levantam rápido.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Kat, acorda!</default>
@@ -416,13 +422,13 @@
 		<default>E a minha namorada, que é sua segunda irmã, também...</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Você pediu pra ela ficar mais algum tempo, mas não imaginei que seria tanto tempo assim!</default>
+		<arrive>Você pediu pra ela ficar mais algum tempo, mas não imaginei que seria tanto tempo assim!</arrive>
 	</talk>
 	<talk character="Meg">
-		<default>Que queriam??? Raptar minha irmã???</default>
+		<arrive>Que queriam?! Raptar minha irmã?!</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Duas escandalosas.</default>
+		<arrive>Duas escandalosas.</arrive>
 	</talk>
 	<talk character="Agatha">
 		<default>Olha aqui, nós ficamos preocupadas!</default>
@@ -431,7 +437,7 @@
 		<default>Meg puxa Kat pra perto de si.</default>
 	</teller>
 	<talk character="Meg">
-		<default>Já pensou se acontecesse alguma coisa???</default>
+		<default>Já pensou se acontecesse alguma coisa?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Nós não mordemos!</default>
@@ -440,7 +446,7 @@
 		<default>Gente, ela não corria perigo aqui.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Ah, é? E aquela coisa que matou nossos pais???</default>
+		<default>Ah, é? E aquela coisa que matou nossos pais?!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Claro, mais fácil vocês protegerem ela do que nós...</default>
@@ -452,7 +458,7 @@
 		<default>Depois do que eu vi anteontem, eu não digo mais nada.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Quem te dá o direito de se intrometer na minha vida???</default>
+		<default>Quem te dá o direito de se intrometer na minha vida?!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Cuidem vocês dois disso, vocês que arranjaram a encrenca. Meg, cuidado pra não tropeçar nas orelhas.</default>
@@ -470,7 +476,7 @@
 		<default>Tudo bem. Acho que nós estávamos preocupadas à toa.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Preocupadas à toa??? Eles não têm nem noção de tempo e...</default>
+		<default>Preocupadas à toa?! Eles não têm nem noção de tempo e...</default>
 	</talk>
 	<teller>
 		<default>Meg está falando e Angely a interrompe, com um beijo.</default>
@@ -485,10 +491,10 @@
 		<default>Nossa, você ainda não sabia???</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eh, Edmont, cuidado com essas histórias de ser o último a saber...</default>
+		<default>Ê, Edmont, cuidado com essas histórias de ser o último a saber...</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Oh fôlego...</default>
+		<default>Ô fôlego...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Gostei da idéia.</default>

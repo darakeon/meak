@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="04" scene="c">
 	<teller>
-		<default>Edmont liga para a casa de Agatha. Ninguém atende. Ele estranha. Então vai até a casa de Agatha. Não encontra ninguém. Toca a campainha na casa de Meg.</default>
+		<default>Edmont liga para a casa de Agatha. Ninguém atende. Ele estranha. Então vai até lá. Não encontra ninguém. Toca a campainha na casa de Meg.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Já vai! Desesperado!</default>
@@ -19,7 +19,7 @@
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Primeiro eu pensei: ou ela tava dormindo, ou adora andar de pijama. Depois olhei pra sua cara e pensei: Ah, ela tava mesmo dormindo, com essa cara de travesseiro...</default>
+		<default>Primeiro eu pensei: ou ela tava dormindo, ou adora andar de pijama. Depois olhei pra sua cara e pensei: ah, ela tava mesmo dormindo, com essa cara de travesseiro...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Que veio fazer aqui?</default>
@@ -40,7 +40,7 @@
 		<default>Kat, pode acontecer.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Você levou a sério???</default>
+		<default>Você levou a sério?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Sei lá, do jeito que esse mundo tá ficando...</default>
@@ -130,13 +130,7 @@
 		<default>Bom, isso nós vamos ter que descobrir.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Na nossa língua essa palavra tem um significado.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Era uma sigla, deve continuar sendo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Depois que nós descobrirmos o fantasma fala quem é.</default>
+		<default>Depois que nós descobrirmos. Ou o fantasma fala quem é.</default>
 	</talk>
 	<teller>
 		<default>Aparece um papel sobre a mesa: Alguém novo no grupo.</default>
@@ -151,7 +145,7 @@
 		<default>Eu vou sair.</default>
 	</talk>
 	<teller>
-		<default>Mais tarde, Agatha e Meg chegam em casa (de Meg).</default>
+		<default>Mais tarde, Agatha e Meg chegam na casa da Meg.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Nossa, como ele tá diferente...</default>
@@ -172,7 +166,7 @@
 		<default>Bryan não conta.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Agatha, o...</default>
+		<arrive>Agatha, o...</arrive>
 	</talk>
 	<talk character="Agatha">
 		<default>Ah, mas aquele cara ficou lindo!</default>
@@ -277,7 +271,7 @@
 		<default>Ô, querem continuar com isso, continuem na casa dela!</default>
 	</talk>
 	<teller>
-		<default>Eles param de se beijar. Edmont olha pra Meg. Depois olha pra Agatha com cara de sacana.</default>
+		<default>Eles param de se beijar. Edmont olha pra Meg. Depois olha pra Agatha.</default>
 	</teller>
 	<talk character="Agatha">
 		<default>Tchau Meg, tchau Kat...</default>
@@ -298,7 +292,14 @@
 		<default>Você quase não queria me dedurar pro irmão dele, né?</default>
 	</talk>
 	<talk character="Kat">
-		<default>É claro, fica aí, enrolando com o Bryan. Não percebeu que Angely é distraído???</default>
+		<default>É claro, fica aí, enrolando com o Bryan. Não percebeu que Angely é distraído?!</default>
+	</talk>
+	<talk character="Meg">
+		<default>Mas eu até beijei ele!!!</default>
+	</talk>
+	<talk character="Kat">
+		<default>E começou a namorar com outro. E fica escondendo.</default>
+		<irony>Tem razão, ele devia mesmo vir até você.</irony>
 	</talk>
 	<teller>
 		<default>Kat sobe a escada. Meg se joga no sofá. Agatha e Edmont vão pra casa de Agatha. No dia seguinte, 2:30 da tarde, Meg e Kat almoçam.</default>
@@ -328,7 +329,7 @@
 	</talk>
 	<talk character="Kat">
 		<default>Ah, é você...</default>
-		<teller>Kat fala com tom de desânimo</teller>
+		<teller>fala com tom de desânimo</teller>
 		<default>Deixa que eu vou chamar.</default>
 	</talk>
 	<teller>
@@ -410,7 +411,7 @@
 		<default>Quantos anos você tinha aí?</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Cinco. Você ainda não era nascida.</default>
+		<default>Cinco. Você ainda nem era nascida.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Quando nossos pais se conheceram, eu já era nascida, né?</default>
@@ -419,7 +420,7 @@
 		<default>Era.</default>
 	</talk>
 	<teller>
-		<default>Agatha baixa a cabeça</default>
+		<default>Agatha baixa a cabeça.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Chora não, pela lei da natureza eles iriam antes de nós.</default>
@@ -434,7 +435,10 @@
 		<default>Agatha dá uma risada tímida.</default>
 	</teller>
 	<talk character="Kat">
-		<default>São três da tarde, minha irmã já deve ter acordado, eu vou indo, tchau.</default>
+		<default>Vou dar um passeio, quer vir junto?</default>
+	</talk>
+	<talk character="Agatha">
+		<default>Vou curtir um pouco mais minhas fotos aqui, mas obrigada.</default>
 	</talk>
 	<teller>
 		<default>Kat vai à casa abandonada. Encontra Beatrice olhando pela janela.</default>
@@ -482,10 +486,10 @@
 		<default>Fala tanto desse cara...</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Vás!</default>
+		<default>Vá!</default>
 	</talk>
 	<teller>
-		<default>Kat volta pra casa.</default>
+		<default>Kat sai.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Que tens? Estás alterada...</default>
@@ -524,7 +528,7 @@
 		<default>Não é que eu seja obrigado, mas que farei eu de dia? Melhor ficar acordado à noite.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>É mesmo, no lugar onde moramos não tem nem jeito de saires e não pegar sol.</default>
+		<default>É mesmo, no lugar onde moramos não tem nem jeito de saires e não pegares sol.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Nos mudaremos depois que fores transformada.</default>
@@ -548,6 +552,6 @@
 		<default>Beatrice sobe e se tranca em outro quarto.</default>
 	</teller>
 	<talk character="Elian">
-		<default>Até a noite, se não abrir, vais ver outra porta no chão, me ouviu?????????</default>
+		<screamed>Até a noite, se não abrir, vais ver outra porta no chão, me ouviu?!</screamed>
 	</talk>
 </story>
