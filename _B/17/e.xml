@@ -1,16 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="17" scene="e">
 	<teller>
-		<default>Noite. Zenon e Beatrice estão no cemitério. Vão até a lápide do pai de Henrique. Nada. Vão até a dele. Nada. Encontram Henrique agachado em frente à lápide de Íris, fumando. Ele se levanta e olha para eles.</default>
+		<default>Noite. Cemitério. Lápide de Henrique. Zenon olha. Beatrice olha ao redor. Bate no braço de Zenon. Aponta uma direção. Zenon olha para onde Beatrice apontou. Beatrice vai. Zenon segue. Chegam perto de Henrique, que sentou-se no chão e está com um cigarro. A lápide é de Íris.</default>
+	</teller>
+	<talk character="Henrique">
+		<default>Minha mãe dizia que o cigarro ia me matar. Íris dizia que a gente ia acabar sendo morto antes.</default>
+	</talk>
+	<teller>
+		<default>Henrique se levanta.</default>
 	</teller>
 	<talk character="Henrique">
 		<default>Não vão me matar.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Queremos saber porque disse que era culpa dele.</default>
+		<default>Queremos saber porque disse que era culpa de Zenon.</default>
 	</talk>
 	<talk character="Henrique">
-		<default>Não têm mais o que fazer, não? Pegá-lo, por exemplo?</default>
+		<default>Não têm mais o que fazer, não? Pegar ele, por exemplo?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Tem gente procurando.</default>
@@ -22,7 +28,7 @@
 		<default>Eu morri. Você é minha mãe agora.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Isso quer dizer que posso te obrigar a falar o que ele te disse?</default>
+		<default>Isso quer dizer que posso te obrigar a falar o que Guilherme te disse?</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Não, não quer.</default>
@@ -34,13 +40,25 @@
 		<default>Não importa mais. Eu tô sozinho agora.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Íris e você eram bem próximos, não eram?</default>
+		<default>Íris.</default>
 	</talk>
 	<talk character="Henrique">
-		<default>Quase irmãos. Aliás, mais que isso, irmão a gente não escolhe.</default>
+		<default>Com certeza eu não tava falando de Edmont.</default>
+	</talk>
+	<teller>
+		<default>Henrique olha para a lápide.</default>
+	</teller>
+	<talk character="Henrique">
+		<default>Quase irmãos. Aliás, mais que isso, irmão a gente não escolhe. Não foi a primeira vez que ela me protegeu.</default>
+	</talk>
+	<teller>
+		<default>Henrique volta a olhar para Zenon</default>
+	</teller>
+	<talk character="Henrique">
+		<default>Mas foi a última. Graças a você, ela passou por uma coisa que achou que nunca mais fosse acontecer, depois que o maldito do pai dela morreu.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Por que disse que a culpa é de Zenon?</default>
+		<default>Por que a culpa é de Zenon?</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Quer mesmo saber?</default>
@@ -49,75 +67,81 @@
 		<default>Sim.</default>
 	</talk>
 	<teller>
-		<default>Henrique dá mais uma tragada no cigarro, vai até Zenon, chega perto do ouvido dele.</default>
+		<default>Henrique dá mais uma tragada no cigarro. Vai até a lápide ao lado dade Íris, quetem algumas marcas. Apaga o cigarro. Vai até Zenon, pega a mão, coloca a bituca do cigarro, fecha, chega perto do ouvido.</default>
 	</teller>
 	<talk character="Henrique">
 		<default>Por mim você vai morrer sem saber.</default>
 	</talk>
 	<teller>
-		<default>Ele sai. Zenon vai segui-lo, Beatrice o segura.</default>
+		<default>Henrique sai andando. Zenon dá um passo na direção, Beatrice segura. Zenon olha para Beatrice.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Não vai arrancar nada dele.</default>
+		<default>Não vai arrancar nada.</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Eu conheço meios de conseguir uma informação que...</default>
 	</talk>
 	<talk character="Bea">
-		<default>Pode usar os meios que quiser.</default>
+		<default>Pode usar os meios que quiser. Não acha que já foi tortura demais?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Talvez eu arranque o que ainda sobrou dele.</default>
 	</talk>
+	<teller>
+		<default>Beatrice olha na direção de Henrique.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Não vai ter o que arrancar, não sobrou nada dele.</default>
+		<default>Não vai ter o que arrancar. Não sobrou nada.</default>
 	</talk>
 	<teller>
-		<default>Henrique está em frente à casa do rapaz. Este sai e vai até ele.</default>
+		<first>Henrique está em frente à casa de Paulo. Paulo sai e vai até Henrique.</first>
 	</teller>
-	<talk character="rapaz">
-		<default>Não estou mais assustado.</default>
+	<talk character="Paulo">
+		<default>Não tô mais assustado.</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Que bom pra você. Mas corra se alguém estiver com caninos maiores que o normal. E sempre leve isso na carteira.</default>
 	</talk>
 	<teller>
-		<default>Ele pega a carteira do rapaz do bolso para colocar o cartão da MEAK, abre. Olha pra baixo e volta a olhar pro rapaz. Coloca a carteira no bolso de volta.</default>
+		<default>Henrique mostra um cartão da MEAK. Coloca a mão no bolso da calça de Paulo e pega a carteira. Abre. Olha pra baixo. Paulo abre mais os olhos. Henrique guarda o cartão na carteira, fecha e coloca de volta no bolso de Paulo. Olha para Paulo.####</default>
 	</teller>
 	<talk character="Henrique">
 		<default>Além da camisinha, é claro.</default>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Paulo">
 		<default>É pra enganar meu pai.</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Eu sei que você sai com outras pessoas. E sei também que ainda não teve coragem de usar isso. Mas fico feliz que tenha pensado em proteção antes.</default>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Paulo">
 		<default>Vampiros não morrem dessas coisas, né?</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Não. Mas pegar um bronzeado, nem pensar.</default>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Paulo">
 		<default>Não consegui com outra pessoa porque não paro de pensar em você.</default>
 	</talk>
+	<teller>
+		<default>Henrique olha para o lado.</default>
+	</teller>
 	<talk character="Henrique">
 		<default>Pára...</default>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Paulo">
 		<default>Poderia me transformar e fugiríamos e eu não precisaria mais mentir!</default>
 	</talk>
 	<teller>
-		<default>Henrique pega o rosto do rapaz entre as mãos.</default>
+		<default>Henrique olha para Paulo. Pega o rosto de Paulo entre as mãos.</default>
 	</teller>
 	<talk character="Henrique">
 		<default>Um dia eu também achei que isso fosse a salvação.</default>
 	</talk>
 	<teller>
-		<default>Ele dá um beijo na testa do rapaz. O pai do rapaz sai.</default>
+		<default>Henrique dá um beijo na testa de Paulo. Mark sai pela porta. Franze a testa.</default>
 	</teller>
-	<talk character="pai">
+	<talk character="Mark">
 		<default>Que está acontecendo aqui???</default>
 	</talk>
 	<teller>
@@ -125,80 +149,60 @@
 	</teller>
 	<talk character="Henrique">
 		<default>Seu filho é como um irmão pra mim.</default>
-		<teller>olha para o homem</teller>
+	</talk>
+	<teller>
+		<default>Henrique franze a testa e ri.</default>
+	</teller>
+	<talk character="Henrique">
 		<default>Peraí, não tá achando que sou viado, tá?</default>
 	</talk>
 	<teller>
-		<default>Ele olha feio pra Henrique.</default>
+		<default>Mark olha Henrique de cima a baixo. Olha para Paulo.</default>
 	</teller>
-	<talk character="pai">
+	<talk character="Mark">
 		<default>Entra.</default>
 	</talk>
-	<talk character="rapaz">
+	<teller>
+		<default>Paulo respira fundo. Olha para baixo. Dá um passo a frente. Para. Olha para Mark.</default>
+	</teller>
+	<talk character="Paulo">
 		<default>Não.</default>
 	</talk>
-	<talk character="pai">
+	<talk character="Mark">
 		<default>Quê?!</default>
 	</talk>
-	<talk character="rapaz">
+	<talk character="Paulo">
 		<default>Ele é meu namorado.</default>
 	</talk>
-	<talk character="pai">
-		<default>Quê que você tá dizendo, moleque?! Vou te dar uma boa surra pra você virar macho!</default>
+	<talk character="Henrique">
+		<default>Paulo...</default>
+	</talk>
+	<talk character="Paulo">
+		<default>Eu não vou te perder de novo!</default>
+	</talk>
+	<talk character="Mark">
+		<screamed>Quê que você tá dizendo, moleque?! Vou te dar uma boa surra pra você virar macho!</screamed>
 	</talk>
 	<teller>
-		<default>Quando o pai vai na direção do filho, Henrique mostra o dentes. O homem se afasta.</default>
+		<default>Mark dá dois passos na direção de Paulo, Henrique se coloca na frente mostra os dentes. Mark dá três passos para trás.</default>
 	</teller>
-	<talk character="pai">
+	<talk character="Mark">
 		<default>Mas só podia ser coisa do demônio mesmo! Filho, vem pra cá, eu te levo pro padre benzer e você logo volta ao normal!</default>
 	</talk>
 	<talk character="Henrique">
 		<default>Vem comigo. Eu sei pra onde te levar.</default>
 	</talk>
 	<teller>
-		<default>Os dois saem. A recepcionista do hospital está chegando em casa. Entra e um homem aparece na sua frente. Ela começa a bater nele com a bolsa. Ele a segura.</default>
+		<default>Henrique sai andando. Paulo segue. Mark se benze e entra em casa.</default>
 	</teller>
-	<talk character="Henrique">
-		<default>Queimou a lâmpada de novo?</default>
-	</talk>
-	<talk character="mulher">
-		<default>Filho?</default>
+	<talk character="Mark">
+		<out>Laura!!! O demônio pegou nosso filho!!! Laura!!!</out>
 	</talk>
 	<teller>
-		<default>Ela o abraça.</default>
+		<default>Paulo para e olha para trás. Henrique para. Paulo olha para Henrique. Henrique estende a mão a Paulo. Paulo segura na mão de Henrique. Seguem.</default>
 	</teller>
-	<talk character="mulher">
-		<default>Você voltou pra mim...</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Não posso voltar.</default>
-	</talk>
-	<talk character="mulher">
-		<default>Fica, por favor.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Não posso ficar muito tempo. Te trouxe alguém.</default>
-	</talk>
 	<teller>
-		<default>Ele sai da frente dela e ela vê o rapaz.</default>
-	</teller>
-	<talk character="Henrique">
-		<default>Não posso mais voltar pra casa.</default>
-	</talk>
-	<talk character="mulher">
-		<default>Não é fantasma... Não me importa como voltou, meu filho, fique!</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Vim me despedir direito. Não tem como eu ficar. Te amo, mãe. Tem alguém aqui precisando de uma mãe. Você sempre gostou dele.</default>
-	</talk>
-	<teller>
-		<default>Henrique abraça a mãe, beija-lhe a testa e vai embora. Ela olha para o rapaz.</default>
-	</teller>
-	<talk character="rapaz">
-		<default>Se não quiser que eu fique, vou entender.</default>
-	</talk>
-	<teller>
-		<default>Ela abraça o rapaz e começa a chorar. Beleno acorda. Sua asa está reconstituída. Uma mulher está na sua frente.</default>
+		<first>Beleno abre os olhos. Senta na cama. Seus pulsos e tornozelos têm corrente que prendem à cama. Olha para a asa que fora arrancada, agora reconstituída.</first>
 	</teller>
 	<talk character="Andrea">
 		<default>Anjo você não é. Por que tem asas?</default>
@@ -218,6 +222,9 @@
 	<talk character="Beleno">
 		<default>Em qualquer ordem. Matar alguém é torturar outros.</default>
 	</talk>
+	<teller>
+		<default>Andrea se aproxima e senta-se na cama, ao lado de Beleno, com o corpo parcialmente virado para Beleno.</default>
+	</teller>
 	<talk character="Andrea">
 		<default>Mas não foi ele. Foi você.</default>
 	</talk>
@@ -225,24 +232,34 @@
 		<default>Quê?!</default>
 	</talk>
 	<teller>
-		<default>Andrea o beija. Quando se afasta, ele está com os olhos parados, como um robô.</default>
+		<default>Andrea beija Beleno. Se afasta. Os olhos de Beleno estão fixos olhando para a frente.</default>
 	</teller>
 	<talk character="Andrea">
-		<default>Você é o assassino que tem aparecido no jornal. Tem matado todas aquelas pessoas. Cada um deles. Não se lembra como. Apagou da sua cabeça porque não queria se lembrar. Não sabe porque. Simplesmente quis torturá-los e matá-los. Não ficou preso aqui...</default>
-		<teller>ela o desamarra</teller>
+		<default>Você é o assassino que tem aparecido no jornal. Tem matado todas aquelas pessoas. Cada um deles. Não se lembra como. Apagou da sua cabeça porque não queria se lembrar. Não sabe porque. Simplesmente quis torturá-los e matá-los.</default>
+	</talk>
+	<teller>
+		<default>Andrea tira uma chave do bolso. Pega o pulso esquerdo de Beleno. Abre o mecanismo. Faz o mesmo com o outro pulso.</default>
+	</teller>
+	<talk character="Andrea">
+		<default>Não ficou preso aqui.</default>
+	</talk>
+	<teller>
+		<default>Andrea se estica. Liberta os tornozelos de Beleno. Volta a sentar-se.</default>
+	</teller>
+	<talk character="Andrea">
 		<default>Apenas está escondido. Não tem coragem de se entregar, mas fará isso. Uma hora fará. Mas não agora. Está com medo. Mas sabe que precisa, porque não quer que volte a acontecer. Se aparecer mais algo do jornal, saberá que foi você. Mas eu estou aqui pra te ajudar.</default>
 	</talk>
 	<teller>
-		<default>Ela o beija de novo. Ele parece acordar. Olha para ela.</default>
+		<default>Andrea beija Beleno. Beleno fecha forte os olhos e abre. Olha para baixo. Olha para Andrea.</default>
 	</teller>
 	<talk character="Beleno">
-		<default>Preciso me entregar. Não posso mais se esconder.</default>
+		<default>Preciso me entregar. Não posso mais me esconder.</default>
 	</talk>
 	<talk character="Andrea">
 		<default>Não por enquanto, querido. Espere mais um pouco. Talvez isso passe.</default>
 	</talk>
 	<teller>
-		<default>Cai uma lágrima do rosto dele.</default>
+		<default>Cai uma lágrima dos olhos de Beleno.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Será que herdei o sangue ruim do meu pai?</default>
@@ -251,25 +268,95 @@
 		<default>Seu pai era ruim?</default>
 	</talk>
 	<teller>
-		<default>Zenon chega na MEAK. Deita-se no sofá.</default>
+		<default>Luana chega em casa. Entra. Um vulto aparece em sua frente. Luana bate no vulto com a bolsa. O vulto segura a bolsa. Luana tenta puxar.</default>
+	</teller>
+	<talk character="Henrique">
+		<default>Queimou a lâmpada de novo?</default>
+	</talk>
+	<teller>
+		<default>Luana para. Entra na porta ao lado, acende a luz. Vai até Henrique.</default>
+	</teller>
+	<talk character="Luana">
+		<default>Filho?</default>
+	</talk>
+	<teller>
+		<default>Luana passa a mão no rosto de Henrique. Abraça.</default>
+	</teller>
+	<talk character="Luana">
+		<default>Você voltou pra mim...</default>
+	</talk>
+	<talk character="Henrique">
+		<default>Não posso voltar.</default>
+	</talk>
+	<talk character="Luana">
+		<default>Fica, por favor.</default>
+	</talk>
+	<talk character="Henrique">
+		<default>Não posso ficar muito tempo. Te trouxe alguém.</default>
+	</talk>
+	<teller>
+		<default>Paulo vem do quarto.</default>
+	</teller>
+	<talk character="Henrique">
+		<default>Não posso mais voltar pra casa.</default>
+	</talk>
+	<teller>
+		<default>Luana toca o rosto de Henrique.</default>
+	</teller>
+	<talk character="Luana">
+		<default>Não é fantasma... Não me importa como voltou, meu bebê, fica!</default>
+	</talk>
+	<teller>
+		<default>Henrique pega a mão de Luana.</default>
+	</teller>
+	<talk character="Henrique">
+		<default>Vim me despedir direito. Não tem como eu ficar.</default>
+	</talk>
+	<teller>
+		<default>Henrique beija a mão de Luana.</default>
+	</teller>
+	<talk character="Henrique">
+		<default>Te amo, mãe. Tem alguém aqui precisando de uma mãe. Você sempre gostou dele.</default>
+	</talk>
+	<teller>
+		<default>Henrique abraça Luana. Vai até Paulo. Limpa uma lágrima, e beija Paulo. Volta para Luana. Beija-lhe a testa. Sai pela porta. Luana vai para o corredor. Olha para os lados. Vazio.</default>
+	</teller>
+	<talk character="Paulo">
+		<default>Eu também queria que ele ficasse.</default>
+	</talk>
+	<teller>
+		<default>Luana olha para Paulo.</default>
+	</teller>
+	<talk character="Paulo">
+		<default>Se não quiser que eu fique, vou entender.</default>
+	</talk>
+	<teller>
+		<default>Luana vai até Paulo e abraça. Caem lágrimas de seus olhos.</default>
+	</teller>
+	<teller>
+		<first>MEAK. Zenon chega. Se joga no sofá, deitando. Beatrice entra. Senta no outro sofá.</first>
 	</teller>
 	<talk character="Zenon">
 		<default>Acho que ele falava mesmo da minha filha.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não sei, algo me diz que não... Tem certeza que não o transformou?</default>
+		<default>Não sei, algo me diz que não... Tem certeza que não transformou?</default>
 	</talk>
 	<teller>
-		<default>Na casa de Kat, ela acorda.</default>
+		<default>Casa de Kat. Kat abre os olhos. Senta-se na cama. Olha ao redor.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Estela! Derik! Eu já sei qual a ligação deles...</default>
+		<default>Estela! Derik! Eu já sei qual a ligação!</default>
 	</talk>
 	<teller>
-		<default>Kat encontra um bilhete: "Só você, no templo". Chegando no mesmo, Derik está numa gaiola. Ele segura Estela.</default>
+		<default>Silêncio. Kat levanta. Vai até a sala. Na mesa de centro, um envelope. Kat pega. Atrás, um H. Abre, pega o papel de dentro, desdobra.</default>
+		<letter>Só você, no templo</letter>
+	</teller>
+	<teller>
+		<first>Templo. Aurium está em uma gaiola. Hugo segura Estela, com o braço em volta do pescoço. Estela tem uma mordaça na boca, pulsos com amarras.</first>
 	</teller>
 	<talk character="Hugo">
-		<default>Não sabia que seu namorado virava tanta coisa. Cachorro, pássaro... Pena que, quando fui pegá-lo, eu tava usando a cortina...</default>
+		<default>Não sabia que seu namorado virava tanta coisa. Cachorro, pássaro... Pena que, quando fui pegar ele, eu tava usando a cortina...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Hugo.</default>
@@ -278,7 +365,7 @@
 		<default>Falou umas coisas interessantes enquanto dormia.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ela não te contou.</default>
+		<default>Andrea não te contou.</default>
 	</talk>
 	<talk character="Hugo">
 		<default>Mas você vai contar. Ou vai ficar sem nenhum dos seus amigos.</default>
@@ -287,7 +374,7 @@
 		<default>Te mato.</default>
 	</talk>
 	<talk character="Hugo">
-		<default>Não vai trazê-los de volta. Não fará isso. E sei que tem a ver comigo, então acho que tenho direito de saber.</default>
+		<default>Não vai trará eles de volta. Não fará isso. E sei que tem a ver comigo, então acho que tenho direito de saber.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Por que veio atrás de Zenon?</default>
@@ -302,7 +389,7 @@
 		<default>Sim.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Filha dele.</default>
+		<default>Cria de Zenon.</default>
 	</talk>
 	<talk character="Hugo">
 		<default>Sério?</default>
@@ -311,16 +398,16 @@
 		<default>Ficou tudo em família, não devia se meter.</default>
 	</talk>
 	<talk character="Hugo">
-		<default>Não era dela que falava.</default>
+		<default>Não era dela que você tava falando quando dormia.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele a transformou.</default>
+		<default>Foi Zenon transformou.</default>
 	</talk>
 	<talk character="Hugo">
 		<default>Não, não foi ele, foi Clítia.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não tava falando da sua amante.</default>
+		<default>Não tava falando de Louise.</default>
 	</talk>
 	<talk character="Hugo">
 		<default>Não é isso.</default>
@@ -335,44 +422,55 @@
 		<default>Como sabe?</default>
 	</talk>
 	<talk character="Hugo">
-		<default>Clítia me contou. Recorri a ela antes de vir te perguntar. Voltamos a nos falar quando quiser me contar a verdade.</default>
+		<default>Clítia me contou. Recorri a ela antes de vir te perguntar.</default>
 	</talk>
 	<teller>
-		<default>Ele sai, levando Estela. Ela sai atrás, mas não os vê. Volta e abre a gaiola.</default>
+		<default>Hugo joga uma chave.</default>
+	</teller>
+	<talk character="Hugo">
+		<default>Voltamos a nos falar quando quiser me contar a verdade.</default>
+	</talk>
+	<teller>
+		<default>Hugo sai, de costas, com Estela olhando para Kat. Some. Kat corre, olha, não vê Hugo. Volta e abre a gaiola.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Acha a Estela!</default>
+		<default>Acha Estela!</default>
 	</talk>
 	<teller>
 		<default>Derik bate as asas, e dá uma volta.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Que foi?</default>
+		<default>Que foi?!</default>
 	</talk>
 	<teller>
-		<default>Ele baixa a cabeça. Volta à forma humana.</default>
+		<default>Aurium baixa a cabeça. Sai da gaiola andando. Se transforma em ser humano. Fica em pé. Estica os braços com a palma da mão para baixo.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Ele me cortou as penas das asas. Meus braços estão quase sem pêlos, vê?</default>
+		<default>Me cortou as penas das asas, no finalzinho. Minhas mãos não têm pêlos, vê?</default>
 	</talk>
+	<teller>
+		<default>Kat olha para as mãos de Derik, franzindo a testa.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Você nunca teve...</default>
 	</talk>
+	<teller>
+		<default>Derik volta os braços.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Deixa pra lá. O que tô dizendo é que não posso voar por uns dias.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E Beleno ele levou.</default>
-		<screamed>Que merda!</screamed>
+		<default>O que tô dizendo é que não posso voar por uns dias.</default>
 	</talk>
 	<teller>
-		<default>11/10. Kat está dormindo. Acorda e corre até a porta da casa. Abre e Estela está no colo de Andrea, esta de capuz. Ela coloca Estela no sofá e Kat se aproxima.</default>
+		<default>Kat sai andando. Derik segue.</default>
+	</teller>
+	<teller>
+		<first>Manhã. Kat abre os olhos. Senta na cama. Vai até a sala. Abre a porta da casa. Uma pessoa com um capuz, com Estela nos braços. Kat aponta o sofá. A pessoa entra e coloca Estela no sofá. Kat se aproxima e se abaixa perto de Estela.</first>
 	</teller>
 	<talk character="Andrea">
 		<default>Não aconteceu nada com ela. Está dormindo apenas.</default>
 	</talk>
 	<teller>
-		<default>Kat se levanta e olha para Andrea.</default>
+		<default>Kat se levanta. Olha para Andrea.</default>
 	</teller>
 	<talk character="Andrea">
 		<default>Não conte para ele. Posso proteger qualquer um que ele tente atacar.</default>
@@ -380,6 +478,9 @@
 	<talk character="Kat">
 		<default>Como posso saber disso?</default>
 	</talk>
+	<teller>
+		<default>Andrea se aproxima da janela. Vira de novo para Kat.</default>
+	</teller>
 	<talk character="Andrea">
 		<default>Sou eu quem o protege.</default>
 	</talk>
@@ -387,11 +488,14 @@
 		<arrive>Sim, é.</arrive>
 	</talk>
 	<teller>
-		<default>Beatrice entra e tira seu capuz.</default>
+		<default>Andrea e Kat olham para Beatrice. Beatrice entra. Tira um capuz que vestia e joga no sofá.</default>
 	</teller>
 	<talk character="Bea">
-		<default>Queremos Beleno de volta. E essa brincadeirinha do Hugo acaba aqui.</default>
+		<default>Queremos Beleno de volta. E essa brincadeirinha de Hugo acaba aqui.</default>
 	</talk>
+	<teller>
+		<default>Andrea olha para Kat.</default>
+	</teller>
 	<talk character="Andrea">
 		<default>Ela sabe?</default>
 	</talk>
@@ -402,34 +506,40 @@
 		<default>Contou a ela?! A quem mais contou???</default>
 	</talk>
 	<teller>
-		<default>Andrea vai na direção de Kat, mas Beatrice se coloca entre as duas.</default>
+		<default>Andrea vai na direção de Kat, Kat se mantem firme.</default>
 	</teller>
 	<talk character="Bea">
 		<default>Não me interessa qual o segredo. Mas essas são as condições.</default>
 	</talk>
+	<teller>
+		<default>Andrea para. Olha para Beatrice. Olha para Kat.</default>
+	</teller>
 	<talk character="Andrea">
 		<default>Vou trazê-lo de volta.</default>
 	</talk>
 	<teller>
-		<default>Toca o telefone. Kat atende.</default>
+		<default>Toca o telefone. Kat vai até a parede da cozinha. Atende.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Inês? ### Pára de chorar... ### Não, você não vai colocar fogo na delegacia! ### Beleno?! ### Meu Deus... Vamos pra lá agora!</default>
+		<default>Inês? ### Pára de chorar... ### Não, você não vai colocar fogo na delegacia! ### Beleno?! ### Meu Deus... ### Vamos pra lá agora!</default>
 	</talk>
 	<teller>
-		<default>Kat desliga.</default>
+		<default>Kat desliga. Olha para Beatrice.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ricardo ligou e disse que Beleno se entregou pelos assassinatos.</default>
+		<default>Ricardo ligou. Beleno se entregou pelos assassinatos.</default>
 	</talk>
+	<teller>
+		<default>Beatrice olha para Andrea.</default>
+	</teller>
 	<talk character="Bea">
-		<default>Vai se entregar e dizer que foi você e desfazer seja lá o que ele tenha feito.</default>
+		<default>Vai se entregar e dizer que foi você e desfazer seja lá o que Hugo tenha feito.</default>
 	</talk>
 	<talk character="Andrea">
 		<default>Posso desfazer, mas não me entregar. Não posso deixá-lo desprotegido.</default>
 	</talk>
 	<talk character="Bea">
-		<default>Não sei o que vai fazer, mas vai tirá-lo de lá.</default>
+		<default>Não sei o que vai fazer, mas vai tirar Beleno de lá.</default>
 	</talk>
 	<talk character="Hugo">
 		<arrive>Não vai, não.</arrive>
@@ -438,10 +548,10 @@
 		<default>Que está fazendo aqui?</default>
 	</talk>
 	<talk character="Hugo">
-		<default>Talvez o mesmo que você.Vamos pra casa.</default>
+		<default>Talvez o mesmo que você. Vamos pra casa.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não, vocês vão tirar ele de lá.</default>
+		<default>Não, vocês vão tirar Beleno de lá!</default>
 	</talk>
 	<teller>
 		<default>Hugo ri.</default>
@@ -449,11 +559,20 @@
 	<talk character="Hugo">
 		<default>Se não o quê?</default>
 	</talk>
+	<teller>
+		<default>Kat olha para Andrea. Olha para Hugo.</default>
+	</teller>
 	<talk character="Kat">
-		<default>Conto se você tirar. Não conto se ela tirar.</default>
+		<default>Conto se você tirar. Não conto se Andrea tirar.</default>
 	</talk>
 	<teller>
-		<default>Ela tira uma espada e vai atacar Kat. Ele se coloca na frente.</default>
+		<default>Hugo franze a sobrancelha.</default>
+	</teller>
+	<talk character="Hugo">
+		<default>Você sabe o nome...</default>
+	</talk>
+	<teller>
+		<default>Andreatira uma espada e vai na direção de Kat, mas Hugo se coloca na frente, de frente para Andrea.</default>
 	</teller>
 	<talk character="Hugo">
 		<default>Continua.</default>
@@ -470,6 +589,9 @@
 	<talk character="Hugo">
 		<default>É disso que estou perguntando o porquê.</default>
 	</talk>
+	<teller>
+		<default>Andrea baixa a espada.</default>
+	</teller>
 	<talk character="Andrea">
 		<default>Você decide, garota. Alguém pode te proteger dele. Eu posso te proteger dele. Ele não vai te matar enquanto só eu e você soubermos. Mas de mim, não vai ter quem te salve.</default>
 	</talk>
