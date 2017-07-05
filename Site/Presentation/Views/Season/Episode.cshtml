@@ -17,7 +17,6 @@
 }
 
 
-
 <p class="title">
     @Model.Story.Title
 </p>
@@ -33,11 +32,12 @@
     @for (var s = 0; s <= lastScene; s++)
     {
         var scene = Model.Story.SceneList[s];
+        var trigger = false;
         
         <div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(s)">
             @foreach (var paragraph in scene.ParagraphTypeList)
             {
-                <div class="paragraph @paragraph.ToString().ToLower()">
+                <div class="paragraph @paragraph.ToString().ToLower() @(trigger ? "trigger-hidden" : "")">
                     @switch (paragraph)
                     {
                         case ParagraphType.Talk:
@@ -54,16 +54,32 @@
                             }
             
                             @(" (" + scene.TalkList[talkCounter].Character + ")")
-        
+
                             talkCounter++;
 
                             break;
-                            
+
                         case ParagraphType.Teller:
-                        
+
                             foreach (var piece in scene.TellerList[tellerCounter].Pieces)
                             {
-                                <div class="teller_@(piece.Style)">@piece.Text</div>
+                                if (piece.Style == TellerStyle.Trigger)
+                                {
+                                    trigger = !trigger;
+                                }
+                                else
+                                {
+                                    <div class="teller_@(piece.Style)">@piece.Text</div>
+                                }
+
+                                if (piece.Style == TellerStyle.Trigger)
+                                {
+                                    var symbol = trigger ? "+" : "–";
+
+                                    <div class="teller_@(piece.Style) trigger-toggle" data-type="@symbol" data-content="@piece.Text">
+                                        conteúdo oculto (@symbol)
+                                    </div>
+                                }
                             }
 
                             tellerCounter++;

@@ -76,3 +76,24 @@
     .teller_Division input.text {
 	    padding-top: 38px;
     }
+
+
+
+.teller_Trigger {
+	font-weight: bold;
+	font-size: 120%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    cursor: pointer;
+    color: #777;
+}
+
+    .teller_Trigger input.text {
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+    }
+
+.trigger-hidden {
+    display: none;
+}

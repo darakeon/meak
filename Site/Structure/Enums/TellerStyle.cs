@@ -6,5 +6,6 @@
         First,
         Division,
         Letter,
+        Trigger,
     }
 }
