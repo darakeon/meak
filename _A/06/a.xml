@@ -1,55 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="06" scene="a">
 	<teller>
-		<default>11:00. Edmont e Angely estão num hotel. Toca o celular de Edmont.</default>
+		<default>11:00. Edmont e Mel estão num hotel. Toca o celular de Edmont.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Mel?</default>
+		<default>Angely?</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Angely">
 		<out>Ela não tá aqui.</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Droga...</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Angely">
 		<out>Eles pegaram ela.</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Como sabe?</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Angely">
 		<out>Deixaram um recado.</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Mas eles não poderiam entrar!</default>
 	</talk>
-	<talk character="Mel">
-		<out>Não, atiraram o recado pela janela, está quebrada.</out>
+	<talk character="Angely">
+		<out>Não, atiraram o recado pela janela, tá quebrada.</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Eles estão com Kat.</default>
 	</talk>
-	<talk character="Angely">
-		<default>Como???</default>
+	<talk character="Mel">
+		<default>Como assim?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não sei, mas atiraram um recado pela janela.</default>
 	</talk>
-	<talk character="Mel">
+	<talk character="Angely">
 		<out>Nós vamos pra cidade procurar também.</out>
-	</talk>
-	<talk character="Edmont">
-		<default>Tudo bem. Escuta, a Elisa não sabe que...</default>
-	</talk>
-	<talk character="Mel">
-		<out>Sim, ela sabe que nós três caçamos vampiros.</out>
-	</talk>
-	<talk character="Edmont">
-		<default>Três?</default>
-	</talk>
-	<talk character="Mel">
-		<out>É. Eu vou desligar agora, até logo.</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Tá.</default>
@@ -76,7 +64,7 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Elian mostra os dentes. O homem se afasta. Fica paralisado. Elian o encosta na parede e morde-o. Bebe todo o sangue. Levanta. Olha para uma moça que estava parada em pé, olhando para ele.</default>
+		<default>Elian mostra os dentes. O homem se afasta. Fica paralisado. Elian o encosta na parede e morde. O homem vai perdendo as forças aos poucos. Elian se afasta e o corpo cai no chão, sem vida. Elian puxa o ar mais forte. Olha para trás. Uma moça estava parada em pé, olhando para ele.</default>
 	</teller>
 	<talk character="Inês">
 		<default>Que fez com ele?</default>
@@ -131,6 +119,9 @@
 	<talk character="Inês">
 		<default>Então o que fez com aquele espelho?</default>
 	</talk>
+	<teller>
+		<default>Ele se vira e vê o espelho sem reflexo. Ri. Olha de novo para ela.</default>
+	</teller>
 	<talk character="Elian">
 		<default>Sou um vampiro.</default>
 	</talk>
@@ -138,7 +129,7 @@
 		<default>Isso não existe.</default>
 	</talk>
 	<teller>
-		<default>Elian mostra seus dentes. Ela tenta encostar nos dentes dele, mas ele segura as mãos dela e a encosta na parede. Ela olha nos olhos dele e o beija. Quando ele acorda, é noite. Está abraçado à Inês, que dorme.</default>
+		<default>Elian mostra seus dentes. Ela tenta encostar nos dentes dele, mas ele segura as mãos dela e a encosta na parede. Ela olha nos olhos dele e o beija. Então ele acorda. Está abraçado à Inês, que dorme.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Que aconteceu?</default>
@@ -156,7 +147,7 @@
 		<default>Da última vez acordei sozinha.</default>
 	</talk>
 	<teller>
-		<default>Ele levanta, perturbado.</default>
+		<default>Ele levanta. Começa a pegar as roupas. Não tira os olhos dela, com a testa semi franzida.</default>
 	</teller>
 	<talk character="Elian">
 		<default>Eu preciso ir.</default>
@@ -168,7 +159,7 @@
 		<default>Elian sai.</default>
 	</teller>
 	<teller>
-		<first>Edmont está andando pela cidade, ouve um barulho e vai ver o que é. É Beatrice. O barulho que ele ouvira fora o de um corpo caindo.</first>
+		<first>Edmont está andando pela cidade. Ouve um barulho. Corre. Beatrice esta próxima a um corpo.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Quanto tempo.</default>
@@ -195,13 +186,13 @@
 		<default>Sei me proteger sozinha. Vejo que tens uma estaca...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Sinto muito, mas vou ter que te matar.</default>
+		<default>Eu não queria que terminasse assim. Mas vou ter que te matar.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>É o que vamos ver.</default>
 	</talk>
 	<teller>
-		<default>Eles começam a lutar. Ele acaba derrubando ela. Então a amarra.</default>
+		<default>Ele vai pra cima de Beatrice. Ela chuta a estaca dele longe. Ele vai tentar pegar, ela o atira contra a parede. Ele joga um líquido nela. Ela se queima e se afasta. Ele bate com uma lata de lixo nela. Ela vai de costas. Ele sobe em cima dela, tira uma algema do bolso e a prende.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Mate-me.</default>
@@ -216,46 +207,46 @@
 		<default>Edmont liga pra Angely.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Edmont?</default>
+		<out>Edmont?</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Vão pra casa. E venham no armazém perto do shopping, de carro.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por que?</default>
+		<out>Por que?</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Peguei Beatrice.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ela não estava com ele?</default>
+		<out>Ela não estava com ele?</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Não. Estava caçando sozinha.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mel voltou em casa, não tava muito bem.</default>
+		<out>Mel voltou em casa, não tava muito bem.</out>
 	</talk>
 	<talk character="Edmont">
 		<default>E Elisa?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Foi atrás do vampiro.</default>
+		<out>Foi atrás do vampiro.</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Tudo bem. Vem logo.</default>
 	</talk>
 	<teller>
-		<default>Num prédio abandonado, Elisa descansa. Elian a encontra dormindo. Sem fazer barulho, ele pega as armas dela. Atira pela janela. Então ela acorda. Ele a segura no chão. Vira ela e a prende com algemas.</default>
+		<default>Num prédio abandonado, Elisa está jogada no chão. Diversos machucados pelo rosto, a mão direita segura o braço esquerdo. A estaca está cravada no joelho direito.</default>
 	</teller>
 	<talk character="Elian">
-		<default>Parece que estás, literalmente, de mãos atadas.</default>
+		<default>A gente ainda pode brincar mais. Pode até brincar de outros jeitos.</default>
 	</talk>
 	<talk character="Elisa">
-		<default>Covarde!</default>
+		<default>Covarde...</default>
 	</talk>
 	<talk character="Elian">
-		<default>Nisso a sete anos, já deverias saber que todos somos.</default>
+		<default>Nisso há sete anos, já deverias saber que todos somos.</default>
 	</talk>
 	<teller>
 		<first>De manhã, no quarto de Angely, Beatrice está acorrentada na cama. Se mexe. Olha para eles com olhar de desespero.</first>
@@ -270,7 +261,7 @@
 		<default>Não acredito que ainda tenta se fazer de inocente.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Onde Kat está?</default>
+		<default>Cadê Kat?</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Eu não queria, foi ele...</default>
@@ -303,7 +294,7 @@
 		<default>Chega, eu vou procurar a Elisa, vê se não vão cair na lábia dessa aí!</default>
 	</talk>
 	<teller>
-		<default>Mel pega a moto e sai.</default>
+		<default>Mel sai.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Onde é?</default>
@@ -315,46 +306,48 @@
 		<default>Você vem conosco. Mas nos diga onde é primeiro.</default>
 	</talk>
 	<teller>
-		<default>Algum tempo depois, Mel encontra Elisa. Vira ela. Coloca a mão no pulso.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Filho da puta!</default>
-	</talk>
-	<teller>
-		<default>Mel pega o celular. Noutro lugar, Angely atende.</default>
+		<default>Mel chega a um prédio. Sobe as escadas. Sente um cheiro diferente. Corre. Vê uma pessoa de costas. Se aproxima devagar. Olha para os lados. Sente o cheiro no ar. Vira a pessoa. Elisa. Agacha perto. Coloca a mão no pulso. Coloca a mão na frente do rosto. Levanta. Pega o celular. Disca.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Mel?</default>
+		<out>Mel?</out>
 	</talk>
 	<talk character="Mel">
-		<out>Estou ouvindo barulho de movimento, onde você está???</out>
+		<default>Estou ouvindo barulho de movimento, onde você está???</default>
 	</talk>
 	<talk character="Angely">
-		<default>Beatrice disse onde era.</default>
+		<out>Beatrice disse onde era.</out>
 	</talk>
 	<talk character="Mel">
-		<out>E vocês acreditaram?!</out>
+		<default>E vocês acreditaram?!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Olha, nós estamos com ela, ele não vai fazer nada.</default>
+		<out>Olha, nós estamos com ela, ele não vai fazer nada.</out>
 	</talk>
 	<talk character="Mel">
-		<out>Já fez, matou Elisa!</out>
+		<default>Já fez, matou Elisa!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mas ele não sabia que estávamos com ela ontem.</default>
+		<out>Agora?!</out>
 	</talk>
 	<talk character="Mel">
-		<out>É, é provável. Espero que saibam o que estão fazendo.</out>
+		<default>Ela tá gelada, acho que faz um tempo.</default>
 	</talk>
 	<talk character="Angely">
-		<default>É nossa única chance.</default>
+		<out>Ele não sabia que estávamos com ela ontem.</out>
 	</talk>
 	<talk character="Mel">
-		<out>Onde vocês estão indo?</out>
+		<default>É, é provável. Mas vocês foram correndo sem mim.</default>
+		<teller>olha para Elisa</teller>
+		<default>Podem estar pintando um alvo na bunda.</default>
+	</talk>
+	<talk character="Angely">
+		<out>É nossa única chance.</out>
+	</talk>
+	<talk character="Mel">
+		<default>Onde vocês estão indo?</default>
 	</talk>
 	<teller>
-		<default>Algum tempo depois, Edmont, Angely e Beatrice chegam num armazém abandonado, afastado do centro. Sobem a uma sala.</default>
+		<first>Algum tempo depois, Edmont, Angely e Beatrice chegam a um armazém abandonado. Sobem a uma sala.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Chama ele.</default>
@@ -366,7 +359,7 @@
 		<default>Estamos com ela, é melhor aparecer!</default>
 	</talk>
 	<teller>
-		<default>Edmont sente tontura e cai. Angely olha para os lados, mas o mesmo acontece com ele.</default>
+		<default>Edmont sente tontura e cai. Angely olha para os lados. Sente também. Cai.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Adoro quando sou subestimada.</default>
@@ -375,13 +368,13 @@
 		<arrive>Onde está a mais velha?</arrive>
 	</talk>
 	<talk character="Beatrice">
-		<default>Logo chegará. Me desamarre.</default>
+		<default>Logo chegará. Tire a algema. Não quero ter que arrebentar essa droga.</default>
 	</talk>
 	<talk character="Elian">
 		<default>Gosto assim.</default>
 	</talk>
 	<teller>
-		<default>Ele a beija.</default>
+		<default>Ele vai até ela e beija.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Mas precisarás de ajuda. Pra amarrares eles.</default>
@@ -390,10 +383,10 @@
 		<default>Amarrá-los?</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>A garota vai chegar armada.</default>
+		<default>A garota vai chegar armada. Se vir eles, vai soltar a arma pra desamarrá-los</default>
 	</talk>
 	<talk character="Elian">
-		<default>Se vir eles, vai soltar a arma pra desamarrá-los. Bem pensado.</default>
+		<default>Bem pensado.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Cuidas dela sozinho?</default>
@@ -402,7 +395,7 @@
 		<default>Claro.</default>
 	</talk>
 	<teller>
-		<default>Anoitece. Mel chega, com uma besta. Sobe até a sala. Olha pros lados e não vê nada. Solta a arma e vai até eles, desamarrá-los. Elian pega a arma dela. Ela nota, mesmo estando de costas. Se vira e chuta a arma que está na mão dele, tirando uma estaca da calça.  Tenta cravar a estaca nele, mas ele a joga no chão. Ela se levanta e não o vê mais.</default>
+		<default>Anoitece. Mel chega, com uma besta. Sobe até a sala. Olha pros lados e não vê nada. Solta a arma e vai até eles, desamarrá-los. Elian pega a arma dela. Ela para. Se vira e chuta a arma que está na mão dele, tirando uma estaca da calça.  Tenta cravar a estaca nele, mas ele a joga no chão. Ela se levanta e não o vê mais.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Meninos, acordem...</default>
@@ -420,7 +413,10 @@
 		<default>Pelo menos Kat está aqui.</default>
 	</talk>
 	<teller>
-		<default>Mel termina de desamarrá-los. Acordam Katerine. Os quatro vasculham o armazém. Nada. Então voltam pra casa. Mel vai levar Kat em casa.</default>
+		<default>Mel se aproxima de Kat. Passa a mão no rosto dela. Ela acorda, assustada. Mel a desamarra. Abraça-a.</default>
+	</teller>
+	<teller>
+		<first>Mel chega com Kat em casa.</first>
 	</teller>
 	<talk character="Meg">
 		<default>Kat! Onde estava???</default>
@@ -447,7 +443,7 @@
 		<default>Ah, se vão.</default>
 	</talk>
 	<teller>
-		<default>Mel volta pra casa.</default>
+		<default>Na MEAK.</default>
 	</teller>
 	<talk character="Angely">
 		<default>E aí?</default>
@@ -459,7 +455,7 @@
 		<default>Droga...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não podia dizer que ela estava comigo, as duas já encrencam comigo de graça.</default>
+		<default>As namoradas são de vocês. Só não discuti com Meg porque Kat deu bronca nela antes.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Estamos ferrados.</default>
