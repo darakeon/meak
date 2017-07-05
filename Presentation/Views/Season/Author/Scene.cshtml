@@ -17,6 +17,9 @@
             @Html.HiddenFor(m => m.Story.SceneList[s].ID);
         }
         
+        @Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].Episode.Season.ID);
+        @Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].Episode.ID);
+                                                         
         for (var p = 0; p < scene.ParagraphTypeList.Count; p++)
         {
             Model.ParagraphCounter = p;
