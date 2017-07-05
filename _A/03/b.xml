@@ -120,7 +120,7 @@
 		<default>Legal!</default>
 	</talk>
 	<teller>
-		<default>Kat sai.</default>
+		<default>Kat vai pra cozinha.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Devíamos ter dito que a última vez que vimos tínhamos treze.</default>
@@ -213,19 +213,10 @@
 		<default>Tá, nós já estamos descendo.</default>
 	</talk>
 	<teller>
-		<default>As três vão até a cozinha. Angely e Edmont conversam na sala.</default>
+		<default>Angely e Edmont conversam na sala.</default>
 	</teller>
-	<talk character="Edmont">
-		<default>Angely, ela não vai ligar pra isso.</default>
-	</talk>
 	<talk character="Angely">
-		<default>Ela vai me zoar.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tarde demais, já falou pra Agatha contar pra ela. Agora já foi.</default>
-	</talk>
-	<talk character="Angely">
-		<default>É. Só esperar. Lembrei de uma coisa, por quê você e a Agatha estavam acordados até aquela hora?</default>
+		<default>Lembrei de uma coisa, por quê você e a Agatha estavam acordados até aquela hora?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Nada.</default>
@@ -237,10 +228,10 @@
 		<default>Percebeu?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Como você olha pra Agatha. Ela também não é indiferente.</default>
+		<default>Como você olha pra Agatha. Ela também te olha diferente.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Ela não quer nada comigo.</default>
+		<default>Ela não quer nada comigo. Disse que não entendo, que a gente cresceu junto.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ela tá com medo.</default>
@@ -248,11 +239,8 @@
 	<talk character="Edmont">
 		<default>Medo? Medo de que?</default>
 	</talk>
-	<talk character="Angely">
-		<default>Nós fomos criados juntos, isso é estranho.</default>
-	</talk>
 	<talk character="Kat">
-		<default>Gente, vamos?</default>
+		<arrive>Gente, vamos?</arrive>
 	</talk>
 	<talk character="Edmont">
 		<default>Tá.</default>
@@ -267,7 +255,7 @@
 		<default>Nossa, nem de porre eu fazia isso.</default>
 	</talk>
 	<talk character="Júlio">
-		<default>Ah, mas eu fiz. O pior é que a mesa na que eu subi tava podre. Desmontou comigo em cima. Cara, mó mico!</default>
+		<default>Ah, mas eu fiz. E ainda quebrei a mesa que subi. Que mico...</default>
 	</talk>
 	<talk character="Halen">
 		<default>Mico? King Kong, isso sim!</default>
@@ -288,13 +276,19 @@
 		<hushed>Ah?!</hushed>
 	</talk>
 	<talk character="Rith">
-		<hushed>De dinossauro.</hushed>
+		<hushed>De dinossauro. Daqui a pouco a água chacoalha no copo quando você pisar.</hushed>
 	</talk>
 	<talk character="Meg">
 		<default>Eu desviei, ele caiu na piscina. O cara tava mesmo precisando de um banho frio!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Eu lembro do cara que tentou agarrar a Agatha a força. Vivia chamando o Edmont de viado, tomou a maior surra na frente dos amigos!</default>
+		<default>Eu lembro do cara que tentou beijar Agatha sem consentimento. Ele era grande, covardia do caramba.</default>
+	</talk>
+	<talk character="Meg">
+		<default>Que houve?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Edmont mandou ele pro hospital.</default>
 	</talk>
 	<teller>
 		<default>Edmont olha pra Agatha. Ela desvia o olhar.</default>
@@ -303,14 +297,17 @@
 		<default>Sério?</default>
 	</talk>
 	<talk character="Angely">
-		<default>É, o cara nunca mais botou a cara na escola...</default>
+		<default>O cara nunca mais botou a cara na escola. Espero que tenha entendido. Uma bosta, imagina se ninguém chegasse? Tem gente com umas ideias bem distorcidas por aí.</default>
 	</talk>
 	<talk character="Júlio">
-		<default>Vocês nem me contaram!</default>
+		<default>Vocês não me contaram isso.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Eu me encarreguei do cara.</default>
 	</talk>
+	<teller>
+		<default>Meg olha para Júlio, que está encarando Edmont.</default>
+	</teller>
 	<talk character="Meg">
 		<default>Falando em escola, como é ela? É grande?</default>
 	</talk>
@@ -320,11 +317,11 @@
 	<talk character="Kat">
 		<default>Espero não me perder!</default>
 	</talk>
-	<talk character="Halen">
+	<talk character="Rith">
 		<default>Bom, hora da sobremesa.</default>
 	</talk>
 	<teller>
-		<default>Eles terminam. Depois, todos foram pra piscina na casa de Júlio. Meg está sentada na cadeira fora da piscina, Kat numa bóia e Angely na beira (dentro da piscina).</default>
+		<first>Na piscina da casa de Júlio. Meg está sentada na cadeira fora da piscina, Kat numa bóia e Angely na beira (dentro da piscina).</first>
 	</teller>
 	<talk character="Kat">
 		<default>Amanhã já tem aula...</default>
@@ -384,16 +381,19 @@
 		<default>Eles ficam calados por algum tempo. Angely vai falar alguma coisa, mas Meg cala ele com um beijo. Rith entra. Angely fica sem graça. Meg volta pra piscina.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Eu, eu...</default>
+		<default>Eu...</default>
 	</talk>
 	<talk character="Rith">
-		<default>Acha que precisa explicar pra mim, justo pra mim, o que estava acontecendo?</default>
+		<default>Pode ficar sossegado, quem vai ter que enfrentar dinossauro é o seu irmão.</default>
 		<teller>ele ri, mas baixa a cabeça, depois volta a olhar pra Angely</teller>
 		<default>Eu queria falar de outra coisa com você...</default>
 	</talk>
 	<talk character="Angely">
 		<default>Reconheceu a gente.</default>
 	</talk>
+	<teller>
+		<default>Rith olha para fora. Volta a olhar pra Angely.</default>
+	</teller>
 	<talk character="Rith">
 		<default>Queria pedir pra que esquecesse tudo isso.</default>
 	</talk>
@@ -404,14 +404,23 @@
 		<default>Meg não sabe de nada. Adotamos ela depois de regularizar a nossa situação. Katerine também não.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Sobre a Meg, eu...</default>
+		<default>Eu não vou dizer nada. Edmont mudou. Mas não sei o que... Eu tive um sonho estranho depois que ele chegou.</default>
 	</talk>
 	<talk character="Rith">
-		<default>Vai lá falar com ela.</default>
+		<default>Sobre?</default>
+	</talk>
+	<talk character="Angely">
+		<default>Luta.</default>
+	</talk>
+	<talk character="Rith">
+		<default>A gente pode fazer uma coisa? Simplesmente não falar mais nisso?</default>
 	</talk>
 	<teller>
-		<default>Angely vai atrás de Meg.</default>
+		<default>Angely consente com a cabeça.</default>
 	</teller>
+	<talk character="Rith">
+		<default>Agora vamos fingir que estamos num mundo normal e você vai lá falar com a moça que acabou de te roubar um beijo.</default>
+	</talk>
 	<teller>
 		<first>Edmont está na porta do quarto de Agatha.</first>
 	</teller>
@@ -457,14 +466,17 @@
 	<talk character="Agatha">
 		<default>Olha, nos fomos criados juntos...</default>
 	</talk>
+	<talk character="Edmont">
+		<default>Olha, se você me disser que isso é desculpa, que só está sem graça de não querer nada comigo, eu aceito. Eu consigo lidar com isso. Não sou aquele trouxa e dei uma surra nele porque ele merecia isso. Mas só...</default>
+	</talk>
 	<teller>
-		<default>Ele a puxa e a beija.</default>
+		<default>Agatha beija Edmont. Edmon afasta. Sorri.</default>
 	</teller>
 	<talk character="Júlio">
 		<default>Nunca pensei que você fosse fazer isso.</default>
 	</talk>
 	<teller>
-		<default>Agatha se afasta de Edmont, assustada. Ele olha para Júlio.</default>
+		<default>Edmon e Agatha olham para Júlio. Ela dá um passo atrás.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Desde de quando está aí?</default>
@@ -473,34 +485,37 @@
 		<default>Tempo suficiente.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Olha, sr Júlio, eu...</default>
+		<default>Olha, Júlio, eu...</default>
 	</talk>
 	<talk character="Júlio">
 		<default>Devia ter deixado só seu irmão ficar na minha casa.</default>
 	</talk>
 	<teller>
-		<default>Edmont vai pra seu quarto. Lá pega as coisas dele, coloca numa bolsa e sai.</default>
+		<default>Edmont vai pra seu quarto. Pega uma bolsa em cima do guarda-roupas. Enfia roupas. Tira peças. Coloca outras. Sai. Esbarra em Angely. Angely o segura pelos braços.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Edmont, que aconteceu?</default>
+		<default>Edmont, que houve?!</default>
 	</talk>
+	<teller>
+		<default>Edmont respira fundo.</default>
+	</teller>
 	<talk character="Edmont">
 		<default>Júlio descobriu.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não deu tempo de vocês estarem...</default>
+		<default>Ele não pegou vocês...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não, eu só estava falando com Agatha e ele ouviu.</default>
+		<default>Não, eu só estava falando com Agatha e ele ouviu. Tá, na verdade, ela finalmente me beijou. E seria sensacional, era pra ter sido... Perfeito.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Que ele fez?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Falou que devia ter cuidado só de você. Fala pra ele que, do que o dinheiro dele pagou, não estou levando nada.</default>
+		<default>O que você acha? Falou que devia ter cuidado só de você. Fala pra ele que, do que o dinheiro dele pagou, não tô levando nada.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mas, pra onde você vai???</default>
+		<default>Mas, pra onde você vai?!</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Não sei.</default>
@@ -512,39 +527,36 @@
 		<default>Você também pagou ela.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Leva, não tem importância.</default>
+		<default>Leva, não tem importância. Não é como se tivesse levando pro inferno. Ou pelo menos espero que não.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Brigado.</default>
 	</talk>
 	<teller>
-		<default>Edmont pega a moto e sai.</default>
+		<default>Edmont sai. Bota a bolsa nas costas, bota o capacete. Dá a partida. Arranca e sai com toda velocidade. Angely sai da casa e o vê partir. Meg se aproxima de Angely.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Que aconteceu?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Júlio não gostou nem um pouquinho da história. Discutiram, Edmont é estourado...</default>
+		<default>Júlio pegou os dois se beijando. Discutiram, Edmont é estourado...</default>
 	</talk>
 	<talk character="Meg">
-		<default>Eu vou ver como a Agatha está.</default>
+		<default>Eu vou ver como a Agatha tá.</default>
 	</talk>
 	<teller>
-		<default>Meg vai até o quarto. Agatha está chorando.</default>
+		<first>Meg vai até o quarto. Agatha está chorando.</first>
 	</teller>
 	<talk character="Meg">
 		<default>Calma, ele volta.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Eu evitei tanto...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Você não tem culpa.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Isso não é tão recente... Mas achei que era só eu...</default>
+		<default>Eu evitei tanto... Não era a primeira vez que ele me olhava, mas parece que, depois da viagem, ele simplesmente tacou o foda-se...</default>
 	</talk>
 	<teller>
 		<default>Meg a abraça.</default>
 	</teller>
+	<talk character="Meg">
+		<default>Você não tem culpa.</default>
+	</talk>
 </story>

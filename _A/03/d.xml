@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="03" scene="d">
 	<teller>
-		<default>Edmont entra na casa. Chama Rith até a cozinha. Halen vai junto.</default>
+		<default>Edmont entra na casa. Vai na direção da cozinha. Angely vai segui-lo, ele encara Angely. Olha para Rith. Vai para a cozinha. Rith o segue. Halen vai atrás.</default>
 	</teller>
 	<talk character="Edmont">
-		<default>Sei quem você é.</default>
+		<default>Sei quem vocês são.</default>
 	</talk>
-	<talk character="Rith">
-		<default>Eu me dispus a te ajudar. Eu falei com Júlio, por causa de você e Agatha. Então não...</default>
+	<talk character="Halen">
+		<default>Ele se dispôs a te ajudar. Falou com Júlio, por causa de você e Agatha. Então não...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Obrigado.</default>
 	</talk>
-	<talk character="Rith">
+	<talk character="Halen">
 		<default>Como?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Acho que Katerine não tem a culpa que eu ia descontar nela.</default>
 	</talk>
 	<teller>
-		<default>Rith fica meio perdido. Olha para Halen. Ela sorri.</default>
+		<default>Halen olha para Rith, que sorri.</default>
 	</teller>
 	<talk character="Rith">
 		<default>Tudo bem.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Cuidou bem dela.</default>
+		<default>Cuidaram bem dela.</default>
 	</talk>
 	<teller>
-		<default>Os três ouvem discussão na sala e correm pra lá.</default>
+		<default>Gritos na sala. Eles se entreolham. Voltam.</default>
 	</teller>
 	<talk character="Júlio">
-		<default>Esse maldito moleque que...</default>
+		<screamed>Esse maldito moleque que...</screamed>
 	</talk>
 	<teller>
 		<default>Mel tira uma faca da cintura, de trás.</default>
@@ -39,6 +39,9 @@
 	<talk character="Mel">
 		<default>Cala a boca.</default>
 	</talk>
+	<teller>
+		<default>Júlio olha para Agatha.</default>
+	</teller>
 	<talk character="Júlio">
 		<default>É com isso que você quer se meter?</default>
 	</talk>
@@ -49,7 +52,7 @@
 		<default>Calma, solta isso.</default>
 	</talk>
 	<teller>
-		<default>Mel joga a faca sobre a mesa.</default>
+		<default>Mel atira a faca na mesa.</default>
 	</teller>
 	<talk character="Júlio">
 		<default>Por que não deixa ela me matar? O caminho fica livre.</default>
@@ -61,10 +64,10 @@
 		<default>Bancou o herói, agora vai bancar a vítima.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Pai, pára com isso!</default>
+		<default>Pai, para com isso!</default>
 	</talk>
 	<talk character="Rith">
-		<default>Júlio, eles já conhecem a menina.</default>
+		<default>Júlio, eles já conhecem ela.</default>
 	</talk>
 	<talk character="Júlio">
 		<default>Ah, é? Desde quando?!</default>
@@ -73,7 +76,7 @@
 		<default>Desde sempre.</default>
 	</talk>
 	<teller>
-		<default>Júlio olha pra Angely e demora a entender. Então olha para Rith.</default>
+		<default>Júlio olha pra Angely por alguns segundos. Sua expressão ameniza. Olha assustado para Rith.</default>
 	</teller>
 	<talk character="Júlio">
 		<default>Você sabe de tudo?!</default>
@@ -96,20 +99,20 @@
 	<talk character="Kat">
 		<default>Eu sabia que filha de vocês eu não era, só não sabia que era filha de pessoas que já moraram em outro planeta...</default>
 	</talk>
-	<talk character="Halen">
+	<talk character="Rith">
 		<default>Sabia?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Deviam falar mais baixo de noite.</default>
 	</talk>
-	<talk character="Rith">
+	<talk character="Halen">
 		<default>Até que horas a senhorita fica acordada?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não tenho culpa se não me deixam dormir com o escândalo que fazem.</default>
 	</talk>
 	<teller>
-		<default>Kat fala e Halen fica vermelha.</default>
+		<default>Halen fica vermelha.</default>
 	</teller>
 	<talk character="Meg">
 		<default>Que confusão... Kat é sua irmã, eu sou irmã da Kat, logo...</default>
@@ -121,19 +124,21 @@
 		<default>Por que as crianças vêem as coisas tão simples?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Ei, eu ainda estou aqui.</default>
+		<default>Tá bonito o drama de família, mas eu ainda estou aqui.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Percebesse.</default>
 	</talk>
 	<teller>
-		<default>Mel se levanta e vai sair, mas Edmont segura o braço dela.</default>
+		<default>Mel vai sair, mas Edmont segura o braço dela.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Eu não tenho que ficar agüentando isso.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Ele é meu namorado.</default>
+		<default>Ele é</default>
+		<frizz>meu</frizz>
+		<default>namorado.</default>
 	</talk>
 	<talk character="Júlio">
 		<default>Ei!</default>
@@ -142,19 +147,20 @@
 		<default>Júlio...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não quero tomar seu namorado.</default>
+		<default>Não quero tomar</default>
+		<teller>olha para Edmont</teller>
+		<frizz>seu</frizz>
+		<teller>olha para Agatha</teller>
+		<default>namorado.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Mel, Agatha, se acalmem. Temos um problema sério aqui.</default>
+		<default>Agatha, isso é mais sério que namoro. Temos um problema sério aqui.</default>
 	</talk>
 	<talk character="Meg">
 		<default>É, temos sim.</default>
 	</talk>
-	<talk character="Kat">
-		<default>Tô saindo, Cupido não gosta de Ciúme...</default>
-	</talk>
 	<teller>
-		<default>Kat vai pro quarto.</default>
+		<default>Kat olha para o teto. Sobe de volta.</default>
 	</teller>
 	<talk character="Halen">
 		<default>Onde ela vai ficar?</default>
@@ -169,28 +175,25 @@
 		<default>Angely e Edmont encaram Meg e Agatha.</default>
 	</teller>
 	<talk character="Júlio">
-		<default>Tem um quarto que fica na divisa dos terrenos, lá no fundo.</default>
+		<default>Tem uma casa abandonada por aqui. Pode ficar lá.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Tenho vinte e dois anos, sei me virar sozinha.</default>
+		<default>Valeu.</default>
 	</talk>
 	<teller>
-		<default>Mel sai. Eles ficam em silêncio por algum tempo.</default>
+		<default>Mel sai. Júlio olha para Agatha.</default>
 	</teller>
-	<talk character="Edmont">
-		<default>Sr. Júlio...</default>
-	</talk>
 	<talk character="Júlio">
-		<default>Eu não...</default>
+		<default>E você...</default>
 	</talk>
 	<talk character="Rith">
-		<default>Não vai ficar implicando. Vai deixar de agir como o avô dele agiria se isso acontecesse.</default>
+		<default>Não nasceu na idade média pra ficar sendo controlada pelo pai.</default>
 	</talk>
 	<teller>
-		<default>Rith encara Júlio, que o encara de volta. Agatha vai até Edmont e o beija. Júlio não gosta. Meg fica olhando pra Angely, que desvia o olhar. Rith percebe. Halen também. Kat, no quarto, está escutando música.</default>
+		<default>Júlio encara Rith. Agatha beija Edmont. Edmont olha para Angely. Angely olha para a porta. Meg fica olhando para Angely.</default>
 	</teller>
 	<teller>
-		<first>Mel vai até a terceira casa daquele lugar isolado.</first>
+		<first>Mel numa sala empoeirada. </first>
 	</teller>
 	<talk character="Mel">
 		<default>Alguém em casa?</default>
@@ -271,7 +274,7 @@
 		<default>Pode estar enganada.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não estou.</default>
+		<default>É, parecia bem acolhedor. Principalmente o cara que me mandou pra casa que já tá devidamente ocupada.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Sobe aí.</default>
@@ -292,25 +295,26 @@
 		<default>Angely desce, Mel assume, Angely sobe atrás. Eles vão até a casa de Júlio.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Pode ficar aqui, se o Sr. Júlio deixar. Edmont está na casa de Rith e Agatha já está enciumada.</default>
+		<default>Pode ficar aqui, se Júlio deixar. Edmont está na casa de Rith e Agatha já está enciumada.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Ele não mora aqui?</default>
 	</talk>
 	<talk character="Júlio">
-		<arrive>Ele vai ficar na casa de Rith. Agora que está namorando com a minha filha não quero que eles durmam na mesma casa.</arrive>
+		<arrive>Ele vai ficar na casa de Rith.</arrive>
+		<default>Agora que está namorando com a minha filha, não quero que eles durmam na mesma casa.</default>
 	</talk>
 	<talk character="Angely">
 		<default>Ela pode ficar aqui?</default>
 	</talk>
 	<talk character="Júlio">
-		<irony>Pode. Minha casa já virou albergue alienígena mesmo...</irony>
+		<irony>Pode. A segunda cama alienígena na casa vagou.</irony>
 	</talk>
 	<talk character="Agatha">
 		<arrive>Ela vai ficar aqui?</arrive>
 	</talk>
 	<talk character="Mel">
-		<default>Pode ficar sossegada que eu não gosto de passear na sessão de fraldas.</default>
+		<default>Aquele seu papo de "quem quer te ajudar", pode me apresentar essa pessoa? Seria legal da sua parte.</default>
 	</talk>
 	<teller>
 		<default>Toca o telefone. Agatha corre pro quarto. Tranca a porta. Atende.</default>
@@ -319,40 +323,34 @@
 		<default>Meg?</default>
 	</talk>
 	<talk character="Meg">
-		<default>Ela tá aí, né?</default>
+		<out>Ela tá aí, né?</out>
 	</talk>
 	<talk character="Agatha">
 		<default>Tá. Angely tá a perigo, viu? Inocente do jeito que é...</default>
 	</talk>
 	<talk character="Meg">
-		<default>É, eu sei. Bryan disse que ele é viado.</default>
+		<out>É, eu sei. Bryan disse que ele é gay.</out>
 	</talk>
 	<talk character="Agatha">
-		<default>Seria realmente um grande desperdício.</default>
+		<default>Eu não acreditaria no Bryan. Ele já usava isso como ofensa antes, depois que a irmã arrombou a porta do armário e os pais não ligaram, parece que ficou pior...</default>
 	</talk>
 	<talk character="Meg">
-		<default>Ei, esse é meu!</default>
+		<out>Ah, mas se começar a se comportar demais, aí vou começar a desconfiar.</out>
 	</talk>
 	<talk character="Agatha">
-		<default>Eu já tenho o meu. Angely não me parece viado. Sempre chamam de viado os garotos comportados.</default>
+		<default>Prefere que alguém mais experiente teste ele?</default>
 	</talk>
 	<talk character="Meg">
-		<default>Ah, mas se começar a se comportar demais, aí vou começar a desconfiar.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Prefere que a mais experiente teste ele?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Não, deixa que eu faço isso.</default>
+		<out>Não, deixa que eu faço isso.</out>
 	</talk>
 	<teller>
-		<first>Noite. Angely vai até a casa. Parece abandonada.</first>
+		<first>Noite. Angely vai até a terceira casa.</first>
 	</teller>
 	<talk character="Angely">
-		<default>Nossa, ninguém arruma mesmo essa casa.</default>
+		<default>Nossa, ninguém arruma mesmo esse lugar.</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>É melhor ires embora.</default>
+		<arrive>É melhor ires embora.</arrive>
 	</talk>
 	<talk character="Angely">
 		<default>Beatrice?</default>
@@ -373,7 +371,7 @@
 		<default>Melhor saires, Elian voltará antes de amanhecer.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Você falava tanto desse Elian, e eu nunca o vi.</default>
+		<default>Você falava tanto de Elian, e eu nunca vi.</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Ele sai quando escurece.</default>
@@ -385,13 +383,13 @@
 		<default>Eu não sou ninguém.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Não foi isso que eu quis dizer. Digo que ninguém além de você. Tem certeza que esse cara existe?</default>
+		<default>Não foi isso que eu quis dizer. Digo que ninguém além de você. Tem certeza que essa pessoa existe?</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Existe!</default>
 	</talk>
 	<talk character="Angely">
-		<default>Tá, desculpa. Queria ver ele.</default>
+		<default>Tá, desculpa. Queria ver...</default>
 	</talk>
 	<talk character="Beatrice">
 		<default>Não, vai embora. Ele não gosta que eu fale com humanos.</default>

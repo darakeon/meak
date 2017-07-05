@@ -34,7 +34,7 @@
 		<default>Ela... Tá sendo perseguida.</default>
 	</talk>
 	<talk character="General">
-		<default>Me diga quem é e eu dou meu jeito.</default>
+		<default>Me diga quem persegue e eu dou meu jeito.</default>
 	</talk>
 	<talk character="Halen">
 		<default>É o seu exército.</default>
@@ -52,13 +52,19 @@
 		<default>Por que ela não é daqui.</default>
 	</talk>
 	<teller>
-		<default>Ele não entende por alguns segundos. Então entende. Se senta em sua cadeira.</default>
+		<default>Ele para segundos, franzindo a testa. Fecha os olhos e bufa de leve. Abre. Se senta em sua cadeira.</default>
 	</teller>
 	<talk character="General">
 		<default>Não posso.</default>
 	</talk>
 	<talk character="Halen">
-		<default>Por favor.</default>
+		<default>O que não pode é prender eles, sabendo tudo que te contei, e o que fizeram!</default>
+	</talk>
+	<talk character="General">
+		<default>Você nem saberia disso, não fosse essa... criatura ir te contar. Aliás, o que só prova que é mais perigosa.</default>
+	</talk>
+	<talk character="Halen">
+		<default>Ela não é perigosa. Já me conhecia.</default>
 	</talk>
 	<talk character="General">
 		<default>É uma das que te... Trouxe de volta?</default>
@@ -97,7 +103,7 @@
 		<default>Eles... Não fazem isso. Foi o que um deles me disse. Faz uma semana. Ele fugiu. Não consegui mesmo achar isso entre os registros.</default>
 	</talk>
 	<talk character="Halen">
-		<default>Para com essa perseguição. Eles vão pro canto deles. Talvez percam o medo de nós. Talvez possam fazer por outros o que fizeram por mim.</default>
+		<default>Para com essa perseguição. Com todos. Eles vão pro canto deles. Talvez percam o medo de nós. Talvez possam fazer por outros o que fizeram por mim.</default>
 	</talk>
 	<teller>
 		<default>Ele baixa a cabeça. Levanta da cadeira. Olha para a filha.</default>
@@ -142,7 +148,7 @@
 		<default>Livre?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Pararam de nos caçar.</default>
+		<default>Pararam de nos caçar. Já procurei, tudo foi arquivado.</default>
 	</talk>
 	<teller>
 		<default>Ele recolhe os cacos.</default>
@@ -158,6 +164,15 @@
 	</talk>
 	<teller>
 		<default>Mel entrega um papel a Angely.</default>
+	</teller>
+	<talk character="Angely">
+		<default>Não rola parar um pouco?</default>
+	</talk>
+	<talk character="Mel">
+		<default>Lê.</default>
+	</talk>
+	<teller>
+		<default>Angely olha para o papel.</default>
 		<letter>Uma garota foi atropelada anteontem, perto de uma igreja. Isso não seria tão incomum, se não fosse o fato dela ter desaparecido do hospital misteriosamente nesta manhã. Nossa equipe de reportagem descobriu que ela, supostamente, seria a filha do casal Menini. Eles eram donos do casarão que pegou fogo o ano passado, numa festa que reunia todos os amigos e parentes.</letter>
 		<letter>Fatos estranhos cercam este casal. Há dezoito anos atrás, Júlia Menini teria engravidado. Comunicou-se à imprensa que ela havia abortado. Porém, segundo a ex-governanta da casa, a criança nascera e ganhara o nome de Lara. Dois anos depois, o irmão de Pedro Menini morreu e foi enterrado no jardim da casa. O túmulo teria sido violado, o corpo teria desaparecido e jamais fora encontrado.</letter>
 		<letter>No misterioso incêndio proposital do ano passado, todos os corpos foram encontrados, menos o de Lara. Os vizinhos diziam que Pedro Menini mantinha a garota trancada num quarto separado da casa, pois não a aceitava, sendo ela símbolo da traição de sua esposa. Agora foram encontrados registros e fotos de Lara no quarto existente no jardim da casa. O quarto não tem janelas, nem espelhos, apenas vestidos, uma cama, um banheiro, uma estante cheia dos mais variados livros e uma saída secreta.</letter>
@@ -200,7 +215,7 @@
 		<default>Encontrei algumas informações confidenciais também. Os registros da garota foram queimados. A única coisa que se encontrou no local do desaparecimento foi um pergaminho com um anel fechando.</default>
 	</talk>
 	<teller>
-		<default>Angely vê um bilhete sobre a mesa.</default>
+		<default>Angely vê um bilhete sobre a mesa. Pega. Franze a testa.</default>
 	</teller>
 	<talk character="Angely">
 		<read>Há uma quarta casa. Ela agora pertence a vocês. Observação: o Egito foi apenas um teste. Nada daquilo era real.</read>
