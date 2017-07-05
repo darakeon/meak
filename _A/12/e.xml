@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="12" scene="e">
+	<teller>
+		<default>Dara fecha a porta.</default>
+	</teller>
 	<talk character="Dara">
 		<default>Acho que temos mais o que fazer.</default>
 	</talk>
 	<talk character="Alexander">
-		<default>Por que está protegendo ele?</default>
+		<default>Por que tá protegendo ele?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Ele não gosta de Andrews e vai nos ajudar a encontrá-lo.</default>
+		<default>Não gosta de Andrews e vai nos ajudar a encontrar.</default>
 	</talk>
 	<talk character="Dalila">
 		<default>Eu ainda tô aqui!</default>
@@ -19,7 +22,7 @@
 		<default>Ei!</default>
 	</talk>
 	<teller>
-		<default>Dara pega o telefone.</default>
+		<default>Dara vai até a estante e pega o telefone novamente. Disca.</default>
 	</teller>
 	<talk character="Alexander">
 		<default>Pra quem vai ligar?</default>
@@ -28,28 +31,28 @@
 		<default>Alô? ### Oi, Derik. ### É, eu tô viva.</default>
 	</talk>
 	<teller>
-		<default>Na MEAK, Edmont e Derik já voltaram.</default>
+		<default>MEAK.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Dá isso!</default>
 	</talk>
 	<teller>
-		<default>Ele arranca o telefone das mãos de Derik. Angely desce a escada.</default>
+		<default>Edmont arranca o telefone das mãos de Derik. Angely desce a escada.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Então você tá bem...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Tô.</default>
+		<out>Tô.</out>
 	</talk>
 	<talk character="Edmont">
 		<default>Onde você tá?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Tá com papel e caneta aí?</default>
+		<out>Tá com papel e caneta aí?</out>
 	</talk>
 	<teller>
-		<default>Edmont vai buscar Dara. Alexander leva Dalila com ele. Enquanto isso, Andrews levara Stephany pro hotel. São seis da manhã quando Dilan chega.</default>
+		<first>6h. Hotel. Stephany dorme na cama.</first>
 	</teller>
 	<talk character="Dilan">
 		<default>Isso não vai dar certo.</default>
@@ -61,19 +64,19 @@
 		<default>Não me parece do tipo que vai querer ficar com você.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>Desde quando tens alguma vocação pra adivinho?</default>
+		<default>Desde quando você tem alguma vocação pra adivinho?</default>
 	</talk>
 	<talk character="Dilan">
-		<default>Tudo bem, vou sair antes que atire pela janela.</default>
+		<default>Tudo bem, vou sair antes que me atire pela janela.</default>
 	</talk>
 	<teller>
-		<default>Dilan sai. Andrews passa a mão no rosto de Stephany.</default>
+		<default>Dilan sai. Andrews se aproxima da cama. Passa a mão no rosto de Stephany.</default>
 	</teller>
 	<talk character="Andrews">
 		<default>Exageraram no sonífero.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, no apartamento de Alexander...</default>
+		<default>Apartamento de Alexander.</default>
 	</teller>
 	<talk character="Alexander">
 		<default>Um vidro inteiro???</default>
@@ -100,36 +103,36 @@
 		<default>Ei, eu tô com fome!</default>
 	</talk>
 	<talk character="Alexander">
-		<default>Não posso fazer nada!</default>
+		<out>Não posso fazer nada!</out>
 	</talk>
 	<talk character="Dalila">
 		<default>Nem uma maçã??? Mão de vaca!</default>
 	</talk>
 	<teller>
-		<default>Ele pega uma maçã e leva pra Dalila.</default>
+		<default>Silêncio. Alexander volta. Pega uma maçã da fruteira e estende a Dalila..</default>
 	</teller>
 	<talk character="Dalila">
 		<default>Minhas mãos estão amarradas!</default>
 	</talk>
 	<teller>
-		<default>Alexander a desamarra.</default>
+		<default>Alexander bufa, solta os ombros. Desamarra Dalila.</default>
 	</teller>
 	<talk character="Dalila">
 		<default>Assim tá melhor...</default>
 	</talk>
 	<teller>
-		<default>Ela pega um vaso e o acerta.</default>
+		<default>Dalila pega a maçã. Senta no sofá e morde. Alexander se vira para a porta. Toma uma pancada na cabeça com um vaso. Cai.</default>
 	</teller>
 	<talk character="Dalila">
 		<default>Desculpa aí.</default>
-		<teller>pega a maça</teller>
+		<teller>morde a maça</teller>
 		<default>Mas eu não vou ficar aqui.</default>
 	</talk>
 	<teller>
-		<default>Dalila sai. Sete da manhã. Na casa de Brad, ele está se arrumando pra ir pro serviço. Talita acorda.</default>
+		<default>7h. Casa de Brad. Brad anda pela sala. Levanta uma almofada. Pega a carteira.</default>
 	</teller>
 	<talk character="Talita">
-		<default>Vai sair?</default>
+		<arrive>Vai sair?</arrive>
 	</talk>
 	<talk character="Brad">
 		<default>Vou pro serviço.</default>
@@ -144,13 +147,16 @@
 		<default>Não é um desejo, é um pressentimento.</default>
 	</talk>
 	<teller>
-		<default>Brad ri. Na casa de Kat, ela está falando, falando e falando com Derik na cozinha.</default>
+		<default>Brad ri. Casa de Kat.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Vocês não dormiram enquanto eu dormia, né? Devem estar morrendo de sono. Eu acho que não vou conseguir dormir durante uma semana. Também, dois dias inteiros, isso deixa qualquer um sem querer ver uma cama por... Derik? Derik!</default>
+		<default>Vocês não dormiram enquanto eu dormia, né? Devem estar morrendo de sono. Eu acho que não vou conseguir dormir durante uma semana. Também, dois dias inteiros isso deixa qualquer um sem querer ver uma cama por... Derik? Derik!</default>
 	</talk>
 	<teller>
-		<default>Derik dormiu na cadeira. Edmont está dormindo num prédio, encostado na parede. Beatrice chega, joga a arma dele pela janela e se senta ao lado dele. Ele acorda e se levanta.</default>
+		<default>Kat olha para Derik. Derik está dormindo na cadeira, com os braços e cabeça sobre a mesa.</default>
+	</teller>
+	<teller>
+		<first>Prédio abandonado. Edmont está no chão, dormindo. Beatrice se aproxima. Pega a besta que estava ao lado. Joga pela janela. Senta-se ao lado de Edmont. Edmont acorda. Levanta bruscamente.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Você...</default>
@@ -159,7 +165,7 @@
 		<default>Qual o problema?</default>
 	</talk>
 	<teller>
-		<default>Ele olha pros lados.</default>
+		<default>Edmont olha ao redor.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Tá lá embaixo. Não ia me arriscar.</default>
@@ -181,47 +187,57 @@
 	</talk>
 	<talk character="Beatrice">
 		<default>Não...</default>
-		<teller>ela se aproxima dele</teller>
+	</talk>
+	<teller>
+		<default>Beatrice se levanta. Aproxima-se de Edmont.</default>
+	</teller>
+	<talk character="Beatrice">
 		<default>Você gosta de mim?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Que?!</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Sou bonita?</default>
+		<default>Me acha bonita?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por que está perguntando isso?</default>
+		<default>Por que tá perguntando isso?!</default>
 	</talk>
 	<teller>
-		<default>Beatrice beija Edmont. Ele a empurra.</default>
+		<default>Beatrice beija Edmont. Edmont retribui. Depois empurra Beatrice.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Não caio nisso.</default>
 	</talk>
 	<teller>
-		<default>Ele vai embora.</default>
+		<default>Edmont sai.</default>
 	</teller>
 	<talk character="Beatrice">
 		<default>Cai sim. Só não sabe ainda.</default>
 	</talk>
 	<teller>
-		<default>Edmont vai pra casa. Dez da manhã, toca o telefone, Kat atende.</default>
+		<first>10h. MEAK. Toca o telefone. Kat atende.</first>
 	</teller>
 	<talk character="Kat">
-		<default>Sim, é daqui. ### O que?... ### Tudo bem, nós iremos aí.</default>
+		<default>Sim, é daqui. ### O que?...</default>
 	</talk>
 	<teller>
-		<default>Kat coloca o telefone no lugar, se senta no sofá e coloca a mão no rosto.</default>
+		<default>Kat baixa a cabeça.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Tudo bem, a gente vai.</default>
+	</talk>
+	<teller>
+		<default>Kat coloca o telefone no lugar. Senta no sofá, olhando para o chão.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Que foi?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ela tá em coma.</default>
+		<default>Tá em coma.</default>
 	</talk>
 	<teller>
-		<default>Edmont se aproxima de Kat, que o abraça. Angely desce a escada.</default>
+		<default>Edmont se senta ao lado de Kat. Kat abraça Edmont. Angely vem da cozinha.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Melhor nós irmos no hospital.</default>
@@ -230,10 +246,10 @@
 		<default>Mel?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Em coma.</default>
+		<default>Coma.</default>
 	</talk>
 	<teller>
-		<default>De tarde, Derik vai à casa de Dara, a pedido dela.</default>
+		<default>Tarde. Casa de Dara.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Acho que nós vamos ter que resolver isso.</default>
@@ -248,19 +264,19 @@
 		<default>Então, como pretende encontrar Stephany?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Meu amigo vai me ajudar.</default>
+		<default>Tem alguém que vai me ajudar.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Que amigo?</default>
+		<default>Quem?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Um vampiro.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Tá ficando louca???</default>
+		<screamed>Que???</screamed>
 	</talk>
 	<talk character="Dara">
-		<default>Ele não gosta de Andrews e quer ajuda pra pegá-lo.</default>
+		<default>Não gosta de Andrews e quer ajuda pra pegar.</default>
 	</talk>
 	<talk character="Derik">
 		<default>E daí??? Vai te matar assim que terminar!</default>
@@ -272,13 +288,13 @@
 		<default>E como pode ter certeza?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Apenas sei.</default>
+		<default>Eu só sei.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Então precisamos de um plano para pegá-lo.</default>
+		<default>Então precisamos de um plano.</default>
 	</talk>
 	<teller>
-		<default>A campainha toca. Dara atende.</default>
+		<default>A campainha toca. Dara abre a porta.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Que está fazendo aqui??? E Dalila???</default>
@@ -295,9 +311,6 @@
 	<teller>
 		<default>Alexander entra.</default>
 	</teller>
-	<talk character="Dara">
-		<irony>Tá, pode entrar...</irony>
-	</talk>
 	<talk character="Alexander">
 		<default>Peraí, eu te vi...</default>
 	</talk>
@@ -308,22 +321,22 @@
 		<default>Já se conhecem?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ele ficou lá com Stephany. Aliás, por que deixou ela sair com uma ladra de lá???</default>
+		<default>Ficou lá com Stephany. Aliás, por que deixou sair com Dalila?!</default>
 	</talk>
 	<talk character="Alexander">
-		<default>Desculpe por não acorrentá-la e levá-la pra minha casa!</default>
+		<irony>Desculpe por não acorrentar ela e levar ela pra minha casa!</irony>
 	</talk>
 	<talk character="Derik">
-		<default>Agora ela tá com Andrews!</default>
+		<default>Agora tá com Andrews!</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Está insinuando que a culpa é minha???</default>
 	</talk>
 	<talk character="Derik">
-		<default>Não, estou dizendo!</default>
+		<default>Não, insinuando não, eu tô dizendo!</default>
 	</talk>
 	<talk character="Dara">
-		<default>Ei, parem com isso! Eu e Derik vamos ao hospital, procura a Dalila.</default>
+		<default>Eu e Derik vamos ao hospital. Você procura a Dalila.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Desculpe, "Eu e Derik"?</default>
@@ -332,7 +345,7 @@
 		<default>"procura"??</default>
 	</talk>
 	<talk character="Dara">
-		<default>É, isso são ordens, entenderam?</default>
+		<default>É, isso são ordens. É o que se faz com criança que tá brigando.</default>
 	</talk>
 	<teller>
 		<default>Eles se calam. Dara sai.</default>
@@ -344,10 +357,10 @@
 		<default>Fazer o que?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Venham logo, dois enrolados!</default>
+		<out>É pra hoje, porra.</out>
 	</talk>
 	<teller>
-		<default>Alexander vai procurar Dalila. Dara e Derik chegam ao hospital.</default>
+		<first>Hospital.</first>
 	</teller>
 	<talk character="Derik">
 		<default>E aí?</default>
@@ -359,22 +372,22 @@
 		<default>Alguma coisa sobre Stephany?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Tem uns caçadores de aves raras na cidade e eu não posso voar.</default>
+		<default>Tem uns caçadores de aves raras na cidade. Não rola procurar.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, Angely vai até o quarto de Mel. Apenas Dara nota, seguindo-o. Olha pelo vidro. Psique chega.</default>
+		<default>Angely entra no quarto de Mel. Dara olha, do lado de fora.</default>
 	</teller>
 	<talk character="Psique">
-		<default>Que está fazendo aqui???</default>
+		<arrive>Que tá fazendo aqui???</arrive>
 	</talk>
 	<talk character="Dara">
-		<default>Ele veio ver a irmã.</default>
+		<default>Veio ver a irmã.</default>
 	</talk>
 	<talk character="Psique">
 		<default>Vocês dois, não podem entrar nessa área!</default>
 	</talk>
 	<talk character="Dara">
-		<default>Quem trouxe ela pra cá?</default>
+		<default>Quem trouxe Mel pra cá?</default>
 	</talk>
 	<talk character="Psique">
 		<default>Um cara, deu o telefone de vocês e foi embora. Agora podem sair daqui?</default>
@@ -383,67 +396,67 @@
 		<default>Tá. Vem, Angely.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Por que ele fez isso com a Mel?</default>
+		<default>Por que fez isso com Mel?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Não fica assim, ela vai ficar bem.</default>
+		<default>Não fica assim, vai ficar tudo bem.</default>
 	</talk>
 	<teller>
-		<default>Angely sai com Dara. Ela vai falar com Edmont.</default>
+		<default>Dara pega a mão de Angely. Saem. Chegam até o resto do pessoal. Angely senta em um sofá. Dara vai falar com Edmont, que está perto de uma máquina de lanches.</default>
 	</teller>
 	<talk character="Dara">
 		<default>Eu percebi que você é quem tá menos abalado.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Por que está dizendo isso?</default>
+		<default>Por que tá dizendo isso?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Eu sei de tudo, Mel falou comigo.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>E acha que pode ajudar?</default>
+		<default>Acha que pode ajudar?</default>
 	</talk>
 	<talk character="Dara">
 		<default>E por que não? Por que sou uma garota?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Não foi isso que eu quis dizer...</default>
+		<default>Por que é humana.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Não precisa se preocupar comigo. Melhor nós três deixarmos os dois aí e irmos tentar resolver alguma coisa.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Sabe alguma coisa sobre o cara que deixou a Mel aqui?</default>
+		<default>Sabe alguma coisa sobre o cara que deixou Mel aqui?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Não vamos falar disso aqui. Vem. Derik!</default>
+		<default>Não vamos falar disso aqui.</default>
 	</talk>
 	<teller>
-		<default>Kat e Angely ficam. Os outros três voltam a MEAK. 15:00. Eles estão reunidos no escritório.</default>
+		<default>15h. Dara, Edmont e Derik estão no escritório.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Então ele vai passar na sua casa de noite?</default>
+		<default>Então vai passar na sua casa de noite?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Temos que encontrar Andrews de madrugada.</default>
 	</talk>
-	<talk character="Dara">
+	<talk character="Derik">
 		<default>Por que?</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Se esse cara que tá nos ajudando é vampiro, não pode ser de dia. Só ele pode encontrar Andrews em pouco tempo. Mas Andrews só morre pela luz do sol, logo teremos que encontrá-lo, encurralá-lo num prédio, enrolar ele até o dia nascer e atirá-lo pela janela.</default>
+		<default>Se quem que tá nos ajudando é vampiro, não pode ser de dia. Só Rust pode encontrar Andrews em pouco tempo. Mas Andrews só morre pela luz do sol, logo teremos que encontrar, encurralar num prédio, enrolar ele até o dia nascer e atirar pela janela.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Boa idéia.</default>
+		<default>Parece um bom plano pra mim.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ele já deve ter transformado Stephany.</default>
+		<default>Já deve ter transformado Stephany.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Mas impediremos que ele continue com isso.</default>
+		<default>Mas impediremos que continue com isso.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Podemos tentar fazer Stephany passar a nos ajudar, ela não me parece má.</default>
+		<default>Podemos tentar fazer Stephany passar a ajudar, não me parece uma pessoa ruim.</default>
 	</talk>
 	<teller>
 		<default>A campainha toca. Derik desce pela escada do escritório pra fora da casa.</default>
@@ -458,13 +471,13 @@
 		<default>Tem uma porta por aqui, o escritório fica lá em cima.</default>
 	</talk>
 	<teller>
-		<default>Eles vão até o escritório.</default>
+		<default>Derik sobe. Alexander segue.</default>
 	</teller>
 	<talk character="Alexander">
 		<default>Conheço você de algum lugar.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Esquece isso.</default>
+		<default>Nada que importe agora.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Nós temos um plano pra pegar Andrews.</default>
@@ -473,7 +486,7 @@
 		<default>É?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Como só a luz mata Andrews mas Rust não pode encontrar ele de dia, vamos encontrá-lo de madrugada, enrolar ele até o sol nascer e fritá-lo.</default>
+		<default>Como só a luz mata Andrews mas mata Rust também, vamos achar Andrews de madrugada, enrolar até o sol nascer e jogar pela janela pra pegar um bronzeado.</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Não vai funcionar.</default>
@@ -482,18 +495,18 @@
 		<default>Por que não?</default>
 	</talk>
 	<talk character="Alexander">
-		<default>Quem vai ter força suficiente pra atirá-lo no sol?</default>
+		<default>Quem vai ter força suficiente pra atirar ele no sol?</default>
 	</talk>
 	<teller>
 		<default>Todos se calam.</default>
 	</teller>
-	<talk character="Derik">
-		<default>Talvez Rust. Ele quer que o Andrews vá pro inferno de qualquer jeito.</default>
+	<talk character="Dara">
+		<default>Talvez Rust. Quer que Andrews vá pro inferno de qualquer jeito.</default>
 	</talk>
 	<talk character="Alexander">
 		<default>Se querem seguir isso, tudo bem.</default>
 	</talk>
 	<talk character="Edmont">
-		<default>E por que veio até aqui?</default>
+		<default>Por que essa pessoa veio, mesmo?</default>
 	</talk>
 </story>
