@@ -22,7 +22,7 @@
 		<default>Viu, ele não é viado.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Ah?</default>
+		<default>Você ainda tava pensando que...</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Adivinha quem tava falando isso!</default>
@@ -33,11 +33,14 @@
 	<talk character="Meg">
 		<default>Liga não, é inveja.</default>
 	</talk>
-	<teller>
-		<default>Mel e Kat chegam.</default>
-	</teller>
 	<talk character="Mel">
-		<default>Bom, agora que já acabou o beijódromo, temos mais o que fazer por aqui.</default>
+		<arrive>Ou vontade.</arrive>
+	</talk>
+	<talk character="Kat">
+		<arrive>Olha, acabou o beijódromo!</arrive>
+	</talk>
+	<talk character="Mel">
+		<default>Bom, temos mais o que fazer por aqui.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Como, "mais o que fazer"?</default>
@@ -60,89 +63,32 @@
 	<teller>
 		<default>Elas vão embora.</default>
 	</teller>
-	<talk character="Angely">
-		<default>Edmont, só uma coisa, elas não sabem que eu sou...</default>
-	</talk>
 	<talk character="Edmont">
-		<default>Inexperiente? Pelo jeito não.</default>
+		<default>Angely tá com vergonha porque... Desculpa, posso contar?</default>
 	</talk>
 	<talk character="Angely">
-		<default>De novo não...</default>
+		<default>Devia ter perguntado antes.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Peraí, você nunca...</default>
 	</talk>
-	<talk character="Edmont">
-		<default>E pelo jeito a Mel também não sabia.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Droga!</default>
-	</talk>
+	<teller>
+		<default>Angely encara Mel.</default>
+	</teller>
 	<talk character="Mel">
 		<default>Isso é que é timidez.</default>
 	</talk>
 	<talk character="Angely">
-		<default>Vai me zoar???</default>
-	</talk>
-	<talk character="Edmont">
-		<default>A Kat...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que tem ela?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Acho que eu não vou precisar contar pra Meg.</default>
+		<default>Vai me zoar?</default>
 	</talk>
 	<teller>
 		<default>De tarde, na casa de Meg.</default>
 	</teller>
-	<talk character="Kat">
-		<default>Meg, tem uma coisa que eu fiquei sabendo do Angely...</default>
+	<talk character="Agatha">
+		<default>E aí, vai resolver o detalhe sobre o Angely?</default>
 	</talk>
 	<talk character="Meg">
-		<default>Bom, não deve ter nada a ver com chifres, ele me parece tímido demais pra isso...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pega um pedaço da segunda frase e tá quase lá.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Parece?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Roda a manivela!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Tímido?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Uh, ela pensou!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Ah, mas isso não é tanto problema...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, ela não pensou.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Diz logo de uma vez!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Aries, Touro, Gêmeos, Câncer, Leão, Libra, Escorpião, Sagitário, Capricórnio, Aquário, Peixes. Que está faltando nesta lista?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Bom, isso seria a lista dos signos... Tá faltando um... Virgem... Que???</default>
-	</talk>
-	<talk character="Kat">
-		<default>Até que enfim a ficha caiu!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Como ficou sabendo disso?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ouvi uma conversa dele e do Edmont.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Mas ele tem dezenove anos praticamente!</default>
+		<default>Não sei, talvez ele não queira ir tão rápido.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Natal tá chegando.</default>
@@ -163,13 +109,13 @@
 		<default>Entra na casa o cachorro.</default>
 	</teller>
 	<talk character="Meg">
-		<default>Que isso???</default>
+		<default>Que isso?!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Meu presente de Natal.</default>
 	</talk>
 	<talk character="Meg">
-		<default>Não acha que ele é um pouquinho grande???</default>
+		<default>Não acha que ele é um pouquinho grande?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Vai, por favor, deixa!</default>
@@ -190,7 +136,7 @@
 		<default>É, eu e Kat acabamos de perceber.</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Nós temos namorados, né???</default>
+		<default>Nós temos namorados, né?</default>
 	</talk>
 	<talk character="Meg">
 		<default>Podemos ir até a cidade.</default>
@@ -205,7 +151,7 @@
 		<default>Me deixa na casa deles!</default>
 	</talk>
 	<talk character="Meg">
-		<default>Agatha, você sabe alguma coisa estranha sobre o Angely?</default>
+		<default>Faz alguma idéia do que compro pro Angely?</default>
 	</talk>
 	<talk character="Kat">
 		<default>Me deixa na casa deles!</default>
@@ -226,7 +172,7 @@
 		<default>Vamos levar ela?</default>
 	</talk>
 	<talk character="Meg">
-		<default>Não sei. Vamos atender o pedido dela, tá?</default>
+		<default>Não sei. Acho que vou atender o pedido dela.</default>
 	</talk>
 	<talk character="Agatha">
 		<default>Tá. Edmont tá tocando a campainha aqui. Eu vou aí daqui a pouco.</default>
@@ -250,19 +196,19 @@
 		<default>Por que quer tanto ficar na casa deles?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Que você tá pensando que eu sou??? Eles são meus amigos, tá???</default>
+		<default>Eles são meus irmãos também!</default>
 	</talk>
 	<talk character="Meg">
 		<default>Tá, tudo bem. Edmont tava lá e ela vai perguntar se ele cuida de você. Mas dessa vez não vai passar a noite lá, não!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não precisa ficar com ciúmes, se você chegar no Angely e disser: "deita no chão que eu não quero sujar meus pés", ele vira pra você e diz: "claro". Vem Aurium.</default>
+		<default>Vem Aurium.</default>
 	</talk>
 	<teller>
-		<default>Kat vai pro quarto e o cachorro (Aurium) a segue.</default>
+		<default>Kat vai pro quarto e o cachorro a segue. Meg senta no sofá.</default>
 	</teller>
 	<talk character="Meg">
-		<default>Será que ela tava falando sério?... Peraí, do que ela chamou o cachorro???</default>
+		<default>Peraí, do que ela chamou o cachorro?!</default>
 	</talk>
 	<teller>
 		<default>Na casa de Agatha...</default>
@@ -277,43 +223,7 @@
 		<default>Estava no telefone?</default>
 	</talk>
 	<talk character="Agatha">
-		<default>Falando com Meg.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ela falou alguma coisa sobre o Angely?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Perguntou se eu sabia de alguma coisa estranha sobre ele.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Kat deve ter contado.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Que?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Os namoros do Angely sempre foram meio atrasados.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ele é tímido.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Edmont, vai direto ao ponto.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Há uma vantagem: Uma ex não poderia chegar dizendo que engravidou dele.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Peraí, ele nunca...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vê se não vai zoar ele, que ele fica bravo comigo.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Tá tudo bem. Eu vou ter que sair agora.</default>
+		<default>Falando com Meg. Eu vou ter que sair agora.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Por que?</default>
@@ -346,7 +256,7 @@
 		<default>Bobo.</default>
 	</talk>
 	<teller>
-		<default>Eles se beijam. Depois, vão até a casa de Meg. De lá, Agatha e Meg vão fazer compras. Na MEAK...</default>
+		<default>Eles se beijam. Depois, vão até a casa de Meg. De lá, Agatha e Meg vão fazer compras. Na MEAK, Kat chega com Edmont.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Ainda bem que elas deixaram você vir aqui.</default>
@@ -358,7 +268,7 @@
 		<default>Elas tinham esquecido do Natal, acredita?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Nossa...</default>
+		<default>Nossa.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Agora saíram as pressas.</default>
@@ -367,7 +277,7 @@
 		<default>Vamos terminar aquele desenho que estávamos tentando fazer.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ah, é...</default>
+		<default>Ah, é!</default>
 	</talk>
 	<talk character="Mel">
 		<default>Eu tô indo no hospital.</default>
@@ -397,7 +307,7 @@
 		<default>Não, não... aqui! Menini...</default>
 	</talk>
 	<teller>
-		<default>Mel pega as fichas a partir de 2000 e leva. Alguém no hospital estranha.</default>
+		<default>Mel pega as fichas a partir de 2000 e coloca na bolsa. Ela sai da sala e uma enfermeira pára ela.</default>
 	</teller>
 	<talk character="enfermeira">
 		<default>Que está levando aí dentro desta bolsa?</default>
@@ -418,7 +328,7 @@
 		<default>Era só uma alergia.</default>
 	</talk>
 	<talk character="enfermeira">
-		<default>Veio parar no hospital por alergia?</default>
+		<default>Alergia a que?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Frutos do mar. Eu comi um sanduíche e me fez mal.</default>
