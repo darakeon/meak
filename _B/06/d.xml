@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="06" scene="d">
 	<teller>
-		<default>No dia seguinte (14/03 – sexta), 15:00.</default>
+		<default>Dia seguinte. Tarde. MEAK.</default>
 	</teller>
 	<talk character="Nat">
 		<default>Ei? Tem alguém em casa?</default>
 	</talk>
 	<talk character="Mel">
-		<default>Só eu.</default>
+		<arrive>Só eu.</arrive>
 	</talk>
 	<teller>
 		<default>Nat coloca Inês no sofá.</default>
@@ -22,16 +22,22 @@
 		<default>Então não tá sozinha.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Mas sou a única que vai falar com você enquanto não me explicar uma coisa. Te chamei aqui porque tivemos um pequeno problema.</default>
+		<default>Mas sou a única pessoa que vai falar com você enquanto não me explicar uma coisa. Te chamei aqui porque tivemos um pequeno problema.</default>
 	</talk>
 	<talk character="Nat">
-		<default>E no que posso ajudar? Se seu cunhado tiver feito...</default>
+		<default>E no que posso ajudar? Se seu irmão tiver feito...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Não tem nada a ver com o Edmont. Bom, até tem, mas não é um problema que ele criou. Parece que não tirou tudo que tinha na falecida.</default>
+		<default>Não tem nada a ver com Edmont. Bom, até tem, mas não é um problema que Edmont criou. Aliás, até é... Enfim...</default>
+	</talk>
+	<teller>
+		<default>Mel balança a cabeça para os lados. Olha para Nat.</default>
+	</teller>
+	<talk character="Mel">
+		<default>Parece que não tirou tudo que tinha no corpo.</default>
 	</talk>
 	<talk character="Nat">
-		<default>Do que está falando?</default>
+		<default>Do que tá falando?</default>
 	</talk>
 	<talk character="Mel">
 		<default>De uma coisa com asas que já fez uma vítima inocente.</default>
@@ -43,16 +49,16 @@
 		<default>Não.</default>
 	</talk>
 	<talk character="Nat">
-		<default>Não conheço mais nenhum vampiro inocente.</default>
+		<default>Não conheço mais nenhum vampiro inocente, tão querendo juntar uma liga de vampiros?</default>
 	</talk>
 	<talk character="Mel">
 		<default>Então sabe do que estou falando?</default>
 	</talk>
 	<talk character="Nat">
-		<default>Pégaso. É a única coisa que eu conheço com asas e que pode estar ligado à Inês e, portanto, a mim.</default>
+		<default>Pégaso. É a única coisa que eu conheço com asas e que pode estar ligado a Inês e, portanto, a mim.</default>
 	</talk>
 	<teller>
-		<default>No quarto de Kat, esta anda de um lado para o outro. Derik está com ela.</default>
+		<default>Quarto de Kat. Kat anda de um lado para o outro.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Não gosto disso.</default>
@@ -61,22 +67,22 @@
 		<default>Mel sabe se virar.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Aquela garota não é humana!</default>
+		<default>Aquela pessoa não é humana!</default>
 	</talk>
 	<talk character="Derik">
-		<default>E daí, a Mel também não!</default>
+		<default>E daí? Mel também não!</default>
 	</talk>
 	<talk character="Kat">
 		<default>Eu vou lá...</default>
 	</talk>
 	<teller>
-		<default>Kat vai sair, mas Derik a segura. Kat o encara.</default>
+		<default>Kat vai na direção da porta. Derik segura seu braço. Kat olha para a mão de Derik e encara Derik.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Pode me bater se quiser, porque a Mel é mais forte e vai me bater mais se eu te deixar sair.</default>
+		<default>Pode me bater se quiser, porque Mel é mais forte e vai me bater mais se eu te deixar sair.</default>
 	</talk>
 	<teller>
-		<default>Noutro quarto, Alan está na cama de cima e Zenon na de baixo.</default>
+		<default>Quarto de Alan e Zenon. Alan está na cama de cima, Zenon na de baixo.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Acha que ela vai arrancar alguma coisa da mulher?</default>
@@ -85,13 +91,13 @@
 		<default>Não sei.</default>
 	</talk>
 	<teller>
-		<default>Zenon esfrega o olho, com sono.</default>
+		<default>Zenon vira para o outro lado.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Será que essa mulher sabe mesmo de alguma coisa?</default>
 	</talk>
 	<teller>
-		<default>Zenon aperta os olhos e bufa, também com raiva.</default>
+		<default>Zenon bufa.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Não sei.</default>
@@ -106,19 +112,19 @@
 		<default>Zenon?</default>
 	</talk>
 	<teller>
-		<default>Alan ouve a porta bater. Sai e vê Zenon entrar em outro quarto.</default>
+		<default>A porta bate. Alan desce da cama. A cama de Zenon está vazia. Sai no corredor. Zenon entra em um quarto. Alan segue. Zenon bate a porta. Abre um pouco, desvira o sinal para "Não perturbe", e fecha de novo.</default>
 	</teller>
 	<talk character="Alan">
 		<default>Que eu fiz?</default>
 	</talk>
 	<teller>
-		<default>A briga da sala já se ouve de longe.</default>
+		<default>Sala.</default>
 	</teller>
 	<talk character="Mel">
-		<screamed>Você sabia, sua desgraçada! Por isso não enterrou o corpo antes! Agora ele tá correndo perigo!</screamed>
+		<screamed>Você sabia! Por isso não enterrou o corpo antes! Agora tá correndo perigo!</screamed>
 	</talk>
 	<talk character="Nat">
-		<screamed>Tá falando no Angely ou no Edmont?!</screamed>
+		<screamed>Tá falando do Angely ou do Edmont?!</screamed>
 	</talk>
 	<talk character="Mel">
 		<screamed>Como assim???</screamed>
@@ -126,8 +132,11 @@
 	<talk character="Nat">
 		<screamed>Os pégasos são predadores dos vampiros, Angely não é vampiro!</screamed>
 	</talk>
+	<teller>
+		<default>Mel respira fundo.</default>
+	</teller>
 	<talk character="Mel">
-		<default>Angely também é prejudicado pelo que acontece com o Edmont.</default>
+		<default>O que acontece a Edmont afeta Angely.</default>
 	</talk>
 	<talk character="Nat">
 		<screamed>Bela desculpa!</screamed>
@@ -136,7 +145,7 @@
 		<screamed>Olha aqui...</screamed>
 	</talk>
 	<teller>
-		<default>Beleno desce a escada, ao ouvir a briga. Inês está no sofá, chorando. Ele pega ela no colo, ela se acalma. Fecha as asas na frente dela e de si, abaixo do pescoço.</default>
+		<default>Beleno desce a escada. Inês está no sofá, chorando. Beleno pega Inês no colo, Inês para de chorar. Fecha as asas na frente de Inês e de si, abaixo do pescoço.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Não têm vergonha, não? Brigando na frente de uma criança...</default>
@@ -148,37 +157,44 @@
 		<default>Saber? Do que?</default>
 	</talk>
 	<talk character="Kat">
-		<arrive>Sabe quem ela é. E nós sabemos quem você é e o que veio fazer aqui.</arrive>
+		<arrive>Sabe quem é essa criança. E nós sabemos quem você é e o que veio fazer aqui.</arrive>
 	</talk>
-	<teller>
-		<default>Angely adentra a sala. As asas de Beleno voltam para o lugar.</default>
-	</teller>
 	<talk character="Ang">
-		<default>Estela, eu já disse que não vou ficar mais...</default>
+		<arrive>Estela, eu já disse que não vou ficar mais...</arrive>
 	</talk>
 	<teller>
-		<default>Quando olha para Beleno, percebe quem ele é.</default>
+		<default>As asas de Beleno voltam para o lugar. Ang olha para Beleno.</default>
 	</teller>
 	<talk character="Beleno">
 		<default>Não pode ser... Você não parece mau...</default>
 	</talk>
 	<talk character="Mel">
-		<default>Porque ele não é. E não vamos deixar você matá-lo.</default>
+		<default>Porque não é. E não vamos deixar você matar Angely.</default>
 	</talk>
 	<talk character="Beleno">
 		<default>Tem que haver outro.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Como sabe que ele não é mau, nem...</default>
-		<teller>olha direito para ele</teller>
-		<default>Peraí, você é cego...</default>
 	</talk>
 	<teller>
-		<default>Beleno mira nos olhos de Ang. Natasha pega Inês do colo dele, percebendo que ele ia soltá-la. Ele sente uma forte dor de cabeça. Cai. Depois de algum tempo (16:00), acorda numa cama. Ang está no quarto.</default>
+		<default>Kat olha para Beleno.</default>
+	</teller>
+	<talk character="Kat">
+		<default>Peraí, seus olhos... Você não enxerga...</default>
+	</talk>
+	<teller>
+		<default>Beleno mira nos olhos de Ang. Natasha pega Inês. Beleno coloca as mãos na cabeça. Cai.</default>
+	</teller>
+	<teller>
+		<first>Beleno acorda em uma cama.</first>
 	</teller>
 	<talk character="Ang">
 		<default>Você tá bem?</default>
 	</talk>
+	<teller>
+		<default>Beleno se senta na cama.</default>
+	</teller>
 	<talk character="Beleno">
 		<default>Quero que saiba que tentei entrar nos seus pensamentos.</default>
 	</talk>
@@ -198,10 +214,10 @@
 		<default>Depois vou te explicar tudo.</default>
 	</talk>
 	<teller>
-		<default>Angely vai até a porta e abre-a. Derik quase cai.</default>
+		<default>Angely vai até a porta e abre. Derik quase cai. Se reequilibra.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Olha, não fui eu, Melody quem mandou, Kat insistiu, e, você sabe...</default>
+		<default>Olha, não fui eu, Melody quem mandou, Kat insistiu...</default>
 	</talk>
 	<talk character="Ang">
 		<default>Tudo bem.</default>
@@ -213,7 +229,7 @@
 		<default>É.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Se você sabia que Angely não era mau, por que atacou ele?</default>
+		<default>Se você sabia que Angely não era mau, por que atacou?</default>
 	</talk>
 	<talk character="Ang">
 		<default>Derik...</default>
@@ -222,7 +238,7 @@
 		<default>Não tentei ver isso, apenas segui o cheiro.</default>
 	</talk>
 	<teller>
-		<default>Natasha está com Inês num quarto. Alete as encontra.</default>
+		<default>Natasha está com Inês em um quarto. Alete entra.</default>
 	</teller>
 	<talk character="Nat">
 		<default>Fênix?</default>
@@ -234,7 +250,7 @@
 		<default>Muda ou tem dificuldade para falar?</default>
 	</talk>
 	<talk character="Alete">
-		<mute>2a.</mute>
+		<mute>2.</mute>
 	</talk>
 	<talk character="Nat">
 		<default>Ela aqui também é fênix. Deve ter notado antes de eu falar, né?</default>
@@ -243,7 +259,7 @@
 		<mute>Sim.</mute>
 	</talk>
 	<teller>
-		<default>Ela se aproxima de Inês.</default>
+		<default>Alete se aproxima de Inês.</default>
 	</teller>
 	<talk character="Nat">
 		<default>Como evita os vampiros?</default>
@@ -273,13 +289,13 @@
 		<default>Sabe que isso passa?</default>
 	</talk>
 	<teller>
-		<default>Alete não entende.</default>
+		<default>Alete franze a sobrancelha.</default>
 	</teller>
 	<talk character="Nat">
 		<default>Agora que não está mais com esse vampiro, seus instintos normais vão voltar. Vai tentar arranjar outro?</default>
 	</talk>
 	<teller>
-		<default>Alete pega uma folha e uma caneta no bolso e escreve.</default>
+		<default>Alete pega uma folha e uma caneta no bolso. Escreve. Entrega a Nat.</default>
 	</teller>
 	<talk character="Nat">
 		<default>"Eu amava muito Xisto." Nome estranho... Tá, amava ele, mas precisa de outro para não acabar morrendo. Por que não tenta o Zenon? Ele parece legal, sei como fazer o pacto.</default>
@@ -290,20 +306,17 @@
 	<talk character="Nat">
 		<default>Então vem comigo. Dou um jeito de te proteger.</default>
 	</talk>
-	<teller>
-		<default>Derik entra no quarto.</default>
-	</teller>
 	<talk character="Derik">
-		<default>Posso?</default>
+		<arrive>Posso?</arrive>
 	</talk>
 	<teller>
-		<default>Alete não entende.</default>
+		<default>Alete franze a sobrancelha novamente.</default>
 	</teller>
 	<talk character="Nat">
 		<default>A criança.</default>
 	</talk>
 	<teller>
-		<default>Inês olha para Derik e sorri. Alete entrega ela para Derik.</default>
+		<default>Inês olha para Derik e sorri. Alete entrega Inês para Derik.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Cresceu, hein?</default>
@@ -348,7 +361,7 @@
 		<default>Geralmente, quando um vampiro desavisado faz a besteira de fazer um pégaso, outros vampiros amarram ele em algum lugar pro pégaso levar e eles ficarem livre dele.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ninguém toca no Edmont. Pode ter certeza.</default>
+		<default>Ninguém toca em Edmont. Pode ter certeza.</default>
 	</talk>
 	<talk character="Nat">
 		<default>Teremos que mostrar isso ao garoto.</default>
@@ -360,28 +373,25 @@
 		<default>Podemos entregar Edmont a ele.</default>
 	</talk>
 	<talk character="Derik">
-		<default>E se funcionar? Quer dizer, e se ele matar Edmont?</default>
+		<default>E se funcionar? Quer dizer, e se matar Edmont?</default>
 	</talk>
 	<talk character="Nat">
 		<default>Daí Edmont vai estar morto e ele também.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Simples assim??? Esqueceu de Angely???</default>
+		<default>Simples assim?! Esqueceu de Angely?!</default>
 	</talk>
 	<talk character="Nat">
 		<default>Cadê a Alete?</default>
 	</talk>
-	<teller>
-		<default>Eles olham para os lados e não e vêem.</default>
-	</teller>
 	<talk character="Derik">
-		<default>Deve ter ido comer alguma coisa. E essa menina?</default>
+		<default>Deve ter ido comer alguma coisa. E essa criança?</default>
 	</talk>
 	<talk character="Nat">
 		<default>Ah, soube que a sua namorada ficou com ciúmes da Inês...</default>
 	</talk>
 	<talk character="Derik">
-		<default>É, ficou. Aliás, espero que ela não dê ataque de novo.</default>
+		<default>É, ficou. Aliás, espero que não fique de novo.</default>
 	</talk>
 	<talk character="Nat">
 		<default>Fala pra ela que, se você for pra cama com Inês quando a menina crescer, você vira churrasco.</default>
@@ -396,10 +406,22 @@
 		<default>Derik olha para Inês.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Tá vendo? Agora que tal irmos falar com a titia Kat, pra ela não ter mais ciúmes?</default>
+		<default>É bom avisar Inês disso quando crescer.</default>
 	</talk>
 	<talk character="Nat">
-		<default>Vai lá, eu vou arrumar as coisas aqui, afinal, Angely pediu pra mim ficar com Inês fazendo aquela cara de criança abandonada...</default>
+		<default>Vai saber.</default>
+	</talk>
+	<talk character="Derik">
+		<default>Não faz muita diferença essa coisa de cama. É mais emocional, sabe?</default>
+	</talk>
+	<talk character="Nat">
+		<default>Essa modernidades...</default>
+	</talk>
+	<talk character="Derik">
+		<default>É um conceito atlante bem antigo, na verdade. Mas vou levar Inês pra ver Kat, a gente conversou da outra vez. Talvez Kat até goste de Inês.</default>
+	</talk>
+	<talk character="Nat">
+		<default>Vai lá, eu vou arrumar as coisas aqui, afinal, Angely pediu pra eu ficar um pouco aqui com Inês, fazendo aquela cara de criança abandonada.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Eu já volto.</default>
@@ -408,28 +430,31 @@
 		<default>Derik vira para Inês.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Com ela inteira, né?</default>
+		<default>Com Inês, né?</default>
 	</talk>
 	<teller>
-		<default>Inês sorri. Eles (Derik com Inês) saem. Alete chega no quarto onde estava Beleno, com uma faca. Faz cara de decepção. Tira o lençol e só há travesseiros. Então sai. 18:00. Angely, Mel, Zenon e Alan estão conversando.</default>
+		<default>Inês sorri. Derik sai com Inês. Alete chega no quarto onde estava Beleno, com uma faca. Solta os ombros. Tira o lençol. Só há travesseiros. Sai.</default>
+	</teller>
+	<teller>
+		<first>Anoitecer. Angely, Mel, Zenon e Alan estão na sala.</first>
 	</teller>
 	<talk character="Mel">
-		<default>Então, como faremos com o garoto?</default>
+		<default>Então, como faremos com a criança?</default>
 	</talk>
 	<talk character="Zenon">
-		<default>Podemos pedir para ele ir embora com Natasha.</default>
+		<default>Podemos pedir para ir embora com Natasha.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ele não vai.</default>
+		<default>Não vai.</default>
 	</talk>
 	<talk character="Alan">
-		<default>Então podemos abrigá-lo aqui.</default>
+		<default>Então podemos abrigar ele aqui.</default>
 	</talk>
 	<talk character="Ang">
-		<default>Edmont vai vir provocá-lo.</default>
+		<default>Edmont vai vir provocar.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Levamos ele pra algum lugar que ninguém descubra.</default>
+		<default>Levamos pra algum lugar que ninguém descubra.</default>
 	</talk>
 	<talk character="Ang">
 		<default>Edmont pode descobrir e chegar antes de mim.</default>
@@ -438,12 +463,16 @@
 		<default>Tá, então dá uma solução ao invés de ficar jogando areia!</default>
 	</talk>
 	<talk character="Ang">
-		<default>Ele sabe tudo que sei...</default>
-		<teller>pára e pensa</teller>
+		<default>Edmont sabe tudo que sei...</default>
+	</talk>
+	<teller>
+		<default>Angely fecha os olhos.</default>
+	</teller>
+	<talk character="Ang">
 		<default>Inclusive dessa conversa.</default>
 	</talk>
 	<teller>
-		<default>Angely baixa a cabeça e sai.</default>
+		<default>Angely abre os olhos. Baixa a cabeça. Levanta e sai.</default>
 	</teller>
 	<talk character="Mel">
 		<default>Ang...</default>
@@ -452,7 +481,7 @@
 		<default>Melhor assim.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Que???</default>
+		<default>Mas...</default>
 	</talk>
 	<talk character="Alan">
 		<default>Eu sei que ele vai ficar chateado, mas não queremos que Edmont saiba dos nossos planos, não é?</default>
