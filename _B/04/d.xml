@@ -1,37 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="B" episode="04" scene="d">
 	<teller>
-		<default>26/02 (quarta). Madrugada. Na MEAK, Kat acorda. Derik está dormindo num colchão no chão.</default>
+		<default>Madrugada. MEAK. Kat acorda. Senta na cama de baixo da beliche.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Derik!</default>
 	</talk>
+	<teller>
+		<default>Derik senta no colchão no chão.</default>
+	</teller>
 	<talk character="Derik">
 		<default>Que foi???</default>
 	</talk>
 	<talk character="Kat">
-		<default>Cadê o Zenon?!</default>
+		<default>Cadê Zenon?!</default>
 	</talk>
+	<teller>
+		<default>Derik levanta da cama.</default>
+	</teller>
 	<talk character="Derik">
-		<default>Por que não fala pra mim? Por que quer falar com ele?</default>
+		<default>Por que não fala pra mim? Por que quer falar com Zenon?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele tava no sonho...</default>
+		<default>Tava no sonho...</default>
 	</talk>
 	<talk character="Derik">
 		<default>Mas o que era?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Temos que achá-lo.</default>
+		<default>Temos que achar Zenon.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ele deve tá no quarto...</default>
+		<default>Deve tá no quarto...</default>
 	</talk>
 	<teller>
-		<default>Kat sai correndo, vai até o quarto de Zenon e o encontra dormindo.</default>
+		<default>Kat desce da cama, vai até o quarto de Zenon. Zenon dorme.</default>
 	</teller>
 	<talk character="Kat">
-		<default>Ah, ele tá aqui... Eu devo ter confundido alguma coisa. Não pode ser, é impossível, Zenon não faria isso.</default>
+		<default>Ah, tá aqui... Eu devo ter confundido alguma coisa. Não pode ser, é impossível, Zenon não faria isso...</default>
 	</talk>
 	<talk character="Derik">
 		<default>Vai ou não vai me contar o que viu?!</default>
@@ -40,12 +46,10 @@
 		<default>Esquece, Derik, deve ter sido algum engano...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Kat, deixa eu te explicar uma coisa: você se engana de endereço, se engana com telefone, pode até se enganar com o nome de uma pessoa, mas não dá pra se enganar com uma premonição!</default>
+		<default>Kat, deixa eu te explicar uma coisa: você se engana de endereço, se engana com telefone, pode até se enganar com o nome de uma pessoa, mas não dá pra se enganar com uma premonição...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não, ele não faria isso.</default>
-		<teller>ainda olha pra Zenon, assustada</teller>
-		<default>Definitivamente, isso não pode acontecer.</default>
+		<default>Não, Zenon não faria isso. Definitivamente, isso não pode acontecer.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Ei, quer responder o que eu perguntei?</default>
@@ -54,16 +58,22 @@
 		<default>Já disse que não era nada.</default>
 	</talk>
 	<teller>
-		<default>Kat sai.</default>
+		<default>Kat sai. Derik olha para a porta.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Volta aqui, não sai assim, não! Premonições nunca querem dizer nada! Vai me deixar falando sozinho?!</default>
+		<default>Volta aqui, não sai assim, não! Premonições nunca querem dizer nada! Vai me deixar falando?!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Você tá muito chato, fica aí no seu quarto hoje!</default>
+		<out>Você tá com muita chatice, fica aí no seu quarto hoje!</out>
+	</talk>
+	<talk character="Derik">
+		<default>Ei!</default>
 	</talk>
 	<teller>
-		<default>6:00, quarto de Estela e Kat. Kat está falando sozinha e Estela (em cima da beliche) acorda.</default>
+		<default>Derik olha para Zenon. Abre um baú, pega uma estaca, sobe na cama de cima da beliche, coloca a estaca embaixo do travesseiro e deita.</default>
+	</teller>
+	<teller>
+		<first>6h. Estela abre os olhos. Fica com a parte de cima do corpo de ponta cabeça, pendurando na cama, e olha para Kat.</first>
 	</teller>
 	<talk character="Kat">
 		<default>Não, ele não seria capaz...</default>
@@ -81,22 +91,28 @@
 		<default>Pode falar, sou sua amiga, lembra?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Eu tive um sonho impossível de se concretizar...</default>
+		<default>Eu tive um sonho impossível de se concretizar.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Os sonhos que você tem são do futuro, não são simples estorinhas. Devia contar pra Mel.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não posso, tô com medo...</default>
+		<default>Não posso, tô com medo.</default>
 	</talk>
 	<talk character="Estela">
 		<default>Então me conta.</default>
 	</talk>
 	<talk character="Kat">
+		<default>Não contei pra Derik, porque Derik nunca perdeu a cisma com Zenon.</default>
+	</talk>
+	<talk character="Estela">
+		<default>Pode contar pra mim.</default>
+	</talk>
+	<talk character="Kat">
 		<default>Podemos ir pra outro lugar?</default>
 	</talk>
 	<teller>
-		<default>Na mesma hora...</default>
+		<default>Quarto de Derik e Zenon. Derik anda de um lado a outro. Zenon se senta na cama. Derik olha para Zenon.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Ah, até que enfim você acordou.</default>
@@ -105,27 +121,25 @@
 		<default>Aconteceu alguma coisa?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Kat teve um sonho, foi correndo até você. Parecia preocupada, ficava dizendo que era impossível... Disse que o sonho era com você e, quando perguntei o que tinha sido, ela disse que não era nada. Tô preocupado com ela...</default>
+		<default>Kat teve um sonho, foi correndo até você. Tinha preocupação, ficava dizendo que era impossível... Disse que o sonho era com você e, quando perguntei o que tinha sido, disse que não era nada. Agora quem tá com preocupação sou eu!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Você é namorado dela, por que não ficaria?</default>
-		<teller>Derik encara Zenon</teller>
+	</talk>
+	<teller>
+		<default>Derik cruza os braços e encara Zenon. Zenon revira os olhos.</default>
+	</teller>
+	<talk character="Zenon">
 		<default>Tá legal, vamos ver o que é isso.</default>
 	</talk>
 	<teller>
-		<default>Rio. Melody está dormindo no hospital. Angely se aproxima dela. Agacha e passa a mão na cabeça dela.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Mel?</default>
-	</talk>
-	<teller>
-		<default>Ela levanta bruscamente.</default>
+		<first>Rio. Hospital. Melody está dormindo nos bancos de espera. Angely se aproxima. Agacha e passa a mão na cabeça de Mel. Mel levanta bruscamente.</first>
 	</teller>
 	<talk character="Ang">
 		<default>Calma, sou eu.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Cadê o atropelador?!</default>
+		<default>Cadê a criatura?!</default>
 	</talk>
 	<talk character="Ang">
 		<default>Ah?</default>
@@ -140,13 +154,13 @@
 		<default>Te deram alta?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Sim. Mas o médico pediu o telefone do meu médico.</default>
+		<default>Sim. Mas me pediram o telefone de quem me trata.</default>
 	</talk>
 	<talk character="Mel">
 		<default>Pra que?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Sei lá, ouvi falando qualquer coisa sobre uma recuperação anormal...</default>
+		<default>Ouvi falando qualquer coisa sobre uma recuperação anormal...</default>
 	</talk>
 	<talk character="Mel">
 		<default>Não tem nada a ver com os desmaios?</default>
@@ -158,16 +172,16 @@
 		<default>E que telefone você deu?</default>
 	</talk>
 	<talk character="Ang">
-		<default>Disse que não tinha médico. Ele me deu isso.</default>
+		<default>Disse que não tinha ninguém. Me deu isso.</default>
 	</talk>
 	<teller>
-		<default>Mel pega o papel. Nomes de vários exames. Ela rasga o papel.</default>
+		<default>Mel pega o papel. Nomes de vários exames. Rasga o papel e joga na lixeira ao lado.</default>
 	</teller>
 	<talk character="Mel">
-		<default>É o tipo de médico que nunca viu nada que não fosse humano. Bora.</default>
+		<default>Típico. Nunca viu nada que não fosse humano. Bora.</default>
 	</talk>
 	<teller>
-		<default>Eles saem do hospital. Chegando ao hotel, Mel faz Angely se deitar.</default>
+		<default>Hotel. Ang está na cama. Mel se troca.</default>
 	</teller>
 	<talk character="Ang">
 		<default>Não precisa...</default>
@@ -179,26 +193,33 @@
 		<default>É sério, eu tô bem.</default>
 	</talk>
 	<talk character="Mel">
-		<default>Bem mal, só se for! Sem discussão, você fica. Posso muito bem seguir aquele sem vergonha sozinha.</default>
+		<default>Bem mal, só se for! Sem discussão, você fica. Posso muito bem seguir só.</default>
 	</talk>
 	<teller>
-		<default>Hera, no lago, 19:00.</default>
+		<first>Lago. 19h. Estela e Kat sentaram-se no gramado.</first>
 	</teller>
 	<talk character="Kat">
-		<default>Então foi isso... Entende agora meu medo?</default>
+		<default>Entende agora meu medo?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Kat?</default>
+		<arrive>Kat?</arrive>
 	</talk>
 	<teller>
-		<default>Derik chega. Zenon chega atrás. Estela aponta uma arma pra ele.</default>
+		<default>Kat e Estela se levantam. Zenon está com Derik. Estela tira uma estaca da cintura.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Mas o que há com você?!</default>
 	</talk>
+	<teller>
+		<default>Kat olha para Estela.</default>
+	</teller>
 	<talk character="Kat">
 		<default>Baixa isso!</default>
-		<teller>fala para Estela e logo se vira para Zenon</teller>
+	</talk>
+	<teller>
+		<default>Kat olha para Zenon.</default>
+	</teller>
+	<talk character="Kat">
 		<default>Você tá se sentindo normal?</default>
 	</talk>
 	<teller>
@@ -211,7 +232,7 @@
 		<default>Nada...</default>
 	</talk>
 	<talk character="Derik">
-		<default>Se é nada tem a ver com o sonho...</default>
+		<default>Se é nada tem a ver com o sonho!</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Kat, o que foi que você viu?</default>
@@ -220,16 +241,16 @@
 		<default>Não foi nada.</default>
 	</talk>
 	<talk character="Estela">
-		<default>Pode tá fingindo...</default>
+		<default>Ele pode tá fingindo...</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Kat, do que ela tá falando?</default>
 	</talk>
 	<talk character="Kat">
-		<default>Nada...</default>
+		<default>Nada.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Até onde sei, a Estela não bebe!</default>
+		<default>Até onde sei, Estela não bebe!</default>
 	</talk>
 	<talk character="Kat">
 		<default>É melhor saírem daqui.</default>
@@ -240,11 +261,14 @@
 	<talk character="Kat">
 		<default>Não posso dizer...</default>
 	</talk>
+	<teller>
+		<default>Zenon bufa.</default>
+	</teller>
 	<talk character="Zenon">
-		<default>Quando resolver contar o que tá acontecendo, sabe onde nos achar.</default>
+		<default>Quando resolver contar o que tá acontecendo, sabe onde achar a gente.</default>
 	</talk>
 	<teller>
-		<default>Zenon e Derik vão embora.</default>
+		<default>Zenon sai. Derik olha para Kat. Olha para Estela. Para Kat de novo. Baixa a cabeça. Segue Zenon.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Viu o que fez?!</default>
@@ -256,10 +280,10 @@
 		<default>Não devia ter te contado nada.</default>
 	</talk>
 	<teller>
-		<default>MEAK, 19:30...</default>
+		<first>MEAK. 19h30.</first>
 	</teller>
 	<talk character="Derik">
-		<default>Por que será que ela não quer contar o sonho?</default>
+		<default>Por que será que Kat não quer contar o sonho?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Estela parecia preocupada. Tem alguma coisa estranha em tudo isso.</default>
@@ -268,7 +292,7 @@
 		<default>Kat deve ter contado o sonho pra Estela.</default>
 	</talk>
 	<teller>
-		<default>Nesse momento, Kat entra com uma estaca na mão.</default>
+		<default>Kat entra, com uma estaca na mão.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Kat, o que tá acontecendo?</default>
@@ -277,7 +301,7 @@
 		<default>Olha, não é nada pessoal, mas vou ter que te matar.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Acho que a loucura da Estela pega...</default>
+		<default>Não foi você quem...</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não se mete nisso, Derik, eu tive o sonho, eu tenho que fazer isso...</default>
@@ -286,31 +310,35 @@
 		<default>Mas o que você viu?</default>
 	</talk>
 	<teller>
-		<default>Renata, que, sabe-se lá porque, estava indo pra MEAK, entra e vê Kat com a estaca. Zenon fica meio perturbado com a presença de Renata.</default>
+		<default>Renata entra. Olha para Kat e franze a sobrancelha. Zenon olha para Renata. Fecha forte os olhos e abre novamente.</default>
 	</teller>
 	<talk character="Renata">
-		<default>Você pirou?</default>
+		<default>O que tá acontecendo aqui? Tão fazendo algum tipo de treinamento?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ela teve um sonho e agora tá aqui, com essa estaca, sem falar coisa com coisa...</default>
+		<default>Kat teve um sonho e agora tá aqui, com essa estaca, sem falar coisa com coisa...</default>
 	</talk>
 	<teller>
-		<default>Ela tira a estaca de Kat e a segura.</default>
+		<default>Renata puxa a estaca da mão de Kat. Kat vai pegar, Renata joga a estaca longe, puxa Kat e trava em frente a si.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Não sabia que sabia fazer isso...</default>
 	</talk>
+	<teller>
+		<default>Renata solta Kat e vira para si.</default>
+	</teller>
 	<talk character="Renata">
-		<default>Nem eu...</default>
-		<teller>solta Kat</teller>
 		<default>Agora vai dizer o que tá acontecendo?</default>
 	</talk>
 	<teller>
-		<default>Kat começa, do nada, a chorar.</default>
+		<default>Kat começa a chorar. Renata se afasta. Derik abraça Kat.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Calma, estamos aqui... O que aconteceu?</default>
 	</talk>
+	<teller>
+		<default>Kat se afasta de Derik.</default>
+	</teller>
 	<talk character="Kat">
 		<default>São esses malditos sonhos... Por que eu?!</default>
 	</talk>
@@ -324,11 +352,15 @@
 		<default>Um vampiro...</default>
 	</talk>
 	<teller>
-		<default>Ela se afasta de Zenon. Ele vê medo nos olhos de Kat.</default>
+		<default>Zenon baixa a cabeça. Olha de novo para Kat.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Era eu?...</default>
-		<teller>Kat faz sinal de positivo</teller>
+	</talk>
+	<teller>
+		<default>Kat balança a cabeça para cima e para baixo.</default>
+	</teller>
+	<talk character="Zenon">
 		<hushed>Quando isso vai acabar?</hushed>
 	</talk>
 	<talk character="Derik">
@@ -338,10 +370,10 @@
 		<default>Não, não era, Renata também tava no sonho...</default>
 	</talk>
 	<teller>
-		<default>Kat enxuga as lágrimas.</default>
+		<default>Kat enxuga as lágrimas. Zenon senta no sofá.</default>
 	</teller>
 	<talk character="Zenon">
-		<default>Conte logo.</default>
+		<default>Conta logo.</default>
 	</talk>
 	<talk character="Kat">
 		<default>Não sei se vão querer ouvir...</default>
@@ -356,13 +388,13 @@
 		<default>A sós.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ele é meu namorado!</default>
+		<default>Ei!</default>
 	</talk>
 	<talk character="Renata">
 		<default>É que eu acho que não vou conseguir explicar pra vocês.</default>
 	</talk>
 	<teller>
-		<default>Kat vai protestar, mas Zenon a encara. Renata e Derik vão conversar na copa, enquanto Zenon tenta acalmar Kat, que ainda está muito nervosa.</default>
+		<default>Renata e Derik vão para a copa.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Então, o que é?</default>
@@ -371,52 +403,52 @@
 		<default>Lembra do Johnatan, o vampiro que tentou me matar?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Lembro...</default>
+		<default>Lembro.</default>
 	</talk>
 	<talk character="Renata">
-		<default>Além da minha mãe ele também transformou uma outra garota. Ela ficou furiosa ao saber da morte dele e veio atrás de mim.</default>
+		<default>Além da minha mãe ele também transformou uma outra garota. Ela ficou furiosa quando soube da morte dele e veio atrás de mim.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Então por que não falou na frente deles?</default>
+		<default>Então por que não falou na sala?</default>
 	</talk>
 	<talk character="Renata">
 		<default>Kat já tá muito assustada, acho que o sonho dela tem a ver com isso.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Mas e quanto ao Zenon? Ele pode te ajudar a se livrar disso.</default>
+		<default>Mas e quanto ao Zenon? Pode te ajudar a se livrar disso.</default>
 	</talk>
 	<talk character="Renata">
-		<default>Não, ela já tá morta, eu a matei... É que ela não era uma simples vampira. O que realmente me preocupa é o que ela disse quando enfiei a estaca nela. As palavras não saem da minha cabeça.</default>
+		<default>Não, ela já tá morta, eu matei... É que ela não era uma simples vampira. O que realmente me preocupa é o que ela disse quando enfiei a estaca nela. As palavras não saem da minha cabeça.</default>
 	</talk>
 	<talk character="Derik">
-		<default>Mel é melhor em procurar, mas acho que vou ter que aprender isso se não consigo lutar.</default>
+		<default>Mel é melhor em procurar, mas acho que vou ter que servir.</default>
 	</talk>
 	<talk character="Renata">
 		<irony>Não sabe o quanto isso me anima.</irony>
 	</talk>
 	<talk character="Derik">
-		<default>Olha, eu não sou o melhor, mas aprendi bastante coisa quando era mais novo. Posso te ajudar.</default>
+		<default>Olha, eu não a melhor opção no mundo todo, mas aprendi bastante coisa quando tinha menos idade. Posso te ajudar.</default>
 	</talk>
 	<teller>
-		<default>Enquanto isso, na sala...</default>
+		<default>Sala.</default>
 	</teller>
 	<talk character="Zenon">
 		<default>Não é possível, não há como!</default>
 	</talk>
 	<talk character="Kat">
-		<default>Entendeu por que eu fiquei perturbada?</default>
+		<default>Entendeu por que eu fiquei desse jeito?</default>
 	</talk>
 	<talk character="Zenon">
 		<default>Mas eu não faria isso...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Ainda não disse porque virou bom, talvez isso ajude.</default>
+		<default>Ainda não disse porque deixou de ser ruim, talvez isso ajude.</default>
 	</talk>
 	<talk character="Derik">
 		<arrive>Kat, conte seu sonho, por favor.</arrive>
 	</talk>
 	<talk character="Kat">
-		<default>Zenon tava atrás da Renata... Ele queria transformá-la numa vampira.</default>
+		<default>Zenon tava atrás de Renata... Queria transformar.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Não tem mais nada, ninguém envolvido nisso?</default>
@@ -428,10 +460,10 @@
 		<default>Fala pra eles o que você viu.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Bom, Renata tava assustada, então Zenon pegava, mordia e fazia beber seu sangue...</default>
+		<default>Bom, Renata tava com medo, Zenon pegava, mordia e fazia beber seu sangue...</default>
 	</talk>
 	<teller>
-		<default>Zenon fica visivelmente perturbado.</default>
+		<default>Zenon fecha forte os olhos e abre novamente.</default>
 	</teller>
 	<talk character="Renata">
 		<default>Temos que desfazer o feitiço...</default>
@@ -440,10 +472,10 @@
 		<default>Que feitiço?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Ontem Renata foi perseguida por uma vampira, que havia sido criada por Johnatan. Renata a matou, mas ela não era simplesmente uma vampira.</default>
+		<default>Ontem Lorena veio atrás de Renata. Johnatan quem transformou Lorena. Renata matou, mas não era simplesmente vampir.</default>
 	</talk>
 	<talk character="Kat">
-		<default>Que ela fez?</default>
+		<default>Que houve?</default>
 	</talk>
 	<talk character="Renata">
 		<default>Disse que quando Zenon encostasse em mim viraria mau e só quando eu morresse ele voltaria a ser bom.</default>
@@ -452,19 +484,19 @@
 		<default>Então é verdade...</default>
 	</talk>
 	<talk character="Kat">
-		<default>Não é tão mal, é só ele não chegar perto dela.</default>
+		<default>Não é tão mal, é só não chegar perto de Renata.</default>
 	</talk>
 	<talk character="Renata">
 		<default>Se ela tinha mesmo poder pra fazer isso, então a outra parte também vai se concretizar.</default>
 	</talk>
 	<teller>
-		<default>Zenon olha pra Renata. Fica perturbado e sai da sala...</default>
+		<default>Zenon olha pra Renata. Zenon vai para a escada.</default>
 	</teller>
 	<talk character="Derik">
-		<default>Vou atrás dele.</default>
+		<default>Vou atrás.</default>
 	</talk>
 	<teller>
-		<default>Derik sai.</default>
+		<default>Derik segue na mesma direção de Zenon.</default>
 	</teller>
 	<talk character="Kat">
 		<default>E o que seria essa outra parte?</default>
@@ -479,7 +511,7 @@
 		<default>É melhor eu ir embora...</default>
 	</talk>
 	<teller>
-		<default>Ela baixa a cabeça e vai sair. Kat a segura.</default>
+		<default>Renata baixa a cabeça e vai na direção da porta. Kat segura seu braço.</default>
 	</teller>
 	<talk character="Kat">
 		<default>Nós temos que resolver isso. Se você ficar longe vai ser pior. Podemos perder Zenon de vista.</default>
@@ -488,12 +520,12 @@
 		<default>Então o que eu faço?</default>
 	</talk>
 	<talk character="Derik">
-		<arrive>Vamos ter que te levar pra algum lugar onde ele não possa entrar.</arrive>
+		<arrive>Vamos ter que te levar pra algum lugar onde Zenon não possa entrar.</arrive>
 	</talk>
 	<talk character="Renata">
 		<default>Ele tá bem?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Só tá um pouco perturbado.</default>
+		<default>Só tá um pouco de perturbação.</default>
 	</talk>
 </story>
