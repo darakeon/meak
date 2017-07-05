@@ -31,8 +31,9 @@ function AjustWidth() {
 
     var menu = ScaleWidth(".menu");
 
+    var secureSpace = 10;
 
-    var mainWidth = windowWidth - general - menu - main;
+    var mainWidth = windowWidth - general - menu - main - secureSpace;
 
     $(".main").width(mainWidth);
 }

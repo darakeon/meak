@@ -51,11 +51,11 @@ namespace Presentation.Controllers
         public ActionResult Index(String season, String returnUrl)
         {
             return String.IsNullOrEmpty(season)
-                ? Index(returnUrl)
-                : Season(season);
+                ? index(returnUrl)
+                : episodes(season);
         }
 
-        public ActionResult Index(String returnUrl)
+        private ActionResult index(String returnUrl)
         {
             var model = new SeasonIndexModel(paths)
                             {
@@ -71,7 +71,7 @@ namespace Presentation.Controllers
             return View("Intro" + introNum, model);
         }
 
-        public ActionResult Season(String season)
+        private ActionResult episodes(String season)
         {
             var model = new SeasonSeasonModel(paths, season);
 
