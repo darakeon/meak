@@ -1,4 +1,5 @@
-﻿<story title="Deixado para trás" english="Left Behind">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story title="Deixado para trás" english="Left Behind" season="B" episode="01">
 	<teller><default>Se abrem as caixas. É 29/12/2002 (domingo). Beatrice é a primeira a acordar. Levanta, olha pros lados e sai da caixa, saindo da sala principal depois. Desce as escadas. É dia e ela não pode sair. Edmont levanta.</default></teller>
 	<talk character="Edmont"><default>Angely não veio!</default></talk>
 	<teller><default>Os outros acordam. Saem todos das caixas. Edmont vai até a caixa onde era pra estar Ang. Ao vê-la vazia, encosta Derik na parede.</default></teller>
@@ -331,12 +332,8 @@
 	<talk character="Derik"><default>Por que não pensamos nisso antes?</default></talk>
 	<talk character="Mel"><default>É uma boa idéia...</default></talk>
 	<talk character="Alan"><default>Tá. Nós vamos trazer seu outro irmão e enterrar esse bem fundo assim que o outro destruir o livro.</default></talk>
-  <teller>
-    <default>Eles saem e vão até o templo.</default>
-    <division>1a RLDD</division>
-    <default>8:00hrs. Angely ainda está no templo, deitado no chão. Dara (fantasma) está perto dele.</default>
-  </teller>
-  <talk character="Ang"><default>Estou com fome.</default></talk>
+	<teller><default>Eles saem e vão até o templo.</default><division>1a RLDD</division><default>8:00hrs. Angely ainda está no templo, deitado no chão. Dara (fantasma) está perto dele.</default></teller>
+	<talk character="Ang"><default>Estou com fome.</default></talk>
 	<talk character="Dara"><ghost>À essa hora muita gente acha que você está morto.</ghost></talk>
 	<talk character="Ang"><default>Acham que desapareci no mar. Eu podia voltar e dizer que não, mas que não sei onde estão os outros.</default></talk>
 	<talk character="Dara"><ghost>É, eu não tinha pensado nisso. Você pensa com a simplicidade de uma criança.</ghost></talk>

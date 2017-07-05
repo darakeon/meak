@@ -1,4 +1,5 @@
-﻿<story title="Mortes Boas e Ruins" english="Good and Bad Succumbs">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story title="Mortes Boas e Ruins" english="Good and Bad Succumbs" season="A" episode="12">
 	<teller><default>Angely olha pra Edmont e fica em silêncio.</default></teller>
 	<talk character="Derik"><default>Kat, acorda... Por que ela não acorda???</default></talk>
 	<teller><default>Derik se levanta e olha pros dois</default></teller>
@@ -128,17 +129,11 @@
 	<talk character="Gabriel"><default>Chama alguém pra nos ajudar!</default></talk>
 	<talk character="Derik"><default>Minha namorada tá com problemas e eu não vou ficar aqui agüentando essa palhaçada!</default></talk>
 	<teller><default>Gabriel impede Derik de sair. O outro padre sai, pra buscar ajuda. Andrews continua torturando Mel e, consequentemente, Kat.</default></teller>
-	<talk character="Andrews">
-	<default>Qual o problema? Não é durona? Tudo bem.</default>
-	<teller>ele levanta o rosto de Mel com a mão</teller>
-	<default>Vou te deixar descansar um pouco. Não quero que você morra.</default>
-	<teller>beija-a</teller>
-	<default>Não antes que seus irmãos me achem. Daí eu vou matá-los...</default>
-	<teller>beija-a</teller>
-	<default>Aquela sua irmãzinha chata também...</default>
-	<teller>beija-a</teller>
-	<default>Depois eu vou ver o que faço com você. É uma pena ter que bater em você. Mas alguém tem que te dar uma lição.</default>
-	</talk>
+	<talk character="Andrews"><default>Qual o problema? Não é durona? Tudo bem.</default>
+	<teller>ele levanta o rosto de Mel com a mão</teller><default>Vou te deixar descansar um pouco. Não quero que você morra.</default>
+	<teller>beija-a</teller><default>Não antes que seus irmãos me achem. Daí eu vou matá-los...</default>
+	<teller>beija-a</teller><default>Aquela sua irmãzinha chata também...</default>
+	<teller>beija-a</teller><default>Depois eu vou ver o que faço com você. É uma pena ter que bater em você. Mas alguém tem que te dar uma lição.</default></talk>
 	<teller><default>Andrews sai. Mel começa a falar, com muito esforço.</default></teller>
 	<talk character="Mel"><default>Acho que estou no esgoto. É bem aberto aqui. Estou pendurada no teto, por correntes presas no meu pulso. Eu não consigo mais falar, não agüento mais... Me ajudem, por favor...</default></talk>
 	<teller><default>Kat repete, em vão. Enquanto Derik está preso na igreja, Angely e Edmont andam em suas motos pela cidade, procurando por Mel. De noite, Brad, o delegado e dois policiais vão até a cela de Stephany.</default></teller>
@@ -944,17 +939,11 @@
 	<talk character="Rust"><default>Pra quem vai ligar?</default></talk>
 	<talk character="Dara"><default>Pra alguém que pode levar ela pra um lugar seguro.</default></talk>
 	<teller><default>Ela liga pra Brad e ele vem, trazendo Alexander consigo. Brad e Alexander ficam esperando perto do elevador enquanto Dara e Rust tentam convencer a recepcionista de dizer o número do quarto. Derik voa até o hotel e encontra o quarto. Depois desce e vai até a recepção. Dara, ao ver o pássaro, vai atrás dele. Num beco...</default></teller>
-	<talk character="Dara">
-	<default>Tá, eu vou dizer o número do andar e você dá um sinal quando acertar. Um?</default>
-	<teller>silêncio</teller>
-	<default>Sete?</default>
-	<teller>silêncio</teller>
-	<default>Quatro?</default>
-	<teller>silêncio</teller>
-	<default>Décimo terceiro???</default>
-	<teller>Derik bate as asas</teller>
-	<default>Tudo bem, agora...</default>
-	</talk>
+	<talk character="Dara"><default>Tá, eu vou dizer o número do andar e você dá um sinal quando acertar. Um?</default>
+	<teller>silêncio</teller><default>Sete?</default>
+	<teller>silêncio</teller><default>Quatro?</default>
+	<teller>silêncio</teller><default>Décimo terceiro???</default>
+	<teller>Derik bate as asas</teller><default>Tudo bem, agora...</default></talk>
 	<talk character="Rust"><default>Isso parece loucura.</default></talk>
 	<talk character="Dara"><default>Confia em mim?</default></talk>
 	<talk character="Rust"><default>Tá. Mas vai ser bem mais difícil adivinhar o número do apartamento.</default></talk>

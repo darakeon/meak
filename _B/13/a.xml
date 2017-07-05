@@ -1,4 +1,5 @@
-﻿<story title="Quando o Passado bater na porta da sua Vida" english="When past come to you">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story title="Quando o Passado bater na porta da sua Vida" english="When past come to you" season="B" episode="13">
 	<teller><default>04/07 (sexta), 17:00. Beatrice está sentada no sofá e Zenon está deitado no colo dela. Conversam na sala.</default></teller>
 	<talk character="Zenon"><default>Você não é má.</default></talk>
 	<talk character="Bea"><default>Agora eu sei disso. Mas quando acordei, logo no primeiro dia, Elian perguntou se eu tinha mesmo gostado da minha primeira vez. Ele disse que as mulheres geralmente não gostam, ainda mais do jeito que foi.</default></talk>
@@ -544,10 +545,7 @@
 	<talk character="Guilherme"><default>Não gosto de homens.</default></talk>
 	<talk character="Etos"><default>Vocês de segunda linhagem são tão sem graça! Por isso que ela vai ficar comigo. Mesmo com você em cima.</default>
 	<teller>pára e pensa</teller><default>Se ainda fosse literalmente, talvez prendesse um pouco mais.</default></talk>
-	<teller>
-	<default>Etos sai pela janela que entrara. 14:00. Guilherme entra na MEAK. Está tudo vazio. Sobe. Fareja Beleno, que sai pela janela. Pula também e atira. Beleno cai no mar. Ele pula no mar atrás. Trás Beleno para as pedras. Pega uma espada, mas não tem coragem de fazer. Beleno abre os olhos e voa. Aparece na janela do quarto de Lica. Depois de algum tempo, Guilherme chega e só encontra os ossos. Se aproxima. Uma lágrima cai de seus olhos. Um bilhete perto dos ossos:</default>
-	<letter>Eu senti o cheiro dela em você. E também pelo cheiro sei com que freqüência se alimenta, isso é coisa de quem evita matar. Não tentaria o que tentou se não fosse por ela. Não se mate por uma mulher. A maioria é melhor que qualquer homem, mas esta era uma das exceções.</letter>
-	</teller>
+	<teller><default>Etos sai pela janela que entrara. 14:00. Guilherme entra na MEAK. Está tudo vazio. Sobe. Fareja Beleno, que sai pela janela. Pula também e atira. Beleno cai no mar. Ele pula no mar atrás. Trás Beleno para as pedras. Pega uma espada, mas não tem coragem de fazer. Beleno abre os olhos e voa. Aparece na janela do quarto de Lica. Depois de algum tempo, Guilherme chega e só encontra os ossos. Se aproxima. Uma lágrima cai de seus olhos. Um bilhete perto dos ossos:</default><letter>Eu senti o cheiro dela em você. E também pelo cheiro sei com que freqüência se alimenta, isso é coisa de quem evita matar. Não tentaria o que tentou se não fosse por ela. Não se mate por uma mulher. A maioria é melhor que qualquer homem, mas esta era uma das exceções.</letter></teller>
 	<talk character="Guilherme"><default>Minha culpa... Se o tivesse matado... Ou não tivesse aceitado o pedido dela... Nunca devia ter feito todas as vontades... Poderia estar viva ainda...</default></talk>
 	<talk character="Etos"><arrive> A sua filhinha?</arrive></talk>
 	<teller><default>Guilherme olha para a janela. Etos desce, fecha a janela, a cortina e tira a capa. Guilherme o encosta na parede, mas Etos o joga na cama e sobe em cima, segurando-lhe os braços.</default></teller>
@@ -610,25 +608,7 @@
 	<talk character="Michele"><default>Tenho impressão que o conheço.</default></talk>
 	<talk character="Estela"><default>Deve ser de algum dos sonhos, os sobre suas encarnações passadas.</default></talk>
 	<talk character="Michele"><default>Carta pra você.</default></talk>
-	<teller>
-	<default>Michele entrega um envelope a Estela. Esta sobe. Abre o envelope.</default>
-	<letter>adnil e ecov. rajieb et aireuq.</letter>
-	<default>Ela pega um papel e responde.</default>
-	<letter>azeleb alep os saossep sa ragluj aireved oan.</letter>
-	<default>Manda para o endereço que tem na carta. Continuam se correspondendo.</default>
-	<letter>ogluj oan. arof rop e ortned rop adnil e ecov sam.</letter>
-	<letter>ebas omoc?</letter>
-	<letter>otiej ues.</letter>
-	<letter>ues o e omoc e?</letter>
-	<letter>recehnoc em reuq?</letter>
-	<letter>oreuq. oruges lacol mun.</letter>
-	<letter>ecov arap uo mim arap oruges?</letter>
-	<letter>siod so arap.</letter>
-	<letter>omoc met oan. recehnoc em reuq es, odanodnaba oiderp o eta av, sera me. resup es los o odnauq aias. ohlepse ednarg mu ehca.</letter>
-	<default>25/07 (sexta), 20:00. Estela vai até o prédio. Seguindo as instruções, ela procura um grande espelho. Quando encontra, no chão à frente do espelho:</default>
-	<letter>eriv es oan.</letter>
-	<default>Há também uma mesinha com um pano preto.</default>
-	</teller>
+	<teller><default>Michele entrega um envelope a Estela. Esta sobe. Abre o envelope.</default><letter>adnil e ecov. rajieb et aireuq.</letter><default>Ela pega um papel e responde.</default><letter>azeleb alep os saossep sa ragluj aireved oan.</letter><default>Manda para o endereço que tem na carta. Continuam se correspondendo.</default><letter>ogluj oan. arof rop e ortned rop adnil e ecov sam.</letter><letter>ebas omoc?</letter><letter>otiej ues.</letter><letter>ues o e omoc e?</letter><letter>recehnoc em reuq?</letter><letter>oreuq. oruges lacol mun.</letter><letter>ecov arap uo mim arap oruges?</letter><letter>siod so arap.</letter><letter>omoc met oan. recehnoc em reuq es, odanodnaba oiderp o eta av, sera me. resup es los o odnauq aias. ohlepse ednarg mu ehca.</letter><default>25/07 (sexta), 20:00. Estela vai até o prédio. Seguindo as instruções, ela procura um grande espelho. Quando encontra, no chão à frente do espelho:</default><letter>eriv es oan.</letter><default>Há também uma mesinha com um pano preto.</default></teller>
 	<talk character="Estela"><default>Por que?</default></talk>
 	<talk character="Guilherme"><default>É só um pedido.</default></talk>
 	<talk character="Estela"><default>Sou curiosa.</default></talk>

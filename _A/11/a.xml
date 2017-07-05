@@ -1,4 +1,5 @@
-﻿<story title="Acordando" english="Wake">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story title="Acordando" english="Wake" season="A" episode="11">
 	<teller><default>Uma garota corre. Tem em mãos uma faca, suja de sangue. Alguém a encosta na parede, derrubando a faca. O sangue molha a terra.</default></teller>
 	<talk character="vampiro"><default>Pensa que pode se livrar de mim só com isso?</default></talk>
 	<teller><default>Começa a tremer o chão.</default></teller>
@@ -141,15 +142,10 @@
 	<teller><default>A moça começa a chorar. Ele abraça ela.</default></teller>
 	<talk character="rapaz"><default>Não chores. Prometi à tua mãe que cuidaria de ti. Ela foi como uma mãe pra mim e eu vou cumprir minha promessa.</default></talk>
 	<teller><default>Eles saem e vão até uma casa que parece abandonada. Acabam dormindo. Ele acorda cedo. Passa a mão no rosto dela, que ainda dorme. Se levanta e sai. A garota ouve vozes lhe chamando e acorda. Meia hora depois ele volta. Ela atravessou um pedaço de madeira em seu próprio coração. Ainda está viva. Ele vai até ela e a coloca em seu colo. A mão dela fraqueja e solta o crucifixo que segurava. Ela fecha os olhos. Ele retira a estaca.</default></teller>
-	<talk character="rapaz">
-	<default>Ainda há beleza em teu rosto...</default>
-	<teller>beija-a</teller>
-	<default>Doce em tua boca...</default>
-	<teller>abraça-a</teller>
-	<default>Calor em teu corpo... Mas o brilho de teus olhos foi apagado...</default>
-	<teller>beija-a de novo</teller>
-	<default>Eu te amo... Quisera eu ter dito-te isto quando pude sentir teu coração tão perto e tua respiração tão leve. Agora é tão tarde. É sempre tão tarde à tudo.</default>
-	</talk>
+	<talk character="rapaz"><default>Ainda há beleza em teu rosto...</default>
+	<teller>beija-a</teller><default>Doce em tua boca...</default>
+	<teller>abraça-a</teller><default>Calor em teu corpo... Mas o brilho de teus olhos foi apagado...</default>
+	<teller>beija-a de novo</teller><default>Eu te amo... Quisera eu ter dito-te isto quando pude sentir teu coração tão perto e tua respiração tão leve. Agora é tão tarde. É sempre tão tarde à tudo.</default></talk>
 	<talk character="bruxa"><arrive> Tua dor seja eterna!</arrive></talk>
 	<talk character="rapaz"><default>Tu fizeste isso?</default></talk>
 	<talk character="bruxa"><default>Achaste mesmo que ias ficar com ela depois de teres desdenhado-me tanto? É o castigo que merecem. Trocaste-me por uma traidora!</default></talk>
