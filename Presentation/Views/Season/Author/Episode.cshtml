@@ -36,12 +36,15 @@
         @Html.TextBoxFor(m => m.Story.Title)
     </p>
 
-   for (var p = 0; p < Model.Story.ParagraphTypeList.Count; p++)
-   {
-       Model.ParagraphCounter = p;
-        
+    <p>
+        Paragraphs last count: @Model.Story.ParagraphTypeList.Count
+    </p>
+
+    for (var p = 0; p < Model.Story.ParagraphTypeList.Count; p++)
+    {
+        Model.ParagraphCounter = p;
         @Html.Partial("Author/Paragraph")
-   }
+    }
 }
 
 @if (@Model.Next != null)

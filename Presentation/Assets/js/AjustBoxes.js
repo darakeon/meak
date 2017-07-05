@@ -1,6 +1,5 @@
 function AjustMainDivSize() {
     AjustHeight();
-    AjustWidth();
 
     $(".main").show();
 
@@ -20,22 +19,6 @@ function AjustHeight() {
     var mainHeight = windowHeight - general - head - main - button;
 
     $(".main").height(mainHeight);
-}
-
-function AjustWidth() {
-    var windowWidth = $(window).width();
-
-
-    var general = ScaleHorizontalEdge("body");
-    var main = ScaleHorizontalEdge(".main");
-
-    var menu = ScaleWidth(".menu");
-
-    var secureSpace = 10;
-
-    var mainWidth = windowWidth - general - menu - main - secureSpace;
-
-    $(".main").width(mainWidth);
 }
 
 
