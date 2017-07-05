@@ -589,7 +589,10 @@
 		<default>Inês pega a pulseira. Coloca no braço. Sai. Elis levanta e vai na direção da porta. Para. Olha para baixo.</default>
 	</teller>
 	<teller>
-		<division>Noite anterior - TW</division>
+		<trigger>estupro</trigger>
+	</teller>
+	<teller>
+		<division>Noite anterior</division>
 	</teller>
 	<teller>
 		<default>Elis está com os pulsos presos na grade da cama. Seu olhar está congelado. Hugo, sem roupa, com o corpo com sangue espalhado, desamarra os pulsos de Elis. Vai até a porta, onde há um casaco pendurado. Pega uma foto no bolso. Volta até Elis. Segura seu rosto olhando para a foto.</default>
@@ -609,4 +612,7 @@
 	<talk character="Hugo">
 		<default>Emergência? Ouvi uns gritos. Estou preocupado, são duas garotas que estão sozinhas... Pode pegar o endereço e verificar?</default>
 	</talk>
+	<teller>
+		<trigger>.</trigger>
+	</teller>
 </story>
