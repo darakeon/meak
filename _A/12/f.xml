@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <story season="A" episode="12" scene="f">
 	<teller>
-		<default>Angely adentra o escritório.</default>
+		<default>Angely entra no escritório.</default>
 	</teller>
 	<talk character="Derik">
 		<default>Kat?</default>
 	</talk>
 	<talk character="Angely">
-		<default>Na casa dela, dormindo. Agatha ficou cuidando dela.</default>
+		<default>Em casa, dormindo. Agatha ficou cuidando.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>E Mel?</default>
@@ -22,10 +22,10 @@
 		<default>Pode entrar.</default>
 	</talk>
 	<teller>
-		<default>Todos olham pra Dara, sem entender nada. Brad entra no escritório, pela porta de fora da casa.</default>
+		<default>Todos olham pra Dara. Brad entra no escritório, pela porta de fora da casa.</default>
 	</teller>
 	<talk character="Angely">
-		<default>Me seguiu???</default>
+		<default>Me seguiu?</default>
 	</talk>
 	<talk character="Brad">
 		<default>Não preciso, eu sei o endereço.</default>
@@ -46,16 +46,21 @@
 		<default>Caça-vampiros.</default>
 	</talk>
 	<talk character="Brad">
-		<default>Não acreditava nisso até pouco tempo.</default>
+		<default>Não acreditava nisso.</default>
+		<teller>baixa a cabeça</teller>
+		<default>Até pouco tempo.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Até ver Andrews, provavelmente.</default>
 	</talk>
+	<teller>
+		<default>Brad olha para as pessoas.</default>
+	</teller>
 	<talk character="Brad">
 		<default>Alguém que leva tiro e ri provavelmente não é humano...</default>
 	</talk>
 	<talk character="Dara">
-		<default>Bom, você perguntou quem vai jogar Andrews no sol. Temos sete pra empurrá-lo. Se não conseguirem, é melhor cuspir no chão e sair nadando.</default>
+		<default>Bom, você perguntou quem vai jogar Andrews no sol. Temos sete pra empurrar. Se não conseguirem, é melhor cuspir no chão e sair nadando.</default>
 	</talk>
 	<talk character="Derik">
 		<default>Sete?</default>
@@ -67,25 +72,20 @@
 		<default>E onde tá esse tal de Rust?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Não sei. Ele vai na minha casa a noite. Vou com ele encontrar Andrews e chamo vocês.</default>
+		<default>Não sei. Vai na minha casa a noite. Vou com ele encontrar Andrews e chamo vocês.</default>
 	</talk>
 	<teller>
-		<default>Derik, Edmont, Alexander e Brad começam a falar todos ao mesmo tempo.</default>
+		<default>Edmont encara Dara. Alexander e Brad também.</default>
 	</teller>
 	<talk character="Dara">
-		<default>Ei, calem a boca!</default>
+		<default>Se alguém aí achar que é melhor que eu pelo que nasceu no meio das pernas, posso cortar fora.</default>
 	</talk>
 	<teller>
-		<default>Se calam. Angely ri.</default>
+		<default>Brad e Alexander se entreolham.</default>
 	</teller>
 	<talk character="Dara">
-		<default>Se tem algum problema com o fato de eu ser mulher, então podem falar.</default>
-		<teller>silêncio</teller>
 		<default>Ótimo. Vou pra minha casa e espero que atendam quando eu chamar.</default>
 	</talk>
-	<teller>
-		<default>Nenhum deles se atreve a dizer algo contra. Angely ri de novo.</default>
-	</teller>
 	<talk character="Edmont">
 		<default>Eu te levo em casa.</default>
 	</talk>
@@ -99,10 +99,13 @@
 		<default>Como?</default>
 	</talk>
 	<talk character="Derik">
-		<default>Dá última vez que eu mostrei meu segredo pra um estranho, quiseram me exorcizar.</default>
+		<default>Dá última vez que mostrei pra um estranho, quiseram me exorcizar.</default>
 	</talk>
 	<teller>
-		<default>Eles se entreolham. Derik vai pra casa de Kat. Alexander volta pra seu apartamento. Brad volta pra casa. Na casa de Dara, quatro horas da tarde, Edmont está deitado no sofá com a cabeça no colo de Dara.</default>
+		<default>Brad e Alexander se entreolham novamente.</default>
+	</teller>
+	<teller>
+		<first>14h. Casa de Dara. Edmont está deitado no sofá com a cabeça no colo de Dara.</first>
 	</teller>
 	<talk character="Edmont">
 		<default>Acha que o plano vai funcionar?</default>
@@ -117,19 +120,19 @@
 		<default>Por que ele ainda não arranjou namorada?</default>
 	</talk>
 	<teller>
-		<default>Edmont se levanta.</default>
+		<default>Edmont se levanta e vira para Dara.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Acho que ainda pensa em Meg.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Você ainda gosta da Agatha?</default>
+		<default>Você ainda gosta de Agatha?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Quer mesmo saber?</default>
 	</talk>
 	<teller>
-		<default>Ela fica indecisa. Ele a beija.</default>
+		<default>Dara olha para baixo. Edmont levanta o queixo de Dara e beija.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Não.</default>
@@ -147,13 +150,16 @@
 		<default>Tenho certeza que Mel vai sair dessa.</default>
 	</talk>
 	<talk character="Denise">
-		<default>Como está o Angely?</default>
+		<default>Como está Angely?</default>
 	</talk>
+	<teller>
+		<default>Edmont franze a testa.</default>
+	</teller>
 	<talk character="Edmont">
-		<default>Tá bem triste.</default>
+		<default>Triste.</default>
 	</talk>
 	<talk character="Denise">
-		<default>Ele tá em casa?</default>
+		<default>Tá em casa?</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Acho que sim.</default>
@@ -165,31 +171,40 @@
 		<default>Denise sai.</default>
 	</teller>
 	<talk character="Edmont">
+		<default>Denise!</default>
+	</talk>
+	<teller>
+		<default>Denise volta.</default>
+	</teller>
+	<talk character="Edmont">
+		<default>Dá um tempo, não é hora pra isso.</default>
+	</talk>
+	<teller>
+		<default>Denise baixa a cabeça. Atravessa a sala. Sai por outra porta.</default>
+	</teller>
+	<talk character="Dara">
 		<default>Por que será que eu tenho a leve impressão de que Helene, Agatha e Annie devem ter tido a mesma idéia?</default>
 	</talk>
-	<talk character="Dara">
-		<default>Por que você tem namorada e ele não.</default>
+	<talk character="Edmont">
+		<default>Vou ligar e falar pra ele desligar o celular.</default>
 	</talk>
 	<teller>
-		<default>Sete da noite. No hotel onde está Andrews, Stephany ainda não acordou. Beatrice chega.</default>
+		<first>19h. Hotel. Stephany dorme.</first>
 	</teller>
 	<talk character="Beatrice">
-		<default>Fiquei sabendo que você é o primeiro.</default>
+		<arrive>Fiquei sabendo que você é o primeiro.</arrive>
 	</talk>
 	<talk character="Andrews">
-		<default>Quem és?</default>
+		<default>Quem é você?</default>
 	</talk>
-	<teller>
-		<default>Dilan chega.</default>
-	</teller>
 	<talk character="Dilan">
-		<default>Beatrice?</default>
+		<arrive>Beatrice?</arrive>
 	</talk>
 	<teller>
 		<default>Andrews ri.</default>
 	</teller>
 	<talk character="Andrews">
-		<default>Então és a que a todos engana.</default>
+		<default>A que engana todo mundo.</default>
 	</talk>
 	<talk character="Dilan">
 		<default>Eu vou embora hoje.</default>
@@ -198,40 +213,46 @@
 		<default>Tchau.</default>
 	</talk>
 	<teller>
-		<default>Dilan sai do quarto.</default>
+		<default>Dilan encara Andrews.</default>
+	</teller>
+	<talk character="Dilan">
+		<default>Cê já foi mais simpático.</default>
+	</talk>
+	<teller>
+		<default>Dilan sai.</default>
 	</teller>
 	<talk character="Beatrice">
-		<default>Não engano. Apenas estou querendo aprender.</default>
+		<default>Não engano. Apenas quero aprender.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>E um só professor não te basta?</default>
+		<default>E um só professor não basta?</default>
 	</talk>
 	<talk character="Beatrice">
-		<default>Não. Exceto se ele for realmente bom. Isso eu não encontrei até agora.</default>
+		<default>Não. Exceto se for realmente bom. Isso eu não encontrei até agora.</default>
 	</talk>
 	<talk character="Andrews">
-		<default>As que ensinei são vivas até hoje.</default>
+		<default>Quem ensinei está viva até hoje.</default>
 	</talk>
+	<teller>
+		<default>Beatrice aponta para Stephany com o queixo.</default>
+	</teller>
 	<talk character="Beatrice">
-		<default>E essa, quem é?</default>
+		<default>Quem é?</default>
 	</talk>
 	<talk character="Andrews">
 		<default>Deram sedativo em excesso pra ela.</default>
 	</talk>
-	<teller>
-		<default>Dalila adentra o quarto.</default>
-	</teller>
 	<talk character="Dalila">
-		<default>Olha, eu sei que você é meio louco, mas estando num hotel desses daqui, não é pobre. Então, se não se importa, achei quem você queria, poderia me dar algum? Pelo menos pra eu sair da cidade?</default>
+		<arrive>Olha, eu sei que você é meio louco, mas estando num hotel desses daqui, não é pobre. Então, se não se importa, achei quem você queria, poderia me dar algum? Pelo menos pra eu sair da cidade?</arrive>
 	</talk>
 	<teller>
-		<default>Rust está nos fundos do hotel. Vê Dilan sair.</default>
+		<default>Fundos do Hotel.</default>
 	</teller>
 	<talk character="Rust">
 		<default>Se o puxa-saco tá aqui, Andrews também está.</default>
 	</talk>
 	<teller>
-		<default>Dilan o vê e se aproxima.</default>
+		<default>Dilan olha para Rust. Vai na direção.</default>
 	</teller>
 	<talk character="Dilan">
 		<default>Ainda tentando pegar Andrews?</default>
@@ -240,7 +261,7 @@
 		<default>Quem sabe se dessa vez eu não consigo?</default>
 	</talk>
 	<talk character="Dilan">
-		<default>Ele pegou outra. Ainda quer encontrar alguém que se parece com a tal que morreu antes dele se tornar superior.</default>
+		<default>Ele pegou outra. Ainda quer encontrar alguém que se parece com a tal que morreu antes dele se transformar.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Só não ligou ainda que alguém bonzinho não quer se tornar vampiro.</default>
@@ -264,25 +285,22 @@
 		<default>Que tal pro inferno?</default>
 	</talk>
 	<teller>
-		<default>Rust tira uma estaca e mata Dilan.</default>
+		<default>Dilan sorri. Rust crava uma estaca em Dilan. Dilan desfaz o sorriso. E se desfaz.</default>
 	</teller>
 	<talk character="Rust">
-		<default>Já tava mesmo de saco cheio de você.</default>
+		<default>Já tava de saco cheio de você.</default>
 	</talk>
 	<teller>
-		<default>Ele espera algum tempo. Dentro do quarto, Andrews amarra Stephany pra que não acorde e fuja. Dez da noite. Andrews sai do hotel. Rust olha de longe e vê uma mulher com ele. Logo percebe que não é Stephany.</default>
+		<default>22h. Andrews sai do hotel. Rust olha de longe. Há alguém junto. Não é Stephany.</default>
 	</teller>
-	<talk character="Rust">
-		<default>De duas uma: ou matou a garota por que não quis ir com ele, ou ela está presa lá dentro. Como a primeira não é do feitio de Andrews, ele vai voltar.</default>
-	</talk>
 	<teller>
-		<default>Então Rust vai até a casa de Dara. Ela atende a porta.</default>
+		<first>Casa de Dara. Dara atende a porta.</first>
 	</teller>
 	<talk character="Rust">
 		<default>Encontrei Andrews.</default>
 	</talk>
 	<teller>
-		<default>Ela vai falar pra ele entrar, mas ele não deixa, colocando, gentilmente, a mão na frente da boca de Dara.</default>
+		<default>Dara abre a boca e dá um passo com a perna esquerda pra trás. Rust levanta a mão.</default>
 	</teller>
 	<talk character="Rust">
 		<default>Não.</default>
@@ -291,13 +309,13 @@
 		<default>Por que?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Apenas não me deixe entrar.</default>
+		<default>Só não me deixa entrar.</default>
 	</talk>
 	<teller>
-		<default>Edmont se faz notar, não gostando do gesto de Rust.</default>
+		<default>Edmont levanta do sofá.</default>
 	</teller>
 	<talk character="Dara">
-		<default>Esse é o meu namorado.</default>
+		<default>Edmont. A gente namora.</default>
 	</talk>
 	<talk character="Edmont">
 		<default>Oi.</default>
@@ -321,10 +339,13 @@
 		<default>Por favor.</default>
 	</talk>
 	<teller>
-		<default>Ela sai com Rust. Chegam ao hotel.</default>
+		<default>Dara sai. Fecha a porta.</default>
+	</teller>
+	<teller>
+		<first>Hotel.</first>
 	</teller>
 	<talk character="Rust">
-		<default>Ele está aqui, mas saiu pra se alimentar. Vamos subir e tirar a menina de lá.</default>
+		<default>Se hospedou aqui, mas saiu pra se alimentar. Vamos subir e tirar a pessoa de lá.</default>
 	</talk>
 	<talk character="Dara">
 		<default>Espera.</default>
@@ -336,57 +357,73 @@
 		<default>Pra quem vai ligar?</default>
 	</talk>
 	<talk character="Dara">
-		<default>Pra alguém que pode levar ela pra um lugar seguro.</default>
+		<default>Pra alguém que pode levar pra um lugar seguro.</default>
 	</talk>
 	<teller>
-		<default>Ela liga pra Brad e ele vem, trazendo Alexander consigo. Brad e Alexander ficam esperando perto do elevador enquanto Dara e Rust tentam convencer a recepcionista de dizer o número do quarto. Derik voa até o hotel e encontra o quarto. Depois desce e vai até a recepção. Dara, ao ver o pássaro, vai atrás dele. Num beco...</default>
+		<default>Meia hora depois. Brad e Alexander estão perto do elevador. Dara e Rust falam com Carla, na recepção. Dara olha para o lado. Vê Derik (aurium). Segue. Chegam a um beco.</default>
 	</teller>
 	<talk character="Dara">
-		<default>Tá, eu vou dizer o número do andar e você dá um sinal quando acertar. Um?</default>
-		<teller>silêncio</teller>
-		<default>Sete?</default>
-		<teller>silêncio</teller>
-		<default>Quatro?</default>
-		<teller>silêncio</teller>
+		<default>Tá, eu vou dizer o número do andar e você dá um sinal quando acertar. </default>
+	</talk>
+	<talk character="Dara">
+		<default>Um?...</default>
+	</talk>
+	<teller>
+		<default>Silêncio.</default>
+	</teller>
+	<talk character="Dara">
+		<default>Sete?...</default>
+	</talk>
+	<teller>
+		<default>Silêncio.</default>
+	</teller>
+	<talk character="Dara">
+		<default>Quatro?...</default>
+	</talk>
+	<teller>
+		<default>Silêncio.</default>
+	</teller>
+	<talk character="Dara">
 		<default>Décimo terceiro???</default>
-		<teller>Derik bate as asas</teller>
+	</talk>
+	<teller>
+		<default>Aurium late.</default>
+	</teller>
+	<talk character="Dara">
 		<default>Tudo bem, agora...</default>
 	</talk>
 	<talk character="Rust">
-		<default>Isso parece loucura.</default>
+		<default>Você tá falando com um cachorro. Não é um cachorro, é?</default>
 	</talk>
 	<talk character="Dara">
 		<default>Confia em mim?</default>
 	</talk>
 	<talk character="Rust">
-		<default>Tá. Mas vai ser bem mais difícil adivinhar o número do apartamento.</default>
+		<default>Tá. Mas vai é melhor usar árvore binária pra adivinhar o apartamento.</default>
 	</talk>
-	<teller>
-		<default>No apartamento, Stephany está acordada, amordaçada. Derik voa até a janela.</default>
-	</teller>
 	<talk character="Dara">
-		<default>Viu? Ele é esperto.</default>
+		<default>Por que eu não pensei nisso?</default>
 	</talk>
 	<teller>
-		<default>Dara entra de volta no hotel e vai até o elevador. Brad e Alexander a seguem. Rust sobe a escada de emergência. Desamarra Stephany. Os três chegam lá em cima.</default>
+		<default>Apartamento. Stephany abre os olhos. Está com braços amarrados e com mordaça. Aurium pousa na janela. Dara olha para Rust e ri. Volta para dentro do hotel. Entra. Vai até o elevador. Aperta o botão. Carla, na recepção, franze a testa. O elevador chega. Dara entra. Alexander e Brad entram atrás. Sobem. Chegam ao décimo terceiro.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Cadê o Rust?</default>
 	</talk>
 	<teller>
-		<default>Uma porta acerta a parede, bruscamente. Rust sai com Stephany no colo.</default>
+		<default>Uma porta acerta a parede, bruscamente. Alexander aponta a arma. Rust sai, com Stephany no colo.</default>
 	</teller>
 	<talk character="Rust">
-		<default>Ela tá fraca.</default>
+		<default>Ainda tá com fraqueza.</default>
 	</talk>
 	<talk character="Dara">
-		<default>Delicado...</default>
+		<irony>Elevador é uma invenção ultrapassada, porque não escalar o prédio por fora?</irony>
 	</talk>
 	<talk character="Alexander">
-		<default>Vamos levá-la daqui.</default>
+		<default>Vamos levar ela daqui.</default>
 	</talk>
 	<talk character="Brad">
-		<default>Melhor levá-la pra minha casa.</default>
+		<default>Melhor ir pra minha casa.</default>
 	</talk>
 	<talk character="Rust">
 		<default>Não, vamos levar pro último andar, é abandonado.</default>
@@ -395,31 +432,28 @@
 		<default>Que???</default>
 	</talk>
 	<talk character="Rust">
-		<default>Deixa um recado pro Andrews. Jogamos ele lá de cima e não terá como ficar vivo.</default>
+		<default>Deixa um recado pro Andrews. Jogamos lá de cima e não terá como sobreviver.</default>
 	</talk>
 	<talk character="Brad">
-		<default>Não vou deixar você arriscar mais ainda a vida dela!</default>
-	</talk>
-	<talk character="Dara">
-		<default>Isso pode dar errado, e se ele desiste dela??? Pode matar ela e depois nos matar!</default>
+		<default>Não vou deixar você arriscar mais ainda a vida dela! Isso pode dar errado, e se ele desiste dela??? Pode matar ela e depois nos matar!</default>
 	</talk>
 	<talk character="Alexander">
 		<default>São dez horas da noite ainda, e se ele chega cedo???</default>
 	</talk>
 	<talk character="Rust">
-		<default>Eu sou o vampiro aqui. Sei como um vampiro pensa e infelizmente convivi séculos com Andrews. Vamos.</default>
+		<default>Eu sou o vampiro aqui. Sei como um vampiro pensa e infelizmente convivi algum tempo com Andrews. Vamos.</default>
 	</talk>
 	<teller>
-		<default>Dalila sai do quarto, entra no elevador e o fecha.</default>
+		<default>Dalila passa correndo por todos. Sai do quarto, entra no elevador. Fecha a porta correndo.</default>
 	</teller>
 	<talk character="Brad">
 		<default>Ei!</default>
 	</talk>
 	<talk character="Rust">
-		<default>Deixa, já assustei ela o suficiente.</default>
+		<default>Deixa, já assustei suficiente.</default>
 	</talk>
 	<teller>
-		<default>Angely e Edmont chegam no hotel. Edmont segura Dalila.</default>
+		<default>Angely e Edmont chegam no hotel. Dalila vem correndo. Edmont segura o braço de Dalila.</default>
 	</teller>
 	<talk character="Edmont">
 		<default>Onde vai com tanta pressa?</default>
@@ -428,12 +462,12 @@
 		<default>Vampiros...</default>
 	</talk>
 	<talk character="Angely">
-		<default>Vem comigo, eu te protejo. Onde está?</default>
+		<default>Vem comigo, eu te protejo. Onde tá?</default>
 	</talk>
 	<talk character="Dalila">
-		<default>No último andar...</default>
+		<default>No último andar... Falou que ia pro último andar...</default>
 	</talk>
 	<talk character="Edmont">
-		<default>Eu vou subir, fica aqui com ela.</default>
+		<default>Eu vou subir, fica aqui.</default>
 	</talk>
 </story>
