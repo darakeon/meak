@@ -11,7 +11,7 @@ namespace Structure.Helpers
 
 	    private static Double getDaysLeft()
 	    {
-		    var today = DateTime.UtcNow.Date;
+		    var today = DateTime.Now.Date;
 
 		    var allTime = today - Config.CountdownStart;
 
