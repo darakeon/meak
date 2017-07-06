@@ -15,8 +15,9 @@ namespace Structure.Helpers
         public static DateTime CountdownStart = DateTime.Parse(get("CountdownStart"));
         public static Int32 CountdownFrequency = Int32.Parse(get("CountdownFrequency"));
 
-        public static String FtpUrl = get("FtpUrl");
-        public static String FtpLogin = get("FtpLogin");
+		public static String FtpAddress = get("FtpAddress");
+		public static String FtpUrl = "ftp://" + FtpAddress;
+		public static String FtpLogin = get("FtpLogin");
         public static String Site = get("Site");
 
         private static string get(String key)

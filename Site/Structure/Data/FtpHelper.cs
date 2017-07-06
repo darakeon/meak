@@ -69,7 +69,7 @@ namespace Structure.Data
 
                 return fileExists;
             }
-            catch (WebException)
+            catch (WebException e)
             {
                 return false;
             }
@@ -123,25 +123,25 @@ namespace Structure.Data
 
 			String[] directories;
 
-		    using (var response = (FtpWebResponse) request.GetResponse())
-		    {
-			    using (var stream = response.GetResponseStream())
-			    {
-				    if (stream == null)
-				    {
-					    directories = null;
-				    }
-				    else
-				    {
-					    using (var reader = new StreamReader(stream))
-					    {
-						    directories = reader.ReadToEnd().Split(Environment.NewLine.ToCharArray());
-					    }
-				    }
-			    }
+			using (var response = (FtpWebResponse)request.GetResponse())
+			{
+				using (var stream = response.GetResponseStream())
+				{
+					if (stream == null)
+					{
+						directories = null;
+					}
+					else
+					{
+						using (var reader = new StreamReader(stream))
+						{
+							directories = reader.ReadToEnd().Split(Environment.NewLine.ToCharArray());
+						}
+					}
+				}
 
-			    response.Close();
-		    }
+				response.Close();
+			}
 
 		    return directories;
 	    }
@@ -207,14 +207,14 @@ namespace Structure.Data
             
             request.Method = method;
             request.Credentials = createCredentials();
-			request.UsePassive = true;
+			request.UsePassive = false;
 
             return request;
         }
 
 	    private NetworkCredential createCredentials()
 		{
-			return new NetworkCredential(Config.FtpLogin, password);
+			return new NetworkCredential(Config.FtpAddress + "|" + Config.FtpLogin, password);
 		}
 
 		private static String handleResponse(FtpWebRequest request, params FtpStatusCode[] rightAnswers)
