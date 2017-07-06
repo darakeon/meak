@@ -1,12 +1,7 @@
-﻿body { background: #000 no-repeat fixed center center; }
-
-.bg1 { background-image: url("/Assets/images/background/01.jpg"); }
-.bg2 { background-image: url("/Assets/images/background/02.jpg"); }
-.bg3 { background-image: url("/Assets/images/background/03.jpg"); }
-.bg4 { background-image: url("/Assets/images/background/04.jpg"); }
-.bg5 { background-image: url("/Assets/images/background/05.jpg"); }
-.bg6 { background-image: url("/Assets/images/background/06.jpg"); }
-.bg7 { background-image: url("/Assets/images/background/07.jpg"); }
+﻿body {
+	background: #000 no-repeat fixed center center
+		url("/Assets/images/fundo.png");
+}
 
 .darkback
 {
