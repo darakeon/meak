@@ -51,13 +51,6 @@ namespace Structure.Data
 			return SceneFilePath(folderPath, seasonID, episodeID, sceneID).Replace(@"\", "/");
 		}
 
-        internal static String BackupFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
-        {
-            var datetime = DateTime.Now.ToString("yyyyMMddHHmmssfff");
-            var backupFile = String.Format("{0}_{1}{2}-{3}.xml", datetime, seasonID, episodeID, sceneID);
-            return Path.Combine(folderPath, "Backup", backupFile);
-        }
-
 
 
         internal static String[] SceneLetters(String folderPath, String seasonID, String episodeID)

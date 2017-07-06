@@ -14,7 +14,7 @@ namespace Presentation.Models
         public SeasonEditEpisodeModel(String seasonID, String episodeID, String sceneID)
         {
             Story = EpisodeXML.GetEpisode(seasonID, episodeID);
-            ReadingScene = sceneID ?? SceneXML.FirstScene;
+            ReadingScene = sceneID ?? SceneXML.FIRST_SCENE;
         }
 
         public Int32 SceneCounter { get; set; }

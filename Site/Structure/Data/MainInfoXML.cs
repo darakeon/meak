@@ -8,15 +8,14 @@ namespace Structure.Data
 {
     public static class MainInfoXML
     {
-        const string title_node_name = "portuguese";
-        const string summary_node_name = "summary";
+	    private const string title_node_name = "portuguese";
+	    private const string summary_node_name = "summary";
 
         public static void Save(String title, String summary, String folderPath, String seasonID, String episodeID)
         {
             var path = Paths.SceneFilePath(folderPath, seasonID, episodeID, "_");
 
-            var exists = new FileInfo(path)
-                .CreateIfNotExists("<story></story>");
+            new FileInfo(path).CreateIfNotExists("<story></story>");
 
             var xml = new Node(path);
 
@@ -25,12 +24,7 @@ namespace Structure.Data
             
             putAttributes(xml, seasonID, episodeID);
 
-            var backupPath = Paths.BackupFilePath(folderPath, seasonID, episodeID, "_");
-
-            if (exists)
-                xml.BackUpAndSave(backupPath);
-            else
-                xml.Overwrite();
+            xml.Overwrite();
         }
 
         private static void putTitle(Node xml, String title)

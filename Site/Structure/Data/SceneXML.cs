@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Text;
 using System.Xml;
 using DK.XML;
 using Structure.Entities;
@@ -21,14 +20,12 @@ namespace Structure.Data
         public Scene Scene { get; set; }
         public FileInfo FileInfo { get; set; }
 
-        private String backupPath { get; set; }
-
-        public const String FirstScene = "a";
+        public const String FIRST_SCENE = "a";
 
 
 
         public SceneXML(String folderPath, String season, String episode)
-            : this(folderPath, season, episode, FirstScene) { }
+            : this(folderPath, season, episode, FIRST_SCENE) { }
 
         public SceneXML(String folderPath, String season, String episode, String scene)
             : this(folderPath, season, episode, scene, OpenEpisodeOption.GetCode) { }
@@ -38,8 +35,6 @@ namespace Structure.Data
             this.folderPath = folderPath;
             this.seasonID = seasonID;
             this.episodeID = episodeID;
-
-            backupPath = Paths.BackupFilePath(folderPath, seasonID, episodeID, sceneID);
 
             var storyPath = Paths.SceneFilePath(folderPath, seasonID, episodeID, sceneID);
             FileInfo = new FileInfo(storyPath);
@@ -91,7 +86,7 @@ namespace Structure.Data
             else if (nodeName == talkEnum)
                 paragraph = ParagraphType.Talk;
             else
-                throw new XmlException(String.Format("Node {0} ({1}º) not recognized.", nodeName, Scene.ParagraphCount));
+                throw new XmlException($"Node {nodeName} ({Scene.ParagraphCount}º) not recognized.");
 
             Scene.ParagraphTypeList.Add(paragraph);
 
@@ -118,21 +113,15 @@ namespace Structure.Data
 
         public void AddNewStory(String title)
         {
-            var sceneExists =
-                !FileInfo.CreateIfNotExists("<story></story>");
-
+            FileInfo.CreateIfNotExists("<story></story>");
 
             MainInfoXML.Save(title, "Story summary.", folderPath, seasonID, episodeID);
 
             fakeStory();
 
-
             var storyXML = makeStoryXML();
 
-            if (sceneExists)
-                storyXML.BackUpAndSave(backupPath);
-            else
-                storyXML.Overwrite();
+            storyXML.Overwrite();
         }
 
 
@@ -140,8 +129,7 @@ namespace Structure.Data
         public void WriteStory()
         {
             var xml = makeStoryXML();
-
-            xml.BackUpAndSave(backupPath);
+            xml.Overwrite();
         }
 
 
@@ -209,7 +197,7 @@ namespace Structure.Data
                         tellerCounter++;
                         break;
                     default:
-                        throw new Exception(String.Format("Not recognized Paragraph [{0}].", paragraph));
+                        throw new Exception($"Not recognized Paragraph [{paragraph}].");
                 }
 
                 if (child.HasChilds())
@@ -223,13 +211,13 @@ namespace Structure.Data
         private void verifyXmlAttributes(Node xml)
         {
             if (xml["scene"] != Scene.ID)
-                throw new Exception(String.Format("Scene [{0}] and file name [{1}] doesn't match.", xml["scene"], Scene.ID));
+                throw new Exception($"Scene [{xml["scene"]}] and file name [{Scene.ID}] doesn't match.");
 
             if (xml["episode"] != Scene.Episode.ID)
-                throw new Exception(String.Format("Episode [{0}] and file path [{1}] doesn't match.", xml["episode"], Scene.Episode.ID));
+                throw new Exception($"Episode [{xml["episode"]}] and file path [{Scene.Episode.ID}] doesn't match.");
 
             if (xml["season"] != Scene.Episode.Season.ID)
-                throw new Exception(String.Format("Season [{0}] and file path [{1}] doesn't match.", xml["season"], Scene.Episode.Season.ID));
+                throw new Exception($"Season [{xml["season"]}] and file path [{Scene.Episode.Season.ID}] doesn't match.");
         }
 
 
