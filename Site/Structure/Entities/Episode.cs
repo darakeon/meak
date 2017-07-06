@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Ak.MVC.Authentication;
+using DK.MVC.Authentication;
 using Structure.Data;
 
 namespace Structure.Entities

@@ -1,15 +1,15 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using Ak.DataAccess.XML;
+using DK.XML;
 using Structure.Extensions;
 
 namespace Structure.Data
 {
     public static class MainInfoXML
     {
-        const string titleNodeName = "portuguese";
-        const string summaryNodeName = "summary";
+        const string title_node_name = "portuguese";
+        const string summary_node_name = "summary";
 
         public static void Save(String title, String summary, String folderPath, String seasonID, String episodeID)
         {
@@ -18,18 +18,14 @@ namespace Structure.Data
             var exists = new FileInfo(path)
                 .CreateIfNotExists("<story></story>");
 
-            
             var xml = new Node(path);
-
 
             putTitle(xml, title);
             putSummary(xml, summary);
             
             putAttributes(xml, seasonID, episodeID);
 
-
             var backupPath = Paths.BackupFilePath(folderPath, seasonID, episodeID, "_");
-
 
             if (exists)
                 xml.BackUpAndSave(backupPath);
@@ -39,7 +35,7 @@ namespace Structure.Data
 
         private static void putTitle(Node xml, String title)
         {
-            var titleNode = getNode(xml, titleNodeName);
+            var titleNode = getNode(xml, title_node_name);
 
             if (titleNode.Attributes.Keys.Contains("title"))
                 titleNode["title"] = title;
@@ -49,7 +45,7 @@ namespace Structure.Data
 
         private static void putSummary(Node xml, String summary)
         {
-            var summaryNode = getNode(xml, summaryNodeName);
+            var summaryNode = getNode(xml, summary_node_name);
 
             summaryNode.Value = summary;
         }
@@ -78,8 +74,8 @@ namespace Structure.Data
                 return null;
 
             var mainInfoXml = new Node(mainInfoXmlName);
-			var titleNode = getNode(mainInfoXml, titleNodeName);
-			var summaryNode = getNode(mainInfoXml, summaryNodeName);
+			var titleNode = getNode(mainInfoXml, title_node_name);
+			var summaryNode = getNode(mainInfoXml, summary_node_name);
 
             var info = new Info
             {

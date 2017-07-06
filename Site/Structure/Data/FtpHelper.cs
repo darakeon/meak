@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-using Ak.Generic.Collection;
+using DK.Generic.Collection;
 using Structure.Helpers;
 
 namespace Structure.Data

@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Ak.DataAccess.XML;
+using System.Text;
+using DK.XML;
 using Structure.Entities;
 using Structure.Helpers;
 
@@ -27,7 +28,7 @@ namespace Structure.Data
 
             foreach (var messageFile in messageFiles)
             {
-                var node = new Node(messageFile.Path);
+				var node = new Node(messageFile.Path);
 
                 var message = new Message
                 {

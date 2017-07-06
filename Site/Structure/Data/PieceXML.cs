@@ -1,5 +1,5 @@
 ﻿using System;
-using Ak.DataAccess.XML;
+using DK.XML;
 using Structure.Entities;
 
 namespace Structure.Data

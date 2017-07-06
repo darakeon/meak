@@ -1,7 +1,8 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 using System.Xml;
-using Ak.DataAccess.XML;
+using DK.XML;
 using Structure.Entities;
 using Structure.Enums;
 using Structure.Extensions;
@@ -62,7 +63,7 @@ namespace Structure.Data
 
         private void readStory()
         {
-            var xml = new Node(FileInfo.FullName);
+			var xml = new Node(FileInfo.FullName);
 
             verifyXmlAttributes(xml);
 

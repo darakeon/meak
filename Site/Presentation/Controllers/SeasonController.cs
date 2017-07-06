@@ -6,7 +6,6 @@ using Presentation.Helpers;
 using Structure.Data;
 using Structure.Helpers;
 
-
 namespace Presentation.Controllers
 {
     [StoriesAuthorize]
