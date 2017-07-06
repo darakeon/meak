@@ -1,6 +1,5 @@
 function AddInputItem(obj) {
-    var scene = $(obj).attr("scene");
-    canSubmit = false;
+    window.canSubmit = false;
 
     var type = $(obj).attr("type");
 
@@ -12,7 +11,7 @@ function AddInputItem(obj) {
             AddParagraph(obj);
             break;
         default:
-            alert("Unknown Adder.")
+	        alert("Unknown Adder.");
     }
 }
 
@@ -24,6 +23,8 @@ function AddPiece(obj) {
     var piece = NumericValueAttr(obj, "piece");
     var typedParagraph = NumericValueAttr(obj, subtype);
 
+    var adderPage = $(obj).attr("url");
+
     $.post(adderPage, { type: "piece", scene: scene, subtype: subtype, piece: piece + 1, teller: typedParagraph, talk: typedParagraph }, function (data) {
 
         var paragraph = NumericValueAttr(obj, "paragraph");
@@ -34,7 +35,7 @@ function AddPiece(obj) {
 
         currentPiece.after(data);
 
-        canSubmit = true;
+        window.canSubmit = true;
     });
 }
 
@@ -45,9 +46,9 @@ function AjustNextPieces(scene, paragraph, piece) {
 }
 
 function AjustPiece(obj, piece) {
-    var currentID = $(obj).attr("id");
+    var currentId = $(obj).attr("id");
 
-    var currentPieceNumber = currentID.split("_")[1].replace("Piece", "");
+    var currentPieceNumber = currentId.split("_")[1].replace("Piece", "");
     currentPieceNumber = parseInt(currentPieceNumber);
 
 
@@ -71,16 +72,13 @@ function AddParagraph(obj) {
 
     var talkParagraph = NumericValueAttr(obj, 'talk');
     var newTalkParagraph = talkParagraph +
-        (caller == 'talk' ? 1 : 0);
+        (caller === 'talk' ? 1 : 0);
 
     var tellerParagraph = NumericValueAttr(obj, 'teller');
     var newTellerParagraph = tellerParagraph +
-        (caller == 'teller' ? 1 : 0);
+        (caller === 'teller' ? 1 : 0);
 
-    var newTypedParagraph = subtype == 'talk'
-                                ? newTalkParagraph
-                                : newTellerParagraph;
-
+    var adderPage = $(obj).attr("url");
 
     $.post(adderPage, { scene: scene, type: "paragraph", subtype: subtype, paragraph: newParagraph, teller: newTellerParagraph, talk: newTalkParagraph }, function (data) {
 
@@ -88,7 +86,7 @@ function AddParagraph(obj) {
 
         $("#Scene" + scene + " #Paragraph" + paragraph).after(data);
 
-        canSubmit = true;
+        window.canSubmit = true;
     });
 }
 
@@ -99,8 +97,8 @@ function AjustNextParagraphs(scene, paragraph, subtype) {
 }
 
 function AjustParagraph(obj, paragraph, subtype) {
-    var currentID = $(obj).attr("id");
-    var currentParagraphNumber = currentID.replace("Paragraph", "");
+    var currentId = $(obj).attr("id");
+    var currentParagraphNumber = currentId.replace("Paragraph", "");
     currentParagraphNumber = parseInt(currentParagraphNumber);
 
     if (currentParagraphNumber > paragraph) {
@@ -114,7 +112,7 @@ function AjustParagraph(obj, paragraph, subtype) {
         
         AjustNumbers(obj, subtype, currentTypedParagraphNumber);
 
-        if (subtype == "talk") {
+        if (subtype === "talk") {
             AjustNumbers(obj, "character", currentTypedParagraphNumber);
         }
 

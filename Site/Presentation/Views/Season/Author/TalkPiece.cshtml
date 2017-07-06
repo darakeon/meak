@@ -1,4 +1,5 @@
-﻿@model Presentation.Models.SeasonEditEpisodeModel
+﻿@using Presentation
+@model Presentation.Models.SeasonEditEpisodeModel
 
 @{var piece = Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces[Model.PieceCounter];}
 
@@ -20,7 +21,7 @@
                 tabIndex = Model.TabIndex++
             })
     
-        <adder class="adderPiece" scene="@Model.SceneCounter" type="Piece" subtype="Talk" paragraph="@(Model.ParagraphCounter)" talk="@(Model.TalkCounter)" piece="@(Model.PieceCounter)" onclick="AddInputItem(this)">+</adder>
+        <adder class="adderPiece" scene="@Model.SceneCounter" type="Piece" subtype="Talk" paragraph="@(Model.ParagraphCounter)" talk="@(Model.TalkCounter)" piece="@(Model.PieceCounter)" onclick="AddInputItem(this)" url="@HttpUtility.UrlDecode(Url.Route(RouteConfig.Names.Adder))">+</adder>
     </span>
                 
     <div class="suggestionBox" id="scene@(Model.SceneCounter)_talkStyle@(Model.TalkCounter)_piece@(Model.PieceCounter)"></div>

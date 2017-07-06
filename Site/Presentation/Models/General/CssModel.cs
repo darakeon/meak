@@ -22,11 +22,11 @@ namespace Presentation.Models.General
             if (!isAuthor)
                 return;
 
-            var directory = Path.Combine(path, UrlUserType.AUTHOR_PATH);
+            var directory = Path.Combine(path, "Author");
 
             foreach (var file in Directory.GetFiles(directory))
             {
-                Files.Add(new CssFile(file, UrlUserType.AUTHOR_PATH));
+                Files.Add(new CssFile(file, "Author"));
             }
         }
 

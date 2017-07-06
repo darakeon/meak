@@ -1,4 +1,5 @@
-﻿@model Presentation.Models.SeasonSeasonModel
+﻿@using Presentation
+@model Presentation.Models.SeasonSeasonModel
 
 @{
     ViewBag.Title = String.Format("MEAK – Temporada {0}", Model.Season);
@@ -13,7 +14,7 @@
     @foreach (var episode in Model.EpisodeList)
     {
 	    <li>
-		    <a class="title" href="@Url.RouteUrl("Default", new { action = "Episode", controller = "Season", seasonID = Model.Season, episodeID = episode })">
+		    <a class="title" href="@Url.Route(RouteConfig.Names.Episode, Model.Season, episode)">
 			    <span class="epCode">@(episode):</span>
 			    <span class="epTitle">@episode.Title</span>
 			    <span class="epPublish">@episode.Publish.ToShortDateString()</span>

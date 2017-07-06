@@ -1,10 +1,12 @@
 ﻿@model Presentation.Models.BaseModel
+@using System.Web.Mvc.Html
+@using Presentation
 @using Structure.Helpers
 
 @{
     var isAuthor = UrlUserType.IsAuthor(Request.Url);
     
-    var route = isAuthor ? "Author" : "Short";
+    var route = isAuthor ? RouteConfig.Names.AuthorEpisode : RouteConfig.Names.Episode;
 
     if (isAuthor)
     {
@@ -30,8 +32,7 @@
             <div class="body">
                 @foreach (var episode in season.EpisodeList)
                 {
-                    var routeItems = new { controller = "Season", seasonID = season, action = "Episode", episodeID = episode };
-                    var myUrl = Url.RouteUrl(route, routeItems);
+                    var myUrl = Url.Route(route, season, episode);
                     
                     var @selectedClass = Request.Url.AbsoluteUri.Contains(myUrl)
                         ? "selected" : "";

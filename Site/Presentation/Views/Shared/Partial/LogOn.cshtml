@@ -1,4 +1,5 @@
-﻿@model Presentation.Models.BaseModel
+﻿@using Presentation
+@model Presentation.Models.BaseModel
            
 @if (Model.LogOn.Is)
 {
@@ -10,7 +11,7 @@
     };
 
 
-    using (Html.BeginRouteForm("LogOn", routeValues, FormMethod.Post))
+    using (Html.BeginRouteForm(RouteConfig.Names.LogOn.ToString(), routeValues, FormMethod.Post))
     {
         <div class="lightback inner">
         

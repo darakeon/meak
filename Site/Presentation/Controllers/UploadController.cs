@@ -23,7 +23,7 @@ namespace Presentation.Controllers
 
                 if (String.IsNullOrEmpty(model.Result))
                 {
-                    var path = Url.RouteUrl("Scene", new { controller = "Season", action = "Episode", seasonID = model.SeasonID, episodeID = model.EpisodeID, sceneID = model.SceneID});
+                    var path = Url.Route(RouteConfig.Names.Scene, model.SeasonID, model.EpisodeID, model.SceneID);
 
                     return Redirect(Config.Site + path);
                 }

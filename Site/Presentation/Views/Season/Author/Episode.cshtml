@@ -1,11 +1,11 @@
-﻿@using Presentation.Models.General
+﻿@using Presentation
+@using Presentation.Models.General
 @model Presentation.Models.SeasonEditEpisodeModel
 
 @{
     ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
     Layout = "~/Views/Shared/_Layout.cshtml";
 
-    var adderPage = Url.Action("Adder");
     var route = new { episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
     var formId = "form_title";
     
@@ -27,8 +27,6 @@
         };
 }
 
-<script type="text/javascript">var adderPage = '@adderPage';</script>
-
 <script src="@Url.Content("~/Assets/js/Author/Inputs.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Assets/js/Author/Suggestion.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Assets/js/Author/Adder.js")" type="text/javascript"></script>
@@ -46,9 +44,7 @@
 			<div class="titleChange">
 				<button type="submit" class="darkback save">Save</button>
 
-				@Html.RouteLink("Upload", "Upload",
-					new {seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = "_"},
-					new {@class = "darkback save", target = "_blank"})
+				@Html.Link("Upload", RouteConfig.Names.Upload, Model.Story.Season.ID, Model.Story.ID, "_", new {@class = "darkback save", target = "_blank"})
 
 				@Html.TextBoxFor(m => m.Story.Title)<br/>
 

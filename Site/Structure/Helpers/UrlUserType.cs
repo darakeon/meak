@@ -12,9 +12,7 @@ namespace Structure.Helpers
 
         public static Boolean IsAuthor(Uri uri)
         {
-            return uri.AbsolutePath.Contains(AUTHOR_PATH);
+            return uri.AbsolutePath.StartsWith("/_");
         }
-
-        public const String AUTHOR_PATH = "Author";
     }
 }

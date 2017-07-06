@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Structure.Data;
 using Structure.Enums;
 using Structure.Extensions;
 
@@ -13,7 +14,7 @@ namespace Presentation.Models
         public SeasonEditEpisodeModel(String seasonID, String episodeID, String sceneID)
         {
             Story = EpisodeXML.GetEpisode(seasonID, episodeID);
-            ReadingScene = sceneID;
+            ReadingScene = sceneID ?? SceneXML.FirstScene;
         }
 
         public Int32 SceneCounter { get; set; }
