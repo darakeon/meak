@@ -10,13 +10,19 @@ namespace Presentation
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                "LogOn", // Route name
-                "Account/{action}", // URL with parameters
-                new {controller = "Account", action = "LogOn"} // Parameter defaults
-            );
+			routes.MapRoute(
+				"Short", // Route name
+				"§{seasonId}[{episodeId}][{sceneId}]", // URL with parameters
+				new { controller = "Season", action = "Episode", sceneId = SceneXML.FirstScene } // Parameter defaults
+			);
 
-            routes.MapRoute(
+			routes.MapRoute(
+				"LogOn", // Route name
+				"Account/{action}", // URL with parameters
+				new { controller = "Account", action = "LogOn" } // Parameter defaults
+			);
+
+			routes.MapRoute(
                 "AuthorScene", // Route name
                 "Author/{controller}/{seasonID}/{action}/{episodeID}/{sceneID}", // URL with parameters
                 new
