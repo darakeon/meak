@@ -78,14 +78,28 @@ namespace Presentation
 
 
 
+
+
 		public static string Route(this UrlHelper url, RouteConfig.Names name)
 		{
-			return url.RouteUrl(name.ToString());
+			return url.Route(name, null);
 		}
 
 		public static string Route(this UrlHelper url, RouteConfig.Names name, String seasonId)
 		{
-			return url.RouteUrl(name.ToString(), new { seasonId });
+			return url.Route(name, seasonId, null);
+		}
+
+		public static string Route(this UrlHelper url, RouteConfig.Names name, String seasonId, String episodeId)
+		{
+			return url.Route(name, seasonId, episodeId, null);
+		}
+
+		public static string Route(this UrlHelper url, RouteConfig.Names name, String seasonId, String episodeId, String sceneId)
+		{
+			var urlQuery = url.RouteUrl(name.ToString(), new { seasonId, episodeId, sceneId });
+
+			return urlQuery?.Split(new []{'?'}, 2)[0];
 		}
 
 		public static string Route(this UrlHelper url, RouteConfig.Names name, Season season, Episode episode)
@@ -93,15 +107,7 @@ namespace Presentation
 			return url.Route(name, season.ToString(), episode.ToString());
 		}
 
-		public static string Route(this UrlHelper url, RouteConfig.Names name, String seasonId, String episodeId)
-		{
-			return url.RouteUrl(name.ToString(), new { seasonId, episodeId });
-		}
 
-		public static string Route(this UrlHelper url, RouteConfig.Names name, String seasonId, String episodeId, String sceneId)
-		{
-			return url.RouteUrl(name.ToString(), new { season = seasonId, episode = episodeId, scene = sceneId });
-		}
 
 
 

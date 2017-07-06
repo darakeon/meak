@@ -21,7 +21,7 @@
                 tabIndex = Model.TabIndex++
             })
 
-        <adder tabIndex="@(Model.TabIndex++)" class="adderPiece" scene="@Model.SceneCounter" type="Piece" subtype="Teller" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" piece="@Model.PieceCounter" onclick="AddInputItem(this)" url="@HttpUtility.UrlDecode(Url.Route(RouteConfig.Names.Adder))">+</adder>
+        <adder tabIndex="@(Model.TabIndex++)" class="adderPiece" scene="@Model.SceneCounter" type="Piece" subtype="Teller" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" piece="@Model.PieceCounter" onclick="AddInputItem(this)" url="@HttpUtility.UrlDecode(Url.Route(RouteConfig.Names.Adder, null, null, Model.CurrentScene))">+</adder>
     </span>
 
     <div class="suggestionBox" id="scene@(Model.SceneCounter)_tellerStyle@(Model.TellerCounter)_piece@(Model.PieceCounter)"></div>
