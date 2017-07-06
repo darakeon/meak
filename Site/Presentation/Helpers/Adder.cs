@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web.Helpers;
 using Presentation.Models;
 using Structure.Entities;
 using Structure.Enums;
@@ -23,7 +24,7 @@ namespace Presentation.Helpers
 
             for (var s = 0; s <= scene; s++)
             {
-                Model.Story.SceneList.Add(new Scene());
+                Model.Story.SceneList.Add(new Scene(s));
             }
 
             Model.SceneCounter = scene;

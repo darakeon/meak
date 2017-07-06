@@ -15,9 +15,14 @@ namespace Structure.Entities
             TellerList = new List<Teller>();
         }
 
+	    public Scene(Int32 position) : this()
+	    {
+		    var @char = Convert.ToChar('a' + position);
+		    ID = @char.ToString();
+	    }
 
 
-        public String ID { get; set; }
+	    public String ID { get; set; }
 
         public Episode Episode { get; set; }
 
