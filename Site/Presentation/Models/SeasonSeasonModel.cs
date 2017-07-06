@@ -14,14 +14,21 @@ namespace Presentation.Models
 			var pathXml = Paths.SeasonPath(Paths.Xml, season); 
 			
 			Season = new Season(pathXml);
-		    
 	        EpisodeList = Season.EpisodeList;
 
-			if (!Authenticate.IsAuthenticated)
+			if (!Authenticate.IsAuthenticated && EpisodeList.Any())
 			{
-				EpisodeList = EpisodeList
-					.Where(e => e.IsPublished())
-					.Reverse().Skip(1).Reverse()
+				var publishedEpisodes = EpisodeList
+					.Where(e => e.IsPublished()).ToList();
+
+				var lastEpisode = publishedEpisodes.Last();
+
+				if (lastEpisode.Publish.Year == DateTime.Today.Year)
+				{
+					publishedEpisodes.Remove(lastEpisode);
+				}
+
+				EpisodeList = publishedEpisodes
                     .Where(e => e.HasSummary())
 					.ToList();
 			}
