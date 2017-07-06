@@ -24,11 +24,15 @@
 </head>
 
 <body>
-    <div class="login">
-        @Html.Partial("Partial/LogOn")
-    </div>
+	<div class="login">
+		@Html.Partial("Partial/LogOn")
+	</div>
 
-    <div class="content">
+	<div>
+		@RenderSection("Header", false)
+	</div>
+
+	<div class="content">
         <div class="resizer">
             <button class="sizeLess lightback">A &ndash; &ndash;</button>
             <button class="sizeMore lightback">A + +</button>

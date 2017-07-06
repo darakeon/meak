@@ -37,36 +37,41 @@
 <script src="@Url.Content("~/Assets/js/Author/General.js")" type="text/javascript"></script>
 
 @Html.Partial("Suggestion")
-        
-@using (Ajax.BeginForm("EditTitle", route, ajaxOptions, html))
+
+@section Header
 {
-    <div class="titleChange">
-        <button type="submit" class="darkback save">Save</button>
-        
-        @Html.RouteLink("Upload", "Upload",
-            new { seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = "_" },
-            new { @class = "darkback save", target = "_blank" })
+	<div class="absolute-header lightback">
+		@using (Ajax.BeginForm("EditTitle", route, ajaxOptions, html))
+		{
+			<div class="titleChange">
+				<button type="submit" class="darkback save">Save</button>
 
-        @Html.TextBoxFor(m => m.Story.Title)<br />
+				@Html.RouteLink("Upload", "Upload",
+					new {seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = "_"},
+					new {@class = "darkback save", target = "_blank"})
 
-        @Html.TextAreaFor(m => m.Story.Summary)
-    </div>
+				@Html.TextBoxFor(m => m.Story.Title)<br/>
+
+				@Html.TextAreaFor(m => m.Story.Summary)
+			</div>
+		}
+	</div>
 }
 
 <p>
-    Paragraphs last count: @Model.Story.SceneList.Sum(s => s.ParagraphTypeList.Count)
+	Paragraphs last count: @Model.Story.SceneList.Sum(s => s.ParagraphTypeList.Count)
 </p>
-    
+
 
 @Html.Partial("Partial/ChangeScene", topSelector)
 
 <div class="scenes">
-    @for (var s = 0; s < Model.Story.SceneList.Count; s++)
-    {
-        Model.SceneCounter = s;
+	@for (var s = 0; s < Model.Story.SceneList.Count; s++)
+	{
+		Model.SceneCounter = s;
 
-        @Html.Partial("Author/Scene")
-    }
+		@Html.Partial("Author/Scene")
+	}
 </div>
 
 @Html.Partial("Partial/ChangeScene", topSelector)

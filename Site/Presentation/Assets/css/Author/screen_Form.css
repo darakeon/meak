@@ -1,5 +1,7 @@
 ﻿.main input,
-.main textarea
+.main textarea,
+.absolute-header input,
+.absolute-header textarea
 {
 	background: none;
 	width: 580px;
@@ -7,7 +9,10 @@
 
 .main input,
 .main textarea,
-.main select
+.main select,
+.absolute-header input,
+.absolute-header textarea,
+.absolute-header select
 {
 	border: none;
 	text-align: inherit;
@@ -19,6 +24,8 @@
 .titleChange 
 {
     margin-bottom: 20px;
+	font-size: 117%;
+	padding: 10px 15px 0 15px;
 }
 
 .titleChange input
@@ -36,7 +43,8 @@
 
 
 
-.main .save
+.main .save,
+.absolute-header .save
 {
     border: none;
     padding: 5px;
@@ -47,6 +55,7 @@
 }
 
 .main button.save
+.absolute-header button.save
 {
     padding: 4px 5px 34px 5px;
 }

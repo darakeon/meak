@@ -52,3 +52,18 @@
     font-variant:small-caps;
     font-size: 150%;
 }
+
+.absolute-header {
+	filter: alpha(opacity=95);
+	opacity: 0.95;
+	position: fixed;
+	display: block;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.absolute-header:after {
+	margin-top: 100px;
+}
