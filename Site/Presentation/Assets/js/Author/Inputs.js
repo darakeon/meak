@@ -2,12 +2,21 @@ function SaveButton() {
     $("input").keydown(function () {
         NeedSaveAgain($(this).closest("form").attr("id"));
     });
+
+    $(".titleChange input, .titleChange textarea").focus(function () {
+    	saveTitle = true;
+    });
+
+    $(".titleChange input, .titleChange textarea").blur(function () {
+    	saveTitle = false;
+    });
 }
 
 
 
 var pressedCtrl = false;
 var pressedShift = false;
+var saveTitle = false;
 var canSubmit = true;
 
 function SaveKey() {
@@ -22,7 +31,7 @@ function SaveKey() {
 
             if (canSubmit) {
                 if (pressedCtrl && e.which == 89) {
-                    SaveCurrentScene();
+                    SaveCurrentForm();
                     pressedCtrl = false;
                 }
             }
@@ -40,6 +49,14 @@ function Pressed(key, set) {
         case (17): pressedCtrl = set; break;
         case (16): pressedShift = set; break;
     }
+}
+
+function SaveCurrentForm() {
+	if (saveTitle) {
+		$(".titleChange").parent("form").submit();
+	} else {
+		SaveCurrentScene();
+	}
 }
 
 function SaveCurrentScene() {
