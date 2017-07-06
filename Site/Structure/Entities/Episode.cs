@@ -40,12 +40,17 @@ namespace Structure.Entities
         public Season Season { get; set; }
 
 
-	    public Boolean CanSee()
-	    {
-		    return Publish < DateTime.Now || Authenticate.IsAuthenticated;
-	    }
+        public Boolean IsPublished()
+        {
+            return Publish < DateTime.Now || Authenticate.IsAuthenticated;
+        }
 
-	    public override String ToString()
+        public bool HasSummary()
+        {
+            return !String.IsNullOrEmpty(Summary) || Authenticate.IsAuthenticated;
+        }
+
+        public override String ToString()
         {
             return ID;
         }
@@ -55,11 +60,6 @@ namespace Structure.Entities
         {
             get { return SceneList.SingleOrDefault(s => s.ID == scene); }
         }
-
-
-
-
-
 
 
 

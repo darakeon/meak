@@ -36,7 +36,7 @@ namespace Structure.Entities
 
 	        var episode = new Episode(path, seasonName, episodeName);
 
-	        if (episode.CanSee())
+	        if (episode.IsPublished())
 		        EpisodeList.Add(episode);
         }
 

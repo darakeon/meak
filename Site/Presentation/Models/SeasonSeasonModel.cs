@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
 using Ak.MVC.Authentication;
 using Structure.Data;
 using Structure.Entities;
@@ -22,8 +20,9 @@ namespace Presentation.Models
 			if (!Authenticate.IsAuthenticated)
 			{
 				EpisodeList = EpisodeList
-					.Where(e => e.CanSee())
+					.Where(e => e.IsPublished())
 					.Reverse().Skip(1).Reverse()
+                    .Where(e => e.HasSummary())
 					.ToList();
 			}
 	    }
