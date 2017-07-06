@@ -15,13 +15,18 @@ namespace Structure.Data
         public String Xml { get; private set; }
         public String Css { get; private set; }
 
-        
-        public static String SeasonPath(String folderPath, String seasonID)
-        {
-            return Path.Combine(folderPath, "_" + seasonID);
-        }
 
-        public static String EpisodePath(String folderPath, String seasonID, String episodeID)
+		public static String SeasonPath(String folderPath, String seasonID)
+		{
+			return Path.Combine(folderPath, "_" + seasonID);
+		}
+
+		public static Boolean SeasonPathExists(String folderPath, String seasonID)
+		{
+			return Directory.Exists(SeasonPath(folderPath, seasonID));
+		}
+
+		public static String EpisodePath(String folderPath, String seasonID, String episodeID)
         {
             return Path.Combine(folderPath, "_" + seasonID, episodeID);
         }

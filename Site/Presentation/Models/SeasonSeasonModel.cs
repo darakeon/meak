@@ -11,9 +11,9 @@ namespace Presentation.Models
 	{
 		public SeasonSeasonModel(String season)
 		{
-			var pathXml = Paths.SeasonPath(Paths.Xml, season); 
+			var seasonPathXml = Paths.SeasonPath(Paths.Xml, season); 
 			
-			Season = new Season(pathXml);
+			Season = new Season(seasonPathXml);
 	        EpisodeList = Season.EpisodeList;
 
 			if (!Authenticate.IsAuthenticated && EpisodeList.Any())
@@ -21,10 +21,12 @@ namespace Presentation.Models
 				var publishedEpisodes = EpisodeList
 					.Where(e => e.IsPublished()).ToList();
 
-				var lastEpisode = publishedEpisodes.Last();
+				var nextSeason = ((char)(season[0] + 1)).ToString();
+                var nextSeasonExists = Paths.SeasonPathExists(Paths.Xml, nextSeason);
 
-				if (lastEpisode.Publish.Year == DateTime.Today.Year)
+				if (!nextSeasonExists)
 				{
+					var lastEpisode = publishedEpisodes.Last();
 					publishedEpisodes.Remove(lastEpisode);
 				}
 
