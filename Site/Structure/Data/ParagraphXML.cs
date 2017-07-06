@@ -19,7 +19,7 @@ namespace Structure.Data
 
             
             if (String.IsNullOrEmpty(character) && !isAuthor)
-                throw new Exception(String.Format("No Character: {0}", talk));
+                throw new Exception($"No Character: {talk}");
             
 
             talk.Character = character;

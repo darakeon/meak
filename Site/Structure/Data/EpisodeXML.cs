@@ -46,7 +46,7 @@ namespace Structure.Data
             }
             catch (FileNotFoundException)
             {
-                throw new StoriesException("Temporada e/ou Capítulo não encontrado(s).");
+                throw new StoriesException($"Arquivo não encontrado(s):{seasonID}{episodeID}{sceneID}.");
             }
             catch (Exception e)
             {
