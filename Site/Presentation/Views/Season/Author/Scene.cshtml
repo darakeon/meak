@@ -10,18 +10,22 @@
 }
 
 <div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(Model.SceneCounter)">
-    
-    <div class="goHistory">
-        <a href="#" class="darkback" onclick="SaveCurrentForm(); return false;">Save</a>
 
-        @Html.RouteLink("View", "Scene",
-            new { seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = scene.ID },
-            new { @class = "darkback", target = "_blank" })
+	<div class="goHistory">
+		<span class="paragraphCountTitle">
+			Scene Paragraphs Count: @scene.ParagraphTypeList.Count
+		</span>
 
-        @Html.RouteLink("Upload", "Upload", 
-            new { seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = scene.ID },
-            new { @class = "darkback", target = "_blank" })
-    </div>
+		<a href="#" class="darkback" onclick="SaveCurrentForm(); return false;">Save</a>
+
+		@Html.RouteLink("View", "Scene",
+			new {seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = scene.ID},
+			new {@class = "darkback", target = "_blank"})
+
+		@Html.RouteLink("Upload", "Upload",
+			new {seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = scene.ID},
+			new {@class = "darkback", target = "_blank"})
+	</div>
 
     @using (Ajax.BeginForm("EditScene", route, ajaxOptions, html))
     {

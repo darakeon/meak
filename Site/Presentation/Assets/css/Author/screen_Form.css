@@ -28,20 +28,23 @@
 	padding: 10px 15px 0 15px;
 }
 
-.titleChange input
-{
-    font-size: 150%;
-    font-weight: bold;
-}
+	.titleChange input
+	{
+		font-size: 150%;
+		font-weight: bold;
+	}
 
-.titleChange textarea
-{
-	width: 100% !important;
-	border-top: 1px solid #999;
-	border-bottom: 1px solid #999;
-}
+	.titleChange textarea
+	{
+		width: 100% !important;
+		border-top: 1px solid #999;
+		border-bottom: 1px solid #999;
+	}
 
-
+	.titleChange .paragraphCountTitle {
+		float: right;
+		margin: 10px;
+	}
 
 .main .save,
 .absolute-header .save
@@ -58,6 +61,10 @@
 .absolute-header button.save
 {
     padding: 4px 5px 34px 5px;
+}
+
+.main {
+	margin-top: 32px;
 }
 
 .main .scene button
