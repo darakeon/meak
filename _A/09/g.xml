@@ -1,79 +1,254 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="09" scene="g">
-	<teller>
-		<default>Manuel está puxando Talita. </default>
-	</teller>
-	<talk character="Talita">
-		<screamed>Não!!! Me solta!!!</screamed>
-	</talk>
-	<talk character="Mel">
-		<screamed>Solta ela, não tem como fugir pra sempre!</screamed>
-	</talk>
-	<talk character="Manuel">
-		<screamed>Nem que eu precise mudar de dois em dois anos! Só me separaram se quiserem levar dois cadáveres!</screamed>
-	</talk>
-	<teller>
-		<default>Mel olha para Edmont. Baixa um pouco a cabeça e levanta. Eles começam a se afastar, um para cada lado de Manuel, aos poucos.</default>
-	</teller>
-	<talk character="Manuel">
-		<default>Eu sei o que estão fazendo! Não vão...</default>
-	</talk>
-	<teller>
-		<default>Um tiro. Manuel cai. Talita olha para Manuel. Olha para Íris. Fica olhando fixo.</default>
-	</teller>
-	<talk character="Íris">
-		<default>Desculpa. Eu tinha que fazer isso.</default>
-	</talk>
-	<talk character="Talita">
-		<default>Foi no meio dos olhos. Não vai precisa verificar o pulso dessa vez.</default>
-	</talk>
-	<teller>
-		<default>Talita olha para a cabana. Corre para a porta. Kat sai. Talita para. Olha para Kat. Balança a cabeça para os lados. Entra na cabana. Os outros seguem. Talita abraça Brad.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Foi no braço. Ele vai sobreviver.</default>
-	</talk>
-	<talk character="Brad">
-		<default>Agora você vai voltar pra casa.</default>
-	</talk>
-	<teller>
-		<first>Alguns dias depois, chega uma carta de Brad à MEAK:</first>
-		<letter>Íris cumprirá alguns anos de prisão. Talita está fazendo tratamento pra tentar voltar a memória inteira, já lembra de muitas coisas e voltou a estudar. Não sei quem são na verdade, como encontraram minha irmã ou por que ajudaram ela a se livrar disso, mas de uma coisa eu tenho certeza: vocês um dia terão a merecida recompensa por tudo o que fizeram. Trouxeram minha irmã de volta. Isso dinheiro nenhum no mundo paga.</letter>
-	</teller>
-	<teller>
-		<division>Algum tempo, algum lugar</division>
-	</teller>
-	<talk character="Xien">
-		<default>Tá me enrolando!</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Que história é essa de "Espero que tenha puxado a resistência do lado certo"???</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Não fui eu quem disse, como vou saber?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Se tiverem conversado sobre isso depois!</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Faz sentido.</default>
-	</talk>
-	<talk character="Xien">
-		<default>E...</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Gosta de CDs?</default>
-	</talk>
-	<talk character="Xien">
-		<default>CDs???</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Eles brilham. E podem guardar um monte de coisas.</default>
-	</talk>
-	<teller>
-		<default>Uehfo some.</default>
-	</teller>
-</story>
+{
+	"season": "A",
+	"episode": "09",
+	"scene": "g",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manuel está puxando Talita. "
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Não!!! Me solta!!!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Solta ela, não tem como fugir pra sempre!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Nem que eu precise mudar de dois em dois anos! Só me separaram se quiserem levar dois cadáveres!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Edmont. Baixa um pouco a cabeça e levanta. Eles começam a se afastar, um para cada lado de Manuel, aos poucos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei o que estão fazendo! Não vão..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um tiro. Manuel cai. Talita olha para Manuel. Olha para Íris. Fica olhando fixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpa. Eu tinha que fazer isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi no meio dos olhos. Não vai precisa verificar o pulso dessa vez."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talita olha para a cabana. Corre para a porta. Kat sai. Talita para. Olha para Kat. Balança a cabeça para os lados. Entra na cabana. Os outros seguem. Talita abraça Brad."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi no braço. Ele vai sobreviver."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora você vai voltar pra casa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Alguns dias depois, chega uma carta de Brad à MEAK:"
+				},
+				{
+					"type": "letter",
+					"text": "Íris cumprirá alguns anos de prisão. Talita está fazendo tratamento pra tentar voltar a memória inteira, já lembra de muitas coisas e voltou a estudar. Não sei quem são na verdade, como encontraram minha irmã ou por que ajudaram ela a se livrar disso, mas de uma coisa eu tenho certeza: vocês um dia terão a merecida recompensa por tudo o que fizeram. Trouxeram minha irmã de volta. Isso dinheiro nenhum no mundo paga."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Algum tempo, algum lugar"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá me enrolando!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que história é essa de "Espero que tenha puxado a resistência do lado certo"???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fui eu quem disse, como vou saber?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se tiverem conversado sobre isso depois!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Faz sentido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gosta de CDs?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "CDs???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles brilham. E podem guardar um monte de coisas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uehfo some."
+				}
+			]
+		}
+	]
+}

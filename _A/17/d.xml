@@ -1,437 +1,1418 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="17" scene="d">
-	<teller>
-		<default>Psique está andando na rua.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Psique!</default>
-	</talk>
-	<teller>
-		<default>Psique continua andando. Mel corre até Psique e segura-lhe o braço.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Angely imaginou tudo.</default>
-	</talk>
-	<talk character="Psique">
-		<default>Não vai me convencer!</default>
-	</talk>
-	<talk character="Mel">
-		<default>É sério, Michael não te disse? Angely toma remédios...</default>
-	</talk>
-	<talk character="Psique">
-		<default>Ha-ha-ha!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por que não vamos ao consultório pra ver isso? Perguntamos a alguém de lá.</default>
-	</talk>
-	<talk character="Psique">
-		<default>E Agatha, é doente também?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Agatha acredita em Angely.</default>
-	</talk>
-	<talk character="Psique">
-		<default>Vamos lá e, se não tiver nada disso, eu falo com a impressa que foi seu irmão que matou meu marido.</default>
-	</talk>
-	<teller>
-		<first>Consultório.</first>
-	</teller>
-	<talk character="Psique">
-		<default>Ué, não tem ninguém aqui...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Melhor, nós mexemos nos arquivos.</default>
-	</talk>
-	<talk character="Psique">
-		<default>Não podemos fazer isso!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Podemos, sim, você casou com Michael e eu estou procurando arquivos de família.</default>
-	</talk>
-	<teller>
-		<default>Dentro do banheiro, Edmont segura Ana, assistente de Michael, tampado a boca. Psique e Mel entram na sala de atendimento. Psique olha os armários. Mel acha a ficha de Angely, na gaveta. Abre.</default>
-	</teller>
-	<talk character="Mel">
-		<thought>Ótimo.</thought>
-	</talk>
-	<teller>
-		<default>Mel fecha a ficha.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Achei!</default>
-	</talk>
-	<teller>
-		<default>Psique vai até Mel e pega a ficha. Abre e lê.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Isso é desde a morte da primeira namorada dele?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sim.</default>
-	</talk>
-	<talk character="Psique">
-		<default>Ele disse que via ela chamando e chegou a tentar suicídio?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não viu a marca no pulso?</default>
-	</talk>
-	<talk character="Psique">
-		<default>Nossa... Mas por que ele fica inventando esse tipo de coisa?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu não entendi direito quando Michael explicou... Não entendo por que não usava computador!</default>
-	</talk>
-	<talk character="Psique">
-		<default>Ele não gostava. Se visse o número de desastres que ele arrumava pra não usar...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bom, agora que já vimos isso, podemos voltar?</default>
-	</talk>
-	<talk character="Psique">
-		<default>Claro.</default>
-	</talk>
-	<teller>
-		<default>Mel pega a ficha e guarda. Saem encontram Edmont na cadeira da recepção. Psique dá um passo atrás.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Que feio, invadindo o escritório alheio...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Como se não tivesse feito o mesmo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas eu não preciso ser educado.</default>
-		<teller>se levanta</teller>
-		<default>Sou vampiro.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não temos medo de você.</default>
-	</talk>
-	<teller>
-		<default>Psique abre a cortina atrás de si e puxa Mel para o sol.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Fale por você. </default>
-	</talk>
-	<teller>
-		<default>Edmont ri.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Se eu não quiser queimar meu braço pra te pegar aí, posso simplesmente esperar anoitecer.</default>
-	</talk>
-	<teller>
-		<default>Edmont se encosta na mesa e cruza os braços.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Vieram fazer o que aqui?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não te interessa.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não seja mal-educada...</default>
-	</talk>
-	<talk character="Psique">
-		<default>Pegar a ficha do seu irmão.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ficha? Angely parou a terapia quando descobrimos que Meg era real.</default>
-	</talk>
-	<teller>
-		<default>Mel baixa a cabeça.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Então é verdade...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Seja o que for, Angely não mente. Já sei, acabou deixando escapar que somos canibais!</default>
-	</talk>
-	<teller>
-		<default>Psique arregala os olhos.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Brincadeira. Quer dizer, em parte, já que agora eu vivo de pelo menos uma parte de seres humanos.</default>
-	</talk>
-	<teller>
-		<default>Psique olha pela janela.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Vai pular? Não vai sobreviver, confie em mim.</default>
-	</talk>
-	<teller>
-		<default>Mel pega uma cadeira e joga na direção de Edmont. Edmont desvia a cadeira que acerta a parede.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Se ainda fosse aquelas cadeiras de antes, feitas de madeira...</default>
-	</talk>
-	<teller>
-		<default>Edmont dá um passo em direção Psique e Mel. Psique abre a janela e empurra Mel. Edmont puxa Psique e joga no chão.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Por que fez isso?</default>
-	</talk>
-	<talk character="Psique">
-		<default>Já vi Mel se recuperar de coisas bem piores.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Bem inteligente, com certeza sobrevive.</default>
-	</talk>
-	<teller>
-		<default>No chão, pessoa se juntam em volta de Mel. Mel tenta levantar o braço, não consegue.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Lá em cima...</default>
-	</talk>
-	<teller>
-		<default>Mel fecha os olhos. Abre novamente. Teto branco. Senta-se. Está em uma cama.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Angely...</default>
-	</talk>
-	<teller>
-		<default>Angely olha para Mel e vai até a cama. Abraça Mel. Mel afasta.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Eu...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ontem de manhã você caiu de um prédio. Lembra direito o que aconteceu?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Só lembro que foi Psique que me jogou.</default>
-	</talk>
-	<talk character="Brad">
-		<arrive>Eu não te disse que ela era perigosa?</arrive>
-	</talk>
-	<talk character="Mel">
-		<default>Também lembro de alguma coisa com Edmont...</default>
-	</talk>
-	<talk character="Brad">
-		<default>Provavelmente seu irmão tentou te salvar.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Posso falar com Mel a sós?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Eu só vim mesmo confirmar o que as testemunhas disseram. Deram a descrição da médica e agora você disse que foi ela... Você provavelmente pegou ela com o amante, por acaso no último lugar que qualquer um imaginaria, e ela te jogou lá de cima.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Só lembro de Psique e de Edmont...</default>
-	</talk>
-	<teller>
-		<default>Brad abre a boca e fecha em seguida.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Nada. Tenho que ir.</default>
-	</talk>
-	<teller>
-		<default>Brad sai. Mel tira o lençol, mas Angely para Mel. Sai do quarto.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tá achando que quem tinha um caso com Psique era Edmont?</default>
-	</talk>
-	<teller>
-		<default>Brad olha pra Angely.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Qualquer um perguntaria isso com um tom mais indignado... Até você, se achasse o contrário.</default>
-	</talk>
-	<teller>
-		<default>Angely baixa a cabeça.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Foi só pra saber.</default>
-	</talk>
-	<teller>
-		<default>Brad estranha. Angely se vira.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Acho que você não só acha, sabe que é seu irmão.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Prende Edmont então. Faz o que quiser, já não faz diferença.</default>
-	</talk>
-	<teller>
-		<default>Angely volta ao quarto.</default>
-	</teller>
-	<teller>
-		<first>Delegacia.</first>
-	</teller>
-	<talk character="Klane">
-		<default>E aí, descobriu algo?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Oi pra você também.</default>
-	</talk>
-	<talk character="Klane">
-		<default>Não enrola!</default>
-	</talk>
-	<talk character="Brad">
-		<default>Conhece Edmont Lorrage Kallend?</default>
-	</talk>
-	<talk character="Klane">
-		<default>Já ajudei o irmão dele com uma bomba...</default>
-	</talk>
-	<talk character="Brad">
-		<default>A médica quem jogou Melody lá de cima. Melody diz que não lembra de nada, exceto de ter visto a médica e o irmão dela.</default>
-	</talk>
-	<talk character="Klane">
-		<default>A assistente do psicólogo foi encontrada morta e o consultório estava de ponta cabeça... Peraí, tá querendo dizer que o tal amante...</default>
-	</talk>
-	<talk character="Brad">
-		<default>Não é difícil ela ter trocado um psicólogo de trinta e seis por um cantor de vinte e três. Devem ter matado o cara e ficaram planejando o que fazer, o cara tava morto há dias.</default>
-	</talk>
-	<talk character="Klane">
-		<default>É, o esquartejamento parece ter sido muito depois da morte.</default>
-	</talk>
-	<talk character="Brad">
-		<default>Como ninguém sabia que ela tinha um amante e ninguém desconfiaria quem era...</default>
-	</talk>
-	<talk character="Klane">
-		<default>É, até que, pra um policial, você consegue raciocinar bem.</default>
-	</talk>
-	<teller>
-		<default>Klane sai.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Ei!</default>
-	</talk>
-	<teller>
-		<first>Inês chega em seu apartamento. Vê um corpo no chão. Baixa. Pega o pulso.</first>
-	</teller>
-	<talk character="Inês">
-		<default>Podiam pelo menos levar o corpo, ou jogar pela janela.</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Fiquei com fome enquanto esperava.</arrive>
-	</talk>
-	<teller>
-		<default>Inês levanta e se vira.</default>
-	</teller>
-	<talk character="Inês">
-		<default>Ah, achei que fosse algum amigo dela...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Parece que já se acostumou com esse tipo de coisa.</default>
-	</talk>
-	<talk character="Inês">
-		<default>É, e estou acostumada também a nunca mais ver os que fazem isso. Há muitos caça-vampiros nessa área.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas eu sou um vampiro especial.</default>
-	</talk>
-	<teller>
-		<default>Inês encolhe e solta os ombros.</default>
-	</teller>
-	<talk character="Inês">
-		<default>Tá...</default>
-	</talk>
-	<teller>
-		<default>Edmont puxa e beija Inês. Madrugada. Inês está na cama só com o lençol. Edmont está de calça, em uma cadeira. Vai até a janela.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Não acreditei quando enfiou a espada em Modret. Foi fraco. Henry era só um humano. Eu era uma criança e venci Henry.</default>
-	</talk>
-	<talk character="Inês">
-		<default>E Angely te venceu.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É. Mas não preciso me preocupar, é incapaz de matar.</default>
-	</talk>
-	<teller>
-		<default>Edmont se vira e encosta na janela de costas.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Não sei por que estou te contando isso. Não contei pra ninguém, nem pra mim mesmo eu falo isso. Você é bruxa?</default>
-	</talk>
-	<talk character="Inês">
-		<default>Não. Fênix.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E o que é isso?</default>
-	</talk>
-	<talk character="Inês">
-		<default>Não sei muito. Mas sei que posso reconhecer um vampiro de longe.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É? E por que não foge?</default>
-	</talk>
-	<talk character="Inês">
-		<default>Posso reconhecer por que me sinto atraída por vampiros.</default>
-	</talk>
-	<teller>
-		<default>Edmont vai até Inês.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>E se eu quiser te matar?</default>
-	</talk>
-	<teller>
-		<first>Zenon está andando na rua. Olha para o horizonte. Entra num bar.</first>
-	</teller>
-	<talk character="Daniel">
-		<default>Estamos fechando.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Mas eu...</default>
-	</talk>
-	<talk character="Daniel">
-		<default>Não pode ficar aqui, vou fechar agora.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Você não está entendendo, preciso de um lugar pra ficar durante o dia...</default>
-	</talk>
-	<talk character="Daniel">
-		<default>Estou sim, isso aqui não é abrigo pra vampiro.</default>
-	</talk>
-	<talk character="Beatrice">
-		<arrive>E pra uma vampira, tem abrigo?</arrive>
-	</talk>
-	<talk character="Zenon">
-		<default>Edmont te expulsou do apartamento?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não, apenas demorei demais com a caça. Não vai nos deixar ficar?</default>
-	</talk>
-	<talk character="Daniel">
-		<default>Não quero morrer.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não preciso da sua permissão pra ficar. Se deixar, eu posso até ser doce. Mas se resolver nos expulsar, vai se arrepender imensamente.</default>
-	</talk>
-	<teller>
-		<default>Zenon olha para Beatrice.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Não quero um favor seu.</default>
-	</talk>
-	<teller>
-		<default>Zenon olha para Daniel.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Tem uma saída pelo esgoto aqui?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Que nojo.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Já tô acostumado.</default>
-	</talk>
-	<teller>
-		<default>Daniel revira os olhos.</default>
-	</teller>
-	<talk character="Daniel">
-		<default>Eu te mostro.</default>
-	</talk>
-	<teller>
-		<default>Daniel sai e Zenon segue. Daniel volta.</default>
-	</teller>
-	<talk character="Daniel">
-		<default>Já disse que não é dormitório de vampiro isso aqui.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>E se eu não quiser dormir?</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "17",
+	"scene": "d",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique está andando na rua."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique continua andando. Mel corre até Psique e segura-lhe o braço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely imaginou tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai me convencer!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É sério, Michael não te disse? Angely toma remédios..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ha-ha-ha!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não vamos ao consultório pra ver isso? Perguntamos a alguém de lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E Agatha, é doente também?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha acredita em Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos lá e, se não tiver nada disso, eu falo com a impressa que foi seu irmão que matou meu marido."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Consultório."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ué, não tem ninguém aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor, nós mexemos nos arquivos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não podemos fazer isso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podemos, sim, você casou com Michael e eu estou procurando arquivos de família."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dentro do banheiro, Edmont segura Ana, assistente de Michael, tampado a boca. Psique e Mel entram na sala de atendimento. Psique olha os armários. Mel acha a ficha de Angely, na gaveta. Abre."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Ótimo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel fecha a ficha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique vai até Mel e pega a ficha. Abre e lê."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é desde a morte da primeira namorada dele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele disse que via ela chamando e chegou a tentar suicídio?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não viu a marca no pulso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa... Mas por que ele fica inventando esse tipo de coisa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não entendi direito quando Michael explicou... Não entendo por que não usava computador!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele não gostava. Se visse o número de desastres que ele arrumava pra não usar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, agora que já vimos isso, podemos voltar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel pega a ficha e guarda. Saem encontram Edmont na cadeira da recepção. Psique dá um passo atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que feio, invadindo o escritório alheio..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como se não tivesse feito o mesmo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas eu não preciso ser educado."
+				},
+				{
+					"type": "teller",
+					"text": "se levanta"
+				},
+				{
+					"type": "default",
+					"text": "Sou vampiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não temos medo de você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique abre a cortina atrás de si e puxa Mel para o sol."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fale por você. "
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se eu não quiser queimar meu braço pra te pegar aí, posso simplesmente esperar anoitecer."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se encosta na mesa e cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vieram fazer o que aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te interessa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não seja mal-educada..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pegar a ficha do seu irmão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ficha? Angely parou a terapia quando descobrimos que Meg era real."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então é verdade..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seja o que for, Angely não mente. Já sei, acabou deixando escapar que somos canibais!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique arregala os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brincadeira. Quer dizer, em parte, já que agora eu vivo de pelo menos uma parte de seres humanos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique olha pela janela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai pular? Não vai sobreviver, confie em mim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel pega uma cadeira e joga na direção de Edmont. Edmont desvia a cadeira que acerta a parede."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se ainda fosse aquelas cadeiras de antes, feitas de madeira..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont dá um passo em direção Psique e Mel. Psique abre a janela e empurra Mel. Edmont puxa Psique e joga no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que fez isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já vi Mel se recuperar de coisas bem piores."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bem inteligente, com certeza sobrevive."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No chão, pessoa se juntam em volta de Mel. Mel tenta levantar o braço, não consegue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lá em cima..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel fecha os olhos. Abre novamente. Teto branco. Senta-se. Está em uma cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Mel e vai até a cama. Abraça Mel. Mel afasta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ontem de manhã você caiu de um prédio. Lembra direito o que aconteceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só lembro que foi Psique que me jogou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Eu não te disse que ela era perigosa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também lembro de alguma coisa com Edmont..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Provavelmente seu irmão tentou te salvar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso falar com Mel a sós?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu só vim mesmo confirmar o que as testemunhas disseram. Deram a descrição da médica e agora você disse que foi ela... Você provavelmente pegou ela com o amante, por acaso no último lugar que qualquer um imaginaria, e ela te jogou lá de cima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só lembro de Psique e de Edmont..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad abre a boca e fecha em seguida."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada. Tenho que ir."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad sai. Mel tira o lençol, mas Angely para Mel. Sai do quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá achando que quem tinha um caso com Psique era Edmont?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad olha pra Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qualquer um perguntaria isso com um tom mais indignado... Até você, se achasse o contrário."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi só pra saber."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad estranha. Angely se vira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que você não só acha, sabe que é seu irmão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Prende Edmont então. Faz o que quiser, já não faz diferença."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely volta ao quarto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Delegacia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Klane",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí, descobriu algo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi pra você também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Klane",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não enrola!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Conhece Edmont Lorrage Kallend?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Klane",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já ajudei o irmão dele com uma bomba..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A médica quem jogou Melody lá de cima. Melody diz que não lembra de nada, exceto de ter visto a médica e o irmão dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Klane",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A assistente do psicólogo foi encontrada morta e o consultório estava de ponta cabeça... Peraí, tá querendo dizer que o tal amante..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é difícil ela ter trocado um psicólogo de trinta e seis por um cantor de vinte e três. Devem ter matado o cara e ficaram planejando o que fazer, o cara tava morto há dias."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Klane",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, o esquartejamento parece ter sido muito depois da morte."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como ninguém sabia que ela tinha um amante e ninguém desconfiaria quem era..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Klane",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, até que, pra um policial, você consegue raciocinar bem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Klane sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Inês chega em seu apartamento. Vê um corpo no chão. Baixa. Pega o pulso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podiam pelo menos levar o corpo, ou jogar pela janela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Fiquei com fome enquanto esperava."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Inês levanta e se vira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, achei que fosse algum amigo dela..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece que já se acostumou com esse tipo de coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, e estou acostumada também a nunca mais ver os que fazem isso. Há muitos caça-vampiros nessa área."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas eu sou um vampiro especial."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Inês encolhe e solta os ombros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont puxa e beija Inês. Madrugada. Inês está na cama só com o lençol. Edmont está de calça, em uma cadeira. Vai até a janela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não acreditei quando enfiou a espada em Modret. Foi fraco. Henry era só um humano. Eu era uma criança e venci Henry."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E Angely te venceu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Mas não preciso me preocupar, é incapaz de matar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se vira e encosta na janela de costas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei por que estou te contando isso. Não contei pra ninguém, nem pra mim mesmo eu falo isso. Você é bruxa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Fênix."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que é isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei muito. Mas sei que posso reconhecer um vampiro de longe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É? E por que não foge?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso reconhecer por que me sinto atraída por vampiros."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont vai até Inês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se eu quiser te matar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Zenon está andando na rua. Olha para o horizonte. Entra num bar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Daniel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estamos fechando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Daniel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode ficar aqui, vou fechar agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não está entendendo, preciso de um lugar pra ficar durante o dia..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Daniel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estou sim, isso aqui não é abrigo pra vampiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "E pra uma vampira, tem abrigo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont te expulsou do apartamento?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, apenas demorei demais com a caça. Não vai nos deixar ficar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Daniel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quero morrer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não preciso da sua permissão pra ficar. Se deixar, eu posso até ser doce. Mas se resolver nos expulsar, vai se arrepender imensamente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon olha para Beatrice."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quero um favor seu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon olha para Daniel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem uma saída pelo esgoto aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que nojo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já tô acostumado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Daniel revira os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Daniel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu te mostro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Daniel sai e Zenon segue. Daniel volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Daniel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já disse que não é dormitório de vampiro isso aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se eu não quiser dormir?"
+				}
+			]
+		}
+	]
+}

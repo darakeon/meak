@@ -1,477 +1,1554 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="07" scene="c">
-	<teller>
-		<default>Madrugada. Biblioteca.</default>
-	</teller>
-	<talk character="Lis">
-		<default>Estamos fechando, só tem uma garota devolvendo um livro aqui...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Fizemos um cadastro, em nome da agência, a gente...</default>
-	</talk>
-	<talk character="Lis">
-		<default>A MEAK?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sim.</default>
-	</talk>
-	<talk character="Lis">
-		<default>Sinto muito, estou mesmo muito cansada pra ficar aqui, só se vocês conseguirem chamar os outros dois. O telefone deles é esse aqui.</default>
-	</talk>
-	<teller>
-		<default>Lis entrega um cartão a Mel. Mel pega o celular. Digita. Coloca o telefone no ouvido. Espera. Solta os ombros. Desliga. Guarda o celular.</default>
-	</teller>
-	<talk character="Lis">
-		<default>Devem ter saído.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não pode mesmo ficar aqui?</default>
-	</talk>
-	<talk character="Lis">
-		<default>Sinto muito, tenho mesmo que ir. Meu namorado está esperando.</default>
-	</talk>
-	<talk character="Bea">
-		<arrive>Vocês por aqui...</arrive>
-	</talk>
-	<talk character="Mel">
-		<default>Não tinha mais o que fazer e resolveu ler um pouquinho?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Se é por causa dos fantasmas, já foram embora.</default>
-	</talk>
-	<talk character="Lis">
-		<default>Se tivessem me dito que era sobre fantasmas...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não sabíamos que conhecia esse tipo de coisa.</default>
-	</talk>
-	<talk character="Lis">
-		<default>Nós três que trabalhamos aqui conhecemos isso. Quando quiserem algo do tipo, é só falar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Edmont mandou você se livrar dos fantasmas por quê?</default>
-	</talk>
-	<teller>
-		<default>Olha para Angely.</default>
-	</teller>
-	<talk character="Mel">
-		<default>E você, porque não me contou logo?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Mas eu...</default>
-	</talk>
-	<talk character="Bea">
-		<default>Angely não sabia. Não foi Edmont que mandou eu fazer isso. Fiz porque Angely já me salvou várias vezes.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E quanto vai cobrar?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Mel!</default>
-	</talk>
-	<teller>
-		<default>Bea revira os olhos e sai.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Beatrice estava ajudando.</default>
-	</talk>
-	<talk character="Mel">
-		<default>A última vez que ajudou, foi um acordo que fizemos.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Do que você tem medo?</default>
-	</talk>
-	<teller>
-		<default>Mel encara Angely. Do lado de fora, Beatrice sai. Edmont puxa Beatrice e coloca contra a parede.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Que esperava, que te oferecesse um quarto?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Essa é a parte em que você me mata?</default>
-	</talk>
-	<teller>
-		<default>Edmont passa a mão no rosto de Beatrice.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Não entendeu ainda que você não é do lado da MEAK? Você é como eu. Dessa vez vou te perdoar. Vamos voltar pra casa...</default>
-	</talk>
-	<talk character="Bea">
-		<default>Que casa?! Alguma que você matou alguém pra ter???</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Angely alugou. Tá me controlando.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Duvido.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Se fosse mentira, já tinha saído aqui e dito isso. Você sabe que sabemos, essa coisa agora é praticamente em tempo real. Vem comigo, eu vou cuidar de você.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Como vou saber que não vai me maltratar de novo?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Já te dei essa resposta. </default>
-	</talk>
-	<talk character="Bea">
-		<default>Mas se você não faz isso só porque Angely está olhando...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu já entendi que não vai mais aceitar minhas grosserias.</default>
-	</talk>
-	<teller>
-		<default>Edmont beija Beatrice. Sai, levando Beatrice pela mão. Angely sai com Mel.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Eu não confio.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não teria motivos para mentir.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sem contar o principal? Ser vampir?</default>
-	</talk>
-	<teller>
-		<first>Edmont e Beatrice entram num apartamento. Edmont puxa Beatrice, Beatrice se afasta.</first>
-	</teller>
-	<talk character="Edmont">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Anda se alimentando do que?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Normalmente vento, ou às vezes Angely deixa eu pegar algo vivo.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Seu corpo não tá frio.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Porque fiz uma visita a delegacia e tinha um cara fugindo.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Angely deixou?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Quer parar de falar de Angely? Já tá me irritando.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Não tô com vontade de fazer nada.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sabe o que é isso?</default>
-	</talk>
-	<teller>
-		<default>Edmont se aproxima de Beatrice e abraça.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Fome. Eu vou ver se arranjo algo pra você.</default>
-	</talk>
-	<talk character="Bea">
-		<default>E o que seria?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Bom, você não quer mais gente, vejo se arranjo um bicho qualquer.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Está matando animais?</default>
-	</talk>
-	<teller>
-		<default>Edmont revira os olhos. Afasta de Beatrice.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Não precisa matar.</default>
-	</talk>
-	<teller>
-		<default>Edmont sai do quarto.</default>
-	</teller>
-	<talk character="Edmont">
-		<thought>Por essa você me paga, Angely.</thought>
-	</talk>
-	<talk character="Ang">
-		<thought>Não queria Beatrice?</thought>
-	</talk>
-	<talk character="Edmont">
-		<thought>Posso arranjar outra pessoa. Posso ver se Henrique está tendo crises de consciência também.</thought>
-	</talk>
-	<talk character="Ang">
-		<thought>Sei que prefere e foi você quem fez ficar dependente desse jeito. Estava se encontrando, conseguiu viver longe de você, mas você desviou de volta.</thought>
-	</talk>
-	<talk character="Edmont">
-		<thought>Estava se era arrependendo, só devolvi o rumo.</thought>
-	</talk>
-	<talk character="Ang">
-		<thought>Poderia estar caçando os bichos se você não tivesse feito o que fez.</thought>
-	</talk>
-	<teller>
-		<default>Dentro do quarto, Beatrice olha ao redor. Abaixa para sentar, a cadeira se move. Olha para os lados. Pega a cadeira. Move-se de novo.</default>
-	</teller>
-	<talk character="Martim">
-		<ghost>Meu ouro.</ghost>
-	</talk>
-	<talk character="Bea">
-		<default>Então, não vou sentar enquanto não te arranjar o que você quer?</default>
-	</talk>
-	<talk character="Martim">
-		<ghost>Tem um orfanato aí na frente. Crianças não sabem como fugir de incêndio, ficam apavoradas, sabia?</ghost>
-	</talk>
-	<talk character="Bea">
-		<default>São gado pra mim, porque me importaria?</default>
-	</talk>
-	<talk character="Martim">
-		<ghost>Você não me engana. Foi tentar me expulsar daquela casa porque?</ghost>
-	</talk>
-	<talk character="Bea">
-		<default>Interesse. Viu uma pessoa parecida com...</default>
-	</talk>
-	<talk character="Martim">
-		<ghost>Aquele anjo? Nem consigo aparecer perto dele, ou me mover, por quê você poderia?</ghost>
-	</talk>
-	<talk character="Bea">
-		<irony>Porque eu não morri?</irony>
-	</talk>
-	<talk character="Martim">
-		<ghost>Não se importa mesmo com as crianças?</ghost>
-	</talk>
-	<talk character="Bea">
-		<irony>Vai fazer o que? Tirar as cadeiras delas?</irony>
-	</talk>
-	<teller>
-		<default>Silêncio.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Fantasma?</default>
-	</talk>
-	<teller>
-		<default>Beatrice vai até a janela. Arregala os olhos. Sai pela janela, desce até a rua. Vai para a lateral do prédio. Pula e sobe a escada de emergência. Entra por uma janela. Camas. Crianças acordam. Gritam. Beatrice corre até o extintor, tira da parede. Quebra a alavanca. Vai até o corredor, pega outro, destrava, vai até a labareda e apaga. As crianças se encolhem. Duas pessoas adultas entram. Beatrice sai pela janela. Desce na lateral do prédio novamente.</default>
-	</teller>
-	<talk character="Martim">
-		<ghost>Meu ouro.</ghost>
-	</talk>
-	<teller>
-		<default>Duas horas depois, Beatrice entra no apartamento. Edmont está na cama. Há um pitbull no canto do quarto.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Onde foi?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Tomar ar.</default>
-	</talk>
-	<teller>
-		<default>Edmont levanta e vai até Beatrice. Toca seu rosto.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Frio.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Você disse que traria algo, por quê eu iria atrás? Não te faria desfeita.</default>
-	</talk>
-	<teller>
-		<default>Edmont se deita novamente.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Tá ali. O dono não deu pra trazer.</default>
-	</talk>
-	<teller>
-		<default>Bea olha para o cachorro amarrado no canto do quarto. Olha algum tempo.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Se te deixar mais feliz, treinaram pra atacar crianças, porque o dono não gostava que nenhuma chegasse perto. E a água é porque dei banho antes de vir pra cá.</default>
-	</talk>
-	<teller>
-		<default>Edmont senta-se. Beatrice se aproxima do pitbul.</default>
-	</teller>
-	<talk character="Bea">
-		<thought>Você é como eu.</thought>
-	</talk>
-	<talk character="Edmont">
-		<thought>Isso é deprimente. Só beijo depois disso se escovar os dentes umas dez vezes. Se bem que o dono não tava em melhor estado. Você realmente tá de sacanagem comigo, Angely.</thought>
-	</talk>
-	<talk character="Ang">
-		<default>Por mim você morria de fome.</default>
-	</talk>
-	<teller>
-		<first>Manhã. Ang está andando pela Ilha. Brenda segura o braço de Angely.</first>
-	</teller>
-	<talk character="Brenda">
-		<default>Professor?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Brenda.</default>
-	</talk>
-	<talk character="Brenda">
-		<default>Lembra meu nome? No dia achei que fosse desses que sai com uma cada dia e, quando encontra, ou finge que não conhece, ou fica esperando ela falar o nome pra não pagar mico.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não costumo fazer esse tipo de coisa.</default>
-	</talk>
-	<talk character="Brenda">
-		<default>Essa é a terceira mais usada.</default>
-	</talk>
-	<talk character="Edmont">
-		<thought>Tá com tempo agora, porque não repete a dose?</thought>
-	</talk>
-	<talk character="Ang">
-		<default>Tenho que ir, tenho mesmo.</default>
-	</talk>
-	<talk character="Edmont">
-		<thought>Mentiroso.</thought>
-	</talk>
-	<talk character="Ang">
-		<thought>O fato de você estar me perturbando me faz ter que ir.</thought>
-	</talk>
-	<teller>
-		<default>Ares.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Bea...</default>
-	</talk>
-	<teller>
-		<default>Edmont passa a mão nas costas de Beatrice, que está de costas.</default>
-	</teller>
-	<talk character="Ang">
-		<thought>Não vai fazer isso.</thought>
-	</talk>
-	<talk character="Edmont">
-		<thought>Eu disse que você me pagava.</thought>
-	</talk>
-	<teller>
-		<default>Beatrice senta-se na cama e olha para Edmont.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Que?</default>
-	</talk>
-	<teller>
-		<default>Edmont se senta e beija Beatrice. Deita Beatrice na cama e fica por cima, entre as pernas de Beatrice. Em Hera, Angely sai correndo. Corre, atravessa a ilha, chega até a MEAK.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Ang, podia falar com os professores...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Depois eu falo com você, Mel.</default>
-	</talk>
-	<teller>
-		<default>Ang sobe. Encontra Alan no corredor.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Angely...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Já volto, peraí...</default>
-	</talk>
-	<talk character="Alan">
-		<default>Mas...</default>
-	</talk>
-	<teller>
-		<default>Angely entra correndo em seu quarto, tranca a porta, entra no banheiro. Vira o chuveiro para o frio, abre e entra embaixo. Tira a camisa. Alan desce a escada.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Contou pra ele quem tá no quarto dele?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu não, passou correndo.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Bom, correndo daquele jeito, deve ser dor de barriga. Vai ser engraçado Estela saindo correndo.</default>
-	</talk>
-	<teller>
-		<default>Mel revira os olhos. Banheiro de Angely.</default>
-	</teller>
-	<talk character="Estela">
-		<out>Angely?</out>
-	</talk>
-	<talk character="Ang">
-		<default>Estela? Tá fazendo o que aqui?</default>
-	</talk>
-	<talk character="Estela">
-		<out>Desculpa...</out>
-	</talk>
-	<teller>
-		<default>Estela se levanta e vai até a porta do banheiro.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Eu passei mal na escola, Alan me trouxe para casa e eu vim direto aqui, pra falar com você. Fui esperar e acabei caindo no sono...</default>
-	</talk>
-	<teller>
-		<default>Angely paralisou. Vira a cabeça de lado, ainda olhando nos olhos de Estela.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Angely? Tá me escutando? Que cara é essa?</default>
-	</talk>
-	<teller>
-		<default>Angely avança na direção de Estela. Estela dá passos para trás. Fica contra a parede. Angely está levemente ofegante.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Angely?</default>
-	</talk>
-	<teller>
-		<default>Chega a mão perto do rosto de Estela, sem tocar. Estela beija Angely. Angely levanta Estela e coloca as pernas de Estela em volta de si. Vira, continuam se beijando, deita Estela na cama, ficando por cima.</default>
-	</teller>
-	<talk character="Mel">
-		<out>Angely?!</out>
-	</talk>
-	<teller>
-		<default>Angely se afasta de Estela. Olha nos olhos de Estela. Sai do quarto, esbarra em Mel e continua. Passa correndo. Mel entra no quarto, Alan entra atrás.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Você tá bem?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que Angely fez?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Me beijou...</default>
-	</talk>
-	<talk character="Alan">
-		<default>Filho duma... Será que era mesmo o Angely?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se fosse Edmont, tinha levado junto quando saiu correndo. Ou tinha gritado que tava ocupado aqui de dentro.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Por que ele me beijou?</default>
-	</talk>
-	<talk character="Alan">
-		<default>É isso que também queremos saber.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Liczu.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Uma coisa que sabemos fazer, mas às vezes não se faz de propósito. E precisa que já ter alguma fagulha na pessoa.</default>
-	</talk>
-	<talk character="Alan">
-		<default>É algum feitiço??? Ele enfeitiçou ela???</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não exatamente.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Quer fazer o favor de me explicar???</default>
-	</talk>
-	<teller>
-		<default>Mel beija Alan. Se afasta. Alan entra no banheiro, tranca a porta. Barulho de chuveiro.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Boa idéia.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vem comigo, Estela.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Estela?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Com virgem é até pior. Vem comigo.</default>
-	</talk>
-</story>
+{
+	"season": "B",
+	"episode": "07",
+	"scene": "c",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Madrugada. Biblioteca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estamos fechando, só tem uma garota devolvendo um livro aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fizemos um cadastro, em nome da agência, a gente..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A MEAK?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sinto muito, estou mesmo muito cansada pra ficar aqui, só se vocês conseguirem chamar os outros dois. O telefone deles é esse aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lis entrega um cartão a Mel. Mel pega o celular. Digita. Coloca o telefone no ouvido. Espera. Solta os ombros. Desliga. Guarda o celular."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devem ter saído."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode mesmo ficar aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sinto muito, tenho mesmo que ir. Meu namorado está esperando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Vocês por aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tinha mais o que fazer e resolveu ler um pouquinho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se é por causa dos fantasmas, já foram embora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se tivessem me dito que era sobre fantasmas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabíamos que conhecia esse tipo de coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós três que trabalhamos aqui conhecemos isso. Quando quiserem algo do tipo, é só falar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont mandou você se livrar dos fantasmas por quê?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha para Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você, porque não me contou logo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely não sabia. Não foi Edmont que mandou eu fazer isso. Fiz porque Angely já me salvou várias vezes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quanto vai cobrar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bea revira os olhos e sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice estava ajudando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A última vez que ajudou, foi um acordo que fizemos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que você tem medo?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel encara Angely. Do lado de fora, Beatrice sai. Edmont puxa Beatrice e coloca contra a parede."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que esperava, que te oferecesse um quarto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa é a parte em que você me mata?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont passa a mão no rosto de Beatrice."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não entendeu ainda que você não é do lado da MEAK? Você é como eu. Dessa vez vou te perdoar. Vamos voltar pra casa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que casa?! Alguma que você matou alguém pra ter???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely alugou. Tá me controlando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Duvido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se fosse mentira, já tinha saído aqui e dito isso. Você sabe que sabemos, essa coisa agora é praticamente em tempo real. Vem comigo, eu vou cuidar de você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como vou saber que não vai me maltratar de novo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já te dei essa resposta. "
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas se você não faz isso só porque Angely está olhando..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu já entendi que não vai mais aceitar minhas grosserias."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont beija Beatrice. Sai, levando Beatrice pela mão. Angely sai com Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não confio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não teria motivos para mentir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sem contar o principal? Ser vampir?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Edmont e Beatrice entram num apartamento. Edmont puxa Beatrice, Beatrice se afasta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Anda se alimentando do que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Normalmente vento, ou às vezes Angely deixa eu pegar algo vivo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu corpo não tá frio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque fiz uma visita a delegacia e tinha um cara fugindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely deixou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer parar de falar de Angely? Já tá me irritando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tô com vontade de fazer nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe o que é isso?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se aproxima de Beatrice e abraça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fome. Eu vou ver se arranjo algo pra você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que seria?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, você não quer mais gente, vejo se arranjo um bicho qualquer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está matando animais?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont revira os olhos. Afasta de Beatrice."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa matar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont sai do quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Por essa você me paga, Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Não queria Beatrice?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Posso arranjar outra pessoa. Posso ver se Henrique está tendo crises de consciência também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Sei que prefere e foi você quem fez ficar dependente desse jeito. Estava se encontrando, conseguiu viver longe de você, mas você desviou de volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Estava se era arrependendo, só devolvi o rumo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Poderia estar caçando os bichos se você não tivesse feito o que fez."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dentro do quarto, Beatrice olha ao redor. Abaixa para sentar, a cadeira se move. Olha para os lados. Pega a cadeira. Move-se de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Martim",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Meu ouro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, não vou sentar enquanto não te arranjar o que você quer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Martim",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Tem um orfanato aí na frente. Crianças não sabem como fugir de incêndio, ficam apavoradas, sabia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "São gado pra mim, porque me importaria?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Martim",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Você não me engana. Foi tentar me expulsar daquela casa porque?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Interesse. Viu uma pessoa parecida com..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Martim",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Aquele anjo? Nem consigo aparecer perto dele, ou me mover, por quê você poderia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Porque eu não morri?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Martim",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Não se importa mesmo com as crianças?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Vai fazer o que? Tirar as cadeiras delas?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Silêncio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fantasma?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice vai até a janela. Arregala os olhos. Sai pela janela, desce até a rua. Vai para a lateral do prédio. Pula e sobe a escada de emergência. Entra por uma janela. Camas. Crianças acordam. Gritam. Beatrice corre até o extintor, tira da parede. Quebra a alavanca. Vai até o corredor, pega outro, destrava, vai até a labareda e apaga. As crianças se encolhem. Duas pessoas adultas entram. Beatrice sai pela janela. Desce na lateral do prédio novamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Martim",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Meu ouro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Duas horas depois, Beatrice entra no apartamento. Edmont está na cama. Há um pitbull no canto do quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tomar ar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont levanta e vai até Beatrice. Toca seu rosto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Frio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você disse que traria algo, por quê eu iria atrás? Não te faria desfeita."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se deita novamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá ali. O dono não deu pra trazer."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bea olha para o cachorro amarrado no canto do quarto. Olha algum tempo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se te deixar mais feliz, treinaram pra atacar crianças, porque o dono não gostava que nenhuma chegasse perto. E a água é porque dei banho antes de vir pra cá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont senta-se. Beatrice se aproxima do pitbul."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Você é como eu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Isso é deprimente. Só beijo depois disso se escovar os dentes umas dez vezes. Se bem que o dono não tava em melhor estado. Você realmente tá de sacanagem comigo, Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por mim você morria de fome."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Manhã. Ang está andando pela Ilha. Brenda segura o braço de Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brenda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Professor?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brenda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brenda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lembra meu nome? No dia achei que fosse desses que sai com uma cada dia e, quando encontra, ou finge que não conhece, ou fica esperando ela falar o nome pra não pagar mico."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não costumo fazer esse tipo de coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brenda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa é a terceira mais usada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Tá com tempo agora, porque não repete a dose?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho que ir, tenho mesmo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Mentiroso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "O fato de você estar me perturbando me faz ter que ir."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ares."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bea..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont passa a mão nas costas de Beatrice, que está de costas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Não vai fazer isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Eu disse que você me pagava."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice senta-se na cama e olha para Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se senta e beija Beatrice. Deita Beatrice na cama e fica por cima, entre as pernas de Beatrice. Em Hera, Angely sai correndo. Corre, atravessa a ilha, chega até a MEAK."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang, podia falar com os professores..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Depois eu falo com você, Mel."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang sobe. Encontra Alan no corredor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já volto, peraí..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely entra correndo em seu quarto, tranca a porta, entra no banheiro. Vira o chuveiro para o frio, abre e entra embaixo. Tira a camisa. Alan desce a escada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Contou pra ele quem tá no quarto dele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não, passou correndo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, correndo daquele jeito, deve ser dor de barriga. Vai ser engraçado Estela saindo correndo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel revira os olhos. Banheiro de Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela? Tá fazendo o que aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Desculpa..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela se levanta e vai até a porta do banheiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu passei mal na escola, Alan me trouxe para casa e eu vim direto aqui, pra falar com você. Fui esperar e acabei caindo no sono..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely paralisou. Vira a cabeça de lado, ainda olhando nos olhos de Estela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely? Tá me escutando? Que cara é essa?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely avança na direção de Estela. Estela dá passos para trás. Fica contra a parede. Angely está levemente ofegante."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Chega a mão perto do rosto de Estela, sem tocar. Estela beija Angely. Angely levanta Estela e coloca as pernas de Estela em volta de si. Vira, continuam se beijando, deita Estela na cama, ficando por cima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Angely?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely se afasta de Estela. Olha nos olhos de Estela. Sai do quarto, esbarra em Mel e continua. Passa correndo. Mel entra no quarto, Alan entra atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tá bem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que Angely fez?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me beijou..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Filho duma... Será que era mesmo o Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se fosse Edmont, tinha levado junto quando saiu correndo. Ou tinha gritado que tava ocupado aqui de dentro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que ele me beijou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É isso que também queremos saber."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Liczu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma coisa que sabemos fazer, mas às vezes não se faz de propósito. E precisa que já ter alguma fagulha na pessoa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É algum feitiço??? Ele enfeitiçou ela???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não exatamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer fazer o favor de me explicar???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel beija Alan. Se afasta. Alan entra no banheiro, tranca a porta. Barulho de chuveiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Boa idéia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vem comigo, Estela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com virgem é até pior. Vem comigo."
+				}
+			]
+		}
+	]
+}

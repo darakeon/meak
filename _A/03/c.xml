@@ -1,698 +1,2284 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="03" scene="c">
-	<teller>
-		<default>A moto de Edmont morre num farol. Ele tenta ligar, nada.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Droga...</default>
-	</talk>
-	<teller>
-		<default>Leva a moto para o acostamento. Um carro para perto.</default>
-	</teller>
-	<talk character="Rith">
-		<arrive>Devia verificar a bateria de vez em quando.</arrive>
-	</talk>
-	<teller>
-		<default>Edmont levanta a aba do capacete.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Por que estava me seguindo?</default>
-	</talk>
-	<talk character="Rith">
-		<default>Não devia sair de casa assim.</default>
-	</talk>
-	<talk character="Edmont">
-		<irony>E o que eu faço? Acampo no jardim?</irony>
-	</talk>
-	<talk character="Rith">
-		<default>Posso te ajudar se você quiser...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não, eu vou arrumar minha vida e voltar pra buscar ela.</default>
-	</talk>
-	<talk character="Rith">
-		<irony>Ahã. Montado num cavalo branco. E sem bateria, provavelmente.</irony>
-	</talk>
-	<teller>
-		<default>Rith sai do carro.</default>
-	</teller>
-	<talk character="Rith">
-		<default>Pode ficar na minha casa até que as coisas se acalmem e Júlio entenda.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu não...</default>
-	</talk>
-	<talk character="Rith">
-		<default>Para de bancar o adolescente dramático.</default>
-	</talk>
-	<teller>
-		<default>Edmont baixa a cabeça. Fica pensativo por alguns instantes. Respira fundo.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Tá.</default>
-	</talk>
-	<teller>
-		<first>Na casa de Júlio, hora do jantar, todos estão calados.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Amanhã tem aula já...</default>
-	</talk>
-	<talk character="Júlio">
-		<default>É. Já sabem a sala certa?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Já. Passamos na escola, vimos tudo direito e pegamos os cartões de entrada.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Pai, sobre o que aconteceu hoje de tarde...</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Espero que não aconteça de novo.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Mas, pai...</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Não quero que veja mais ele.</default>
-	</talk>
-	<teller>
-		<default>No dia seguinte, de manhã, Angely vai até o quarto de Agatha, que ainda está na cama.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Agatha, ainda não se arrumou?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Eu não vou.</default>
-	</talk>
-	<talk character="Angely">
-		<default>É melhor você ir.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Por quê? Por que meu pai quer?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont não foi embora. Rith foi atrás dele.</default>
-	</talk>
-	<teller>
-		<default>Agatha olha pra Angely. Se senta na cama.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Será que ele vai?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Seu pai não vai te deixar ir de camisola.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Você acha que eu deveria...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Se arruma. Vai se atrasar.</default>
-	</talk>
-	<teller>
-		<default>Angely desce. Agatha se arruma. Júlio leva eles pra escola. Na terceira aula...</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Professor, com licença, posso falar com a Agatha?</default>
-	</talk>
-	<teller>
-		<default>O professor olha feio para Edmont. Olha para Agatha. Faz sinal com a mão pra que ela vá. Agatha sai da sala.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Então, o que decidiu?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ainda vai ficar na escola?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vou. Que decidiu?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Falamos no intervalo.</default>
-	</talk>
-	<teller>
-		<default>Ela volta à sala. Edmont também. Entra e se senta no lugar dele.</default>
-	</teller>
-	<talk character="Angely">
-		<default>E aí, falou com ela?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Disse que fala comigo no intervalo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Meg tá na sala dela, né?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Nossa, que cê andou fazendo? Ela não parou de falar de você ontem...</default>
-	</talk>
-	<talk character="Angely">
-		<default>De... mim?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Faz de bobo não. Só faltou perguntar a cor da sua cueca...</default>
-		<teller>Angely cora</teller>
-		<default>Não tô falando literalmente.</default>
-	</talk>
-	<talk character="Professora">
-		<default>Algo que queiram compartilhar com a sala?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Desculpe.</default>
-	</talk>
-	<talk character="Edmont">
-		<hushed>Aposto que sei mais da matéria que ela.</hushed>
-	</talk>
-	<talk character="Professora">
-		<default>Edmont?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não, nada professora.</default>
-	</talk>
-	<teller>
-		<first>Na hora do intervalo, Edmont vai falar com Agatha (trazendo Angely com ele).</first>
-	</teller>
-	<talk character="Edmont">
-		<default>E aí?</default>
-	</talk>
-	<teller>
-		<default>Agatha estava sentada conversando com Meg. Ela se levanta, olha pra Edmont e o beija.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Boa resposta.</default>
-	</talk>
-	<teller>
-		<default>Meg olha pra Angely, que não sabe onde esconder a cara.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Ei, eu não gosto de bancar vela!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Eu também não.</default>
-	</talk>
-	<teller>
-		<default>Meg pega o braço de Angely e sai puxando ele. Angely fica sem graça. Eles se sentam num banco da escola.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Deve ser estranho pra você isso tudo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nem tanto.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Eles já tinham alguma coisa?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu percebi que eles não se tratavam tanto como irmãos...</default>
-	</talk>
-	<talk character="Bryan">
-		<arrive>Ih, falando com uma garota? Pensei que não gostasse.</arrive>
-	</talk>
-	<talk character="Angely">
-		<hushed>Era justamente o que eu precisava.</hushed>
-	</talk>
-	<talk character="Bryan">
-		<default>Desiste, esse aí é mão quebrada. Mas se quiser um homem de verdade, eu tô aqui.</default>
-	</talk>
-	<teller>
-		<default>Uma pessoa chega perto de Angely.</default>
-	</teller>
-	<talk character="pessoa">
-		<default>Poderia falar com você?</default>
-	</talk>
-	<teller>
-		<default>Angely estranha, mas sai junto.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Você estuda com ele a muito tempo?</default>
-	</talk>
-	<talk character="Bryan">
-		<default>Tenho que te avisar: ele é viado.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Certeza?</default>
-	</talk>
-	<talk character="Bryan">
-		<default>Você não percebeu ainda?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Não...</default>
-	</talk>
-	<teller>
-		<default>Angely e a pessoa chegam a um lugar na escola que não tem ninguém.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Já nos conhecemos de algum lugar?</default>
-	</talk>
-	<teller>
-		<default>A pessoa tira os óculos e puxa pra frente uma trança de cor vermelha.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Melody???</default>
-	</talk>
-	<talk character="Mel">
-		<default>Fodeu tudo. Tão atrás de mim.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por quê? Como entrou na escola, Mel? Aliás, quando veio pra cá?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Falsifiquei o cartão de entrada. E a identidade também.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que andou fazendo por lá?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não foi lá, foi aqui. Tem que me ajudar.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vamos falar com o Edmont.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então ele chegou bem aqui...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que fizeram quando eu fugi? Achei que fossem virar guias, quem está cuidando de lá agora?</default>
-	</talk>
-	<teller>
-		<default>Mel olha pro chão. Olha de volta para Angely.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Que foi? O que aconteceu?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não tem jeito... Decente de eu contar isso. Descobri que o satélite ia colidir.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mas não há jeito de impedir?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Já era. O outro satélite era maior que o nosso, a essa hora só sobraram pedaços.</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Mel?</arrive>
-	</talk>
-	<teller>
-		<default>Mel coloca os óculos de novo e esconde a trança. Edmont abraça Mel. Agatha chega e franze a testa. Edmont se afasta, ainda sorrindo.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Conhece ela?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É de onde viemos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Essa pessoa sabe?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sabe.</default>
-	</talk>
-	<teller>
-		<default>Agatha desfranze a testa e se vira para trás, olhando para várias direções. Mel olha para o pescoço dela.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Calma, não dá pra saber do que estamos falando.</default>
-	</talk>
-	<teller>
-		<default>Mel pega Agatha, vira, tira o cabelo amarrado da frente do pescoço. Solta.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Você viajou?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mel, que isso?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Várias vezes na vida, mas o que</default>
-		<frizz>você</frizz>
-		<default>tem a ver com isso?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Viajou para algum lugar dois anos atrás?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Edmont, Angely...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Fala.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ela não vai fazer nada com você, pode responder.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ela foi pra Curitiba com umas amigas há dois anos, lembra?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não recebeu meu sinal, porra?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Que sinal?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Caralho, entendi tudo agora... Não lembrava disso...</default>
-	</talk>
-	<teller>
-		<default>Angely franze a testa e depois estica os olhos e bota a mão na frente da boca. Olha para Agatha.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Teve algum sonho de uma nave descendo na Terra antes da viagem?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Tive. Nossa, eu nem lembrava disso... Como que eu lembrei agora?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Cassete, ela não sabe!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por isso caímos onde caímos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Cadê quem cuida dela, pra eu dar uma surra, por favor?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>A mãe dela morreu, provavelmente só ela sabia.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mãe? Ah, essa palavra... Nunca lembro essas...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Do que vocês estão falando?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sabe o sonho que teve?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Sim.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É um sinal para que vá para algum lugar descampado, de preferência seguro. As pintas que você tem atrás do pescoço, formam o mesmo mapa que temos na mão, mas é menos perceptível. Você é um ponto seguro dos atlantes na Terra. Se tiver esse sonho de novo...</default>
-	</talk>
-	<teller>
-		<default>Angely se arrepia.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Ela não vai ter.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Como assim?</default>
-	</talk>
-	<teller>
-		<default>Angely suspira. Olha pra baixo. Olha para Edmont.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Já era.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Que?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nosso... Mundo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Colidiu com um satélite maior.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Só você conseguiu fugir?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tiveram outros, mas não dava pra descer todo mundo junto, no mesmo ponto seguro.</default>
-		<teller>olha para Agatha</teller>
-		<default>Se bem que teria sido mais seguro descer direto na avenida Paulista no meio de uma passeata.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Onde você ficou aqui?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Em muitos lugares. Fugi, me escondi, falsifiquei documento... O problema maior agora não é polícia.</default>
-	</talk>
-	<talk character="Meg">
-		<arrive>Gente, com licença...</arrive>
-	</talk>
-	<talk character="Angely">
-		<default>Está aí há quanto tempo?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Muito tempo. Realmente, muito tempo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Meg, não vai contar pra ninguém, vai?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Angely, você é gay?</default>
-	</talk>
-	<teller>
-		<default>As pessoas olham para Meg.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Quem é essa pessoa?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Bryan disse que é. Eu só queria saber. Tipo, ao menos seria algo... Terrestre.</default>
-	</talk>
-	<teller>
-		<default>Meg sai.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Quem é Bryan?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mel, não está pensando em fazer nada drástico, está?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por que não?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Você tá afim do Angely só, né?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Afim? O que diabos é...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Tá, deixa pra lá.</default>
-	</talk>
-	<teller>
-		<default>Bate o sinal. Edmont olha para Mel. Encosta no braço de Angely. Este lhe dá abraço. Agatha, Edmont e Angely vão pras suas respectivas salas.</default>
-	</teller>
-	<teller>
-		<default>Mel entra na diretoria da escola. Mexe nas coisas. Senta no computador. Olha fichas.</default>
-	</teller>
-	<talk character="diretor">
-		<arrive>Que está fazendo aqui?</arrive>
-	</talk>
-	<talk character="Mel">
-		<default>Eu me perdi.</default>
-	</talk>
-	<talk character="diretor">
-		<default>Estava mexendo nos arquivos... Qual seu nome?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Melody.</default>
-	</talk>
-	<talk character="diretor">
-		<default>Podemos dar um jeito de você não levar uma suspensão por isso.</default>
-	</talk>
-	<teller>
-		<first>Na casa de Rith, Júlio está andando de um lado para o outro, enquanto Rith está sentado no sofá.</first>
-	</teller>
-	<talk character="Rith">
-		<default>Está exagerando.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Não, eu não estou.</default>
-	</talk>
-	<talk character="Rith">
-		<default>Ele é um bom garoto.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Eu criei ele e ele desrespeita minha filha assim, na minha cara!</default>
-	</talk>
-	<talk character="Rith">
-		<default>Desrespeita?! Olha, até onde sei, ela bateu em quem fez isso.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>É minha filha!</default>
-	</talk>
-	<talk character="Rith">
-		<default>E por isso acha que é santa?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Não fale assim da minha filha!</default>
-	</talk>
-	<talk character="Rith">
-		<default>Ouvi ela e Meg conversando, acredite, eu sei.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Fala isso porque não é sua filha.</default>
-	</talk>
-	<talk character="Rith">
-		<default>Minha filha trouxe o último namorado em casa algumas vezes. Pra dormir.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Sério?</default>
-	</talk>
-	<talk character="Rith">
-		<default>Acredite, se você proibir, ela vai se meter a fazer as coisas escondida. E, se algo de pior acontecer, não vai ter coragem de te contar, e é capaz de ficar até se sentindo culpada, e</default>
-		<frizz>você</frizz>
-		<default>vai ter parcela nisso. É o que quer?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Na nossa época eu já achava exagerado garotas de dezoito não serem mais...</default>
-	</talk>
-	<talk character="Rith">
-		<default>Eu devia me sentir bem e nostálgico por você me lembrar meu irmão?</default>
-	</talk>
-	<teller>
-		<first>Na hora da saída, Angely passa por um tumulto de pessoa. Chega em alguém.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Que tá acontecendo?</default>
-	</talk>
-	<talk character="Kinyn">
-		<default>Sabe aquele diretor folgado, que cantou a Agatha?</default>
-	</talk>
-	<talk character="Angely">
-		<default>O abaixo assinado pra mandarem embora funcionou?</default>
-	</talk>
-	<talk character="Kinyn">
-		<default>Melhor. Tá apanhando duma garota lá... Cara, deu tesão de ver, assim que ela sair da cadeia juro que consigo o telefone!</default>
-	</talk>
-	<talk character="Bryan">
-		<default>Ele é viado que nem você.</default>
-	</talk>
-	<talk character="Kinyn">
-		<default>Cala a boca, Bryan.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Uma garota?... Mel!</default>
-	</talk>
-	<teller>
-		<default>Angely corre e consegue segurar Mel.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Calma!</default>
-	</talk>
-	<talk character="Mel">
-		<screamed>Gosta de menininha indefesa agora, seu monte de bosta?!</screamed>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Que está acontecendo aqui?</arrive>
-	</talk>
-	<talk character="Angely">
-		<default>Me ajuda!!! Não vou conseguir segurar!!!</default>
-	</talk>
-	<teller>
-		<default>Edmont pega o rosto de Melody e olha nos olhos dela.</default>
-	</teller>
-	<teller>
-		<division>Atlante</division>
-	</teller>
-	<talk character="Edmont">
-		<default>É só um humano.</default>
-	</talk>
-	<teller>
-		<division>Português</division>
-	</teller>
-	<teller>
-		<default>Ela para e Angely a solta.</default>
-	</teller>
-	<talk character="Agatha">
-		<arrive>Parece que ele foi atropelado por um caminhão.</arrive>
-	</talk>
-	<talk character="Meg">
-		<default>Vamos embora daqui, e rápido. Meu carro tá ali.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Somos em seis, ou esqueceu da sua irmã?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu vou com a moto.</default>
-	</talk>
-	<teller>
-		<default>Angely entrega o material pra Edmont, pega as chaves e vai até a moto. Meg desanima. Pega o carro. Agatha vai no banco da frente, o resto vai no banco de trás.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Que aconteceu? Por que está correndo tanto?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Tá com medo?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, é que assim o guarda vai acabar notando mais fácil.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Notando o que?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Que estamos com alguém que saiu no jornal na coluna dos procurados.</default>
-	</talk>
-	<teller>
-		<default>Melody encara Kat. Kat se encolhe.</default>
-	</teller>
-	<teller>
-		<first>Na casa de Rith.</first>
-	</teller>
-	<talk character="Júlio">
-		<default>É, talvez você tenha razão, talvez não seja tão ruim assim.</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Ainda bem que despistamos o policial...</arrive>
-	</talk>
-	<talk character="Júlio">
-		<screamed>Policial?!</screamed>
-	</talk>
-	<talk character="Rith">
-		<default>Que aconteceu?</default>
-	</talk>
-	<teller>
-		<default>Edmont olha para Júlio. Abre na mesa de centro um jornal. Logo depois Mel entra na casa. Rith levanta do sofá num movimento brusco. Kat olha pra Mel e vai pra seu quarto.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Pai, que você tá fazendo aqui?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Que essa garota tá fazendo aqui?</default>
-	</talk>
-	<teller>
-		<default>Mel faz um movimento em direção a porta.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Mel, você fica.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Mel?! Já está chamando ela assim?! E eu que já tava acreditando que você prestava...</default>
-	</talk>
-	<teller>
-		<default>Rith olha para Mel novamente.</default>
-	</teller>
-	<talk character="Rith">
-		<default>Júlio, não faz drama.</default>
-	</talk>
-	<teller>
-		<default>Angely olha para Mel, depois para Rith. Edmont olha pra Rith. Então para Angely.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Eu preciso falar com você. Agora.</default>
-	</talk>
-	<teller>
-		<default>Eles saem da casa.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Eu sei quem é esse cara.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que cara?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não se faça de desentendido.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ele também sabe, ele lembrou, mas por favor...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>A garota, a pequena, é quem tô pensando?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por favor, Edmont...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Como eu não me toquei, a mão direita dela...</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "03",
+	"scene": "c",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A moto de Edmont morre num farol. Ele tenta ligar, nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leva a moto para o acostamento. Um carro para perto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Devia verificar a bateria de vez em quando."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont levanta a aba do capacete."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que estava me seguindo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não devia sair de casa assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "E o que eu faço? Acampo no jardim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso te ajudar se você quiser..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, eu vou arrumar minha vida e voltar pra buscar ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Ahã. Montado num cavalo branco. E sem bateria, provavelmente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith sai do carro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ficar na minha casa até que as coisas se acalmem e Júlio entenda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Para de bancar o adolescente dramático."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont baixa a cabeça. Fica pensativo por alguns instantes. Respira fundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Na casa de Júlio, hora do jantar, todos estão calados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Amanhã tem aula já..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Já sabem a sala certa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já. Passamos na escola, vimos tudo direito e pegamos os cartões de entrada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pai, sobre o que aconteceu hoje de tarde..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero que não aconteça de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas, pai..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quero que veja mais ele."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No dia seguinte, de manhã, Angely vai até o quarto de Agatha, que ainda está na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha, ainda não se arrumou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não vou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É melhor você ir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê? Por que meu pai quer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont não foi embora. Rith foi atrás dele."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha olha pra Angely. Se senta na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que ele vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu pai não vai te deixar ir de camisola."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você acha que eu deveria..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se arruma. Vai se atrasar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely desce. Agatha se arruma. Júlio leva eles pra escola. Na terceira aula..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Professor, com licença, posso falar com a Agatha?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O professor olha feio para Edmont. Olha para Agatha. Faz sinal com a mão pra que ela vá. Agatha sai da sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, o que decidiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda vai ficar na escola?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou. Que decidiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falamos no intervalo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela volta à sala. Edmont também. Entra e se senta no lugar dele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí, falou com ela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Disse que fala comigo no intervalo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg tá na sala dela, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, que cê andou fazendo? Ela não parou de falar de você ontem..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De... mim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Faz de bobo não. Só faltou perguntar a cor da sua cueca..."
+				},
+				{
+					"type": "teller",
+					"text": "Angely cora"
+				},
+				{
+					"type": "default",
+					"text": "Não tô falando literalmente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Professora",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Algo que queiram compartilhar com a sala?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Aposto que sei mais da matéria que ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Professora",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, nada professora."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Na hora do intervalo, Edmont vai falar com Agatha (trazendo Angely com ele)."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha estava sentada conversando com Meg. Ela se levanta, olha pra Edmont e o beija."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Boa resposta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg olha pra Angely, que não sabe onde esconder a cara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, eu não gosto de bancar vela!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu também não."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg pega o braço de Angely e sai puxando ele. Angely fica sem graça. Eles se sentam num banco da escola."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deve ser estranho pra você isso tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem tanto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles já tinham alguma coisa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu percebi que eles não se tratavam tanto como irmãos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bryan",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Ih, falando com uma garota? Pensei que não gostasse."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Era justamente o que eu precisava."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bryan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desiste, esse aí é mão quebrada. Mas se quiser um homem de verdade, eu tô aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma pessoa chega perto de Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "pessoa",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Poderia falar com você?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely estranha, mas sai junto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você estuda com ele a muito tempo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bryan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho que te avisar: ele é viado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Certeza?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bryan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não percebeu ainda?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely e a pessoa chegam a um lugar na escola que não tem ninguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já nos conhecemos de algum lugar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A pessoa tira os óculos e puxa pra frente uma trança de cor vermelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fodeu tudo. Tão atrás de mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê? Como entrou na escola, Mel? Aliás, quando veio pra cá?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falsifiquei o cartão de entrada. E a identidade também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que andou fazendo por lá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi lá, foi aqui. Tem que me ajudar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos falar com o Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então ele chegou bem aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que fizeram quando eu fugi? Achei que fossem virar guias, quem está cuidando de lá agora?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha pro chão. Olha de volta para Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi? O que aconteceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem jeito... Decente de eu contar isso. Descobri que o satélite ia colidir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas não há jeito de impedir?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já era. O outro satélite era maior que o nosso, a essa hora só sobraram pedaços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Mel?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel coloca os óculos de novo e esconde a trança. Edmont abraça Mel. Agatha chega e franze a testa. Edmont se afasta, ainda sorrindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Conhece ela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É de onde viemos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa pessoa sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha desfranze a testa e se vira para trás, olhando para várias direções. Mel olha para o pescoço dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma, não dá pra saber do que estamos falando."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel pega Agatha, vira, tira o cabelo amarrado da frente do pescoço. Solta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você viajou?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, que isso?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Várias vezes na vida, mas o que"
+				},
+				{
+					"type": "frizz",
+					"text": "você"
+				},
+				{
+					"type": "default",
+					"text": "tem a ver com isso?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viajou para algum lugar dois anos atrás?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, Angely..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela não vai fazer nada com você, pode responder."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela foi pra Curitiba com umas amigas há dois anos, lembra?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não recebeu meu sinal, porra?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que sinal?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Caralho, entendi tudo agora... Não lembrava disso..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely franze a testa e depois estica os olhos e bota a mão na frente da boca. Olha para Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Teve algum sonho de uma nave descendo na Terra antes da viagem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tive. Nossa, eu nem lembrava disso... Como que eu lembrei agora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cassete, ela não sabe!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por isso caímos onde caímos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê quem cuida dela, pra eu dar uma surra, por favor?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A mãe dela morreu, provavelmente só ela sabia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mãe? Ah, essa palavra... Nunca lembro essas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que vocês estão falando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe o sonho que teve?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É um sinal para que vá para algum lugar descampado, de preferência seguro. As pintas que você tem atrás do pescoço, formam o mesmo mapa que temos na mão, mas é menos perceptível. Você é um ponto seguro dos atlantes na Terra. Se tiver esse sonho de novo..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely se arrepia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela não vai ter."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely suspira. Olha pra baixo. Olha para Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já era."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nosso... Mundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Colidiu com um satélite maior."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só você conseguiu fugir?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tiveram outros, mas não dava pra descer todo mundo junto, no mesmo ponto seguro."
+				},
+				{
+					"type": "teller",
+					"text": "olha para Agatha"
+				},
+				{
+					"type": "default",
+					"text": "Se bem que teria sido mais seguro descer direto na avenida Paulista no meio de uma passeata."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde você ficou aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Em muitos lugares. Fugi, me escondi, falsifiquei documento... O problema maior agora não é polícia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Gente, com licença..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está aí há quanto tempo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Muito tempo. Realmente, muito tempo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg, não vai contar pra ninguém, vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, você é gay?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As pessoas olham para Meg."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é essa pessoa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bryan disse que é. Eu só queria saber. Tipo, ao menos seria algo... Terrestre."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é Bryan?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, não está pensando em fazer nada drástico, está?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tá afim do Angely só, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Afim? O que diabos é..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, deixa pra lá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bate o sinal. Edmont olha para Mel. Encosta no braço de Angely. Este lhe dá abraço. Agatha, Edmont e Angely vão pras suas respectivas salas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel entra na diretoria da escola. Mexe nas coisas. Senta no computador. Olha fichas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "diretor",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que está fazendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu me perdi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "diretor",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estava mexendo nos arquivos... Qual seu nome?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "diretor",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podemos dar um jeito de você não levar uma suspensão por isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Na casa de Rith, Júlio está andando de um lado para o outro, enquanto Rith está sentado no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está exagerando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, eu não estou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele é um bom garoto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu criei ele e ele desrespeita minha filha assim, na minha cara!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desrespeita?! Olha, até onde sei, ela bateu em quem fez isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É minha filha!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por isso acha que é santa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fale assim da minha filha!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ouvi ela e Meg conversando, acredite, eu sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fala isso porque não é sua filha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minha filha trouxe o último namorado em casa algumas vezes. Pra dormir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sério?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acredite, se você proibir, ela vai se meter a fazer as coisas escondida. E, se algo de pior acontecer, não vai ter coragem de te contar, e é capaz de ficar até se sentindo culpada, e"
+				},
+				{
+					"type": "frizz",
+					"text": "você"
+				},
+				{
+					"type": "default",
+					"text": "vai ter parcela nisso. É o que quer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na nossa época eu já achava exagerado garotas de dezoito não serem mais..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu devia me sentir bem e nostálgico por você me lembrar meu irmão?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Na hora da saída, Angely passa por um tumulto de pessoa. Chega em alguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tá acontecendo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kinyn",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe aquele diretor folgado, que cantou a Agatha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O abaixo assinado pra mandarem embora funcionou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kinyn",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor. Tá apanhando duma garota lá... Cara, deu tesão de ver, assim que ela sair da cadeia juro que consigo o telefone!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bryan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele é viado que nem você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kinyn",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cala a boca, Bryan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma garota?... Mel!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely corre e consegue segurar Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Gosta de menininha indefesa agora, seu monte de bosta?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que está acontecendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me ajuda!!! Não vou conseguir segurar!!!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont pega o rosto de Melody e olha nos olhos dela."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Atlante"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É só um humano."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Português"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela para e Angely a solta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Parece que ele foi atropelado por um caminhão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos embora daqui, e rápido. Meu carro tá ali."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Somos em seis, ou esqueceu da sua irmã?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou com a moto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely entrega o material pra Edmont, pega as chaves e vai até a moto. Meg desanima. Pega o carro. Agatha vai no banco da frente, o resto vai no banco de trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que aconteceu? Por que está correndo tanto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá com medo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, é que assim o guarda vai acabar notando mais fácil."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Notando o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que estamos com alguém que saiu no jornal na coluna dos procurados."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody encara Kat. Kat se encolhe."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Na casa de Rith."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, talvez você tenha razão, talvez não seja tão ruim assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Ainda bem que despistamos o policial..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Policial?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que aconteceu?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont olha para Júlio. Abre na mesa de centro um jornal. Logo depois Mel entra na casa. Rith levanta do sofá num movimento brusco. Kat olha pra Mel e vai pra seu quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pai, que você tá fazendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que essa garota tá fazendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel faz um movimento em direção a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, você fica."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel?! Já está chamando ela assim?! E eu que já tava acreditando que você prestava..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith olha para Mel novamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio, não faz drama."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Mel, depois para Rith. Edmont olha pra Rith. Então para Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu preciso falar com você. Agora."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles saem da casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei quem é esse cara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que cara?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não se faça de desentendido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele também sabe, ele lembrou, mas por favor..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A garota, a pequena, é quem tô pensando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por favor, Edmont..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como eu não me toquei, a mão direita dela..."
+				}
+			]
+		}
+	]
+}

@@ -1,364 +1,1180 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="01" scene="c">
-	<teller>
-		<default>Alan e Mel chegam na casa. Estela está conversando com Kat.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Estela, eu disse que hoje era seu dia de cozinhar...</default>
-	</talk>
-	<talk character="Estela">
-		<irony>Claro, eu tava pensando em fazer torta de camas com recheio de mesa!</irony>
-	</talk>
-	<talk character="Kat">
-		<default>Derik disse que ia buscar alguma coisa pra gente.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Chegou alguém querendo comprar a casa?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Só um casal que não gosta de morcegos.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Estela!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ah, mas são uns bichinhos tão bonitinhos...</default>
-	</talk>
-	<talk character="Alan">
-		<default>Não acredito, agora é complô!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Então, como vamos resolver o problema?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Precisamos de algumas coisas...</default>
-	</talk>
-	<talk character="Derik">
-		<arrive>Trouxe a comida e aproveitei pra trazer uns itens que precisamos da outra vez. Nossa, deu um trabalho...</arrive>
-	</talk>
-	<teller>
-		<default>Derik olha ao redor. Todos estão olhando para Derik.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Que tão olhando?</default>
-	</talk>
-	<teller>
-		<first>Dia seguinte. Kat abre os olhos. Senta na cama. Franze a testa.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Derik! Estela!</default>
-	</talk>
-	<teller>
-		<default>Derik senta na cama. Estela vira para o lado de Derik e Kat.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Que é?</default>
-	</talk>
-	<talk character="Alan">
-		<out>Não posso ver isso e simplesmente ficar calado!</out>
-	</talk>
-	<talk character="Mel">
-		<out>Você tá é com preocupação de perder seu emprego!</out>
-	</talk>
-	<teller>
-		<default>Estela abre mais os olhos e senta na cama.</default>
-	</teller>
-	<talk character="Alan">
-		<out>Não, você não entende o que é ser um caça-vampiros!</out>
-	</talk>
-	<talk character="Kat">
-		<default>Melhor apartarmos.</default>
-	</talk>
-	<teller>
-		<default>Kat, Estela e Derik levantam. Descem a escada.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Que tal a gente parar por aqui?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Enquanto ainda não pegaram em armas...</default>
-	</talk>
-	<talk character="Estela">
-		<default>Alan, ela já não te explicou...</default>
-	</talk>
-	<talk character="Alan">
-		<screamed>Uma pessoa morreu e quer que eu fiquei quieto???</screamed>
-	</talk>
-	<talk character="Mel">
-		<default>Você que não teve competência de achar todos os vampiros!</default>
-	</talk>
-	<talk character="Alan">
-		<default>Certeza que foi seu amiguinho!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Zenon não faria isso! E Beatrice sabe que vou largar pra trás se fizer!</default>
-	</talk>
-	<talk character="Alan">
-		<default>E do que estão se alimentando?!</default>
-		<irony>Margaridas?!</irony>
-	</talk>
-	<teller>
-		<default>Mel estende o pulso. Alan olha. Arregala os olhos. Balança a cabeça para os lados.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Você é mais louca do que imaginei.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Seus conceitos escrotos não tão me importando muito no momento. A gente precisa achar Edmont e Angely, e isso é tudo que me interessa agora.</default>
-	</talk>
-	<teller>
-		<first>10h. Templo. Um desenho no chão com sal, velas amarelas, maças pelo chão.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Tá, e agora?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Bom, agora nós esperamos até meio-dia e...</default>
-	</talk>
-	<teller>
-		<default>Kash, Yads e Wige aparecem na sala. Derik se ajoelha.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não tínhamos que fazer o feitiço antes?</default>
-	</talk>
-	<talk character="Kash">
-		<default>Nós não precisamos que nos chamem quando o assunto é de nosso interesse.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Nós precisamos...</default>
-	</talk>
-	<talk character="Yads">
-		<default>Nós sabemos.</default>
-	</talk>
-	<teller>
-		<default>Wige olha para Derik.</default>
-	</teller>
-	<talk character="Wige">
-		<default>Já não dissemos que não somos deuses?</default>
-	</talk>
-	<talk character="Yads">
-		<default>Talvez estejamos falando na língua errada.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Derik, quer parar de fazer papel de ridículo???</default>
-	</talk>
-	<teller>
-		<default>Derik se levanta.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Como sabiam?</default>
-	</talk>
-	<talk character="Kash">
-		<default>Não é como se um evento desse porte passasse desapercebido.</default>
-	</talk>
-	<talk character="Wige">
-		<default>Precisam encontrar algumas coisas para que possamos fazer o feitiço de localização.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Porque vocês mesmos não podem achar?</default>
-	</talk>
-	<talk character="Yads">
-		<default>Não podemos fazer nenhuma interferência física nas Realidades.</default>
-	</talk>
-	<talk character="Kash">
-		<default>Poderíamos destruir uma Realidade fazendo isso, e tudo que há nela.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mas só de aparecerem aqui já não estão...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não são seres materiais.</default>
-	</talk>
-	<talk character="Kash">
-		<default>Derik sabe o feitiço.</default>
-	</talk>
-	<teller>
-		<default>Kash some.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Eu?!</default>
-	</talk>
-	<talk character="Yads">
-		<default>Sim. Mas vai ter que perder mais uma camada.</default>
-	</talk>
-	<teller>
-		<default>Derik olha para o chão. Yads e Wige some.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Do que tavam falando?</default>
-	</talk>
-	<talk character="Derik">
-		<default>De uma coisa que eu não posso contar.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por que não?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Kat... Você me ama?</default>
-	</talk>
-	<teller>
-		<default>Derik olha para Kat.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Amo. Fez algo errado?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não interessa o que fiz antes.</default>
-	</talk>
-	<teller>
-		<default>Derik olha para Mel.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Preciso que lembrem do que eu fiz quando estava com vocês.</default>
-	</talk>
-	<teller>
-		<default>Derik olha para Agatha.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Preciso que saibam que não sou ruim.</default>
-	</talk>
-	<teller>
-		<default>Olha novamente para Kat.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Preciso que acreditem no que digo. Vocês não fazem ideia do quanto preciso disso. Vocês são minha família. Não importa quem estava para trás. Eu não posso voltar pro meu passado. Nem é meu o direito de decidir sobre isso.</default>
-	</talk>
-	<teller>
-		<default>Derik baixa a cabeça.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Vou entender se quiserem que eu vá embora.</default>
-	</talk>
-	<teller>
-		<default>Volta a olhar para Mel.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Mas vocês são tudo o que tenho. E tudo que importa pra mim.</default>
-	</talk>
-	<teller>
-		<default>Kat abraça Derik. Derik abraça de volta. Uma lágrima cai de seu rosto. Alan olha para Estela. Olha para Mel. Mel tira uma espada que trazia nas costas. Derik se vira para Mel. Olha para Alan.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Eu não sei o que ele fez, mas tá parecendo coisa de criança fugida de casa. Ele é humano, e é quase uma criança. Não pode ter sido tão ruim assim.</default>
-	</talk>
-	<teller>
-		<default>Mel guarda a espada.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Vai fazer o que você tem que fazer.</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Derik.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Se for possível, volta com as coisas do feitiço. Acho que você é a única pessoa aqui que pode procurar livremente.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu também posso.</default>
-	</talk>
-	<teller>
-		<default>Alan franze a testa.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Do que diabos estão falando agora?!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Kat...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Já tá na hora de contar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>O que é?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mel, lembra quando Psique morreu e você disse que eu não tinha tido nenhum sonho com isso?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Lembro.</default>
-	</talk>
-	<teller>
-		<default>Kat se senta no chão. Derik senta-se atrás. Kat solta o corpo. Estela arregala os olhos. Alan vai até Kat e pega o pulso. Franze a testa. Olha para Mel.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Tudo bem, isso nós já sabemos.</default>
-	</talk>
-	<teller>
-		<default>Uma das maças no chão sobe no ar. Alan levanta e pega a maça. Olha e passa a mão em volta. Chacoalha um braço no ar. Kat respira fundo. Alan dá um passo para trás e cai no chão.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Derik vai achar o feitiço. Depois vocês procuram os ingredientes.</default>
-	</talk>
-	<teller>
-		<default>Alan se levanta e limpa a roupa.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Tenho acesso a muitas coisas. Posso ajudar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ótimo. Até que enfim disse algo que gostei de ouvir.</default>
-	</talk>
-	<teller>
-		<default>É noite. Alan e Mel chegam em casa. Estela sentou-se ao lado do sofá onde Kat está, no chão. Derik sai do banheiro.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Tá faltando só uma coisa da lista.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E o que é?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Dentes de vampiro que nunca tenha bebido sangue.</default>
-	</talk>
-	<teller>
-		<default>Mel solta os ombros. Alan arregala os olhos. Kat acorda.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Onde raios vamos conseguir isso???</default>
-	</talk>
-	<talk character="Kat">
-		<default>Isso o que?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Dentes de um vampiro que não tenha bebido sangue.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Vou atrás dos meus contatos, ver se conseguem isso em algum cemitério.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Beatrice pode ajudar.</default>
-	</talk>
-	<talk character="Beatrice">
-		<arrive>Falando em mim?</arrive>
-	</talk>
-	<teller>
-		<default>Alan olha para Beatrice, que sentou-se na janela.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Você já não está além do limite?!</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não devia ficar em uma casa a venda, é um convite para qualquer pessoa que queira entrar.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Pessoas não precisam de convite.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Você não é exatamente do tipo que tem educação, né?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Precisamos de uma ajuda que deve ser mais fácil para você.</default>
-	</talk>
-	<teller>
-		<default>Beatrice franze a testa.</default>
-	</teller>
-	<talk character="Beatrice">
-		<default>Envolve beber sangue de alguém? Por que tô com fome.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não. Entra aí.</default>
-	</talk>
-	<teller>
-		<default>Beatrice pula para dentro. Alan encara Mel. Mel vai até a cozinha. Beatrice segue.</default>
-	</teller>
-</story>
+{
+	"season": "B",
+	"episode": "01",
+	"scene": "c",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan e Mel chegam na casa. Estela está conversando com Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela, eu disse que hoje era seu dia de cozinhar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Claro, eu tava pensando em fazer torta de camas com recheio de mesa!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik disse que ia buscar alguma coisa pra gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Chegou alguém querendo comprar a casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só um casal que não gosta de morcegos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, mas são uns bichinhos tão bonitinhos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não acredito, agora é complô!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, como vamos resolver o problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Precisamos de algumas coisas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Trouxe a comida e aproveitei pra trazer uns itens que precisamos da outra vez. Nossa, deu um trabalho..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha ao redor. Todos estão olhando para Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tão olhando?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Dia seguinte. Kat abre os olhos. Senta na cama. Franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik! Estela!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik senta na cama. Estela vira para o lado de Derik e Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Não posso ver isso e simplesmente ficar calado!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Você tá é com preocupação de perder seu emprego!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela abre mais os olhos e senta na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Não, você não entende o que é ser um caça-vampiros!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor apartarmos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat, Estela e Derik levantam. Descem a escada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tal a gente parar por aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Enquanto ainda não pegaram em armas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan, ela já não te explicou..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Uma pessoa morreu e quer que eu fiquei quieto???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você que não teve competência de achar todos os vampiros!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Certeza que foi seu amiguinho!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon não faria isso! E Beatrice sabe que vou largar pra trás se fizer!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E do que estão se alimentando?!"
+				},
+				{
+					"type": "irony",
+					"text": "Margaridas?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel estende o pulso. Alan olha. Arregala os olhos. Balança a cabeça para os lados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é mais louca do que imaginei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seus conceitos escrotos não tão me importando muito no momento. A gente precisa achar Edmont e Angely, e isso é tudo que me interessa agora."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "10h. Templo. Um desenho no chão com sal, velas amarelas, maças pelo chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, e agora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, agora nós esperamos até meio-dia e..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kash, Yads e Wige aparecem na sala. Derik se ajoelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tínhamos que fazer o feitiço antes?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kash",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós não precisamos que nos chamem quando o assunto é de nosso interesse."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós precisamos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Yads",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós sabemos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Wige olha para Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Wige",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já não dissemos que não somos deuses?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Yads",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez estejamos falando na língua errada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik, quer parar de fazer papel de ridículo???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik se levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabiam?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kash",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é como se um evento desse porte passasse desapercebido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Wige",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Precisam encontrar algumas coisas para que possamos fazer o feitiço de localização."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque vocês mesmos não podem achar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Yads",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não podemos fazer nenhuma interferência física nas Realidades."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kash",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Poderíamos destruir uma Realidade fazendo isso, e tudo que há nela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas só de aparecerem aqui já não estão..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não são seres materiais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kash",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik sabe o feitiço."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kash some."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Yads",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim. Mas vai ter que perder mais uma camada."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha para o chão. Yads e Wige some."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que tavam falando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De uma coisa que eu não posso contar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat... Você me ama?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha para Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Amo. Fez algo errado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não interessa o que fiz antes."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preciso que lembrem do que eu fiz quando estava com vocês."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha para Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preciso que saibam que não sou ruim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha novamente para Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preciso que acreditem no que digo. Vocês não fazem ideia do quanto preciso disso. Vocês são minha família. Não importa quem estava para trás. Eu não posso voltar pro meu passado. Nem é meu o direito de decidir sobre isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou entender se quiserem que eu vá embora."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Volta a olhar para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas vocês são tudo o que tenho. E tudo que importa pra mim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat abraça Derik. Derik abraça de volta. Uma lágrima cai de seu rosto. Alan olha para Estela. Olha para Mel. Mel tira uma espada que trazia nas costas. Derik se vira para Mel. Olha para Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não sei o que ele fez, mas tá parecendo coisa de criança fugida de casa. Ele é humano, e é quase uma criança. Não pode ter sido tão ruim assim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel guarda a espada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai fazer o que você tem que fazer."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se for possível, volta com as coisas do feitiço. Acho que você é a única pessoa aqui que pode procurar livremente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu também posso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que diabos estão falando agora?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já tá na hora de contar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, lembra quando Psique morreu e você disse que eu não tinha tido nenhum sonho com isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lembro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat se senta no chão. Derik senta-se atrás. Kat solta o corpo. Estela arregala os olhos. Alan vai até Kat e pega o pulso. Franze a testa. Olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, isso nós já sabemos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma das maças no chão sobe no ar. Alan levanta e pega a maça. Olha e passa a mão em volta. Chacoalha um braço no ar. Kat respira fundo. Alan dá um passo para trás e cai no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik vai achar o feitiço. Depois vocês procuram os ingredientes."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan se levanta e limpa a roupa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho acesso a muitas coisas. Posso ajudar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ótimo. Até que enfim disse algo que gostei de ouvir."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É noite. Alan e Mel chegam em casa. Estela sentou-se ao lado do sofá onde Kat está, no chão. Derik sai do banheiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá faltando só uma coisa da lista."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dentes de vampiro que nunca tenha bebido sangue."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel solta os ombros. Alan arregala os olhos. Kat acorda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde raios vamos conseguir isso???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dentes de um vampiro que não tenha bebido sangue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou atrás dos meus contatos, ver se conseguem isso em algum cemitério."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice pode ajudar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Falando em mim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan olha para Beatrice, que sentou-se na janela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você já não está além do limite?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não devia ficar em uma casa a venda, é um convite para qualquer pessoa que queira entrar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pessoas não precisam de convite."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não é exatamente do tipo que tem educação, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Precisamos de uma ajuda que deve ser mais fácil para você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Envolve beber sangue de alguém? Por que tô com fome."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Entra aí."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice pula para dentro. Alan encara Mel. Mel vai até a cozinha. Beatrice segue."
+				}
+			]
+		}
+	]
+}

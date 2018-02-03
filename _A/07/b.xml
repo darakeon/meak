@@ -1,650 +1,2133 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="07" scene="b">
-	<teller>
-		<default>Noite. Casa de Denise.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tédio.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Entediada.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Entediadamente entediado.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Entediada entediadamente.</default>
-	</talk>
-	<teller>
-		<default>Denise chega.</default>
-	</teller>
-	<talk character="Denise">
-		<default>E aí, se divertindo?</default>
-	</talk>
-	<talk character="Mel">
-		<default>É.</default>
-	</talk>
-	<talk character="Denise">
-		<default>Vocês viram uma garota toda de preto, da minha altura, cabelo preto, óculos escuros e tão branca que parece parede?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não. Quem é?</default>
-	</talk>
-	<talk character="Denise">
-		<default>Minha irmã... Espero que não esteja aprontando nada...</default>
-	</talk>
-	<teller>
-		<default>Ela sai.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tédio.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Nada pra fazer.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tá chato aqui.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Anfitrião mala. A família é mala. Pior o namorado dela...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Bryan.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Deveríamos ter dito que estávamos doentes.</default>
-	</talk>
-	<talk character="Dara">
-		<arrive>Bom, eu não ia avisar ninguém, mas fiquei com dó. Não comam.</arrive>
-	</talk>
-	<teller>
-		<default>Dara coloca um vidro vazio sobre a mesa. Sai. Angely pega o vidro.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Que é isso?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Laxante. Se está vazio, o que tinha aqui tá em algum lugar.</default>
-	</talk>
-	<talk character="Mel">
-		<irony>Será que ela é a irmã da Denise?</irony>
-	</talk>
-	<talk character="Angely">
-		<default>Avisa o Edmont que eu aviso a Kat.</default>
-	</talk>
-	<teller>
-		<default>Dali a pouco, Edmont se aproxima de Agatha.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Então, mas...</default>
-	</talk>
-	<talk character="Edmont">
-		<hushed>Agatha, não come isso.</hushed>
-	</talk>
-	<talk character="Agatha">
-		<hushed>Por que, que foi?</hushed>
-	</talk>
-	<talk character="Edmont">
-		<hushed>Só não come.</hushed>
-	</talk>
-	<teller>
-		<default>Beira da piscina.</default>
-	</teller>
-	<talk character="Angely">
-		<arrive>Por que fez isso?</arrive>
-	</talk>
-	<talk character="Dara">
-		<default>Meu pai me obrigou a ficar em casa.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E por que nos avisou?</default>
-	</talk>
-	<teller>
-		<default>Ela tira o óculos e se senta, olhando para ele.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Não lembra mesmo? Ano passado, o cara que me encurralou?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não imaginei que você fosse lembrar. Sumiu.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não sabia o que fazer.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Qual seu nome?</default>
-	</talk>
-	<talk character="Dara">
-		<default>E por que eu diria?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Também não sou muito chegado na sua irmã.</default>
-	</talk>
-	<talk character="Dara">
-		<default>E tem como ser? Tipo, de verdade?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Meu nome é...</default>
-	</talk>
-	<talk character="Handhara">
-		<default>É, eu sei, Angely. Meu nome é Handhara.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Bonito nome.</default>
-	</talk>
-	<talk character="Handhara">
-		<default>Isso não foi uma cantada, foi?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Elogiar o nome não é uma cantada, nem foi você que escolheu...</default>
-	</talk>
-	<talk character="Handhara">
-		<default>Se fosse, seria a pior que eu já ouvi.</default>
-	</talk>
-	<teller>
-		<default>Angely dá um sorriso tímido.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Me chama de Dara mesmo. Handhara é, no mínimo, complicado.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você tem amigos?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não. Todos os que me cercam são vazios demais pra saber o significado da palavra amizade.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Todos?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não conheço você e sua família. Vive cercado demais pra nós termos nos falado antes.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Como sabia meu nome?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Essa foi uma pergunta um tanto quanto...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sem sentido? É, só percebi depois que já tinha saído.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Veio sozinho?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vim com a Mel, mas acabamos nos perdendo.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não estava falando a título de parentes... Seu irmão é profundo como uma poça d'água também?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Então como ele aguenta a Agatha?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Fomos criados juntos. É quase como uma irmã. Ela tá meio diferente hoje em dia, mas é uma boa pessoa.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Agatha, Helene, Denise, Annie... Todas umas crianças mimadas. Agatha não era tanto quando a Meg...</default>
-		<teller>arregala os olhos e coloca a mão na frente da boca</teller>
-		<default>Ai, desculpa, eu...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não, deixa.</default>
-	</talk>
-	<talk character="Mel">
-		<arrive>Angely...</arrive>
-	</talk>
-	<talk character="Angely">
-		<default>Essa é a Handhara, quer dizer, a Dara.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você que é a irmã da Denise?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Precisava me lembrar?</default>
-	</talk>
-	<teller>
-		<default>Mel ri. Dara se levanta.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Você é amiga dela?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu?!</default>
-	</talk>
-	<talk character="Dara">
-		<default>Tá, já percebi que não.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vocês viram Kat?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ela não veio com o namorado?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Veio. É por isso a preocupação.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Ela tem treze anos?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tem. E ele tem dezoito.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Minha idade. Bom, eu vou sair disso aqui. Ninguém veio aqui até agora, não devem estar sentindo minha falta.</default>
-	</talk>
-	<teller>
-		<default>Dara sai. Angely olha Dara indo embora. Se vira para Mel.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Eu tô afim de ir pra casa.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá, deixa só eu...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mel, ela sabe se defender.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá, tudo bem, mas...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você vem ou não?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vamos.</default>
-	</talk>
-	<teller>
-		<default>Edmont encontra Kat.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Kat, a Mel já te avisou?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Avisou o que?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Melhor não comer nada aqui.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por que?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>A irmã da Denise aprontou.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Devia ter me falado antes...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Por que, já comeu alguma coisa?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, mas o Derik comeu.</default>
-	</talk>
-	<talk character="Agatha">
-		<arrive>Edmont, eu vou dormir aqui na casa da Denise, nós temos um trabalho pra entregar na segunda-feira...</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Tá, tudo bem. Mas e a Kat?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Deixa eu dormir na casa de vocês?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Por mim, tudo bem.</default>
-	</talk>
-	<teller>
-		<default>Agatha beija Edmont. Sai.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Bom, eu não tô mais aguentando essa festa...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pode me levar embora? Já que eu vou mesmo dormir na casa de vocês...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E o Derik?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pra ele aprender que não sou a bobinha que ele pensa. Me deixou sozinha...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tá bom, depois você se entende com ele.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu só queria passar no mercado antes.</default>
-	</talk>
-	<teller>
-		<first>Edmont e Kat chegam em casa. Mel e Angely estão na sala.</first>
-	</teller>
-	<talk character="Mel">
-		<default>Ao tédio!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ao tédio!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vocês estão bebendo?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não temos mais alergia a álcool...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E estão comemorando isso tentando ver quanto bebem antes de cair?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu não tô bêbado.</default>
-	</talk>
-	<teller>
-		<default>Edmont se agacha perto de Angely. Estica a mão na frente dele, com três dedos levantados.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Quantos dedos tem aqui?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Cinco.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Três.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ter, tem cinco. Se você não sabe disso, acho que então o bêbado aqui não sou eu.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ah, Edmont! E a Agatha? Pensei que fosse ficar com ela...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ela vai dormir na casa da Denise, elas tem um trabalho pra fazer.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Banana...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não eram vocês que diziam que eu era autoritário?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Agora podemos rimar!</default>
-	</talk>
-	<talk character="Kat">
-		<default>A minha irmã não vai trair ele.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Isso é o que você pensa!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vocês estão precisando de um café forte.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu sei fazer café...</default>
-	</talk>
-	<teller>
-		<default>Meia hora depois.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Gente, já fiz o...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Acho que não precisa mais.</default>
-	</talk>
-	<teller>
-		<default>Angely e Mel jogados no sofá.</default>
-	</teller>
-	<talk character="Kat">
-		<default>É, vai ficar difícil tomarem café dormindo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Bom, eu vou dormir. Fica no quarto da Mel.</default>
-	</talk>
-	<teller>
-		<first>Tarde. Campainha. Angely acorda no sofá. Campainha. Levanta. Campainha. Aperta os olhos. Campainha.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Já vai! Pára de tocar essa...</default>
-	</talk>
-	<teller>
-		<default>Angely abre a porta. Agatha olha pra Angely que está só de calça, o cabelo bagunçado e com a mão no rosto.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Que aconteceu com você?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não fala muito alto não, eu tô com dor de cabeça...</default>
-	</talk>
-	<teller>
-		<default>Agatha entra na casa.</default>
-	</teller>
-	<talk character="Agatha">
-		<screamed>Edmont!</screamed>
-	</talk>
-	<teller>
-		<default>Angely solta os ombros e a cabeça. Suspira. Mel acorda.</default>
-	</teller>
-	<talk character="Kat">
-		<arrive>Ele saiu.</arrive>
-	</talk>
-	<talk character="Agatha">
-		<default>Como, saiu?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Plantando bananeira em cima de um monociclo.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Tô vendo que a farra foi boa aqui ontem...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, na verdade, quando eu e Edmont chegamos, os dois estavam na sala, bebendo. Depois acabaram dormindo no sofá.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Tá. Angely, você sabe onde ele foi?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Quando ele voltar diz a ele que eu estava procurando.</default>
-	</talk>
-	<teller>
-		<default>Agatha sai. Kat fecha a porta.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Cara, eu nunca mais bebo...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você viu como ela te mediu de cima a baixo?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Gente, eu tive um sonho, já contei pro Edmont quando ele acordou...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Do que era?</default>
-	</talk>
-	<talk character="Kat">
-		<default>É melhor acordarem direito antes.</default>
-	</talk>
-	<teller>
-		<default>Uma hora depois.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Bom, é o seguinte: sabe a irmã da Denise?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Dara?</default>
-	</talk>
-	<talk character="Kat">
-		<default>É, e pelo jeito já conhece ela.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Falamos com ela na festa de ontem.</default>
-	</talk>
-	<talk character="Mel">
-		<default>O que ela tem a ver com seu sonho?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Bom, eu sonhei que ela tentava matar a irmã.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E por que Edmont saiu?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pra ir até lá ver o que foi isso.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que tal dar uma das nossas armas de presente pra Handhara?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mel!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá, tudo bem...</default>
-	</talk>
-	<teller>
-		<first>Edmont está na casa de Denise.</first>
-	</teller>
-	<talk character="Denise">
-		<default>Edmont, Agatha voltou pra casa.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Na verdade, eu preciso falar com a sua irmã.</default>
-	</talk>
-	<talk character="Denise">
-		<default>Minha irmã?</default>
-	</talk>
-	<talk character="Dara">
-		<arrive>Que você quer comigo?</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Falar.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Fale.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>A sós.</default>
-	</talk>
-	<teller>
-		<default>Dara vai para a outra sala. Edmont segue. Denise pega o telefone. Digita.</default>
-	</teller>
-	<talk character="Denise">
-		<default>Agatha?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Sim?</default>
-	</talk>
-	<talk character="Denise">
-		<default>Edmont veio aqui...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ah, ele foi me buscar, que fofo...</default>
-	</talk>
-	<talk character="Denise">
-		<default>Ele veio procurar a Handhara.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Handhara?!</default>
-	</talk>
-	<talk character="Denise">
-		<default>Se eu fosse você, não deixava.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ele vai ver, quando ele vier falar comigo, ele vai ver!</default>
-	</talk>
-	<teller>
-		<default>Outra sala.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Tá, fala...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Você alguma vez pensou em matar sua irmã?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Quem nunca?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tô falando de verdade.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Por que está perguntando isso?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Seria difícil explicar...</default>
-	</talk>
-	<teller>
-		<default>Dara ri.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Veio falar comigo pra fazer uma pergunta sem sentido assim?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Você não está entendendo...</default>
-	</talk>
-	<teller>
-		<default>Dara vai para o jardim. Edmont vai atrás e segura o braço de Dara. Denise chega na porta, e fica olhando. Dara encara Edmont.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Solta.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sim ou não?</default>
-	</talk>
-	<talk character="Dara">
-		<default>É melhor soltar meu braço.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Responda.</default>
-	</talk>
-	<talk character="Dara">
-		<default>E se eu dissesse que sim?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É melhor não fazer isso.</default>
-	</talk>
-	<teller>
-		<default>Ela solta o ar, em meia risada.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Está me ameaçando?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não sou de ameaças.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Então solta meu braço. Antes que eu quebre o seu.</default>
-	</talk>
-	<teller>
-		<default>Edmont solta o braço dela.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>É melhor não fazer.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Quem acha que é pra mandar em mim?</default>
-	</talk>
-	<teller>
-		<default>Dara entra na casa. Edmont se senta.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Espero que ela não...</default>
-	</talk>
-	<talk character="Denise">
-		<default>Falando sozinho?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu já tava de saída.</default>
-	</talk>
-	<teller>
-		<default>Edmont volta pra casa.</default>
-	</teller>
-	<talk character="Denise">
-		<default>Será possível que...</default>
-	</talk>
-	<teller>
-		<default>Denise pega o telefone novamente.</default>
-	</teller>
-</story>
+{
+	"season": "A",
+	"episode": "07",
+	"scene": "b",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Noite. Casa de Denise."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tédio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Entediada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Entediadamente entediado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Entediada entediadamente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Denise chega."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí, se divertindo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês viram uma garota toda de preto, da minha altura, cabelo preto, óculos escuros e tão branca que parece parede?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Quem é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minha irmã... Espero que não esteja aprontando nada..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tédio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada pra fazer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá chato aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Anfitrião mala. A família é mala. Pior o namorado dela..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bryan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deveríamos ter dito que estávamos doentes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Bom, eu não ia avisar ninguém, mas fiquei com dó. Não comam."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara coloca um vidro vazio sobre a mesa. Sai. Angely pega o vidro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que é isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Laxante. Se está vazio, o que tinha aqui tá em algum lugar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Será que ela é a irmã da Denise?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Avisa o Edmont que eu aviso a Kat."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dali a pouco, Edmont se aproxima de Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Agatha, não come isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Por que, que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Só não come."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beira da piscina."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Por que fez isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu pai me obrigou a ficar em casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por que nos avisou?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela tira o óculos e se senta, olhando para ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não lembra mesmo? Ano passado, o cara que me encurralou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não imaginei que você fosse lembrar. Sumiu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabia o que fazer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual seu nome?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por que eu diria?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também não sou muito chegado na sua irmã."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E tem como ser? Tipo, de verdade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu nome é..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Handhara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, eu sei, Angely. Meu nome é Handhara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bonito nome."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Handhara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não foi uma cantada, foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Elogiar o nome não é uma cantada, nem foi você que escolheu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Handhara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se fosse, seria a pior que eu já ouvi."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely dá um sorriso tímido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me chama de Dara mesmo. Handhara é, no mínimo, complicado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tem amigos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Todos os que me cercam são vazios demais pra saber o significado da palavra amizade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Todos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não conheço você e sua família. Vive cercado demais pra nós termos nos falado antes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabia meu nome?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa foi uma pergunta um tanto quanto..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sem sentido? É, só percebi depois que já tinha saído."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Veio sozinho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vim com a Mel, mas acabamos nos perdendo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não estava falando a título de parentes... Seu irmão é profundo como uma poça d'água também?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então como ele aguenta a Agatha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fomos criados juntos. É quase como uma irmã. Ela tá meio diferente hoje em dia, mas é uma boa pessoa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha, Helene, Denise, Annie... Todas umas crianças mimadas. Agatha não era tanto quando a Meg..."
+				},
+				{
+					"type": "teller",
+					"text": "arregala os olhos e coloca a mão na frente da boca"
+				},
+				{
+					"type": "default",
+					"text": "Ai, desculpa, eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, deixa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Angely..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa é a Handhara, quer dizer, a Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você que é a irmã da Denise?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Precisava me lembrar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel ri. Dara se levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é amiga dela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, já percebi que não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês viram Kat?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela não veio com o namorado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Veio. É por isso a preocupação."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela tem treze anos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem. E ele tem dezoito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minha idade. Bom, eu vou sair disso aqui. Ninguém veio aqui até agora, não devem estar sentindo minha falta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara sai. Angely olha Dara indo embora. Se vira para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tô afim de ir pra casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, deixa só eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, ela sabe se defender."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, tudo bem, mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você vem ou não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont encontra Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat, a Mel já te avisou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Avisou o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor não comer nada aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A irmã da Denise aprontou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devia ter me falado antes..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que, já comeu alguma coisa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, mas o Derik comeu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Edmont, eu vou dormir aqui na casa da Denise, nós temos um trabalho pra entregar na segunda-feira..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, tudo bem. Mas e a Kat?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixa eu dormir na casa de vocês?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por mim, tudo bem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha beija Edmont. Sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, eu não tô mais aguentando essa festa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode me levar embora? Já que eu vou mesmo dormir na casa de vocês..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o Derik?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra ele aprender que não sou a bobinha que ele pensa. Me deixou sozinha..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá bom, depois você se entende com ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu só queria passar no mercado antes."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Edmont e Kat chegam em casa. Mel e Angely estão na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ao tédio!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ao tédio!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês estão bebendo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não temos mais alergia a álcool..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E estão comemorando isso tentando ver quanto bebem antes de cair?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não tô bêbado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se agacha perto de Angely. Estica a mão na frente dele, com três dedos levantados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quantos dedos tem aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cinco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Três."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ter, tem cinco. Se você não sabe disso, acho que então o bêbado aqui não sou eu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, Edmont! E a Agatha? Pensei que fosse ficar com ela..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela vai dormir na casa da Denise, elas tem um trabalho pra fazer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Banana..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não eram vocês que diziam que eu era autoritário?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora podemos rimar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A minha irmã não vai trair ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é o que você pensa!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês estão precisando de um café forte."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei fazer café..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meia hora depois."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, já fiz o..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que não precisa mais."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely e Mel jogados no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, vai ficar difícil tomarem café dormindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, eu vou dormir. Fica no quarto da Mel."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Tarde. Campainha. Angely acorda no sofá. Campainha. Levanta. Campainha. Aperta os olhos. Campainha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já vai! Pára de tocar essa..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely abre a porta. Agatha olha pra Angely que está só de calça, o cabelo bagunçado e com a mão no rosto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que aconteceu com você?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fala muito alto não, eu tô com dor de cabeça..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha entra na casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Edmont!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely solta os ombros e a cabeça. Suspira. Mel acorda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Ele saiu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como, saiu?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Plantando bananeira em cima de um monociclo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô vendo que a farra foi boa aqui ontem..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, na verdade, quando eu e Edmont chegamos, os dois estavam na sala, bebendo. Depois acabaram dormindo no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá. Angely, você sabe onde ele foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quando ele voltar diz a ele que eu estava procurando."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha sai. Kat fecha a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cara, eu nunca mais bebo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você viu como ela te mediu de cima a baixo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, eu tive um sonho, já contei pro Edmont quando ele acordou..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que era?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É melhor acordarem direito antes."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma hora depois."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, é o seguinte: sabe a irmã da Denise?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, e pelo jeito já conhece ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falamos com ela na festa de ontem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que ela tem a ver com seu sonho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, eu sonhei que ela tentava matar a irmã."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por que Edmont saiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra ir até lá ver o que foi isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tal dar uma das nossas armas de presente pra Handhara?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, tudo bem..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Edmont está na casa de Denise."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, Agatha voltou pra casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na verdade, eu preciso falar com a sua irmã."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minha irmã?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que você quer comigo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fale."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A sós."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara vai para a outra sala. Edmont segue. Denise pega o telefone. Digita."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont veio aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, ele foi me buscar, que fofo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele veio procurar a Handhara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Handhara?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se eu fosse você, não deixava."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele vai ver, quando ele vier falar comigo, ele vai ver!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Outra sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, fala..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você alguma vez pensou em matar sua irmã?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem nunca?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô falando de verdade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que está perguntando isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seria difícil explicar..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Veio falar comigo pra fazer uma pergunta sem sentido assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não está entendendo..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara vai para o jardim. Edmont vai atrás e segura o braço de Dara. Denise chega na porta, e fica olhando. Dara encara Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Solta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim ou não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É melhor soltar meu braço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Responda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se eu dissesse que sim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É melhor não fazer isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela solta o ar, em meia risada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está me ameaçando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sou de ameaças."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então solta meu braço. Antes que eu quebre o seu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont solta o braço dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É melhor não fazer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem acha que é pra mandar em mim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara entra na casa. Edmont se senta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero que ela não..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falando sozinho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu já tava de saída."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont volta pra casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será possível que..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Denise pega o telefone novamente."
+				}
+			]
+		}
+	]
+}

@@ -1,468 +1,1529 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="13" scene="e">
-	<teller>
-		<default>Zenon abre os olhos. Franze a testa. Levanta da cama. Vai até a porta.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Pensei que não fosse acordar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quem é você?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Um amigo.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Você tava atrás de Djanira.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Que Deus a tenha.</default>
-	</talk>
-	<teller>
-		<default>Derik franze a testa.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Vampiros não podem falar de Deus?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Onde tá Katerine?</default>
-	</talk>
-	<teller>
-		<default>Zenon dá um meio-riso.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Como vou saber?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sabemos que pegou.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Querem verificar?</default>
-	</talk>
-	<teller>
-		<default>Zenon se senta. Mel entra em um cômodo. Uma cama. Sem armários. Sai. Vai ao outro cômodo. Uma geladeira e uma mesa. Abre a geladeira. Sangue. Fecha. Puxa a geladeira do lugar. Puxa a mesa. Volta para a sala. Olha para Zenon e faz sinal com a cabeça para o lado esquerdo. Zenon levanta. Mel puxa o sofá. Vai até uma estante de livros. Tira do lugar também. Olha para Zenon de volta. Zenon puxa o bolso esquerdo pra fora. Depois o direito. Encolhe e solta os ombros.</default>
-	</teller>
-	<talk character="Mel">
-		<default>A gente vai voltar.</default>
-	</talk>
-	<talk character="Zenon">
-		<irony>Já vão? Achei que podíamos jogar video-game.</irony>
-	</talk>
-	<teller>
-		<default>Mel revira os olhos. Sai. Derik olha para Zenon. Segue Mel. Zenon vai até o quarto. Passa a mão na parede. Puxa a madeira. Passa para o outro lado. Kat está dormindo.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Seus amigos precisam se aprimorar. Espero que da próxima encontrem.</default>
-	</talk>
-	<teller>
-		<first>Noite. Angely, Edmont e Dara estão na MEAK.</first>
-	</teller>
-	<talk character="Edmont">
-		<default>Pra onde Mel iria?</default>
-	</talk>
-	<talk character="Dara">
-		<default>A lógica seria vir pra cá.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pensou isso, por isso não veio.</default>
-	</talk>
-	<teller>
-		<default>Derik e Mel entram.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Sabemos quem pegou Kat e onde tá.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Retiro o que disse.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não devia estar aqui!</default>
-	</talk>
-	<talk character="Mel">
-		<default>A casa é minha também.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Entendeu o que eu quis dizer. Passou por tortura e ficou em coma.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E estou em perfeita saúde.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Fiquei uma semana de cama e era menos do que Andrews fez.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Fiquei mais que isso naquela cama. E você pelo menos podia comer, não estava com um tubo no braço. Aliás, quer parar de dizer isso?! Não tem outro argumento?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vai voltar pro hospital.</default>
-	</talk>
-	<teller>
-		<default>Mel cruza os braços.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Vai me carregar?</default>
-	</talk>
-	<teller>
-		<default>Edmont se levanta e vai até Mel.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Pelo menos pra fazer exames.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mel, por favor...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Nem que me carreguem. Aliás, nem que tente.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Viu como as coisas nunca funcionam no seu jeito?</default>
-	</talk>
-	<teller>
-		<default>Angely olha para Edmont. Edmont vai pegar Mel. Mel derruba Edmont no chão.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não podem me forçar.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mel, por favor. Só os exames. Juro que não falo mais nada depois.</default>
-	</talk>
-	<teller>
-		<default>Mel olha pra Angely. Depois para Edmont. Edmon bufa. Levanta do chão.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Ok. Só exames. Mas fica até sair o resultado.</default>
-	</talk>
-	<teller>
-		<default>Mel encara Edmont.</default>
-	</teller>
-	<teller>
-		<first>Madrugada. Casa de Kat. Kat sobe a escada. Derik segue. Derik senta na cama. Kat senta na frente, de costas, e se recosta em Derik.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Era muito estranho. Ainda bem que me acharam.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Mel tinha sentido seu cheiro, mas achou que era de ter ido embora. Em forma de cachorro foi fácil. Teve algum sonho sobre?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Fora o de antes, não.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tá bem mesmo?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Estou.</default>
-	</talk>
-	<talk character="Zenon">
-		<arrive>Eu não faria nada contra ela.</arrive>
-	</talk>
-	<teller>
-		<default>Zenon para na porta. Derik segura Kat com mais força.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Mas quem...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Agatha.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Que você fez???</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Nada que nenhum homem nunca tenha feito. Exceto talvez pelo sonífero.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Quem é você?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Zenon.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Só isso?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Diego Leonard. Mas isso era quando eu era vivo.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Que veio fazer aqui?</default>
-	</talk>
-	<teller>
-		<default>Zenon tira do bolso da jaqueta o meio CD.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Ajudar.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ei, isso...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Deixou perto do computador de Katerine e eu peguei. Tudo o que prestava tá no computador já.</default>
-	</talk>
-	<teller>
-		<default>Zenon joga o meio CD para Kat.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Com que direito fez isso???</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Com o direito de quem é o único que sabe grego aqui.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Grego?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Os primeiros vinte e cinco anos da minha vida não foram lá muito úteis, mas cento e noventa e seis anos é um tempo meio grande pra fazer absolutamente nada.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E o que é isso?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Um diário com algumas coisas bem além do que qualquer ser psicologicamente são poderia imaginar.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Diário... Mel disse que tinha trazido isso de...</default>
-	</talk>
-	<teller>
-		<default>Kat olha pra Zenon. Zenon ri. Entra. Puxa uma cadeira. Senta-se.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Impressionante como ninguém conhece os pais de vocês. Sabe-se que você é sobrinha do cara que te adotou, meia-irmã deles por parte de mãe e que Mel é meia irmã deles por parte de pai... Exames de DNA bem pagos comprovaram isso. Mas faltam três peças nesse quebra cabeças.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Se você leu...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Não deram tempo pra eu ler tudo.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Pode traduzir pra nós?</default>
-	</talk>
-	<talk character="Kat">
-		<default>A questão não é poder. É querer.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Podemos fazer uma troca.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Troca?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Eu traduzo e vocês esclarecem o que eu quero saber.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não sei se podemos.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Fale com seus irmãos.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Podemos arranjar outro tradutor.</default>
-	</talk>
-	<teller>
-		<default>Zenon se levanta.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Vão ter que pagar pra traduzir, pagar cala-boca... Mesmo assim, sem garantia.</default>
-	</talk>
-	<teller>
-		<default>Zenon sai.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Talvez ele esteja blefando.</default>
-	</talk>
-	<teller>
-		<default>Kat pega o laptop. Um arquivo na área de trabalho. Abre.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Bom, deve ser mesmo grego, dá uma olhada nas letras!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Talvez ele tenha passado pro grego pra não entendermos.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Acho que não teria tempo.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Vamos falar com o pessoal.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Isso é, se eu não sonhar com nada.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu admiro você.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu?</default>
-	</talk>
-	<talk character="Derik">
-		<default>No seu lugar, eu não teria coragem de voltar a dormir.</default>
-	</talk>
-	<teller>
-		<default>Kat abraça Derik. Derik dá um beijo na testa de Kat. Se afastam. Derik levanta da cama.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Bom, acho que vou pra casa.</default>
-	</talk>
-	<teller>
-		<default>Derik sai.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Derik!</default>
-	</talk>
-	<teller>
-		<default>Derik volta.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Eu não conheço sua família. Aliás, eu não sei nada sobre você.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Amanhã a gente fala, já é tarde.</default>
-	</talk>
-	<teller>
-		<default>Kat se joga na cama.</default>
-	</teller>
-	<talk character="Kat">
-		<thought>Não sei nem se você tem casa. Não conheço sua casa, nem sua família, ou amizades... Eu só conheço você.</thought>
-	</talk>
-	<teller>
-		<default>No dia seguinte, Kat vai ao hospital.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Mel...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você tem que me ajudar a fugir daqui!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não precisa, só falta pegar os resultados dos exames.</default>
-	</talk>
-	<teller>
-		<default>Psique chega.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Garota, você tem um anjo da guarda forte... Não há sequer um problema com o seu organismo! Aliás, só teve um caso parecido com o seu, de uma recuperação um pouco mais lenta, mas também fora do comum, e foi seu irmão. Parece até coisa de outro planeta, depois do que sofreram.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Deve ser de família.</default>
-	</talk>
-	<talk character="Psique">
-		<default>Agora só uns testes psicológicos...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pra que???</default>
-	</talk>
-	<talk character="Psique">
-		<default>Pra ter certeza que não tem algo que não vimos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não é como se realmente pudessem fazer isso.</default>
-	</talk>
-	<teller>
-		<default>Psique encara Mel. Sai.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Sabe que não podemos levantar suspeita, né?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu sei. Sei mais que vocês. Só por isso não taco o foda-se.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Você sabia que o CD tá em grego?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não sabia que você sabia grego.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E não sei. Mas Zenon sabe.</default>
-	</talk>
-	<teller>
-		<default>Mel franze a testa.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Quem me sequestrou.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Veio atrás de você de novo?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Enganou Agatha. Mas não fez mais nada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que tem ele saber grego?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Disse que traduz, mas só se contarmos o nosso passado.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu não tenho nada contra.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mas...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que vai fazer? Mandar pra um jornal? E assinar como "vampiro anônimo"? Já deve saber mais que a gente sobre muita coisa.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não sei. Mas não estou com uma boa impressão.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Teve algum sonho?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Do passado.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não deve ter sido muito agradável.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Foi como o outro sonho que tive, de Astride.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Como se estivesse no lugar da vítima?</default>
-	</talk>
-	<talk character="Kat">
-		<default>É. Filha da madrasta dele.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não foi assim que sonhou desde que encontrou Zenon?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mas é diferente. Eu pensei que tinha sido pior por que era a primeira vez que sonhava assim. Mas não é: é por causa de Zenon! É mil vezes mais real quando é com Zenon!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se acalma. Então é isso que te perturba?</default>
-	</talk>
-	<talk character="Kat">
-		<default>É. Não sei se...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pode ser uma bom sinal também.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não sei.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vamos falar com o Angely e Edmont.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Angely vai ser a favor e Edmont contra.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu já sei.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Então empatou.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Teremos que falar com Dara. Não pertence ao segredo, mas teremos que usar o voto, já que somos em quatro.</default>
-	</talk>
-	<talk character="Kat">
-		<default>A Handhara namora Edmont e o Derik e eu namoramos, então também pode opinar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá... Só corremos risco de novo empate.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "13",
+	"scene": "e",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon abre os olhos. Franze a testa. Levanta da cama. Vai até a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pensei que não fosse acordar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um amigo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tava atrás de Djanira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que Deus a tenha."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vampiros não podem falar de Deus?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde tá Katerine?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon dá um meio-riso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como vou saber?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabemos que pegou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Querem verificar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon se senta. Mel entra em um cômodo. Uma cama. Sem armários. Sai. Vai ao outro cômodo. Uma geladeira e uma mesa. Abre a geladeira. Sangue. Fecha. Puxa a geladeira do lugar. Puxa a mesa. Volta para a sala. Olha para Zenon e faz sinal com a cabeça para o lado esquerdo. Zenon levanta. Mel puxa o sofá. Vai até uma estante de livros. Tira do lugar também. Olha para Zenon de volta. Zenon puxa o bolso esquerdo pra fora. Depois o direito. Encolhe e solta os ombros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente vai voltar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Já vão? Achei que podíamos jogar video-game."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel revira os olhos. Sai. Derik olha para Zenon. Segue Mel. Zenon vai até o quarto. Passa a mão na parede. Puxa a madeira. Passa para o outro lado. Kat está dormindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seus amigos precisam se aprimorar. Espero que da próxima encontrem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite. Angely, Edmont e Dara estão na MEAK."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra onde Mel iria?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A lógica seria vir pra cá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pensou isso, por isso não veio."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik e Mel entram."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabemos quem pegou Kat e onde tá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Retiro o que disse."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não devia estar aqui!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A casa é minha também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Entendeu o que eu quis dizer. Passou por tortura e ficou em coma."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E estou em perfeita saúde."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fiquei uma semana de cama e era menos do que Andrews fez."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fiquei mais que isso naquela cama. E você pelo menos podia comer, não estava com um tubo no braço. Aliás, quer parar de dizer isso?! Não tem outro argumento?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai voltar pro hospital."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai me carregar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se levanta e vai até Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo menos pra fazer exames."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, por favor..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem que me carreguem. Aliás, nem que tente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viu como as coisas nunca funcionam no seu jeito?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Edmont. Edmont vai pegar Mel. Mel derruba Edmont no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não podem me forçar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, por favor. Só os exames. Juro que não falo mais nada depois."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha pra Angely. Depois para Edmont. Edmon bufa. Levanta do chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ok. Só exames. Mas fica até sair o resultado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel encara Edmont."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Madrugada. Casa de Kat. Kat sobe a escada. Derik segue. Derik senta na cama. Kat senta na frente, de costas, e se recosta em Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Era muito estranho. Ainda bem que me acharam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel tinha sentido seu cheiro, mas achou que era de ter ido embora. Em forma de cachorro foi fácil. Teve algum sonho sobre?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fora o de antes, não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá bem mesmo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Eu não faria nada contra ela."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon para na porta. Derik segura Kat com mais força."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas quem..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que você fez???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada que nenhum homem nunca tenha feito. Exceto talvez pelo sonífero."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Diego Leonard. Mas isso era quando eu era vivo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que veio fazer aqui?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon tira do bolso da jaqueta o meio CD."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ajudar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, isso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixou perto do computador de Katerine e eu peguei. Tudo o que prestava tá no computador já."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon joga o meio CD para Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com que direito fez isso???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com o direito de quem é o único que sabe grego aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Grego?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Os primeiros vinte e cinco anos da minha vida não foram lá muito úteis, mas cento e noventa e seis anos é um tempo meio grande pra fazer absolutamente nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que é isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um diário com algumas coisas bem além do que qualquer ser psicologicamente são poderia imaginar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Diário... Mel disse que tinha trazido isso de..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat olha pra Zenon. Zenon ri. Entra. Puxa uma cadeira. Senta-se."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Impressionante como ninguém conhece os pais de vocês. Sabe-se que você é sobrinha do cara que te adotou, meia-irmã deles por parte de mãe e que Mel é meia irmã deles por parte de pai... Exames de DNA bem pagos comprovaram isso. Mas faltam três peças nesse quebra cabeças."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se você leu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não deram tempo pra eu ler tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode traduzir pra nós?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A questão não é poder. É querer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podemos fazer uma troca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Troca?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu traduzo e vocês esclarecem o que eu quero saber."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei se podemos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fale com seus irmãos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podemos arranjar outro tradutor."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon se levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vão ter que pagar pra traduzir, pagar cala-boca... Mesmo assim, sem garantia."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez ele esteja blefando."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat pega o laptop. Um arquivo na área de trabalho. Abre."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, deve ser mesmo grego, dá uma olhada nas letras!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez ele tenha passado pro grego pra não entendermos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que não teria tempo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos falar com o pessoal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é, se eu não sonhar com nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu admiro você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No seu lugar, eu não teria coragem de voltar a dormir."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat abraça Derik. Derik dá um beijo na testa de Kat. Se afastam. Derik levanta da cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, acho que vou pra casa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não conheço sua família. Aliás, eu não sei nada sobre você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Amanhã a gente fala, já é tarde."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat se joga na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Não sei nem se você tem casa. Não conheço sua casa, nem sua família, ou amizades... Eu só conheço você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No dia seguinte, Kat vai ao hospital."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tem que me ajudar a fugir daqui!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa, só falta pegar os resultados dos exames."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique chega."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Garota, você tem um anjo da guarda forte... Não há sequer um problema com o seu organismo! Aliás, só teve um caso parecido com o seu, de uma recuperação um pouco mais lenta, mas também fora do comum, e foi seu irmão. Parece até coisa de outro planeta, depois do que sofreram."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deve ser de família."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora só uns testes psicológicos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra que???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra ter certeza que não tem algo que não vimos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é como se realmente pudessem fazer isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique encara Mel. Sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe que não podemos levantar suspeita, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei. Sei mais que vocês. Só por isso não taco o foda-se."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você sabia que o CD tá em grego?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabia que você sabia grego."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E não sei. Mas Zenon sabe."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem me sequestrou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Veio atrás de você de novo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Enganou Agatha. Mas não fez mais nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tem ele saber grego?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Disse que traduz, mas só se contarmos o nosso passado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não tenho nada contra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que vai fazer? Mandar pra um jornal? E assinar como "vampiro anônimo"? Já deve saber mais que a gente sobre muita coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Mas não estou com uma boa impressão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Teve algum sonho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do passado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não deve ter sido muito agradável."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi como o outro sonho que tive, de Astride."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como se estivesse no lugar da vítima?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Filha da madrasta dele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi assim que sonhou desde que encontrou Zenon?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas é diferente. Eu pensei que tinha sido pior por que era a primeira vez que sonhava assim. Mas não é: é por causa de Zenon! É mil vezes mais real quando é com Zenon!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se acalma. Então é isso que te perturba?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Não sei se..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ser uma bom sinal também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos falar com o Angely e Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely vai ser a favor e Edmont contra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu já sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então empatou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Teremos que falar com Dara. Não pertence ao segredo, mas teremos que usar o voto, já que somos em quatro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A Handhara namora Edmont e o Derik e eu namoramos, então também pode opinar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá... Só corremos risco de novo empate."
+				}
+			]
+		}
+	]
+}

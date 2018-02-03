@@ -1,512 +1,1663 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="13" scene="a">
-	<teller>
-		<default>Manhã. Kat está no escritório. Abre uma gaveta. Pega um CD. Derik chega. Kat se assusta, se vira e prensa o CD ao tentar guardar. O CD se quebra. Kat bufa.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Droga!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Desculpa...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não foi culpa sua.</default>
-	</talk>
-	<teller>
-		<default>Kat pega o CD do chão.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Tem um aparelho pra consertar, eu vi por aqui...</default>
-	</talk>
-	<teller>
-		<default>Derik vai até uma estante. Pega uma caixa. Abre e tira um aparelho de dentro. Leva até a mesa. Pousa o aparelho. Abre. Kat coloca o CD dentro do aparelho. Derik fecha.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Vai demorar muito?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Pelo menos umas oito horas.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E fica inteiro?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Bem, o CD sim, mas o que tem dentro eu já não garanto. Os arquivos podem ficar meio danificados. O que tinha aí?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não sei. Mel pediu pra eu ler, antes de...</default>
-	</talk>
-	<teller>
-		<default>Kat baixa a cabeça.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Não fica assim. Mel vai ficar bem. É mais forte que eu e você junto.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu sei.</default>
-	</talk>
-	<teller>
-		<first>Kat desce até a sala. Angely está assistindo TV. Uma pessoa fala da frente de um hospital.</first>
-		<letter>Melody Lorrage Kallend, integrante da banda Saturn, continua internada neste hospital, em coma. Uma enfermeira nos disse que um misterioso homem a trouxe aqui, inconsciente e toda machucada, como se alguém a tivesse torturado. Os médicos dizem que não se sabe...</letter>
-	</teller>
-	<talk character="Kat">
-		<default>Eu vou sair com o Derik, tá?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não tá pedindo permissão, tá?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Cadê Edmont?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Com Dara.</default>
-	</talk>
-	<talk character="Derik">
-		<arrive>Vamos?</arrive>
-	</talk>
-	<teller>
-		<default>Kat dá a mão a Derik. Saem. Angely olha pra TV. Passam fotos de Mel. Angely desliga a TV.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Volta pra casa...</default>
-	</talk>
-	<teller>
-		<first>Lago.</first>
-	</teller>
-	<talk character="Derik">
-		<default>Eu tava voando outro dia e vi isso aqui. Gostou?</default>
-	</talk>
-	<talk character="Kat">
-		<default>É lindo!</default>
-	</talk>
-	<teller>
-		<default>Kat vai até o lago se senta e coloca os pés na água.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Pena que eu não tô de biquíni! Podia ter me falado pra eu trazer...</default>
-	</talk>
-	<teller>
-		<default>Derik se senta ao lado dela. Se abraçam.</default>
-	</teller>
-	<teller>
-		<default>Noite. Kat entra no escritório. Angely está limpando o chão.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Que aconteceu?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Alguém usou o aparelho de consertar CDs, tava com defeito... Explodiu.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Isso não é bom.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tem metade do CD aqui.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E a outra metade?</default>
-	</talk>
-	<teller>
-		<default>Angely balança a cabeça para os lados. Entrega a metade do CD a Kat.</default>
-	</teller>
-	<talk character="Kat">
-		<default>E agora? Mel vai me matar.</default>
-	</talk>
-	<teller>
-		<default>Angely abre mais os olhos e endireita o corpo.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Mel acordou?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não.</default>
-	</talk>
-	<teller>
-		<default>Angely solta os ombros.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Mel vai ficar bem. Me prometeu.</default>
-	</talk>
-	<teller>
-		<default>Kat joga o resto do CD no lixo. Sai. Angely pega.</default>
-	</teller>
-	<teller>
-		<first>Manhã. Escritório. Angely está em uma cadeira. Edmont entra.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Tô precisando de ajuda pra tomar uma decisão.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sobre o que?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Kat está escondendo alguma coisa. E é sobre Mel.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E o que poderia ser?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Uma vez eu entrei no escritório e Mel se assustou. Estava com isto aqui na mão.</default>
-	</talk>
-	<teller>
-		<default>Angely aponta o meio CD na mesa.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tava inteiro.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E que tem isso?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Kat quebrou o CD e foi usar, sem saber, o aparelho quebrado...</default>
-	</talk>
-	<teller>
-		<default>Edmont ri.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Explodiu?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Dá pra recuperar o que resta aqui, não?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sim. E o que tem aí?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Acho que Mel estava escondendo alguma coisa e falou com Kat.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Antes de ir atrás de Andrews?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Depois. Acho que Kat tem falado com Mel através de sonhos.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>A troco de que tá dizendo isso?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Disse que Mel prometeu que ia ficar legal e que ia voltar.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Talvez isso tenha sido antes de sair.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não creio. Pelo jeito como falou...</default>
-	</talk>
-	<teller>
-		<default>Kat está em casa. Está escuro.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Até que enfim tava tendo um sonho normal e me acordam... Quem tá aí?</default>
-	</talk>
-	<teller>
-		<default>Kat acende a luz.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Mel???</default>
-	</talk>
-	<talk character="Mel">
-		<default>E o CD?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Quebrou.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Usa o recuperador.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tava com defeito e explodiu.</default>
-	</talk>
-	<teller>
-		<default>Mel solta os ombros e olha para o teto. Suspira.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Que tinha lá?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tem que ser traduzido.</default>
-	</talk>
-	<teller>
-		<default>Mel senta na cama.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Sobrou alguma coisa do CD?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Metade. Mas, com isso, não se faz nada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Como não?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Espera usar metade do CD?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Dá pra usar. O que fez?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Joguei no lixo...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Volta lá e pega! Eu só vou voltar quando fizer o que pedi!</default>
-	</talk>
-	<teller>
-		<default>Kat acorda. A luz do sol entra pela janela. 8h. Levanta da cama. Anda de um lado a outro.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Derik!</default>
-		<screamed>Derik!</screamed>
-	</talk>
-	<talk character="Agatha">
-		<arrive>Ele não tá aqui, Kat!</arrive>
-	</talk>
-	<teller>
-		<default>Kat para.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Onde tá então?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Como espera que eu saiba???</default>
-	</talk>
-	<teller>
-		<default>Kat sai do quarto. Agatha segue.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Passou a noite com ele?</default>
-	</talk>
-	<talk character="Kat">
-		<default>NÃO!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Calma, só tava perguntando.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Acha que eu sou o que???</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Achei que era uma garota.</default>
-	</talk>
-	<teller>
-		<default>Kat se vira pra Agatha.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Tá insinuando o que?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Nada.</default>
-	</talk>
-	<teller>
-		<default>Agatha passa por Kat e sai. Kat volta ao quarto, pega o celular. Clica no nome de Derik. Para.</default>
-	</teller>
-	<talk character="Kat">
-		<thought>Melhor não. Talvez... Droga. Preciso de ajuda, pode entrar lá sem que notem. Não, Mel não vai gostar.</thought>
-	</talk>
-	<teller>
-		<default>Kat coloca o celular no bolso. Vai até a MEAK. Entra por fora no escritório. Pega a lixeira. Revira.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Droga... Será que pegaram?</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Procurando isto?</arrive>
-	</talk>
-	<teller>
-		<default>Kat olha para Edmont. Angely vem junto. Em sua mão, o meio CD. Kat vai até Edmont. Edmont levanta mais alto.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Eu preciso falar com vocês.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sim?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mel disse que se não voltasse imediatamente, era pra ver isso e falar com vocês.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E o que tem no CD?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Um segredo que Mel guardou.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Então fale.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não posso.</default>
-	</talk>
-	<teller>
-		<default>Kat se senta.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Primeiro por que não sei o que tem aí. Segundo por que Mel pediu.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não poderia adivinhar que ia ficar em coma.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Falou comigo através dos meus sonhos.</default>
-	</talk>
-	<teller>
-		<default>Edmont franze a testa. Olha para Angely. Depois olha para Kat.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Devemos considerar que Mel tá...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não! Prometeu que vai voltar... Prometeu...</default>
-	</talk>
-	<teller>
-		<default>Kat baixa a cabeça. Levanta novamente. Levanta-se da cadeira.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Pode me dar isso?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Edmont...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Por que você tem que ler e falar com a gente depois?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não sei, Mel pediu.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Pára com isso, Kat.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vocês não leram, né?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não tem por que não ler, se falou pra falar com a gente depois...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Entrega pra Kat.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Quê?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não implica, pertence a Mel. Vale o que Mel pediu.</default>
-	</talk>
-	<teller>
-		<default>Edmont encara Angely. Entrega o meio CD pra Kat.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Achei que não houvessem segredos entre as pessoas da agência.</default>
-	</talk>
-	<teller>
-		<default>Edmont sai. Angely suspira.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Vou procurar alguém que possa tirar alguma coisa daqui.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu posso fazer isso.</default>
-	</talk>
-	<teller>
-		<default>Kat fica olhando para Angely.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Não confia em mim?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não é isso, é que...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ok. Você tem o direito de escolher como resolver isso. Foi pra você que Mel pediu.</default>
-	</talk>
-	<teller>
-		<default>Casa de Dara.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Que foi? Por que tá com essa cara?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Kat. Tá escondendo alguma coisa que Mel tava escondendo antes.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não fica assim.</default>
-	</talk>
-	<teller>
-		<default>Dara passa a mão no rosto de Edmont. Denise chega na sala.</default>
-	</teller>
-	<talk character="Denise">
-		<default>Detesto interromper, mas nossos pais estão chegando.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Droga.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Vai ter que falar com eles.</default>
-	</talk>
-	<talk character="Denise">
-		<default>Pra isso que eu digo que o Bryan é meu namorado.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Isso tem algum problema?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Vamos sair, assim não dá tempo!</default>
-	</talk>
-	<teller>
-		<default>Dara pega a mão de Edmont. Se levantam.</default>
-	</teller>
-	<talk character="Denise">
-		<default>Eles telefonaram...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Você não disse que...</default>
-	</talk>
-	<talk character="Denise">
-		<default>Que você tá aqui com seu namorado?</default>
-	</talk>
-	<teller>
-		<default>Denise dá um sorriso. Olha para o chão. Dara senta no sofá.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Não pode ser tão ruim assim, pode?</default>
-	</talk>
-	<teller>
-		<first>Noite. Edmont chega em casa.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Que cara é essa?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Descobri que a Dara tem um pai e uma mãe.</default>
-	</talk>
-	<teller>
-		<default>Edmont se senta no sofá.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Pela sua cara...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Um pé na idéia.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Esse é o preço.</default>
-	</talk>
-	<teller>
-		<default>Toca o telefone.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Alô? ### Sim... ### Nós já vamos.</default>
-	</talk>
-	<teller>
-		<default>Angely desliga.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Quem era?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Hospital, a Mel está com problemas.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "13",
+	"scene": "a",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manhã. Kat está no escritório. Abre uma gaveta. Pega um CD. Derik chega. Kat se assusta, se vira e prensa o CD ao tentar guardar. O CD se quebra. Kat bufa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi culpa sua."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat pega o CD do chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem um aparelho pra consertar, eu vi por aqui..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik vai até uma estante. Pega uma caixa. Abre e tira um aparelho de dentro. Leva até a mesa. Pousa o aparelho. Abre. Kat coloca o CD dentro do aparelho. Derik fecha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai demorar muito?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo menos umas oito horas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E fica inteiro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bem, o CD sim, mas o que tem dentro eu já não garanto. Os arquivos podem ficar meio danificados. O que tinha aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Mel pediu pra eu ler, antes de..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fica assim. Mel vai ficar bem. É mais forte que eu e você junto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Kat desce até a sala. Angely está assistindo TV. Uma pessoa fala da frente de um hospital."
+				},
+				{
+					"type": "letter",
+					"text": "Melody Lorrage Kallend, integrante da banda Saturn, continua internada neste hospital, em coma. Uma enfermeira nos disse que um misterioso homem a trouxe aqui, inconsciente e toda machucada, como se alguém a tivesse torturado. Os médicos dizem que não se sabe..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou sair com o Derik, tá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tá pedindo permissão, tá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê Edmont?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Vamos?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat dá a mão a Derik. Saem. Angely olha pra TV. Passam fotos de Mel. Angely desliga a TV."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Volta pra casa..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Lago."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tava voando outro dia e vi isso aqui. Gostou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É lindo!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat vai até o lago se senta e coloca os pés na água."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pena que eu não tô de biquíni! Podia ter me falado pra eu trazer..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik se senta ao lado dela. Se abraçam."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Noite. Kat entra no escritório. Angely está limpando o chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que aconteceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguém usou o aparelho de consertar CDs, tava com defeito... Explodiu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não é bom."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem metade do CD aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E a outra metade?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely balança a cabeça para os lados. Entrega a metade do CD a Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E agora? Mel vai me matar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely abre mais os olhos e endireita o corpo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel acordou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely solta os ombros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel vai ficar bem. Me prometeu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat joga o resto do CD no lixo. Sai. Angely pega."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Manhã. Escritório. Angely está em uma cadeira. Edmont entra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô precisando de ajuda pra tomar uma decisão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sobre o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat está escondendo alguma coisa. E é sobre Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que poderia ser?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma vez eu entrei no escritório e Mel se assustou. Estava com isto aqui na mão."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely aponta o meio CD na mesa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tava inteiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E que tem isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat quebrou o CD e foi usar, sem saber, o aparelho quebrado..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Explodiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dá pra recuperar o que resta aqui, não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim. E o que tem aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que Mel estava escondendo alguma coisa e falou com Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Antes de ir atrás de Andrews?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Depois. Acho que Kat tem falado com Mel através de sonhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A troco de que tá dizendo isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Disse que Mel prometeu que ia ficar legal e que ia voltar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez isso tenha sido antes de sair."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não creio. Pelo jeito como falou..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat está em casa. Está escuro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Até que enfim tava tendo um sonho normal e me acordam... Quem tá aí?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat acende a luz."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o CD?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quebrou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Usa o recuperador."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tava com defeito e explodiu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel solta os ombros e olha para o teto. Suspira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tinha lá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem que ser traduzido."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel senta na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sobrou alguma coisa do CD?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Metade. Mas, com isso, não se faz nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como não?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espera usar metade do CD?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dá pra usar. O que fez?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Joguei no lixo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Volta lá e pega! Eu só vou voltar quando fizer o que pedi!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat acorda. A luz do sol entra pela janela. 8h. Levanta da cama. Anda de um lado a outro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik!"
+				},
+				{
+					"type": "screamed",
+					"text": "Derik!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Ele não tá aqui, Kat!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat para."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde tá então?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como espera que eu saiba???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat sai do quarto. Agatha segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Passou a noite com ele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "NÃO!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma, só tava perguntando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha que eu sou o que???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei que era uma garota."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat se vira pra Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá insinuando o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha passa por Kat e sai. Kat volta ao quarto, pega o celular. Clica no nome de Derik. Para."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Melhor não. Talvez... Droga. Preciso de ajuda, pode entrar lá sem que notem. Não, Mel não vai gostar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat coloca o celular no bolso. Vai até a MEAK. Entra por fora no escritório. Pega a lixeira. Revira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga... Será que pegaram?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Procurando isto?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat olha para Edmont. Angely vem junto. Em sua mão, o meio CD. Kat vai até Edmont. Edmont levanta mais alto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu preciso falar com vocês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel disse que se não voltasse imediatamente, era pra ver isso e falar com vocês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que tem no CD?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um segredo que Mel guardou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então fale."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não posso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat se senta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Primeiro por que não sei o que tem aí. Segundo por que Mel pediu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não poderia adivinhar que ia ficar em coma."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falou comigo através dos meus sonhos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont franze a testa. Olha para Angely. Depois olha para Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devemos considerar que Mel tá..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não! Prometeu que vai voltar... Prometeu..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat baixa a cabeça. Levanta novamente. Levanta-se da cadeira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode me dar isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que você tem que ler e falar com a gente depois?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei, Mel pediu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pára com isso, Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês não leram, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem por que não ler, se falou pra falar com a gente depois..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Entrega pra Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não implica, pertence a Mel. Vale o que Mel pediu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont encara Angely. Entrega o meio CD pra Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei que não houvessem segredos entre as pessoas da agência."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont sai. Angely suspira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou procurar alguém que possa tirar alguma coisa daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu posso fazer isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat fica olhando para Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não confia em mim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é isso, é que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ok. Você tem o direito de escolher como resolver isso. Foi pra você que Mel pediu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Casa de Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi? Por que tá com essa cara?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat. Tá escondendo alguma coisa que Mel tava escondendo antes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fica assim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara passa a mão no rosto de Edmont. Denise chega na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Detesto interromper, mas nossos pais estão chegando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai ter que falar com eles."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra isso que eu digo que o Bryan é meu namorado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso tem algum problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos sair, assim não dá tempo!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara pega a mão de Edmont. Se levantam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles telefonaram..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não disse que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que você tá aqui com seu namorado?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Denise dá um sorriso. Olha para o chão. Dara senta no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode ser tão ruim assim, pode?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite. Edmont chega em casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que cara é essa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Descobri que a Dara tem um pai e uma mãe."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se senta no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pela sua cara..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um pé na idéia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esse é o preço."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alô? ### Sim... ### Nós já vamos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely desliga."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem era?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Hospital, a Mel está com problemas."
+				}
+			]
+		}
+	]
+}

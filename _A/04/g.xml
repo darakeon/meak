@@ -1,30 +1,95 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="04" scene="g">
-	<teller>
-		<division>Algum tempo, algum lugar</division>
-	</teller>
-	<talk character="Xien">
-		<default>Porque a Katerine não foi morar conosco? Ela era minha irmã, afinal. Isso se eu for um dos dois...</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Bom ponto.</default>
-	</talk>
-	<talk character="Xien">
-		<default>É a resposta?!</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Vai descobrir.</default>
-	</talk>
-	<teller>
-		<default>Xien suspira.</default>
-	</teller>
-	<talk character="Uehfo">
-		<default>Meg já tinha perdido os pais, imagino que não ia ser legal tirar a irmã dela também.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Bom, elas já sabiam que éramos alienígenas, porque não saber do resto? Moraríamos todos juntos e...</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Casamento não é tão simples quanto você acha, Don Juan. E essa história toda ainda vai ficar mais complicada.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "04",
+	"scene": "g",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Algum tempo, algum lugar"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque a Katerine não foi morar conosco? Ela era minha irmã, afinal. Isso se eu for um dos dois..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom ponto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É a resposta?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai descobrir."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Xien suspira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg já tinha perdido os pais, imagino que não ia ser legal tirar a irmã dela também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, elas já sabiam que éramos alienígenas, porque não saber do resto? Moraríamos todos juntos e..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Casamento não é tão simples quanto você acha, Don Juan. E essa história toda ainda vai ficar mais complicada."
+				}
+			]
+		}
+	]
+}

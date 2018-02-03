@@ -1,549 +1,1789 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="05" scene="c">
-	<teller>
-		<default>Noite. Derik e Kat estão na varanda. Angely passa.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Atrasou?</default>
-	</talk>
-	<teller>
-		<default>Ang se vira.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Não, tenho segunda em diante só.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ah, tá...</default>
-	</talk>
-	<teller>
-		<default>Ang franze a testa, olhando para cima.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Mas acho que isso não é da sua conta.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Lustrou as ferraduras?</default>
-	</talk>
-	<teller>
-		<default>Ang olha para Derik.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Eu sei que queria, não tive tempo de fazer isso pra você, vai ter que usar sujo mesmo.</default>
-	</talk>
-	<teller>
-		<default>Ang sai andando.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Que isso?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Será que não era...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Troca de lugar de novo?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não sei...</default>
-		<teller>arregala os olhos</teller>
-		<default>Foi pra escola!</default>
-	</talk>
-	<teller>
-		<default>Kat e Derik saem correndo.</default>
-	</teller>
-	<teller>
-		<first>Estela coloca uma blusa em uma mala, que já tem outras roupas.</first>
-	</teller>
-	<talk character="Mel">
-		<arrive>Que tá fazendo?</arrive>
-	</talk>
-	<talk character="Estela">
-		<default>Vou embora.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas disse que nunca iria morar com...</default>
-	</talk>
-	<talk character="Estela">
-		<default>Vou atrás de Alan.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Dormir num banco de praça?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Você viu ele na ilha?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vai correndo dormir no chão junto?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não me importo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não pode fazer isso.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Por quê?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Primeiro, você é menor e tenho a sua guarda. Alan me passou, no começo do ano.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Vai colocar a polícia atrás de mim?</default>
-	</talk>
-	<teller>
-		<default>Mel cruza os braços.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Agora diz olhando pra mim que acha que eu preciso de polícia pra te achar.</default>
-	</talk>
-	<teller>
-		<default>Estela olha para Mel.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Não precisa fazer esforço! Eu não tenho família, e daí?! Não precisam fazer caridade por isso!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você tem família do jeito que vocês chamam, só não gosta da metade dela e a outra metade não tem onde ficar. Fora isso, nós somos sua família agora também.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não, vocês estão comigo há menos de quatro meses!</default>
-	</talk>
-	<teller>
-		<default>Estela pega um vestido. Mel fecha a mala. Estela olha para Mel.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Qual o problema? Que besteira te disseram?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Nada. Eu só tô afim de ir atrás do Alan e pronto.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E acha que vai ajudar indo atrás assim? Ou ganhou algum prêmio de loteria?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não te interessa o que vou fazer.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sou responsável por você.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Isso significa que vou ter que assinar alguma coisa pra ir embora?</default>
-	</talk>
-	<teller>
-		<default>Mel tira a mão de cima da mala. Sai do quarto. Estela abre a mala. Coloca o vestido. Um barulho de metal. Estela franze a sobrancelha. Vai até a porta, gira a maçaneta e puxa. Não vem.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Mel, pára com isso! Abre essa porta!</default>
-	</talk>
-	<teller>
-		<default>Estela bate diversas vezes. Do lado de fora, Zenon# passa.</default>
-	</teller>
-	<talk character="Estela">
-		<out>Eu vou embora nem que tenha que pular a janela, tá me ouvindo???</out>
-	</talk>
-	<talk character="Zenon#">
-		<default>Ai, caralho...</default>
-	</talk>
-	<teller>
-		<default>Zenon# continua pelo corredor, desce a escada, atravessa o hall de entrada e entra na copa.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Por que Estela tá presa no quarto?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Porque eu decidi que ela não vai atrás do Alan.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>E como ela pretende ir?!</default>
-		<irony>A nado?!</irony>
-	</talk>
-	<talk character="Mel">
-		<default>Alan tá do lado.</default>
-	</talk>
-	<teller>
-		<default>Zenon# franze a testa. Desfranze.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Ares?</default>
-	</talk>
-	<talk character="Mel">
-		<default>É.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Então Clítia também deve estar...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quem é Clítia?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Não é...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Peraí, Angely tinha falado...</default>
-	</talk>
-	<teller>
-		<default>Mel olha para baixo. Olha pra Zenon#.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Clítia foi quem te matou.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Eu não tô morto!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Isso não quer dizer que não tenha morrido.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Não foi exatamente...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá atrás de Alan? Talvez contrário?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Não queria te decepcionar, mas eles estão juntos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ah?!</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>É que ela...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Caralho... Não sabia que ia chegar a isso...</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Mel...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se bem que também não conheço Clítia, poderia ser que não fosse ruim.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Ele tá...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ou talvez acredite que Clítia pode mudar porque...</default>
-	</talk>
-	<teller>
-		<default>Zenon# vira a mesa. Mel cruza os braços e encara. Zenon# volta a mesa e as coisas em cima.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Clítia está enganando Alan.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Clítia disse a mesma coisa de você.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Você acredita nela?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não. Na verdade, nem em Clítia, nem em Alan.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Clítia já fez isso antes.</default>
-		<teller>baixa a cabeça</teller>
-		<default>E eu também.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então pode estar mentindo pra mim?</default>
-	</talk>
-	<teller>
-		<default>Zenon# olha para Mel.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Nunca tive paciência pra enrolar por muito tempo. E, se estivesse tentando te enrolar, Kat já estaria morta e você já estaria na minha cama.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E, pra quem estiver presente e quiser saber, o nome disso é prepotência.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Não foi isso que eu quis dizer.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por que mataria Kat?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Porque ela é seu bem mais valioso. Até um asno percebe isso.</default>
-	</talk>
-	<teller>
-		<default>Zenon# arregala os olhos.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Pera, Estela tava querendo ir atrás dele?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu disse isso no começo da conversa.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Então tem perigo de eu não ter evitado.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá, chegou, desembucha.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Eu...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você, Alan, Clítia e Estela.</default>
-	</talk>
-	<teller>
-		<default>Zenon# suspira.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Lembro de Clítia enganar ele. Mas ele se livrava disso sozinho.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E o que quer evitar?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Estela. Alan só vai descobrir que Clítia é má quando ela fizer uma coisa muita trágica.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E o que Estela pode fazer de trágico? Vai querer virar vampir quando descobrir que Alan está com Clítia?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Não, quem vai fazer é Clítia. Ela quer transformar Alan em vampiro, quando descobrir que ele nunca vai aceitar isso...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por isso pediu pra segurar Estela aqui.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Achei que podia impedir isso, mas...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Temos Estela aí, podemos segurar.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Melhor eu ir atrás da Clítia.</default>
-	</talk>
-	<teller>
-		<default>Estela chuta a porta. Baixa a cabeça e balança para os lados. Se joga na cama.</default>
-	</teller>
-	<teller>
-		<first>Escola.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Por que não podemos entrar???</default>
-	</talk>
-	<talk character="Zoé">
-		<default>É contra o regulamento.</default>
-	</talk>
-	<talk character="Derik">
-		<default>E um professor entrar com uma espada não é?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vem Derik.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Vai desistir?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tô mandando vir!</default>
-	</talk>
-	<teller>
-		<default>Kat sai andando. Derik segue.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Kat, Edmont pode resolver matar todo mundo... Ou transformar todo mundo... Ou matar metade e deixar a outra metade morrer nas mãos da primeira metade...</default>
-	</talk>
-	<teller>
-		<default>Kat continua andando. Derik seguindo. Chegam atrás da escola.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Você vai lá olhar.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Quê?!</default>
-	</talk>
-	<teller>
-		<default>Kat cruza os braços.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Ah, tá!</default>
-	</talk>
-	<teller>
-		<default>Derik se transforma em pássaro e voa. Na sala, Angely está escrevendo na lousa. Para. Olha para a sala.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Sou só eu ou tem mais alguém com calor aqui?</default>
-	</talk>
-	<teller>
-		<default>Angely solta o giz, tira a camisa. Derik arregala os olhos, abre o bico e faz um barulho. Angely pousa a camisa na mesa, pega o giz e volta a escrever. Derik voa de volta a Kat. Se transforma de volta. Se veste.</default>
-	</teller>
-	<talk character="Kat">
-		<default>E aí?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Bom, vai ter gente que nunca mais vai faltar a aula de matemática.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Angely... Edmont... Sei lá... Tirou a camisa.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Droga... O que tá faltando agora?</default>
-	</talk>
-	<talk character="Derik">
-		<default>A calça e a cueca?</default>
-	</talk>
-	<teller>
-		<default>Kat encara Derik.</default>
-	</teller>
-	<teller>
-		<first>Ares. Alan chega ao apartamento. Clítia está na cama, de lado. Alan senta-se do outro lado da cama. Clítia abre os olhos e se vira. Senta-se na cama, sorri e abraça Alan.</first>
-	</teller>
-	<talk character="Clítia">
-		<default>Que bom que está vivo...</default>
-	</talk>
-	<talk character="Alan">
-		<default>Ainda não me acostumei com seu corpo frio desse jeito.</default>
-	</talk>
-	<teller>
-		<default>Os olhos de Clítia se abrem mais e os dentes travam. Clítia se afasta e levanta. Vai para a frente da penteadeira.</default>
-	</teller>
-	<talk character="Clítia">
-		<irony>Se eu matar alguém na rua ele fica quente.</irony>
-	</talk>
-	<talk character="Alan">
-		<default>Não quis te ofender.</default>
-	</talk>
-	<talk character="Clítia">
-		<irony>Engraçado, na cama você não reclamou.</irony>
-	</talk>
-	<talk character="Alan">
-		<default>Já disse que...</default>
-	</talk>
-	<talk character="Clítia">
-		<irony>Pode procurar a sua noiva. O corpo dela deve estar bem quente agora, na cama da sua mãe.</irony>
-	</talk>
-	<teller>
-		<default>Alan vai até Clítia e vira pra si.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Não precisa cutucar minha ferida.</default>
-	</talk>
-	<talk character="Clítia">
-		<default>Você cutucou a minha.</default>
-	</talk>
-	<teller>
-		<default>Clítia faz Alan soltar seu braço.</default>
-	</teller>
-	<talk character="Clítia">
-		<default>E não se esqueça que eu também tenho força.</default>
-	</talk>
-	<teller>
-		<default>Vai até perto da porta, pega uma jaqueta pendurada, veste.</default>
-	</teller>
-	<talk character="Clítia">
-		<default>Mais força do que você.</default>
-	</talk>
-	<teller>
-		<default>Clítia sai. Alan segue. Clítia vai pelas ruas, passa três quadras e chega a um bar. Senta-se no balcão. Alan para perto da porta. Zenon* se senta ao lado de Clítia.</default>
-	</teller>
-	<talk character="Zenon*">
-		<default>E aí, já conseguiu?</default>
-	</talk>
-	<talk character="Clítia">
-		<default>Vai pro inferno.</default>
-	</talk>
-	<talk character="Zenon*">
-		<default>É por que ele tá olhando?</default>
-	</talk>
-	<talk character="Clítia">
-		<default>Não reconhece uma mulher de mal-humor?</default>
-	</talk>
-	<talk character="Zenon*">
-		<default>Nossa, o que ele fez?</default>
-	</talk>
-	<talk character="Clítia">
-		<default>Por que não vai caçar alguma virgenzinha e pára de me encher o saco?</default>
-	</talk>
-	<teller>
-		<default>Zenon* se levanta e vai uma outra mesa. Cleber se aproxima de Clítia, de trás do balcão.</default>
-	</teller>
-	<talk character="Cleber">
-		<default>E o que minha diva vai querer hoje?</default>
-	</talk>
-	<teller>
-		<default>Clítia sorri.</default>
-	</teller>
-	<talk character="Clítia">
-		<default>Não é como se já não soubesse, meu anjo.</default>
-	</talk>
-	<teller>
-		<default>Cleber sorri. Pega um copo, coloca refrigerante, tequila, vodka, rum, cointreau e whisky. Entrega a Clítia. Clítia pega. Cleber olha para o outro lado do balcão e vai. Alan se senta ao lado de Clítia.</default>
-	</teller>
-	<talk character="Clítia">
-		<default>Por que não vai atrás dele? Acaba com a sua angústia de chegar perto da Melody.</default>
-		<irony>Ah, você não trouxe máquina fotográfica, né?</irony>
-	</talk>
-	<talk character="Alan">
-		<default>E você, vai ficar fazendo o que aqui?</default>
-	</talk>
-	<talk character="Clítia">
-		<default>Enchendo a cara, o que acha que adultos fazem num bar?</default>
-	</talk>
-	<teller>
-		<default>Clítia vira metade do copo.</default>
-	</teller>
-	<talk character="Clítia">
-		<default>Só não sei como vou pagar. Talvez o barman não ache que meu corpo é frio demais pra ele.</default>
-	</talk>
-	<teller>
-		<default>Alan olha para Cleber. Suspira brusco.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Não precisa fazer essas coisas, ficar com qualquer um assim. Eu pago.</default>
-	</talk>
-	<talk character="Clítia">
-		<default>Isso quer dizer que vai ficar aqui?</default>
-	</talk>
-	<talk character="Alan">
-		<default>A gente pode ficar, se quiser.</default>
-	</talk>
-	<teller>
-		<default>Clítia vira o resto do copo.</default>
-	</teller>
-	<talk character="Clítia">
-		<default>Com seu dinheiro e a sua frescura pra trepar, melhor eu parar nesse.</default>
-	</talk>
-	<teller>
-		<default>Clítia se levanta e sai. Zenon* sai atrás. Alan deixa uma nota de vinte no balcão e sai. Cleber franze a sobrancelha, vem e pega. Leva para o caixa.</default>
-	</teller>
-	<talk character="Cleber">
-		<default>Um dia eu ainda aprendo a fazer os bofes me pagarem a bebida...</default>
-	</talk>
-	<teller>
-		<first>Clítia chega ao apartamento. Clítia encosta-se na janela. Zenon* chega. Se aproxima de Clítia. Clítia joga Zenon* pela janela. Zenon* cai em cima de Alan. Clítia sorri. Olha para a porta. Vê Zenon#. Clítia franze a sobrancelha. Olha pela janela. Alan está se levantando, Zenon* sumiu.</first>
-	</teller>
-	<talk character="Clítia">
-		<default>Que anda bebendo pra estar tão rápido? Também quero.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Talvez eu tenha virado dois.</default>
-	</talk>
-	<teller>
-		<default>Clítia olha para Zenon#.</default>
-	</teller>
-	<talk character="Clítia">
-		<default>Podia ter trazido minha versão também.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Não tava mais disponível.</default>
-	</talk>
-	<talk character="Clítia">
-		<default>Nossa. Devia ser mais delicado pra contar pras pessoas que elas morreram...</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Mas... Eu até usei eufemismo...</default>
-	</talk>
-	<talk character="Clítia">
-		<default>A sua versão aqui é bem covarde. Apenas uma queda e já desistiu.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Acho que ele entendeu que não tava querendo falar com ele.</default>
-	</talk>
-	<talk character="Clítia">
-		<default>E aí, já desistiu da Melody?</default>
-	</talk>
-</story>
+{
+	"season": "B",
+	"episode": "05",
+	"scene": "c",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Noite. Derik e Kat estão na varanda. Angely passa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Atrasou?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang se vira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, tenho segunda em diante só."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, tá..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang franze a testa, olhando para cima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas acho que isso não é da sua conta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lustrou as ferraduras?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang olha para Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei que queria, não tive tempo de fazer isso pra você, vai ter que usar sujo mesmo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang sai andando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que isso?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que não era..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Troca de lugar de novo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei..."
+				},
+				{
+					"type": "teller",
+					"text": "arregala os olhos"
+				},
+				{
+					"type": "default",
+					"text": "Foi pra escola!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat e Derik saem correndo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Estela coloca uma blusa em uma mala, que já tem outras roupas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que tá fazendo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou embora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas disse que nunca iria morar com..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou atrás de Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dormir num banco de praça?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você viu ele na ilha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai correndo dormir no chão junto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não me importo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode fazer isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Primeiro, você é menor e tenho a sua guarda. Alan me passou, no começo do ano."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai colocar a polícia atrás de mim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora diz olhando pra mim que acha que eu preciso de polícia pra te achar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa fazer esforço! Eu não tenho família, e daí?! Não precisam fazer caridade por isso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tem família do jeito que vocês chamam, só não gosta da metade dela e a outra metade não tem onde ficar. Fora isso, nós somos sua família agora também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, vocês estão comigo há menos de quatro meses!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela pega um vestido. Mel fecha a mala. Estela olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual o problema? Que besteira te disseram?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada. Eu só tô afim de ir atrás do Alan e pronto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E acha que vai ajudar indo atrás assim? Ou ganhou algum prêmio de loteria?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te interessa o que vou fazer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sou responsável por você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso significa que vou ter que assinar alguma coisa pra ir embora?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel tira a mão de cima da mala. Sai do quarto. Estela abre a mala. Coloca o vestido. Um barulho de metal. Estela franze a sobrancelha. Vai até a porta, gira a maçaneta e puxa. Não vem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, pára com isso! Abre essa porta!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela bate diversas vezes. Do lado de fora, Zenon# passa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Eu vou embora nem que tenha que pular a janela, tá me ouvindo???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ai, caralho..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# continua pelo corredor, desce a escada, atravessa o hall de entrada e entra na copa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que Estela tá presa no quarto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque eu decidi que ela não vai atrás do Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E como ela pretende ir?!"
+				},
+				{
+					"type": "irony",
+					"text": "A nado?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan tá do lado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# franze a testa. Desfranze."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ares?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então Clítia também deve estar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é Clítia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Peraí, Angely tinha falado..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para baixo. Olha pra Zenon#."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia foi quem te matou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não tô morto!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não quer dizer que não tenha morrido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi exatamente..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá atrás de Alan? Talvez contrário?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não queria te decepcionar, mas eles estão juntos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É que ela..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Caralho... Não sabia que ia chegar a isso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se bem que também não conheço Clítia, poderia ser que não fosse ruim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele tá..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ou talvez acredite que Clítia pode mudar porque..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# vira a mesa. Mel cruza os braços e encara. Zenon# volta a mesa e as coisas em cima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia está enganando Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia disse a mesma coisa de você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você acredita nela?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Na verdade, nem em Clítia, nem em Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia já fez isso antes."
+				},
+				{
+					"type": "teller",
+					"text": "baixa a cabeça"
+				},
+				{
+					"type": "default",
+					"text": "E eu também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então pode estar mentindo pra mim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nunca tive paciência pra enrolar por muito tempo. E, se estivesse tentando te enrolar, Kat já estaria morta e você já estaria na minha cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E, pra quem estiver presente e quiser saber, o nome disso é prepotência."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi isso que eu quis dizer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que mataria Kat?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque ela é seu bem mais valioso. Até um asno percebe isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# arregala os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pera, Estela tava querendo ir atrás dele?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu disse isso no começo da conversa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então tem perigo de eu não ter evitado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, chegou, desembucha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você, Alan, Clítia e Estela."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# suspira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lembro de Clítia enganar ele. Mas ele se livrava disso sozinho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que quer evitar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela. Alan só vai descobrir que Clítia é má quando ela fizer uma coisa muita trágica."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que Estela pode fazer de trágico? Vai querer virar vampir quando descobrir que Alan está com Clítia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, quem vai fazer é Clítia. Ela quer transformar Alan em vampiro, quando descobrir que ele nunca vai aceitar isso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por isso pediu pra segurar Estela aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei que podia impedir isso, mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos Estela aí, podemos segurar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor eu ir atrás da Clítia."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela chuta a porta. Baixa a cabeça e balança para os lados. Se joga na cama."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Escola."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não podemos entrar???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zoé",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É contra o regulamento."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E um professor entrar com uma espada não é?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vem Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai desistir?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô mandando vir!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat sai andando. Derik segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat, Edmont pode resolver matar todo mundo... Ou transformar todo mundo... Ou matar metade e deixar a outra metade morrer nas mãos da primeira metade..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat continua andando. Derik seguindo. Chegam atrás da escola."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você vai lá olhar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quê?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, tá!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik se transforma em pássaro e voa. Na sala, Angely está escrevendo na lousa. Para. Olha para a sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sou só eu ou tem mais alguém com calor aqui?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely solta o giz, tira a camisa. Derik arregala os olhos, abre o bico e faz um barulho. Angely pousa a camisa na mesa, pega o giz e volta a escrever. Derik voa de volta a Kat. Se transforma de volta. Se veste."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, vai ter gente que nunca mais vai faltar a aula de matemática."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely... Edmont... Sei lá... Tirou a camisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga... O que tá faltando agora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A calça e a cueca?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat encara Derik."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Ares. Alan chega ao apartamento. Clítia está na cama, de lado. Alan senta-se do outro lado da cama. Clítia abre os olhos e se vira. Senta-se na cama, sorri e abraça Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que bom que está vivo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda não me acostumei com seu corpo frio desse jeito."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Os olhos de Clítia se abrem mais e os dentes travam. Clítia se afasta e levanta. Vai para a frente da penteadeira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Se eu matar alguém na rua ele fica quente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quis te ofender."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Engraçado, na cama você não reclamou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já disse que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Pode procurar a sua noiva. O corpo dela deve estar bem quente agora, na cama da sua mãe."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan vai até Clítia e vira pra si."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa cutucar minha ferida."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você cutucou a minha."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia faz Alan soltar seu braço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E não se esqueça que eu também tenho força."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai até perto da porta, pega uma jaqueta pendurada, veste."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mais força do que você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia sai. Alan segue. Clítia vai pelas ruas, passa três quadras e chega a um bar. Senta-se no balcão. Alan para perto da porta. Zenon* se senta ao lado de Clítia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon*",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí, já conseguiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai pro inferno."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon*",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É por que ele tá olhando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não reconhece uma mulher de mal-humor?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon*",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, o que ele fez?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não vai caçar alguma virgenzinha e pára de me encher o saco?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon* se levanta e vai uma outra mesa. Cleber se aproxima de Clítia, de trás do balcão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Cleber",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que minha diva vai querer hoje?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é como se já não soubesse, meu anjo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cleber sorri. Pega um copo, coloca refrigerante, tequila, vodka, rum, cointreau e whisky. Entrega a Clítia. Clítia pega. Cleber olha para o outro lado do balcão e vai. Alan se senta ao lado de Clítia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não vai atrás dele? Acaba com a sua angústia de chegar perto da Melody."
+				},
+				{
+					"type": "irony",
+					"text": "Ah, você não trouxe máquina fotográfica, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você, vai ficar fazendo o que aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Enchendo a cara, o que acha que adultos fazem num bar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia vira metade do copo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só não sei como vou pagar. Talvez o barman não ache que meu corpo é frio demais pra ele."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan olha para Cleber. Suspira brusco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa fazer essas coisas, ficar com qualquer um assim. Eu pago."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso quer dizer que vai ficar aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente pode ficar, se quiser."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia vira o resto do copo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com seu dinheiro e a sua frescura pra trepar, melhor eu parar nesse."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia se levanta e sai. Zenon* sai atrás. Alan deixa uma nota de vinte no balcão e sai. Cleber franze a sobrancelha, vem e pega. Leva para o caixa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Cleber",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um dia eu ainda aprendo a fazer os bofes me pagarem a bebida..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Clítia chega ao apartamento. Clítia encosta-se na janela. Zenon* chega. Se aproxima de Clítia. Clítia joga Zenon* pela janela. Zenon* cai em cima de Alan. Clítia sorri. Olha para a porta. Vê Zenon#. Clítia franze a sobrancelha. Olha pela janela. Alan está se levantando, Zenon* sumiu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que anda bebendo pra estar tão rápido? Também quero."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez eu tenha virado dois."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia olha para Zenon#."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podia ter trazido minha versão também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tava mais disponível."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa. Devia ser mais delicado pra contar pras pessoas que elas morreram..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas... Eu até usei eufemismo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A sua versão aqui é bem covarde. Apenas uma queda e já desistiu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que ele entendeu que não tava querendo falar com ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clítia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí, já desistiu da Melody?"
+				}
+			]
+		}
+	]
+}

@@ -1,469 +1,1528 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="05" scene="a">
-	<teller>
-		<default>Ang entra no quarto. Abre o armário. Mel acorda. Ang coloca um casaco. Abaixa e olha embaixo da cama. Mel senta-se na cama. Ang levanta.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Aonde você vai?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Esqueceu? Primeiro dia...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tem alguma idéia do que fazer?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Andei treinando com Kat, Derik e Estela.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E o que eles disseram?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Que tô pegando o jeito.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bom, vergonha você não vai ter, tocou pra um monte de gente... Mas ensinar é uma profissão séria, é arriscado você fazer isso sem ter freqüentado realmente uma faculdade, ainda mais dar aula pra pessoas dessa faixa etária... Dar aulas pra pessoas que você conhece é diferente. Tem que ter uma preparação a mais.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Daqui a pouco me atraso... Viu um caderno que eu deixei por aqui? Tinha escrito o que passar...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vai passar lição no primeiro dia???</default>
-	</talk>
-	<talk character="Ang">
-		<default>Que que tem?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não se faz isso! Mesmo por que, você nem conhece as pessoas! O comum é se apresentar e...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Eu não gostava disso...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você. Pergunta pra outras pessoas.</default>
-	</talk>
-	<teller>
-		<default>Mel olha no relógio. 5h da manhã. Revira os olhos, deita e cobre a cabeça.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Porque você faz isso comigo?!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Estou arrumando tudo pra chegar lá às seis.</default>
-	</talk>
-	<teller>
-		<default>Derik entra no quarto.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Será que dá pra deixar eu aproveitar minhas últimas horas fora da escola?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Quem ensina tem que chegar antes na escola.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Antes do sol nascer?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não, eu vou chegar uma hora antes dos alunos.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Pra ficar fazendo o que?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vai dar de cara na porta.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Se isso acontecer, eu vou dar uma volta pra acordar direito.</default>
-	</talk>
-	<teller>
-		<default>Ang pega uma bolsa de lado no cabideiro, coloca e sai.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Será que terei aula com Angely?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vai dormir, vai.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Com prazer.</default>
-	</talk>
-	<teller>
-		<default>Derik sai. Vai a seu quarto. Ang está olhando embaixo da cama.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Ah, não, eu devo tá tendo um pesadelo...</default>
-	</talk>
-	<teller>
-		<default>Ang levanta.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Eu vim aqui com aquele caderno...</default>
-	</talk>
-	<teller>
-		<default>Zenon# chega.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Tá fazendo o que aqui?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Procurando meu caderno.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Tem um na mesa da sala...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Matemática?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>É.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Valeu!</default>
-	</talk>
-	<teller>
-		<default>Angely sai.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Até que enfim, vou dormir!</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Só tem mais uma hora.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Se eu tiver com sono quando acordar, não vou pra aula hoje. E ainda boto a culpa em Angely amanhã.</default>
-	</talk>
-	<teller>
-		<first>5:30. Angely está olhando o mar.</first>
-	</teller>
-	<talk character="Edmont">
-		<arrive>Não precisa chegar tão cedo. Já fez sua boa ação de hoje.</arrive>
-	</talk>
-	<talk character="Ang">
-		<default>Não foi uma boa ação, é minha obrigação.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É assim que pretende me matar? De fome?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Quem sabe?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas agora você tá indo pra forca.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não deve ser tão ruim assim dar aula.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vai precisar de no mínimo um canhão pra enfrentar isso.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não preciso tanto.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não lembra de nosso tempo de escola?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não me importo com piadas.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>De qualquer forma, leva isso...</default>
-	</talk>
-	<teller>
-		<default>Edmont crava uma espada na areia. Ang franze a sobrancelha. Toca o cabo da espada. Suas pupilas encolhem.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>De repente pode aparecer algum monstro na escola. Literalmente ou não.</default>
-	</talk>
-	<teller>
-		<first>6:50. Derik, Estela e Kat entram na escola.</first>
-	</teller>
-	<talk character="Derik">
-		<default>Tô com alergia já.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Você vai sobreviver.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Porque eu tinha que fazer aula?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Porque precisa fazer faculdade. Não tirou nota suficiente...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Mas pra que perguntam tanta coisa inútil?! Não podiam perguntar algo sobre demônios?!</default>
-	</talk>
-	<teller>
-		<default>Kat encara Derik.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Derik pode entrar pro Grupo.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ei! Eu fico!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Sabe como encontrar as salas, Estela?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Eu? Também tô aqui pela primeira vez.</default>
-	</talk>
-	<teller>
-		<default>Derik vai até um grupo de pessoas.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Sabe onde...</default>
-	</talk>
-	<talk character="Alice">
-		<default>A sexta série fica no segundo andar.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não, eu tô na sexta série, tô no colegial! E atrasado! Tenho vinte e um anos!</default>
-	</talk>
-	<talk character="Alice">
-		<default>Tá, e eu sou a Madre Tereza de Calcutá!</default>
-	</talk>
-	<teller>
-		<default>Alice e o resto das pessoas sai andando. Kat e Estela se aproximam.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Eu tenho cara de sexta série?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não tanto...</default>
-	</talk>
-	<talk character="Estela">
-		<default>Cuidado, Kat, ainda vão querer te processar.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Melhor eu começar a andar com documentos.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Bom, você era assim quando te conheci.</default>
-	</talk>
-	<talk character="Derik">
-		<irony>Legal, eu não envelheço...</irony>
-	</talk>
-	<talk character="Estela">
-		<default>Talvez te deixem andar de ônibus sem pagar.</default>
-	</talk>
-	<teller>
-		<default>Estela sai.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Ei, aí tá esculhambando!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não liga, não.</default>
-	</talk>
-	<talk character="Roger">
-		<default>Ae, a garotinha precisa que a irmã mais velha traga na escola?</default>
-	</talk>
-	<teller>
-		<default>As pessoas ao redor riem. Kat puxa Derik e beija. As pessoas se calam. Kat pega Derik pela mão e ssgue Estela. Chegam ao terceiro andar da escola.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Tá entendendo alguma coisa do que tá escrito nas portas?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Bom, se formos pela lógica, A é primário, B ginásio e C colegial.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ah, então nós seríamos C2?</default>
-	</talk>
-	<talk character="Kat">
-		<default>É. Agora temos que descobrir a sala.</default>
-	</talk>
-	<talk character="Estela">
-		<arrive>Até que enfim encontrei vocês!</arrive>
-	</talk>
-	<talk character="Kat">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Estela">
-		<default>A lista... Eu e Kat estamos na mesma sala, mas você, Derik, tá em outra...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não é possível!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Bom, você atrasou, lembra?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não tem a ver, isso é planejado pelas médias nas matérias, maior e menor dificuldade. As matérias são divididas em tipos.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não é justo...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vamos nos ver no intervalo...</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não tem intervalo.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Como não???</default>
-	</talk>
-	<talk character="Estela">
-		<default>São cinco aulas de uma hora cada uma. Direto.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Mas será que ninguém come nem usa o banheiro nessa escola???</default>
-	</talk>
-	<talk character="Estela">
-		<default>Sei lá. São sete salas por andar, nossa sala é a 7, a sua é a 2.</default>
-	</talk>
-	<talk character="Kat">
-		<default>A gente vai aceitar isso assim?!</default>
-	</talk>
-	<teller>
-		<default>Estela encolhe e volta os ombros.</default>
-	</teller>
-	<talk character="Estela">
-		<default>A escola inteira aceita, não deve ter nenhum problema.</default>
-	</talk>
-	<teller>
-		<default>Estela sai andando. Kat e Derik se entreolham.</default>
-	</teller>
-	<teller>
-		<first>Lavine e Natanael entram em uma sala, Natanael empurrando a cadeira de rodas de Lavine. Todo mundo olha para frente, exceto Derik, que está desenhando. Natanael pega o desenho. Derik vai pegar de volta e cai no chão. Natanael leva o desenho para Lavine. Lavine encara Natanael. Derik volta para sua cadeira.</first>
-	</teller>
-	<talk character="Lavine">
-		<default>Não precisava fazer isso.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Você não dá aula de Artes, não, né? Que, se for, já tô com zero pelo resto do ano...</default>
-	</talk>
-	<talk character="Lavine">
-		<default>Não. Literatura.</default>
-	</talk>
-	<talk character="Derik">
-		<default>É, podia ser pior...</default>
-	</talk>
-	<teller>
-		<first>Em outra sala, Alete entra, coloca o material sobre a mesa e fecha as cortinas pretas. Kat franze a sobracelha. Estela, na frente de Kat, olha para fora. Xisto entra, tira os óculos escuros.</first>
-	</teller>
-	<talk character="Estela">
-		<default>Kat...</default>
-	</talk>
-	<teller>
-		<default>Estela olha pra trás. Kat está com olhar fixo em Xisto. Estela volta a olhar para Xisto.</default>
-	</teller>
-	<talk character="Xisto">
-		<default>Duas alunas novas. Pode soar estranho, mas meu nome é Xisto.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Parece nome de cavalo de corrida.</default>
-	</talk>
-	<talk character="Xisto">
-		<default>Já ouvi comentários piores.</default>
-	</talk>
-	<teller>
-		<default>Xisto olha para Estela e franze a sobrancelha.</default>
-	</teller>
-	<talk character="Xisto">
-		<default>E você, é sempre assim, muda e pálida?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Posso ir tomar ar?</default>
-	</talk>
-	<talk character="Xisto">
-		<default>Claro.</default>
-	</talk>
-	<teller>
-		<default>Estela sai da sala.</default>
-	</teller>
-	<talk character="Xisto">
-		<default>Bom, a maioria me conhece, mas seria falta de educação não me explicar com o resto do pessoal.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Se referir a mim diretamente seria mais educado que me chamar de resto.</default>
-	</talk>
-	<teller>
-		<default>Xisto coloca os óculos sobre a mesa, pega a cadeira de Estela, vira para a mesa de Kat e se senta.</default>
-	</teller>
-	<talk character="Xisto">
-		<default>Sou seu novo professor de história, mas não passo matéria na lousa nem distribuo as provas, quem faz isso é a minha assistente.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Além de alergia a luz tem também alergia a giz?</default>
-	</talk>
-	<talk character="Xisto">
-		<default>Fico planejando a matéria, corrigindo provas e prestando atenção em vocês enquanto ela passa a lição.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E qual a punição pra bagunça?</default>
-	</talk>
-	<talk character="Xisto">
-		<default>Não parece bagunceira, mas, se for, melhor se comportar. Aqui professor não pune badernas, reclama com a direção. É uma escola liberal, mas não tente ultrapassar os limites impostos. Vou ser seu professor até o quarto ano da terceira fase, talvez te dê aula até na quarta fase, então é melhor se acostumar.</default>
-	</talk>
-	<teller>
-		<default>Xisto se levanta e volta a cadeira para o lugar.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Si je reçois un faible score sur l'essai, puis-je vous corrompre avec du sang?</default>
-		<translate>Se eu tirar nota baixa, posso te subornar com sangue?</translate>
-	</talk>
-	<talk character="Xisto">
-		<default>Não dou aula de línguas. Poderia, mas escolhi história.</default>
-	</talk>
-	<teller>
-		<first>Angely chega a sala. Se atrasou. Estão três grupos reunidos na sala. Uma ou outra pessoa está na carteira.</first>
-	</teller>
-	<talk character="Ang">
-		<default>Podem fazer silêncio?</default>
-	</talk>
-	<teller>
-		<default>As pessoas seguem conversando.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Eu realmente preciso de silêncio.</default>
-	</talk>
-	<teller>
-		<default>Estela olha para dentro da sala. Para. Angely tira uma espada da bolsa. As pessoas olham para Angely.</default>
-	</teller>
-	<talk character="Clauber">
-		<default>Que aconteceu com o professor de história?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Nada, dou aula de matemática.</default>
-	</talk>
-	<talk character="Clauber">
-		<default>Ainda bem que aquele songa-monga foi embora...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Faz mal falar mal dos mortos.</default>
-	</talk>
-	<teller>
-		<default>Todo mundo se senta, exceto Clauber.</default>
-	</teller>
-	<talk character="Clauber">
-		<default>Se não é professor de história, devo entender que trouxe a espada pra controlar a sala?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Gosto de praticar tiro-ao-alvo.</default>
-	</talk>
-	<teller>
-		<default>Angely atira a espada na direção de Clauber. Estela encolhe os braços e coloca as mãos na frente da boca.</default>
-	</teller>
-	<talk character="Estela">
-		<thought>Ok... O barulho não foi de gente, foi de madeira... Se acalma...</thought>
-	</talk>
-	<talk character="Ang">
-		<default>Mas essa arma não costuma se usar assim.</default>
-	</talk>
-	<teller>
-		<default>Angely vai na direção de Clauber e tira a espada do lado de sua cabeça. Puxa a cadeira vaga ao lado de Clauber, Clauber se senta. Angely vai para sua mesa. Olha para a porta. Estela se afasta e segue andando.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Agora que gentilmente fizeram silêncio, que tal começarmos? Alguém pode me dizer a última matéria que se lembra?</default>
-	</talk>
-	<teller>
-		<default>Silêncio.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Ninguém mesmo?</default>
-	</talk>
-	<teller>
-		<default>Clauber levanta a mão bruscamente. Angely sorri.</default>
-	</teller>
-</story>
+{
+	"season": "B",
+	"episode": "05",
+	"scene": "a",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang entra no quarto. Abre o armário. Mel acorda. Ang coloca um casaco. Abaixa e olha embaixo da cama. Mel senta-se na cama. Ang levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aonde você vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esqueceu? Primeiro dia..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem alguma idéia do que fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andei treinando com Kat, Derik e Estela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que eles disseram?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tô pegando o jeito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, vergonha você não vai ter, tocou pra um monte de gente... Mas ensinar é uma profissão séria, é arriscado você fazer isso sem ter freqüentado realmente uma faculdade, ainda mais dar aula pra pessoas dessa faixa etária... Dar aulas pra pessoas que você conhece é diferente. Tem que ter uma preparação a mais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Daqui a pouco me atraso... Viu um caderno que eu deixei por aqui? Tinha escrito o que passar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai passar lição no primeiro dia???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que que tem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não se faz isso! Mesmo por que, você nem conhece as pessoas! O comum é se apresentar e..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não gostava disso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você. Pergunta pra outras pessoas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha no relógio. 5h da manhã. Revira os olhos, deita e cobre a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque você faz isso comigo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estou arrumando tudo pra chegar lá às seis."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik entra no quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que dá pra deixar eu aproveitar minhas últimas horas fora da escola?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem ensina tem que chegar antes na escola."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Antes do sol nascer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, eu vou chegar uma hora antes dos alunos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra ficar fazendo o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai dar de cara na porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se isso acontecer, eu vou dar uma volta pra acordar direito."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang pega uma bolsa de lado no cabideiro, coloca e sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que terei aula com Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai dormir, vai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com prazer."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik sai. Vai a seu quarto. Ang está olhando embaixo da cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, não, eu devo tá tendo um pesadelo..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vim aqui com aquele caderno..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# chega."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá fazendo o que aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Procurando meu caderno."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem um na mesa da sala..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Matemática?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Valeu!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Até que enfim, vou dormir!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só tem mais uma hora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se eu tiver com sono quando acordar, não vou pra aula hoje. E ainda boto a culpa em Angely amanhã."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "5:30. Angely está olhando o mar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Não precisa chegar tão cedo. Já fez sua boa ação de hoje."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi uma boa ação, é minha obrigação."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É assim que pretende me matar? De fome?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas agora você tá indo pra forca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não deve ser tão ruim assim dar aula."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai precisar de no mínimo um canhão pra enfrentar isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não preciso tanto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não lembra de nosso tempo de escola?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não me importo com piadas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De qualquer forma, leva isso..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont crava uma espada na areia. Ang franze a sobrancelha. Toca o cabo da espada. Suas pupilas encolhem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De repente pode aparecer algum monstro na escola. Literalmente ou não."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "6:50. Derik, Estela e Kat entram na escola."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô com alergia já."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você vai sobreviver."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque eu tinha que fazer aula?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque precisa fazer faculdade. Não tirou nota suficiente..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas pra que perguntam tanta coisa inútil?! Não podiam perguntar algo sobre demônios?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat encara Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik pode entrar pro Grupo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei! Eu fico!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe como encontrar as salas, Estela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu? Também tô aqui pela primeira vez."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik vai até um grupo de pessoas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe onde..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A sexta série fica no segundo andar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, eu tô na sexta série, tô no colegial! E atrasado! Tenho vinte e um anos!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, e eu sou a Madre Tereza de Calcutá!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alice e o resto das pessoas sai andando. Kat e Estela se aproximam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tenho cara de sexta série?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tanto..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cuidado, Kat, ainda vão querer te processar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor eu começar a andar com documentos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, você era assim quando te conheci."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Legal, eu não envelheço..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez te deixem andar de ônibus sem pagar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, aí tá esculhambando!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não liga, não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Roger",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ae, a garotinha precisa que a irmã mais velha traga na escola?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As pessoas ao redor riem. Kat puxa Derik e beija. As pessoas se calam. Kat pega Derik pela mão e ssgue Estela. Chegam ao terceiro andar da escola."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá entendendo alguma coisa do que tá escrito nas portas?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, se formos pela lógica, A é primário, B ginásio e C colegial."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, então nós seríamos C2?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Agora temos que descobrir a sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Até que enfim encontrei vocês!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A lista... Eu e Kat estamos na mesma sala, mas você, Derik, tá em outra..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é possível!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, você atrasou, lembra?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem a ver, isso é planejado pelas médias nas matérias, maior e menor dificuldade. As matérias são divididas em tipos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é justo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos nos ver no intervalo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem intervalo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como não???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "São cinco aulas de uma hora cada uma. Direto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas será que ninguém come nem usa o banheiro nessa escola???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sei lá. São sete salas por andar, nossa sala é a 7, a sua é a 2."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente vai aceitar isso assim?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela encolhe e volta os ombros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A escola inteira aceita, não deve ter nenhum problema."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela sai andando. Kat e Derik se entreolham."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Lavine e Natanael entram em uma sala, Natanael empurrando a cadeira de rodas de Lavine. Todo mundo olha para frente, exceto Derik, que está desenhando. Natanael pega o desenho. Derik vai pegar de volta e cai no chão. Natanael leva o desenho para Lavine. Lavine encara Natanael. Derik volta para sua cadeira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lavine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisava fazer isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não dá aula de Artes, não, né? Que, se for, já tô com zero pelo resto do ano..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lavine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Literatura."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, podia ser pior..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Em outra sala, Alete entra, coloca o material sobre a mesa e fecha as cortinas pretas. Kat franze a sobracelha. Estela, na frente de Kat, olha para fora. Xisto entra, tira os óculos escuros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela olha pra trás. Kat está com olhar fixo em Xisto. Estela volta a olhar para Xisto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xisto",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Duas alunas novas. Pode soar estranho, mas meu nome é Xisto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece nome de cavalo de corrida."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xisto",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já ouvi comentários piores."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Xisto olha para Estela e franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xisto",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você, é sempre assim, muda e pálida?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso ir tomar ar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xisto",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela sai da sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xisto",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, a maioria me conhece, mas seria falta de educação não me explicar com o resto do pessoal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se referir a mim diretamente seria mais educado que me chamar de resto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Xisto coloca os óculos sobre a mesa, pega a cadeira de Estela, vira para a mesa de Kat e se senta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xisto",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sou seu novo professor de história, mas não passo matéria na lousa nem distribuo as provas, quem faz isso é a minha assistente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Além de alergia a luz tem também alergia a giz?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xisto",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fico planejando a matéria, corrigindo provas e prestando atenção em vocês enquanto ela passa a lição."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E qual a punição pra bagunça?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xisto",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não parece bagunceira, mas, se for, melhor se comportar. Aqui professor não pune badernas, reclama com a direção. É uma escola liberal, mas não tente ultrapassar os limites impostos. Vou ser seu professor até o quarto ano da terceira fase, talvez te dê aula até na quarta fase, então é melhor se acostumar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Xisto se levanta e volta a cadeira para o lugar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Si je reçois un faible score sur l'essai, puis-je vous corrompre avec du sang?"
+				},
+				{
+					"type": "translate",
+					"text": "Se eu tirar nota baixa, posso te subornar com sangue?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xisto",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não dou aula de línguas. Poderia, mas escolhi história."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Angely chega a sala. Se atrasou. Estão três grupos reunidos na sala. Uma ou outra pessoa está na carteira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podem fazer silêncio?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As pessoas seguem conversando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu realmente preciso de silêncio."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela olha para dentro da sala. Para. Angely tira uma espada da bolsa. As pessoas olham para Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clauber",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que aconteceu com o professor de história?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada, dou aula de matemática."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clauber",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda bem que aquele songa-monga foi embora..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Faz mal falar mal dos mortos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Todo mundo se senta, exceto Clauber."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clauber",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se não é professor de história, devo entender que trouxe a espada pra controlar a sala?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gosto de praticar tiro-ao-alvo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely atira a espada na direção de Clauber. Estela encolhe os braços e coloca as mãos na frente da boca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Ok... O barulho não foi de gente, foi de madeira... Se acalma..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas essa arma não costuma se usar assim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely vai na direção de Clauber e tira a espada do lado de sua cabeça. Puxa a cadeira vaga ao lado de Clauber, Clauber se senta. Angely vai para sua mesa. Olha para a porta. Estela se afasta e segue andando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora que gentilmente fizeram silêncio, que tal começarmos? Alguém pode me dizer a última matéria que se lembra?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Silêncio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ninguém mesmo?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clauber levanta a mão bruscamente. Angely sorri."
+				}
+			]
+		}
+	]
+}

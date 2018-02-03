@@ -1,128 +1,427 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="01" scene="a">
-	<teller>
-		<division>Algum tempo, algum lugar</division>
-		<default>Xien se levanta do chão. Está em um jardim. Vê um casal deitado no chão. Reconhece de algum lugar. Vai em direção a eles e sente uma mão em seu ombro. Vira-se.</default>
-	</teller>
-	<talk character="Uehfo">
-		<default>Não vai querer mesmo falar com eles, vai?</default>
-	</talk>
-	<talk character="Xien">
-		<default>E se eu quiser?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Vá em frente.</default>
-	</talk>
-	<teller>
-		<default>Xien se aproxima dos dois.</default>
-	</teller>
-	<talk character="Xien">
-		<default>Com licença...</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Quanta educação.</default>
-	</talk>
-	<talk character="Xien">
-		<default>... podem me dizer onde estou?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Coisa mais feia, isso você podia ter perguntado pra mim.</default>
-	</talk>
-	<teller>
-		<default>O casal continua olhando para as estrelas. Xien pula na frente deles. Nada.</default>
-	</teller>
-	<talk character="Xien">
-		<default>Merda.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Olha a educação desaparecendo.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Tá!</default>
-		<teller>vira para Uehfo</teller>
-		<default>Onde eu tô?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Quer mesmo saber?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Sim.</default>
-		<teller>vacila</teller>
-		<default>Acho.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Via láctea.</default>
-		<teller>Xien olha feio para Uehfo</teller>
-		<default>Que é? Tem muitos nas redondezas que dariam um braço por essa informação.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Pode dizer algo mais específico?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Planeta Terra. Por agora.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Você podia ser um pouquinho mais... Por agora?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Tá reclamando o que? Você não sabe nem quando é agora. Isso tem mesmo importância?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Ok, pode me dar minhas coordenadas nas quatro dimensões?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Não são quatro. E, mesmo que eu considere apenas as primárias que as pessoas acham que são as únicas que existem, ainda temos dois problemas: em que calendário e em relação a que parte deste universo você vai querer...</default>
-	</talk>
-	<talk character="Xien">
-		<default>É mais fácil eu me virar só.</default>
-	</talk>
-	<teller>
-		<default>Xien se vira de volta, Uehfo empurra Xien. Xien cai em cima do casal. Se levanta, pedindo desculpa. Repara que não notaram. Chuta a perna do cara. Percebe que a pessoa não sentiu o chute. Então se dá conta que não sentiu também. Chuta de novo, olhando para o próprio pé dessa vez. Suspira.</default>
-	</teller>
-	<talk character="Xien">
-		<default>É claro que não tem importância. Morri.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Não. Como eu disse, não são quatro dimensões só.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Pode me explicar o que está acontecendo?</default>
-		<teller>Uehfo faz um gesto</teller>
-		<default>De uma forma que eu entenda?</default>
-		<teller>Uehfo abre a boca</teller>
-		<default>No sentido que me ajude, não que seja apenas inteligível?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Nenhuma outra condição?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Se aparecer mais alguma eu adiciono.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Lembra de ter acordado sem memória?</default>
-	</talk>
-	<talk character="Xien">
-		<irony>É minha lembrança mais antiga.</irony>
-	</talk>
-	<talk character="Uehfo">
-		<default>Nossas lembranças mais antigas são aquelas que pessoas passaram para a gente. Claro, quando as passam, passam deformadas. Mas ainda sim, são mais antigas.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Essa informação tem alguma utilidade ou só tá me contrariando porque acha isso engraçado?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Estou aqui para te trazer suas memórias de volta. O jeito que faremos isso é você passeando por elas.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Não dá pra só enfiar tudo no meu cérebro?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Também adoro "Efeito Borboleta", mas não. Agora senta e assiste, porque não organizei essa merda toda em ordem cronológica e separei o mais importante pra você jogar fora. Quando eu mostrar o principal, os detalhes irão se ligar sozinhos.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Pode me dizer ao menos quem sou eu?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Você é o que sobreviveu.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "01",
+	"scene": "a",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Algum tempo, algum lugar"
+				},
+				{
+					"type": "default",
+					"text": "Xien se levanta do chão. Está em um jardim. Vê um casal deitado no chão. Reconhece de algum lugar. Vai em direção a eles e sente uma mão em seu ombro. Vira-se."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai querer mesmo falar com eles, vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se eu quiser?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vá em frente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Xien se aproxima dos dois."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com licença..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quanta educação."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "... podem me dizer onde estou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Coisa mais feia, isso você podia ter perguntado pra mim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O casal continua olhando para as estrelas. Xien pula na frente deles. Nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Merda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha a educação desaparecendo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá!"
+				},
+				{
+					"type": "teller",
+					"text": "vira para Uehfo"
+				},
+				{
+					"type": "default",
+					"text": "Onde eu tô?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer mesmo saber?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				},
+				{
+					"type": "teller",
+					"text": "vacila"
+				},
+				{
+					"type": "default",
+					"text": "Acho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Via láctea."
+				},
+				{
+					"type": "teller",
+					"text": "Xien olha feio para Uehfo"
+				},
+				{
+					"type": "default",
+					"text": "Que é? Tem muitos nas redondezas que dariam um braço por essa informação."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode dizer algo mais específico?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Planeta Terra. Por agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você podia ser um pouquinho mais... Por agora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá reclamando o que? Você não sabe nem quando é agora. Isso tem mesmo importância?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ok, pode me dar minhas coordenadas nas quatro dimensões?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não são quatro. E, mesmo que eu considere apenas as primárias que as pessoas acham que são as únicas que existem, ainda temos dois problemas: em que calendário e em relação a que parte deste universo você vai querer..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É mais fácil eu me virar só."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Xien se vira de volta, Uehfo empurra Xien. Xien cai em cima do casal. Se levanta, pedindo desculpa. Repara que não notaram. Chuta a perna do cara. Percebe que a pessoa não sentiu o chute. Então se dá conta que não sentiu também. Chuta de novo, olhando para o próprio pé dessa vez. Suspira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É claro que não tem importância. Morri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Como eu disse, não são quatro dimensões só."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode me explicar o que está acontecendo?"
+				},
+				{
+					"type": "teller",
+					"text": "Uehfo faz um gesto"
+				},
+				{
+					"type": "default",
+					"text": "De uma forma que eu entenda?"
+				},
+				{
+					"type": "teller",
+					"text": "Uehfo abre a boca"
+				},
+				{
+					"type": "default",
+					"text": "No sentido que me ajude, não que seja apenas inteligível?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nenhuma outra condição?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se aparecer mais alguma eu adiciono."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lembra de ter acordado sem memória?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "É minha lembrança mais antiga."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossas lembranças mais antigas são aquelas que pessoas passaram para a gente. Claro, quando as passam, passam deformadas. Mas ainda sim, são mais antigas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa informação tem alguma utilidade ou só tá me contrariando porque acha isso engraçado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estou aqui para te trazer suas memórias de volta. O jeito que faremos isso é você passeando por elas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não dá pra só enfiar tudo no meu cérebro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também adoro "Efeito Borboleta", mas não. Agora senta e assiste, porque não organizei essa merda toda em ordem cronológica e separei o mais importante pra você jogar fora. Quando eu mostrar o principal, os detalhes irão se ligar sozinhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode me dizer ao menos quem sou eu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é o que sobreviveu."
+				}
+			]
+		}
+	]
+}
