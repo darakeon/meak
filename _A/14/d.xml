@@ -1,569 +1,1895 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="14" scene="d">
-	<teller>
-		<default>Tarde. Delegacia.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Oi, você por aqui...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Queriam explodir Angely. É natural que eu queira saber quem foi.</default>
-	</talk>
-	<talk character="Brad">
-		<default>Ah... Ou tiraram as impressões digitais errado, ou então quem fez isso queria brincar com a nossa cara.</default>
-	</talk>
-	<talk character="Renata">
-		<arrive>Fui ver o que pediu...</arrive>
-	</talk>
-	<talk character="Brad">
-		<default>Essa é Renata, minha nova parceira.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Melody.</default>
-	</talk>
-	<talk character="Renata">
-		<default>Brad me falou de você.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bem ou mal?</default>
-	</talk>
-	<talk character="Renata">
-		<default>Ah...</default>
-	</talk>
-	<talk character="Brad">
-		<default>Então, o que conseguiu?</default>
-	</talk>
-	<talk character="Renata">
-		<default>Um túmulo remexido e um corpo roubado.</default>
-	</talk>
-	<talk character="Brad">
-		<irony>Divertido.</irony>
-		<default>Agora temos que descobrir quem botou a bomba a partir de quem revirou o túmulo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E de quem era o túmulo?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Que diferença faz?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Talvez faça.</default>
-	</talk>
-	<talk character="Brad">
-		<default>Você acha que pode trabalhar melhor que a polícia?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Achamos Talita. Você não.</default>
-	</talk>
-	<talk character="Renata">
-		<default>Aqui.</default>
-	</talk>
-	<teller>
-		<default>Renata entrega a ficha a Mel.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Ei, vou precisar disso!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Acabou de dizer que não faz diferença...</default>
-	</talk>
-	<teller>
-		<default>Brad encara Mel. Sai andando.</default>
-	</teller>
-	<talk character="Renata">
-		<default>É mais bonita ao vivo.</default>
-	</talk>
-	<teller>
-		<default>Renata sai.</default>
-	</teller>
-	<teller>
-		<first>Manhã. Casa de Kat. Mel, Kat e Angely estão a mesa.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Parece que nossas suspeitas estavam certas.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pode ser que o corpo tenha sido mesmo roubado.</default>
-	</talk>
-	<talk character="Kat">
-		<default>A coisa, no sonho, não me parecia humana.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E os restos do avião?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Disseram que foi inconclusivo o resultado e deixaram por isso mesmo. Vamos ter que ir até os Estados Unidos?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Bom, eu vi que ia acontecer algo lá.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E a pessoa que as digitais tavam na casa é de lá.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu vou. Mel já tem contato com polícia, vai se sair melhor aqui que eu.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tem certeza? Não queria procurar emprego?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não achei nada até agora mesmo...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas não seria burrice você ir se Kat sonhou que vai te acontecer algo?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pode ser que não seja comigo.</default>
-	</talk>
-	<teller>
-		<default>Kat franze a testa.</default>
-	</teller>
-	<talk character="Kat">
-		<default>E com quem mais...</default>
-	</talk>
-	<teller>
-		<default>Kat desfranze a testa.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Não tá achando que...?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Edmont?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pode ser que todos sejamos alvo.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Justificaria a parte da cobra.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tem que ir ao banco trocar dinheiro, ver a passagem...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu faço isso.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Talvez não seja uma boa ideia a gente se separar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Já ficou provado que não existe problema em atacar todo mundo junto. Talvez seja até mais fácil.</default>
-	</talk>
-	<teller>
-		<default>Mel levanta.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Trouxe algumas roupas nossas, não quer se trocar?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Trouxe? Mas se explodisse, eu ia junto...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não achei que fosse explodir. Mas achei que a casa ia ficar cercada e não íamos poder voltar lá.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Me troco e levo o resto comigo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Posso escolher uma casa enquanto isso?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Claro, qualquer lugar que você escolha tá bom pra mim.</default>
-	</talk>
-	<teller>
-		<default>Angely sai. Chega ao quarto onde dormiram. Abre um armário. Vazio. Olha embaixo da cama. Puxa uma mochila. Olha para frente, Agatha está na porta. Abre a mochila. Fecha.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Onde vai?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Viajar.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>E quando volta?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mel vai encontrar outro lugar. Deve ter achado quando eu voltar.</default>
-	</talk>
-	<teller>
-		<default>Agatha baixa a cabeça.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Devia tentar se reaproximar de Kat.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Não tem mais jeito.</default>
-	</talk>
-	<teller>
-		<default>Agatha olha para Angely.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Fiz muita cagada.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Acho que até de Mel você conseguiria se aproximar. A gente não foi criado pra condenar pessoas eternamente.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Kat cresceu aqui.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Quem criou foram Rith e Halen.</default>
-	</talk>
-	<teller>
-		<default>Angely vai na direção da porta. Dá um beijo na testa de Agatha e sai.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Será que achar que consigo gostar de mais de uma pessoa faz sentido se são gêmeos?</default>
-	</talk>
-	<teller>
-		<default>Sala. Mel e Kat estão no sofá.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Eu vou até o banco e depois no aeroporto.</default>
-	</talk>
-	<teller>
-		<default>Angely coloca a mochila nas costas e sai. Mel olha pra Kat.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Vai ter que dizer.</default>
-	</talk>
-	<teller>
-		<default>Mel respira fundo.</default>
-	</teller>
-	<talk character="Mel">
-		<screamed>Sua moto explodiu.</screamed>
-	</talk>
-	<teller>
-		<default>Angely volta, com a mochila na mão e ombros caídos.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Te dou uma carona.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Valeu.</default>
-	</talk>
-	<teller>
-		<first>Tarde. Casa de Kat.</first>
-	</teller>
-	<talk character="Mel">
-		<default>A essa hora, está no avião.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Sua vez.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É. Vou ter que ir a uma imobiliária. Devo conseguir fácil, tendo dinheiro pra comprar a vista. Talvez até consiga um bom desconto.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Cuidado pra não se meter em furada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Foda vão ser todos os móveis depois.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mas você não ficou um tempo que ficava se mudando?</default>
-	</talk>
-	<talk character="Mel">
-		<default>É, mas nesse tempo eu ficava em hotéis, fugia sem pagar, dormia em prédio abandonado. Nada que exigisse ficar escolhendo. Depois, ganhamos uma casa mobiliada.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Edmont deve ter pego o dinheiro pra viajar provavelmente.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Onde será que tá?</default>
-	</talk>
-	<teller>
-		<first>Noite. Edmont está andando numa rua. Chega a um hotel.</first>
-	</teller>
-	<talk character="Edmont">
-		<default>News?</default>
-		<translate>Alguma novidade?</translate>
-	</talk>
-	<talk character="Rick">
-		<default>Your brother is here, sir.</default>
-		<translate>Seu irmão está aqui, senhor.</translate>
-	</talk>
-	<talk character="Edmont">
-		<default>What?</default>
-		<translate>Que?</translate>
-	</talk>
-	<talk character="Rick">
-		<default>Your brother, sir. </default>
-		<translate>É, o seu irmão, senhor.</translate>
-	</talk>
-	<talk character="Edmont">
-		<default>Do you know which hotel is he?</default>
-		<translate>Sabe em que hotel ele está?</translate>
-	</talk>
-	<talk character="Rick">
-		<default>I just said that.</default>
-		<translate>Eu já disse.</translate>
-	</talk>
-	<talk character="Edmont">
-		<default>Here? Are you sure?</default>
-		<translate>Aqui? Tem certeza?</translate>
-	</talk>
-	<talk character="Rick">
-		<default>Do you have any blonde clone?</default>
-		<translate>Tem algum clone loiro?</translate>
-	</talk>
-	<talk character="Edmont">
-		<default>What about the thing I asked?</default>
-		<translate>E sobre o que pedi?</translate>
-	</talk>
-	<talk character="Rick">
-		<default>Nothing yet.</default>
-		<translate>Nada ainda.</translate>
-	</talk>
-	<talk character="Edmont">
-		<default>Thanks.</default>
-		<translate>Obrigado.</translate>
-	</talk>
-	<teller>
-		<default>Edmont abre a carteira. Tira dez dólares. Entrega a Rick. Vai até o elevador. Sobe. Vai até um quarto. Pega a chave. Coloca na fechadura. Abre. Entra. Fecha. Se joga na cama. Franze a testa. Senta na cama. Vai até a porta. Abre e sai. Atravessa o corredor. Anda algumas portas.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Mesmo andar.</default>
-	</talk>
-	<teller>
-		<default>Edmont bate na porta. Nada. Barulho de TV. Edmont abre a porta. Entra. Angely se senta na cama.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Não está em casa. Melhor aprender a trancar a porta ou vai acabar recebendo surpresa em alguma hora imprópria.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont...</default>
-	</talk>
-	<teller>
-		<default>Angely vai até Edmont. Abraça.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Nossa, a saudade era tanta?</default>
-	</talk>
-	<teller>
-		<default>Angely afasta.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Então, o que veio fazer aqui? Não deve ter vindo me procurar.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por que não?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não estou em perigo pra Kat sonhar comigo. Ou estou?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Você e Mel vão morar nos Estados Unidos por que aqui é mais seguro contra explosões?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Também não. As impressões digitais da pessoa que colocou a bomba são de alguém que foi enterrado aqui.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas certamente a pessoa teria que estar lá pra fazer o que fez. Tem mais coisa.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Kat sonhou com os acidentes, depois que algo aconteceria aqui.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sou a única pessoa que estou longe... Como sabia que eu estaria aqui? Kat sonhou isso também?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você gostou daqui quando viemos. Gostou da vista desse quarto, por que dava pra ver o sol nascer.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tava ocupado quando me hospedei. Não me animei a trocar. O meu dá pra ver o sol se pôr.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Melhor voltarmos pro Brasil.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu não vou.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por favor...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não adianta. Se for pra acontecer algo, que aconteça.</default>
-	</talk>
-	<teller>
-		<default>Edmont sai do quarto.</default>
-	</teller>
-	<teller>
-		<first>Manhã. Angely, com a mochila nas costas, bate na porta de um quarto. Rick abre.</first>
-	</teller>
-	<talk character="Rick">
-		<default>Yes?</default>
-		<translate>Sim?</translate>
-	</talk>
-	<talk character="Angely">
-		<default>Was there anyone in this room?</default>
-		<translate>Tinha alguém nesse quarto?</translate>
-	</talk>
-	<talk character="Rick">
-		<default>A.L.K.?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Yes, it's me.</default>
-		<translate>Sim, sou eu.</translate>
-	</talk>
-	<talk character="Rick">
-		<default>He asked to give you that.</default>
-		<translate>Pediu pra entregar isso.</translate>
-	</talk>
-	<teller>
-		<default>Rick entrega um bilhete a Angely. Angely abre:</default>
-		<letter>Não procure, não vai encontrar.</letter>
-	</teller>
-	<talk character="Rick">
-		<default>Are you brothers?</default>
-		<translate>São irmãos?</translate>
-	</talk>
-	<talk character="Angely">
-		<default>Yes.</default>
-		<translate>Somos.</translate>
-	</talk>
-	<talk character="Rick">
-		<default>I know you from somewhere...</default>
-		<translate>Eu conheço você de algum lugar...</translate>
-	</talk>
-	<talk character="Angely">
-		<default>Do you know Saturn?</default>
-		<translate>Conhece a Saturn?</translate>
-	</talk>
-	<talk character="Rick">
-		<default>My daughter is your fan... Can you give me an autograph? She would be so happy!</default>
-		<translate>Minha filha é fã de vocês... Pode me dar um autógrafo? Ela ficaria muito feliz!</translate>
-	</talk>
-	<talk character="Angely">
-		<default>Sure.</default>
-		<translate>Claro.</translate>
-	</talk>
-	<teller>
-		<first>Cemitério. Angely senta em frente a uma lápide.</first>
-	</teller>
-	<talk character="Lorena">
-		<arrive>What are you doing in a cemitery at this time?</arrive>
-		<translate>Que faz num cemitério a essa hora?</translate>
-	</talk>
-	<talk character="Angely">
-		<default>I just stopped by.</default>
-		<translate>Só parei por aqui.</translate>
-	</talk>
-	<talk character="Lorena">
-		<default>Just in front of</default>
-		<frizz>this</frizz>
-		<default>grave?</default>
-		<translate>Justo na frente desse túmulo?</translate>
-	</talk>
-	<talk character="Angely">
-		<default>Why?</default>
-		<translate>Por quê?</translate>
-	</talk>
-	<talk character="Lorena">
-		<default>There was a vampire there.</default>
-		<translate>Um vampiro tava aí embaixo.</translate>
-	</talk>
-	<talk character="Angely">
-		<default>How are you so sure?</default>
-		<translate>Como tem tanta certeza?</translate>
-	</talk>
-	<talk character="Lorena">
-		<default>Don't you believe in vampires?</default>
-		<translate>Não acredita em vampiros?</translate>
-	</talk>
-	<talk character="Angely">
-		<default>Lies. Always tolding lies.</default>
-		<translate>Mentiras. Sempre contando mentiras.</translate>
-	</talk>
-	<talk character="Lorena">
-		<default>What if you found a female vampire?</default>
-		<translate>E se encontrasse uma vampira?</translate>
-	</talk>
-	<talk character="Angely">
-		<default>I've find already. More than once. Do you know the vampire?</default>
-		<translate>Já encontrei. Mais de uma vez. Conhece o vampiro?</translate>
-	</talk>
-	<talk character="Lorena">
-		<default>Sure.</default>
-		<translate>Claro.</translate>
-	</talk>
-	<talk character="Angely">
-		<default>Can you take me?</default>
-		<translate>Pode me levar?</translate>
-	</talk>
-	<teller>
-		<default>Lorena ri.</default>
-	</teller>
-	<talk character="Lorena">
-		<default>I don't wanna see him dead.</default>
-		<translate>Não quero ver ele morto.</translate>
-	</talk>
-	<talk character="Angely">
-		<default>I won't kill your friend.</default>
-		<translate>Não vou matar.</translate>
-	</talk>
-	<talk character="Lorena">
-		<default>You just said you've met more than one vampire. If you are alive...</default>
-		<translate>Acabou de dizer que conheceu mais de uma vampira. Se tá vivo...</translate>
-	</talk>
-	<talk character="Angely">
-		<default>I let them go. Can't kill.</default>
-		<translate>Deixei fugir. Não consigo matar.</translate>
-	</talk>
-	<talk character="Lorena">
-		<default>What you want from him?</default>
-		<translate>E o que quer com ele?</translate>
-	</talk>
-	<talk character="Angely">
-		<default>You friend tried to blow me up.</default>
-		<translate>Tentou me mandar pelos ares.</translate>
-	</talk>
-	<teller>
-		<default>Lorena ri novamente.</default>
-	</teller>
-	<talk character="Lorena">
-		<default>And you don't wanna kill him? What for so?</default>
-		<translate>E não quer matar ele? Pra que então quer ver ele?</translate>
-	</talk>
-	<talk character="Angely">
-		<default>I wanna know what he has against me.</default>
-		<translate>Quero saber o que tem contra mim.</translate>
-	</talk>
-	<teller>
-		<first>Chegam a um mausoléu grande. Entram.</first>
-	</teller>
-	<talk character="Lorena">
-		<default>Hey, we have visit...</default>
-		<translate>Ei, tem visita...</translate>
-	</talk>
-	<teller>
-		<default>Alguém pula em cima de Angely. Angely joga no chão. Entra em posição de defesa.</default>
-	</teller>
-	<talk character="Lorena">
-		<default>Honey, he just want to know why you tried to blow up him.</default>
-		<translate>Meu bem, ele só quer saber por que tentou explodir ele.</translate>
-	</talk>
-	<talk character="Daniel">
-		<default>Eu? Ah, tô reconhecendo você...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Se mal me reconhece, por que...</default>
-	</talk>
-	<talk character="Daniel">
-		<default>Foi uma troca.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Troca?</default>
-	</talk>
-	<talk character="Daniel">
-		<default>Tava devendo um favor pra alguém que salvou minha vida. Bom, não que me importe com isso, mas ele ia tirar o que me deu se não fizesse isso.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E quem é?</default>
-	</talk>
-	<talk character="Daniel">
-		<default>Vou te contar só por que ele me torturou.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "14",
+	"scene": "d",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tarde. Delegacia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi, você por aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Queriam explodir Angely. É natural que eu queira saber quem foi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah... Ou tiraram as impressões digitais errado, ou então quem fez isso queria brincar com a nossa cara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Fui ver o que pediu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa é Renata, minha nova parceira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad me falou de você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bem ou mal?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, o que conseguiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um túmulo remexido e um corpo roubado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Divertido."
+				},
+				{
+					"type": "default",
+					"text": "Agora temos que descobrir quem botou a bomba a partir de quem revirou o túmulo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E de quem era o túmulo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que diferença faz?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez faça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você acha que pode trabalhar melhor que a polícia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achamos Talita. Você não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Renata entrega a ficha a Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, vou precisar disso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acabou de dizer que não faz diferença..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad encara Mel. Sai andando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É mais bonita ao vivo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Renata sai."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Manhã. Casa de Kat. Mel, Kat e Angely estão a mesa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece que nossas suspeitas estavam certas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ser que o corpo tenha sido mesmo roubado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A coisa, no sonho, não me parecia humana."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E os restos do avião?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Disseram que foi inconclusivo o resultado e deixaram por isso mesmo. Vamos ter que ir até os Estados Unidos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, eu vi que ia acontecer algo lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E a pessoa que as digitais tavam na casa é de lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou. Mel já tem contato com polícia, vai se sair melhor aqui que eu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem certeza? Não queria procurar emprego?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não achei nada até agora mesmo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas não seria burrice você ir se Kat sonhou que vai te acontecer algo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ser que não seja comigo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E com quem mais..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat desfranze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tá achando que...?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ser que todos sejamos alvo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Justificaria a parte da cobra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem que ir ao banco trocar dinheiro, ver a passagem..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu faço isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez não seja uma boa ideia a gente se separar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já ficou provado que não existe problema em atacar todo mundo junto. Talvez seja até mais fácil."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Trouxe algumas roupas nossas, não quer se trocar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Trouxe? Mas se explodisse, eu ia junto..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não achei que fosse explodir. Mas achei que a casa ia ficar cercada e não íamos poder voltar lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me troco e levo o resto comigo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso escolher uma casa enquanto isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro, qualquer lugar que você escolha tá bom pra mim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely sai. Chega ao quarto onde dormiram. Abre um armário. Vazio. Olha embaixo da cama. Puxa uma mochila. Olha para frente, Agatha está na porta. Abre a mochila. Fecha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viajar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quando volta?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel vai encontrar outro lugar. Deve ter achado quando eu voltar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devia tentar se reaproximar de Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem mais jeito."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha olha para Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fiz muita cagada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que até de Mel você conseguiria se aproximar. A gente não foi criado pra condenar pessoas eternamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat cresceu aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem criou foram Rith e Halen."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely vai na direção da porta. Dá um beijo na testa de Agatha e sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que achar que consigo gostar de mais de uma pessoa faz sentido se são gêmeos?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sala. Mel e Kat estão no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou até o banco e depois no aeroporto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely coloca a mochila nas costas e sai. Mel olha pra Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai ter que dizer."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel respira fundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Sua moto explodiu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely volta, com a mochila na mão e ombros caídos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Te dou uma carona."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Valeu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Tarde. Casa de Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A essa hora, está no avião."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sua vez."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Vou ter que ir a uma imobiliária. Devo conseguir fácil, tendo dinheiro pra comprar a vista. Talvez até consiga um bom desconto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cuidado pra não se meter em furada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foda vão ser todos os móveis depois."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas você não ficou um tempo que ficava se mudando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, mas nesse tempo eu ficava em hotéis, fugia sem pagar, dormia em prédio abandonado. Nada que exigisse ficar escolhendo. Depois, ganhamos uma casa mobiliada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont deve ter pego o dinheiro pra viajar provavelmente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde será que tá?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite. Edmont está andando numa rua. Chega a um hotel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "News?"
+				},
+				{
+					"type": "translate",
+					"text": "Alguma novidade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Your brother is here, sir."
+				},
+				{
+					"type": "translate",
+					"text": "Seu irmão está aqui, senhor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "What?"
+				},
+				{
+					"type": "translate",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Your brother, sir. "
+				},
+				{
+					"type": "translate",
+					"text": "É, o seu irmão, senhor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do you know which hotel is he?"
+				},
+				{
+					"type": "translate",
+					"text": "Sabe em que hotel ele está?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "I just said that."
+				},
+				{
+					"type": "translate",
+					"text": "Eu já disse."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Here? Are you sure?"
+				},
+				{
+					"type": "translate",
+					"text": "Aqui? Tem certeza?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do you have any blonde clone?"
+				},
+				{
+					"type": "translate",
+					"text": "Tem algum clone loiro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "What about the thing I asked?"
+				},
+				{
+					"type": "translate",
+					"text": "E sobre o que pedi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nothing yet."
+				},
+				{
+					"type": "translate",
+					"text": "Nada ainda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Thanks."
+				},
+				{
+					"type": "translate",
+					"text": "Obrigado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont abre a carteira. Tira dez dólares. Entrega a Rick. Vai até o elevador. Sobe. Vai até um quarto. Pega a chave. Coloca na fechadura. Abre. Entra. Fecha. Se joga na cama. Franze a testa. Senta na cama. Vai até a porta. Abre e sai. Atravessa o corredor. Anda algumas portas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mesmo andar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont bate na porta. Nada. Barulho de TV. Edmont abre a porta. Entra. Angely se senta na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não está em casa. Melhor aprender a trancar a porta ou vai acabar recebendo surpresa em alguma hora imprópria."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely vai até Edmont. Abraça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, a saudade era tanta?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely afasta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, o que veio fazer aqui? Não deve ter vindo me procurar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não estou em perigo pra Kat sonhar comigo. Ou estou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você e Mel vão morar nos Estados Unidos por que aqui é mais seguro contra explosões?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também não. As impressões digitais da pessoa que colocou a bomba são de alguém que foi enterrado aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas certamente a pessoa teria que estar lá pra fazer o que fez. Tem mais coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat sonhou com os acidentes, depois que algo aconteceria aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sou a única pessoa que estou longe... Como sabia que eu estaria aqui? Kat sonhou isso também?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você gostou daqui quando viemos. Gostou da vista desse quarto, por que dava pra ver o sol nascer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tava ocupado quando me hospedei. Não me animei a trocar. O meu dá pra ver o sol se pôr."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor voltarmos pro Brasil."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não vou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por favor..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não adianta. Se for pra acontecer algo, que aconteça."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont sai do quarto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Manhã. Angely, com a mochila nas costas, bate na porta de um quarto. Rick abre."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Yes?"
+				},
+				{
+					"type": "translate",
+					"text": "Sim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Was there anyone in this room?"
+				},
+				{
+					"type": "translate",
+					"text": "Tinha alguém nesse quarto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A.L.K.?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Yes, it's me."
+				},
+				{
+					"type": "translate",
+					"text": "Sim, sou eu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "He asked to give you that."
+				},
+				{
+					"type": "translate",
+					"text": "Pediu pra entregar isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rick entrega um bilhete a Angely. Angely abre:"
+				},
+				{
+					"type": "letter",
+					"text": "Não procure, não vai encontrar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Are you brothers?"
+				},
+				{
+					"type": "translate",
+					"text": "São irmãos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Yes."
+				},
+				{
+					"type": "translate",
+					"text": "Somos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "I know you from somewhere..."
+				},
+				{
+					"type": "translate",
+					"text": "Eu conheço você de algum lugar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do you know Saturn?"
+				},
+				{
+					"type": "translate",
+					"text": "Conhece a Saturn?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "My daughter is your fan... Can you give me an autograph? She would be so happy!"
+				},
+				{
+					"type": "translate",
+					"text": "Minha filha é fã de vocês... Pode me dar um autógrafo? Ela ficaria muito feliz!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sure."
+				},
+				{
+					"type": "translate",
+					"text": "Claro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Cemitério. Angely senta em frente a uma lápide."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "What are you doing in a cemitery at this time?"
+				},
+				{
+					"type": "translate",
+					"text": "Que faz num cemitério a essa hora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "I just stopped by."
+				},
+				{
+					"type": "translate",
+					"text": "Só parei por aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Just in front of"
+				},
+				{
+					"type": "frizz",
+					"text": "this"
+				},
+				{
+					"type": "default",
+					"text": "grave?"
+				},
+				{
+					"type": "translate",
+					"text": "Justo na frente desse túmulo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Why?"
+				},
+				{
+					"type": "translate",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "There was a vampire there."
+				},
+				{
+					"type": "translate",
+					"text": "Um vampiro tava aí embaixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "How are you so sure?"
+				},
+				{
+					"type": "translate",
+					"text": "Como tem tanta certeza?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Don't you believe in vampires?"
+				},
+				{
+					"type": "translate",
+					"text": "Não acredita em vampiros?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lies. Always tolding lies."
+				},
+				{
+					"type": "translate",
+					"text": "Mentiras. Sempre contando mentiras."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "What if you found a female vampire?"
+				},
+				{
+					"type": "translate",
+					"text": "E se encontrasse uma vampira?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "I've find already. More than once. Do you know the vampire?"
+				},
+				{
+					"type": "translate",
+					"text": "Já encontrei. Mais de uma vez. Conhece o vampiro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sure."
+				},
+				{
+					"type": "translate",
+					"text": "Claro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Can you take me?"
+				},
+				{
+					"type": "translate",
+					"text": "Pode me levar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lorena ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "I don't wanna see him dead."
+				},
+				{
+					"type": "translate",
+					"text": "Não quero ver ele morto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "I won't kill your friend."
+				},
+				{
+					"type": "translate",
+					"text": "Não vou matar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "You just said you've met more than one vampire. If you are alive..."
+				},
+				{
+					"type": "translate",
+					"text": "Acabou de dizer que conheceu mais de uma vampira. Se tá vivo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "I let them go. Can't kill."
+				},
+				{
+					"type": "translate",
+					"text": "Deixei fugir. Não consigo matar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "What you want from him?"
+				},
+				{
+					"type": "translate",
+					"text": "E o que quer com ele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "You friend tried to blow me up."
+				},
+				{
+					"type": "translate",
+					"text": "Tentou me mandar pelos ares."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lorena ri novamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "And you don't wanna kill him? What for so?"
+				},
+				{
+					"type": "translate",
+					"text": "E não quer matar ele? Pra que então quer ver ele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "I wanna know what he has against me."
+				},
+				{
+					"type": "translate",
+					"text": "Quero saber o que tem contra mim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Chegam a um mausoléu grande. Entram."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Hey, we have visit..."
+				},
+				{
+					"type": "translate",
+					"text": "Ei, tem visita..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguém pula em cima de Angely. Angely joga no chão. Entra em posição de defesa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lorena",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Honey, he just want to know why you tried to blow up him."
+				},
+				{
+					"type": "translate",
+					"text": "Meu bem, ele só quer saber por que tentou explodir ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Daniel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu? Ah, tô reconhecendo você..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se mal me reconhece, por que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Daniel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi uma troca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Troca?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Daniel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tava devendo um favor pra alguém que salvou minha vida. Bom, não que me importe com isso, mas ele ia tirar o que me deu se não fizesse isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quem é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Daniel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou te contar só por que ele me torturou."
+				}
+			]
+		}
+	]
+}

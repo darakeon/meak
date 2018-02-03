@@ -1,465 +1,1512 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="04" scene="b">
-	<teller>
-		<default>19:00. Ang chega. Derik, Estela e Zenon# estão na sala.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Pra que o jornal?</default>
-	</talk>
-	<teller>
-		<default>Ang entrega o jornal a Derik. Vai para a escada e sobe. Derik abre o jornal. Vira páginas. Para.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Não precisamos mais tentar encontrar a pessoa.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Por quê?</default>
-	</talk>
-	<talk character="Derik">
-		<default>A polícia já encontrou.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Que bom pra ela e pra família...</default>
-	</talk>
-	<talk character="Derik">
-		<default>A polícia encontrou o corpo em um beco.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Nem tão bom.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Zenon, ouviu o que eu disse?</default>
-	</talk>
-	<teller>
-		<default>Zenon# abaixa a cabeça.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>É, ouvi...</default>
-	</talk>
-	<talk character="Estela">
-		<default>Ang não parecia triste.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Talvez saiba que foi pro céu, ou sei lá o que...</default>
-	</talk>
-	<talk character="Estela">
-		<default>Saber como?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Bom, é quase anjo, não é?</default>
-	</talk>
-	<talk character="Mel">
-		<arrive>Não vão acreditar, vou ter que ir pra Rio de Janeiro!</arrive>
-	</talk>
-	<talk character="Estela">
-		<default>Não é meio longe?</default>
-	</talk>
-	<talk character="Mel">
-		<default>É, mas a pessoa vai pagar a passagem. Disse que acha que a pessoa com quem tá se meteu com demônios ou algo assim. Vou levar Ang.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tá. Quando vão?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Agora, de preferência.</default>
-	</talk>
-	<teller>
-		<default>Mel sai. Derik fecha o jornal. Cai um papel dobrado. Derik pega. Franze a sobrancelha.</default>
-	</teller>
-	<talk character="Derik">
-		<default>É pra você...</default>
-	</talk>
-	<teller>
-		<default>Derik entrega o bilhete a Zenon#. Zenon# abre.</default>
-	</teller>
-	<talk character="Zenon#">
-		<read>Não fique assim, não se pode salvar a todos.</read>
-	</talk>
-	<talk character="Derik">
-		<default>Estranho... Quem será que escreveu isso?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Será que foi Angely?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não é a caligrafia.</default>
-	</talk>
-	<talk character="Zenon#">
-		<hushed>Renata...</hushed>
-	</talk>
-	<talk character="Derik">
-		<default>Que?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Nada... Tenho que sair.</default>
-	</talk>
-	<teller>
-		<first>Meia-noite. Cemitério. Renata está em frente ao túmulo, olhando para o túmulo. Zenon# se aproxima. Olha para o túmulo também.</first>
-	</teller>
-	<talk character="Zenon#">
-		<default>Eu sinto muito.</default>
-	</talk>
-	<talk character="Renata">
-		<default>Eu não.</default>
-	</talk>
-	<teller>
-		<default>Zenon# olha para Renata.</default>
-	</teller>
-	<talk character="Renata">
-		<default>Ela teve uma boa vida. Além do que, nunca fez nada de tão ruim. Não deve tá sofrendo agora...</default>
-	</talk>
-	<teller>
-		<default>Zenon# olha para o túmulo.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Não tem medo?</default>
-	</talk>
-	<talk character="Renata">
-		<default>Do que, de você?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>De vir ao cemitério a essa hora...</default>
-	</talk>
-	<talk character="Renata">
-		<default>Deveria?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>A maioria das garotas da sua idade tem.</default>
-	</talk>
-	<talk character="Renata">
-		<default>Não tenho medo de nenhuma das duas coisas.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Seu pai deve tá preocupado.</default>
-	</talk>
-	<talk character="Renata">
-		<default>Acho que ele não liga muito pra mim. Vivia pela Roberta... Não deve nem ter notado que saí...</default>
-	</talk>
-	<teller>
-		<default>Renata pega um papel no bolso. Estende a Zenon#, que vira novamente para si.</default>
-	</teller>
-	<talk character="Renata">
-		<default>Ele pediu que entregasse isso. Não sabia onde estavam.</default>
-	</talk>
-	<teller>
-		<default>Zenon# pega e abre. Um cheque.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Não posso aceitar, não ajudamos sua irmã...</default>
-	</talk>
-	<talk character="Renata">
-		<default>Mas tentaram.</default>
-	</talk>
-	<teller>
-		<default>Silêncio.</default>
-	</teller>
-	<talk character="Renata">
-		<default>Qual seu...</default>
-	</talk>
-	<teller>
-		<default>Renata vida para o lado. Olha ao redor.</default>
-	</teller>
-	<talk character="Renata">
-		<default>Nome.</default>
-	</talk>
-	<teller>
-		<first>20h. Bar em Ares. Johnatan senta em uma cadeira na mesa de Renata.</first>
-	</teller>
-	<talk character="Johnatan">
-		<default>Tem horas, senhorita?</default>
-	</talk>
-	<talk character="Renata">
-		<default>Dá pra ver que não tô usando relógio.</default>
-	</talk>
-	<teller>
-		<default>Johnatan dá um sorriso.</default>
-	</teller>
-	<talk character="Johnatan">
-		<default>Acho que essa não colou...</default>
-	</talk>
-	<talk character="Renata">
-		<default>Tem razão.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Deixe-me tentar de novo... Quer que eu pague uma bebida?</default>
-	</talk>
-	<talk character="Renata">
-		<default>Eu não bebo.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>É, parece que eu não tô me dando muito bem... Qual seu nome?</default>
-	</talk>
-	<talk character="Renata">
-		<default>Renata.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Quantos anos você tem?</default>
-	</talk>
-	<talk character="Renata">
-		<default>18.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Seu nome é bonito...</default>
-	</talk>
-	<talk character="Renata">
-		<default>Obrigado, mas não fui eu que escolhi.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Me dei mal de novo...</default>
-	</talk>
-	<talk character="Renata">
-		<default>Até que não. Normalmente eu sairia da mesa assim outra pessoa sentasse.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Droga, uma lésbica...</default>
-	</talk>
-	<talk character="Renata">
-		<default>Não sou lésbica.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Que alívio. Seria a terceira que eu encontraria hoje.</default>
-	</talk>
-	<talk character="Renata">
-		<default>Eu disse pessoa, não homem.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Ah, então vocês é aqueles negócios de assexuada?</default>
-	</talk>
-	<talk character="Renata">
-		<default>O termo certo é assexual, mas não. Eu só não sou muito sociável. Acho que estou um pouco mais hoje. Qual seu nome?</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Pode me chamar de Johnatan. É assim que me chamam ultimamente.</default>
-	</talk>
-	<teller>
-		<default>Zenon# entra no bar e vê Renata e Johnatan. Zenon# senta numa cadeira no balcão, olhando para Renata e Johnatan.</default>
-	</teller>
-	<talk character="Renata">
-		<default>Tenho que ir. Meu pai já deve tá preocupado...</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Posso te levar em casa?</default>
-	</talk>
-	<teller>
-		<default>Renata olha para Zenon#. Johnatan olha na mesma direção, Renata levanta a mão. Rosa sai de trás do balcão, com uma máquina na mão.</default>
-	</teller>
-	<talk character="Renata">
-		<default>Pode ser.</default>
-	</talk>
-	<teller>
-		<first>Renata e Johnatan estão andando. Chegam a mureta virada para o mar.</first>
-	</teller>
-	<talk character="Renata">
-		<default>Onde estamos?</default>
-	</talk>
-	<teller>
-		<default>Johnatan segura Renata contra a parede.</default>
-	</teller>
-	<talk character="Johnatan">
-		<default>Na sua última parada.</default>
-	</talk>
-	<teller>
-		<default>Johnatan mostra os caninos. Crava em Renata. Afasta e olha para Zenon#.</default>
-	</teller>
-	<talk character="Zenon#">
-		<arrive>Se eu fosse você não faria isso.</arrive>
-	</talk>
-	<talk character="Johnatan">
-		<default>Ah, é?</default>
-	</talk>
-	<teller>
-		<default>Johnatan olha para Zenon#.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Não vai querer me irritar.</default>
-	</talk>
-	<teller>
-		<default>Johnatan joga Renata no chão.</default>
-	</teller>
-	<talk character="Johnatan">
-		<default>Achei primeiro.</default>
-	</talk>
-	<teller>
-		<default>Zenon# tenta cravar uma estaca em Johnatan, mas Johnatan segura. Torce o braço de Zenon#, fazendo derrubar a estaca e joga Zenon# no chão. Zenon# levanta e olha ao redor. Arregala os olhos. Johnatan puxa de volta a estaca, que enfiou pelas costas, na altura do estômago. Johnatan olha para Renata. Corre. Renata se aproxima de Zenon#.</default>
-	</teller>
-	<talk character="Renata">
-		<default>Você tá bem?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Só um ferimento leve...</default>
-	</talk>
-	<teller>
-		<default>Zenon# cai no chão.</default>
-	</teller>
-	<talk character="Renata">
-		<default>Deixa que eu te ajudo...</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Sai daqui...</default>
-	</talk>
-	<talk character="Renata">
-		<default>Não vou te deixar aqui jogado, salvou minha vida!</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Tem mais alguém...</default>
-	</talk>
-	<talk character="Amanda">
-		<arrive>Não se preocupe, não vou machucar a garota.</arrive>
-	</talk>
-	<talk character="Zenon#">
-		<default>Quem é você?</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Parece que Johnatan perdeu a janta.</default>
-	</talk>
-	<talk character="Renata">
-		<default>Ajuda ele, tá ferido...</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Não se preocupe com ele. Preocupe-se com você. Johnatan não vai te deixar escapar assim tão fácil.</default>
-	</talk>
-	<teller>
-		<default>MEAK. Zenon# entra, com apoio de Renata.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Zenon!</default>
-	</talk>
-	<teller>
-		<default>Kat olha pra Renata.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Por que fez isso?</default>
-	</talk>
-	<teller>
-		<default>Derik olha para o pescoço de Renata.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Kat, não chega muito perto...</default>
-	</talk>
-	<talk character="Renata">
-		<default>Não fui eu. Ele me salvou. O vampiro que me mordeu que enfiou a estaca nele. Aliás, achei que aquela conversa prévia era coisa de seriado barato!</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Ajuda a distrair o cara pra te largar. Se eu chegasse atacando, ele quebraria seu pescoço antes de vir pra cima de mim.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Por um pouco não acertou...</default>
-	</talk>
-	<talk character="Renata">
-		<default>Bom, tenho que ir...</default>
-	</talk>
-	<teller>
-		<default>Renata ajuda Zenon# a chegar ao sofá. Sai. Derik e Kat se entreolham.</default>
-	</teller>
-	<teller>
-		<first>Rio. Mel e Ang estão em um carro.</first>
-	</teller>
-	<talk character="Mel">
-		<default>Viu? Mais fácil do que pensávamos.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Tem certeza que temos que entrar?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ang, ninguém vai te atacar lá dentro.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Eu sei...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vamos pedir a informação que queremos, pagar e pronto.</default>
-	</talk>
-	<teller>
-		<default>Ang baixa a cabeça.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Sei que não gosta de desonestidade, mas vai ter que se acostumar. As pessoas não ajudam de graça nesse planeta.</default>
-	</talk>
-	<teller>
-		<default>Saem do carro. Entram no lugar. Não existe muita claridade, há música. Pessoas dançando sobre o balcão. Iara se aproxima.</default>
-	</teller>
-	<talk character="Iara">
-		<default>Oi, o casalzinho veio procurar alguma coisa diferente?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Viemos atrás de uma informação. Uma pessoa que tem vindo aqui com alguma frequência.</default>
-	</talk>
-	<talk character="Iara">
-		<default>Como eu poderia saber de quem está falando? Sou péssima fisionomista...</default>
-	</talk>
-	<talk character="Mel">
-		<default>E qual a cor do papel que poderia melhorar essa sua capacidade?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Mel...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ang, eu sei que...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não é isso...</default>
-	</talk>
-	<teller>
-		<default>Angely se apoia em Mel. Desmaia.</default>
-	</teller>
-	<teller>
-		<first>Quarto. Ângelo sentou-se na cama. Sônia recostou-se na penteadeira.</first>
-	</teller>
-	<talk character="Sônia">
-		<default>Nossa, realmente não achei que viria me visitar aqui! Sempre marca em outro lugar...</default>
-	</talk>
-	<talk character="Ângelo">
-		<default>Não queria, mas tinha que te entregar isso.</default>
-	</talk>
-	<teller>
-		<default>Ângelo entrega um pacote para Sônia. Sônia abre: dinheiro.</default>
-	</teller>
-	<talk character="Sônia">
-		<default>Já disse que não precisa...</default>
-	</talk>
-	<talk character="Ângelo">
-		<default>Não precisa como? Não vou te deixar na mão.</default>
-	</talk>
-	<talk character="Sônia">
-		<default>Eu tenho um emprego.</default>
-	</talk>
-	<talk character="Ângelo">
-		<default>Um emprego?! Isso aqui não é...</default>
-	</talk>
-	<talk character="Sônia">
-		<default>Acha mesmo que quero ser sustentada por você? Nem se ficasse paraplégica.</default>
-	</talk>
-	<teller>
-		<first>Angely acorda. Está na cama do hotel. Mel sentou-se ao seu lado.</first>
-	</teller>
-	<talk character="Ang">
-		<default>Onde...?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tivemos que sair de lá. Você desmaiou.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Desculpe.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Primeiro no tribunal, agora aqui. Quero saber a verdade. Você tá doente ou algo assim?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não, eu só...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tudo bem. Não quer me contar, ótimo. Amanhã eu vou só até lá, com disfarce.</default>
-	</talk>
-	<talk character="Ang">
-		<default>A pessoa vai te reconhecer.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não. Amanhã é o dia de folga de Iara. Vi Ângelo descer com uma pessoa.</default>
-	</talk>
-	<teller>
-		<default>Mel levanta.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Quando chegarmos a Hera, vamos descobrir o que tem com você, seja com medicina ou com magia.</default>
-	</talk>
-</story>
+{
+	"season": "B",
+	"episode": "04",
+	"scene": "b",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "19:00. Ang chega. Derik, Estela e Zenon# estão na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra que o jornal?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang entrega o jornal a Derik. Vai para a escada e sobe. Derik abre o jornal. Vira páginas. Para."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisamos mais tentar encontrar a pessoa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A polícia já encontrou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que bom pra ela e pra família..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A polícia encontrou o corpo em um beco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem tão bom."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon, ouviu o que eu disse?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# abaixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, ouvi..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang não parecia triste."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez saiba que foi pro céu, ou sei lá o que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Saber como?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, é quase anjo, não é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Não vão acreditar, vou ter que ir pra Rio de Janeiro!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é meio longe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, mas a pessoa vai pagar a passagem. Disse que acha que a pessoa com quem tá se meteu com demônios ou algo assim. Vou levar Ang."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá. Quando vão?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora, de preferência."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sai. Derik fecha o jornal. Cai um papel dobrado. Derik pega. Franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É pra você..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik entrega o bilhete a Zenon#. Zenon# abre."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "read",
+					"text": "Não fique assim, não se pode salvar a todos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estranho... Quem será que escreveu isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que foi Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é a caligrafia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Renata..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada... Tenho que sair."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Meia-noite. Cemitério. Renata está em frente ao túmulo, olhando para o túmulo. Zenon# se aproxima. Olha para o túmulo também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sinto muito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# olha para Renata."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela teve uma boa vida. Além do que, nunca fez nada de tão ruim. Não deve tá sofrendo agora..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# olha para o túmulo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem medo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que, de você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De vir ao cemitério a essa hora..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deveria?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A maioria das garotas da sua idade tem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tenho medo de nenhuma das duas coisas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu pai deve tá preocupado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que ele não liga muito pra mim. Vivia pela Roberta... Não deve nem ter notado que saí..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Renata pega um papel no bolso. Estende a Zenon#, que vira novamente para si."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele pediu que entregasse isso. Não sabia onde estavam."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# pega e abre. Um cheque."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não posso aceitar, não ajudamos sua irmã..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas tentaram."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Silêncio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual seu..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Renata vida para o lado. Olha ao redor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nome."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "20h. Bar em Ares. Johnatan senta em uma cadeira na mesa de Renata."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem horas, senhorita?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dá pra ver que não tô usando relógio."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Johnatan dá um sorriso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que essa não colou..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem razão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixe-me tentar de novo... Quer que eu pague uma bebida?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não bebo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, parece que eu não tô me dando muito bem... Qual seu nome?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Renata."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quantos anos você tem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "18."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu nome é bonito..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Obrigado, mas não fui eu que escolhi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me dei mal de novo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Até que não. Normalmente eu sairia da mesa assim outra pessoa sentasse."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga, uma lésbica..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sou lésbica."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que alívio. Seria a terceira que eu encontraria hoje."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu disse pessoa, não homem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, então vocês é aqueles negócios de assexuada?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O termo certo é assexual, mas não. Eu só não sou muito sociável. Acho que estou um pouco mais hoje. Qual seu nome?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode me chamar de Johnatan. É assim que me chamam ultimamente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# entra no bar e vê Renata e Johnatan. Zenon# senta numa cadeira no balcão, olhando para Renata e Johnatan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho que ir. Meu pai já deve tá preocupado..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso te levar em casa?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Renata olha para Zenon#. Johnatan olha na mesma direção, Renata levanta a mão. Rosa sai de trás do balcão, com uma máquina na mão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ser."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Renata e Johnatan estão andando. Chegam a mureta virada para o mar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde estamos?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Johnatan segura Renata contra a parede."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na sua última parada."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Johnatan mostra os caninos. Crava em Renata. Afasta e olha para Zenon#."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Se eu fosse você não faria isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, é?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Johnatan olha para Zenon#."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai querer me irritar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Johnatan joga Renata no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei primeiro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# tenta cravar uma estaca em Johnatan, mas Johnatan segura. Torce o braço de Zenon#, fazendo derrubar a estaca e joga Zenon# no chão. Zenon# levanta e olha ao redor. Arregala os olhos. Johnatan puxa de volta a estaca, que enfiou pelas costas, na altura do estômago. Johnatan olha para Renata. Corre. Renata se aproxima de Zenon#."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tá bem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só um ferimento leve..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# cai no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixa que eu te ajudo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sai daqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vou te deixar aqui jogado, salvou minha vida!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem mais alguém..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Não se preocupe, não vou machucar a garota."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece que Johnatan perdeu a janta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ajuda ele, tá ferido..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não se preocupe com ele. Preocupe-se com você. Johnatan não vai te deixar escapar assim tão fácil."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "MEAK. Zenon# entra, com apoio de Renata."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat olha pra Renata."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que fez isso?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha para o pescoço de Renata."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat, não chega muito perto..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fui eu. Ele me salvou. O vampiro que me mordeu que enfiou a estaca nele. Aliás, achei que aquela conversa prévia era coisa de seriado barato!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ajuda a distrair o cara pra te largar. Se eu chegasse atacando, ele quebraria seu pescoço antes de vir pra cima de mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por um pouco não acertou..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, tenho que ir..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Renata ajuda Zenon# a chegar ao sofá. Sai. Derik e Kat se entreolham."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Rio. Mel e Ang estão em um carro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viu? Mais fácil do que pensávamos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem certeza que temos que entrar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang, ninguém vai te atacar lá dentro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos pedir a informação que queremos, pagar e pronto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sei que não gosta de desonestidade, mas vai ter que se acostumar. As pessoas não ajudam de graça nesse planeta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Saem do carro. Entram no lugar. Não existe muita claridade, há música. Pessoas dançando sobre o balcão. Iara se aproxima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Iara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi, o casalzinho veio procurar alguma coisa diferente?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viemos atrás de uma informação. Uma pessoa que tem vindo aqui com alguma frequência."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Iara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como eu poderia saber de quem está falando? Sou péssima fisionomista..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E qual a cor do papel que poderia melhorar essa sua capacidade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang, eu sei que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é isso..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely se apoia em Mel. Desmaia."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Quarto. Ângelo sentou-se na cama. Sônia recostou-se na penteadeira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sônia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, realmente não achei que viria me visitar aqui! Sempre marca em outro lugar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ângelo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não queria, mas tinha que te entregar isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ângelo entrega um pacote para Sônia. Sônia abre: dinheiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sônia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já disse que não precisa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ângelo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa como? Não vou te deixar na mão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sônia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tenho um emprego."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ângelo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um emprego?! Isso aqui não é..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sônia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha mesmo que quero ser sustentada por você? Nem se ficasse paraplégica."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Angely acorda. Está na cama do hotel. Mel sentou-se ao seu lado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde...?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tivemos que sair de lá. Você desmaiou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Primeiro no tribunal, agora aqui. Quero saber a verdade. Você tá doente ou algo assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, eu só..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem. Não quer me contar, ótimo. Amanhã eu vou só até lá, com disfarce."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A pessoa vai te reconhecer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Amanhã é o dia de folga de Iara. Vi Ângelo descer com uma pessoa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quando chegarmos a Hera, vamos descobrir o que tem com você, seja com medicina ou com magia."
+				}
+			]
+		}
+	]
+}

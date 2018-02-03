@@ -1,543 +1,1773 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="07" scene="a">
-	<teller>
-		<default>Varanda da MEAK. Manhã. Angely sentou-se no banco e olha para o horizonte.</default>
-	</teller>
-	<talk character="Mel">
-		<arrive>Que foi?</arrive>
-	</talk>
-	<talk character="Ang">
-		<default>Tava pensando na Saturn.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por quê?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Nosso sucesso. Foi uma coisa quase inacreditável. Não precisamos de muito tempo, nem sequer lutamos muito pra subir. Foi simplesmente inexplicável.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E porque estava pensando nisso agora?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Eu e Edmont sempre tivemos tudo muito fácil. Lá era explicável, não existe a desigualdade daqui. Mas chegamos aqui e Júlio nos adotou, sem questionar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Acho que Júlio sabia sobre Agatha.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Será?</default>
-	</talk>
-	<talk character="Mel">
-		<default>"Vocês vieram em uma nave espacial, então vou botar vocês pra dormir no quarto com a minha criança, só podem ser criancinhas inocentes mesmo!". Parece razoável?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Tem razão.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E aí, depois que cresceram, veio Saturn, do jeito que veio.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Quando acordei, temos esse ouro.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Foi do dinheiro que tínhamos lá. Trocamos por ouro, não sabíamos em que tempo cairíamos. Já te contaram da gárgu...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Agora Edmont simplesmente pega o que, como e quando quer.</default>
-	</talk>
-	<talk character="Mel">
-		<default>A culpa não é sua.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Meu emprego é outro exemplo. Já você... Quando caiu na Terra, você devia ter caído perto da gente.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas minha sorte tava invertida da de vocês. Fiquei vagando por aí, fugindo de tudo que podia, sendo hacker e outras coisas.</default>
-	</talk>
-	<teller>
-		<default>Ang franze a sobrancelha.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Outras coisas?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bom, cheguei a assaltar uma loja de jóias. Pedi emprego e a pessoa me disse que se me comesse me contratava.</default>
-	</talk>
-	<teller>
-		<default>Ang olha para baixo. Olha para Mel.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Nós nunca precisamos de nada disso. Será que algum dia a conta vai vir?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Talvez pra Edmont, que fez coisas erradas. Não devia estar na escola?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Dínamis disse que acha melhor eu ficar só com o pessoal da tarde.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não é o horário do primário?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Sim.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bom, acho que sua sorte acabou. E a casa?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não encontrei ainda.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Já procurou na vila?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Ainda não. Será que tem alguma casa vaga?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Só vai saber se procurar. Não que eu esteja te expulsando, sabe que, por mim...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Eu sei.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bom, deixa eu ir. Tenho umas coisas pra resolver na cidade.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Problemas?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não, coisa minha.</default>
-	</talk>
-	<teller>
-		<first>Sol a pino. Ang está na sala, Zenon vem das escadas.</first>
-	</teller>
-	<talk character="Ang">
-		<default>Viu Alan?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Mel saiu?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Sim.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Ele tá cismado que ela anda se encontrando com alguém.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Qual o problema?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Essa parte ele não me respondeu.</default>
-	</talk>
-	<teller>
-		<default>Estela passa pela sala, vai para a cozinha. Anda rápido e com o rosto meio contraído. Angely segue. Estela bate a porta da geladeira.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Alguma coisa com errada?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Um frango mal morto que não devia ter saído andando!</default>
-	</talk>
-	<teller>
-		<default>Estela sai, andando rápido. Zenon entra, desviando de Estela.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Do que tava falando?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Bom, ela tava procurando um sanduíche agora pouco.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Nem vi o tempo passar, me atrasei...</default>
-	</talk>
-	<teller>
-		<default>Angely pega uma bolsa sobre a mesa e sai. Kat está na cama, deitou-se e olha um livro.</default>
-	</teller>
-	<talk character="Derik">
-		<arrive>Que está estudando?</arrive>
-	</talk>
-	<talk character="Kat">
-		<default>Classificação de sujeito.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu ia perguntar se podia ajudar.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pode sim.</default>
-	</talk>
-	<teller>
-		<default>Derik franze a sobrancelha. Kat senta, estende o livro a Derik.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Você me pergunta e eu respondo. A resposta tá no fim do livro.</default>
-	</talk>
-	<teller>
-		<default>Derik pega o livro.</default>
-	</teller>
-	<talk character="Estela">
-		<arrive>Pegaram meu sanduíche!</arrive>
-	</talk>
-	<talk character="Kat">
-		<default>Essa é sujeito indeterminado.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não, sujeito morto!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não fui eu!</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não, foi o Zenon que resolveu mudar a dieta!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Pode ter sido outra pessoa!</default>
-	</talk>
-	<talk character="Estela">
-		<default>Mel e Alan estão fora e Ang não faz esse tipo de coisa.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Nem pense em me acusar.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Você não gosta de alface.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Também tem Beleno aí, sabia?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Aquele que só come folhas e alguns vampiros em ocasiões especiais?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Bom, gosta de alface...</default>
-	</talk>
-	<teller>
-		<default>Estela encara Derik.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Eu tava com fome, você não voou a noite toda! E o frango tá lá ainda! Eu não comeria frango!</default>
-	</talk>
-	<talk character="Estela">
-		<default>É, realmente, seria quase canibalismo... Pera, acho que eu vou comer só frango?! Sou um animal onívoro, não carnívoro!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ixi, não vem misturar Biologia aqui, não!</default>
-	</talk>
-	<talk character="Estela">
-		<default>Vai fazer outro!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tô ajudando Kat a estudar.</default>
-	</talk>
-	<teller>
-		<default>Kat pega o livro da mão de Derik.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Ei!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Você fez, você conserta, não me usa de desculpa. Sabe que odeio isso.</default>
-	</talk>
-	<teller>
-		<default>Derik bufa. Sai. Chega na cozinha e abre a geladeira.</default>
-	</teller>
-	<talk character="Derik">
-		<default>É, frango, vou ter que te arranjar uma nova casa. Mas nem se empolga que agora você vai entrar na dança junto.</default>
-	</talk>
-	<teller>
-		<default>Pega um prato com um pedaço de frango e coloca sobre a mesa. Vai até uma fruteira e pega uma alface. Barulho da geladeira abrindo e batendo.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Tá, Estela, eu sei que ficou com raiva, mas eu já vou fazer...</default>
-	</talk>
-	<teller>
-		<default>Derik olha para a cadeira. Um corpo de frango, como se tivesse se sentado.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Olha, não fui eu quem pegou seu pedaço, se for exigir, vai ter que pedir para Estela, né, Estela?</default>
-	</talk>
-	<teller>
-		<default>Derik cruza os braços. Descruza. Pega o frango e coloca no freezer. Vai até a porta, a maçaneta não vira. Vai até a janela. Não abre.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Isso tá ficando sem graça!</default>
-	</talk>
-	<talk character="Martim">
-		<ghost>Vá buscar meu ouro!</ghost>
-	</talk>
-	<teller>
-		<default>Janelas e porta abrem e fecham, batendo. Derik se encolhe. Se aproxima da porta, abre, corre. Sobe as escadas. Dá um encontrão em Beleno no corredor.</default>
-	</teller>
-	<talk character="Beleno">
-		<default>Mas que diabos???</default>
-	</talk>
-	<talk character="Derik">
-		<screamed>É Leo, Leo voltou, Leo taquí!</screamed>
-	</talk>
-	<teller>
-		<default>Kat sai no corredor. Estela vem atrás.</default>
-	</teller>
-	<talk character="Derik">
-		<screamed>Voltou pra me pegar, voltou pra...</screamed>
-	</talk>
-	<teller>
-		<default>Derik pega nos braços de Kat. Kat empurra Derik e dá um tapa. Pega pela mão, leva para dentro do quarto e tranca a porta.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Agora respira e diz o que aconteceu.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu tava na cozinha e daí o frango sentou na cadeira e janelas e portas queriam me morder...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Precisa de outro tapa?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Então explica direito.</default>
-	</talk>
-	<talk character="Estela">
-		<out>Isso é teatro pra não me fazer outro sanduíche!</out>
-	</talk>
-	<teller>
-		<default>Derik abre a porta, sai e pega nos braços de Estela.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Você não entende??? Leo voltou, quer me pegar! Pode querer se vingar de Kat também! Pode querer se vingar de todo mundo!</default>
-	</talk>
-	<teller>
-		<default>Zenon chega e puxa Derik para sua frente.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Calma, nós estamos aqui, ele não vai te pegar!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Se tentar, vai se ver comigo!</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Quem é Leo?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Conhece algum espírita?</default>
-	</talk>
-	<teller>
-		<first>Mel sai de um prédio. Vai até Alan. Pega o jornal de Alan, vira e entrega de volta. Alan pega e fecha o jornal.</first>
-	</teller>
-	<talk character="Alan">
-		<default>Bem que percebi que tinha algo errado.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ontem mandou Derik vasculhar a Ilha em busca de vampiros.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Você saiu e não voltou, achei que fosse isso.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não te passa pela cabeça que eu posso ter uma vida pessoal?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Não fala de ninguém.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E quem disse que eu preciso falar? Ou que tenha que ser alguém específico?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Mas como você, logo você, uma pessoa tão séria pode...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não gosto de compromissos.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Por que não procura pelo menos alguém que você conheça melhor???</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quer dizer alguém que talvez vá sentir algo por mim? Desculpe, não quero me envolver.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Já tentou alguma vez???</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não te interessa.</default>
-	</talk>
-	<teller>
-		<default>Alan fica em silêncio.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Já terminou?</default>
-	</talk>
-	<talk character="Alan">
-		<default>E se a pessoa não quisesse envolvimento?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você noivou com a primeira pessoa com quem foi pra cama.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Não foi a primeira, quando eu tinha quatorze meu pai me levou num...</default>
-	</talk>
-	<teller>
-		<default>Mel encara Alan.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Tá, essa vez não conta.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quantos anos você tinha quando conheceu Helena?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Dezesseis.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E ela?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Vinte e um.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Devia procurar alguém da sua idade.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Não posso nem tentar?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Já ouvi essa frase uma vez. De alguém que já tinha engravidado três pessoas, as três de gêmeos.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Não engravidei ninguém!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Adivinha? Na época não sabia e, algum tempo depois, eu também tinha engravidado.</default>
-	</talk>
-	<talk character="Alan">
-		<irony>Ah, claro, quem sabe a prostituta não engravidou, eu tenho uma filha de cinco anos e não sei!</irony>
-	</talk>
-	<talk character="Mel">
-		<default>Se você já pode ter uma ereção, já pode engravidar alguém.</default>
-	</talk>
-	<teller>
-		<default>Alan ri. Mel cruza os braços. Alan fecha a expressão.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Cê não tá falando sério, tá?</default>
-	</talk>
-	<teller>
-		<default>Mel revira os olhos e sai andando.</default>
-	</teller>
-	<teller>
-		<first>MEAK. Tarde. Zenon anda de um lado para outro.</first>
-	</teller>
-	<talk character="Alan">
-		<arrive>Que foi?</arrive>
-	</talk>
-	<talk character="Zenon">
-		<default>Tô esperando a Mel.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Não adianta se iludir com ela, parece que prefere desconhecidos.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Do que você tá falando?</default>
-	</talk>
-	<teller>
-		<default>Alan coloca a mão no ombro de Zenon.</default>
-	</teller>
-	<talk character="Alan">
-		<default>É isso mesmo, amigo, ela não quer se envolver com ninguém.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Quê?!</default>
-	</talk>
-	<talk character="Alan">
-		<hushed>Acho que isso é comportamento de prostituta, mas...</hushed>
-	</talk>
-	<teller>
-		<default>Alan vê uma mão em seu ombro, vira e toma um soco, indo para trás.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Por que fez isso??? Tá treinando pra ser a Mel?! Nunca me disseram que força de soco era hereditária!!!</default>
-	</talk>
-	<talk character="Kat">
-		<default>É só pra te lembrar que você não tem nada a ver com a vida de Mel.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Eu só tava avisando Zenon porque ela tá iludindo ele!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Tava esperando ela porque Derik disse que tem um fantasma aqui.</default>
-	</talk>
-	<teller>
-		<default>Alan olha para Zenon.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Sério?</default>
-	</talk>
-	<teller>
-		<default>Kat dá um chute entre as pernas de Alan. Alan cai no chão.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Mel não ilude ninguém, se não quer, fala.</default>
-	</talk>
-	<teller>
-		<default>Derik chega com um diversas de cruzes.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Eu já te fiz alguma coisa errada?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não, isso é pra Leo!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Fantasma não tem nada contra cruz... Tem?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Pra ter voltado Leo só pode ter feito pacto com...</default>
-	</talk>
-	<teller>
-		<default>Derik olha para Alan e arregala os olhos.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Ele tá possuído???</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Sim, por uma dor que não desejo nem pro meu pior inimigo.</default>
-	</talk>
-	<talk character="Derik">
-		<screamed>Foi o Leo???</screamed>
-	</talk>
-	<talk character="Estela">
-		<arrive>Que aconteceu???</arrive>
-	</talk>
-	<teller>
-		<default>Estela vai até Alan e ajuda a ir até o sofá.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Fui eu.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Por quê?!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Ele tomou um fora da Mel e tava chamando ela de prostituta por causa disso.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Não foi isso que aconteceu!</default>
-	</talk>
-	<talk character="Estela">
-		<default>Então foi o que?</default>
-	</talk>
-	<teller>
-		<default>Alan faz silêncio.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Cachorro.</default>
-	</talk>
-	<talk character="Derik">
-		<screamed>Ei, eu viro cachorro e não faço uma coisa dessas!</screamed>
-	</talk>
-	<talk character="Estela">
-		<default>Juro que imaginei um cachorro xingando o outro dizendo "seu alan!".</default>
-	</talk>
-	<talk character="Derik">
-		<default>Meu Deus do céu, é contagioso.</default>
-	</talk>
-</story>
+{
+	"season": "B",
+	"episode": "07",
+	"scene": "a",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Varanda da MEAK. Manhã. Angely sentou-se no banco e olha para o horizonte."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tava pensando na Saturn."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nosso sucesso. Foi uma coisa quase inacreditável. Não precisamos de muito tempo, nem sequer lutamos muito pra subir. Foi simplesmente inexplicável."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E porque estava pensando nisso agora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu e Edmont sempre tivemos tudo muito fácil. Lá era explicável, não existe a desigualdade daqui. Mas chegamos aqui e Júlio nos adotou, sem questionar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que Júlio sabia sobre Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": ""Vocês vieram em uma nave espacial, então vou botar vocês pra dormir no quarto com a minha criança, só podem ser criancinhas inocentes mesmo!". Parece razoável?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem razão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí, depois que cresceram, veio Saturn, do jeito que veio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quando acordei, temos esse ouro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi do dinheiro que tínhamos lá. Trocamos por ouro, não sabíamos em que tempo cairíamos. Já te contaram da gárgu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora Edmont simplesmente pega o que, como e quando quer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A culpa não é sua."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu emprego é outro exemplo. Já você... Quando caiu na Terra, você devia ter caído perto da gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas minha sorte tava invertida da de vocês. Fiquei vagando por aí, fugindo de tudo que podia, sendo hacker e outras coisas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Outras coisas?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, cheguei a assaltar uma loja de jóias. Pedi emprego e a pessoa me disse que se me comesse me contratava."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang olha para baixo. Olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós nunca precisamos de nada disso. Será que algum dia a conta vai vir?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez pra Edmont, que fez coisas erradas. Não devia estar na escola?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dínamis disse que acha melhor eu ficar só com o pessoal da tarde."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é o horário do primário?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, acho que sua sorte acabou. E a casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não encontrei ainda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já procurou na vila?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda não. Será que tem alguma casa vaga?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só vai saber se procurar. Não que eu esteja te expulsando, sabe que, por mim..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, deixa eu ir. Tenho umas coisas pra resolver na cidade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Problemas?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, coisa minha."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Sol a pino. Ang está na sala, Zenon vem das escadas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viu Alan?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel saiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele tá cismado que ela anda se encontrando com alguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual o problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa parte ele não me respondeu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela passa pela sala, vai para a cozinha. Anda rápido e com o rosto meio contraído. Angely segue. Estela bate a porta da geladeira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguma coisa com errada?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um frango mal morto que não devia ter saído andando!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela sai, andando rápido. Zenon entra, desviando de Estela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que tava falando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, ela tava procurando um sanduíche agora pouco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem vi o tempo passar, me atrasei..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely pega uma bolsa sobre a mesa e sai. Kat está na cama, deitou-se e olha um livro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que está estudando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Classificação de sujeito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu ia perguntar se podia ajudar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode sim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik franze a sobrancelha. Kat senta, estende o livro a Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você me pergunta e eu respondo. A resposta tá no fim do livro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik pega o livro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Pegaram meu sanduíche!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa é sujeito indeterminado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, sujeito morto!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fui eu!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, foi o Zenon que resolveu mudar a dieta!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ter sido outra pessoa!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel e Alan estão fora e Ang não faz esse tipo de coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem pense em me acusar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não gosta de alface."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também tem Beleno aí, sabia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aquele que só come folhas e alguns vampiros em ocasiões especiais?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, gosta de alface..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela encara Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tava com fome, você não voou a noite toda! E o frango tá lá ainda! Eu não comeria frango!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, realmente, seria quase canibalismo... Pera, acho que eu vou comer só frango?! Sou um animal onívoro, não carnívoro!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ixi, não vem misturar Biologia aqui, não!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai fazer outro!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô ajudando Kat a estudar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat pega o livro da mão de Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você fez, você conserta, não me usa de desculpa. Sabe que odeio isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik bufa. Sai. Chega na cozinha e abre a geladeira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, frango, vou ter que te arranjar uma nova casa. Mas nem se empolga que agora você vai entrar na dança junto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pega um prato com um pedaço de frango e coloca sobre a mesa. Vai até uma fruteira e pega uma alface. Barulho da geladeira abrindo e batendo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, Estela, eu sei que ficou com raiva, mas eu já vou fazer..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha para a cadeira. Um corpo de frango, como se tivesse se sentado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, não fui eu quem pegou seu pedaço, se for exigir, vai ter que pedir para Estela, né, Estela?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik cruza os braços. Descruza. Pega o frango e coloca no freezer. Vai até a porta, a maçaneta não vira. Vai até a janela. Não abre."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso tá ficando sem graça!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Martim",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Vá buscar meu ouro!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Janelas e porta abrem e fecham, batendo. Derik se encolhe. Se aproxima da porta, abre, corre. Sobe as escadas. Dá um encontrão em Beleno no corredor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas que diabos???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "É Leo, Leo voltou, Leo taquí!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat sai no corredor. Estela vem atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Voltou pra me pegar, voltou pra..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik pega nos braços de Kat. Kat empurra Derik e dá um tapa. Pega pela mão, leva para dentro do quarto e tranca a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora respira e diz o que aconteceu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tava na cozinha e daí o frango sentou na cadeira e janelas e portas queriam me morder..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Precisa de outro tapa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então explica direito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Isso é teatro pra não me fazer outro sanduíche!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik abre a porta, sai e pega nos braços de Estela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não entende??? Leo voltou, quer me pegar! Pode querer se vingar de Kat também! Pode querer se vingar de todo mundo!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon chega e puxa Derik para sua frente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma, nós estamos aqui, ele não vai te pegar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se tentar, vai se ver comigo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é Leo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Conhece algum espírita?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Mel sai de um prédio. Vai até Alan. Pega o jornal de Alan, vira e entrega de volta. Alan pega e fecha o jornal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bem que percebi que tinha algo errado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ontem mandou Derik vasculhar a Ilha em busca de vampiros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você saiu e não voltou, achei que fosse isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te passa pela cabeça que eu posso ter uma vida pessoal?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fala de ninguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quem disse que eu preciso falar? Ou que tenha que ser alguém específico?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas como você, logo você, uma pessoa tão séria pode..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não gosto de compromissos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não procura pelo menos alguém que você conheça melhor???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer dizer alguém que talvez vá sentir algo por mim? Desculpe, não quero me envolver."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já tentou alguma vez???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te interessa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan fica em silêncio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já terminou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se a pessoa não quisesse envolvimento?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você noivou com a primeira pessoa com quem foi pra cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi a primeira, quando eu tinha quatorze meu pai me levou num..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel encara Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, essa vez não conta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quantos anos você tinha quando conheceu Helena?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dezesseis."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E ela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vinte e um."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devia procurar alguém da sua idade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não posso nem tentar?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já ouvi essa frase uma vez. De alguém que já tinha engravidado três pessoas, as três de gêmeos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não engravidei ninguém!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Adivinha? Na época não sabia e, algum tempo depois, eu também tinha engravidado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Ah, claro, quem sabe a prostituta não engravidou, eu tenho uma filha de cinco anos e não sei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se você já pode ter uma ereção, já pode engravidar alguém."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan ri. Mel cruza os braços. Alan fecha a expressão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cê não tá falando sério, tá?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel revira os olhos e sai andando."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Tarde. Zenon anda de um lado para outro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô esperando a Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não adianta se iludir com ela, parece que prefere desconhecidos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que você tá falando?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan coloca a mão no ombro de Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É isso mesmo, amigo, ela não quer se envolver com ninguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quê?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Acho que isso é comportamento de prostituta, mas..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan vê uma mão em seu ombro, vira e toma um soco, indo para trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que fez isso??? Tá treinando pra ser a Mel?! Nunca me disseram que força de soco era hereditária!!!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É só pra te lembrar que você não tem nada a ver com a vida de Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu só tava avisando Zenon porque ela tá iludindo ele!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tava esperando ela porque Derik disse que tem um fantasma aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan olha para Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sério?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat dá um chute entre as pernas de Alan. Alan cai no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel não ilude ninguém, se não quer, fala."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik chega com um diversas de cruzes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu já te fiz alguma coisa errada?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, isso é pra Leo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fantasma não tem nada contra cruz... Tem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra ter voltado Leo só pode ter feito pacto com..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha para Alan e arregala os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele tá possuído???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim, por uma dor que não desejo nem pro meu pior inimigo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Foi o Leo???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que aconteceu???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela vai até Alan e ajuda a ir até o sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fui eu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele tomou um fora da Mel e tava chamando ela de prostituta por causa disso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi isso que aconteceu!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então foi o que?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan faz silêncio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cachorro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Ei, eu viro cachorro e não faço uma coisa dessas!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Juro que imaginei um cachorro xingando o outro dizendo "seu alan!"."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu Deus do céu, é contagioso."
+				}
+			]
+		}
+	]
+}

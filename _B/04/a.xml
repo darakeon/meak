@@ -1,496 +1,1630 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="04" scene="a">
-	<teller>
-		<default>15h. Prédio abandonado em Ilha de Ares.</default>
-	</teller>
-	<talk character="Johnatan">
-		<default>Que tá fazendo? Não dormiu?</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Não.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Então o que ficou fazendo o dia inteiro?</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Pensando...</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>No que?</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Na minha vida, se é que pode se chamar isso de vida...</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Que aconteceu ontem?</default>
-	</talk>
-	<talk character="Amanda">
-		<default>A mesma coisa de sempre.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Então por quê tá assim?</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Tô cansada...</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Passou um dia sem dormir, queria o que?</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Não tô falando disso.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Então do que?</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Do tempo que passei viva e já era pra tá morta.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Vai ficar aí?</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Até alguém aparecer com uma estaca.</default>
-	</talk>
-	<talk character="Johnatan">
-		<default>Acho que esse tempo sem dormir te fez realmente mal...</default>
-	</talk>
-	<teller>
-		<first>MEAK. Estela chega. Mel está atrás da recepção, de braços cruzados. Derik deitou-se no sofá, de ponta cabeça.</first>
-	</teller>
-	<talk character="Estela">
-		<default>Gente, vocês não imaginam o que aconteceu...</default>
-	</talk>
-	<teller>
-		<default>Estela olha para Derik. Então para Mel.</default>
-	</teller>
-	<talk character="Estela">
-		<default>E eu também não imagino o que aconteceu aqui.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bom, lembra que anunciamos no jornal?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Lembro.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não foi uma boa idéia. Recebemos três trotes...</default>
-	</talk>
-	<teller>
-		<default>Toca o telefone.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Quatro.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você atende?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Atendi a última...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Alô? ### Sim... ### Não... ### Sim... ### Rapto? Por que não liga pra a polícia? ### Claro.</default>
-	</talk>
-	<teller>
-		<default>Mel pega um papel e uma caneta. Escreve.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Sim. ### Ok.</default>
-	</talk>
-	<teller>
-		<default>Mel desliga.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Será que é outro trote?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não dessa vez.</default>
-	</talk>
-	<talk character="Estela">
-		<default>E o que era, então?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Uma pessoa falando de um rapto. Diz que viu quem levou e por isso achou melhor não ligar para polícia.</default>
-	</talk>
-	<teller>
-		<first>Ilha de Ares.</first>
-	</teller>
-	<talk character="Perseu">
-		<default>Eu consegui ver o rosto, mas não consegui alcançar o cara.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Por que?</default>
-	</talk>
-	<teller>
-		<default>Perseu sai de trás de mesa, com cadeira de rodas.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Ah, sinto muito...</default>
-	</talk>
-	<talk character="Perseu">
-		<default>Quero que achem ela o mais rápido possível. Eu pago bem.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Pode dizer como era?</default>
-	</talk>
-	<talk character="Perseu">
-		<default>Mais ou menos. Eu olhei naquele espelho e...</default>
-	</talk>
-	<teller>
-		<default>Perseu olha para o espelho por um instante. Franze a testa e volta a olhar.</default>
-	</teller>
-	<talk character="Perseu">
-		<default>Peraí, você também não tem reflexo...</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Apenas um detalhe...</default>
-	</talk>
-	<talk character="Perseu">
-		<default>Também é um vampiro?</default>
-	</talk>
-	<talk character="Renata">
-		<arrive>Ele não é ruim.</arrive>
-	</talk>
-	<talk character="Estela">
-		<default>Como...</default>
-	</talk>
-	<talk character="Perseu">
-		<default>Isso é verdade?</default>
-	</talk>
-	<talk character="Renata">
-		<default>Não confia mais em mim?</default>
-	</talk>
-	<talk character="Perseu">
-		<default>Essa é minha filha mais nova, Renata.</default>
-	</talk>
-	<talk character="Renata">
-		<default>Não adianta mais procurar ela.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Como sabe?</default>
-	</talk>
-	<talk character="Renata">
-		<default>Apenas sei.</default>
-	</talk>
-	<teller>
-		<first>Ilha de Hera.</first>
-	</teller>
-	<talk character="Zenon#">
-		<default>Tá, estamos aqui. Onde procuramos agora?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que tal praia?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Não precisa ficar com ciúmes, Kat nunca te largaria por mim.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Eu pareço do tipo que gosta de praia a essa hora da tarde?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ah, desculpa, eu esqueci.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Daqui a pouco vai me dizer que estranhou eu estar todo coberto.</default>
-	</talk>
-	<talk character="Derik">
-		<default>É mesmo, pode ir assim!</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Claro, assim fica mais fácil me matarem!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ninguém vai querer te matar! Quanto egocentrismo, o mundo não gira em torno de você, não! As pessoas vão à praia pra se divertir, não pra matar vampiros!</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Pode até ser, mas alguma criancinha birrenta com certeza vai querer puxar meu capuz pra ver o que tem embaixo!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Crianças não fazem isso, eu gosto de crianças, não fale assim delas!</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>É? Mas eu detesto crianças, elas me detestam e garotos principalmente adoram azucrinar qualquer um!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tá, eu vou a praia. Você vai a outro lugar.</default>
-	</talk>
-	<teller>
-		<default>Derik sai andando.</default>
-	</teller>
-	<talk character="Zenon#">
-		<default>Se você for atacado no sol, eu não vou poder te defender.</default>
-	</talk>
-	<talk character="Derik">
-		<default>E quem vai me atacar no sol?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Os vampiros não são os únicos seres que se alimentam de alguma coisa humana.</default>
-	</talk>
-	<teller>
-		<default>Derik pára. Olha para Zenon#.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Então, aonde vamos?</default>
-	</talk>
-	<teller>
-		<first>Parte urbana de Ares.</first>
-	</teller>
-	<talk character="Mel">
-		<default>Bom, primeiro temos que verificar em bares, ver se alguém viu a pessoa.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por quê?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pode ter transformado em vampir.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Depois delegacias e hospitais.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não podemos esquecer necrotérios.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Posso ficar do lado de fora? Não tenho uma lembrança muito boa de última vez que estive num necrotério...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tudo bem. Bom, precisamos de guia.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Alguém que parece já ter bebido em todos os lugares daqui serve?</default>
-	</talk>
-	<teller>
-		<default>Kat aponta uma pessoa andando. Mel se aproxima.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Com licença, será que pode ajudar?</default>
-	</talk>
-	<teller>
-		<default>Frank olha Mel de cima a baixo.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Eu me perdi na Ilha, tudo que tá no meu corpo eu sei exatamente onde tá.</default>
-	</talk>
-	<talk character="Frank">
-		<default>Você é estranha.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Também não era sua opinião sobre mim que eu precisava.</default>
-	</talk>
-	<talk character="Frank">
-		<default>Estranha não quer dizer feia. Na verdade, nunca vi nenhuma garota tão...</default>
-	</talk>
-	<teller>
-		<default>Mel se vira. Frank segura-lhe o braço.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não vai querer perder essa mão, vai?</default>
-	</talk>
-	<talk character="Frank">
-		<default>Veio pedir ajuda.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Preciso saber localização de bares.</default>
-	</talk>
-	<talk character="Frank">
-		<default>Conheço. Os bares e motéis.</default>
-	</talk>
-	<teller>
-		<default>Mel puxa o braço.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Melhor passar num laboratório. Devo ter pego alguma coisa só de você encostar em mim.</default>
-	</talk>
-	<teller>
-		<default>Frank tenta pegar o braço de novo. Mel desvia, Frank cai no chão. Kat se aproxima.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Sua idéia não foi boa. Acho que vamos ter que procurar a pessoa sem ajuda.</default>
-	</talk>
-	<teller>
-		<default>Frank se levanta.</default>
-	</teller>
-	<talk character="Frank">
-		<default>Que pessoa?</default>
-	</talk>
-	<teller>
-		<default>Kat tira uma foto do bolso e mostra.</default>
-	</teller>
-	<talk character="Frank">
-		<default>Não, não conheço. Mas, se quiserem ver os bares, sei onde ficam todos. Só que, infelizmente, nada nesse mundo é de graça.</default>
-	</talk>
-	<teller>
-		<default>Kat devolve a foto no bolso e tira uma nota de cinquenta da carteira e entrega.</default>
-	</teller>
-	<talk character="Kat">
-		<default>É tudo que pode tirar de nós.</default>
-	</talk>
-	<teller>
-		<default>Frank pega a nota.</default>
-	</teller>
-	<talk character="Frank">
-		<default>Ô, velho, nem achei que ceis tinham grana... Ia pedir pra beber comigo, mas ia tomar um não mesmo...</default>
-	</talk>
-	<teller>
-		<default>Frank anda.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Como eu ia adivinhar?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Podia ter começado com menos, mas a gente definitivamente não ia beber com essa pessoa.</default>
-	</talk>
-	<teller>
-		<first>Floresta de Hera.</first>
-	</teller>
-	<talk character="Estela">
-		<default>Tem certeza que não tem nenhum animal selvagem por aqui?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Tenho. Eu acho.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Que animador! E aí, acha que o defunto já deve tá fedendo a essa hora?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Como sabe se morreu?</default>
-	</talk>
-	<talk character="Estela">
-		<default>A irmã dela disse que não adianta mais procurar.</default>
-	</talk>
-	<talk character="Ang">
-		<default>A gente tem que prestar atenção a barulhos...</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não disse que não tinha animais aqui???</default>
-	</talk>
-	<talk character="Ang">
-		<default>Tô falando da pessoa.</default>
-	</talk>
-	<teller>
-		<first>Dia seguinte. Mel, Kat e Estela estão dormindo na sala. Zenon# e Derik chegam.</first>
-	</teller>
-	<talk character="Zenon#">
-		<default>Mulheres...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Se é assim, eu queria ser mulher! Quem sabe você teria</default>
-		<teller>boceja</teller>
-		<default>me deixado voltar pra cá e dormir...</default>
-	</talk>
-	<teller>
-		<default>Angely entra na sala.</default>
-	</teller>
-	<talk character="Ang">
-		<arrive>Coloquei sonífero na água, Mel e Kat não queriam dormir. Eu já tava com preocupação com vocês.</arrive>
-	</talk>
-	<talk character="Derik">
-		<default>É que Zenon é de ferro e acha que todo mundo</default>
-		<teller>boceja</teller>
-		<default>tem que ser igual.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Zenon, você é vampir, é mais resistente.</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Você também tá acordado.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Eu sou... Diferente. Tem toda a coisa com Edmont...</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Ele vira animais!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Derik... Esquece. Me ajuda a levar?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Eu levo Mel e você leva Kat.</default>
-	</talk>
-	<talk character="Ang">
-		<default>E Estela?</default>
-	</talk>
-	<talk character="Zenon#">
-		<default>Eu carrego ela. Daí você dá um jeito de arrastar o Derik.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu não preciso!</default>
-		<teller>boceja</teller>
-		<default>Sei o caminho da minha cama!</default>
-	</talk>
-	<teller>
-		<default>Zenon# pega Mel e Ang pega Kat. Zenon# sai.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Vem comigo, Kat quase não pesa, posso te guiar até...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não bebi...</default>
-		<teller>boceja</teller>
-		<default>Só com um pouco de sono...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Tá.</default>
-	</talk>
-	<teller>
-		<default>Ang sai. Derik cutuca Estela. Estela acorda.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Nossa, que cara é essa?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Cara de quem preferia ter</default>
-		<teller>boceja</teller>
-		<default>saído com Angely.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Por quê?! Acha que por acaso procurar nessa cidade pacata é mais difícil que no meio do mato?!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Se você estiver com um cara que não</default>
-		<teller>boceja</teller>
-		<default>pára pra comer ou descansar...</default>
-	</talk>
-	<talk character="Estela">
-		<default>Angely ficava o tempo inteiro perguntando se eu tava com fome, se tava cansada... Teve uma ora que até dei bronca nele!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Dá próxima vez</default>
-		<teller>boceja</teller>
-		<default>nós trocamos isso,</default>
-		<teller>boceja</teller>
-		<default>tá?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Fechado.</default>
-	</talk>
-	<teller>
-		<default>Estela levanta.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Acho melhor irmos descansar no quarto. Quer que eu te ajude a ir...?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu já disse que tô bem...</default>
-	</talk>
-	<teller>
-		<default>Derik vai para a cozinha.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Derik!</default>
-	</talk>
-	<talk character="Derik">
-		<out>Que?!</out>
-	</talk>
-	<talk character="Estela">
-		<default>Porta errada!</default>
-	</talk>
-	<teller>
-		<default>Derik volta.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Bem que eu não tava encontrando a escada.</default>
-	</talk>
-</story>
+{
+	"season": "B",
+	"episode": "04",
+	"scene": "a",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "15h. Prédio abandonado em Ilha de Ares."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tá fazendo? Não dormiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então o que ficou fazendo o dia inteiro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pensando..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na minha vida, se é que pode se chamar isso de vida..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que aconteceu ontem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A mesma coisa de sempre."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então por quê tá assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô cansada..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Passou um dia sem dormir, queria o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tô falando disso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então do que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do tempo que passei viva e já era pra tá morta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai ficar aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Até alguém aparecer com uma estaca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Johnatan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que esse tempo sem dormir te fez realmente mal..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Estela chega. Mel está atrás da recepção, de braços cruzados. Derik deitou-se no sofá, de ponta cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, vocês não imaginam o que aconteceu..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela olha para Derik. Então para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E eu também não imagino o que aconteceu aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, lembra que anunciamos no jornal?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lembro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi uma boa idéia. Recebemos três trotes..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quatro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você atende?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Atendi a última..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alô? ### Sim... ### Não... ### Sim... ### Rapto? Por que não liga pra a polícia? ### Claro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel pega um papel e uma caneta. Escreve."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim. ### Ok."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel desliga."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que é outro trote?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não dessa vez."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que era, então?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma pessoa falando de um rapto. Diz que viu quem levou e por isso achou melhor não ligar para polícia."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Ilha de Ares."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Perseu",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu consegui ver o rosto, mas não consegui alcançar o cara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Perseu sai de trás de mesa, com cadeira de rodas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, sinto muito..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Perseu",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quero que achem ela o mais rápido possível. Eu pago bem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode dizer como era?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Perseu",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mais ou menos. Eu olhei naquele espelho e..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Perseu olha para o espelho por um instante. Franze a testa e volta a olhar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Perseu",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Peraí, você também não tem reflexo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Apenas um detalhe..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Perseu",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também é um vampiro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Ele não é ruim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Perseu",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é verdade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não confia mais em mim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Perseu",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa é minha filha mais nova, Renata."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não adianta mais procurar ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Renata",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Apenas sei."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Ilha de Hera."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, estamos aqui. Onde procuramos agora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tal praia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa ficar com ciúmes, Kat nunca te largaria por mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu pareço do tipo que gosta de praia a essa hora da tarde?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, desculpa, eu esqueci."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Daqui a pouco vai me dizer que estranhou eu estar todo coberto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É mesmo, pode ir assim!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro, assim fica mais fácil me matarem!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ninguém vai querer te matar! Quanto egocentrismo, o mundo não gira em torno de você, não! As pessoas vão à praia pra se divertir, não pra matar vampiros!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode até ser, mas alguma criancinha birrenta com certeza vai querer puxar meu capuz pra ver o que tem embaixo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Crianças não fazem isso, eu gosto de crianças, não fale assim delas!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É? Mas eu detesto crianças, elas me detestam e garotos principalmente adoram azucrinar qualquer um!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, eu vou a praia. Você vai a outro lugar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik sai andando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se você for atacado no sol, eu não vou poder te defender."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quem vai me atacar no sol?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Os vampiros não são os únicos seres que se alimentam de alguma coisa humana."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik pára. Olha para Zenon#."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, aonde vamos?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Parte urbana de Ares."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, primeiro temos que verificar em bares, ver se alguém viu a pessoa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ter transformado em vampir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Depois delegacias e hospitais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não podemos esquecer necrotérios."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso ficar do lado de fora? Não tenho uma lembrança muito boa de última vez que estive num necrotério..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem. Bom, precisamos de guia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguém que parece já ter bebido em todos os lugares daqui serve?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat aponta uma pessoa andando. Mel se aproxima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com licença, será que pode ajudar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Frank olha Mel de cima a baixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu me perdi na Ilha, tudo que tá no meu corpo eu sei exatamente onde tá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Frank",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é estranha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também não era sua opinião sobre mim que eu precisava."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Frank",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estranha não quer dizer feia. Na verdade, nunca vi nenhuma garota tão..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel se vira. Frank segura-lhe o braço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai querer perder essa mão, vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Frank",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Veio pedir ajuda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preciso saber localização de bares."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Frank",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Conheço. Os bares e motéis."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel puxa o braço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor passar num laboratório. Devo ter pego alguma coisa só de você encostar em mim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Frank tenta pegar o braço de novo. Mel desvia, Frank cai no chão. Kat se aproxima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sua idéia não foi boa. Acho que vamos ter que procurar a pessoa sem ajuda."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Frank se levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Frank",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que pessoa?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat tira uma foto do bolso e mostra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Frank",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, não conheço. Mas, se quiserem ver os bares, sei onde ficam todos. Só que, infelizmente, nada nesse mundo é de graça."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat devolve a foto no bolso e tira uma nota de cinquenta da carteira e entrega."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É tudo que pode tirar de nós."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Frank pega a nota."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Frank",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ô, velho, nem achei que ceis tinham grana... Ia pedir pra beber comigo, mas ia tomar um não mesmo..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Frank anda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como eu ia adivinhar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podia ter começado com menos, mas a gente definitivamente não ia beber com essa pessoa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Floresta de Hera."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem certeza que não tem nenhum animal selvagem por aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho. Eu acho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que animador! E aí, acha que o defunto já deve tá fedendo a essa hora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabe se morreu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A irmã dela disse que não adianta mais procurar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente tem que prestar atenção a barulhos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não disse que não tinha animais aqui???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô falando da pessoa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Dia seguinte. Mel, Kat e Estela estão dormindo na sala. Zenon# e Derik chegam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mulheres..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se é assim, eu queria ser mulher! Quem sabe você teria"
+				},
+				{
+					"type": "teller",
+					"text": "boceja"
+				},
+				{
+					"type": "default",
+					"text": "me deixado voltar pra cá e dormir..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely entra na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Coloquei sonífero na água, Mel e Kat não queriam dormir. Eu já tava com preocupação com vocês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É que Zenon é de ferro e acha que todo mundo"
+				},
+				{
+					"type": "teller",
+					"text": "boceja"
+				},
+				{
+					"type": "default",
+					"text": "tem que ser igual."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon, você é vampir, é mais resistente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você também tá acordado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sou... Diferente. Tem toda a coisa com Edmont..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele vira animais!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik... Esquece. Me ajuda a levar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu levo Mel e você leva Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E Estela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon#",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu carrego ela. Daí você dá um jeito de arrastar o Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não preciso!"
+				},
+				{
+					"type": "teller",
+					"text": "boceja"
+				},
+				{
+					"type": "default",
+					"text": "Sei o caminho da minha cama!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon# pega Mel e Ang pega Kat. Zenon# sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vem comigo, Kat quase não pesa, posso te guiar até..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não bebi..."
+				},
+				{
+					"type": "teller",
+					"text": "boceja"
+				},
+				{
+					"type": "default",
+					"text": "Só com um pouco de sono..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang sai. Derik cutuca Estela. Estela acorda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, que cara é essa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cara de quem preferia ter"
+				},
+				{
+					"type": "teller",
+					"text": "boceja"
+				},
+				{
+					"type": "default",
+					"text": "saído com Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?! Acha que por acaso procurar nessa cidade pacata é mais difícil que no meio do mato?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se você estiver com um cara que não"
+				},
+				{
+					"type": "teller",
+					"text": "boceja"
+				},
+				{
+					"type": "default",
+					"text": "pára pra comer ou descansar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely ficava o tempo inteiro perguntando se eu tava com fome, se tava cansada... Teve uma ora que até dei bronca nele!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dá próxima vez"
+				},
+				{
+					"type": "teller",
+					"text": "boceja"
+				},
+				{
+					"type": "default",
+					"text": "nós trocamos isso,"
+				},
+				{
+					"type": "teller",
+					"text": "boceja"
+				},
+				{
+					"type": "default",
+					"text": "tá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fechado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho melhor irmos descansar no quarto. Quer que eu te ajude a ir...?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu já disse que tô bem..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik vai para a cozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Que?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porta errada!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bem que eu não tava encontrando a escada."
+				}
+			]
+		}
+	]
+}

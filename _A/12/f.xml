@@ -1,473 +1,1537 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="12" scene="f">
-	<teller>
-		<default>Angely entra no escritório.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Kat?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Em casa, dormindo. Agatha ficou cuidando.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E Mel?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nem piora, nem melhora.</default>
-	</talk>
-	<talk character="Alexander">
-		<default>Melhor pegarmos Andrews logo. E tem que ser esta noite.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Pode entrar.</default>
-	</talk>
-	<teller>
-		<default>Todos olham pra Dara. Brad entra no escritório, pela porta de fora da casa.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Me seguiu?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Não preciso, eu sei o endereço.</default>
-	</talk>
-	<talk character="Alexander">
-		<default>Quem é esse?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Polícia.</default>
-	</talk>
-	<talk character="Alexander">
-		<default>E cadê o distintivo?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Fui suspenso. E você, quem é?</default>
-	</talk>
-	<talk character="Alexander">
-		<default>Caça-vampiros.</default>
-	</talk>
-	<talk character="Brad">
-		<default>Não acreditava nisso.</default>
-		<teller>baixa a cabeça</teller>
-		<default>Até pouco tempo.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Até ver Andrews, provavelmente.</default>
-	</talk>
-	<teller>
-		<default>Brad olha para as pessoas.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Alguém que leva tiro e ri provavelmente não é humano...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Bom, você perguntou quem vai jogar Andrews no sol. Temos sete pra empurrar. Se não conseguirem, é melhor cuspir no chão e sair nadando.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Sete?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Eu, você, Angely, Edmont, Brad, Alexander e Rust.</default>
-	</talk>
-	<talk character="Brad">
-		<default>E onde tá esse tal de Rust?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não sei. Vai na minha casa a noite. Vou com ele encontrar Andrews e chamo vocês.</default>
-	</talk>
-	<teller>
-		<default>Edmont encara Dara. Alexander e Brad também.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Se alguém aí achar que é melhor que eu pelo que nasceu no meio das pernas, posso cortar fora.</default>
-	</talk>
-	<teller>
-		<default>Brad e Alexander se entreolham.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Ótimo. Vou pra minha casa e espero que atendam quando eu chamar.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu te levo em casa.</default>
-	</talk>
-	<teller>
-		<default>Edmont sai com Dara.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Eu vou seguir ela quando sair com Rust.</default>
-	</talk>
-	<talk character="Alexander/Brad">
-		<default>Como?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Dá última vez que mostrei pra um estranho, quiseram me exorcizar.</default>
-	</talk>
-	<teller>
-		<default>Brad e Alexander se entreolham novamente.</default>
-	</teller>
-	<teller>
-		<first>14h. Casa de Dara. Edmont está deitado no sofá com a cabeça no colo de Dara.</first>
-	</teller>
-	<talk character="Edmont">
-		<default>Acha que o plano vai funcionar?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Vai sim. Tem que funcionar... Deu pena do Angely.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ele é bem mais sentimental que eu. Se abala mais fácil.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Por que ele ainda não arranjou namorada?</default>
-	</talk>
-	<teller>
-		<default>Edmont se levanta e vira para Dara.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Acho que ainda pensa em Meg.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Você ainda gosta de Agatha?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Quer mesmo saber?</default>
-	</talk>
-	<teller>
-		<default>Dara olha para baixo. Edmont levanta o queixo de Dara e beija.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Não.</default>
-	</talk>
-	<talk character="Denise">
-		<arrive>Edmont!</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Que?</default>
-	</talk>
-	<talk character="Denise">
-		<default>Eu fiquei sabendo do que aconteceu.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tenho certeza que Mel vai sair dessa.</default>
-	</talk>
-	<talk character="Denise">
-		<default>Como está Angely?</default>
-	</talk>
-	<teller>
-		<default>Edmont franze a testa.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Triste.</default>
-	</talk>
-	<talk character="Denise">
-		<default>Tá em casa?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Acho que sim.</default>
-	</talk>
-	<talk character="Denise">
-		<default>Eu acho que eu vou falar com ele.</default>
-	</talk>
-	<teller>
-		<default>Denise sai.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Denise!</default>
-	</talk>
-	<teller>
-		<default>Denise volta.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Dá um tempo, não é hora pra isso.</default>
-	</talk>
-	<teller>
-		<default>Denise baixa a cabeça. Atravessa a sala. Sai por outra porta.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Por que será que eu tenho a leve impressão de que Helene, Agatha e Annie devem ter tido a mesma idéia?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vou ligar e falar pra ele desligar o celular.</default>
-	</talk>
-	<teller>
-		<first>19h. Hotel. Stephany dorme.</first>
-	</teller>
-	<talk character="Beatrice">
-		<arrive>Fiquei sabendo que você é o primeiro.</arrive>
-	</talk>
-	<talk character="Andrews">
-		<default>Quem é você?</default>
-	</talk>
-	<talk character="Dilan">
-		<arrive>Beatrice?</arrive>
-	</talk>
-	<teller>
-		<default>Andrews ri.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>A que engana todo mundo.</default>
-	</talk>
-	<talk character="Dilan">
-		<default>Eu vou embora hoje.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Tchau.</default>
-	</talk>
-	<teller>
-		<default>Dilan encara Andrews.</default>
-	</teller>
-	<talk character="Dilan">
-		<default>Cê já foi mais simpático.</default>
-	</talk>
-	<teller>
-		<default>Dilan sai.</default>
-	</teller>
-	<talk character="Beatrice">
-		<default>Não engano. Apenas quero aprender.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>E um só professor não basta?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não. Exceto se for realmente bom. Isso eu não encontrei até agora.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Quem ensinei está viva até hoje.</default>
-	</talk>
-	<teller>
-		<default>Beatrice aponta para Stephany com o queixo.</default>
-	</teller>
-	<talk character="Beatrice">
-		<default>Quem é?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Deram sedativo em excesso pra ela.</default>
-	</talk>
-	<talk character="Dalila">
-		<arrive>Olha, eu sei que você é meio louco, mas estando num hotel desses daqui, não é pobre. Então, se não se importa, achei quem você queria, poderia me dar algum? Pelo menos pra eu sair da cidade?</arrive>
-	</talk>
-	<teller>
-		<default>Fundos do Hotel.</default>
-	</teller>
-	<talk character="Rust">
-		<default>Se o puxa-saco tá aqui, Andrews também está.</default>
-	</talk>
-	<teller>
-		<default>Dilan olha para Rust. Vai na direção.</default>
-	</teller>
-	<talk character="Dilan">
-		<default>Ainda tentando pegar Andrews?</default>
-	</talk>
-	<talk character="Rust">
-		<default>Quem sabe se dessa vez eu não consigo?</default>
-	</talk>
-	<talk character="Dilan">
-		<default>Ele pegou outra. Ainda quer encontrar alguém que se parece com a tal que morreu antes dele se transformar.</default>
-	</talk>
-	<talk character="Rust">
-		<default>Só não ligou ainda que alguém bonzinho não quer se tornar vampiro.</default>
-	</talk>
-	<talk character="Dilan">
-		<default>É, ele é estranho. Pensa diferente, age diferente... Mas que fazer? É o primeiro.</default>
-	</talk>
-	<talk character="Rust">
-		<default>Por que está de mudança?</default>
-	</talk>
-	<talk character="Dilan">
-		<default>Beatrice veio atrás de Andrews.</default>
-	</talk>
-	<talk character="Rust">
-		<default>E pra onde vai?</default>
-	</talk>
-	<talk character="Dilan">
-		<default>Pra bem longe daqui.</default>
-	</talk>
-	<talk character="Rust">
-		<default>Que tal pro inferno?</default>
-	</talk>
-	<teller>
-		<default>Dilan sorri. Rust crava uma estaca em Dilan. Dilan desfaz o sorriso. E se desfaz.</default>
-	</teller>
-	<talk character="Rust">
-		<default>Já tava de saco cheio de você.</default>
-	</talk>
-	<teller>
-		<default>22h. Andrews sai do hotel. Rust olha de longe. Há alguém junto. Não é Stephany.</default>
-	</teller>
-	<teller>
-		<first>Casa de Dara. Dara atende a porta.</first>
-	</teller>
-	<talk character="Rust">
-		<default>Encontrei Andrews.</default>
-	</talk>
-	<teller>
-		<default>Dara abre a boca e dá um passo com a perna esquerda pra trás. Rust levanta a mão.</default>
-	</teller>
-	<talk character="Rust">
-		<default>Não.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Por que?</default>
-	</talk>
-	<talk character="Rust">
-		<default>Só não me deixa entrar.</default>
-	</talk>
-	<teller>
-		<default>Edmont levanta do sofá.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Edmont. A gente namora.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Oi.</default>
-	</talk>
-	<talk character="Rust">
-		<default>Temos que ir logo. Já sabe o que vai fazer?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu vou com vocês.</default>
-	</talk>
-	<talk character="Rust">
-		<default>Melhor não ir muita gente.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Ele tem razão, Edmont.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Por favor.</default>
-	</talk>
-	<teller>
-		<default>Dara sai. Fecha a porta.</default>
-	</teller>
-	<teller>
-		<first>Hotel.</first>
-	</teller>
-	<talk character="Rust">
-		<default>Se hospedou aqui, mas saiu pra se alimentar. Vamos subir e tirar a pessoa de lá.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Espera.</default>
-	</talk>
-	<teller>
-		<default>Dara pega o telefone.</default>
-	</teller>
-	<talk character="Rust">
-		<default>Pra quem vai ligar?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Pra alguém que pode levar pra um lugar seguro.</default>
-	</talk>
-	<teller>
-		<default>Meia hora depois. Brad e Alexander estão perto do elevador. Dara e Rust falam com Carla, na recepção. Dara olha para o lado. Vê Derik (aurium). Segue. Chegam a um beco.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Tá, eu vou dizer o número do andar e você dá um sinal quando acertar. </default>
-	</talk>
-	<talk character="Dara">
-		<default>Um?...</default>
-	</talk>
-	<teller>
-		<default>Silêncio.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Sete?...</default>
-	</talk>
-	<teller>
-		<default>Silêncio.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Quatro?...</default>
-	</talk>
-	<teller>
-		<default>Silêncio.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Décimo terceiro???</default>
-	</talk>
-	<teller>
-		<default>Aurium late.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Tudo bem, agora...</default>
-	</talk>
-	<talk character="Rust">
-		<default>Você tá falando com um cachorro. Não é um cachorro, é?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Confia em mim?</default>
-	</talk>
-	<talk character="Rust">
-		<default>Tá. Mas vai é melhor usar árvore binária pra adivinhar o apartamento.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Por que eu não pensei nisso?</default>
-	</talk>
-	<teller>
-		<default>Apartamento. Stephany abre os olhos. Está com braços amarrados e com mordaça. Aurium pousa na janela. Dara olha para Rust e ri. Volta para dentro do hotel. Entra. Vai até o elevador. Aperta o botão. Carla, na recepção, franze a testa. O elevador chega. Dara entra. Alexander e Brad entram atrás. Sobem. Chegam ao décimo terceiro.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Cadê o Rust?</default>
-	</talk>
-	<teller>
-		<default>Uma porta acerta a parede, bruscamente. Alexander aponta a arma. Rust sai, com Stephany no colo.</default>
-	</teller>
-	<talk character="Rust">
-		<default>Ainda tá com fraqueza.</default>
-	</talk>
-	<talk character="Dara">
-		<irony>Elevador é uma invenção ultrapassada, porque não escalar o prédio por fora?</irony>
-	</talk>
-	<talk character="Alexander">
-		<default>Vamos levar ela daqui.</default>
-	</talk>
-	<talk character="Brad">
-		<default>Melhor ir pra minha casa.</default>
-	</talk>
-	<talk character="Rust">
-		<default>Não, vamos levar pro último andar, é abandonado.</default>
-	</talk>
-	<talk character="Brad">
-		<default>Que???</default>
-	</talk>
-	<talk character="Rust">
-		<default>Deixa um recado pro Andrews. Jogamos lá de cima e não terá como sobreviver.</default>
-	</talk>
-	<talk character="Brad">
-		<default>Não vou deixar você arriscar mais ainda a vida dela! Isso pode dar errado, e se ele desiste dela??? Pode matar ela e depois nos matar!</default>
-	</talk>
-	<talk character="Alexander">
-		<default>São dez horas da noite ainda, e se ele chega cedo???</default>
-	</talk>
-	<talk character="Rust">
-		<default>Eu sou o vampiro aqui. Sei como um vampiro pensa e infelizmente convivi algum tempo com Andrews. Vamos.</default>
-	</talk>
-	<teller>
-		<default>Dalila passa correndo por todos. Sai do quarto, entra no elevador. Fecha a porta correndo.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Ei!</default>
-	</talk>
-	<talk character="Rust">
-		<default>Deixa, já assustei suficiente.</default>
-	</talk>
-	<teller>
-		<default>Angely e Edmont chegam no hotel. Dalila vem correndo. Edmont segura o braço de Dalila.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Onde vai com tanta pressa?</default>
-	</talk>
-	<talk character="Dalila">
-		<default>Vampiros...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vem comigo, eu te protejo. Onde tá?</default>
-	</talk>
-	<talk character="Dalila">
-		<default>No último andar... Falou que ia pro último andar...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu vou subir, fica aqui.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "12",
+	"scene": "f",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely entra no escritório."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Em casa, dormindo. Agatha ficou cuidando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E Mel?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem piora, nem melhora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alexander",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor pegarmos Andrews logo. E tem que ser esta noite."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode entrar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Todos olham pra Dara. Brad entra no escritório, pela porta de fora da casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me seguiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não preciso, eu sei o endereço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alexander",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é esse?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Polícia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alexander",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E cadê o distintivo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fui suspenso. E você, quem é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alexander",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Caça-vampiros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não acreditava nisso."
+				},
+				{
+					"type": "teller",
+					"text": "baixa a cabeça"
+				},
+				{
+					"type": "default",
+					"text": "Até pouco tempo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Até ver Andrews, provavelmente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad olha para as pessoas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguém que leva tiro e ri provavelmente não é humano..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, você perguntou quem vai jogar Andrews no sol. Temos sete pra empurrar. Se não conseguirem, é melhor cuspir no chão e sair nadando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sete?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu, você, Angely, Edmont, Brad, Alexander e Rust."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E onde tá esse tal de Rust?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Vai na minha casa a noite. Vou com ele encontrar Andrews e chamo vocês."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont encara Dara. Alexander e Brad também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se alguém aí achar que é melhor que eu pelo que nasceu no meio das pernas, posso cortar fora."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad e Alexander se entreolham."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ótimo. Vou pra minha casa e espero que atendam quando eu chamar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu te levo em casa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont sai com Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou seguir ela quando sair com Rust."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alexander/Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dá última vez que mostrei pra um estranho, quiseram me exorcizar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad e Alexander se entreolham novamente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "14h. Casa de Dara. Edmont está deitado no sofá com a cabeça no colo de Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha que o plano vai funcionar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai sim. Tem que funcionar... Deu pena do Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele é bem mais sentimental que eu. Se abala mais fácil."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que ele ainda não arranjou namorada?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se levanta e vira para Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que ainda pensa em Meg."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você ainda gosta de Agatha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer mesmo saber?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara olha para baixo. Edmont levanta o queixo de Dara e beija."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Edmont!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu fiquei sabendo do que aconteceu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho certeza que Mel vai sair dessa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como está Angely?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Triste."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá em casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu acho que eu vou falar com ele."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Denise sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Denise!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Denise volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dá um tempo, não é hora pra isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Denise baixa a cabeça. Atravessa a sala. Sai por outra porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que será que eu tenho a leve impressão de que Helene, Agatha e Annie devem ter tido a mesma idéia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou ligar e falar pra ele desligar o celular."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "19h. Hotel. Stephany dorme."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Fiquei sabendo que você é o primeiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dilan",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Beatrice?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A que engana todo mundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dilan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou embora hoje."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tchau."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dilan encara Andrews."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dilan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cê já foi mais simpático."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dilan sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não engano. Apenas quero aprender."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E um só professor não basta?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Exceto se for realmente bom. Isso eu não encontrei até agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem ensinei está viva até hoje."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice aponta para Stephany com o queixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deram sedativo em excesso pra ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dalila",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Olha, eu sei que você é meio louco, mas estando num hotel desses daqui, não é pobre. Então, se não se importa, achei quem você queria, poderia me dar algum? Pelo menos pra eu sair da cidade?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fundos do Hotel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se o puxa-saco tá aqui, Andrews também está."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dilan olha para Rust. Vai na direção."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dilan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda tentando pegar Andrews?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem sabe se dessa vez eu não consigo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dilan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele pegou outra. Ainda quer encontrar alguém que se parece com a tal que morreu antes dele se transformar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só não ligou ainda que alguém bonzinho não quer se tornar vampiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dilan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, ele é estranho. Pensa diferente, age diferente... Mas que fazer? É o primeiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que está de mudança?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dilan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice veio atrás de Andrews."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E pra onde vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dilan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra bem longe daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tal pro inferno?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dilan sorri. Rust crava uma estaca em Dilan. Dilan desfaz o sorriso. E se desfaz."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já tava de saco cheio de você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "22h. Andrews sai do hotel. Rust olha de longe. Há alguém junto. Não é Stephany."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Casa de Dara. Dara atende a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Encontrei Andrews."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara abre a boca e dá um passo com a perna esquerda pra trás. Rust levanta a mão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só não me deixa entrar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont levanta do sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont. A gente namora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos que ir logo. Já sabe o que vai fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou com vocês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor não ir muita gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele tem razão, Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por favor."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara sai. Fecha a porta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Hotel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se hospedou aqui, mas saiu pra se alimentar. Vamos subir e tirar a pessoa de lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espera."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara pega o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra quem vai ligar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra alguém que pode levar pra um lugar seguro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meia hora depois. Brad e Alexander estão perto do elevador. Dara e Rust falam com Carla, na recepção. Dara olha para o lado. Vê Derik (aurium). Segue. Chegam a um beco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, eu vou dizer o número do andar e você dá um sinal quando acertar. "
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um?..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Silêncio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sete?..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Silêncio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quatro?..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Silêncio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Décimo terceiro???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aurium late."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, agora..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tá falando com um cachorro. Não é um cachorro, é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Confia em mim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá. Mas vai é melhor usar árvore binária pra adivinhar o apartamento."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que eu não pensei nisso?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Apartamento. Stephany abre os olhos. Está com braços amarrados e com mordaça. Aurium pousa na janela. Dara olha para Rust e ri. Volta para dentro do hotel. Entra. Vai até o elevador. Aperta o botão. Carla, na recepção, franze a testa. O elevador chega. Dara entra. Alexander e Brad entram atrás. Sobem. Chegam ao décimo terceiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê o Rust?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma porta acerta a parede, bruscamente. Alexander aponta a arma. Rust sai, com Stephany no colo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda tá com fraqueza."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Elevador é uma invenção ultrapassada, porque não escalar o prédio por fora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alexander",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos levar ela daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor ir pra minha casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, vamos levar pro último andar, é abandonado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixa um recado pro Andrews. Jogamos lá de cima e não terá como sobreviver."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vou deixar você arriscar mais ainda a vida dela! Isso pode dar errado, e se ele desiste dela??? Pode matar ela e depois nos matar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alexander",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "São dez horas da noite ainda, e se ele chega cedo???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sou o vampiro aqui. Sei como um vampiro pensa e infelizmente convivi algum tempo com Andrews. Vamos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dalila passa correndo por todos. Sai do quarto, entra no elevador. Fecha a porta correndo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixa, já assustei suficiente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely e Edmont chegam no hotel. Dalila vem correndo. Edmont segura o braço de Dalila."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde vai com tanta pressa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dalila",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vampiros..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vem comigo, eu te protejo. Onde tá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dalila",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No último andar... Falou que ia pro último andar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou subir, fica aqui."
+				}
+			]
+		}
+	]
+}

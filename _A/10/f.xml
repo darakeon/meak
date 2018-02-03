@@ -1,499 +1,1622 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="10" scene="f">
-	<teller>
-		<default>Kat anda de um lado para o outro. Angely e Edmont estão sentados, olhando para Kat.</default>
-	</teller>
-	<talk character="Mel">
-		<arrive>Gente, desculpa, eu acabei caindo no sono de novo...</arrive>
-	</talk>
-	<teller>
-		<default>Mel olha para Kat. Kat ainda anda de um lado a outro.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Que aconteceu?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Viu o amante da Astride num sonho.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas ela não estaria tão nervosa só por isso.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Kat viu matar uma garota.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vou falar com Kat... E vocês, nem fizeram a comparação, né???</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tá, vamos ver, fala lá com Kat, tá dando angústia!</default>
-	</talk>
-	<teller>
-		<default>Eles levantam. Vão até a mesa. Mel pega Kat pelo braço e faz sentar no sofá. Senta-se ao lado.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Por que você tá assim?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não te falaram?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não é só isso, eu sei.</default>
-	</talk>
-	<teller>
-		<default>Kat vai se levantar, mas Mel segura pelo braço.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Fala pra mim.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu tô com medo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Do que?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não foi simplesmente um sonho. Era real.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Os outros também eram.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, você não entende. Eu senti como se estivesse lá.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu sei que isso deve ser ruim...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Você não entendeu. Era como se estivesse no lugar da pessoa.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá confuso.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Quando encostou Silvia na parede, era como se tivesse me encostado. Quando mordeu, senti me morder. Senti minha vida querer ir embora.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você tá se envolvendo muito com isso.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Já me disseram que você resolveu virar zumbi.</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Angely e Edmont. Volta a olhar pra Kat.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Exageraram um pouco. Kat, não era você que estava lá, tá bom? Nós vamos pegar o vampiro.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E se continuar assim? E se eu continuar sentindo como se estivesse lá?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você vai se acostumar.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, não vou. Acho que é um castigo pela frieza que eu falava disso. Sempre tão indiferente, comparando meus problemas com isso.</default>
-	</talk>
-	<teller>
-		<default>Mel abraça Kat.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Você não tem idade. Não tinha nem que ver isso.</default>
-	</talk>
-	<teller>
-		<first>Tarde.</first>
-	</teller>
-	<talk character="Derik">
-		<arrive>É, foi morta por um vampiro mesmo. Ele não deixou rastro, nenhuma pista.</arrive>
-	</talk>
-	<talk character="Mel">
-		<default>Melhor nós falarem com Djanira e Astride. A gente termina aqui.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Edmont não é exatamente o rei da delicadeza.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas falamos primeiro, melhor continuar no mesmo contato.</default>
-	</talk>
-	<teller>
-		<default>Noite. Angely e Edmont chegam a um bar.</default>
-	</teller>
-	<talk character="Agnes">
-		<default>Oi...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Agnes, tem algo que você precisa saber.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Você jurou que ela não ia ficar sabendo!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas eu não jurei nada.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>É assim?</default>
-	</talk>
-	<teller>
-		<default>Angely baixa a cabeça. Djanira tira uma arma da bolsa e aponta pra Agnes.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Djanira, solta isso.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Pode ser que vocês me culpem agora, mas vão me agradecer depois.</default>
-	</talk>
-	<teller>
-		<default>Zenon trava os braços de Djanira por trás. Um tiro, para o alto. Angely pega Agnes pela mão e corre. Edmont olha para Djanira. Djanira joga Zenon no chão. Edmont corre atrás de Angely e Agnes.</default>
-	</teller>
-	<teller>
-		<first>MEAK.</first>
-	</teller>
-	<talk character="Edmont">
-		<arrive>Cadê a Kat?</arrive>
-	</talk>
-	<talk character="Mel">
-		<default>Demos calmante a ela, estava muito tensa.</default>
-	</talk>
-	<talk character="Derik">
-		<default>E as duas?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Djanira ficou batendo num cara, Agnes correu com Angely, mas saiu correndo pra outro lado. Falamos pra entrar no carro, mas...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tinham razão sobre dormir direito, a primeira coisa que li já dizia tudo: se guardaria nessa encarnação, mesmo sem saber.</default>
-	</talk>
-	<teller>
-		<default>Edmont olha para Angely.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Agnes já inclusive teve um namoro antes.</default>
-	</talk>
-	<teller>
-		<default>Angely sai. Edmont segue.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Angely, não!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Temos que impedir isso!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu conversei com Djanira, ela não é de se entregar fácil, não vai cair fácil. Além do que, o tal cara provavelmente nem sabe de nada!</default>
-	</talk>
-	<teller>
-		<default>Num beco, Zenon está olhando para Djanira.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Entendo que queira matar sua irmã, mas não pode fazer isso no meio de um bar.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Agora eu posso ir embora?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Posso te ajudar com isso, se quiser.</default>
-	</talk>
-	<teller>
-		<default>Zenon se aproxima de Djanira. Tenta um beijo, mas Djanira se afasta.</default>
-	</teller>
-	<talk character="Djanira">
-		<default>Não sou prostituta.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>E quem disse isso?</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Você pensou.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Só por que quis te beijar?</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Aqui? Não quer só um beijo.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Parece que conhece bem os homens.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>É fácil. Nenhum deles presta.</default>
-	</talk>
-	<teller>
-		<default>Djanira sai. Zenon se senta no chão.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Não pode ser. É verdade.</default>
-	</talk>
-	<teller>
-		<first>Djanira está andando. Uma moto diminui a velocidade ao seu lado.</first>
-	</teller>
-	<talk character="Djanira">
-		<default>Que quer?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sobe aqui.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Não pego carona com estranhos.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não quero fazer nada com você.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>É, eu ouvi minha irmã falando. Parece bastante com nada.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Estamos procurando você e Agnes pela cidade. Agora te encontrei...</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Descobriram que estou certa?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não está.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Diz isso pra eu não matar ela assim que encontrar.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Estou falando sério. Leu mesmo o pergaminho?</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Não entendi inteiro. Mas vocês não sabem nada. Nem dela, nem de mim.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por favor, não faz isso.</default>
-	</talk>
-	<teller>
-		<first>Outra parte da cidade.</first>
-	</teller>
-	<talk character="Agnes">
-		<default>Djanira... Djanira...</default>
-	</talk>
-	<talk character="Zenon">
-		<arrive>Procurando alguém?</arrive>
-	</talk>
-	<talk character="Agnes">
-		<default>Foi o senhor...</default>
-	</talk>
-	<teller>
-		<default>Zenon olha em volta.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Senhor? Onde?</default>
-	</talk>
-	<talk character="Agnes">
-		<default>Foi você quem segurou Djanira no bar.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Então esse é o nome dela.</default>
-	</talk>
-	<talk character="Agnes">
-		<default>Sabe onde ela foi?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Com tanta raiva que ela estava, se eu fosse você, não procurava.</default>
-	</talk>
-	<talk character="Agnes">
-		<default>Até esqueci de te agradecer.</default>
-	</talk>
-	<teller>
-		<default>Zenon se aproxima de Agnes.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Por que?</default>
-	</talk>
-	<talk character="Agnes">
-		<default>Salvou minha vida.</default>
-	</talk>
-	<teller>
-		<default>Zenon mexe no cabelo de Agnes.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Ela não ia atirar.</default>
-	</talk>
-	<talk character="Agnes">
-		<default>Eu não sei. Sempre achei que todo mundo tava errado, mas agora...</default>
-	</talk>
-	<teller>
-		<default>Zenon passa a mão em volta a cintura de Agnes e aproxima de si.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Se ela realmente quisesse você morta, já estaria.</default>
-	</talk>
-	<talk character="Agnes">
-		<default>Que tá fazendo?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Você é bem diferente dela.</default>
-	</talk>
-	<talk character="Agnes">
-		<default>Senhor...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Ela é mais forte.</default>
-	</talk>
-	<teller>
-		<default>Zenon aproxima o nariz do pescoço dela. Cheira. Beija. Agnes estremece.</default>
-	</teller>
-	<talk character="Agnes">
-		<default>Me solta, por favor. Preciso achar minha irmã.</default>
-	</talk>
-	<teller>
-		<default>Zenon mostra seus dentes.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Não.</default>
-	</talk>
-	<teller>
-		<first>MEAK. Kat está coberta. Aperta o cobertor. Derik levanta.</first>
-	</teller>
-	<talk character="Derik">
-		<default>Que ela tem?</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Kat.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Deve estar tendo algum sonho.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que espécie de sonho?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Droga, tá acontecendo de novo!</default>
-	</talk>
-	<teller>
-		<default>Mel abaixa perto do sofá.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Me solta! Socorro!</default>
-	</talk>
-	<teller>
-		<default>Mel chacoalha Katerine.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Acorda!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que isso???</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ela não tá mais sonhando só como se estivesse só vendo!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Kat, acorda!</default>
-	</talk>
-	<teller>
-		<default>Kat arranha o sofá. Mel chacoalha Kat.</default>
-	</teller>
-	<talk character="Kat">
-		<hushed>Socorro...</hushed>
-	</talk>
-	<teller>
-		<default>Na cidade, Zenon solta o corpo de Agnes. Na casa, Kat acorda. Derik abraça Kat.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Ela está morta... Morta...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Calma, Kat... Calma, meu amor.</default>
-	</talk>
-	<teller>
-		<default>Cidade. Edmont para a moto ao lado de outra. Angely vem em sua direção, com o capacete na mão. Djanira vem atrás.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Onde está Agnes?</default>
-		<teller>o celular toca</teller>
-	</talk>
-	<teller>
-		<default>Toca o celular. Edmont atende.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Mel? ### Não pode ser...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que é?</default>
-	</talk>
-	<teller>
-		<default>Djanira balança a cabeça para os lados. Sai. MEAK.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Cadê o calmante???</default>
-	</talk>
-	<talk character="Derik">
-		<default>Já tomou dois comprimidos, vai fazer efeito daqui a... Ah, não, Kat, não vou deixar você dormir de novo!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu preciso!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Mel já foi atrás deles, não pode fazer mais nada!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Me dá!</default>
-	</talk>
-	<teller>
-		<default>Derik ajoelha na frente de Kat.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Não vai adiantar querer ficar sofrendo por elas! Eu quero você aqui! Eu preciso que você continue comigo!</default>
-	</talk>
-	<teller>
-		<default>Kat olha para Derik. Senta no sofá. Derik senta ao lado. Kat abraça Derik.</default>
-	</teller>
-	<teller>
-		<first>Djanira está caminhando. Trava.</first>
-	</teller>
-	<talk character="Djanira">
-		<default>Você de novo.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Sabe, você me lembra alguém.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Impossível, nunca te vi na minha vida.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Talvez não nessa.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Essa é a cantada mais usada e mais imbecil que já ouvi.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Não é cantada. Se eu quiser você, não preciso disso.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Vai fazer o que? Me agarrar a força?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Poderia. Mas não quero.</default>
-	</talk>
-	<talk character="Djanira">
-		<default>E o que vai fazer, Don Juan?</default>
-	</talk>
-	<talk character="Paulo">
-		<arrive>Se afasta da menina!</arrive>
-	</talk>
-	<talk character="Djanira">
-		<default>Que isso?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Qual o problema, caçador? Tem medo de acertar ela?</default>
-	</talk>
-	<teller>
-		<default>Djanira trava a boca. Olha para Paulo. Paulo está apontando uma besta para Zenon.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Vamos, atire. Ela não vai ficar chocada, agora a pouco ia matar a irmã num bar... Qual o problema? Ainda não aprendeu a usar esse brinquedo?</default>
-	</talk>
-	<teller>
-		<default>Djanira dá um chute, desarmando Paulo. Paulo levanta e olha ao redor.</default>
-	</teller>
-	<talk character="Paulo">
-		<default>Que deu em você???</default>
-	</talk>
-	<talk character="Djanira">
-		<default>Eu não sei.</default>
-	</talk>
-	<teller>
-		<default>Paulo pega a arma do chão. Djanira sai andando.</default>
-	</teller>
-</story>
+{
+	"season": "A",
+	"episode": "10",
+	"scene": "f",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat anda de um lado para o outro. Angely e Edmont estão sentados, olhando para Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Gente, desculpa, eu acabei caindo no sono de novo..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Kat. Kat ainda anda de um lado a outro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que aconteceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viu o amante da Astride num sonho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas ela não estaria tão nervosa só por isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat viu matar uma garota."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou falar com Kat... E vocês, nem fizeram a comparação, né???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, vamos ver, fala lá com Kat, tá dando angústia!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles levantam. Vão até a mesa. Mel pega Kat pelo braço e faz sentar no sofá. Senta-se ao lado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que você tá assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te falaram?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é só isso, eu sei."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat vai se levantar, mas Mel segura pelo braço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fala pra mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tô com medo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi simplesmente um sonho. Era real."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Os outros também eram."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, você não entende. Eu senti como se estivesse lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei que isso deve ser ruim..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não entendeu. Era como se estivesse no lugar da pessoa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá confuso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quando encostou Silvia na parede, era como se tivesse me encostado. Quando mordeu, senti me morder. Senti minha vida querer ir embora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tá se envolvendo muito com isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já me disseram que você resolveu virar zumbi."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Angely e Edmont. Volta a olhar pra Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Exageraram um pouco. Kat, não era você que estava lá, tá bom? Nós vamos pegar o vampiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se continuar assim? E se eu continuar sentindo como se estivesse lá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você vai se acostumar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, não vou. Acho que é um castigo pela frieza que eu falava disso. Sempre tão indiferente, comparando meus problemas com isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel abraça Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não tem idade. Não tinha nem que ver isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Tarde."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "É, foi morta por um vampiro mesmo. Ele não deixou rastro, nenhuma pista."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor nós falarem com Djanira e Astride. A gente termina aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont não é exatamente o rei da delicadeza."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas falamos primeiro, melhor continuar no mesmo contato."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Noite. Angely e Edmont chegam a um bar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agnes, tem algo que você precisa saber."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você jurou que ela não ia ficar sabendo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas eu não jurei nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É assim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely baixa a cabeça. Djanira tira uma arma da bolsa e aponta pra Agnes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Djanira, solta isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ser que vocês me culpem agora, mas vão me agradecer depois."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon trava os braços de Djanira por trás. Um tiro, para o alto. Angely pega Agnes pela mão e corre. Edmont olha para Djanira. Djanira joga Zenon no chão. Edmont corre atrás de Angely e Agnes."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Cadê a Kat?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Demos calmante a ela, estava muito tensa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E as duas?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Djanira ficou batendo num cara, Agnes correu com Angely, mas saiu correndo pra outro lado. Falamos pra entrar no carro, mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tinham razão sobre dormir direito, a primeira coisa que li já dizia tudo: se guardaria nessa encarnação, mesmo sem saber."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont olha para Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agnes já inclusive teve um namoro antes."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely sai. Edmont segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, não!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos que impedir isso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu conversei com Djanira, ela não é de se entregar fácil, não vai cair fácil. Além do que, o tal cara provavelmente nem sabe de nada!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Num beco, Zenon está olhando para Djanira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Entendo que queira matar sua irmã, mas não pode fazer isso no meio de um bar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora eu posso ir embora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso te ajudar com isso, se quiser."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon se aproxima de Djanira. Tenta um beijo, mas Djanira se afasta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sou prostituta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quem disse isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você pensou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só por que quis te beijar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aqui? Não quer só um beijo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece que conhece bem os homens."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É fácil. Nenhum deles presta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Djanira sai. Zenon se senta no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode ser. É verdade."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Djanira está andando. Uma moto diminui a velocidade ao seu lado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que quer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sobe aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pego carona com estranhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quero fazer nada com você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, eu ouvi minha irmã falando. Parece bastante com nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estamos procurando você e Agnes pela cidade. Agora te encontrei..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Descobriram que estou certa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não está."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Diz isso pra eu não matar ela assim que encontrar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estou falando sério. Leu mesmo o pergaminho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não entendi inteiro. Mas vocês não sabem nada. Nem dela, nem de mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por favor, não faz isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Outra parte da cidade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Djanira... Djanira..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Procurando alguém?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi o senhor..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon olha em volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Senhor? Onde?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi você quem segurou Djanira no bar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então esse é o nome dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe onde ela foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com tanta raiva que ela estava, se eu fosse você, não procurava."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Até esqueci de te agradecer."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon se aproxima de Agnes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Salvou minha vida."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon mexe no cabelo de Agnes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela não ia atirar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não sei. Sempre achei que todo mundo tava errado, mas agora..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon passa a mão em volta a cintura de Agnes e aproxima de si."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se ela realmente quisesse você morta, já estaria."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tá fazendo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é bem diferente dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Senhor..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela é mais forte."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon aproxima o nariz do pescoço dela. Cheira. Beija. Agnes estremece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agnes",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me solta, por favor. Preciso achar minha irmã."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon mostra seus dentes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Kat está coberta. Aperta o cobertor. Derik levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que ela tem?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deve estar tendo algum sonho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que espécie de sonho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga, tá acontecendo de novo!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel abaixa perto do sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me solta! Socorro!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel chacoalha Katerine."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acorda!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que isso???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela não tá mais sonhando só como se estivesse só vendo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat, acorda!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat arranha o sofá. Mel chacoalha Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Socorro..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na cidade, Zenon solta o corpo de Agnes. Na casa, Kat acorda. Derik abraça Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela está morta... Morta..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma, Kat... Calma, meu amor."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cidade. Edmont para a moto ao lado de outra. Angely vem em sua direção, com o capacete na mão. Djanira vem atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde está Agnes?"
+				},
+				{
+					"type": "teller",
+					"text": "o celular toca"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca o celular. Edmont atende."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel? ### Não pode ser..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que é?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Djanira balança a cabeça para os lados. Sai. MEAK."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê o calmante???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já tomou dois comprimidos, vai fazer efeito daqui a... Ah, não, Kat, não vou deixar você dormir de novo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu preciso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel já foi atrás deles, não pode fazer mais nada!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me dá!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik ajoelha na frente de Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai adiantar querer ficar sofrendo por elas! Eu quero você aqui! Eu preciso que você continue comigo!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat olha para Derik. Senta no sofá. Derik senta ao lado. Kat abraça Derik."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Djanira está caminhando. Trava."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe, você me lembra alguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Impossível, nunca te vi na minha vida."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez não nessa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa é a cantada mais usada e mais imbecil que já ouvi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é cantada. Se eu quiser você, não preciso disso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai fazer o que? Me agarrar a força?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Poderia. Mas não quero."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que vai fazer, Don Juan?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Paulo",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Se afasta da menina!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual o problema, caçador? Tem medo de acertar ela?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Djanira trava a boca. Olha para Paulo. Paulo está apontando uma besta para Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos, atire. Ela não vai ficar chocada, agora a pouco ia matar a irmã num bar... Qual o problema? Ainda não aprendeu a usar esse brinquedo?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Djanira dá um chute, desarmando Paulo. Paulo levanta e olha ao redor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Paulo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que deu em você???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Djanira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não sei."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Paulo pega a arma do chão. Djanira sai andando."
+				}
+			]
+		}
+	]
+}

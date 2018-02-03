@@ -1,490 +1,1599 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="20" scene="d">
-	<teller>
-		<division>Atualmente</division>
-		<default>Mel deixa a bolsa no chão.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Que tá acontecendo aqui? Tem alguém achando que Angely tá em coma por falta de sol?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Eu tava tentando quebrar o símbolo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Parece que não funcionou.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>A merda foi parar no céu.</default>
-	</talk>
-	<talk character="Mel">
-		<default>O feitiço que acham que eu fiz.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Você tá com raiva do Edmont.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Aí enfeiticei Angely.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Poderia fazer isso pra pegar Edmont.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E porque não faria isso direto em Edmont?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Pode ter feito e funcionou nos dois.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E o símbolo ficou em Angely.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Pode ter ficado em ambos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bom, se acham que fiz, sabem que não vou desfazer. Então, boa sorte com o projeto teto solar.</default>
-	</talk>
-	<teller>
-		<default>Mel sai do quarto.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Vocês esperam aqui.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Porque?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Se amanhecer, pode ficar no quarto de Mel, aqui não é uma boa e a sala tem uma janela muito grande.</default>
-	</talk>
-	<teller>
-		<default>Katerine sai. Desce a escada e pega um capacete em cima de um armário. Veste. Sai. Mel olha no retrovisor. Volta. Para. Kat sobe. Mel arranca.</default>
-	</teller>
-	<teller>
-		<first>Mel para a moto na frente do casarão queimado. Descem. Kat desce, com uma sacola no braço. Entra. Mel  coloca a trava na moto e entra. Kat arrumou as coisas em cima de uma mesa de metal. Mel puxa uma cadeira e senta. Kat senta também. Mel pega um sanduíche e morde. Mastiga. Engole.</first>
-	</teller>
-	<talk character="Mel">
-		<default>Tinha razão sobre comer.</default>
-	</talk>
-	<talk character="Kat">
-		<default>É o que seres vivos costumam fazer. Reparei pelo jeito que tava acelerando a moto.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E aí, o que tinha pra me contar?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Você disse que só atlantes podiam tocar em Angely.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sim.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Acha que Beatrice pode ser atlante?</default>
-	</talk>
-	<talk character="Mel">
-		<default>O mapa poderia estar em outros lugares. Nem todo mundo sabe disso.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Esse todo mundo atlante é tipo ao menos o tamanho da população de São Paulo?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não faço ideia. Os registros de lá se perderam, não tenho certeza se haviam réplicas aqui.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Seria possível procurar alguém que tenha conhecido Doki?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Acho mais fácil a gente procurar quem eu conheci, e isso já é difícil.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E sobre Beatrice?</default>
-	</talk>
-	<talk character="Mel">
-		<default>É possível, se for algum... Não tem um jeito decente de falar isso em português... Algum tipo específico de atlante. Um meio-atlante tem o mapa na mão direita, por exemplo. Edmont deve ter visto o mapa na sua mão e achado que você não era de Hery, por isso não tentou mais nada.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Será que Edmont sabe?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Acho que deve conhecer bem o corpo de Beatrice, mas o mapa pode estar até no coro cabeludo ou dentro da pálpebra, então poderia não ter visto.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Acha que Beatrice poderia ter feito o feitiço?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não saberia. Nem sabe que é atlante.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Então acha que é.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tocou em Angely e não tomou um tranco?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Sim.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então tenho certeza.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não sabe mais nada sobre o feitiço?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu sei que conheço três criaturas atlantes. Quatro agora. Você não faria isso. Beatrice, só se tiver feito por acidente, com algo que aprendeu de Elian, que tenha aprendido de Nilrem, que tenha roubado de Doki.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não tinha pensado nisso, pode ter sido Edmont...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ou Angely.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Angely?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Angely tentou pedir desculpas. Mais de uma vez. A última vez eu falei que não tinha como uma desculpa me devolver Glória, então...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Você tinha escolhido um nome.</default>
-	</talk>
-	<teller>
-		<default>Mel baixa a cabeça.</default>
-	</teller>
-	<talk character="Mel">
-		<default>As pessoas fazem isso quando geram fetos que pretendem ver nascer. Dancan me disse que gostava desse nome. Eu escolheria algo atlante.</default>
-	</talk>
-	<teller>
-		<default>Mel morde novamente o sanduíche.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Acha então que...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Angely ou Edmont. Podem estar em luta agora até, de alguma forma. </default>
-	</talk>
-	<talk character="Kat">
-		<default>Acha que Angely vence?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Angely nunca perdeu pra Edmont.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Então você não vai interferir.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Talvez Edmont seja algo que Angely precise resolver.</default>
-	</talk>
-	<teller>
-		<first>MEAK. Beatrice está ao lado de Angely. Mexe no cabelo de Angely. Derik entra no quarto. Olha para Angely. Olha para Beatrice. Vira pássaro e voa novamente pelo teto. Volta. Cachorro, carrega as roupas para o banheiro e volta com roupas.</first>
-	</teller>
-	<talk character="Derik">
-		<default>Você é atlante?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Quantas pessoas vão me perguntar isso ainda?</default>
-	</talk>
-	<teller>
-		<default>Derik franze a testa.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Quem...?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não interessa. Porque tá perguntando?</default>
-	</talk>
-	<teller>
-		<default>Derik desfranze a testa.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Porque você devia ter tomado um choque e ido parar contra a parede.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Por quê?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Porque foi o que aconteceu comigo e com Agatha, mas não com Kat e Mel, e Mel disse que só não aconteceria com atlantes.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Por quê? Faz sentido se o feitiço fosse feito por Mel, Mel impediria qualquer um de encostar em Angely, mas...</default>
-	</talk>
-	<talk character="Derik">
-		<default>É um feitiço atlante.</default>
-	</talk>
-	<teller>
-		<default>Beatrice levanta de sopetão.</default>
-	</teller>
-	<talk character="Beatrice">
-		<default>Sério?! Por que não me disseram isso antes?!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Você não perguntou...</default>
-	</talk>
-	<teller>
-		<default>Derik franze a testa novamente.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Você conhece feitiços atlantes?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não. Mas sei quem pode nos ajudar.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tá amanhecendo.</default>
-	</talk>
-	<teller>
-		<first>Noite seguinte. Beatrice crava uma espada no peito de uma criatura, que se desfaz em pó.</first>
-	</teller>
-	<talk character="Kassandra">
-		<arrive>Quando terminar os de Virgine, vai atrás dos de Argo?</arrive>
-	</talk>
-	<talk character="Beatrice">
-		<default>Mexia com feitiçaria quando era humana?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Alguma coisa. Mas você fazendo uma pergunta pessoal, isso é novidade.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Nem tão pessoal. Disse que conhecia algo sobre atlantes, inclusive feitiços.</default>
-	</talk>
-	<teller>
-		<default>Kassandra sorri.</default>
-	</teller>
-	<talk character="Kassandra">
-		<default>Quer aprender?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Quero desfazer um.</default>
-	</talk>
-	<teller>
-		<default>Kassandra desmancha o sorriso.</default>
-	</teller>
-	<talk character="Kassandra">
-		<default>Sempre tem alguém que quer furar o balão da festa.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Você queria saber porque eu tô caçando o clã de Virgine.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Porque Edmont sumiu.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Já sabia?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Não te vi mais perto dele, não vi mais ele... Porque achou que isso era um grande mistério?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>E porque tava perguntando?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Porque era divertido.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Tem alguma coisa que queira saber que eu possa te falar?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Porque virou a nova decoradora da Saturn.</default>
-	</talk>
-	<teller>
-		<default>Beatrice abre a boca.</default>
-	</teller>
-	<talk character="Kassandra">
-		<default>Mentira, eu vi aparecer no céu o que tava tentando destruir.</default>
-	</talk>
-	<teller>
-		<default>Beatrice cruza os braços e encara Kassandra.</default>
-	</teller>
-	<talk character="Kassandra">
-		<default>Eu vejo além do que outros vêem. O que quero saber é algo que eu não tenha visto.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Sabe que sou atlante.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Do mesmo tipo de Rust. Mas eu nunca soube qual era o tipo dele.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Pode passar um scanner em mim depois. Me ajuda a desfazer o que fizeram em Angely.</default>
-	</talk>
-	<teller>
-		<default>Kassandra estende a mão. Beatrice aperta. Kassandra puxa Beatrice e beija. Beatrice corresponde. Kassandra afasta.</default>
-	</teller>
-	<talk character="Kassandra">
-		<default>Não te ensinaram como se sela um contrato?</default>
-	</talk>
-	<teller>
-		<default>Kassandra vai em direção a porta.</default>
-	</teller>
-	<talk character="Kassandra">
-		<default>Se bem que só esse beijo já valeria.</default>
-	</talk>
-	<teller>
-		<division>Antes</division>
-	</teller>
-	<teller>
-		<default>Mel chega a casa de Ísis. Esta com uma besta. Tira uma bússola do bolso. Anda pela sala. Em um momento, a bússola aponta uma direção. Mel para. Olha para o chão. Uma marca de sangue. Abaixa e cheira.</default>
-	</teller>
-	<talk character="Kassandra">
-		<default>A última vez que vi alguém que não era vampiro cheirando sangue faz séculos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você vive há séculos, isso já é uma informação errada.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Ok. Mas posso te ajudar com o que está procurando.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E o que acha que estou procurando?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Loiro, alto, olhos azuis... Nossa, que descrição clichê.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Viu Angely entrar aqui?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Seu feitiço não diz pra onde foi?</default>
-	</talk>
-	<teller>
-		<default>Mel revira os olhos. Guarda a bússola. Segue na direção que apontava, saindo da casa. Kassandra segue.</default>
-	</teller>
-	<talk character="Kassandra">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por um segundo eu achei que fosse mesmo me dar uma informação útil.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>O feitiço não é bom o suficiente?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Aponta alguns metros, como um faro, depois eu preciso checar de novo, de algum lugar que tenha estado. Não posso fazer isso com a moto porque é muito pouco espaço.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Sabe o que mais tinha naquela sala?</default>
-	</talk>
-	<teller>
-		<default>Mel vira para trás.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Se disser móveis eu juro que vou deixar a busca de lado pra te transformar em pó, porque pó não fala e não segue ninguém.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Nossa. Beatrice foi mais paciente.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Andou seguindo Beatrice. E agora está me seguindo, pra um lugar onde Angely esteve. Edmont tá no meio disso?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Não. Ainda. Mas Zenon está.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tinha roupas e pó na sala.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Zenon tentou resistir a ser levado. Angely, por outro lado, estava carregado.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Virgine?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Aquilo na sala eram uniformes. Rust costumava dizer que não sabia porque Virgine não pintava um alvo na bunda deles de uma vez. Tenho saudade de Rust às vezes.</default>
-	</talk>
-	<teller>
-		<default>Mel aponta a besta para Kassandra.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Posso resolver isso num segundo.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Ou pode me ouvir e encontrar seu irmão.</default>
-	</talk>
-	<teller>
-		<first>Uma moto chega até um celeiro. Para. A pessoa da carona corre para dentro. Tira o capacete.</first>
-	</teller>
-	<talk character="Kassandra">
-		<default>Tava ficando calor já...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não ia ser uma grande perda.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Ei!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não sei como vocês nunca acham que viveram demais.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Porque nunca é demais. Sempre tem algo novo a ser descoberto. Mesmo que pareça que já sabe tudo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É no subsolo?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Depois não vai dizer que te traí.</default>
-	</talk>
-	<teller>
-		<default>Mel revira os olhos.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Eu sei, você me disse que Virgine está esperando.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Tem mais coisa. Mas eu nunca posso contar tudo.</default>
-	</talk>
-	<teller>
-		<default>Kassandra vai para o fundo do celeiro. Levanta palhas. Uma caixa aparentemente velha. Abre. É metal por dentro e tem uma tranca.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Tá falando sério?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Bom, clichês existem por um motivo. Acha que tem lugar melhor pra se enfiar e não ser encontrado que um caixão?</default>
-	</talk>
-	<teller>
-		<default>Kassandra entra e senta-se.</default>
-	</teller>
-	<talk character="Kassandra">
-		<default>A pessoa abre, mexe em você, você não respira, só pode ser um defunto.</default>
-	</talk>
-	<teller>
-		<default>Kassandra fecha a caixa. Barulho de tranca. Mel segue na direção de uma porta no chão. Abre. Pula. Um corredor. Segue alguns metros. Apontam-lhe uma arma.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Vim falar com Virgine.</default>
-	</talk>
-	<talk character="Ky">
-		<default>Larga a arma.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não.</default>
-	</talk>
-	<teller>
-		<default>Ky olha para o teto. Abaixa a arma.</default>
-	</teller>
-	<talk character="Ky">
-		<default>Vem.</default>
-	</talk>
-	<teller>
-		<default>Ky segue pelo corredor. Mel segue. Chegam a uma sala grande, redonda, com um tapete redondo, colunas. Uma pessoa jovem está no meio, treinando.</default>
-	</teller>
-	<talk character="Ky">
-		<default>Virgine!</default>
-	</talk>
-	<teller>
-		<default>A pessoa para. Virgine vem de trás de uma coluna.</default>
-	</teller>
-	<talk character="Virgine">
-		<default>Continua, Clara. Eu volto daqui a pouco.</default>
-	</talk>
-	<teller>
-		<default>Virgine vai até Melody.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Parece um espaço bom pra lutar.</default>
-	</talk>
-	<talk character="Virgine">
-		<default>É o lugar dos seus sonhos pra morrer?</default>
-	</talk>
-	<talk character="Mel">
-		<default>A gente sempre pode testar.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "20",
+	"scene": "d",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Atualmente"
+				},
+				{
+					"type": "default",
+					"text": "Mel deixa a bolsa no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tá acontecendo aqui? Tem alguém achando que Angely tá em coma por falta de sol?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tava tentando quebrar o símbolo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece que não funcionou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A merda foi parar no céu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O feitiço que acham que eu fiz."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tá com raiva do Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aí enfeiticei Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Poderia fazer isso pra pegar Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E porque não faria isso direto em Edmont?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ter feito e funcionou nos dois."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o símbolo ficou em Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ter ficado em ambos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, se acham que fiz, sabem que não vou desfazer. Então, boa sorte com o projeto teto solar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sai do quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês esperam aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se amanhecer, pode ficar no quarto de Mel, aqui não é uma boa e a sala tem uma janela muito grande."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Katerine sai. Desce a escada e pega um capacete em cima de um armário. Veste. Sai. Mel olha no retrovisor. Volta. Para. Kat sobe. Mel arranca."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Mel para a moto na frente do casarão queimado. Descem. Kat desce, com uma sacola no braço. Entra. Mel  coloca a trava na moto e entra. Kat arrumou as coisas em cima de uma mesa de metal. Mel puxa uma cadeira e senta. Kat senta também. Mel pega um sanduíche e morde. Mastiga. Engole."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tinha razão sobre comer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É o que seres vivos costumam fazer. Reparei pelo jeito que tava acelerando a moto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí, o que tinha pra me contar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você disse que só atlantes podiam tocar em Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha que Beatrice pode ser atlante?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O mapa poderia estar em outros lugares. Nem todo mundo sabe disso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esse todo mundo atlante é tipo ao menos o tamanho da população de São Paulo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não faço ideia. Os registros de lá se perderam, não tenho certeza se haviam réplicas aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seria possível procurar alguém que tenha conhecido Doki?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho mais fácil a gente procurar quem eu conheci, e isso já é difícil."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E sobre Beatrice?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É possível, se for algum... Não tem um jeito decente de falar isso em português... Algum tipo específico de atlante. Um meio-atlante tem o mapa na mão direita, por exemplo. Edmont deve ter visto o mapa na sua mão e achado que você não era de Hery, por isso não tentou mais nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que Edmont sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que deve conhecer bem o corpo de Beatrice, mas o mapa pode estar até no coro cabeludo ou dentro da pálpebra, então poderia não ter visto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha que Beatrice poderia ter feito o feitiço?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não saberia. Nem sabe que é atlante."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então acha que é."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tocou em Angely e não tomou um tranco?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então tenho certeza."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabe mais nada sobre o feitiço?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei que conheço três criaturas atlantes. Quatro agora. Você não faria isso. Beatrice, só se tiver feito por acidente, com algo que aprendeu de Elian, que tenha aprendido de Nilrem, que tenha roubado de Doki."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tinha pensado nisso, pode ter sido Edmont..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ou Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely tentou pedir desculpas. Mais de uma vez. A última vez eu falei que não tinha como uma desculpa me devolver Glória, então..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tinha escolhido um nome."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As pessoas fazem isso quando geram fetos que pretendem ver nascer. Dancan me disse que gostava desse nome. Eu escolheria algo atlante."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel morde novamente o sanduíche."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha então que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely ou Edmont. Podem estar em luta agora até, de alguma forma. "
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha que Angely vence?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely nunca perdeu pra Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então você não vai interferir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez Edmont seja algo que Angely precise resolver."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Beatrice está ao lado de Angely. Mexe no cabelo de Angely. Derik entra no quarto. Olha para Angely. Olha para Beatrice. Vira pássaro e voa novamente pelo teto. Volta. Cachorro, carrega as roupas para o banheiro e volta com roupas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é atlante?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quantas pessoas vão me perguntar isso ainda?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem...?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não interessa. Porque tá perguntando?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik desfranze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque você devia ter tomado um choque e ido parar contra a parede."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque foi o que aconteceu comigo e com Agatha, mas não com Kat e Mel, e Mel disse que só não aconteceria com atlantes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê? Faz sentido se o feitiço fosse feito por Mel, Mel impediria qualquer um de encostar em Angely, mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É um feitiço atlante."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice levanta de sopetão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sério?! Por que não me disseram isso antes?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não perguntou..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik franze a testa novamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você conhece feitiços atlantes?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Mas sei quem pode nos ajudar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá amanhecendo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite seguinte. Beatrice crava uma espada no peito de uma criatura, que se desfaz em pó."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Quando terminar os de Virgine, vai atrás dos de Argo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mexia com feitiçaria quando era humana?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguma coisa. Mas você fazendo uma pergunta pessoal, isso é novidade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem tão pessoal. Disse que conhecia algo sobre atlantes, inclusive feitiços."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer aprender?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quero desfazer um."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra desmancha o sorriso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sempre tem alguém que quer furar o balão da festa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você queria saber porque eu tô caçando o clã de Virgine."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque Edmont sumiu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já sabia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te vi mais perto dele, não vi mais ele... Porque achou que isso era um grande mistério?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E porque tava perguntando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque era divertido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem alguma coisa que queira saber que eu possa te falar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque virou a nova decoradora da Saturn."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice abre a boca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mentira, eu vi aparecer no céu o que tava tentando destruir."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice cruza os braços e encara Kassandra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vejo além do que outros vêem. O que quero saber é algo que eu não tenha visto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe que sou atlante."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do mesmo tipo de Rust. Mas eu nunca soube qual era o tipo dele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode passar um scanner em mim depois. Me ajuda a desfazer o que fizeram em Angely."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra estende a mão. Beatrice aperta. Kassandra puxa Beatrice e beija. Beatrice corresponde. Kassandra afasta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te ensinaram como se sela um contrato?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra vai em direção a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se bem que só esse beijo já valeria."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Antes"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel chega a casa de Ísis. Esta com uma besta. Tira uma bússola do bolso. Anda pela sala. Em um momento, a bússola aponta uma direção. Mel para. Olha para o chão. Uma marca de sangue. Abaixa e cheira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A última vez que vi alguém que não era vampiro cheirando sangue faz séculos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você vive há séculos, isso já é uma informação errada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ok. Mas posso te ajudar com o que está procurando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que acha que estou procurando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Loiro, alto, olhos azuis... Nossa, que descrição clichê."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viu Angely entrar aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu feitiço não diz pra onde foi?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel revira os olhos. Guarda a bússola. Segue na direção que apontava, saindo da casa. Kassandra segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por um segundo eu achei que fosse mesmo me dar uma informação útil."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O feitiço não é bom o suficiente?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aponta alguns metros, como um faro, depois eu preciso checar de novo, de algum lugar que tenha estado. Não posso fazer isso com a moto porque é muito pouco espaço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe o que mais tinha naquela sala?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel vira para trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se disser móveis eu juro que vou deixar a busca de lado pra te transformar em pó, porque pó não fala e não segue ninguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa. Beatrice foi mais paciente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andou seguindo Beatrice. E agora está me seguindo, pra um lugar onde Angely esteve. Edmont tá no meio disso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Ainda. Mas Zenon está."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tinha roupas e pó na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon tentou resistir a ser levado. Angely, por outro lado, estava carregado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Virgine?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aquilo na sala eram uniformes. Rust costumava dizer que não sabia porque Virgine não pintava um alvo na bunda deles de uma vez. Tenho saudade de Rust às vezes."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel aponta a besta para Kassandra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso resolver isso num segundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ou pode me ouvir e encontrar seu irmão."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Uma moto chega até um celeiro. Para. A pessoa da carona corre para dentro. Tira o capacete."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tava ficando calor já..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não ia ser uma grande perda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei como vocês nunca acham que viveram demais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque nunca é demais. Sempre tem algo novo a ser descoberto. Mesmo que pareça que já sabe tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É no subsolo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Depois não vai dizer que te traí."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel revira os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei, você me disse que Virgine está esperando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem mais coisa. Mas eu nunca posso contar tudo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra vai para o fundo do celeiro. Levanta palhas. Uma caixa aparentemente velha. Abre. É metal por dentro e tem uma tranca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá falando sério?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, clichês existem por um motivo. Acha que tem lugar melhor pra se enfiar e não ser encontrado que um caixão?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra entra e senta-se."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A pessoa abre, mexe em você, você não respira, só pode ser um defunto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra fecha a caixa. Barulho de tranca. Mel segue na direção de uma porta no chão. Abre. Pula. Um corredor. Segue alguns metros. Apontam-lhe uma arma."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vim falar com Virgine."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ky",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Larga a arma."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ky olha para o teto. Abaixa a arma."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ky",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ky segue pelo corredor. Mel segue. Chegam a uma sala grande, redonda, com um tapete redondo, colunas. Uma pessoa jovem está no meio, treinando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ky",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Virgine!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A pessoa para. Virgine vem de trás de uma coluna."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Virgine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Continua, Clara. Eu volto daqui a pouco."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Virgine vai até Melody."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece um espaço bom pra lutar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Virgine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É o lugar dos seus sonhos pra morrer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente sempre pode testar."
+				}
+			]
+		}
+	]
+}

@@ -1,626 +1,2050 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="08" scene="a">
-	<teller>
-		<default>Tarde. Angely está no corredor dos quartos. Mel sobe a escada. Olha para ele e cruza os braços.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Já falamos que não pode ficar andando pela casa.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mel, eu já tô legal, não precisa...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu vi o tamanho do buraco que eu fiz no seu estômago. Só passou uma semana e você já quer ficar andando? Volta pro seu quarto.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu não preciso de babá...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Daqui a pouco vai querer fazer show desse jeito! Você tem que descansar!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu já tô ótimo...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você poderia ter morrido.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sabe que não...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Volta já. Vai.</default>
-	</talk>
-	<teller>
-		<default>Angely respira fundo, solta os ombros. Volta pra o quarto. Olha pela janela.</default>
-	</teller>
-	<talk character="Mel">
-		<out>Deita aí na sua cama, fica quietinho.</out>
-	</talk>
-	<teller>
-		<default>Ele olha para a cama.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Mas e se acontecer alguma coisa?</default>
-	</talk>
-	<talk character="Mel">
-		<out>Os shows foram adiados e não temos nenhum problema na agência. Se aparecer algum problema ainda tem a gente. Não precisamos que você fique mais ferido do que já está. Deita e descansa.</out>
-	</talk>
-	<talk character="Kat">
-		<out>Mel, eu preciso falar com você.</out>
-	</talk>
-	<talk character="Angely">
-		<default>Viu? Tem problemas!</default>
-	</talk>
-	<talk character="Kat">
-		<out>Angely, tem uma visita pra você.</out>
-	</talk>
-	<teller>
-		<default>Dara entra no quarto.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Oi.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Fala a verdade, vocês mandaram ela só pra me vigiar...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Olha, me desculpa por...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não precisa pedir desculpa. Aliás, queria te agradecer. Bela pontaria.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Eu quem atraí aquilo, eu que tinha que botar ele pra correr.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você voltou pra casa?</default>
-	</talk>
-	<talk character="Dara">
-		<default>É, meus pais arranjaram um psiquiatra pra mim. Pelo menos a Denise nem entra mais no meu quarto.</default>
-	</talk>
-	<talk character="Angely">
-		<default>É, você não se dá bem com a sua irmã mesmo, né?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Se seu irmão fosse metido daquele jeito, também não se daria bem com ele.</default>
-	</talk>
-	<talk character="Angely">
-		<default>A pior coisa de eu ter sido acertado é ter que ficar dentro do quarto.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Foi num médico de humanos, deu nisso.</default>
-	</talk>
-	<teller>
-		<default>Angely franze a testa.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Edmont me contou tudo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Sobre vocês, principalmente de onde tiraram o nome pra banda.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tudo mesmo?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Seu pai, sua mãe, Kat, Egito, Jak...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não era pra contarmos pra ninguém.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não confia em mim?</default>
-	</talk>
-	<teller>
-		<default>Angely dá meio riso.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Sabe onde está meu irmão?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Grudado naquela coisa daquela namorada dele.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tem alguma delas que você goste?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não é minha espécie preferida. Tenho que olhar todo dia pra uma no café da amanhã.</default>
-	</talk>
-	<teller>
-		<first>Na sala...</first>
-	</teller>
-	<talk character="Kat">
-		<default>Como vamos provar que ela tá se atirando no Angely?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não sei, talvez se deixássemos ela entrar no quarto dele...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Duvido que ela fosse perder uma chance dessas.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tô pensando como.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Poderíamos fingir que vamos sair e deixar ela aí.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Isso daria muito na cara.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Bom, podemos dizer que estamos indo pra gravadora e pedir pra ela impedir que Angely faça esforço. Mas o Angely não vai querer ajudar a gente.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Temos que fazer sem ele, antes que dê merda. Vai ser pior.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Acha que ele...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Hoje à noite?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tá.</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Opa, o que tem hoje a noite?</arrive>
-	</talk>
-	<teller>
-		<default>Agatha entra atrás de Edmont. Dara desce a escada. Agatha abraça e beija Edmont.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Bom, gente, eu já tô indo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Já?</default>
-	</talk>
-	<talk character="Dara">
-		<default>É. Tchau Mel, tchau Kat, tchau Edmont.</default>
-	</talk>
-	<teller>
-		<default>Dara sai.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Essa garota é mesmo antipática.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Edmont, nós temos que ir até a gravadora.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Agora?</default>
-	</talk>
-	<talk character="Kat">
-		<default>É, agora.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas quem vai ficar aqui com o Angely?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Eu fico.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não precisa, ele já está melhor.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Bem melhor.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas o médico mandou ele ficar deitado e ele não tá querendo obedecer...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>É, ele não gosta de ficar parado. Nenhum dos dois nunca foi muito de gostar de cama. Exceto quando estão mesmo dormindo, porque aí é um inferno acordar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tem certeza que quer ficar aqui?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Cuidando dele?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Tudo bem, eu faço isso.</default>
-	</talk>
-	<talk character="Angely">
-		<arrive>Eu posso ir com vocês...</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Que tá fazendo aqui?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Vem, eles vão sair e eu vou cuidar pra não ir parar no hospital de novo.</default>
-	</talk>
-	<teller>
-		<default>Agatha pega Angely pelo braço e sobe a escada.</default>
-	</teller>
-	<talk character="Angely">
-		<out>Eu não preciso de babá!</out>
-	</talk>
-	<talk character="Edmont">
-		<screamed>Precisa sim!</screamed>
-	</talk>
-	<talk character="Edmont">
-		<default>Vamos?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá.</default>
-	</talk>
-	<teller>
-		<default>Os três saem. Edmont vai até o carro</default>
-	</teller>
-	<talk character="Mel">
-		<default>Edmont, nós vamos fingir que estamos indo à gravadora, deixamos o carro na casa de Kat e voltamos a pé.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Faz o que ela diz.</default>
-	</talk>
-	<teller>
-		<first>Agatha chega no quarto com um copo d'água. Angely pega o copo e bebe. Deita na cama. Fecha os olhos. Ela encosta na porta.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Quanto tempo eu vou ter que ficar aqui?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Estamos sozinhos.</default>
-	</talk>
-	<teller>
-		<default>Angely abre os olhos.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Pensei que tivesse esquecido isso.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Eu, esquecer?</default>
-	</talk>
-	<teller>
-		<default>Ela senta em cima dele.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Que está fazendo?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Vai mesmo dizer que não sabe?</default>
-	</talk>
-	<teller>
-		<default>Agatha abaixa para beijar Angely. Angely empurra Agatha e sai da cama para o chão.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Agatha, pára com isso.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Qual é o problema?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você é namorada do Edmont. Vocês decidiram ser mono...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Seu irmão não está aqui.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não pode trair Edmont.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Qual o problema com uma traiçãozinha de nada?</default>
-	</talk>
-	<talk character="Angely">
-		<default>De nada?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>É homem como os outros, não é?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não sabe do que ele é capaz.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ele nem vai saber.</default>
-	</talk>
-	<teller>
-		<default>Agatha se levanta da cama e desabotoa a própria blusa. Angely levanta do chão e dá passos para trás.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Não pensei que fosse reagir assim.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por que está fazendo isso?</default>
-	</talk>
-	<teller>
-		<default>Agatha se aproxima de Angely.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Por que uma garota quer ficar com um cara?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont é igualzinho a mim.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Será?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Somos gêmeos.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Não são iguais, ele não foge de mim.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vocês namoram, Edmont não estaria traindo a confiança de alguém por isso.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Só um detalhe.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não me faça ser estúpido... A gente se conhece desde criança, vocês se gostam...</default>
-	</talk>
-	<teller>
-		<default>Edmont e Mel sobem a escada. Edmont vai até a porta. Angely afasta Agatha.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Você? Estúpido?</default>
-	</talk>
-	<teller>
-		<default>Angely empurra Agatha. Ela cai na cama.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Vai me machucar?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Se for necessário.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Legal. Posso medir quem de vocês é melhor. Já amarrou alguém?</default>
-	</talk>
-	<teller>
-		<default>Agatha se levanta. Atrás da porta, Edmont se senta a porta e apoia a cabeça nas mãos. Mel desvia o olhar da porta e olha para Edmont.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Eu não... Era para te afastar.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Esperava me afastar só com isso?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Agatha, eu não queria te machucar...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ah, bom. Comecei a achar que isso era tudo que tinha.</default>
-	</talk>
-	<talk character="Angely">
-		<default>...mas, por favor, sai daqui.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Por quê?</default>
-	</talk>
-	<teller>
-		<default>Angely respira fundo.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Preciso mesmo dizer?</default>
-	</talk>
-	<teller>
-		<default>Angely pega a mão de Agatha e leva para a cama. Os dois se sentam.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Agatha, você namora com o Edmont, não podemos ter nada.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>E se eu desmanchasse com ele?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vocês se amam! Que viagem é essa???</default>
-	</talk>
-	<talk character="Agatha">
-		<default>É assim que as coisas funcionam.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Se você sente atração por outras pessoas, porque não fala com ele sobre isso?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Está se preocupando à toa, seu irmão vai demorar.</default>
-	</talk>
-	<teller>
-		<default>Agatha vem chegando mais perto de Angely, ele vai tentando se afastar e acaba deitado na cama, ela em cima dele.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Voltando ao ponto inicial.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu nunca trairia ele.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Mas não vai ser você quem vai estar traindo, vou ser eu.</default>
-	</talk>
-	<teller>
-		<default>A porta vem abaixo. Edmont. Agatha e Angely se levantam da cama bruscamente.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Eu te mato.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Calma...</default>
-	</talk>
-	<teller>
-		<default>Edmont tenta pegar Agatha, mas Angely segura Edmont contra a parede.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tira a Agatha daqui, Mel!</default>
-	</talk>
-	<teller>
-		<default>Mel pega Agatha pelo braço e correm do quarto. Descem a escada. Saem. </default>
-	</teller>
-	<talk character="Mel">
-		<default>Entra no carro.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Por que?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Entra logo...</default>
-		<teller>respira fundo</teller>
-		<default>Entra antes que eu desista de te tirar daqui.</default>
-	</talk>
-	<teller>
-		<default>Agatha entra no carro. Mel entra. Dá a partida. Arranca. Edmont aparece na varanda. Pula da varanda. Entra no porão para porta de trás. Abre um armário. Angely chega ao porão</default>
-	</teller>
-	<talk character="Angely">
-		<default>Que vai fazer?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vou atrás daquela maldita.</default>
-	</talk>
-	<teller>
-		<default>Edmont pega um espada.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Não é assim que vai resolver isso!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E como vai me impedir?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Essas armas não foram feitas pra isso.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E daí?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu sei que Agatha tentou te trair, mas...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não percebeu o jeito como ela falava?! Acha mesmo que é a primeira vez que ela faz isso?! Você é mesmo muito inocente.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont, por que simplesmente não termina?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E todo aquele teatro de estar com ciúmes! Toda essa merda humana de monogamia, pra ir atrás de outros pelas minhas costas! Depois de a gente crescer junto!!! Eu achei que conhecia a Agatha!!! Eu amava essa desgraçada!!! Vou terminar, sim. Com a vida dela.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vai matá-la só por isso?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ela me traiu. É isso que ela merece.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pensa, Edmont!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ela mentiu. Eu não admito mentiras.</default>
-	</talk>
-	<teller>
-		<default>Edmont sai do porão. Angely senta em um banco.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Ele não vai encontrar elas.</default>
-	</talk>
-	<talk character="Kat">
-		<arrive>Angely, o que aconteceu?</arrive>
-	</talk>
-	<talk character="Angely">
-		<default>Você e a Mel armaram isso?</default>
-	</talk>
-	<teller>
-		<default>Kat cruza os braços.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Não podíamos deixar ela enganar o Edmont assim.</default>
-	</talk>
-	<teller>
-		<default>Angely suspira. Olha para o teto. Levanta e olha para Kat.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Edmont vai matar Agatha se encontrar.</default>
-	</talk>
-	<talk character="Kat">
-		<default>É natural ele ficar bravo...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não no sentido figurado, Kat.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por que acharam que eu não queria que falassem pra ele? Acharam mesmo que eu queria enganar Edmont? Acharam que eu tava fazendo charme pra Agatha? Acharam que eu queria ficar com ela?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, Angely, achávamos que você estava com medo de Agatha virar ele contra nós!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não, vocês tinham esse medo, eu não. Ele nunca acreditaria na Agatha ao invés de acreditar em mim!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Então por que não falou com ele?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Porque agora Edmont vai matar Agatha!</default>
-	</talk>
-	<talk character="Kat">
-		<default>E o que seria melhor, você ajudá-la à traí-lo?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não é isso que estou dizendo, eu estava conversando com ela... Eu ia convencer Agatha a falar com Edmont, se Agatha falasse...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Você nunca iria convencê-la e, cedo ou tarde, Edmont iria ficar sabendo! Não é nenhum idiota!</default>
-	</talk>
-	<teller>
-		<default>Angely se senta no banco grande embutido na parede.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tá, tudo bem, não vai adiantar falarmos nisso agora. Mel deve ligar, dizendo pra onde elas foram. Espero que Edmont não encontre primeiro.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por que tem tanta certeza que ele vai matar?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não lembra do que eu falei? Sobre como ficou com raiva de Lisa? Não era sobre Lisa querer ficar com Hery, era sobre Lisa ter fugido simplesmente...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Será que ele não mudou?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nunca tive tanta certeza de alguma coisa. Quando Edmont pegou aquela espada, o ódio no olhar dele... Era quase como se pudesse sentir de onde estava.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por que ele não me matou?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você não tinha culpa. Ele acabou enxergando isso.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Nem meu pai. Nem nossa mãe.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Às vistas de Edmont, eram dois traidores.</default>
-	</talk>
-	<teller>
-		<default>Angely olha para o teto. Olhos úmidos. Kat baixa a cabeça.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Agatha não merece morrer só por isso. Edmont deveria simplesmente terminar. Além do que, vai preso, e só por orgulho...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não, Kat, não é orgulho. Foi a traição que subiu o sangue dele. Acho que tudo voltou. Não quero lutar com Edmont de novo.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mas a luta não era só pela coroa?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont não aceitou a luta pela coroa. Sempre soube que acobertei a fuga. Agora ele vai achar que acobertei Agatha... Não quero ter que lutar contra Edmont de novo...</default>
-	</talk>
-	<teller>
-		<default>Angely fecha os olhos. As lágrimas descem. Kat se aproxima e abraça Angely.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Olha, eu e a Mel estamos aqui pra impedir isso, não vamos deixar nossos... Meus irmãos lutarem um contra o outro.</default>
-	</talk>
-	<teller>
-		<default>Kat se senta ao lado de Angely. Deita Angely em seu colo.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Nós não vamos deixar Edmont passar dos limites, ele não vai ser preso e muito menos vai querer lutar com você.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "08",
+	"scene": "a",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tarde. Angely está no corredor dos quartos. Mel sobe a escada. Olha para ele e cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já falamos que não pode ficar andando pela casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, eu já tô legal, não precisa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vi o tamanho do buraco que eu fiz no seu estômago. Só passou uma semana e você já quer ficar andando? Volta pro seu quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não preciso de babá..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Daqui a pouco vai querer fazer show desse jeito! Você tem que descansar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu já tô ótimo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você poderia ter morrido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe que não..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Volta já. Vai."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely respira fundo, solta os ombros. Volta pra o quarto. Olha pela janela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Deita aí na sua cama, fica quietinho."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele olha para a cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas e se acontecer alguma coisa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Os shows foram adiados e não temos nenhum problema na agência. Se aparecer algum problema ainda tem a gente. Não precisamos que você fique mais ferido do que já está. Deita e descansa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Mel, eu preciso falar com você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viu? Tem problemas!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Angely, tem uma visita pra você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara entra no quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fala a verdade, vocês mandaram ela só pra me vigiar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, me desculpa por..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa pedir desculpa. Aliás, queria te agradecer. Bela pontaria."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu quem atraí aquilo, eu que tinha que botar ele pra correr."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você voltou pra casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, meus pais arranjaram um psiquiatra pra mim. Pelo menos a Denise nem entra mais no meu quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, você não se dá bem com a sua irmã mesmo, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se seu irmão fosse metido daquele jeito, também não se daria bem com ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A pior coisa de eu ter sido acertado é ter que ficar dentro do quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi num médico de humanos, deu nisso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont me contou tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sobre vocês, principalmente de onde tiraram o nome pra banda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo mesmo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu pai, sua mãe, Kat, Egito, Jak..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não era pra contarmos pra ninguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não confia em mim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely dá meio riso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe onde está meu irmão?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Grudado naquela coisa daquela namorada dele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem alguma delas que você goste?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é minha espécie preferida. Tenho que olhar todo dia pra uma no café da amanhã."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Na sala..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como vamos provar que ela tá se atirando no Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei, talvez se deixássemos ela entrar no quarto dele..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Duvido que ela fosse perder uma chance dessas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô pensando como."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Poderíamos fingir que vamos sair e deixar ela aí."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso daria muito na cara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, podemos dizer que estamos indo pra gravadora e pedir pra ela impedir que Angely faça esforço. Mas o Angely não vai querer ajudar a gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos que fazer sem ele, antes que dê merda. Vai ser pior."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha que ele..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Hoje à noite?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Opa, o que tem hoje a noite?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha entra atrás de Edmont. Dara desce a escada. Agatha abraça e beija Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, gente, eu já tô indo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Tchau Mel, tchau Kat, tchau Edmont."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa garota é mesmo antipática."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, nós temos que ir até a gravadora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas quem vai ficar aqui com o Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu fico."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa, ele já está melhor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bem melhor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas o médico mandou ele ficar deitado e ele não tá querendo obedecer..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, ele não gosta de ficar parado. Nenhum dos dois nunca foi muito de gostar de cama. Exceto quando estão mesmo dormindo, porque aí é um inferno acordar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem certeza que quer ficar aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cuidando dele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, eu faço isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Eu posso ir com vocês..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tá fazendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vem, eles vão sair e eu vou cuidar pra não ir parar no hospital de novo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha pega Angely pelo braço e sobe a escada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Eu não preciso de babá!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Precisa sim!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Os três saem. Edmont vai até o carro"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, nós vamos fingir que estamos indo à gravadora, deixamos o carro na casa de Kat e voltamos a pé."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Faz o que ela diz."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Agatha chega no quarto com um copo d'água. Angely pega o copo e bebe. Deita na cama. Fecha os olhos. Ela encosta na porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quanto tempo eu vou ter que ficar aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estamos sozinhos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely abre os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pensei que tivesse esquecido isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu, esquecer?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela senta em cima dele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que está fazendo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai mesmo dizer que não sabe?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha abaixa para beijar Angely. Angely empurra Agatha e sai da cama para o chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha, pára com isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual é o problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é namorada do Edmont. Vocês decidiram ser mono..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu irmão não está aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode trair Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual o problema com uma traiçãozinha de nada?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De nada?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É homem como os outros, não é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabe do que ele é capaz."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele nem vai saber."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha se levanta da cama e desabotoa a própria blusa. Angely levanta do chão e dá passos para trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pensei que fosse reagir assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que está fazendo isso?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha se aproxima de Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que uma garota quer ficar com um cara?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont é igualzinho a mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Somos gêmeos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não são iguais, ele não foge de mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês namoram, Edmont não estaria traindo a confiança de alguém por isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só um detalhe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não me faça ser estúpido... A gente se conhece desde criança, vocês se gostam..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont e Mel sobem a escada. Edmont vai até a porta. Angely afasta Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você? Estúpido?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely empurra Agatha. Ela cai na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai me machucar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se for necessário."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Legal. Posso medir quem de vocês é melhor. Já amarrou alguém?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha se levanta. Atrás da porta, Edmont se senta a porta e apoia a cabeça nas mãos. Mel desvia o olhar da porta e olha para Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não... Era para te afastar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esperava me afastar só com isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha, eu não queria te machucar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, bom. Comecei a achar que isso era tudo que tinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "...mas, por favor, sai daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely respira fundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preciso mesmo dizer?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely pega a mão de Agatha e leva para a cama. Os dois se sentam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha, você namora com o Edmont, não podemos ter nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se eu desmanchasse com ele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês se amam! Que viagem é essa???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É assim que as coisas funcionam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se você sente atração por outras pessoas, porque não fala com ele sobre isso?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está se preocupando à toa, seu irmão vai demorar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha vem chegando mais perto de Angely, ele vai tentando se afastar e acaba deitado na cama, ela em cima dele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Voltando ao ponto inicial."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu nunca trairia ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas não vai ser você quem vai estar traindo, vou ser eu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A porta vem abaixo. Edmont. Agatha e Angely se levantam da cama bruscamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu te mato."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont tenta pegar Agatha, mas Angely segura Edmont contra a parede."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tira a Agatha daqui, Mel!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel pega Agatha pelo braço e correm do quarto. Descem a escada. Saem. "
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Entra no carro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Entra logo..."
+				},
+				{
+					"type": "teller",
+					"text": "respira fundo"
+				},
+				{
+					"type": "default",
+					"text": "Entra antes que eu desista de te tirar daqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha entra no carro. Mel entra. Dá a partida. Arranca. Edmont aparece na varanda. Pula da varanda. Entra no porão para porta de trás. Abre um armário. Angely chega ao porão"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que vai fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou atrás daquela maldita."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont pega um espada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é assim que vai resolver isso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E como vai me impedir?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essas armas não foram feitas pra isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E daí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei que Agatha tentou te trair, mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não percebeu o jeito como ela falava?! Acha mesmo que é a primeira vez que ela faz isso?! Você é mesmo muito inocente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, por que simplesmente não termina?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E todo aquele teatro de estar com ciúmes! Toda essa merda humana de monogamia, pra ir atrás de outros pelas minhas costas! Depois de a gente crescer junto!!! Eu achei que conhecia a Agatha!!! Eu amava essa desgraçada!!! Vou terminar, sim. Com a vida dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai matá-la só por isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela me traiu. É isso que ela merece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pensa, Edmont!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela mentiu. Eu não admito mentiras."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont sai do porão. Angely senta em um banco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele não vai encontrar elas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Angely, o que aconteceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você e a Mel armaram isso?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não podíamos deixar ela enganar o Edmont assim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely suspira. Olha para o teto. Levanta e olha para Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont vai matar Agatha se encontrar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É natural ele ficar bravo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não no sentido figurado, Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que acharam que eu não queria que falassem pra ele? Acharam mesmo que eu queria enganar Edmont? Acharam que eu tava fazendo charme pra Agatha? Acharam que eu queria ficar com ela?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, Angely, achávamos que você estava com medo de Agatha virar ele contra nós!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, vocês tinham esse medo, eu não. Ele nunca acreditaria na Agatha ao invés de acreditar em mim!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então por que não falou com ele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque agora Edmont vai matar Agatha!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que seria melhor, você ajudá-la à traí-lo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é isso que estou dizendo, eu estava conversando com ela... Eu ia convencer Agatha a falar com Edmont, se Agatha falasse..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você nunca iria convencê-la e, cedo ou tarde, Edmont iria ficar sabendo! Não é nenhum idiota!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely se senta no banco grande embutido na parede."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, tudo bem, não vai adiantar falarmos nisso agora. Mel deve ligar, dizendo pra onde elas foram. Espero que Edmont não encontre primeiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que tem tanta certeza que ele vai matar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não lembra do que eu falei? Sobre como ficou com raiva de Lisa? Não era sobre Lisa querer ficar com Hery, era sobre Lisa ter fugido simplesmente..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que ele não mudou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nunca tive tanta certeza de alguma coisa. Quando Edmont pegou aquela espada, o ódio no olhar dele... Era quase como se pudesse sentir de onde estava."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que ele não me matou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não tinha culpa. Ele acabou enxergando isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem meu pai. Nem nossa mãe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Às vistas de Edmont, eram dois traidores."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para o teto. Olhos úmidos. Kat baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha não merece morrer só por isso. Edmont deveria simplesmente terminar. Além do que, vai preso, e só por orgulho..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, Kat, não é orgulho. Foi a traição que subiu o sangue dele. Acho que tudo voltou. Não quero lutar com Edmont de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas a luta não era só pela coroa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont não aceitou a luta pela coroa. Sempre soube que acobertei a fuga. Agora ele vai achar que acobertei Agatha... Não quero ter que lutar contra Edmont de novo..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely fecha os olhos. As lágrimas descem. Kat se aproxima e abraça Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, eu e a Mel estamos aqui pra impedir isso, não vamos deixar nossos... Meus irmãos lutarem um contra o outro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat se senta ao lado de Angely. Deita Angely em seu colo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós não vamos deixar Edmont passar dos limites, ele não vai ser preso e muito menos vai querer lutar com você."
+				}
+			]
+		}
+	]
+}

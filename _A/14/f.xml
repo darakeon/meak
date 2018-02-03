@@ -1,438 +1,1431 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="14" scene="f">
-	<teller>
-		<default>Kat volta.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Ah, esta é minha casa, eu tinha esquecido, você é quem tem que sair.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Kat...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Está mentindo pra mim, eu sei! Não dá pra continuar assim.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tá tudo acabado. Aliás, nunca existiu, né? Se não, confiaria em mim.</default>
-	</talk>
-	<teller>
-		<default>Kat vai pra seu quarto.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Mel, eu não posso contar.</default>
-	</talk>
-	<talk character="Angely">
-		<arrive>Tá escondendo algo da Kat?</arrive>
-	</talk>
-	<talk character="Derik">
-		<default>Olha, eu...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu também não podia contar pra Meg. Se eu tivesse contado, não teria morrido.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não se culpe por isso.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Angely tá certo, e se acontecer alguma coisa com Kat?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Daí vai ficar com isso na consciência pelo resto da vida. Como eu.</default>
-	</talk>
-	<teller>
-		<default>Angely vai até a saída.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Onde vai?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não sei.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Melhor nós irmos procurar quem te sequestrou.</default>
-	</talk>
-	<teller>
-		<default>Angely volta e se senta.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Roger. Já viram na biblioteca?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Trouxemos o livro.</default>
-	</talk>
-	<talk character="Kat">
-		<arrive>Gente, temos um problema...</arrive>
-	</talk>
-	<teller>
-		<default>Todos olham pra Kat.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Eu sonhei hoje e tinha esquecido de falar... Agora me toquei do nome.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mais problemas?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Roger. Mora por perto.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Quão perto?</default>
-	</talk>
-	<teller>
-		<default>Kat encara Derik.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Posso encontrar.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mora na cidade. E não tá fazendo isso por si mesmo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ah... Pode nos levar?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Claro. Você vem, Angely?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que vão fazer?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sei lá, vamos ter que ver.</default>
-	</talk>
-	<talk character="Angely">
-		<default>É perigoso.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não se for o mesmo que não conseguiu te matar.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pelo menos esperem amanhecer.</default>
-	</talk>
-	<teller>
-		<first>Manhã. Mel, Kat e Derik entram em um bar de esquina. Kat senta no balcão. Mel encosta. Derik fica de frente para Mel e Kat.</first>
-	</teller>
-	<talk character="Derik">
-		<default>Como não estranham aquele bicho?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não fica o tempo todo daquele jeito.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ia ser difícil viver assim.</default>
-	</talk>
-	<talk character="Derik">
-		<default>E você sabe como é?</default>
-	</talk>
-	<teller>
-		<default>Kat vira Derik pra trás.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Não é meio... grande?</default>
-	</talk>
-	<teller>
-		<default>Roger olha, franze a testa e se aproxima.</default>
-	</teller>
-	<talk character="Roger">
-		<default>Algum problema?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Queremos falar com você.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu é que não quero!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Derik!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Minhas habilidades são de fuga, não de luta!</default>
-	</talk>
-	<talk character="Roger">
-		<default>Ele veio aqui brigar comigo?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não, eu apenas... Vim saber por que...</default>
-	</talk>
-	<teller>
-		<default>Derik mede Roger.</default>
-	</teller>
-	<talk character="Derik">
-		<default>...te-te-tentou ma-ma-matar a i-i-irmã, que-que-quer di-di-dizer, o i-i-irmão do meu... da mi-mi-minha na-na-namorada...</default>
-	</talk>
-	<talk character="Roger">
-		<default>Você é bem confuso. E por que gagueja tanto?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ta-ta-também ga-ga-gaguejaria se vi-vi-visse a-a-alguém co-com o do-do-dobro do seu ta-ta-tamanho.</default>
-	</talk>
-	<teller>
-		<default>Roger sorri.</default>
-	</teller>
-	<talk character="Roger">
-		<default>Isso ia ser meio difícil.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tudo bem, vocês dois não deviam ter vindo, deixa que eu falo.</default>
-	</talk>
-	<teller>
-		<default>Roger olha Mel de cima a baixo. Mel encara Roger.</default>
-	</teller>
-	<talk character="Roger">
-		<default>Se quiser algo além de falar...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Saiam os dois daqui.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mas...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Saiam.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Melhor nós fazermos o que Mel tá mandando.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Covarde!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Covarde, não, um ser inteligente com instinto de sobrevivência!</default>
-	</talk>
-	<teller>
-		<default>Derik sai, levando Kat.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Você realmente não vai querer me deixar com raiva.</default>
-	</talk>
-	<talk character="Roger">
-		<default>É?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quero saber e quero saber agora quem tá pagando você pra fazer isso.</default>
-	</talk>
-	<talk character="Roger">
-		<default>E como vai me convencer a falar?</default>
-	</talk>
-	<teller>
-		<first>Noite. Casa de Kat.</first>
-	</teller>
-	<talk character="Derik">
-		<default>E aí?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Me deu um endereço.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Como convenceu?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Parei de bater.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E vamos até lá?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Amanhã.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Por que??? Temos sempre que deixar pra amanhã???</default>
-	</talk>
-	<talk character="Kat">
-		<default>Algum problema?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Vocês estão correndo perigo de vida! Não se importam com isso???</default>
-	</talk>
-	<talk character="Kat">
-		<default>Calma!</default>
-	</talk>
-	<talk character="Derik">
-		<default>E se acontecer algo com você???</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não vai! É com Angely!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Agora sabe?</default>
-	</talk>
-	<talk character="Kat">
-		<default>O foco virou o Angely.</default>
-	</talk>
-	<teller>
-		<default>Mel franze a testa.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Não pergunta, não sei responder.</default>
-	</talk>
-	<teller>
-		<default>Derik abraça Kat. Mel vai até a cozinha.</default>
-	</teller>
-	<talk character="Mel">
-		<default>É, conseguiu mesmo deixar Derik com medo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Do que tá falando?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Falou tanto daquele negócio de Meg que agora Derik acha que pode acontecer algo com Kat.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Acho que devia contar.</default>
-	</talk>
-	<teller>
-		<first>Madrugada. Angely está no jardim. Chega um carro. Abre a porta. Desce.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Você...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não, não vim pra ficar. Mas sei que estão com problemas.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mel conseguiu um endereço. Talvez seja da pessoa que está tentando matar a gente.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Qual o endereço?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu pego lá dentro, com uma condição.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Qual?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não vai sem mim.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E o que vai fazer? Ficar olhando pras paredes enquanto...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Só quero saber quem foi antes de você matar.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É, você me conhece bem. Vai lá.</default>
-	</talk>
-	<teller>
-		<default>Angely entra na casa. Vai até o quarto. Olha para a cabeceira do lado de Mel. Dá a volta na cama. Coloca a mão no papel, mas outra mão segura sua mão.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Onde pensa que vai sem mim?</default>
-	</talk>
-	<teller>
-		<default>Minutos depois, Edmont está de costas, recostou-se no carro.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Achei que vinha sem ninguém.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu também.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sou parte disso.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Pelo menos é mais alguém pra lutar além de mim.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Impressão minha ou mudou o visual?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>As pessoas mudam.</default>
-	</talk>
-	<teller>
-		<first>Param o carro na frente de um grande armazém. Saem do carro. Edmont franze a testa.</first>
-	</teller>
-	<talk character="Edmont">
-		<default>Droga...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu sei quem tá fazendo isso.</default>
-	</talk>
-	<teller>
-		<default>Edmont olha em volta.</default>
-	</teller>
-	<talk character="Edmont">
-		<screamed>E tenho certeza que você me ouviu.</screamed>
-	</talk>
-	<talk character="Beatrice">
-		<arrive>Do que tá falando?</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Tenho certeza que atrás de você não tem ninguém.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>O próximo passo era matar a família.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Toca na minha de novo e vai ver o que te acontece.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>É?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não vai matar Beatrice?! Angely eu entendo, mas você já teria enfiado a estaca antes de começar essa conversa!!!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tira Mel daqui.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Agora acha que mandam em mim???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vamos, Mel.</default>
-	</talk>
-	<teller>
-		<default>Edmont joga a chave para Angely. Angely entrega a chave para Mel. Entra no banco do passageiro. Mel franze a testa. Olha para Edmont. Então para Beatrice. Entra no carro.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Explica agora.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vamos embora, por favor.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por que???</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Angely. Angely baixa a cabeça.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Então???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não percebeu?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Perceber o que???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont...</default>
-	</talk>
-	<teller>
-		<default>Mel olha para fora. Edmont continua firme, olhando para Beatrice. Beatrice olha para Angely. Então para Mel. Sorri.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não pode ser.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mas é.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então é melhor...</default>
-	</talk>
-	<teller>
-		<default>Angely olha para Mel com os olhos marejados.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Sairmos daqui.</default>
-	</talk>
-	<teller>
-		<default>Mel olha pra Angely. Coloca a chave na ignição. Dá partida. Saem com o carro.</default>
-	</teller>
-</story>
+{
+	"season": "A",
+	"episode": "14",
+	"scene": "f",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, esta é minha casa, eu tinha esquecido, você é quem tem que sair."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está mentindo pra mim, eu sei! Não dá pra continuar assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá tudo acabado. Aliás, nunca existiu, né? Se não, confiaria em mim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat vai pra seu quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, eu não posso contar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Tá escondendo algo da Kat?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu também não podia contar pra Meg. Se eu tivesse contado, não teria morrido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não se culpe por isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely tá certo, e se acontecer alguma coisa com Kat?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Daí vai ficar com isso na consciência pelo resto da vida. Como eu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely vai até a saída."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor nós irmos procurar quem te sequestrou."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely volta e se senta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Roger. Já viram na biblioteca?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Trouxemos o livro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Gente, temos um problema..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Todos olham pra Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sonhei hoje e tinha esquecido de falar... Agora me toquei do nome."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mais problemas?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Roger. Mora por perto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quão perto?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat encara Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso encontrar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mora na cidade. E não tá fazendo isso por si mesmo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah... Pode nos levar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro. Você vem, Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que vão fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sei lá, vamos ter que ver."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É perigoso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não se for o mesmo que não conseguiu te matar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo menos esperem amanhecer."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Manhã. Mel, Kat e Derik entram em um bar de esquina. Kat senta no balcão. Mel encosta. Derik fica de frente para Mel e Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como não estranham aquele bicho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fica o tempo todo daquele jeito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ia ser difícil viver assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você sabe como é?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat vira Derik pra trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é meio... grande?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Roger olha, franze a testa e se aproxima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Roger",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Algum problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Queremos falar com você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu é que não quero!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minhas habilidades são de fuga, não de luta!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Roger",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele veio aqui brigar comigo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, eu apenas... Vim saber por que..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik mede Roger."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "...te-te-tentou ma-ma-matar a i-i-irmã, que-que-quer di-di-dizer, o i-i-irmão do meu... da mi-mi-minha na-na-namorada..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Roger",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é bem confuso. E por que gagueja tanto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ta-ta-também ga-ga-gaguejaria se vi-vi-visse a-a-alguém co-com o do-do-dobro do seu ta-ta-tamanho."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Roger sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Roger",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso ia ser meio difícil."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, vocês dois não deviam ter vindo, deixa que eu falo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Roger olha Mel de cima a baixo. Mel encara Roger."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Roger",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se quiser algo além de falar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Saiam os dois daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Saiam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor nós fazermos o que Mel tá mandando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Covarde!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Covarde, não, um ser inteligente com instinto de sobrevivência!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik sai, levando Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você realmente não vai querer me deixar com raiva."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Roger",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quero saber e quero saber agora quem tá pagando você pra fazer isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Roger",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E como vai me convencer a falar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite. Casa de Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me deu um endereço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como convenceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parei de bater."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E vamos até lá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Amanhã."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que??? Temos sempre que deixar pra amanhã???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Algum problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês estão correndo perigo de vida! Não se importam com isso???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se acontecer algo com você???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai! É com Angely!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O foco virou o Angely."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pergunta, não sei responder."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik abraça Kat. Mel vai até a cozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, conseguiu mesmo deixar Derik com medo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que tá falando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falou tanto daquele negócio de Meg que agora Derik acha que pode acontecer algo com Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que devia contar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Madrugada. Angely está no jardim. Chega um carro. Abre a porta. Desce."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, não vim pra ficar. Mas sei que estão com problemas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel conseguiu um endereço. Talvez seja da pessoa que está tentando matar a gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual o endereço?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu pego lá dentro, com uma condição."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai sem mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que vai fazer? Ficar olhando pras paredes enquanto..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só quero saber quem foi antes de você matar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, você me conhece bem. Vai lá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely entra na casa. Vai até o quarto. Olha para a cabeceira do lado de Mel. Dá a volta na cama. Coloca a mão no papel, mas outra mão segura sua mão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde pensa que vai sem mim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minutos depois, Edmont está de costas, recostou-se no carro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei que vinha sem ninguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sou parte disso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo menos é mais alguém pra lutar além de mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Impressão minha ou mudou o visual?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As pessoas mudam."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Param o carro na frente de um grande armazém. Saem do carro. Edmont franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei quem tá fazendo isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont olha em volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "E tenho certeza que você me ouviu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Do que tá falando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho certeza que atrás de você não tem ninguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O próximo passo era matar a família."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca na minha de novo e vai ver o que te acontece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai matar Beatrice?! Angely eu entendo, mas você já teria enfiado a estaca antes de começar essa conversa!!!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tira Mel daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora acha que mandam em mim???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos, Mel."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont joga a chave para Angely. Angely entrega a chave para Mel. Entra no banco do passageiro. Mel franze a testa. Olha para Edmont. Então para Beatrice. Entra no carro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Explica agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos embora, por favor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Angely. Angely baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não percebeu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Perceber o que???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para fora. Edmont continua firme, olhando para Beatrice. Beatrice olha para Angely. Então para Mel. Sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode ser."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas é."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então é melhor..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Mel com os olhos marejados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sairmos daqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha pra Angely. Coloca a chave na ignição. Dá partida. Saem com o carro."
+				}
+			]
+		}
+	]
+}

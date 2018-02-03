@@ -1,433 +1,1418 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="03" scene="d">
-	<teller>
-		<default>Edmont entra na casa. Vai na direção da cozinha. Angely vai segui-lo, ele encara Angely. Olha para Rith. Vai para a cozinha. Rith o segue. Halen vai atrás.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Sei quem vocês são.</default>
-	</talk>
-	<talk character="Halen">
-		<default>Ele se dispôs a te ajudar. Falou com Júlio, por causa de você e Agatha. Então não...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Obrigado.</default>
-	</talk>
-	<talk character="Halen">
-		<default>Como?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Acho que Katerine não tem a culpa que eu ia descontar nela.</default>
-	</talk>
-	<teller>
-		<default>Halen olha para Rith, que sorri.</default>
-	</teller>
-	<talk character="Rith">
-		<default>Tudo bem.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Cuidaram bem dela.</default>
-	</talk>
-	<teller>
-		<default>Gritos na sala. Eles se entreolham. Voltam.</default>
-	</teller>
-	<talk character="Júlio">
-		<screamed>Esse maldito moleque que...</screamed>
-	</talk>
-	<teller>
-		<default>Mel tira uma faca da cintura, de trás.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Cala a boca.</default>
-	</talk>
-	<teller>
-		<default>Júlio olha para Agatha.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>É com isso que você quer se meter?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Agora, ou te faço calar.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Calma, solta isso.</default>
-	</talk>
-	<teller>
-		<default>Mel atira a faca na mesa.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Por que não deixa ela me matar? O caminho fica livre.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É isso que pensa de mim?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Bancou o herói, agora vai bancar a vítima.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Pai, para com isso!</default>
-	</talk>
-	<talk character="Rith">
-		<default>Júlio, eles já conhecem ela.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Ah, é? Desde quando?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Desde sempre.</default>
-	</talk>
-	<teller>
-		<default>Júlio olha pra Angely por alguns segundos. Sua expressão ameniza. Olha assustado para Rith.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Você sabe de tudo?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Lembra que eu falei de um casal que levou a minha irmã, pra desviar Edmont?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Mas então, Katerine é...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Minha irmã.</default>
-	</talk>
-	<talk character="Kat">
-		<arrive>Isso tá muito confuso.</arrive>
-	</talk>
-	<talk character="Rith">
-		<default>Não sabia que estava ouvindo.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu sabia que filha de vocês eu não era, só não sabia que era filha de pessoas que já moraram em outro planeta...</default>
-	</talk>
-	<talk character="Rith">
-		<default>Sabia?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Deviam falar mais baixo de noite.</default>
-	</talk>
-	<talk character="Halen">
-		<default>Até que horas a senhorita fica acordada?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não tenho culpa se não me deixam dormir com o escândalo que fazem.</default>
-	</talk>
-	<teller>
-		<default>Halen fica vermelha.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Que confusão... Kat é sua irmã, eu sou irmã da Kat, logo...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, sou meia irmã do Angely, e você minha irmã só de criação. Portanto, não precisa se preocupar. Assim como o Edmont e a Agatha também não precisam.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Por que as crianças vêem as coisas tão simples?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá bonito o drama de família, mas eu ainda estou aqui.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Percebesse.</default>
-	</talk>
-	<teller>
-		<default>Mel vai sair, mas Edmont segura o braço dela.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Eu não tenho que ficar agüentando isso.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ele é</default>
-		<frizz>meu</frizz>
-		<default>namorado.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Ei!</default>
-	</talk>
-	<talk character="Rith">
-		<default>Júlio...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não quero tomar</default>
-		<teller>olha para Edmont</teller>
-		<frizz>seu</frizz>
-		<teller>olha para Agatha</teller>
-		<default>namorado.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Agatha, isso é mais sério que namoro. Temos um problema sério aqui.</default>
-	</talk>
-	<talk character="Meg">
-		<default>É, temos sim.</default>
-	</talk>
-	<teller>
-		<default>Kat olha para o teto. Sobe de volta.</default>
-	</teller>
-	<talk character="Halen">
-		<default>Onde ela vai ficar?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Aqui não é.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Nem na minha casa.</default>
-	</talk>
-	<teller>
-		<default>Angely e Edmont encaram Meg e Agatha.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Tem uma casa abandonada por aqui. Pode ficar lá.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Valeu.</default>
-	</talk>
-	<teller>
-		<default>Mel sai. Júlio olha para Agatha.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>E você...</default>
-	</talk>
-	<talk character="Rith">
-		<default>Não nasceu na idade média pra ficar sendo controlada pelo pai.</default>
-	</talk>
-	<teller>
-		<default>Júlio encara Rith. Agatha beija Edmont. Edmont olha para Angely. Angely olha para a porta. Meg fica olhando para Angely.</default>
-	</teller>
-	<teller>
-		<first>Mel numa sala empoeirada. </first>
-	</teller>
-	<talk character="Mel">
-		<default>Alguém em casa?</default>
-	</talk>
-	<talk character="Elian">
-		<default>Que fazes cá? Qual teu nome?</default>
-	</talk>
-	<teller>
-		<default>Mel fica olhando para Elian alguns segundos, esperando algo. Elian não reage.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Melody. Acho que não tá muito afim de visitas.</default>
-	</talk>
-	<teller>
-		<default>Mel sai da casa.</default>
-	</teller>
-	<talk character="Elian">
-		<default>Conheço ela de algum lugar...</default>
-	</talk>
-	<teller>
-		<default>Uma jovem se aproxima dele.</default>
-	</teller>
-	<talk character="Beatrice">
-		<default>Por que tratas todos assim?</default>
-	</talk>
-	<talk character="Elian">
-		<default>Era uma humana, uma ameaça.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Também trataste a garotinha assim, ontem.</default>
-	</talk>
-	<talk character="Elian">
-		<default>Deu-te algo que me feriu.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>E eu joguei fora.</default>
-	</talk>
-	<talk character="Elian">
-		<default>Não quero que cresças entre humanos.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Também sou uma.</default>
-	</talk>
-	<talk character="Elian">
-		<default>Mas logo não serás.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Poderei andar contigo?</default>
-	</talk>
-	<talk character="Elian">
-		<default>És minha menina.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Quando?</default>
-	</talk>
-	<talk character="Elian">
-		<default>Logo. Venha cá.</default>
-	</talk>
-	<teller>
-		<default>Ele a puxa e a beija.</default>
-	</teller>
-	<teller>
-		<first>Angely encontra Mel na estrada, pedindo carona.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Pra onde está indo?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pro mais longe possível. Além de tudo aguentar drama de adolescente não dá.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por que tá fugindo de quem quer te ajudar?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não estou fugindo, eles que não me querem lá.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pode estar enganada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É, parecia bem acolhedor. Principalmente o cara que me mandou pra casa que já tá devidamente ocupada.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sobe aí.</default>
-	</talk>
-	<teller>
-		<default>Ela o encara.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Não veio atrás de gente a toa, sei que precisa de ajuda.</default>
-	</talk>
-	<teller>
-		<default>Ela suspira fundo.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Desce. Eu piloto.</default>
-	</talk>
-	<teller>
-		<default>Angely desce, Mel assume, Angely sobe atrás. Eles vão até a casa de Júlio.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Pode ficar aqui, se Júlio deixar. Edmont está na casa de Rith e Agatha já está enciumada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ele não mora aqui?</default>
-	</talk>
-	<talk character="Júlio">
-		<arrive>Ele vai ficar na casa de Rith.</arrive>
-		<default>Agora que está namorando com a minha filha, não quero que eles durmam na mesma casa.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ela pode ficar aqui?</default>
-	</talk>
-	<talk character="Júlio">
-		<irony>Pode. A segunda cama alienígena na casa vagou.</irony>
-	</talk>
-	<talk character="Agatha">
-		<arrive>Ela vai ficar aqui?</arrive>
-	</talk>
-	<talk character="Mel">
-		<default>Aquele seu papo de "quem quer te ajudar", pode me apresentar essa pessoa? Seria legal da sua parte.</default>
-	</talk>
-	<teller>
-		<default>Toca o telefone. Agatha corre pro quarto. Tranca a porta. Atende.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Meg?</default>
-	</talk>
-	<talk character="Meg">
-		<out>Ela tá aí, né?</out>
-	</talk>
-	<talk character="Agatha">
-		<default>Tá. Angely tá a perigo, viu? Inocente do jeito que é...</default>
-	</talk>
-	<talk character="Meg">
-		<out>É, eu sei. Bryan disse que ele é gay.</out>
-	</talk>
-	<talk character="Agatha">
-		<default>Eu não acreditaria no Bryan. Ele já usava isso como ofensa antes, depois que a irmã arrombou a porta do armário e os pais não ligaram, parece que ficou pior...</default>
-	</talk>
-	<talk character="Meg">
-		<out>Ah, mas se começar a se comportar demais, aí vou começar a desconfiar.</out>
-	</talk>
-	<talk character="Agatha">
-		<default>Prefere que alguém mais experiente teste ele?</default>
-	</talk>
-	<talk character="Meg">
-		<out>Não, deixa que eu faço isso.</out>
-	</talk>
-	<teller>
-		<first>Noite. Angely vai até a terceira casa.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Nossa, ninguém arruma mesmo esse lugar.</default>
-	</talk>
-	<talk character="Beatrice">
-		<arrive>É melhor ires embora.</arrive>
-	</talk>
-	<talk character="Angely">
-		<default>Beatrice?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Cresceste bastante.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pelas minhas contas, você devia ter uns quatorze...</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Doze. Por quê? Não te parece?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Parece ter uns dezoito...</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Melhor saires, Elian voltará antes de amanhecer.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você falava tanto de Elian, e eu nunca vi.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Ele sai quando escurece.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Aliás, ninguém nunca viu...</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Eu não sou ninguém.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não foi isso que eu quis dizer. Digo que ninguém além de você. Tem certeza que essa pessoa existe?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Existe!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tá, desculpa. Queria ver...</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não, vai embora. Ele não gosta que eu fale com humanos.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ah?!</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Que ele não conhece.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ah, tá. Eu já estou indo.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>A menina veio trazer-me algo ontem.</default>
-	</talk>
-	<teller>
-		<default>Beatrice vai até uma caixa e pega uma bolsinha de pano e entrega a Angely. Ele abre a bolsinha e tira de dentro uma pequena cruz.</default>
-	</teller>
-	<talk character="Beatrice">
-		<default>Devolvas a ela.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por quê?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Machucou a mão dele.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não machuca a mão, vê?</default>
-	</talk>
-	<teller>
-		<default>Angely mostra a mão aberta com a cruz na palma. Ela fecha a mão dele.</default>
-	</teller>
-	<talk character="Beatrice">
-		<default>Leves isso daqui. Ele pediu pra que eu queimasse, não sabe que eu guardei pra devolver. Vai agora.</default>
-	</talk>
-	<teller>
-		<default>Ele coloca a cruz dentro da pequena bolsa e volta pra casa.</default>
-	</teller>
-</story>
+{
+	"season": "A",
+	"episode": "03",
+	"scene": "d",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont entra na casa. Vai na direção da cozinha. Angely vai segui-lo, ele encara Angely. Olha para Rith. Vai para a cozinha. Rith o segue. Halen vai atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sei quem vocês são."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele se dispôs a te ajudar. Falou com Júlio, por causa de você e Agatha. Então não..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Obrigado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que Katerine não tem a culpa que eu ia descontar nela."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Halen olha para Rith, que sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cuidaram bem dela."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gritos na sala. Eles se entreolham. Voltam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Esse maldito moleque que..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel tira uma faca da cintura, de trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cala a boca."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio olha para Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É com isso que você quer se meter?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora, ou te faço calar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma, solta isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel atira a faca na mesa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não deixa ela me matar? O caminho fica livre."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É isso que pensa de mim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bancou o herói, agora vai bancar a vítima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pai, para com isso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio, eles já conhecem ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, é? Desde quando?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desde sempre."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio olha pra Angely por alguns segundos. Sua expressão ameniza. Olha assustado para Rith."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você sabe de tudo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lembra que eu falei de um casal que levou a minha irmã, pra desviar Edmont?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas então, Katerine é..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minha irmã."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Isso tá muito confuso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabia que estava ouvindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sabia que filha de vocês eu não era, só não sabia que era filha de pessoas que já moraram em outro planeta..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deviam falar mais baixo de noite."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Até que horas a senhorita fica acordada?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tenho culpa se não me deixam dormir com o escândalo que fazem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Halen fica vermelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que confusão... Kat é sua irmã, eu sou irmã da Kat, logo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, sou meia irmã do Angely, e você minha irmã só de criação. Portanto, não precisa se preocupar. Assim como o Edmont e a Agatha também não precisam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que as crianças vêem as coisas tão simples?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá bonito o drama de família, mas eu ainda estou aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Percebesse."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel vai sair, mas Edmont segura o braço dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não tenho que ficar agüentando isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele é"
+				},
+				{
+					"type": "frizz",
+					"text": "meu"
+				},
+				{
+					"type": "default",
+					"text": "namorado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quero tomar"
+				},
+				{
+					"type": "teller",
+					"text": "olha para Edmont"
+				},
+				{
+					"type": "frizz",
+					"text": "seu"
+				},
+				{
+					"type": "teller",
+					"text": "olha para Agatha"
+				},
+				{
+					"type": "default",
+					"text": "namorado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha, isso é mais sério que namoro. Temos um problema sério aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, temos sim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat olha para o teto. Sobe de volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde ela vai ficar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aqui não é."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem na minha casa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely e Edmont encaram Meg e Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem uma casa abandonada por aqui. Pode ficar lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Valeu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sai. Júlio olha para Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não nasceu na idade média pra ficar sendo controlada pelo pai."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio encara Rith. Agatha beija Edmont. Edmont olha para Angely. Angely olha para a porta. Meg fica olhando para Angely."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Mel numa sala empoeirada. "
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguém em casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que fazes cá? Qual teu nome?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel fica olhando para Elian alguns segundos, esperando algo. Elian não reage."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody. Acho que não tá muito afim de visitas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sai da casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Conheço ela de algum lugar..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma jovem se aproxima dele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que tratas todos assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Era uma humana, uma ameaça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também trataste a garotinha assim, ontem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deu-te algo que me feriu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E eu joguei fora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quero que cresças entre humanos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também sou uma."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas logo não serás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Poderei andar contigo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "És minha menina."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Logo. Venha cá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele a puxa e a beija."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Angely encontra Mel na estrada, pedindo carona."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra onde está indo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pro mais longe possível. Além de tudo aguentar drama de adolescente não dá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que tá fugindo de quem quer te ajudar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não estou fugindo, eles que não me querem lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode estar enganada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, parecia bem acolhedor. Principalmente o cara que me mandou pra casa que já tá devidamente ocupada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sobe aí."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela o encara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não veio atrás de gente a toa, sei que precisa de ajuda."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela suspira fundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desce. Eu piloto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely desce, Mel assume, Angely sobe atrás. Eles vão até a casa de Júlio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ficar aqui, se Júlio deixar. Edmont está na casa de Rith e Agatha já está enciumada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele não mora aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Ele vai ficar na casa de Rith."
+				},
+				{
+					"type": "default",
+					"text": "Agora que está namorando com a minha filha, não quero que eles durmam na mesma casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela pode ficar aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Pode. A segunda cama alienígena na casa vagou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Ela vai ficar aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aquele seu papo de "quem quer te ajudar", pode me apresentar essa pessoa? Seria legal da sua parte."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca o telefone. Agatha corre pro quarto. Tranca a porta. Atende."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Ela tá aí, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá. Angely tá a perigo, viu? Inocente do jeito que é..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "É, eu sei. Bryan disse que ele é gay."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não acreditaria no Bryan. Ele já usava isso como ofensa antes, depois que a irmã arrombou a porta do armário e os pais não ligaram, parece que ficou pior..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Ah, mas se começar a se comportar demais, aí vou começar a desconfiar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Prefere que alguém mais experiente teste ele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Não, deixa que eu faço isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite. Angely vai até a terceira casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, ninguém arruma mesmo esse lugar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "É melhor ires embora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cresceste bastante."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelas minhas contas, você devia ter uns quatorze..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Doze. Por quê? Não te parece?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece ter uns dezoito..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor saires, Elian voltará antes de amanhecer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você falava tanto de Elian, e eu nunca vi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele sai quando escurece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aliás, ninguém nunca viu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não sou ninguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi isso que eu quis dizer. Digo que ninguém além de você. Tem certeza que essa pessoa existe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Existe!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, desculpa. Queria ver..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, vai embora. Ele não gosta que eu fale com humanos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que ele não conhece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, tá. Eu já estou indo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A menina veio trazer-me algo ontem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice vai até uma caixa e pega uma bolsinha de pano e entrega a Angely. Ele abre a bolsinha e tira de dentro uma pequena cruz."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devolvas a ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Machucou a mão dele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não machuca a mão, vê?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely mostra a mão aberta com a cruz na palma. Ela fecha a mão dele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leves isso daqui. Ele pediu pra que eu queimasse, não sabe que eu guardei pra devolver. Vai agora."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele coloca a cruz dentro da pequena bolsa e volta pra casa."
+				}
+			]
+		}
+	]
+}

@@ -1,266 +1,875 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="15" scene="g">
-	<teller>
-		<default>Manhã seguinte. Lokslay chega ao escritório. Mel está em sua cadeira.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Acho que já leu o jornal.</default>
-	</talk>
-	<teller>
-		<default>Mel joga sobre a mesa um jornal. Lokslay franze a testa e pega. Vê três fotos: Íris, Clarice e um incêndio. Título: "Rua sem saída". Lokslay sorri.</default>
-	</teller>
-	<talk character="Lokslay">
-		<default>Esses caras gostam de uma boa ironia. Fez parecer uma fuga que deu errado?</default>
-	</talk>
-	<teller>
-		<default>MEAK. Angely chega, com um jornal na mão.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Mel!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não está.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Foi você quem fez isso... Mel tinha pedido pra eu levar em segurança...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não fui, não. Aliás, tanto a idéia quanto o lucro foram de Mel.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não pode ser.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sabe que Mel é uma pessoa esperta.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Kat sabe disso?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Está nisso. Aliás, não só Kat como Handhara também.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tá mentindo... Só pode estar...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não é tão ruim assim, Angely.</default>
-	</talk>
-	<talk character="Angely">
-		<default>"Não é tão ruim"??? Achei que você ainda tinha recuperação...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ei, ei, ei...</default>
-	</talk>
-	<talk character="Angely">
-		<default>E agora arrastou todo mundo junto... Isso só pode ser um pesadelo...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não se aflija tanto. Que tal assistirmos um pouco de TV?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que???</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Talvez se acalme.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu não vou ficar aqui assistindo...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Acho que não entendeu...</default>
-		<teller>aponta uma arma pra Angely</teller>
-		<default>Não estou pedindo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vai te ferir também.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É, mas caído aqui no chão não vai poder fazer nada de qualquer jeito.</default>
-	</talk>
-	<teller>
-		<default>Escritório de Lokslay.</default>
-	</teller>
-	<talk character="Lokslay">
-		<default>Serviço limpo e rápido.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Cumpriu sua parte?</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Por que não cumpriria? Uma coisa tão simples...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tanto quanto matar seu filho?</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Rômulo me decepcionou. E muito. Por que o disfarce?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Deveria ter descoberto que Clarice nunca aceitaria suborno. Não desta empresa.</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Não a culpo. Tivemos que... Demitir o pai dela.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Detesto eufemismos. Por que não fala matar?</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Matar é um termo muito forte.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Termos fracos são para os fracos.</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Tudo bem. Que tal assim: "Eu matei meu filho, eu matei Rômulo Lokslay Júnior"?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Como se isso fosse grande coisa perto da sujeira de tudo isso aqui...</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Me admira saber de tanto.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Fingi para Clarice que não mataria se me contasse tudo. Tinha guardado os arquivos do pai. Aliás, deveria cobrar algo a mais por eles. Aposto que você pagaria.</default>
-	</talk>
-	<talk character="Carl">
-		<arrive>Senhor...</arrive>
-	</talk>
-	<talk character="Lokslay">
-		<default>Estou ocupado.</default>
-	</talk>
-	<talk character="Carl">
-		<default>Mas...</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Quanto?</default>
-	</talk>
-	<talk character="Mel">
-		<default>É interessante pensar que, enquanto as pessoas honestas pagam seus impostos e mal conseguem viver por isso, você está aqui, rico, e sem tirar um tostão do seu bolso pra ajudar.</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>É fácil. É só ter pessoas que te devem favores.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quanto pagaria para eu queimar toda a sujeira da sua empresa?</default>
-	</talk>
-	<talk character="Carl">
-		<default>Senhor...</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Não sei. Que vai querer dessa vez?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Um sorriso.</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Ãh?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pra câmera. Devia ter escolhido uma roupa melhor, a gente tá ao vivo. Agora que é famoso, o que pretende fazer?</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Sua...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Olha o horário, tem crianças assistindo. Ah, quero declarar que qualquer coisa que venha a me acontecer é única e exclusivamente culpa de Lokslay. Mas eu realmente duvido que você vá conseguir tocar em um fio de cabelo meu.</default>
-	</talk>
-	<talk character="Lokslay">
-		<default>Tá blefando.</default>
-	</talk>
-	<talk character="Carl">
-		<default>Na verdade, não. Era isso que eu tava tentando avisar.</default>
-	</talk>
-	<teller>
-		<default>Lokslay olha pra Carl. Brad entra na sala, acompanhado de outros policiais.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Bom, acho que não vamos precisar interrogar esse.</default>
-	</talk>
-	<teller>
-		<default>Brad algema Lokslay. Puxa para fora da sala. Lokslay ainda fica encarando Mel. Brad empurra Lokslay para dentro do elevador. Desce. Sai do prédio. Lokslay olha para Clarice e Íris. Encara até entrar no carro.</default>
-	</teller>
-	<talk character="Clarice">
-		<default>Acho que ele vai precisar de advogado.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Adoraria perder esse caso!</default>
-	</talk>
-	<teller>
-		<default>Lanchonete. Dara, Derik e Kat estão comendo.</default>
-	</teller>
-	<talk character="Mel">
-		<arrive>Nem me esperaram?!</arrive>
-	</talk>
-	<talk character="Dara">
-		<default>Ainda bem que chegou, tava queimando a minha mão já.</default>
-	</talk>
-	<talk character="Derik">
-		<default>A comida tava quente?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não, sua besta, de bancar a vela.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Kat tava com medo. Podiam ter me contato!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Só de pensar em explosões, já fico nervosa.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas nós conseguimos. Lokslay vai pra cadeia.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não precisava pintar um alvo na bunda.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não vai fazer porra nenhuma. Tudo que eu podia fazer contra já fiz, e sou um alvo a vista demais. E, mesmo que tente, tá achando que somos só humanos.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Ô, assim eu vou me doer!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Pena que não possamos consertar o resto do mundo.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Quem sabe, um dia...</default>
-	</talk>
-	<teller>
-		<first>Angely suspira. Se joga para trás no sofá. Levanta. Olha para os lados. Senta-se novamente.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Bom saber que você ainda tem um coração.</default>
-	</talk>
-	<teller>
-		<division>Algum tempo, algum lugar</division>
-	</teller>
-	<talk character="Xien">
-		<default>Então a gente conseguia trocar de corpo?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Ixi, desistiu da terceira pessoa e vai falar no plural!</default>
-	</talk>
-	<talk character="Xien">
-		<default>Ah, sei lá!</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Foi um feitiço.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Parece divertido.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Edmont parecia achar isso. Angely nem tanto.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Ei! Eu só tava falando que parece legal desaparecer em um lugar e aparecer em outro.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Que seja.</default>
-	</talk>
-	<talk character="Xien">
-		<default>E essa aposta, quem...</default>
-	</talk>
-	<teller>
-		<default>Uehfo some. Xien solta os ombros. Senta no chão.</default>
-	</teller>
-</story>
+{
+	"season": "A",
+	"episode": "15",
+	"scene": "g",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manhã seguinte. Lokslay chega ao escritório. Mel está em sua cadeira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que já leu o jornal."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel joga sobre a mesa um jornal. Lokslay franze a testa e pega. Vê três fotos: Íris, Clarice e um incêndio. Título: "Rua sem saída". Lokslay sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esses caras gostam de uma boa ironia. Fez parecer uma fuga que deu errado?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "MEAK. Angely chega, com um jornal na mão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não está."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi você quem fez isso... Mel tinha pedido pra eu levar em segurança..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fui, não. Aliás, tanto a idéia quanto o lucro foram de Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode ser."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe que Mel é uma pessoa esperta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat sabe disso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está nisso. Aliás, não só Kat como Handhara também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá mentindo... Só pode estar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é tão ruim assim, Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": ""Não é tão ruim"??? Achei que você ainda tinha recuperação..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, ei, ei..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E agora arrastou todo mundo junto... Isso só pode ser um pesadelo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não se aflija tanto. Que tal assistirmos um pouco de TV?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez se acalme."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não vou ficar aqui assistindo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que não entendeu..."
+				},
+				{
+					"type": "teller",
+					"text": "aponta uma arma pra Angely"
+				},
+				{
+					"type": "default",
+					"text": "Não estou pedindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai te ferir também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, mas caído aqui no chão não vai poder fazer nada de qualquer jeito."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Escritório de Lokslay."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Serviço limpo e rápido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cumpriu sua parte?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não cumpriria? Uma coisa tão simples..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tanto quanto matar seu filho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rômulo me decepcionou. E muito. Por que o disfarce?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deveria ter descoberto que Clarice nunca aceitaria suborno. Não desta empresa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não a culpo. Tivemos que... Demitir o pai dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Detesto eufemismos. Por que não fala matar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Matar é um termo muito forte."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Termos fracos são para os fracos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem. Que tal assim: "Eu matei meu filho, eu matei Rômulo Lokslay Júnior"?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como se isso fosse grande coisa perto da sujeira de tudo isso aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me admira saber de tanto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fingi para Clarice que não mataria se me contasse tudo. Tinha guardado os arquivos do pai. Aliás, deveria cobrar algo a mais por eles. Aposto que você pagaria."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Carl",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Senhor..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estou ocupado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Carl",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quanto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É interessante pensar que, enquanto as pessoas honestas pagam seus impostos e mal conseguem viver por isso, você está aqui, rico, e sem tirar um tostão do seu bolso pra ajudar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É fácil. É só ter pessoas que te devem favores."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quanto pagaria para eu queimar toda a sujeira da sua empresa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Carl",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Senhor..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Que vai querer dessa vez?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um sorriso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ãh?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra câmera. Devia ter escolhido uma roupa melhor, a gente tá ao vivo. Agora que é famoso, o que pretende fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sua..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha o horário, tem crianças assistindo. Ah, quero declarar que qualquer coisa que venha a me acontecer é única e exclusivamente culpa de Lokslay. Mas eu realmente duvido que você vá conseguir tocar em um fio de cabelo meu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lokslay",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá blefando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Carl",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na verdade, não. Era isso que eu tava tentando avisar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lokslay olha pra Carl. Brad entra na sala, acompanhado de outros policiais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, acho que não vamos precisar interrogar esse."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad algema Lokslay. Puxa para fora da sala. Lokslay ainda fica encarando Mel. Brad empurra Lokslay para dentro do elevador. Desce. Sai do prédio. Lokslay olha para Clarice e Íris. Encara até entrar no carro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Clarice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que ele vai precisar de advogado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Adoraria perder esse caso!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lanchonete. Dara, Derik e Kat estão comendo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Nem me esperaram?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda bem que chegou, tava queimando a minha mão já."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A comida tava quente?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, sua besta, de bancar a vela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat tava com medo. Podiam ter me contato!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só de pensar em explosões, já fico nervosa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas nós conseguimos. Lokslay vai pra cadeia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisava pintar um alvo na bunda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai fazer porra nenhuma. Tudo que eu podia fazer contra já fiz, e sou um alvo a vista demais. E, mesmo que tente, tá achando que somos só humanos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ô, assim eu vou me doer!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pena que não possamos consertar o resto do mundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem sabe, um dia..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Angely suspira. Se joga para trás no sofá. Levanta. Olha para os lados. Senta-se novamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom saber que você ainda tem um coração."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Algum tempo, algum lugar"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então a gente conseguia trocar de corpo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ixi, desistiu da terceira pessoa e vai falar no plural!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, sei lá!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi um feitiço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece divertido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont parecia achar isso. Angely nem tanto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei! Eu só tava falando que parece legal desaparecer em um lugar e aparecer em outro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que seja."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E essa aposta, quem..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uehfo some. Xien solta os ombros. Senta no chão."
+				}
+			]
+		}
+	]
+}

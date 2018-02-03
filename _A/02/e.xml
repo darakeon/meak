@@ -1,485 +1,1596 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="02" scene="e">
-	<teller>
-		<default>Oito horas depois, Júlio acorda na cama. Pega um bilhete na cabeceira.</default>
-		<letter>A pirâmide não era de verdade, é de uma empresa americana de entretenimento. Fomos à uma feira na cidade, não nos esperem acordados.</letter>
-		<default>Edmont e Angely estão de volta na pirâmide.</default>
-	</teller>
-	<talk character="Sarah">
-		<default>Eles acreditaram?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não sei nem se viram..</default>
-	</talk>
-	<talk character="Angely">
-		<default>Só descobrimos que o Rith fala dormindo.</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Já levaram Katerine para onde eu mandei?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Já...</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Então, nós vamos ter que encontrar Agatha, vão ter que levá-la para o mesmo lugar que levaram a outra Katerine.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E Meg?</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Eles não podem fazer nada com ela, não enquanto não terminarem a luta, ou vão voltar ao seu estado antigo, duas múmias mortas.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Só não entendi uma coisa, o que Katerine tem a ver com toda essa história?!</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Pode ser pega.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Agatha, então.</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Vão, mas tomem cuidado. Se eles conseguirem completar o ritual para se apossar de seus corpos, todo seu esforço terá sido em vão.</default>
-	</talk>
-	<teller>
-		<default>Eles procuram até chegar na porta da sala onde estão Agatha e Meg.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Doze guardas.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Fica aqui que eu já sei o que vou fazer.</default>
-	</talk>
-	<teller>
-		<default>Edmont dá ¼ de volta na sala, joga uma pedra e volta. Eles se assustam. Quatro dos guardas vão para aquela porta.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Que está fazendo?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Somos dois, eles vem em quatro. Repita o que eu fiz, só que pro outro lado.</default>
-	</talk>
-	<teller>
-		<default>Angely vai até a outra porta e joga a pedra. Quando eles olham na direção dele, Edmont dá ½ volta na sala e joga uma pedra da outra porta. Então os dois voltam para a porta onde estavam primeiro.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Quase nos viram.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Agora entramos lá e levamos Agatha.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mas e Meg?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não ouviu o que Sarah disse?!</default>
-	</talk>
-	<teller>
-		<default>Eles vão até onde Agatha está.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tá bem?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É, parece que sim.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vai indo, eu já vou.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Que você vai fazer?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vou ver Meg.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não, você vem comigo!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mas...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não tem mas, você vem comigo!</default>
-	</talk>
-	<teller>
-		<default>Edmont faz sinal com os olhos para que Angely carregue Agatha. Saem e encontram Sarah.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Sarah, nós encontramos, estavam junt...</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Levem ela logo, eles estão bem atrás de vocês!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu tô cansado.</default>
-	</talk>
-	<teller>
-		<default>Angely deixa Agatha no chão.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Cansado??? Agatha não é tão pesada assim!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tá então carrega você!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ah, é? Tudo bem...</default>
-		<teller>pega ela, levanta e deita de novo</teller>
-		<default>Tá, ela também não é tão leve assim...</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Porque não carregam os dois juntos?</default>
-	</talk>
-	<teller>
-		<default>Edmont e Angely carregam Agatha, levam-na até onde está Kat, e lá a deixam, voltando depois à pirâmide. Encontram Sarah.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Tá, o que fazemos agora?</default>
-	</talk>
-	<teller>
-		<first>Passassem alguns minutos.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Será que vai dar certo?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Provavelmente.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você não sabe como sua resposta é animadora!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ei! Você que tá caindo aos pedaços! Eu tô aqui, vem me pegar...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não tinha nada melhor pra falar, não?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não, acho que isso já funcionou. Agora, corre!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por que eu tenho que distrair eles?! Você quem chamou!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Você corre mais que eu!</default>
-	</talk>
-	<teller>
-		<default>Angely sai correndo. As múmias nem vêem Edmont. Ele entra na sala de execução.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Tá aqui! Maldito vaso!</default>
-	</talk>
-	<teller>
-		<default>As múmias voltam. Edmont consegue passar por eles correndo. Sai da pirâmide e encontra Angely.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Até que enfim, tava pensando que não vinha mais... Mas e Meg?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Meg está inteira, mas não deu pra trazer...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Então vamos voltar lá!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não ouviu o que a Sarah disse?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ouvi... Essa porcaria tá inteira?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tá.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Então temos que levar pra...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu sei, eu ouvi.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Espero que não sejamos roubados no caminho.</default>
-	</talk>
-	<talk character="Edmont">
-		<irony>Do jeito que estamos com sorte, os quarenta ladrões vão aparecer, mas nós vamos ser salvos pelo Aladin!</irony>
-	</talk>
-	<teller>
-		<default>Os dois pegam o carro e vão até a cidade.</default>
-	</teller>
-	<talk character="John">
-		<arrive>Que tal conhecer os segredos do Egito? Pois estão com sorte, tenho o único mapa de uma pirâmide...</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Você mesmo que estávamos procurando.</default>
-	</talk>
-	<talk character="John">
-		<default>Eu?! Não fiz nada! Já sei, vocês são guardas! Eu juro que era mentira! Eu fico esperando os turistas passarem e...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É trambique?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não pode ser...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Fodeu, esse bosta com certeza não tem a mínima idéia do que vendeu... Nem sequer deve saber onde é que fica a porra pirâmide!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Podemos resolver isso...</default>
-	</talk>
-	<teller>
-		<default>Edmont pega John pelo colarinho.</default>
-	</teller>
-	<talk character="John">
-		<default>Não, por favor, faço o que quiserem!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Calma, Edmont, não vai adiantar nada!</default>
-	</talk>
-	<talk character="John">
-		<default>Ele tem razão!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont, larga ele, vamos resolver isso como gente civilizada!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Gente como ele não pode ser tratado como gente civilizada. Vou resolver isso do meu jeito.</default>
-	</talk>
-	<talk character="John">
-		<default>Se não me soltar não digo de onde veio o mapa!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não tem problema, te bato até você dizer!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Se acalme! Ele vai dizer de onde veio o mapa, é só soltá-lo... Não é?...</default>
-	</talk>
-	<talk character="John">
-		<default>Digo o que quiserem, mas vai ter que me soltar primeiro!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Está bem!</default>
-	</talk>
-	<teller>
-		<default>Edmont solta John.</default>
-	</teller>
-	<talk character="John">
-		<default>Meu nome é Johnahan... Mas pode me chamar de John... Este mapa é único...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Único o caralho.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nós já sabemos que este mapa não é único. Nós temos um igual, que o senhor provavelmente vendeu pro meu tio. Mas deve ser uma cópia do original. Então o senhor tem que nos mostrar com quem conseguiu este mapa.</default>
-	</talk>
-	<talk character="John">
-		<default>Vai custar duzentos dólares.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tem alguém aqui com a memória meio curta.</default>
-	</talk>
-	<teller>
-		<default>Edmont vai bater em John, mas Angely segura Edmont. John tenta sair correndo. Edmont empurra Angely, pega John e encosta na parede..</default>
-	</teller>
-	<talk character="John">
-		<default>Tá bom!!!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não disse que do meu jeito era melhor?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Cê podia ter usado essa força aí pra carregar a Agatha.</default>
-	</talk>
-	<teller>
-		<first>Eles vão até a casa do vendedor de mapas.</first>
-	</teller>
-	<talk character="John">
-		<default>Este mapa era de meu pai.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tá, onde ele está?</default>
-	</talk>
-	<talk character="John">
-		<default>Morreu há cinco anos.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Como vende algo que não tem a mínima idéia do que é?!</default>
-	</talk>
-	<talk character="John">
-		<default>Meu pai repete essa lenda desde que tenho quatro anos. "Seguir em direção ao alto..."</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Peraí, você tá querendo dizer que foi você quem escreveu o folheto?!</default>
-	</talk>
-	<talk character="John">
-		<default>Bom, fui... Mudei os termos, achei que não ia vender se escrevesse com as palavras do meu pai.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Então você sabe como resolver isso.</default>
-	</talk>
-	<talk character="John">
-		<default>Mais ou menos... Nunca achei que essa lenda idiota fosse verdade.</default>
-	</talk>
-	<talk character="Edmont">
-		<irony>Essa "lenda idiota" tá atrás de nós agora!</irony>
-	</talk>
-	<talk character="John">
-		<default>Peraí, quantos anos vocês tem?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Dezoito, por quê?</default>
-	</talk>
-	<talk character="John">
-		<default>E um de vocês ainda é virgem?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Qual o problema?</default>
-	</talk>
-	<teller>
-		<default>John ri.</default>
-	</teller>
-	<talk character="John">
-		<default>Sabe o que é, é que tem uma coisa que eu não coloquei no folheto: só poderiam estar atrás de vocês, se um de vocês nunca tivesse...</default>
-	</talk>
-	<teller>
-		<default>John volta a rir. Edmont encara ele.</default>
-	</teller>
-	<talk character="John">
-		<default>Mas, falando sério, meu pai procurou a vida inteira a entrada dessa pirâmide. Como entraram?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tá querendo dizer que ninguém nunca entrou naquela pirâmide?</default>
-	</talk>
-	<talk character="John">
-		<default>Não... Aliás, pelo que me lembro, a única coisa que meu pai conseguiu daquela pirâmide foi um objeto estranho.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Foi isso que ela disse, que algo havia sido roubado e que precisávamos recuperar!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Onde está?!</default>
-	</talk>
-	<talk character="John">
-		<default>Está aqui...</default>
-		<teller>abre um baú</teller>
-		<default>Fui roubado!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não pode ser!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não tem polícia aqui não?</default>
-	</talk>
-	<talk character="John">
-		<default>Ter, até tem, mas não podemos fazer nada. Provavelmente foi o Sultão.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Quem é esse cara?</default>
-	</talk>
-	<talk character="John">
-		<default>É o chefe de um grupo de saqueadores. Mas a polícia não faz nada, foi comprada por eles.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Então nós vamos lá.</default>
-	</talk>
-	<talk character="John">
-		<default>Desculpe, "nós"?</default>
-	</talk>
-	<talk character="Angely">
-		<default>É. Eu, Edmont e você.</default>
-	</talk>
-	<talk character="John">
-		<default>Sabe, acabo de me lembrar que eu tenho uns compromissos...</default>
-	</talk>
-	<talk character="Angely">
-		<default>A gente não conhece nada por aqui. Precisamos de ajuda para encontrar esse tal de Sultão.</default>
-	</talk>
-	<talk character="John">
-		<default>São muito importantes esses compromissos.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vamos esclarecer uma coisa: você quem vendeu o mapa pro meu tio, por isso é o culpado por estarmos nessa encrenca. Logo, ou nos ajuda a sair dessa ou vai amanhecer sem seus rins.</default>
-	</talk>
-	<talk character="John">
-		<default>Vendo por esse ângulo...</default>
-	</talk>
-	<teller>
-		<first>Eles saem e, quinze minutos depois, chegam até um lugar abandonado.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Que estamos fazendo aqui?</default>
-	</talk>
-	<talk character="John">
-		<default>É aqui que ele mora...</default>
-	</talk>
-	<teller>
-		<default>Logo pula um cara com um facão na frente deles. Angely desarma.</default>
-	</teller>
-	<talk character="Sultão">
-		<arrive>Vejo que trouxe amigos.</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Quem é você?</default>
-	</talk>
-	<talk character="Sultão">
-		<default>Entrou na minha casa, quem devia perguntar era eu.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Casa?! Essa porcaria é no máximo um prédio abandonado.</default>
-	</talk>
-	<talk character="John">
-		<default>Não provoque ele! Não tá vendo que é ele o cara de quem falei?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Menos mau, assim nos entrega logo o que viemos buscar.</default>
-	</talk>
-	<talk character="Sultão">
-		<default>Como ousa falar assim comigo, garoto insolente?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Olha, senhor, viemos buscar um objeto muito importante e não queremos arranjar encrenca.</default>
-	</talk>
-	<talk character="Sultão">
-		<default>Tarde demais, já arranjaram!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Senhor, é muito importante que recuperemos este objeto.</default>
-	</talk>
-	<talk character="Sultão">
-		<default>Peguem eles!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tenho a leve impressão que nunca conseguimos as coisas do seu jeito.</default>
-		<teller>joga o facão pra Angely</teller>
-		<default>Espero que saiba se defender tão bem quanto lembro.</default>
-	</talk>
-	<teller>
-		<default>Outros homens surgem, armados. Eles começam a derrubar os homens, enquanto John corre para se esconder. Edmont termina com um facão no pescoço do Sultão.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Poderia nos devolver o objeto que roubou da casa do John?</default>
-	</talk>
-	<talk character="John">
-		<default>É! Se não devolver, vamos pegar na marra!</default>
-	</talk>
-	<teller>
-		<default>Angely e Edmont encaram John.</default>
-	</teller>
-	<talk character="Sultão">
-		<default>Por que tanto querem aquele objeto?! É tão valioso assim?!</default>
-	</talk>
-	<talk character="John">
-		<default>Tem valor sentimental pra eles...</default>
-	</talk>
-	<talk character="Sultão">
-		<default>Não viria atrás de um objeto de valor sentimental.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não, não é o objeto que tem valor sentimental é que... Peraí, por quê tô te dando satisfações?</default>
-	</talk>
-	<teller>
-		<default>Nesse momento os três são atingidos por dardos tranqüilizantes...</default>
-	</teller>
-	<talk character="Sultão">
-		<default>Bom trabalho... Agora vamos ver quanto realmente vale este bagulho.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "02",
+	"scene": "e",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oito horas depois, Júlio acorda na cama. Pega um bilhete na cabeceira."
+				},
+				{
+					"type": "letter",
+					"text": "A pirâmide não era de verdade, é de uma empresa americana de entretenimento. Fomos à uma feira na cidade, não nos esperem acordados."
+				},
+				{
+					"type": "default",
+					"text": "Edmont e Angely estão de volta na pirâmide."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles acreditaram?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei nem se viram.."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só descobrimos que o Rith fala dormindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já levaram Katerine para onde eu mandei?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, nós vamos ter que encontrar Agatha, vão ter que levá-la para o mesmo lugar que levaram a outra Katerine."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E Meg?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles não podem fazer nada com ela, não enquanto não terminarem a luta, ou vão voltar ao seu estado antigo, duas múmias mortas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só não entendi uma coisa, o que Katerine tem a ver com toda essa história?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ser pega."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha, então."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vão, mas tomem cuidado. Se eles conseguirem completar o ritual para se apossar de seus corpos, todo seu esforço terá sido em vão."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles procuram até chegar na porta da sala onde estão Agatha e Meg."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Doze guardas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fica aqui que eu já sei o que vou fazer."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont dá ¼ de volta na sala, joga uma pedra e volta. Eles se assustam. Quatro dos guardas vão para aquela porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que está fazendo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Somos dois, eles vem em quatro. Repita o que eu fiz, só que pro outro lado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely vai até a outra porta e joga a pedra. Quando eles olham na direção dele, Edmont dá ½ volta na sala e joga uma pedra da outra porta. Então os dois voltam para a porta onde estavam primeiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quase nos viram."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora entramos lá e levamos Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas e Meg?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não ouviu o que Sarah disse?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles vão até onde Agatha está."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá bem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, parece que sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai indo, eu já vou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que você vai fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou ver Meg."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, você vem comigo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem mas, você vem comigo!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont faz sinal com os olhos para que Angely carregue Agatha. Saem e encontram Sarah."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sarah, nós encontramos, estavam junt..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Levem ela logo, eles estão bem atrás de vocês!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tô cansado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely deixa Agatha no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cansado??? Agatha não é tão pesada assim!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá então carrega você!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, é? Tudo bem..."
+				},
+				{
+					"type": "teller",
+					"text": "pega ela, levanta e deita de novo"
+				},
+				{
+					"type": "default",
+					"text": "Tá, ela também não é tão leve assim..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque não carregam os dois juntos?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont e Angely carregam Agatha, levam-na até onde está Kat, e lá a deixam, voltando depois à pirâmide. Encontram Sarah."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, o que fazemos agora?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Passassem alguns minutos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que vai dar certo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Provavelmente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não sabe como sua resposta é animadora!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei! Você que tá caindo aos pedaços! Eu tô aqui, vem me pegar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tinha nada melhor pra falar, não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, acho que isso já funcionou. Agora, corre!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que eu tenho que distrair eles?! Você quem chamou!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você corre mais que eu!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely sai correndo. As múmias nem vêem Edmont. Ele entra na sala de execução."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá aqui! Maldito vaso!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As múmias voltam. Edmont consegue passar por eles correndo. Sai da pirâmide e encontra Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Até que enfim, tava pensando que não vinha mais... Mas e Meg?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg está inteira, mas não deu pra trazer..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então vamos voltar lá!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não ouviu o que a Sarah disse?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ouvi... Essa porcaria tá inteira?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então temos que levar pra..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei, eu ouvi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero que não sejamos roubados no caminho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Do jeito que estamos com sorte, os quarenta ladrões vão aparecer, mas nós vamos ser salvos pelo Aladin!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Os dois pegam o carro e vão até a cidade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que tal conhecer os segredos do Egito? Pois estão com sorte, tenho o único mapa de uma pirâmide..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você mesmo que estávamos procurando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu?! Não fiz nada! Já sei, vocês são guardas! Eu juro que era mentira! Eu fico esperando os turistas passarem e..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É trambique?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode ser..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fodeu, esse bosta com certeza não tem a mínima idéia do que vendeu... Nem sequer deve saber onde é que fica a porra pirâmide!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podemos resolver isso..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont pega John pelo colarinho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, por favor, faço o que quiserem!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma, Edmont, não vai adiantar nada!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele tem razão!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, larga ele, vamos resolver isso como gente civilizada!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente como ele não pode ser tratado como gente civilizada. Vou resolver isso do meu jeito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se não me soltar não digo de onde veio o mapa!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem problema, te bato até você dizer!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se acalme! Ele vai dizer de onde veio o mapa, é só soltá-lo... Não é?..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Digo o que quiserem, mas vai ter que me soltar primeiro!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está bem!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont solta John."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu nome é Johnahan... Mas pode me chamar de John... Este mapa é único..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Único o caralho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós já sabemos que este mapa não é único. Nós temos um igual, que o senhor provavelmente vendeu pro meu tio. Mas deve ser uma cópia do original. Então o senhor tem que nos mostrar com quem conseguiu este mapa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai custar duzentos dólares."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem alguém aqui com a memória meio curta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont vai bater em John, mas Angely segura Edmont. John tenta sair correndo. Edmont empurra Angely, pega John e encosta na parede.."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá bom!!!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não disse que do meu jeito era melhor?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cê podia ter usado essa força aí pra carregar a Agatha."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Eles vão até a casa do vendedor de mapas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Este mapa era de meu pai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, onde ele está?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Morreu há cinco anos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como vende algo que não tem a mínima idéia do que é?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu pai repete essa lenda desde que tenho quatro anos. "Seguir em direção ao alto...""
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Peraí, você tá querendo dizer que foi você quem escreveu o folheto?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, fui... Mudei os termos, achei que não ia vender se escrevesse com as palavras do meu pai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então você sabe como resolver isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mais ou menos... Nunca achei que essa lenda idiota fosse verdade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Essa "lenda idiota" tá atrás de nós agora!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Peraí, quantos anos vocês tem?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dezoito, por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E um de vocês ainda é virgem?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual o problema?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "John ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe o que é, é que tem uma coisa que eu não coloquei no folheto: só poderiam estar atrás de vocês, se um de vocês nunca tivesse..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "John volta a rir. Edmont encara ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas, falando sério, meu pai procurou a vida inteira a entrada dessa pirâmide. Como entraram?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá querendo dizer que ninguém nunca entrou naquela pirâmide?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não... Aliás, pelo que me lembro, a única coisa que meu pai conseguiu daquela pirâmide foi um objeto estranho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi isso que ela disse, que algo havia sido roubado e que precisávamos recuperar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde está?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está aqui..."
+				},
+				{
+					"type": "teller",
+					"text": "abre um baú"
+				},
+				{
+					"type": "default",
+					"text": "Fui roubado!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode ser!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem polícia aqui não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ter, até tem, mas não podemos fazer nada. Provavelmente foi o Sultão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é esse cara?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É o chefe de um grupo de saqueadores. Mas a polícia não faz nada, foi comprada por eles."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então nós vamos lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpe, "nós"?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Eu, Edmont e você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe, acabo de me lembrar que eu tenho uns compromissos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente não conhece nada por aqui. Precisamos de ajuda para encontrar esse tal de Sultão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "São muito importantes esses compromissos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos esclarecer uma coisa: você quem vendeu o mapa pro meu tio, por isso é o culpado por estarmos nessa encrenca. Logo, ou nos ajuda a sair dessa ou vai amanhecer sem seus rins."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vendo por esse ângulo..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Eles saem e, quinze minutos depois, chegam até um lugar abandonado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que estamos fazendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É aqui que ele mora..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Logo pula um cara com um facão na frente deles. Angely desarma."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Vejo que trouxe amigos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Entrou na minha casa, quem devia perguntar era eu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Casa?! Essa porcaria é no máximo um prédio abandonado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não provoque ele! Não tá vendo que é ele o cara de quem falei?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Menos mau, assim nos entrega logo o que viemos buscar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como ousa falar assim comigo, garoto insolente?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, senhor, viemos buscar um objeto muito importante e não queremos arranjar encrenca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tarde demais, já arranjaram!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Senhor, é muito importante que recuperemos este objeto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Peguem eles!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho a leve impressão que nunca conseguimos as coisas do seu jeito."
+				},
+				{
+					"type": "teller",
+					"text": "joga o facão pra Angely"
+				},
+				{
+					"type": "default",
+					"text": "Espero que saiba se defender tão bem quanto lembro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Outros homens surgem, armados. Eles começam a derrubar os homens, enquanto John corre para se esconder. Edmont termina com um facão no pescoço do Sultão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Poderia nos devolver o objeto que roubou da casa do John?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É! Se não devolver, vamos pegar na marra!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely e Edmont encaram John."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que tanto querem aquele objeto?! É tão valioso assim?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem valor sentimental pra eles..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não viria atrás de um objeto de valor sentimental."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, não é o objeto que tem valor sentimental é que... Peraí, por quê tô te dando satisfações?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nesse momento os três são atingidos por dardos tranqüilizantes..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom trabalho... Agora vamos ver quanto realmente vale este bagulho."
+				}
+			]
+		}
+	]
+}

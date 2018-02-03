@@ -1,558 +1,1822 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="11" scene="a">
-	<teller>
-		<default>Manhã de sábado. MEAK. Hall de entrada. Kat, Estela e Derik estão em um sofá. Zenon e Alan estão em outro. Beatrice está atrás do balcão da recepção. Fábio na frente. Mel vem das escadas. Olha para as pessoas.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Isso aqui tá ficando meio cheio. Daqui a pouco vou precisar de megafone pra falar com todo mundo.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Tenho que fazer contato com o Grupo, provavelmente ainda não sabem de mim, mas assim que...</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Fábio.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não tô te expulsando.</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Beatrice.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Nem você.</default>
-	</talk>
-	<teller>
-		<default>Janaína desce a escada. Para. Olha para as pessoas.</default>
-	</teller>
-	<talk character="Janaína">
-		<default>Eu juro que não ia sair sem pagar.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Chegou uma coisa ontem pra você.</default>
-	</talk>
-	<teller>
-		<default>Beatrice pega um envelope grande embaixo do balcão. Janaína se aproxima, Beatrice entrega. Janaína abre. Arregala os olhos. Vai passando folhas e olhando. Para.</default>
-	</teller>
-	<talk character="Janaína">
-		<default>Etos me deu as Ilhas.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Não sabia que elas pertenciam a alguém...</default>
-	</talk>
-	<talk character="Janaína">
-		<default>Eram do Sandro, ele tava devendo pro Etos, Etos cobrou.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Então, tecnicamente, não estamos no Brasil?</default>
-	</talk>
-	<talk character="Janaína">
-		<default>Não, estamos, mas é como se fosse uma grande propriedade privada. Tem um sistema próprio de venda e aluguel. Nem um centemilésimo da população brasileira sabe que existimos.</default>
-	</talk>
-	<teller>
-		<default>Kat franze a sobrancelha.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Existe centemilésimo?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Cem mil avos?</default>
-	</talk>
-	<talk character="Janaína">
-		<default>Se não existia, existe agora.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Não te conheço de algum lugar?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Também tive essa impressão, não parece com a filha do...</default>
-	</talk>
-	<teller>
-		<default>Fábio olha para Alan.</default>
-	</teller>
-	<talk character="Fábio">
-		<default>Parece. Mas teria mais idade hoje.</default>
-	</talk>
-	<talk character="Janaína">
-		<default>Tenho dezenove.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Viu?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Não teria, não!</default>
-	</talk>
-	<teller>
-		<default>Fábio encara Alan.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Você já vai?</default>
-	</talk>
-	<talk character="Janaína">
-		<default>Eu ia até a casa do Etos, acertar as coisas.</default>
-	</talk>
-	<teller>
-		<default>Janaína guarda os papéis no envelope.</default>
-	</teller>
-	<talk character="Janaína">
-		<default>Não é mais a casa dele, mas ainda vou ter que acertar coisas por lá.</default>
-	</talk>
-	<teller>
-		<default>Janaína tira uma carteira da bolsa.</default>
-	</teller>
-	<talk character="Janaína">
-		<default>Aceitam cartão?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Nós não temos...</default>
-	</talk>
-	<teller>
-		<default>Beatrice pega uma máquina atrás do balcão. Zenon franze a sobrancelha. Beatrice digita na máquina, entrega a Janaína.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Ei, quando isso veio parar aqui?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Estava treinando Michele quando instalaram.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>E quando foi encomendado?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Esperava ver ábacos e dinheiro embaixo do colchão?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Falando em guardar, eu tava lendo um negócio... Podemos criar uma micro-dimensão para guardarmos as armas e livros. Assim, se houver outra explosão, apenas precisaremos reabrir a porta.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Outra???</default>
-	</talk>
-	<talk character="Estela">
-		<default>Como assim, explosão?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bom, que eu lembre, nossa casa já explodiu duas vezes.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tem também o avião que caiu...</default>
-	</talk>
-	<talk character="Estela">
-		<irony>É bom saber que estou tão segura perto de vocês!</irony>
-	</talk>
-	<talk character="Janaína">
-		<default>Bom, tô indo.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Sua casa é segura?</default>
-	</talk>
-	<talk character="Janaína">
-		<default>Sou ex-namorada do maior agiota conhecido.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Tá. Eu fico.</default>
-	</talk>
-	<teller>
-		<default>Janaína ri e sai.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Fábio, quer que liguemos pro Grupo, pra falar com eles?</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Desde que não seja Alan.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Ei!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tudo bem, eu ligo.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Tenho mesmo mais o que fazer. Estela, vamos treinar.</default>
-	</talk>
-	<teller>
-		<default>Alan sai. Estela segue.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Kat?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ow!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Sinto muito.</default>
-	</talk>
-	<teller>
-		<default>Zenon pega sua capa.</default>
-	</teller>
-	<talk character="Zenon">
-		<screamed>Alan, vamos pra casa da Michele, é maior.</screamed>
-	</talk>
-	<talk character="Alan">
-		<out>Tá.</out>
-	</talk>
-	<teller>
-		<default>Zenon sai. Kat segue.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Qual o problema com a pensão?!</default>
-	</talk>
-	<talk character="Bea">
-		<default>É. Parece que ficamos sozinhos.</default>
-	</talk>
-	<teller>
-		<default>Kat volta correndo, pega Derik pela mão e saem. Beatrice balança a cabeça para os lados.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Vamos jogar trinca?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ainda não sabemos porque Fábio ressuscitou.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Não se preocupem. O Grupo resolve isso.</default>
-	</talk>
-	<teller>
-		<default>Beatrice suspira. Mel olha para fora. Fábio olha para Mel. Então para Beatrice. Beatrice olha para Mel.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Que merda, não temos mais o que fazer aqui???</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Beatrice.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Vou olhar as fichas dos candidatos ao cargo do Ang na escola. Bea, liga pro Grupo.</default>
-	</talk>
-	<teller>
-		<default>Mel sai.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Mas sou vampir...</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Acho que não vão perceber pelo telefone.</default>
-	</talk>
-	<teller>
-		<default>Bea suspira. Pega o telefone. Fábio se aproxima e digita. Beatrice coloca o telefone na orelha. Espera.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Alô?</default>
-	</talk>
-	<talk character="Soraia">
-		<out>Droga, é meu dia de folga, quem é???</out>
-	</talk>
-	<talk character="Bea">
-		<default>Conhece Fábio?</default>
-	</talk>
-	<talk character="Soraia">
-		<out>Ah, desculpa... Você é da família dele?</out>
-	</talk>
-	<talk character="Bea">
-		<default>Não, está aqui do meu lado. ### Alô?</default>
-	</talk>
-	<teller>
-		<first>Tarde. Fábio e Beatrice estão nos sofás. Na mesa no centro, um tabuleiro de xadrez. Beatrice move a rainha e pega um bispo.</first>
-	</teller>
-	<talk character="Fábio">
-		<default>Acho que essa foi pessoal.</default>
-	</talk>
-	<teller>
-		<default>Beatrice encolhe ombros e volta. Soraia entra, com uma besta em punho, abaixada. Beatrice levanta do sofá.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Não mato mais ninguém!</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Não era pra você, mas acha mesmo que acredito em promessa de vampira?</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Não é promessa, disse no sentido de que não está fazendo mais isso.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Como saiu do caixão?</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Se eu soubesse, teria ligado direto pro Grupo, não pra você. Não me diga que eu cheiro a...</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Estava cheirando quando te enterramos, mas eu percebi que o cheiro não era seu, estava em você. Parece inclusive que era dessa aí. Só não achei que o ferimento de estaca era pra disfarçar.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Saberia se...</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Vinagre.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Tá, então vamos esperar doze horas, pro efeito...</default>
-	</talk>
-	<teller>
-		<default>Soraia vira para trás, apontando a besta. Mel chuta a besta. Soraia olha a besta se despedaçar na parede. Olha para Mel.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Já escolheu a pessoa?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Já. Alguém com experiência.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>É bem complicado fazer uma merda dessas, sabia?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Me refazer depois da estaca seria mais.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Eu não ia atirar em você.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não apontasse então. Que estava fazendo na minha casa com isso?</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Não tenho culpa se abriga vampiros.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Zenon foi deixado e Beatrice é assunto meu.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Tô falando de Fábio.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não é vampir.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Ele foi enterrado e...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não é. Temos que saber o que realmente aconteceu, mas Angely viu o que aconteceu.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Não tinham me dado essa garantia. Falando nisso, onde ele está?</default>
-	</talk>
-	<teller>
-		<default>Beatrice baixa a cabeça. Mel desvia o olhar.</default>
-	</teller>
-	<talk character="Fábio">
-		<default>Tomando conta de Edmont.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Estão com cara de que ele morreu.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se isso acontecer, nem saberemos. É possível que nunca mais vejamos.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Não diz isso... Angely vai se livrar... Um dia... Eu sei que vai...</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Ih, meu Deus, tá de quatro.</default>
-	</talk>
-	<teller>
-		<default>Beatrice cruza os braços.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Pelo menos não é por Alan.</default>
-	</talk>
-	<teller>
-		<default>Soraia encara Fábio.</default>
-	</teller>
-	<talk character="Soraia">
-		<default>Pelo jeito alguém andou abrindo a boca demais...</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Desculpa... A gente tava falando de você... Acabei citando...</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Depois mulher que é fofoqueira.</default>
-	</talk>
-	<teller>
-		<default>Beatrice descruza os braços.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Bom, acho que temos algo pra fazer.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Temos?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Tem morto-vivo na sala.</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Não sou só eu.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Mas eu já tenho explicação.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vou mandar Derik e Estela verem isso.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Viraram os pesquisadores da agência?</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Vocês não têm cargos definidos aqui?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Cargos?</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Registro?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não cuidamos disso ainda. Você veio aqui pra resolver o problema de Fábio ou o nosso?!</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Tá, eu levo ele pro Grupo, descobrimos tudo. Vamos, Fábio.</default>
-	</talk>
-	<teller>
-		<default>Soraia vai em direção à porta. Fábio cruza os braços.</default>
-	</teller>
-	<talk character="Fábio">
-		<irony>Não está esquecendo nada?</irony>
-	</talk>
-	<talk character="Soraia">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Fábio">
-		<irony>É, meu pratinho, a coleira, o antipulgas... Tem também a caminha que já acostumei. Ah, e os truques novos que aprendi, pergunta pra Mel!</irony>
-	</talk>
-	<talk character="Soraia">
-		<default>Vai ficar aqui?!</default>
-	</talk>
-	<talk character="Fábio">
-		<default>Tá me tratando como cachorro.</default>
-	</talk>
-	<talk character="Soraia">
-		<default>Fica. Tchau. Deve estar de quatro pelo loirinho também, fica aí se consolando com essa vampira arrependida!</default>
-	</talk>
-	<teller>
-		<default>Soraia sai.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Ainda bem que sabe.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Derik e Estela ainda não voltaram, né?</default>
-	</talk>
-	<teller>
-		<default>Derik e Estela estão no jardim. Kat chega.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Achei vocês!</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não gosto de entrar aí.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Isso não é um cemitério...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Boa idéia, tem bastante espaço em cemitério!</default>
-	</talk>
-	<talk character="Estela">
-		<default>Eu ficaria mais confortável.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu disse pra Michele que traria vocês, não tem problema.</default>
-	</talk>
-	<talk character="Derik">
-		<irony>Foi na hora que te ouvi dizer "Chele? Você ainda tá aí?"?</irony>
-	</talk>
-	<talk character="Kat">
-		<default>Tão se revezando pra me atacar?</default>
-	</talk>
-	<teller>
-		<default>Toca o telefone de Kat. Derik e Estela se entreolham. Kat atende.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Alô? ### Tão. ### Tá, tô mandando.</default>
-	</talk>
-	<teller>
-		<default>Kat desliga, Estela e Derik acompanham o telefone entrar no bolso e olham para Kat. Kat suspira e solta os ombros. Baixa a cabeça. Olha para Estela e Derik.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Estão livres. Mel chamou vocês. Dessa vez escaparam.</default>
-	</talk>
-	<teller>
-		<default>Kat entra. Estela e Derik atravessam o jardim e saem. Andam pelas mansões e saem do condomínio.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Onde acha que é um lugar apropriado pra erguer um altar pra Mel?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Temos que arranjar um jeito de nos livrarmos disso de vez.</default>
-	</talk>
-	<talk character="Rob">
-		<arrive>Estela???</arrive>
-	</talk>
-	<teller>
-		<default>Estela olha pra trás.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Oi, Rob. Esse é o Derik, o cara que...</default>
-	</talk>
-	<talk character="Rob">
-		<default>Ia usar um pedaço de pau em mim.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Bom, não era bem você...</default>
-	</talk>
-	<talk character="Rob">
-		<default>Eu sei, bobo, e nem sou tão avesso a isso, se quer saber. Mas e aí, como anda a vida, namorando?!</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não, foi só você mesmo.</default>
-	</talk>
-	<talk character="Rob">
-		<default>Posso te arranjar um namorado se quiser.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Um dos seus ex?</default>
-	</talk>
-	<talk character="Rob">
-		<default>Não tenho nenhum ex, não arranjo fixo!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Por quê?</default>
-	</talk>
-	<talk character="Rob">
-		<default>Como ia esconder? No bolso? Não querendo te agredir, mas não sou chegado em garoto de bolso!</default>
-	</talk>
-	<talk character="Derik">
-		<default>De... Bolso? Eu?</default>
-	</talk>
-	<talk character="Rob">
-		<default>Nem tanto, talvez uma mochila.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Já melhorou. E é melhor que mala.</default>
-	</talk>
-	<talk character="Rob">
-		<default>Tenho que ir.</default>
-	</talk>
-	<teller>
-		<default>Rob dá um beijo no rosto de Estela e sai. Estela e Derik continuam andando.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Meu primeiro beijo foi com um gay, porque ele estava possuído.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não foi Angely?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não conta.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Podia ser pior.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Derik...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Esqueceu? Queria outra coisa também. Aí ia ser o seu primeiro beijo, a sua primeira vez e seu primeiro lindo bebê!</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não é porque não comi bosta que preciso ficar feliz de ter engolido poeira!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tudo bem, não tento mais ajudar!</default>
-	</talk>
-</story>
+{
+	"season": "B",
+	"episode": "11",
+	"scene": "a",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manhã de sábado. MEAK. Hall de entrada. Kat, Estela e Derik estão em um sofá. Zenon e Alan estão em outro. Beatrice está atrás do balcão da recepção. Fábio na frente. Mel vem das escadas. Olha para as pessoas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso aqui tá ficando meio cheio. Daqui a pouco vou precisar de megafone pra falar com todo mundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho que fazer contato com o Grupo, provavelmente ainda não sabem de mim, mas assim que..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Fábio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tô te expulsando."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Beatrice."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Janaína desce a escada. Para. Olha para as pessoas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu juro que não ia sair sem pagar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Chegou uma coisa ontem pra você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice pega um envelope grande embaixo do balcão. Janaína se aproxima, Beatrice entrega. Janaína abre. Arregala os olhos. Vai passando folhas e olhando. Para."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Etos me deu as Ilhas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabia que elas pertenciam a alguém..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eram do Sandro, ele tava devendo pro Etos, Etos cobrou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, tecnicamente, não estamos no Brasil?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, estamos, mas é como se fosse uma grande propriedade privada. Tem um sistema próprio de venda e aluguel. Nem um centemilésimo da população brasileira sabe que existimos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Existe centemilésimo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cem mil avos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se não existia, existe agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te conheço de algum lugar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também tive essa impressão, não parece com a filha do..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fábio olha para Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece. Mas teria mais idade hoje."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho dezenove."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não teria, não!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fábio encara Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você já vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu ia até a casa do Etos, acertar as coisas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Janaína guarda os papéis no envelope."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é mais a casa dele, mas ainda vou ter que acertar coisas por lá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Janaína tira uma carteira da bolsa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aceitam cartão?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós não temos..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice pega uma máquina atrás do balcão. Zenon franze a sobrancelha. Beatrice digita na máquina, entrega a Janaína."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, quando isso veio parar aqui?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estava treinando Michele quando instalaram."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quando foi encomendado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esperava ver ábacos e dinheiro embaixo do colchão?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falando em guardar, eu tava lendo um negócio... Podemos criar uma micro-dimensão para guardarmos as armas e livros. Assim, se houver outra explosão, apenas precisaremos reabrir a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Outra???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim, explosão?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, que eu lembre, nossa casa já explodiu duas vezes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem também o avião que caiu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "É bom saber que estou tão segura perto de vocês!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, tô indo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sua casa é segura?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Janaína",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sou ex-namorada do maior agiota conhecido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá. Eu fico."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Janaína ri e sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fábio, quer que liguemos pro Grupo, pra falar com eles?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desde que não seja Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, eu ligo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho mesmo mais o que fazer. Estela, vamos treinar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan sai. Estela segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ow!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sinto muito."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon pega sua capa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Alan, vamos pra casa da Michele, é maior."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Tá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon sai. Kat segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual o problema com a pensão?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Parece que ficamos sozinhos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat volta correndo, pega Derik pela mão e saem. Beatrice balança a cabeça para os lados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos jogar trinca?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda não sabemos porque Fábio ressuscitou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não se preocupem. O Grupo resolve isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice suspira. Mel olha para fora. Fábio olha para Mel. Então para Beatrice. Beatrice olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que merda, não temos mais o que fazer aqui???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Beatrice."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou olhar as fichas dos candidatos ao cargo do Ang na escola. Bea, liga pro Grupo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas sou vampir..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que não vão perceber pelo telefone."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bea suspira. Pega o telefone. Fábio se aproxima e digita. Beatrice coloca o telefone na orelha. Espera."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alô?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Droga, é meu dia de folga, quem é???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Conhece Fábio?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Ah, desculpa... Você é da família dele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, está aqui do meu lado. ### Alô?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Tarde. Fábio e Beatrice estão nos sofás. Na mesa no centro, um tabuleiro de xadrez. Beatrice move a rainha e pega um bispo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que essa foi pessoal."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice encolhe ombros e volta. Soraia entra, com uma besta em punho, abaixada. Beatrice levanta do sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não mato mais ninguém!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não era pra você, mas acha mesmo que acredito em promessa de vampira?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é promessa, disse no sentido de que não está fazendo mais isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como saiu do caixão?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se eu soubesse, teria ligado direto pro Grupo, não pra você. Não me diga que eu cheiro a..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estava cheirando quando te enterramos, mas eu percebi que o cheiro não era seu, estava em você. Parece inclusive que era dessa aí. Só não achei que o ferimento de estaca era pra disfarçar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Saberia se..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vinagre."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, então vamos esperar doze horas, pro efeito..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Soraia vira para trás, apontando a besta. Mel chuta a besta. Soraia olha a besta se despedaçar na parede. Olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já escolheu a pessoa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já. Alguém com experiência."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É bem complicado fazer uma merda dessas, sabia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me refazer depois da estaca seria mais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não ia atirar em você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não apontasse então. Que estava fazendo na minha casa com isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tenho culpa se abriga vampiros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon foi deixado e Beatrice é assunto meu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô falando de Fábio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é vampir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele foi enterrado e..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é. Temos que saber o que realmente aconteceu, mas Angely viu o que aconteceu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tinham me dado essa garantia. Falando nisso, onde ele está?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice baixa a cabeça. Mel desvia o olhar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tomando conta de Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estão com cara de que ele morreu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se isso acontecer, nem saberemos. É possível que nunca mais vejamos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não diz isso... Angely vai se livrar... Um dia... Eu sei que vai..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ih, meu Deus, tá de quatro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo menos não é por Alan."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Soraia encara Fábio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo jeito alguém andou abrindo a boca demais..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpa... A gente tava falando de você... Acabei citando..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Depois mulher que é fofoqueira."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice descruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, acho que temos algo pra fazer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem morto-vivo na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sou só eu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas eu já tenho explicação."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou mandar Derik e Estela verem isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viraram os pesquisadores da agência?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês não têm cargos definidos aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cargos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Registro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não cuidamos disso ainda. Você veio aqui pra resolver o problema de Fábio ou o nosso?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, eu levo ele pro Grupo, descobrimos tudo. Vamos, Fábio."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Soraia vai em direção à porta. Fábio cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Não está esquecendo nada?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "É, meu pratinho, a coleira, o antipulgas... Tem também a caminha que já acostumei. Ah, e os truques novos que aprendi, pergunta pra Mel!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai ficar aqui?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá me tratando como cachorro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fica. Tchau. Deve estar de quatro pelo loirinho também, fica aí se consolando com essa vampira arrependida!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Soraia sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda bem que sabe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik e Estela ainda não voltaram, né?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik e Estela estão no jardim. Kat chega."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei vocês!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não gosto de entrar aí."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não é um cemitério..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Boa idéia, tem bastante espaço em cemitério!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu ficaria mais confortável."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu disse pra Michele que traria vocês, não tem problema."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Foi na hora que te ouvi dizer "Chele? Você ainda tá aí?"?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tão se revezando pra me atacar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca o telefone de Kat. Derik e Estela se entreolham. Kat atende."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alô? ### Tão. ### Tá, tô mandando."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat desliga, Estela e Derik acompanham o telefone entrar no bolso e olham para Kat. Kat suspira e solta os ombros. Baixa a cabeça. Olha para Estela e Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estão livres. Mel chamou vocês. Dessa vez escaparam."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat entra. Estela e Derik atravessam o jardim e saem. Andam pelas mansões e saem do condomínio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde acha que é um lugar apropriado pra erguer um altar pra Mel?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos que arranjar um jeito de nos livrarmos disso de vez."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rob",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Estela???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela olha pra trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi, Rob. Esse é o Derik, o cara que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rob",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ia usar um pedaço de pau em mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, não era bem você..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rob",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei, bobo, e nem sou tão avesso a isso, se quer saber. Mas e aí, como anda a vida, namorando?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, foi só você mesmo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rob",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso te arranjar um namorado se quiser."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um dos seus ex?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rob",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tenho nenhum ex, não arranjo fixo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rob",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como ia esconder? No bolso? Não querendo te agredir, mas não sou chegado em garoto de bolso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De... Bolso? Eu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rob",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem tanto, talvez uma mochila."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já melhorou. E é melhor que mala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rob",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho que ir."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rob dá um beijo no rosto de Estela e sai. Estela e Derik continuam andando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu primeiro beijo foi com um gay, porque ele estava possuído."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não conta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podia ser pior."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esqueceu? Queria outra coisa também. Aí ia ser o seu primeiro beijo, a sua primeira vez e seu primeiro lindo bebê!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é porque não comi bosta que preciso ficar feliz de ter engolido poeira!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, não tento mais ajudar!"
+				}
+			]
+		}
+	]
+}

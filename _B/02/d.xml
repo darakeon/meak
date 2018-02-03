@@ -1,544 +1,1779 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="02" scene="d">
-	<teller>
-		<default>Derik está na mureta da praia. Está com uma garrafa de tequila. Vira um gole. Beatrice se senta ao seu lado.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Achei que tivesse ido embora, ou morrido, sei lá...</default>
-	</talk>
-	<talk character="Bea">
-		<default>Achei que Mel mataria Edmont.</default>
-	</talk>
-	<talk character="Derik">
-		<default>E agora vai levar minha cabeça de presente pra Edmont? Esforço em vão, não vai machucar Kat com isso.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Não falei com Edmont ainda, depois de tudo aquilo.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Algum recado para Angely?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Kat te deu um pé?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Se interessou por Kat agora?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Por que não poderia ser em você? Apesar de já ter bebido bastante...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Fala a verdade, o que você quer comigo?</default>
-	</talk>
-	<teller>
-		<default>Beatrice desce da mureta e estende a mão a Derik.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Vem... Eu te mostro.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Minha vida eu já deixei naquele casarão, o que tenho a perder?</default>
-	</talk>
-	<teller>
-		<first>Angely chega no quarto de Estela.</first>
-	</teller>
-	<talk character="Ang">
-		<default>Não tá conseguindo dormir?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Pensando em Alan. Ele não ligou mais.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Deve ter muito a fazer, com o casamento.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Dois meses... Eu aqui sofrendo e Kat dá um pé no Derik por que acha que ele vai ir atrás da Inês quando ela crescer!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Que?</default>
-	</talk>
-	<teller>
-		<first>Sótão. Kat deitou-se no chão.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Estela não entende.</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>Queria que pudesse me ver...</ghost>
-	</talk>
-	<teller>
-		<default>Kat senta.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Posso tentar um coisa!</default>
-	</talk>
-	<teller>
-		<default>Kat levanta e vai até a parede, senta, com as costas na parede. Sai de seu corpo. Vai até Leo.</default>
-	</teller>
-	<talk character="Kat">
-		<ghost>Agora eu tô te vendo!</ghost>
-	</talk>
-	<teller>
-		<default>Leo se aproxima de Kat.</default>
-	</teller>
-	<talk character="Leo">
-		<ghost>Está ainda mais linda. Parece com ela. Será que existe reencarnação?</ghost>
-	</talk>
-	<teller>
-		<default>Kat ri.</default>
-	</teller>
-	<talk character="Kat">
-		<ghost>Acho que não é o caso. Você consegue sair daqui?</ghost>
-	</talk>
-	<talk character="Leo">
-		<ghost>Tenho medo...</ghost>
-	</talk>
-	<talk character="Kat">
-		<ghost>Vamo, eu te levo.</ghost>
-	</talk>
-	<talk character="Leo">
-		<ghost>Consegue ficar o tempo quiser assim?</ghost>
-	</talk>
-	<talk character="Kat">
-		<ghost>Se eu não mover nada, acho que sim.</ghost>
-	</talk>
-	<teller>
-		<default>Leo sorri.</default>
-	</teller>
-	<teller>
-		<first>Frente do templo.</first>
-	</teller>
-	<talk character="Derik">
-		<default>Reconstruiu...</default>
-	</talk>
-	<talk character="Bea">
-		<default>Tem mais. Vou te mostrar.</default>
-	</talk>
-	<teller>
-		<default>Beatrice pega Derik pela mão e entram. Vão até o salão. Derik olha para as caixas.</default>
-	</teller>
-	<talk character="Derik">
-		<default>São seis agora.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Sim. Fico imaginando se destruísse sete vezes.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ah, entendi, você arranjou cinco amiguinhos e tá querendo saber como isso funciona...</default>
-	</talk>
-	<teller>
-		<default>Beatrice encosta Derik na parede.</default>
-	</teller>
-	<talk character="Derik">
-		<default>É agora que você...</default>
-	</talk>
-	<teller>
-		<default>Beatrice beija Derik. Derik corresponde.</default>
-	</teller>
-	<teller>
-		<first>MEAK. Manhã. Kat na sala, se encolheu no sofá.</first>
-	</teller>
-	<talk character="Ang">
-		<arrive>Que foi?</arrive>
-	</talk>
-	<talk character="Kat">
-		<ghost>Derik me traiu!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Estela me disse que vocês tinham terminado.</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Isso não era motivo para ir correndo atrás de Beatrice!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Achei que não...</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Aliás, foi Derik quem terminou! Aposto que tava tudo planejado!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Kat...</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Ainda bem que não estamos mais junto!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Acho que você...</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Cara-de-pau, ainda fingiu que tava triste com a separação!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Derik tinha bebido?</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Hein?!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Não creio que fosse atrás de alguém que mata se quisesse te trair simplesmente.</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Queria me deixar mal, isso sim!</ghost>
-	</talk>
-	<talk character="Mel">
-		<arrive>Angely, viu Katerine?</arrive>
-	</talk>
-	<teller>
-		<default>Ang olha para Mel, então para Katerine.</default>
-	</teller>
-	<talk character="Kat">
-		<ghost>Ai, até esqueci de voltar ao normal!</ghost>
-	</talk>
-	<teller>
-		<default>Kat fecha os olhos. Abre novamente.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Leo tá aqui?</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Não tô conseguindo voltar!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Talvez seja por causa da raiva que está sentindo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Raiva?!</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Explica!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Estou falando com Kat, tá fora do corpo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Manda voltar, precisamos conversar.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não tá conseguindo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Como não?!</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Me ajudem, por favor!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Talvez seja raiva...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Raiva de que?</default>
-	</talk>
-	<teller>
-		<default>Ang olha para Kat. Então para Mel.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Kat terminou com Derik e Derik foi atrás de outra pessoa.</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Não fui eu quem quis terminar e não foi simplesmente atrás de outra pessoa, foi atrás de Beatrice!</ghost>
-	</talk>
-	<talk character="Mel">
-		<default>Disse algo?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Me deu uma bronca, disse que quem terminou foi Derik e disse que a outra pessoa é Beatice.</default>
-	</talk>
-	<teller>
-		<default>Mel arregala os olhos. Nat chega com Inês no colo.</default>
-	</teller>
-	<talk character="Nat">
-		<default>Que tá acontecendo?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Kat consegue sair do corpo, mas não tá conseguindo voltar agora.</default>
-	</talk>
-	<talk character="Kat">
-		<ghost>Tira essa criança maldita daqui!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Você tá se descontrolando...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que foi, Angely?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não quer Inês aqui...</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Então acho que vim trazer uma boa notícia.</arrive>
-	</talk>
-	<teller>
-		<default>Edmont se encosta na porta. Está com um capuz. Ang entra na frente de Natasha.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Vamos lutar se novo? Tá ficando entediante já, sem poder usar força de verdade.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por que não desiste, já que você sempre perde?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Seus relacionamentos nunca dão certo, mas você continua fingindo pras pessoas.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Edmont, vai embora.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não enquanto não puder levar a criança.</default>
-	</talk>
-	<talk character="Nat">
-		<default>Deve estar interessado no poder dela de controlar o fogo.</default>
-	</talk>
-	<teller>
-		<default>Edmont ri.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não precisa disso.</default>
-	</talk>
-	<talk character="Nat">
-		<default>Talvez queira vender ela...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Se eu não puder levar a criança, levo Katerine.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Kat?</default>
-	</talk>
-	<teller>
-		<default>Angely olha para Kat, que levantou-se e olha para o tórax que Edmont.</default>
-	</teller>
-	<talk character="Kat">
-		<ghost>Tá com uma pedra estranha...</ghost>
-	</talk>
-	<teller>
-		<default>Angely olha para Edmont.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Do que tá falando?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Já levei Leonardo. Vocês quem decidem, duas vidas por uma. É uma boa oferta, melhor pensarem nisso.</default>
-	</talk>
-	<teller>
-		<default>Edmont sai. Ang olha de novo, Kat não está mais.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Tava blefando, não tava, Angely?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não.</default>
-	</talk>
-	<talk character="Nat">
-		<default>Deve ter usado algum objeto. E o que faremos?</default>
-	</talk>
-	<teller>
-		<default>Mel olha pra Inês. Olha para Nat.</default>
-	</teller>
-	<talk character="Nat">
-		<default>Isso nunca.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Como vamos resolver isso?</default>
-	</talk>
-	<talk character="Nat">
-		<default>Temos que ir atrás dele e tirar o tal objeto à força!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não tem como. Temos que convencer a devolver.</default>
-	</talk>
-	<talk character="Nat">
-		<default>Mas isso, só entregando Inês!</default>
-	</talk>
-	<talk character="Mel">
-		<default>E se a gente tentasse enganar? Com algum feitiço que parecesse...</default>
-	</talk>
-	<talk character="Nat">
-		<default>Ele reconheceria a criança.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Reconhece pleo cheiro.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não vou deixar ficar com Kat por causa de Inês!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Gente, sem briga, eu...</default>
-	</talk>
-	<talk character="Nat">
-		<default>Eu sei que é difícil para você escolher entre duas filhas, mas vai ter que fazer isso!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Angely, o que você vai fazer?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Nenhuma vida é mais importante que outra, droga, não dá pra escolher assim! Tenho que salvar Kat E Inês!</default>
-	</talk>
-	<talk character="Mel">
-		<frizz>Temos.</frizz>
-	</talk>
-	<teller>
-		<default>Angely olha para Mel.</default>
-	</teller>
-	<talk character="Mel">
-		<frizz>Temos</frizz>
-		<default>que salvar. E não é só Kat. Derik.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Eu procuro.</default>
-	</talk>
-	<teller>
-		<first>Tarde. Templo. Derik está com cobertas. A roupa está jogada pelo templo.</first>
-	</teller>
-	<talk character="Ang">
-		<default>Ainda bem que não é ponto turístico.</default>
-	</talk>
-	<teller>
-		<default>Derik abre os olhos. Senta-se.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Pode se vestir, eu fico olhando pra ver se ninguém vem.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Cadê...?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Quem?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Esquece.</default>
-	</talk>
-	<teller>
-		<default>Angely sai. Olha para o céu. Derik aparece.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Katerine sabe com quem você esteve.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Kat fez alguma coisa??? Aconteceu alguma coisa???</default>
-	</talk>
-	<talk character="Ang">
-		<default>Tava conversando com Leo e não conseguiu voltar para o corpo. Acho que foi raiva.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Mas eu falei pra não ficar fazendo isso a torto e direito... Peraí, não seria "não tá conseguindo"??? Não tem mais jeito agora??? Que aconteceu com o corpo???</default>
-	</talk>
-	<talk character="Ang">
-		<default>Edmont levou Kat e Leonardo. Só vai devolver se entregarmos Inês.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Você não pode encontrar Edmont?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Poder eu posso, mas, se fossem fazer um plano, eu teria que me afastar. Poderia descobrir.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu vou.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Então, passe em casa e fale que eu volto assim que isso terminar.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Por que? Você pode ajudar...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não. É forte demais essa ligação.</default>
-	</talk>
-	<talk character="Derik">
-		<default>E o que vai fazer?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Procurar Zenon. Talvez possa ajudar.</default>
-	</talk>
-	<teller>
-		<default>MEAK. Derik chega. Mel e Nat olham em sua direção.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Cadê Angely?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Foi procurar Zenon.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pra que?</default>
-	</talk>
-	<talk character="Nat">
-		<default>Pra não agüentar a pressão.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Angely não fugiria assim.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que pressão?</default>
-	</talk>
-	<talk character="Nat">
-		<default>Melody quer que Angely entregue uma filha por outra.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não foi isso que eu disse!</default>
-	</talk>
-	<talk character="Nat">
-		<default>Você queria sim!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Filha?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se fosse pra trocar Inês por Kat, iríamos pegar Inês de volta depois.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Kat só é de Mel.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Nós somos família, isso não faz diferença!</default>
-	</talk>
-	<talk character="Nat">
-		<default>Então por que não pega Kat do mesmo jeito que quer pegar Inês depois?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Gente...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não dá pra pegar um fantasma!</default>
-	</talk>
-	<talk character="Nat">
-		<default>E acha mais fácil pegar um bebê?! Por que acha que ele preferiu levar sua filha?!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Acho que vou atrás do Angely...</default>
-	</talk>
-	<talk character="Mel">
-		<screamed>Pra me torturar, é isso que Edmont gosta de fazer!</screamed>
-	</talk>
-	<talk character="Nat">
-		<screamed>Como se Inês fosse ter alguma outra serventia pra ele! Você mesmos disseram que ele não precisa dela!</screamed>
-	</talk>
-	<talk character="Derik">
-		<screamed>Querem parar com isso???</screamed>
-	</talk>
-	<teller>
-		<default>Mel e Nat olham para Derik, com raiva.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Brigar não vai levar a nada. Nem me matar, como estão querendo agora. Aliás, posso apostar um rim que é isso que Edmont tá querendo, confusão.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu vou querer seu rim se fizer isso de novo.</default>
-	</talk>
-	<teller>
-		<default>Derik olha para Mel. Baixa a cabeça. Olha para Nat.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Cadê Inês?</default>
-	</talk>
-	<talk character="Nat">
-		<default>Tá lá em cima, dormindo.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ou Edmont já levou!!!!</default>
-	</talk>
-	<teller>
-		<default>Derik sobe correndo.</default>
-	</teller>
-</story>
+{
+	"season": "B",
+	"episode": "02",
+	"scene": "d",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik está na mureta da praia. Está com uma garrafa de tequila. Vira um gole. Beatrice se senta ao seu lado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei que tivesse ido embora, ou morrido, sei lá..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei que Mel mataria Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E agora vai levar minha cabeça de presente pra Edmont? Esforço em vão, não vai machucar Kat com isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não falei com Edmont ainda, depois de tudo aquilo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Algum recado para Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat te deu um pé?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se interessou por Kat agora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não poderia ser em você? Apesar de já ter bebido bastante..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fala a verdade, o que você quer comigo?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice desce da mureta e estende a mão a Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vem... Eu te mostro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minha vida eu já deixei naquele casarão, o que tenho a perder?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Angely chega no quarto de Estela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tá conseguindo dormir?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pensando em Alan. Ele não ligou mais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deve ter muito a fazer, com o casamento."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dois meses... Eu aqui sofrendo e Kat dá um pé no Derik por que acha que ele vai ir atrás da Inês quando ela crescer!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Sótão. Kat deitou-se no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela não entende."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Queria que pudesse me ver..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat senta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso tentar um coisa!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat levanta e vai até a parede, senta, com as costas na parede. Sai de seu corpo. Vai até Leo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Agora eu tô te vendo!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leo se aproxima de Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Está ainda mais linda. Parece com ela. Será que existe reencarnação?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Acho que não é o caso. Você consegue sair daqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Tenho medo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Vamo, eu te levo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Consegue ficar o tempo quiser assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Se eu não mover nada, acho que sim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leo sorri."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Frente do templo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Reconstruiu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem mais. Vou te mostrar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice pega Derik pela mão e entram. Vão até o salão. Derik olha para as caixas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "São seis agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim. Fico imaginando se destruísse sete vezes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, entendi, você arranjou cinco amiguinhos e tá querendo saber como isso funciona..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice encosta Derik na parede."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É agora que você..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice beija Derik. Derik corresponde."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Manhã. Kat na sala, se encolheu no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Derik me traiu!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela me disse que vocês tinham terminado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Isso não era motivo para ir correndo atrás de Beatrice!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei que não..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Aliás, foi Derik quem terminou! Aposto que tava tudo planejado!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Ainda bem que não estamos mais junto!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que você..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Cara-de-pau, ainda fingiu que tava triste com a separação!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik tinha bebido?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Hein?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não creio que fosse atrás de alguém que mata se quisesse te trair simplesmente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Queria me deixar mal, isso sim!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Angely, viu Katerine?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang olha para Mel, então para Katerine."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Ai, até esqueci de voltar ao normal!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat fecha os olhos. Abre novamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leo tá aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Não tô conseguindo voltar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez seja por causa da raiva que está sentindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Raiva?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Explica!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estou falando com Kat, tá fora do corpo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manda voltar, precisamos conversar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tá conseguindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como não?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Me ajudem, por favor!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez seja raiva..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Raiva de que?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang olha para Kat. Então para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat terminou com Derik e Derik foi atrás de outra pessoa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Não fui eu quem quis terminar e não foi simplesmente atrás de outra pessoa, foi atrás de Beatrice!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Disse algo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me deu uma bronca, disse que quem terminou foi Derik e disse que a outra pessoa é Beatice."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel arregala os olhos. Nat chega com Inês no colo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tá acontecendo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat consegue sair do corpo, mas não tá conseguindo voltar agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Tira essa criança maldita daqui!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tá se descontrolando..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi, Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quer Inês aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Então acho que vim trazer uma boa notícia."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se encosta na porta. Está com um capuz. Ang entra na frente de Natasha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos lutar se novo? Tá ficando entediante já, sem poder usar força de verdade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não desiste, já que você sempre perde?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seus relacionamentos nunca dão certo, mas você continua fingindo pras pessoas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, vai embora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não enquanto não puder levar a criança."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deve estar interessado no poder dela de controlar o fogo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa disso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez queira vender ela..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se eu não puder levar a criança, levo Katerine."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Kat, que levantou-se e olha para o tórax que Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Tá com uma pedra estranha..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que tá falando?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já levei Leonardo. Vocês quem decidem, duas vidas por uma. É uma boa oferta, melhor pensarem nisso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont sai. Ang olha de novo, Kat não está mais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tava blefando, não tava, Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deve ter usado algum objeto. E o que faremos?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha pra Inês. Olha para Nat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso nunca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como vamos resolver isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos que ir atrás dele e tirar o tal objeto à força!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem como. Temos que convencer a devolver."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas isso, só entregando Inês!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se a gente tentasse enganar? Com algum feitiço que parecesse..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele reconheceria a criança."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Reconhece pleo cheiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vou deixar ficar com Kat por causa de Inês!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, sem briga, eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei que é difícil para você escolher entre duas filhas, mas vai ter que fazer isso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, o que você vai fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nenhuma vida é mais importante que outra, droga, não dá pra escolher assim! Tenho que salvar Kat E Inês!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "frizz",
+					"text": "Temos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "frizz",
+					"text": "Temos"
+				},
+				{
+					"type": "default",
+					"text": "que salvar. E não é só Kat. Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu procuro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Tarde. Templo. Derik está com cobertas. A roupa está jogada pelo templo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda bem que não é ponto turístico."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik abre os olhos. Senta-se."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode se vestir, eu fico olhando pra ver se ninguém vem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê...?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esquece."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely sai. Olha para o céu. Derik aparece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Katerine sabe com quem você esteve."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat fez alguma coisa??? Aconteceu alguma coisa???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tava conversando com Leo e não conseguiu voltar para o corpo. Acho que foi raiva."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas eu falei pra não ficar fazendo isso a torto e direito... Peraí, não seria "não tá conseguindo"??? Não tem mais jeito agora??? Que aconteceu com o corpo???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont levou Kat e Leonardo. Só vai devolver se entregarmos Inês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não pode encontrar Edmont?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Poder eu posso, mas, se fossem fazer um plano, eu teria que me afastar. Poderia descobrir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, passe em casa e fale que eu volto assim que isso terminar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que? Você pode ajudar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. É forte demais essa ligação."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que vai fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Procurar Zenon. Talvez possa ajudar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "MEAK. Derik chega. Mel e Nat olham em sua direção."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi procurar Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra não agüentar a pressão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely não fugiria assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que pressão?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody quer que Angely entregue uma filha por outra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi isso que eu disse!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você queria sim!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Filha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se fosse pra trocar Inês por Kat, iríamos pegar Inês de volta depois."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat só é de Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós somos família, isso não faz diferença!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então por que não pega Kat do mesmo jeito que quer pegar Inês depois?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não dá pra pegar um fantasma!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E acha mais fácil pegar um bebê?! Por que acha que ele preferiu levar sua filha?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que vou atrás do Angely..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Pra me torturar, é isso que Edmont gosta de fazer!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Como se Inês fosse ter alguma outra serventia pra ele! Você mesmos disseram que ele não precisa dela!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Querem parar com isso???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel e Nat olham para Derik, com raiva."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brigar não vai levar a nada. Nem me matar, como estão querendo agora. Aliás, posso apostar um rim que é isso que Edmont tá querendo, confusão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou querer seu rim se fizer isso de novo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha para Mel. Baixa a cabeça. Olha para Nat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê Inês?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Nat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá lá em cima, dormindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ou Edmont já levou!!!!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik sobe correndo."
+				}
+			]
+		}
+	]
+}

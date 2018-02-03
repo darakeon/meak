@@ -1,129 +1,420 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="06" scene="g">
-	<teller>
-		<default>Dias depois, Kat, Mel, Angely e Edmont estão no jardim. Jak aparece.</default>
-	</teller>
-	<talk character="Jak">
-		<default>Parabéns. Última lição: não deixe seu adversário te irritar. Que decidiram?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Há três anos atrás estávamos quase nos tornando normais.</default>
-	</talk>
-	<talk character="Jak">
-		<default>Não vão desistir de ajudar as pessoas, vão?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Talvez isso não seja pra nós.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Somos novos demais.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vocês? Eu tenho só treze anos!</default>
-	</talk>
-	<talk character="Jak">
-		<default>Estão falando sério?</default>
-	</talk>
-	<teller>
-		<default>Todos se entreolham.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Não. Mas a sua cara foi sensacional.</default>
-	</talk>
-	<talk character="Jak">
-		<default>Ótimo. Agora, estão por sua conta.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Legal.</default>
-	</talk>
-	<talk character="Jak">
-		<default>Ah, sobre o Egito...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que?</default>
-	</talk>
-	<talk character="Sarah">
-		<arrive>Não te disse que eles passariam no teste e aceitariam nossa herança?</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Você...</default>
-	</talk>
-	<talk character="Jak">
-		<default>Amor, assim assusta eles.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que porra é essa?</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Não podíamos entregar a vocês uma agência sem ter a menor idéia do que eram capazes...</default>
-	</talk>
-	<talk character="Jak">
-		<default>...com todo o trabalho que tivemos.</default>
-	</talk>
-	<teller>
-		<default>Jak dá o braço à Sarah.</default>
-	</teller>
-	<talk character="Jak">
-		<default>Vamos?</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Claro.</default>
-	</talk>
-	<teller>
-		<default>Os dois desaparecem. Os quatro se entreolham. Kat entra na MEAK. Mel a segue. Angely vai também. Edmont olha um segundo para onde Jak desapareceu. Balança a cabeça. Entra.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Que vamos fazer agora?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Fingir que somos normais, ajudar as pessoas, tocar...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Peraí, peraí, peraí... Que tal a gente dormir primeiro?</default>
-	</talk>
-	<teller>
-		<default>Tempos depois, a noite, Edmont e Angely estão dormindo, em seus respectivos quartos. Em seus sonhos, o enterro de Beatrice. No tornozelo dela havia algo. Era prata, tinha uma esmeralda. Os dois acordam ao mesmo tempo. Saem de seus quartos e se encontram no corredor.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tem alguma idéia do que é isso?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não. Mas quer saber o que me incomoda de verdade?</default>
-	</talk>
-	<talk character="Angely">
-		<default>O que?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Por que diabos a Mel tinha tanto medo de alguém que cheira como se tivesse parentesco com Nilrem?</default>
-	</talk>
-	<teller>
-		<division>Algum tempo, algum lugar</division>
-	</teller>
-	<talk character="Xien">
-		<default>Não consigo identificar o que senti sobre a Meg.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Faz muito tempo. E não vai saber assim tão fácil quem era você.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Maldita...</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Por quê?!</default>
-	</talk>
-	<talk character="Xien">
-		<default>Não você... Nem Meg. Quem fingiu que era múmia. E porque a gente não devia contar para Meg e Agatha?! Jjá sabiam que a gente vinha de outro planeta...</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>As coisas podem ficar um pouco mais confusas do que você imagina.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Como assim?</default>
-	</talk>
-	<teller>
-		<default>Uehfo some.</default>
-	</teller>
-	<talk character="Xien">
-		<default>Merda.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "06",
+	"scene": "g",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dias depois, Kat, Mel, Angely e Edmont estão no jardim. Jak aparece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parabéns. Última lição: não deixe seu adversário te irritar. Que decidiram?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Há três anos atrás estávamos quase nos tornando normais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vão desistir de ajudar as pessoas, vão?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez isso não seja pra nós."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Somos novos demais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês? Eu tenho só treze anos!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estão falando sério?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Todos se entreolham."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Mas a sua cara foi sensacional."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ótimo. Agora, estão por sua conta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Legal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, sobre o Egito..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Não te disse que eles passariam no teste e aceitariam nossa herança?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Amor, assim assusta eles."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que porra é essa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não podíamos entregar a vocês uma agência sem ter a menor idéia do que eram capazes..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "...com todo o trabalho que tivemos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jak dá o braço à Sarah."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Os dois desaparecem. Os quatro se entreolham. Kat entra na MEAK. Mel a segue. Angely vai também. Edmont olha um segundo para onde Jak desapareceu. Balança a cabeça. Entra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que vamos fazer agora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fingir que somos normais, ajudar as pessoas, tocar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Peraí, peraí, peraí... Que tal a gente dormir primeiro?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tempos depois, a noite, Edmont e Angely estão dormindo, em seus respectivos quartos. Em seus sonhos, o enterro de Beatrice. No tornozelo dela havia algo. Era prata, tinha uma esmeralda. Os dois acordam ao mesmo tempo. Saem de seus quartos e se encontram no corredor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem alguma idéia do que é isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Mas quer saber o que me incomoda de verdade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que diabos a Mel tinha tanto medo de alguém que cheira como se tivesse parentesco com Nilrem?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Algum tempo, algum lugar"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não consigo identificar o que senti sobre a Meg."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Faz muito tempo. E não vai saber assim tão fácil quem era você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Maldita..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não você... Nem Meg. Quem fingiu que era múmia. E porque a gente não devia contar para Meg e Agatha?! Jjá sabiam que a gente vinha de outro planeta..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As coisas podem ficar um pouco mais confusas do que você imagina."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uehfo some."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Merda."
+				}
+			]
+		}
+	]
+}

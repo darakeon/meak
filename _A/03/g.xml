@@ -1,33 +1,104 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="03" scene="g">
-	<teller>
-		<division>Algum tempo, algum lugar</division>
-	</teller>
-	<talk character="Xien">
-		<default>A Melody me contou isso.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Então você já sabe que você não é Mel.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Muito engraçado.</default>
-	</talk>
-	<teller>
-		<default>Xien levanta.</default>
-	</teller>
-	<talk character="Xien">
-		<default>A gente pegou a criatura maldita que fez isso?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Ah, não, eu já disse, organizei tudo direitinho, vai ter que ver.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Eu já sei que sou Angely ou Edmont, por que não me conta de uma vez...</default>
-	</talk>
-	<teller>
-		<default>Uehfo some.</default>
-	</teller>
-	<talk character="Xien">
-		<default>Droga!!!</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "03",
+	"scene": "g",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Algum tempo, algum lugar"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A Melody me contou isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então você já sabe que você não é Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Muito engraçado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Xien levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente pegou a criatura maldita que fez isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, não, eu já disse, organizei tudo direitinho, vai ter que ver."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu já sei que sou Angely ou Edmont, por que não me conta de uma vez..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uehfo some."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga!!!"
+				}
+			]
+		}
+	]
+}
