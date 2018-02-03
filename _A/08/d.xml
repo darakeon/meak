@@ -1,483 +1,1573 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="08" scene="d">
-	<teller>
-		<default>Apartamento de Jeremy.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Então?</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Ela vem.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não tá tentando me enganar, tá?</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Meu amigo disse que posso estar certo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E essa pessoa já falou com Agatha?</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Não, mas eu falei com ele...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vai convencer Agatha a ir a um médico, pra confirmar isso?</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Vou. Bom, vou tentar. Mas, enquanto isso, diz que não sabe onde ela está.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tudo bem. Vou indo, com ou sem doença, não quero ver a cara dela.</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Ah, é, sobre o que aconteceu...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu não tenho nada a ver com isso.</default>
-	</talk>
-	<teller>
-		<default>Mel sai. Chama o elevador. O elevador chega. Mel entra. Aperta para descer. A porta fecha. Jeremy fecha a porta. Encosta de costas na porta.</default>
-	</teller>
-	<talk character="Jeremy">
-		<default>Se eu soubesse que você estava tão perto, não tinha nem encostado na louca da Agatha.</default>
-	</talk>
-	<teller>
-		<first>Noite. Angely está na cozinha. Um barulho. Olha pela janela. Uma pessoa no jardim.</first>
-	</teller>
-	<talk character="Mel">
-		<arrive>Que foi? Algo errado?</arrive>
-	</talk>
-	<teller>
-		<default>Angely olha pra Mel. Volta seu olhar ao jardim. Ninguém.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Nada. Onde você foi?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não queimou o jantar dessa vez?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tá mudando de assunto.</default>
-	</talk>
-	<teller>
-		<default>Edmont chega. Anda devagar. Para na sala. Na cozinha, Mel se senta à mesa.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Fui ver se Agatha ainda estava lá.</default>
-	</talk>
-	<talk character="Angely">
-		<default>No apartamento de Jeremy?</default>
-	</talk>
-	<talk character="Mel">
-		<default>É, mas foi embora.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Como assim?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Jeremy não sabia do namoro. Nem dessa, da outra vez.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Outra vez?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pelo jeito a traição fazia mais tempo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você já não fala dela com tanta raiva.</default>
-	</talk>
-	<teller>
-		<default>Edmont entra na cozinha.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Já voltou?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não, é meu holograma.</default>
-	</talk>
-	<teller>
-		<default>Ele pega uma maçã.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Tem comida aí, hoje era meu dia de fazer a janta.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não tô com fome.</default>
-	</talk>
-	<teller>
-		<default>Edmont sai.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Ele vai dormir, acordar e ir atrás de Agatha de novo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E você deveria estar descansando.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por quê? Pra que?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Fazem nove dias.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E daí?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu tenho esperança de recuperar Edmont, não queira me dar problemas você também.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nos trata como se fosse nossa irmã mais velha, como se tivesse que cuidar da gente.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É o que eu tenho feito. Desde sempre. Por que não?</default>
-	</talk>
-	<teller>
-		<default>Angely franze a testa. Mel se levanta e sai.</default>
-	</teller>
-	<talk character="Angely">
-		<default>"Por que não?"...</default>
-	</talk>
-	<teller>
-		<first>Madrugada. Kat vai até a cozinha. Pega comida. Aurium chega, andando abaixado, e deita perto de Kat, com o focinho nas patas, olhando para Kat.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Isso você quer, né?</default>
-	</talk>
-	<teller>
-		<default>Kat abre a geladeira. Pega um pedaço de carne. Joga para Aurium.  Ele tenta pegar no ar, não consegue. Olha o do chão. Senta e olha para Kat, abanando o rabo. Kat pega outro pedaço e joga. Dessa vez, Aurium pega no ar. Mastiga, engole. Sai. Kat sai também. Não vê Aurium. Balança a cabeça para os lados.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Tô pra ver cachorro mais fresco.</default>
-	</talk>
-	<teller>
-		<default>Entra. Pega o pedaço de carne. Olha para os lados. Lava e devolve na geladeira. Do lado de fora, duas pessoas a observam a casa, de longe.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Preciso falar com Kat. Sobre tudo.</default>
-	</talk>
-	<talk character="Jak">
-		<default>Alguém está apaixonado.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não me interessa o nome que isso tem. Kat é importante pra mim.</default>
-	</talk>
-	<talk character="Jak">
-		<default>Aguarde mais um tempo.</default>
-	</talk>
-	<teller>
-		<first>Quarto de Jeremy. Jeremy anda de um lado pro outro.</first>
-	</teller>
-	<talk character="Agatha">
-		<arrive>Tá tudo bem?</arrive>
-	</talk>
-	<talk character="Jeremy">
-		<default>Tô sem sono. Pensei que estivesse dormindo.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Mas não estou. Não devia ficar gastando a energia aí.</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Agatha!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Qual o problema? Não agüenta mais?</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Isso cansa, sabia?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Pois eu não estou cansada.</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Eu acho que você tem algum problema.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Tenho mesmo. Não tem um homem de verdade por aqui...</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Ei!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>É isso mesmo! Nenhum de vocês agüenta! São todos uns broxas!</default>
-	</talk>
-	<teller>
-		<default>Agatha se levanta da cama.</default>
-	</teller>
-	<talk character="Jeremy">
-		<default>Onde vai?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Procurar um homem de verdade.</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Fazer o que?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Além de broxa é surdo?</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Você sabe qual é o perigo de você sair com o primeiro que aparecer?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Se for um broxa que nem você eu procuro outro.</default>
-	</talk>
-	<teller>
-		<default>Jeremy baixa a cabeça e suspira. Agatha vai na direção da porta. Jeremy puxa e beija Agatha.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Mudou de idéia?</default>
-	</talk>
-	<talk character="Jeremy">
-		<default>Mudei.</default>
-	</talk>
-	<teller>
-		<default>Agatha sorri. Beija Jeremy.</default>
-	</teller>
-	<teller>
-		<first>Angely está deitado na cama. Levanta bruscamente. Vai até a janela e nada vê.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Minha imaginação de novo.</default>
-	</talk>
-	<teller>
-		<default>Angely volta pra cama. Batidas na porta. Angely olha para a porta. Se vira para o canto. Mel entra. Se senta na beirada da cama.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Te acordei?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não, eu não consegui dormir.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Nem eu...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont já saiu?</default>
-	</talk>
-	<talk character="Mel">
-		<default>São cinco da manhã ainda.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E por que você veio até aqui?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu preciso contar algo sobre Nilrem.</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Não dormiram também?</arrive>
-	</talk>
-	<talk character="Mel">
-		<default>Preocupação.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Age como se fosse nossa irmã.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Estão falando isso com bastante frequência ultimamente. Seria ruim?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não, mas...</default>
-	</talk>
-	<talk character="Mel">
-		<default>E se Agatha tivesse algum problema?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Um distúrbio psicológico.</default>
-	</talk>
-	<teller>
-		<default>Angely se senta na cama, olhando para Mel. Olha para Edmont.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Então não seria traição, não é?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vocês têm imaginação fértil.</default>
-	</talk>
-	<teller>
-		<default>Edmont sai do quarto.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Tomara que ele desista dessa idéia.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por que não disse o que queria dizer na frente do Edmont?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mel, não disfarça.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Deixa pra lá. Não importa.</default>
-	</talk>
-	<teller>
-		<default>Mel se levanta.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Começou a dizer, agora termina.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Esquece.</default>
-	</talk>
-	<teller>
-		<default>Mel sai até a cozinha.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Edmont, lembra de Nilrem?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Lembro. Era conselheiro de Modret, foi quem criou, e ajudou a gente depois.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Acha mesmo que ele era tudo isso?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Você sabe de alguma coisa que eu não saiba?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Foi só uma suposição.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não é o que parece.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Nada é o que parece.</default>
-	</talk>
-	<teller>
-		<default>Silêncio. Mel pega leite na geladeira. Pega achocolatado no armário. Coloca o leite e o achocolatado no copo. Angely chega na cozinha. Abre a janela. Vai até a geladeira. Abre. Olha. Fecha. Sai da cozinha de novo.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Vou sair.</default>
-	</talk>
-	<teller>
-		<default>Edmont olha para Mel. Mel continua mexendo achocolatado em um copo.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Não vai dizer nada?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se você quer continuar pensando nela isso não é problema meu.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Então acha que eu ainda gosto dela?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se não sentisse mais nada, não estaria correndo atrás dela.</default>
-	</talk>
-	<teller>
-		<default>Edmont solta o ar e balança a cabeça para os lados.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Que férias malditas nós tiramos...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Precisávamos de um tempo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Deveríamos ter voltado antes.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Esqueceu do que eu fiz?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Já passaram dez dias.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Daqui a cinco teremos que viajar.</default>
-	</talk>
-	<teller>
-		<default>Mel vira o copo de achocolatado. Sai da cozinha.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Vou acabar com a banda.</default>
-	</talk>
-	<talk character="Jak">
-		<default>Vai mesmo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Que você tá fazendo aqui?</default>
-	</talk>
-	<talk character="Jak">
-		<default>Nada.</default>
-	</talk>
-	<teller>
-		<default>Jak desaparece.</default>
-	</teller>
-	<teller>
-		<first>Angely está no jardim, no chão, encostado em uma árvore. Levanta-se bruscamente. Olha para os lados.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Quem está chamando?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Não reconhece mais minha voz?</default>
-	</talk>
-	<teller>
-		<default>Angely vira para trás. Meg está parada olhando para ele, com a cabeça meio de lado.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Meg...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Por que você me abandonou?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Onde você está?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Estou me sentindo só... Vem comigo?</default>
-	</talk>
-	<teller>
-		<default>Edmont sai. Vê Angely. Franze a testa. Vai até Angely.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Falando sozinho?</default>
-	</talk>
-	<teller>
-		<default>Angely olha para Edmont. Olha em volta.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Onde ela tá?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Fica jogando indiretas o tempo todo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Também está ouvindo?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Estamos falando de Mel?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mel... Parece que ela quer falar algo e não consegue.</default>
-	</talk>
-	<teller>
-		<default>Toca o celular de Edmont. Edmont atende.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Alô? ### Sou eu. ### Quem? ### De onde nos... ### O que tem? ### Que horas? ### Tá, eu vou. ### Já disse que vou. ### Mas qual seu...</default>
-	</talk>
-	<teller>
-		<default>Edmont suspira. Desliga o telefone.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Quem era?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ninguém.</default>
-	</talk>
-	<teller>
-		<default>Edmont volta pra dentro. Angely olha ao redor. Baixa a cabeça. Entra.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Você não ia sair?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ia, disse bem.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "08",
+	"scene": "d",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Apartamento de Jeremy."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela vem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tá tentando me enganar, tá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu amigo disse que posso estar certo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E essa pessoa já falou com Agatha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, mas eu falei com ele..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai convencer Agatha a ir a um médico, pra confirmar isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou. Bom, vou tentar. Mas, enquanto isso, diz que não sabe onde ela está."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem. Vou indo, com ou sem doença, não quero ver a cara dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, é, sobre o que aconteceu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não tenho nada a ver com isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sai. Chama o elevador. O elevador chega. Mel entra. Aperta para descer. A porta fecha. Jeremy fecha a porta. Encosta de costas na porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se eu soubesse que você estava tão perto, não tinha nem encostado na louca da Agatha."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite. Angely está na cozinha. Um barulho. Olha pela janela. Uma pessoa no jardim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que foi? Algo errado?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha pra Mel. Volta seu olhar ao jardim. Ninguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada. Onde você foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não queimou o jantar dessa vez?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá mudando de assunto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont chega. Anda devagar. Para na sala. Na cozinha, Mel se senta à mesa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fui ver se Agatha ainda estava lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No apartamento de Jeremy?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, mas foi embora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jeremy não sabia do namoro. Nem dessa, da outra vez."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Outra vez?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo jeito a traição fazia mais tempo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você já não fala dela com tanta raiva."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont entra na cozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já voltou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, é meu holograma."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele pega uma maçã."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem comida aí, hoje era meu dia de fazer a janta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tô com fome."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele vai dormir, acordar e ir atrás de Agatha de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você deveria estar descansando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê? Pra que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fazem nove dias."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E daí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tenho esperança de recuperar Edmont, não queira me dar problemas você também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nos trata como se fosse nossa irmã mais velha, como se tivesse que cuidar da gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É o que eu tenho feito. Desde sempre. Por que não?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely franze a testa. Mel se levanta e sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": ""Por que não?"..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Madrugada. Kat vai até a cozinha. Pega comida. Aurium chega, andando abaixado, e deita perto de Kat, com o focinho nas patas, olhando para Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso você quer, né?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat abre a geladeira. Pega um pedaço de carne. Joga para Aurium.  Ele tenta pegar no ar, não consegue. Olha o do chão. Senta e olha para Kat, abanando o rabo. Kat pega outro pedaço e joga. Dessa vez, Aurium pega no ar. Mastiga, engole. Sai. Kat sai também. Não vê Aurium. Balança a cabeça para os lados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô pra ver cachorro mais fresco."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Entra. Pega o pedaço de carne. Olha para os lados. Lava e devolve na geladeira. Do lado de fora, duas pessoas a observam a casa, de longe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preciso falar com Kat. Sobre tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguém está apaixonado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não me interessa o nome que isso tem. Kat é importante pra mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aguarde mais um tempo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Quarto de Jeremy. Jeremy anda de um lado pro outro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Tá tudo bem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô sem sono. Pensei que estivesse dormindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas não estou. Não devia ficar gastando a energia aí."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual o problema? Não agüenta mais?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso cansa, sabia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pois eu não estou cansada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu acho que você tem algum problema."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho mesmo. Não tem um homem de verdade por aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É isso mesmo! Nenhum de vocês agüenta! São todos uns broxas!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha se levanta da cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde vai?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Procurar um homem de verdade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fazer o que?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Além de broxa é surdo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você sabe qual é o perigo de você sair com o primeiro que aparecer?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se for um broxa que nem você eu procuro outro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jeremy baixa a cabeça e suspira. Agatha vai na direção da porta. Jeremy puxa e beija Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mudou de idéia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jeremy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mudei."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha sorri. Beija Jeremy."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Angely está deitado na cama. Levanta bruscamente. Vai até a janela e nada vê."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minha imaginação de novo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely volta pra cama. Batidas na porta. Angely olha para a porta. Se vira para o canto. Mel entra. Se senta na beirada da cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Te acordei?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, eu não consegui dormir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont já saiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "São cinco da manhã ainda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por que você veio até aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu preciso contar algo sobre Nilrem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Não dormiram também?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preocupação."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Age como se fosse nossa irmã."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estão falando isso com bastante frequência ultimamente. Seria ruim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se Agatha tivesse algum problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um distúrbio psicológico."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely se senta na cama, olhando para Mel. Olha para Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então não seria traição, não é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês têm imaginação fértil."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont sai do quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tomara que ele desista dessa idéia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não disse o que queria dizer na frente do Edmont?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, não disfarça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixa pra lá. Não importa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel se levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Começou a dizer, agora termina."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esquece."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sai até a cozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, lembra de Nilrem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lembro. Era conselheiro de Modret, foi quem criou, e ajudou a gente depois."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha mesmo que ele era tudo isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você sabe de alguma coisa que eu não saiba?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi só uma suposição."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é o que parece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada é o que parece."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Silêncio. Mel pega leite na geladeira. Pega achocolatado no armário. Coloca o leite e o achocolatado no copo. Angely chega na cozinha. Abre a janela. Vai até a geladeira. Abre. Olha. Fecha. Sai da cozinha de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou sair."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont olha para Mel. Mel continua mexendo achocolatado em um copo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai dizer nada?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se você quer continuar pensando nela isso não é problema meu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então acha que eu ainda gosto dela?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se não sentisse mais nada, não estaria correndo atrás dela."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont solta o ar e balança a cabeça para os lados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que férias malditas nós tiramos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Precisávamos de um tempo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deveríamos ter voltado antes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esqueceu do que eu fiz?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já passaram dez dias."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Daqui a cinco teremos que viajar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel vira o copo de achocolatado. Sai da cozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou acabar com a banda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai mesmo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que você tá fazendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jak",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jak desaparece."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Angely está no jardim, no chão, encostado em uma árvore. Levanta-se bruscamente. Olha para os lados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem está chamando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não reconhece mais minha voz?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely vira para trás. Meg está parada olhando para ele, com a cabeça meio de lado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que você me abandonou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde você está?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estou me sentindo só... Vem comigo?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont sai. Vê Angely. Franze a testa. Vai até Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falando sozinho?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Edmont. Olha em volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde ela tá?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fica jogando indiretas o tempo todo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também está ouvindo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estamos falando de Mel?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel... Parece que ela quer falar algo e não consegue."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca o celular de Edmont. Edmont atende."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alô? ### Sou eu. ### Quem? ### De onde nos... ### O que tem? ### Que horas? ### Tá, eu vou. ### Já disse que vou. ### Mas qual seu..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont suspira. Desliga o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem era?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ninguém."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont volta pra dentro. Angely olha ao redor. Baixa a cabeça. Entra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não ia sair?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ia, disse bem."
+				}
+			]
+		}
+	]
+}

@@ -1,468 +1,1530 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="20" scene="b">
-	<teller>
-		<division>Atualmente</division>
-		<default>Katerine chega a MEAK. Bate na porta. Passos. Chaves. Mel abre a porta.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Oi. Angely tá em casa?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Provável. Algum problema?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Um. Não tenho visto Angely.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Também não.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tem certeza que Angely não...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Cortou os pulsos? Eu teria sentido o cheiro.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pode nem estar em casa.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então tem mais alguém vivendo na casa e eu não sei.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Talvez esteja sentindo culpa pelo que aconteceu.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então vai ter que resolver isso. Já sobreviveu outras vezes. E Edmont não vai querer que morra, então...</default>
-	</talk>
-	<teller>
-		<default>Kat franze a testa.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Que foi?</default>
-	</talk>
-	<teller>
-		<default>Kat desfranze a testa. Olha pra baixo.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Eu ia sugerir que falasse com Angely.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não, você não ia. Tem um mínimo de noção.</default>
-	</talk>
-	<teller>
-		<default>Kat olha pra Mel.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Culpa Angely?</default>
-	</talk>
-	<teller>
-		<default>Mel cruza os braços e encara Kat.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Eu sei que Angely talvez fosse a única pessoa pudesse impedir Edmont...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Angely sabe que poderia impedir. Veio me pedir desculpa no hospital.</default>
-	</talk>
-	<teller>
-		<default>Kat baixa a cabeça novamente.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Acho que vou indo.</default>
-	</talk>
-	<teller>
-		<default>Mel vai até a porta. Abre. Kat sai.</default>
-	</teller>
-	<teller>
-		<first>Kat chega em casa. Derik levanta do sofá. Kat balança a cabeça para os lados. Derik solta o corpo no sofá. Agatha levanta de sopetão.</first>
-	</teller>
-	<talk character="Agatha">
-		<default>Chega. Eu vou lá.</default>
-	</talk>
-	<talk character="Derik">
-		<default>E vai fazer o que?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Dar um basta nisso. Vou falar com Mel e, se não adiantar, vou falar com Angely. Angely pode vir morar com a gente, não precisa ficar... Ficar...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pagando o que Edmont fez?</default>
-	</talk>
-	<talk character="Derik">
-		<default>A gente podia procurar um feitiço pra prender Edmont, como prenderam Andrews.</default>
-	</talk>
-	<teller>
-		<default>Kat senta no sofá.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Angely ia cair junto.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Mas a gente podia colocar Edmont numa jaula e alimentar ele...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ia se recusar a comer, pra derrubar Angely.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Uma hora iria aceitar.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E quem de nós vai viver tanto pra manter isso?</default>
-	</talk>
-	<teller>
-		<default>Derik franze a sobrancelha.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Não te falaram?</default>
-	</talk>
-	<talk character="Kat">
-		<default>O que?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não sei você, por ser meio atlante, mas atlantes não envelhecem. Não têm doenças. Só podem morrer se forem mesmo mortos por coisas externas ou se decidirem assim.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Então teria que se matar?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não... Tipo... Só morrem.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Acho que Mel adoraria ser carcereira de Edmont pela eternidade.</default>
-	</talk>
-	<talk character="Derik">
-		<default>A gente pode ir contar pra Mel a ideia...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Porque?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Primeiro a gente acha o feitiço. Aí chamamos Angely e Angely pega Edmont. Então falamos com Mel.</default>
-	</talk>
-	<teller>
-		<first>Dezembro de 2014. Manhã. Derik e Agatha estão na sala. Kat chega.</first>
-	</teller>
-	<talk character="Kat">
-		<arrive>E aí? Tudo pronto?</arrive>
-	</talk>
-	<talk character="Derik">
-		<default>Bom, quase.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Falta o principal.</default>
-	</talk>
-	<talk character="Kat">
-		<default>O que?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Edmont.</default>
-	</talk>
-	<teller>
-		<default>Kat encara Agatha.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Falar com Angely?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vamos rezar pra Mel não estar em casa?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Vocês precisam passar por Mel, eu não.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu poderia escalar a janela.</default>
-	</talk>
-	<talk character="Derik">
-		<default>E correr o risco de se machucar? Eu voo, Kat. E surdina é minha especialidade.</default>
-	</talk>
-	<teller>
-		<default>Aurium sobrevoa a MEAK. Pousa no telhado. Levanta voo novamente. Pousa na janela, que está fechada. Segura perto da fechadura com o bico. A fechadura começa a ficar vermelha. Solta do lado de dentro, caindo no chão, fazendo barulho. Aurium voa. Sobrevoa novamente a MEAK e pousa na janela. Abre a janela. Angely está na cama. Aurium dá uma volta no chão. Bate as asas. Angely continua sem se mexer. Aurium berra. Nada. Aurium vira Derik. Se aproxima de Angely e coloca a mão no pulso. No começo do toque, voa contra a parede contrária. Senta-se.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Agora fodeu.</default>
-	</talk>
-	<teller>
-		<default>Toca o telefone na casa de Kat. Kat vai pegar, Agatha corre e atende.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Fala.</default>
-	</talk>
-	<talk character="Derik">
-		<out>Kat tá aí?</out>
-	</talk>
-	<talk character="Agatha">
-		<default>Não. Fala.</default>
-	</talk>
-	<talk character="Derik">
-		<out>Angely tá com um feitiço.</out>
-	</talk>
-	<talk character="Agatha">
-		<default>Como assim?!</default>
-	</talk>
-	<teller>
-		<default>Kat pega o telefone.</default>
-	</teller>
-	<talk character="Derik">
-		<out>Não acorda. Fui encostar, tomei um tranco.</out>
-	</talk>
-	<talk character="Kat">
-		<default>Mel tá aí?</default>
-	</talk>
-	<talk character="Derik">
-		<out>Agatha disse que você...</out>
-	</talk>
-	<talk character="Kat">
-		<default>Derik!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não.</default>
-	</talk>
-	<talk character="Kat">
-		<default>A gente vai praí.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tá. Até.</default>
-	</talk>
-	<teller>
-		<default>Kat desliga o telefone. Barulho de carro.</default>
-	</teller>
-	<talk character="Kat">
-		<screamed>Agatha! Espera!</screamed>
-	</talk>
-	<teller>
-		<first>MEAK. Kat entra no quarto. Olha para Derik, que ainda está no chão. Olha para Angely. Agatha chega. Se aproxima da cama. Kat segura seu braço, mas Agatha se faz soltar. Derik sai da parede onde estava e puxa Kat mais para o lado da porta. Kat volta para o lado da parede. Agatha encosta em Angely e também toma o tranco, mas Kat segura.</first>
-	</teller>
-	<talk character="Agatha">
-		<default>Obrigada.</default>
-	</talk>
-	<talk character="Kat">
-		<default>De nada. Você tá melhor. Antigamente eu teria deixado você se quebrar.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Vou entender isso como um elogio.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E é.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ligar pra Mel?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Parece uma boa ideia. E pra qualquer caça-vampiros que conheçamos.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Só consigo lembrar de mortos.</default>
-	</talk>
-	<teller>
-		<first>Tarde. Mel entra no quarto. Olha para o teto. Vai na direção de Angely. Kat vai na direção de Mel. Mel toca Angely. Nada acontece. Kat franze a testa.</first>
-	</teller>
-	<talk character="Mel">
-		<default>Tenta.</default>
-	</talk>
-	<teller>
-		<default>Kat se aproxima. Toca. Nada. Derik se aproxima. Mel segura seu braço.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Você não.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Por quê?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Essa coisa no teto é atlante.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Um feitiço atlante? Sabe o que significa?</default>
-	</talk>
-	<talk character="Mel">
-		<default>É um feitiço de sono.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Como desfaz?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não sei. Acabei de te dar toda a informação que tinha.</default>
-	</talk>
-	<teller>
-		<division>Antes</division>
-		<default>Mel está na cozinha, bebendo de um copo. Termina o que está no copo, vira para lavar na pia. Lava o copo e coloca na lateral direita da pia.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>E aí?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não sei.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Como assim?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não sabendo.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Me diz que é impossível, mas não diz "Não sei"!</default>
-	</talk>
-	<teller>
-		<default>Mel encolhe os ombros e solta. Vai para a sala. Zenon segue.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>A gente tá falando da Virgine. Ela e Kassandra são as vampiras... As primeiras...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu sei. Argo foi Edmont que matou, Dilan foi Rust e Rust foi aquela criança que te enfeitiçou.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Pesquisei o feitiço. Era meio recíproco, ela ficava mais forte.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Essa sua necessidade de se provar às vezes é cômica, às vezes é irritante.</default>
-	</talk>
-	<teller>
-		<default>Zenon cruza os braços.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Que necessidade de...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Acha que não sei que disse isso porque Rust tinha acabado de te derrubar?</default>
-	</talk>
-	<teller>
-		<default>Zenon solta os braços.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Onde as pessoas descobrem essas coisas?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Edmont contou.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Quando?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Enquanto eu voltava depois de me drogarem.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Você tá melhor daquilo?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Fico melhor quando as pessoas não perguntam.</default>
-	</talk>
-	<teller>
-		<default>Mel pega um prato na sala. Volta para a cozinha. Zenon segue.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>E aí?</default>
-	</talk>
-	<talk character="Mel">
-		<default>E aí o que?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Sobre Virgine...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Zenon, eu tenho me ocupado de outras coisas recentemente. Estou estudando coisas. E não tenho tempo pra isso. Vai atrás de caça-vampiros. Aí cê se resolve.</default>
-	</talk>
-	<teller>
-		<default>Mel pousa o prato na pia e vai para a sala. Zenon segue. Mel sobe. Zenon se joga no sofá. Franze a testa.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Por que Ísis não foi atrás de caça-vampiros?</default>
-	</talk>
-	<teller>
-		<default>Zenon desfranze a testa e abre mais os olhos.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Angely! Angely vai me ajudar!</default>
-	</talk>
-	<teller>
-		<default>Zenon coloca a mão entre o queixo e a boca.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Só precisa ser um plano que não precise matar ou mentir.</default>
-	</talk>
-	<teller>
-		<first>Zenon e Angely chegam na casa da Ísis. Bate na porta. Ísis abre.</first>
-	</teller>
-	<talk character="Ísis">
-		<default>Não é querendo desdenhar,</default>
-		<default>olha para Angely</default>
-		<default>inclusive adoro as músicas de vocês,</default>
-		<default>olha para Zenon</default>
-		<default>mas essa é toda a ajuda que trouxe?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Talvez o irmão venha.</default>
-	</talk>
-	<talk character="Ísis">
-		<irony>E aí eles vão cantar até a Virgine morrer?</irony>
-	</talk>
-	<talk character="Angely">
-		<default>Me trouxe contando com Edmont?</default>
-	</talk>
-	<talk character="Ísis">
-		<default>Não sei se conhece Virgine, mas se seu plano era isca, devia ter trazido a Melody.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Ninguém vai ser usado de isca aqui. O irmão dele é vampiro.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Trouxe.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Não foi exatamente isso... Você é forte... É essa coisa de você não matar...</default>
-	</talk>
-	<talk character="Ísis">
-		<default>Se o irmão dele é vampiro, eu tô meio na dúvida do que exatamente você tá querendo matar...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>A gente pode entrar?</default>
-	</talk>
-	<teller>
-		<default>Ísis dá espaço. Zenon e Angely entram. Ísis olha ao redor. Fecha a porta. Zenon senta-se no sofá. Angely encosta em um canto.</default>
-	</teller>
-	<talk character="Ísis">
-		<default>Qual o plano?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Fazer um plano.</default>
-	</talk>
-	<teller>
-		<default>Ísis cruza os braços.</default>
-	</teller>
-	<talk character="Ísis">
-		<default>Parece bom. E o plano B?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Irmos até Virgine tacando fogo em tudo no caminho?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pretende atrair Edmont por me colocar em risco.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Não! Claro que não! Você me salvou já... Eu...</default>
-	</talk>
-	<teller>
-		<default>Ísis encara Zenon.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Ele é imortal, tá?! Não me olha com essa cara!</default>
-	</talk>
-	<talk character="Ísis">
-		<default>Isso é...?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Teria que matar Edmont junto.</default>
-	</talk>
-	<talk character="Ísis">
-		<default>Se atrair você dois...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sim.</default>
-	</talk>
-	<talk character="Virgine">
-		<arrive>Era isso que eu precisava saber.</arrive>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "20",
+	"scene": "b",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Atualmente"
+				},
+				{
+					"type": "default",
+					"text": "Katerine chega a MEAK. Bate na porta. Passos. Chaves. Mel abre a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi. Angely tá em casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Provável. Algum problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um. Não tenho visto Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem certeza que Angely não..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cortou os pulsos? Eu teria sentido o cheiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode nem estar em casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então tem mais alguém vivendo na casa e eu não sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez esteja sentindo culpa pelo que aconteceu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então vai ter que resolver isso. Já sobreviveu outras vezes. E Edmont não vai querer que morra, então..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat desfranze a testa. Olha pra baixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu ia sugerir que falasse com Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, você não ia. Tem um mínimo de noção."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat olha pra Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Culpa Angely?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel cruza os braços e encara Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei que Angely talvez fosse a única pessoa pudesse impedir Edmont..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely sabe que poderia impedir. Veio me pedir desculpa no hospital."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat baixa a cabeça novamente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que vou indo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel vai até a porta. Abre. Kat sai."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Kat chega em casa. Derik levanta do sofá. Kat balança a cabeça para os lados. Derik solta o corpo no sofá. Agatha levanta de sopetão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Chega. Eu vou lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E vai fazer o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dar um basta nisso. Vou falar com Mel e, se não adiantar, vou falar com Angely. Angely pode vir morar com a gente, não precisa ficar... Ficar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pagando o que Edmont fez?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente podia procurar um feitiço pra prender Edmont, como prenderam Andrews."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat senta no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely ia cair junto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas a gente podia colocar Edmont numa jaula e alimentar ele..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ia se recusar a comer, pra derrubar Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma hora iria aceitar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quem de nós vai viver tanto pra manter isso?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te falaram?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei você, por ser meio atlante, mas atlantes não envelhecem. Não têm doenças. Só podem morrer se forem mesmo mortos por coisas externas ou se decidirem assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então teria que se matar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não... Tipo... Só morrem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que Mel adoraria ser carcereira de Edmont pela eternidade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente pode ir contar pra Mel a ideia..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Primeiro a gente acha o feitiço. Aí chamamos Angely e Angely pega Edmont. Então falamos com Mel."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Dezembro de 2014. Manhã. Derik e Agatha estão na sala. Kat chega."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "E aí? Tudo pronto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, quase."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falta o principal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat encara Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falar com Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos rezar pra Mel não estar em casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês precisam passar por Mel, eu não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu poderia escalar a janela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E correr o risco de se machucar? Eu voo, Kat. E surdina é minha especialidade."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aurium sobrevoa a MEAK. Pousa no telhado. Levanta voo novamente. Pousa na janela, que está fechada. Segura perto da fechadura com o bico. A fechadura começa a ficar vermelha. Solta do lado de dentro, caindo no chão, fazendo barulho. Aurium voa. Sobrevoa novamente a MEAK e pousa na janela. Abre a janela. Angely está na cama. Aurium dá uma volta no chão. Bate as asas. Angely continua sem se mexer. Aurium berra. Nada. Aurium vira Derik. Se aproxima de Angely e coloca a mão no pulso. No começo do toque, voa contra a parede contrária. Senta-se."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora fodeu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca o telefone na casa de Kat. Kat vai pegar, Agatha corre e atende."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Kat tá aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Fala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Angely tá com um feitiço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat pega o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Não acorda. Fui encostar, tomei um tranco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel tá aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Agatha disse que você..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente vai praí."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá. Até."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat desliga o telefone. Barulho de carro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Agatha! Espera!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Kat entra no quarto. Olha para Derik, que ainda está no chão. Olha para Angely. Agatha chega. Se aproxima da cama. Kat segura seu braço, mas Agatha se faz soltar. Derik sai da parede onde estava e puxa Kat mais para o lado da porta. Kat volta para o lado da parede. Agatha encosta em Angely e também toma o tranco, mas Kat segura."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Obrigada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De nada. Você tá melhor. Antigamente eu teria deixado você se quebrar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou entender isso como um elogio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E é."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ligar pra Mel?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece uma boa ideia. E pra qualquer caça-vampiros que conheçamos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só consigo lembrar de mortos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Tarde. Mel entra no quarto. Olha para o teto. Vai na direção de Angely. Kat vai na direção de Mel. Mel toca Angely. Nada acontece. Kat franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat se aproxima. Toca. Nada. Derik se aproxima. Mel segura seu braço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa coisa no teto é atlante."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um feitiço atlante? Sabe o que significa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É um feitiço de sono."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como desfaz?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Acabei de te dar toda a informação que tinha."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Antes"
+				},
+				{
+					"type": "default",
+					"text": "Mel está na cozinha, bebendo de um copo. Termina o que está no copo, vira para lavar na pia. Lava o copo e coloca na lateral direita da pia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabendo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me diz que é impossível, mas não diz "Não sei"!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel encolhe os ombros e solta. Vai para a sala. Zenon segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente tá falando da Virgine. Ela e Kassandra são as vampiras... As primeiras..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei. Argo foi Edmont que matou, Dilan foi Rust e Rust foi aquela criança que te enfeitiçou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pesquisei o feitiço. Era meio recíproco, ela ficava mais forte."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa sua necessidade de se provar às vezes é cômica, às vezes é irritante."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que necessidade de..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha que não sei que disse isso porque Rust tinha acabado de te derrubar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon solta os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde as pessoas descobrem essas coisas?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont contou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quando?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Enquanto eu voltava depois de me drogarem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tá melhor daquilo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fico melhor quando as pessoas não perguntam."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel pega um prato na sala. Volta para a cozinha. Zenon segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sobre Virgine..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon, eu tenho me ocupado de outras coisas recentemente. Estou estudando coisas. E não tenho tempo pra isso. Vai atrás de caça-vampiros. Aí cê se resolve."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel pousa o prato na pia e vai para a sala. Zenon segue. Mel sobe. Zenon se joga no sofá. Franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que Ísis não foi atrás de caça-vampiros?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon desfranze a testa e abre mais os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely! Angely vai me ajudar!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon coloca a mão entre o queixo e a boca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só precisa ser um plano que não precise matar ou mentir."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Zenon e Angely chegam na casa da Ísis. Bate na porta. Ísis abre."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ísis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é querendo desdenhar,"
+				},
+				{
+					"type": "default",
+					"text": "olha para Angely"
+				},
+				{
+					"type": "default",
+					"text": "inclusive adoro as músicas de vocês,"
+				},
+				{
+					"type": "default",
+					"text": "olha para Zenon"
+				},
+				{
+					"type": "default",
+					"text": "mas essa é toda a ajuda que trouxe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez o irmão venha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ísis",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "E aí eles vão cantar até a Virgine morrer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me trouxe contando com Edmont?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ísis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei se conhece Virgine, mas se seu plano era isca, devia ter trazido a Melody."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ninguém vai ser usado de isca aqui. O irmão dele é vampiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Trouxe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi exatamente isso... Você é forte... É essa coisa de você não matar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ísis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se o irmão dele é vampiro, eu tô meio na dúvida do que exatamente você tá querendo matar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente pode entrar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ísis dá espaço. Zenon e Angely entram. Ísis olha ao redor. Fecha a porta. Zenon senta-se no sofá. Angely encosta em um canto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ísis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual o plano?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fazer um plano."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ísis cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ísis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece bom. E o plano B?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Irmos até Virgine tacando fogo em tudo no caminho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pretende atrair Edmont por me colocar em risco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não! Claro que não! Você me salvou já... Eu..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ísis encara Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele é imortal, tá?! Não me olha com essa cara!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ísis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é...?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Teria que matar Edmont junto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ísis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se atrair você dois..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Virgine",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Era isso que eu precisava saber."
+				}
+			]
+		}
+	]
+}

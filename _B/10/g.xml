@@ -1,297 +1,964 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="10" scene="g">
-	<teller>
-		<default>Madrugada. MEAK. Beatrice e Fábio entram. Kat e Estela estão no sofá, dormindo. Beatrice toca no ombro de Kat, que acorda. Derik desce a escada.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Onde você tava???</default>
-	</talk>
-	<talk character="Bea">
-		<default>Quase indo dessa pra melhor.</default>
-	</talk>
-	<teller>
-		<default>Beatrice franze a sobrancelha.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Pior provavelmente.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Encontrou Alan e Zenon?</default>
-	</talk>
-	<teller>
-		<default>Beatrice sorri.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Não, encontrei Fábio.</default>
-	</talk>
-	<teller>
-		<default>Derik olha para Fábio e dá um passo atrás.</default>
-	</teller>
-	<talk character="Derik">
-		<screamed>Ai, meu deus, outro fantasma!</screamed>
-	</talk>
-	<teller>
-		<default>Estela acorda.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Fantasma?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Derik, olha pra Fábio, parece um fantasma?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Morreu, lembra? Yaksahs...</default>
-	</talk>
-	<talk character="Estela">
-		<default>Esse nome estranho... Bom, "os", são vários, o que posso me lembrar é daquela situação com Rob...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Então, Fábio morreu!</default>
-	</talk>
-	<talk character="Bea">
-		<default>Bom, isso não sei como explicar.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Vá pra casa. De manhã iremos a biblioteca.</default>
-	</talk>
-	<talk character="Mel">
-		<arrive>Eu saio e você já tá dando ordens?</arrive>
-	</talk>
-	<talk character="Derik">
-		<default>Se quiser assumir agora...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Todo mundo indo pra cama que amanhã vocês têm escola.</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Beatrice.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Parece que fez bastante coisa hoje.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Bem...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vai pra casa.</default>
-	</talk>
-	<teller>
-		<default>Beatrice sai.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Fábio, vai dormir no quarto de Derik, Zenon e Alan não estão mais lá mesmo.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Temos que avisar Alan e Zenon que Beatrice já foi salva.</default>
-	</talk>
-	<teller>
-		<default>Melody pega o telefone.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Vão me explicar isso tudo direitinho amanhã.</default>
-	</talk>
-	<teller>
-		<default>Casa de Angely e Beatrice. Beatrice entra. Malas no chão da sala. Beatrice franze a testa. Angely está no telefone.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Tá. Obrigado.</default>
-	</talk>
-	<teller>
-		<default>Angely desliga o telefone.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Era Mel.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Fiz algo errado?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Uma vez você disse que queria morar na MEAK.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Não foi nada contra você, eu te amo, sabe disso!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Bea...</default>
-	</talk>
-	<talk character="Bea">
-		<default>Ai, já sei! É a luxúria, não é? O fato de eu sentir atração por você, isso é pecado, não é?!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Então o que fiz de errado?!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Nada. Edmont quem fez. Não posso pagar o aluguel, porque tive que me demitir. Vendi minhas roupas.</default>
-	</talk>
-	<teller>
-		<default>Os olhos de Beatrice marejam.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Por que isso?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não posso ficar na escola tendo que sair toda hora por causa de Edmont. E também não posso agir assim com você.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Não me importo!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não tenho mais emprego, não posso pagar...</default>
-	</talk>
-	<talk character="Bea">
-		<default>Eu pago! Pago tudo! Só não me abandona...</default>
-	</talk>
-	<teller>
-		<default>Angely olha para baixo.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Não estou te abandonando.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Jurou que me protegeria!</default>
-	</talk>
-	<teller>
-		<default>Angely olha para Beatrice.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Só precisa de proteção contra o Edmont. Mas, infelizmente, você não é a única pessoa que precisa de proteção contra Edmont.</default>
-	</talk>
-	<talk character="Bea">
-		<default>E o que isso tem a ver?!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Vou morar com Edmont. Vamos pra um lugar que não precise de aluguel nem nada assim.</default>
-	</talk>
-	<teller>
-		<default>Uma lágrima desce o rosto de Beatrice.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Angely, por favor...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Tenho que ficar perto. É o único jeito.</default>
-	</talk>
-	<teller>
-		<default>Beatrice passa as mãos no rosto.</default>
-	</teller>
-	<talk character="Bea">
-		<default>É egoísmo, não é? Ficar implorando pra proteger só a mim.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Você é um anjo.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Você é que é. Sou apenas alguém que fez a escolha errada e agora vai ter que pagar o preço.</default>
-	</talk>
-	<teller>
-		<default>Angely baixa a cabeça.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Também fiz escolhas erradas um dia. Não estou pagando por nada ainda. Melhor irmos logo, antes que amanheça.</default>
-	</talk>
-	<teller>
-		<default>Angely olha para o lado.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Tenho uma coisa pra você.</default>
-	</talk>
-	<teller>
-		<default>Angely pega um vaso com uma planta. Vai até Beatrice e entrega.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Daxlidan?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Se você e Zenon plantarem lá no fundo da casa e cuidarem bem, logo não precisarão mais comprar.</default>
-	</talk>
-	<teller>
-		<default>Bea sorri. Coloca o vaso na mesa de centro e abraça Angely.</default>
-	</teller>
-	<teller>
-		<first>Ares. Edmont está andando. Para. Olha para trás. Valesca está olhando.</first>
-	</teller>
-	<talk character="Valesca">
-		<default>Por que o desprezo?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Está falando de Pandora?</default>
-	</talk>
-	<talk character="Valesca">
-		<default>Era meu presente pra você, olhos de prata.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Costuma presentear vampirs recém chegados?</default>
-	</talk>
-	<talk character="Valesca">
-		<default>Só os que acho promissores.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Quer me presentear? Me livra de Angely.</default>
-	</talk>
-	<talk character="Valesca">
-		<default>Sua alma?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mais ou menos isso.</default>
-	</talk>
-	<talk character="Valesca">
-		<default>Não tem como.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Então não temos mais do que falar.</default>
-	</talk>
-	<teller>
-		<default>Edmont vira de volta e segue andando.</default>
-	</teller>
-	<talk character="Valesca">
-		<thought>Desculpe não ter te contado, mas, se eu te dissesse que talvez tenha como, seu irmão iria ouvir também, bebê.</thought>
-	</talk>
-	<teller>
-		<division>Algum tempo, algum lugar</division>
-	</teller>
-	<talk character="Xien">
-		<default>Então vampirs perdem a alma?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>É meio incerto. E bem confuso.</default>
-	</talk>
-	<talk character="Xien">
-		<default>E o papo de que alma era a influência...</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Bom, pode ter sido você quem disse, você se sente confiável?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Edmont não era confiável.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>E você?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Alguém que nem sabe quem é poderia ser confiável?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Não sei.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Valesca então vai... Ia... Tentar separar Angely e Edmont?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Aparentemente.</default>
-	</talk>
-	<talk character="Xien">
-		<default>E Fábio ressuscitou.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Pois é.</default>
-	</talk>
-	<talk character="Xien">
-		<default>Fábio é um ser humano?</default>
-	</talk>
-	<teller>
-		<default>Uehfo estende a mão a Xien.</default>
-	</teller>
-</story>
+{
+	"season": "B",
+	"episode": "10",
+	"scene": "g",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Madrugada. MEAK. Beatrice e Fábio entram. Kat e Estela estão no sofá, dormindo. Beatrice toca no ombro de Kat, que acorda. Derik desce a escada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde você tava???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quase indo dessa pra melhor."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pior provavelmente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Encontrou Alan e Zenon?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, encontrei Fábio."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha para Fábio e dá um passo atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Ai, meu deus, outro fantasma!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela acorda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fantasma?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik, olha pra Fábio, parece um fantasma?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Morreu, lembra? Yaksahs..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esse nome estranho... Bom, "os", são vários, o que posso me lembrar é daquela situação com Rob..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, Fábio morreu!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, isso não sei como explicar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vá pra casa. De manhã iremos a biblioteca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Eu saio e você já tá dando ordens?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se quiser assumir agora..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Todo mundo indo pra cama que amanhã vocês têm escola."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Beatrice."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece que fez bastante coisa hoje."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bem..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai pra casa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fábio, vai dormir no quarto de Derik, Zenon e Alan não estão mais lá mesmo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos que avisar Alan e Zenon que Beatrice já foi salva."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody pega o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vão me explicar isso tudo direitinho amanhã."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Casa de Angely e Beatrice. Beatrice entra. Malas no chão da sala. Beatrice franze a testa. Angely está no telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá. Obrigado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely desliga o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Era Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fiz algo errado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma vez você disse que queria morar na MEAK."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi nada contra você, eu te amo, sabe disso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bea..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ai, já sei! É a luxúria, não é? O fato de eu sentir atração por você, isso é pecado, não é?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então o que fiz de errado?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada. Edmont quem fez. Não posso pagar o aluguel, porque tive que me demitir. Vendi minhas roupas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Os olhos de Beatrice marejam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não posso ficar na escola tendo que sair toda hora por causa de Edmont. E também não posso agir assim com você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não me importo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tenho mais emprego, não posso pagar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu pago! Pago tudo! Só não me abandona..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para baixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não estou te abandonando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jurou que me protegeria!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Beatrice."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só precisa de proteção contra o Edmont. Mas, infelizmente, você não é a única pessoa que precisa de proteção contra Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que isso tem a ver?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou morar com Edmont. Vamos pra um lugar que não precise de aluguel nem nada assim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma lágrima desce o rosto de Beatrice."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, por favor..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho que ficar perto. É o único jeito."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice passa as mãos no rosto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É egoísmo, não é? Ficar implorando pra proteger só a mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é um anjo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é que é. Sou apenas alguém que fez a escolha errada e agora vai ter que pagar o preço."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também fiz escolhas erradas um dia. Não estou pagando por nada ainda. Melhor irmos logo, antes que amanheça."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para o lado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho uma coisa pra você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely pega um vaso com uma planta. Vai até Beatrice e entrega."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Daxlidan?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se você e Zenon plantarem lá no fundo da casa e cuidarem bem, logo não precisarão mais comprar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bea sorri. Coloca o vaso na mesa de centro e abraça Angely."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Ares. Edmont está andando. Para. Olha para trás. Valesca está olhando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Valesca",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que o desprezo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está falando de Pandora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Valesca",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Era meu presente pra você, olhos de prata."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Costuma presentear vampirs recém chegados?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Valesca",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só os que acho promissores."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer me presentear? Me livra de Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Valesca",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sua alma?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mais ou menos isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Valesca",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tem como."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então não temos mais do que falar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont vira de volta e segue andando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Valesca",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Desculpe não ter te contado, mas, se eu te dissesse que talvez tenha como, seu irmão iria ouvir também, bebê."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Algum tempo, algum lugar"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então vampirs perdem a alma?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É meio incerto. E bem confuso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o papo de que alma era a influência..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, pode ter sido você quem disse, você se sente confiável?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont não era confiável."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguém que nem sabe quem é poderia ser confiável?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Valesca então vai... Ia... Tentar separar Angely e Edmont?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aparentemente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E Fábio ressuscitou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pois é."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fábio é um ser humano?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uehfo estende a mão a Xien."
+				}
+			]
+		}
+	]
+}

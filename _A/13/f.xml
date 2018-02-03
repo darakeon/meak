@@ -1,534 +1,1749 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="13" scene="f">
-	<teller>
-		<default>Noite. MEAK.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Fugiu de novo?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, dessa vez deram alta.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E o CD?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Grego.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que?!</default>
-	</talk>
-	<teller>
-		<default>Dara entra no escritório.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Atrasou.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Desculpe, Denise pensa um pouco quando quer.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tudo bem, o problema é o seguinte: o CD que eu tava guardando...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Escondendo.</default>
-	</talk>
-	<teller>
-		<default>Mel encara Edmont. Edmont cruza os braços.</default>
-	</teller>
-	<talk character="Mel">
-		<default>É uma espécie de diário.</default>
-	</talk>
-	<talk character="Angely">
-		<default>De quem?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não sei. Não consegui ler.</default>
-	</talk>
-	<teller>
-		<default>Edmont franze a testa e solta os braços.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Como não conseguiu?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Acabou de dizer que tá em grego.</default>
-	</talk>
-	<talk character="Dara">
-		<default>E o que vamos fazer?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Alguém se ofereceu pra traduzir em troca de falarmos o nosso passado.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não vou falar com nenhum jornalista.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não é jornalista. É um vampiro.</default>
-	</talk>
-	<talk character="Edmont">
-		<irony>E não convidou pra jantar?</irony>
-	</talk>
-	<talk character="Kat">
-		<default>É quem me levou.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Era pra isso ser uma referência boa?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não. Eu não quero falar também.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Bom, não matou Kat quando pôde.</default>
-	</talk>
-	<teller>
-		<default>Edmont encara Dara. A campainha toca.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Eu atendo.</default>
-	</talk>
-	<teller>
-		<default>Dara desce pela porta interna. Passa pelos quartos, desce novamente, para a sala. Abre a porta.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Sim?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Preciso falar com Melody, ela tá aí?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Está, quer que eu chame?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Claro. Posso esperar na sala?</default>
-	</talk>
-	<teller>
-		<default>Dara abre a boca. Fecha. Franze a testa. Desfranze. Ri.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Isso não é só educação.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Quem conhece de verdade chama de Mel.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>E você, quem é?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Como vou dizer se não sei de você?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>É claro que sabe. Acabou de me provar isso.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Volte ao meio-dia e pode entrar.</default>
-	</talk>
-	<teller>
-		<default>Dara fecha a porta. Sobe de volta, por dentro.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Quem era?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Repórter.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quem é contra e quem é a favor de contarmos?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não acho boa ideia.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sonhou duas vezes com "malfeitos" dele, certo?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ahã.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Contra.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não vejo nada de errado.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nem eu.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que ele pode fazer?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Derik. Último voto.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Voto contra.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Agradeceria se desse o seu voto e não o de Kat.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Só acho que não devemos confiar em vampiros. Muito menos aqueles que sequestram e devolvem pra fingir que são bonzinhos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Grande merda. Empatou de novo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>De novo?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu e Kat discordávamos. Já sabíamos o que você e Edmont diriam. Logo estaria empatado.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não, não, não, eu já sabia que o Derik ia votar contra.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tudo bem, como vamos fazer o desempate?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sorteio.</default>
-	</talk>
-	<teller>
-		<default>Mel cobre o rosto com a mão e balança a cabeça para os lados. Dara franze a testa. Angely olha para Edmont, vira as palmas das mãos pra cima..</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Alguma ideia melhor?</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Edmont.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Pensar em uma ideia melhor já seria uma ideia melhor.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Vamos esperar Kat sonhar alguma coisa e amanhã de tarde vemos isso.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Acho que deveríamos tentar contato espiritual Djanira!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tem três pessoas pra decidir qual das três idéias.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Esperar. A ideia de Edmont parece meio afobada.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E a de Derik, foi mal, amor, mas...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Acham que tava falando sério? Também prefiro a idéia de Dara.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Desculpa, Edmont, mas você perdeu.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Que seja. Mais nada pra conversar?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Acho que não.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Te levo em casa, Dara.</default>
-	</talk>
-	<teller>
-		<default>Dara sai. Edmont segue. Angely baixa a cabeça.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Você tá me enrolando!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que??? Eu???</default>
-	</talk>
-	<talk character="Kat">
-		<default>É, você disse que ia me apresentar sua família!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu preciso ir agora... Faz o seguinte, amanhã eu te levo na minha casa.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Jura?</default>
-	</talk>
-	<teller>
-		<default>Derik cruza os dedos atrás das costas. Mel franze a testa.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Juro.</default>
-	</talk>
-	<teller>
-		<default>Kat pega Derik pela mão e saem.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Viu isso?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Kat não conhece a família de Derik.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Acho que devem ser iguais a Derik.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas então por que não leva pra conhecer?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Bom, acabou de prometer que...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Estava cruzando os dedos. Não entendi lhufas, coisa de criança, parece até que queria que alguém visse.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Derik não faria isso.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você acredita em todo mundo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E se for a única pessoa na família com esse poder?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se estiver escondendo isso da família, é só pedir pra não falar. Não é como se não tivéssemos segredos.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mas e se a origem não for humana?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá achando que a família podem ser pássaros ou cães?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não é impossível.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É, aí Kat teria um problema grande. Talvez a gente devesse falar com Derik.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tô com fome. Quer que eu faça alguma coisa pra comermos?</default>
-	</talk>
-	<teller>
-		<default>Mel mede Angely.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Pede uma pizza.</default>
-	</talk>
-	<teller>
-		<first>15h. MEAK. Escritório. Mel entra. Dara, Edmont, Angely, Kat e Derik estão sentados ao redor da mesa redonda no centro. Mel senta-se.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Meu sonho não ajuda.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tem a ver com ele?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tem, mas não ajuda em nada nossa decisão.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que sonhou com o vampiro?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Então, o que vamos fazer?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ainda tem a minha idéia.</default>
-	</talk>
-	<talk character="Dara">
-		<default>E se perguntássemos pro fantasma? Talvez saiba alguma coisa.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Jak já foi embora com a tal da Sarah.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Então?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Ainda não respondeu o que perguntei!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Gente, não vamos...</default>
-	</talk>
-	<teller>
-		<default>Mel franze a testa.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Ok, porque tá tudo fechado e as luzes estão acesas?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Angely?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Já tava assim quando cheguei.</default>
-	</talk>
-	<talk character="Zenon">
-		<arrive>Não é minha intenção que isso incomode vocês.</arrive>
-	</talk>
-	<teller>
-		<default>Zenon sai de trás de uma estante no fundo do escritório.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>É que o contrário me incomodaria.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Mas como você...?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>"Volte ao meio-dia e pode entrar".</default>
-	</talk>
-	<teller>
-		<default>Zenon pousa uma capa na cadeira da mesa do computador.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Será que meu voto conta?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Óbvio que não.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Tá.</default>
-	</talk>
-	<teller>
-		<default>Zenon puxa a cadeira para perto da mesa, entre Angely e Kat. Senta-se.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Decidam logo, tenho mais o que fazer.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Bom, posso resolver isso.</default>
-	</talk>
-	<teller>
-		<default>Edmont levanta e vai até a porta de saída externa. Mel vai até Edmont e segura-lhe o braço.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não, Edmont.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Por que não?!</default>
-	</talk>
-	<talk character="Mel">
-		<default>É a única alternativa que temos.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Um a zero.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É um vampiro!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Um a um.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você sabe grego?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Onze a um.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Cala a boca!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tá contando em números binários?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Se fosse o sistema binário, eu falaria dez depois de um, não onze.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu acho que o argumento de saber grego só vale dez pontos se for em binário.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Boa perspectiva.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não tô mais contra.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ok. Vencemos.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Por que não está mais contra Zenon???</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não estou é contra saber o que está escrito!!!</default>
-	</talk>
-	<talk character="Dara">
-		<default>Gente, vamos parar e pensar???</default>
-	</talk>
-	<talk character="Mel">
-		<default>Já está ganho nosso voto. Zenon traduz, nós falamos.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vou buscar lá em casa o arquivo.</default>
-	</talk>
-	<teller>
-		<default>Zenon levanta o meio CD e um pen-drive.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Esse símbolo, eu já vi isso!</default>
-	</talk>
-	<teller>
-		<default>Edmont vai até Zenon e toma-lhe o CD das mãos. Mel se aproxima.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Delicadeza zero!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Pode reclamar disso quando eu cravar uma estaca em você.</default>
-	</talk>
-	<teller>
-		<default>Edmont entrega o CD para Angely. Angely olha. Balança a cabeça para os lados.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Nilrem.</default>
-	</talk>
-	<teller>
-		<default>Mel se senta. Engole seco.</default>
-	</teller>
-	<talk character="Derik">
-		<default>É o cara que criou o pai de vocês e criou vocês depois que o pai de vocês...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Bom, isso já é uma dica pra entender o tal diário.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vai traduzir, nós falamos pra você de onde viemos e só isso.</default>
-	</talk>
-	<talk character="Zenon">
-		<irony>Assim parte meu coração. Acabou de me prometer uma estaca.</irony>
-	</talk>
-	<teller>
-		<default>Edmont encara Zenon. Dara pega Edmont pela mão e saem. Kat pega a mão de Derik. Derik olha para Zenon. Kat e Derik saem.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Espero que habilidade de vampiro inclua ler rápido.</default>
-	</talk>
-	<teller>
-		<default>Mel sai. Zenon vai com a cadeira até o computador. Espeta o pen-drive. Franze a testa. Vira para trás.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Que foi? Tá com medo que eu roube alguma coisa?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por que essa curiosidade?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Digamos que depois de quase dois séculos você fica com nada pra fazer.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não parece só isso.</default>
-	</talk>
-	<teller>
-		<default>Angely sai pela porta interna. Na varanda, olha para baixo. Edmont e Dara estão indo embora, de mãos dadas.</default>
-	</teller>
-	<talk character="Mel">
-		<arrive>Gosta de Dara?</arrive>
-	</talk>
-	<teller>
-		<default>Angely olha para Mel. Volta a olhar para Edmont e Dara.</default>
-	</teller>
-	<talk character="Angely">
-		<default>É uma pessoa legal. Bom que Edmont tenha alguém assim.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sabe que não foi o que eu disse.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "13",
+	"scene": "f",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Noite. MEAK."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fugiu de novo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, dessa vez deram alta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o CD?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Grego."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara entra no escritório."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Atrasou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpe, Denise pensa um pouco quando quer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, o problema é o seguinte: o CD que eu tava guardando..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Escondendo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel encara Edmont. Edmont cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É uma espécie de diário."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De quem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Não consegui ler."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont franze a testa e solta os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como não conseguiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acabou de dizer que tá em grego."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que vamos fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguém se ofereceu pra traduzir em troca de falarmos o nosso passado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vou falar com nenhum jornalista."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é jornalista. É um vampiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "E não convidou pra jantar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É quem me levou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Era pra isso ser uma referência boa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Eu não quero falar também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, não matou Kat quando pôde."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont encara Dara. A campainha toca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu atendo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara desce pela porta interna. Passa pelos quartos, desce novamente, para a sala. Abre a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preciso falar com Melody, ela tá aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está, quer que eu chame?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro. Posso esperar na sala?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara abre a boca. Fecha. Franze a testa. Desfranze. Ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não é só educação."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem conhece de verdade chama de Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você, quem é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como vou dizer se não sei de você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É claro que sabe. Acabou de me provar isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Volte ao meio-dia e pode entrar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara fecha a porta. Sobe de volta, por dentro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem era?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Repórter."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é contra e quem é a favor de contarmos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não acho boa ideia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sonhou duas vezes com "malfeitos" dele, certo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ahã."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Contra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vejo nada de errado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem eu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que ele pode fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik. Último voto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Voto contra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agradeceria se desse o seu voto e não o de Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só acho que não devemos confiar em vampiros. Muito menos aqueles que sequestram e devolvem pra fingir que são bonzinhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Grande merda. Empatou de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De novo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu e Kat discordávamos. Já sabíamos o que você e Edmont diriam. Logo estaria empatado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, não, não, eu já sabia que o Derik ia votar contra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, como vamos fazer o desempate?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sorteio."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel cobre o rosto com a mão e balança a cabeça para os lados. Dara franze a testa. Angely olha para Edmont, vira as palmas das mãos pra cima.."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguma ideia melhor?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pensar em uma ideia melhor já seria uma ideia melhor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos esperar Kat sonhar alguma coisa e amanhã de tarde vemos isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que deveríamos tentar contato espiritual Djanira!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem três pessoas pra decidir qual das três idéias."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esperar. A ideia de Edmont parece meio afobada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E a de Derik, foi mal, amor, mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acham que tava falando sério? Também prefiro a idéia de Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpa, Edmont, mas você perdeu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que seja. Mais nada pra conversar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Te levo em casa, Dara."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara sai. Edmont segue. Angely baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tá me enrolando!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que??? Eu???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, você disse que ia me apresentar sua família!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu preciso ir agora... Faz o seguinte, amanhã eu te levo na minha casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jura?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik cruza os dedos atrás das costas. Mel franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Juro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat pega Derik pela mão e saem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viu isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat não conhece a família de Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que devem ser iguais a Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas então por que não leva pra conhecer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, acabou de prometer que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estava cruzando os dedos. Não entendi lhufas, coisa de criança, parece até que queria que alguém visse."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik não faria isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você acredita em todo mundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se for a única pessoa na família com esse poder?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se estiver escondendo isso da família, é só pedir pra não falar. Não é como se não tivéssemos segredos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas e se a origem não for humana?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá achando que a família podem ser pássaros ou cães?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é impossível."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, aí Kat teria um problema grande. Talvez a gente devesse falar com Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô com fome. Quer que eu faça alguma coisa pra comermos?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel mede Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pede uma pizza."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "15h. MEAK. Escritório. Mel entra. Dara, Edmont, Angely, Kat e Derik estão sentados ao redor da mesa redonda no centro. Mel senta-se."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu sonho não ajuda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem a ver com ele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem, mas não ajuda em nada nossa decisão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que sonhou com o vampiro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, o que vamos fazer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda tem a minha idéia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se perguntássemos pro fantasma? Talvez saiba alguma coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jak já foi embora com a tal da Sarah."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda não respondeu o que perguntei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, não vamos..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ok, porque tá tudo fechado e as luzes estão acesas?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já tava assim quando cheguei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Não é minha intenção que isso incomode vocês."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon sai de trás de uma estante no fundo do escritório."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É que o contrário me incomodaria."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas como você...?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": ""Volte ao meio-dia e pode entrar"."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon pousa uma capa na cadeira da mesa do computador."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que meu voto conta?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Óbvio que não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon puxa a cadeira para perto da mesa, entre Angely e Kat. Senta-se."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Decidam logo, tenho mais o que fazer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, posso resolver isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont levanta e vai até a porta de saída externa. Mel vai até Edmont e segura-lhe o braço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É a única alternativa que temos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um a zero."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É um vampiro!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um a um."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você sabe grego?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onze a um."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cala a boca!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá contando em números binários?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se fosse o sistema binário, eu falaria dez depois de um, não onze."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu acho que o argumento de saber grego só vale dez pontos se for em binário."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Boa perspectiva."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tô mais contra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ok. Vencemos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não está mais contra Zenon???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não estou é contra saber o que está escrito!!!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, vamos parar e pensar???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já está ganho nosso voto. Zenon traduz, nós falamos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou buscar lá em casa o arquivo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon levanta o meio CD e um pen-drive."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esse símbolo, eu já vi isso!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont vai até Zenon e toma-lhe o CD das mãos. Mel se aproxima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Delicadeza zero!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode reclamar disso quando eu cravar uma estaca em você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont entrega o CD para Angely. Angely olha. Balança a cabeça para os lados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nilrem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel se senta. Engole seco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É o cara que criou o pai de vocês e criou vocês depois que o pai de vocês..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, isso já é uma dica pra entender o tal diário."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai traduzir, nós falamos pra você de onde viemos e só isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Assim parte meu coração. Acabou de me prometer uma estaca."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont encara Zenon. Dara pega Edmont pela mão e saem. Kat pega a mão de Derik. Derik olha para Zenon. Kat e Derik saem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero que habilidade de vampiro inclua ler rápido."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sai. Zenon vai com a cadeira até o computador. Espeta o pen-drive. Franze a testa. Vira para trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi? Tá com medo que eu roube alguma coisa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que essa curiosidade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Digamos que depois de quase dois séculos você fica com nada pra fazer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não parece só isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely sai pela porta interna. Na varanda, olha para baixo. Edmont e Dara estão indo embora, de mãos dadas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Gosta de Dara?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Mel. Volta a olhar para Edmont e Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É uma pessoa legal. Bom que Edmont tenha alguém assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe que não foi o que eu disse."
+				}
+			]
+		}
+	]
+}

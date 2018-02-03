@@ -1,492 +1,1602 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="14" scene="a">
-	<teller>
-		<division>Março de 2023</division>
-	</teller>
-	<teller>
-		<default>Quarto de Mel. Noite.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Não podia ter feito o que fez. Angely ficou muito mal.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Com Dara foi imperdoável. Ao menos Angely conseguiu explicar... Se bem que não sei nem se ele entendeu.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Logo Edmont, que fala tanto de humanos. E logo depois da gente saber...</default>
-	</talk>
-	<teller>
-		<default>Kat baixa a cabeça.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Kat, você foi a única coisa boa que saiu disso. Eu passaria por tudo de novo, se soubesse que você seria o resultado.</default>
-	</talk>
-	<teller>
-		<default>No corredor, Angely se aproxima do quarto.</default>
-	</teller>
-	<talk character="Mel">
-		<out>Queria que viesse morar aqui com a gente. Poderia ficar com o quarto de Edmont.</out>
-	</talk>
-	<teller>
-		<default>Angely baixa a cabeça. Olha para a frente. Suspira. Vai até a porta.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Alguma notícia?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não. Onde esteve?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Procurando emprego.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E aí?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu fiz teste vocacional de novo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>E o que descobriu?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Que a palavra "entrega rápida" não quer dizer o que parece.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Que tipo de emprego está procurando?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que dê dinheiro e eu saiba fazer. Tinha tirado pra ensinar no teste.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Podia trabalhar na empresa.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Com o quê?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ofereceu pra mim também. Já pensou, usar terno e gravata?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Acho que vou continuar procurando.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Quando eu tiver poder de decisão, vou baixar uma regra que só não pode ir sem roupa. Talvez eu crie uma área para pessoas que querem trabalhar sem roupa.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Espero que não seja a parte do laboratório.</default>
-	</talk>
-	<teller>
-		<first>Manhã. Campainha. Angely vai até a escada, desce, atravessa a sala e abre a porta.</first>
-	</teller>
-	<talk character="Dara">
-		<default>Tá tudo tão confuso dentro da minha cabeça...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Oi pra você também.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Posso falar com você?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Já tá falando. Não tá pensando em...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não, eu não vou contar pra ninguém.</default>
-	</talk>
-	<teller>
-		<default>Angely aponta pra dentro com a palma pra cima. Dara entra. Angely fecha a porta. Vai para a cozinha. Dara segue.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Eu não sei o que fazer, o que pensar...</default>
-	</talk>
-	<talk character="Angely">
-		<default>O que pedimos pra não contar foi da nossa origem.</default>
-	</talk>
-	<teller>
-		<default>Angely baixa a cabeça.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Sobre o que houve...</default>
-	</talk>
-	<teller>
-		<default>Dara franze a testa.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Do que tá falando?</default>
-	</talk>
-	<teller>
-		<default>Dara desfranze a testa.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Já esqueci aquilo. Principalmente depois que Mel me disse que o barulho que ouvi foi um soco que deu. E Edmont não fez nada no final das contas.</default>
-	</talk>
-	<teller>
-		<default>Angely olha para Dara.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Não foi nada. O que Edmont fez foi absurdo.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Que seja. Minha mente só tá confusa. Se eu perdoei, não tem porque alguém reclamar, né?</default>
-	</talk>
-	<talk character="Mel">
-		<arrive>Oi, bem que ouvi uma voz.</arrive>
-	</talk>
-	<talk character="Dara">
-		<default>Eu tava me sentindo meio só em casa.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu vou continuar procurando algum trabalho. Só passei pra tomar um lanche, e já tinha feito isso.</default>
-	</talk>
-	<teller>
-		<default>Angely vai para a sala. Kat desce a escada.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Pode me levar até em casa?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Claro.</default>
-	</talk>
-	<teller>
-		<default>Cozinha.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Mas Angely não precisa procurar trabalho, vocês ganhavam mó grana com a banda...</default>
-	</talk>
-	<talk character="Mel">
-		<default>O dinheiro não é eterno. E a gente fazia doações. Talvez não consigamos doar tanto mais, mas seria bom arranjar algo que pudéssemos ainda fazer alguma coisa, além da agência.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Angely conseguiria emprego em uma escola fácil, Edmont comentou que o teste dele seria pra ser professor.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu e Kat achamos que isso é uma desculpa pra procurar Edmont.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Tem certeza?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Angely não mente normalmente. Mas pode estar sentindo culpa. É a única explicação. </default>
-	</talk>
-	<teller>
-		<first>Angely para a moto na frente da casa de Kat. Kat desce e tira o capacete.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Valeu.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Angely... Você por aqui...</default>
-	</talk>
-	<talk character="Kat">
-		<irony>Não, é um holograma. Aliás, até o holograma de Angely tem mais o que fazer do que ouvir suas asneiras.</irony>
-	</talk>
-	<talk character="Agatha">
-		<default>Eu queria falar com ele sozinha.</default>
-	</talk>
-	<talk character="Kat">
-		<irony>Não trouxe o anti-ofídico.</irony>
-	</talk>
-	<talk character="Agatha">
-		<default>Não vou engolir seu irmão.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não duvido que faça isso.</default>
-	</talk>
-	<teller>
-		<default>Kat entra.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Seria legal ver vocês se dando melhor.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Acho que caguei demais com ela. Edmont não deu notícia?</default>
-	</talk>
-	<teller>
-		<default>Angely baixa a cabeça.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Não fica assim...</default>
-	</talk>
-	<teller>
-		<default>Agatha se aproxima de Angely.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Sei que ele volta.</default>
-	</talk>
-	<teller>
-		<default>Angely olha para Agatha.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Vou procurar emprego.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Na empresa...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não é meu estilo de trabalho terno e gravata.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>E quando for se casar?</default>
-	</talk>
-	<teller>
-		<default>Angely franze a testa.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>É, se um relacionamento seu for mais longe... Se gostar mais de alguém... Ou tiver que casar por algum motivo...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Do que você tá falando?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Nada, esquece.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vou pra casa.</default>
-	</talk>
-	<teller>
-		<default>MEAK. Angely chega. Pousa o capacete no sofá. Mel está na sala.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Ué, achei que fosse procurar emprego...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Fui levar Kat em casa. Agatha me veio com um papo estranho de casamento.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá com Agatha?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não... Eu... Não.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então porque isso?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Falou em</default>
-		<frizz>ter</frizz>
-		<default>que casar. Acha que pode ter uma criança, daquela vez? Tem gente que casa por isso.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E pode ser de Edmont. E de Jeremy, Bryan, Victor, Eloy, e mais gente. E, se for você, o mundo não vai acabar também.</default>
-	</talk>
-	<teller>
-		<default>Mel sobe.</default>
-	</teller>
-	<teller>
-		<first>Tarde. MEAK. Angely abre a porta. Dara entra.</first>
-	</teller>
-	<talk character="Dara">
-		<default>Olha, desculpa por eu vir aqui de novo, mas você é a única pessoa com quem eu consigo falar.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Fale.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Eu não sei o que fazer, se estou com raiva, ou se era melhor Edmont ter ido embora... O fato é que meus sentimentos estão muito confusos e eu não consigo ficar falando sobre isso comigo só.</default>
-	</talk>
-	<teller>
-		<first>18h. Dara está andando de um lado a outro. Angely está na cama, sentou-se.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Tá vendo? Não tá usando nem vírgulas mais.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Mas é que eu tô com muito nervoso não consigo pensar direito nem falar...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Senta aqui.</default>
-	</talk>
-	<teller>
-		<default>Dara se senta na cama de Angely, na beira.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Por que Edmont tinha que estragar tudo?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não é o fim do mundo. Pode amar outra pessoa.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Mas nenhum que me olhe como Edmont olhava.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você é legal.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Me dê um exemplo de alguém que goste de mim!</default>
-	</talk>
-	<teller>
-		<default>Angely olha nos olhos de Dara. Levanta. Vai até a porta. Volta. Ajoelha na frente de Dara. Dara franze a testa. Angely abre a boca para falar, mas trava, puxa mais o ar, abre mais os olhos. Aperta os olhos. Dara arregala os olhos. Angely abre novamente os olhos. Cai para trás, como se soltasse o corpo. A respiração espaça e fica pesada. Dara levanta.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Que foi, Angely??? Que você tá sentindo???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nada...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Vou chamar um médico!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não... preci... sa...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Como não???</default>
-	</talk>
-	<teller>
-		<default>Angely fecha os olhos e sua cabeça cai para o lado. Dara puxa Angely para cima da cama. Sai do quarto, corre ao quarto de Mel. Vazio. Desce a escada correndo. Passa pela sala. Vai até a cozinha. Desce pela porta para a parte de baixo da casa. Sobe correndo, até o sótão. Desce de volta, dois andares, para a sala. Pega o telefone. Disca. Espera. Desliga bruscamente. Sobe correndo de volta. Chega ao quarto de Angely. Coloca os dedos no pescoço. Senta-se ao lado da cama.</default>
-	</teller>
-	<teller>
-		<first>0h. Angely abre os olhos. Senta-se na cama. Dara adormeceu ao lado da cama, no chão, sentou-se. Toca a mão de Dara. Dara levanta a cabeça, arregala os olhos e levanta-se do chão.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Que houve?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Como que</default>
-		<default>eu</default>
-		<default>vou saber?! Você teve algum sonho estranho?! Será que tem o mesmo poder de Kat?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nada. Só senti um gosto estranho, de metal, antes de...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Desmaiar?</default>
-	</talk>
-	<teller>
-		<default>Angely coloca os pés fora da cama. Dara senta-se ao lado. Angely olha nos olhos de Dara. Beija Dara. Dara corresponde. Param. Abrem os olhos. Dara levanta bruscamente, empurrando Angely.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Não quero sua pena!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não é pena!</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não pode ser outra coisa! Não estrague nossa amizade, Angely! Por favor!</default>
-	</talk>
-	<teller>
-		<default>Dara sai. Angely se joga na cama.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Mais fácil você ter pena de mim.</default>
-	</talk>
-	<teller>
-		<default>Dara volta. Angely levanta da cama, quase caindo.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Não pode me confundir desse jeito! Não dei esse direito! Não deveria fazer isso com ninguém! Não devia tentar "consolar" alguém assim só porque tomou um pé na bunda! Ninguém gosta de sentir que tá com pena, sabia???</default>
-	</talk>
-	<teller>
-		<default>Dara respira rápido. Angely solta os ombros. Olha pra baixo. Olha para Dara. Vai até Dara. Olha para baixo de novo. Olha nos olhos de Dara. Engole seco. Dara beija Angely. Coloca os braços em volta do pescoço de Angely. Pula e passa as pernas em volta da cintura. Angely segura. Vira com Dara para a cama. Deita Dara, deitando por cima.</default>
-	</teller>
-	<teller>
-		<first>Manhã. Dara acorda. Angely está de costas para Dara. Um braço de Dara está embaixo do travesseiro, o outro enlaçado em Angely. Dara se levanta da cama. Pega as roupas. Veste-se. Sai do quarto. Angely abre os olhos. Vira-se para a porta. Volta a virar para a parede. Fecha os olhos. Se ajeita na cama. </first>
-	</teller>
-	<teller>
-		<first>Casa de Dara.</first>
-	</teller>
-	<talk character="Denise">
-		<default>Foi encontrar seu namorado? Dizem que ele caiu no mundo...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Que?</default>
-	</talk>
-	<talk character="Denise">
-		<default>As revistas, Edmont... Se não foi com ele, com quem passou a noite?</default>
-	</talk>
-	<teller>
-		<default>Dara franze a testa.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Quem te disse que eu passei a noite com alguém???</default>
-	</talk>
-	<teller>
-		<default>Denize franze e testa.</default>
-	</teller>
-	<talk character="Denise">
-		<default>Nossa, que tom de culpa...</default>
-	</talk>
-	<teller>
-		<default>Denise desfranze a testa, arregala os olhos e sorri.</default>
-	</teller>
-	<talk character="Denise">
-		<default>Peraí, não fez isso!</default>
-	</talk>
-	<talk character="Dara">
-		<default>Vou pro meu quarto. Cadê nossos pais?</default>
-	</talk>
-	<talk character="Denise">
-		<default>Eles não vieram nos visitar hoje. São turistas por aqui, esqueceu?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Sempre ocupados.</default>
-	</talk>
-	<talk character="Denise">
-		<default>Não tenta fugir do assunto.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Eu não estou... Peraí, o que</default>
-		<frizz>você</frizz>
-		<default>tem a ver com a minha vida???</default>
-	</talk>
-	<teller>
-		<default>Dara sai da sala.</default>
-	</teller>
-	<teller>
-		<first>MEAK. Cozinha. Angely chega de cabeça baixa. Olha para Mel.</first>
-	</teller>
-	<talk character="Mel">
-		<default>Que cara é essa?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sei que é alguma coisa.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Por que acha que tem algum problema?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por que vi Dara sair daqui de mansinho de manhãzinha.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Angely...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu trai o Edmont.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não traiu, Edmont largou Dara, esqueceu?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu já gostava de Dara antes.</default>
-	</talk>
-	<talk character="Mel">
-		<irony>Conta uma novidade agora.</irony>
-	</talk>
-	<talk character="Angely">
-		<default>Talvez eu tenha feito algo errado.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Errado?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Dara gosta de Edmont, terminaram, teve confusão... Não deveria ter me aproveitado disso.</default>
-	</talk>
-	<talk character="Mel">
-		<irony>Realmente, Angely, você não presta!</irony>
-	</talk>
-	<teller>
-		<default>Mel sai da cozinha.</default>
-	</teller>
-</story>
+{
+	"season": "A",
+	"episode": "14",
+	"scene": "a",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Março de 2023"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quarto de Mel. Noite."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não podia ter feito o que fez. Angely ficou muito mal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com Dara foi imperdoável. Ao menos Angely conseguiu explicar... Se bem que não sei nem se ele entendeu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Logo Edmont, que fala tanto de humanos. E logo depois da gente saber..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat, você foi a única coisa boa que saiu disso. Eu passaria por tudo de novo, se soubesse que você seria o resultado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No corredor, Angely se aproxima do quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Queria que viesse morar aqui com a gente. Poderia ficar com o quarto de Edmont."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely baixa a cabeça. Olha para a frente. Suspira. Vai até a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguma notícia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Onde esteve?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Procurando emprego."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu fiz teste vocacional de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que descobriu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que a palavra "entrega rápida" não quer dizer o que parece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tipo de emprego está procurando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que dê dinheiro e eu saiba fazer. Tinha tirado pra ensinar no teste."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podia trabalhar na empresa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com o quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ofereceu pra mim também. Já pensou, usar terno e gravata?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que vou continuar procurando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quando eu tiver poder de decisão, vou baixar uma regra que só não pode ir sem roupa. Talvez eu crie uma área para pessoas que querem trabalhar sem roupa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero que não seja a parte do laboratório."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Manhã. Campainha. Angely vai até a escada, desce, atravessa a sala e abre a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá tudo tão confuso dentro da minha cabeça..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi pra você também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso falar com você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já tá falando. Não tá pensando em..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, eu não vou contar pra ninguém."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely aponta pra dentro com a palma pra cima. Dara entra. Angely fecha a porta. Vai para a cozinha. Dara segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não sei o que fazer, o que pensar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que pedimos pra não contar foi da nossa origem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sobre o que houve..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que tá falando?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara desfranze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já esqueci aquilo. Principalmente depois que Mel me disse que o barulho que ouvi foi um soco que deu. E Edmont não fez nada no final das contas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi nada. O que Edmont fez foi absurdo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que seja. Minha mente só tá confusa. Se eu perdoei, não tem porque alguém reclamar, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Oi, bem que ouvi uma voz."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tava me sentindo meio só em casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou continuar procurando algum trabalho. Só passei pra tomar um lanche, e já tinha feito isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely vai para a sala. Kat desce a escada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode me levar até em casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas Angely não precisa procurar trabalho, vocês ganhavam mó grana com a banda..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O dinheiro não é eterno. E a gente fazia doações. Talvez não consigamos doar tanto mais, mas seria bom arranjar algo que pudéssemos ainda fazer alguma coisa, além da agência."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely conseguiria emprego em uma escola fácil, Edmont comentou que o teste dele seria pra ser professor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu e Kat achamos que isso é uma desculpa pra procurar Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem certeza?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely não mente normalmente. Mas pode estar sentindo culpa. É a única explicação. "
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Angely para a moto na frente da casa de Kat. Kat desce e tira o capacete."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Valeu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely... Você por aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Não, é um holograma. Aliás, até o holograma de Angely tem mais o que fazer do que ouvir suas asneiras."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu queria falar com ele sozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Não trouxe o anti-ofídico."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vou engolir seu irmão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não duvido que faça isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat entra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seria legal ver vocês se dando melhor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que caguei demais com ela. Edmont não deu notícia?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fica assim..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha se aproxima de Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sei que ele volta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou procurar emprego."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na empresa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é meu estilo de trabalho terno e gravata."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quando for se casar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, se um relacionamento seu for mais longe... Se gostar mais de alguém... Ou tiver que casar por algum motivo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que você tá falando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada, esquece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou pra casa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "MEAK. Angely chega. Pousa o capacete no sofá. Mel está na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ué, achei que fosse procurar emprego..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fui levar Kat em casa. Agatha me veio com um papo estranho de casamento."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá com Agatha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não... Eu... Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então porque isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falou em"
+				},
+				{
+					"type": "frizz",
+					"text": "ter"
+				},
+				{
+					"type": "default",
+					"text": "que casar. Acha que pode ter uma criança, daquela vez? Tem gente que casa por isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E pode ser de Edmont. E de Jeremy, Bryan, Victor, Eloy, e mais gente. E, se for você, o mundo não vai acabar também."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sobe."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Tarde. MEAK. Angely abre a porta. Dara entra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, desculpa por eu vir aqui de novo, mas você é a única pessoa com quem eu consigo falar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fale."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não sei o que fazer, se estou com raiva, ou se era melhor Edmont ter ido embora... O fato é que meus sentimentos estão muito confusos e eu não consigo ficar falando sobre isso comigo só."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "18h. Dara está andando de um lado a outro. Angely está na cama, sentou-se."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá vendo? Não tá usando nem vírgulas mais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas é que eu tô com muito nervoso não consigo pensar direito nem falar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Senta aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara se senta na cama de Angely, na beira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que Edmont tinha que estragar tudo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é o fim do mundo. Pode amar outra pessoa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas nenhum que me olhe como Edmont olhava."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é legal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me dê um exemplo de alguém que goste de mim!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha nos olhos de Dara. Levanta. Vai até a porta. Volta. Ajoelha na frente de Dara. Dara franze a testa. Angely abre a boca para falar, mas trava, puxa mais o ar, abre mais os olhos. Aperta os olhos. Dara arregala os olhos. Angely abre novamente os olhos. Cai para trás, como se soltasse o corpo. A respiração espaça e fica pesada. Dara levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi, Angely??? Que você tá sentindo???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou chamar um médico!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não... preci... sa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como não???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely fecha os olhos e sua cabeça cai para o lado. Dara puxa Angely para cima da cama. Sai do quarto, corre ao quarto de Mel. Vazio. Desce a escada correndo. Passa pela sala. Vai até a cozinha. Desce pela porta para a parte de baixo da casa. Sobe correndo, até o sótão. Desce de volta, dois andares, para a sala. Pega o telefone. Disca. Espera. Desliga bruscamente. Sobe correndo de volta. Chega ao quarto de Angely. Coloca os dedos no pescoço. Senta-se ao lado da cama."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "0h. Angely abre os olhos. Senta-se na cama. Dara adormeceu ao lado da cama, no chão, sentou-se. Toca a mão de Dara. Dara levanta a cabeça, arregala os olhos e levanta-se do chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que houve?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como que"
+				},
+				{
+					"type": "default",
+					"text": "eu"
+				},
+				{
+					"type": "default",
+					"text": "vou saber?! Você teve algum sonho estranho?! Será que tem o mesmo poder de Kat?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada. Só senti um gosto estranho, de metal, antes de..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desmaiar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely coloca os pés fora da cama. Dara senta-se ao lado. Angely olha nos olhos de Dara. Beija Dara. Dara corresponde. Param. Abrem os olhos. Dara levanta bruscamente, empurrando Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quero sua pena!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é pena!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode ser outra coisa! Não estrague nossa amizade, Angely! Por favor!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara sai. Angely se joga na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mais fácil você ter pena de mim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara volta. Angely levanta da cama, quase caindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode me confundir desse jeito! Não dei esse direito! Não deveria fazer isso com ninguém! Não devia tentar "consolar" alguém assim só porque tomou um pé na bunda! Ninguém gosta de sentir que tá com pena, sabia???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara respira rápido. Angely solta os ombros. Olha pra baixo. Olha para Dara. Vai até Dara. Olha para baixo de novo. Olha nos olhos de Dara. Engole seco. Dara beija Angely. Coloca os braços em volta do pescoço de Angely. Pula e passa as pernas em volta da cintura. Angely segura. Vira com Dara para a cama. Deita Dara, deitando por cima."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Manhã. Dara acorda. Angely está de costas para Dara. Um braço de Dara está embaixo do travesseiro, o outro enlaçado em Angely. Dara se levanta da cama. Pega as roupas. Veste-se. Sai do quarto. Angely abre os olhos. Vira-se para a porta. Volta a virar para a parede. Fecha os olhos. Se ajeita na cama. "
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Casa de Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi encontrar seu namorado? Dizem que ele caiu no mundo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As revistas, Edmont... Se não foi com ele, com quem passou a noite?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem te disse que eu passei a noite com alguém???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Denize franze e testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, que tom de culpa..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Denise desfranze a testa, arregala os olhos e sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Peraí, não fez isso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou pro meu quarto. Cadê nossos pais?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles não vieram nos visitar hoje. São turistas por aqui, esqueceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sempre ocupados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Denise",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tenta fugir do assunto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não estou... Peraí, o que"
+				},
+				{
+					"type": "frizz",
+					"text": "você"
+				},
+				{
+					"type": "default",
+					"text": "tem a ver com a minha vida???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara sai da sala."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Cozinha. Angely chega de cabeça baixa. Olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que cara é essa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sei que é alguma coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que acha que tem algum problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que vi Dara sair daqui de mansinho de manhãzinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu trai o Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não traiu, Edmont largou Dara, esqueceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu já gostava de Dara antes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Conta uma novidade agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez eu tenha feito algo errado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Errado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara gosta de Edmont, terminaram, teve confusão... Não deveria ter me aproveitado disso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Realmente, Angely, você não presta!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sai da cozinha."
+				}
+			]
+		}
+	]
+}

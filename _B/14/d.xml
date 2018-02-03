@@ -1,462 +1,1511 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="14" scene="d">
-	<teller>
-		<default>Começo de tarde. Derik está no quarto. Kat chega.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Que cara é essa?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Atlantes não podem estuprar alguém.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Que bom. Eu sei disso.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Como Beleno nasceu?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Sua informação tá errada.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não, ouvi Melody e Angely comentando isso. Agora eu lembrei que Beleno só poderia ter vindo se fosse assim.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E se a alteração de corpos pode causar algo?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Angely não estava na biblioteca com vocês?</default>
-	</talk>
-	<talk character="Kat">
-		<default>É mesmo, foi quando Mel ficou grávida...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Então foi Edmont mesmo.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ou Inês e Beleno mentiram.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não fariam isso. Vou pesquisar sobre pégasos de novo. Ver se não tem uma brecha.</default>
-	</talk>
-	<teller>
-		<first>Beleno entra no quarto de Shy. Shy está saindo do banho. Cruza os braços.</first>
-	</teller>
-	<talk character="Shy">
-		<default>Ainda bem que me vesti lá dentro.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Vim te tirar daqui.</default>
-	</talk>
-	<talk character="Shy">
-		<default>Não quero mais sair.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Te drogou?</default>
-	</talk>
-	<talk character="Shy">
-		<default>Não.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>O dinheiro...</default>
-	</talk>
-	<talk character="Shy">
-		<screamed>Que acha que sou???</screamed>
-	</talk>
-	<talk character="Beleno">
-		<default>Estava no torneio por dinheiro.</default>
-	</talk>
-	<talk character="Shy">
-		<default>Isso é diferente.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>É trapaça de qualquer jeito.</default>
-	</talk>
-	<talk character="Shy">
-		<default>Quer parar de me chamar de trapaceira?!</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Mas porque não quer mais ser salva?</default>
-	</talk>
-	<teller>
-		<default>Shy olha para baixo.</default>
-	</teller>
-	<talk character="Shy">
-		<default>Eu fui salva. Meu pai ia deixar me matarem. Talvez ele mesmo fizesse.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Ah?!</default>
-	</talk>
-	<teller>
-		<default>Shy olha para Beleno.</default>
-	</teller>
-	<talk character="Shy">
-		<default>César me disse que estou reencarnando há tempos, que ele fez um feitiço pra que uma espécie ficasse como pedra, enquanto me matassem.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Bom, mas morrer todo mundo morre, então nunca vai acontecer.</default>
-	</talk>
-	<talk character="Shy">
-		<default>Tem um hora certa, em que eu lembro de tudo.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Deve estar mentindo.</default>
-	</talk>
-	<talk character="Shy">
-		<default>Eu acredito. Meu pai sempre me tratou como se ele tivesse feito alguma coisa muito errada, achei que fosse em relação a minha mãe. Mas agora eu sei que não é passado, é futuro.</default>
-	</talk>
-	<teller>
-		<first>MEAK. Noite.</first>
-	</teller>
-	<talk character="Derik">
-		<default>É perfeito.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Como assim?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Se César diz  que vão assassinar Shy quando lembrar de tudo, César fica com Shy até quando quiser, porque, afinal, Shy nunca vai lembrar.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Ela disse também que ele tá treinando ela.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E daí? Duvido que ensine como vencer a si.</default>
-	</talk>
-	<talk character="Estela">
-		<default>E, se ele é imortal, ela nem vai tentar isso.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Vamos lá e acabamos com tudo.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Precisamos descobrir como fazer isso. Mas você ainda não contou o que aconteceu com Zenon.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Perdi dele. Tô cuidando do caso, não tô?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Como ele é?</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Zenon?</default>
-	</talk>
-	<teller>
-		<default>Derik revira os olhos.</default>
-	</teller>
-	<talk character="Derik">
-		<default>César.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Ah, tá... Não sei.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Como não sabe???</default>
-	</talk>
-	<talk character="Kat">
-		<default>Beleno não enxerga, Michele.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Não lê a mente das pessoas?</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Não pensei em fazer isso com Shy, mas tentei com César no ringue e caí.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Sabe que tipo de poderes tem? Podemos começar com isso.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Biblioteca?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Primeiro vai me dizer tudo que lembra.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Bom, a gente vai até lá então, ver se descobrimos mais alguma coisa.</default>
-	</talk>
-	<teller>
-		<default>Kat sai. Michele segue.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Você vai descrever, vamos anotar e eu e Estela vamos pra biblioteca.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Cadê Inês?</default>
-	</talk>
-	<talk character="Estela">
-		<default>Saiu. Não precisamos de Inês.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Aliás, tem gente demais por aqui, a gente podia se separar e fazer muito mais coisas.</default>
-	</talk>
-	<teller>
-		<first>Kat e Michele chegam ao apartamento de César.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Nem pra você apareceu?</default>
-	</talk>
-	<talk character="Michele">
-		<default>Não.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Fez isso algumas vezes lá, mas achei que tivesse parado. Não fez isso nenhuma vez aqui. E tinha prometido pra Mel que cuidaria de tudo.</default>
-	</talk>
-	<talk character="Michele">
-		<default>A gente já cresceu, e temos treino agora.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tem razão.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Ele dava algum sinal que ia sumir? Mudava o jeito, algo assim?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Nadinha.</default>
-	</talk>
-	<teller>
-		<default>Michele balança a cabeça para os lados.</default>
-	</teller>
-	<talk character="Michele">
-		<default>Não podia ter feito isso comigo.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Bom, não desapareceu tantas vezes assim. Teve uma vez depois que fizeram um feitiço. Era uma pessoa que queria um vampiro.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Nossa, existe disso?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Nem todo mundo conhece de verdade.</default>
-	</talk>
-	<teller>
-		<default>Kat e Michele batem na porta. César atende. Olha para Kat e Michele.</default>
-	</teller>
-	<talk character="César">
-		<default>Uma meio-atlante e a criadora da primeira linhagem na minha casa... Entrem, sintam-se a vontade.</default>
-	</talk>
-	<teller>
-		<default>César dá passagem. Kat e Michele entram.</default>
-	</teller>
-	<talk character="César">
-		<default>A que devo a visita?</default>
-	</talk>
-	<talk character="Michele">
-		<default>Somos amigas de Shy.</default>
-	</talk>
-	<talk character="César">
-		<default>Ah, sim, a garota loira!</default>
-	</talk>
-	<talk character="Michele">
-		<default>Ela mesma.</default>
-	</talk>
-	<teller>
-		<default>Kat suspira.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Shy não é loira, é?</default>
-	</talk>
-	<teller>
-		<default>Michele arregala os olhos.</default>
-	</teller>
-	<talk character="Michele">
-		<default>Kat!</default>
-	</talk>
-	<talk character="César">
-		<default>Não, os cabelos são pretos de nascença e nunca viram tinta. São amigas sim do garoto alado, não?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Sim.</default>
-	</talk>
-	<talk character="César">
-		<default>Digam a ele que um amigo não pode ser um rival. E não estou falando de...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Viemos saber o que quer com Shy.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Podia não ser tão direta.</default>
-	</talk>
-	<teller>
-		<default>César levanta um dedo. Sai. Volta com um pacote. Entrega a Kat. Kat abre. São fotos de uma pedra com inscrições.</default>
-	</teller>
-	<talk character="Michele">
-		<default>Podia ter scanneado ou tirado as fotos com uma câmera digital...</default>
-	</talk>
-	<talk character="César">
-		<default>Para qualquer hacker ter acesso? Destruí os negativos. Nasceu na Terra?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Praticamente. Pode nos dizer ao menos o nome dessa língua?</default>
-	</talk>
-	<talk character="César">
-		<default>Levem isso para alguém que saiba traduzir. Ah, não é só porque os vampiros são velhos que eles conhecem tudo. Minhas estátuas talvez soubessem ler...</default>
-	</talk>
-	<talk character="Michele">
-		<default>Por que não nos entrega a tradução?</default>
-	</talk>
-	<talk character="César">
-		<default>Acreditariam em mim?</default>
-	</talk>
-	<teller>
-		<first>MEAK. Anoitecer.</first>
-	</teller>
-	<talk character="Beleno">
-		<default>Voltaram meio rápido, Derik e Estela acabaram de sair.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Não foi tão pouco tempo, teríamos nos encontrado na ponte.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Que isso...</default>
-	</talk>
-	<teller>
-		<default>Beleno pega o pacote das mãos de Kat.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Delicadeza não paga imposto.</default>
-	</talk>
-	<teller>
-		<default>Beleno abre o pacote. Folheia. Vai a um armário, pega durex. Senta no chão. Olha para Michele e Kat. Michele e Kat sentam também, do outro lado. Olhando nos olhos de Michele e Kat, Beleno vai organizando as fotos no chão e colando. Termina.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Como sabia a ordem?</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Por que não era uma parede lisa pintada, pedras tem diferenças de tons.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Você não é cego?</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Mas vocês não.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Demos quatro olhos a Beleno.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Isso é invasivo.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Não li nada, me concentrei na visão.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Conhece essa língua?</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Já vi uma vez algumas dessas letras. Não lembro quem olhava. Vocês tiraram as fotos?</default>
-	</talk>
-	<talk character="Michele">
-		<default>Não, César nos entregou.</default>
-	</talk>
-	<teller>
-		<default>Kat coloca a mão no rosto.</default>
-	</teller>
-	<talk character="Beleno">
-		<default>Que foi?</default>
-	</talk>
-	<teller>
-		<default>Kat tira a mão e olha para Beleno.</default>
-	</teller>
-	<talk character="Kat">
-		<default>César pode ter criado isso num programa de computador e mandado revelar como fotos ou até pode ter feito a pedra com as próprias mãos.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Não pensamos nisso.</default>
-	</talk>
-	<talk character="Beleno">
-		<default>Melhor irmos lá e procurarmos a pedra.</default>
-	</talk>
-	<teller>
-		<default>Kat levanta e sai, Michele e Beleno seguindo.</default>
-	</teller>
-	<teller>
-		<first>Alan, Inês e Beatrice chegam a MEAK.</first>
-	</teller>
-	<talk character="Inês">
-		<default>Beleno jamais faria isso... Será que Zenon não morreu no ringue?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Então porque fugiu?</default>
-	</talk>
-	<talk character="Inês">
-		<default>De repente não quisesse contar, sinta culpa...</default>
-	</talk>
-	<talk character="Bea">
-		<default>Talvez seja mesmo culpado. Deveria ter nos contado.</default>
-	</talk>
-	<talk character="Inês">
-		<default>Vamos fazer o seguinte, vamos procurar Zenon. De repente Beleno jogou Zenon no continente, algo assim. Mas, por favor, eu quero analisar outras hipóteses!</default>
-	</talk>
-	<talk character="Bea">
-		<default>Tá. Vamos pro continente. Não espere que procuremos toda vida, ok?</default>
-	</talk>
-	<talk character="Inês">
-		<default>Tudo bem. Além do que, se matou Zenon, você também está em risco.</default>
-	</talk>
-	<teller>
-		<default>Beatrice baixa a cabeça. Olha de novo para Inês.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Vamos logo.</default>
-	</talk>
-	<talk character="Alan">
-		<default>É melhor você ficar, Inês, não é bom ir ao continente.</default>
-	</talk>
-	<talk character="Inês">
-		<default>Mas...</default>
-	</talk>
-	<talk character="Bea">
-		<default>Alan tem razão. Eu corro perigo aqui, você pode ter problemas lá.</default>
-	</talk>
-	<talk character="Inês">
-		<default>Do lado de Beatrice eu não corro, nem ela do meu lado.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Nunca tinha conhecido um pégaso. Acho que só Edmont tem poder o suficiente pra desafiar o mundo desse jeito. E os que são inexperientes também são para serem pegos pelos filhos. Você fica.</default>
-	</talk>
-	<talk character="Inês">
-		<default>Deixa eu ir com vocês até o porto então.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Só até lá.</default>
-	</talk>
-	<teller>
-		<first>Noite. Derik e Estela estão na biblioteca.</first>
-	</teller>
-	<talk character="Estela">
-		<default>Acho que achei algo...</default>
-	</talk>
-	<teller>
-		<default>Estela vai até Derik.</default>
-	</teller>
-	<talk character="Estela">
-		<default>Pensei que estávamos procurando sobre César.</default>
-	</talk>
-	<teller>
-		<default>Derik olha pra Estela.</default>
-	</teller>
-	<talk character="Derik">
-		<default>É que eu descobri que o nascimento de Beleno é impossível.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Eu sei que conheceu Edmont de antes, mas...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Atlantes não podem estuprar alguém. E não se trata de princípios, é biológico, é mágico, sei lá.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Ele virou vampiro, talvez algumas características tenham se alterado.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Então devo procurar sobre vampiros, não pégasos.</default>
-	</talk>
-	<talk character="Estela">
-		<default>Mas não achamos nada sobre atlantes aqui, um humano normal não tem esse tipo de coisa, não dá pra prever se alteraria ou não.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Leve o que achou para Beleno, vou ficar aqui, procurando. Por via das dúvidas, vou ver sobre vampiros, pégasos e fênixs.</default>
-	</talk>
-	<teller>
-		<default>Estela sai.</default>
-	</teller>
-</story>
+{
+	"season": "B",
+	"episode": "14",
+	"scene": "d",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Começo de tarde. Derik está no quarto. Kat chega."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que cara é essa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Atlantes não podem estuprar alguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que bom. Eu sei disso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como Beleno nasceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sua informação tá errada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, ouvi Melody e Angely comentando isso. Agora eu lembrei que Beleno só poderia ter vindo se fosse assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se a alteração de corpos pode causar algo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely não estava na biblioteca com vocês?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É mesmo, foi quando Mel ficou grávida..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então foi Edmont mesmo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ou Inês e Beleno mentiram."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fariam isso. Vou pesquisar sobre pégasos de novo. Ver se não tem uma brecha."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Beleno entra no quarto de Shy. Shy está saindo do banho. Cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Shy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda bem que me vesti lá dentro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vim te tirar daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Shy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quero mais sair."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Te drogou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Shy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O dinheiro..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Shy",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Que acha que sou???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estava no torneio por dinheiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Shy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é diferente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É trapaça de qualquer jeito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Shy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer parar de me chamar de trapaceira?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas porque não quer mais ser salva?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Shy olha para baixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Shy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu fui salva. Meu pai ia deixar me matarem. Talvez ele mesmo fizesse."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Shy olha para Beleno."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Shy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "César me disse que estou reencarnando há tempos, que ele fez um feitiço pra que uma espécie ficasse como pedra, enquanto me matassem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, mas morrer todo mundo morre, então nunca vai acontecer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Shy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem um hora certa, em que eu lembro de tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deve estar mentindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Shy",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu acredito. Meu pai sempre me tratou como se ele tivesse feito alguma coisa muito errada, achei que fosse em relação a minha mãe. Mas agora eu sei que não é passado, é futuro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Noite."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É perfeito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se César diz  que vão assassinar Shy quando lembrar de tudo, César fica com Shy até quando quiser, porque, afinal, Shy nunca vai lembrar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela disse também que ele tá treinando ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E daí? Duvido que ensine como vencer a si."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E, se ele é imortal, ela nem vai tentar isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos lá e acabamos com tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Precisamos descobrir como fazer isso. Mas você ainda não contou o que aconteceu com Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Perdi dele. Tô cuidando do caso, não tô?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como ele é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik revira os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "César."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, tá... Não sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como não sabe???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beleno não enxerga, Michele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não lê a mente das pessoas?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pensei em fazer isso com Shy, mas tentei com César no ringue e caí."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe que tipo de poderes tem? Podemos começar com isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Biblioteca?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Primeiro vai me dizer tudo que lembra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, a gente vai até lá então, ver se descobrimos mais alguma coisa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat sai. Michele segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você vai descrever, vamos anotar e eu e Estela vamos pra biblioteca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê Inês?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Saiu. Não precisamos de Inês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aliás, tem gente demais por aqui, a gente podia se separar e fazer muito mais coisas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Kat e Michele chegam ao apartamento de César."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem pra você apareceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fez isso algumas vezes lá, mas achei que tivesse parado. Não fez isso nenhuma vez aqui. E tinha prometido pra Mel que cuidaria de tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente já cresceu, e temos treino agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem razão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele dava algum sinal que ia sumir? Mudava o jeito, algo assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nadinha."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michele balança a cabeça para os lados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não podia ter feito isso comigo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, não desapareceu tantas vezes assim. Teve uma vez depois que fizeram um feitiço. Era uma pessoa que queria um vampiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, existe disso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem todo mundo conhece de verdade."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat e Michele batem na porta. César atende. Olha para Kat e Michele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "César",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma meio-atlante e a criadora da primeira linhagem na minha casa... Entrem, sintam-se a vontade."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "César dá passagem. Kat e Michele entram."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "César",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A que devo a visita?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Somos amigas de Shy."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "César",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, sim, a garota loira!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela mesma."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat suspira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Shy não é loira, é?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michele arregala os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "César",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, os cabelos são pretos de nascença e nunca viram tinta. São amigas sim do garoto alado, não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "César",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Digam a ele que um amigo não pode ser um rival. E não estou falando de..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viemos saber o que quer com Shy."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podia não ser tão direta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "César levanta um dedo. Sai. Volta com um pacote. Entrega a Kat. Kat abre. São fotos de uma pedra com inscrições."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podia ter scanneado ou tirado as fotos com uma câmera digital..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "César",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Para qualquer hacker ter acesso? Destruí os negativos. Nasceu na Terra?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Praticamente. Pode nos dizer ao menos o nome dessa língua?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "César",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Levem isso para alguém que saiba traduzir. Ah, não é só porque os vampiros são velhos que eles conhecem tudo. Minhas estátuas talvez soubessem ler..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não nos entrega a tradução?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "César",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acreditariam em mim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Anoitecer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Voltaram meio rápido, Derik e Estela acabaram de sair."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi tão pouco tempo, teríamos nos encontrado na ponte."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que isso..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beleno pega o pacote das mãos de Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Delicadeza não paga imposto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beleno abre o pacote. Folheia. Vai a um armário, pega durex. Senta no chão. Olha para Michele e Kat. Michele e Kat sentam também, do outro lado. Olhando nos olhos de Michele e Kat, Beleno vai organizando as fotos no chão e colando. Termina."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabia a ordem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não era uma parede lisa pintada, pedras tem diferenças de tons."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não é cego?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas vocês não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Demos quatro olhos a Beleno."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é invasivo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não li nada, me concentrei na visão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Conhece essa língua?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já vi uma vez algumas dessas letras. Não lembro quem olhava. Vocês tiraram as fotos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, César nos entregou."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat coloca a mão no rosto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat tira a mão e olha para Beleno."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "César pode ter criado isso num programa de computador e mandado revelar como fotos ou até pode ter feito a pedra com as próprias mãos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pensamos nisso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beleno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor irmos lá e procurarmos a pedra."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat levanta e sai, Michele e Beleno seguindo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Alan, Inês e Beatrice chegam a MEAK."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beleno jamais faria isso... Será que Zenon não morreu no ringue?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então porque fugiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De repente não quisesse contar, sinta culpa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez seja mesmo culpado. Deveria ter nos contado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos fazer o seguinte, vamos procurar Zenon. De repente Beleno jogou Zenon no continente, algo assim. Mas, por favor, eu quero analisar outras hipóteses!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá. Vamos pro continente. Não espere que procuremos toda vida, ok?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem. Além do que, se matou Zenon, você também está em risco."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice baixa a cabeça. Olha de novo para Inês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos logo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É melhor você ficar, Inês, não é bom ir ao continente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan tem razão. Eu corro perigo aqui, você pode ter problemas lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do lado de Beatrice eu não corro, nem ela do meu lado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nunca tinha conhecido um pégaso. Acho que só Edmont tem poder o suficiente pra desafiar o mundo desse jeito. E os que são inexperientes também são para serem pegos pelos filhos. Você fica."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixa eu ir com vocês até o porto então."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só até lá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite. Derik e Estela estão na biblioteca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que achei algo..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela vai até Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pensei que estávamos procurando sobre César."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik olha pra Estela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É que eu descobri que o nascimento de Beleno é impossível."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei que conheceu Edmont de antes, mas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Atlantes não podem estuprar alguém. E não se trata de princípios, é biológico, é mágico, sei lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele virou vampiro, talvez algumas características tenham se alterado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então devo procurar sobre vampiros, não pégasos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas não achamos nada sobre atlantes aqui, um humano normal não tem esse tipo de coisa, não dá pra prever se alteraria ou não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leve o que achou para Beleno, vou ficar aqui, procurando. Por via das dúvidas, vou ver sobre vampiros, pégasos e fênixs."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela sai."
+				}
+			]
+		}
+	]
+}

@@ -1,492 +1,1612 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="10" scene="b">
-	<teller>
-		<default>MEAK. Mel e Beatrice estão na sala. Angely entra e coloca um jornal sobre o balcão.</default>
-	</teller>
-	<talk character="Mel">
-		<default>É a pessoa do quadro...</default>
-	</talk>
-	<talk character="Bea">
-		<default>Leo não disse que um vampiro tinha matado?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Deve ter se transformado, o corpo não ia se conservar tanto.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não sabemos quanto tempo Leo tinha de morte.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Só o tempo que perturbou a gente já dava pra ter apodrecido.</default>
-	</talk>
-	<teller>
-		<default>Beatrice pega o jornal.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Cadê as marcas de mordida?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Provavelmente no ângulo que a foto não pegou.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Um fotógrafo não omitiria iss. Alguém na polícia impediu pra não gerar lendas, ou alguém estava interessado em impedir?</default>
-	</talk>
-	<teller>
-		<first>Sol a pino. Íris e Henrique entram no necrotério.</first>
-	</teller>
-	<talk character="Íris">
-		<default>Malditos policiais, chegaram antes... Se você tivesse sido mais rápido, a gente tinha pego ela antes!</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Tem mesmo uma vampira aqui, dá pra sentir.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Duvidou do meu faro?</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Não. Que bom que não tem ninguém aqui.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Que bom pra você, não teve que fazer nada.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>A culpa não é minha se só tem HT aqui...</default>
-	</talk>
-	<talk character="Íris">
-		<default>Tem policial mulher no departamento.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Uma mulher consegue fingir que tá com tesão, um homem não! Acha que ele levanta se eu pedir?!</default>
-	</talk>
-	<talk character="Íris">
-		<default>Usasse a mão e a imaginação! Vamos parar com isso e levar logo a garota.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Será que Edmont vai mesmo aprovar isso?</default>
-	</talk>
-	<talk character="Íris">
-		<default>Vamos pegar uma vampira, impedir que CVs matem ela e entregar pra ele.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Grande coisa. Se um de nós salvasse o outro ele diria "por que fez isso?".</default>
-	</talk>
-	<talk character="Íris">
-		<default>Talvez ele fique melhor conosco quando levarmos ela.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Pra substituir a Beatrice?</default>
-	</talk>
-	<talk character="Íris">
-		<irony>Meu Deus, você tem um cérebro!</irony>
-	</talk>
-	<talk character="Henrique">
-		<default>Ele não tinha proibido a gente de falar em Deus?</default>
-	</talk>
-	<talk character="Íris">
-		<default>Faça um favor ao mundo. Fica quieto.</default>
-	</talk>
-	<teller>
-		<default>Íris vai até uma gaveta. Abre. Tira o pano. Henrique vai abrir gavetas do outro lado. Íris abre três gavetas. Na quarta, tira o pano e para.</default>
-	</teller>
-	<talk character="Íris">
-		<default>Aqui.</default>
-	</talk>
-	<teller>
-		<default>Henrique se aproxima.</default>
-	</teller>
-	<talk character="Henrique">
-		<default>Falei que era melhor ter trazido uma roupa!</default>
-	</talk>
-	<talk character="Íris">
-		<default>Não acho que precise mesmo...</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Desiste, reconheço HT de longe.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Temos que enterrar, para ela acordar.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Então não era mais fácil ter esperado no cemitério?</default>
-	</talk>
-	<teller>
-		<default>Íris puxa o pano, cobrindo Pandora, e encara Henrique.</default>
-	</teller>
-	<talk character="Henrique">
-		<default>Que é?</default>
-	</talk>
-	<talk character="Íris">
-		<default>Se tivesse tido essa idéia antes, eu não tinha que ter feito o que fiz!</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Somos vampiros, a gente entrava escondido e matava quem visse a gente.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Ok, agora que tá brilhante, nos dê uma idéia que sirva para agora, não algo que deveríamos ter feito!</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Podemos matar alguém, tirar a roupa, vestir ela e sair pela porta da frente.</default>
-	</talk>
-	<talk character="Íris">
-		<irony>Se alguém nos olhar, balançamos o braço dela num tchauzinho???</irony>
-	</talk>
-	<talk character="Henrique">
-		<default>É mesmo... Podemos matar todos!</default>
-	</talk>
-	<talk character="Íris">
-		<default>E dar a maior bandeira pros caça-vampiros? Não, obrigado, antes cem anos viva que cinco minutos famosa!</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Arranje as idéias você então, só sabe recusar as minhas!</default>
-	</talk>
-	<talk character="Íris">
-		<default>Tá, vou aceitar parte da sua idéia. Tira a roupa.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Quê???</default>
-	</talk>
-	<teller>
-		<first>Ricardo entra no necrotério. Dá um passo para trás. Henrique está sem roupa.</first>
-	</teller>
-	<talk character="Rick">
-		<default>Mas o que é isso???</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Olha, ouve um engano, eu não sei o que eu tava fazendo na gaveta, mas eu juro que não tô morto!</default>
-	</talk>
-	<talk character="Rick">
-		<default>Não lembro de te ver entrar aqui...</default>
-	</talk>
-	<talk character="Henrique">
-		<irony>É uma grande coincidência, eu também não lembro de ter entrado!</irony>
-	</talk>
-	<teller>
-		<default>Ricardo sai e volta com um casaco. Henrique veste.</default>
-	</teller>
-	<talk character="Henrique">
-		<default>Nossa, bom esse perfume...</default>
-	</talk>
-	<talk character="Rick">
-		<default>Perfume?</default>
-	</talk>
-	<talk character="Henrique">
-		<default>É, o que tá aqui...</default>
-	</talk>
-	<teller>
-		<default>Ricardo franze a testa.</default>
-	</teller>
-	<talk character="Henrique">
-		<default>Minha namorada iria adorar!</default>
-	</talk>
-	<talk character="Rick">
-		<default>Ah, claro. Pensei que... Esquece.</default>
-	</talk>
-	<teller>
-		<first>Angely está andando pela cidade. Edmont está em seu apartamento.</first>
-	</teller>
-	<talk character="Ang">
-		<thought>Não vai me ajudar?</thought>
-	</talk>
-	<talk character="Edmont">
-		<thought>Não.</thought>
-	</talk>
-	<talk character="Ang">
-		<thought>Temos que achar Pandora.</thought>
-	</talk>
-	<talk character="Edmont">
-		<thought>Sabe o que vou fazer se encontrar.</thought>
-	</talk>
-	<talk character="Ang">
-		<thought>Vai me fazer mergulhar de novo?</thought>
-	</talk>
-	<talk character="Edmont">
-		<thought>Farei isso quantas vezes eu puder. Sabe que adoro te atazanar, mas não é por isso. Eu não resisto, não sou um anjo.</thought>
-	</talk>
-	<talk character="Ang">
-		<thought>Lá vem você...</thought>
-	</talk>
-	<talk character="Edmont">
-		<thought>Ah, desculpa, esqueci que você não gosta de ser superior.</thought>
-	</talk>
-	<talk character="Ang">
-		<thought>Se eu não soubesse que você achava que Beatrice ia te matar, pensaria que se transformou por causa da sua cobiça.</thought>
-	</talk>
-	<talk character="Edmont">
-		<thought>Esqueceu? Não pensa mais nada a meu respeito, simplesmente sabe!</thought>
-	</talk>
-	<talk character="Ang">
-		<thought>Não precisa ficar me lembrando.</thought>
-	</talk>
-	<teller>
-		<first>Delegacia. Mel entra. Ricardo vem em sua direção.</first>
-	</teller>
-	<talk character="Rick">
-		<default>Não devia estar dirigindo a escola?</default>
-	</talk>
-	<talk character="Mel">
-		<default>No domingo?</default>
-	</talk>
-	<talk character="Rick">
-		<default>Ah, claro... Estou tão acostumado a trabalhar todos os dias que...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quero saber sobre um corpo que foi encontrado hoje de madrugada.</default>
-	</talk>
-	<talk character="Rick">
-		<default>Com que direitos?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Com os direitos de quem sabe porque você demorou pra atender o chamado ontem.</default>
-	</talk>
-	<talk character="Rick">
-		<default>Eu tava bêbado!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Dá pra ver isso no vídeo.</default>
-	</talk>
-	<talk character="Rick">
-		<default>Por que veio atrás de mim? Podia ter saído com alguém aqui.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É divertido te sacanear.</default>
-	</talk>
-	<talk character="Rick">
-		<default>Tá no necrotério.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Essa informação não era necessária.</default>
-	</talk>
-	<talk character="Rick">
-		<default>Veio reconhecer o corpo? Alguma identidade da garota?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não. Pra isso tenho amizades.</default>
-	</talk>
-	<teller>
-		<default>Ricardo revira os olhos e sai. Mel segue. Entram no necrotério. Ricardo abre uma gaveta. Sorri.</default>
-	</teller>
-	<talk character="Rick">
-		<default>Acho que foi roubado.</default>
-	</talk>
-	<talk character="Mel">
-		<default>E você fala isso com essa cara de felicidade?!</default>
-	</talk>
-	<talk character="Rick">
-		<default>Vou tomar uma bronca e vou ter que caçar quem fez isso, mas ao menos você não teve o que queria e não pode descontar em mim.</default>
-	</talk>
-	<teller>
-		<default>Melody revira os olhos. Sai.</default>
-	</teller>
-	<teller>
-		<first>MEAK. Mel entra.</first>
-	</teller>
-	<talk character="Mel">
-		<default>Bom, acho que pode começar a procurar nas suas fontes.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Angely ainda não deu notícia.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não acho que vá estar em algum lugar que Ang não tenha problemas em entrar.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Cemitério.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Ang pode entrar em cemitérios, e tem que passar pelo enterro para acordar, até onde sei.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas, seja lá quem for, não vai fazer isso. Óbvio demais.</default>
-	</talk>
-	<teller>
-		<default>Beatrice pega o telefone. Digita o número. Espera.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Bea">
-		<default>Tem cinco lugares aqui para se enterrar alguém: cemitério, que seria muito óbvio; essa parte da Ilha em que fica a MEAK, que nós veríamos; o teatro, que é muito público; a igreja, onde eles jamais se atreveriam; e a área de preservação.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Grande e sem vigilância.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Exato.</default>
-	</talk>
-	<teller>
-		<default>Beatrice coloca o telefone de volta no gancho.</default>
-	</teller>
-	<talk character="Bea">
-		<default>A gente vai ter que ir pessoalmente.</default>
-	</talk>
-	<teller>
-		<first>Noite. Floresta de Ares. Henrique e Íris sentaram no chão.</first>
-	</teller>
-	<talk character="Henrique">
-		<default>Que merda, não lembro de ter demorado tanto pra acordar!</default>
-	</talk>
-	<talk character="Íris">
-		<default>Só o que falta, descobrirmos que ela não deteriorou porque é santa, e não porque virou vampira!</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Se amanhecer, vou deixar ela aqui!</default>
-	</talk>
-	<talk character="Íris">
-		<default>Quando amanhecer, não poderemos mesmo sair daqui, já que não trouxemos nada para nos cobrir, pensando no quão fechada é a floresta.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Culpa sua!</default>
-	</talk>
-	<talk character="Íris">
-		<default>Não te obriguei a vir sem nada, dei a idéia e você aceitou!</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Era bem capaz de, se eu viesse com algo e você não, você me roubasse e me deixasse pra morrer.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Ninguém manda ser mais fraco.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Acho que devíamos ir embora.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Vamos até Edmont, falamos o que fizemos e...</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Somos mortos.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Isso... NÃO!</default>
-	</talk>
-	<teller>
-		<default>Íris levanta. Henrique levanta também e bate a roupa.</default>
-	</teller>
-	<talk character="Íris">
-		<default>Melhor nós esquecermos isso, que acha?</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Claro.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Não, vamos esperar mais um pouco.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Perguntou só pra me contrariar?!</default>
-	</talk>
-	<talk character="Íris">
-		<default>Não, mas você concordou, então percebi que a idéia era estúpida.</default>
-	</talk>
-	<talk character="Bea">
-		<arrive>Oi.</arrive>
-	</talk>
-	<teller>
-		<default>Íris e Henrique se viram e dão passos para trás.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Não têm mesmo instinto, nem sentiram eu me aproximar. Podia ser um bicho selvagem.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Aí eu ia ter o que comer...</default>
-	</talk>
-	<talk character="Bea">
-		<default>E aí, o que tão fazendo?</default>
-	</talk>
-	<talk character="Íris">
-		<default>Estávamos esperando você. Edmont mandou te levarmos de volta.</default>
-	</talk>
-	<talk character="Bea">
-		<irony>Ah, meu Deus! Quem vai me salvar???</irony>
-	</talk>
-	<talk character="Henrique">
-		<default>É pra ficar com medo mesmo!</default>
-	</talk>
-	<teller>
-		<default>Íris olha para Henrique.</default>
-	</teller>
-	<talk character="Íris">
-		<default>Ela tá tirando uma com a gente, idiota!</default>
-	</talk>
-	<talk character="Bea">
-		<default>Mel, pode atirar, não sabem de nada.</default>
-	</talk>
-	<teller>
-		<default>Henrique olha ao redor.</default>
-	</teller>
-	<talk character="Henrique">
-		<default>Sabemos de muita coisa!!! O que querem saber???</default>
-	</talk>
-	<teller>
-		<default>Íris suspira.</default>
-	</teller>
-	<talk character="Íris">
-		<default>Ela não está aqui, Beatrice está nos...</default>
-	</talk>
-	<teller>
-		<default>Melody aparece com uma arma.</default>
-	</teller>
-	<talk character="Íris">
-		<default>... zoando de novo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Cavem.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Que vai fazer?! Enterrar nossas cinzas?</default>
-	</talk>
-	<teller>
-		<default>Beatrice revira os olhos.</default>
-	</teller>
-	<talk character="Bea">
-		<default>Não são covas pra vocês.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Vão replantar alguma árvore?</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Não, acho que elas vão enterrar resto de algum...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Parem de blefar. Pra que mais viriam a floresta?</default>
-	</talk>
-	<talk character="Íris">
-		<default>Viemos enterrar corpos de vítimas nossas.</default>
-	</talk>
-	<talk character="Bea">
-		<irony>Então estão querendo fazer um bem ao meio ambiente?</irony>
-	</talk>
-	<talk character="Henrique">
-		<default>Isso. Nós vivemos na Terra afinal!</default>
-	</talk>
-	<talk character="Íris">
-		<default>Henrique...</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Já sei, cala a boca.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Quanto mais você fala, mais ferra a gente.</default>
-	</talk>
-	<talk character="Bea">
-		<default>Então, o que enterraram aí?</default>
-	</talk>
-	<talk character="Íris">
-		<default>Uma garota, que foi encontrada ontem. Teve até foto no jornal.</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Mas, como estão vendo, não fez efeito. Deve ser algum tipo de santa, não se deteriorou.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Como sabem se já era para ter se deteriorado?</default>
-	</talk>
-	<talk character="Henrique">
-		<default>Vimos um quadro no teatro, daí, quando vimos a foto no jornal...</default>
-	</talk>
-	<talk character="Íris">
-		<default>Nós cooperamos, não vão nos matar, vão?</default>
-	</talk>
-	<teller>
-		<default>Mel atira.</default>
-	</teller>
-</story>
+{
+	"season": "B",
+	"episode": "10",
+	"scene": "b",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "MEAK. Mel e Beatrice estão na sala. Angely entra e coloca um jornal sobre o balcão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É a pessoa do quadro..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leo não disse que um vampiro tinha matado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deve ter se transformado, o corpo não ia se conservar tanto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabemos quanto tempo Leo tinha de morte."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só o tempo que perturbou a gente já dava pra ter apodrecido."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice pega o jornal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê as marcas de mordida?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Provavelmente no ângulo que a foto não pegou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um fotógrafo não omitiria iss. Alguém na polícia impediu pra não gerar lendas, ou alguém estava interessado em impedir?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Sol a pino. Íris e Henrique entram no necrotério."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Malditos policiais, chegaram antes... Se você tivesse sido mais rápido, a gente tinha pego ela antes!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem mesmo uma vampira aqui, dá pra sentir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Duvidou do meu faro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Que bom que não tem ninguém aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que bom pra você, não teve que fazer nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A culpa não é minha se só tem HT aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem policial mulher no departamento."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma mulher consegue fingir que tá com tesão, um homem não! Acha que ele levanta se eu pedir?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Usasse a mão e a imaginação! Vamos parar com isso e levar logo a garota."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que Edmont vai mesmo aprovar isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos pegar uma vampira, impedir que CVs matem ela e entregar pra ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Grande coisa. Se um de nós salvasse o outro ele diria "por que fez isso?"."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez ele fique melhor conosco quando levarmos ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra substituir a Beatrice?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Meu Deus, você tem um cérebro!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele não tinha proibido a gente de falar em Deus?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Faça um favor ao mundo. Fica quieto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Íris vai até uma gaveta. Abre. Tira o pano. Henrique vai abrir gavetas do outro lado. Íris abre três gavetas. Na quarta, tira o pano e para."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Henrique se aproxima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falei que era melhor ter trazido uma roupa!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não acho que precise mesmo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desiste, reconheço HT de longe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos que enterrar, para ela acordar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então não era mais fácil ter esperado no cemitério?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Íris puxa o pano, cobrindo Pandora, e encara Henrique."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se tivesse tido essa idéia antes, eu não tinha que ter feito o que fiz!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Somos vampiros, a gente entrava escondido e matava quem visse a gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ok, agora que tá brilhante, nos dê uma idéia que sirva para agora, não algo que deveríamos ter feito!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podemos matar alguém, tirar a roupa, vestir ela e sair pela porta da frente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Se alguém nos olhar, balançamos o braço dela num tchauzinho???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É mesmo... Podemos matar todos!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E dar a maior bandeira pros caça-vampiros? Não, obrigado, antes cem anos viva que cinco minutos famosa!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Arranje as idéias você então, só sabe recusar as minhas!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, vou aceitar parte da sua idéia. Tira a roupa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quê???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Ricardo entra no necrotério. Dá um passo para trás. Henrique está sem roupa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas o que é isso???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, ouve um engano, eu não sei o que eu tava fazendo na gaveta, mas eu juro que não tô morto!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não lembro de te ver entrar aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "É uma grande coincidência, eu também não lembro de ter entrado!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ricardo sai e volta com um casaco. Henrique veste."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, bom esse perfume..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Perfume?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, o que tá aqui..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ricardo franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minha namorada iria adorar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, claro. Pensei que... Esquece."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Angely está andando pela cidade. Edmont está em seu apartamento."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Não vai me ajudar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Temos que achar Pandora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Sabe o que vou fazer se encontrar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Vai me fazer mergulhar de novo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Farei isso quantas vezes eu puder. Sabe que adoro te atazanar, mas não é por isso. Eu não resisto, não sou um anjo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Lá vem você..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Ah, desculpa, esqueci que você não gosta de ser superior."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Se eu não soubesse que você achava que Beatrice ia te matar, pensaria que se transformou por causa da sua cobiça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Esqueceu? Não pensa mais nada a meu respeito, simplesmente sabe!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Não precisa ficar me lembrando."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Delegacia. Mel entra. Ricardo vem em sua direção."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não devia estar dirigindo a escola?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No domingo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, claro... Estou tão acostumado a trabalhar todos os dias que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quero saber sobre um corpo que foi encontrado hoje de madrugada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com que direitos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com os direitos de quem sabe porque você demorou pra atender o chamado ontem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tava bêbado!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dá pra ver isso no vídeo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que veio atrás de mim? Podia ter saído com alguém aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É divertido te sacanear."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá no necrotério."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa informação não era necessária."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Veio reconhecer o corpo? Alguma identidade da garota?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Pra isso tenho amizades."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ricardo revira os olhos e sai. Mel segue. Entram no necrotério. Ricardo abre uma gaveta. Sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que foi roubado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você fala isso com essa cara de felicidade?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rick",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou tomar uma bronca e vou ter que caçar quem fez isso, mas ao menos você não teve o que queria e não pode descontar em mim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody revira os olhos. Sai."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Mel entra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, acho que pode começar a procurar nas suas fontes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely ainda não deu notícia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não acho que vá estar em algum lugar que Ang não tenha problemas em entrar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cemitério."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang pode entrar em cemitérios, e tem que passar pelo enterro para acordar, até onde sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas, seja lá quem for, não vai fazer isso. Óbvio demais."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice pega o telefone. Digita o número. Espera."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem cinco lugares aqui para se enterrar alguém: cemitério, que seria muito óbvio; essa parte da Ilha em que fica a MEAK, que nós veríamos; o teatro, que é muito público; a igreja, onde eles jamais se atreveriam; e a área de preservação."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Grande e sem vigilância."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Exato."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice coloca o telefone de volta no gancho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente vai ter que ir pessoalmente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite. Floresta de Ares. Henrique e Íris sentaram no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que merda, não lembro de ter demorado tanto pra acordar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só o que falta, descobrirmos que ela não deteriorou porque é santa, e não porque virou vampira!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se amanhecer, vou deixar ela aqui!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quando amanhecer, não poderemos mesmo sair daqui, já que não trouxemos nada para nos cobrir, pensando no quão fechada é a floresta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Culpa sua!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te obriguei a vir sem nada, dei a idéia e você aceitou!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Era bem capaz de, se eu viesse com algo e você não, você me roubasse e me deixasse pra morrer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ninguém manda ser mais fraco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que devíamos ir embora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos até Edmont, falamos o que fizemos e..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Somos mortos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso... NÃO!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Íris levanta. Henrique levanta também e bate a roupa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor nós esquecermos isso, que acha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, vamos esperar mais um pouco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Perguntou só pra me contrariar?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, mas você concordou, então percebi que a idéia era estúpida."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Oi."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Íris e Henrique se viram e dão passos para trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não têm mesmo instinto, nem sentiram eu me aproximar. Podia ser um bicho selvagem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aí eu ia ter o que comer..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí, o que tão fazendo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estávamos esperando você. Edmont mandou te levarmos de volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Ah, meu Deus! Quem vai me salvar???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É pra ficar com medo mesmo!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Íris olha para Henrique."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela tá tirando uma com a gente, idiota!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, pode atirar, não sabem de nada."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Henrique olha ao redor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabemos de muita coisa!!! O que querem saber???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Íris suspira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela não está aqui, Beatrice está nos..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody aparece com uma arma."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "... zoando de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cavem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que vai fazer?! Enterrar nossas cinzas?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice revira os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não são covas pra vocês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vão replantar alguma árvore?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, acho que elas vão enterrar resto de algum..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parem de blefar. Pra que mais viriam a floresta?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viemos enterrar corpos de vítimas nossas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Então estão querendo fazer um bem ao meio ambiente?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso. Nós vivemos na Terra afinal!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Henrique..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já sei, cala a boca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quanto mais você fala, mais ferra a gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bea",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, o que enterraram aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma garota, que foi encontrada ontem. Teve até foto no jornal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas, como estão vendo, não fez efeito. Deve ser algum tipo de santa, não se deteriorou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabem se já era para ter se deteriorado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Henrique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vimos um quadro no teatro, daí, quando vimos a foto no jornal..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós cooperamos, não vão nos matar, vão?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel atira."
+				}
+			]
+		}
+	]
+}

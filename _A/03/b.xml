@@ -1,562 +1,1840 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="03" scene="b">
-	<teller>
-		<default>No dia seguinte, de manhã, Edmont vai até a cozinha. Júlio já está acordado.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Bom dia.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Bom dia.</default>
-	</talk>
-	<talk character="Angely">
-		<arrive>Bom dia...</arrive>
-	</talk>
-	<teller>
-		<default>Agatha chega na cozinha. Eles tomam café da manhã, calados. Depois arrumam a cozinha, calados também.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Olha, se querem me zoar, me zoem, mas esse silêncio tá me matando!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não é isso.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Então o que é?</default>
-	</talk>
-	<teller>
-		<default>Edmont e Agatha ficam calados.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Angely, tem que cortar a grama do jardim, você me ajuda?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Claro, melhor que esse silêncio aqui dentro.</default>
-	</talk>
-	<teller>
-		<default>Angely e Júlio saem.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Agatha...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Olha, o que aconteceu não era pra ter acontecido. Esquece.</default>
-	</talk>
-	<teller>
-		<default>Angely pega o cortador de grana.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Angely, você sabe que... Se você for... Bom, se for...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Gay?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>É... Isso...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Deduziu que sou gay porque nunca saí com uma mulher?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Não. É que, se for...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você não vê nenhum problema, é isso?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>É.</default>
-		<teller>silêncio</teller>
-		<default>Sou péssimo nisso, né?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mais ou menos. Mas acho que sinto atração por mulheres sim. Então, no máximo, posso ser bi.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Isso não existe de verdade, né?</default>
-	</talk>
-	<teller>
-		<default>Ele ri. Angely olha para ele. Ele para.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Falei merda, né?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sim.</default>
-	</talk>
-	<teller>
-		<default>Júlio pega o cortador e começa a cortar a grama.</default>
-	</teller>
-	<teller>
-		<first>Meio dia, eles vão à casa de Rith, almoçar. Tocam a campainha.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Oi... Entra aí. Tão fazendo o almoço ainda.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Cadê a Meg?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Lá no quarto dela. Ela prefere lavar a louça depois.</default>
-	</talk>
-	<teller>
-		<default>Agatha sobe. Angely e Edmont sentam no sofá da sala. Júlio vai à cozinha. Kat fica na sala, desenhando.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Tem alguém nesse lugar da minha idade?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Bom, aqui é meio despovoado, tem só três casas próximas.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tem uma criança que mora na outra casa.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Será que ela é legal?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não sei. Da última vez que vimos, tinha uns dez anos.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Legal!</default>
-	</talk>
-	<teller>
-		<default>Kat vai pra cozinha.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Devíamos ter dito que a última vez que vimos tínhamos treze.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Quatro anos? Faz tanto tempo assim?</default>
-	</talk>
-	<teller>
-		<default>No quarto de Meg, Agatha e Meg estão na cama.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Jura???</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Sim.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Mas ele mesmo disse?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Disse. Mas não tem nada demais.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Que meigo...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Meigo?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Ah, sei lá. Parece que todo cara parece ter pressa pra isso, pra mostrar que é macho alpha... Mas você parece preocupada com alguma outra coisa.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Eu?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Não, seu reflexo.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Impressão sua.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Pode contar.</default>
-	</talk>
-	<teller>
-		<default>Agatha suspira.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Ele me beijou.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Angely?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Edmont.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Ah, bom... Peraí, mas vocês não são irmãos?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ele é adotado, só fomos criados juntos.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Então não tem problema.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Como não??? Eu e ele fomos criados juntos!</default>
-	</talk>
-	<talk character="Meg">
-		<default>E daí? Mais um motivo pra confiar mais nele, se der em alguma coisa essa história.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Mas, você não entende...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Minha mãe costuma dizer que, quando começa com "você não vai entender", geralmente não faz sentido de verdade.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>E você e Angely?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Bom, se ele quiser algo...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ele é tímido, já vou logo avisando...</default>
-	</talk>
-	<talk character="Kat">
-		<arrive>Tá pronto.</arrive>
-	</talk>
-	<talk character="Meg">
-		<default>Tá, nós já estamos descendo.</default>
-	</talk>
-	<teller>
-		<default>Angely e Edmont conversam na sala.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Lembrei de uma coisa, por quê você e a Agatha estavam acordados até aquela hora?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Nada.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pode falar. Eu já percebi.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Percebeu?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Como você olha pra Agatha. Ela também te olha diferente.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ela não quer nada comigo. Disse que não entendo, que a gente cresceu junto.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ela tá com medo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Medo? Medo de que?</default>
-	</talk>
-	<talk character="Kat">
-		<arrive>Gente, vamos?</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Tá.</default>
-	</talk>
-	<teller>
-		<first>Eles vão até a mesa. Rith, Halen, Júlio e Kat ficam conversando, mas os outros quatro nada dizem. Halen numa ponta da mesa, Rith na outra. Num dos lados da mesa, Angely, Edmont e Agatha. Meg está a frente de Angely.</first>
-	</teller>
-	<talk character="Júlio">
-		<default>Mas, naquele dia, eu tava super mal!</default>
-	</talk>
-	<talk character="Rith">
-		<default>Nossa, nem de porre eu fazia isso.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Ah, mas eu fiz. E ainda quebrei a mesa que subi. Que mico...</default>
-	</talk>
-	<talk character="Halen">
-		<default>Mico? King Kong, isso sim!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Ah, mas eu conheço um maior. O cara veio se declarar pra mim, no meio de uma festa. Ele também tava de porre, mas ele fez pior. Tentou me beijar, tava com um bafo horrível de pinga.</default>
-	</talk>
-	<teller>
-		<default>Júlio estranha.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Quantos anos você tem?</default>
-	</talk>
-	<talk character="Rith">
-		<hushed>Júlio, tá dando bandeira.</hushed>
-	</talk>
-	<talk character="Júlio">
-		<hushed>Ah?!</hushed>
-	</talk>
-	<talk character="Rith">
-		<hushed>De dinossauro. Daqui a pouco a água chacoalha no copo quando você pisar.</hushed>
-	</talk>
-	<talk character="Meg">
-		<default>Eu desviei, ele caiu na piscina. O cara tava mesmo precisando de um banho frio!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu lembro do cara que tentou beijar Agatha sem consentimento. Ele era grande, covardia do caramba.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Que houve?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont mandou ele pro hospital.</default>
-	</talk>
-	<teller>
-		<default>Edmont olha pra Agatha. Ela desvia o olhar.</default>
-	</teller>
-	<talk character="Rith">
-		<default>Sério?</default>
-	</talk>
-	<talk character="Angely">
-		<default>O cara nunca mais botou a cara na escola. Espero que tenha entendido. Uma bosta, imagina se ninguém chegasse? Tem gente com umas ideias bem distorcidas por aí.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Vocês não me contaram isso.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu me encarreguei do cara.</default>
-	</talk>
-	<teller>
-		<default>Meg olha para Júlio, que está encarando Edmont.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Falando em escola, como é ela? É grande?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Enorme.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Espero não me perder!</default>
-	</talk>
-	<talk character="Rith">
-		<default>Bom, hora da sobremesa.</default>
-	</talk>
-	<teller>
-		<first>Na piscina da casa de Júlio. Meg está sentada na cadeira fora da piscina, Kat numa bóia e Angely na beira (dentro da piscina).</first>
-	</teller>
-	<talk character="Kat">
-		<default>Amanhã já tem aula...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Prefiro ir pra escola do que voltar pro Egito!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Concordo!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Gente, vocês viram a Agatha?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ela foi lá dentro.</default>
-	</talk>
-	<teller>
-		<default>Edmont encontra Agatha na cozinha.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Preciso falar com você.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Não posso.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Por que tudo isso?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Olha, não tá certo...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu falei com Angely e ele também não vê nada de errado.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Meg também não, mas meu pai com certeza vai ver!</default>
-	</talk>
-	<talk character="Meg">
-		<arrive>Agatha, tá fazendo tempestade em copo d’água.</arrive>
-	</talk>
-	<talk character="Agatha">
-		<default>Fala isso porque não está no meu lugar.</default>
-	</talk>
-	<talk character="Angely">
-		<arrive>Eu também acho isso.</arrive>
-	</talk>
-	<teller>
-		<default>Agatha vai embora. Edmont vai atrás dela.</default>
-	</teller>
-	<talk character="Angely">
-		<default>É, esses dois...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Não sei porque, mas eu não vejo o que há de complicado.</default>
-	</talk>
-	<teller>
-		<default>Eles ficam calados por algum tempo. Angely vai falar alguma coisa, mas Meg cala ele com um beijo. Rith entra. Angely fica sem graça. Meg volta pra piscina.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Eu...</default>
-	</talk>
-	<talk character="Rith">
-		<default>Pode ficar sossegado, quem vai ter que enfrentar dinossauro é o seu irmão.</default>
-		<teller>ele ri, mas baixa a cabeça, depois volta a olhar pra Angely</teller>
-		<default>Eu queria falar de outra coisa com você...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Reconheceu a gente.</default>
-	</talk>
-	<teller>
-		<default>Rith olha para fora. Volta a olhar pra Angely.</default>
-	</teller>
-	<talk character="Rith">
-		<default>Queria pedir pra que esquecesse tudo isso.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tudo bem. Edmont não reconheceu ninguém, acho que não lembra os nomes.</default>
-	</talk>
-	<talk character="Rith">
-		<default>Meg não sabe de nada. Adotamos ela depois de regularizar a nossa situação. Katerine também não.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu não vou dizer nada. Edmont mudou. Mas não sei o que... Eu tive um sonho estranho depois que ele chegou.</default>
-	</talk>
-	<talk character="Rith">
-		<default>Sobre?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Luta.</default>
-	</talk>
-	<talk character="Rith">
-		<default>A gente pode fazer uma coisa? Simplesmente não falar mais nisso?</default>
-	</talk>
-	<teller>
-		<default>Angely consente com a cabeça.</default>
-	</teller>
-	<talk character="Rith">
-		<default>Agora vamos fingir que estamos num mundo normal e você vai lá falar com a moça que acabou de te roubar um beijo.</default>
-	</talk>
-	<teller>
-		<first>Edmont está na porta do quarto de Agatha.</first>
-	</teller>
-	<talk character="Edmont">
-		<default>Abre essa porta...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Não.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Pára de criancice!</default>
-	</talk>
-	<teller>
-		<default>Júlio sobe a escada devagar e fica ouvindo, calado.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Criancice??? Diz isso pro meu pai!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu sei que ele vai entender.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Isso é o que você pensa.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Abre essa porta, por favor.</default>
-	</talk>
-	<teller>
-		<default>Agatha abre a porta.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Isso não está certo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Podemos falar com o seu pai.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Não vai dar certo, ele nunca vai aceitar isso.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Por que não? Eu tenho algo de errado?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Olha, nos fomos criados juntos...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Olha, se você me disser que isso é desculpa, que só está sem graça de não querer nada comigo, eu aceito. Eu consigo lidar com isso. Não sou aquele trouxa e dei uma surra nele porque ele merecia isso. Mas só...</default>
-	</talk>
-	<teller>
-		<default>Agatha beija Edmont. Edmon afasta. Sorri.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Nunca pensei que você fosse fazer isso.</default>
-	</talk>
-	<teller>
-		<default>Edmon e Agatha olham para Júlio. Ela dá um passo atrás.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Desde de quando está aí?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Tempo suficiente.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Olha, Júlio, eu...</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Devia ter deixado só seu irmão ficar na minha casa.</default>
-	</talk>
-	<teller>
-		<default>Edmont vai pra seu quarto. Pega uma bolsa em cima do guarda-roupas. Enfia roupas. Tira peças. Coloca outras. Sai. Esbarra em Angely. Angely o segura pelos braços.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Edmont, que houve?!</default>
-	</talk>
-	<teller>
-		<default>Edmont respira fundo.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Júlio descobriu.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ele não pegou vocês...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não, eu só estava falando com Agatha e ele ouviu. Tá, na verdade, ela finalmente me beijou. E seria sensacional, era pra ter sido... Perfeito.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que ele fez?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>O que você acha? Falou que devia ter cuidado só de você. Fala pra ele que, do que o dinheiro dele pagou, não tô levando nada.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Mas, pra onde você vai?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não sei.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Leva a moto.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Você também pagou ela.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Leva, não tem importância. Não é como se tivesse levando pro inferno. Ou pelo menos espero que não.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Brigado.</default>
-	</talk>
-	<teller>
-		<default>Edmont sai. Bota a bolsa nas costas, bota o capacete. Dá a partida. Arranca e sai com toda velocidade. Angely sai da casa e o vê partir. Meg se aproxima de Angely.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Que aconteceu?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Júlio pegou os dois se beijando. Discutiram, Edmont é estourado...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Eu vou ver como a Agatha tá.</default>
-	</talk>
-	<teller>
-		<first>Meg vai até o quarto. Agatha está chorando.</first>
-	</teller>
-	<talk character="Meg">
-		<default>Calma, ele volta.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Eu evitei tanto... Não era a primeira vez que ele me olhava, mas parece que, depois da viagem, ele simplesmente tacou o foda-se...</default>
-	</talk>
-	<teller>
-		<default>Meg a abraça.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Você não tem culpa.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "03",
+	"scene": "b",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No dia seguinte, de manhã, Edmont vai até a cozinha. Júlio já está acordado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom dia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom dia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Bom dia..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha chega na cozinha. Eles tomam café da manhã, calados. Depois arrumam a cozinha, calados também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, se querem me zoar, me zoem, mas esse silêncio tá me matando!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então o que é?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont e Agatha ficam calados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, tem que cortar a grama do jardim, você me ajuda?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro, melhor que esse silêncio aqui dentro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely e Júlio saem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, o que aconteceu não era pra ter acontecido. Esquece."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely pega o cortador de grana."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, você sabe que... Se você for... Bom, se for..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gay?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É... Isso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deduziu que sou gay porque nunca saí com uma mulher?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. É que, se for..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não vê nenhum problema, é isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É."
+				},
+				{
+					"type": "teller",
+					"text": "silêncio"
+				},
+				{
+					"type": "default",
+					"text": "Sou péssimo nisso, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mais ou menos. Mas acho que sinto atração por mulheres sim. Então, no máximo, posso ser bi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não existe de verdade, né?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele ri. Angely olha para ele. Ele para."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falei merda, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio pega o cortador e começa a cortar a grama."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Meio dia, eles vão à casa de Rith, almoçar. Tocam a campainha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi... Entra aí. Tão fazendo o almoço ainda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê a Meg?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lá no quarto dela. Ela prefere lavar a louça depois."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha sobe. Angely e Edmont sentam no sofá da sala. Júlio vai à cozinha. Kat fica na sala, desenhando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem alguém nesse lugar da minha idade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, aqui é meio despovoado, tem só três casas próximas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem uma criança que mora na outra casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que ela é legal?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Da última vez que vimos, tinha uns dez anos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Legal!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat vai pra cozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devíamos ter dito que a última vez que vimos tínhamos treze."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quatro anos? Faz tanto tempo assim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No quarto de Meg, Agatha e Meg estão na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jura???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas ele mesmo disse?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Disse. Mas não tem nada demais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que meigo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meigo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, sei lá. Parece que todo cara parece ter pressa pra isso, pra mostrar que é macho alpha... Mas você parece preocupada com alguma outra coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, seu reflexo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Impressão sua."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode contar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha suspira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele me beijou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, bom... Peraí, mas vocês não são irmãos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele é adotado, só fomos criados juntos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então não tem problema."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como não??? Eu e ele fomos criados juntos!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E daí? Mais um motivo pra confiar mais nele, se der em alguma coisa essa história."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas, você não entende..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Minha mãe costuma dizer que, quando começa com "você não vai entender", geralmente não faz sentido de verdade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você e Angely?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, se ele quiser algo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele é tímido, já vou logo avisando..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Tá pronto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, nós já estamos descendo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely e Edmont conversam na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lembrei de uma coisa, por quê você e a Agatha estavam acordados até aquela hora?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode falar. Eu já percebi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Percebeu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como você olha pra Agatha. Ela também te olha diferente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela não quer nada comigo. Disse que não entendo, que a gente cresceu junto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela tá com medo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Medo? Medo de que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Gente, vamos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Eles vão até a mesa. Rith, Halen, Júlio e Kat ficam conversando, mas os outros quatro nada dizem. Halen numa ponta da mesa, Rith na outra. Num dos lados da mesa, Angely, Edmont e Agatha. Meg está a frente de Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas, naquele dia, eu tava super mal!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, nem de porre eu fazia isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, mas eu fiz. E ainda quebrei a mesa que subi. Que mico..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mico? King Kong, isso sim!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, mas eu conheço um maior. O cara veio se declarar pra mim, no meio de uma festa. Ele também tava de porre, mas ele fez pior. Tentou me beijar, tava com um bafo horrível de pinga."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio estranha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quantos anos você tem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Júlio, tá dando bandeira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Ah?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "De dinossauro. Daqui a pouco a água chacoalha no copo quando você pisar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu desviei, ele caiu na piscina. O cara tava mesmo precisando de um banho frio!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu lembro do cara que tentou beijar Agatha sem consentimento. Ele era grande, covardia do caramba."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que houve?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont mandou ele pro hospital."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont olha pra Agatha. Ela desvia o olhar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sério?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O cara nunca mais botou a cara na escola. Espero que tenha entendido. Uma bosta, imagina se ninguém chegasse? Tem gente com umas ideias bem distorcidas por aí."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês não me contaram isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu me encarreguei do cara."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg olha para Júlio, que está encarando Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falando em escola, como é ela? É grande?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Enorme."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero não me perder!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, hora da sobremesa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Na piscina da casa de Júlio. Meg está sentada na cadeira fora da piscina, Kat numa bóia e Angely na beira (dentro da piscina)."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Amanhã já tem aula..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Prefiro ir pra escola do que voltar pro Egito!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Concordo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, vocês viram a Agatha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela foi lá dentro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont encontra Agatha na cozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preciso falar com você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não posso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que tudo isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, não tá certo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu falei com Angely e ele também não vê nada de errado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg também não, mas meu pai com certeza vai ver!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Agatha, tá fazendo tempestade em copo d’água."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fala isso porque não está no meu lugar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Eu também acho isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha vai embora. Edmont vai atrás dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, esses dois..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei porque, mas eu não vejo o que há de complicado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles ficam calados por algum tempo. Angely vai falar alguma coisa, mas Meg cala ele com um beijo. Rith entra. Angely fica sem graça. Meg volta pra piscina."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ficar sossegado, quem vai ter que enfrentar dinossauro é o seu irmão."
+				},
+				{
+					"type": "teller",
+					"text": "ele ri, mas baixa a cabeça, depois volta a olhar pra Angely"
+				},
+				{
+					"type": "default",
+					"text": "Eu queria falar de outra coisa com você..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Reconheceu a gente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith olha para fora. Volta a olhar pra Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Queria pedir pra que esquecesse tudo isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem. Edmont não reconheceu ninguém, acho que não lembra os nomes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg não sabe de nada. Adotamos ela depois de regularizar a nossa situação. Katerine também não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não vou dizer nada. Edmont mudou. Mas não sei o que... Eu tive um sonho estranho depois que ele chegou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sobre?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Luta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente pode fazer uma coisa? Simplesmente não falar mais nisso?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely consente com a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora vamos fingir que estamos num mundo normal e você vai lá falar com a moça que acabou de te roubar um beijo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Edmont está na porta do quarto de Agatha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Abre essa porta..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pára de criancice!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio sobe a escada devagar e fica ouvindo, calado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Criancice??? Diz isso pro meu pai!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei que ele vai entender."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é o que você pensa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Abre essa porta, por favor."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha abre a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não está certo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podemos falar com o seu pai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai dar certo, ele nunca vai aceitar isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não? Eu tenho algo de errado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, nos fomos criados juntos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, se você me disser que isso é desculpa, que só está sem graça de não querer nada comigo, eu aceito. Eu consigo lidar com isso. Não sou aquele trouxa e dei uma surra nele porque ele merecia isso. Mas só..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha beija Edmont. Edmon afasta. Sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nunca pensei que você fosse fazer isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmon e Agatha olham para Júlio. Ela dá um passo atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desde de quando está aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tempo suficiente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, Júlio, eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devia ter deixado só seu irmão ficar na minha casa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont vai pra seu quarto. Pega uma bolsa em cima do guarda-roupas. Enfia roupas. Tira peças. Coloca outras. Sai. Esbarra em Angely. Angely o segura pelos braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, que houve?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont respira fundo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio descobriu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele não pegou vocês..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, eu só estava falando com Agatha e ele ouviu. Tá, na verdade, ela finalmente me beijou. E seria sensacional, era pra ter sido... Perfeito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que ele fez?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que você acha? Falou que devia ter cuidado só de você. Fala pra ele que, do que o dinheiro dele pagou, não tô levando nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas, pra onde você vai?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leva a moto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você também pagou ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leva, não tem importância. Não é como se tivesse levando pro inferno. Ou pelo menos espero que não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brigado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont sai. Bota a bolsa nas costas, bota o capacete. Dá a partida. Arranca e sai com toda velocidade. Angely sai da casa e o vê partir. Meg se aproxima de Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que aconteceu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio pegou os dois se beijando. Discutiram, Edmont é estourado..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou ver como a Agatha tá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Meg vai até o quarto. Agatha está chorando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma, ele volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu evitei tanto... Não era a primeira vez que ele me olhava, mas parece que, depois da viagem, ele simplesmente tacou o foda-se..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg a abraça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não tem culpa."
+				}
+			]
+		}
+	]
+}

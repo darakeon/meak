@@ -1,420 +1,1379 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="02" scene="b">
-	<teller>
-		<default>Noite.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Angely! Edmont!</default>
-	</talk>
-	<teller>
-		<default>Halen olha para os dois, ligeiramente pálida. Eles acordam.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Já tá todo mundo descendo, e o avião ainda não caiu. Mas se caísse também vocês nem iriam perceber.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Já chegamos?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Não vai nos apresentar?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Angely, Edmont, está aqui é a Katerine, filha mais nova do amigo do meu pai. Está é Meg, a mais velha.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Angely, Edmont. Eu preciso ir no banheiro.</default>
-	</talk>
-	<teller>
-		<default>Edmont atropela as meninas, Angely dá um sorriso sem graça e vai atrás.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Nossa, alguém anotou a chapa?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Será que seu pai liga se eu levar um deles pra casa?!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Quero saber onde nos trouxeram!</default>
-	</talk>
-	<teller>
-		<default>Eles saem. Areia por todos os lados.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Ah, olha eles lá!</default>
-	</talk>
-	<teller>
-		<default>Elas correm em direção aos outros.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Pai, o que tem aqui, além de areia?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Vocês estavam pensando num castelo de areia gigante quando compraram as passagens?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Egito?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Legal, né?</default>
-	</talk>
-	<teller>
-		<default>Eles vão para o hotel e são levados até seus quartos.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Legal!</default>
-	</talk>
-	<teller>
-		<default>Agatha pula na cama.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Vocês três vão ficar nesse quarto.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>E vocês?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Bom, eu vou ficar no quarto de frente pra este com os meninos e Rith e Halen ficarão no quarto ao lado.</default>
-	</talk>
-	<teller>
-		<default>Júlio sai.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Vamos arrumar nossas coisas logo pra podermos visitar os lugares por aqui...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Eu não entro em pirâmide nem morta!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Eu só entro morta!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Tão com medinho, é?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Se esse ainda fosse o problema...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Eu não tenho medo de mortos, só que as pirâmides, até onde eu sei são cheias de armadilhas! Não quero morrer enterrada viva ou esmagada dentro de uma pirâmide...</default>
-	</talk>
-	<talk character="Angely">
-		<arrive>Só em filmes as pessoas entram em pirâmide.</arrive>
-	</talk>
-	<talk character="Meg">
-		<default>Você tava escutando atrás da porta?!</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Correção,</arrive>
-		<frizz>nós</frizz>
-		<arrive>estávamos escutando atrás da porta...</arrive>
-	</talk>
-	<talk character="Agatha">
-		<default>Vocês não tem mais o que fazer, não?</default>
-	</talk>
-	<talk character="Rith">
-		<arrive>Oi pessoal o jantar sai daqui a pouco quando terminarem de arrumar suas coisas desçam e depois que terminarem de jantar subam pra dormir que amanhã vamos pra uma pirâmide. Vejo vocês lá em baixo.</arrive>
-	</talk>
-	<teller>
-		<default>Rith sai.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Eu só entendi o "Vejo vocês lá em baixo"!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Eu entendi!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Deixa que eu "traduzo" pra vocês!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vamos mesmo precisar de alguém que esteja acostumado com esse dialeto...</default>
-	</talk>
-	<teller>
-		<first>Na manhã seguinte...</first>
-	</teller>
-	<talk character="Júlio">
-		<default>E aí pessoal, prontos pra conhecer o Egito...</default>
-	</talk>
-	<talk character="Meg / Agatha">
-		<default>NÃO!</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Por quê?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Estão com medo de cair em alguma armadilha egípcia.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Sabia que os egípcios eram tão inteligentes que conseguiam fazer desaparecer desde saídas de pirâmides até cidades inteiras?!</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Não vamos entrar, viemos ver por fora e conhecer o resto.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Peraí, então não tem graça nenhuma!</default>
-	</talk>
-	<teller>
-		<default>Rith chega correndo.</default>
-	</teller>
-	<talk character="Rith">
-		<default>Vamos, pessoal, vamos passear, não viemos aqui pra ficarmos trancados no hotel!</default>
-	</talk>
-	<teller>
-		<default>Rith sai correndo.</default>
-	</teller>
-	<talk character="Halen">
-		<arrive>Ei, Rith, espera! Pára de correr, tá parecendo criança!</arrive>
-	</talk>
-	<talk character="Júlio">
-		<default>Vamos, crianças, vai ser legal...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Nós não somos mais crianças.</default>
-	</talk>
-	<teller>
-		<default>Todos olham pra cara de Kat.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Tá, mas vamos logo.</default>
-	</talk>
-	<teller>
-		<default>Todo o pessoal já está fora do hotel.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Vamos pro lugar mais perto...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Nós vamos ter que ir de camelo?!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Eu não sei andar nem de cavalo!</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Aluguei um carro.</default>
-	</talk>
-	<talk character="Rith">
-		<default>Tá, então vamos ver esta aqui!</default>
-	</talk>
-	<talk character="Halen">
-		<default>Onde está o carro?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Na garagem...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Então vamos pegar!</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Calma aí, quem dirige sou eu!</default>
-	</talk>
-	<teller>
-		<default>Eles vão até a garagem.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Aquele ali...</default>
-	</talk>
-	<teller>
-		<default>Júlio mal fala e Rith pega a chave da mão dele e entra no carro.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Ei, era pra eu dirigir...</default>
-	</talk>
-	<talk character="Rith">
-		<default>Era, disse bem!</default>
-	</talk>
-	<teller>
-		<default>Halen vai no banco da frente; no 2º banco vão Agatha, Kat e Meg; no 3º banco vão Angely, Edmont e Júlio.</default>
-	</teller>
-	<talk character="Halen">
-		<default>Se você fosse dirigir, não chegaríamos lá nem amanhã!</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Então nós vamos ver essa pirâmide hoje, né?</default>
-	</talk>
-	<talk character="Halen">
-		<default>É...</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Então vou dar uma lida no folheto, pra não ficar muito por fora da história dela... Assim não precisa todo mundo ler...</default>
-	</talk>
-	<teller>
-		<default>Rith vai dirigindo o carro, Halen vai orientando Rith e Júlio fica lendo o folheto.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Onde você nasceu, Katerine?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Em Londres... E vocês, onde nasceram?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Em...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>São Paulo.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Eu nasci em Greenwich...</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Todos vocês nasceram em lugares conhecidos, só eu fui nascer no Acre!</default>
-	</talk>
-	<talk character="Meg">
-		<default>No Acre?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>É, meus pais fizeram uma viagem, pouco mais de um ano depois de se casarem... Minha mãe pegou alergia e ficou um tempo no hospital. Antes dela sair, os médicos fizeram exames nela e, quando ela estava saindo do hospital, alguém deu os parabéns por ela estar grávida... Ela cismou que queria que eu nascesse lá mesmo. Meu pai ficou o tempo todo só cuidando dela.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Mas cadê ela que não veio...</default>
-		<teller>todos encaram Meg</teller>
-		<default>Quê foi?!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ela morreu no parto... Nem cheguei a vê-la... Meu pai voltou pra Inglaterra logo em seguida...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Ah, sinto muito.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Não foi nada. Chega de falar de coisa triste. Rith, falta muito pra chegar?</default>
-		<teller>Rith nem pisca</teller>
-		<default>‘Brigado, deixou no vácuo!</default>
-	</talk>
-	<talk character="Halen">
-		<default>Falta sete e quatro décimos de vezes o que já passamos...</default>
-	</talk>
-	<talk character="Kat">
-		<irony>Agora eu sei quanto falta!</irony>
-	</talk>
-	<talk character="Meg">
-		<default>Quem nasceu primeiro de vocês dois?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Eles são gêmeos!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont, dez minutos antes.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Eu nunca vi gêmeos tão parecidos, mas com características tão gritantemente diferentes. Pela genética vocês seriam ou muito iguais ou muito diferentes!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pelo quê?</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Bom, eu não sei e nem vou tentar explicar essa anormalidade...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ah, vão pro raio que parta com esse vocabulário esquisito!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Tá, Katerine, Genética é a ciência que estuda os genes, que ficam no núcleo na célula, unidade morfo-fisiológica do ser vivo, constituída por moléculas que possuem muitos átomos que são formados de Prótons, Nêutrons e Elétrons.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Você adora fazer isso comigo!!!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Quando você tiver a nossa idade vai saber o que é isso...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Bem animador!</default>
-	</talk>
-	<talk character="Halen">
-		<default>Pessoal, estamos chegando...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Você disse que faltava sete vírgula não sei quanto pra chegar...</default>
-	</talk>
-	<talk character="Halen">
-		<default>Sim... Olha lá aquela pirâmide bem pequena no horizonte.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ah, é aquilo...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Os egípcios tem o maior trabalho pra construir esse enorme monumento e você chama de "aquilo"?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Calma, falei por falar, não tenho nada contra esses monumentos históricos.</default>
-	</talk>
-	<talk character="Halen">
-		<default>Rith, toma cuidado com a descida... Rith!</default>
-	</talk>
-	<teller>
-		<default>Rith parece quase não prestar atenção em Halen e desce com tudo.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Nossa, isso é que eu chamo de ter cuidado!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ah, que bom, pensei que tava hipnotizado pelo folheto!</default>
-	</talk>
-	<talk character="Kat">
-		<default>Pode parar agora, papai, não precisa levar a gente pra dentro da pirâmide.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Mas nós nem estamos tão perto assim...</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Na velocidade que ele está, daqui à pouco estamos de volta no Brasil!</default>
-	</talk>
-	<teller>
-		<default>Ele afunda o pé no freio.</default>
-	</teller>
-	<talk character="Edmont">
-		<irony>Já entendi qual era a intenção dele: ele vinha correndo, parava e nós íamos para dentro da pirâmide!</irony>
-	</talk>
-	<talk character="Júlio">
-		<default>Quase o meu café da manhã vai parar na pirâmide!</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Dá próxima aluga um carro com poltrona ejetora! É mais seguro!</default>
-	</talk>
-	<talk character="Meg">
-		<default>Olha, se na volta for ele dirigindo, eu aprendo a andar de camelo! Por que tá tudo tão deserto?</default>
-	</talk>
-	<teller>
-		<default>Edmont a encara.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Ok, eu juro que não foi um trocadilho idiota.</default>
-	</talk>
-	<teller>
-		<default>Rith pega a folheto da mão de Júlio e desvira. Eles saem do carro.</default>
-	</teller>
-	<talk character="Rith">
-		<default>Bom, segundo o folheto, nos temos que entrar indo em direção ao ângulo oposto às hipotenusas... O topo!</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Ainda bem que não vamos entrar...</default>
-	</talk>
-	<talk character="Meg">
-		<default>Ei, como vamos subir tudo isso?!</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Nós não vamos subir, não podemos entrar, não é permitido.</default>
-	</talk>
-	<talk character="Halen">
-		<default>Para de dizer não, é como um botãozinho que aumenta a vontade deles...</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Ei, não podem fazer isso! E vocês adultos??? Não reagem contra isso???</default>
-	</talk>
-	<talk character="Rith">
-		<default>Você não vem? Vai ficar sozinho...</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Droga, vou matar quem entregou este folheto!</default>
-	</talk>
-	<talk character="Rith">
-		<default>Se não era pra entrar, por quê diz como se entra aqui no folheto?</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Comprei isso com um cara estranho... Espera! E se pegarem a gente aqui?!</default>
-	</talk>
-	<talk character="Rith">
-		<default>Júlio, pensa: não tem ninguém aqui e te venderam um folheto que diz como entrar. Então quer dizer que alguém já entrou. Não deve ser perigoso.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Tá legal, mas depois não digam que eu não avisei...</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "02",
+	"scene": "b",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Noite."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely! Edmont!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Halen olha para os dois, ligeiramente pálida. Eles acordam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já tá todo mundo descendo, e o avião ainda não caiu. Mas se caísse também vocês nem iriam perceber."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já chegamos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai nos apresentar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, Edmont, está aqui é a Katerine, filha mais nova do amigo do meu pai. Está é Meg, a mais velha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, Edmont. Eu preciso ir no banheiro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont atropela as meninas, Angely dá um sorriso sem graça e vai atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, alguém anotou a chapa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que seu pai liga se eu levar um deles pra casa?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quero saber onde nos trouxeram!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles saem. Areia por todos os lados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, olha eles lá!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Elas correm em direção aos outros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pai, o que tem aqui, além de areia?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês estavam pensando num castelo de areia gigante quando compraram as passagens?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Egito?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Legal, né?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles vão para o hotel e são levados até seus quartos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Legal!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agatha pula na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês três vão ficar nesse quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E vocês?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, eu vou ficar no quarto de frente pra este com os meninos e Rith e Halen ficarão no quarto ao lado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos arrumar nossas coisas logo pra podermos visitar os lugares por aqui..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não entro em pirâmide nem morta!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu só entro morta!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tão com medinho, é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se esse ainda fosse o problema..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não tenho medo de mortos, só que as pirâmides, até onde eu sei são cheias de armadilhas! Não quero morrer enterrada viva ou esmagada dentro de uma pirâmide..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Só em filmes as pessoas entram em pirâmide."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tava escutando atrás da porta?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Correção,"
+				},
+				{
+					"type": "frizz",
+					"text": "nós"
+				},
+				{
+					"type": "arrive",
+					"text": "estávamos escutando atrás da porta..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês não tem mais o que fazer, não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Oi pessoal o jantar sai daqui a pouco quando terminarem de arrumar suas coisas desçam e depois que terminarem de jantar subam pra dormir que amanhã vamos pra uma pirâmide. Vejo vocês lá em baixo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu só entendi o "Vejo vocês lá em baixo"!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu entendi!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixa que eu "traduzo" pra vocês!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos mesmo precisar de alguém que esteja acostumado com esse dialeto..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Na manhã seguinte..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí pessoal, prontos pra conhecer o Egito..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg / Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "NÃO!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estão com medo de cair em alguma armadilha egípcia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabia que os egípcios eram tão inteligentes que conseguiam fazer desaparecer desde saídas de pirâmides até cidades inteiras?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vamos entrar, viemos ver por fora e conhecer o resto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Peraí, então não tem graça nenhuma!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith chega correndo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos, pessoal, vamos passear, não viemos aqui pra ficarmos trancados no hotel!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith sai correndo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Ei, Rith, espera! Pára de correr, tá parecendo criança!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos, crianças, vai ser legal..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós não somos mais crianças."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Todos olham pra cara de Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, mas vamos logo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Todo o pessoal já está fora do hotel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos pro lugar mais perto..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós vamos ter que ir de camelo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não sei andar nem de cavalo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aluguei um carro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, então vamos ver esta aqui!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde está o carro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na garagem..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então vamos pegar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma aí, quem dirige sou eu!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles vão até a garagem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aquele ali..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio mal fala e Rith pega a chave da mão dele e entra no carro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, era pra eu dirigir..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Era, disse bem!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Halen vai no banco da frente; no 2º banco vão Agatha, Kat e Meg; no 3º banco vão Angely, Edmont e Júlio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se você fosse dirigir, não chegaríamos lá nem amanhã!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então nós vamos ver essa pirâmide hoje, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então vou dar uma lida no folheto, pra não ficar muito por fora da história dela... Assim não precisa todo mundo ler..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith vai dirigindo o carro, Halen vai orientando Rith e Júlio fica lendo o folheto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde você nasceu, Katerine?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Em Londres... E vocês, onde nasceram?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Em..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "São Paulo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu nasci em Greenwich..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Todos vocês nasceram em lugares conhecidos, só eu fui nascer no Acre!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No Acre?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, meus pais fizeram uma viagem, pouco mais de um ano depois de se casarem... Minha mãe pegou alergia e ficou um tempo no hospital. Antes dela sair, os médicos fizeram exames nela e, quando ela estava saindo do hospital, alguém deu os parabéns por ela estar grávida... Ela cismou que queria que eu nascesse lá mesmo. Meu pai ficou o tempo todo só cuidando dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas cadê ela que não veio..."
+				},
+				{
+					"type": "teller",
+					"text": "todos encaram Meg"
+				},
+				{
+					"type": "default",
+					"text": "Quê foi?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela morreu no parto... Nem cheguei a vê-la... Meu pai voltou pra Inglaterra logo em seguida..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, sinto muito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não foi nada. Chega de falar de coisa triste. Rith, falta muito pra chegar?"
+				},
+				{
+					"type": "teller",
+					"text": "Rith nem pisca"
+				},
+				{
+					"type": "default",
+					"text": "‘Brigado, deixou no vácuo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falta sete e quatro décimos de vezes o que já passamos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Agora eu sei quanto falta!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem nasceu primeiro de vocês dois?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles são gêmeos!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, dez minutos antes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu nunca vi gêmeos tão parecidos, mas com características tão gritantemente diferentes. Pela genética vocês seriam ou muito iguais ou muito diferentes!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, eu não sei e nem vou tentar explicar essa anormalidade..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, vão pro raio que parta com esse vocabulário esquisito!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, Katerine, Genética é a ciência que estuda os genes, que ficam no núcleo na célula, unidade morfo-fisiológica do ser vivo, constituída por moléculas que possuem muitos átomos que são formados de Prótons, Nêutrons e Elétrons."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você adora fazer isso comigo!!!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quando você tiver a nossa idade vai saber o que é isso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bem animador!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pessoal, estamos chegando..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você disse que faltava sete vírgula não sei quanto pra chegar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim... Olha lá aquela pirâmide bem pequena no horizonte."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, é aquilo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Os egípcios tem o maior trabalho pra construir esse enorme monumento e você chama de "aquilo"?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma, falei por falar, não tenho nada contra esses monumentos históricos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith, toma cuidado com a descida... Rith!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith parece quase não prestar atenção em Halen e desce com tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, isso é que eu chamo de ter cuidado!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, que bom, pensei que tava hipnotizado pelo folheto!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode parar agora, papai, não precisa levar a gente pra dentro da pirâmide."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas nós nem estamos tão perto assim..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na velocidade que ele está, daqui à pouco estamos de volta no Brasil!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele afunda o pé no freio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Já entendi qual era a intenção dele: ele vinha correndo, parava e nós íamos para dentro da pirâmide!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quase o meu café da manhã vai parar na pirâmide!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dá próxima aluga um carro com poltrona ejetora! É mais seguro!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, se na volta for ele dirigindo, eu aprendo a andar de camelo! Por que tá tudo tão deserto?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont a encara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ok, eu juro que não foi um trocadilho idiota."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith pega a folheto da mão de Júlio e desvira. Eles saem do carro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, segundo o folheto, nos temos que entrar indo em direção ao ângulo oposto às hipotenusas... O topo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda bem que não vamos entrar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, como vamos subir tudo isso?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós não vamos subir, não podemos entrar, não é permitido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Para de dizer não, é como um botãozinho que aumenta a vontade deles..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, não podem fazer isso! E vocês adultos??? Não reagem contra isso???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não vem? Vai ficar sozinho..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga, vou matar quem entregou este folheto!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se não era pra entrar, por quê diz como se entra aqui no folheto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Comprei isso com um cara estranho... Espera! E se pegarem a gente aqui?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio, pensa: não tem ninguém aqui e te venderam um folheto que diz como entrar. Então quer dizer que alguém já entrou. Não deve ser perigoso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá legal, mas depois não digam que eu não avisei..."
+				}
+			]
+		}
+	]
+}

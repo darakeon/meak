@@ -1,472 +1,1549 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="19" scene="a">
-	<teller>
-		<default>Escritório. Zenon olha pela janela. Derik desliga o telefone. Olha para Zenon.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Conseguimos. A MEAK se expandiu.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Meio a força. Bem de supetão.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Alguma coisa por aqui acontece de outro jeito?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Sei lá...</default>
-	</talk>
-	<talk character="Derik">
-		<default>A vinda de Saturno para a Terra, minha ida pra outra Realidade...</default>
-	</talk>
-	<teller>
-		<default>Zenon vira para Derik.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Sua ida pra outra Realidade?</default>
-	</talk>
-	<talk character="Derik">
-		<default>... a banda, a vinda pra cá, a ida de Melody...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Essa história da sua...</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que que tem?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Tá falando da história que você nunca contou pra ninguém?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Outra hora. Quer saber como ficou?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Fala.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Eu, você, Kat e Bea ficamos aqui.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>E Etos.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não é da MEAK.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Seguiu Beatrice.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Tanto faz. Alan, Soraia e Dionísio estão no Rio de Janeiro. Com Ísis.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Achei que Dionísio fosse ficar nas Ilhas... Alan ainda tá com a gente?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Enquanto não obrigarmos a ficar perto de Estela. E falando em Estela, com Leonardo, Aléxis e Michele, nas ilhas.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>De Michele quem não quer ficar perto sou eu. Janaína continua lá?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Provavelmente. Quando quiser, viaja. Todo o dinheiro é de Janaína afinal. Inês, Beleno e Vivian estão em algum lugar da Europa, meio nômades. Aparentemente, Andrea continuou junto.</default>
-	</talk>
-	<teller>
-		<default>Zenon vira de novo para a janela.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Queria poder devolver o que tirei.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Acho que adotou os três.</default>
-	</talk>
-	<teller>
-		<default>Zenon vira de volta.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Katerine teve algum sonho, recentemente?</default>
-	</talk>
-	<teller>
-		<default>Derik suspira.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Agora que temos contatos mais distantes, tem sonhos de outros lugares. Não gosto disso.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Por que?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Mais lugares, mais sonhos. Mais dor.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Kat é forte.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Mas não precisava sentir isso.</default>
-	</talk>
-	<teller>
-		<first>Rio de Janeiro. Alan chega a um prédio de CVs. Entra. Entra em uma sala. Uma mesa no centro. Michele sentou-se em uma cadeira. Bruno anda de um lado para outro.</first>
-	</teller>
-	<talk character="Alan">
-		<default>Vai fazer um buraco no chão.</default>
-	</talk>
-	<teller>
-		<default>Bruno puxa uma arma e aponta pra Alan.</default>
-	</teller>
-	<talk character="Bruno">
-		<default>Posso fazer em você, se preferir assim.</default>
-	</talk>
-	<talk character="Ulisses">
-		<arrive>Bruno, melhor ficar mais calmo.</arrive>
-	</talk>
-	<talk character="Bruno">
-		<default>É o novo bronze do Rio?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Promoção do outro para prata. Saudade do anterior?</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Nem um pouco.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Que tinha ele?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Era um cara legal, só tinha um problema de saliva.</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Saliva não é problema, é o que fica dentro da boca. Quando vaza é baba, quando voa é cuspe. No caso dele, cuspes, bem no plural.</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Vai ficar com dor no braço.</default>
-	</talk>
-	<teller>
-		<default>Bruno coloca a arma de volta na cintura. Se encosta na parede.</default>
-	</teller>
-	<talk character="Bruno">
-		<default>Por que nos chamou aqui?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Vou ser breve. Vocês são os três únicos que conheço que têm alguma ligação com vampiros caçadores de outros vampiros e que vocês julgam confiáveis.</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Você também "julga confiáveis", não nos chamaria aqui caso contrário.</default>
-	</talk>
-	<talk character="Alan">
-		<default>E por que precisa de vampiros?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Tudo bem, eu sei que vocês dois tiveram problemas com a gente, mas podem deixar isso de lado um instante e deixar eu falar?</default>
-	</talk>
-	<teller>
-		<default>Alan puxa a manga da blusa, expondo a tatuagem.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Vocês não deixaram de lado.</default>
-	</talk>
-	<teller>
-		<default>Ulisses respira fundo. Se senta.</default>
-	</teller>
-	<talk character="Ulisses">
-		<default>Estamos atrás de uma vampira há muito tempo. Agora ela entrou em uma cidade subterrânea e não conseguimos tirar ela de lá.</default>
-	</talk>
-	<talk character="Michele">
-		<default>E por que alguém não entra lá disfarçado e mata ela?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Uma pessoa que fizesse isso estaria assinando a sentença de morte. Nessa cidade ninguém mata um vampiro, a menos que seja um.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Como assim???</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>São regras.</default>
-	</talk>
-	<talk character="Alan">
-		<default>E por que não se revoltam?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Por que são conformados.</default>
-	</talk>
-	<talk character="Bruno">
-		<default>É mais que isso. Eles têm admiração por vampiros.</default>
-	</talk>
-	<teller>
-		<default>Michele e Alan olham pra Bruno.</default>
-	</teller>
-	<talk character="Bruno">
-		<default>Existem mais regras absurdas lá do que vocês imaginam.</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Como sabe?</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Tá falando de Zorana?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Sim, é o nome da cidade...</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Eu percebi.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Você é de lá por acaso?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Não, ele é de Apolônia.</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Outro lugar que, provavelmente, vocês não conhecem.</default>
-	</talk>
-	<teller>
-		<default>Bruno olha para as pessoas. Olha para Ulisses.</default>
-	</teller>
-	<talk character="Bruno">
-		<default>Sou eu quem sou o problema aqui ou a tal vampira?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Clítia é o nome dela.</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Renegada pelo sol.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Que?</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Lenda grega, esquece.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Conheço Clítia. É quem criou Zenon.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Também a conheço. Quando vamos matar ela?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Preciso que cada um de vocês fale com os que conhecem.</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Selina não precisa de ajuda pra acabar com uma vampira.</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Quero uma vampira morta, não uma cidade explodida.</default>
-	</talk>
-	<teller>
-		<default>Bruno encara Ulisses. Sai.</default>
-	</teller>
-	<talk character="Alan">
-		<default>Uma cidade explodida?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Tivemos que prender Selina por causa de Etos, ela iria mandar a Ilha de Hera pelos ares.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Não faz diferença, ele morava em Ares...</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Morava?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Foi pra São Paulo.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Mas porque tudo isso?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Gosta de explosivos. Principalmente em toneladas. Mandamos Bruno atrás dela, pra controlar, mas ele também não é muito bom nesse assunto de controle. Por isso foi expulso.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Nunca soube dessa... Essa...</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Selina. Muito poucos sabem. Eu não sabia. Zenon só é conhecido porque foi julgado.</default>
-	</talk>
-	<teller>
-		<default>Silêncio. Ulisses se levanta.</default>
-	</teller>
-	<talk character="Ulisses">
-		<default>Bom, acho melhor não ficarmos sentados aqui.</default>
-	</talk>
-	<teller>
-		<default>Alan sai.</default>
-	</teller>
-	<talk character="Michele">
-		<default>Por que não chamou só eu aqui? Poderia falar com os dois.</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Não poderia, Michele.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Como sabe?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Vocês foram namorados. O grupo desaprovou. De repente Aléxis aparece, Zenon se muda...</default>
-	</talk>
-	<talk character="Michele">
-		<default>E porque não Beatrice?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Sabe o que é aquela pedra na tornozeleira dela?</default>
-	</talk>
-	<talk character="Michele">
-		<default>Que tem ela?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Não sei se já ouviu os relatos sobre Virgine e Rust...</default>
-	</talk>
-	<talk character="Michele">
-		<default>Que eles têm a ver com isso?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Rust tem uma também.</default>
-	</talk>
-	<teller>
-		<first>Noite. Michele, Aléxis, Zenon e Alan estão na sala. Selina entra, Bruno entra atrás, com o braço engessado.</first>
-	</teller>
-	<talk character="Ulisses">
-		<default>Estão uma hora atrasados. E o que foi isso?</default>
-	</talk>
-	<talk character="Selina">
-		<default>Não gosto de surpresas.</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Tudo bem, acho que o recado foi transmitido pra vocês e não preciso repetir tudo de novo.</default>
-	</talk>
-	<talk character="Selina">
-		<default>Por que afinal viemos aqui?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Selina, você não vai sozinha.</default>
-	</talk>
-	<talk character="Aléxis">
-		<default>Só por curiosidade, o que tem ela ir sozinha?</default>
-	</talk>
-	<talk character="Alan">
-		<default>Pensa em alguém matando mosca com bala de canhão e aumenta as proporções pra um vampiro.</default>
-	</talk>
-	<teller>
-		<default>Selina ri. Vai até a mesa e se debruça na frente de Ulisses.</default>
-	</teller>
-	<talk character="Selina">
-		<default>Me impeça.</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Não sabe onde é.</default>
-	</talk>
-	<talk character="Selina">
-		<default>Bruno sabe.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Vai precisar ver uma foto ou desenho da vampira.</default>
-	</talk>
-	<talk character="Selina">
-		<default>Se eu matar a vampira errada, acho que ninguém reclama. Posso entrar lá e matar todas as vampiras.</default>
-	</talk>
-	<talk character="Michele">
-		<default>Vai explodir a cidade?</default>
-	</talk>
-	<talk character="Selina">
-		<default>Conheço muito de explosivos. Posso fazer uma demonstração, se quiser.</default>
-	</talk>
-	<teller>
-		<default>Selina se endireita e vai em direção a porta. Bruno segura o braço de Selina.</default>
-	</teller>
-	<talk character="Selina">
-		<default>Tá querendo que eu quebre o outro?</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Não quero que vá sozinha.</default>
-	</talk>
-	<talk character="Selina">
-		<default>Desde quando manda em mim?</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Tu sais qu'ils ne t'aimes pas là.</default>
-		<translate>Sabe que não gostam de você por lá.</translate>
-	</talk>
-	<teller>
-		<default>Aléxis franze a sobrancelha. Olha para Zenon. Zenon está olhando para Michele. Michele olha para Aléxis, por reflexo para Zenon. Desvia o olhar. Levanta.</default>
-	</teller>
-	<talk character="Michele">
-		<default>Acho que eu não tenho o que fazer aqui.</default>
-	</talk>
-	<talk character="Selina">
-		<default>Engraçado, eu tenho a mesma impressão.</default>
-	</talk>
-	<teller>
-		<default>Michele olha para Selina.</default>
-	</teller>
-	<talk character="Michele">
-		<default>Eu poderia derrubar você facilmente.</default>
-	</talk>
-	<talk character="Selina">
-		<default>Tenta, Lish.</default>
-	</talk>
-	<teller>
-		<default>Michele encara Selina. Sai.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Vamos hoje pra tal cidade?</default>
-	</talk>
-	<talk character="Selina">
-		<irony>Que bom, você fala.</irony>
-	</talk>
-	<talk character="Ulisses">
-		<default>Selina, como eu já disse...</default>
-	</talk>
-	<talk character="Selina">
-		<default>Tá, quem vai comigo?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Não pode ir com humanos.</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Vou com vocês até a porta da cidade.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Eu vou junto, espero lá até voltarem.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Não entendo, nunca ouvi falar disso. Onde fica essa cidade? É grande?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Não sabemos exatamente o tamanho dela, mas a porta está em São Paulo.</default>
-	</talk>
-	<talk character="Aléxis">
-		<default>Porta?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Michele não deveria ter te falado tudo?</default>
-	</talk>
-	<talk character="Aléxis">
-		<default>Eu...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Melhor eu não querer saber com que gastaram o tempo durante a viagem.</default>
-	</talk>
-	<talk character="Aléxis">
-		<default>Vim sozinho. Não foi até lá me buscar. Que história é essa de porta?</default>
-	</talk>
-	<talk character="Bruno">
-		<default>A cidade é subterrânea. Um abrigo quase perfeito pra vampiros.</default>
-	</talk>
-	<talk character="Aléxis">
-		<default>Por que quase?</default>
-	</talk>
-	<talk character="Bruno">
-		<default>Há certos lugares na cidade que são perigosos pra vampiros. Podem deixar doentes, loucos.</default>
-	</talk>
-	<talk character="Alan">
-		<default>Por isso não queria que ela fosse sozinha.</default>
-	</talk>
-	<talk character="Selina">
-		<default>Sei onde são esses lugares e posso evitar.</default>
-	</talk>
-	<teller>
-		<default>Selina vai até a porta. Olha para trás.</default>
-	</teller>
-	<talk character="Selina">
-		<default>O que estamos esperando? O sol nascer?</default>
-	</talk>
-	<talk character="Ulisses">
-		<default>Ah, esqueci uma coisa. É um detalhe, mas eu vou dizer pra não estranharem, porque estranhar faria vocês serem mais facilmente notados. O povo de Zorana é albino. Todos eles.</default>
-	</talk>
-</story>
+{
+	"season": "B",
+	"episode": "19",
+	"scene": "a",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Escritório. Zenon olha pela janela. Derik desliga o telefone. Olha para Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Conseguimos. A MEAK se expandiu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meio a força. Bem de supetão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguma coisa por aqui acontece de outro jeito?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sei lá..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A vinda de Saturno para a Terra, minha ida pra outra Realidade..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon vira para Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sua ida pra outra Realidade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "... a banda, a vinda pra cá, a ida de Melody..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa história da sua..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que que tem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá falando da história que você nunca contou pra ninguém?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Outra hora. Quer saber como ficou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu, você, Kat e Bea ficamos aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E Etos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é da MEAK."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seguiu Beatrice."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tanto faz. Alan, Soraia e Dionísio estão no Rio de Janeiro. Com Ísis."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei que Dionísio fosse ficar nas Ilhas... Alan ainda tá com a gente?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Enquanto não obrigarmos a ficar perto de Estela. E falando em Estela, com Leonardo, Aléxis e Michele, nas ilhas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De Michele quem não quer ficar perto sou eu. Janaína continua lá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Provavelmente. Quando quiser, viaja. Todo o dinheiro é de Janaína afinal. Inês, Beleno e Vivian estão em algum lugar da Europa, meio nômades. Aparentemente, Andrea continuou junto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon vira de novo para a janela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Queria poder devolver o que tirei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que adotou os três."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon vira de volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Katerine teve algum sonho, recentemente?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik suspira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora que temos contatos mais distantes, tem sonhos de outros lugares. Não gosto disso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mais lugares, mais sonhos. Mais dor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat é forte."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas não precisava sentir isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Rio de Janeiro. Alan chega a um prédio de CVs. Entra. Entra em uma sala. Uma mesa no centro. Michele sentou-se em uma cadeira. Bruno anda de um lado para outro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai fazer um buraco no chão."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bruno puxa uma arma e aponta pra Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso fazer em você, se preferir assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Bruno, melhor ficar mais calmo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É o novo bronze do Rio?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Promoção do outro para prata. Saudade do anterior?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem um pouco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tinha ele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Era um cara legal, só tinha um problema de saliva."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Saliva não é problema, é o que fica dentro da boca. Quando vaza é baba, quando voa é cuspe. No caso dele, cuspes, bem no plural."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai ficar com dor no braço."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bruno coloca a arma de volta na cintura. Se encosta na parede."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que nos chamou aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou ser breve. Vocês são os três únicos que conheço que têm alguma ligação com vampiros caçadores de outros vampiros e que vocês julgam confiáveis."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você também "julga confiáveis", não nos chamaria aqui caso contrário."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por que precisa de vampiros?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, eu sei que vocês dois tiveram problemas com a gente, mas podem deixar isso de lado um instante e deixar eu falar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan puxa a manga da blusa, expondo a tatuagem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês não deixaram de lado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ulisses respira fundo. Se senta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estamos atrás de uma vampira há muito tempo. Agora ela entrou em uma cidade subterrânea e não conseguimos tirar ela de lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por que alguém não entra lá disfarçado e mata ela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma pessoa que fizesse isso estaria assinando a sentença de morte. Nessa cidade ninguém mata um vampiro, a menos que seja um."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "São regras."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por que não se revoltam?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que são conformados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É mais que isso. Eles têm admiração por vampiros."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michele e Alan olham pra Bruno."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Existem mais regras absurdas lá do que vocês imaginam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá falando de Zorana?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim, é o nome da cidade..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu percebi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é de lá por acaso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, ele é de Apolônia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Outro lugar que, provavelmente, vocês não conhecem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bruno olha para as pessoas. Olha para Ulisses."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sou eu quem sou o problema aqui ou a tal vampira?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Clítia é o nome dela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Renegada pelo sol."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lenda grega, esquece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Conheço Clítia. É quem criou Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também a conheço. Quando vamos matar ela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preciso que cada um de vocês fale com os que conhecem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Selina não precisa de ajuda pra acabar com uma vampira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quero uma vampira morta, não uma cidade explodida."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bruno encara Ulisses. Sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma cidade explodida?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tivemos que prender Selina por causa de Etos, ela iria mandar a Ilha de Hera pelos ares."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não faz diferença, ele morava em Ares..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Morava?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi pra São Paulo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas porque tudo isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gosta de explosivos. Principalmente em toneladas. Mandamos Bruno atrás dela, pra controlar, mas ele também não é muito bom nesse assunto de controle. Por isso foi expulso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nunca soube dessa... Essa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Selina. Muito poucos sabem. Eu não sabia. Zenon só é conhecido porque foi julgado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Silêncio. Ulisses se levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, acho melhor não ficarmos sentados aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que não chamou só eu aqui? Poderia falar com os dois."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não poderia, Michele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês foram namorados. O grupo desaprovou. De repente Aléxis aparece, Zenon se muda..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E porque não Beatrice?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe o que é aquela pedra na tornozeleira dela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tem ela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei se já ouviu os relatos sobre Virgine e Rust..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que eles têm a ver com isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust tem uma também."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite. Michele, Aléxis, Zenon e Alan estão na sala. Selina entra, Bruno entra atrás, com o braço engessado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estão uma hora atrasados. E o que foi isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não gosto de surpresas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, acho que o recado foi transmitido pra vocês e não preciso repetir tudo de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que afinal viemos aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Selina, você não vai sozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Aléxis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só por curiosidade, o que tem ela ir sozinha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pensa em alguém matando mosca com bala de canhão e aumenta as proporções pra um vampiro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Selina ri. Vai até a mesa e se debruça na frente de Ulisses."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me impeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabe onde é."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bruno sabe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai precisar ver uma foto ou desenho da vampira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se eu matar a vampira errada, acho que ninguém reclama. Posso entrar lá e matar todas as vampiras."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai explodir a cidade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Conheço muito de explosivos. Posso fazer uma demonstração, se quiser."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Selina se endireita e vai em direção a porta. Bruno segura o braço de Selina."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá querendo que eu quebre o outro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quero que vá sozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desde quando manda em mim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tu sais qu'ils ne t'aimes pas là."
+				},
+				{
+					"type": "translate",
+					"text": "Sabe que não gostam de você por lá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aléxis franze a sobrancelha. Olha para Zenon. Zenon está olhando para Michele. Michele olha para Aléxis, por reflexo para Zenon. Desvia o olhar. Levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que eu não tenho o que fazer aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Engraçado, eu tenho a mesma impressão."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michele olha para Selina."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michele",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu poderia derrubar você facilmente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenta, Lish."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michele encara Selina. Sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos hoje pra tal cidade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Que bom, você fala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Selina, como eu já disse..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, quem vai comigo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode ir com humanos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou com vocês até a porta da cidade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou junto, espero lá até voltarem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não entendo, nunca ouvi falar disso. Onde fica essa cidade? É grande?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabemos exatamente o tamanho dela, mas a porta está em São Paulo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Aléxis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porta?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michele não deveria ter te falado tudo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Aléxis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor eu não querer saber com que gastaram o tempo durante a viagem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Aléxis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vim sozinho. Não foi até lá me buscar. Que história é essa de porta?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A cidade é subterrânea. Um abrigo quase perfeito pra vampiros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Aléxis",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que quase?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Bruno",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Há certos lugares na cidade que são perigosos pra vampiros. Podem deixar doentes, loucos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por isso não queria que ela fosse sozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sei onde são esses lugares e posso evitar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Selina vai até a porta. Olha para trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Selina",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que estamos esperando? O sol nascer?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ulisses",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, esqueci uma coisa. É um detalhe, mas eu vou dizer pra não estranharem, porque estranhar faria vocês serem mais facilmente notados. O povo de Zorana é albino. Todos eles."
+				}
+			]
+		}
+	]
+}

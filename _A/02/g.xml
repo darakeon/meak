@@ -1,75 +1,244 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="02" scene="g">
-	<teller>
-		<division>Algum tempo, algum lugar</division>
-	</teller>
-	<talk character="Xien">
-		<default>É sério? Egito? Múmias?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Que foi? Pareceu assim tão ridículo?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Ultrapassou o nível do ridículo.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Mas você se lembra, não lembra?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Quem me garante que não está simplesmente injetando coisas na minha cabeça aleatoriamente?</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Por que o resto não te parece esquisito?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Bom, já tinham me contado.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Quem?</default>
-	</talk>
-	<talk character="Xien">
-		<default>As pessoas que conheço.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Que pareciam tão reais quanto eu, certo?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Eles não mentiriam pra mim...</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Eles existiam?</default>
-	</talk>
-	<teller>
-		<default>Xien baixa a cabeça. Volta a olhar para Uehfo.</default>
-	</teller>
-	<talk character="Xien">
-		<default>Sim. Tanto quanto eu.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>E por quê você desconfia das múmias?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Porque eu... Ninguém nunca citou isso. Acho que é bem diferente do que aconteceu em todo o resto do tempo, pelo que me contaram, então alguém teria citado.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>E é só isso?</default>
-	</talk>
-	<talk character="Xien">
-		<default>É suficiente.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Nada mais?</default>
-	</talk>
-	<talk character="Xien">
-		<default>Precisa?</default>
-	</talk>
-	<teller>
-		<default>Uehfo contrai a boca e encolhe os ombros, como sinal de que não sabe.</default>
-	</teller>
-	<talk character="Xien">
-		<default>Espero que minha orientadora vocacional tenha sido melhor que você.</default>
-	</talk>
-	<talk character="Uehfo">
-		<default>Que tal só continuarmos?</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "02",
+	"scene": "g",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Algum tempo, algum lugar"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É sério? Egito? Múmias?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi? Pareceu assim tão ridículo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ultrapassou o nível do ridículo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas você se lembra, não lembra?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem me garante que não está simplesmente injetando coisas na minha cabeça aleatoriamente?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que o resto não te parece esquisito?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, já tinham me contado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As pessoas que conheço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que pareciam tão reais quanto eu, certo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles não mentiriam pra mim..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles existiam?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Xien baixa a cabeça. Volta a olhar para Uehfo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim. Tanto quanto eu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por quê você desconfia das múmias?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Porque eu... Ninguém nunca citou isso. Acho que é bem diferente do que aconteceu em todo o resto do tempo, pelo que me contaram, então alguém teria citado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E é só isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É suficiente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada mais?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Precisa?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uehfo contrai a boca e encolhe os ombros, como sinal de que não sabe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Xien",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero que minha orientadora vocacional tenha sido melhor que você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Uehfo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tal só continuarmos?"
+				}
+			]
+		}
+	]
+}

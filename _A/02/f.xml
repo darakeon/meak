@@ -1,406 +1,1327 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="02" scene="f">
-	<teller>
-		<default>John, Edmont e Angely acordam uma hora depois. Estão amarrados.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Isso já tá virando rotina.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Pelo menos não tem nenhuma múmia por aqui.</default>
-	</talk>
-	<talk character="Sultão">
-		<arrive>Até que enfim, acordaram...</arrive>
-	</talk>
-	<teller>
-		<default>O Sultão abaixa perto deles.</default>
-	</teller>
-	<talk character="Sultão">
-		<default>Sabe o que eu acho? Estão me escondendo alguma coisa. Não gosto de ser enganado.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E porque acha que o que você gosta me importa?</default>
-	</talk>
-	<talk character="Sultão">
-		<default>Vão ou não me dizer o que querem com a porcaria do...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Devia lavar as orelhas de vez em quando... Já dissemos que pra você aquilo não tem valor nenhum...</default>
-	</talk>
-	<talk character="Sultão">
-		<default>E por quê pra vocês tem?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não adianta te contar, não vai acreditar.</default>
-	</talk>
-	<talk character="John">
-		<default>Acho que ele vai, sim...</default>
-	</talk>
-	<talk character="Sultão">
-		<default>Salve-se quem puder!</default>
-	</talk>
-	<teller>
-		<default>Sultão ele sai correndo. Uma múmia, saída de não sei onde, não sei porque, entra no lugar.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Legal, salve-se quem puder e foda-se quem não puder!</default>
-	</talk>
-	<talk character="John">
-		<default>Estamos fritos...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não se preocupa, você não serve nem pra palitar os dentes!</default>
-	</talk>
-	<talk character="John">
-		<default>Me soltei!</default>
-	</talk>
-	<teller>
-		<default>John se solta das cordas e sai correndo.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Legal, quais são suas últimas palavras?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ainda bem que o "Sultão" não sabe dar nós...</default>
-	</talk>
-	<teller>
-		<default>Edmont se solta também.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Fui o único preso com corrente por aqui ou é só impressão minha?!</default>
-	</talk>
-	<teller>
-		<default>Edmont pega um machado.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Não vai tentar quebrar as correntes com isso, vai?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Na verdade vou derrubar a coluna e vamos ter que sair correndo!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Isso é realmente animador!</default>
-	</talk>
-	<teller>
-		<default>Edmont começa a quebrar a coluna.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Peraí, e se cair na minha cabeça?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É um risco que temos que correr...</default>
-	</talk>
-	<talk character="Angely">
-		<default>"Temos", é?</default>
-	</talk>
-	<teller>
-		<default>A múmia se aproxima.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Vai mais rápido com isso!</default>
-	</talk>
-	<teller>
-		<default>A coluna finalmente é rachada e eles saem correndo. O lugar desaba bem atrás.</default>
-	</teller>
-	<talk character="John">
-		<default>Que bom que estão vivos!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Agora você tá fodido de verdade!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Calma, vamos ter que encontrar o objeto e só ele sabe o que é. Precisamos da ajuda dele.</default>
-	</talk>
-	<talk character="John">
-		<default>Isso mesmo. Mas como vamos encontrar no meio desse entulhos?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vamos ter que cavar.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Diga agora o que é que estamos procurando.</default>
-	</talk>
-	<talk character="John">
-		<default>É uma espécie de colar...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Era o galpão de um ladrão. Deve ter muitos colares aí dentro.</default>
-	</talk>
-	<talk character="John">
-		<default>Não lembro direito.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Claro, eu entro na biblioteca e digo: "Estou procurando um livro"! Que tal usar ele de pá pra cavar?</default>
-	</talk>
-	<talk character="John">
-		<default>Tá, eu não tenho que saber tudo também...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tudo? Que você nasceu burro, não aprendeu nada e esqueceu a metade!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Melhor começar a procurar.</default>
-	</talk>
-	<teller>
-		<first>Noite.</first>
-	</teller>
-	<talk character="Angely">
-		<default>É esse aqui?</default>
-	</talk>
-	<talk character="John">
-		<default>Não...</default>
-	</talk>
-	<talk character="Edmont">
-		<screamed>Droga!</screamed>
-		<default>Faz oito horas que estamos procurando e não encontramos essa porra!</default>
-	</talk>
-	<talk character="John">
-		<screamed>Achei!</screamed>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas você nem tava...</default>
-	</talk>
-	<talk character="John">
-		<default>É que o ladrão deixou uma bolsa pra trás... Tava ali o tempo todo!</default>
-	</talk>
-	<teller>
-		<default>Edmont e Angely se entreolham.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Agora temos que levar isso...</default>
-	</talk>
-	<talk character="John">
-		<default>Ei! Tira essas mãos cheias de dedos de cima disso! Eu achei!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Precisamos disso!</default>
-	</talk>
-	<talk character="John">
-		<default>Não, é meu por direito!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Acho que vou pagar a surra que eu tô te devendo, também é sua por direito!</default>
-	</talk>
-	<talk character="John">
-		<default>Tá, eu entrego!</default>
-	</talk>
-	<teller>
-		<default>Edmont pega o colar e limpa na blusa. Depois entrega à Angely.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Leva isso pra Sarah.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Onde você vai?</default>
-	</talk>
-	<teller>
-		<default>Ele não explica e sai. Angely pega o colar e vai até a pirâmide.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Sarah...</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Acharam?</default>
-	</talk>
-	<talk character="Angely">
-		<default>É, achamos. Aqui.</default>
-	</talk>
-	<teller>
-		<default>Angely entrega o colar à Sarah. Ela pega o colar e empurra uma pedra na parede. Uma fumaça aparece. Ele cai. Acorda algum tempo depois.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Amarrado, só pra variar.</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Seu irmão é mais esperto.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Estava do lado das múmias o tempo todo?!</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Ah, tadinho dele, que inocente...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não vai escapar assim.</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Seu irmão levou as garotas. Mas ele não vai te deixar aqui.</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Solta ele.</arrive>
-	</talk>
-	<talk character="Angely">
-		<default>Vá embora!</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Viu? Não disse?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não quer a pedra verdadeira?</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Esperto. Mas a pedra verdadeira não me vale nada sem as garotas...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Edmont, por quê não me falou?!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Como se fosse acreditar...</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Onde está Agatha?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Que vai fazer? Você é só um fantasma.</default>
-	</talk>
-	<teller>
-		<default>Sarah chama os guardas. Edmont corre até Angely e corta as cordas. Os dois lutam contra os guardas. Angely vê Meg e vai correndo até ela. Desamarra ela. Edmont pega o vaso. Angely pega Meg no colo e vai até Edmont.</default>
-	</teller>
-	<talk character="Sarah">
-		<default>Solte isso!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Quer mesmo que eu solte? Vai quebrar...</default>
-	</talk>
-	<talk character="Sarah">
-		<default>Não!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Como vamos fazer pra nos livrar dessa encrenca?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ela pediu que não quebrássemos o vaso...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Coloque a pedra dentro do vaso.</default>
-	</talk>
-	<teller>
-		<default>Edmont coloca e tudo começa a desabar. Eles correm pelos corredores. Angely cai no chão com Meg. Edmont volta, coloca Meg nas costas de Angely, e os dois continuam correndo. Sobem escadas. Saem da pirâmide. A areia está afundando, os pés de Angely ficam presos. Angely afunda na areia. Edmont puxa pelos braços de Meg. Tira. Aproxima o vaso da areia e esta se afasta. Vê uma mão. Puxa. Consegue tirar Angely. Toda a pirâmide afunda na areia.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Ainda bem que saímos...</default>
-	</talk>
-	<teller>
-		<default>Meg acorda. Olha para Angely. Ele tenta levantar, mas bambeia. Ela o sustenta.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Angely, acho que estamos encrencados.</default>
-	</talk>
-	<talk character="Meg">
-		<screamed>Que porra é essa?!</screamed>
-	</talk>
-	<talk character="Angely">
-		<default>Espero que seja herbívoro.</default>
-	</talk>
-	<teller>
-		<default>Meg pega o vaso da mão do Edmont.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Meg, de novo não!</default>
-	</talk>
-	<teller>
-		<default>Meg abre o vaso e tira o colar. O "bicho" é sugado pra dentro do vaso. Meg fecha o vaso. Repara na fenda ao redor na tampa, com o mesmo formato do colar. Lacra o vaso. De repente, eles se vêem no quarto do hotel. Meg abraça Angely. Agatha e Kat acordam.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Será que foi imaginação?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Nós todos imaginamos a mesma coisa?!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Isso é difícil.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Legal...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Meg, já acabou.</default>
-	</talk>
-	<teller>
-		<default>Meg olha nos olhos de Angely. Ela beija ele. Júlio abre a porta do quarto. Os dois se afastam. Rith e Halen chegam.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Gente, eu dormi a semana inteira...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Passou uma semana?</default>
-	</talk>
-	<talk character="Rith">
-		<default>Pois é. Nós nem aproveitamos.</default>
-	</talk>
-	<talk character="Halen">
-		<default>Se quiserem podemos adiar a volta.</default>
-	</talk>
-	<talk character="Angely/Edmont/Agatha/Meg/Katerine">
-		<default>NÃO!</default>
-	</talk>
-	<teller>
-		<default>Rith, Júlio e Halen se entreolham.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Não aguento mais areia.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É. Areia. Pra todo lado. Cansa, né?</default>
-	</talk>
-	<talk character="Halen">
-		<default>Tá, tudo bem. Arrumem as malas, tá quase na hora.</default>
-	</talk>
-	<teller>
-		<default>Halen a Rith voltam pro quarto deles.</default>
-	</teller>
-	<talk character="Júlio">
-		<default>Que vocês andaram fazendo?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nada.</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Vê lá o que vai fazer...</default>
-	</talk>
-	<teller>
-		<default>Júlio fecha a porta. Edmont ri. Agatha coloca a mão no ombro de Meg.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Cuida direitinho dele.</default>
-	</talk>
-	<teller>
-		<first>Eles vão até o aeroporto. No avião...</first>
-	</teller>
-	<talk character="Júlio">
-		<default>Bom saber que perderam medo de avião.</default>
-	</talk>
-	<talk character="Halen">
-		<default>Acho que devemos contar, Rith.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Que?</default>
-	</talk>
-	<talk character="Rith">
-		<default>Contratamos uma empresa de mudança. Vamos pro Brasil.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Angely e Meg é que vão ficar felizes...</default>
-	</talk>
-	<talk character="Júlio">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Nada.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Mas vamos mudar assim, do nada???</default>
-	</talk>
-	<talk character="Rith">
-		<default>Eu e Júlio vamos montar uma empresa. Não que eu vá abandonar minha carreira, claro.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que bom.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu sei porque gostou da notícia.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Edmont!</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "02",
+	"scene": "f",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "John, Edmont e Angely acordam uma hora depois. Estão amarrados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso já tá virando rotina."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo menos não tem nenhuma múmia por aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Até que enfim, acordaram..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O Sultão abaixa perto deles."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe o que eu acho? Estão me escondendo alguma coisa. Não gosto de ser enganado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E porque acha que o que você gosta me importa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vão ou não me dizer o que querem com a porcaria do..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devia lavar as orelhas de vez em quando... Já dissemos que pra você aquilo não tem valor nenhum..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por quê pra vocês tem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não adianta te contar, não vai acreditar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que ele vai, sim..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sultão",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Salve-se quem puder!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sultão ele sai correndo. Uma múmia, saída de não sei onde, não sei porque, entra no lugar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Legal, salve-se quem puder e foda-se quem não puder!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estamos fritos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não se preocupa, você não serve nem pra palitar os dentes!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me soltei!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "John se solta das cordas e sai correndo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Legal, quais são suas últimas palavras?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda bem que o "Sultão" não sabe dar nós..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont se solta também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fui o único preso com corrente por aqui ou é só impressão minha?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont pega um machado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai tentar quebrar as correntes com isso, vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na verdade vou derrubar a coluna e vamos ter que sair correndo!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é realmente animador!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont começa a quebrar a coluna."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Peraí, e se cair na minha cabeça?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É um risco que temos que correr..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": ""Temos", é?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A múmia se aproxima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai mais rápido com isso!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A coluna finalmente é rachada e eles saem correndo. O lugar desaba bem atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que bom que estão vivos!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora você tá fodido de verdade!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma, vamos ter que encontrar o objeto e só ele sabe o que é. Precisamos da ajuda dele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso mesmo. Mas como vamos encontrar no meio desse entulhos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos ter que cavar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Diga agora o que é que estamos procurando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É uma espécie de colar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Era o galpão de um ladrão. Deve ter muitos colares aí dentro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não lembro direito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro, eu entro na biblioteca e digo: "Estou procurando um livro"! Que tal usar ele de pá pra cavar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, eu não tenho que saber tudo também..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo? Que você nasceu burro, não aprendeu nada e esqueceu a metade!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor começar a procurar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É esse aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Droga!"
+				},
+				{
+					"type": "default",
+					"text": "Faz oito horas que estamos procurando e não encontramos essa porra!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Achei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas você nem tava..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É que o ladrão deixou uma bolsa pra trás... Tava ali o tempo todo!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont e Angely se entreolham."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora temos que levar isso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei! Tira essas mãos cheias de dedos de cima disso! Eu achei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Precisamos disso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, é meu por direito!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que vou pagar a surra que eu tô te devendo, também é sua por direito!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "John",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, eu entrego!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont pega o colar e limpa na blusa. Depois entrega à Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leva isso pra Sarah."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde você vai?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele não explica e sai. Angely pega o colar e vai até a pirâmide."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sarah..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acharam?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, achamos. Aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely entrega o colar à Sarah. Ela pega o colar e empurra uma pedra na parede. Uma fumaça aparece. Ele cai. Acorda algum tempo depois."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Amarrado, só pra variar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu irmão é mais esperto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estava do lado das múmias o tempo todo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, tadinho dele, que inocente..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai escapar assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu irmão levou as garotas. Mas ele não vai te deixar aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Solta ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vá embora!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viu? Não disse?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não quer a pedra verdadeira?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esperto. Mas a pedra verdadeira não me vale nada sem as garotas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, por quê não me falou?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como se fosse acreditar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde está Agatha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que vai fazer? Você é só um fantasma."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sarah chama os guardas. Edmont corre até Angely e corta as cordas. Os dois lutam contra os guardas. Angely vê Meg e vai correndo até ela. Desamarra ela. Edmont pega o vaso. Angely pega Meg no colo e vai até Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Solte isso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer mesmo que eu solte? Vai quebrar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Sarah",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como vamos fazer pra nos livrar dessa encrenca?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela pediu que não quebrássemos o vaso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Coloque a pedra dentro do vaso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont coloca e tudo começa a desabar. Eles correm pelos corredores. Angely cai no chão com Meg. Edmont volta, coloca Meg nas costas de Angely, e os dois continuam correndo. Sobem escadas. Saem da pirâmide. A areia está afundando, os pés de Angely ficam presos. Angely afunda na areia. Edmont puxa pelos braços de Meg. Tira. Aproxima o vaso da areia e esta se afasta. Vê uma mão. Puxa. Consegue tirar Angely. Toda a pirâmide afunda na areia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda bem que saímos..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg acorda. Olha para Angely. Ele tenta levantar, mas bambeia. Ela o sustenta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, acho que estamos encrencados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Que porra é essa?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero que seja herbívoro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg pega o vaso da mão do Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg, de novo não!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg abre o vaso e tira o colar. O "bicho" é sugado pra dentro do vaso. Meg fecha o vaso. Repara na fenda ao redor na tampa, com o mesmo formato do colar. Lacra o vaso. De repente, eles se vêem no quarto do hotel. Meg abraça Angely. Agatha e Kat acordam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que foi imaginação?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós todos imaginamos a mesma coisa?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é difícil."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Legal..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg, já acabou."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg olha nos olhos de Angely. Ela beija ele. Júlio abre a porta do quarto. Os dois se afastam. Rith e Halen chegam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, eu dormi a semana inteira..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Passou uma semana?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pois é. Nós nem aproveitamos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se quiserem podemos adiar a volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely/Edmont/Agatha/Meg/Katerine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "NÃO!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rith, Júlio e Halen se entreolham."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não aguento mais areia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Areia. Pra todo lado. Cansa, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, tudo bem. Arrumem as malas, tá quase na hora."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Halen a Rith voltam pro quarto deles."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que vocês andaram fazendo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vê lá o que vai fazer..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Júlio fecha a porta. Edmont ri. Agatha coloca a mão no ombro de Meg."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cuida direitinho dele."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Eles vão até o aeroporto. No avião..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom saber que perderam medo de avião."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Halen",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que devemos contar, Rith."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Contratamos uma empresa de mudança. Vamos pro Brasil."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely e Meg é que vão ficar felizes..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Júlio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas vamos mudar assim, do nada???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rith",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu e Júlio vamos montar uma empresa. Não que eu vá abandonar minha carreira, claro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que bom."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei porque gostou da notícia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont!"
+				}
+			]
+		}
+	]
+}

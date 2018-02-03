@@ -1,449 +1,1470 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="09" scene="f">
-	<teller>
-		<default>A campainha toca. Mel sai da sala com o telefone.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Quem é?</default>
-	</talk>
-	<talk character="Brad">
-		<out>Conhece um garoto chamado Derik?</out>
-	</talk>
-	<talk character="Derik">
-		<default>Ah, droga...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Que foi?</default>
-	</talk>
-	<talk character="Derik">
-		<default>É o irmão da Talita!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Como ele te encontrou?</default>
-	</talk>
-	<talk character="Derik">
-		<default>É policial!</default>
-	</talk>
-	<teller>
-		<default>Derik corre até o banheiro. Kat abre a porta. Brad entra e olha em volta.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Ei, quem você pensa que é...</default>
-	</talk>
-	<teller>
-		<default>Brad mostra o distintivo.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Vocês conhecem um garoto de dezoito anos chamado Derik?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sim, e você, quem é?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Brad Andrews. Esse garoto esteve na minha casa hoje de manhã. E tenho certeza que ele está aqui.</default>
-	</talk>
-	<talk character="Mel">
-		<arrive>Não vai encontrar ele aqui.</arrive>
-	</talk>
-	<talk character="Brad">
-		<default>Posso procurar?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por que está atrás dele?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Ele veio perguntar da minha irmã.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Talita?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Como sabe???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu li no jornal.</default>
-	</talk>
-	<talk character="Brad">
-		<default>E adivinhou que eu sou irmão dela do nada? Clariviência???</default>
-		<teller>franze a testa</teller>
-		<default>Peraí, vocês não são aquela banda que o avião caiu?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Como sabe?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Não é porque eu quero, pode ter certeza. Que se dane, não quero saber quem são, quero saber onde está aquele moleque que foi até a casa dos meus pais hoje de manhã!</default>
-	</talk>
-	<teller>
-		<default>Brad vai para a cozinha. Volta.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Ei!</default>
-	</talk>
-	<talk character="Brad">
-		<default>Pode ficar sossegada que não vou machucar seu namorado.</default>
-	</talk>
-	<teller>
-		<default>Brad abre o banheiro.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Que um cachorro está fazendo no banheiro?</default>
-	</talk>
-	<talk character="Kat">
-		<default>É o Aurium.</default>
-	</talk>
-	<talk character="Brad">
-		<default>E por que está vestido?</default>
-	</talk>
-	<teller>
-		<default>Aurium sai do banheiro.</default>
-	</teller>
-	<talk character="Kat">
-		<default>É uma brincadeira que Aurium gosta. Voltando a Derik, esteve aqui sim, mas saiu agora pouco.</default>
-	</talk>
-	<talk character="Brad">
-		<default>Vou ver lá em cima. Você vem comigo.</default>
-	</talk>
-	<teller>
-		<default>Brad sobe. Kat olha para Mel. Mel encolhe e solta os ombros e aponta o andar de cima com a palma para cima. Kat solta o ar e sobe com os ombros caídos.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Temos que nos livrar de Brad, Íris tá vindo pra cá.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não vai encontrar Derik e vai embora.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E se ele descobrir os outros dois andares da casa?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Quem não vê a planta não descobre.</default>
-	</talk>
-	<teller>
-		<default>Brad entra em cada um dos quartos. Kat segue, arrastando os pés. Brad abre os armários, checa os banheiros e embaixo das camas. Desce a escada, seguido de Katerine.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Então, encontrou alguma coisa?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Nada.</default>
-	</talk>
-	<teller>
-		<default>Mel abre a porta da sala e encara Brad. Brad si.</default>
-	</teller>
-	<talk character="Brad">
-		<default>Se estiverem mentindo...</default>
-	</talk>
-	<teller>
-		<default>Mel fecha a porta.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Não acredito que nem perguntou do sótão!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tudo bem, agora vamos pensar num plano pra trazer Talita pra cá.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Bom, primeiro, você vai distrair Manuel.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Talita vai quase todo dia ao lago.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu falo com ela.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não, Kat fala.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por que eu?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Te identificou como amizade logo de cara.</default>
-	</talk>
-	<teller>
-		<default>Toca a campainha. Edmont atende.</default>
-	</teller>
-	<talk character="Íris">
-		<default>Eu só vim aqui dizer que não podem fazer isso.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Temos que fazer isso.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Por que querem tanto tirar Talita de lá?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sabe porque.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Vocês estão arriscando vidas demais.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Prefere deixar Talita lá, correndo esse risco?</default>
-	</talk>
-	<talk character="Íris">
-		<default>E qual a desculpa que vão dar pro Manuel?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Uma caixa de chocolate, eu prometi levar pra Talita!</default>
-	</talk>
-	<teller>
-		<default>Íris suspira fundo. Senta no sofá.</default>
-	</teller>
-	<talk character="Íris">
-		<default>Eu ajudo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bom, essa parte foi fácil.</default>
-	</talk>
-	<teller>
-		<first>Íris chega na cabana, com Mel.</first>
-	</teller>
-	<talk character="Íris">
-		<default>Manuel, você tá aí?</default>
-	</talk>
-	<talk character="Manuel">
-		<out>Que você quer???</out>
-	</talk>
-	<teller>
-		<default>Manuel vai até a sala.</default>
-	</teller>
-	<talk character="Íris">
-		<default>Você tem visita.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Oi.</default>
-	</talk>
-	<talk character="Manuel">
-		<default>Esqueceu alguma coisa?</default>
-	</talk>
-	<talk character="Mel">
-		<default>A Talita pediu pra Kat trazer isso pra ela.</default>
-	</talk>
-	<teller>
-		<default>Mel mostra a caixa de chocolate.</default>
-	</teller>
-	<talk character="Manuel">
-		<default>E porque não veio ela mesma?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá gripada.</default>
-	</talk>
-	<talk character="Manuel">
-		<default>E porque não veio um dos dois?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não queriam voltar. Angely nem queria que eu viesse. A Talita tá aí?</default>
-	</talk>
-	<talk character="Manuel">
-		<default>Ela foi até o lago. Daqui a pouco ela tá de volta.</default>
-	</talk>
-	<teller>
-		<default>Lago.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Oi.</default>
-	</talk>
-	<teller>
-		<default>Talita está de biquini. Olha para Kat com Aurium e sorri. Vê Angely. Desmancha o sorriso e dá um passo atrás.</default>
-	</teller>
-	<talk character="Talita">
-		<default>Que vocês tão fazendo aqui?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Encontramos Brad.</default>
-	</talk>
-	<talk character="Talita">
-		<default>Quem?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Seu irmão. Desde que você sumiu a sua família tá te procurando.</default>
-	</talk>
-	<talk character="Talita">
-		<default>Isso é conversa.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por que eu jogaria conversa em você?</default>
-	</talk>
-	<talk character="Talita">
-		<default>Ele me disse que fariam isso. Pra me levar daqui.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Manuel disse isso?</default>
-	</talk>
-	<talk character="Talita">
-		<default>Disse que pessoas da cidade acham que todo mundo tem que ser promíscuo.</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Se eu quisesse dormir com você não precisaria de conversa.</arrive>
-	</talk>
-	<talk character="Talita">
-		<default>E o que vai fazer? Me pegar a força?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Poderia. Não tem ninguém olhando.</default>
-	</talk>
-	<talk character="Talita">
-		<default>Eu grito.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Também não tem ninguém ouvindo.</default>
-	</talk>
-	<talk character="Talita">
-		<default>Não ia conseguir.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Talita, eu sou maior e mais forte que você.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Edmont, tá piorando as coisas, não melhorando!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Estou dizendo que não precisaria passar conversa, não que eu faria isso.</default>
-	</talk>
-	<talk character="Talita">
-		<default>Eu não vou com vocês.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Brad queria que você voltasse pra casa.</default>
-	</talk>
-	<talk character="Talita">
-		<default>Eu me lembro desse nome, mas não sei quem é.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É policial agora, sabia?</default>
-	</talk>
-	<talk character="Talita">
-		<default>Está mentindo.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Podemos te levar até a sua família. É só confiar na gente.</default>
-	</talk>
-	<teller>
-		<default>Talita sai da água. Olha para Edmont.</default>
-	</teller>
-	<talk character="Talita">
-		<default>Devia melhorar sua conversa pra convencer alguém de algo.</default>
-	</talk>
-	<teller>
-		<default>Talita veste um vestido.</default>
-	</teller>
-	<talk character="Talita">
-		<default>Preciso falar com Manuel primeiro.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Manuel mentiu pra você.</default>
-	</talk>
-	<talk character="Talita">
-		<default>Ele não mentiria pra mim.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Manuel e Íris não são irmãos. Foram namorados um dia. Íris estava te ajudando anos atrás, e Manuel está chantageando Íris pra que não te tire daqui. Manuel acha que pode ter algo com você. Ele sabe que sua família está te procurando.</default>
-	</talk>
-	<teller>
-		<default>Kat encara Edmont. Talita olha para Kat. Depois para Angely. Sai correndo. Edmont corre atrás.</default>
-	</teller>
-	<teller>
-		<first>Talita entra na cabana e olha para Manuel. Edmont, Kat e Derik entram atrás.</first>
-	</teller>
-	<talk character="Talita">
-		<default>Você mentiu pra mim?</default>
-	</talk>
-	<talk character="Manuel">
-		<default>Do que está falando?</default>
-	</talk>
-	<talk character="Talita">
-		<default>De tudo.</default>
-	</talk>
-	<talk character="Manuel">
-		<default>Eu te amo...</default>
-	</talk>
-	<talk character="Talita">
-		<default>Como filha?</default>
-	</talk>
-	<talk character="Manuel">
-		<default>Como mulher!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Ela não é uma mulher, é uma criança, seu animal!</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Kat.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não tínhamos planejado que vocês impediriam Talita de vir até aqui?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Dá próxima não manda o Edmont junto.</default>
-	</talk>
-	<teller>
-		<default>Edmont cara Kat. Manuel pega a arma. Puxa Kat e coloca a arma na cabeça dela. Vira para Angely.</default>
-	</teller>
-	<talk character="Manuel">
-		<default>Eu falei pra você ficar quieto.</default>
-	</talk>
-	<talk character="Íris">
-		<default>Larga ela, Manuel.</default>
-	</talk>
-	<talk character="Manuel">
-		<screamed>Cala essa boca!</screamed>
-	</talk>
-	<talk character="Talita">
-		<default>Achei que você fosse gente.</default>
-	</talk>
-	<talk character="Manuel">
-		<default>Ia fazer alguma diferença? Você não gosta de mim!</default>
-	</talk>
-	<talk character="Talita">
-		<default>Você sabia que eu tenho uma família?!</default>
-	</talk>
-	<talk character="Manuel">
-		<default>Não ia precisar deles, eu ia ser sua família! Poderíamos fazer uma família!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Kat, sai.</default>
-	</talk>
-	<teller>
-		<default>Kat franze a testa. Desfranze. Desmaia. Manuel solta Kat e aponta a arma para os outros.</default>
-	</teller>
-	<talk character="Manuel">
-		<default>Vocês todos vão morrer agora. Vão pagar pelo que fizeram!</default>
-	</talk>
-	<talk character="Brad">
-		<arrive>Abaixa a arma!</arrive>
-	</talk>
-	<talk character="Derik">
-		<default>Como chegou aqui?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Coloquei um rastreador no seu bolso sem que notasse.</default>
-	</talk>
-	<talk character="Manuel">
-		<default>Abaixa você essa droga ou eu mato um deles!</default>
-	</talk>
-	<talk character="Brad">
-		<default>Vai pegar muitos anos de prisão. Vocês dois!</default>
-	</talk>
-	<talk character="Manuel">
-		<default>E quem vai me prender? Você?</default>
-	</talk>
-	<talk character="Brad">
-		<default>Meus colegas que estão a caminho.</default>
-	</talk>
-	<talk character="Manuel">
-		<default>Pois quando chegarem só vão pegar um monte de corpos!</default>
-	</talk>
-	<talk character="Brad">
-		<default>Eu tô avisando, solta a arma e deita no chão!</default>
-	</talk>
-	<talk character="Manuel">
-		<default>Tenta então!</default>
-	</talk>
-	<talk character="Brad">
-		<default>Eu vou contar até...</default>
-	</talk>
-	<teller>
-		<default>Manuel atira em Brad. Talita se encolhe com o tiro. Paralisa. Olha para Manuel. Manuel pega Talita pelo braço e puxa, com a arma apontada para ela. Saem. Mel vai atrás, Edmont segue. Íris olha para Kat. Depois para Brad.</default>
-	</teller>
-</story>
+{
+	"season": "A",
+	"episode": "09",
+	"scene": "f",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A campainha toca. Mel sai da sala com o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Conhece um garoto chamado Derik?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, droga..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É o irmão da Talita!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como ele te encontrou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É policial!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik corre até o banheiro. Kat abre a porta. Brad entra e olha em volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, quem você pensa que é..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad mostra o distintivo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês conhecem um garoto de dezoito anos chamado Derik?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim, e você, quem é?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad Andrews. Esse garoto esteve na minha casa hoje de manhã. E tenho certeza que ele está aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Não vai encontrar ele aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso procurar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que está atrás dele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele veio perguntar da minha irmã."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talita?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabe???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu li no jornal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E adivinhou que eu sou irmão dela do nada? Clariviência???"
+				},
+				{
+					"type": "teller",
+					"text": "franze a testa"
+				},
+				{
+					"type": "default",
+					"text": "Peraí, vocês não são aquela banda que o avião caiu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é porque eu quero, pode ter certeza. Que se dane, não quero saber quem são, quero saber onde está aquele moleque que foi até a casa dos meus pais hoje de manhã!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad vai para a cozinha. Volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ficar sossegada que não vou machucar seu namorado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad abre o banheiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que um cachorro está fazendo no banheiro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É o Aurium."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E por que está vestido?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aurium sai do banheiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É uma brincadeira que Aurium gosta. Voltando a Derik, esteve aqui sim, mas saiu agora pouco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou ver lá em cima. Você vem comigo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad sobe. Kat olha para Mel. Mel encolhe e solta os ombros e aponta o andar de cima com a palma para cima. Kat solta o ar e sobe com os ombros caídos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos que nos livrar de Brad, Íris tá vindo pra cá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai encontrar Derik e vai embora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se ele descobrir os outros dois andares da casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem não vê a planta não descobre."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad entra em cada um dos quartos. Kat segue, arrastando os pés. Brad abre os armários, checa os banheiros e embaixo das camas. Desce a escada, seguido de Katerine."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, encontrou alguma coisa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel abre a porta da sala e encara Brad. Brad si."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se estiverem mentindo..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel fecha a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não acredito que nem perguntou do sótão!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, agora vamos pensar num plano pra trazer Talita pra cá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, primeiro, você vai distrair Manuel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talita vai quase todo dia ao lago."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu falo com ela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, Kat fala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que eu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Te identificou como amizade logo de cara."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca a campainha. Edmont atende."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu só vim aqui dizer que não podem fazer isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Temos que fazer isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que querem tanto tirar Talita de lá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe porque."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês estão arriscando vidas demais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Prefere deixar Talita lá, correndo esse risco?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E qual a desculpa que vão dar pro Manuel?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma caixa de chocolate, eu prometi levar pra Talita!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Íris suspira fundo. Senta no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu ajudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, essa parte foi fácil."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Íris chega na cabana, com Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manuel, você tá aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Que você quer???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manuel vai até a sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tem visita."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esqueceu alguma coisa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A Talita pediu pra Kat trazer isso pra ela."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel mostra a caixa de chocolate."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E porque não veio ela mesma?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá gripada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E porque não veio um dos dois?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não queriam voltar. Angely nem queria que eu viesse. A Talita tá aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela foi até o lago. Daqui a pouco ela tá de volta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lago."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talita está de biquini. Olha para Kat com Aurium e sorri. Vê Angely. Desmancha o sorriso e dá um passo atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que vocês tão fazendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Encontramos Brad."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu irmão. Desde que você sumiu a sua família tá te procurando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é conversa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que eu jogaria conversa em você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele me disse que fariam isso. Pra me levar daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manuel disse isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Disse que pessoas da cidade acham que todo mundo tem que ser promíscuo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Se eu quisesse dormir com você não precisaria de conversa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que vai fazer? Me pegar a força?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Poderia. Não tem ninguém olhando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu grito."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também não tem ninguém ouvindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não ia conseguir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talita, eu sou maior e mais forte que você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, tá piorando as coisas, não melhorando!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estou dizendo que não precisaria passar conversa, não que eu faria isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não vou com vocês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Brad queria que você voltasse pra casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu me lembro desse nome, mas não sei quem é."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É policial agora, sabia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está mentindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podemos te levar até a sua família. É só confiar na gente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talita sai da água. Olha para Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devia melhorar sua conversa pra convencer alguém de algo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talita veste um vestido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Preciso falar com Manuel primeiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manuel mentiu pra você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele não mentiria pra mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manuel e Íris não são irmãos. Foram namorados um dia. Íris estava te ajudando anos atrás, e Manuel está chantageando Íris pra que não te tire daqui. Manuel acha que pode ter algo com você. Ele sabe que sua família está te procurando."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat encara Edmont. Talita olha para Kat. Depois para Angely. Sai correndo. Edmont corre atrás."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Talita entra na cabana e olha para Manuel. Edmont, Kat e Derik entram atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você mentiu pra mim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que está falando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De tudo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu te amo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como filha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como mulher!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela não é uma mulher, é uma criança, seu animal!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tínhamos planejado que vocês impediriam Talita de vir até aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dá próxima não manda o Edmont junto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont cara Kat. Manuel pega a arma. Puxa Kat e coloca a arma na cabeça dela. Vira para Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu falei pra você ficar quieto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Íris",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Larga ela, Manuel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Cala essa boca!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei que você fosse gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ia fazer alguma diferença? Você não gosta de mim!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Talita",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você sabia que eu tenho uma família?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não ia precisar deles, eu ia ser sua família! Poderíamos fazer uma família!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat, sai."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat franze a testa. Desfranze. Desmaia. Manuel solta Kat e aponta a arma para os outros."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês todos vão morrer agora. Vão pagar pelo que fizeram!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Abaixa a arma!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como chegou aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Coloquei um rastreador no seu bolso sem que notasse."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Abaixa você essa droga ou eu mato um deles!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai pegar muitos anos de prisão. Vocês dois!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quem vai me prender? Você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meus colegas que estão a caminho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pois quando chegarem só vão pegar um monte de corpos!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tô avisando, solta a arma e deita no chão!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Manuel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenta então!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Brad",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou contar até..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Manuel atira em Brad. Talita se encolhe com o tiro. Paralisa. Olha para Manuel. Manuel pega Talita pelo braço e puxa, com a arma apontada para ela. Saem. Mel vai atrás, Edmont segue. Íris olha para Kat. Depois para Brad."
+				}
+			]
+		}
+	]
+}

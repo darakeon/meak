@@ -1,386 +1,1261 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="05" scene="c">
-	<teller>
-		<default>O sol está quase nascendo. Elian e Beatrice chegam à pensão.</default>
-	</teller>
-	<talk character="recepcionista">
-		<default>Apareceram dois caras aqui, fazendo perguntas...</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Homens?</default>
-	</talk>
-	<talk character="recepcionista">
-		<default>É. Eram iguais, mas a cor do cabelo era diferente.</default>
-	</talk>
-	<talk character="Elian">
-		<default>Não disseste nada sobre mim, disseste?</default>
-	</talk>
-	<talk character="recepcionista">
-		<default>Não, senhor.</default>
-	</talk>
-	<talk character="Elian">
-		<default>Continue assim.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>E se eu ficar com sede no meio do dia?</default>
-	</talk>
-	<teller>
-		<default>Eles vão pro quarto.</default>
-	</teller>
-	<talk character="Elian">
-		<default>Acho que vamos ter que sair daqui.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não devia ter provocado. Tirar a amiga embaixo da fuça deles...</default>
-	</talk>
-	<talk character="Elian">
-		<default>Foi divertido seguir ele enquanto ele achava que estava me seguindo.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>A recepcionista não vai deixar eles virem aqui nos perturbar.</default>
-	</talk>
-	<talk character="Elian">
-		<default>Não. Ela está com medo, minha pequena.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Sinto o medo dela. O cheiro do sangue...</default>
-	</talk>
-	<talk character="Elian">
-		<default>Não sei o que é melhor sentir: o medo deles ou o gosto do sangue.</default>
-	</talk>
-	<teller>
-		<default>Eles se beijam.</default>
-	</teller>
-	<teller>
-		<first>De manhã, MEAK, quarto do Edmont.</first>
-	</teller>
-	<talk character="Mel">
-		<default>Acorda! Temos que trabalhar!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Eu tô com sono!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vocês foram dormir só à meia-noite.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É, e são seis ainda!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Já é tarde. Íamos levantar às quatro!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vai acordar o Angely!</default>
-	</talk>
-	<talk character="Angely">
-		<arrive>Eu já acordei.</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Sorte sua!</default>
-	</talk>
-	<teller>
-		<default>Edmont cobre a cabeça com um travesseiro.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Eu já sei, vou buscar um copo d’água.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não, peraí, cara, isso é coisa de quando éramos crianças!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tá, gente, vamos logo pra cidade.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Falando em trabalho, nós temos que arranjar um. O dinheiro da poupança tá acabando.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Podemos fazer um teste vocacional.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É uma boa idéia. Se ficarmos com essa batata quente, temos que arranjar um trabalho pra nos sustentar, né?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Na escola estão fazendo, não estão?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>É, fazem.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas e eu?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Você também pode.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vamos, levantando, preguiçoso!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas depois a gente vai procurar ele.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Concordo.</default>
-	</talk>
-	<teller>
-		<default>Eles descem, tomam café e vão até a escola.</default>
-	</teller>
-	<talk character="atendente">
-		<default>Bom, vocês preencham isso aqui...</default>
-		<teller>a atendente entrega algumas folhas pra cada um deles</teller>
-		<default>...depois entreguem na secretaria.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Tá, obrigado.</default>
-	</talk>
-	<talk character="atendente">
-		<default>As salas da escola podem ser usadas pra preencher.</default>
-	</talk>
-	<teller>
-		<first>Kat acorda assustada. Aurium dormiu ao pé de sua cama.</first>
-	</teller>
-	<talk character="Kat">
-		<default>Droga... Ela não estava... Aurium, a bolsa.</default>
-	</talk>
-	<teller>
-		<default>Aurium atende. Ela escreve uma mensagem no bloco, guarda na bolsa e amarra a Aurium, que sai.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Tomara que você encontre eles...</default>
-	</talk>
-	<teller>
-		<default>10:00. Agatha e Meg acordam.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Ouviu uns barulhos à noite?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Ouvi. Era o Aurium, o cachorro da Kat.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ela tem cachorro?</default>
-	</talk>
-	<talk character="Meg">
-		<default>É, ela pediu pra eu deixar ela ficar com um cachorro, de presente de Natal, e eu deixei.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Ah, tá... Vamos arrumar a casa, que isso pelo menos podemos fazer.</default>
-	</talk>
-	<talk character="Meg">
-		<default>É mesmo, né? Pelo menos isso.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Tá, levanta daí.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Eu vou chamar a Kat. Deve estar dormindo ainda.</default>
-	</talk>
-	<teller>
-		<default>Meg sobe até o quarto.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Já acordada? E arrumou todo o quarto...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Algum problema?</default>
-	</talk>
-	<talk character="Meg">
-		<default>Que deu em você?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Nada. Só que eu estava sem sono.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Bom que já tenha arrumado o quarto. Eu e Agatha vamos arrumar a casa. Vai poder nos ajudar.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Ainda bem que resolveram arrumar. Tá uma bagunça.</default>
-	</talk>
-	<talk character="Meg">
-		<default>Você notou a bagunça?! Minha maninha tá crescendo...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Quem sabe. Já tenho dez anos.</default>
-	</talk>
-	<teller>
-		<default>Meg franze a testa.</default>
-	</teller>
-	<teller>
-		<first>Edmont e Angely voltam à pensão.</first>
-	</teller>
-	<talk character="recepcionista">
-		<default>Que fazem aqui de novo?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Olha, é dia. Esta pessoa que procuramos não anda no sol. Se nos disser que ele está aqui, não precisa se preocupar.</default>
-	</talk>
-	<talk character="recepcionista">
-		<default>Já disse que não está aqui!</default>
-	</talk>
-	<talk character="Angely">
-		<default>É esta pessoa. Está provavelmente sozinho.</default>
-	</talk>
-	<teller>
-		<default>Angely entrega um papel a recepcionista.</default>
-	</teller>
-	<talk character="recepcionista">
-		<default>Não, eu não sei quem é. Vão embora.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tudo bem. A gente vai achar, com ou sem sua ajuda.</default>
-	</talk>
-	<teller>
-		<default>Eles saem do hotel.</default>
-	</teller>
-	<talk character="Beatrice">
-		<default>Continue assim. Se disseres uma só palavra, já sabes o que ele te fará.</default>
-	</talk>
-	<talk character="recepcionista">
-		<default>Por que estão procurando?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não sabes mesmo?</default>
-	</talk>
-	<talk character="recepcionista">
-		<default>Caça-vampiros?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Hoje iremos embora. Não precisarás mais temer toda vez que ouvires barulhos.</default>
-	</talk>
-	<talk character="recepcionista">
-		<default>Por que está com ele?</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não te intrometas nisto.</default>
-	</talk>
-	<talk character="recepcionista">
-		<default>Posso me proteger, não podem andar de dia.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Sol tem só doze horas. As outras doze são da lua.</default>
-	</talk>
-	<talk character="recepcionista">
-		<default>Não pode me ameaçar. Logo serão pegos.</default>
-	</talk>
-	<talk character="Beatrice">
-		<default>Não me ameaces tu. Se ele é ruim, eu sou pior.</default>
-	</talk>
-	<teller>
-		<default>Beatrice volta ao quarto. Passa a mão nos cabelos de Elian, que dorme.</default>
-	</teller>
-	<talk character="Beatrice">
-		<default>Não te vão pegar. Não vão.</default>
-	</talk>
-	<teller>
-		<default>Ela se deita na frente dele, de costas. Ele a abraça. Ela fecha os olhos.</default>
-	</teller>
-	<teller>
-		<first>Mais tarde, Edmont e Angely estão na lanchonete. Angely olha no relógio.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Elas tão demorando, né?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Angely, são quatro e meia agora.</default>
-	</talk>
-	<talk character="Angely">
-		<default>É, já era pra estarem aqui.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Você é que está ansioso.</default>
-	</talk>
-	<teller>
-		<default>Edmont olha no relógio também. As duas chegam.</default>
-	</teller>
-	<talk character="Agatha">
-		<default>Ê, Edmont...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Ah, oi...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Vocês estão meio atrasadas, né?</default>
-	</talk>
-	<teller>
-		<default>Edmont pisa no pé de Angely.</default>
-	</teller>
-	<talk character="Meg">
-		<default>Foi só meia hora.</default>
-	</talk>
-	<talk character="Agatha">
-		<default>Estavam assim com tanta saudade?</default>
-	</talk>
-	<teller>
-		<default>Angely dá uma risada tímida. Meg e Agatha se sentam. Aurium, em sua forma alada, os vê conversando com as garotas. Olha para o céu e balança a cabeça. Na MEAK, Mel está em seu quarto.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Como que você pode lembrar tanto aquele desgraçado?</default>
-	</talk>
-	<teller>
-		<default>O pássaro chega à janela e Mel se assusta. Pega a bolsa, tira o bloco e vê o recado: Beatrice está viva, se podemos dizer isso deles.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não pode ser...</default>
-	</talk>
-	<teller>
-		<default>Mel escreve no bloco, coloca na bolsa e entrega a Aurium. Este voa até a janela do quarto de Kat. Ela pega a bolsa, tira o bloco e lê: Venha aqui, o mais rápido que puder, a minha casa. Coloca o bloco dentro da bolsa. O pássaro pega a bolsa e some.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Ei, onde pensa que vai???... Por que ela quer que eu vá lá?</default>
-	</talk>
-	<teller>
-		<default>Kat vai até a MEAK.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Que está procurando no computador?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Beatrice cresceu três anos em dois. Não há nenhuma doença que se relacione à isso.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Isso deve ter algo com o sobrenatural.</default>
-	</talk>
-	<talk character="Mel">
-		<default>É, pode ser.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Mas, não foi pra isso que me chamou aqui.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Foi outro sonho, ou viu?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Sonho. Mas por que está perguntando? Não acredita?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não, não é isso. Tá tudo muito confuso. Eu consegui o endereço do médico que fez o parto.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Acha que ele pode ajudar em alguma coisa?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Talvez ele saiba por que Lara morreu e também o que fez Beatrice crescer mais rápido do que deveria.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Isso não vai nos ajudar a pegar o vampiro.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tem algo errado com a garota, e eu tenho que descobrir o que é. É bom descobrir, pra saber o que vamos enfrentar.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Por quê?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vem ou não vem?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vamos. De moto?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Fazer o que, né?</default>
-	</talk>
-	<talk character="Kat">
-		<default>Vamos logo, antes que escureça.</default>
-	</talk>
-	<teller>
-		<default>Elas saem.</default>
-	</teller>
-</story>
+{
+	"season": "A",
+	"episode": "05",
+	"scene": "c",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O sol está quase nascendo. Elian e Beatrice chegam à pensão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Apareceram dois caras aqui, fazendo perguntas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Homens?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É. Eram iguais, mas a cor do cabelo era diferente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não disseste nada sobre mim, disseste?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, senhor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Continue assim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se eu ficar com sede no meio do dia?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles vão pro quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que vamos ter que sair daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não devia ter provocado. Tirar a amiga embaixo da fuça deles..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi divertido seguir ele enquanto ele achava que estava me seguindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A recepcionista não vai deixar eles virem aqui nos perturbar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Ela está com medo, minha pequena."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sinto o medo dela. O cheiro do sangue..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Elian",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei o que é melhor sentir: o medo deles ou o gosto do sangue."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles se beijam."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "De manhã, MEAK, quarto do Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acorda! Temos que trabalhar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tô com sono!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês foram dormir só à meia-noite."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, e são seis ainda!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já é tarde. Íamos levantar às quatro!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai acordar o Angely!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Eu já acordei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sorte sua!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont cobre a cabeça com um travesseiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu já sei, vou buscar um copo d’água."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, peraí, cara, isso é coisa de quando éramos crianças!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, gente, vamos logo pra cidade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Falando em trabalho, nós temos que arranjar um. O dinheiro da poupança tá acabando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podemos fazer um teste vocacional."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É uma boa idéia. Se ficarmos com essa batata quente, temos que arranjar um trabalho pra nos sustentar, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Na escola estão fazendo, não estão?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, fazem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas e eu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você também pode."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos, levantando, preguiçoso!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas depois a gente vai procurar ele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Concordo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles descem, tomam café e vão até a escola."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "atendente",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, vocês preencham isso aqui..."
+				},
+				{
+					"type": "teller",
+					"text": "a atendente entrega algumas folhas pra cada um deles"
+				},
+				{
+					"type": "default",
+					"text": "...depois entreguem na secretaria."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, obrigado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "atendente",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As salas da escola podem ser usadas pra preencher."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Kat acorda assustada. Aurium dormiu ao pé de sua cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga... Ela não estava... Aurium, a bolsa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aurium atende. Ela escreve uma mensagem no bloco, guarda na bolsa e amarra a Aurium, que sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tomara que você encontre eles..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "10:00. Agatha e Meg acordam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ouviu uns barulhos à noite?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ouvi. Era o Aurium, o cachorro da Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela tem cachorro?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, ela pediu pra eu deixar ela ficar com um cachorro, de presente de Natal, e eu deixei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, tá... Vamos arrumar a casa, que isso pelo menos podemos fazer."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É mesmo, né? Pelo menos isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, levanta daí."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou chamar a Kat. Deve estar dormindo ainda."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg sobe até o quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já acordada? E arrumou todo o quarto..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Algum problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que deu em você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nada. Só que eu estava sem sono."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom que já tenha arrumado o quarto. Eu e Agatha vamos arrumar a casa. Vai poder nos ajudar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ainda bem que resolveram arrumar. Tá uma bagunça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você notou a bagunça?! Minha maninha tá crescendo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem sabe. Já tenho dez anos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meg franze a testa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Edmont e Angely voltam à pensão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que fazem aqui de novo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, é dia. Esta pessoa que procuramos não anda no sol. Se nos disser que ele está aqui, não precisa se preocupar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já disse que não está aqui!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É esta pessoa. Está provavelmente sozinho."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely entrega um papel a recepcionista."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, eu não sei quem é. Vão embora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem. A gente vai achar, com ou sem sua ajuda."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eles saem do hotel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Continue assim. Se disseres uma só palavra, já sabes o que ele te fará."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que estão procurando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabes mesmo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Caça-vampiros?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Hoje iremos embora. Não precisarás mais temer toda vez que ouvires barulhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que está com ele?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te intrometas nisto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso me proteger, não podem andar de dia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sol tem só doze horas. As outras doze são da lua."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "recepcionista",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode me ameaçar. Logo serão pegos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não me ameaces tu. Se ele é ruim, eu sou pior."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice volta ao quarto. Passa a mão nos cabelos de Elian, que dorme."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Beatrice",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não te vão pegar. Não vão."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela se deita na frente dele, de costas. Ele a abraça. Ela fecha os olhos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Mais tarde, Edmont e Angely estão na lanchonete. Angely olha no relógio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Elas tão demorando, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, são quatro e meia agora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, já era pra estarem aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é que está ansioso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont olha no relógio também. As duas chegam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ê, Edmont..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, oi..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês estão meio atrasadas, né?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont pisa no pé de Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Meg",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi só meia hora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Agatha",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estavam assim com tanta saudade?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely dá uma risada tímida. Meg e Agatha se sentam. Aurium, em sua forma alada, os vê conversando com as garotas. Olha para o céu e balança a cabeça. Na MEAK, Mel está em seu quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como que você pode lembrar tanto aquele desgraçado?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O pássaro chega à janela e Mel se assusta. Pega a bolsa, tira o bloco e vê o recado: Beatrice está viva, se podemos dizer isso deles."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pode ser..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel escreve no bloco, coloca na bolsa e entrega a Aurium. Este voa até a janela do quarto de Kat. Ela pega a bolsa, tira o bloco e lê: Venha aqui, o mais rápido que puder, a minha casa. Coloca o bloco dentro da bolsa. O pássaro pega a bolsa e some."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ei, onde pensa que vai???... Por que ela quer que eu vá lá?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat vai até a MEAK."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que está procurando no computador?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Beatrice cresceu três anos em dois. Não há nenhuma doença que se relacione à isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso deve ter algo com o sobrenatural."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, pode ser."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas, não foi pra isso que me chamou aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Foi outro sonho, ou viu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sonho. Mas por que está perguntando? Não acredita?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, não é isso. Tá tudo muito confuso. Eu consegui o endereço do médico que fez o parto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha que ele pode ajudar em alguma coisa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez ele saiba por que Lara morreu e também o que fez Beatrice crescer mais rápido do que deveria."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não vai nos ajudar a pegar o vampiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem algo errado com a garota, e eu tenho que descobrir o que é. É bom descobrir, pra saber o que vamos enfrentar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vem ou não vem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos. De moto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fazer o que, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos logo, antes que escureça."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Elas saem."
+				}
+			]
+		}
+	]
+}

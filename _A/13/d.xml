@@ -1,522 +1,1695 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="13" scene="d">
-	<teller>
-		<default>Mel abre os olhos. Luz forte. Fecha os olhos. Abre novamente. Coloca a mão na frente do rosto.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Onde eu tô?</default>
-	</talk>
-	<talk character="Psique">
-		<default>Ah, meu Deus...</default>
-	</talk>
-	<teller>
-		<default>Mel se senta na cama. Psique arregala os olhos.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Que isso?</default>
-	</talk>
-	<teller>
-		<default>Mel arranca os tubos. Levanta.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Deita aí, garota, você tava em coma!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu? Cadê minha família?</default>
-	</talk>
-	<talk character="Psique">
-		<default>Vou ligar pra eles, mas deita aí antes...</default>
-	</talk>
-	<teller>
-		<default>Mel olha Psique de canto. Se senta na cama.</default>
-	</teller>
-	<talk character="Psique">
-		<screamed>Enfermeira!</screamed>
-	</talk>
-	<talk character="Paula">
-		<arrive>Sim?</arrive>
-	</talk>
-	<talk character="Psique">
-		<default>Não deixa ela levantar.</default>
-	</talk>
-	<talk character="Paula">
-		<default>Tá...</default>
-	</talk>
-	<teller>
-		<default>MEAK. Angely atende o telefone.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Alô?</default>
-	</talk>
-	<talk character="Psique">
-		<default>Lorrage Kallend?</default>
-	</talk>
-	<teller>
-		<default>Casa de Dara. Edmont desliga o telefone.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Talvez a Mel saiba alguma coisa.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Sobre o quê?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Kat.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Acho que Kat não quer terminar a banda e fugiu.</default>
-	</talk>
-	<teller>
-		<default>Dara cruza os braços.</default>
-	</teller>
-	<talk character="Edmont">
-		<default> Acha mesmo que tem alguma coisa errada?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não sei. Derik tá procurando.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Como sabe?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Já passou por aqui umas três vezes.</default>
-	</talk>
-	<teller>
-		<first>Hospital. Angely anda de um lado a outro. Edmont e Dara chegam. Angely se aproxima.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Disseram pra esperar aqui. Estão fazendo umas perguntas à Mel.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Vai furar o chão.</default>
-	</talk>
-	<teller>
-		<default>Quarto de Mel. Mel está de braços cruzados encarando Psique. Michael entra.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Até que enfim chegou...</default>
-	</talk>
-	<talk character="Michael">
-		<default>É ela?</default>
-	</talk>
-	<talk character="Mel">
-		<irony>Não, é o pombo na janela. Vai lá analisar.</irony>
-	</talk>
-	<talk character="Michael">
-		<default>Parece de mal-humor.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Também ficaria se não te deixassem sair da cama, ou falar com sua família.</default>
-	</talk>
-	<talk character="Michael">
-		<default>Tenho que fazer algumas perguntas. Sabe seu nome?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Joana d’Arc.</default>
-	</talk>
-	<talk character="Michael">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Peraí, você não acreditou, né?</default>
-	</talk>
-	<talk character="Michael">
-		<default>Isso não é uma brincadeira, senhorita Melody.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se já sabe, pra que perguntou?</default>
-	</talk>
-	<teller>
-		<default>Michael puxa uma cadeira e senta. Mel bufa.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Melody Lorrage Kallend. Acertei?</default>
-	</talk>
-	<talk character="Michael">
-		<default>Idade.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Em que ano estamos?</default>
-	</talk>
-	<teller>
-		<default>Michael olha pra Psique. Mel revira os olhos.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Vinte e sete anos.</default>
-	</talk>
-	<teller>
-		<default>Michael encara Mel.</default>
-	</teller>
-	<talk character="Michael">
-		<default>Nome dos seus irmãos.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Edmont, vinte e dois, Angely, vinte e dois, Katerine, treze, e o Aurium tem dezoito.</default>
-	</talk>
-	<teller>
-		<default>Michael franze a testa, abre a ficha.</default>
-	</teller>
-	<talk character="Mel">
-		<default>É o cachorro. Me adiantei.</default>
-	</talk>
-	<teller>
-		<default>Michael olha para Mel por cima da ficha. Fecha a ficha e pousa no colo.</default>
-	</teller>
-	<talk character="Michael">
-		<default>Por que entrou em coma?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Informação confidencial.</default>
-	</talk>
-	<talk character="Michael">
-		<default>Que?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não vou dizer.</default>
-	</talk>
-	<teller>
-		<default>Angely entra na sala.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Mel...</default>
-	</talk>
-	<teller>
-		<default>Angely vai até Mel e abraça. Mel retribui o abraço. Depois afasta. Angely olha para Psique.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Mel tá bem?</default>
-	</talk>
-	<talk character="Michael">
-		<default>Exceto se não tivesse costume de brincar com a cara dos outros antes.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não estou com nenhum problema, estou me sentindo super bem.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Me corrija se errar: paguei uma semana por um furo de nada no estômago.</default>
-	</talk>
-	<teller>
-		<default>Michael franze a testa e olha para Psique. Edmont e Dara entram no quarto.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Parece que a irmã de vocês voltou ao normal.</default>
-	</talk>
-	<talk character="Michael">
-		<default>Se notarem algo errado, me liguem. Me parece estar muito bem.</default>
-	</talk>
-	<teller>
-		<default>Michael sai do quarto. Psique olha para Mel. Sai do quarto também.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Irmã de vocês?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Acho que ela te confundiu com a Kat.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Pareço ter treze anos?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não sei... Com essa roupa... Que fizeram com você enquanto eu dormia?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você não tá sentindo nada?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Se não estivesse, acho que tava morta...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Estou falando de algo ruim.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tédio conta?</default>
-	</talk>
-	<teller>
-		<default>Edmont vai até Mel. Abraça.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Eu sabia que você ia ficar bem.</default>
-	</talk>
-	<teller>
-		<default>Mel franze a testa e afasta Edmont.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não tão esquecendo quem tem mais idade aqui pra cuidar de quem, né?</default>
-	</talk>
-	<teller>
-		<default>Mel olha para Angely.</default>
-	</teller>
-	<talk character="Mel">
-		<default>E Kat?</default>
-	</talk>
-	<teller>
-		<default>Silêncio.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Tudo bem, o que estão escondendo?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Saiu ontem. Não voltou ainda.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Kat ligou e disse que está na casa de alguém.</default>
-	</talk>
-	<teller>
-		<default>Aurium pousa na janela. Mel olha. Arregala os olhos.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Cadê as minhas coisas???</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mel, não pode sair assim!</default>
-	</talk>
-	<teller>
-		<default>Psique entra no quarto.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Vamos fazer alguns exames e você terá alta logo.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quero minhas roupas!</default>
-	</talk>
-	<talk character="Psique">
-		<default>Estavam rasgadas, jogamos fora...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Edmont...</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Nem pensar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Dara?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não até ter alta.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Dara pode responder por si.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Vai me matar se eu concordar?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Angely, eu sei que...</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você fica, Mel, a gente vê o que tá acontecendo. Repouso, lembra?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Mas pôde ir pra casa! E também, não tinha ninguém desaparecido!</default>
-	</talk>
-	<talk character="Psique">
-		<default>Quanto mais cedo fizermos os exames, mas rápido sairá.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu quero sair agora!</default>
-	</talk>
-	<talk character="Psique">
-		<default>Vai ter que esperar.</default>
-	</talk>
-	<teller>
-		<default>Mel olha para a janela. Vazia.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Vocês três, ninguém dorme antes de achar Kat!</default>
-	</talk>
-	<teller>
-		<default>Psique franze a testa.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Pode nos dar licença?</default>
-	</talk>
-	<talk character="Psique">
-		<default>São três e meia, às quatro venho pra começarmos os exames.</default>
-	</talk>
-	<teller>
-		<default>Psique sai.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Você sabe de alguma coisa.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Kat não tá onde tá por vontade própria. Achei que era só sonho.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Pensei que só Kat tivesse esse poder.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Kat pode entrar em sonhos.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Te disse isso?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não, acho que ainda não sabe. Deve ser inconsciente, como o "desmaio".</default>
-	</talk>
-	<talk character="Edmont">
-		<default>O que sabe?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Kat falou que é vampiro e que disse que não vai matar.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Como se desse pra acreditar em palavra de vampiro...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por isso eu quero ir pra casa.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não vai adiantar nada, Kat desaparecida e você doente.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não tô doente!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Melhor você ficar aqui, Mel. A gente vai procurar Kat.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Tem alguma idéia de como é o lugar?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não. Melhor irem logo.</default>
-	</talk>
-	<teller>
-		<default>Edmont abraça Mel.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Tchau.</default>
-	</talk>
-	<teller>
-		<default>Edmont e Dara saem.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Se cuida.</default>
-	</talk>
-	<teller>
-		<default>Angely abraça Mel.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Eu vou.</default>
-	</talk>
-	<teller>
-		<default>Angely dá um beijo na testa de Mel. Sai.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Agora só esperar Derik voltar.</default>
-	</talk>
-	<teller>
-		<first>16h. Psique entra no quarto.</first>
-	</teller>
-	<talk character="Psique">
-		<default>Bom, acho que...</default>
-	</talk>
-	<teller>
-		<default>Ninguém. Janela aberta.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Essa garota é louca!</default>
-	</talk>
-	<teller>
-		<default>Psique pega o telefone. Disca. Aguarda.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Melody L. K. fugiu do hospital.</default>
-	</talk>
-	<talk character="Michael">
-		<out>Oi pra você também.</out>
-	</talk>
-	<talk character="Psique">
-		<default>Isso é sério!</default>
-	</talk>
-	<talk character="Michael">
-		<out>Se ela fugiu, é por que estava em condições de fazer isso.</out>
-	</talk>
-	<talk character="Psique">
-		<default>Não fizemos os exames.</default>
-	</talk>
-	<talk character="Michael">
-		<out>Queria que eu impedisse que ela fugisse? Eu sou psicólogo, não segurança do hospital.</out>
-	</talk>
-	<talk character="Psique">
-		<default>Quer dizer que você já sabia???</default>
-	</talk>
-	<talk character="Michael">
-		<out>Estava na cara que ela tentaria. Se ninguém viu ela sair, então...</out>
-	</talk>
-	<talk character="Psique">
-		<default>Saiu pela janela!</default>
-	</talk>
-	<talk character="Michael">
-		<out>Como pode ter certeza?</out>
-	</talk>
-	<teller>
-		<default>Casa de Psique e Michael.</default>
-	</teller>
-	<talk character="Psique">
-		<out>A porta tava trancada!</out>
-	</talk>
-	<talk character="Michael">
-		<default>Ela é mesmo louca.</default>
-	</talk>
-	<talk character="Psique">
-		<default>E você, psicólogo! Por que não me avisou que ela ia fugir???</default>
-	</talk>
-	<talk character="Michael">
-		<default>Por que eu não sabia que ia ser pela janela!</default>
-	</talk>
-	<teller>
-		<default>Um barulho forte do outro lado do telefone</default>
-	</teller>
-	<talk character="Michael">
-		<default>Psique? Psique???</default>
-	</talk>
-	<teller>
-		<default>Hospital. Mel pega o telefone da mão de Psique. Desliga. Pega Psique no colo. Coloca na cama. Pousa o celular do lado. Sai do quarto. Puxa a touca da blusa para cima dos cabelos. Passa pelos corredores a passos rápidos. Sai do hospital. Aurium, forma canina, estava na calçada. Levanta-se. Anda. Mel segue. Chegam a um beco. Autrium para ao lado de uma bolsa. Mel pega do chão. Abre. Franze a testa. Olha para Aurium. Desfranze. Tira a roupa de dentro da bolsa. Joga no chão. Se vira. Aurium late. Mel desvira. Pega a roupa, coloca na bolsa e põe a bolsa a tiracolo. Aurium continua andando, agora farejando o chão. Mel segue.</default>
-	</teller>
-	<teller>
-		<first>Noite. Mel e Derik chegam a uma casa.</first>
-	</teller>
-	<talk character="Mel">
-		<default>Não, tem janelas demais.</default>
-	</talk>
-	<teller>
-		<default>Derik raspa as patas na porta. Mel encara. Bate na porta. Nada. Mexe na maçaneta. Aberta. Entram. Aurium resmunga. Mel abre a bolsa e pousa a roupa no sofá. E se vira. Aurium volta a ser Derik. Derik se veste.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Kat tá aqui. Eu sei que está.</default>
-	</talk>
-	<teller>
-		<default>Mel vira para Derik.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Se foi um vampiro que levou, está no subterrâneo.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não vou ter que virar cachorro de novo, vou?</default>
-	</talk>
-	<talk character="Mel">
-		<default>A casa tá empoeirada, é só procurar um lugar mais limpo, sinal de que alguém esteve a pouco tempo.</default>
-	</talk>
-	<teller>
-		<default>Andam pela casa. Derik entra em um quarto. Olha embaixo da cama. Uma mão em seu ombro. Dá um pulo para trás.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Calma. Achei. Na cozinha.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Não deveríamos ter trazido uma estaca?</default>
-	</talk>
-	<teller>
-		<default>Mel olha para cima da cama. Franze a testa. Pega uma besta.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Acho que não.</default>
-	</talk>
-	<talk character="Derik">
-		<default>E sua mira?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Continua uma merda. Mas ninguém precisa saber disso.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "13",
+	"scene": "d",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel abre os olhos. Luz forte. Fecha os olhos. Abre novamente. Coloca a mão na frente do rosto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde eu tô?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, meu Deus..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel se senta na cama. Psique arregala os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que isso?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel arranca os tubos. Levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deita aí, garota, você tava em coma!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu? Cadê minha família?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou ligar pra eles, mas deita aí antes..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha Psique de canto. Se senta na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Enfermeira!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Paula",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Sim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não deixa ela levantar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Paula",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "MEAK. Angely atende o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alô?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lorrage Kallend?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Casa de Dara. Edmont desliga o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez a Mel saiba alguma coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sobre o quê?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que Kat não quer terminar a banda e fugiu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": " Acha mesmo que tem alguma coisa errada?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Derik tá procurando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já passou por aqui umas três vezes."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Hospital. Angely anda de um lado a outro. Edmont e Dara chegam. Angely se aproxima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Disseram pra esperar aqui. Estão fazendo umas perguntas à Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai furar o chão."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quarto de Mel. Mel está de braços cruzados encarando Psique. Michael entra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Até que enfim chegou..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É ela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Não, é o pombo na janela. Vai lá analisar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece de mal-humor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também ficaria se não te deixassem sair da cama, ou falar com sua família."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho que fazer algumas perguntas. Sabe seu nome?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Joana d’Arc."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Peraí, você não acreditou, né?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não é uma brincadeira, senhorita Melody."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se já sabe, pra que perguntou?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michael puxa uma cadeira e senta. Mel bufa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody Lorrage Kallend. Acertei?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Idade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Em que ano estamos?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michael olha pra Psique. Mel revira os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vinte e sete anos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michael encara Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nome dos seus irmãos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont, vinte e dois, Angely, vinte e dois, Katerine, treze, e o Aurium tem dezoito."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michael franze a testa, abre a ficha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É o cachorro. Me adiantei."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michael olha para Mel por cima da ficha. Fecha a ficha e pousa no colo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que entrou em coma?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Informação confidencial."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vou dizer."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely entra na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely vai até Mel e abraça. Mel retribui o abraço. Depois afasta. Angely olha para Psique."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel tá bem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Exceto se não tivesse costume de brincar com a cara dos outros antes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não estou com nenhum problema, estou me sentindo super bem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me corrija se errar: paguei uma semana por um furo de nada no estômago."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michael franze a testa e olha para Psique. Edmont e Dara entram no quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parece que a irmã de vocês voltou ao normal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se notarem algo errado, me liguem. Me parece estar muito bem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Michael sai do quarto. Psique olha para Mel. Sai do quarto também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Irmã de vocês?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que ela te confundiu com a Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pareço ter treze anos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei... Com essa roupa... Que fizeram com você enquanto eu dormia?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não tá sentindo nada?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se não estivesse, acho que tava morta..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estou falando de algo ruim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tédio conta?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont vai até Mel. Abraça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sabia que você ia ficar bem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel franze a testa e afasta Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tão esquecendo quem tem mais idade aqui pra cuidar de quem, né?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E Kat?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Silêncio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem, o que estão escondendo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Saiu ontem. Não voltou ainda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat ligou e disse que está na casa de alguém."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aurium pousa na janela. Mel olha. Arregala os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê as minhas coisas???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, não pode sair assim!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique entra no quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos fazer alguns exames e você terá alta logo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quero minhas roupas!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estavam rasgadas, jogamos fora..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem pensar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não até ter alta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara pode responder por si."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai me matar se eu concordar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, eu sei que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você fica, Mel, a gente vê o que tá acontecendo. Repouso, lembra?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas pôde ir pra casa! E também, não tinha ninguém desaparecido!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quanto mais cedo fizermos os exames, mas rápido sairá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu quero sair agora!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai ter que esperar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para a janela. Vazia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês três, ninguém dorme antes de achar Kat!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique franze a testa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode nos dar licença?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "São três e meia, às quatro venho pra começarmos os exames."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você sabe de alguma coisa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat não tá onde tá por vontade própria. Achei que era só sonho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pensei que só Kat tivesse esse poder."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat pode entrar em sonhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Te disse isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, acho que ainda não sabe. Deve ser inconsciente, como o "desmaio"."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat falou que é vampiro e que disse que não vai matar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como se desse pra acreditar em palavra de vampiro..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por isso eu quero ir pra casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai adiantar nada, Kat desaparecida e você doente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tô doente!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor você ficar aqui, Mel. A gente vai procurar Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem alguma idéia de como é o lugar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Melhor irem logo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont abraça Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tchau."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont e Dara saem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se cuida."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely abraça Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu vou."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely dá um beijo na testa de Mel. Sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora só esperar Derik voltar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "16h. Psique entra no quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, acho que..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ninguém. Janela aberta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essa garota é louca!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique pega o telefone. Disca. Aguarda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody L. K. fugiu do hospital."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Oi pra você também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso é sério!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Se ela fugiu, é por que estava em condições de fazer isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não fizemos os exames."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Queria que eu impedisse que ela fugisse? Eu sou psicólogo, não segurança do hospital."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer dizer que você já sabia???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Estava na cara que ela tentaria. Se ninguém viu ela sair, então..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Saiu pela janela!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Como pode ter certeza?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Casa de Psique e Michael."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "A porta tava trancada!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela é mesmo louca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você, psicólogo! Por que não me avisou que ela ia fugir???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que eu não sabia que ia ser pela janela!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um barulho forte do outro lado do telefone"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Michael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Psique? Psique???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Hospital. Mel pega o telefone da mão de Psique. Desliga. Pega Psique no colo. Coloca na cama. Pousa o celular do lado. Sai do quarto. Puxa a touca da blusa para cima dos cabelos. Passa pelos corredores a passos rápidos. Sai do hospital. Aurium, forma canina, estava na calçada. Levanta-se. Anda. Mel segue. Chegam a um beco. Autrium para ao lado de uma bolsa. Mel pega do chão. Abre. Franze a testa. Olha para Aurium. Desfranze. Tira a roupa de dentro da bolsa. Joga no chão. Se vira. Aurium late. Mel desvira. Pega a roupa, coloca na bolsa e põe a bolsa a tiracolo. Aurium continua andando, agora farejando o chão. Mel segue."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Noite. Mel e Derik chegam a uma casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, tem janelas demais."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik raspa as patas na porta. Mel encara. Bate na porta. Nada. Mexe na maçaneta. Aberta. Entram. Aurium resmunga. Mel abre a bolsa e pousa a roupa no sofá. E se vira. Aurium volta a ser Derik. Derik se veste."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat tá aqui. Eu sei que está."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel vira para Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se foi um vampiro que levou, está no subterrâneo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vou ter que virar cachorro de novo, vou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A casa tá empoeirada, é só procurar um lugar mais limpo, sinal de que alguém esteve a pouco tempo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andam pela casa. Derik entra em um quarto. Olha embaixo da cama. Uma mão em seu ombro. Dá um pulo para trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Calma. Achei. Na cozinha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não deveríamos ter trazido uma estaca?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha para cima da cama. Franze a testa. Pega uma besta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E sua mira?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Continua uma merda. Mas ninguém precisa saber disso."
+				}
+			]
+		}
+	]
+}

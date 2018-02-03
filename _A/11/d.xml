@@ -1,593 +1,1929 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="11" scene="d">
-	<teller>
-		<default>Subterrâneo da cidade.</default>
-	</teller>
-	<talk character="Virgine">
-		<default>Que aconteceu dessa vez?</default>
-	</talk>
-	<talk character="Argo">
-		<default>Está faltando alguém.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Rust.</default>
-	</talk>
-	<talk character="Virgine">
-		<default>Ele some às vezes.</default>
-	</talk>
-	<talk character="Andrews">
-		<arrive>Que pena.</arrive>
-	</talk>
-	<talk character="Argo">
-		<default>Acho que todos aqui já sabem que ele voltou a sanidade.</default>
-	</talk>
-	<talk character="Virgine">
-		<default>Por que ninguém me avisou que esse desgraçado tinha acordado?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Obrigado pela parte que me toca.</default>
-	</talk>
-	<teller>
-		<default>Andrews se senta.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Soube que cada um de vocês criou características próprias. Argo vive no subterrâneo. Rust é tido como um fantasma. Virgine tem um grupo pra destruir os caça-vampiros. Kassandra seduz as vítimas. Dilan as enlouquece.</default>
-	</talk>
-	<talk character="Dilan">
-		<default>Como sabe disso?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Tenho uma ligação com vocês, esqueceram? Muitas vezes sei exatamente o que estão fazendo.</default>
-	</talk>
-	<talk character="Virgine">
-		<default>Papo furado. Por que não descobriu a nossa armação?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Estava distante. Não física, mentalmente distante.</default>
-	</talk>
-	<teller>
-		<default>Virgine se levanta.</default>
-	</teller>
-	<talk character="Argo">
-		<default>Virgine...</default>
-	</talk>
-	<talk character="Virgine">
-		<default>Tenho mais o que fazer do que escutar essa ladainha, Argo.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Ladainha?</default>
-	</talk>
-	<talk character="Virgine">
-		<default>Voltou e quer se adaptar a esse mundo. Bem. Mas não queira minha ajuda.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Por que fala assim comigo?</default>
-	</talk>
-	<talk character="Virgine">
-		<default>É o primeiro? Resiste mais do que nós? Foda-se. Continuo não gostando de você e não vou ficar aqui demonstrando um falso respeito pelo ser mais desprezível que conheço.</default>
-	</talk>
-	<teller>
-		<default>Virgine sai. Dilan se levanta.</default>
-	</teller>
-	<talk character="Dilan">
-		<default>Ela tem mais o que fazer fora, eu não tenho mais o que fazer aqui.</default>
-	</talk>
-	<teller>
-		<default>Dilan sai também. Kassandra olha pra Andrews, que sorri. Kassandra cruza os braços.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Reagiram melhor que Rust.</default>
-	</talk>
-	<teller>
-		<default>Andrews levanta e sai.</default>
-	</teller>
-	<talk character="Argo">
-		<default>Sabe de alguma coisa?</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Não. O que será que ele tá pensando?</default>
-	</talk>
-	<talk character="Argo">
-		<default>De todos nós, é o mais imprevisível.</default>
-	</talk>
-	<talk character="Kassandra">
-		<default>Melhor nós não mexermos mais com ele.</default>
-	</talk>
-	<teller>
-		<default>Noite. Andrews está no balcão de um bar. Olha uma mesa.</default>
-	</teller>
-	<talk character="Samanta">
-		<default>Tá, Stephany, quem seria o cara perfeito pra você?</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Gente, não me mete nessa história...</default>
-	</talk>
-	<talk character="Jenny">
-		<default>Ah, não! Todas nós dissemos!</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Eu não...</default>
-	</talk>
-	<talk character="Lili">
-		<default>Vai dizer que você é lésbica?</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Não é isso.</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Então fala. Estamos entre amigas.</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Muito amigas... Da onça!</default>
-	</talk>
-	<teller>
-		<default>Stephany aponta o próprio corpo com as mãos, de cima a baixo.</default>
-	</teller>
-	<talk character="Jenny">
-		<default>Isso foi uma aposta.</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Fala logo!</default>
-	</talk>
-	<teller>
-		<default>Stephany suspira.</default>
-	</teller>
-	<talk character="Stephany">
-		<default>Ele tem que ser diferente. Meio selvagem.</default>
-	</talk>
-	<talk character="Samanta">
-		<default>Ê, Stephany!</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Quero que ele descubra, olhando pela primeira vez em meus olhos, meu pior medo e me force a perdê-lo.</default>
-	</talk>
-	<talk character="Jenny">
-		<default>Quem ia imaginar...</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Você, hein, Stephany...</default>
-	</talk>
-	<talk character="Samanta">
-		<default>Parecia tão comportada...</default>
-	</talk>
-	<talk character="Lili">
-		<default>Descubra o medo no olhar, seja selvagem, você quer um vampiro...</default>
-	</talk>
-	<teller>
-		<default>Andrews se aproxima da mesa, para atrás de Stephany. Samanta cutuca Amanda. Jenny olha também. Então Lili.</default>
-	</teller>
-	<talk character="Lili">
-		<default>Que deus grego...</default>
-	</talk>
-	<teller>
-		<default>Andrews dá um sorriso.</default>
-	</teller>
-	<talk character="Stephany">
-		<default>Queria ver você dizer isso na cara do cara de quem tá falando.</default>
-	</talk>
-	<talk character="Samanta">
-		<default>Ele tá perto o suficiente pra ter ouvido.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Grego sim. Deus não.</default>
-	</talk>
-	<teller>
-		<default>Stephany sai bruscamente da cadeira. A cadeira cai no chão. Andrews levanta a cadeira e coloca no lugar.</default>
-	</teller>
-	<talk character="Jenny">
-		<default>Não liga, ela chegou na cidade hoje.</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Tá um pouco assustada.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Eu imagino o que faria se eu fosse um vampiro.</default>
-	</talk>
-	<talk character="Samanta">
-		<default>Ia te agarrar!</default>
-	</talk>
-	<teller>
-		<default>Samanta, Amanda, Jenny e Lili dão risada. Andrews olha fixamente nos olhos de Stephany.</default>
-	</teller>
-	<talk character="Lili">
-		<default>Tá escutando?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Ah?</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Eu tenho que ir.</default>
-	</talk>
-	<talk character="Samanta">
-		<default>Não, você apostou.</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Já paguei, vim até aqui com essa roupa ridícula e fiquei algum tempo.</default>
-	</talk>
-	<teller>
-		<default>Stephany vai para o caixa. Andrews olha algum tempo. Vai em direção a saída. Lili cutuca Jenny. Jenny levanta e segura o braço de Andrews.</default>
-	</teller>
-	<talk character="Jenny">
-		<default>Não vai conseguir nada.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Que?</default>
-	</talk>
-	<talk character="Jenny">
-		<default>Ela não deixa ninguém encostar nela...</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Tem medo disso, eu percebi.</default>
-	</talk>
-	<talk character="Jenny">
-		<default>Você tá sozinho?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Desculpe, senhorita, tenho que ir.</default>
-	</talk>
-	<teller>
-		<default>Andrews sai.</default>
-	</teller>
-	<talk character="Jenny">
-		<default>Senhorita? Hã, agora sei por que olhou pra esquisitinha comportada.</default>
-	</talk>
-	<teller>
-		<default>Stephany chega na porta de casa. Derruba a chave. Suspira. Pega do chão.</default>
-	</teller>
-	<talk character="Andrews">
-		<arrive>Não te disseram que é perigoso andar na rua a essa hora?</arrive>
-	</talk>
-	<teller>
-		<default>Stephany derruba a chave de novo.</default>
-	</teller>
-	<talk character="Stephany">
-		<default>Por que me seguiu???</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Por que fugiu do bar?</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Você não tem sotaque de nada pra ser estrangeiro. Disse que é grego...</default>
-	</talk>
-	<talk character="Andrews">
-		<default>E sou.</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Então devia ter mais o sotaque de português de Portugal.</default>
-	</talk>
-	<teller>
-		<default>Andrews se aproxima de Stephany. Stephany se afasta.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Tá com medo de mim?</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Eu tenho que entrar.</default>
-	</talk>
-	<teller>
-		<default>Stephany abre a porta e Andrews segura seu braço.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Não parece com elas.</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Não sou elas.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Do que tem medo?</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Me olhando desse jeito, ainda pergunta?</default>
-	</talk>
-	<teller>
-		<default>Stephany puxa seu braço. Entra. Tranca a porta. Dá um puxão. Coloca a bolsa no sofá. Deita em uma rede.</default>
-	</teller>
-	<talk character="Stephany">
-		<thought>Elas também... Nem pra me avisar que tinha um cara atrás de mim. Ele deve ter ouvido o que eu disse. Quando se aproximou, percebeu. Ele quer bancar o engraçadinho comigo. Não vai conseguir.</thought>
-	</talk>
-	<teller>
-		<default>Andrews segue andando.</default>
-	</teller>
-	<talk character="Paulo">
-		<default>Oi... Eu sou novo na cidade... Preciso saber onde...</default>
-	</talk>
-	<teller>
-		<default>Andrews encosta Paulo no parede. Morde. Paulo se debate. Perde as forças. Andrews solta Paulo. Lambe a lateral da boca. Abaixa a limpa a boca na roupa de Paulo. Pega a carteira. Abre. Senta-se no chão.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Paulo. Não sabe o que fiz. Um holandês casado e sério, um russo bandido e rebelde, uma inglesa freira revoltada, uma prostituta francesa que gosta do perigo e um italiano vagabundo e egocêntrico. Talvez devesse deixar eles viverem. Tiveram ao menos a coragem de me enfrentar. Os humanos, nem isso.</default>
-	</talk>
-	<teller>
-		<default>Andrews joga a carteira de volta em Paulo.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Deixe que a natureza cuida dessas duas espécies em que cada um se julga melhor que o outro. Tenho planos para menina. Talvez ela seja menos escorregadia que Kassandra e menos revoltada que Virgine. Acho que vou ter que me livrar daquelas amigas dela. Tem um excesso de perfume, mas acho que darão um bom jantar.</default>
-	</talk>
-	<teller>
-		<default>Andrews ri.</default>
-	</teller>
-	<teller>
-		<first>MEAK.</first>
-	</teller>
-	<talk character="Edmont">
-		<default>Tô quebrado...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Sabe pra quando são os outros?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Esqueci de perguntar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Somos os únicos artistas que não temos a menor idéia do que temos na agenda.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Por que me deixaram aqui dormindo? Cadê Kat?</default>
-	</talk>
-	<talk character="Angely">
-		<arrive>Dormiu no carro.</arrive>
-	</talk>
-	<teller>
-		<default>Angely entra na sala, com Kat no colo. Pousa no sofá.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Quando vão ser os outros cinco?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não sabemos.</default>
-	</talk>
-	<teller>
-		<default>Toca o telefone. Edmont atende.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Alô? ### Samuel... ### Quando vão ser os outros? ### Amanhã??? ### E depois??? ### Marcou eles seguidos??? ### Em outros países??? ### Tá, tá, tá. Pelo menos isso acaba logo. ### Tudo bem.</default>
-	</talk>
-	<teller>
-		<default>Edmont desliga o telefone.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Não tenho mais paciência pra Samuel.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Bom, nos próximos cinco dias, estamos com compromissos.</default>
-	</talk>
-	<teller>
-		<first>Dia do segundo show. Noite. Casa de Stephany. Lili atende a porta.</first>
-	</teller>
-	<talk character="Andrews">
-		<default>Oi.</default>
-	</talk>
-	<talk character="Lili">
-		<default>Que tá fazendo aqui?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Acredita se eu disser que vim te ver?</default>
-	</talk>
-	<talk character="Lili">
-		<default>Não sei. Estava mais interessado na Stephany.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Posso entrar?</default>
-	</talk>
-	<talk character="Lili">
-		<default>Eu não disse?...</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Eu sei que suas amigas não estão aí.</default>
-	</talk>
-	<talk character="Lili">
-		<default>O que me garante que não vai ficar me enrolando até Stephany chegar?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Então sai você aqui.</default>
-	</talk>
-	<teller>
-		<default>Dali a pouco, Lili anda com Andrews pelo bairro. Um beco.</default>
-	</teller>
-	<talk character="Lili">
-		<default>Por que acha que me engana?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Por que acha que te engano?</default>
-	</talk>
-	<teller>
-		<default>Lili dá um sorriso.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Que tal irmos à sua casa?</default>
-	</talk>
-	<talk character="Lili">
-		<default>Nossa, como você é direto!</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Então?</default>
-	</talk>
-	<teller>
-		<default>Quarto de Lili. Andrews beija Lili. Lili fecha a porta do quarto. Andrews pega Lili e joga na cama. Lili senta. Andrews continua beijando. Passa ao pescoço. Lili olha o espelho atrás da porta. Para. Andrews se vira pra trás. Pega o rádio relógio e atira no espelho.</default>
-	</teller>
-	<talk character="Andrews">
-		<irony>Sete anos de azar pra mim.</irony>
-	</talk>
-	<talk character="Lili">
-		<default>Você... Você é... Um...</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Não precisa dizer, eu já sei.</default>
-	</talk>
-	<teller>
-		<default>Andrews continua beijando Lili. Lili pega um isqueiro. Andrews se afasta de Lili bruscamente. Arranca o casaco, que está pegando fogo. Pisa no casaco. Apaga o fogo.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Podia ter morrido sem sofrer. Mas acho que não posso deixar isso impune.</default>
-	</talk>
-	<teller>
-		<default>Duas horas depois. Amanda, Samanta, Jenny e Stephany entram em casa.</default>
-	</teller>
-	<talk character="Amanda">
-		<default>Por que tá triste assim?</default>
-	</talk>
-	<talk character="Samanta">
-		<default>É que o grego não tava lá.</default>
-	</talk>
-	<talk character="Jenny">
-		<default>Também, do jeito que ela tratou o pobre...</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Por favor, gente...</default>
-	</talk>
-	<teller>
-		<default>Stephany se joga no sofá. Amanda sai da sala. Stephany se joga no sofá. Um grito. Jenny e Samanta se entreolham correm na direção do quarto. Stephany revira os olhos.</default>
-	</teller>
-	<talk character="Jenny">
-		<out>Ah, meu Deus... Stephany!</out>
-	</talk>
-	<talk character="Stephany">
-		<default>Que foi?...</default>
-	</talk>
-	<teller>
-		<default>Stephany se levanta. Vai até o quarto, arrastando os pés. Entra. Para.</default>
-	</teller>
-	<talk character="Samanta">
-		<default>Eu sabia que não devíamos ter deixado ela aqui!</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Gente, a culpa não é nossa... É?</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Melhor chamar a polícia.</default>
-	</talk>
-	<teller>
-		<default>Dia do terceiro show. Jenny está andando.</default>
-	</teller>
-	<talk character="Andrews">
-		<arrive>Você não parece bem.</arrive>
-	</talk>
-	<teller>
-		<default>Jenny dá um passo para trás, segurando a bolsa.</default>
-	</teller>
-	<talk character="Jenny">
-		<default>Que tá fazendo aqui?</default>
-	</talk>
-	<talk character="Andrews">
-		<thought>Que originalidade!</thought>
-		<default>Andando pela cidade.</default>
-	</talk>
-	<talk character="Jenny">
-		<default>Quase me mata do coração.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Sou tão feio assim?</default>
-	</talk>
-	<teller>
-		<default>Jenny solta o corpo.</default>
-	</teller>
-	<talk character="Jenny">
-		<default>Não é isso, é que...</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Sua amiga morreu ontem e você tá assustada.</default>
-	</talk>
-	<talk character="Jenny">
-		<default>Como sabe?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Sou bem informado. Pra onde vai?</default>
-	</talk>
-	<talk character="Jenny">
-		<default>Voltar pra casa de meus pais.</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Isso te deixou tão abalada assim?</default>
-	</talk>
-	<talk character="Jenny">
-		<default>Não acha suficiente?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Não. Na verdade, posso te deixar mais assustada que isso.</default>
-	</talk>
-	<teller>
-		<default>Jenny trava. Dá mais passos para trás.</default>
-	</teller>
-	<talk character="Jenny">
-		<default>Do que você tá falando?</default>
-	</talk>
-	<teller>
-		<default>Andrews encosta Jenny na parede. Jenny chuta entre as pernas de Andrews. Andrews cai. Jenny corre, olhando para trás. Andrews aparece na frente de Jenny, segura pelos braços. Jenny grita. Andrews joga Jenny no chão.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Onde acha que vai?</default>
-	</talk>
-	<talk character="Jenny">
-		<default>Socorro!</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Sempre gritam a eminência da morte. Isso é uma coisa que não mudou e creio que nunca mudará.</default>
-	</talk>
-	<teller>
-		<default>Jenny se levanta. Andrews joga Jenny no chão de novo. Sobe em cima de Jenny. Morde. Jenny se debate. Andrews se afasta. Olha para o rosto de Jenny. Sorri. Volta a morder Jenny.</default>
-	</teller>
-	<teller>
-		<first>Dia do quarto show. Stephany, Amanda e Samanta entram em um quarto de hotel.</first>
-	</teller>
-	<talk character="Stephany">
-		<default>Será que isso não pára?</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Quem está fazendo isso???</default>
-	</talk>
-	<talk character="Samanta">
-		<default>Como vamos saber???</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Isso parece um pesadelo...</default>
-	</talk>
-	<talk character="Stephany">
-		<default>Melhor ficarmos todas juntas.</default>
-	</talk>
-	<talk character="Samanta">
-		<default>Ela tá certa.</default>
-	</talk>
-	<teller>
-		<default>Uma batida a porta.</default>
-	</teller>
-	<talk character="Ronaldo">
-		<default>Tem um senhor chamando uma garota chamada Amanda que está aqui.</default>
-	</talk>
-	<teller>
-		<default>Amanda olha para Samanta. Para Stephany. Sai.</default>
-	</teller>
-	<talk character="Amanda">
-		<default>Que tá fazendo aqui?</default>
-	</talk>
-	<talk character="Andrews">
-		<thought>Isso já é frase decorada delas?!</thought>
-		<default>Eu sei quem está fazendo isso.</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Sabe?</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Vim proteger vocês. Na primeira noite não consegui, na segunda não consegui encontrar vocês.</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Por que estão fazendo isso???</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Não sei. Mas eu preciso tirar vocês daqui.</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Vou chamar elas...</default>
-	</talk>
-	<talk character="Andrews">
-		<default>Não. Ele vai desconfiar. Melhor eu levar uma de cada vez.</default>
-	</talk>
-	<talk character="Amanda">
-		<default>Por que eu primeiro?</default>
-	</talk>
-	<teller>
-		<default>Andrews revira os olhos.</default>
-	</teller>
-	<talk character="Andrews">
-		<default>Sorteei. Agora vamos.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "11",
+	"scene": "d",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Subterrâneo da cidade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Virgine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que aconteceu dessa vez?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Argo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está faltando alguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Virgine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele some às vezes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Que pena."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Argo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que todos aqui já sabem que ele voltou a sanidade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Virgine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que ninguém me avisou que esse desgraçado tinha acordado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Obrigado pela parte que me toca."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews se senta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Soube que cada um de vocês criou características próprias. Argo vive no subterrâneo. Rust é tido como um fantasma. Virgine tem um grupo pra destruir os caça-vampiros. Kassandra seduz as vítimas. Dilan as enlouquece."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dilan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabe disso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho uma ligação com vocês, esqueceram? Muitas vezes sei exatamente o que estão fazendo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Virgine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Papo furado. Por que não descobriu a nossa armação?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estava distante. Não física, mentalmente distante."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Virgine se levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Argo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Virgine..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Virgine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho mais o que fazer do que escutar essa ladainha, Argo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ladainha?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Virgine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Voltou e quer se adaptar a esse mundo. Bem. Mas não queira minha ajuda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que fala assim comigo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Virgine",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É o primeiro? Resiste mais do que nós? Foda-se. Continuo não gostando de você e não vou ficar aqui demonstrando um falso respeito pelo ser mais desprezível que conheço."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Virgine sai. Dilan se levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dilan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela tem mais o que fazer fora, eu não tenho mais o que fazer aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dilan sai também. Kassandra olha pra Andrews, que sorri. Kassandra cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Reagiram melhor que Rust."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews levanta e sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Argo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe de alguma coisa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. O que será que ele tá pensando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Argo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De todos nós, é o mais imprevisível."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor nós não mexermos mais com ele."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Noite. Andrews está no balcão de um bar. Olha uma mesa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Samanta",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá, Stephany, quem seria o cara perfeito pra você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, não me mete nessa história..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, não! Todas nós dissemos!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai dizer que você é lésbica?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então fala. Estamos entre amigas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Muito amigas... Da onça!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Stephany aponta o próprio corpo com as mãos, de cima a baixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso foi uma aposta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Fala logo!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Stephany suspira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele tem que ser diferente. Meio selvagem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Samanta",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ê, Stephany!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quero que ele descubra, olhando pela primeira vez em meus olhos, meu pior medo e me force a perdê-lo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem ia imaginar..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você, hein, Stephany..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Samanta",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Parecia tão comportada..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Descubra o medo no olhar, seja selvagem, você quer um vampiro..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews se aproxima da mesa, para atrás de Stephany. Samanta cutuca Amanda. Jenny olha também. Então Lili."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que deus grego..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews dá um sorriso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Queria ver você dizer isso na cara do cara de quem tá falando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Samanta",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele tá perto o suficiente pra ter ouvido."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Grego sim. Deus não."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Stephany sai bruscamente da cadeira. A cadeira cai no chão. Andrews levanta a cadeira e coloca no lugar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não liga, ela chegou na cidade hoje."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá um pouco assustada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu imagino o que faria se eu fosse um vampiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Samanta",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ia te agarrar!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Samanta, Amanda, Jenny e Lili dão risada. Andrews olha fixamente nos olhos de Stephany."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá escutando?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tenho que ir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Samanta",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, você apostou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já paguei, vim até aqui com essa roupa ridícula e fiquei algum tempo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Stephany vai para o caixa. Andrews olha algum tempo. Vai em direção a saída. Lili cutuca Jenny. Jenny levanta e segura o braço de Andrews."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai conseguir nada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela não deixa ninguém encostar nela..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem medo disso, eu percebi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você tá sozinho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpe, senhorita, tenho que ir."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Senhorita? Hã, agora sei por que olhou pra esquisitinha comportada."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Stephany chega na porta de casa. Derruba a chave. Suspira. Pega do chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Não te disseram que é perigoso andar na rua a essa hora?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Stephany derruba a chave de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que me seguiu???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que fugiu do bar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não tem sotaque de nada pra ser estrangeiro. Disse que é grego..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E sou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então devia ter mais o sotaque de português de Portugal."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews se aproxima de Stephany. Stephany se afasta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá com medo de mim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tenho que entrar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Stephany abre a porta e Andrews segura seu braço."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não parece com elas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sou elas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que tem medo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Me olhando desse jeito, ainda pergunta?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Stephany puxa seu braço. Entra. Tranca a porta. Dá um puxão. Coloca a bolsa no sofá. Deita em uma rede."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Elas também... Nem pra me avisar que tinha um cara atrás de mim. Ele deve ter ouvido o que eu disse. Quando se aproximou, percebeu. Ele quer bancar o engraçadinho comigo. Não vai conseguir."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews segue andando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Paulo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi... Eu sou novo na cidade... Preciso saber onde..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews encosta Paulo no parede. Morde. Paulo se debate. Perde as forças. Andrews solta Paulo. Lambe a lateral da boca. Abaixa a limpa a boca na roupa de Paulo. Pega a carteira. Abre. Senta-se no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Paulo. Não sabe o que fiz. Um holandês casado e sério, um russo bandido e rebelde, uma inglesa freira revoltada, uma prostituta francesa que gosta do perigo e um italiano vagabundo e egocêntrico. Talvez devesse deixar eles viverem. Tiveram ao menos a coragem de me enfrentar. Os humanos, nem isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews joga a carteira de volta em Paulo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixe que a natureza cuida dessas duas espécies em que cada um se julga melhor que o outro. Tenho planos para menina. Talvez ela seja menos escorregadia que Kassandra e menos revoltada que Virgine. Acho que vou ter que me livrar daquelas amigas dela. Tem um excesso de perfume, mas acho que darão um bom jantar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews ri."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tô quebrado..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe pra quando são os outros?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esqueci de perguntar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Somos os únicos artistas que não temos a menor idéia do que temos na agenda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que me deixaram aqui dormindo? Cadê Kat?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Dormiu no carro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely entra na sala, com Kat no colo. Pousa no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quando vão ser os outros cinco?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sabemos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca o telefone. Edmont atende."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alô? ### Samuel... ### Quando vão ser os outros? ### Amanhã??? ### E depois??? ### Marcou eles seguidos??? ### Em outros países??? ### Tá, tá, tá. Pelo menos isso acaba logo. ### Tudo bem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont desliga o telefone."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tenho mais paciência pra Samuel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, nos próximos cinco dias, estamos com compromissos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Dia do segundo show. Noite. Casa de Stephany. Lili atende a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tá fazendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acredita se eu disser que vim te ver?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Estava mais interessado na Stephany."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso entrar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não disse?..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei que suas amigas não estão aí."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que me garante que não vai ficar me enrolando até Stephany chegar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então sai você aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dali a pouco, Lili anda com Andrews pelo bairro. Um beco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que acha que me engana?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que acha que te engano?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lili dá um sorriso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tal irmos à sua casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, como você é direto!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quarto de Lili. Andrews beija Lili. Lili fecha a porta do quarto. Andrews pega Lili e joga na cama. Lili senta. Andrews continua beijando. Passa ao pescoço. Lili olha o espelho atrás da porta. Para. Andrews se vira pra trás. Pega o rádio relógio e atira no espelho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "irony",
+					"text": "Sete anos de azar pra mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Lili",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você... Você é... Um..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa dizer, eu já sei."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews continua beijando Lili. Lili pega um isqueiro. Andrews se afasta de Lili bruscamente. Arranca o casaco, que está pegando fogo. Pisa no casaco. Apaga o fogo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podia ter morrido sem sofrer. Mas acho que não posso deixar isso impune."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Duas horas depois. Amanda, Samanta, Jenny e Stephany entram em casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que tá triste assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Samanta",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É que o grego não tava lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também, do jeito que ela tratou o pobre..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por favor, gente..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Stephany se joga no sofá. Amanda sai da sala. Stephany se joga no sofá. Um grito. Jenny e Samanta se entreolham correm na direção do quarto. Stephany revira os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Ah, meu Deus... Stephany!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi?..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Stephany se levanta. Vai até o quarto, arrastando os pés. Entra. Para."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Samanta",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sabia que não devíamos ter deixado ela aqui!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, a culpa não é nossa... É?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor chamar a polícia."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dia do terceiro show. Jenny está andando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Você não parece bem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jenny dá um passo para trás, segurando a bolsa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tá fazendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Que originalidade!"
+				},
+				{
+					"type": "default",
+					"text": "Andando pela cidade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quase me mata do coração."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sou tão feio assim?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jenny solta o corpo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é isso, é que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sua amiga morreu ontem e você tá assustada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sou bem informado. Pra onde vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Voltar pra casa de meus pais."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso te deixou tão abalada assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não acha suficiente?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Na verdade, posso te deixar mais assustada que isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jenny trava. Dá mais passos para trás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que você tá falando?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews encosta Jenny na parede. Jenny chuta entre as pernas de Andrews. Andrews cai. Jenny corre, olhando para trás. Andrews aparece na frente de Jenny, segura pelos braços. Jenny grita. Andrews joga Jenny no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Onde acha que vai?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Jenny",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Socorro!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sempre gritam a eminência da morte. Isso é uma coisa que não mudou e creio que nunca mudará."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jenny se levanta. Andrews joga Jenny no chão de novo. Sobe em cima de Jenny. Morde. Jenny se debate. Andrews se afasta. Olha para o rosto de Jenny. Sorri. Volta a morder Jenny."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Dia do quarto show. Stephany, Amanda e Samanta entram em um quarto de hotel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que isso não pára?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem está fazendo isso???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Samanta",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como vamos saber???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso parece um pesadelo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Stephany",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor ficarmos todas juntas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Samanta",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ela tá certa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma batida a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ronaldo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem um senhor chamando uma garota chamada Amanda que está aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Amanda olha para Samanta. Para Stephany. Sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que tá fazendo aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "thought",
+					"text": "Isso já é frase decorada delas?!"
+				},
+				{
+					"type": "default",
+					"text": "Eu sei quem está fazendo isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vim proteger vocês. Na primeira noite não consegui, na segunda não consegui encontrar vocês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que estão fazendo isso???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Mas eu preciso tirar vocês daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou chamar elas..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Ele vai desconfiar. Melhor eu levar uma de cada vez."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Amanda",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que eu primeiro?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Andrews revira os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Andrews",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sorteei. Agora vamos."
+				}
+			]
+		}
+	]
+}

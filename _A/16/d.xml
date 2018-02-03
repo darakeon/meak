@@ -1,466 +1,1518 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="A" episode="16" scene="d">
-	<teller>
-		<default>Mel está em uma cadeira. Psique sai pela porta com uma caixa em mãos.</default>
-	</teller>
-	<talk character="Psique">
-		<default>Eu posso ajudar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Nós já encontramos um...</default>
-	</talk>
-	<talk character="Psique">
-		<default>Por favor, me deixa ajudar.</default>
-	</talk>
-	<teller>
-		<first>MEAK. Mel entra e coloca a caixa sobre a mesa de centro. Psique entra atrás.</first>
-	</teller>
-	<talk character="Zenon">
-		<default>Olha, o Angely trouxe a Kat pra cá, ela tá no seu quarto, se não se importa. Agora o Angely tá com a Dara e Derik com Kat.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Tudo bem.</default>
-	</talk>
-	<talk character="Rafael">
-		<default>Agora eu quero saber por que esse cara pode entrar no quarto e eu não.</default>
-	</talk>
-	<teller>
-		<default>Mel olha pra Zenon.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Desculpe, eu não ia adivinhar que não podia sair de lá.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pode contar?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Sou um vampiro, não pego doenças.</default>
-	</talk>
-	<talk character="Psique">
-		<default>Como assim?!</default>
-	</talk>
-	<talk character="Rafael">
-		<default>Acha que acredito?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Viu?</default>
-	</talk>
-	<teller>
-		<default>Zenon se joga no sofá. Mel respira fundo. Vai até o banheiro. Tira o espelho da parede. Traz até a sala e pousa na estante.</default>
-	</teller>
-	<talk character="Rafael">
-		<default>Ah, meu Deus!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Espero que não tenham problemas do coração.</default>
-	</talk>
-	<talk character="Psique">
-		<default>Você é mesmo um... Um...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Não mato ninguém, pode ficar sossegada.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Dara está doente, se não se importam de deixar isso de lado...</default>
-	</talk>
-	<talk character="Rafael">
-		<default>Seu irmão trouxe outra...</default>
-	</talk>
-	<talk character="Psique">
-		<default>É, você falou de duas.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Não, a Kat tá só dormindo. Ela prevê o futuro nos sonhos dela.</default>
-	</talk>
-	<teller>
-		<default>Mel encara Zenon.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Que foi? Já contou meu segredo mesmo...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Eu perguntei antes.</default>
-	</talk>
-	<teller>
-		<default>Mel aponta a caixa na mesa de centro.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Amostra de sangue.</default>
-	</talk>
-	<talk character="Rafael">
-		<default>Vou precisar de algumas coisas do laboratório.</default>
-	</talk>
-	<talk character="Psique">
-		<frizz>Vamos</frizz>
-		<default>precisar.</default>
-	</talk>
-	<talk character="Rafael">
-		<default>Você não é muito nova?</default>
-	</talk>
-	<talk character="Psique">
-		<default>Tenho vinte e sete anos. Algum problema?</default>
-	</talk>
-	<teller>
-		<default>Noite. Dara abre os olhos. Olha para Angely ao lado da cama. Passa a mão na cabeça de Angely, que acorda também. Dara beija Angely. Angely afasta Dara.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Dara, você tá doente.</default>
-	</talk>
-	<teller>
-		<default>Dara sorri.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Só se o amor é uma doença...</default>
-	</talk>
-	<teller>
-		<default>Dara tenta beijar Angely de novo, mas Angely se levanta e sai de perto da cama.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Qual o problema?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu não posso me aproveitar disso.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Se aproveitar??? Acha que sou uma garotinha indefesa???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Dara...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Você me ama e não reage, não faz nada, não luta!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Eu...</default>
-	</talk>
-	<talk character="Dara">
-		<default>Ao invés disso fica se lamentando por que acha que ainda amo Edmont!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Você ama. Foi atrás de Edmont.</default>
-	</talk>
-	<talk character="Dara">
-		<default>E não tenho motivos??? Edmont pelo menos reage!</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não vou me ofender, você não está falando o que...</default>
-	</talk>
-	<talk character="Edmont">
-		<arrive>Verdade. É a quarta fase.</arrive>
-	</talk>
-	<teller>
-		<default>Angely olha para Edmont, que está na janela.</default>
-	</teller>
-	<talk character="Dara">
-		<default>E você também... Não sabe nem conquistar alguém aos poucos, tem que ser de sopetão!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não pareceu incômodo aquilo ontem.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Eu achava que você tinha se transformado em vampiro por complexo de inferioridade. Mas não é complexo, você realmente é inferior.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não dá atenção, tá tentando provocar a gente.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tá falando a verdade. Não é isso que o vírus faz?</default>
-	</talk>
-	<teller>
-		<default>Zenon entra no quarto.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Gente, a quarta fase é revolta, não verdade, parece que aquilo era rascu... O-ou...</default>
-	</talk>
-	<talk character="Dara">
-		<default>E você também... Tá de quatro pela Mel e não faz nada! Vocês são todos uns covardes!</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Como pode saber?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Ele escreveu aquilo pra mandar pra um jornal, não tinha terminado ainda. Fez alterações depois. Tava no papel que pegamos, achei que era o mesmo.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Está mentindo.</default>
-	</talk>
-	<talk character="Dara">
-		<default>É claro que está! São todos mentirosos! Todos no mundo são mentirosos! Hipócritas!!!</default>
-	</talk>
-	<teller>
-		<default>Zenon passa andando sem virar as costas para Dara e entrega um caderno a Edmont.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Nenhum de vocês aqui vale o ar que respira! Aliás, só o Angely, mas ele é bonzinho demais pro meu gosto!</default>
-	</talk>
-	<teller>
-		<default>Dara sai do quarto. Angely segue.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Mel já não te mandou embora?</default>
-	</talk>
-	<teller>
-		<default>Edmont ri.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Quer dizer então que está apaixonado por ela?</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Qual a graça?</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Melody não se contenta com um só.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Por que ela ainda não teve nada que fosse sério.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Tipo o que, perder parte do cérebro?</default>
-	</talk>
-	<teller>
-		<default>Edmont ri.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Humanos.</default>
-	</talk>
-	<teller>
-		<default>Edmont pula e vai embora. Zenon balança a cabeça para os lados. Vai até o outro quarto.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Sabem como induzir um coma?</default>
-	</talk>
-	<talk character="Psique">
-		<default>Eu sei como.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Dara entrou no quarto estágio e tá querendo fugir.</default>
-	</talk>
-	<talk character="Rafael">
-		<default>Descobri!</default>
-	</talk>
-	<talk character="Mel">
-		<default>A cura???</default>
-	</talk>
-	<talk character="Rafael">
-		<default>Não, a doença só se torna contagiosa na febre!... A merda é que é altamente contagiosa...</default>
-	</talk>
-	<talk character="Psique">
-		<default>Quanto?</default>
-	</talk>
-	<talk character="Rafael">
-		<default>Tipo isolamento total. Isso que a gente tá fazendo aqui, não faria diferença.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vamos pegar ela, induzir o...</default>
-	</talk>
-	<talk character="Dara">
-		<out>Me larga!</out>
-	</talk>
-	<talk character="Angely">
-		<out>Vamos voltar pro quarto, você tá mal!</out>
-	</talk>
-	<talk character="Mel">
-		<default>Droga!</default>
-	</talk>
-	<teller>
-		<default>Barulho de vidro quebrando. E de algo pesado caindo no chão. Mel e Zenon vão até a sala. Angely desmaiou no chão.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Pronto, fugiu.</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Vou sair e procurar ela.</default>
-	</talk>
-	<teller>
-		<default>Zenon sai.</default>
-	</teller>
-	<teller>
-		<default>No quarto de Mel, Kat acorda.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Não deixa!</default>
-	</talk>
-	<talk character="Derik">
-		<default>Que foi???</default>
-	</talk>
-	<talk character="Kat">
-		<default>Dara, Edmont pegou Dara!</default>
-	</talk>
-	<teller>
-		<first>Dara está andando na rua.</first>
-	</teller>
-	<talk character="Edmont">
-		<arrive>Está fazendo o que andando só por aí?</arrive>
-	</talk>
-	<talk character="Dara">
-		<default>Decidi terminar o que comecei.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>E o que seria?</default>
-	</talk>
-	<talk character="Dara">
-		<default>Denise, o que mais deixei pendente???</default>
-	</talk>
-	<teller>
-		<default>Edmont para na frente de Dara. Dara para de andar de sopetão.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Eu.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Já dei o que você queria.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Não. Você não entendeu nada.</default>
-	</talk>
-	<teller>
-		<default>Edmont beija Dara. Dara passa os braços em volta do pescoço de Edmont. Angely abre os olhos. Coloca a mão na cabeça. Senta na cama.</default>
-	</teller>
-	<talk character="Angely">
-		<default>Não faz isso...</default>
-	</talk>
-	<talk character="Mel">
-		<default>Isso o que???</default>
-	</talk>
-	<talk character="Angely">
-		<default>Não sei. Tô confuso.</default>
-	</talk>
-	<talk character="Derik">
-		<arrive>Mel, Edmont pegou Dara!</arrive>
-	</talk>
-	<talk character="Kat">
-		<arrive>Estão perto daqui.</arrive>
-	</talk>
-	<talk character="Mel">
-		<default>Zenon foi atrás já.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Ninguém derrota Edmont.</default>
-	</talk>
-	<teller>
-		<default>Todos olham pra Angely.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Como sabe?</default>
-	</talk>
-	<talk character="Derik">
-		<default>Só por que é seu irmão???</default>
-	</talk>
-	<teller>
-		<default>Kat encara Derik. Mel sai e volta com uma espada.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Você pode.</default>
-	</talk>
-	<teller>
-		<default>Angely levanta da cama. Pega a espada. Baixa a cabeça. Lembra da luta no ringue. Lembra da luta no lago. Coloca a espada nas costas. Sai.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Será que vai matar Edmont?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não. Angely nunca conseguiria. Mesmo que tenha certeza que vai morrer depois. Mas consegue derrubar Edmont.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Você também.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Edmont melhorou desde que virou vampiro.</default>
-	</talk>
-	<talk character="Kat">
-		<default>E se isso fizer Angely perder?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Edmont já deve saber que não tem como ganhar. Vão lutar até alguém desistir. E isso deve ser tempo suficiente pra ou descobrirmos a cura, ou Dara...</default>
-	</talk>
-	<talk character="Kat">
-		<default>Não ter mais como se transformar.</default>
-	</talk>
-	<teller>
-		<first>Casarão. Zenon entra em um quarto. Dara está de braços cruzados. A porta se fecha atrás de Zenon. Zenon se vira.</first>
-	</teller>
-	<talk character="Edmont">
-		<arrive>Veio fazer o que aqui?</arrive>
-	</talk>
-	<talk character="Zenon">
-		<default>Pegar ela de volta.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Achei que sua paixão fosse a Mel... Ah, pera, foi ela quem pediu! Talvez Mel tenha se apaixonado por Dara também. É, acho que você não tem sorte mesmo...</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Vai engolir sua prepotência agora.</default>
-	</talk>
-	<teller>
-		<default>Zenon tenta dar um soco em Edmont. Edmont desvia e ri. Zenon pega uma estaca da calça e tenta acertar Edmont uma, duas, três, quatro vezes. Na quinta, Edmont desarma Zenon. Pega a estaca do chão.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Quem vai engolir o que aqui?</default>
-	</talk>
-	<talk character="Angely">
-		<arrive>Solta isso.</arrive>
-	</talk>
-	<talk character="Edmont">
-		<default>Dessa vez vai ser até a morte?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Se for até a morte, morremos junto.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Então, como vamos saber quem ganhou?</default>
-	</talk>
-	<talk character="Angely">
-		<default>Quem colocar a espada na garganta primeiro.</default>
-	</talk>
-	<talk character="Edmont">
-		<default>Mas eu nem tenho uma espada.</default>
-	</talk>
-	<talk character="Angely">
-		<default>Sei que tem. Pode pegar.</default>
-	</talk>
-	<teller>
-		<default>Angely sai do quarto. Edmont vai até Dara faz sinal com a cabeça para o lado. Dara franze a testa. Se levanta. Edmont tira o colchão e pega uma espada. Tira da bainha. Joga a bainha de volta. Beija Dara. Olha para Zenon no chão. Ri. Sai.</default>
-	</teller>
-	<teller>
-		<first>Edmont vai até o salão. Angely tira a espada da bainha. Pendura a bainha em uma janela. Se defende de um ataque de Edmont por cima. Edmont ri. Angely contra-ataca pela direita. Edmont defende. Uma sequência de três ataques de Edmont. Edmont consegue fazer um corte no braço de Angely. Angely começa a atacar, Edmont se defende, mas recua. Sai por uma janela. Angely olha. Edmont entra por outra, e tenta atacar Angely. Angely desarma Edmont. E coloca a espada no pescoço de Edmont.</first>
-	</teller>
-	<talk character="Angely">
-		<default>Podem sair.</default>
-	</talk>
-	<teller>
-		<default>Angely se afasta de Edmont. Chega perto da escada. Edmont pega a espada do chão.</default>
-	</teller>
-	<talk character="Edmont">
-		<default>Esqueci. Vampiros não têm palavra.</default>
-	</talk>
-	<teller>
-		<default>Edmont vai com a espada na direção de Angely. Angely não se move. No último segundo, Angely atravessa Edmont com a espada. Edmont se afasta. Coloca a mão na espada. Sai sangue pela boca de Angely. Edmont sorri. Edmont se desfaz em pó. Zenon olha para Angely, arregala os olhos. Corre e segura Angely, que cai. Dara se aproxima. Zenon engole seco.</default>
-	</teller>
-	<talk character="Dara">
-		<default>Angely...</default>
-	</talk>
-	<teller>
-		<default>Zenon olha para Dara.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Ele tá bem. Acho que vi Edmont fugir. Vamos embora.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Não vou embora e deixar Angely aqui!!!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Lembra daquela história, se um morrer, outro morre? Edmont não deve ter ido muito longe, sabe que deixar o irmão frágil aqui é um perigo pra ele. Vamos.</default>
-	</talk>
-	<talk character="Dara">
-		<default>Homem nenhum manda em mim!!!</default>
-	</talk>
-	<talk character="Zenon">
-		<default>Mas tem uma mulher que vai me matar se eu não te levar. Por favor.</default>
-	</talk>
-	<teller>
-		<default>Dara sai. Zenon olha para Angely.</default>
-	</teller>
-	<talk character="Zenon">
-		<default>Descansa em paz, cara. Vou ajudar Mel a cuidar delas.</default>
-	</talk>
-</story>
+{
+	"season": "A",
+	"episode": "16",
+	"scene": "d",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel está em uma cadeira. Psique sai pela porta com uma caixa em mãos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu posso ajudar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nós já encontramos um..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por favor, me deixa ajudar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "MEAK. Mel entra e coloca a caixa sobre a mesa de centro. Psique entra atrás."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, o Angely trouxe a Kat pra cá, ela tá no seu quarto, se não se importa. Agora o Angely tá com a Dara e Derik com Kat."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tudo bem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rafael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora eu quero saber por que esse cara pode entrar no quarto e eu não."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha pra Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpe, eu não ia adivinhar que não podia sair de lá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode contar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sou um vampiro, não pego doenças."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rafael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acha que acredito?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Viu?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon se joga no sofá. Mel respira fundo. Vai até o banheiro. Tira o espelho da parede. Traz até a sala e pousa na estante."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rafael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, meu Deus!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero que não tenham problemas do coração."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é mesmo um... Um..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não mato ninguém, pode ficar sossegada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara está doente, se não se importam de deixar isso de lado..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rafael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu irmão trouxe outra..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, você falou de duas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, a Kat tá só dormindo. Ela prevê o futuro nos sonhos dela."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel encara Zenon."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi? Já contou meu segredo mesmo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu perguntei antes."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel aponta a caixa na mesa de centro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Amostra de sangue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rafael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou precisar de algumas coisas do laboratório."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "frizz",
+					"text": "Vamos"
+				},
+				{
+					"type": "default",
+					"text": "precisar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rafael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não é muito nova?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tenho vinte e sete anos. Algum problema?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Noite. Dara abre os olhos. Olha para Angely ao lado da cama. Passa a mão na cabeça de Angely, que acorda também. Dara beija Angely. Angely afasta Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara, você tá doente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só se o amor é uma doença..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara tenta beijar Angely de novo, mas Angely se levanta e sai de perto da cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual o problema?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu não posso me aproveitar disso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se aproveitar??? Acha que sou uma garotinha indefesa???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você me ama e não reage, não faz nada, não luta!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ao invés disso fica se lamentando por que acha que ainda amo Edmont!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você ama. Foi atrás de Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E não tenho motivos??? Edmont pelo menos reage!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vou me ofender, você não está falando o que..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Verdade. É a quarta fase."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely olha para Edmont, que está na janela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você também... Não sabe nem conquistar alguém aos poucos, tem que ser de sopetão!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não pareceu incômodo aquilo ontem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu achava que você tinha se transformado em vampiro por complexo de inferioridade. Mas não é complexo, você realmente é inferior."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não dá atenção, tá tentando provocar a gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá falando a verdade. Não é isso que o vírus faz?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon entra no quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Gente, a quarta fase é revolta, não verdade, parece que aquilo era rascu... O-ou..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você também... Tá de quatro pela Mel e não faz nada! Vocês são todos uns covardes!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como pode saber?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele escreveu aquilo pra mandar pra um jornal, não tinha terminado ainda. Fez alterações depois. Tava no papel que pegamos, achei que era o mesmo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Está mentindo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É claro que está! São todos mentirosos! Todos no mundo são mentirosos! Hipócritas!!!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon passa andando sem virar as costas para Dara e entrega um caderno a Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nenhum de vocês aqui vale o ar que respira! Aliás, só o Angely, mas ele é bonzinho demais pro meu gosto!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara sai do quarto. Angely segue."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel já não te mandou embora?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quer dizer então que está apaixonado por ela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Qual a graça?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melody não se contenta com um só."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que ela ainda não teve nada que fosse sério."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tipo o que, perder parte do cérebro?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Humanos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont pula e vai embora. Zenon balança a cabeça para os lados. Vai até o outro quarto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabem como induzir um coma?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei como."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara entrou no quarto estágio e tá querendo fugir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rafael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Descobri!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A cura???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rafael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não, a doença só se torna contagiosa na febre!... A merda é que é altamente contagiosa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Psique",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quanto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rafael",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tipo isolamento total. Isso que a gente tá fazendo aqui, não faria diferença."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos pegar ela, induzir o..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Me larga!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Vamos voltar pro quarto, você tá mal!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Droga!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Barulho de vidro quebrando. E de algo pesado caindo no chão. Mel e Zenon vão até a sala. Angely desmaiou no chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pronto, fugiu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vou sair e procurar ela."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon sai."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "No quarto de Mel, Kat acorda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não deixa!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que foi???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara, Edmont pegou Dara!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Dara está andando na rua."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Está fazendo o que andando só por aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Decidi terminar o que comecei."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o que seria?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Denise, o que mais deixei pendente???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont para na frente de Dara. Dara para de andar de sopetão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já dei o que você queria."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Você não entendeu nada."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont beija Dara. Dara passa os braços em volta do pescoço de Edmont. Angely abre os olhos. Coloca a mão na cabeça. Senta na cama."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não faz isso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso o que???"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei. Tô confuso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Mel, Edmont pegou Dara!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Estão perto daqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon foi atrás já."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ninguém derrota Edmont."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Todos olham pra Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como sabe?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só por que é seu irmão???"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat encara Derik. Mel sai e volta com uma espada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você pode."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely levanta da cama. Pega a espada. Baixa a cabeça. Lembra da luta no ringue. Lembra da luta no lago. Coloca a espada nas costas. Sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que vai matar Edmont?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Angely nunca conseguiria. Mesmo que tenha certeza que vai morrer depois. Mas consegue derrubar Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você também."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont melhorou desde que virou vampiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E se isso fizer Angely perder?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont já deve saber que não tem como ganhar. Vão lutar até alguém desistir. E isso deve ser tempo suficiente pra ou descobrirmos a cura, ou Dara..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não ter mais como se transformar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Casarão. Zenon entra em um quarto. Dara está de braços cruzados. A porta se fecha atrás de Zenon. Zenon se vira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Veio fazer o que aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pegar ela de volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Achei que sua paixão fosse a Mel... Ah, pera, foi ela quem pediu! Talvez Mel tenha se apaixonado por Dara também. É, acho que você não tem sorte mesmo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai engolir sua prepotência agora."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon tenta dar um soco em Edmont. Edmont desvia e ri. Zenon pega uma estaca da calça e tenta acertar Edmont uma, duas, três, quatro vezes. Na quinta, Edmont desarma Zenon. Pega a estaca do chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem vai engolir o que aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Solta isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dessa vez vai ser até a morte?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se for até a morte, morremos junto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, como vamos saber quem ganhou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem colocar a espada na garganta primeiro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas eu nem tenho uma espada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sei que tem. Pode pegar."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely sai do quarto. Edmont vai até Dara faz sinal com a cabeça para o lado. Dara franze a testa. Se levanta. Edmont tira o colchão e pega uma espada. Tira da bainha. Joga a bainha de volta. Beija Dara. Olha para Zenon no chão. Ri. Sai."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Edmont vai até o salão. Angely tira a espada da bainha. Pendura a bainha em uma janela. Se defende de um ataque de Edmont por cima. Edmont ri. Angely contra-ataca pela direita. Edmont defende. Uma sequência de três ataques de Edmont. Edmont consegue fazer um corte no braço de Angely. Angely começa a atacar, Edmont se defende, mas recua. Sai por uma janela. Angely olha. Edmont entra por outra, e tenta atacar Angely. Angely desarma Edmont. E coloca a espada no pescoço de Edmont."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Angely",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podem sair."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely se afasta de Edmont. Chega perto da escada. Edmont pega a espada do chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Edmont",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Esqueci. Vampiros não têm palavra."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Edmont vai com a espada na direção de Angely. Angely não se move. No último segundo, Angely atravessa Edmont com a espada. Edmont se afasta. Coloca a mão na espada. Sai sangue pela boca de Angely. Edmont sorri. Edmont se desfaz em pó. Zenon olha para Angely, arregala os olhos. Corre e segura Angely, que cai. Dara se aproxima. Zenon engole seco."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Zenon olha para Dara."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele tá bem. Acho que vi Edmont fugir. Vamos embora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vou embora e deixar Angely aqui!!!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lembra daquela história, se um morrer, outro morre? Edmont não deve ter ido muito longe, sabe que deixar o irmão frágil aqui é um perigo pra ele. Vamos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dara",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Homem nenhum manda em mim!!!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas tem uma mulher que vai me matar se eu não te levar. Por favor."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dara sai. Zenon olha para Angely."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Descansa em paz, cara. Vou ajudar Mel a cuidar delas."
+				}
+			]
+		}
+	]
+}

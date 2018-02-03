@@ -1,607 +1,1973 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<story season="B" episode="02" scene="a">
-	<teller>
-		<default>18/01/2003. Angely chega a sala, de roupa preta. Kat e Mel estão no sofá.</default>
-	</teller>
-	<talk character="Kat">
-		<default>E aí, quando as aulas começam?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Março. Mel, só tem vaga pra dar aula de matemática.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então vou ter que arranjar outro serviço.</default>
-	</talk>
-	<teller>
-		<default>Mel olha a roupa de Angely. Angely baixa a cabeça.</default>
-	</teller>
-	<talk character="Kat">
-		<default>Talvez não devêssemos fazer luto.</default>
-	</talk>
-	<talk character="Derik">
-		<arrive>Não tinham visto que só comprou roupas pretas?</arrive>
-	</talk>
-	<talk character="Kat">
-		<default>Isso pode acabar te fazendo mal.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não sei se vai ter um momento em nossas vidas que as pessoas vão parar de morrer ao nosso redor.</default>
-	</talk>
-	<teller>
-		<default>Kat olha para Mel.</default>
-	</teller>
-	<talk character="Ang">
-		<default>A gente tem que se preocupar em arrumar esse lugar.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Espero que seja de verdade o ouro.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não estavam usando antes já?</default>
-	</talk>
-	<talk character="Mel">
-		<default>Nem tanto. A maior parte do tempo Zenon e Beatrice traziam a comida. Só impus a Beatrice que não matasse ninguém.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Demos um quarto a Alan.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Pedimos pra verificar.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Espero que seja.</default>
-	</talk>
-	<teller>
-		<default>Toca o celular de Mel. Mel atende.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Oi. ### Estela tá bem. ### Que? ### Voltando pra casa? ### Então o casarão já é nosso... ### Sim, Melody Lorrage e Angely Kallend.</default>
-	</talk>
-	<talk character="Derik">
-		<default>Mel, eu preciso de um identidade também! Derik Kgalir!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Alan, eu tava esquecendo de Derik... ### Já tinha falado? ### Isso mesmo. ### Tá, eu sei, esqueceu que eu já tive que ter identidade feita antes? ### Não vou esquecer. ### Sim, vamos cuidar bem de Estela. ### Tchau.</default>
-	</talk>
-	<teller>
-		<default>Mel desliga.</default>
-	</teller>
-	<talk character="Derik">
-		<default>Pelo menos agora sabemos que é de verdade.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Um nome a menos na assinatura.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Vamos precisar reformar tudo isso aqui.</default>
-	</talk>
-	<teller>
-		<default>Inês entra na sala, esfregando o olho.</default>
-	</teller>
-	<talk character="Inês">
-		<special>É mais fácil derrubar.</special>
-	</talk>
-	<talk character="Mel">
-		<default>Estava dormindo?</default>
-	</talk>
-	<talk character="Inês">
-		<mute>Sim.</mute>
-	</talk>
-	<talk character="Kat">
-		<default>Acho que vamos precisar de ajuda para a reforma.</default>
-	</talk>
-	<teller>
-		<division>Fevereiro</division>
-	</teller>
-	<teller>
-		<default>Noite. Ang vai até o sótão. A porta está emperrada.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Devia ter chamado um chaveiro hoje, sabia que tinha esquecido alguma coisa...</default>
-	</talk>
-	<teller>
-		<default>A porta se abre. Angely franze a sobrancelha. Entra. Vários quadros cobertos. Descobre alguns. Uma pessoa, na maioria deles.</default>
-	</teller>
-	<talk character="Leo">
-		<ghost>Ela parece um anjo...</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Como entrou aqui?</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>Me ouve?!</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>E vejo também... Por que?</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>As pessoas normais não...</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Desde quando está assim?</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>Morto?</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Não era a palavra que eu ia usar.</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>Não há outra.</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Então, desde quando ninguém te vê ou ouve?</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>Perdi a conta dos anos.</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>O que te prende aqui?</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>Não sei, talvez o fato de eu ter me suicidado.</ghost>
-	</talk>
-	<teller>
-		<default>Angely franze a sobrancelha.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Por que fez isso?</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>Se eu te explicar só um pedaço, não vai me entender. Se for explicar minha vida toda, vai dormir.</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Prometo que não.</default>
-	</talk>
-	<teller>
-		<default>Angely se senta em uma cadeira.</default>
-	</teller>
-	<talk character="Leo">
-		<ghost>Desde pequeno eu me dava muito bem com minha prima. Meu pai não entendia isso... Geralmente não há muito acordo, já que éramos quase irmãos. Um dia, quando eu já tinha uns dezoito anos, meu pai me disse que ia fazer algo que já devia ter feito há anos... Fiquei com medo.</ghost>
-	</talk>
-	<teller>
-		<division>Passado</division>
-	</teller>
-	<teller>
-		<default>Leo caminha com Heric. Entram em uma casa. Homens bebendo e mulheres com pouca ou nenhuma roupa.</default>
-	</teller>
-	<talk character="Leo">
-		<default>Pai, não disse pra minha prima que isso é pecado?</default>
-	</talk>
-	<talk character="Heric">
-		<default>Essas mulheres são, como vou dizer...? Próprias para isso.</default>
-	</talk>
-	<teller>
-		<default>Heric vai até Dolores. Leo olha para Flávio. Vai até Flávio.</default>
-	</teller>
-	<talk character="Leo">
-		<default>Pra que serve esse lugar?</default>
-	</talk>
-	<teller>
-		<default>Flávio ri. Dolores pega a mão de Leo.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Vem que eu te mostro.</default>
-	</talk>
-	<teller>
-		<default>Dolores leva Leo pela mão. Leo olha para Heric. Sobem para um quarto. Dolores fecha a porta. Se aproxima de Leo e pega nos botões da camisa. Leo se afasta.</default>
-	</teller>
-	<talk character="Leo">
-		<default>Que que você tá fazendo?!</default>
-	</talk>
-	<talk character="Dolores">
-		<default>Com a roupa não tem como fazer... Bom, até tem, se quiser.</default>
-	</talk>
-	<talk character="Leo">
-		<default>Meu pai não deixa minha prima nem chegar perto de homens...</default>
-	</talk>
-	<talk character="Dolores">
-		<default>Querido, ela é uma moça de família.</default>
-	</talk>
-	<talk character="Leo">
-		<default>E você nasceu do que?!</default>
-	</talk>
-	<talk character="Dolores">
-		<default>Odeio quando os pais não falam com os filhos antes de sair de casa...</default>
-	</talk>
-	<teller>
-		<default>Dolores se senta na cama. Olha para Leo. Aponta a cama com os olhos.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Não vou te forçar a nada. Já fizeram comigo, não acho legal.</default>
-	</talk>
-	<teller>
-		<default>Leo se senta.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Mulher de família não faz essas coisas com qualquer um, faz só com o marido. E não faz do jeito que a gente faz. Por isso inclusive que eles vêm aqui, porque homem precisa dessas coisas.</default>
-	</talk>
-	<talk character="Leo">
-		<default>E como sabem que todo homem precisa? Ou quem é mulher que faz isso ou não?</default>
-	</talk>
-	<talk character="Dolores">
-		<default>Quem faz é quem precisa fazer. Ou quem se apaixona pelo cara e o cara não quer mais. Quem se entrega antes da hora. Ou quem já nasce aqui. São tantos casos... E homem precisa...</default>
-	</talk>
-	<talk character="Leo">
-		<default>Por que?</default>
-	</talk>
-	<talk character="Dolores">
-		<default>É natural.</default>
-	</talk>
-	<teller>
-		<default>Dolores se levanta.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Olha pra mim. Não sente nada?</default>
-	</talk>
-	<teller>
-		<default>Leo balança a cabeça para os lados. Dolores tira a parte de cima. Leo balança de novo a cabeça para os lados.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Será que você gosta de homem?</default>
-	</talk>
-	<talk character="Leo">
-		<default>Se mudou faz pouco tempo?</default>
-	</talk>
-	<teller>
-		<default>Dolores sorri.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Agora está estranhando que nunca me viu?</default>
-	</talk>
-	<talk character="Leo">
-		<default>É, eu...</default>
-	</talk>
-	<talk character="Dolores">
-		<default>As pessoas não se misturam com a gente.</default>
-	</talk>
-	<teller>
-		<default>Leo franze a sobrancelha.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Nos consideram... Acham que a gente é pecadora, que vai pro inferno.</default>
-	</talk>
-	<talk character="Leo">
-		<default>Então eu vou pro inferno? E meu pai?</default>
-	</talk>
-	<teller>
-		<default>Dolores ri. Balança a cabeça para os lados.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Você é homem. Homem pode fazer o que quiser. Nem isso seu pai te disse?</default>
-	</talk>
-	<talk character="Leo">
-		<default>Como assim?!</default>
-	</talk>
-	<teller>
-		<default>Dolores se senta na cama. Olha nos olhos de Leo. Olha para baixo.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>A culpa sempre vai ser nossa.</default>
-	</talk>
-	<talk character="Leo">
-		<default>Que raios te faz aceitar isto?!</default>
-	</talk>
-	<teller>
-		<default>Dolores olha para Leo.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Não sou só eu...</default>
-	</talk>
-	<talk character="Leo">
-		<default>Deveriam se rebelar!</default>
-	</talk>
-	<talk character="Dolores">
-		<default>E do que viveríamos?</default>
-	</talk>
-	<teller>
-		<default>Dolores levanta, pega a parte de cima e veste de volta.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Vocês são todos iguais. Até por nos culparem a culpa é nossa.</default>
-	</talk>
-	<talk character="Leo">
-		<default>Não era isso que eu...</default>
-	</talk>
-	<talk character="Dolores">
-		<default>Queria dizer?! Pois foi o que disse!</default>
-	</talk>
-	<talk character="Leo">
-		<default>Desculpa... Eu sou muito novo...</default>
-	</talk>
-	<talk character="Dolores">
-		<screamed>E que idade você acha que eu tenho?!</screamed>
-	</talk>
-	<teller>
-		<default>Dolores olha para fora. Limpa as lágrimas do rosto. Vai até o espelho. Pega um papel e limpa a maquiagem borrada. Vira-se e sorri para Leo.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Não vai contar pro seu pai, né? Olha, pode fazer o que quiser comigo, eu...</default>
-	</talk>
-	<teller>
-		<default>Leo abre mais os olhos e levanta da cama. Balança a cabeça para os lados. Sai do quarto. Dolores sai atrás. Descem as escadas. No meio do salão, Heric se aproxima, Leo empurra.</default>
-	</teller>
-	<talk character="Leo">
-		<screamed>Seus hipócritas! Eu tenho nojo de todos aqui! São uma vergonha!</screamed>
-	</talk>
-	<teller>
-		<default>Leonardo sai correndo. Heric olha para Dolores.</default>
-	</teller>
-	<talk character="Dolores">
-		<default>Ele não quis, eu tentei, juro!</default>
-	</talk>
-	<talk character="Heric">
-		<default>Depois eu me acerto com você.</default>
-	</talk>
-	<teller>
-		<default>Heric sai. Chega em casa. Vai ao quarto de Leo. Nada. Vai ao quarto de Pandora. Leo está com a cabeça no colo de Pandora.</default>
-	</teller>
-	<talk character="Heric">
-		<default>Seu...</default>
-	</talk>
-	<talk character="Pandora">
-		<default>Vais expulsar ele de casa?</default>
-	</talk>
-	<talk character="Heric">
-		<screamed>É claro que vou! Não quero um filho que não gosta de mulher!</screamed>
-	</talk>
-	<talk character="Pandora">
-		<default>Pois eu vou junto.</default>
-	</talk>
-	<talk character="Heric">
-		<screamed>Não, vai se casar, como está marcado!</screamed>
-	</talk>
-	<teller>
-		<default>Pandora levanta da cama. Vai até Heric.</default>
-	</teller>
-	<talk character="Pandora">
-		<default>Meu noivo estava naquele lugar?</default>
-	</talk>
-	<talk character="Heric">
-		<default>Mas é claro! Ele é homem, não é como esse maricas!</default>
-	</talk>
-	<talk character="Pandora">
-		<default>Antes esse maricas que homens como o senhor.</default>
-	</talk>
-	<teller>
-		<default>Heric arma o braço para dar um tapa, Pandora segura. Heric puxa o braço. Leo pega Pandora pela mão e corre.</default>
-	</teller>
-	<teller>
-		<division>Presente</division>
-	</teller>
-	<talk character="Leo">
-		<ghost>Foi a última vez que vi meu pai.</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Complicado.</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>Você vai a esse tipo de lugar?</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Nunca fui. Mas deveria. A gente ajuda pessoas. Deve ter bastante gente precisando de ajuda.</default>
-	</talk>
-	<talk character="Mel">
-		<out>Ang...</out>
-		<arrive>Nossa, conseguiu abrir a porta sem arrombar?</arrive>
-	</talk>
-	<talk character="Ang">
-		<default>Só abriu.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Você, dando patada?!</default>
-	</talk>
-	<talk character="Ang">
-		<default>Era literal.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Então é melhor chamar alguém para tirar esse espírito daqui.</default>
-	</talk>
-	<teller>
-		<default>Mel se vira para fora. Um vaso voa em sua direção. Ang pega.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Não é necessário. Não vai fazer mal a ninguém.</default>
-	</talk>
-	<teller>
-		<default>Mel franze a testa e vira de volta.</default>
-	</teller>
-	<talk character="Mel">
-		<default>O meu não era literal. Tem mesmo um espírito aqui?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Não vai fazer mal.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Melhor você ir dormir que tá tarde.</default>
-	</talk>
-	<talk character="Ang">
-		<default>Tá.</default>
-	</talk>
-	<teller>
-		<default>Ang não se mexe. Mel cruza os braços.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Não vai?</default>
-	</talk>
-	<teller>
-		<default>Angely sai. Mel olha ao redor.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Olha, se quiser conversar com Angely, conversa de dia. De noite tem que dormir, apesar de se comportar como se não precisasse dessas coisas.</default>
-	</talk>
-	<teller>
-		<default>Mel sai, fechando a porta.</default>
-	</teller>
-	<teller>
-		<first>Dia seguinte. Pessoas no salão de entrada.</first>
-	</teller>
-	<talk character="Mel">
-		<default>Bom, hoje nós estamos quase terminando tudo, só falta lá em cima...</default>
-	</talk>
-	<talk character="Rodrigo">
-		<default>E o pagamento!</default>
-	</talk>
-	<talk character="Mel">
-		<default>Não esquecemos disso. Assim que terminarmos, trocaremos o resto que temos por dinheiro e pagaremos vocês. Eu creio que ainda sobre muito. Mas olha, tenho nome de todo mundo e o que fizeram. Se trambicaram aqui, vou saber.</default>
-	</talk>
-	<teller>
-		<default>Cidade. Loja de ferramentas.</default>
-	</teller>
-	<talk character="Dário">
-		<default>Nossa, vocês devem ter muito dinheiro e coragem...</default>
-	</talk>
-	<talk character="Ang">
-		<default>Coragem?</default>
-	</talk>
-	<talk character="Dário">
-		<default>Reformar aquela casa enorme não é coragem?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Ah!</default>
-	</talk>
-	<talk character="Dário">
-		<default>Por que, tem tido algum problema na casa?</default>
-	</talk>
-	<talk character="Ang">
-		<default>De que tipo de problema tá falando?</default>
-	</talk>
-	<teller>
-		<default>Ang chega em casa. Vai para o sótão.</default>
-	</teller>
-	<talk character="Ang">
-		<default>Não sei seu nome ainda...</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>Leonardo.</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Eu queria falar com você, sobre umas histórias que me contaram...</default>
-	</talk>
-	<talk character="Leo">
-		<ghost>Os vampiros adoravam trazer suas vítimas para cá. Por isso o caçador se instalou aqui.</ghost>
-	</talk>
-	<talk character="Ang">
-		<default>Ah...</default>
-	</talk>
-	<teller>
-		<default>Leonardo senta-se no chão, joelhos junto ao tórax, com a cabeça sobre os joelhos. Batida na porta.</default>
-	</teller>
-	<talk character="Mel">
-		<out>Ang, estávamos esperando você chegar para começar aqui... Por que trancou a porta?</out>
-	</talk>
-	<talk character="Ang">
-		<hushed>Que foi?</hushed>
-	</talk>
-	<talk character="Leo">
-		<ghost>Vão querer vender meus quadros!</ghost>
-	</talk>
-	<talk character="Ang">
-		<hushed>Prometo que não deixo.</hushed>
-	</talk>
-	<talk character="Leo">
-		<ghost>Vai dizer o que?</ghost>
-	</talk>
-	<talk character="Ang">
-		<hushed>Que tal a verdade?</hushed>
-	</talk>
-	<talk character="Leo">
-		<ghost>Te internam.</ghost>
-	</talk>
-	<talk character="Ang">
-		<hushed>Pode mover algo para provar.</hushed>
-	</talk>
-	<talk character="Leo">
-		<ghost>Ontem foi a primeira vez que consegui isso.</ghost>
-	</talk>
-	<teller>
-		<default>Inês entra por uma janela.</default>
-	</teller>
-	<talk character="Inês">
-		<special>Foram buscar algo para arrombar.</special>
-	</talk>
-	<talk character="Ang">
-		<hushed>Eu falo com eles, Leo.</hushed>
-	</talk>
-	<talk character="Inês">
-		<special>Quem é Leo?!</special>
-	</talk>
-	<talk character="Leo">
-		<ghost>O filho é seu?</ghost>
-	</talk>
-	<talk character="Mel">
-		<default>Angely, último aviso...</default>
-	</talk>
-	<talk character="Ang">
-		<hushed>Leo, por favor...</hushed>
-	</talk>
-	<teller>
-		<default>Leo solta a porta. Mel entra.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Que estava fazendo aí?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Vamos reformar, mais os quadros ficam.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Quadros?</default>
-	</talk>
-	<teller>
-		<default>Mel descobre um. Olha. Puxa o lençol de outros dois.</default>
-	</teller>
-	<talk character="Mel">
-		<default>De quem são?</default>
-	</talk>
-	<talk character="Kat">
-		<arrive>Nossa, são bonitos...</arrive>
-	</talk>
-	<talk character="Ang">
-		<default>Podem servir de decoração da casa.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Por causa disso trancou?!</default>
-	</talk>
-	<teller>
-		<default>Ang aponta Leo com os olhos.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Ah, tá... Se quer assim...</default>
-	</talk>
-	<teller>
-		<default>Angely vai para um canto.</default>
-	</teller>
-	<talk character="Ang">
-		<hushed>Me disse que ontem tinha sido a primeira vez que tinha feito isso...</hushed>
-	</talk>
-	<talk character="Leo">
-		<ghost>Segurar a porta eu consigo, mover objetos não.</ghost>
-	</talk>
-	<talk character="Inês">
-		<special>Falando sozinho?</special>
-	</talk>
-	<talk character="Ang">
-		<default>Depois te explico.</default>
-	</talk>
-	<talk character="Kat">
-		<default>Explicar o que?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Desculpe, falava com Inês.</default>
-	</talk>
-	<talk character="Mel">
-		<default>Cadê as compras?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Deixei na copa.</default>
-	</talk>
-	<teller>
-		<default>Rodrigo, Antônia e Carina chegam com materiais e ferramentas.</default>
-	</teller>
-	<talk character="Mel">
-		<default>Bom, Angely, leva os quadros?</default>
-	</talk>
-	<talk character="Ang">
-		<default>Claro.</default>
-	</talk>
-</story>
+{
+	"season": "B",
+	"episode": "02",
+	"scene": "a",
+	"paragraphs": [
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "18/01/2003. Angely chega a sala, de roupa preta. Kat e Mel estão no sofá."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E aí, quando as aulas começam?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Março. Mel, só tem vaga pra dar aula de matemática."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então vou ter que arranjar outro serviço."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel olha a roupa de Angely. Angely baixa a cabeça."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez não devêssemos fazer luto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Não tinham visto que só comprou roupas pretas?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso pode acabar te fazendo mal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei se vai ter um momento em nossas vidas que as pessoas vão parar de morrer ao nosso redor."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat olha para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente tem que se preocupar em arrumar esse lugar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero que seja de verdade o ouro."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não estavam usando antes já?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem tanto. A maior parte do tempo Zenon e Beatrice traziam a comida. Só impus a Beatrice que não matasse ninguém."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Demos um quarto a Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pedimos pra verificar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Espero que seja."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca o celular de Mel. Mel atende."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Oi. ### Estela tá bem. ### Que? ### Voltando pra casa? ### Então o casarão já é nosso... ### Sim, Melody Lorrage e Angely Kallend."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel, eu preciso de um identidade também! Derik Kgalir!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan, eu tava esquecendo de Derik... ### Já tinha falado? ### Isso mesmo. ### Tá, eu sei, esqueceu que eu já tive que ter identidade feita antes? ### Não vou esquecer. ### Sim, vamos cuidar bem de Estela. ### Tchau."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel desliga."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo menos agora sabemos que é de verdade."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Um nome a menos na assinatura."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos precisar reformar tudo isso aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Inês entra na sala, esfregando o olho."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "special",
+					"text": "É mais fácil derrubar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estava dormindo?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "mute",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho que vamos precisar de ajuda para a reforma."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Fevereiro"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Noite. Ang vai até o sótão. A porta está emperrada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Devia ter chamado um chaveiro hoje, sabia que tinha esquecido alguma coisa..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A porta se abre. Angely franze a sobrancelha. Entra. Vários quadros cobertos. Descobre alguns. Uma pessoa, na maioria deles."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Ela parece um anjo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como entrou aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Me ouve?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E vejo também... Por que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "As pessoas normais não..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desde quando está assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Morto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não era a palavra que eu ia usar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Não há outra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, desde quando ninguém te vê ou ouve?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Perdi a conta dos anos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O que te prende aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Não sei, talvez o fato de eu ter me suicidado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que fez isso?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Se eu te explicar só um pedaço, não vai me entender. Se for explicar minha vida toda, vai dormir."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Prometo que não."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely se senta em uma cadeira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Desde pequeno eu me dava muito bem com minha prima. Meu pai não entendia isso... Geralmente não há muito acordo, já que éramos quase irmãos. Um dia, quando eu já tinha uns dezoito anos, meu pai me disse que ia fazer algo que já devia ter feito há anos... Fiquei com medo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Passado"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leo caminha com Heric. Entram em uma casa. Homens bebendo e mulheres com pouca ou nenhuma roupa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pai, não disse pra minha prima que isso é pecado?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Heric",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Essas mulheres são, como vou dizer...? Próprias para isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Heric vai até Dolores. Leo olha para Flávio. Vai até Flávio."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pra que serve esse lugar?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Flávio ri. Dolores pega a mão de Leo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vem que eu te mostro."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dolores leva Leo pela mão. Leo olha para Heric. Sobem para um quarto. Dolores fecha a porta. Se aproxima de Leo e pega nos botões da camisa. Leo se afasta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que que você tá fazendo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Com a roupa não tem como fazer... Bom, até tem, se quiser."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu pai não deixa minha prima nem chegar perto de homens..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Querido, ela é uma moça de família."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E você nasceu do que?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Odeio quando os pais não falam com os filhos antes de sair de casa..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dolores se senta na cama. Olha para Leo. Aponta a cama com os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vou te forçar a nada. Já fizeram comigo, não acho legal."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leo se senta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mulher de família não faz essas coisas com qualquer um, faz só com o marido. E não faz do jeito que a gente faz. Por isso inclusive que eles vêm aqui, porque homem precisa dessas coisas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E como sabem que todo homem precisa? Ou quem é mulher que faz isso ou não?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quem faz é quem precisa fazer. Ou quem se apaixona pelo cara e o cara não quer mais. Quem se entrega antes da hora. Ou quem já nasce aqui. São tantos casos... E homem precisa..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É natural."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dolores se levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha pra mim. Não sente nada?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leo balança a cabeça para os lados. Dolores tira a parte de cima. Leo balança de novo a cabeça para os lados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Será que você gosta de homem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se mudou faz pouco tempo?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dolores sorri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora está estranhando que nunca me viu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É, eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As pessoas não se misturam com a gente."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leo franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nos consideram... Acham que a gente é pecadora, que vai pro inferno."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então eu vou pro inferno? E meu pai?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dolores ri. Balança a cabeça para os lados."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é homem. Homem pode fazer o que quiser. Nem isso seu pai te disse?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como assim?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dolores se senta na cama. Olha nos olhos de Leo. Olha para baixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A culpa sempre vai ser nossa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que raios te faz aceitar isto?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dolores olha para Leo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sou só eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deveriam se rebelar!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E do que viveríamos?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dolores levanta, pega a parte de cima e veste de volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vocês são todos iguais. Até por nos culparem a culpa é nossa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não era isso que eu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Queria dizer?! Pois foi o que disse!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpa... Eu sou muito novo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "E que idade você acha que eu tenho?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Dolores olha para fora. Limpa as lágrimas do rosto. Vai até o espelho. Pega um papel e limpa a maquiagem borrada. Vira-se e sorri para Leo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai contar pro seu pai, né? Olha, pode fazer o que quiser comigo, eu..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leo abre mais os olhos e levanta da cama. Balança a cabeça para os lados. Sai do quarto. Dolores sai atrás. Descem as escadas. No meio do salão, Heric se aproxima, Leo empurra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Seus hipócritas! Eu tenho nojo de todos aqui! São uma vergonha!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leonardo sai correndo. Heric olha para Dolores."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dolores",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ele não quis, eu tentei, juro!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Heric",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Depois eu me acerto com você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Heric sai. Chega em casa. Vai ao quarto de Leo. Nada. Vai ao quarto de Pandora. Leo está com a cabeça no colo de Pandora."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Heric",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seu..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Pandora",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vais expulsar ele de casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Heric",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "É claro que vou! Não quero um filho que não gosta de mulher!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Pandora",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pois eu vou junto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Heric",
+			"pieces": [
+				{
+					"type": "screamed",
+					"text": "Não, vai se casar, como está marcado!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pandora levanta da cama. Vai até Heric."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Pandora",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Meu noivo estava naquele lugar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Heric",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas é claro! Ele é homem, não é como esse maricas!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Pandora",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Antes esse maricas que homens como o senhor."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Heric arma o braço para dar um tapa, Pandora segura. Heric puxa o braço. Leo pega Pandora pela mão e corre."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "division",
+					"text": "Presente"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Foi a última vez que vi meu pai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Complicado."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Você vai a esse tipo de lugar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nunca fui. Mas deveria. A gente ajuda pessoas. Deve ter bastante gente precisando de ajuda."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Ang..."
+				},
+				{
+					"type": "arrive",
+					"text": "Nossa, conseguiu abrir a porta sem arrombar?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só abriu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você, dando patada?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Era literal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então é melhor chamar alguém para tirar esse espírito daqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel se vira para fora. Um vaso voa em sua direção. Ang pega."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é necessário. Não vai fazer mal a ninguém."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel franze a testa e vira de volta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "O meu não era literal. Tem mesmo um espírito aqui?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai fazer mal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Melhor você ir dormir que tá tarde."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang não se mexe. Mel cruza os braços."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não vai?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely sai. Mel olha ao redor."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Olha, se quiser conversar com Angely, conversa de dia. De noite tem que dormir, apesar de se comportar como se não precisasse dessas coisas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel sai, fechando a porta."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Dia seguinte. Pessoas no salão de entrada."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, hoje nós estamos quase terminando tudo, só falta lá em cima..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rodrigo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E o pagamento!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não esquecemos disso. Assim que terminarmos, trocaremos o resto que temos por dinheiro e pagaremos vocês. Eu creio que ainda sobre muito. Mas olha, tenho nome de todo mundo e o que fizeram. Se trambicaram aqui, vou saber."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cidade. Loja de ferramentas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dário",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nossa, vocês devem ter muito dinheiro e coragem..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Coragem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dário",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Reformar aquela casa enorme não é coragem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Dário",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que, tem tido algum problema na casa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De que tipo de problema tá falando?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang chega em casa. Vai para o sótão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei seu nome ainda..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Leonardo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu queria falar com você, sobre umas histórias que me contaram..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Os vampiros adoravam trazer suas vítimas para cá. Por isso o caçador se instalou aqui."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leonardo senta-se no chão, joelhos junto ao tórax, com a cabeça sobre os joelhos. Batida na porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Ang, estávamos esperando você chegar para começar aqui... Por que trancou a porta?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Que foi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Vão querer vender meus quadros!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Prometo que não deixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Vai dizer o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Que tal a verdade?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Te internam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Pode mover algo para provar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Ontem foi a primeira vez que consegui isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Inês entra por uma janela."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "special",
+					"text": "Foram buscar algo para arrombar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Eu falo com eles, Leo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "special",
+					"text": "Quem é Leo?!"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "O filho é seu?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely, último aviso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Leo, por favor..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Leo solta a porta. Mel entra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que estava fazendo aí?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos reformar, mais os quadros ficam."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quadros?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel descobre um. Olha. Puxa o lençol de outros dois."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De quem são?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "arrive",
+					"text": "Nossa, são bonitos..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Podem servir de decoração da casa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por causa disso trancou?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ang aponta Leo com os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ah, tá... Se quer assim..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Angely vai para um canto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Me disse que ontem tinha sido a primeira vez que tinha feito isso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Leo",
+			"pieces": [
+				{
+					"type": "ghost",
+					"text": "Segurar a porta eu consigo, mover objetos não."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Inês",
+			"pieces": [
+				{
+					"type": "special",
+					"text": "Falando sozinho?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Depois te explico."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Explicar o que?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Desculpe, falava com Inês."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Cadê as compras?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deixei na copa."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rodrigo, Antônia e Carina chegam com materiais e ferramentas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Bom, Angely, leva os quadros?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Ang",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Claro."
+				}
+			]
+		}
+	]
+}
