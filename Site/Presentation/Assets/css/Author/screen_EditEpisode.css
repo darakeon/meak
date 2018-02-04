@@ -1,16 +1,16 @@
 ﻿.talk_Translate {
-    display: inline;
+	display: inline;
 }
-    .talk_Translate input {
-        padding: 4px 1px;
-    }
+	.talk_Translate input {
+		padding: 4px 1px;
+	}
 
-    .talk_Teller:before,
-    .talk_Teller:after,
-    .talk_Translate:before,
-    .talk_Translate:after {
-        content: none;
-    }
+	.talk_Teller:before,
+	.talk_Teller:after,
+	.talk_Translate:before,
+	.talk_Translate:after {
+		content: none;
+	}
 
 .teller_First input.text {
 	padding-top: 38px;

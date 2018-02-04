@@ -8,84 +8,84 @@ using Structure.Helpers;
 
 namespace Structure.Data
 {
-    public class FtpHelper
-    {
-        public FtpHelper(String seasonID, String episodeID, String sceneID, String password)
-        {
-            season = seasonID;
-            episode = episodeID;
-            scene = sceneID;
-            this.password = password;
-        }
+	public class FtpHelper
+	{
+		public FtpHelper(String seasonID, String episodeID, String sceneID, String password)
+		{
+			season = seasonID;
+			episode = episodeID;
+			scene = sceneID;
+			this.password = password;
+		}
 
-        private String season { get; }
-        private String episode { get; }
-        private String scene { get; }
-        private String password { get; }
+		private String season { get; }
+		private String episode { get; }
+		private String scene { get; }
+		private String password { get; }
 
-        public String Upload()
-        {
-            var fileExists = testEpisode();
+		public String Upload()
+		{
+			var fileExists = testEpisode();
 
-            return fileExists
-	            ? "File already exists"
-	            : upload();
-        }
+			return fileExists
+				? "File already exists"
+				: upload();
+		}
 
 
 
-        private Boolean testEpisode()
-        {
+		private Boolean testEpisode()
+		{
 			var request = newRequest(sceneUrl, WebRequestMethods.Ftp.DownloadFile);
 
-            return testResponse(request);
-        }
+			return testResponse(request);
+		}
 
-        private Boolean testResponse(FtpWebRequest request)
-        {
-            try
-            {
-                var fileExists = false;
+		private Boolean testResponse(FtpWebRequest request)
+		{
+			try
+			{
+				var fileExists = false;
 
-                using (var response = (FtpWebResponse) request.GetResponse())
-                {
-                    using (var stream = response.GetResponseStream())
-                    {
-                        if (stream != null)
-                        {
-                            using (var reader = new StreamReader(stream))
-                            {
-                                var content = reader.ReadToEnd();
+				using (var response = (FtpWebResponse) request.GetResponse())
+				{
+					using (var stream = response.GetResponseStream())
+					{
+						if (stream != null)
+						{
+							using (var reader = new StreamReader(stream))
+							{
+								var content = reader.ReadToEnd();
 
-                                if (content.EndsWith("</story>"))
-                                {
-                                    fileExists = true;
-                                }
-                            }
-                        }
-                    }
-                }
+								if (content.EndsWith("</story>"))
+								{
+									fileExists = true;
+								}
+							}
+						}
+					}
+				}
 
-                return fileExists;
-            }
-            catch (WebException)
-            {
-                return false;
-            }
+				return fileExists;
+			}
+			catch (WebException)
+			{
+				return false;
+			}
 
-        }
+		}
 
 
 
-        private String upload()
-        {
-	        var error = createDirectories();
+		private String upload()
+		{
+			var error = createDirectories();
 
-	        if (!String.IsNullOrEmpty(error))
-		        return error;
+			if (!String.IsNullOrEmpty(error))
+				return error;
 
 			return createEpisode();
-        }
+		}
 
 
 
@@ -116,8 +116,8 @@ namespace Structure.Data
 			return error;
 		}
 
-	    private IEnumerable<String> getChildren(String url)
-	    {
+		private IEnumerable<String> getChildren(String url)
+		{
 			var request = newRequest(url, WebRequestMethods.Ftp.ListDirectory);
 
 			String[] directories;
@@ -142,17 +142,17 @@ namespace Structure.Data
 				response.Close();
 			}
 
-		    return directories;
-	    }
+			return directories;
+		}
 
-	    private String createDirectory(String url)
-	    {
+		private String createDirectory(String url)
+		{
 			var request = newRequest(url, WebRequestMethods.Ftp.MakeDirectory);
 			return handleResponse(request, FtpStatusCode.PathnameCreated);
-	    }
+		}
 
 
-	    private string createEpisode()
+		private string createEpisode()
 		{
 			var request = newRequest(sceneUrl, WebRequestMethods.Ftp.UploadFile);
 
@@ -162,41 +162,41 @@ namespace Structure.Data
 		}
 		
 		private void copyEpisodeContent(FtpWebRequest request)
-        {
-            var path = new EpisodeJson().PathJson;
-            path = Paths.SceneFilePath(path, season, episode, scene);
-            
-            var fileContents = File.ReadAllBytes(path);
-            request.ContentLength = fileContents.Length;
+		{
+			var path = new EpisodeJson().PathJson;
+			path = Paths.SceneFilePath(path, season, episode, scene);
+			
+			var fileContents = File.ReadAllBytes(path);
+			request.ContentLength = fileContents.Length;
 
-            using (var requestStream = request.GetRequestStream())
-            {
-                requestStream.Write(fileContents, 0, fileContents.Length);
-                requestStream.Close();
-            }
-        }
+			using (var requestStream = request.GetRequestStream())
+			{
+				requestStream.Write(fileContents, 0, fileContents.Length);
+				requestStream.Close();
+			}
+		}
 
 
 
 		private string seasonUrl => Paths.FtpDirectoryPath(Config.FtpUrl, season);
-	    private string episodeUrl => Paths.FtpDirectoryPath(Config.FtpUrl, season, episode);
-	    private string sceneUrl => Paths.FtpFilePath(Config.FtpUrl, season, episode, scene);
+		private string episodeUrl => Paths.FtpDirectoryPath(Config.FtpUrl, season, episode);
+		private string sceneUrl => Paths.FtpFilePath(Config.FtpUrl, season, episode, scene);
 
-	    private static FtpStatusCode[] ftpSuccessCodes => new[] { FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK };
+		private static FtpStatusCode[] ftpSuccessCodes => new[] { FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK };
 
 
-	    private FtpWebRequest newRequest(String url, String method)
-        {
-            var request = (FtpWebRequest) WebRequest.Create(url);
-            
-            request.Method = method;
-            request.Credentials = createCredentials();
+		private FtpWebRequest newRequest(String url, String method)
+		{
+			var request = (FtpWebRequest) WebRequest.Create(url);
+			
+			request.Method = method;
+			request.Credentials = createCredentials();
 			request.UsePassive = false;
 
-            return request;
-        }
+			return request;
+		}
 
-	    private NetworkCredential createCredentials()
+		private NetworkCredential createCredentials()
 		{
 			return new NetworkCredential(Config.FtpAddress + "|" + Config.FtpLogin, password);
 		}
@@ -219,5 +219,5 @@ namespace Structure.Data
 		}
 
 
-    }
+	}
 }

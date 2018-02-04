@@ -1,24 +1,24 @@
 ﻿@model Presentation.Models.ErrorModel
 
 @{
-    ViewBag.Title = "Erro";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = "Erro";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @if (Request.Url.DnsSafeHost == "localhost")
 {
-    @Model.Message
+	@Model.Message
 }
 else
 {
-    <h2>Ops!</h2>
+	<h2>Ops!</h2>
 
-    <p>
-        Aconteceu um erro ao tentar acessar esta história.
-    </p>
+	<p>
+		Aconteceu um erro ao tentar acessar esta história.
+	</p>
 
-    <p>
-        Por favor, entre em contato:
-        <a href="mailto:meak@darakeon.com">meak@darakeon.com</a>
-    </p>
+	<p>
+		Por favor, entre em contato:
+		<a href="mailto:meak@darakeon.com">meak@darakeon.com</a>
+	</p>
 }

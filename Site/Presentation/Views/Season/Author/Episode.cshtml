@@ -3,28 +3,28 @@
 @model Presentation.Models.SeasonEditEpisodeModel
 
 @{
-    ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
+	Layout = "~/Views/Shared/_Layout.cshtml";
 
-    var route = new { episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
-    var formId = "form_title";
-    
-    var html = new { id = formId };
+	var route = new { episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
+	var formId = "form_title";
+	
+	var html = new { id = formId };
 
-    var ajaxOptions = new AjaxOptions
-    { 
-        HttpMethod = "Post", 
-        OnBegin = "SaveBegin('" + formId + "')", 
-        OnSuccess = "SaveSuccess('" + formId + "')", 
-        OnFailure = "SaveFailure('" + formId + "')"
-    };
+	var ajaxOptions = new AjaxOptions
+	{ 
+		HttpMethod = "Post", 
+		OnBegin = "SaveBegin('" + formId + "')", 
+		OnSuccess = "SaveSuccess('" + formId + "')", 
+		OnFailure = "SaveFailure('" + formId + "')"
+	};
 
-    var topSelector =
-        new TopSelectorModel
-        {
-            Total = Model.Story.SceneList.Count,
-            Current = Convert.ToInt32(Model.ReadingScene[0]) - 97
-        };
+	var topSelector =
+		new TopSelectorModel
+		{
+			Total = Model.Story.SceneList.Count,
+			Current = Convert.ToInt32(Model.ReadingScene[0]) - 97
+		};
 }
 
 <script src="@Url.Content("~/Assets/js/Author/Inputs.js")" type="text/javascript"></script>

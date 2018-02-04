@@ -2,12 +2,12 @@
 
 @if (String.IsNullOrEmpty(Model.Result))
 {
-    using (Html.BeginForm())
-    {
-        @Html.PasswordFor(m => m.Password)
-    }
+	using (Html.BeginForm())
+	{
+		@Html.PasswordFor(m => m.Password)
+	}
 }
 else
 {
-    @Model.Result
+	@Model.Result
 }

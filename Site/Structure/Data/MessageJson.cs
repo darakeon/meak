@@ -9,13 +9,13 @@ using path = System.IO.Path;
 
 namespace Structure.Data
 {
-    public class MessageJson
-    {
-        public String Path { get; private set; }
+	public class MessageJson
+	{
+		public String Path { get; private set; }
 
-        public MessageJson()
-        {
-            setPath();
+		public MessageJson()
+		{
+			setPath();
 		}
 
 		private void setPath()
@@ -26,7 +26,7 @@ namespace Structure.Data
 				throw new Exception("XML Path not configured.");
 
 			var isAbsolutePath = folder.Length > 1
-			                     && folder.Substring(1, 1) == ":";
+								 && folder.Substring(1, 1) == ":";
 
 			Path = isAbsolutePath
 				? folder
@@ -38,19 +38,19 @@ namespace Structure.Data
 
 
 		public IList<Message> GetAll()
-        {
-	        return getMessageFiles()
+		{
+			return getMessageFiles()
 				.Select(getMessage)
-		        .ToList();
-        }
+				.ToList();
+		}
 
-	    private IEnumerable<MessageFile> getMessageFiles()
-	    {
-		    return Directory.GetFiles(Path, "*.json")
-			    .Select(f => new MessageFile(f))
-			    .OrderByDescending(f => f.Date)
-			    .Take(30);
-	    }
+		private IEnumerable<MessageFile> getMessageFiles()
+		{
+			return Directory.GetFiles(Path, "*.json")
+				.Select(f => new MessageFile(f))
+				.OrderByDescending(f => f.Date)
+				.Take(30);
+		}
 
 		private static Message getMessage(MessageFile messageFile)
 		{
@@ -59,17 +59,17 @@ namespace Structure.Data
 			return message;
 		}
 
-        class MessageFile
-        {
-            public MessageFile(String path)
-            {
-                Path = path;
-                Date = File.GetLastWriteTime(path);
-            }
+		class MessageFile
+		{
+			public MessageFile(String path)
+			{
+				Path = path;
+				Date = File.GetLastWriteTime(path);
+			}
 
-            public String Path { get; }
-            public DateTime Date { get; }
-        }
+			public String Path { get; }
+			public DateTime Date { get; }
+		}
 
-    }
+	}
 }

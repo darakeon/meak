@@ -1,17 +1,17 @@
 $(document).ready(LayoutAndWork);
 
 function LayoutAndWork() {
-    PutLink();
+	PutLink();
 
-    ChooseBackground();
+	ChooseBackground();
 
-    //AnimateLegend();
-    ShowStoryNames();
+	//AnimateLegend();
+	ShowStoryNames();
 
-    AjustLogin();
+	AjustLogin();
 
-    SceneChanger();
-    FontResizer();
+	SceneChanger();
+	FontResizer();
 
-    $(window).resize(AjustLogin);
+	$(window).resize(AjustLogin);
 }

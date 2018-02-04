@@ -1,134 +1,134 @@
 function AddInputItem(obj) {
-    window.canSubmit = false;
+	window.canSubmit = false;
 
-    var type = $(obj).attr("type");
+	var type = $(obj).attr("type");
 
-    switch (type) {
-        case "Piece":
-            AddPiece(obj);
-            break;
-        case "Paragraph":
-            AddParagraph(obj);
-            break;
-        default:
-	        alert("Unknown Adder.");
-    }
+	switch (type) {
+		case "Piece":
+			AddPiece(obj);
+			break;
+		case "Paragraph":
+			AddParagraph(obj);
+			break;
+		default:
+			alert("Unknown Adder.");
+	}
 }
 
 
 
 function AddPiece(obj) {
-    var scene = $(obj).attr("scene");
-    var subtype = $(obj).attr("subtype");
-    var piece = NumericValueAttr(obj, "piece");
-    var typedParagraph = NumericValueAttr(obj, subtype);
+	var scene = $(obj).attr("scene");
+	var subtype = $(obj).attr("subtype");
+	var piece = NumericValueAttr(obj, "piece");
+	var typedParagraph = NumericValueAttr(obj, subtype);
 
-    var adderPage = $(obj).attr("url");
+	var adderPage = $(obj).attr("url");
 
-    $.post(adderPage, { type: "piece", scene: scene, subtype: subtype, piece: piece + 1, teller: typedParagraph, talk: typedParagraph }, function (data) {
+	$.post(adderPage, { type: "piece", scene: scene, subtype: subtype, piece: piece + 1, teller: typedParagraph, talk: typedParagraph }, function (data) {
 
-        var paragraph = NumericValueAttr(obj, "paragraph");
-        AjustNextPieces(scene, paragraph, piece);
+		var paragraph = NumericValueAttr(obj, "paragraph");
+		AjustNextPieces(scene, paragraph, piece);
 
 
-        var currentPiece = $("#Scene" + scene + " #" + subtype + typedParagraph + "_Piece" + piece);
+		var currentPiece = $("#Scene" + scene + " #" + subtype + typedParagraph + "_Piece" + piece);
 
-        currentPiece.after(data);
+		currentPiece.after(data);
 
-        window.canSubmit = true;
-    });
+		window.canSubmit = true;
+	});
 }
 
 function AjustNextPieces(scene, paragraph, piece) {
-    $("#Scene" + scene + " #Paragraph" + paragraph + " .paragraphPiece").each(function () {
-        AjustPiece(this, piece);
-    });
+	$("#Scene" + scene + " #Paragraph" + paragraph + " .paragraphPiece").each(function () {
+		AjustPiece(this, piece);
+	});
 }
 
 function AjustPiece(obj, piece) {
-    var currentId = $(obj).attr("id");
+	var currentId = $(obj).attr("id");
 
-    var currentPieceNumber = currentId.split("_")[1].replace("Piece", "");
-    currentPieceNumber = parseInt(currentPieceNumber);
+	var currentPieceNumber = currentId.split("_")[1].replace("Piece", "");
+	currentPieceNumber = parseInt(currentPieceNumber);
 
 
-    if (currentPieceNumber > piece) {
-        GetInputValues(obj);
-        AjustNumbers(obj, "piece", currentPieceNumber);
-        SetInputValues(obj);
-    }
+	if (currentPieceNumber > piece) {
+		GetInputValues(obj);
+		AjustNumbers(obj, "piece", currentPieceNumber);
+		SetInputValues(obj);
+	}
 }
 
 
 
 function AddParagraph(obj) {
-    var scene = $(obj).attr("scene");
-    var subtype = $(obj).attr("subtype").toLowerCase();
-    var caller = $(obj).attr("caller").toLowerCase();
+	var scene = $(obj).attr("scene");
+	var subtype = $(obj).attr("subtype").toLowerCase();
+	var caller = $(obj).attr("caller").toLowerCase();
 
-    var paragraph = NumericValueAttr(obj, "paragraph");
-    var newParagraph = paragraph + 1;
+	var paragraph = NumericValueAttr(obj, "paragraph");
+	var newParagraph = paragraph + 1;
 
 
-    var talkParagraph = NumericValueAttr(obj, 'talk');
-    var newTalkParagraph = talkParagraph +
-        (caller === 'talk' ? 1 : 0);
+	var talkParagraph = NumericValueAttr(obj, 'talk');
+	var newTalkParagraph = talkParagraph +
+		(caller === 'talk' ? 1 : 0);
 
-    var tellerParagraph = NumericValueAttr(obj, 'teller');
-    var newTellerParagraph = tellerParagraph +
-        (caller === 'teller' ? 1 : 0);
+	var tellerParagraph = NumericValueAttr(obj, 'teller');
+	var newTellerParagraph = tellerParagraph +
+		(caller === 'teller' ? 1 : 0);
 
-    var adderPage = $(obj).attr("url");
+	var adderPage = $(obj).attr("url");
 
-    $.post(adderPage, { scene: scene, type: "paragraph", subtype: subtype, paragraph: newParagraph, teller: newTellerParagraph, talk: newTalkParagraph }, function (data) {
+	$.post(adderPage, { scene: scene, type: "paragraph", subtype: subtype, paragraph: newParagraph, teller: newTellerParagraph, talk: newTalkParagraph }, function (data) {
 
-        AjustNextParagraphs(scene, paragraph, subtype);
+		AjustNextParagraphs(scene, paragraph, subtype);
 
-        $("#Scene" + scene + " #Paragraph" + paragraph).after(data);
+		$("#Scene" + scene + " #Paragraph" + paragraph).after(data);
 
-        window.canSubmit = true;
-    });
+		window.canSubmit = true;
+	});
 }
 
 function AjustNextParagraphs(scene, paragraph, subtype) {
-    $("#Scene" + scene + " .paragraph").each(function () {
-        AjustParagraph(this, paragraph, subtype);
-    });
+	$("#Scene" + scene + " .paragraph").each(function () {
+		AjustParagraph(this, paragraph, subtype);
+	});
 }
 
 function AjustParagraph(obj, paragraph, subtype) {
-    var currentId = $(obj).attr("id");
-    var currentParagraphNumber = currentId.replace("Paragraph", "");
-    currentParagraphNumber = parseInt(currentParagraphNumber);
+	var currentId = $(obj).attr("id");
+	var currentParagraphNumber = currentId.replace("Paragraph", "");
+	currentParagraphNumber = parseInt(currentParagraphNumber);
 
-    if (currentParagraphNumber > paragraph) {
-        GetInputValues(obj);
+	if (currentParagraphNumber > paragraph) {
+		GetInputValues(obj);
 
-        
-        AjustNumbers(obj, "paragraph", currentParagraphNumber);
+		
+		AjustNumbers(obj, "paragraph", currentParagraphNumber);
 
-        var currentTypedParagraphNumber = NumericValueAttr(obj, subtype);
+		var currentTypedParagraphNumber = NumericValueAttr(obj, subtype);
 
-        
-        AjustNumbers(obj, subtype, currentTypedParagraphNumber);
+		
+		AjustNumbers(obj, subtype, currentTypedParagraphNumber);
 
-        if (subtype === "talk") {
-            AjustNumbers(obj, "character", currentTypedParagraphNumber);
-        }
+		if (subtype === "talk") {
+			AjustNumbers(obj, "character", currentTypedParagraphNumber);
+		}
 
-        AjustDivSubTypePosition(obj, subtype);
+		AjustDivSubTypePosition(obj, subtype);
 
 
-        SetInputValues(obj);
-    }
+		SetInputValues(obj);
+	}
 }
 
 function AjustDivSubTypePosition(obj, subtype) {
-    var currentPosition = $(obj).attr(subtype);
-    
-    var rightPosition = parseInt(currentPosition) + 1;
+	var currentPosition = $(obj).attr(subtype);
+	
+	var rightPosition = parseInt(currentPosition) + 1;
 
-    $(obj).attr(subtype, rightPosition);
+	$(obj).attr(subtype, rightPosition);
 }
 
 
@@ -136,33 +136,33 @@ function AjustDivSubTypePosition(obj, subtype) {
 
 
 function AjustNumbers(obj, preced, currentNumber) {
-    var rightPieceNumber = currentNumber + 1;
+	var rightPieceNumber = currentNumber + 1;
 
-    var current = new RegExp("(" + preced + "[^0-9 ]*)(" + currentNumber + ")", "gi");
-    var right = "$1" + rightPieceNumber;
+	var current = new RegExp("(" + preced + "[^0-9 ]*)(" + currentNumber + ")", "gi");
+	var right = "$1" + rightPieceNumber;
 
-    $(obj).html(
-            $(obj).html().replace(current, right)
-        );
+	$(obj).html(
+			$(obj).html().replace(current, right)
+		);
 
-    $(obj).attr("id",
-            $(obj).attr("id").replace(current, right)
-        );
+	$(obj).attr("id",
+			$(obj).attr("id").replace(current, right)
+		);
 }
 
 
 
 
 function GetInputValues(obj) {
-    $("#" + obj.id + " input").each(function () {
-        var value = $(this).attr("value");
-        $(this).attr("editedValue", value);
-    });
+	$("#" + obj.id + " input").each(function () {
+		var value = $(this).attr("value");
+		$(this).attr("editedValue", value);
+	});
 }
 
 function SetInputValues(obj) {
-    $("#" + obj.id + " input").each(function () {
-        var editedValue = $(this).attr("editedValue");
-        $(this).attr("value", editedValue);
-    });
+	$("#" + obj.id + " input").each(function () {
+		var editedValue = $(this).attr("editedValue");
+		$(this).attr("value", editedValue);
+	});
 }

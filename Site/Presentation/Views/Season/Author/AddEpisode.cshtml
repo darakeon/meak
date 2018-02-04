@@ -1,32 +1,32 @@
 ﻿@model Presentation.Models.SeasonAddEpisodeModel
 
 @{
-    ViewBag.Title = "MEAK";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = "MEAK";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 
 
 <div class="addEpisodeForm">
-    @using (Html.BeginForm())
-    {
-        @Html.ValidationSummary();
-    
-        <p>
-            @Html.LabelFor(m => m.SeasonEpisode.Season)
-            @Html.TextBoxFor(m => m.SeasonEpisode.Season)
-        </p>
-    
-        <p>
-            @Html.LabelFor(m => m.SeasonEpisode.Episode)
-            @Html.TextBoxFor(m => m.SeasonEpisode.Episode)
-        </p>
-        
-        <p>
-            @Html.LabelFor(m => m.Title)
-            @Html.TextBoxFor(m => m.Title)
-        </p>
-        
-        <button>Add Episode</button>
-    }
+	@using (Html.BeginForm())
+	{
+		@Html.ValidationSummary();
+	
+		<p>
+			@Html.LabelFor(m => m.SeasonEpisode.Season)
+			@Html.TextBoxFor(m => m.SeasonEpisode.Season)
+		</p>
+	
+		<p>
+			@Html.LabelFor(m => m.SeasonEpisode.Episode)
+			@Html.TextBoxFor(m => m.SeasonEpisode.Episode)
+		</p>
+		
+		<p>
+			@Html.LabelFor(m => m.Title)
+			@Html.TextBoxFor(m => m.Title)
+		</p>
+		
+		<button>Add Episode</button>
+	}
 </div>

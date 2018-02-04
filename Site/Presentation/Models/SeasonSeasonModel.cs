@@ -14,7 +14,7 @@ namespace Presentation.Models
 			var seasonPathXml = Paths.SeasonPath(Paths.Json, season); 
 			
 			Season = new Season(seasonPathXml);
-	        EpisodeList = Season.EpisodeList;
+			EpisodeList = Season.EpisodeList;
 
 			if (!Authenticate.IsAuthenticated && EpisodeList.Any())
 			{
@@ -22,7 +22,7 @@ namespace Presentation.Models
 					.Where(e => e.IsPublished()).ToList();
 
 				var nextSeason = ((char)(season[0] + 1)).ToString();
-                var nextSeasonExists = Paths.SeasonPathExists(Paths.Json, nextSeason);
+				var nextSeasonExists = Paths.SeasonPathExists(Paths.Json, nextSeason);
 
 				if (!nextSeasonExists)
 				{
@@ -31,13 +31,13 @@ namespace Presentation.Models
 				}
 
 				EpisodeList = publishedEpisodes
-                    .Where(e => e.HasSummary())
+					.Where(e => e.HasSummary())
 					.ToList();
 			}
-	    }
+		}
 
-	    public Season Season { get; set; }
-        public IList<Episode> EpisodeList { get; set; }
+		public Season Season { get; set; }
+		public IList<Episode> EpisodeList { get; set; }
 
-    }
+	}
 }

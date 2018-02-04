@@ -1,54 +1,54 @@
 ﻿@using Presentation
 @using Structure.Enums
 @model Presentation.Models.SeasonEditEpisodeModel
-           
+		   
 <div class="paragraph @Model.CurrentParagraph.ToString().ToLower()" id="Paragraph@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)">
 
 	<span class="suggestionCharacter">
-        <adder class="adderTalk" scene="@Model.SceneCounter" caller="@Model.CurrentParagraph" type="Paragraph" subtype="Talk" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" talk="@Model.TalkCounter" onclick="AddInputItem(this)" url="@HttpUtility.UrlDecode(Url.Route(RouteConfig.Names.Adder, null, null, Model.CurrentScene))">+</adder>
-        <adder class="adderTeller" scene="@Model.SceneCounter" caller="@Model.CurrentParagraph" type="Paragraph" subtype="Teller" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" talk="@Model.TalkCounter" onclick="AddInputItem(this)" url="@HttpUtility.UrlDecode(Url.Route(RouteConfig.Names.Adder, null, null, Model.CurrentScene))">+</adder>
-    </span>
+		<adder class="adderTalk" scene="@Model.SceneCounter" caller="@Model.CurrentParagraph" type="Paragraph" subtype="Talk" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" talk="@Model.TalkCounter" onclick="AddInputItem(this)" url="@HttpUtility.UrlDecode(Url.Route(RouteConfig.Names.Adder, null, null, Model.CurrentScene))">+</adder>
+		<adder class="adderTeller" scene="@Model.SceneCounter" caller="@Model.CurrentParagraph" type="Paragraph" subtype="Teller" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" talk="@Model.TalkCounter" onclick="AddInputItem(this)" url="@HttpUtility.UrlDecode(Url.Route(RouteConfig.Names.Adder, null, null, Model.CurrentScene))">+</adder>
+	</span>
 
-    @if (Model.CurrentParagraph == ParagraphType.Talk)
-    {
-        <span class="suggestionCharacter">
-            @Html.TextBoxFor(m => m.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Character, 
-                new { 
-                    @class = "darkback auxi",
-                    rel = ("scene" + Model.SceneCounter + "_character_" + Model.TalkCounter), 
-                    suggestion = "character", 
-                    onfocus = "GetSuggestionBox(this)", 
-                    onblur = "ExitSuggestionBox(this)" ,
-                    tabIndex = Model.TabIndex +
-                        2 * Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces.Count
-                })
+	@if (Model.CurrentParagraph == ParagraphType.Talk)
+	{
+		<span class="suggestionCharacter">
+			@Html.TextBoxFor(m => m.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Character, 
+				new { 
+					@class = "darkback auxi",
+					rel = ("scene" + Model.SceneCounter + "_character_" + Model.TalkCounter), 
+					suggestion = "character", 
+					onfocus = "GetSuggestionBox(this)", 
+					onblur = "ExitSuggestionBox(this)" ,
+					tabIndex = Model.TabIndex +
+						2 * Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces.Count
+				})
 
-            <div class="suggestionBox" id="scene@(Model.SceneCounter)_character_@(Model.TalkCounter)"></div>
-        </span>
+			<div class="suggestionBox" id="scene@(Model.SceneCounter)_character_@(Model.TalkCounter)"></div>
+		</span>
 
-        for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces.Count; p++)
-        {
-            Model.PieceCounter = p;
-            
-            @Html.Partial("Author/TalkPiece");
-        }
+		for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces.Count; p++)
+		{
+			Model.PieceCounter = p;
+			
+			@Html.Partial("Author/TalkPiece");
+		}
 
-        Model.TalkCounter++;
-        Model.TabIndex++;
-    }
+		Model.TalkCounter++;
+		Model.TabIndex++;
+	}
 
-    else if (Model.CurrentParagraph == ParagraphType.Teller)
-    {
-        for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].TellerList[Model.TellerCounter].Pieces.Count; p++)
-        {
-            Model.PieceCounter = p;
-            
-            @Html.Partial("Author/TellerPiece");
-        }
-        
-        Model.TellerCounter++;
-    }
-    
-    @Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].ParagraphTypeList[Model.ParagraphCounter])
-    
+	else if (Model.CurrentParagraph == ParagraphType.Teller)
+	{
+		for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].TellerList[Model.TellerCounter].Pieces.Count; p++)
+		{
+			Model.PieceCounter = p;
+			
+			@Html.Partial("Author/TellerPiece");
+		}
+		
+		Model.TellerCounter++;
+	}
+	
+	@Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].ParagraphTypeList[Model.ParagraphCounter])
+	
 </div>

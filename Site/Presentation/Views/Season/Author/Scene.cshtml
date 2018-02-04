@@ -1,12 +1,12 @@
 ﻿@model Presentation.Models.SeasonEditEpisodeModel
-           
+		   
 @{
-    var scene = Model.Story.SceneList[Model.SceneCounter];
-    var formId = "form_" + scene.ID;
+	var scene = Model.Story.SceneList[Model.SceneCounter];
+	var formId = "form_" + scene.ID;
 
-    var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin('" + formId + "')", OnSuccess = "SaveSuccess('" + formId + "')", OnFailure = "SaveFailure('" + formId + "')" };
-    var route = new { sceneID = scene.ID, episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
-    var html = new { id = formId };
+	var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin('" + formId + "')", OnSuccess = "SaveSuccess('" + formId + "')", OnFailure = "SaveFailure('" + formId + "')" };
+	var route = new { sceneID = scene.ID, episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
+	var html = new { id = formId };
 }
 
 <div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(Model.SceneCounter)">
@@ -27,25 +27,25 @@
 			new {@class = "darkback", target = "_blank"})
 	</div>
 
-    @using (Ajax.BeginForm("EditScene", route, ajaxOptions, html))
-    {
-        for (var s = 0; s <= Model.SceneCounter; s++)
-        {
-            @Html.HiddenFor(m => m.Story.SceneList[s].ID);
-        }
-        
-        @Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].Episode.Season.ID);
-        @Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].Episode.ID);
-                                                         
-        for (var p = 0; p < scene.ParagraphTypeList.Count; p++)
-        {
-            Model.ParagraphCounter = p;
-        
-            @Html.Partial("Author/Paragraph")
-        }
+	@using (Ajax.BeginForm("EditScene", route, ajaxOptions, html))
+	{
+		for (var s = 0; s <= Model.SceneCounter; s++)
+		{
+			@Html.HiddenFor(m => m.Story.SceneList[s].ID);
+		}
+		
+		@Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].Episode.Season.ID);
+		@Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].Episode.ID);
+														 
+		for (var p = 0; p < scene.ParagraphTypeList.Count; p++)
+		{
+			Model.ParagraphCounter = p;
+		
+			@Html.Partial("Author/Paragraph")
+		}
 
-        Model.TalkCounter = 0;
-        Model.TellerCounter = 0;
-    }
-    
+		Model.TalkCounter = 0;
+		Model.TellerCounter = 0;
+	}
+	
 </div>

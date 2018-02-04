@@ -1,34 +1,34 @@
 ﻿@using Presentation
 @model Presentation.Models.BaseModel
-           
+		   
 @if (Model.LogOn.Is)
 {
-    var routeValues = new
-    {
-        returnUrl = Model.LogOn.ReturnUrl,
-        action = "LogOn",
-        controller = "Account"
-    };
+	var routeValues = new
+	{
+		returnUrl = Model.LogOn.ReturnUrl,
+		action = "LogOn",
+		controller = "Account"
+	};
 
 
-    using (Html.BeginRouteForm(RouteConfig.Names.LogOn.ToString(), routeValues, FormMethod.Post))
-    {
-        <div class="lightback inner">
-        
-            <div>
-                @Html.TextBoxFor(m => m.LogOn.Login)
-            </div>
+	using (Html.BeginRouteForm(RouteConfig.Names.LogOn.ToString(), routeValues, FormMethod.Post))
+	{
+		<div class="lightback inner">
+		
+			<div>
+				@Html.TextBoxFor(m => m.LogOn.Login)
+			</div>
 
-            <div>
-                @Html.PasswordFor(m => m.LogOn.Password)
-            </div>
+			<div>
+				@Html.PasswordFor(m => m.LogOn.Password)
+			</div>
 
-            <div>
-                <input type="submit" value="Enter" />
-            </div>
+			<div>
+				<input type="submit" value="Enter" />
+			</div>
 
-        </div>
-    }
+		</div>
+	}
 }
 
 

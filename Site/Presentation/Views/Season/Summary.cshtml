@@ -2,28 +2,28 @@
 @model Presentation.Models.SeasonSeasonModel
 
 @{
-    ViewBag.Title = String.Format("MEAK – Temporada {0}", Model.Season);
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = String.Format("MEAK – Temporada {0}", Model.Season);
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <p class="title">
-    Temporada @Model.Season<br /><span class="sub">Resumo</span>
+	Temporada @Model.Season<br /><span class="sub">Resumo</span>
 </p>
 
 <ul class="seasonEpisodeList">
-    @foreach (var episode in Model.EpisodeList)
-    {
-	    <li>
-		    <a class="title" href="@Url.Route(RouteConfig.Names.Episode, Model.Season, episode)">
-			    <span class="epCode">@(episode):</span>
-			    <span class="epTitle">@episode.Title</span>
-			    <span class="epPublish">@episode.Publish.ToShortDateString()</span>
-		    </a>
-		    <p class="summary">
-			    @episode.Summary
-		    </p>
-	    </li>
-    }
+	@foreach (var episode in Model.EpisodeList)
+	{
+		<li>
+			<a class="title" href="@Url.Route(RouteConfig.Names.Episode, Model.Season, episode)">
+				<span class="epCode">@(episode):</span>
+				<span class="epTitle">@episode.Title</span>
+				<span class="epPublish">@episode.Publish.ToShortDateString()</span>
+			</a>
+			<p class="summary">
+				@episode.Summary
+			</p>
+		</li>
+	}
 </ul>
 
 @Html.Partial("Partial/Sign")

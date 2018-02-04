@@ -1,12 +1,12 @@
 ﻿*
 {
-    font-family: Calibri !important;
+	font-family: Calibri !important;
 }
 
 body
 {
-    font-size: 85%;
-    color: #232323;
+	font-size: 85%;
+	color: #232323;
 }
 
 .welcome
@@ -22,30 +22,30 @@ body
 
 fieldset 
 {
-    border:1px solid #ddd;
-    padding:0 1.4em 1.4em 1.4em;
-    margin:0 0 1.5em 0;
+	border:1px solid #ddd;
+	padding:0 1.4em 1.4em 1.4em;
+	margin:0 0 1.5em 0;
 }
 
 legend 
 {
-    font-size:1.2em;
-    font-weight: bold;
+	font-size:1.2em;
+	font-weight: bold;
 }
 
 textarea 
 {
-    min-height: 75px;
+	min-height: 75px;
 }
 
 .editor-label 
 {
-    margin: 1em 0 0 0;
+	margin: 1em 0 0 0;
 }
 
 .editor-field 
 {
-    margin:0.5em 0 0 0;
+	margin:0.5em 0 0 0;
 }
 
 
@@ -53,29 +53,29 @@ textarea
 -----------------------------------------------------------*/
 .field-validation-error
 {
-    color: #ff0000;
+	color: #ff0000;
 }
 
 .field-validation-valid
 {
-    display: none;
+	display: none;
 }
 
 .input-validation-error
 {
-    border: 1px solid #ff0000;
-    background-color: #ffeeee;
+	border: 1px solid #ff0000;
+	background-color: #ffeeee;
 }
 
 .validation-summary-errors
 {
-    font-weight: bold;
-    color: #ff0000;
+	font-weight: bold;
+	color: #ff0000;
 }
 
 .validation-summary-valid
 {
-    display: none;
+	display: none;
 }
 
 
@@ -83,14 +83,14 @@ textarea
 
 .content
 {
-    width: 1090px;
-    margin: 30px auto;
-    background: url("/Assets/images/logo.png") no-repeat scroll left top transparent;
-    min-height: 200px;
+	width: 1090px;
+	margin: 30px auto;
+	background: url("/Assets/images/logo.png") no-repeat scroll left top transparent;
+	min-height: 200px;
 }
 
 .left
 {
-    width: 220px;
-    float: left;
+	width: 220px;
+	float: left;
 }

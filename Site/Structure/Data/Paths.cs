@@ -4,16 +4,16 @@ using System.Linq;
 
 namespace Structure.Data
 {
-    public class Paths
-    {
-        public Paths(String jsonPath, String cssPath)
-        {
-            Json = jsonPath;
-            Css = cssPath;
-        }
+	public class Paths
+	{
+		public Paths(String jsonPath, String cssPath)
+		{
+			Json = jsonPath;
+			Css = cssPath;
+		}
 
-        public String Json { get; }
-        public String Css { get; }
+		public String Json { get; }
+		public String Css { get; }
 
 
 		public static String SeasonPath(String folderPath, String seasonID)
@@ -27,14 +27,14 @@ namespace Structure.Data
 		}
 
 		public static String EpisodePath(String folderPath, String seasonID, String episodeID)
-        {
-            return Path.Combine(folderPath, "_" + seasonID, episodeID);
-        }
+		{
+			return Path.Combine(folderPath, "_" + seasonID, episodeID);
+		}
 
-        public static String SceneFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
-        {
-            return Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".json");
-        }
+		public static String SceneFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
+		{
+			return Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".json");
+		}
 
 		public static String FtpDirectoryPath(String folderPath, String seasonID)
 		{
@@ -53,28 +53,28 @@ namespace Structure.Data
 
 
 
-        internal static String[] SceneLetters(String folderPath, String seasonID, String episodeID)
-        {
-            var episodePath = EpisodePath(folderPath, seasonID, episodeID);
+		internal static String[] SceneLetters(String folderPath, String seasonID, String episodeID)
+		{
+			var episodePath = EpisodePath(folderPath, seasonID, episodeID);
 
-            var sceneFiles = Directory.GetFiles(episodePath)
-                .Where(sf => !sf.EndsWith("_.json"))
-                .ToList();
+			var sceneFiles = Directory.GetFiles(episodePath)
+				.Where(sf => !sf.EndsWith("_.json"))
+				.ToList();
 
-            for (var sf = 0; sf < sceneFiles.Count; sf++)
-            {
-                sceneFiles[sf] = SceneLetter(sceneFiles[sf], episodePath);
-            }
+			for (var sf = 0; sf < sceneFiles.Count; sf++)
+			{
+				sceneFiles[sf] = SceneLetter(sceneFiles[sf], episodePath);
+			}
 
-            return sceneFiles.ToArray();
-        }
-        
-        internal static String SceneLetter(String sceneFile, String episodePath)
-        {
-            return sceneFile
-                .Replace(episodePath + @"\", "")
-                .Replace(".json", "");
-        }
+			return sceneFiles.ToArray();
+		}
+		
+		internal static String SceneLetter(String sceneFile, String episodePath)
+		{
+			return sceneFile
+				.Replace(episodePath + @"\", "")
+				.Replace(".json", "");
+		}
 
-    }
+	}
 }

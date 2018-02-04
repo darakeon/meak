@@ -4,48 +4,48 @@
 @using Structure.Helpers
 
 @{
-    var isAuthor = UrlUserType.IsAuthor(Request.Url);
-    
-    var route = isAuthor ? RouteConfig.Names.AuthorEpisode : RouteConfig.Names.Episode;
+	var isAuthor = UrlUserType.IsAuthor(Request.Url);
+	
+	var route = isAuthor ? RouteConfig.Names.AuthorEpisode : RouteConfig.Names.Episode;
 
-    if (isAuthor)
-    {
-        <div id="save_status" class="darkback">
-            Saved<hr />
-            @Countdown.GetTimeLeft() days
-        </div>
-        <div class="header lightback">
-            @Html.RouteLink("Add Episode", route, new { action = "AddEpisode", controller = "Season" })
-        </div>
-        <br /><br />
-    }
+	if (isAuthor)
+	{
+		<div id="save_status" class="darkback">
+			Saved<hr />
+			@Countdown.GetTimeLeft() days
+		</div>
+		<div class="header lightback">
+			@Html.RouteLink("Add Episode", route, new { action = "AddEpisode", controller = "Season" })
+		</div>
+		<br /><br />
+	}
 }
-    
+	
 @foreach (var season in Model.Menu.SeasonList)
 {
-    <div class="season">
-        <div class="darkback">
-            <div class="header">
-                @Html.RouteLink("Temporada " + season, route, new { action = "Index", controller = "Season", seasonID = season })
-            </div>
+	<div class="season">
+		<div class="darkback">
+			<div class="header">
+				@Html.RouteLink("Temporada " + season, route, new { action = "Index", controller = "Season", seasonID = season })
+			</div>
 
-            <div class="body">
-                @foreach (var episode in season.EpisodeList)
-                {
-                    var myUrl = Url.Route(route, season, episode);
-                    
-                    var @selectedClass = Request.Url.AbsoluteUri.Contains(myUrl)
-                        ? "selected" : "";
-                    
-                    <a href="@myUrl" class="item storyLink @selectedClass" rel="@episode.Title">@episode.ID</a>
-                }
+			<div class="body">
+				@foreach (var episode in season.EpisodeList)
+				{
+					var myUrl = Url.Route(route, season, episode);
+					
+					var @selectedClass = Request.Url.AbsoluteUri.Contains(myUrl)
+						? "selected" : "";
+					
+					<a href="@myUrl" class="item storyLink @selectedClass" rel="@episode.Title">@episode.ID</a>
+				}
 
-            </div>
-        </div>
-        <div class="storyNameSuperBox">
-            <div class="darkback storyNameBox"></div>
-        </div>
-    </div>
+			</div>
+		</div>
+		<div class="storyNameSuperBox">
+			<div class="darkback storyNameBox"></div>
+		</div>
+	</div>
 }
 
 @Html.Partial("Partial/Legend")

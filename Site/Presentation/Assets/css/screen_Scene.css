@@ -1,35 +1,35 @@
 ﻿.scenes
 {
-    margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
-    .scenes .scene
-    {
-        display: none;
-    }
+	.scenes .scene
+	{
+		display: none;
+	}
 
-    .scenes .reading
-    {
-        display: block;
-    }
+	.scenes .reading
+	{
+		display: block;
+	}
 
 
 .sceneChanger
 {
-    padding: 0;
-    text-align: center;
+	padding: 0;
+	text-align: center;
 }
 
 .sceneChanger li
 {
-    border: 1px solid #000;
-    display: inline-block;
-    width: 30px;
-    list-style: none;
-    cursor: pointer;
+	border: 1px solid #000;
+	display: inline-block;
+	width: 30px;
+	list-style: none;
+	cursor: pointer;
 }
 
 .sceneChanger .chosen
 {
-    background: #000;
+	background: #000;
 }

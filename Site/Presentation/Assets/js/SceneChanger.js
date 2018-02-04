@@ -1,13 +1,13 @@
 function SceneChanger() {
-    $(".sceneChanger li").click(function () {
-        var scene = $(this).attr("scene");
+	$(".sceneChanger li").click(function () {
+		var scene = $(this).attr("scene");
 
-        $(".sceneChanger li.chosen").removeClass("chosen");
-        $(".sceneChanger" + scene).addClass("chosen");
+		$(".sceneChanger li.chosen").removeClass("chosen");
+		$(".sceneChanger" + scene).addClass("chosen");
 
-        $(".scenes .reading").removeClass("reading");
-        $("#Scene" + scene).addClass("reading");
+		$(".scenes .reading").removeClass("reading");
+		$("#Scene" + scene).addClass("reading");
 
-        $(document).scrollTop(0);
-    });
+		$(document).scrollTop(0);
+	});
 }

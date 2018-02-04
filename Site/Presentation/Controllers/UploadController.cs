@@ -5,32 +5,32 @@ using Structure.Helpers;
 
 namespace Presentation.Controllers
 {
-    public class UploadController : Controller
-    {
-        public ActionResult Upload(String seasonID, String episodeID, String sceneID)
-        {
-            var model = new UploadModel(seasonID, episodeID, sceneID);
+	public class UploadController : Controller
+	{
+		public ActionResult Upload(String seasonID, String episodeID, String sceneID)
+		{
+			var model = new UploadModel(seasonID, episodeID, sceneID);
 
-            return View(model);
-        }
+			return View(model);
+		}
 
-        [HttpPost]
-        public ActionResult Upload(UploadModel model)
-        {
-            if (ModelState.IsValid)
-            {
-                model.UploadScene();
+		[HttpPost]
+		public ActionResult Upload(UploadModel model)
+		{
+			if (ModelState.IsValid)
+			{
+				model.UploadScene();
 
-                if (String.IsNullOrEmpty(model.Result))
-                {
-                    var path = Url.Route(RouteConfig.Names.Scene, model.SeasonID, model.EpisodeID, model.SceneID);
+				if (String.IsNullOrEmpty(model.Result))
+				{
+					var path = Url.Route(RouteConfig.Names.Scene, model.SeasonID, model.EpisodeID, model.SceneID);
 
-                    return Redirect(Config.Site + path);
-                }
-            }
+					return Redirect(Config.Site + path);
+				}
+			}
 
-            return View(model);
-        }
+			return View(model);
+		}
 
-    }
+	}
 }

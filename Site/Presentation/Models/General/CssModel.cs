@@ -6,52 +6,52 @@ using Structure.Helpers;
 
 namespace Presentation.Models.General
 {
-    public class CssModel
-    {
-        public CssModel(String path)
-        {
-            Files = new List<CssFile>();
+	public class CssModel
+	{
+		public CssModel(String path)
+		{
+			Files = new List<CssFile>();
 
-            foreach (var file in Directory.GetFiles(path))
-            {
-                Files.Add(new CssFile(file));
-            }
+			foreach (var file in Directory.GetFiles(path))
+			{
+				Files.Add(new CssFile(file));
+			}
 
-            var isAuthor = UrlUserType.IsAuthor(HttpContext.Current.Request.Url);
+			var isAuthor = UrlUserType.IsAuthor(HttpContext.Current.Request.Url);
 
-            if (!isAuthor)
-                return;
+			if (!isAuthor)
+				return;
 
-            var directory = Path.Combine(path, "Author");
+			var directory = Path.Combine(path, "Author");
 
-            foreach (var file in Directory.GetFiles(directory))
-            {
-                Files.Add(new CssFile(file, "Author"));
-            }
-        }
+			foreach (var file in Directory.GetFiles(directory))
+			{
+				Files.Add(new CssFile(file, "Author"));
+			}
+		}
 
-        public IList<CssFile> Files { get; set; }
+		public IList<CssFile> Files { get; set; }
 
 
-        public class CssFile
-        {
-            public String Name;
-            public String Media;
+		public class CssFile
+		{
+			public String Name;
+			public String Media;
 
-            public CssFile(String file)
-            {
-                Name = file.Substring(file.LastIndexOf(@"\") + 1);
+			public CssFile(String file)
+			{
+				Name = file.Substring(file.LastIndexOf(@"\") + 1);
 
-                if (Name.Contains("_"))
-                {
-                    Media = Name.Remove(Name.LastIndexOf("_")).ToLower();
-                }
-            }
+				if (Name.Contains("_"))
+				{
+					Media = Name.Remove(Name.LastIndexOf("_")).ToLower();
+				}
+			}
 
-            public CssFile(String file, String path) : this(file)
-            {
-                Name = Path.Combine(path, Name);
-            }
-        }
-    }
+			public CssFile(String file, String path) : this(file)
+			{
+				Name = Path.Combine(path, Name);
+			}
+		}
+	}
 }

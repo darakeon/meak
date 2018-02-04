@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    SaveKey();
-    SaveButton();
+	SaveKey();
+	SaveButton();
 
-    $("form")[0].reset();
+	$("form")[0].reset();
 });

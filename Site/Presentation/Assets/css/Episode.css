@@ -18,10 +18,10 @@
 	font-weight: bold;
 }
 
-    .talk_Teller:before,
-    .talk_Teller:after {
-        content: " – ";
-    }
+	.talk_Teller:before,
+	.talk_Teller:after {
+		content: " – ";
+	}
 
 .talk_Screamed {
 	text-transform: uppercase;
@@ -52,16 +52,16 @@
 }
 
 .talk_Translate {
-    font-size: 80%;
+	font-size: 80%;
 }
 
-    .talk_Translate:before {
-        content: "{";
-    }
+	.talk_Translate:before {
+		content: "{";
+	}
 
-    .talk_Translate:after {
-        content: "}";
-    }
+	.talk_Translate:after {
+		content: "}";
+	}
 
 
 .teller_Default {
@@ -95,10 +95,10 @@
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
-    cursor: pointer;
-    color: #777;
+	cursor: pointer;
+	color: #777;
 }
 
 .trigger-hidden {
-    display: none;
+	display: none;
 }

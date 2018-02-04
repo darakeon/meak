@@ -22,7 +22,7 @@ namespace Presentation
 			Season,
 
 			AddEpisode,
-            EditTitle,
+			EditTitle,
 			EditScene,
 			Adder
 		}
