@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Structure.Entities.Json;
 using Structure.Entities.System;
 using Structure.Enums;
@@ -135,14 +137,13 @@ namespace Structure.Data
             };
         }
 
-
-
         private ScenePart makeStory()
         {
+	        var scenePart = FileInfo.FullName.Read<ScenePart>();
 
-            var xml = new ScenePart();
+	        scenePart.Paragraphs = new List<Paragraph>();
 
-            verifyProperties(xml);
+			verifyProperties(scenePart);
 
             var talkCounter = 0;
             var tellerCounter = 0;
@@ -165,10 +166,13 @@ namespace Structure.Data
                         throw new Exception($"Not recognized Paragraph [{paragraph}].");
                 }
 
-                xml.Paragraphs.Add(child);
+	            if (child.Pieces.Any())
+	            {
+		            scenePart.Paragraphs.Add(child);
+	            }
             }
 
-            return xml;
+            return scenePart;
         }
 
         private void verifyProperties(ScenePart scene)

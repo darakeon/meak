@@ -69,7 +69,7 @@ namespace Presentation.Models
             CharacterList = 
                 characterList
                     .Distinct()
-                    .Where(c => !c.Contains("/") && c.IsName())
+                    .Where(c => c != null && !c.Contains("/") && c.IsName())
                     .OrderBy(c => c)
                     .ToArray();
         }
