@@ -1,6 +1,10 @@
 ﻿using System;
 using System.IO;
+using System.Reflection;
+using System.Text;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Serialization;
 
 namespace Structure.Extensions
 {
@@ -26,15 +30,54 @@ namespace Structure.Extensions
 		{
 			try
 			{
-				var content = JsonConvert.SerializeObject(
-					obj, Formatting.Indented
-				);
+				var utf8 = new UTF8Encoding(false);
 
-				File.WriteAllText(path, content);
+				using (var file = File.Create(path))
+				using (var stream = new StreamWriter(file, utf8))
+				using (var writer = new JsonTextWriter(stream)
+				{
+					Formatting = Formatting.Indented,
+					Indentation = 1,
+					IndentChar = '\t',
+				})
+				{
+					Serializer.Serialize(writer, obj);
+				}
 			}
 			catch (Exception e)
 			{
 				throw new Exception($"Error on {path}", e);
+			}
+		}
+
+		public static JsonSerializer Serializer
+		{
+			get
+			{
+				var serializer = new JsonSerializer
+				{
+					ContractResolver = new lowerCaseResolver(),
+					NullValueHandling = NullValueHandling.Ignore,
+					Binder = new DefaultSerializationBinder(),
+					Converters = { 
+						new StringEnumConverter
+						{
+							CamelCaseText = true,
+						}
+					},
+				};
+
+				return serializer;
+			}
+		}
+		
+		private sealed class lowerCaseResolver : DefaultContractResolver
+		{
+			protected override JsonProperty CreateProperty(MemberInfo member, MemberSerialization memberSerialization)
+			{
+				var property = base.CreateProperty(member, memberSerialization);
+				property.PropertyName = property.PropertyName.ToLower();
+				return property;
 			}
 		}
 	}
