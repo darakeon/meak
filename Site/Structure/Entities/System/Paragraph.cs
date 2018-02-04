@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Structure.Entities
+namespace Structure.Entities.System
 {
     public class Paragraph<T> where T : struct
     {

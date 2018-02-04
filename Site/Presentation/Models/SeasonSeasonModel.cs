@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using DK.MVC.Authentication;
 using Structure.Data;
-using Structure.Entities;
+using Structure.Entities.System;
 
 namespace Presentation.Models
 {
@@ -11,7 +11,7 @@ namespace Presentation.Models
 	{
 		public SeasonSeasonModel(String season)
 		{
-			var seasonPathXml = Paths.SeasonPath(Paths.Xml, season); 
+			var seasonPathXml = Paths.SeasonPath(Paths.Json, season); 
 			
 			Season = new Season(seasonPathXml);
 	        EpisodeList = Season.EpisodeList;
@@ -22,7 +22,7 @@ namespace Presentation.Models
 					.Where(e => e.IsPublished()).ToList();
 
 				var nextSeason = ((char)(season[0] + 1)).ToString();
-                var nextSeasonExists = Paths.SeasonPathExists(Paths.Xml, nextSeason);
+                var nextSeasonExists = Paths.SeasonPathExists(Paths.Json, nextSeason);
 
 				if (!nextSeasonExists)
 				{

@@ -81,7 +81,7 @@ namespace Presentation.Controllers
         [HttpPost]
         public void EditTitle(SeasonEpisodeModel model, String seasonID, String episodeID)
         {
-            MainInfoXML.Save(model.Story.Title, model.Story.Summary, model.Paths.Xml, seasonID, episodeID);
+            MainInfoJson.Save(model.Story.Title, model.Story.Summary, model.Paths.Json, seasonID, episodeID);
         }
 
 
@@ -89,7 +89,7 @@ namespace Presentation.Controllers
         [HttpPost]
         public void EditScene(SeasonEpisodeModel model, String seasonID, String episodeID, String sceneID)
         {
-            var xml = new SceneXML(model.Paths.Xml, seasonID, episodeID, sceneID) { Scene = model.Story[sceneID] };
+            var xml = new SceneJson(model.Paths.Json, seasonID, episodeID, sceneID) { Scene = model.Story[sceneID] };
 
             xml.WriteStory();
         }
@@ -142,7 +142,7 @@ namespace Presentation.Controllers
             }
 
 
-            var xml = new SceneXML(model.Paths.Xml, model.SeasonEpisode.Season, model.SeasonEpisode.Episode);
+            var xml = new SceneJson(model.Paths.Json, model.SeasonEpisode.Season, model.SeasonEpisode.Episode);
 
             xml.AddNewStory(model.Title);
 

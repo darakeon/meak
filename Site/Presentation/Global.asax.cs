@@ -9,14 +9,14 @@ namespace Presentation
     // visit http://go.microsoft.com/?LinkId=9394801
     public class MvcApplication : HttpApplication
     {
-        protected void Application_Start()
-        {
-            AreaRegistration.RegisterAllAreas();
+		protected void Application_Start()
+		{
+			AreaRegistration.RegisterAllAreas();
 
-            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
+			FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+			RouteConfig.RegisterRoutes(RouteTable.Routes);
 
-            Directory.SetCurrentDirectory(Server.MapPath("~"));
-        }
+			Directory.SetCurrentDirectory(Server.MapPath("~"));
+		}
     }
 }

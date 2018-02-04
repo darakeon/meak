@@ -1,6 +1,6 @@
 ﻿using Structure.Enums;
 
-namespace Structure.Entities
+namespace Structure.Entities.System
 {
     public class Teller : Paragraph<TellerStyle>
     {

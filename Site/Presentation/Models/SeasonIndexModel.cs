@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Structure.Entities;
+using Structure.Entities.System;
 
 namespace Presentation.Models
 {
@@ -7,7 +7,7 @@ namespace Presentation.Models
     {
         public SeasonIndexModel()
         {
-            Messages = MessageXML.GetAll();
+            Messages = MessageJson.GetAll();
         }
 
         public IList<Message> Messages { get; set; }

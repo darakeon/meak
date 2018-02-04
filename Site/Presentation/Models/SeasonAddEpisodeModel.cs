@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Presentation.Helpers;
-using Structure.Entities;
+using Structure.Entities.System;
 
 namespace Presentation.Models
 {

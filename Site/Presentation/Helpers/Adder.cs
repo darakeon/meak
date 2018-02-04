@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web.Helpers;
 using Presentation.Models;
 using Structure.Entities;
+using Structure.Entities.System;
 using Structure.Enums;
 
 namespace Presentation.Helpers

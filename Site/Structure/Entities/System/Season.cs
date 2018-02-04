@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Structure.Entities
+namespace Structure.Entities.System
 {
     public class Season
     {

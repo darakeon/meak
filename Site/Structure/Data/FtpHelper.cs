@@ -18,19 +18,18 @@ namespace Structure.Data
             this.password = password;
         }
 
-        private String season { get; set; }
-        private String episode { get; set; }
-        private String scene { get; set; }
-        private String password { get; set; }
+        private String season { get; }
+        private String episode { get; }
+        private String scene { get; }
+        private String password { get; }
 
         public String Upload()
         {
             var fileExists = testEpisode();
 
-            if (fileExists)
-                return "File already exists";
-
-            return upload();
+            return fileExists
+	            ? "File already exists"
+	            : upload();
         }
 
 
@@ -69,7 +68,7 @@ namespace Structure.Data
 
                 return fileExists;
             }
-            catch (WebException e)
+            catch (WebException)
             {
                 return false;
             }
@@ -164,7 +163,7 @@ namespace Structure.Data
 		
 		private void copyEpisodeContent(FtpWebRequest request)
         {
-            var path = new EpisodeXML().PathXML;
+            var path = new EpisodeJson().PathJson;
             path = Paths.SceneFilePath(path, season, episode, scene);
             
             var fileContents = File.ReadAllBytes(path);
@@ -179,29 +178,14 @@ namespace Structure.Data
 
 
 
-		private string seasonUrl
-		{
-			get { return Paths.FtpDirectoryPath(Config.FtpUrl, season); }
-		}
+		private string seasonUrl => Paths.FtpDirectoryPath(Config.FtpUrl, season);
+	    private string episodeUrl => Paths.FtpDirectoryPath(Config.FtpUrl, season, episode);
+	    private string sceneUrl => Paths.FtpFilePath(Config.FtpUrl, season, episode, scene);
 
-		private string episodeUrl
-		{
-			get { return Paths.FtpDirectoryPath(Config.FtpUrl, season, episode); }
-		}
+	    private static FtpStatusCode[] ftpSuccessCodes => new[] { FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK };
 
-		private string sceneUrl
-		{
-			get { return Paths.FtpFilePath(Config.FtpUrl, season, episode, scene); }
-		}
 
-		private static FtpStatusCode[] ftpSuccessCodes
-		{
-			get { return new[] { FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK }; }
-		}
-		
-		
-		
-		private FtpWebRequest newRequest(String url, String method)
+	    private FtpWebRequest newRequest(String url, String method)
         {
             var request = (FtpWebRequest) WebRequest.Create(url);
             

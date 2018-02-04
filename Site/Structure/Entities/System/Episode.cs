@@ -4,7 +4,7 @@ using System.Linq;
 using DK.MVC.Authentication;
 using Structure.Data;
 
-namespace Structure.Entities
+namespace Structure.Entities.System
 {
     public class Episode
     {
@@ -16,17 +16,15 @@ namespace Structure.Entities
 
         public Episode(String path, String season, String episode) : this()
         {
-            var info = MainInfoXML.Get(path, season, episode);
+            var info = MainInfoJson.Get(path, season, episode);
 
             ID = episode;
 			Title = info.Title;
 			Publish = info.Publish;
-			LastScene = info.LastScene;
+			LastScene = info.Last;
 			Summary = info.Summary;
 			Season = new Season { ID = season };
         }
-
-
 
         public String ID { get; set; }
 
@@ -38,7 +36,6 @@ namespace Structure.Entities
         public List<Scene> SceneList { get; set; }
 
         public Season Season { get; set; }
-
 
         public Boolean IsPublished()
         {
@@ -54,14 +51,10 @@ namespace Structure.Entities
         {
             return ID;
         }
-
         
         public Scene this[String scene]
         {
             get { return SceneList.SingleOrDefault(s => s.ID == scene); }
         }
-
-
-
     }
 }

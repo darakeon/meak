@@ -121,8 +121,8 @@
     <Reference Include="DK.MVC">
       <HintPath>..\Library\DK\DK.MVC.dll</HintPath>
     </Reference>
-    <Reference Include="DK.XML">
-      <HintPath>..\Library\DK\DK.XML.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -131,26 +131,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\FtpHelper.cs" />
-    <Compile Include="Data\MessageXML.cs" />
-    <Compile Include="Data\EpisodeXML.cs" />
+    <Compile Include="Data\MessageJson.cs" />
+    <Compile Include="Data\EpisodeJson.cs" />
+    <Compile Include="Entities\Json\SummaryPart.cs" />
+    <Compile Include="Entities\Json\Piece.cs" />
+    <Compile Include="Entities\Json\Paragraph.cs" />
+    <Compile Include="Entities\Json\ScenePart.cs" />
+    <Compile Include="Entities\Json\Part.cs" />
     <Compile Include="Data\Paths.cs" />
-    <Compile Include="Data\SceneXML.cs" />
-    <Compile Include="Data\ParagraphXML.cs" />
-    <Compile Include="Data\PieceXML.cs" />
-    <Compile Include="Data\MainInfoXML.cs" />
-    <Compile Include="Entities\Message.cs" />
-    <Compile Include="Entities\Scene.cs" />
-    <Compile Include="Entities\Episode.cs" />
+    <Compile Include="Data\SceneJson.cs" />
+    <Compile Include="Data\ParagraphJson.cs" />
+    <Compile Include="Data\PieceJson.cs" />
+    <Compile Include="Data\MainInfoJson.cs" />
+    <Compile Include="Entities\System\Message.cs" />
+    <Compile Include="Entities\System\Scene.cs" />
+    <Compile Include="Entities\System\Episode.cs" />
+    <Compile Include="Extensions\EnumExtension.cs" />
     <Compile Include="Enums\OpenEpisodeOption.cs" />
     <Compile Include="Enums\TalkStyle.cs" />
     <Compile Include="Enums\TellerStyle.cs" />
-    <Compile Include="Entities\Paragraph.cs" />
-    <Compile Include="Entities\Piece.cs" />
+    <Compile Include="Entities\System\Paragraph.cs" />
+    <Compile Include="Entities\System\Piece.cs" />
     <Compile Include="Enums\ParagraphType.cs" />
-    <Compile Include="Entities\Talk.cs" />
-    <Compile Include="Entities\Teller.cs" />
+    <Compile Include="Entities\System\Talk.cs" />
+    <Compile Include="Entities\System\Teller.cs" />
     <Compile Include="Extensions\FileInfoExtension.cs" />
-    <Compile Include="Entities\Season.cs" />
+    <Compile Include="Entities\System\Season.cs" />
+    <Compile Include="Extensions\JsonExtension.cs" />
     <Compile Include="Extensions\StringExtension.cs" />
     <Compile Include="Helpers\Config.cs" />
     <Compile Include="Helpers\Countdown.cs" />
@@ -159,6 +166,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

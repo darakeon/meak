@@ -2,7 +2,7 @@
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
 using System.Web.Routing;
-using Structure.Entities;
+using Structure.Entities.System;
 
 namespace Presentation
 {

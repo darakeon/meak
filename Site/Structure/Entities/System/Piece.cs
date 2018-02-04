@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Structure.Entities
+namespace Structure.Entities.System
 {
     public class Piece<T> where T : struct
     {

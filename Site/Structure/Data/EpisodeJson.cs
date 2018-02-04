@@ -1,29 +1,29 @@
 ﻿using System;
 using System.IO;
-using Structure.Entities;
+using Structure.Entities.System;
 using Structure.Enums;
 using Structure.Helpers;
 
 namespace Structure.Data
 {
-    public class EpisodeXML
+    public class EpisodeJson
     {
         private Episode episode { get; set; }
-        public String PathXML { get; private set; }
+        public String PathJson { get; private set; }
 
 
-        public EpisodeXML()
+        public EpisodeJson()
         {
-            setXmlPath();
+            setJsonPath();
         }
 
 
 
         public Episode GetEpisode(String seasonID, String episodeID)
         {
-            episode = new Episode(PathXML, seasonID, episodeID);
+            episode = new Episode(PathJson, seasonID, episodeID);
             
-            var sceneLetters = Paths.SceneLetters(PathXML, seasonID, episodeID);
+            var sceneLetters = Paths.SceneLetters(PathJson, seasonID, episodeID);
 
             foreach (var sceneLetter in sceneLetters)
             {
@@ -38,11 +38,11 @@ namespace Structure.Data
 
 
 
-        private SceneXML getScene(String seasonID, String episodeID, String sceneID)
+        private SceneJson getScene(String seasonID, String episodeID, String sceneID)
         {
             try
             {
-                return new SceneXML(PathXML, seasonID, episodeID, sceneID, OpenEpisodeOption.GetStory);
+                return new SceneJson(PathJson, seasonID, episodeID, sceneID, OpenEpisodeOption.GetStory);
             }
             catch (FileNotFoundException)
             {
@@ -55,20 +55,20 @@ namespace Structure.Data
         }
 
         
-        private void setXmlPath()
+        private void setJsonPath()
         {
             var folder = Config.StoriesPath;
 
             if (folder == null)
-                throw new Exception("XML Path not configured.");
+                throw new Exception("Json Path not configured.");
 
-            PathXML =
+            PathJson =
                 folder.Substring(1, 1) == ":"
                     ? folder
                     : Path.Combine(Directory.GetCurrentDirectory(), folder);
 
-            if (!Directory.Exists(PathXML))
-                throw new Exception(String.Format("Path '{0}' doesn't exists.", PathXML));
+            if (!Directory.Exists(PathJson))
+                throw new Exception($"Path '{PathJson}' doesn't exists.");
         }
 
     }

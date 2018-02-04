@@ -13,8 +13,8 @@ namespace Presentation.Models
 
         public SeasonEditEpisodeModel(String seasonID, String episodeID, String sceneID)
         {
-            Story = EpisodeXML.GetEpisode(seasonID, episodeID);
-            ReadingScene = sceneID ?? SceneXML.FIRST_SCENE;
+            Story = EpisodeJson.GetEpisode(seasonID, episodeID);
+            ReadingScene = sceneID ?? SceneJson.FIRST_SCENE;
         }
 
         public Int32 SceneCounter { get; set; }

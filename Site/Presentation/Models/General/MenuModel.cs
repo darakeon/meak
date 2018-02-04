@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Structure.Entities;
+using Structure.Entities.System;
 
 namespace Presentation.Models.General
 {

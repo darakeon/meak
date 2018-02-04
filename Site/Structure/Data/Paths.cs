@@ -6,14 +6,14 @@ namespace Structure.Data
 {
     public class Paths
     {
-        public Paths(String xmlPath, String cssPath)
+        public Paths(String jsonPath, String cssPath)
         {
-            Xml = xmlPath;
+            Json = jsonPath;
             Css = cssPath;
         }
 
-        public String Xml { get; private set; }
-        public String Css { get; private set; }
+        public String Json { get; }
+        public String Css { get; }
 
 
 		public static String SeasonPath(String folderPath, String seasonID)
@@ -33,7 +33,7 @@ namespace Structure.Data
 
         public static String SceneFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
         {
-            return Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".xml");
+            return Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".json");
         }
 
 		public static String FtpDirectoryPath(String folderPath, String seasonID)
@@ -58,7 +58,7 @@ namespace Structure.Data
             var episodePath = EpisodePath(folderPath, seasonID, episodeID);
 
             var sceneFiles = Directory.GetFiles(episodePath)
-                .Where(sf => !sf.EndsWith("_.xml"))
+                .Where(sf => !sf.EndsWith("_.json"))
                 .ToList();
 
             for (var sf = 0; sf < sceneFiles.Count; sf++)
@@ -73,7 +73,7 @@ namespace Structure.Data
         {
             return sceneFile
                 .Replace(episodePath + @"\", "")
-                .Replace(".xml", "");
+                .Replace(".json", "");
         }
 
     }

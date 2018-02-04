@@ -68,6 +68,7 @@
     <OldToolsVersion>4.0</OldToolsVersion>
     <UseGlobalApplicationHostFile />
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -208,7 +209,7 @@
     <Content Include="Assets\js\SceneChanger.js" />
     <Content Include="Assets\js\Trigger.js" />
     <Content Include="Global.asax" />
-    <Content Include="Messages\2013-05-09.xml" />
+    <Content Include="Messages\2013-05-09.json" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

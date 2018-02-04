@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Structure.Entities
+namespace Structure.Entities.System
 {
     public class Message
     {
