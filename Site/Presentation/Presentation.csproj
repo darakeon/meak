@@ -234,12 +234,6 @@
     <Content Include="Views\Shared\Partial\Menu.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Web.IIS.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Arvixe.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
     <Content Include="Views\Shared\Partial\Sign.cshtml" />
   </ItemGroup>
   <ItemGroup>
