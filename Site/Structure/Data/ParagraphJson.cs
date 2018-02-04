@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Structure.Entities;
 using Structure.Entities.Json;
 using Structure.Entities.System;
 using Structure.Enums;

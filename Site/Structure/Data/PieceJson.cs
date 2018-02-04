@@ -1,5 +1,4 @@
 ﻿using System;
-using Structure.Entities;
 using Structure.Entities.Json;
 using Structure.Entities.System;
 using Structure.Enums;
