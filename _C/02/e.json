@@ -819,6 +819,15 @@
 			]
 		},
 		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust entra, pega uma espada, entrega a Mel."
+				}
+			]
+		},
+		{
 			"type": "talk",
 			"character": "Rust",
 			"pieces": [
@@ -833,7 +842,7 @@
 			"pieces": [
 				{
 					"type": "first",
-					"text": "Zenon entra no escritório. Alan está na janela, Soraia encostou na parede, Dionísio e Fábio estão no sofá, Kat, Derik e Estela em outro. Michele vem da cozinha. Aléxis, Trinity e Etos entram atrás."
+					"text": "Zenon entra no escritório. Alan está na janela, Soraia encostou na parede, Dionísio e Fábio estão no sofá, Kat, Derik e Estela, com um computador na mão, em outro. Michele vem da cozinha. Aléxis, Trinity e Etos entram atrás."
 				}
 			]
 		},
@@ -844,6 +853,362 @@
 				{
 					"type": "default",
 					"text": "Mel não tá?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Talvez tenha ido para algum dos lugares."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Soraia",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que era o que a gente devia estar fazendo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então vamos sentar e mapear isso..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Estela",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pronto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As pessoas se colocam atrás de Estela, da forma que podem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Zenon",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A gente realmente precisa de um projetor..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Posso?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Estela passa o computador para Derik. Na tela, um mapa, com diversos pontos. Derik aproxima de um ponto no meio do mar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não é..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Hera e Ares."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Etos corre e pula a janela. Aléxis, Zenon e Trinity seguem. Derik vira pássaro e voa. Michele pula também. Chega no chão e cai de mal jeito. Zenon ajuda a levanta. Kat, Soraia, Alan, Fábio e Dionísio saem pela porta. Estela fecha o computador, coloca em uma mochila, bota nas costas, sai, tranca a porta e corre para a escada."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Mel entra em um salão, com uma espada. Padoi está no meio. Diversos corpos espalhados no chão. Padoi se vira para Mel."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Padoi",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Finalmente nos encontramos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se queria, porque correu tanto?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Padoi",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu tinha medo que você realmente pudesse ganhar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Do que você tá falando?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Padoi franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Padoi",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é você? Mas o cheiro... Eu sinto que... Bom, não importa. Com certeza não veio aqui pra brincar, não segurando um brinquedo assim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel corre em direção a Padoi. Faz um movimento horizontal com a espada, Padoi desvia. Faz mais dois, diagonais. Desvia também. Padoi chuta a espada e tenta um soco, Mel desvia o movimento. Mel chuta Padoi, que cai no chão. Procura a espada. Padoi segura Mel pelo pescoço e vai morder, mas Mel joga Padoi para a frente, no chão. Rust joga a espada para Mel. Mel tenta cravar em Padoi, mas Padoi segura a espada com as mãos. Chuta Mel, que cai para trás. Padoi empunha a espada. Mel levanta e Padoi consegue fazer um corte na altura de seu estômago. Padoi sorri. Joga a espada para trás. Mostra os dentes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Padoi",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não preciso desses seus brinquedos."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Padoi vai na direção de Mel, Mel chuta o rosto de Padoi, jogando Padoi no chão. Vai até a espada. Pega. Crava a espada para trás, atravessando Padoi, que grita. Padoi de afasta. Arranca a espada, gritando de novo. Atira a espada contra Rust. Rust se joga no chão, desviando. Rust pega a espada e olha para Mel. Padoi está em cima de Mel, morde Mel. Rust empunha a espada. Anda. Para. Padoi grita. Mel tira a mão de dentro da ferida que fizera com a espada, e inverte, ficando em cima de Padoi. Rust joga a espada. Mel, de costas, pega e crava no meio do coração de Padoi. Padoi grita. Mel levanta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alguém já te disse que você grita demais?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Padoi ri."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Padoi",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso não funciona. Não vai me matar assim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel arranca a espada. Padoi grita mais uma vez. Mel joga a espada para trás, caindo perto de Rust. Levanta Padoi pela roupa, Padoi urra baixo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei como te matar, seu merda."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Os cabelos de Mel ficam vermelhos. Os olhos roxos. Crescem os dentes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Padoi",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Agora eu entendi..."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Uma lágrima cai dos olhos de Padoi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Padoi",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é a coisa mais perfeita do mundo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel rosna. Rust arregala os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel! Olha pra mim!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Padoi ergue o pescoço. Mel morde. Padoi abraça Mel. Rust balança a cabeça para os lados. Abaixa e pega a espada. Respira fundo. Os braços de Padoi perdem as forças. Mel solta Padoi. Antes que Padoi caia, Mel arregala os olhos. Rust puxa de volta a espada e então aí o corpo de Padoi cai. Sai sangue da boca de Mel. Rust solta a espada e segura Mel. Abaixa no chão junto, deita Mel em seu colo. Janaína entra. Tampa a boca com a mão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sabia que você faria isso por mim."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Como?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Mel",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Por que você queria que ela fizesse isso por você."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel fecha os olhos. Rust abaixa sobre Mel."
 				}
 			]
 		}
