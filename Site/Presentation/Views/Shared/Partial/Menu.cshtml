@@ -15,7 +15,11 @@
 			@Countdown.GetTimeLeft() days
 		</div>
 		<div class="header lightback">
-			@Html.RouteLink("Add Episode", route, new { action = "AddEpisode", controller = "Season" })
+			@Html.RouteLink(
+				"Add Episode",
+				RouteConfig.Names.AddEpisode.ToString(),
+				new { action = "AddEpisode", controller = "Season" }
+			)
 		</div>
 		<br /><br />
 	}
@@ -26,7 +30,11 @@
 	<div class="season">
 		<div class="darkback">
 			<div class="header">
-				@Html.RouteLink("Temporada " + season, route, new { action = "Index", controller = "Season", seasonID = season })
+				@Html.RouteLink(
+					"Temporada " + season,
+					RouteConfig.Names.Season.ToString(),
+					new { seasonID = season }
+				)
 			</div>
 
 			<div class="body">
