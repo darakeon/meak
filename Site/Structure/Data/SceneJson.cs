@@ -6,6 +6,7 @@ using Structure.Entities.Json;
 using Structure.Entities.System;
 using Structure.Enums;
 using Structure.Extensions;
+using Structure.Helpers;
 
 namespace Structure.Data
 {
@@ -20,7 +21,9 @@ namespace Structure.Data
 		public FileInfo FileInfo { get; set; }
 
 		public const String FIRST_SCENE = "a";
-
+		public const Int32 MINIMUM_PARAGRAPH_COUNT = 81;
+		private readonly Boolean isAuthor = UrlUserType.IsAuthor();
+		
 		public SceneJson(String folderPath, String season, String episode)
 			: this(folderPath, season, episode, FIRST_SCENE) { }
 
@@ -59,17 +62,55 @@ namespace Structure.Data
 			var scenePart = FileInfo.FullName.Read<ScenePart>();
 
 			verifyProperties(scenePart);
+			adjustParagraphs(scenePart);
 
 			foreach (var paragraph in scenePart.Paragraphs)
 			{
 				Scene.ParagraphTypeList.Add(paragraph.Type);
-				setText(paragraph.Type, paragraph);
+				setText(paragraph);
 			}
 		}
-		
-		private void setText(ParagraphType paragraphType, Paragraph paragraph)
+
+		private void adjustParagraphs(ScenePart scenePart)
 		{
-			switch (paragraphType)
+			if (isAuthor)
+			{
+				addParagraphsToLimit(scenePart);
+			}
+			else
+			{
+				scenePart.Paragraphs =
+					scenePart.Paragraphs
+						.Where(pg => pg.HasText)
+						.ToList();
+			}
+		}
+
+		private static void addParagraphsToLimit(ScenePart scenePart)
+		{
+			var begin = scenePart.Paragraphs.Count;
+			var end = MINIMUM_PARAGRAPH_COUNT;
+
+			for (var p = begin; p < end; p++)
+			{
+				var piece = new Piece
+				{
+					Type = TalkStyle.Default.ToString()
+				};
+
+				var paragraph = new Paragraph
+				{
+					Type = ParagraphType.Talk,
+					Pieces = new[] { piece }
+				};
+
+				scenePart.Paragraphs.Add(paragraph);
+			}
+		}
+
+		private void setText(Paragraph paragraph)
+		{
+			switch (paragraph.Type)
 			{
 				case ParagraphType.Talk:
 					var talk = ParagraphJson.GetTalk(paragraph);
@@ -166,7 +207,7 @@ namespace Structure.Data
 						throw new Exception($"Not recognized Paragraph [{paragraph}].");
 				}
 
-				if (child.Pieces.Any())
+				if (child.HasText)
 				{
 					scenePart.Paragraphs.Add(child);
 				}

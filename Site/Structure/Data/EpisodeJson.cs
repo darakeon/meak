@@ -27,9 +27,10 @@ namespace Structure.Data
 
 			foreach (var sceneLetter in sceneLetters)
 			{
-				var xml = getScene(seasonID, episodeID, sceneLetter);
+				var json = getScene(seasonID, episodeID, sceneLetter);
 
-				episode.SceneList.Add(xml.Scene);
+				if (json.Scene.ParagraphCount > 0)
+					episode.SceneList.Add(json.Scene);
 			}
 
 			return episode;
