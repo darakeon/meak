@@ -57,7 +57,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "A polícia já encontrou."
+					"text": "A polícia já encontrou..."
 				}
 			]
 		},
@@ -77,7 +77,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "A polícia encontrou o corpo em um beco."
+					"text": "O corpo em um beco."
 				}
 			]
 		},
@@ -161,11 +161,20 @@
 			]
 		},
 		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mel entra."
+				}
+			]
+		},
+		{
 			"type": "talk",
 			"character": "Mel",
 			"pieces": [
 				{
-					"type": "arrive",
+					"type": "default",
 					"text": "Não vão acreditar, vou ter que ir pra Rio de Janeiro!"
 				}
 			]
@@ -304,7 +313,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Nada... Tenho que sair."
+					"text": "Nada."
 				}
 			]
 		},
@@ -401,7 +410,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Deveria?"
+					"text": "Devia?"
 				}
 			]
 		},
@@ -441,7 +450,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Acho que ele não liga muito pra mim. Vivia pela Roberta... Não deve nem ter notado que saí..."
+					"text": "Acho que não liga muito pra mim. Vivia pela Roberta. Não deve nem ter notado que saí."
 				}
 			]
 		},
@@ -450,7 +459,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Renata pega um papel no bolso. Estende a Zenon#, que vira novamente para si."
+					"text": "Renata pega um papel no bolso. Estende a Zenon#, que vira novamente para Renata."
 				}
 			]
 		},
@@ -1220,7 +1229,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Sei que não gosta de desonestidade, mas vai ter que se acostumar. As pessoas não ajudam de graça nesse planeta."
+					"text": "Eu sei, eu também não queria que estivessem aqui. Ao menos vamos dar o dinheiro sem pedir o que geralmente as pessoas pedem de volta."
 				}
 			]
 		},
@@ -1249,7 +1258,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Viemos atrás de uma informação. Uma pessoa que tem vindo aqui com alguma frequência."
+					"text": "Viemos atrás de uma informação. Uma pessoa que talvez tenha vindo aqui."
 				}
 			]
 		},
@@ -1308,7 +1317,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Angely se apoia em Mel. Desmaia."
+					"text": "Angely se apoia em Mel. Cai."
 				}
 			]
 		},
@@ -1366,7 +1375,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Não precisa como? Não vou te deixar na mão."
+					"text": "Não precisa como? Não vou te deixar na mão. Não queria que estivesse aqui."
 				}
 			]
 		},
@@ -1405,7 +1414,7 @@
 			"pieces": [
 				{
 					"type": "first",
-					"text": "Angely acorda. Está na cama do hotel. Mel sentou-se ao seu lado."
+					"text": "Hotel. Angely acorda. Senta na cama. Mel sentou-se ao seu lado."
 				}
 			]
 		},
