@@ -43,6 +43,8 @@ namespace Structure.Extensions
 				{
 					Serializer.Serialize(writer, obj);
 				}
+
+				File.AppendAllLines(path, new[] {""});
 			}
 			catch (Exception e)
 			{
@@ -63,7 +65,11 @@ namespace Structure.Extensions
 						new StringEnumConverter
 						{
 							CamelCaseText = true,
-						}
+						},
+						new IsoDateTimeConverter
+						{
+							DateTimeFormat = "yyyy-MM-dd",
+						},
 					},
 				};
 
