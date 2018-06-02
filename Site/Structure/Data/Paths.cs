@@ -57,7 +57,7 @@ namespace Structure.Data
 		{
 			var episodePath = EpisodePath(folderPath, seasonID, episodeID);
 
-			var sceneFiles = Directory.GetFiles(episodePath)
+			var sceneFiles = Directory.GetFiles(episodePath, "*.json")
 				.Where(sf => !sf.EndsWith("_.json"))
 				.ToList();
 
