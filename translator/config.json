@@ -1,0 +1,91 @@
+﻿{
+	"path": "C:\\Lucas\\Git\\Me\\MEAK\\Stories",
+	"textToJson": {
+		"textTransform": [
+			{
+				"oldValue": "\"",
+				"newValue": "\\\""
+			},
+			{
+				"oldValue": "\r",
+				"newValue": ""
+			},
+			{
+				"oldValue": "\n- ?(.*) ([A-Z])",
+				"newValue": "\ntalk\tdefault\t$2\t$1"
+			},
+			{
+				"oldValue": "\n\n",
+				"newValue": "\nteller\tfirst\t"
+			},
+			{
+				"oldValue": "\n(?!(teller|talk))(.*)\n",
+				"newValue": "\nteller\tdefault\t$1$2\n"
+			},
+			{
+				"oldValue": "\n([a-z]*)\t([a-z]*)\t([A-Z])\t(.*)",
+				"newValue": "\n{\"type\": \"$1\",\"character\": \"$3\",\"pieces\": [{\"type\": \"$2\",\"text\": \"$4\"}]},"
+			},
+			{
+				"oldValue": "\n([a-z]*)\t([a-z]*)\t(.*)",
+				"newValue": "\n{\"type\": \"$1\",\"pieces\": [{\"type\": \"$2\",\"text\": \"$3\"}]},"
+			}
+		],
+		"characters": [
+			{
+				"oldValue": "U",
+				"newValue": "Murilo"
+			},
+			{
+				"oldValue": "X",
+				"newValue": "Aléxis"
+			},
+			{
+				"oldValue": "K",
+				"newValue": "Kat"
+			},
+			{
+				"oldValue": "D",
+				"newValue": "Derik"
+			},
+			{
+				"oldValue": "A",
+				"newValue": "Alan"
+			},
+			{
+				"oldValue": "S",
+				"newValue": "Soraia"
+			},
+			{
+				"oldValue": "F",
+				"newValue": "Fábio"
+			},
+			{
+				"oldValue": "Z",
+				"newValue": "Zenon"
+			},
+			{
+				"oldValue": "E",
+				"newValue": "Etos"
+			},
+			{
+				"oldValue": "M",
+				"newValue": "Michele"
+			},
+			{
+				"oldValue": "B",
+				"newValue": "Beleno"
+			}
+		],
+		"verifications": [
+			{
+				"notAllowed": "\"character\": \"([A-Z])\""
+			}
+		]
+	},
+	"start": {
+		"oldValue": "(.*)([A-Z])\\\\([0-9]{2})\\\\([a-z])(.*)",
+		"newValue": "{ \"season\": \"$2\", \"episode\": \"$3\", \"scene\": \"$4\", \"paragraphs\": [\n"
+	},
+	"end": "\n]}\n"
+}

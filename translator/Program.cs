@@ -1,12 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Translator
 {
-	class Program
+	public class Program
 	{
-		static void Main(string[] args)
+		public static void Main()
 		{
-			Console.WriteLine("Hello World!");
+			var converter = FileToJson.Get(
+				Console.WriteLine,
+				warnIfNotFind
+			);
+
+			converter.Convert();
+
+			Console.WriteLine("Done!");
+
+			Console.ReadLine();
+		}
+
+		private static void warnIfNotFind(List<String> warnings)
+		{
+			Console.ForegroundColor = ConsoleColor.Yellow;
+			warnings.ForEach(Console.WriteLine);
+			Console.ForegroundColor = ConsoleColor.Gray;
 		}
 	}
 }
