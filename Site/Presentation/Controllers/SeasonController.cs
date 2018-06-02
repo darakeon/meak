@@ -62,6 +62,9 @@ namespace Presentation.Controllers
 			}
 			catch (Exception e)
 			{
+				if (UrlUserType.IsAuthor()) 
+					throw;
+
 				return View("Error", new ErrorModel { Message = e.Message });
 			}
 
