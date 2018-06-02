@@ -28,5 +28,10 @@ namespace Structure.Entities.System
 
 			return result.ToString();
 		}
+
+		public Boolean IsFilled()
+		{
+			return !String.IsNullOrEmpty(ToString());
+		}
 	}
 }

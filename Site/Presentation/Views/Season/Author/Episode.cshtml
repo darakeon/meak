@@ -41,6 +41,8 @@
 	<div class="absolute-header lightback">
 		@using (Ajax.BeginForm("EditTitle", route, ajaxOptions, html))
 		{
+			var paragraphsCount = Model.Story.SceneList.Sum(s => s.ParagraphCount);
+
 			<div class="titleChange">
 				<button type="submit" class="darkback save">Save</button>
 
@@ -49,7 +51,7 @@
 				@Html.TextBoxFor(m => m.Story.Title)
 
 				<span class="paragraphCountTitle">
-					Paragraphs last count: @Model.Story.SceneList.Sum(s => s.ParagraphTypeList.Count)
+					Paragraphs last count: @paragraphsCount
 				</span>
 				
 				<br/>

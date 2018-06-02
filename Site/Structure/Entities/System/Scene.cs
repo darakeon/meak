@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Structure.Enums;
 
 namespace Structure.Entities.System
@@ -37,10 +38,8 @@ namespace Structure.Entities.System
 			return ID;
 		}
 
-		public Int32 ParagraphCount
-		{
-			get { return ParagraphTypeList.Count; }
-		}
-
+		public Int32 ParagraphCount => 
+			TalkList.Where(p => p.IsFilled()).Count()
+			+ TellerList.Where(p => p.IsFilled()).Count();
 	}
 }
