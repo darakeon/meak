@@ -29,7 +29,7 @@ namespace Structure.Data
 			{
 				var json = getScene(seasonID, episodeID, sceneLetter);
 
-				if (json.Scene.ParagraphCount > 0)
+				if (json.Scene.ParagraphTypeList.Count > 0)
 					episode.SceneList.Add(json.Scene);
 			}
 
