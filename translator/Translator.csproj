@@ -10,4 +10,10 @@
     <PackageReference Include="System.Security.Permissions" Version="4.0.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
