@@ -11,7 +11,7 @@
 				"newValue": ""
 			},
 			{
-				"oldValue": "\n- ?(.*) ([A-Z])",
+				"oldValue": "\n[\\.\\-] ?(.*) ([A-Z])",
 				"newValue": "\ntalk\tdefault\t$2\t$1"
 			},
 			{
