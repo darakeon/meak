@@ -60,7 +60,7 @@ namespace Structure.Extensions
 				{
 					ContractResolver = new lowerCaseResolver(),
 					NullValueHandling = NullValueHandling.Ignore,
-					Binder = new DefaultSerializationBinder(),
+					SerializationBinder = new DefaultSerializationBinder(),
 					Converters = { 
 						new StringEnumConverter
 						{
