@@ -299,7 +299,744 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Argo não chegou a terminar. Disse para trazer para perto de você. E que tinham encontrado a gente."
+					"text": "Argo não chegou a terminar. Disse para trazer para perto de você. Tinham encontrado a gente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Padoi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Aqua",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Provável."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Argo fugiu então?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik vem até a sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Morreu."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat olha para Derik. Olha para Michele. Pega Michele no colo. Leva até a cama. Volta para a sala. Derik sai da cozinha, com uma maçã, mastigando."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust foi atrás de Kassandra. Vai tentar achar onde Padoi tá."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Toca o telefone."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Sala da MEAK. Alan está no sofá, segura uma bolsa térmica no rosto. Trinity está com hematomas no rosto, em pé. Kat está perto da janela. Derik no balcão. Murilo ao lado de Alan."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então era Zenon mesmo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim. É Clítia quem tá fazendo tudo isso, tenho certeza."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Trinity",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é como se não tivesse motivo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai se juntar a ela?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Trinity",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Se fosse pra te entregar, não seria má ideia."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust tá vindo com Kassandra."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Trinity",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Deu certo Kassandra ajudando lá? Nunca sabia quando tava mentindo, quando tava falando a verdade..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Isso é o normal, meu anjo."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan levanta. Kassandra entra na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ninguém nunca sabe."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Aqua",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe dizer se Michele tava tentando matar Padoi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Foi em paz?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik franze a sobrancelha. Desfranze."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Argo gostava de tequila?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Odiava."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust entra na sala."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Jurava que ficava no sangue das pessoas por dias."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik aperta os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então, agora você quem vê as coisas."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não tão longe quanto você."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem queira isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Já sabe alguma coisa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que um dos meus irmãos morreu."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "De Padoi."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Que você não vai viver mais que ele."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Murilo olha para Alan. Alan engole seco, baixa a bolsa. Kassandra ri. Kat revira os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Trinity",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Seres humanos não vivem nem um século direito, a idade de Padoi é bem mais que isso."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Alan volta a botar a bolsa no rosto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você consegue achar Padoi?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sabe que eu lembro de trechos da última vez que precisaram da minha ajuda?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Padoi não é só a gente. Não é problema só nosso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu sei. Não gosto dessa coisa também."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra olha para Rust. Olha para a mesa de centro. Rust pega a mesa de centro e coloca atrás de um sofá. Kassandra deita no chão, meio diagonal."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As pessoas tendem a achar que vampirs são criaturas que adoram caos e guerras. Gosto demais de luxo pra isso. E de luxo fácil, disponível em qualquer esquina."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra coloca as duas mãos no rosto. Desce até o ventre. Deita os braços no chão, palmas para cima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Imagino que não está no quarto aqui do lado."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aqua arregala os olhos, vai até a porta do quarto e abre. Fecha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Murilo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Só Michele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Aqua",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Argo disse que talvez tivesse sangue de Padoi em Michele. Mas que o que fez ia tirar isso."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "E quase terminou. Não tem quase nada."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra estende o braço para cima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem alguma coisa pra escrever no chão?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Atrás do balcão, Derik abre gavetas. Pega um rolo de durex. Entrega para Rust. Rust se abaixa perto de Kassandra. Tira um pedaço de durex. Coloca o dedo no começo do braço de Kassandra. Vai subindo. Kassandra fecha a mão. Rust cola ao lado do braço. Repete a mesma coisa cinco vezes, horas com braços, horas com pernas. Kassandra se senta no chão. Levanta. Vai em direção a porta."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pera, não vai dizer o que é isso?!"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra olha para o chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kassandra",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Durex colado no chão."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kassandra ri. Sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "São coordenadas. Cada uma é um rastro que Padoi deixou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Trinity",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas como deixou rastros?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pelo que entendi, como todas as versões de Padoi se juntaram, isso faz com que tenha muita coisa num único recipiente e deixe algo quando deixa algo físico."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Murilo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tipo quando sangra?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Exato."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Derik",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então parte dessas coordenadas são Hera, Zorana e aqui, por causa de Michele."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As outras três são onde prendemos, se tiver sangrado, outra é a pessoa que tá servindo, porque desconfiamos que tenha pego algo para causar o caos em Zorana, e Padoi."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Kat olha para Derik."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tira uma foto, o mais reto possível, com o Norte pra cima."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik pega o celular. Tira uma foto. Olha. Deleta. Vai a cozinha. Volta com seis laranjas. Posiciona no chão. Tira a foto. Vai para o computador. Conecta o celular. Espera. Abre a pasta de fotos, copia a foto para o computador. Abre um programa. Digita um endereço, dá enter. Uma bolinha aparece no mapa. Faz mais duas vezes. Na segunda, o mapa se afasta. Kat e Murilo se aproximam. Kat olha para o chão."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Hera deve ser o rastro mais longe, é o que colocou ali no chão, é bem pra leste em relação ao resto."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik muda para o programa que tem a foto. Diminue e arrasta, alternando entre os programas, de forma de três laranjas fiquem nas posições certas. Clica nas posições das outras três. Mais três pontinhos aparecem no mapa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Murilo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tira Hera. Dá pra melhorar a posição."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Derik apaga os três que acabou de clicar. Clica no pontinho de Hera. Deleta também. Dá zoom no mapa. Redimensiona e reposiciona a foto. Coloca novamente os três pontos novos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Murilo",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tinha razão sobre onde prendemos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Aqua",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem chance de Michele ter tentado matar Padoi."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "As pessoas olham para Aqua."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Aqua",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Isso pode ter envenenado Michele e tornado a coisa pior."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Alan",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vamos fazer dois grupos?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não. Ninguém mais vai atrás de Padoi sem mim."
 				}
 			]
 		}
