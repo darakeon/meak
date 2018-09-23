@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using Newtonsoft.Json;
 
 namespace Translator
@@ -62,7 +63,7 @@ namespace Translator
 			warnIfNotFind(TextToJson.NotFind);
 
 			var jsonFilePath = getNewFilePath(filePath);
-			File.WriteAllText(jsonFilePath, jsonContent);
+			File.WriteAllText(jsonFilePath, jsonContent, Encoding.UTF8);
 		}
 
 		private string getNewFilePath(string filePath)
