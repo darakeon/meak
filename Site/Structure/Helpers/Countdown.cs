@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Structure.Helpers
 {
@@ -12,24 +14,27 @@ namespace Structure.Helpers
 		private static Double getDaysLeft()
 		{
 			var today = DateTime.Now.Date;
+			var day = Config.CountdownStart;
+			var interval = Config.EpisodesInterval;
+			var hiatus = Config.EpisodesHiatus;
+			var dates = new List<DateTime?>();
 
-			var allTime = today - Config.CountdownStart;
-
-			var episodesDone = allTime.TotalDays/Config.CountdownFrequency;
-
-			if (episodesDone > 19)
+			for (var e = 1; e <= 20; e++)
 			{
-				var nextYearStart = Config.CountdownStart.AddYears(1);
+				dates.Add(day);
 
-				return (nextYearStart - today).TotalDays;
+				var add = e % 5 == 4 ? hiatus : interval;
+
+				day = day.AddDays(add);
 			}
 
-			var passedDays = (allTime.TotalDays-1)
-				% Config.CountdownFrequency + 1;
+			var nextYearStart = Config.CountdownStart.AddYears(1);
 
-			var timeLeft = Config.CountdownFrequency - passedDays;
+			var nextEpisode =
+				dates.FirstOrDefault(d => d >= today)
+					?? nextYearStart;
 
-			return Math.Ceiling(timeLeft);
+			return (nextEpisode - today).TotalDays;
 		}
 	}
 }

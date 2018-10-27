@@ -13,7 +13,8 @@ namespace Structure.Helpers
 		public static String MessagesPath = get("Messages");
 
 		public static DateTime CountdownStart = DateTime.Parse(get("CountdownStart"));
-		public static Int32 CountdownFrequency = Int32.Parse(get("CountdownFrequency"));
+		public static Int32 EpisodesInterval = Int32.Parse(get("EpisodesInterval"));
+		public static Int32 EpisodesHiatus = Int32.Parse(get("EpisodesHiatus"));
 
 		public static String FtpAddress = get("FtpAddress");
 		public static String FtpUrl = "ftp://" + FtpAddress;
