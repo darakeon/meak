@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 
 namespace Translator
@@ -18,6 +19,8 @@ namespace Translator
 		
 		private Action<String> warnStart { get; set; }
 		private Action<List<String>> warnIfNotFound { get; set; }
+
+		private static readonly Regex sceneFile = new Regex("[a-g].txt");
 
 		public static FileToJson Get(
 			Action<String> warnStart,
@@ -42,15 +45,20 @@ namespace Translator
 			TextToJson.End = End;
 
 			Directory.GetFiles(path, "*.txt")
+				.Where(f => sceneFile.IsMatch(f))
 				.ToList()
-				.ForEach(createJsonMEAK);
+				.ForEach(createJsonStory);
+
+			Directory.GetFiles(path, "_.txt")
+				.ToList()
+				.ForEach(createJsonSummary);
 
 			Directory.GetDirectories(path)
 				.ToList()
 				.ForEach(convert);
 		}
 
-		private void createJsonMEAK(String filePath)
+		private void createJsonStory(String filePath)
 		{
 			warnStart(filePath);
 
@@ -64,6 +72,36 @@ namespace Translator
 
 			var jsonFilePath = getNewFilePath(filePath);
 			File.WriteAllText(jsonFilePath, jsonContent, Encoding.UTF8);
+		}
+
+		private void createJsonSummary(String filePath)
+		{
+			warnStart(filePath);
+
+			var jsonFilePath = getNewFilePath(filePath);
+			var json = File.ReadAllText(jsonFilePath);
+
+			var newText = File.ReadAllText(filePath)
+				.Replace(Environment.NewLine, " ")
+				.Replace("\"", "'")
+				.Trim();
+
+			var regex = new Regex("(\n\t(\"summary\": \")(.*)(\",))?(\n\\})");
+			var groups = regex.Match(json).Groups.ToList();
+
+			var item = groups[1].Value;
+			var oldText = groups[3].Value;
+
+			if (!String.IsNullOrEmpty(item)
+			    && !newText.Contains(oldText))
+			{
+				newText = $"{oldText} {newText}";
+			}
+
+			newText = $"\n\t\"summary\": \"{newText}\",\n}}";
+			var newJson = regex.Replace(json, newText);
+
+			File.WriteAllText(jsonFilePath, newJson);
 		}
 
 		private string getNewFilePath(string filePath)
