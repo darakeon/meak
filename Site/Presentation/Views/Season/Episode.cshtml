@@ -19,8 +19,14 @@
 
 <p class="title">
 	@Model.Story.Title
-</p>
 
+	@if (Model.Story.HasSummary())
+	{
+		<a href="@Url.Action("Index")#@Model.Story.ID" class="sub">
+			ler resumo
+		</a>
+	}
+</p>
 
 @Html.Partial("Partial/ChangeScene", topSelector)
 

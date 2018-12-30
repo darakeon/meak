@@ -20,12 +20,17 @@
 	text-transform: uppercase;
 }
 
-.main p.title .sub
-{
-	font-family: monospace;
-	font-weight: normal;
-	color: #555;
-}
+	.main p.title .sub {
+		font-family: monospace;
+		font-weight: normal;
+		color: #555;
+		display: block;
+	}
+
+		.main p.title a.sub {
+			font-size: 60%;
+			text-decoration: none;
+		}
 
 .main .sign
 {

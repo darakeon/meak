@@ -7,13 +7,15 @@
 }
 
 <p class="title">
-	Temporada @Model.Season<br /><span class="sub">Resumo</span>
+	Temporada @Model.Season
+	<span class="sub">Resumo</span>
 </p>
 
 <ul class="seasonEpisodeList">
 	@foreach (var episode in Model.EpisodeList)
 	{
 		<li>
+			<a id="@episode.ID"></a>
 			<a class="title" href="@Url.Route(RouteConfig.Names.Episode, Model.Season, episode)">
 				<span class="epCode">@(episode):</span>
 				<span class="epTitle">@episode.Title</span>
