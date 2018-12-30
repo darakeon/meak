@@ -169,7 +169,11 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Devia ter te deixado sem os braços também. Quem sabe assim você não teria enfiado {scream}aquela aberraçãozinha em mim!"
+					"text": "Devia ter te deixado sem os braços também. Quem sabe assim você não teria"
+				},
+				{
+					"type": "screamed",
+					"text": "enfiado aquela aberraçãozinha em mim!"
 				}
 			]
 		},
@@ -235,8 +239,8 @@
 			"character": "Alan",
 			"pieces": [
 				{
-					"type": "default",
-					"text": "{hushed}Murilo."
+					"type": "hushed",
+					"text": "Murilo."
 				}
 			]
 		},
@@ -265,7 +269,15 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "{hushed}O nome {frizz}dele é Murilo."
+					"text": "O nome"
+				},
+				{
+					"type": "frizz",
+					"text": "dele"
+				},
+				{
+					"type": "default",
+					"text": "é Murilo."
 				}
 			]
 		},
