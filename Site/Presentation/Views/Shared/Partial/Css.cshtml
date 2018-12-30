@@ -1,8 +1,11 @@
-﻿@model Presentation.Models.General.CssModel
+﻿@using Version = Structure.Version
+
+@model Presentation.Models.General.CssModel
 		   
 @{
 	foreach (var file in Model.Files)
 	{
-		<link href="@Url.Content("~/Assets/css/" + file.Name)" rel="stylesheet" type="text/css" media="@file.Media" />
+		<link href="@Url.Content("~/Assets/css/" + file.Name)?v=@Version.Name"
+		      rel="stylesheet" type="text/css" media="@file.Media" />
 	}
 }
