@@ -17,17 +17,17 @@ namespace Translator
 		public String End { get; set; }
 		
 		private Action<String> warnStart { get; set; }
-		private Action<List<String>> warnIfNotFind { get; set; }
+		private Action<List<String>> warnIfNotFound { get; set; }
 
 		public static FileToJson Get(
 			Action<String> warnStart,
-			Action<List<String>> warnIfNotFind
+			Action<List<String>> warnIfNotFound
 		) {
 			var textToJsonConfig = File.ReadAllText("config.json");
 			var instance = JsonConvert.DeserializeObject<FileToJson>(textToJsonConfig);
 			
 			instance.warnStart = warnStart;
-			instance.warnIfNotFind = warnIfNotFind;
+			instance.warnIfNotFound = warnIfNotFound;
 			
 			return instance;
 		}
@@ -60,7 +60,7 @@ namespace Translator
 
 			var jsonContent = TextToJson.Transform(filePath, content);
 
-			warnIfNotFind(TextToJson.NotFind);
+			warnIfNotFound(TextToJson.NotFound);
 
 			var jsonFilePath = getNewFilePath(filePath);
 			File.WriteAllText(jsonFilePath, jsonContent, Encoding.UTF8);

@@ -9,7 +9,7 @@ namespace Translator
 		{
 			var converter = FileToJson.Get(
 				Console.WriteLine,
-				warnIfNotFind
+				warnIfNotFound
 			);
 
 			converter.Convert();
@@ -19,7 +19,7 @@ namespace Translator
 			Console.ReadLine();
 		}
 
-		private static void warnIfNotFind(List<String> warnings)
+		private static void warnIfNotFound(List<String> warnings)
 		{
 			Console.ForegroundColor = ConsoleColor.Yellow;
 			warnings.ForEach(Console.WriteLine);

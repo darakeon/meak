@@ -10,7 +10,7 @@ namespace Translator
 		public IList<Character> Characters { get; set; }
 		public IList<Verification> Verifications { get; set; }
 
-		public List<String> NotFind { get; set; }
+		public List<String> NotFound { get; set; }
 		public String Start { get; set; }
 		public String End { get; set; }
 
@@ -30,9 +30,9 @@ namespace Translator
 
 			newText = newText.Trim();
 
-			NotFind = Verifications.SelectMany(
+			NotFound = Verifications.SelectMany(
 				v => v.NotAllowedMatches(newText)
-			).Select(t => $"not find: {t}").ToList();
+			).Select(t => $"not found: {t}").ToList();
 
 			return Start + newText + End;
 		}
