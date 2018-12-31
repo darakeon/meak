@@ -1,12 +1,40 @@
-﻿@using Presentation
-@using Structure.Enums
+﻿@using Structure.Enums
+@using Structure.Helpers
 @model Presentation.Models.SeasonEditEpisodeModel
-		   
+
+@{
+	var route = RouteStories.With(null, null, Model.CurrentScene);
+	var adderUrl = HttpUtility.UrlDecode(
+		Url.Action("Adder", "Season", route)
+	);
+}
+
 <div class="paragraph @Model.CurrentParagraph.ToString().ToLower()" id="Paragraph@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)">
 
 	<span class="suggestionCharacter">
-		<adder class="adderTalk" scene="@Model.SceneCounter" caller="@Model.CurrentParagraph" type="Paragraph" subtype="Talk" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" talk="@Model.TalkCounter" onclick="AddInputItem(this)" url="@HttpUtility.UrlDecode(Url.Route(RouteConfig.Names.Adder, null, null, Model.CurrentScene))">+</adder>
-		<adder class="adderTeller" scene="@Model.SceneCounter" caller="@Model.CurrentParagraph" type="Paragraph" subtype="Teller" paragraph="@Model.ParagraphCounter" teller="@Model.TellerCounter" talk="@Model.TalkCounter" onclick="AddInputItem(this)" url="@HttpUtility.UrlDecode(Url.Route(RouteConfig.Names.Adder, null, null, Model.CurrentScene))">+</adder>
+		<adder
+			class="adderTalk"
+			scene="@Model.SceneCounter"
+			caller="@Model.CurrentParagraph"
+			type="Paragraph"
+			subtype="Talk"
+			paragraph="@Model.ParagraphCounter"
+			teller="@Model.TellerCounter"
+			talk="@Model.TalkCounter"
+			onclick="AddInputItem(this)"
+			url="@adderUrl">+</adder>
+		
+		<adder
+			class="adderTeller"
+			scene="@Model.SceneCounter"
+			caller="@Model.CurrentParagraph"
+			type="Paragraph"
+			subtype="Teller"
+			paragraph="@Model.ParagraphCounter"
+			teller="@Model.TellerCounter"
+			talk="@Model.TalkCounter"
+			onclick="AddInputItem(this)"
+			url="@adderUrl">+</adder>
 	</span>
 
 	@if (Model.CurrentParagraph == ParagraphType.Talk)

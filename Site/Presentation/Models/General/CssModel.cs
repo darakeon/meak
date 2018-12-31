@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Web;
 using Structure.Helpers;
 
 namespace Presentation.Models.General
@@ -17,7 +16,7 @@ namespace Presentation.Models.General
 				Files.Add(new CssFile(file));
 			}
 
-			var isAuthor = UrlUserType.IsAuthor(HttpContext.Current.Request.Url);
+			var isAuthor = UrlUserType.IsAuthor();
 
 			if (!isAuthor)
 				return;

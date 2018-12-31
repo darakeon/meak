@@ -9,7 +9,7 @@ namespace Presentation.Helpers
     {
         protected override bool AuthorizeCore(HttpContextBase httpContext)
         {
-            var authorized = !UrlUserType.IsAuthor(httpContext.Request.Url)
+            var authorized = !UrlUserType.IsAuthor()
                              || base.AuthorizeCore(httpContext);
             
             var isAjax = httpContext.Request.IsAjaxRequest();

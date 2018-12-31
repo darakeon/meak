@@ -38,9 +38,8 @@ namespace Presentation.Controllers
 
 			if (!model.EpisodeList.Any())
 			{
-				return RedirectToRoute("Default",
+				return RedirectToAction("Episode",
 					new {
-						action = "Episode", 
 						seasonID, 
 						episodeID = "01", 
 					});
@@ -48,9 +47,6 @@ namespace Presentation.Controllers
 
 			return View("Summary", model);
 		}
-
-
-
 
 		public ActionResult Episode(String seasonID, String episodeID, String sceneID)
 		{

@@ -1,13 +1,10 @@
 ﻿@model Presentation.Models.BaseModel
 @using System.Web.Mvc.Html
-@using Presentation
 @using Structure.Helpers
 
 @{
-	var isAuthor = UrlUserType.IsAuthor(Request.Url);
+	var isAuthor = UrlUserType.IsAuthor();
 	
-	var route = isAuthor ? RouteConfig.Names.AuthorEpisode : RouteConfig.Names.Episode;
-
 	if (isAuthor)
 	{
 		<div id="save_status" class="darkback">
@@ -15,11 +12,7 @@
 			@Countdown.GetTimeLeft() days
 		</div>
 		<div class="header lightback">
-			@Html.RouteLink(
-				"Add Episode",
-				RouteConfig.Names.AddEpisode.ToString(),
-				new { action = "AddEpisode", controller = "Season" }
-			)
+			@Html.ActionLink("Add Episode", "AddEpisode", "Season")
 		</div>
 		<br /><br />
 	}
@@ -27,20 +20,24 @@
 	
 @foreach (var season in Model.Menu.SeasonList)
 {
+	var url = RouteStories.With(season);
+
 	<div class="season">
 		<div class="darkback">
 			<div class="header">
-				@Html.RouteLink(
-					"Temporada " + season,
-					RouteConfig.Names.Season.ToString(),
-					new { seasonID = season }
-				)
+				<a href="@url">
+					Temporada @season
+				</a>
 			</div>
 
 			<div class="body">
 				@foreach (var episode in season.EpisodeList)
 				{
-					var myUrl = Url.Route(route, season, episode);
+					var route = RouteStories.With(season, episode);
+
+					var myUrl = isAuthor
+						? Url.Action("Episode", "Season", route)
+						: route.ToString();
 					
 					var @selectedClass = Request.Url.AbsoluteUri.Contains(myUrl)
 						? "selected" : "";

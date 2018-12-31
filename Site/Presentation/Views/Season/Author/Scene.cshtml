@@ -1,11 +1,19 @@
-﻿@model Presentation.Models.SeasonEditEpisodeModel
+﻿@using Structure.Helpers
+@model Presentation.Models.SeasonEditEpisodeModel
 		   
 @{
 	var scene = Model.Story.SceneList[Model.SceneCounter];
 	var formId = "form_" + scene.ID;
 
-	var ajaxOptions = new AjaxOptions { HttpMethod = "Post", OnBegin = "SaveBegin('" + formId + "')", OnSuccess = "SaveSuccess('" + formId + "')", OnFailure = "SaveFailure('" + formId + "')" };
-	var route = new { sceneID = scene.ID, episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
+	var ajaxOptions = new AjaxOptions
+	{
+		HttpMethod = "Post",
+		OnBegin = "SaveBegin('" + formId + "')",
+		OnSuccess = "SaveSuccess('" + formId + "')",
+		OnFailure = "SaveFailure('" + formId + "')"
+	};
+
+	var route = RouteStories.With(Model.Story.Season, Model.Story, scene);
 	var html = new { id = formId };
 }
 
@@ -15,16 +23,22 @@
 		<span class="paragraphCountTitle">
 			Scene Paragraphs Last Count: @scene.ParagraphCount
 		</span>
+		
+		<a href="#"
+		   onclick="SaveCurrentForm();return false;"
+		   class="darkback">
+			Save
+		</a>
 
-		<a href="#" class="darkback" onclick="SaveCurrentForm(); return false;">Save</a>
-
-		@Html.RouteLink("View", "Scene",
-			new {seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = scene.ID},
-			new {@class = "darkback", target = "_blank"})
-
-		@Html.RouteLink("Upload", "Upload",
-			new {seasonID = Model.Story.Season.ID, episodeID = Model.Story.ID, sceneID = scene.ID},
-			new {@class = "darkback", target = "_blank"})
+		<a href="@route.ToString()"
+		   class="darkback" target="_blank">
+			View
+		</a>
+		
+		<a href="@Url.Action("Upload", "Upload", route)"
+		   class="darkback" target="_blank">
+			Upload
+		</a>
 	</div>
 
 	@using (Ajax.BeginForm("EditScene", route, ajaxOptions, html))

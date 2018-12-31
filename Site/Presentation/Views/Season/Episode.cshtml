@@ -1,6 +1,7 @@
 ﻿@model Presentation.Models.SeasonEpisodeModel
 @using Presentation.Models.General
 @using Structure.Enums;
+@using Structure.Helpers
 
 @{
 	ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
@@ -22,7 +23,10 @@
 
 	@if (Model.Story.HasSummary())
 	{
-		<a href="@Url.Action("Index")#@Model.Story.ID" class="sub">
+		var episode = Model.Story.ID;
+		var route = RouteStories.With(Model.Story.Season);
+
+		<a href="@(route)#@episode" class="sub">
 			ler resumo
 		</a>
 	}

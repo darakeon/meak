@@ -1,17 +1,14 @@
-﻿@using Presentation
-@model Presentation.Models.BaseModel
+﻿@model Presentation.Models.BaseModel
 		   
 @if (Model.LogOn.Is)
 {
 	var routeValues = new
 	{
 		returnUrl = Model.LogOn.ReturnUrl,
-		action = "LogOn",
-		controller = "Account"
 	};
 
 
-	using (Html.BeginRouteForm(RouteConfig.Names.LogOn.ToString(), routeValues, FormMethod.Post))
+	using (Html.BeginForm("LogOn", "Account", routeValues, FormMethod.Post))
 	{
 		<div class="lightback inner">
 		

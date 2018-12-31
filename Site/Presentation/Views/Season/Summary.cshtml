@@ -1,4 +1,4 @@
-﻿@using Presentation
+﻿@using Structure.Helpers
 @model Presentation.Models.SeasonSeasonModel
 
 @{
@@ -14,9 +14,11 @@
 <ul class="seasonEpisodeList">
 	@foreach (var episode in Model.EpisodeList)
 	{
+		var url = RouteStories.With(Model.Season, episode);
+
 		<li>
 			<a id="@episode.ID"></a>
-			<a class="title" href="@Url.Route(RouteConfig.Names.Episode, Model.Season, episode)">
+			<a class="title" href="@url">
 				<span class="epCode">@(episode):</span>
 				<span class="epTitle">@episode.Title</span>
 				<span class="epPublish">@episode.Publish.ToShortDateString()</span>

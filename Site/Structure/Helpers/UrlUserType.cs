@@ -7,12 +7,13 @@ namespace Structure.Helpers
 	{
 		public static Boolean IsAuthor()
 		{
-			return IsAuthor(HttpContext.Current.Request.Url);
-		}
+			var request = HttpContext.Current.Request;
 
-		public static Boolean IsAuthor(Uri uri)
-		{
-			return uri.AbsolutePath.StartsWith("/_");
+			var route = RouteStories.Empty();
+
+			return request.Url.DnsSafeHost == "localhost"
+				&& request.Url.AbsolutePath != "/"
+				&& !request.RawUrl.EndsWith(route.ToString());
 		}
 	}
 }

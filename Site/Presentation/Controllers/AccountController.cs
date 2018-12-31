@@ -16,19 +16,15 @@ namespace Presentation.Controllers
 			var typedLogin = model.LogOn.Login;
 			var typedPass = model.LogOn.Password;
 
-
 			typedPass = typedPass.EncryptPassword();
-
 
 			if (realLogin != null && realPass != null
 				&& typedLogin == realLogin && typedPass == realPass)
 			{
 				Authenticate.Set(realLogin, Response);
 
-				if (String.IsNullOrEmpty(returnUrl))
-					return RedirectToRoute("Author");
-			
-				return Redirect(returnUrl);
+				if (!String.IsNullOrEmpty(returnUrl))
+					return Redirect(returnUrl);
 			}
 			
 			return Redirect(@"\");
