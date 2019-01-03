@@ -222,7 +222,7 @@
     <Content Include="Views\Season\Suggestion.cshtml" />
     <Content Include="Views\Season\Summary.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\Partial\ChangeScene.cshtml" />
+    <Content Include="Views\Season\Partial\ChangeScene.cshtml" />
     <Content Include="Views\Shared\Partial\Css.cshtml" />
     <Content Include="Views\Shared\Partial\Js.cshtml" />
     <Content Include="Views\Shared\Partial\Legend.cshtml" />
@@ -244,7 +244,7 @@
     <None Include="Properties\PublishProfiles\Arvixe.pubxml" />
     <None Include="Properties\PublishProfiles\Stories - Local.pubxml" />
     <Content Include="Views\Upload\Upload.cshtml" />
-    <Content Include="Views\Season\PrintHeaderAndFooter.cshtml" />
+    <Content Include="Views\Season\Partial\PrintHeaderAndFooter.cshtml" />
     <None Include="Web.Amazon.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
