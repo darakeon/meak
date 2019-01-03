@@ -87,7 +87,10 @@
 	text-transform: uppercase;
 }
 
-
+.paragraph:first-child div
+{
+	margin-top: 0;
+}
 
 .teller_Trigger {
 	font-weight: bold;
