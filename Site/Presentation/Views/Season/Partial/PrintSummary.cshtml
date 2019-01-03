@@ -1,7 +1,7 @@
-﻿@using Structure.Helpers
+﻿@using DK.MVC.Authentication
 @model Structure.Entities.System.Episode
 
-@if (!UrlUserType.IsAuthor() && Model.HasSummary()) {
+@if (!Authenticate.IsAuthenticated && Model.HasSummary()) {
 	<div class="just-print summary">
 		<p class="title">
 			Resumo do Capítulo

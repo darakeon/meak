@@ -1,8 +1,8 @@
-﻿@using Structure.Helpers
+﻿@using DK.MVC.Authentication
 @model Structure.Entities.System.Episode
 
 @{
-	var startPage = UrlUserType.IsAuthor()
+	var startPage = Authenticate.IsAuthenticated
 		? Model.PageStart
 		: 0;
 }
