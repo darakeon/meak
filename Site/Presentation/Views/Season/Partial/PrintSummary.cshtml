@@ -1,0 +1,13 @@
+﻿@using Structure.Helpers
+@model Structure.Entities.System.Episode
+
+@if (!UrlUserType.IsAuthor() && Model.HasSummary()) {
+	<div class="just-print summary">
+		<p class="title">
+			Resumo do Capítulo
+		</p>
+	
+		@Model.Summary
+	</div>
+}
+

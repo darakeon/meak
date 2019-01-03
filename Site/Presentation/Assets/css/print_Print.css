@@ -1,14 +1,33 @@
-﻿* 
+﻿*
 {
 	background: none #FFF;
 }
 
-.main {
+.main
+{
 	font-size: 12pt;
 	font-family: Times New Roman;
+}
+
+p.title
+{
+	margin: 30px 0 0px 0;
+}
+
+.scenes, .summary
+{
 	display: table;
 	padding: 30px 0;
 }
+
+.summary {
+	page-break-before: always;
+}
+
+	.summary .title
+	{
+		margin-bottom: 30px;
+	}
 
 #header #right {
 	position: fixed;
