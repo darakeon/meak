@@ -36,16 +36,11 @@ namespace Presentation.Controllers
 		{
 			var model = new SeasonSeasonModel(seasonID);
 
-			if (!model.EpisodeList.Any())
-			{
-				return RedirectToAction("Episode",
-					new {
-						seasonID, 
-						episodeID = "01", 
-					});
-			}
+			if (model.EpisodeList.Any())
+				return View("Summary", model);
 
-			return View("Summary", model);
+			var route = RouteStories.With(seasonID, "01");
+			return Redirect(route.ToString());
 		}
 
 		public ActionResult Episode(String seasonID, String episodeID, String sceneID)
