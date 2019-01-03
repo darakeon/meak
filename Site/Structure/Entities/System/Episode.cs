@@ -23,6 +23,7 @@ namespace Structure.Entities.System
 			Publish = info.Publish;
 			LastScene = info.Last;
 			Summary = info.Summary;
+			PageStart = info.Page;
 			Season = new Season { ID = season };
 		}
 
@@ -32,6 +33,8 @@ namespace Structure.Entities.System
 		public DateTime Publish { get; set; }
 		public String LastScene { get; set; }
 		public String Summary { get; set; }
+
+		public Int16 PageStart { get; set; }
 
 		public List<Scene> SceneList { get; set; }
 

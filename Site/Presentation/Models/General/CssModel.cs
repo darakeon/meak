@@ -39,11 +39,13 @@ namespace Presentation.Models.General
 
 			public CssFile(String file)
 			{
-				Name = file.Substring(file.LastIndexOf(@"\") + 1);
+				var afterSlash = file.LastIndexOf(@"\") + 1;
+				Name = file.Substring(afterSlash);
 
 				if (Name.Contains("_"))
 				{
-					Media = Name.Remove(Name.LastIndexOf("_")).ToLower();
+					var beforeUnderline = Name.LastIndexOf("_");
+					Media = Name.Remove(beforeUnderline).ToLower();
 				}
 			}
 

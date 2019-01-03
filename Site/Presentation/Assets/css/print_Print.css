@@ -3,14 +3,49 @@
 	background: none #FFF;
 }
 
-.main
-{
+.main {
 	font-size: 12pt;
 	font-family: Times New Roman;
-	width: 585px !important;
+	display: table;
+	padding: 30px 0;
 }
 
-img, .menu, .head, .navigation
+#header #right {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+#header #left {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	text-align: center;
+	display: table-footer-group;
+}
+
+	#footer:after {
+		counter-increment: page;
+		content: counter(page);
+	}
+
+img,
+.menu,
+.head,
+.navigation,
+.resizer,
+.scene-changer,
+.screen-action 
 {
 	display: none;
+}
+
+.scene:not(:first-child) {
+	padding-top: 38px;
 }

@@ -8,15 +8,16 @@
 	Layout = "~/Views/Shared/_Layout.cshtml";
 	var talkCounter = 0;
 	var tellerCounter = 0;
-	
-	var topSelector = 
-		new TopSelectorModel 
+
+	var topSelector =
+		new TopSelectorModel
 		{
 			Total = Model.Story.SceneList.Count,
 			Current = Convert.ToInt32(Model.ReadingScene[0]) - 97
 		};
 }
 
+@Html.Partial("PrintHeaderAndFooter", Model.Story)
 
 <p class="title">
 	@Model.Story.Title
@@ -26,7 +27,7 @@
 		var episode = Model.Story.ID;
 		var route = RouteStories.With(Model.Story.Season);
 
-		<a href="@(route)#@episode" class="sub">
+		<a href="@(route)#@episode" class="sub screen-action">
 			ler resumo
 		</a>
 	}
@@ -43,7 +44,7 @@
 	{
 		var scene = Model.Story.SceneList[s];
 		var trigger = false;
-		
+
 		<div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(s)">
 			@foreach (var paragraph in scene.ParagraphTypeList)
 			{
@@ -51,14 +52,14 @@
 					@switch (paragraph)
 					{
 						case ParagraphType.Talk:
-							
+
 							@("– ")
-			
+
 							foreach (var piece in scene.TalkList[talkCounter].Pieces)
 							{
 								<span class="talk_@(piece.Style)">@piece.Text</span>
 							}
-			
+
 							@(" (" + scene.TalkList[talkCounter].Character + ")")
 
 							talkCounter++;
@@ -94,7 +95,7 @@
 					}
 				</div>
 			}
-	
+
 			@if (s == lastScene && Model.Story.LastScene != scene.ID)
 			{
 				<div class="continue">Continua...</div>

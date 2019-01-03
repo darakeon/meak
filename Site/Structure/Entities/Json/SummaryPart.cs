@@ -12,6 +12,8 @@ namespace Structure.Entities.Json
 
 		public String Portuguese { get; set; }
 		public String English { get; set; }
+		public Int16 Page { get; set; }
+
 		internal String Title
 		{
 			get => Portuguese;
@@ -19,6 +21,5 @@ namespace Structure.Entities.Json
 		}
 
 		public String Summary { get; set; }
-		
 	}
 }
