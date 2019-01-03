@@ -1,6 +1,13 @@
-﻿@model Structure.Entities.System.Episode
+﻿@using Structure.Helpers
+@model Structure.Entities.System.Episode
 
-<div id="print" style="counter-reset: page @Model.PageStart">
+@{
+	var startPage = UrlUserType.IsAuthor()
+		? Model.PageStart
+		: 0;
+}
+
+<div id="print" style="counter-reset: page @startPage">
 	<div id="header">
 		<div id="left">
 			MEAK @Model.Season@Model
