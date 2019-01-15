@@ -134,7 +134,8 @@ namespace Structure.Data
 					{
 						using (var reader = new StreamReader(stream))
 						{
-							directories = reader.ReadToEnd().Split(Environment.NewLine.ToCharArray());
+							directories = reader.ReadToEnd()
+								.Split(Environment.NewLine.ToCharArray());
 						}
 					}
 				}
