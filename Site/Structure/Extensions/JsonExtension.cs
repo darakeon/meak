@@ -10,6 +10,8 @@ namespace Structure.Extensions
 {
 	static class JsonExtension
 	{
+		public const String NewLine = "\n";
+
 		public static T Read<T>(this String path)
 		{
 			try
@@ -33,23 +35,36 @@ namespace Structure.Extensions
 				var utf8 = new UTF8Encoding(false);
 
 				using (var file = File.Create(path))
-				using (var stream = new StreamWriter(file, utf8))
-				using (var writer = new JsonTextWriter(stream)
+				using (var streamWriter = getStreamWriter(file, utf8))
+				using (var jsonWriter = getJsonWriter(streamWriter))
 				{
-					Formatting = Formatting.Indented,
-					Indentation = 1,
-					IndentChar = '\t',
-				})
-				{
-					Serializer.Serialize(writer, obj);
+					Serializer.Serialize(jsonWriter, obj);
 				}
 
-				File.AppendAllLines(path, new[] {""});
+				File.AppendAllText(path, NewLine);
 			}
 			catch (Exception e)
 			{
 				throw new Exception($"Error on {path}", e);
 			}
+		}
+
+		private static StreamWriter getStreamWriter(Stream stream, Encoding encoding)
+		{
+			return new StreamWriter(stream, encoding)
+			{
+				NewLine = NewLine
+			};
+		}
+
+		private static JsonTextWriter getJsonWriter(StreamWriter stream)
+		{
+			return new JsonTextWriter(stream)
+			{
+				Formatting = Formatting.Indented,
+				Indentation = 1,
+				IndentChar = '\t',
+			};
 		}
 
 		public static JsonSerializer Serializer
