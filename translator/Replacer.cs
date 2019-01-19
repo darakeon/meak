@@ -19,5 +19,10 @@ namespace Translator
 			var regex = new Regex(oldValue);
 			return regex.Replace(originalText, newValue);
 		}
+
+		public override string ToString()
+		{
+			return $"{{{oldValue}}} by {{{newValue}}}";
+		}
 	}
 }

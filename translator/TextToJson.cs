@@ -7,7 +7,6 @@ namespace Translator
 	internal class TextToJson
 	{
 		public IList<Replacer> TextTransform { get; set; }
-		public IList<Character> Characters { get; set; }
 		public IList<Verification> Verifications { get; set; }
 
 		public List<String> NotFound { get; set; }
@@ -16,14 +15,35 @@ namespace Translator
 
 		public String Transform(String filePath, String originalText)
 		{
-			var newText = $"\n{originalText.Trim()}\n";
+			var lines = 
+				originalText
+					.Trim()
+					.Replace("\r", "")
+					.Split("\n");
+
+			var characters = new List<Character>();
+			var storyLines = new List<String> { "" };
+
+			foreach (var line in lines)
+			{
+				var character = Character.Get(line);
+
+				if (character != null)
+					characters.Add(character);
+				else
+					storyLines.Add(line);
+			}
+
+			storyLines.Add("");
+
+			var newText = String.Join("\n", storyLines);
 
 			foreach (var replace in TextTransform)
 			{
 				newText = replace.Transform(newText);
 			}
 
-			foreach (var replace in Characters)
+			foreach (var replace in characters)
 			{
 				newText = replace.Transform(newText);
 			}
