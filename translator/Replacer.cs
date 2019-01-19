@@ -3,9 +3,9 @@ using System.Text.RegularExpressions;
 
 namespace Translator
 {
-	internal class Replace
+	internal class Replacer
 	{
-		public Replace(String oldValue, String newValue)
+		public Replacer(String oldValue, String newValue)
 		{
 			this.oldValue = oldValue;
 			this.newValue = newValue;

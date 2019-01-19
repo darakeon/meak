@@ -14,7 +14,7 @@ namespace Translator
 
 		public TextToJson TextToJson { get; set; }
 
-		public Replace Start { get; set; }
+		public Replacer Start { get; set; }
 		public String End { get; set; }
 		
 		private Action<String> warnStart { get; set; }

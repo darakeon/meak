@@ -6,7 +6,7 @@ namespace Translator
 {
 	internal class TextToJson
 	{
-		public IList<Replace> TextTransform { get; set; }
+		public IList<Replacer> TextTransform { get; set; }
 		public IList<Character> Characters { get; set; }
 		public IList<Verification> Verifications { get; set; }
 

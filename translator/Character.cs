@@ -2,7 +2,7 @@
 
 namespace Translator
 {
-	internal class Character: Replace
+	internal class Character: Replacer
 	{
 		public Character(String oldValue, String newValue)
 			: base(
