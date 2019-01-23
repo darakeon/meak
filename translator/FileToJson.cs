@@ -16,46 +16,62 @@ namespace Translator
 
 		public Replacer Start { get; set; }
 		public String End { get; set; }
-		
+
 		private Action<String> warnStart { get; set; }
 		private Action<List<String>> warnIfNotFound { get; set; }
 
-		private static readonly Regex sceneFile = new Regex("[a-g].txt");
+		private static readonly String config = File.ReadAllText("config.json");
+
+		private static readonly Regex storyDir = new Regex("(_[A-Z]|\\d{2})$");
+
+		private static readonly Regex jsonFile = new Regex(".\\.json");
+		private static readonly Regex sceneFile = new Regex("[a-g]\\..{2,4}");
+		private static readonly Regex summaryFile = new Regex("_\\..{2,4}");
 
 		public static FileToJson Get(
 			Action<String> warnStart,
 			Action<List<String>> warnIfNotFound
 		) {
-			var textToJsonConfig = File.ReadAllText("config.json");
-			var instance = JsonConvert.DeserializeObject<FileToJson>(textToJsonConfig);
-			
+			var instance = deserialize(config);
+
 			instance.warnStart = warnStart;
 			instance.warnIfNotFound = warnIfNotFound;
-			
+
+			instance.TextToJson.End = instance.End;
+
 			return instance;
+		}
+
+		private static FileToJson deserialize(String json)
+		{
+			return JsonConvert.DeserializeObject<FileToJson>(json);
 		}
 
 		public void Convert()
 		{
-			convert(Path);
+			convertDirectory(Path);
 		}
 
-		private void convert(String path)
+		private void convertDirectory(String path)
 		{
-			TextToJson.End = End;
-
-			Directory.GetFiles(path, "*.txt")
-				.Where(f => sceneFile.IsMatch(f))
+			Directory.GetFiles(path)
+				.Where(f => !jsonFile.IsMatch(f))
 				.ToList()
-				.ForEach(createJsonStory);
-
-			Directory.GetFiles(path, "_.txt")
-				.ToList()
-				.ForEach(createJsonSummary);
+				.ForEach(Convert);
 
 			Directory.GetDirectories(path)
+				.Where(d => storyDir.IsMatch(d))
 				.ToList()
-				.ForEach(convert);
+				.ForEach(convertDirectory);
+		}
+
+		public void Convert(String filePath)
+		{
+			if (sceneFile.IsMatch(filePath))
+				createJsonStory(filePath);
+
+			if (summaryFile.IsMatch(filePath))
+				createJsonSummary(filePath);
 		}
 
 		private void createJsonStory(String filePath)
@@ -104,7 +120,7 @@ namespace Translator
 			File.WriteAllText(jsonFilePath, newJson);
 		}
 
-		private string getNewFilePath(string filePath)
+		private string getNewFilePath(String filePath)
 		{
 			var fileInfo = new FileInfo(filePath);
 			var jsonFilePath =
