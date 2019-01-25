@@ -36,9 +36,9 @@ namespace Structure.Helpers
 			var year = (season - 'A') * 3 / 2 + 2015;
 
 			episode--;
-			var day = (episode / 5 * 3 + episode * 2) * 7 + 85;
+			var day = (episode / 5 * 3 + episode * 2) * 7 + 26;
 
-			return new DateTime(year, 1, 1).AddDays(day);
+			return new DateTime(year, 3, 1).AddDays(day);
 		}
 
 		public static string GetTimeLeft(EpisodeJson episodeJson, IList<Season> seasonList)
