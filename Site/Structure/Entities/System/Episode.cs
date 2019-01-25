@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using DK.MVC.Authentication;
 using Structure.Data;
+using Structure.Helpers;
 
 namespace Structure.Entities.System
 {
@@ -20,7 +21,7 @@ namespace Structure.Entities.System
 
 			ID = episode;
 			Title = info.Title;
-			Publish = info.Publish;
+			Publish = Countdown.GetDate(season, episode);
 			LastScene = info.Last;
 			Summary = info.Summary;
 			PageStart = info.Page;

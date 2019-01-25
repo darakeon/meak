@@ -31,6 +31,11 @@ namespace Structure.Helpers
 			return dic;
 		}
 
+		public static DateTime GetDate(String season, String episode)
+		{
+			return getDate(season[0], Int32.Parse(episode));
+		}
+
 		private static DateTime getDate(Char season, Int32 episode)
 		{
 			var year = (season - 'A') * 3 / 2 + 2015;

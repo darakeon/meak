@@ -8,7 +8,6 @@ namespace Structure.Entities.Json
 		public String Episode { get; set; }
 
 		public String Last { get; set; }
-		public DateTime Publish { get; set; }
 
 		public Int16 Page { get; set; }
 
