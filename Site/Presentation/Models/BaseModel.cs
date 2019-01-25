@@ -1,6 +1,8 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using Presentation.Models.General;
 using Structure.Data;
+using Structure.Helpers;
 
 namespace Presentation.Models
 {
@@ -30,5 +32,7 @@ namespace Presentation.Models
 		protected EpisodeJson episodeJson { get; }
 		protected MessageJson messageJson { get; }
 
+		public String TimeLeft =>
+			Countdown.GetTimeLeft(episodeJson, Menu.SeasonList);
 	}
 }

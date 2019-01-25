@@ -1,40 +1,92 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Structure.Data;
+using Structure.Entities.System;
 
 namespace Structure.Helpers
 {
 	public class Countdown
 	{
-		public static String GetTimeLeft()
-		{
-			return getDaysLeft().ToString("00");
-		}
+		private static readonly 
+			IDictionary<String, DateTime> dates = getDates();
 
-		private static Double getDaysLeft()
-		{
-			var today = DateTime.Now.Date;
-			var day = Config.CountdownStart;
-			var interval = Config.EpisodesInterval;
-			var hiatus = Config.EpisodesHiatus;
-			var dates = new List<DateTime?>();
+		private static readonly String empty = "???";
 
-			for (var e = 1; e <= 20; e++)
+		private static IDictionary<String, DateTime> getDates()
+		{
+			var dic = new Dictionary<String, DateTime>();
+
+			for (var s = 'A'; s <= 'Z'; s++)
 			{
-				dates.Add(day);
+				for (var e = 1; e <= 20; e++)
+				{
+					var code = s + e.ToString("00");
+					var date = getDate(s, e);
 
-				var add = e % 5 == 4 ? hiatus : interval;
-
-				day = day.AddDays(add);
+					dic.Add(code, date);
+				}
 			}
 
-			var nextYearStart = Config.CountdownStart.AddYears(1);
+			return dic;
+		}
 
-			var nextEpisode =
-				dates.FirstOrDefault(d => d >= today)
-					?? nextYearStart;
+		private static DateTime getDate(Char season, Int32 episode)
+		{
+			var year = (season - 'A') * 3 / 2 + 2015;
 
-			return (nextEpisode - today).TotalDays;
+			episode--;
+			var day = (episode / 5 * 3 + episode * 2) * 7 + 85;
+
+			return new DateTime(year, 1, 1).AddDays(day);
+		}
+
+		public static string GetTimeLeft(EpisodeJson episodeJson, IList<Season> seasonList)
+		{
+			var lastSeason = seasonList.LastOrDefault();
+
+			if (lastSeason == null) return empty;
+
+			var lastIndex = lastSeason.EpisodeList.Count - 1;
+
+			while (lastIndex >= 0)
+			{
+				var episode = lastSeason.EpisodeList[lastIndex];
+
+				var seasonId = episode.Season.ID;
+				var episodeId = episode.ID;
+				episode = episodeJson.GetEpisode(seasonId, episodeId);
+
+				if (isComplete(episode))
+					return getTimeLeft(seasonId, episodeId);
+
+				lastIndex--;
+			}
+
+			return empty;
+		}
+
+		private static Boolean isComplete(Episode episode)
+		{
+			var lastScene = episode.SceneList.LastOrDefault();
+
+			return episode.LastScene == lastScene?.ID
+			       && lastScene?.ParagraphCount
+			       >= SceneJson.MINIMUM_PARAGRAPH_COUNT;
+		}
+
+		private static String getTimeLeft(String lastSeason, String lastEpisode)
+		{
+			var code = lastSeason + lastEpisode;
+
+			var episodes = dates.Keys.ToList();
+			var lastDateIndex = episodes.IndexOf(code);
+			var nextDateIndex = episodes[lastDateIndex + 1];
+
+			var nextDate = dates[nextDateIndex];
+			var diff = nextDate - DateTime.Today;
+
+			return diff.TotalDays.ToString("00");
 		}
 	}
 }
