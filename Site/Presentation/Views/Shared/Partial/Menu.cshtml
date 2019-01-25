@@ -4,7 +4,7 @@
 
 @{
 	var isAuthor = UrlUserType.IsAuthor();
-	
+
 	if (isAuthor)
 	{
 		<div id="save_status" class="darkback">
@@ -17,7 +17,7 @@
 		<br /><br />
 	}
 }
-	
+
 @foreach (var season in Model.Menu.SeasonList)
 {
 	var url = RouteStories.With(season);
@@ -38,10 +38,10 @@
 					var myUrl = isAuthor
 						? Url.Action("Episode", "Season", route)
 						: route.ToString();
-					
+
 					var @selectedClass = Request.Url.AbsoluteUri.Contains(myUrl)
 						? "selected" : "";
-					
+
 					<a href="@myUrl" class="item storyLink @selectedClass" rel="@episode.Title">@episode.ID</a>
 				}
 

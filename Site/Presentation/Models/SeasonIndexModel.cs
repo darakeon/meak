@@ -7,7 +7,7 @@ namespace Presentation.Models
 	{
 		public SeasonIndexModel()
 		{
-			Messages = MessageJson.GetAll();
+			Messages = messageJson.GetAll();
 		}
 
 		public IList<Message> Messages { get; set; }

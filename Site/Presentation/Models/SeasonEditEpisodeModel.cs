@@ -13,7 +13,7 @@ namespace Presentation.Models
 
 		public SeasonEditEpisodeModel(String seasonID, String episodeID, String sceneID)
 		{
-			Story = EpisodeJson.GetEpisode(seasonID, episodeID);
+			Story = episodeJson.GetEpisode(seasonID, episodeID);
 			ReadingScene = sceneID ?? SceneJson.FIRST_SCENE;
 		}
 

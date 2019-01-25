@@ -26,7 +26,7 @@ namespace Structure.Entities.System
 		{
 			var dir = new DirectoryInfo(file);
 
-			if (dir.Parent == null || dir.Parent.Parent == null)
+			if (dir.Parent?.Parent == null)
 				return;
 
 			var episodeName = dir.Name;

@@ -10,10 +10,10 @@ namespace Presentation.Models
 		{
 			LogOn = new LogOnModel();
 
-			EpisodeJson = new EpisodeJson();
-			MessageJson = new MessageJson();
+			episodeJson = new EpisodeJson();
+			messageJson = new MessageJson();
 
-			var xmlPath = EpisodeJson.PathJson;
+			var xmlPath = episodeJson.PathJson;
 			var cssPath = Path.Combine(Directory.GetCurrentDirectory(), "Assets", "css");
 
 			Paths = new Paths(xmlPath, cssPath);
@@ -22,17 +22,13 @@ namespace Presentation.Models
 			Css = new CssModel(Paths.Css);
 		}
 
-
 		public MenuModel Menu { get; set; }
 		public LogOnModel LogOn { get; set; }
 		public CssModel Css { get; set; }
 
-		public Paths Paths { get; private set; }
-		protected EpisodeJson EpisodeJson { get; private set; }
-		protected MessageJson MessageJson { get; private set; }
-
-
+		public Paths Paths { get; }
+		protected EpisodeJson episodeJson { get; }
+		protected MessageJson messageJson { get; }
 
 	}
-
 }
