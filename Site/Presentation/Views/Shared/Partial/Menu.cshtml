@@ -42,7 +42,9 @@
 					var @selectedClass = Request.Url.AbsoluteUri.Contains(myUrl)
 						? "selected" : "";
 
-					<a href="@myUrl" class="item storyLink @selectedClass" rel="@episode.Title">@episode.ID</a>
+					<a href="@myUrl" 
+					   class="item storyLink @selectedClass" 
+					   rel="@episode.Title">@episode.ID</a>
 				}
 
 			</div>
