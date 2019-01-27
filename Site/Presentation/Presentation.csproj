@@ -136,6 +136,8 @@
     <Compile Include="Controllers\UploadController.cs" />
     <Compile Include="Helpers\Dic.cs" />
     <Compile Include="Helpers\Footer.cs" />
+    <Compile Include="Helpers\AuthorMode.cs" />
+    <Compile Include="Helpers\AutomaticFix.cs" />
     <Compile Include="Models\UploadModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -239,6 +241,10 @@
     <Content Include="Views\Shared\Partial\Sign.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GenderFix\GenderFix.csproj">
+      <Project>{556fec5f-0852-4365-95b3-fcfd9985cd64}</Project>
+      <Name>GenderFix</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Structure\Structure.csproj">
       <Project>{9A3430F3-6A6D-4D21-A4F0-F443725341CD}</Project>
       <Name>Structure</Name>

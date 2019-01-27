@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Presentation.Helpers;
 using Structure.Data;
 using Structure.Enums;
 using Structure.Extensions;
@@ -11,10 +12,16 @@ namespace Presentation.Models
 	{
 		public SeasonEditEpisodeModel() { }
 
-		public SeasonEditEpisodeModel(String seasonID, String episodeID, String blockID)
+		public SeasonEditEpisodeModel(
+			String seasonID,
+			String episodeID,
+			String blockID,
+			AuthorMode? show
+		)
 		{
 			Story = episodeJson.GetEpisode(seasonID, episodeID);
 			ReadingBlock = blockID ?? BlockJson.FIRST_BLOCK;
+			Show = show ?? AuthorMode.Default;
 		}
 
 		public Int32 BlockCounter { get; set; }
@@ -35,6 +42,8 @@ namespace Presentation.Models
 
 		public String CurrentBlock => 
 			Story.BlockList[BlockCounter].ID;
+
+		public AuthorMode Show { get; set; }
 
 		public void GetSuggestionLists()
 		{
@@ -63,6 +72,18 @@ namespace Presentation.Models
 					.Where(c => c != null && !c.Contains("/") && c.IsName())
 					.OrderBy(c => c)
 					.ToArray();
+		}
+
+		public void Fix()
+		{
+			if (!AutomaticFix.FixerReview)
+				return;
+
+			new AutomaticFix
+			{
+				Story = Story,
+				CharacterList = CharacterList,
+			}.Fix();
 		}
 	}
 }

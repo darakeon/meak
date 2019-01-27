@@ -43,13 +43,23 @@ namespace Presentation.Controllers
 			return Redirect(route.ToString());
 		}
 
-		public ActionResult Episode(String seasonID, String episodeID, String blockID)
+		public ActionResult Episode(
+			String seasonID,
+			String episodeID,
+			String blockID,
+			AuthorMode? show
+		)
 		{
 			SeasonEditEpisodeModel model;
 
 			try
 			{
-				model = new SeasonEditEpisodeModel(seasonID, episodeID, blockID);
+				model = new SeasonEditEpisodeModel(
+					seasonID,
+					episodeID,
+					blockID,
+					show
+				);
 			}
 			catch (Exception e)
 			{
@@ -68,6 +78,7 @@ namespace Presentation.Controllers
 
 			if (UrlUserType.IsAuthor())
 			{
+				model.Fix();
 				model.TabIndex = 1;
 				return View("Author/Episode", model);
 			}

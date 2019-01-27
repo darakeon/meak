@@ -4,7 +4,16 @@
 .absolute-header textarea
 {
 	background: none;
+}
+
+.main input
+{
 	width: 575px;
+}
+
+.main .no-adders input
+{
+	width: 650px;
 }
 
 .main .page input
@@ -80,22 +89,28 @@
 }
 
 
-
-
 #Story_Title
 {
 	width: 500px;
 }
 
 
-
+.main span.auxi,
 .main input.auxi
 {
 	width: 70px;
+	display: inline-block;
+}
+
+.main input.auxi {
 	border: 1px solid #999;
 }
 
-
+.main span.auxi
+{
+	padding: 2px;
+	opacity: 0.4;
+}
 
 .yellowSave
 {

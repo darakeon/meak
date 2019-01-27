@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using DK.MVC.Authentication;
 using Structure.Data;
+using Structure.Enums;
 using Structure.Helpers;
 
 namespace Structure.Entities.System
@@ -46,6 +47,7 @@ namespace Structure.Entities.System
 		public Int16? PageStart { get; set; }
 
 		public List<Block> BlockList { get; set; }
+		public IList<String> NoGender { get; set; }
 
 		public Season Season { get; set; }
 
@@ -67,6 +69,12 @@ namespace Structure.Entities.System
 		public Block this[String block]
 		{
 			get { return BlockList.SingleOrDefault(s => s.ID == block); }
+		}
+
+		public Boolean HasGenderFix(TalkStyle style, String character)
+		{
+			return style == TalkStyle.Teller
+			    || NoGender.Contains(character);
 		}
 	}
 }

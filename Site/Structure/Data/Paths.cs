@@ -62,7 +62,6 @@ namespace Structure.Data
 		}
 
 
-
 		internal static String[] BlockLetters(String folderPath, String seasonID, String episodeID)
 		{
 			var episodePath = EpisodePath(folderPath, seasonID, episodeID);
@@ -78,7 +77,7 @@ namespace Structure.Data
 
 			return blockFiles.ToArray();
 		}
-		
+
 		internal static String BlockLetter(String blockFile, String episodePath)
 		{
 			return blockFile
@@ -86,5 +85,10 @@ namespace Structure.Data
 				.Replace(".json", "");
 		}
 
+		internal static String NoGenderPath(String folderPath, String seasonID, String episodeID)
+		{
+			var episodePath = EpisodePath(folderPath, seasonID, episodeID);
+			return Path.Combine(episodePath, "nogender.txt");
+		}
 	}
 }

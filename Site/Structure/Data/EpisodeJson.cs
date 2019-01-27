@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Structure.Entities.System;
 using Structure.Enums;
 using Structure.Helpers;
@@ -11,13 +13,10 @@ namespace Structure.Data
 		private Episode episode { get; set; }
 		public String PathJson { get; private set; }
 
-
 		public EpisodeJson()
 		{
 			setJsonPath();
 		}
-
-
 
 		public Episode GetEpisode(String seasonID, String episodeID)
 		{
@@ -36,11 +35,25 @@ namespace Structure.Data
 					episode.BlockList.Add(json.Block);
 			}
 
+			episode.NoGender = getNoGender(seasonID, episodeID);
+
 			return episode;
 		}
 
+		private IList<String> getNoGender(String seasonID, String episodeID)
+		{
+			var noGenderPath = Paths.NoGenderPath(PathJson, seasonID, episodeID);
 
+			if (File.Exists(noGenderPath))
+				return File.ReadAllLines(noGenderPath);
 
+			return episode.BlockList
+				.SelectMany(b => b.TalkList)
+				.Select(t => t.Character)
+				.Distinct()
+				.OrderBy(c => c)
+				.ToList();
+		}
 
 		private BlockJson getBlock(String seasonID, String episodeID, String blockID)
 		{
@@ -58,7 +71,6 @@ namespace Structure.Data
 			}
 		}
 
-		
 		private void setJsonPath()
 		{
 			var folder = Config.StoriesPath;
@@ -74,6 +86,5 @@ namespace Structure.Data
 			if (!Directory.Exists(PathJson))
 				throw new Exception($"Path '{PathJson}' doesn't exists.");
 		}
-
 	}
 }

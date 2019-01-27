@@ -1,4 +1,5 @@
-﻿@using Structure.Enums
+﻿@using Presentation.Helpers
+@using Structure.Enums
 @using Structure.Helpers
 @model Presentation.Models.SeasonEditEpisodeModel
 
@@ -15,46 +16,49 @@
 	talk="@(Model.TalkCounter)"
 	page="@(Model.PageCounter)">
 
-	<span class="suggestionCharacter">
-		<adder
-			class="adderTalk"
-			block="@Model.BlockCounter"
-			caller="@Model.CurrentParagraph"
-			type="Paragraph"
-			subtype="Talk"
-			paragraph="@Model.ParagraphCounter"
-			teller="@Model.TellerCounter"
-			talk="@Model.TalkCounter"
-			page="@Model.PageCounter"
-			onclick="AddInputItem(this)"
-			url="@adderUrl">+</adder>
+	@if (Model.Show == AuthorMode.Default)
+	{
+		<span class="suggestionCharacter">
+			<adder
+				class="adderTalk"
+				block="@Model.BlockCounter"
+				caller="@Model.CurrentParagraph"
+				type="Paragraph"
+				subtype="Talk"
+				paragraph="@Model.ParagraphCounter"
+				teller="@Model.TellerCounter"
+				talk="@Model.TalkCounter"
+				page="@Model.PageCounter"
+				onclick="AddInputItem(this)"
+				url="@adderUrl">+</adder>
 
-		<adder
-			class="adderTeller"
-			block="@Model.BlockCounter"
-			caller="@Model.CurrentParagraph"
-			type="Paragraph"
-			subtype="Teller"
-			paragraph="@Model.ParagraphCounter"
-			teller="@Model.TellerCounter"
-			talk="@Model.TalkCounter"
-			page="@Model.PageCounter"
-			onclick="AddInputItem(this)"
-			url="@adderUrl">+</adder>
+			<adder
+				class="adderTeller"
+				block="@Model.BlockCounter"
+				caller="@Model.CurrentParagraph"
+				type="Paragraph"
+				subtype="Teller"
+				paragraph="@Model.ParagraphCounter"
+				teller="@Model.TellerCounter"
+				talk="@Model.TalkCounter"
+				page="@Model.PageCounter"
+				onclick="AddInputItem(this)"
+				url="@adderUrl">+</adder>
 
-		<adder
-			class="adderPage"
-			block="@Model.BlockCounter"
-			caller="@Model.CurrentParagraph"
-			type="Paragraph"
-			subtype="Page"
-			paragraph="@Model.ParagraphCounter"
-			teller="@Model.TellerCounter"
-			talk="@Model.TalkCounter"
-			page="@Model.PageCounter"
-			onclick="AddInputItem(this)"
-			url="@adderUrl">+</adder>
-	</span>
+			<adder
+				class="adderPage"
+				block="@Model.BlockCounter"
+				caller="@Model.CurrentParagraph"
+				type="Paragraph"
+				subtype="Page"
+				paragraph="@Model.ParagraphCounter"
+				teller="@Model.TellerCounter"
+				talk="@Model.TalkCounter"
+				page="@Model.PageCounter"
+				onclick="AddInputItem(this)"
+				url="@adderUrl">+</adder>
+		</span>
+	}
 
 	@switch (Model.CurrentParagraph)
 	{
@@ -66,29 +70,43 @@
 				.Pieces.Count;
 
 			<span class="suggestionCharacter">
-				@Html.TextBoxFor(m =>
-					m.Story
+				@if (Model.Show == AuthorMode.Default)
+				{
+					var id = $"block{Model.BlockCounter}" +
+					         $"_character_{Model.TalkCounter}";
+
+					@Html.TextBoxFor(m =>
+						m.Story
+							.BlockList[Model.BlockCounter]
+							.TalkList[Model.TalkCounter]
+							.Character,
+						new
+						{
+							@class = "darkback auxi",
+							rel = "block" + Model.BlockCounter
+							      + "_character_" + Model.TalkCounter,
+							suggestion = "character",
+							onfocus = "GetSuggestionBox(this)",
+							onblur = "ExitSuggestionBox(this)",
+							tabIndex = Model.TabIndex + 2 * pieceCount
+						}
+					)
+
+					<div class="suggestionBox" id="@id"></div>
+				}
+				else
+				{
+					@Html.HiddenFor(m =>
+						m.Story
+							.BlockList[Model.BlockCounter]
+							.TalkList[Model.TalkCounter]
+							.Character
+					)
+					@(Model.Story
 						.BlockList[Model.BlockCounter]
 						.TalkList[Model.TalkCounter]
-						.Character,
-					new
-					{
-						@class = "darkback auxi",
-						rel = "block" + Model.BlockCounter
-						+ "_character_" + Model.TalkCounter,
-						suggestion = "character",
-						onfocus = "GetSuggestionBox(this)",
-						onblur = "ExitSuggestionBox(this)",
-						tabIndex = Model.TabIndex + 2 * pieceCount
-					}
-				)
-
-				@{
-					var id = $"block{Model.BlockCounter}" +
-						$"_character_{Model.TalkCounter}";
+						.Character)
 				}
-
-				<div class="suggestionBox" id="@id"></div>
 			</span>
 
 			for (var p = 0; p < pieceCount; p++)
