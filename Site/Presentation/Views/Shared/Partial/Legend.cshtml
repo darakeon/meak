@@ -1,33 +1,14 @@
-﻿@using Structure.Enums
+﻿@using Presentation.Helpers
+@using Structure.Enums
 <div id="legend" onclick="AnimateLegend()">
 	<div class="legend-header">
 		Legenda
 	</div>
 	
-	@{
-		var talkStyles = new Dictionary<TalkStyle, String>
-		{
-			{ TalkStyle.Arrive, "Chegada" },
-			{ TalkStyle.Default, "Normal" },
-			{ TalkStyle.Frizz, "Frisado"},
-			{ TalkStyle.Ghost, "Fantasma"},
-			{ TalkStyle.Hushed, "Sussurrado / Voz Fraca"},
-			{ TalkStyle.Irony, "Ironia / Sarcasmo"},
-			{ TalkStyle.Mute, "Gestos"},
-			{ TalkStyle.Out, "Longe"},
-			{ TalkStyle.Read, "Lido"},
-			{ TalkStyle.Screamed, "Gritado"},
-			{ TalkStyle.Special, "Só alguns ouvem"},
-			{ TalkStyle.Teller, "Ação"},
-			{ TalkStyle.Thought, "Pensado"},
-			{ TalkStyle.Translate, "Tradução"},
-		};
-	}
-	
 	<div class="body lightback">
 		@foreach (TalkStyle style in Enum.GetValues(typeof (TalkStyle)))
 		{
-			<span class="talk_@style">@talkStyles[style]</span><br />
+			<span class="talk_@style">@Dic.Talk[style]</span><br />
 		}
 	</div>
 

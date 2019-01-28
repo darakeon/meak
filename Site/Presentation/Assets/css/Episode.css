@@ -1,5 +1,5 @@
 ﻿.talk_Arrive {
-	color: #C0C;
+	font-family: "Monotype Corsiva" !important;
 }
 
 .talk_Frizz {
@@ -10,9 +10,13 @@
 	font-style: italic;
 }
 
-.talk_Read {
-	color: #770;
-}
+	.talk_Read:before {
+		content: "[";
+	}
+
+	.talk_Read:after {
+		content: "]";
+	}
 
 .talk_Teller {
 	font-weight: bold;
@@ -27,28 +31,26 @@
 	text-transform: uppercase;
 }
 
-.talk_Special {
-	color: #C90;
-}
+	.talk_Thought:before {
+		content: "((";
+	}
 
-.talk_Thought {
-	color: #00C;
-}
+	.talk_Thought:after {
+		content: "))";
+	}
 
 .talk_Hushed {
 	color: #666;
 }
 
 .talk_Ghost {
-	color: #070;
-}
-
-.talk_Mute {
-	color: #077;
+	font-family: "Ink Free" !important;
+	font-weight: bold;
 }
 
 .talk_Irony {
-	color: #C00;
+	font-family: "Comic Sans MS" !important;
+	font-size: 90%;
 }
 
 .talk_Translate {

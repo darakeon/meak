@@ -1,4 +1,5 @@
 ﻿@model Presentation.Models.SeasonEpisodeModel
+@using Presentation.Helpers
 @using Presentation.Models.General
 @using Structure.Enums;
 @using Structure.Helpers
@@ -57,7 +58,15 @@
 
 							foreach (var piece in scene.TalkList[talkCounter].Pieces)
 							{
-								<span class="talk_@(piece.Style)">@piece.Text</span>
+								var title = piece.Style == TalkStyle.Default 
+									? "" 
+									: Dic.Talk[piece.Style];
+
+								<span
+									title="@title"
+									class="talk_@(piece.Style)">
+									@piece.Text
+								</span>
 							}
 
 							@(" (" + scene.TalkList[talkCounter].Character + ")")
