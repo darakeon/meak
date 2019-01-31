@@ -39,7 +39,7 @@
 						? Url.Action("Episode", "Season", route)
 						: route.ToString();
 
-					var @selectedClass = Request.Url.AbsoluteUri.Contains(myUrl)
+					var @selectedClass = Request.RawUrl.Contains(myUrl)
 						? "selected" : "";
 
 					<a href="@myUrl" 
