@@ -4,6 +4,6 @@ namespace Structure
 {
 	public class Version
 	{
-		public const String Name = "1.0.1.1";
+		public const String Name = "1.1.0.0";
 	}
 }
