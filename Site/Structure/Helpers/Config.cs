@@ -17,6 +17,8 @@ namespace Structure.Helpers
 		public static String FtpLogin = get("FtpLogin");
 		public static String Site = get("Site");
 
+		public static String Repo = get("Repo");
+
 		private static string get(String key)
 		{
 			return ConfigurationManager.AppSettings[key];

@@ -14,6 +14,7 @@ namespace Structure.Entities.System
 
 		public T Style { get; set; }
 		public String Text { get; set; }
+		public String Audio { get; set; }
 
 		public override String ToString()
 		{

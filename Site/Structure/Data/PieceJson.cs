@@ -14,6 +14,7 @@ namespace Structure.Data
 			{
 				Text = genericPiece.Text,
 				Style = getStyle(genericPiece, type),
+				Audio = genericPiece.Audio,
 			};
 		}
 

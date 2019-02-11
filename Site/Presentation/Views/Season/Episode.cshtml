@@ -16,6 +16,11 @@
 			Total = Model.Story.SceneList.Count,
 			Current = Convert.ToInt32(Model.ReadingScene[0]) - 97
 		};
+
+	var github = "https://raw.githubusercontent.com/" + Config.Repo;
+	var season = Model.Story.Season.ID;
+	var episode = Model.Story.ID;
+	var audioPath = github + "/master/_" + season + "/" + episode + "/";
 }
 
 @Html.Partial("Partial/PrintHeaderAndFooter", Model.Story)
@@ -25,8 +30,7 @@
 
 	@if (Model.Story.HasSummary())
 	{
-		var episode = Model.Story.ID;
-		var route = RouteStories.With(Model.Story.Season);
+		var route = RouteStories.With(season);
 
 		<a href="@(route)#@episode" class="sub screen-action">
 			ler resumo
@@ -49,6 +53,8 @@
 		<div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(s)">
 			@foreach (var paragraph in scene.ParagraphTypeList)
 			{
+				var paragraphId = s + "_" + tellerCounter + "_" + talkCounter;
+
 				<div class="paragraph @paragraph.ToString().ToLower() @(trigger ? "trigger-hidden" : "")">
 					@switch (paragraph)
 					{
@@ -56,8 +62,11 @@
 
 							@("– ")
 
-							foreach (var piece in scene.TalkList[talkCounter].Pieces)
+							for (var p = 0; p < scene.TalkList[talkCounter].Pieces.Count; p++)
 							{
+								var piece = scene.TalkList[talkCounter].Pieces[p];
+								var pieceId = paragraphId + "_" + p;
+
 								var title = piece.Style == TalkStyle.Default 
 									? "" 
 									: Dic.Talk[piece.Style];
@@ -67,6 +76,17 @@
 									class="talk_@(piece.Style)">
 									@piece.Text
 								</span>
+
+								if (piece.Audio != null)
+								{
+									<audio id="@pieceId">
+										<source src="@audioPath/@piece.Audio" type="audio/mpeg">
+									</audio>
+									<span 
+										class="darkback play"
+										onclick="$('#@pieceId')[0].play()"
+									>&#9658;</span>
+								}
 							}
 
 							@(" (" + scene.TalkList[talkCounter].Character + ")")

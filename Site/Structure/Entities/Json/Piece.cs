@@ -6,5 +6,6 @@ namespace Structure.Entities.Json
 	{
 		public String Type { get; set; }
 		public String Text { get; set; }
+		public String Audio { get; set; }
 	}
 }
