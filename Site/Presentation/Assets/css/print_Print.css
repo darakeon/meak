@@ -29,14 +29,7 @@ p.title
 		margin-bottom: 30px;
 	}
 
-.just-print .header .name
-{
-	position: fixed;
-	top: 0;
-	left: 0;
-}
-
-.just-print .header .ep-name
+.just-print .header .title
 {
 	position: fixed;
 	top: 0;
@@ -44,7 +37,24 @@ p.title
 	text-align: center;
 }
 
-.just-print .header .ep-id
+.just-print .header .cover-first-title
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	height: 14pt;
+	background: #FFF;
+}
+
+.just-print .header .name
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.just-print .header .id
 {
 	position: fixed;
 	top: 0;
