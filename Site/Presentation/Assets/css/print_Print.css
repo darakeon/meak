@@ -29,19 +29,32 @@ p.title
 		margin-bottom: 30px;
 	}
 
-#header #right {
-	position: fixed;
-	top: 0;
-	right: 0;
-}
-
-#header #left {
+.just-print .header .name
+{
 	position: fixed;
 	top: 0;
 	left: 0;
 }
 
-#footer {
+.just-print .header .ep-name
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.just-print .header .ep-id
+{
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.just-print .footer
+{
 	position: fixed;
 	bottom: 0;
 	left: 50%;
@@ -49,7 +62,7 @@ p.title
 	display: table-footer-group;
 }
 
-	#footer:after {
+	.just-print .footer:after {
 		counter-increment: page;
 		content: counter(page);
 	}

@@ -8,13 +8,16 @@
 }
 
 <div class="just-print" style="counter-reset: page @startPage">
-	<div id="header">
-		<div id="left">
-			MEAK @Model.Season@Model
+	<div class="header">
+		<div class="name">
+			MEAK
 		</div>
-		<div id="right">
+		<div class="ep-name">
 			@Model.Title
 		</div>
+		<div class="ep-id">
+			@Model.Season@Model
+		</div>
 	</div>
-	<div id="footer"></div>
+	<div class="footer"></div>
 </div>
