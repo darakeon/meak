@@ -29,27 +29,26 @@ p.title
 		margin-bottom: 30px;
 	}
 
-.just-print .header .title
-{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	text-align: center;
-}
-
-.just-print .header .name
+.just-print .header
 {
 	position: fixed;
 	top: 0;
 	left: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
 }
 
-.just-print .header .id
-{
-	position: fixed;
-	top: 0;
-	right: 0;
-}
+	.just-print .header .name
+	{
+		float: left;
+	}
+
+	.just-print .header .id
+	{
+		float: right;
+	}
 
 .just-print .cover-first-title
 {
