@@ -37,18 +37,6 @@ p.title
 	text-align: center;
 }
 
-.just-print .cover-first-title
-{
-	position: absolute;
-	top: 0;
-	width: 80%;
-	left: 10%;
-	right: 10%;
-	text-align: center;
-	height: 14pt;
-	background: #FFF;
-}
-
 .just-print .header .name
 {
 	position: fixed;
@@ -61,6 +49,18 @@ p.title
 	position: fixed;
 	top: 0;
 	right: 0;
+}
+
+.just-print .cover-first-title
+{
+	position: absolute;
+	top: 0;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+	text-align: center;
+	height: 14pt;
+	background: #FFF;
 }
 
 .just-print .footer
