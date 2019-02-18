@@ -39,6 +39,13 @@
 						? Url.Action("Episode", "Season", route)
 						: route.ToString();
 
+					if (myUrl != null && myUrl.Contains("?"))
+					{
+						var culture = StringComparison.CurrentCulture;
+						var queryPosition = myUrl.IndexOf("?", culture);
+						myUrl = myUrl.Substring(0, queryPosition);
+					}
+
 					var @selectedClass = Request.RawUrl.Contains(myUrl)
 						? "selected" : "";
 
