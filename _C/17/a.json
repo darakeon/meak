@@ -8,7 +8,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Etos está olhando para o horizonte, no beiral do telhado. Rust sobe as escadas. Olha para Etos. Respira fundo. Dá um passo. Baixa a cabeça."
+					"text": "Etos está olhando para o horizonte, na mureta do telhado. Rust sobe as escadas. Olha para Etos. Respira fundo. Dá um passo. Baixa a cabeça."
 				}
 			]
 		},
@@ -172,7 +172,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Mas nunca achou que você poderia ser motivo pra eu ficar. Ou teria me impedido da última vez."
+					"text": "Mas você nunca achou que você poderia ser motivo pra eu ficar. Ou teria me impedido da última vez."
 				}
 			]
 		},
@@ -405,7 +405,27 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Se te pegarem, te internam."
+					"text": "Se te pegarem, te internam. Você não mente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Fábio",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nunca pegaram."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Kat",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não precisa ser a primeira vez."
 				}
 			]
 		},
@@ -454,6 +474,453 @@
 				{
 					"type": "default",
 					"text": "Acho que é um pedaço de Atlântida."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Rust está em um museu. Olha um quadro de Pandora. O museu tem várias pessoas, está aberto. Maira se aproxima de Rust."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É um quadro doado, foi achado há pouco tempo..."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Eu conheço quem doou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Então sabe a história?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim. Eu preciso de um pedaço de uma obra."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust olha para Maira, que franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei se você costuma visitar museus, mas as pessoas não levam pedaços das obras de souvenir quando saem."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Tem uma que não está aqui."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Maira franze novamente a sobrancelha. Desfranze."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você realmente conhece quem doou."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Maira entra em uma sala. Abre uma persiana. Pega um canudo grande. Abre. Tira uma tela enrolada. Abre a tela. Rust se aproxima."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É a falta de roupa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "A mão na altura da virilha."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust franze a sobrancelha. Fecha os olhos, balança a cabeça para os lados, abre."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Mas não posso te dar um pedaço disso. Ainda é uma obra de arte."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Nem se eu te apresentar a pessoa que pintou?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Ia ser difícil, já que os quadros são tão antigos, a pessoa deve ter morrido."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust coloca a mão no sol. Assovia. Maira tira os olhos do quadro e olha para Rust. Então para a mão. Dá passos para trás. Rust tira a mão no sol. Abre e fecha a mão duas vezes."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não é como eu. Morreu de fato. Voltou a vida recentemente."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Normal?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Sim."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust franze a sobrancelha."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Acho."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust coloca a mão na boca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É uma pessoa legal?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust tira a mão da boca."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Não sei dizer. Queremos o quadro para encontrar."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Perderam a pessoa?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Saiu dizendo que ia ajudar em uma coisa. Nunca mais voltou."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Pode ter morrido de novo."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Possível."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Aí a obra vai ser jogada fora a toa."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Também possível."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Maira enrola a tela. Coloca no canudo. Mexe os olhos. Olha para Rust."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Quantos anos você tem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Vai querer uma lista de fatos históricos errados?"
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Maira abre mais os olhos."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "É tanto assim?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você não ficou com medo de eu fazer alguma coisa contra você?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Você é um homem, alto, a gente tá aqui sozinho. Se você tivesse intenção de fazer alguma coisa, sobrenatural ou não, já teria feito."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Maira sai."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Aliás, sendo sobrenatural, nem teria ligado para as câmeras. Ah, e são falsas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Rust olha para um canto."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Uma é verdadeira."
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Maira",
+			"pieces": [
+				{
+					"type": "out",
+					"text": "Você não vem?"
+				}
+			]
+		},
+		{
+			"type": "talk",
+			"character": "Rust",
+			"pieces": [
+				{
+					"type": "hushed",
+					"text": "Espero que não tenha feito nada que não devia aqui dentro..."
 				}
 			]
 		}
