@@ -12,7 +12,7 @@ namespace Presentation.Models
 
 		public Episode Story { get; set; }
 
-		public String ReadingScene { get; set; }
+		public String ReadingBlock { get; set; }
 		
 	}
 }

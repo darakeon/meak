@@ -3,7 +3,7 @@
 @model Presentation.Models.SeasonEditEpisodeModel
 
 @{
-	var route = RouteStories.With(null, null, Model.CurrentScene);
+	var route = RouteStories.With(null, null, Model.CurrentBlock);
 	var adderUrl = HttpUtility.UrlDecode(
 		Url.Action("Adder", "Season", route)
 	);
@@ -14,7 +14,7 @@
 	<span class="suggestionCharacter">
 		<adder
 			class="adderTalk"
-			scene="@Model.SceneCounter"
+			block="@Model.BlockCounter"
 			caller="@Model.CurrentParagraph"
 			type="Paragraph"
 			subtype="Talk"
@@ -26,7 +26,7 @@
 		
 		<adder
 			class="adderTeller"
-			scene="@Model.SceneCounter"
+			block="@Model.BlockCounter"
 			caller="@Model.CurrentParagraph"
 			type="Paragraph"
 			subtype="Teller"
@@ -40,21 +40,21 @@
 	@if (Model.CurrentParagraph == ParagraphType.Talk)
 	{
 		<span class="suggestionCharacter">
-			@Html.TextBoxFor(m => m.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Character, 
+			@Html.TextBoxFor(m => m.Story.BlockList[Model.BlockCounter].TalkList[Model.TalkCounter].Character, 
 				new { 
 					@class = "darkback auxi",
-					rel = ("scene" + Model.SceneCounter + "_character_" + Model.TalkCounter), 
+					rel = ("block" + Model.BlockCounter + "_character_" + Model.TalkCounter), 
 					suggestion = "character", 
 					onfocus = "GetSuggestionBox(this)", 
 					onblur = "ExitSuggestionBox(this)" ,
 					tabIndex = Model.TabIndex +
-						2 * Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces.Count
+						2 * Model.Story.BlockList[Model.BlockCounter].TalkList[Model.TalkCounter].Pieces.Count
 				})
 
-			<div class="suggestionBox" id="scene@(Model.SceneCounter)_character_@(Model.TalkCounter)"></div>
+			<div class="suggestionBox" id="block@(Model.BlockCounter)_character_@(Model.TalkCounter)"></div>
 		</span>
 
-		for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces.Count; p++)
+		for (var p = 0; p < Model.Story.BlockList[Model.BlockCounter].TalkList[Model.TalkCounter].Pieces.Count; p++)
 		{
 			Model.PieceCounter = p;
 			
@@ -67,7 +67,7 @@
 
 	else if (Model.CurrentParagraph == ParagraphType.Teller)
 	{
-		for (var p = 0; p < Model.Story.SceneList[Model.SceneCounter].TellerList[Model.TellerCounter].Pieces.Count; p++)
+		for (var p = 0; p < Model.Story.BlockList[Model.BlockCounter].TellerList[Model.TellerCounter].Pieces.Count; p++)
 		{
 			Model.PieceCounter = p;
 			
@@ -77,6 +77,6 @@
 		Model.TellerCounter++;
 	}
 	
-	@Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].ParagraphTypeList[Model.ParagraphCounter])
+	@Html.HiddenFor(m => m.Story.BlockList[Model.BlockCounter].ParagraphTypeList[Model.ParagraphCounter])
 	
 </div>

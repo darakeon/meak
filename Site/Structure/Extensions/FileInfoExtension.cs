@@ -15,9 +15,9 @@ namespace Structure.Extensions
 
 		public static Boolean CreateIfNotExists(this FileInfo fileInfo, String content)
 		{
-			var sceneExists = fileInfo.Exists;
+			var blockExists = fileInfo.Exists;
 
-			if (sceneExists) return false;
+			if (blockExists) return false;
 
 
 			var pathExists = Directory.Exists(fileInfo.DirectoryName);

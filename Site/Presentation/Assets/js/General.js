@@ -10,7 +10,7 @@ function LayoutAndWork() {
 
 	AjustLogin();
 
-	SceneChanger();
+	BlockChanger();
 	FontResizer();
 
 	$(window).resize(AjustLogin);

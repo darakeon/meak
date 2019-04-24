@@ -14,7 +14,7 @@ p.title
 	margin: 30px 0 0 0;
 }
 
-.scenes, .summary
+.blocks, .summary
 {
 	display: table;
 	padding: 30px 0;
@@ -80,14 +80,14 @@ img,
 .head,
 .navigation,
 .resizer,
-.scene-changer,
+.block-changer,
 .screen-action,
 .play
 {
 	display: none;
 }
 
-.scene:not(:first-child) {
+.block:not(:first-child) {
 	padding-top: 38px;
 }
 

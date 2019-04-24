@@ -1,26 +1,26 @@
-﻿.scenes
+﻿.blocks
 {
 	margin-bottom: 50px;
 }
 
-	.scenes .scene
+	.blocks .block
 	{
 		display: none;
 	}
 
-	.scenes .reading
+	.blocks .reading
 	{
 		display: block;
 	}
 
 
-.scene-changer
+.block-changer
 {
 	padding: 0;
 	text-align: center;
 }
 
-.scene-changer li
+.block-changer li
 {
 	border: 1px solid #000;
 	display: inline-block;
@@ -29,7 +29,7 @@
 	cursor: pointer;
 }
 
-.scene-changer .chosen
+.block-changer .chosen
 {
 	background: #000;
 }

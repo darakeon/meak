@@ -3,11 +3,11 @@
 
 @{
 	var piece = Model.Story
-		.SceneList[Model.SceneCounter]
+		.BlockList[Model.BlockCounter]
 		.TalkList[Model.TalkCounter]
 		.Pieces[Model.PieceCounter];
 
-	var route = RouteStories.With(null, null, Model.CurrentScene);
+	var route = RouteStories.With(null, null, Model.CurrentBlock);
 	var adderUrl = HttpUtility.UrlDecode(
 		Url.Action("Adder", "Season", route)
 	);
@@ -15,11 +15,11 @@
 
 <span class="paragraphPiece" id="Talk@(Model.TalkCounter)_Piece@(Model.PieceCounter)">
 	<span class="talk_@(piece.Style)">
-		@Html.TextBoxFor(m => m.Story.SceneList[Model.SceneCounter].TalkList[Model.TalkCounter].Pieces[Model.PieceCounter].Style, 
+		@Html.TextBoxFor(m => m.Story.BlockList[Model.BlockCounter].TalkList[Model.TalkCounter].Pieces[Model.PieceCounter].Style, 
 			new { 
 				@class = "darkback auxi",
 				rel = (
-					"scene" + Model.SceneCounter 
+					"block" + Model.BlockCounter 
 					+ "_talkStyle" + Model.TalkCounter 
 					+ "_piece" + Model.PieceCounter
 				), 
@@ -30,7 +30,7 @@
 			})
 
 		@Html.TextBoxFor(m => m.Story
-			.SceneList[Model.SceneCounter]
+			.BlockList[Model.BlockCounter]
 			.TalkList[Model.TalkCounter]
 			.Pieces[Model.PieceCounter].Text, 
 			new { 
@@ -40,7 +40,7 @@
 	
 		<adder
 			class="adderPiece"
-			scene="@Model.SceneCounter"
+			block="@Model.BlockCounter"
 			type="Piece"
 			subtype="Talk"
 			paragraph="@(Model.ParagraphCounter)"
@@ -50,5 +50,5 @@
 			url="@adderUrl">+</adder>
 	</span>
 				
-	<div class="suggestionBox" id="scene@(Model.SceneCounter)_talkStyle@(Model.TalkCounter)_piece@(Model.PieceCounter)"></div>
+	<div class="suggestionBox" id="block@(Model.BlockCounter)_talkStyle@(Model.TalkCounter)_piece@(Model.PieceCounter)"></div>
 </span>

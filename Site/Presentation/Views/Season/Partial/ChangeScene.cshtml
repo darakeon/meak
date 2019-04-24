@@ -1,9 +1,9 @@
 ﻿@model Presentation.Models.General.TopSelectorModel
 
-<ul class="scene-changer">
+<ul class="block-changer">
 	@for (int s = 0; s < Model.Total; s++)
 	{
-		<li scene="@s" class="scene-changer@(s) @if (s == Model.Current) { @(" chosen") }">
+		<li block="@s" class="block-changer@(s) @if (s == Model.Current) { @(" chosen") }">
 			&nbsp;
 		</li>
 	}

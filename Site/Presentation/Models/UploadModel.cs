@@ -7,23 +7,23 @@ namespace Presentation.Models
 	{
 		public String SeasonID { get; set; }
 		public String EpisodeID { get; set; }
-		public String SceneID { get; set; }
+		public String BlockID { get; set; }
 
 		public UploadModel() { }
 
-		public UploadModel(String seasonID, String episodeID, String sceneID)
+		public UploadModel(String seasonID, String episodeID, String blockID)
 		{
 			SeasonID = seasonID;
 			EpisodeID = episodeID;
-			SceneID = sceneID;
+			BlockID = blockID;
 		}
 
 		public String Result { get; set; }
 		public String Password { get; set; }
 
-		public void UploadScene()
+		public void UploadBlock()
 		{
-			var ftp = new FtpHelper(SeasonID, EpisodeID, SceneID, Password);
+			var ftp = new FtpHelper(SeasonID, EpisodeID, BlockID, Password);
 
 			Result = ftp.Upload();
 		}

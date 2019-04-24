@@ -23,14 +23,14 @@ namespace Structure.Data
 		{
 			episode = new Episode(PathJson, seasonID, episodeID);
 			
-			var sceneLetters = Paths.SceneLetters(PathJson, seasonID, episodeID);
+			var blockLetters = Paths.BlockLetters(PathJson, seasonID, episodeID);
 
-			foreach (var sceneLetter in sceneLetters)
+			foreach (var blockLetter in blockLetters)
 			{
-				var json = getScene(seasonID, episodeID, sceneLetter);
+				var json = getBlock(seasonID, episodeID, blockLetter);
 
-				if (json.Scene.ParagraphTypeList.Count > 0)
-					episode.SceneList.Add(json.Scene);
+				if (json.Block.ParagraphTypeList.Count > 0)
+					episode.BlockList.Add(json.Block);
 			}
 
 			return episode;
@@ -39,15 +39,15 @@ namespace Structure.Data
 
 
 
-		private SceneJson getScene(String seasonID, String episodeID, String sceneID)
+		private BlockJson getBlock(String seasonID, String episodeID, String blockID)
 		{
 			try
 			{
-				return new SceneJson(PathJson, seasonID, episodeID, sceneID, OpenEpisodeOption.GetStory);
+				return new BlockJson(PathJson, seasonID, episodeID, blockID, OpenEpisodeOption.GetStory);
 			}
 			catch (FileNotFoundException)
 			{
-				throw new StoriesException($"Arquivo não encontrado(s):{seasonID}{episodeID}{sceneID}.");
+				throw new StoriesException($"Arquivo não encontrado(s):{seasonID}{episodeID}{blockID}.");
 			}
 			catch (Exception e)
 			{

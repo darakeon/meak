@@ -9,7 +9,7 @@ namespace Structure.Data
 	{
 		public static void Save(String title, String summary, String folderPath, String seasonID, String episodeID)
 		{
-			var path = Paths.SceneFilePath(folderPath, seasonID, episodeID, "_");
+			var path = Paths.BlockFilePath(folderPath, seasonID, episodeID, "_");
 
 			new FileInfo(path).CreateIfNotExists("{}");
 
@@ -26,7 +26,7 @@ namespace Structure.Data
 		internal static SummaryPart Get(String path, String seasonID, String episodeID)
 		{
 			return Paths
-				.SceneFilePath(path, seasonID, episodeID, "_")
+				.BlockFilePath(path, seasonID, episodeID, "_")
 				.Read<SummaryPart>();
 		}
 	}

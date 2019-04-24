@@ -10,17 +10,17 @@ namespace Structure.Data
 {
 	public class FtpHelper
 	{
-		public FtpHelper(String seasonID, String episodeID, String sceneID, String password)
+		public FtpHelper(String seasonID, String episodeID, String blockID, String password)
 		{
 			season = seasonID;
 			episode = episodeID;
-			scene = sceneID;
+			block = blockID;
 			this.password = password;
 		}
 
 		private String season { get; }
 		private String episode { get; }
-		private String scene { get; }
+		private String block { get; }
 		private String password { get; }
 
 		public String Upload()
@@ -36,7 +36,7 @@ namespace Structure.Data
 
 		private Boolean testEpisode()
 		{
-			var request = newRequest(sceneUrl, WebRequestMethods.Ftp.DownloadFile);
+			var request = newRequest(blockUrl, WebRequestMethods.Ftp.DownloadFile);
 
 			return testResponse(request);
 		}
@@ -155,7 +155,7 @@ namespace Structure.Data
 
 		private string createEpisode()
 		{
-			var request = newRequest(sceneUrl, WebRequestMethods.Ftp.UploadFile);
+			var request = newRequest(blockUrl, WebRequestMethods.Ftp.UploadFile);
 
 			copyEpisodeContent(request);
 
@@ -165,7 +165,7 @@ namespace Structure.Data
 		private void copyEpisodeContent(FtpWebRequest request)
 		{
 			var path = new EpisodeJson().PathJson;
-			path = Paths.SceneFilePath(path, season, episode, scene);
+			path = Paths.BlockFilePath(path, season, episode, block);
 			
 			var fileContents = File.ReadAllBytes(path);
 			request.ContentLength = fileContents.Length;
@@ -181,7 +181,7 @@ namespace Structure.Data
 
 		private string seasonUrl => Paths.FtpDirectoryPath(Config.FtpUrl, season);
 		private string episodeUrl => Paths.FtpDirectoryPath(Config.FtpUrl, season, episode);
-		private string sceneUrl => Paths.FtpFilePath(Config.FtpUrl, season, episode, scene);
+		private string blockUrl => Paths.FtpFilePath(Config.FtpUrl, season, episode, block);
 
 		private static FtpStatusCode[] ftpSuccessCodes => new[] { FtpStatusCode.ClosingData, FtpStatusCode.CommandOK, FtpStatusCode.FileActionOK };
 

@@ -7,9 +7,9 @@ namespace Presentation.Controllers
 {
 	public class UploadController : Controller
 	{
-		public ActionResult Upload(String seasonID, String episodeID, String sceneID)
+		public ActionResult Upload(String seasonID, String episodeID, String blockID)
 		{
-			var model = new UploadModel(seasonID, episodeID, sceneID);
+			var model = new UploadModel(seasonID, episodeID, blockID);
 
 			return View(model);
 		}
@@ -19,12 +19,12 @@ namespace Presentation.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				model.UploadScene();
+				model.UploadBlock();
 
 				if (String.IsNullOrEmpty(model.Result))
 				{
 					var route = RouteStories.With(
-						model.SeasonID, model.EpisodeID, model.SceneID
+						model.SeasonID, model.EpisodeID, model.BlockID
 					);
 
 					var path = Url.Action("Episode", "Season", route);

@@ -135,14 +135,14 @@
     <Compile Include="Entities\Json\SummaryPart.cs" />
     <Compile Include="Entities\Json\Piece.cs" />
     <Compile Include="Entities\Json\Paragraph.cs" />
-    <Compile Include="Entities\Json\ScenePart.cs" />
+    <Compile Include="Entities\Json\BlockPart.cs" />
     <Compile Include="Data\Paths.cs" />
-    <Compile Include="Data\SceneJson.cs" />
+    <Compile Include="Data\BlockJson.cs" />
     <Compile Include="Data\ParagraphJson.cs" />
     <Compile Include="Data\PieceJson.cs" />
     <Compile Include="Data\MainInfoJson.cs" />
     <Compile Include="Entities\System\Message.cs" />
-    <Compile Include="Entities\System\Scene.cs" />
+    <Compile Include="Entities\System\Block.cs" />
     <Compile Include="Entities\System\Episode.cs" />
     <Compile Include="Extensions\EnumExtension.cs" />
     <Compile Include="Enums\OpenEpisodeOption.cs" />

@@ -10,16 +10,16 @@ namespace Structure.Helpers
 			return new RouteStories(null, null, null);
 		}
 
-		private RouteStories(String seasonID, String episodeID, String sceneID)
+		private RouteStories(String seasonID, String episodeID, String blockID)
 		{
 			SeasonID = seasonID;
 			EpisodeID = episodeID;
-			SceneID = sceneID;
+			BlockID = blockID;
 		}
 
-		public static RouteStories With(String seasonID, String episodeID, String sceneID)
+		public static RouteStories With(String seasonID, String episodeID, String blockID)
 		{
-			return new RouteStories(seasonID, episodeID, sceneID);
+			return new RouteStories(seasonID, episodeID, blockID);
 		}
 
 		public static RouteStories With(String seasonID, String episodeID)
@@ -32,9 +32,9 @@ namespace Structure.Helpers
 			return RouteStories.With(seasonID, null);
 		}
 
-		public static RouteStories With(Season season, Episode episode, Scene scene)
+		public static RouteStories With(Season season, Episode episode, Block block)
 		{
-			return RouteStories.With(season.ID, episode.ID, scene.ID);
+			return RouteStories.With(season.ID, episode.ID, block.ID);
 		}
 
 		public static RouteStories With(Season season, Episode episode)
@@ -49,11 +49,11 @@ namespace Structure.Helpers
 
 		public override string ToString()
 		{
-			return SeasonID + EpisodeID + SceneID + ".meak";
+			return SeasonID + EpisodeID + BlockID + ".meak";
 		}
 
 		public String SeasonID { get; }
 		public String EpisodeID { get; }
-		public String SceneID { get; }
+		public String BlockID { get; }
 	}
 }

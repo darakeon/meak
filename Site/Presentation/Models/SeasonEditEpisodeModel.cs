@@ -11,13 +11,13 @@ namespace Presentation.Models
 	{
 		public SeasonEditEpisodeModel() { }
 
-		public SeasonEditEpisodeModel(String seasonID, String episodeID, String sceneID)
+		public SeasonEditEpisodeModel(String seasonID, String episodeID, String blockID)
 		{
 			Story = episodeJson.GetEpisode(seasonID, episodeID);
-			ReadingScene = sceneID ?? SceneJson.FIRST_SCENE;
+			ReadingBlock = blockID ?? BlockJson.FIRST_SCENE;
 		}
 
-		public Int32 SceneCounter { get; set; }
+		public Int32 BlockCounter { get; set; }
 		public Int32 TellerCounter { get; set; }
 		public Int32 TalkCounter { get; set; }
 		public Int32 ParagraphCounter { get; set; }
@@ -34,14 +34,14 @@ namespace Presentation.Models
 		{
 			get
 			{
-				return Story.SceneList[SceneCounter].ParagraphTypeList[ParagraphCounter];
+				return Story.BlockList[BlockCounter].ParagraphTypeList[ParagraphCounter];
 			}
 		}
 
 
-		public String CurrentScene
+		public String CurrentBlock
 		{
-			get { return Story.SceneList[SceneCounter].ID; }
+			get { return Story.BlockList[BlockCounter].ID; }
 		}
 
 		
@@ -59,7 +59,7 @@ namespace Presentation.Models
 
 			var characterList = new List<String>();
 
-			Story.SceneList
+			Story.BlockList
 				.ForEach(s =>
 					characterList.AddRange(
 						s.TalkList.Select(t => t.Character)

@@ -12,7 +12,7 @@ namespace Structure.Entities.System
 		public Episode()
 		{
 			Season = new Season();
-			SceneList = new List<Scene>();
+			BlockList = new List<Block>();
 		}
 
 		public Episode(String path, String season, String episode) : this()
@@ -22,7 +22,7 @@ namespace Structure.Entities.System
 			ID = episode;
 			Title = info.Title;
 			Publish = Countdown.GetDate(season, episode);
-			LastScene = info.Last;
+			LastBlock = info.Last;
 			Summary = info.Summary;
 			PageStart = info.Page;
 			Season = new Season { ID = season };
@@ -32,12 +32,12 @@ namespace Structure.Entities.System
 
 		public String Title { get; set; }
 		public DateTime Publish { get; set; }
-		public String LastScene { get; set; }
+		public String LastBlock { get; set; }
 		public String Summary { get; set; }
 
 		public Int16 PageStart { get; set; }
 
-		public List<Scene> SceneList { get; set; }
+		public List<Block> BlockList { get; set; }
 
 		public Season Season { get; set; }
 
@@ -56,9 +56,9 @@ namespace Structure.Entities.System
 			return ID;
 		}
 		
-		public Scene this[String scene]
+		public Block this[String block]
 		{
-			get { return SceneList.SingleOrDefault(s => s.ID == scene); }
+			get { return BlockList.SingleOrDefault(s => s.ID == block); }
 		}
 	}
 }

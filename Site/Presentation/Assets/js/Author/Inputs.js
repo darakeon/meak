@@ -55,10 +55,10 @@ function SaveCurrentForm() {
 	if (saveTitle) {
 		$(".titleChange").parent("form").submit();
 	} else {
-		SaveCurrentScene();
+		SaveCurrentBlock();
 	}
 }
 
-function SaveCurrentScene() {
-	$(".scenes form:visible").submit();
+function SaveCurrentBlock() {
+	$(".blocks form:visible").submit();
 }

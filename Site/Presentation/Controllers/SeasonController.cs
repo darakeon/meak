@@ -43,13 +43,13 @@ namespace Presentation.Controllers
 			return Redirect(route.ToString());
 		}
 
-		public ActionResult Episode(String seasonID, String episodeID, String sceneID)
+		public ActionResult Episode(String seasonID, String episodeID, String blockID)
 		{
 			SeasonEditEpisodeModel model;
 
 			try
 			{
-				model = new SeasonEditEpisodeModel(seasonID, episodeID, sceneID);
+				model = new SeasonEditEpisodeModel(seasonID, episodeID, blockID);
 			}
 			catch (Exception e)
 			{
@@ -81,9 +81,9 @@ namespace Presentation.Controllers
 
 
 		[HttpPost]
-		public void EditScene(SeasonEpisodeModel model, String seasonID, String episodeID, String sceneID)
+		public void EditBlock(SeasonEpisodeModel model, String seasonID, String episodeID, String blockID)
 		{
-			var xml = new SceneJson(model.Paths.Json, seasonID, episodeID, sceneID) { Scene = model.Story[sceneID] };
+			var xml = new BlockJson(model.Paths.Json, seasonID, episodeID, blockID) { Block = model.Story[blockID] };
 
 			xml.WriteStory();
 		}
@@ -91,25 +91,25 @@ namespace Presentation.Controllers
 
 
 		[HttpPost]
-		public ActionResult Adder(Int32 scene, String type, String subtype, Int32? paragraph, Int32? teller, Int32? talk, Int32? piece)
+		public ActionResult Adder(Int32 block, String type, String subtype, Int32? paragraph, Int32? teller, Int32? talk, Int32? piece)
 		{
 			var adder = new Adder();
 
-			adder.SetScene(scene);
+			adder.SetBlock(block);
 
 			switch ((type + subtype).ToLower())
 			{
 				case "pieceteller":
-					adder.SetPieceTeller(scene, piece ?? 0, teller ?? 0, talk ?? 0);
+					adder.SetPieceTeller(block, piece ?? 0, teller ?? 0, talk ?? 0);
 					break;
 				case "piecetalk":
-					adder.SetPieceTalk(scene, piece ?? 0, talk ?? 0, teller ?? 0);
+					adder.SetPieceTalk(block, piece ?? 0, talk ?? 0, teller ?? 0);
 					break;
 				case "paragraphteller":
-					adder.SetParagraphTeller(scene, paragraph ?? 0, teller ?? 0, talk ?? 0);
+					adder.SetParagraphTeller(block, paragraph ?? 0, teller ?? 0, talk ?? 0);
 					break;
 				case "paragraphtalk":
-					adder.SetParagraphTalk(scene, paragraph ?? 0, talk ?? 0, teller ?? 0);
+					adder.SetParagraphTalk(block, paragraph ?? 0, talk ?? 0, teller ?? 0);
 					break;
 				default:
 					throw new Exception("Unknown Adder Type.");
@@ -136,12 +136,12 @@ namespace Presentation.Controllers
 			}
 
 
-			var xml = new SceneJson(model.Paths.Json, model.SeasonEpisode.Season, model.SeasonEpisode.Episode);
+			var xml = new BlockJson(model.Paths.Json, model.SeasonEpisode.Season, model.SeasonEpisode.Episode);
 
 			xml.AddNewStory(model.Title);
 
 
-			return RedirectToAction("Episode", new { season = xml.Scene.Episode.Season.ID, episode = xml.Scene.Episode.ID });
+			return RedirectToAction("Episode", new { season = xml.Block.Episode.Season.ID, episode = xml.Block.Episode.ID });
 		}
 
 	}

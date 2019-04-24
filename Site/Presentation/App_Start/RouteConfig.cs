@@ -10,10 +10,10 @@ namespace Presentation
 			routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
 			routes.MapRoute(
-				"Scene",
-				"{seasonID}-{episodeID}-{sceneID}",
+				"Block",
+				"{seasonID}-{episodeID}-{blockID}",
 				new { controller = "Season", action = "Episode" },
-				new { seasonID = "[A-Z]", episodeID = "\\d{2}", sceneID = "[a-z]" }
+				new { seasonID = "[A-Z]", episodeID = "\\d{2}", blockID = "[a-z]" }
 			);
 
 			routes.MapRoute(

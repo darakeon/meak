@@ -22,8 +22,8 @@
 	var topSelector =
 		new TopSelectorModel
 		{
-			Total = Model.Story.SceneList.Count,
-			Current = Convert.ToInt32(Model.ReadingScene[0]) - 97
+			Total = Model.Story.BlockList.Count,
+			Current = Convert.ToInt32(Model.ReadingBlock[0]) - 97
 		};
 }
 
@@ -41,7 +41,7 @@
 	<div class="absolute-header lightback">
 		@using (Ajax.BeginForm("EditTitle", route, ajaxOptions, html))
 		{
-			var paragraphsCount = Model.Story.SceneList.Sum(s => s.ParagraphCount);
+			var paragraphsCount = Model.Story.BlockList.Sum(s => s.ParagraphCount);
 
 			<div class="titleChange">
 				<button type="submit" class="darkback save">Save</button>
@@ -66,17 +66,17 @@
 }
 
 
-@Html.Partial("Partial/ChangeScene", topSelector)
+@Html.Partial("Partial/ChangeBlock", topSelector)
 
-<div class="scenes">
-	@for (var s = 0; s < Model.Story.SceneList.Count; s++)
+<div class="blocks">
+	@for (var s = 0; s < Model.Story.BlockList.Count; s++)
 	{
-		Model.SceneCounter = s;
+		Model.BlockCounter = s;
 
-		@Html.Partial("Author/Scene")
+		@Html.Partial("Author/Block")
 	}
 </div>
 
-@Html.Partial("Partial/ChangeScene", topSelector)
+@Html.Partial("Partial/ChangeBlock", topSelector)
 
 @Html.Partial("Partial/Sign")

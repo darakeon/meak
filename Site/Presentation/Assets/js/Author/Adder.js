@@ -18,20 +18,20 @@ function AddInputItem(obj) {
 
 
 function AddPiece(obj) {
-	var scene = $(obj).attr("scene");
+	var block = $(obj).attr("block");
 	var subtype = $(obj).attr("subtype");
 	var piece = NumericValueAttr(obj, "piece");
 	var typedParagraph = NumericValueAttr(obj, subtype);
 
 	var adderPage = $(obj).attr("url");
 
-	$.post(adderPage, { type: "piece", scene: scene, subtype: subtype, piece: piece + 1, teller: typedParagraph, talk: typedParagraph }, function (data) {
+	$.post(adderPage, { type: "piece", block: block, subtype: subtype, piece: piece + 1, teller: typedParagraph, talk: typedParagraph }, function (data) {
 
 		var paragraph = NumericValueAttr(obj, "paragraph");
-		AjustNextPieces(scene, paragraph, piece);
+		AjustNextPieces(block, paragraph, piece);
 
 
-		var currentPiece = $("#Scene" + scene + " #" + subtype + typedParagraph + "_Piece" + piece);
+		var currentPiece = $("#Block" + block + " #" + subtype + typedParagraph + "_Piece" + piece);
 
 		currentPiece.after(data);
 
@@ -39,8 +39,8 @@ function AddPiece(obj) {
 	});
 }
 
-function AjustNextPieces(scene, paragraph, piece) {
-	$("#Scene" + scene + " #Paragraph" + paragraph + " .paragraphPiece").each(function () {
+function AjustNextPieces(block, paragraph, piece) {
+	$("#Block" + block + " #Paragraph" + paragraph + " .paragraphPiece").each(function () {
 		AjustPiece(this, piece);
 	});
 }
@@ -62,7 +62,7 @@ function AjustPiece(obj, piece) {
 
 
 function AddParagraph(obj) {
-	var scene = $(obj).attr("scene");
+	var block = $(obj).attr("block");
 	var subtype = $(obj).attr("subtype").toLowerCase();
 	var caller = $(obj).attr("caller").toLowerCase();
 
@@ -80,18 +80,18 @@ function AddParagraph(obj) {
 
 	var adderPage = $(obj).attr("url");
 
-	$.post(adderPage, { scene: scene, type: "paragraph", subtype: subtype, paragraph: newParagraph, teller: newTellerParagraph, talk: newTalkParagraph }, function (data) {
+	$.post(adderPage, { block: block, type: "paragraph", subtype: subtype, paragraph: newParagraph, teller: newTellerParagraph, talk: newTalkParagraph }, function (data) {
 
-		AjustNextParagraphs(scene, paragraph, subtype);
+		AjustNextParagraphs(block, paragraph, subtype);
 
-		$("#Scene" + scene + " #Paragraph" + paragraph).after(data);
+		$("#Block" + block + " #Paragraph" + paragraph).after(data);
 
 		window.canSubmit = true;
 	});
 }
 
-function AjustNextParagraphs(scene, paragraph, subtype) {
-	$("#Scene" + scene + " .paragraph").each(function () {
+function AjustNextParagraphs(block, paragraph, subtype) {
+	$("#Block" + block + " .paragraph").each(function () {
 		AjustParagraph(this, paragraph, subtype);
 	});
 }

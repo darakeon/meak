@@ -73,11 +73,11 @@ namespace Structure.Helpers
 
 		private static Boolean isComplete(Episode episode)
 		{
-			var lastScene = episode.SceneList.LastOrDefault();
+			var lastBlock = episode.BlockList.LastOrDefault();
 
-			return episode.LastScene == lastScene?.ID
-			       && lastScene?.ParagraphCount
-			       >= SceneJson.MINIMUM_PARAGRAPH_COUNT;
+			return episode.LastBlock == lastBlock?.ID
+			       && lastBlock?.ParagraphCount
+			       >= BlockJson.MINIMUM_PARAGRAPH_COUNT;
 		}
 
 		private static String getTimeLeft(String lastSeason, String lastEpisode)

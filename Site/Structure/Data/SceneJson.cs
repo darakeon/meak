@@ -10,44 +10,44 @@ using Structure.Helpers;
 
 namespace Structure.Data
 {
-	public class SceneJson
+	public class BlockJson
 	{
 		private readonly string folderPath;
 		private readonly string seasonID;
 		private readonly string episodeID;
-		private readonly string sceneID;
+		private readonly string blockID;
 
-		public Scene Scene { get; set; }
+		public Block Block { get; set; }
 		public FileInfo FileInfo { get; set; }
 
 		public const String FIRST_SCENE = "a";
 		public const Int32 MINIMUM_PARAGRAPH_COUNT = 81;
 		private readonly Boolean isAuthor = UrlUserType.IsAuthor();
 		
-		public SceneJson(String folderPath, String season, String episode)
+		public BlockJson(String folderPath, String season, String episode)
 			: this(folderPath, season, episode, FIRST_SCENE) { }
 
-		public SceneJson(String folderPath, String season, String episode, String scene)
-			: this(folderPath, season, episode, scene, OpenEpisodeOption.GetCode) { }
+		public BlockJson(String folderPath, String season, String episode, String block)
+			: this(folderPath, season, episode, block, OpenEpisodeOption.GetCode) { }
 
-		public SceneJson(String folderPath, String seasonID, String episodeID, String sceneID, OpenEpisodeOption get)
+		public BlockJson(String folderPath, String seasonID, String episodeID, String blockID, OpenEpisodeOption get)
 		{
 			this.folderPath = folderPath;
 			this.seasonID = seasonID;
 			this.episodeID = episodeID;
-			this.sceneID = sceneID;
+			this.blockID = blockID;
 
-			var storyPath = Paths.SceneFilePath(folderPath, seasonID, episodeID, sceneID);
+			var storyPath = Paths.BlockFilePath(folderPath, seasonID, episodeID, blockID);
 			FileInfo = new FileInfo(storyPath);
 
 			var episode = new Episode(folderPath, seasonID, episodeID);
-			populateScene(get, episode);
+			populateBlock(get, episode);
 		}
 
 		#region For Constructor
-		private void populateScene(OpenEpisodeOption get, Episode episode)
+		private void populateBlock(OpenEpisodeOption get, Episode episode)
 		{
-			Scene = new Scene
+			Block = new Block
 			{
 				ID = FileInfo.NameWithoutExtension(),
 				Episode = episode
@@ -59,36 +59,36 @@ namespace Structure.Data
 
 		private void readStory()
 		{
-			var scenePart = FileInfo.FullName.Read<ScenePart>();
+			var blockPart = FileInfo.FullName.Read<BlockPart>();
 
-			verifyProperties(scenePart);
-			adjustParagraphs(scenePart);
+			verifyProperties(blockPart);
+			adjustParagraphs(blockPart);
 
-			foreach (var paragraph in scenePart.Paragraphs)
+			foreach (var paragraph in blockPart.Paragraphs)
 			{
-				Scene.ParagraphTypeList.Add(paragraph.Type);
+				Block.ParagraphTypeList.Add(paragraph.Type);
 				setText(paragraph);
 			}
 		}
 
-		private void adjustParagraphs(ScenePart scenePart)
+		private void adjustParagraphs(BlockPart blockPart)
 		{
 			if (isAuthor)
 			{
-				addParagraphsToLimit(scenePart);
+				addParagraphsToLimit(blockPart);
 			}
 			else
 			{
-				scenePart.Paragraphs =
-					scenePart.Paragraphs
+				blockPart.Paragraphs =
+					blockPart.Paragraphs
 						.Where(pg => pg.HasText)
 						.ToList();
 			}
 		}
 
-		private static void addParagraphsToLimit(ScenePart scenePart)
+		private static void addParagraphsToLimit(BlockPart blockPart)
 		{
-			var begin = scenePart.Paragraphs.Count;
+			var begin = blockPart.Paragraphs.Count;
 			var end = MINIMUM_PARAGRAPH_COUNT;
 
 			for (var p = begin; p < end; p++)
@@ -104,7 +104,7 @@ namespace Structure.Data
 					Pieces = new[] { piece }
 				};
 
-				scenePart.Paragraphs.Add(paragraph);
+				blockPart.Paragraphs.Add(paragraph);
 			}
 		}
 
@@ -114,11 +114,11 @@ namespace Structure.Data
 			{
 				case ParagraphType.Talk:
 					var talk = ParagraphJson.GetTalk(paragraph);
-					Scene.TalkList.Add(talk);
+					Block.TalkList.Add(talk);
 					break;
 				case ParagraphType.Teller:
 					var teller = ParagraphJson.GetTeller(paragraph);
-					Scene.TellerList.Add(teller);
+					Block.TellerList.Add(teller);
 					break;
 			}
 		}
@@ -138,7 +138,7 @@ namespace Structure.Data
 		public void WriteStory()
 		{
 			var story = makeStory();
-			var path = Paths.SceneFilePath(folderPath, seasonID, episodeID, sceneID);
+			var path = Paths.BlockFilePath(folderPath, seasonID, episodeID, blockID);
 			path.Write(story);
 		}
 
@@ -146,13 +146,13 @@ namespace Structure.Data
 		{
 			for (var j = 0; j < 3; j++)
 			{
-				Scene.ParagraphTypeList.Add(ParagraphType.Teller);
-				Scene.TellerList.Add(tellerDefault());
+				Block.ParagraphTypeList.Add(ParagraphType.Teller);
+				Block.TellerList.Add(tellerDefault());
 
 				for (var k = 0; k < 5; k++)
 				{
-					Scene.ParagraphTypeList.Add(ParagraphType.Talk);
-					Scene.TalkList.Add(talkDefault());
+					Block.ParagraphTypeList.Add(ParagraphType.Talk);
+					Block.TalkList.Add(talkDefault());
 				}
 			}
 		}
@@ -178,29 +178,29 @@ namespace Structure.Data
 			};
 		}
 
-		private ScenePart makeStory()
+		private BlockPart makeStory()
 		{
-			var scenePart = FileInfo.FullName.Read<ScenePart>();
+			var blockPart = FileInfo.FullName.Read<BlockPart>();
 
-			scenePart.Paragraphs = new List<Paragraph>();
+			blockPart.Paragraphs = new List<Paragraph>();
 
-			verifyProperties(scenePart);
+			verifyProperties(blockPart);
 
 			var talkCounter = 0;
 			var tellerCounter = 0;
 
-			foreach (var paragraph in Scene.ParagraphTypeList)
+			foreach (var paragraph in Block.ParagraphTypeList)
 			{
 				Paragraph child;
 
 				switch (paragraph)
 				{
 					case ParagraphType.Talk:
-						child = ParagraphJson.SetTalk(Scene.TalkList[talkCounter]);
+						child = ParagraphJson.SetTalk(Block.TalkList[talkCounter]);
 						talkCounter++;
 						break;
 					case ParagraphType.Teller:
-						child = ParagraphJson.SetTeller(Scene.TellerList[tellerCounter]);
+						child = ParagraphJson.SetTeller(Block.TellerList[tellerCounter]);
 						tellerCounter++;
 						break;
 					default:
@@ -209,23 +209,23 @@ namespace Structure.Data
 
 				if (child.HasText)
 				{
-					scenePart.Paragraphs.Add(child);
+					blockPart.Paragraphs.Add(child);
 				}
 			}
 
-			return scenePart;
+			return blockPart;
 		}
 
-		private void verifyProperties(ScenePart scene)
+		private void verifyProperties(BlockPart block)
 		{
-			if (scene.Scene != Scene.ID)
-				throw new Exception($"Scene [{scene.Scene}] and file name [{Scene.ID}] doesn't match.");
+			if (block.Block != Block.ID)
+				throw new Exception($"Block [{block.Block}] and file name [{Block.ID}] doesn't match.");
 
-			if (scene.Episode != Scene.Episode.ID)
-				throw new Exception($"Episode [{scene.Episode}] and file path [{Scene.Episode.ID}] doesn't match.");
+			if (block.Episode != Block.Episode.ID)
+				throw new Exception($"Episode [{block.Episode}] and file path [{Block.Episode.ID}] doesn't match.");
 
-			if (scene.Season != Scene.Episode.Season.ID)
-				throw new Exception($"Season [{scene.Season}] and file path [{Scene.Episode.Season.ID}] doesn't match.");
+			if (block.Season != Block.Episode.Season.ID)
+				throw new Exception($"Season [{block.Season}] and file path [{Block.Episode.Season.ID}] doesn't match.");
 		}
 
 

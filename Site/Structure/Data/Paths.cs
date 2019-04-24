@@ -31,9 +31,9 @@ namespace Structure.Data
 			return Path.Combine(folderPath, "_" + seasonID, episodeID);
 		}
 
-		public static String SceneFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
+		public static String BlockFilePath(String folderPath, String seasonID, String episodeID, String blockID)
 		{
-			return Path.Combine(folderPath, "_" + seasonID, episodeID, sceneID + ".json");
+			return Path.Combine(folderPath, "_" + seasonID, episodeID, blockID + ".json");
 		}
 
 		public static String FtpDirectoryPath(String folderPath, String seasonID)
@@ -46,32 +46,32 @@ namespace Structure.Data
 			return EpisodePath(folderPath, seasonID, episodeID).Replace(@"\", "/");
 		}
 
-		public static String FtpFilePath(String folderPath, String seasonID, String episodeID, String sceneID)
+		public static String FtpFilePath(String folderPath, String seasonID, String episodeID, String blockID)
 		{
-			return SceneFilePath(folderPath, seasonID, episodeID, sceneID).Replace(@"\", "/");
+			return BlockFilePath(folderPath, seasonID, episodeID, blockID).Replace(@"\", "/");
 		}
 
 
 
-		internal static String[] SceneLetters(String folderPath, String seasonID, String episodeID)
+		internal static String[] BlockLetters(String folderPath, String seasonID, String episodeID)
 		{
 			var episodePath = EpisodePath(folderPath, seasonID, episodeID);
 
-			var sceneFiles = Directory.GetFiles(episodePath, "*.json")
+			var blockFiles = Directory.GetFiles(episodePath, "*.json")
 				.Where(sf => !sf.EndsWith("_.json"))
 				.ToList();
 
-			for (var sf = 0; sf < sceneFiles.Count; sf++)
+			for (var sf = 0; sf < blockFiles.Count; sf++)
 			{
-				sceneFiles[sf] = SceneLetter(sceneFiles[sf], episodePath);
+				blockFiles[sf] = BlockLetter(blockFiles[sf], episodePath);
 			}
 
-			return sceneFiles.ToArray();
+			return blockFiles.ToArray();
 		}
 		
-		internal static String SceneLetter(String sceneFile, String episodePath)
+		internal static String BlockLetter(String blockFile, String episodePath)
 		{
-			return sceneFile
+			return blockFile
 				.Replace(episodePath + @"\", "")
 				.Replace(".json", "");
 		}

@@ -5,9 +5,9 @@ using Structure.Enums;
 
 namespace Structure.Entities.System
 {
-	public class Scene
+	public class Block
 	{
-		public Scene()
+		public Block()
 		{
 			Episode = new Episode();
 
@@ -16,7 +16,7 @@ namespace Structure.Entities.System
 			TellerList = new List<Teller>();
 		}
 
-		public Scene(Int32 position) : this()
+		public Block(Int32 position) : this()
 		{
 			var @char = Convert.ToChar('a' + position);
 			ID = @char.ToString();

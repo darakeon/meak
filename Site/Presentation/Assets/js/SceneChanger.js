@@ -1,12 +1,12 @@
-function SceneChanger() {
-	$(".scene-changer li").click(function () {
-		var scene = $(this).attr("scene");
+function BlockChanger() {
+	$(".block-changer li").click(function () {
+		var block = $(this).attr("block");
 
-		$(".scene-changer li.chosen").removeClass("chosen");
-		$(".scene-changer" + scene).addClass("chosen");
+		$(".block-changer li.chosen").removeClass("chosen");
+		$(".block-changer" + block).addClass("chosen");
 
-		$(".scenes .reading").removeClass("reading");
-		$("#Scene" + scene).addClass("reading");
+		$(".blocks .reading").removeClass("reading");
+		$("#Block" + block).addClass("reading");
 
 		$(document).scrollTop(0);
 	});

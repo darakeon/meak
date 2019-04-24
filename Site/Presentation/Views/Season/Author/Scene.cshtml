@@ -2,8 +2,8 @@
 @model Presentation.Models.SeasonEditEpisodeModel
 		   
 @{
-	var scene = Model.Story.SceneList[Model.SceneCounter];
-	var formId = "form_" + scene.ID;
+	var block = Model.Story.BlockList[Model.BlockCounter];
+	var formId = "form_" + block.ID;
 
 	var ajaxOptions = new AjaxOptions
 	{
@@ -13,15 +13,15 @@
 		OnFailure = "SaveFailure('" + formId + "')"
 	};
 
-	var route = RouteStories.With(Model.Story.Season, Model.Story, scene);
+	var route = RouteStories.With(Model.Story.Season, Model.Story, block);
 	var html = new { id = formId };
 }
 
-<div class="scene @if(scene.ID == Model.ReadingScene) { @("reading") }" id="Scene@(Model.SceneCounter)">
+<div class="block @if(block.ID == Model.ReadingBlock) { @("reading") }" id="Block@(Model.BlockCounter)">
 
 	<div class="goHistory">
 		<span class="paragraphCountTitle">
-			Scene Paragraphs Last Count: @scene.ParagraphCount
+			Block Paragraphs Last Count: @block.ParagraphCount
 		</span>
 		
 		<a href="#"
@@ -41,17 +41,17 @@
 		</a>
 	</div>
 
-	@using (Ajax.BeginForm("EditScene", route, ajaxOptions, html))
+	@using (Ajax.BeginForm("EditBlock", route, ajaxOptions, html))
 	{
-		for (var s = 0; s <= Model.SceneCounter; s++)
+		for (var s = 0; s <= Model.BlockCounter; s++)
 		{
-			@Html.HiddenFor(m => m.Story.SceneList[s].ID);
+			@Html.HiddenFor(m => m.Story.BlockList[s].ID);
 		}
 		
-		@Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].Episode.Season.ID);
-		@Html.HiddenFor(m => m.Story.SceneList[Model.SceneCounter].Episode.ID);
+		@Html.HiddenFor(m => m.Story.BlockList[Model.BlockCounter].Episode.Season.ID);
+		@Html.HiddenFor(m => m.Story.BlockList[Model.BlockCounter].Episode.ID);
 														 
-		for (var p = 0; p < scene.ParagraphTypeList.Count; p++)
+		for (var p = 0; p < block.ParagraphTypeList.Count; p++)
 		{
 			Model.ParagraphCounter = p;
 		
