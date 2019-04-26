@@ -12,10 +12,12 @@ namespace Structure.Data
 {
 	public class BlockJson
 	{
-		private readonly string folderPath;
-		private readonly string seasonID;
-		private readonly string episodeID;
-		private readonly string blockID;
+		private readonly String folderPath;
+		private readonly String seasonID;
+		private readonly String episodeID;
+		private readonly String blockID;
+
+        private Audio audio;
 
 		public Block Block { get; set; }
 		public FileInfo FileInfo { get; set; }
@@ -40,7 +42,7 @@ namespace Structure.Data
 			var storyPath = Paths.BlockFilePath(folderPath, seasonID, episodeID, blockID);
 			FileInfo = new FileInfo(storyPath);
 
-			var episode = new Episode(folderPath, seasonID, episodeID);
+            var episode = new Episode(folderPath, seasonID, episodeID);
 			populateBlock(get, episode);
 		}
 
@@ -52,6 +54,8 @@ namespace Structure.Data
 				ID = FileInfo.NameWithoutExtension(),
 				Episode = episode
 			};
+
+            audio = new Audio(folderPath, seasonID, episodeID, Block);
 
 			if (get == OpenEpisodeOption.GetStory)
 				readStory();
@@ -69,9 +73,11 @@ namespace Structure.Data
 				Block.ParagraphTypeList.Add(paragraph.Type);
 				setText(paragraph);
 			}
-		}
 
-		private void adjustParagraphs(BlockPart blockPart)
+            audio.CopySongs();
+        }
+
+        private void adjustParagraphs(BlockPart blockPart)
 		{
 			if (isAuthor)
 			{
@@ -227,9 +233,5 @@ namespace Structure.Data
 			if (block.Season != Block.Episode.Season.ID)
 				throw new Exception($"Season [{block.Season}] and file path [{Block.Episode.Season.ID}] doesn't match.");
 		}
-
-
-
-
 	}
 }

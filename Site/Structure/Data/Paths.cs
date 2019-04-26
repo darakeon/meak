@@ -31,12 +31,22 @@ namespace Structure.Data
 			return Path.Combine(folderPath, "_" + seasonID, episodeID);
 		}
 
-		public static String BlockFilePath(String folderPath, String seasonID, String episodeID, String blockID)
-		{
-			return Path.Combine(folderPath, "_" + seasonID, episodeID, blockID + ".json");
-		}
+        public static String BlockFilePath(String folderPath, String seasonID, String episodeID, String blockID)
+        {
+            return Path.Combine(folderPath, "_" + seasonID, episodeID, blockID + ".json");
+        }
 
-		public static String FtpDirectoryPath(String folderPath, String seasonID)
+        public static String AudioPath(String folderPath, String seasonID, String episodeID, String audio)
+        {
+            return Path.Combine(folderPath, "_" + seasonID, episodeID, audio + ".mp3");
+        }
+
+        public static String AudioLocalPath(String seasonID, String episodeID, String audio)
+        {
+            return Path.Combine("songs", "_" + seasonID, episodeID, audio + ".mp3");
+        }
+
+        public static String FtpDirectoryPath(String folderPath, String seasonID)
 		{
 			return SeasonPath(folderPath, seasonID).Replace(@"\", "/");
 		}

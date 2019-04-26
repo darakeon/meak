@@ -1,6 +1,7 @@
 ﻿@model Presentation.Models.SeasonEpisodeModel
 @using Presentation.Helpers
 @using Presentation.Models.General
+@using Structure.Data
 @using Structure.Enums;
 @using Structure.Helpers
 
@@ -17,10 +18,8 @@
 			Current = Convert.ToInt32(Model.ReadingBlock[0]) - 97
 		};
 
-	var github = "https://raw.githubusercontent.com/" + Config.Repo;
 	var season = Model.Story.Season.ID;
 	var episode = Model.Story.ID;
-	var audioPath = github + "/master/_" + season + "/" + episode + "/";
 }
 
 @Html.Partial("Partial/PrintHeaderAndFooter", Model.Story)
@@ -80,7 +79,11 @@
 								if (piece.Audio != null)
 								{
 									<audio id="@pieceId">
-										<source src="@audioPath/@piece.Audio" type="audio/mpeg">
+										<source 
+											src="@Paths.AudioLocalPath(
+												season, episode, piece.Audio
+											)"
+											type="audio/mpeg">
 									</audio>
 									<span 
 										class="darkback play"
