@@ -22,12 +22,12 @@ namespace Structure.Data
 		public Block Block { get; set; }
 		public FileInfo FileInfo { get; set; }
 
-		public const String FIRST_SCENE = "a";
+		public const String FIRST_BLOCK = "a";
 		public const Int32 MINIMUM_PARAGRAPH_COUNT = 81;
 		private readonly Boolean isAuthor = UrlUserType.IsAuthor();
 		
 		public BlockJson(String folderPath, String season, String episode)
-			: this(folderPath, season, episode, FIRST_SCENE) { }
+			: this(folderPath, season, episode, FIRST_BLOCK) { }
 
 		public BlockJson(String folderPath, String season, String episode, String block)
 			: this(folderPath, season, episode, block, OpenEpisodeOption.GetCode) { }

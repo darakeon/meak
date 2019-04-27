@@ -14,7 +14,7 @@ namespace Presentation.Models
 		public SeasonEditEpisodeModel(String seasonID, String episodeID, String blockID)
 		{
 			Story = episodeJson.GetEpisode(seasonID, episodeID);
-			ReadingBlock = blockID ?? BlockJson.FIRST_SCENE;
+			ReadingBlock = blockID ?? BlockJson.FIRST_BLOCK;
 		}
 
 		public Int32 BlockCounter { get; set; }
