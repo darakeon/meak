@@ -20,7 +20,7 @@ namespace Presentation.Controllers
 
 		private ActionResult index(String returnUrl)
 		{
-			var model = new SeasonIndexModel
+			var model = new BaseModel
 			{
 				LogOn =
 				{

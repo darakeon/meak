@@ -10,7 +10,6 @@ namespace Structure.Helpers
 		public static String Pass = get("pass");
 
 		public static String StoriesPath = get("Stories");
-		public static String MessagesPath = get("Messages");
 
 		public static String FtpAddress = get("FtpAddress");
 		public static String FtpUrl = "ftp://" + FtpAddress;

@@ -1,22 +1,22 @@
-﻿@model Presentation.Models.SeasonIndexModel
+﻿@model Presentation.Models.BaseModel
 
 @{
 	ViewBag.Title = "MEAK";
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@foreach(var message in Model.Messages)
-{
-	<div class="message">
+<div class="message">
 
-		<p class="title">@message.Title</p>
+	<p class="title">Sunariom</p>
 
-		@foreach(var line in message.Lines)
-		{
-			<p>@line</p>
-		}
+	<p>
+		Esta é a história de alguém que perdeu uma parte importante de si,
+		algo que diz quem somos. A coisa mais importante que um ser possui.
+		Aquilo sem o que você se torna apenas um amontoado de átomos ao acaso.
+	</p>
 
-		<p class="sign">@message.Date.ToString("yyyy-MM-dd")</p>
+	<p>
+		Esta é a história de um amontoado de átomos ao acaso tentando voltar a ser.
+	</p>
 
-	</div>
-}
+</div>

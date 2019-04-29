@@ -131,7 +131,6 @@
   <ItemGroup>
     <Compile Include="Data\Audio.cs" />
     <Compile Include="Data\FtpHelper.cs" />
-    <Compile Include="Data\MessageJson.cs" />
     <Compile Include="Data\EpisodeJson.cs" />
     <Compile Include="Entities\Json\SummaryPart.cs" />
     <Compile Include="Entities\Json\Piece.cs" />
@@ -142,7 +141,6 @@
     <Compile Include="Data\ParagraphJson.cs" />
     <Compile Include="Data\PieceJson.cs" />
     <Compile Include="Data\MainInfoJson.cs" />
-    <Compile Include="Entities\System\Message.cs" />
     <Compile Include="Entities\System\Block.cs" />
     <Compile Include="Entities\System\Episode.cs" />
     <Compile Include="Extensions\EnumExtension.cs" />

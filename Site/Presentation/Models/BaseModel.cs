@@ -13,7 +13,6 @@ namespace Presentation.Models
 			LogOn = new LogOnModel();
 
 			episodeJson = new EpisodeJson();
-			messageJson = new MessageJson();
 
 			var xmlPath = episodeJson.PathJson;
 			var cssPath = Path.Combine(Directory.GetCurrentDirectory(), "Assets", "css");
@@ -30,7 +29,6 @@ namespace Presentation.Models
 
 		public Paths Paths { get; }
 		protected EpisodeJson episodeJson { get; }
-		protected MessageJson messageJson { get; }
 
 		public String TimeLeft =>
 			Countdown.GetTimeLeft(episodeJson, Menu.SeasonList);
