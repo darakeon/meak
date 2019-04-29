@@ -83,9 +83,14 @@ namespace Presentation.Controllers
 		[HttpPost]
 		public void EditBlock(SeasonEpisodeModel model, String seasonID, String episodeID, String blockID)
 		{
-			var xml = new BlockJson(model.Paths.Json, seasonID, episodeID, blockID) { Block = model.Story[blockID] };
+			var json = new BlockJson(
+				model.Paths.Json, seasonID, episodeID, blockID
+				)
+			{
+				Block = model.Story[blockID]
+			};
 
-			xml.WriteStory();
+			json.WriteStory();
 		}
 
 
@@ -136,12 +141,19 @@ namespace Presentation.Controllers
 			}
 
 
-			var xml = new BlockJson(model.Paths.Json, model.SeasonEpisode.Season, model.SeasonEpisode.Episode);
+			var json = new BlockJson(
+				model.Paths.Json, 
+				model.SeasonEpisode.Season, 
+				model.SeasonEpisode.Episode
+			);
 
-			xml.AddNewStory(model.Title);
+			json.AddNewStory(model.Title);
 
-
-			return RedirectToAction("Episode", new { season = xml.Block.Episode.Season.ID, episode = xml.Block.Episode.ID });
+			return RedirectToAction("Episode", new
+			{
+				season = json.Block.Episode.Season.ID,
+				episode = json.Block.Episode.ID
+			});
 		}
 
 	}

@@ -11,9 +11,9 @@ namespace Presentation.Models
 	{
 		public SeasonSeasonModel(String season)
 		{
-			var seasonPathXml = Paths.SeasonPath(Paths.Json, season); 
+			var seasonPath = Paths.SeasonPath(Paths.Json, season); 
 			
-			Season = new Season(seasonPathXml);
+			Season = new Season(seasonPath);
 			EpisodeList = Season.EpisodeList;
 
 			if (!Authenticate.IsAuthenticated && EpisodeList.Any())
@@ -38,6 +38,5 @@ namespace Presentation.Models
 
 		public Season Season { get; set; }
 		public IList<Episode> EpisodeList { get; set; }
-
 	}
 }

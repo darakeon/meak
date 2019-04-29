@@ -14,10 +14,15 @@ namespace Presentation.Models
 
 			episodeJson = new EpisodeJson();
 
-			var xmlPath = episodeJson.PathJson;
-			var cssPath = Path.Combine(Directory.GetCurrentDirectory(), "Assets", "css");
+			var jsonPath = episodeJson.PathJson;
 
-			Paths = new Paths(xmlPath, cssPath);
+			var cssPath = Path.Combine(
+				Directory.GetCurrentDirectory(),
+				"Assets",
+				"css"
+			);
+
+			Paths = new Paths(jsonPath, cssPath);
 
 			Menu = new MenuModel(Paths.Json);
 			Css = new CssModel(Paths.Css);
