@@ -29,22 +29,12 @@ namespace Presentation.Models
 		public String[] TalkStyleList { get; set; }
 		public String[] TellerStyleList { get; set; }
 
+		public ParagraphType CurrentParagraph => 
+			Story.BlockList[BlockCounter].ParagraphTypeList[ParagraphCounter];
 
-		public ParagraphType CurrentParagraph
-		{
-			get
-			{
-				return Story.BlockList[BlockCounter].ParagraphTypeList[ParagraphCounter];
-			}
-		}
+		public String CurrentBlock => 
+			Story.BlockList[BlockCounter].ID;
 
-
-		public String CurrentBlock
-		{
-			get { return Story.BlockList[BlockCounter].ID; }
-		}
-
-		
 		public void GetSuggestionLists()
 		{
 			TalkStyleList =
@@ -73,7 +63,5 @@ namespace Presentation.Models
 					.OrderBy(c => c)
 					.ToArray();
 		}
-
-
 	}
 }
