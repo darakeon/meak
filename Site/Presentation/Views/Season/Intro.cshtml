@@ -1,8 +1,11 @@
-﻿@model Presentation.Models.BaseModel
+﻿@using Structure.Helpers
+@model Presentation.Models.BaseModel
 
 @{
 	ViewBag.Title = "MEAK";
 	Layout = "~/Views/Shared/_Layout.cshtml";
+
+	var route = RouteStories.With("A", "01");
 }
 
 <div class="message">
@@ -17,6 +20,10 @@
 
 	<p>
 		Esta é a história de um amontoado de átomos ao acaso tentando voltar a ser.
+	</p>
+	
+	<p class="start-reading">
+		<a href="@route">Começar a ler</a>
 	</p>
 
 </div>
