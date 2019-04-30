@@ -34,9 +34,9 @@ namespace Structure.Entities.System
 			var seasonName = dir.Parent.Name.Replace("_", "");
 			var path = dir.Parent.Parent.FullName;
 
-			var episode = new Episode(path, seasonName, episodeName);
+			var episode = Episode.Get(path, seasonName, episodeName);
 
-			if (episode.IsPublished())
+			if (episode != null && episode.IsPublished())
 				EpisodeList.Add(episode);
 		}
 

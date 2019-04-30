@@ -62,7 +62,7 @@ namespace Structure.Helpers
 				var episodeId = episode.ID;
 				episode = episodeJson.GetEpisode(seasonId, episodeId);
 
-				if (isComplete(episode))
+				if (episode != null && isComplete(episode))
 					return getTimeLeft(seasonId, episodeId);
 
 				lastIndex--;

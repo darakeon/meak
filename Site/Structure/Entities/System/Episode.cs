@@ -15,17 +15,23 @@ namespace Structure.Entities.System
 			BlockList = new List<Block>();
 		}
 
-		public Episode(String path, String season, String episode) : this()
+		public static Episode Get(String path, String season, String episode)
 		{
 			var info = MainInfoJson.Get(path, season, episode);
 
-			ID = episode;
-			Title = info.Title;
-			Publish = Countdown.GetDate(season, episode);
-			LastBlock = info.Last;
-			Summary = info.Summary;
-			PageStart = info.Page;
-			Season = new Season { ID = season };
+			if (info == null)
+				return null;
+
+			return new Episode
+			{
+				ID = episode,
+				Title = info.Title,
+				Publish = Countdown.GetDate(season, episode),
+				LastBlock = info.Last,
+				Summary = info.Summary,
+				PageStart = info.Page,
+				Season = new Season {ID = season},
+			};
 		}
 
 		public String ID { get; set; }

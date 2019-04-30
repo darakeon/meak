@@ -21,7 +21,10 @@ namespace Structure.Data
 
 		public Episode GetEpisode(String seasonID, String episodeID)
 		{
-			episode = new Episode(PathJson, seasonID, episodeID);
+			episode = Episode.Get(PathJson, seasonID, episodeID);
+
+			if (episode == null)
+				return null;
 			
 			var blockLetters = Paths.BlockLetters(PathJson, seasonID, episodeID);
 

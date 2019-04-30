@@ -59,6 +59,11 @@ namespace Presentation.Controllers
 				return View("Error", new ErrorModel { Message = e.Message });
 			}
 
+			if (model.Story == null)
+			{
+				return Redirect("/");
+			}
+
 			model.GetSuggestionLists();
 
 			if (UrlUserType.IsAuthor())

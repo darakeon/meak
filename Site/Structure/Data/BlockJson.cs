@@ -42,8 +42,10 @@ namespace Structure.Data
 			var storyPath = Paths.BlockFilePath(folderPath, seasonID, episodeID, blockID);
 			FileInfo = new FileInfo(storyPath);
 
-            var episode = new Episode(folderPath, seasonID, episodeID);
-			populateBlock(get, episode);
+			var episode = Episode.Get(folderPath, seasonID, episodeID);
+
+			if (episode != null)
+				populateBlock(get, episode);
 		}
 
 		#region For Constructor
