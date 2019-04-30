@@ -76,8 +76,8 @@ namespace Structure.Helpers
 			var lastBlock = episode.BlockList.LastOrDefault();
 
 			return episode.LastBlock == lastBlock?.ID
-			       && lastBlock?.ParagraphCount
-			       >= BlockJson.MINIMUM_PARAGRAPH_COUNT;
+				   && lastBlock?.ParagraphCount
+				   >= BlockJson.MINIMUM_PARAGRAPH_COUNT;
 		}
 
 		private static String getTimeLeft(String lastSeason, String lastEpisode)

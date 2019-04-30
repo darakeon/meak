@@ -17,7 +17,7 @@ namespace Structure.Data
 		private readonly String episodeID;
 		private readonly String blockID;
 
-        private Audio audio;
+		private Audio audio;
 
 		public Block Block { get; set; }
 		public FileInfo FileInfo { get; set; }
@@ -57,7 +57,7 @@ namespace Structure.Data
 				Episode = episode
 			};
 
-            audio = new Audio(folderPath, seasonID, episodeID, Block);
+			audio = new Audio(folderPath, seasonID, episodeID, Block);
 
 			if (get == OpenEpisodeOption.GetStory)
 				readStory();
@@ -76,10 +76,10 @@ namespace Structure.Data
 				setText(paragraph);
 			}
 
-            audio.CopySongs();
-        }
+			audio.CopySongs();
+		}
 
-        private void adjustParagraphs(BlockPart blockPart)
+		private void adjustParagraphs(BlockPart blockPart)
 		{
 			if (isAuthor)
 			{
