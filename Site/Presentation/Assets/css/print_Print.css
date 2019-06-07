@@ -37,6 +37,7 @@ p.title
 	right: 0;
 	width: 100%;
 	text-align: center;
+	opacity: 0.5;
 }
 
 	.just-print .header .name
@@ -68,6 +69,7 @@ p.title
 	width: 100%;
 	text-align: center;
 	display: table-footer-group;
+	opacity: 0.5;
 }
 
 	.just-print .footer:after {
@@ -93,4 +95,8 @@ img,
 
 .teller_Division {
 	border-bottom: 2px dotted;
+}
+
+.paragraph {
+	break-inside: avoid;
 }
