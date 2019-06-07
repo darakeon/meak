@@ -24,6 +24,12 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+	<script async defer
+		crossorigin="anonymous"
+		src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.3&appId=1471128433148292&autoLogAppEvents=1">
+	</script>
+
 	<div class="login">
 		@Html.Partial("Partial/LogOn")
 	</div>
@@ -34,6 +40,15 @@
 
 	<div class="content">
 		<div class="resizer">
+			<div class="fb-like"
+			     data-href="https://www.facebook.com/meakstories/"
+			     data-layout="box_count"
+			     data-action="like"
+			     data-size="small"
+			     data-show-faces="false"
+			     data-share="false">
+			</div><br/>
+
 			<button class="sizeLess lightback">A &ndash; &ndash;</button>
 			<button class="sizeMore lightback">A + +</button>
 		</div>
