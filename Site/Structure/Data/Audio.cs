@@ -78,7 +78,7 @@ namespace Structure.Data
             if (createDir)
                 destinyInfo.Directory.Create();
 
-            File.Copy(sourcePath, destinyPath);
+            File.Copy(sourcePath, destinyPath, true);
         }
     }
 }
