@@ -1,4 +1,5 @@
 ﻿@model Presentation.Models.SeasonEpisodeModel
+@using DK.MVC.Authentication
 @using Presentation.Helpers
 @using Presentation.Models.General
 @using Structure.Data
@@ -6,8 +7,15 @@
 @using Structure.Helpers
 
 @{
-	ViewBag.Title = String.Format("MEAK {0}{1} – {2}", Model.Story.Season, Model.Story, Model.Story.Title);
+	ViewBag.Title = String.Format(
+		"MEAK {0}{1} – {2}",
+		Model.Story.Season,
+		Model.Story,
+		Model.Story.Title
+	);
+
 	Layout = "~/Views/Shared/_Layout.cshtml";
+
 	var talkCounter = 0;
 	var tellerCounter = 0;
 
@@ -21,8 +29,6 @@
 	var season = Model.Story.Season.ID;
 	var episode = Model.Story.ID;
 }
-
-@Html.Partial("Partial/PrintHeaderAndFooter", Model.Story)
 
 <p class="title">
 	@Model.Story.Title
@@ -41,20 +47,37 @@
 
 @{
 	var lastBlock = Model.Story.BlockList.Count - 1;
+	var page = Authenticate.IsAuthenticated
+		? Model.Story.PageStart
+		: 0;
+	var pageItemTypes = new[] { "odd", "even" };
+	var lastPage = page;
 }
+
+@Html.Partial("Partial/PrintHeader", Model.Story)
 
 <div class="blocks">
 	@for (var s = 0; s <= lastBlock; s++)
 	{
 		var block = Model.Story.BlockList[s];
 		var trigger = false;
+		var pageInBlock = 0;
 
-		<div class="block @if(block.ID == Model.ReadingBlock) { @("reading") }" id="Block@(s)">
+		<div class="block @if (block.ID == Model.ReadingBlock) { @("reading") }" id="Block@(s)">
 			@foreach (var paragraph in block.ParagraphTypeList)
 			{
+				var pageItem = $"page-{pageItemTypes[page % 2]}-item";
+
 				var paragraphId = s + "_" + tellerCounter + "_" + talkCounter;
 
-				<div class="paragraph @paragraph.ToString().ToLower() @(trigger ? "trigger-hidden" : "")">
+				<div class="paragraph @paragraph.ToString().ToLower() @(trigger ? "trigger-hidden" : "") @pageItem">
+
+					@if (lastPage != page)
+					{
+						@Html.Partial("Partial/PrintHeader", Model.Story)
+						lastPage = page;
+					}
+
 					@switch (paragraph)
 					{
 						case ParagraphType.Talk:
@@ -66,29 +89,25 @@
 								var piece = block.TalkList[talkCounter].Pieces[p];
 								var pieceId = paragraphId + "_" + p;
 
-								var title = piece.Style == TalkStyle.Default 
-									? "" 
+								var title = piece.Style == TalkStyle.Default
+									? ""
 									: Dic.Talk[piece.Style];
 
-								<span
-									title="@title"
-									class="talk_@(piece.Style)">
+								<span title="@title"
+									  class="talk_@(piece.Style)">
 									@piece.Text
 								</span>
 
 								if (piece.Audio != null)
 								{
 									<audio id="@pieceId">
-										<source 
-											src="@Paths.AudioLocalPath(
+										<source src="@Paths.AudioLocalPath(
 												season, episode, piece.Audio
 											)"
-											type="audio/mpeg">
+												type="audio/mpeg">
 									</audio>
-									<span 
-										class="darkback play"
-										onclick="$('#@pieceId')[0].play()"
-									>&#9658;</span>
+									<span class="darkback play"
+										  onclick="$('#@pieceId')[0].play()">&#9658;</span>
 								}
 							}
 
@@ -122,6 +141,16 @@
 							}
 
 							tellerCounter++;
+
+							break;
+
+						case ParagraphType.Page:
+							@Html.Partial(
+								"Partial/PrintFooter",
+								new Footer(block.BrList[pageInBlock], ++page)
+							)
+
+							pageInBlock++;
 
 							break;
 					}

@@ -29,7 +29,6 @@ namespace Structure.Data
 			return talk;
 		}
 
-		
 		public static Teller GetTeller(Paragraph paragraph)
 		{
 			return getParagraph<Teller, TellerStyle>(paragraph);

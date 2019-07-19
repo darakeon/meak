@@ -29,6 +29,7 @@ namespace Structure.Entities.System
 				Publish = Countdown.GetDate(season, episode),
 				LastBlock = info.Last,
 				Summary = info.Summary,
+				Breaks = info.Breaks,
 				PageStart = info.Page,
 				Season = new Season {ID = season},
 			};
@@ -40,6 +41,7 @@ namespace Structure.Entities.System
 		public DateTime Publish { get; set; }
 		public String LastBlock { get; set; }
 		public String Summary { get; set; }
+		public Int32 Breaks { get; set; }
 
 		public Int16 PageStart { get; set; }
 

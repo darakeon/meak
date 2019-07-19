@@ -3,6 +3,7 @@
 	public enum ParagraphType
 	{
 		Teller,
-		Talk
+		Talk,
+		Page,
 	}
 }

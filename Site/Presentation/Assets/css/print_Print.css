@@ -11,7 +11,7 @@
 
 p.title
 {
-	margin: 30px 0 0 0;
+	margin: 30px 0 0 1cm;
 }
 
 .blocks, .summary
@@ -20,7 +20,8 @@ p.title
 	padding: 30px 0;
 }
 
-.summary {
+.summary
+{
 	page-break-before: always;
 }
 
@@ -29,52 +30,79 @@ p.title
 		margin-bottom: 30px;
 	}
 
-.just-print .header
+.header-box
 {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
+	position: relative;
+	margin-left: 1cm;
+}
+
+.block .paragraph:nth-child(1) .header-box .header
+{
+	margin-top: -30px;
+}
+
+.blocks .header-box,
+.summary .header-box
+{
+	margin-left: 0;
+}
+
+.header
+{
+	position: absolute;
 	width: 100%;
 	text-align: center;
 	opacity: 0.5;
+	margin-top: -50px;
+	top: 0;
 }
 
-	.just-print .header .name
+.blocks .header,
+.summary .header
+{
+	margin-top: -30px;
+}
+
+	.header .title
+	{
+		display: none;
+	}
+
+	.blocks .header .title,
+	.summary .header .title
+	{
+		display: inline
+	}
+
+	.header .name
 	{
 		float: left;
 	}
 
-	.just-print .header .id
+	.header .id
 	{
 		float: right;
 	}
 
-.just-print .cover-first-title
+.footer
 {
-	position: absolute;
-	top: 0;
-	width: 80%;
-	left: 10%;
-	right: 10%;
-	text-align: center;
-	height: 14pt;
-	background: #FFF;
+	position: relative;
+	page-break-after: always;
 }
 
-.just-print .footer
-{
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	text-align: center;
-	display: table-footer-group;
-	opacity: 0.5;
-}
+	.footer span
+	{
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		opacity: 0.5;
+		bottom: 0;
+		margin-bottom: -40px;
+	}
 
-	.just-print .footer:after {
-		counter-increment: page;
-		content: counter(page);
+	.summary .footer span
+	{
+		margin-bottom: -32px;
 	}
 
 img,
@@ -89,18 +117,40 @@ img,
 	display: none;
 }
 
-.block:not(:first-child) {
+.block:not(:first-child)
+{
 	padding-top: 38px;
 }
 
-.teller_Division {
+.block .paragraph:first-child .header-box
+{
+	margin-top: -38px;
+}
+
+.teller_Division
+{
 	border-bottom: 2px dotted;
 }
 
-.paragraph {
+.paragraph
+{
 	break-inside: avoid;
 }
 
-@page {
-	margin: 0.5cm;
+@page
+{
+	margin-top: 1.3cm;
+	margin-bottom: 1cm;
+	margin-left: 1cm;
+	margin-right: 1cm;
+}
+
+.page-odd-item
+{
+	margin-left: 1cm;
+}
+
+.page-even-item
+{
+	margin-right: 1cm;
 }

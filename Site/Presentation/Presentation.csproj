@@ -135,6 +135,7 @@
     <Compile Include="Controllers\SeasonController.cs" />
     <Compile Include="Controllers\UploadController.cs" />
     <Compile Include="Helpers\Dic.cs" />
+    <Compile Include="Helpers\Footer.cs" />
     <Compile Include="Models\UploadModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -247,8 +248,9 @@
     <Content Include="login.config" />
     <None Include="Properties\PublishProfiles\Amazon.pubxml" />
     <Content Include="Views\Upload\Upload.cshtml" />
-    <Content Include="Views\Season\Partial\PrintHeaderAndFooter.cshtml" />
+    <Content Include="Views\Season\Partial\PrintHeader.cshtml" />
     <Content Include="Views\Season\Partial\PrintSummary.cshtml" />
+    <Content Include="Views\Season\Partial\PrintFooter.cshtml" />
     <None Include="Web.Amazon.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
