@@ -7,3 +7,9 @@
 *Esta é a história de um amontoado de átomos ao acaso tentando voltar a ser.*
 
 [Leia no Site](http://meak-stories.com/)
+
+## Stories Site
+
+This is the source code of the website at (http://meak-stories.com)
+
+This is not the better code I ever wrote. Don't judge me by it.
