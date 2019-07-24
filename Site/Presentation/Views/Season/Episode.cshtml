@@ -7,13 +7,7 @@
 @using Structure.Helpers
 
 @{
-	ViewBag.Title = String.Format(
-		"MEAK {0}{1} – {2}",
-		Model.Story.Season,
-		Model.Story,
-		Model.Story.Title
-	);
-
+	ViewBag.Title = $"MEAK {Model.Story.Season}{Model.Story} – {Model.Story.Title}";
 	Layout = "~/Views/Shared/_Layout.cshtml";
 
 	var talkCounter = 0;
