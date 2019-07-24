@@ -41,7 +41,7 @@ namespace Structure.Entities.System
 		public DateTime Publish { get; set; }
 		public String LastBlock { get; set; }
 		public String Summary { get; set; }
-		public Int32 Breaks { get; set; }
+		public Int32? Breaks { get; set; }
 
 		public Int16? PageStart { get; set; }
 

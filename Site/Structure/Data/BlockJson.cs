@@ -142,7 +142,7 @@ namespace Structure.Data
 			MainInfoJson.Save(
 				title,
 				"-",
-				0,
+				null,
 				folderPath,
 				seasonID,
 				episodeID

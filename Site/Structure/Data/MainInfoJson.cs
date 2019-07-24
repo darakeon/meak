@@ -10,7 +10,7 @@ namespace Structure.Data
 		public static void Save(
 			String title,
 			String summary,
-			Int32 breaks,
+			Int32? breaks,
 			String folderPath,
 			String seasonID,
 			String episodeID
