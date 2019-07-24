@@ -15,15 +15,19 @@
 
 <span class="paragraphPiece" id="Teller@(Model.TellerCounter)_Piece@(Model.PieceCounter)">
 	<span class="teller_@(piece.Style)">
-		@Html.TextBoxFor(m => m.Story.BlockList[Model.BlockCounter].TellerList[Model.TellerCounter].Pieces[Model.PieceCounter].Style,
-			new { 
+		@Html.TextBoxFor(m => 
+			m.Story
+				.BlockList[Model.BlockCounter]
+				.TellerList[Model.TellerCounter]
+				.Pieces[Model.PieceCounter].Style,
+			new {
 				@class = "lightback auxi",
 				rel = (
-					"block" + Model.BlockCounter 
-					+ "_tellerStyle" + Model.TellerCounter 
+					"block" + Model.BlockCounter
+					+ "_tellerStyle" + Model.TellerCounter
 					+ "_piece" + Model.PieceCounter
-				), 
-				suggestion = "tellerStyle", 
+				),
+				suggestion = "tellerStyle",
 				onfocus = "GetSuggestionBox(this)",
 				onblur = "ExitSuggestionBox(this)",
 				tabIndex = Model.TabIndex++
@@ -33,23 +37,30 @@
 			.BlockList[Model.BlockCounter]
 			.TellerList[Model.TellerCounter]
 			.Pieces[Model.PieceCounter].Text,
-			new {
+			new
+					{
 				@class = "text",
 				tabIndex = Model.TabIndex++
 			})
 
-		<adder
-			tabIndex="@(Model.TabIndex++)"
-			class="adderPiece"
-			block="@Model.BlockCounter"
-			type="Piece"
-			subtype="Teller"
-			paragraph="@Model.ParagraphCounter"
-			teller="@Model.TellerCounter"
-			piece="@Model.PieceCounter"
-			onclick="AddInputItem(this)"
-			url="@adderUrl">+</adder>
+		<adder tabIndex="@(Model.TabIndex++)"
+				class="adderPiece"
+				block="@Model.BlockCounter"
+				type="Piece"
+				subtype="Teller"
+				paragraph="@Model.ParagraphCounter"
+				teller="@Model.TellerCounter"
+				piece="@Model.PieceCounter"
+				onclick="AddInputItem(this)"
+				url="@adderUrl">+</adder>
 	</span>
 
-	<div class="suggestionBox" id="block@(Model.BlockCounter)_tellerStyle@(Model.TellerCounter)_piece@(Model.PieceCounter)"></div>
+	@{
+		var id =
+			$"block{Model.BlockCounter}" +
+			$"_tellerStyle{Model.TellerCounter}" +
+			$"_piece{Model.PieceCounter}";
+	}
+
+	<div class="suggestionBox" id="@id"></div>
 </span>

@@ -15,7 +15,11 @@
 
 <span class="paragraphPiece" id="Talk@(Model.TalkCounter)_Piece@(Model.PieceCounter)">
 	<span class="talk_@(piece.Style)">
-		@Html.TextBoxFor(m => m.Story.BlockList[Model.BlockCounter].TalkList[Model.TalkCounter].Pieces[Model.PieceCounter].Style, 
+		@Html.TextBoxFor(m => 
+			m.Story
+				.BlockList[Model.BlockCounter]
+				.TalkList[Model.TalkCounter]
+				.Pieces[Model.PieceCounter].Style, 
 			new { 
 				@class = "darkback auxi",
 				rel = (
@@ -49,6 +53,13 @@
 			onclick="AddInputItem(this)"
 			url="@adderUrl">+</adder>
 	</span>
-				
-	<div class="suggestionBox" id="block@(Model.BlockCounter)_talkStyle@(Model.TalkCounter)_piece@(Model.PieceCounter)"></div>
+
+	@{
+		var id =
+			$"block{Model.BlockCounter}" +
+			$"_talkStyle{Model.TalkCounter}" +
+			$"_piece{Model.PieceCounter}";
+	}
+
+	<div class="suggestionBox" id="@id"></div>
 </span>

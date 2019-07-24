@@ -9,7 +9,10 @@
 	);
 }
 
-<div class="paragraph @Model.CurrentParagraph.ToString().ToLower()" id="Paragraph@(Model.ParagraphCounter)" teller="@(Model.TellerCounter)" talk="@(Model.TalkCounter)">
+<div class="paragraph @Model.CurrentParagraph.ToString().ToLower()"
+	id="Paragraph@(Model.ParagraphCounter)"
+	teller="@(Model.TellerCounter)"
+	talk="@(Model.TalkCounter)">
 
 	<span class="suggestionCharacter">
 		<adder
@@ -23,7 +26,7 @@
 			talk="@Model.TalkCounter"
 			onclick="AddInputItem(this)"
 			url="@adderUrl">+</adder>
-		
+
 		<adder
 			class="adderTeller"
 			block="@Model.BlockCounter"
@@ -37,46 +40,73 @@
 			url="@adderUrl">+</adder>
 	</span>
 
-	@if (Model.CurrentParagraph == ParagraphType.Talk)
+	@switch (Model.CurrentParagraph)
 	{
-		<span class="suggestionCharacter">
-			@Html.TextBoxFor(m => m.Story.BlockList[Model.BlockCounter].TalkList[Model.TalkCounter].Character, 
-				new { 
-					@class = "darkback auxi",
-					rel = ("block" + Model.BlockCounter + "_character_" + Model.TalkCounter), 
-					suggestion = "character", 
-					onfocus = "GetSuggestionBox(this)", 
-					onblur = "ExitSuggestionBox(this)" ,
-					tabIndex = Model.TabIndex +
-						2 * Model.Story.BlockList[Model.BlockCounter].TalkList[Model.TalkCounter].Pieces.Count
-				})
-
-			<div class="suggestionBox" id="block@(Model.BlockCounter)_character_@(Model.TalkCounter)"></div>
-		</span>
-
-		for (var p = 0; p < Model.Story.BlockList[Model.BlockCounter].TalkList[Model.TalkCounter].Pieces.Count; p++)
+		case ParagraphType.Talk:
 		{
-			Model.PieceCounter = p;
-			
-			@Html.Partial("Author/TalkPiece");
+			var pieceCount = Model.Story
+				.BlockList[Model.BlockCounter]
+				.TalkList[Model.TalkCounter]
+				.Pieces.Count;
+
+			<span class="suggestionCharacter">
+				@Html.TextBoxFor(m =>
+					m.Story
+						.BlockList[Model.BlockCounter]
+						.TalkList[Model.TalkCounter]
+						.Character,
+					new
+					{
+						@class = "darkback auxi",
+						rel = "block" + Model.BlockCounter
+						+ "_character_" + Model.TalkCounter,
+						suggestion = "character",
+						onfocus = "GetSuggestionBox(this)",
+						onblur = "ExitSuggestionBox(this)",
+						tabIndex = Model.TabIndex + 2 * pieceCount
+					}
+				)
+
+				@{
+					var id = $"block{Model.BlockCounter}" +
+						$"_character_{Model.TalkCounter}";
+				}
+
+				<div class="suggestionBox" id="@id"></div>
+			</span>
+
+			for (var p = 0; p < pieceCount; p++)
+			{
+				Model.PieceCounter = p;
+				@Html.Partial("Author/TalkPiece");
+			}
+
+			Model.TalkCounter++;
+			Model.TabIndex++;
+			break;
 		}
 
-		Model.TalkCounter++;
-		Model.TabIndex++;
+		case ParagraphType.Teller:
+		{
+			var pieceCount = Model.Story
+				.BlockList[Model.BlockCounter]
+				.TellerList[Model.TellerCounter]
+				.Pieces.Count;
+
+			for (var p = 0; p < pieceCount; p++)
+			{
+				Model.PieceCounter = p;
+				@Html.Partial("Author/TellerPiece");
+			}
+
+			Model.TellerCounter++;
+			break;
+		}
 	}
 
-	else if (Model.CurrentParagraph == ParagraphType.Teller)
-	{
-		for (var p = 0; p < Model.Story.BlockList[Model.BlockCounter].TellerList[Model.TellerCounter].Pieces.Count; p++)
-		{
-			Model.PieceCounter = p;
-			
-			@Html.Partial("Author/TellerPiece");
-		}
-		
-		Model.TellerCounter++;
-	}
-	
-	@Html.HiddenFor(m => m.Story.BlockList[Model.BlockCounter].ParagraphTypeList[Model.ParagraphCounter])
-	
+	@Html.HiddenFor(m =>
+		m.Story
+			.BlockList[Model.BlockCounter]
+			.ParagraphTypeList[Model.ParagraphCounter]
+	)
 </div>
