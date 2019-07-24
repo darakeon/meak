@@ -8,14 +8,14 @@
 
 	var route = new { episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
 	var formId = "form_title";
-	
+
 	var html = new { id = formId };
 
 	var ajaxOptions = new AjaxOptions
-	{ 
-		HttpMethod = "Post", 
-		OnBegin = "SaveBegin('" + formId + "')", 
-		OnSuccess = "SaveSuccess('" + formId + "')", 
+	{
+		HttpMethod = "Post",
+		OnBegin = "SaveBegin('" + formId + "')",
+		OnSuccess = "SaveSuccess('" + formId + "')",
 		OnFailure = "SaveFailure('" + formId + "')"
 	};
 
@@ -56,10 +56,12 @@
 				<span class="paragraphCountTitle">
 					Paragraphs last count: @paragraphsCount
 				</span>
-				
-				<br/>
+
+				<br />
 
 				@Html.TextAreaFor(m => m.Story.Summary)
+
+				@Html.TextBoxFor(m => m.Story.Breaks)
 			</div>
 		}
 	</div>
@@ -72,7 +74,6 @@
 	@for (var s = 0; s < Model.Story.BlockList.Count; s++)
 	{
 		Model.BlockCounter = s;
-
 		@Html.Partial("Author/Block")
 	}
 </div>

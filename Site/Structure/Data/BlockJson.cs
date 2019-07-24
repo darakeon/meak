@@ -129,7 +129,7 @@ namespace Structure.Data
 					Block.TellerList.Add(teller);
 					break;
 				case ParagraphType.Page:
-					Block.BrList.Add(paragraph.Breaks);
+					Block.PageList.Add(paragraph.Breaks);
 					break;
 			}
 		}
@@ -139,7 +139,14 @@ namespace Structure.Data
 		{
 			FileInfo.CreateIfNotExists("{}");
 
-			MainInfoJson.Save(title, "Story summary.", folderPath, seasonID, episodeID);
+			MainInfoJson.Save(
+				title,
+				"-",
+				0,
+				folderPath,
+				seasonID,
+				episodeID
+			);
 
 			fakeStory();
 
@@ -199,6 +206,7 @@ namespace Structure.Data
 
 			var talkCounter = 0;
 			var tellerCounter = 0;
+			var pageCounter = 0;
 
 			foreach (var paragraph in Block.ParagraphTypeList)
 			{
@@ -213,6 +221,10 @@ namespace Structure.Data
 					case ParagraphType.Teller:
 						child = ParagraphJson.SetTeller(Block.TellerList[tellerCounter]);
 						tellerCounter++;
+						break;
+					case ParagraphType.Page:
+						child = ParagraphJson.SetPage(Block.PageList[pageCounter]);
+						pageCounter++;
 						break;
 					default:
 						throw new Exception($"Not recognized Paragraph [{paragraph}].");

@@ -65,6 +65,15 @@ namespace Structure.Data
 			return setParagraph(teller);
 		}
 
+		public static Paragraph SetPage(Int32? page)
+		{
+			return new Paragraph
+			{
+				Type = ParagraphType.Page,
+				Breaks = page
+			};
+		}
+
 		private static Paragraph setParagraph<T>(Paragraph<T> paragraph) where T : struct
 		{
 			return new Paragraph

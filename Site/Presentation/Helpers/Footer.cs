@@ -4,9 +4,9 @@ namespace Presentation.Helpers
 {
 	public class Footer
 	{
-		public Footer(Int32 breaks, Int32 page)
+		public Footer(Int32? breaks, Int32 page)
 		{
-			Breaks = breaks;
+			Breaks = breaks ?? 0;
 			Page = page;
 		}
 

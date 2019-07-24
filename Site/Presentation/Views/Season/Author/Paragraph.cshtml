@@ -12,7 +12,8 @@
 <div class="paragraph @Model.CurrentParagraph.ToString().ToLower()"
 	id="Paragraph@(Model.ParagraphCounter)"
 	teller="@(Model.TellerCounter)"
-	talk="@(Model.TalkCounter)">
+	talk="@(Model.TalkCounter)"
+	page="@(Model.PageCounter)">
 
 	<span class="suggestionCharacter">
 		<adder
@@ -24,6 +25,7 @@
 			paragraph="@Model.ParagraphCounter"
 			teller="@Model.TellerCounter"
 			talk="@Model.TalkCounter"
+			page="@Model.PageCounter"
 			onclick="AddInputItem(this)"
 			url="@adderUrl">+</adder>
 
@@ -36,6 +38,20 @@
 			paragraph="@Model.ParagraphCounter"
 			teller="@Model.TellerCounter"
 			talk="@Model.TalkCounter"
+			page="@Model.PageCounter"
+			onclick="AddInputItem(this)"
+			url="@adderUrl">+</adder>
+
+		<adder
+			class="adderPage"
+			block="@Model.BlockCounter"
+			caller="@Model.CurrentParagraph"
+			type="Paragraph"
+			subtype="Page"
+			paragraph="@Model.ParagraphCounter"
+			teller="@Model.TellerCounter"
+			talk="@Model.TalkCounter"
+			page="@Model.PageCounter"
 			onclick="AddInputItem(this)"
 			url="@adderUrl">+</adder>
 	</span>
@@ -100,6 +116,23 @@
 			}
 
 			Model.TellerCounter++;
+			break;
+		}
+
+		case ParagraphType.Page:
+		{
+			@Html.TextBoxFor(m =>
+				m.Story
+					.BlockList[Model.BlockCounter]
+					.PageList[Model.PageCounter],
+				new
+				{
+					@class = "text darkback",
+					tabIndex = Model.TabIndex++
+				}
+			)
+
+			Model.PageCounter++;
 			break;
 		}
 	}

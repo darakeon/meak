@@ -7,7 +7,14 @@ namespace Structure.Data
 {
 	public static class MainInfoJson
 	{
-		public static void Save(String title, String summary, String folderPath, String seasonID, String episodeID)
+		public static void Save(
+			String title,
+			String summary,
+			Int32 breaks,
+			String folderPath,
+			String seasonID,
+			String episodeID
+		)
 		{
 			var path = Paths.BlockFilePath(folderPath, seasonID, episodeID, "_");
 
@@ -17,6 +24,7 @@ namespace Structure.Data
 
 			summaryPart.Title = title;
 			summaryPart.Summary = summary;
+			summaryPart.Breaks = breaks;
 			summaryPart.Season = seasonID;
 			summaryPart.Episode = episodeID;
 

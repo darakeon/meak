@@ -43,7 +43,7 @@ namespace Structure.Entities.System
 		public String Summary { get; set; }
 		public Int32 Breaks { get; set; }
 
-		public Int16 PageStart { get; set; }
+		public Int16? PageStart { get; set; }
 
 		public List<Block> BlockList { get; set; }
 

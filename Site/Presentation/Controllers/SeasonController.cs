@@ -80,7 +80,14 @@ namespace Presentation.Controllers
 		[HttpPost]
 		public void EditTitle(SeasonEpisodeModel model, String seasonID, String episodeID)
 		{
-			MainInfoJson.Save(model.Story.Title, model.Story.Summary, model.Paths.Json, seasonID, episodeID);
+			MainInfoJson.Save(
+				model.Story.Title,
+				model.Story.Summary,
+				model.Story.Breaks,
+				model.Paths.Json,
+				seasonID,
+				episodeID
+			);
 		}
 
 
@@ -101,7 +108,7 @@ namespace Presentation.Controllers
 
 
 		[HttpPost]
-		public ActionResult Adder(Int32 block, String type, String subtype, Int32? paragraph, Int32? teller, Int32? talk, Int32? piece)
+		public ActionResult Adder(Int32 block, String type, String subtype, Int32? paragraph, Int32? teller, Int32? talk, Int32? page, Int32? piece)
 		{
 			var adder = new Adder();
 
@@ -116,10 +123,13 @@ namespace Presentation.Controllers
 					adder.SetPieceTalk(block, piece ?? 0, talk ?? 0, teller ?? 0);
 					break;
 				case "paragraphteller":
-					adder.SetParagraphTeller(block, paragraph ?? 0, teller ?? 0, talk ?? 0);
+					adder.SetParagraphTeller(block, paragraph ?? 0, teller ?? 0, talk ?? 0, page ?? 0);
 					break;
 				case "paragraphtalk":
-					adder.SetParagraphTalk(block, paragraph ?? 0, talk ?? 0, teller ?? 0);
+					adder.SetParagraphTalk(block, paragraph ?? 0, teller ?? 0, talk ?? 0, page ?? 0);
+					break;
+				case "paragraphpage":
+					adder.SetParagraphPage(block, paragraph ?? 0, teller ?? 0, talk ?? 0, page ?? 0);
 					break;
 				default:
 					throw new Exception("Unknown Adder Type.");

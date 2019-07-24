@@ -65,63 +65,75 @@ namespace Presentation.Helpers
 			return paragraphList;
 		}
 
-		private void setCountersAndView(Int32 piece, Int32 teller, Int32 talk, String type)
+		private void setCountersAndView(Int32 piece, Int32 teller, Int32 talk, Int32 page, String type)
 		{
 			Model.PieceCounter = piece;
-			setCountersAndView(teller, talk, type + "Piece");
+			setCountersAndView(teller, talk, page, type + "Piece");
 		}
 
-
-		public void SetParagraphTeller(Int32 block, Int32 paragraph, Int32 teller, Int32 talk)
+		public void SetParagraphTeller(Int32 block, Int32 paragraph, Int32 teller, Int32 talk, Int32 page)
 		{
 			Model.Story.BlockList[block].TellerList =
 				setParagraph<Teller, TellerStyle>(block, teller, paragraph, ParagraphType.Teller);
 
-			setCountersAndView(paragraph, teller, talk);
+			setCountersAndView(paragraph, teller, talk, page);
 		}
 
-		public void SetParagraphTalk(Int32 block, Int32 paragraph, Int32 talk, Int32 teller)
+		public void SetParagraphTalk(Int32 block, Int32 paragraph, Int32 teller, Int32 talk, Int32 page)
 		{
 			Model.Story.BlockList[block].TalkList =
 				setParagraph<Talk, TalkStyle>(block, talk, paragraph, ParagraphType.Talk);
 
-			setCountersAndView(paragraph, teller, talk);
+			setCountersAndView(paragraph, teller, talk, page);
 		}
 
-		private IList<TParagraph> setParagraph<TParagraph, TPiece>(Int32 block, Int32 teller, Int32 paragraph, ParagraphType paragraphType)
+		private IList<TParagraph> setParagraph<TParagraph, TPiece>(Int32 block, Int32 size, Int32 paragraph, ParagraphType paragraphType)
 			where TParagraph : Paragraph<TPiece>, new()
 			where TPiece : struct
 		{
 			var paragraphList = new List<TParagraph>();
 
-			for (var t = 0; t <= teller; t++)
+			for (var t = 0; t <= size; t++)
 			{
 				paragraphList.Add(new TParagraph());
-				
+
 				var tPiece = (TPiece)Enum.Parse(typeof(TPiece), "Default");
 				paragraphList.Last().Pieces.Add(new Piece<TPiece>(tPiece));
 			}
 
-			for (var p = 0; p <= paragraph; p++)
-			{
-				Model.Story.BlockList[block].ParagraphTypeList.Add(paragraphType);
-			}
+			setBlockList(block, paragraph, paragraphType);
 
 			return paragraphList;
 		}
 
-		private void setCountersAndView(Int32 paragraph, Int32 teller, Int32 talk)
+		public void SetParagraphPage(Int32 block, Int32 paragraph, Int32 teller, Int32 talk, Int32 page)
+		{
+			Model.Story.BlockList[block].PageList = new Int32?[page+1];
+			setBlockList(block, paragraph, ParagraphType.Page);
+			setCountersAndView(paragraph, teller, talk, page);
+		}
+
+		private void setBlockList(Int32 block, Int32 paragraph, ParagraphType paragraphType)
+		{
+			for (var p = 0; p <= paragraph; p++)
+			{
+				Model.Story.BlockList[block].ParagraphTypeList.Add(paragraphType);
+			}
+		}
+
+		private void setCountersAndView(Int32 paragraph, Int32 teller, Int32 talk, Int32 page)
 		{
 			Model.ParagraphCounter = paragraph;
 
-			setCountersAndView(teller, talk, "Paragraph");
+			setCountersAndView(teller, talk, page, "Paragraph");
 		}
 
 
-		private void setCountersAndView(Int32 teller, Int32 talk, String type)
+		private void setCountersAndView(Int32 teller, Int32 talk, Int32 page, String type)
 		{
 			Model.TellerCounter = teller;
 			Model.TalkCounter = talk;
+			Model.PageCounter = page;
 
 			View = "Author/" + type;
 		}

@@ -5,7 +5,7 @@
 
 @if (!Authenticate.IsAuthenticated && Model.HasSummary())
 {
-	var page = Model.BlockList.Sum(b => b.BrList.Count) + 1;
+	var page = Model.BlockList.Sum(b => b.PageList.Count) + 1;
 	var style = page % 2 == 0 ? "even" : "odd";
 
 	<div class="just-print summary @($"page-{style}-item")">

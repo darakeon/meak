@@ -48,7 +48,7 @@
 @{
 	var lastBlock = Model.Story.BlockList.Count - 1;
 	var page = Authenticate.IsAuthenticated
-		? Model.Story.PageStart
+		? Model.Story.PageStart ?? 0
 		: 0;
 	var pageItemTypes = new[] { "odd", "even" };
 	var lastPage = page;
@@ -147,7 +147,7 @@
 						case ParagraphType.Page:
 							@Html.Partial(
 								"Partial/PrintFooter",
-								new Footer(block.BrList[pageInBlock], ++page)
+								new Footer(block.PageList[pageInBlock], ++page)
 							)
 
 							pageInBlock++;

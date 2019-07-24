@@ -78,9 +78,21 @@ function AddParagraph(obj) {
 	var newTellerParagraph = tellerParagraph +
 		(caller === 'teller' ? 1 : 0);
 
+	var pageParagraph = NumericValueAttr(obj, 'page');
+	var newPageParagraph = pageParagraph +
+		(caller === 'page' ? 1 : 0);
+
 	var adderPage = $(obj).attr("url");
 
-	$.post(adderPage, { block: block, type: "paragraph", subtype: subtype, paragraph: newParagraph, teller: newTellerParagraph, talk: newTalkParagraph }, function (data) {
+	$.post(adderPage, {
+		block: block,
+		type: "paragraph",
+		subtype: subtype,
+		paragraph: newParagraph,
+		teller: newTellerParagraph,
+		talk: newTalkParagraph,
+		page: newPageParagraph,
+	}, function (data) {
 
 		AjustNextParagraphs(block, paragraph, subtype);
 
@@ -104,11 +116,9 @@ function AjustParagraph(obj, paragraph, subtype) {
 	if (currentParagraphNumber > paragraph) {
 		GetInputValues(obj);
 
-		
 		AjustNumbers(obj, "paragraph", currentParagraphNumber);
 
 		var currentTypedParagraphNumber = NumericValueAttr(obj, subtype);
-
 		
 		AjustNumbers(obj, subtype, currentTypedParagraphNumber);
 
@@ -117,7 +127,6 @@ function AjustParagraph(obj, paragraph, subtype) {
 		}
 
 		AjustDivSubTypePosition(obj, subtype);
-
 
 		SetInputValues(obj);
 	}
@@ -131,10 +140,6 @@ function AjustDivSubTypePosition(obj, subtype) {
 	$(obj).attr(subtype, rightPosition);
 }
 
-
-
-
-
 function AjustNumbers(obj, preced, currentNumber) {
 	var rightPieceNumber = currentNumber + 1;
 
@@ -142,16 +147,13 @@ function AjustNumbers(obj, preced, currentNumber) {
 	var right = "$1" + rightPieceNumber;
 
 	$(obj).html(
-			$(obj).html().replace(current, right)
-		);
+		$(obj).html().replace(current, right)
+	);
 
 	$(obj).attr("id",
-			$(obj).attr("id").replace(current, right)
-		);
+		$(obj).attr("id").replace(current, right)
+	);
 }
-
-
-
 
 function GetInputValues(obj) {
 	$("#" + obj.id + " input").each(function () {

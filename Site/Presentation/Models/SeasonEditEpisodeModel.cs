@@ -20,6 +20,7 @@ namespace Presentation.Models
 		public Int32 BlockCounter { get; set; }
 		public Int32 TellerCounter { get; set; }
 		public Int32 TalkCounter { get; set; }
+		public Int32 PageCounter { get; set; }
 		public Int32 ParagraphCounter { get; set; }
 		public Int32 PieceCounter { get; set; }
 
