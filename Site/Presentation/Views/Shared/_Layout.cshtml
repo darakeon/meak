@@ -1,4 +1,5 @@
-﻿@model Presentation.Models.BaseModel
+﻿@using Structure.Helpers
+@model Presentation.Models.BaseModel
 
 @{
 	var url = Request.Url.Scheme + "://" + Request.Url.Authority;
@@ -30,11 +31,14 @@
 </head>
 
 <body>
-	<div id="fb-root"></div>
-	<script async defer
-		crossorigin="anonymous"
-		src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.3&appId=1471128433148292&autoLogAppEvents=1">
-	</script>
+	@if (!UrlUserType.IsAuthor())
+	{
+		<div id="fb-root"></div>
+		<script async defer
+		        crossorigin="anonymous"
+		        src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.3&appId=1471128433148292&autoLogAppEvents=1">
+		</script>
+	}
 
 	<div class="login">
 		@Html.Partial("Partial/LogOn")
