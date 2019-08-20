@@ -71,7 +71,16 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Rith entra. Minutos depois, Rith e Hery estão em um laboratório. Do outro lado do vidro, uma máquina. Uma pessoa entra na sala, com uma roupa de gala. Hery não entende."
+					"text": "Rith entra."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Minutos depois, Rith e Hery estão em um laboratório. Do outro lado do vidro, uma máquina. Uma pessoa entra na sala, com uma roupa de gala. Hery não entende."
 				}
 			]
 		},
@@ -124,6 +133,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "talk",
 			"character": "Rith",
 			"pieces": [
@@ -142,10 +155,6 @@
 					"text": "Resistiu todas as vezes até agora."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 4
 		},
 		{
 			"type": "teller",
@@ -200,7 +209,7 @@
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
+					"type": "first",
 					"text": "Duas horas depois."
 				}
 			]
@@ -285,6 +294,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -302,10 +315,6 @@
 					"text": "De nada."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 5
 		},
 		{
 			"type": "teller",
@@ -483,6 +492,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 0
+		},
+		{
 			"type": "talk",
 			"character": "Halen",
 			"pieces": [
@@ -528,10 +541,6 @@
 					"text": "Amor, calma."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -720,6 +729,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 0
+		},
+		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -747,10 +760,6 @@
 					"text": "Quero construir um corpo para você. Não vou te deixar nessa geringonça por muito tempo."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -904,6 +913,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 0
+		},
+		{
 			"type": "talk",
 			"character": "Halen",
 			"pieces": [
@@ -941,10 +954,6 @@
 					"text": "Alguém pode ter movido o controle para outro lugar?"
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -1142,6 +1151,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 0
+		},
+		{
 			"type": "talk",
 			"character": "Rith",
 			"pieces": [
@@ -1180,10 +1193,6 @@
 					"text": "Podemos resolver isso. Terá que confiar em nós."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 1
 		},
 		{
 			"type": "talk",
@@ -1385,7 +1394,7 @@
 		},
 		{
 			"type": "page",
-			"breaks": 5
+			"breaks": 1
 		}
 	]
 }

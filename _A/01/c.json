@@ -36,7 +36,7 @@
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
+					"type": "first",
 					"text": "Perto dali, Nilrem sai de trás de um objeto coberto."
 				}
 			]
@@ -105,7 +105,16 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "João solta Nilrem. Dali a pouco, Modret chega, apoiado em Lisa. O objeto coberto era a nave. Lisa ajuda Modret a subir. Modret segura a mão de Lisa."
+					"text": "João solta Nilrem."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Modret chega, apoiou-se em Lisa. O objeto coberto era a nave. Lisa ajuda Modret a subir. Modret segura a mão de Lisa."
 				}
 			]
 		},
@@ -169,6 +178,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "talk",
 			"character": "Modret",
 			"pieces": [
@@ -196,10 +209,6 @@
 					"text": "Nilrem sai e entrega a câmera e uma chave para João."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 1
 		},
 		{
 			"type": "talk",
@@ -367,6 +376,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "talk",
 			"character": "Domnik",
 			"pieces": [
@@ -405,10 +418,6 @@
 					"text": "É seu irmão?"
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -577,6 +586,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 2
+		},
+		{
 			"type": "talk",
 			"character": "Modret",
 			"pieces": [
@@ -602,10 +615,6 @@
 					"text": "Domnik olha para Nilrem um instante. Volta a olhar para Modret."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 1
 		},
 		{
 			"type": "talk",
@@ -784,6 +793,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "talk",
 			"character": "Domnik",
 			"pieces": [
@@ -823,10 +836,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 2
-		},
-		{
 			"type": "talk",
 			"character": "Domnik",
 			"pieces": [
@@ -850,7 +859,7 @@
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
+					"type": "first",
 					"text": "No quarto, Nilrem sai e olha em volta. Retorna."
 				}
 			]
@@ -965,6 +974,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "talk",
 			"character": "general",
 			"pieces": [
@@ -1021,10 +1034,6 @@
 					"text": "O quê?"
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 1
 		},
 		{
 			"type": "talk",
@@ -1206,6 +1215,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 0
+		},
+		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -1233,10 +1246,6 @@
 					"text": "O projeto é espetacular. Na teoria funciona, com uma ou outra correção. Ele provavelmente não revisou muito bem o que fez. Isso é compreensível, com o tamanho do projeto."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -1398,6 +1407,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 0
+		},
+		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -1416,9 +1429,5 @@
 				}
 			]
 		},
-		{
-			"type": "page",
-			"breaks": 3
-		}
 	]
 }

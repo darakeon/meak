@@ -66,8 +66,8 @@
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
-					"text": "Dali a pouco, Hery está caminhando em um mercado. Uma criança de cabelos loiros e olhos azuis pega a mão esquerda de Hery. Depois a direita."
+					"type": "first",
+					"text": "Hery está caminhando em um mercado. Uma criança de cabelos loiros e olhos azuis pega a mão esquerda de Hery. Depois a direita."
 				}
 			]
 		},
@@ -191,6 +191,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -208,10 +212,6 @@
 					"text": "Aqui eles fazem de várias cores?"
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -418,6 +418,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 3
+		},
+		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -445,10 +449,6 @@
 					"text": "Você não é o único que quero."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "teller",
@@ -640,6 +640,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 0
+		},
+		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -669,10 +673,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 0
-		},
-		{
 			"type": "talk",
 			"character": "Rith",
 			"pieces": [
@@ -696,7 +696,7 @@
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
+					"type": "first",
 					"text": "Noite. Lobo entra no quarto. Lisa acorda, ofegante. Vai acordar Hery, mas Hery não está na cama. Lobo avança em Lisa, pegando seu pulso. Hery chega no quarto e bate com uma vassoura na cabeça do animal. Bate mais, até ter certeza que o animal não reage mais. Pega um lençol e enrola o pulso de Lisa."
 				}
 			]
@@ -801,6 +801,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 2
+		},
+		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -828,10 +832,6 @@
 					"text": "Edmont disse que..."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 1
 		},
 		{
 			"type": "talk",
@@ -1019,7 +1019,7 @@
 		},
 		{
 			"type": "page",
-			"breaks": 7
+			"breaks": 0
 		},
 		{
 			"type": "teller",
