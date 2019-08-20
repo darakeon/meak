@@ -147,10 +147,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 0
-		},
-		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -238,6 +234,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "talk",
 			"character": "Edmont",
 			"pieces": [
@@ -251,7 +251,7 @@
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
+					"type": "first",
 					"text": "Agatha, Angely e Edmont tomam o café da manhã. Arrumam tudo."
 				}
 			]
@@ -355,10 +355,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 2
-		},
-		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -456,6 +452,10 @@
 					"text": "Isso é bom?"
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 2
 		},
 		{
 			"type": "talk",
@@ -567,10 +567,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 1
-		},
-		{
 			"type": "talk",
 			"character": "Agatha",
 			"pieces": [
@@ -629,6 +625,10 @@
 					"text": "É tipo um sorteio, como eu vou explicar... Que tal tirarmos agora?"
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -749,10 +749,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 0
-		},
-		{
 			"type": "talk",
 			"character": "Júlio",
 			"pieces": [
@@ -827,15 +823,19 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Hilário pra você! Vamos levantando que temos compras a fazer."
+					"text": "Hilário pra você! Levantando, temos compras a fazer."
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 0
 		},
 		{
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
+					"type": "first",
 					"text": "Supermercado."
 				}
 			]
@@ -972,14 +972,10 @@
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
+					"type": "first",
 					"text": "Caixa do supermercado, alguns minutos depois."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -1050,6 +1046,10 @@
 					"text": "Tá gente, mostrem as camas que vocês escolheram, vou mandar entregar em casa."
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 3
 		},
 		{
 			"type": "teller",
@@ -1233,10 +1233,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 0
-		},
-		{
 			"type": "talk",
 			"character": "Agatha",
 			"pieces": [
@@ -1302,6 +1298,10 @@
 					"text": "Legal!"
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 1
 		},
 		{
 			"type": "talk",
@@ -1459,6 +1459,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 11
+		},
+		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -1466,10 +1470,6 @@
 					"text": "De noite, todo mundo dorme. De repente, Edmont está com uma espada no pescoço de Angely. Têm mais idade."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -1608,7 +1608,7 @@
 		},
 		{
 			"type": "page",
-			"breaks": 13
+			"breaks": 11
 		}
 	]
 }

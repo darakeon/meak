@@ -61,7 +61,7 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Lisa entra. Hery vai atrás. Lisa vai até o quarto. Os dois começam a se beijar."
+					"text": "Lisa entra. Hery vai atrás. Lisa vai até o quarto. Começam a se beijar."
 				}
 			]
 		},
@@ -813,15 +813,24 @@
 			]
 		},
 		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "default",
+					"text": "Lisa consente com a cabeça. Loki ajuda com as malas."
+				}
+			]
+		},
+		{
 			"type": "page",
-			"breaks": 1
+			"breaks": 0
 		},
 		{
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
-					"text": "Lisa consente com a cabeça. Loki ajuda com as malas. Hery está em casa, no sofá."
+					"type": "first",
+					"text": "Hery está em casa, no sofá."
 				}
 			]
 		},
@@ -1004,10 +1013,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 1
-		},
-		{
 			"type": "talk",
 			"character": "Lisa",
 			"pieces": [
@@ -1016,6 +1021,10 @@
 					"text": "Confesso que o quanto vocês podem ter tentado me assusta um pouco."
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -1183,10 +1192,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 0
-		},
-		{
 			"type": "talk",
 			"character": "Lisa",
 			"pieces": [
@@ -1195,6 +1200,10 @@
 					"text": "O que você quer aqui?"
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 1
 		},
 		{
 			"type": "talk",
@@ -1336,7 +1345,7 @@
 		},
 		{
 			"type": "page",
-			"breaks": 2
+			"breaks": 3
 		}
 	]
 }
