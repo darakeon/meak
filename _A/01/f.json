@@ -330,7 +330,7 @@
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
+					"type": "first",
 					"text": "Chegando ao quintal, Júlio e Agatha vêem a piscina quebrada, e algo dentro dela."
 				}
 			]
@@ -463,6 +463,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 2
+		},
+		{
 			"type": "teller",
 			"pieces": [
 				{
@@ -480,10 +484,6 @@
 					"text": "Que aconteceu? Dá onde você veio?"
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -685,6 +685,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "talk",
 			"character": "Júlio",
 			"pieces": [
@@ -703,10 +707,6 @@
 					"text": "Mas não tenho nada que prove minha existência aqui na Terra."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -905,6 +905,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "talk",
 			"character": "Angely",
 			"pieces": [
@@ -943,10 +947,6 @@
 					"text": "Como assim?"
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "talk",
@@ -1116,6 +1116,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 1
+		},
+		{
 			"type": "talk",
 			"character": "Agatha",
 			"pieces": [
@@ -1144,10 +1148,6 @@
 					"text": "Legal! Eu sou mais nova."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 3
 		},
 		{
 			"type": "talk",
@@ -1271,7 +1271,7 @@
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
+					"type": "first",
 					"text": "Algum tempo depois."
 				}
 			]
@@ -1295,6 +1295,10 @@
 					"text": "Não. Me disseram que fazem isso pra tirar aqui na terra, mas lá não. Você ia me contar sobre esse Papai Noel."
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 2
 		},
 		{
 			"type": "talk",
@@ -1335,10 +1339,6 @@
 					"text": "Ué, você disse, embaixo da árvore."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 1
 		},
 		{
 			"type": "talk",
@@ -1484,7 +1484,16 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Angely levanta e sai. Dali a pouco, Agatha está jogando. Júlio se aproxima."
+					"text": "Angely levanta e sai."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Agatha está jogando. Júlio se aproxima."
 				}
 			]
 		},
@@ -1497,6 +1506,10 @@
 					"text": "Do que vocês andaram falando?"
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 1
 		},
 		{
 			"type": "talk",
@@ -1565,10 +1578,6 @@
 					"text": "A comida!"
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "teller",
@@ -1683,7 +1692,20 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Angely e Júlio abrem todas as janelas e começam a refazer o jantar. Uma hora depois está pronto."
+					"text": "Angely e Júlio abrem todas as janelas e começam a refazer o jantar."
+				}
+			]
+		},
+		{
+			"type": "page",
+			"breaks": 5
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Uma hora depois está pronta a janta."
 				}
 			]
 		},
@@ -1777,10 +1799,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 0
-		},
-		{
 			"type": "talk",
 			"character": "Edmont",
 			"pieces": [
@@ -1870,6 +1888,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 0
+		},
+		{
 			"type": "talk",
 			"character": "Agatha",
 			"pieces": [
@@ -1923,7 +1945,7 @@
 			"type": "teller",
 			"pieces": [
 				{
-					"type": "default",
+					"type": "first",
 					"text": "Madrugada."
 				}
 			]
@@ -1997,10 +2019,6 @@
 					"text": "Já sei."
 				}
 			]
-		},
-		{
-			"type": "page",
-			"breaks": 0
 		},
 		{
 			"type": "teller",
@@ -2108,6 +2126,10 @@
 					"text": "Se continuar assim, em três anos eu vou ter gastado todas as minhas economias! Acho que vou colocar a piscina em outro lugar!"
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 0
 		},
 		{
 			"type": "teller",
@@ -2265,10 +2287,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 0
-		},
-		{
 			"type": "talk",
 			"character": "Angely",
 			"pieces": [
@@ -2405,6 +2423,10 @@
 			]
 		},
 		{
+			"type": "page",
+			"breaks": 0
+		},
+		{
 			"type": "talk",
 			"character": "Agatha",
 			"pieces": [
@@ -2493,10 +2515,6 @@
 			]
 		},
 		{
-			"type": "page",
-			"breaks": 2
-		},
-		{
 			"type": "talk",
 			"character": "Agatha",
 			"pieces": [
@@ -2521,7 +2539,16 @@
 			"pieces": [
 				{
 					"type": "default",
-					"text": "Todo mundo sobe a escada e vai para as camas. Minutos depois..."
+					"text": "Todo mundo sobe a escada e vai para as camas."
+				}
+			]
+		},
+		{
+			"type": "teller",
+			"pieces": [
+				{
+					"type": "first",
+					"text": "Minutos depois..."
 				}
 			]
 		},
@@ -2574,6 +2601,10 @@
 					"text": "Agora ele ouviu."
 				}
 			]
+		},
+		{
+			"type": "page",
+			"breaks": 2
 		}
 	]
 }
