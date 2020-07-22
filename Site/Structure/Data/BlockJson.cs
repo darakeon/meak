@@ -131,6 +131,8 @@ namespace Structure.Data
 				case ParagraphType.Page:
 					Block.PageCount++;
 					break;
+				default:
+					throw new NotImplementedException();
 			}
 		}
 		#endregion
@@ -148,20 +150,27 @@ namespace Structure.Data
 				episodeID
 			);
 
-			fakeStory();
+			var episode = new Episode
+			{
+				ID = episodeID,
+				Season = new Season
+				{
+					ID = seasonID,
+				},
+			};
+
+			fakeStory(episode);
 
 			WriteStory();
 		}
 
-		public void WriteStory()
+		private void fakeStory(Episode episode)
 		{
-			var story = makeStory();
-			var path = Paths.BlockFilePath(folderPath, seasonID, episodeID, blockID);
-			path.Write(story);
-		}
-
-		private void fakeStory()
+			Block = new Block(0)
 			{
+				Episode = episode
+			};
+
 			for (var j = 0; j < 3; j++)
 			{
 				Block.ParagraphTypeList.Add(ParagraphType.Teller);
@@ -194,6 +203,13 @@ namespace Structure.Data
 				},
 				Character = "Keon"
 			};
+		}
+
+		public void WriteStory()
+		{
+			var story = makeStory();
+			var path = Paths.BlockFilePath(folderPath, seasonID, episodeID, blockID);
+			path.Write(story);
 		}
 
 		private BlockPart makeStory()
@@ -239,13 +255,19 @@ namespace Structure.Data
 
 		private void verifyProperties(BlockPart block)
 		{
-			if (block.Block != Block.ID)
+			if (block.Block == null)
+				block.Block = Block.ID;
+			else if (block.Block != Block.ID)
 				throw new Exception($"Block [{block.Block}] and file name [{Block.ID}] doesn't match.");
 
-			if (block.Episode != Block.Episode.ID)
+			if (block.Episode == null)
+				block.Episode = Block.Episode.ID;
+			else if (block.Episode != Block.Episode.ID)
 				throw new Exception($"Episode [{block.Episode}] and file path [{Block.Episode.ID}] doesn't match.");
 
-			if (block.Season != Block.Episode.Season.ID)
+			if (block.Season == null)
+				block.Season = Block.Episode.Season.ID;
+			else if (block.Season != Block.Episode.Season.ID)
 				throw new Exception($"Season [{block.Season}] and file path [{Block.Episode.Season.ID}] doesn't match.");
 		}
 	}

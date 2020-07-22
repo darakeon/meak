@@ -177,8 +177,8 @@ namespace Presentation.Controllers
 
 			return RedirectToAction("Episode", new
 			{
-				season = json.Block.Episode.Season.ID,
-				episode = json.Block.Episode.ID
+				seasonID = json.Block.Episode.Season.ID,
+				episodeID = json.Block.Episode.ID
 			});
 		}
 
