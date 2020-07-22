@@ -10,14 +10,13 @@ namespace Structure.Entities.Json
 		public ParagraphType Type { get; set; }
 		public String Character { get; set; }
 		public IList<Piece> Pieces { get; set; }
-		public Int32? Breaks { get; set; }
 
 		internal Boolean HasText
 		{
 			get
 			{
 				if (Type == ParagraphType.Page)
-					return Breaks != null;
+					return true;
 
 				return Pieces.Any(
 					pc => !String.IsNullOrEmpty(pc.Text)

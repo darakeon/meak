@@ -14,7 +14,6 @@ namespace Structure.Entities.System
 			ParagraphTypeList = new List<ParagraphType>();
 			TalkList = new List<Talk>();
 			TellerList = new List<Teller>();
-			PageList = new List<Int32?>();
 		}
 
 		public Block(Int32 position) : this()
@@ -31,7 +30,7 @@ namespace Structure.Entities.System
 		public IList<ParagraphType> ParagraphTypeList { get; set; }
 		public IList<Talk> TalkList { get; set; }
 		public IList<Teller> TellerList { get; set; }
-		public IList<Int32?> PageList { get; set; }
+		public Int32 PageCount { get; set; }
 
 		public override String ToString()
 		{

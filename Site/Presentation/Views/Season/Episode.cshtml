@@ -44,11 +44,10 @@
 	var page = Authenticate.IsAuthenticated
 		? Model.Story.PageStart ?? 0
 		: 0;
-	var pageItemTypes = new[] { "odd", "even" };
+	var pageItemTypes = new[] { "even", "odd" };
 	var lastPage = page;
+	page++;
 }
-
-@Html.Partial("Partial/PrintHeader", Model.Story)
 
 <div class="blocks">
 	@for (var s = 0; s <= lastBlock; s++)
@@ -56,19 +55,19 @@
 		var block = Model.Story.BlockList[s];
 		var trigger = false;
 		var pageInBlock = 0;
-
+		
 		<div class="block @if (block.ID == Model.ReadingBlock) { @("reading") }" id="Block@(s)">
 			@foreach (var paragraph in block.ParagraphTypeList)
 			{
 				var pageItem = $"page-{pageItemTypes[page % 2]}-item";
-
 				var paragraphId = s + "_" + tellerCounter + "_" + talkCounter;
 
-				<div class="paragraph @paragraph.ToString().ToLower() @(trigger ? "trigger-hidden" : "") @pageItem">
-
+				<div class="paragraph @paragraph.ToString().ToLower() @(trigger ? "trigger-hidden" : "") @(lastPage != page ? "break" : "") @pageItem">
 					@if (lastPage != page)
 					{
 						@Html.Partial("Partial/PrintHeader", Model.Story)
+						@Html.Partial("Partial/PrintFooter", page)
+
 						lastPage = page;
 					}
 
@@ -139,11 +138,7 @@
 							break;
 
 						case ParagraphType.Page:
-							@Html.Partial(
-								"Partial/PrintFooter",
-								new Footer(block.PageList[pageInBlock], ++page)
-							)
-
+							page++;
 							pageInBlock++;
 
 							break;

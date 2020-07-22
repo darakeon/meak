@@ -36,11 +36,6 @@ p.title
 	margin-left: 1cm;
 }
 
-.block .paragraph:nth-child(1) .header-box .header
-{
-	margin-top: -30px;
-}
-
 .blocks .header-box,
 .summary .header-box
 {
@@ -53,15 +48,19 @@ p.title
 	width: 100%;
 	text-align: center;
 	opacity: 0.5;
-	margin-top: -50px;
 	top: 0;
-}
-
-.blocks .header,
-.summary .header
-{
 	margin-top: -30px;
 }
+
+	.block .paragraph:first-child .header
+	{
+		margin-top: -30px;
+	}
+
+	.block:first-child .paragraph:first-child .header
+	{
+		margin-top: -83px;
+	}
 
 	.header .title
 	{
@@ -87,7 +86,6 @@ p.title
 .footer
 {
 	position: relative;
-	page-break-after: always;
 }
 
 	.footer span
@@ -96,13 +94,17 @@ p.title
 		width: 100%;
 		text-align: center;
 		opacity: 0.5;
-		bottom: 0;
-		margin-bottom: -40px;
+		margin-top: 657px;
 	}
 
 	.summary .footer span
 	{
 		margin-bottom: -32px;
+	}
+
+	.block:first-child .paragraph:first-child .footer span
+	{
+		margin-top: 604px;
 	}
 
 img,
@@ -122,11 +124,6 @@ img,
 	padding-top: 38px;
 }
 
-.block .paragraph:first-child .header-box
-{
-	margin-top: -38px;
-}
-
 .teller_Division
 {
 	border-bottom: 2px dotted;
@@ -135,6 +132,17 @@ img,
 .paragraph
 {
 	break-inside: avoid;
+}
+
+.paragraph.break
+{
+	margin-top: 100px;
+	break-before: page;
+}
+
+.block:first-child .paragraph.break:first-child
+{
+	margin-top: 0;
 }
 
 @page

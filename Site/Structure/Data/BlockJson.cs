@@ -129,7 +129,7 @@ namespace Structure.Data
 					Block.TellerList.Add(teller);
 					break;
 				case ParagraphType.Page:
-					Block.PageList.Add(paragraph.Breaks);
+					Block.PageCount++;
 					break;
 			}
 		}
@@ -161,7 +161,7 @@ namespace Structure.Data
 		}
 
 		private void fakeStory()
-		{
+			{
 			for (var j = 0; j < 3; j++)
 			{
 				Block.ParagraphTypeList.Add(ParagraphType.Teller);
@@ -206,7 +206,6 @@ namespace Structure.Data
 
 			var talkCounter = 0;
 			var tellerCounter = 0;
-			var pageCounter = 0;
 
 			foreach (var paragraph in Block.ParagraphTypeList)
 			{
@@ -223,8 +222,7 @@ namespace Structure.Data
 						tellerCounter++;
 						break;
 					case ParagraphType.Page:
-						child = ParagraphJson.SetPage(Block.PageList[pageCounter]);
-						pageCounter++;
+						child = ParagraphJson.SetPage();
 						break;
 					default:
 						throw new Exception($"Not recognized Paragraph [{paragraph}].");

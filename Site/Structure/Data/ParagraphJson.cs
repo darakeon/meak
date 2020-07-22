@@ -65,12 +65,11 @@ namespace Structure.Data
 			return setParagraph(teller);
 		}
 
-		public static Paragraph SetPage(Int32? page)
+		public static Paragraph SetPage()
 		{
 			return new Paragraph
 			{
 				Type = ParagraphType.Page,
-				Breaks = page
 			};
 		}
 

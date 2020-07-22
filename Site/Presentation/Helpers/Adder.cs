@@ -108,7 +108,6 @@ namespace Presentation.Helpers
 
 		public void SetParagraphPage(Int32 block, Int32 paragraph, Int32 teller, Int32 talk, Int32 page)
 		{
-			Model.Story.BlockList[block].PageList = new Int32?[page+1];
 			setBlockList(block, paragraph, ParagraphType.Page);
 			setCountersAndView(paragraph, teller, talk, page);
 		}

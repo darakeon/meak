@@ -5,22 +5,18 @@
 
 @if (!Authenticate.IsAuthenticated && Model.HasSummary())
 {
-	var page = Model.BlockList.Sum(b => b.PageList.Count) + 1;
+	var page = Model.BlockList.Sum(b => b.PageCount) + 1;
 	var style = page % 2 == 0 ? "even" : "odd";
 
 	<div class="just-print summary @($"page-{style}-item")">
 
 		@Html.Partial("Partial/PrintHeader", Model)
+		@Html.Partial("Partial/PrintFooter", page)
 
 		<p class="title">
 			Resumo do Capítulo
 		</p>
 
 		@Model.Summary
-
-		@Html.Partial(
-			"Partial/PrintFooter",
-			new Footer(Model.Breaks, page)
-		)
 	</div>
 }
