@@ -145,6 +145,11 @@ img,
 	margin-top: 0;
 }
 
+.block:first-child .paragraph:first-child .header .title
+{
+	display: none;
+}
+
 @page
 {
 	margin-top: 1.3cm;
