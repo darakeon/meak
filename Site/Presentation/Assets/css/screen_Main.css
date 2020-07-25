@@ -43,8 +43,22 @@ form .paragraph
 	border-radius: 4px;
 }
 
-.fb-like {
-	margin: -50px 0 0px 0;
-	height: 50px;
-	overflow: hidden;
+.book-link {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	height: 70px;
+	background: #111;
+	border: 3px ridge #600;
+	border-radius: 5px;
+	text-align: center;
+	filter: alpha(opacity=90);
+	opacity: 0.90;
+	font-family: wingdings;
+	color: #C33;
+	text-decoration: none;
+	font-size: 50px;
+	margin: 20px;
+	font-weight: 900;
 }

@@ -165,3 +165,8 @@
 @Html.Partial("Partial/ChangeBlock", topSelector)
 
 @Html.Partial("Partial/Sign")
+
+@if (Model.Story.Link != null)
+{
+	<a class="book-link" href="@Model.Story.Link" target="_blank">&#x1F56E;</a>
+}

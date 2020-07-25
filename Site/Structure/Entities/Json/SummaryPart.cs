@@ -13,6 +13,8 @@ namespace Structure.Entities.Json
 
 		public String Title { get; set; }
 
+		public String Link { get; set; }
+
 		public String Summary { get; set; }
 
 		public Int32? Breaks { get; set; }

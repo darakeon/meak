@@ -27,6 +27,7 @@ namespace Structure.Entities.System
 			{
 				ID = episode,
 				Title = info.Title,
+				Link = info.Link,
 				Publish = Countdown.GetDate(season, episode),
 				LastBlock = info.Last,
 				Summary = info.Summary,
@@ -39,6 +40,7 @@ namespace Structure.Entities.System
 		public String ID { get; set; }
 
 		public String Title { get; set; }
+		public String Link { get; set; }
 		public DateTime Publish { get; set; }
 		public String LastBlock { get; set; }
 		public String Summary { get; set; }
