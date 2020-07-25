@@ -7,11 +7,6 @@
 	font-family: Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
 }
 
-.menu .season
-{
-	margin: 0px 0px 20px 0px;
-}
-
 .menu .header, .menu .legend-header
 {
 	padding: 2px;
@@ -72,8 +67,8 @@
 {
 	display: table;
 	width: 100%;
-	opacity: 0.8;
-	filter: alpha(opacity=80);
+	opacity: 0.5;
+	filter: alpha(opacity=50);
 }
 
 .storyNameBox:empty
