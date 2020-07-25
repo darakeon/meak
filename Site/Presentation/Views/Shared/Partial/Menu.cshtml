@@ -25,7 +25,7 @@
 	<div class="season">
 		<div class="darkback">
 			<div class="header">
-				<a href="@url">
+				<a class="linkWithTitle" href="@url" rel="@season.Name">
 					Temporada @season
 				</a>
 			</div>
@@ -50,7 +50,7 @@
 						? "selected" : "";
 
 					<a href="@myUrl" 
-					   class="item storyLink @selectedClass" 
+					   class="item linkWithTitle @selectedClass" 
 					   rel="@episode.Title">@episode.ID</a>
 				}
 

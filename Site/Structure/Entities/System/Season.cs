@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
 
 namespace Structure.Entities.System
 {
@@ -14,6 +15,12 @@ namespace Structure.Entities.System
 		public Season(String path) : this()
 		{
 			ID = path[path.Length - 1].ToString();
+
+			var json = File.ReadAllText(
+				Path.Combine(path, "_.json")
+			);
+			var info = JsonConvert.DeserializeObject<Season>(json);
+			Name = info.Name;
 
 			var episodeFiles = Directory
 				.GetDirectories(path)
@@ -42,14 +49,12 @@ namespace Structure.Entities.System
 
 
 		public String ID { get; set; }
+		public String Name { get; set; }
 		public IList<Episode> EpisodeList { get; set; }
-
-
 
 		public override String ToString()
 		{
 			return ID;
 		}
-
 	}
 }

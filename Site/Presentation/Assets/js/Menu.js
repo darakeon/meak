@@ -6,15 +6,15 @@
 
 
 function ShowStoryNames() {
-	$(".storyLink").hover(
+	$(".linkWithTitle").hover(
 		function () { showName(this); },
-		function () { hideName(this); });
+		function () { hideName(this); }
+	);
 }
 
 
 function showName(obj) {
 	var name = $(obj).attr("rel");
-
 	replaceName(obj, name);
 }
 
