@@ -24,6 +24,11 @@
 	var episode = Model.Story.ID;
 }
 
+<!--
+<div class="header-aligner"></div>
+<div class="footer-aligner"></div>
+-->
+
 <p class="title">
 	@Model.Story.Title
 
@@ -96,9 +101,9 @@
 								{
 									<audio id="@pieceId">
 										<source src="@Paths.AudioLocalPath(season, episode, piece.Audio)"
-											type="audio/mpeg">
+												type="audio/mpeg">
 									</audio>
-									
+
 									<span class="darkback play"
 										  onclick="$('#@pieceId')[0].play()">&#9658;</span>
 								}

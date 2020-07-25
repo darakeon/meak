@@ -5,7 +5,7 @@
 
 .main
 {
-	font-size: 12pt;
+	font-size: 10pt;
 	font-family: Times New Roman;
 }
 
@@ -49,17 +49,17 @@ p.title
 	text-align: center;
 	opacity: 0.5;
 	top: 0;
-	margin-top: -30px;
+	margin-top: -32px;
 }
 
 	.block .paragraph:first-child .header
 	{
-		margin-top: -30px;
+		margin-top: -32px;
 	}
 
 	.block:first-child .paragraph:first-child .header
 	{
-		margin-top: -83px;
+		margin-top: -81px;
 	}
 
 	.header .title
@@ -94,7 +94,7 @@ p.title
 		width: 100%;
 		text-align: center;
 		opacity: 0.5;
-		margin-top: 657px;
+		margin-top: 477px;
 	}
 
 	.summary .footer span
@@ -104,7 +104,7 @@ p.title
 
 	.block:first-child .paragraph:first-child .footer span
 	{
-		margin-top: 604px;
+		margin-top: 429px;
 	}
 
 img,
@@ -152,10 +152,10 @@ img,
 
 @page
 {
-	margin-top: 1.3cm;
-	margin-bottom: 1cm;
-	margin-left: 1cm;
-	margin-right: 1cm;
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+	margin-left: 0.5cm;
+	margin-right: 0.5cm;
 }
 
 .page-odd-item
@@ -166,4 +166,22 @@ img,
 .page-even-item
 {
 	margin-right: 1cm;
+}
+
+.header-aligner {
+	border: #900 solid 1px;
+	position: fixed;
+	top: 0;
+	height: 20px;
+	width: 100%;
+	opacity: 0.5;
+}
+
+.footer-aligner {
+	border: #909 solid 1px;
+	position: fixed;
+	bottom: 0;
+	height: 20px;
+	width: 100%;
+	opacity: 0.5;
 }
