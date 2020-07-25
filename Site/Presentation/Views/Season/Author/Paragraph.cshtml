@@ -139,17 +139,6 @@
 
 		case ParagraphType.Page:
 		{
-			@Html.TextBoxFor(m =>
-				m.Story
-					.BlockList[Model.BlockCounter]
-					.PageList[Model.PageCounter],
-				new
-				{
-					@class = "text darkback",
-					tabIndex = Model.TabIndex++
-				}
-			)
-
 			Model.PageCounter++;
 			break;
 		}

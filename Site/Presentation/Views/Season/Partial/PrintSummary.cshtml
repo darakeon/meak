@@ -1,14 +1,15 @@
 ﻿@using DK.MVC.Authentication;
-@using Presentation.Helpers;
 
 @model Structure.Entities.System.Episode
 
 @if (!Authenticate.IsAuthenticated && Model.HasSummary())
 {
-	var page = Model.BlockList.Sum(b => b.PageCount) + 1;
+	var storyPages = Model.BlockList.Sum(b => b.PageCount) + 1;
+	var page = storyPages + 1;
 	var style = page % 2 == 0 ? "even" : "odd";
+	var pageItem = $"page-{style}-item";
 
-	<div class="just-print summary @($"page-{style}-item")">
+	<div class="just-print summary @pageItem">
 
 		@Html.Partial("Partial/PrintHeader", Model)
 		@Html.Partial("Partial/PrintFooter", page)

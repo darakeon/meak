@@ -44,7 +44,6 @@
 	var page = Authenticate.IsAuthenticated
 		? Model.Story.PageStart ?? 0
 		: 0;
-	var pageItemTypes = new[] { "even", "odd" };
 	var lastPage = page;
 	page++;
 }
@@ -55,27 +54,30 @@
 		var block = Model.Story.BlockList[s];
 		var trigger = false;
 		var pageInBlock = 0;
-		
+
 		<div class="block @if (block.ID == Model.ReadingBlock) { @("reading") }" id="Block@(s)">
 			@foreach (var paragraph in block.ParagraphTypeList)
 			{
-				var pageItem = $"page-{pageItemTypes[page % 2]}-item";
-				var paragraphId = s + "_" + tellerCounter + "_" + talkCounter;
+				var type = paragraph.ToString().ToLower();
+				var showTrigger = trigger ? "trigger-hidden" : "";
+				var pageBreak = lastPage != page ? "break" : "";
+				var style = page % 2 == 0 ? "even" : "odd";
+				var pageItem = $"page-{style}-item";
 
-				<div class="paragraph @paragraph.ToString().ToLower() @(trigger ? "trigger-hidden" : "") @(lastPage != page ? "break" : "") @pageItem">
+				<div class="paragraph @type @showTrigger @pageBreak @pageItem">
 					@if (lastPage != page)
 					{
 						@Html.Partial("Partial/PrintHeader", Model.Story)
 						@Html.Partial("Partial/PrintFooter", page)
-
 						lastPage = page;
 					}
 
 					@switch (paragraph)
 					{
 						case ParagraphType.Talk:
-
 							@("– ")
+							
+							var paragraphId = s + "_" + tellerCounter + "_" + talkCounter;
 
 							for (var p = 0; p < block.TalkList[talkCounter].Pieces.Count; p++)
 							{
@@ -86,26 +88,24 @@
 									? ""
 									: Dic.Talk[piece.Style];
 
-								<span title="@title"
-									  class="talk_@(piece.Style)">
+								<span title="@title" class="talk_@(piece.Style)">
 									@piece.Text
 								</span>
-
+								
 								if (piece.Audio != null)
 								{
 									<audio id="@pieceId">
-										<source src="@Paths.AudioLocalPath(
-												season, episode, piece.Audio
-											)"
-												type="audio/mpeg">
+										<source src="@Paths.AudioLocalPath(season, episode, piece.Audio)"
+											type="audio/mpeg">
 									</audio>
+									
 									<span class="darkback play"
 										  onclick="$('#@pieceId')[0].play()">&#9658;</span>
 								}
 							}
-
+							
 							@(" (" + block.TalkList[talkCounter].Character + ")")
-
+							
 							talkCounter++;
 
 							break;
@@ -142,6 +142,9 @@
 							pageInBlock++;
 
 							break;
+
+						default:
+							throw new NotImplementedException();
 					}
 				</div>
 			}
