@@ -27,6 +27,13 @@
 <!--
 <div class="header-aligner"></div>
 <div class="footer-aligner"></div>
+
+@for (var g = 0; g < 36; g++)
+{
+	<div class="grid just-print" style="width: @(g * 5)px">
+		@(g > 0 && g % 2 == 0 ? (g/2).ToString() : "")
+	</div>
+}
 -->
 
 <p class="title">

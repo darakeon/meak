@@ -5,6 +5,7 @@ using Presentation.Models;
 using Presentation.Helpers;
 using Structure.Data;
 using Structure.Helpers;
+using Structure.Printer;
 
 namespace Presentation.Controllers
 {
@@ -63,7 +64,7 @@ namespace Presentation.Controllers
 			}
 			catch (Exception e)
 			{
-				if (UrlUserType.IsAuthor()) 
+				if (UrlUserType.IsAuthor())
 					throw;
 
 				return View("Error", new ErrorModel { Message = e.Message });
@@ -86,7 +87,16 @@ namespace Presentation.Controllers
 			return View(model);
 		}
 
+		public ActionResult Print()
+		{
+			var model = new SeasonEditEpisodeModel
+			{
+				Story = new CharsEpisode(),
+				ReadingBlock = "a"
+			};
 
+			return View("Episode", model);
+		}
 
 		[HttpPost]
 		public void EditTitle(SeasonEpisodeModel model, String seasonID, String episodeID)

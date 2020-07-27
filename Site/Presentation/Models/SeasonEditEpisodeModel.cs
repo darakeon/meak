@@ -5,6 +5,7 @@ using Presentation.Helpers;
 using Structure.Data;
 using Structure.Enums;
 using Structure.Extensions;
+using Structure.Printer;
 
 namespace Presentation.Models
 {
@@ -20,6 +21,9 @@ namespace Presentation.Models
 		)
 		{
 			Story = episodeJson.GetEpisode(seasonID, episodeID);
+
+			Printer.Paginate(Story);
+
 			ReadingBlock = blockID ?? BlockJson.FIRST_BLOCK;
 			Show = show ?? AuthorMode.Default;
 		}
