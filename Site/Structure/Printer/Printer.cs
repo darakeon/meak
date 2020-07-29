@@ -13,10 +13,9 @@ namespace Structure.Printer
 		private const Int32 lineMaxSize = 306;
 		private const Int32 spaceSize = 4;
 		private const Int32 dashSize = 10;
-		private const Int32 titleSize = 2;
 
 		private Int32 currentLineSize;
-		private Int32 currentLine = titleSize;
+		private Int32 currentLine = 1;
 
 		static Printer()
 		{
@@ -85,8 +84,6 @@ namespace Structure.Printer
 		{
 			resetCurrentLineSize(type);
 
-			var oldLineCount = currentLine;
-
 			var words = pieceWords(type, paragraph);
 
 			if (paragraph is Talk talk)
@@ -101,20 +98,21 @@ namespace Structure.Printer
 
 			wordsToLines(words);
 
+			paragraph.DebugLines = currentLine;
+
 			if (currentLine >= pageLines)
 			{
-				currentLine -= pageLines;
-
-				var page = currentLine == pageLines
+				var insertAt = currentLine == pageLines
 					? position + 1
 					: position;
 
+				currentLine -= pageLines;
+
 				position++;
-				
-				block.ParagraphTypeList.Insert(page, ParagraphType.Page);
+
+				block.ParagraphTypeList.Insert(insertAt, ParagraphType.Page);
 			}
 
-			paragraph.DebugLines = currentLine - oldLineCount;
 		}
 
 		private void resetCurrentLineSize(ParagraphType type)
@@ -149,7 +147,7 @@ namespace Structure.Printer
 
 					if (piece.Style.Equals(TellerStyle.First))
 					{
-						currentLine += 4;
+						currentLine += 3;
 					}
 
 					resetCurrentLineSize(type);
@@ -161,21 +159,14 @@ namespace Structure.Printer
 
 		private List<Int32> sizeWords<T>(Piece<T> piece, CharMap sizes) where T : struct
 		{
-			var words = new List<Int32>();
+			var text = piece.Text;
 
 			if (piece.Style.Equals(TalkStyle.Teller))
 			{
-				words.AddRange(sizeWords("–", sizes));
+				text = $"– {text} –";
 			}
 
-			words.AddRange(sizeWords(piece.Text, sizes));
-
-			if (piece.Style.Equals(TalkStyle.Teller))
-			{
-				words.AddRange(sizeWords("–", sizes));
-			}
-
-			return words;
+			return sizeWords(text, sizes);
 		}
 
 		private List<Int32> sizeWords(String text, CharMap style)
@@ -192,7 +183,7 @@ namespace Structure.Printer
 
 				var size = style[character];
 
-				if (character == ' ')
+				if (character == ' ' || character == '-')
 				{
 					words.Add(charSizes);
 					charSizes = 0;
