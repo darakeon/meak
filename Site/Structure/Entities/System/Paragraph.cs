@@ -7,6 +7,8 @@ namespace Structure.Entities.System
 {
 	public class Paragraph<T> where T : struct
 	{
+		public Int32 DebugLines;
+
 		public Paragraph()
 		{
 			Pieces = new List<Piece<T>>();

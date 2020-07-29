@@ -8,8 +8,15 @@ namespace Structure.Printer
 	public class Printer
 	{
 		private static ParagraphMap styles;
+
 		private const Int32 pageLines = 30;
 		private const Int32 lineMaxSize = 306;
+		private const Int32 spaceSize = 4;
+		private const Int32 dashSize = 10;
+		private const Int32 titleSize = 2;
+
+		private Int32 currentLineSize;
+		private Int32 currentLine = titleSize;
 
 		static Printer()
 		{
@@ -54,11 +61,11 @@ namespace Structure.Printer
 					switch (paragraphType)
 					{
 						case ParagraphType.Teller:
-							processParagraph(paragraphType, block.TellerList[teller]);
+							processParagraph(paragraphType, ref p, block.TellerList[teller], block);
 							teller++;
 							break;
 						case ParagraphType.Talk:
-							processParagraph(paragraphType, block.TalkList[talk]);
+							processParagraph(paragraphType, ref p, block.TalkList[talk], block);
 							talk++;
 							break;
 						case ParagraphType.Page:
@@ -71,14 +78,53 @@ namespace Structure.Printer
 
 		private void processParagraph<T>(
 			ParagraphType type,
-			Paragraph<T> paragraph
+			ref Int32 position,
+			Paragraph<T> paragraph,
+			Block block
 		) where T : struct
 		{
-			var lines = type == ParagraphType.Talk ? 1 : 0;
+			resetCurrentLineSize(type);
 
-			var lineStart = type == ParagraphType.Talk ? 10 : 0;
+			var oldLineCount = currentLine;
 
-			var lineSize = lineStart;
+			var words = pieceWords(type, paragraph);
+
+			if (paragraph is Talk talk)
+			{
+				var character = $"({talk.Character})";
+				var @default = styles[type][TalkStyle.Default];
+
+				words.AddRange(sizeWords(character, @default));
+
+				currentLine++;
+			}
+
+			wordsToLines(words);
+
+			if (currentLine >= pageLines)
+			{
+				currentLine -= pageLines;
+
+				var page = currentLine == pageLines
+					? position + 1
+					: position;
+
+				position++;
+				
+				block.ParagraphTypeList.Insert(page, ParagraphType.Page);
+			}
+
+			paragraph.DebugLines = currentLine - oldLineCount;
+		}
+
+		private void resetCurrentLineSize(ParagraphType type)
+		{
+			currentLineSize = type == ParagraphType.Talk ? dashSize : 0;
+		}
+
+		private List<Int32> pieceWords<T>(ParagraphType type, Paragraph<T> paragraph) where T : struct
+		{
+			var result = new List<Int32>();
 
 			foreach (var piece in paragraph.Pieces)
 			{
@@ -88,42 +134,56 @@ namespace Structure.Printer
 				var sizes = styles[type][piece.Style];
 
 				var words = sizeWords(piece, sizes);
-				piece.words = words;
+				piece.DebugWords = words;
 
-				for (var w = 0; w < words.Count; w++)
-				{
-					var word = words[w];
-					lineSize += word;
-
-					if (lineSize > lineMaxSize)
-					{
-						lines++;
-						piece.lineSizes.Add(lineSize - word);
-						lineSize = word;
-					}
-
-					var isLast = w + 1 == words.Count;
-					lineSize += isLast ? 0 : sizes[' '];
-				}
+				result.AddRange(words);
 
 				if (type == ParagraphType.Teller)
 				{
-					lines++;
-					lineSize = lineStart;
+					currentLine++;
+
+					if (piece.Style.Equals(TellerStyle.Division))
+					{
+						currentLine += 4;
+					}
+
+					if (piece.Style.Equals(TellerStyle.First))
+					{
+						currentLine += 4;
+					}
+
+					resetCurrentLineSize(type);
 				}
-				piece.lineSizes.Add(lineSize);
 			}
 
-			paragraph.lines = lines;
+			return result;
 		}
 
-		private List<Int32> sizeWords<T>(Piece<T> piece, CharMap style)
-			where T : struct
+		private List<Int32> sizeWords<T>(Piece<T> piece, CharMap sizes) where T : struct
+		{
+			var words = new List<Int32>();
+
+			if (piece.Style.Equals(TalkStyle.Teller))
+			{
+				words.AddRange(sizeWords("–", sizes));
+			}
+
+			words.AddRange(sizeWords(piece.Text, sizes));
+
+			if (piece.Style.Equals(TalkStyle.Teller))
+			{
+				words.AddRange(sizeWords("–", sizes));
+			}
+
+			return words;
+		}
+
+		private List<Int32> sizeWords(String text, CharMap style)
 		{
 			var words = new List<Int32>();
 			var charSizes = 0;
 
-			foreach (var character in piece.Text)
+			foreach (var character in text)
 			{
 				if (!style.Contains(character))
 				{
@@ -146,6 +206,24 @@ namespace Structure.Printer
 			words.Add(charSizes);
 
 			return words;
+		}
+
+		private void wordsToLines(List<Int32> words)
+		{
+			for (var w = 0; w < words.Count; w++)
+			{
+				var word = words[w];
+				currentLineSize += word;
+
+				if (currentLineSize > lineMaxSize)
+				{
+					currentLine++;
+					currentLineSize = word;
+				}
+
+				var isLast = w + 1 == words.Count;
+				currentLineSize += isLast ? 0 : spaceSize;
+			}
 		}
 	}
 }

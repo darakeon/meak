@@ -87,6 +87,12 @@
 					@switch (paragraph)
 					{
 						case ParagraphType.Talk:
+							@*
+							<span class="screen-action">
+								@($"{block.TalkList[talkCounter].DebugLines} ")<br/>
+							</span>
+							*@
+
 							@("– ")
 							
 							var paragraphId = s + "_" + tellerCounter + "_" + talkCounter;
@@ -99,6 +105,12 @@
 								var title = piece.Style == TalkStyle.Default
 									? ""
 									: Dic.Talk[piece.Style];
+
+								@*
+								<span class="screen-action">
+									@($"[{String.Join(" + ",  piece.DebugWords)}:{String.Join(" + ",  piece.DebugLines)}]")
+								</span>
+								*@
 
 								<span title="@title" class="talk_@(piece.Style)">
 									@piece.Text
@@ -117,15 +129,26 @@
 							}
 							
 							@(" (" + block.TalkList[talkCounter].Character + ")")
-							
+
 							talkCounter++;
 
 							break;
 
 						case ParagraphType.Teller:
+							@*
+							<span class="screen-action">
+								@($"{block.TellerList[tellerCounter].DebugLines} ")<br/>
+							</span>
+							*@
 
 							foreach (var piece in block.TellerList[tellerCounter].Pieces)
 							{
+								@*
+								<span class="screen-action">
+									@($"[{String.Join(" + ",  piece.DebugWords)}:{String.Join(" + ",  piece.DebugLines)}]")
+								</span>
+								*@
+
 								if (piece.Style == TellerStyle.Trigger)
 								{
 									trigger = !trigger;

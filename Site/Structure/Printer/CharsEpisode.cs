@@ -8,9 +8,11 @@ namespace Structure.Printer
 {
 	public class CharsEpisode : Episode
 	{
+		private readonly Block block;
+
 		public CharsEpisode()
 		{
-			var block = new Block{ ID = "a" };
+			block = new Block{ ID = "a" };
 
 			foreach (var paragraph in Printer.chars())
 			{
@@ -20,16 +22,14 @@ namespace Structure.Printer
 						addPieces<Talk, TalkStyle>(
 							paragraph.Value,
 							ParagraphType.Talk,
-							block.TalkList,
-							block.ParagraphTypeList
+							block.TalkList
 						);
 						break;
 					case ParagraphType.Teller:
 						addPieces<Teller, TellerStyle>(
 							paragraph.Value,
 							ParagraphType.Teller,
-							block.TellerList,
-							block.ParagraphTypeList
+							block.TellerList
 						);
 						break;
 					case ParagraphType.Page:
@@ -41,35 +41,55 @@ namespace Structure.Printer
 			BlockList = new List<Block> {block};
 		}
 
-		private static void addPieces<P, S>(
+		private void addPieces<P, S>(
 			StyleMap styleMap,
 			ParagraphType type,
-			IList<P> paragraphList,
-			IList<ParagraphType> paragraphTypeList
+			IList<P> paragraphList
 		)
 			where P : Paragraph<S>, new()
 			where S : struct
 		{
 			foreach (var style in styleMap)
 			{
-				var styleEnum = (S) style.Key;
+				var missingSizes = style.Value
+					.Where(c => c.Value == 0)
+					.ToList();
 
-				foreach (var @char in style.Value.Where(c => c.Value == 0))
+				if (missingSizes.Any())
 				{
-					var paragraph = new P();
-					var piece = new Piece<S>
-					{
-						Style = styleEnum,
-						Text = "|| ||"
-					};
+					addParagraph(
+						type,
+						paragraphList,
+						(S)style.Key,
+						$"{type}_{style.Key}"
+					);
+				}
 
-					piece.Text = piece.Text.PadLeft(15, @char.Key);
-
-					paragraph.Pieces.Add(piece);
-					paragraphList.Add(paragraph);
-					paragraphTypeList.Add(type);
+				foreach (var @char in missingSizes)
+				{
+					addParagraph(
+						type,
+						paragraphList,
+						(S) style.Key,
+						"|| ||".PadLeft(15, @char.Key)
+					);
 				}
 			}
+		}
+
+		private void addParagraph<P, S>(ParagraphType type, IList<P> paragraphList, S style, String text)
+			where P : Paragraph<S>, new() where S : struct
+		{
+			var paragraph = new P();
+			var piece = new Piece<S>
+			{
+				Style = style,
+				Text = text,
+			};
+
+			paragraph.Pieces.Add(piece);
+			paragraphList.Add(paragraph);
+			block.ParagraphTypeList.Add(type);
 		}
 	}
 }
