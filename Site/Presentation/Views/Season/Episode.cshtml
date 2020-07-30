@@ -89,7 +89,8 @@
 						case ParagraphType.Talk:
 							@*
 							<span class="screen-action">
-								@($"{block.TalkList[talkCounter].DebugLines} ")<br/>
+								@($"L: {block.TalkList[talkCounter].DebugLines}")<br/>
+								@($"C: {String.Join(" + ", block.TalkList[talkCounter].DebugCharacter)}")<br/>
 							</span>
 							*@
 
@@ -108,7 +109,7 @@
 
 								@*
 								<span class="screen-action">
-									@($"[{String.Join(" + ",  piece.DebugWords)}:{String.Join(" + ",  piece.DebugLines)}]")
+									@($"[{String.Join(" + ",  piece.DebugWords)}]")
 								</span>
 								*@
 
@@ -137,7 +138,7 @@
 						case ParagraphType.Teller:
 							@*
 							<span class="screen-action">
-								@($"{block.TellerList[tellerCounter].DebugLines} ")<br/>
+								@($"L: {block.TellerList[tellerCounter].DebugLines}")<br/>
 							</span>
 							*@
 
@@ -145,26 +146,30 @@
 							{
 								@*
 								<span class="screen-action">
-									@($"[{String.Join(" + ",  piece.DebugWords)}:{String.Join(" + ",  piece.DebugLines)}]")
+									@($"[{String.Join(" + ",  piece.DebugWords)}]")
 								</span>
 								*@
 
 								if (piece.Style == TellerStyle.Trigger)
 								{
 									trigger = !trigger;
+
+									var symbol = trigger ? "+" : "–";
+									var position = trigger ? "abaixo" : "acima";
+
+									<div class="teller_@(piece.Style) trigger-toggle"
+									     data-type="@symbol" data-content="@piece.Text">
+										conteúdo oculto (@symbol)
+									</div>
+
+									<div class="just-print teller_@(piece.Style)">
+										conteúdo @position pode disparar lembranças ruins sobre
+										@piece.Text
+									</div>
 								}
 								else
 								{
 									<div class="teller_@(piece.Style)">@piece.Text</div>
-								}
-
-								if (piece.Style == TellerStyle.Trigger)
-								{
-									var symbol = trigger ? "+" : "–";
-
-									<div class="teller_@(piece.Style) trigger-toggle" data-type="@symbol" data-content="@piece.Text">
-										conteúdo oculto (@symbol)
-									</div>
 								}
 							}
 
@@ -175,6 +180,9 @@
 						case ParagraphType.Page:
 							page++;
 							pageInBlock++;
+							@*
+							<div class="screen-action">--- QUEBRA ---</div>
+							*@
 
 							break;
 

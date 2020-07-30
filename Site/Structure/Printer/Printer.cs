@@ -16,6 +16,7 @@ namespace Structure.Printer
 
 		private Int32 currentLineSize;
 		private Int32 currentLine = 1;
+		private Int32 oldLine;
 
 		static Printer()
 		{
@@ -55,64 +56,55 @@ namespace Structure.Printer
 
 				for (var p = 0; p < block.ParagraphTypeList.Count; p++)
 				{
-					var paragraphType = block.ParagraphTypeList[p];
+					var type = block.ParagraphTypeList[p];
+					Boolean pageAdded;
 
-					switch (paragraphType)
+					switch (type)
 					{
 						case ParagraphType.Teller:
-							processParagraph(paragraphType, ref p, block.TellerList[teller], block);
+							pageAdded = processParagraph(type, p, block.TellerList[teller], block);
 							teller++;
 							break;
 						case ParagraphType.Talk:
-							processParagraph(paragraphType, ref p, block.TalkList[talk], block);
+							pageAdded = processParagraph(type, p, block.TalkList[talk], block);
 							talk++;
 							break;
 						case ParagraphType.Page:
 						default:
-							throw new NotImplementedException($"{episode.Season}{episode}{block} [{p}]: {paragraphType}");
+							throw new NotImplementedException(
+								$"{episode.Season}{episode}{block} [{p}]: {type}"
+							);
 					}
+
+					if (pageAdded) p++;
 				}
 			}
 		}
 
-		private void processParagraph<T>(
+		private Boolean processParagraph<T>(
 			ParagraphType type,
-			ref Int32 position,
+			Int32 position,
 			Paragraph<T> paragraph,
 			Block block
 		) where T : struct
 		{
+			oldLine = currentLine;
+
 			resetCurrentLineSize(type);
 
 			var words = pieceWords(type, paragraph);
 
-			if (paragraph is Talk talk)
-			{
-				var character = $"({talk.Character})";
-				var @default = styles[type][TalkStyle.Default];
-
-				words.AddRange(sizeWords(character, @default));
-
-				currentLine++;
-			}
+			addTalkBreakAndCharacter(type, paragraph, words);
 
 			wordsToLines(words);
 
+			var addPage = currentLine >= pageLines;
+
+			if (addPage)
+				addPageBreak(position, block);
+
 			paragraph.DebugLines = currentLine;
-
-			if (currentLine >= pageLines)
-			{
-				var insertAt = currentLine == pageLines
-					? position + 1
-					: position;
-
-				currentLine -= pageLines;
-
-				position++;
-
-				block.ParagraphTypeList.Insert(insertAt, ParagraphType.Page);
-			}
-
+			return addPage;
 		}
 
 		private void resetCurrentLineSize(ParagraphType type)
@@ -136,22 +128,7 @@ namespace Structure.Printer
 
 				result.AddRange(words);
 
-				if (type == ParagraphType.Teller)
-				{
-					currentLine++;
-
-					if (piece.Style.Equals(TellerStyle.Division))
-					{
-						currentLine += 4;
-					}
-
-					if (piece.Style.Equals(TellerStyle.First))
-					{
-						currentLine += 3;
-					}
-
-					resetCurrentLineSize(type);
-				}
+				addTellerBreak(type, piece);
 			}
 
 			return result;
@@ -199,6 +176,39 @@ namespace Structure.Printer
 			return words;
 		}
 
+		private void addTellerBreak<T>(ParagraphType type, Piece<T> piece) where T : struct
+		{
+			if (type != ParagraphType.Teller)
+				return;
+
+			currentLine++;
+
+			if (piece.Style.Equals(TellerStyle.Division))
+				currentLine += 4;
+
+			if (piece.Style.Equals(TellerStyle.First))
+				currentLine += 3;
+
+			resetCurrentLineSize(type);
+		}
+
+		private void addTalkBreakAndCharacter<T>(ParagraphType type, Paragraph<T> paragraph, List<int> words) where T : struct
+		{
+			if (!(paragraph is Talk talk))
+				return;
+
+			var character = $"({talk.Character})";
+			var @default = styles[type][TalkStyle.Default];
+
+			var name = sizeWords(character, @default);
+
+			words.AddRange(name);
+
+			talk.DebugCharacter = name;
+
+			currentLine++;
+		}
+
 		private void wordsToLines(List<Int32> words)
 		{
 			for (var w = 0; w < words.Count; w++)
@@ -215,6 +225,19 @@ namespace Structure.Printer
 				var isLast = w + 1 == words.Count;
 				currentLineSize += isLast ? 0 : spaceSize;
 			}
+		}
+
+		private void addPageBreak(Int32 position, Block block)
+		{
+			var insertAt = currentLine == pageLines
+				? position + 1
+				: position;
+
+			currentLine -= currentLine > pageLines
+				? oldLine
+				: pageLines;
+
+			block.ParagraphTypeList.Insert(insertAt, ParagraphType.Page);
 		}
 	}
 }

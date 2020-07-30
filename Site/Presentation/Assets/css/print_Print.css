@@ -188,44 +188,53 @@ img,
 
 .grid {
 	border-right: 1px solid;
-	height: 12000px;
+	height: 500px;
 	position: absolute;
 	top: 0;
-	left: 55px;
+	left: 45px;
 	text-align: right;
 	font-size: 7px;
 }
 
 	.grid:nth-child(10n+1),
 	.grid:nth-child(10n+2) {
-		border-right-color: #990000;
-		color: #990000;
+		border-right-color: #900;
+		color: #900;
 	}
 
 	.grid:nth-child(10n+3),
 	.grid:nth-child(10n+4) {
-		border-right-color: #009900;
-		color: #009900;
+		border-right-color: #090;
+		color: #090;
 	}
 
 	.grid:nth-child(10n+5),
 	.grid:nth-child(10n+6) {
-		border-right-color: #000099;
-		color: #000099;
+		border-right-color: #009;
+		color: #009;
 	}
 
 	.grid:nth-child(10n+7),
 	.grid:nth-child(10n+8) {
-		border-right-color: #999900;
-		color: #999900;
+		border-right-color: #990;
+		color: #990;
 	}
 
 	.grid:nth-child(10n+9),
 	.grid:nth-child(10n+10) {
-		border-right-color: #990099;
-		color: #990099;
+		border-right-color: #909;
+		color: #909;
 	}
 
 	.grid:nth-child(2n) {
 		opacity: 0.3;
 	}
+
+.trigger-hidden {
+	display: block;
+	background: #EEE;
+}
+
+.trigger-toggle {
+	display: none;
+}
