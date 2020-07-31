@@ -17,7 +17,7 @@ namespace Structure.Entities.System
 		public String Text { get; set; }
 		public String Audio { get; set; }
 
-		public List<Int32> DebugWords = new List<Int32>();
+		public List<Decimal> DebugWords = new List<Decimal>();
 
 		public override String ToString()
 		{

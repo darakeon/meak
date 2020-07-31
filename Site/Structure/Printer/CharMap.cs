@@ -11,7 +11,7 @@ using Structure.Extensions;
 
 namespace Structure.Printer
 {
-	public class CharMap : IEnumerable<KeyValuePair<Char, Int32>>
+	public class CharMap : IEnumerable<KeyValuePair<Char, Decimal>>
 	{
 		public CharMap(ParagraphType type, String style)
 		{
@@ -27,7 +27,7 @@ namespace Structure.Printer
 			var json = File.ReadAllText(path);
 
 			characters = JsonConvert.DeserializeObject
-				<Dictionary<Char, Int32>>(json);
+				<Dictionary<Char, Decimal>>(json);
 
 			characters = characters.OrderBy(p => p.Key)
 				.ToDictionary(p => p.Key, p => p.Value);
@@ -36,9 +36,9 @@ namespace Structure.Printer
 		}
 
 		private readonly String structPath;
-		private readonly Dictionary<Char, Int32> characters;
+		private readonly Dictionary<Char, Decimal> characters;
 
-		public Int32 this[Char character] =>
+		public Decimal this[Char character] =>
 			characters[removeDiacritics(character)];
 
 		public Boolean Contains(Char character) =>
@@ -67,7 +67,7 @@ namespace Structure.Printer
 			       UnicodeCategory.NonSpacingMark;
 		}
 
-		public IEnumerator<KeyValuePair<char, int>> GetEnumerator()
+		public IEnumerator<KeyValuePair<Char, Decimal>> GetEnumerator()
 		{
 			return characters.GetEnumerator();
 		}

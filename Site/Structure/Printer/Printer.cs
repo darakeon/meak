@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Structure.Entities.System;
 using Structure.Enums;
+using Structure.Extensions;
 
 namespace Structure.Printer
 {
@@ -14,7 +15,7 @@ namespace Structure.Printer
 		private const Int32 spaceSize = 4;
 		private const Int32 dashSize = 10;
 
-		private Int32 currentLineSize;
+		private Decimal currentLineSize;
 		private Int32 currentLine = 1;
 		private Int32 oldLine;
 
@@ -112,9 +113,9 @@ namespace Structure.Printer
 			currentLineSize = type == ParagraphType.Talk ? dashSize : 0;
 		}
 
-		private List<Int32> pieceWords<T>(ParagraphType type, Paragraph<T> paragraph) where T : struct
+		private List<Decimal> pieceWords<T>(ParagraphType type, Paragraph<T> paragraph) where T : struct
 		{
-			var result = new List<Int32>();
+			var result = new List<Decimal>();
 
 			foreach (var piece in paragraph.Pieces)
 			{
@@ -123,7 +124,8 @@ namespace Structure.Printer
 
 				var sizes = styles[type][piece.Style];
 
-				var words = sizeWords(piece, sizes);
+				var text = addSurround(piece, piece.Text);
+				var words = sizeWords(text, sizes);
 				piece.DebugWords = words;
 
 				result.AddRange(words);
@@ -134,32 +136,40 @@ namespace Structure.Printer
 			return result;
 		}
 
-		private List<Int32> sizeWords<T>(Piece<T> piece, CharMap sizes) where T : struct
+		private String addSurround<T>(Piece<T> piece, String text) where T : struct
 		{
-			var text = piece.Text;
+			if (typeof(T) != typeof(TalkStyle))
+				return text;
 
-			if (piece.Style.Equals(TalkStyle.Teller))
+			var style = piece.Style.ToString().GetEnum<TalkStyle>();
+
+			// ReSharper disable once SwitchStatementMissingSomeCases
+			switch (style)
 			{
-				text = $"– {text} –";
-			}
+				case TalkStyle.Teller:
+					return $"– {text} –";
 
-			return sizeWords(text, sizes);
+				case TalkStyle.Read:
+					return $"[{text}]";
+
+				case TalkStyle.Thought:
+					return $"(({text}))";
+
+				case TalkStyle.Translate:
+					return $"{{{text}}}";
+
+				default:
+					return text;
+			}
 		}
 
-		private List<Int32> sizeWords(String text, CharMap style)
+		private List<Decimal> sizeWords(String text, CharMap style)
 		{
-			var words = new List<Int32>();
-			var charSizes = 0;
+			var words = new List<Decimal>();
+			var charSizes = Decimal.Zero;
 
 			foreach (var character in text)
 			{
-				if (!style.Contains(character))
-				{
-					style.Add(character);
-				}
-
-				var size = style[character];
-
 				if (character == ' ' || character == '-')
 				{
 					words.Add(charSizes);
@@ -167,7 +177,10 @@ namespace Structure.Printer
 				}
 				else
 				{
-					charSizes += size;
+					if (!style.Contains(character))
+						style.Add(character);
+
+					charSizes += style[character];
 				}
 			}
 
@@ -192,7 +205,11 @@ namespace Structure.Printer
 			resetCurrentLineSize(type);
 		}
 
-		private void addTalkBreakAndCharacter<T>(ParagraphType type, Paragraph<T> paragraph, List<int> words) where T : struct
+		private void addTalkBreakAndCharacter<T>(
+			ParagraphType type,
+			Paragraph<T> paragraph,
+			List<Decimal> words
+		) where T : struct
 		{
 			if (!(paragraph is Talk talk))
 				return;
@@ -209,7 +226,7 @@ namespace Structure.Printer
 			currentLine++;
 		}
 
-		private void wordsToLines(List<Int32> words)
+		private void wordsToLines(List<Decimal> words)
 		{
 			for (var w = 0; w < words.Count; w++)
 			{

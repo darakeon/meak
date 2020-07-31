@@ -6,7 +6,7 @@ namespace Structure.Entities.System
 {
 	public class Talk : Paragraph<TalkStyle>
 	{
-		public IList<Int32> DebugCharacter = new List<Int32>();
+		public IList<Decimal> DebugCharacter = new List<Decimal>();
 
 		public String Character { get; set; }
 	}

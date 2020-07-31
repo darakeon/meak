@@ -71,7 +71,7 @@ namespace Structure.Printer
 						type,
 						paragraphList,
 						(S) style.Key,
-						"|| ||".PadLeft(15, @char.Key)
+						"".PadLeft(10, @char.Key)
 					);
 				}
 			}
