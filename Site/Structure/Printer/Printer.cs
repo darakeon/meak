@@ -50,8 +50,9 @@ namespace Structure.Printer
 
 		private void paginate()
 		{
-			foreach (var block in episode.BlockList)
+			for (var b = 0; b < episode.BlockList.Count; b++)
 			{
+				var block = episode.BlockList[b];
 				var talk = 0;
 				var teller = 0;
 
@@ -63,11 +64,21 @@ namespace Structure.Printer
 					switch (type)
 					{
 						case ParagraphType.Teller:
-							pageAdded = processParagraph(type, p, block.TellerList[teller], block);
+							addBlockSpace(p, b, block.TellerList[teller].Pieces[0].Style);
+
+							pageAdded = processParagraph(
+								type, p, block.TellerList[teller], block
+							);
+
 							teller++;
 							break;
 						case ParagraphType.Talk:
-							pageAdded = processParagraph(type, p, block.TalkList[talk], block);
+							addBlockSpace(p, b);
+
+							pageAdded = processParagraph(
+								type, p, block.TalkList[talk], block
+							);
+
 							talk++;
 							break;
 						case ParagraphType.Page:
@@ -80,6 +91,15 @@ namespace Structure.Printer
 					if (pageAdded) p++;
 				}
 			}
+		}
+
+		private void addBlockSpace(int p, int b, TellerStyle? style = null)
+		{
+			var hasNoSpace = style != TellerStyle.Division
+				&& style != TellerStyle.First;
+
+			if (p == 0 && b != 0 && hasNoSpace)
+				currentLine += 3;
 		}
 
 		private Boolean processParagraph<T>(
