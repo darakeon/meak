@@ -28,7 +28,7 @@
 <div class="header-aligner"></div>
 <div class="footer-aligner"></div>
 
-@for (var g = 0; g < 36; g++)
+@for (var g = 0; g < 62; g++)
 {
 	<div class="grid just-print" style="width: @(g * 5)px">
 		@(g > 0 && g % 2 == 0 ? (g/2).ToString() : "")
@@ -65,7 +65,6 @@
 	{
 		var block = Model.Story.BlockList[s];
 		var trigger = false;
-		var pageInBlock = 0;
 
 		<div class="block @if (block.ID == Model.ReadingBlock) { @("reading") }" id="Block@(s)">
 			@foreach (var paragraph in block.ParagraphTypeList)
@@ -87,15 +86,14 @@
 					@switch (paragraph)
 					{
 						case ParagraphType.Talk:
-							@*
-							<span class="screen-action">
+						{
+							<span class="debug">
 								@($"L: {block.TalkList[talkCounter].DebugLines}")<br/>
 								@($"C: {String.Join(" + ", block.TalkList[talkCounter].DebugCharacter)}")<br/>
 							</span>
-							*@
 
 							@("– ")
-							
+
 							var paragraphId = s + "_" + tellerCounter + "_" + talkCounter;
 
 							for (var p = 0; p < block.TalkList[talkCounter].Pieces.Count; p++)
@@ -107,48 +105,46 @@
 									? ""
 									: Dic.Talk[piece.Style];
 
-								@*
-								<span class="screen-action">
-									@($"[{String.Join(" + ",  piece.DebugWords)}]")
+								<span class="debug">
+									@($"[{String.Join(" + ", piece.DebugWords)}]")
 								</span>
-								*@
 
 								<span title="@title" class="talk_@(piece.Style)">
 									@piece.Text
 								</span>
-								
+
 								if (piece.Audio != null)
 								{
 									<audio id="@pieceId">
 										<source src="@Paths.AudioLocalPath(season, episode, piece.Audio)"
-												type="audio/mpeg">
+										        type="audio/mpeg">
 									</audio>
 
 									<span class="darkback play"
-										  onclick="$('#@pieceId')[0].play()">&#9658;</span>
+									      onclick="$('#@pieceId')[0].play()">
+										&#9658;
+									</span>
 								}
 							}
-							
+
 							@(" (" + block.TalkList[talkCounter].Character + ")")
 
 							talkCounter++;
 
 							break;
+						}
 
 						case ParagraphType.Teller:
-							@*
-							<span class="screen-action">
+						{
+							<span class="debug">
 								@($"L: {block.TellerList[tellerCounter].DebugLines}")<br/>
 							</span>
-							*@
 
 							foreach (var piece in block.TellerList[tellerCounter].Pieces)
 							{
-								@*
-								<span class="screen-action">
-									@($"[{String.Join(" + ",  piece.DebugWords)}]")
+								<span class="debug">
+									@($"[{String.Join(" + ", piece.DebugWords)}]")
 								</span>
-								*@
 
 								if (piece.Style == TellerStyle.Trigger)
 								{
@@ -176,15 +172,15 @@
 							tellerCounter++;
 
 							break;
+						}
 
 						case ParagraphType.Page:
+						{
 							page++;
-							pageInBlock++;
-							@*
-							<div class="screen-action">--- QUEBRA ---</div>
-							*@
+							<div class="debug">--- QUEBRA ---</div>
 
 							break;
+						}
 
 						default:
 							throw new NotImplementedException();

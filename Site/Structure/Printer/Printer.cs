@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using Structure.Entities.System;
 using Structure.Enums;
@@ -53,33 +54,36 @@ namespace Structure.Printer
 			for (var b = 0; b < episode.BlockList.Count; b++)
 			{
 				var block = episode.BlockList[b];
-				var talk = 0;
-				var teller = 0;
+				var talkIndex = 0;
+				var tellerIndex = 0;
 
 				for (var p = 0; p < block.ParagraphTypeList.Count; p++)
 				{
 					var type = block.ParagraphTypeList[p];
+
 					Boolean pageAdded;
+					Boolean blockSpaceAdded;
 
 					switch (type)
 					{
 						case ParagraphType.Teller:
-							addBlockSpace(p, b, block.TellerList[teller].Pieces[0].Style);
+							var teller = block.TellerList[tellerIndex];
 
-							pageAdded = processParagraph(
-								type, p, block.TellerList[teller], block
-							);
+							var style = teller.Pieces[0].Style;
+							blockSpaceAdded = addBlockSpace(p, b, style);
 
-							teller++;
+							pageAdded = processParagraph(type, p, teller, block);
+
+							tellerIndex++;
 							break;
 						case ParagraphType.Talk:
-							addBlockSpace(p, b);
+							var talk = block.TalkList[talkIndex];
 
-							pageAdded = processParagraph(
-								type, p, block.TalkList[talk], block
-							);
+							blockSpaceAdded = addBlockSpace(p, b);
 
-							talk++;
+							pageAdded = processParagraph(type, p, talk, block);
+
+							talkIndex++;
 							break;
 						case ParagraphType.Page:
 						default:
@@ -88,18 +92,26 @@ namespace Structure.Printer
 							);
 					}
 
-					if (pageAdded) p++;
+					if (pageAdded)
+					{
+						currentLine -= linesToRemove(block, p, blockSpaceAdded);
+						p++;
+					}
 				}
 			}
 		}
 
-		private void addBlockSpace(int p, int b, TellerStyle? style = null)
+		private Boolean addBlockSpace(Int32 paragraph, Int32 block, TellerStyle? style = null)
 		{
 			var hasNoSpace = style != TellerStyle.Division
 				&& style != TellerStyle.First;
 
-			if (p == 0 && b != 0 && hasNoSpace)
+			var add = paragraph == 0 && block != 0 && hasNoSpace;
+
+			if (add)
 				currentLine += 3;
+
+			return add;
 		}
 
 		private Boolean processParagraph<T>(
@@ -133,7 +145,10 @@ namespace Structure.Printer
 			currentLineSize = type == ParagraphType.Talk ? dashSize : 0;
 		}
 
-		private List<Decimal> pieceWords<T>(ParagraphType type, Paragraph<T> paragraph) where T : struct
+		private List<Decimal> pieceWords<T>(
+			ParagraphType type,
+			Paragraph<T> paragraph
+		) where T : struct
 		{
 			var result = new List<Decimal>();
 
@@ -161,7 +176,7 @@ namespace Structure.Printer
 			if (typeof(T) != typeof(TalkStyle))
 				return text;
 
-			var style = piece.Style.ToString().GetEnum<TalkStyle>();
+			var style = piece.Style.GetEnum<TalkStyle>();
 
 			// ReSharper disable once SwitchStatementMissingSomeCases
 			switch (style)
@@ -209,20 +224,34 @@ namespace Structure.Printer
 			return words;
 		}
 
-		private void addTellerBreak<T>(ParagraphType type, Piece<T> piece) where T : struct
+		private void addTellerBreak<T>(
+			ParagraphType type,
+			Piece<T> piece
+		) where T : struct
 		{
 			if (type != ParagraphType.Teller)
 				return;
 
 			currentLine++;
 
-			if (piece.Style.Equals(TellerStyle.Division))
-				currentLine += 4;
-
-			if (piece.Style.Equals(TellerStyle.First))
-				currentLine += 3;
+			var style = piece.Style.GetEnum<TellerStyle>();
+			currentLine += linesToAdd(style);
 
 			resetCurrentLineSize(type);
+		}
+
+		private Int32 linesToAdd(TellerStyle style)
+		{
+			// ReSharper disable once SwitchStatementMissingSomeCases
+			switch (style)
+			{
+				case TellerStyle.Division:
+					return 4;
+				case TellerStyle.First:
+					return 3;
+				default:
+					return 0;
+			}
 		}
 
 		private void addTalkBreakAndCharacter<T>(
@@ -275,6 +304,52 @@ namespace Structure.Printer
 				: pageLines;
 
 			block.ParagraphTypeList.Insert(insertAt, ParagraphType.Page);
+		}
+
+		private Int32 linesToRemove(Block block, Int32 paragraph, Boolean blockSpaceAdded)
+		{
+			if (blockSpaceAdded)
+				return 3;
+
+			var firstIndex =
+				block.ParagraphTypeList[paragraph] == ParagraphType.Page
+					? paragraph + 1
+					: paragraph + 2;
+
+			var paragraphsCount = block.ParagraphTypeList.Count;
+
+			if (firstIndex >= paragraphsCount)
+			{
+				var blockIndex = episode.BlockList.IndexOf(block);
+
+				if (blockIndex >= episode.BlockList.Count)
+					return 0;
+
+				block = episode.BlockList[blockIndex + 1];
+				firstIndex -= paragraphsCount;
+			}
+
+			var firstParagraph =
+				block.ParagraphTypeList[firstIndex];
+
+			if (firstParagraph == ParagraphType.Talk)
+				return 0;
+
+			var tellerIndex = getIndex(block, firstIndex, ParagraphType.Teller);
+			var teller = block.TellerList[tellerIndex];
+
+			var remove = linesToAdd(teller.Pieces[0].Style);
+
+			teller.DebugLines -= remove;
+
+			return remove;
+		}
+
+		private Int32 getIndex(Block block, Int32 until, ParagraphType type)
+		{
+			return block.ParagraphTypeList
+		       .Take(until + 1)
+		       .Count(p => p == type) - 1;
 		}
 	}
 }
