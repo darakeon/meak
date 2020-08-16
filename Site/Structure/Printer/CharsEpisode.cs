@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Structure.Data;
 using Structure.Entities.System;
 using Structure.Enums;
 
@@ -12,7 +13,7 @@ namespace Structure.Printer
 
 		public CharsEpisode()
 		{
-			block = new Block{ ID = "a" };
+			block = new Block{ ID = BlockJson.FIRST_BLOCK };
 
 			foreach (var paragraph in Printer.chars())
 			{
