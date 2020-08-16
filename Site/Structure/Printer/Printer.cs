@@ -139,7 +139,7 @@ namespace Structure.Printer
 					{
 						File.AppendAllText(path, $"{getLines()}\n");
 					}
-					else if (lines[line] != getLines())
+					else if (line < lines.Count && lines[line] != getLines())
 					{
 						removeLines(getLines() * 2);
 					}
@@ -383,11 +383,12 @@ namespace Structure.Printer
 			if (firstIndex >= paragraphsCount)
 			{
 				var blockIndex = episode.BlockList.IndexOf(block);
+				var next = blockIndex + 1;
 
-				if (blockIndex >= episode.BlockList.Count)
+				if (next >= episode.BlockList.Count)
 					return 0;
 
-				block = episode.BlockList[blockIndex + 1];
+				block = episode.BlockList[next];
 				firstIndex -= paragraphsCount;
 			}
 
