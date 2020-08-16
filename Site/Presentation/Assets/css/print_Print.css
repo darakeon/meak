@@ -154,7 +154,7 @@ img,
 @page
 {
 	margin-top: 0.5cm;
-	margin-bottom: 0.5cm;
+	margin-bottom: 0;
 	margin-left: 0.5cm;
 	margin-right: 0.5cm;
 }
@@ -238,14 +238,6 @@ img,
 
 .trigger-toggle {
 	display: none;
-}
-
-/*
-	I didn't wanna do that, but sometimes PDF
-	puts 30 lines at a page, sometimes 29!!!
-*/
-.last-on-page {
-	height: 10px;
 }
 
 .paragraph.break {
