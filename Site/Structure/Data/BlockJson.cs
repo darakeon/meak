@@ -118,6 +118,7 @@ namespace Structure.Data
 
 		private void setText(Paragraph paragraph)
 		{
+			// ReSharper disable once SwitchStatementMissingSomeCases
 			switch (paragraph.Type)
 			{
 				case ParagraphType.Talk:
@@ -127,9 +128,6 @@ namespace Structure.Data
 				case ParagraphType.Teller:
 					var teller = ParagraphJson.GetTeller(paragraph);
 					Block.TellerList.Add(teller);
-					break;
-				case ParagraphType.Page:
-					Block.PageCount++;
 					break;
 				default:
 					throw new NotImplementedException();

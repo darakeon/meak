@@ -120,6 +120,8 @@ namespace Structure.Printer
 
 					if (pageAdded)
 					{
+						block.PageCount++;
+
 						if (blockSpaceAdded)
 						{
 							removeLines(3);
