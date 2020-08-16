@@ -67,7 +67,11 @@ namespace Presentation.Controllers
 				if (UrlUserType.IsAuthor())
 					throw;
 
-				return View("Error", new ErrorModel { Message = e.Message });
+				return View("Error", new ErrorModel
+				{
+					Message = e.Message,
+					Stacktrace = e.StackTrace
+				});
 			}
 
 			if (model.Story == null)

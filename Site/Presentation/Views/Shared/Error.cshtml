@@ -5,9 +5,19 @@
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@if (Request.Url.DnsSafeHost == "localhost")
+@if (Request.Url?.DnsSafeHost == "localhost")
 {
-	@Model.Message
+	var stackLines = Model.Stacktrace
+		.Replace("\r", "")
+		.Split('\n')
+		.Select(s => $"<li>{s}</li>");
+
+	var stack = String.Join("", stackLines);
+
+	<p class="title">@Model.Message</p>
+	<small>
+		<ul>@Html.Raw(stack)</ul>
+	</small>
 }
 else
 {
