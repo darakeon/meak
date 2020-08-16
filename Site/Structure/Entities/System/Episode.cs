@@ -67,7 +67,7 @@ namespace Structure.Entities.System
 		{
 			return ID;
 		}
-		
+
 		public Block this[String block]
 		{
 			get { return BlockList.SingleOrDefault(s => s.ID == block); }
@@ -77,6 +77,21 @@ namespace Structure.Entities.System
 		{
 			return style == TalkStyle.Teller
 			    || NoGender.Contains(character);
+		}
+
+		public ParagraphType? GlobalParagraphType(Block block, Int32 paragraph)
+		{
+			while (block.ParagraphTypeList.Count <= paragraph)
+			{
+				var index = BlockList.IndexOf(block) + 1;
+				if (index >= BlockList.Count)
+					return null;
+
+				paragraph -= block.ParagraphTypeList.Count;
+				block = BlockList[index];
+			}
+
+			return block.ParagraphTypeList[paragraph];
 		}
 	}
 }

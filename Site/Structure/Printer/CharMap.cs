@@ -15,7 +15,12 @@ namespace Structure.Printer
 	{
 		public CharMap(ParagraphType type, String style)
 		{
-			var file = $"{type}-{style}.json".ToLower();
+			map($"{type}-{style}".ToLower());
+		}
+
+		private void map(String fileName)
+		{
+			var file = $"{fileName}.json";
 
 			var path = Path.Combine("Printer", file);
 
@@ -26,6 +31,15 @@ namespace Structure.Printer
 
 			var json = File.ReadAllText(path);
 
+			var values = JsonConvert.DeserializeObject
+				<Dictionary<String, String>>(json);
+
+			if (values.ContainsKey("copy"))
+			{
+				map(values["copy"]);
+				return;
+			}
+
 			characters = JsonConvert.DeserializeObject
 				<Dictionary<Char, Decimal>>(json);
 
@@ -35,8 +49,8 @@ namespace Structure.Printer
 			structPath.Write(characters);
 		}
 
-		private readonly String structPath;
-		private readonly Dictionary<Char, Decimal> characters;
+		private String structPath;
+		private Dictionary<Char, Decimal> characters;
 
 		public Decimal this[Char character] =>
 			characters[removeDiacritics(character)];

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using System.IO;
 using Structure.Entities.System;
 using Structure.Enums;
 using Structure.Extensions;
@@ -12,11 +13,17 @@ namespace Structure.Printer
 		private static ParagraphMap styles;
 
 		private const Int32 pageLines = 30;
-		private const Int32 lineMaxSize = 306;
-		private const Int32 spaceSize = 4;
-		private const Int32 dashSize = 10;
+		private const Decimal lineMaxSize = 306.3m;
 
-		private Decimal currentLineSize;
+		private readonly IDictionary<ParagraphType, Decimal> spaceSize =
+			new Dictionary<ParagraphType, Decimal>
+			{
+				{ ParagraphType.Talk, 3.1m },
+				{ ParagraphType.Teller, 3.2m }
+			};
+
+		private const Decimal dashSize = 11;
+
 		private Int32 currentLine = 1;
 		private Int32 oldLine;
 
@@ -51,6 +58,17 @@ namespace Structure.Printer
 
 		private void paginate()
 		{
+			var path = $"{episode.Season}{episode.ID}.log";
+			var metricsExists = File.Exists(path);
+
+			if (!metricsExists)
+				File.WriteAllText(path, "");
+
+			var lines = File.ReadAllLines(path)
+				.Select(Int32.Parse)
+				.ToList();
+			var line = 0;
+
 			for (var b = 0; b < episode.BlockList.Count; b++)
 			{
 				var block = episode.BlockList[b];
@@ -59,15 +77,21 @@ namespace Structure.Printer
 
 				for (var p = 0; p < block.ParagraphTypeList.Count; p++)
 				{
+					oldLine = currentLine;
+
 					var type = block.ParagraphTypeList[p];
 
 					Boolean pageAdded;
 					Boolean blockSpaceAdded;
+					Action<Int32> removeLines;
+					Func<Int32> getLines;
 
 					switch (type)
 					{
 						case ParagraphType.Teller:
 							var teller = block.TellerList[tellerIndex];
+							removeLines = n => teller.DebugLines -= n;
+							getLines = () => teller.DebugLines;
 
 							var style = teller.Pieces[0].Style;
 							blockSpaceAdded = addBlockSpace(p, b, style);
@@ -78,6 +102,8 @@ namespace Structure.Printer
 							break;
 						case ParagraphType.Talk:
 							var talk = block.TalkList[talkIndex];
+							removeLines = n => talk.DebugLines -= n;
+							getLines = () => talk.DebugLines;
 
 							blockSpaceAdded = addBlockSpace(p, b);
 
@@ -94,9 +120,29 @@ namespace Structure.Printer
 
 					if (pageAdded)
 					{
-						currentLine -= linesToRemove(block, p, blockSpaceAdded);
+						if (blockSpaceAdded)
+						{
+							removeLines(3);
+							currentLine -= 3;
+						}
+						else
+						{
+							currentLine -= linesToRemove(block, p);
+						}
+
 						p++;
 					}
+
+					if (!metricsExists)
+					{
+						File.AppendAllText(path, $"{getLines()}\n");
+					}
+					else if (lines[line] != getLines())
+					{
+						removeLines(getLines() * 2);
+					}
+
+					line++;
 				}
 			}
 		}
@@ -121,36 +167,28 @@ namespace Structure.Printer
 			Block block
 		) where T : struct
 		{
-			oldLine = currentLine;
-
-			resetCurrentLineSize(type);
-
 			var words = pieceWords(type, paragraph);
 
 			addTalkBreakAndCharacter(type, paragraph, words);
 
-			wordsToLines(words);
+			wordsToLines(words, type);
+
+			paragraph.DebugLines = currentLine - oldLine;
 
 			var addPage = currentLine >= pageLines;
 
 			if (addPage)
 				addPageBreak(position, block);
 
-			paragraph.DebugLines = currentLine;
 			return addPage;
 		}
 
-		private void resetCurrentLineSize(ParagraphType type)
-		{
-			currentLineSize = type == ParagraphType.Talk ? dashSize : 0;
-		}
-
-		private List<Decimal> pieceWords<T>(
+		private List<List<Decimal>> pieceWords<T>(
 			ParagraphType type,
 			Paragraph<T> paragraph
 		) where T : struct
 		{
-			var result = new List<Decimal>();
+			var result = new List<List<Decimal>>();
 
 			foreach (var piece in paragraph.Pieces)
 			{
@@ -159,11 +197,11 @@ namespace Structure.Printer
 
 				var sizes = styles[type][piece.Style];
 
-				var text = addSurround(piece, piece.Text);
+				var text = transformToShown(piece, piece.Text);
 				var words = sizeWords(text, sizes);
 				piece.DebugWords = words;
 
-				result.AddRange(words);
+				result.Add(words);
 
 				addTellerBreak(type, piece);
 			}
@@ -171,31 +209,44 @@ namespace Structure.Printer
 			return result;
 		}
 
-		private String addSurround<T>(Piece<T> piece, String text) where T : struct
+		private String transformToShown<T>(Piece<T> piece, String text) where T : struct
 		{
-			if (typeof(T) != typeof(TalkStyle))
-				return text;
-
-			var style = piece.Style.GetEnum<TalkStyle>();
-
-			// ReSharper disable once SwitchStatementMissingSomeCases
-			switch (style)
+			if (typeof(T) == typeof(TalkStyle))
 			{
-				case TalkStyle.Teller:
-					return $"– {text} –";
+				var style = piece.Style.GetEnum<TalkStyle>();
 
-				case TalkStyle.Read:
-					return $"[{text}]";
+				// ReSharper disable once SwitchStatementMissingSomeCases
+				switch (style)
+				{
+					case TalkStyle.Teller:
+						return $"– {text} –";
 
-				case TalkStyle.Thought:
-					return $"(({text}))";
+					case TalkStyle.Read:
+						return $"[{text}]";
 
-				case TalkStyle.Translate:
-					return $"{{{text}}}";
+					case TalkStyle.Thought:
+						return $"(({text}))";
 
-				default:
-					return text;
+					case TalkStyle.Translate:
+						return $"{{{text}}}";
+
+					case TalkStyle.Screamed:
+						return text.ToUpper();
+
+					default:
+						return text;
+				}
 			}
+
+			if (typeof(T) == typeof(TellerStyle))
+			{
+				var style = piece.Style.GetEnum<TellerStyle>();
+
+				if (style == TellerStyle.Division)
+					return text.ToUpper();
+			}
+
+			return text;
 		}
 
 		private List<Decimal> sizeWords(String text, CharMap style)
@@ -236,8 +287,6 @@ namespace Structure.Printer
 
 			var style = piece.Style.GetEnum<TellerStyle>();
 			currentLine += linesToAdd(style);
-
-			resetCurrentLineSize(type);
 		}
 
 		private Int32 linesToAdd(TellerStyle style)
@@ -257,7 +306,7 @@ namespace Structure.Printer
 		private void addTalkBreakAndCharacter<T>(
 			ParagraphType type,
 			Paragraph<T> paragraph,
-			List<Decimal> words
+			List<List<Decimal>> words
 		) where T : struct
 		{
 			if (!(paragraph is Talk talk))
@@ -268,28 +317,40 @@ namespace Structure.Printer
 
 			var name = sizeWords(character, @default);
 
-			words.AddRange(name);
+			words.Add(name);
 
 			talk.DebugCharacter = name;
 
 			currentLine++;
 		}
 
-		private void wordsToLines(List<Decimal> words)
+		private void wordsToLines(List<List<Decimal>> words, ParagraphType type)
 		{
-			for (var w = 0; w < words.Count; w++)
-			{
-				var word = words[w];
-				currentLineSize += word;
+			var currentLineSize = type == ParagraphType.Talk ? dashSize : 0;
 
-				if (currentLineSize > lineMaxSize)
+			for (var s = 0; s < words.Count; s++)
+			{
+				for (var w = 0; w < words[s].Count; w++)
 				{
-					currentLine++;
-					currentLineSize = word;
+					var word = words[s][w];
+					currentLineSize += word;
+
+					if (currentLineSize > lineMaxSize)
+					{
+						currentLine++;
+						currentLineSize = word;
+					}
+
+					var lastWord = w + 1 == words[s].Count;
+					var lastSentence = s + 1 == words.Count;
+					var isTalk = type == ParagraphType.Talk;
+					var isLast = lastWord && (!isTalk || lastSentence);
+
+					currentLineSize += isLast ? 0 : spaceSize[type];
 				}
 
-				var isLast = w + 1 == words.Count;
-				currentLineSize += isLast ? 0 : spaceSize;
+				if (type == ParagraphType.Teller)
+					currentLineSize = 0;
 			}
 		}
 
@@ -306,13 +367,12 @@ namespace Structure.Printer
 			block.ParagraphTypeList.Insert(insertAt, ParagraphType.Page);
 		}
 
-		private Int32 linesToRemove(Block block, Int32 paragraph, Boolean blockSpaceAdded)
+		private Int32 linesToRemove(Block block, Int32 paragraph)
 		{
-			if (blockSpaceAdded)
-				return 3;
+			var type = block.ParagraphTypeList[paragraph];
 
 			var firstIndex =
-				block.ParagraphTypeList[paragraph] == ParagraphType.Page
+				type == ParagraphType.Page
 					? paragraph + 1
 					: paragraph + 2;
 

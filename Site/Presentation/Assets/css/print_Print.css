@@ -239,3 +239,19 @@ img,
 .trigger-toggle {
 	display: none;
 }
+
+/*
+	I didn't wanna do that, but sometimes PDF
+	puts 30 lines at a page, sometimes 29!!!
+*/
+.last-on-page {
+	height: 10px;
+}
+
+.paragraph.break {
+	break-before: avoid;
+}
+
+.page {
+	display: none;
+}
