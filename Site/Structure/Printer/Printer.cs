@@ -58,7 +58,7 @@ namespace Structure.Printer
 
 		private void paginate()
 		{
-			var path = $"{episode.Season}{episode.ID}.log";
+			var path = Path.Combine("log", episode.Season.ID, $"{episode.ID}.log");
 			var metricsExists = File.Exists(path);
 
 			if (!metricsExists)
