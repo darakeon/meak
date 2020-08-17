@@ -87,7 +87,7 @@ namespace Structure.Data
 			return typeof(T).Name
 				.Replace("Style", "")
 				.ToLower()
-				.GetEnum<ParagraphType>();
+				.To<ParagraphType>();
 		}
 
 		private static List<Piece> getPieces<T>(Paragraph<T> paragraph) where T : struct

@@ -94,7 +94,7 @@ namespace Structure.Printer
 							getLines = () => teller.DebugLines;
 
 							var style = teller.Pieces[0].Style;
-							blockSpaceAdded = addBlockSpace(p, b, style);
+							blockSpaceAdded = addBlockSpace(p, style);
 
 							pageAdded = processParagraph(type, p, teller, block);
 
@@ -105,7 +105,7 @@ namespace Structure.Printer
 							removeLines = n => talk.DebugLines -= n;
 							getLines = () => talk.DebugLines;
 
-							blockSpaceAdded = addBlockSpace(p, b);
+							blockSpaceAdded = addBlockSpace(p);
 
 							pageAdded = processParagraph(type, p, talk, block);
 
@@ -149,12 +149,12 @@ namespace Structure.Printer
 			}
 		}
 
-		private Boolean addBlockSpace(Int32 paragraph, Int32 block, TellerStyle? style = null)
+		private Boolean addBlockSpace(Int32 paragraph, TellerStyle? style = null)
 		{
 			var hasNoSpace = style != TellerStyle.Division
 				&& style != TellerStyle.First;
 
-			var add = paragraph == 0 && block != 0 && hasNoSpace;
+			var add = paragraph == 0 && hasNoSpace;
 
 			if (add)
 				currentLine += 3;
@@ -179,8 +179,14 @@ namespace Structure.Printer
 
 			var addPage = currentLine >= pageLines;
 
+			var style = type == ParagraphType.Teller
+				? paragraph.Pieces[0].Style.To<TellerStyle>()
+				: TellerStyle.Default;
+
 			if (addPage)
-				addPageBreak(position, block);
+			{
+				addPageBreak(position, block, style);
+			}
 
 			return addPage;
 		}
@@ -215,7 +221,7 @@ namespace Structure.Printer
 		{
 			if (typeof(T) == typeof(TalkStyle))
 			{
-				var style = piece.Style.GetEnum<TalkStyle>();
+				var style = piece.Style.To<TalkStyle>();
 
 				// ReSharper disable once SwitchStatementMissingSomeCases
 				switch (style)
@@ -242,7 +248,7 @@ namespace Structure.Printer
 
 			if (typeof(T) == typeof(TellerStyle))
 			{
-				var style = piece.Style.GetEnum<TellerStyle>();
+				var style = piece.Style.To<TellerStyle>();
 
 				if (style == TellerStyle.Division)
 					return text.ToUpper();
@@ -287,7 +293,7 @@ namespace Structure.Printer
 
 			currentLine++;
 
-			var style = piece.Style.GetEnum<TellerStyle>();
+			var style = piece.Style.To<TellerStyle>();
 			currentLine += linesToAdd(style);
 		}
 
@@ -356,15 +362,22 @@ namespace Structure.Printer
 			}
 		}
 
-		private void addPageBreak(Int32 position, Block block)
+		private void addPageBreak(Int32 position, Block block, TellerStyle style)
 		{
-			var insertAt = currentLine == pageLines
-				? position + 1
-				: position;
+			var fitsToPage = currentLine == pageLines;
+			var hasNoTellerSpace = linesToAdd(style) == 0;
+			var hasNoBlockSpace = position > 0;
 
-			currentLine -= currentLine > pageLines
-				? oldLine
-				: pageLines;
+			var shouldBeSamePage = fitsToPage
+				&& hasNoTellerSpace && hasNoBlockSpace;
+
+			var insertAt = position
+			    + (shouldBeSamePage ? 1 : 0);
+
+			currentLine -=
+				shouldBeSamePage
+				? pageLines
+				: oldLine;
 
 			block.ParagraphTypeList.Insert(insertAt, ParagraphType.Page);
 		}

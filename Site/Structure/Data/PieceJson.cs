@@ -22,7 +22,7 @@ namespace Structure.Data
 		{
 			try
 			{
-				return genericPiece.Type.GetEnum<TS>();
+				return genericPiece.Type.To<TS>();
 			}
 			catch
 			{

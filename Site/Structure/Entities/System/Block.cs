@@ -39,6 +39,7 @@ namespace Structure.Entities.System
 
 		public Int32 ParagraphCount => 
 			TalkList.Where(p => p.IsFilled()).Count()
-			+ TellerList.Where(p => p.IsFilled()).Count();
+			+ TellerList.Where(p => p.IsFilled()).Count()
+			+ PageCount;
 	}
 }
