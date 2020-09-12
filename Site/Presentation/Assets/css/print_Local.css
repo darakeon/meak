@@ -1,0 +1,19 @@
+﻿@page
+{
+	size: A4;
+	margin-bottom: 14.8cm;
+}
+
+.page-odd-item
+{
+	margin-left: 11.5cm;
+}
+
+.page-even-item
+{
+	margin-right: 11.5cm;
+}
+
+.main > p.title {
+	margin-left: 11.5cm;
+}

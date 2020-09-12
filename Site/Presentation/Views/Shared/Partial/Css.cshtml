@@ -8,4 +8,9 @@
 		<link href="@Url.Content("~/Assets/css/" + file.Name)?v=@Version.Name"
 		      rel="stylesheet" type="text/css" media="@file.Media" />
 	}
+
+	if (Request["Print"] == "Local") {
+		<link href="@Url.Content("~/Assets/css/print_Local.css")?v=@Version.Name"
+		      rel="stylesheet" type="text/css" media="print" />
+	}
 }
