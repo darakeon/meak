@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using DK.MVC.Authentication;
 using Structure.Data;
 using Structure.Enums;
 using Structure.Helpers;

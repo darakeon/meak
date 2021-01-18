@@ -1,0 +1,87 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Printer\talk-arrive.json" />
+    <None Remove="Printer\talk-default.json" />
+    <None Remove="Printer\talk-frizz.json" />
+    <None Remove="Printer\talk-ghost.json" />
+    <None Remove="Printer\talk-hushed.json" />
+    <None Remove="Printer\talk-irony.json" />
+    <None Remove="Printer\talk-out.json" />
+    <None Remove="Printer\talk-read.json" />
+    <None Remove="Printer\talk-screamed.json" />
+    <None Remove="Printer\talk-teller.json" />
+    <None Remove="Printer\talk-thought.json" />
+    <None Remove="Printer\talk-translate.json" />
+    <None Remove="Printer\teller-default.json" />
+    <None Remove="Printer\teller-division.json" />
+    <None Remove="Printer\teller-first.json" />
+    <None Remove="Printer\teller-letter.json" />
+    <None Remove="Printer\teller-trigger.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Printer\talk-arrive.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-default.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-frizz.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-ghost.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-hushed.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-irony.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-out.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-read.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-screamed.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-teller.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-thought.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\talk-translate.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\teller-default.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\teller-division.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\teller-first.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\teller-letter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Printer\teller-trigger.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

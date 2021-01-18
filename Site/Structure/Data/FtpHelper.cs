@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-using DK.Generic.Collection;
 using Structure.Helpers;
 
 namespace Structure.Data
@@ -208,7 +207,7 @@ namespace Structure.Data
 
 			using (var response = (FtpWebResponse)request.GetResponse())
 			{
-				if (!response.StatusCode.IsIn(rightAnswers))
+				if (!rightAnswers.Contains(response.StatusCode))
 				{
 					error = response.StatusDescription;
 				}
