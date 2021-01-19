@@ -1,0 +1,86 @@
+﻿@using Presentation.Models.General
+@using Structure.Helpers
+@model Presentation.Models.SeasonEditEpisodeModel
+
+@{
+	ViewBag.Title = $"MEAK {Model.Story.Season}{Model.Story} – {Model.Story.Title}";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+
+	var route = new { episodeID = Model.Story.ID, seasonID = Model.Story.Season.ID };
+	var formId = "form_title";
+	var action = Url.Action("EditTitle", route);
+
+	var topSelector =
+		new TopSelectorModel
+		{
+			Total = Model.Story.BlockList.Count,
+			Current = Convert.ToInt32(Model.ReadingBlock[0]) - 97
+		};
+}
+
+<script src="@Url.Content("~/Assets/js/Author/Inputs.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Assets/js/Author/Suggestion.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Assets/js/Author/Adder.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Assets/js/Author/SaveChangeColor.js")" type="text/javascript"></script>
+
+<script src="@Url.Content("~/Assets/js/Author/General.js")" type="text/javascript"></script>
+
+@await Html.PartialAsync("Suggestion")
+
+@section Header
+{
+	@{
+		var paragraphsCount = Model.Story.BlockList.Sum(s => s.ParagraphCount);
+	}
+
+	<div class="absolute-header lightback">
+		<form action="@action"
+			method="post"
+			id="@formId"
+			data-ajax="true"
+			data-ajax-method="post"
+			data-ajax-url="@action"
+			data-ajax-begin = "SaveBegin('@formId')"
+			data-ajax-success = "SaveSuccess('@formId')"
+			data-ajax-failure = "SaveFailure('@formId')"
+			>
+
+			<div class="titleChange">
+				<button type="submit" class="darkback save">Save</button>
+
+				@Html.ActionLink("Upload",
+					"Upload", "Upload",
+					RouteStories.With(Model.Story.Season.ID, Model.Story.ID, "_"),
+					new { @class = "darkback save", target = "_blank" })
+
+				@Html.TextBoxFor(m => m.Story.Title)
+
+				<span class="paragraphCountTitle">
+					Paragraphs last count: @paragraphsCount
+				</span>
+
+				<br />
+
+				@Html.TextAreaFor(m => m.Story.Summary)
+
+				@Html.TextBoxFor(m => m.Story.Breaks)
+			</div>
+		</form>
+	</div>
+}
+
+
+
+@await Html.PartialAsync("Partial/ChangeBlock", topSelector)
+
+<div class="blocks">
+	@for (var s = 0; s < Model.Story.BlockList.Count; s++)
+	{
+		Model.BlockCounter = s;
+		@await Html.PartialAsync("Author/Block")
+	}
+</div>
+
+@await Html.PartialAsync("Partial/ChangeBlock", topSelector)
+
+@await Html.PartialAsync("Partial/Sign")

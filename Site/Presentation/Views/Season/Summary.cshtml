@@ -1,0 +1,33 @@
+﻿@using Structure.Helpers
+@model Presentation.Models.SeasonSeasonModel
+
+@{
+	ViewBag.Title = $"MEAK – Temporada {Model.Season}";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p class="title">
+	<small>Temporada @Model.Season</small><br />
+	@Model.Season.Name
+	<span class="sub">Resumo</span>
+</p>
+
+<ul class="seasonEpisodeList">
+	@foreach (var episode in Model.EpisodeList)
+	{
+		var url = RouteStories.With(Model.Season, episode);
+
+		<li>
+			<a id="@episode.ID"></a>
+			<a class="title" href="@url">
+				<span class="epCode">@(episode):</span>
+				<span class="epTitle">@episode.Title</span>
+			</a>
+			<p class="summary">
+				@episode.Summary
+			</p>
+		</li>
+	}
+</ul>
+
+@await Html.PartialAsync("Partial/Sign")

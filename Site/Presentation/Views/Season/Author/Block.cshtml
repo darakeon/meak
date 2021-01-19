@@ -1,0 +1,81 @@
+﻿@using Presentation.Helpers
+@using Structure.Helpers
+@model Presentation.Models.SeasonEditEpisodeModel
+		   
+@{
+	var block = Model.Story.BlockList[Model.BlockCounter];
+	var formId = "form_" + block.ID;
+
+	var route = RouteStories.With(Model.Story.Season, Model.Story, block);
+	var action = Url.Action("EditBlock", route);
+
+	var blockClass = "block";
+
+	if (block.ID == Model.ReadingBlock)
+	{
+		blockClass += " reading";
+	}
+
+	if (Model.Show != AuthorMode.Default)
+	{
+		blockClass += " no-adders";
+	}
+}
+
+<div class="@blockClass" id="Block@(Model.BlockCounter)">
+
+	<div class="goHistory">
+		<span class="paragraphCountTitle">
+			Block Paragraphs Last Count: @block.ParagraphCount
+		</span>
+		
+		<a href="#"
+		   onclick="SaveCurrentForm();return false;"
+		   class="darkback">
+			Save
+		</a>
+
+		<a href="@route.ToString()"
+		   class="darkback" target="_blank">
+			View
+		</a>
+		
+		<a href="@Url.Action("Upload", "Upload", route)"
+		   class="darkback" target="_blank">
+			Upload
+		</a>
+	</div>
+
+	<form action="@action"
+		method="post"
+		id="@formId"
+		data-ajax="true"
+		data-ajax-method="post"
+		data-ajax-url="@action"
+		data-ajax-begin = "SaveBegin('@formId')"
+		data-ajax-success = "SaveSuccess('@formId')"
+		data-ajax-failure = "SaveFailure('@formId')"
+		>
+
+		@for (var s = 0; s <= Model.BlockCounter; s++)
+		{
+			@Html.HiddenFor(m => m.Story.BlockList[s].ID);
+		}
+		
+		@Html.HiddenFor(m => m.Story.BlockList[Model.BlockCounter].Episode.Season.ID)
+		@Html.HiddenFor(m => m.Story.BlockList[Model.BlockCounter].Episode.ID)
+														 
+		@for (var p = 0; p < block.ParagraphTypeList.Count; p++)
+		{
+			Model.ParagraphCounter = p;
+
+			@await Html.PartialAsync("Author/Paragraph")
+		}
+
+		@{
+			Model.TalkCounter = 0;
+			Model.TellerCounter = 0;
+			Model.PageCounter = 0;
+		}
+	</form>		
+</div>

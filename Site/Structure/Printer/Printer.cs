@@ -5,6 +5,7 @@ using System.IO;
 using Structure.Entities.System;
 using Structure.Enums;
 using Structure.Extensions;
+using Structure.Helpers;
 
 namespace Structure.Printer
 {
@@ -58,15 +59,25 @@ namespace Structure.Printer
 
 		private void paginate()
 		{
-			var path = Path.Combine("log", episode.Season.ID, $"{episode.ID}.log");
-			var metricsExists = File.Exists(path);
+			var path = Path.Combine("log", episode.Season.ID);
+			var canRecord = Config.IsAuthor;
 
-			if (!metricsExists)
+			if (canRecord && !Directory.Exists(path))
+				Directory.CreateDirectory(path);
+
+			path = Path.Combine(path, $"{episode.ID}.log");
+			var metricsExists = File.Exists(path);
+			var recordMetrics = canRecord && !metricsExists;
+
+			if (recordMetrics)
 				File.WriteAllText(path, "");
 
-			var lines = File.ReadAllLines(path)
-				.Select(Int32.Parse)
-				.ToList();
+			var lines = recordMetrics
+				? File.ReadAllLines(path)
+					.Select(Int32.Parse)
+					.ToList()
+				: new List<Int32>();
+
 			var line = 0;
 
 			for (var b = 0; b < episode.BlockList.Count; b++)
@@ -112,6 +123,7 @@ namespace Structure.Printer
 							talkIndex++;
 							break;
 						case ParagraphType.Page:
+							continue;
 						default:
 							throw new NotImplementedException(
 								$"{episode.Season}{episode}{block} [{p}]: {type}"
@@ -135,7 +147,7 @@ namespace Structure.Printer
 						p++;
 					}
 
-					if (!metricsExists)
+					if (recordMetrics)
 					{
 						File.AppendAllText(path, $"{getLines()}\n");
 					}

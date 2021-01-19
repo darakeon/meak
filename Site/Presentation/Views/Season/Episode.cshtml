@@ -1,0 +1,227 @@
+﻿@model Presentation.Models.SeasonEpisodeModel
+@using Presentation.Helpers
+@using Presentation.Models.General
+@using Structure.Data
+@using Structure.Enums;
+@using Structure.Helpers
+
+@{
+	ViewBag.Title = $"MEAK {Model.Story.Season}{Model.Story} – {Model.Story.Title}";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+
+	var talkCounter = 0;
+	var tellerCounter = 0;
+
+	var topSelector =
+		new TopSelectorModel
+		{
+			Total = Model.Story.BlockList.Count,
+			Current = Convert.ToInt32(Model.ReadingBlock[0]) - 97
+		};
+
+	var season = Model.Story.Season.ID;
+	var episode = Model.Story.ID;
+}
+
+<!--
+<div class="header-aligner"></div>
+<div class="footer-aligner"></div>
+
+@for (var g = 0; g < 62; g++)
+{
+	<div class="grid just-print" style="width: @(g * 5)px">
+		@(g > 0 && g % 4 == 0 ? (g/4).ToString() : "")
+	</div>
+}
+-->
+
+<p class="title">
+	@Model.Story.Title
+
+	@if (Model.Story.HasSummary())
+	{
+		var route = RouteStories.With(season);
+
+		<a href="@(route)#@episode" class="sub screen-action">
+			ler resumo
+		</a>
+	}
+</p>
+
+@await Html.PartialAsync("Partial/ChangeBlock", topSelector)
+
+@{
+	var lastBlock = Model.Story.BlockList.Count - 1;
+	var page = Config.IsAuthor
+		? Model.Story.PageStart ?? 0
+		: 0;
+	var lastPage = page;
+	page++;
+
+	var line = 0;
+}
+
+<div class="blocks">
+	@for (var b = 0; b <= lastBlock; b++)
+	{
+		var block = Model.Story.BlockList[b];
+		var trigger = false;
+
+		<div class="block @if (block.ID == Model.ReadingBlock) { @("reading") }" id="Block@(b)">
+			@for (var pt = 0; pt < block.ParagraphTypeList.Count; pt++)
+			{
+				var paragraph = block.ParagraphTypeList[pt];
+				var type = paragraph.ToString().ToLower();
+				var showTrigger = trigger ? "trigger-hidden" : "";
+				var pageBreak = lastPage != page ? "break" : "";
+				var style = page % 2 == 0 ? "even" : "odd";
+				var pageItem = $"page-{style}-item";
+
+				var next = Model.Story.GlobalParagraphType(block, pt + 1);
+				var lastOnPage = next == ParagraphType.Page
+					? "last-on-page"
+					: null;
+
+				if (paragraph != ParagraphType.Page)
+				{
+					line++;
+				}
+
+				<div class="paragraph @type @showTrigger @pageBreak @pageItem @lastOnPage">
+					@if (lastPage != page)
+					{
+						@await Html.PartialAsync("Partial/PrintHeader", Model.Story)
+						@await Html.PartialAsync("Partial/PrintFooter", page)
+						lastPage = page;
+					}
+
+					@switch (paragraph)
+					{
+						case ParagraphType.Talk:
+						{
+							var talk = block.TalkList[talkCounter];
+
+							<span class="debug">
+								@($"L{line}: {talk.DebugLines}")<br/>
+								@($"C: {String.Join(" + ", talk.DebugCharacter)}")<br/>
+							</span>
+
+							@("– ")
+
+							var paragraphId = b + "_" + tellerCounter + "_" + talkCounter;
+
+							for (var p = 0; p < talk.Pieces.Count; p++)
+							{
+								var piece = talk.Pieces[p];
+								var pieceId = paragraphId + "_" + p;
+
+								var title = piece.Style == TalkStyle.Default
+									? ""
+									: Dic.Talk[piece.Style];
+
+								<span class="debug">
+									@($"[{String.Join(" + ", piece.DebugWords)}]")
+								</span>
+
+								<span title="@title" class="talk_@(piece.Style)">
+									@piece.Text
+								</span>
+
+								if (piece.Audio != null)
+								{
+									<audio id="@pieceId">
+										<source src="@Paths.AudioLocalPath(season, episode, piece.Audio)"
+										        type="audio/mpeg">
+									</audio>
+
+									<span class="darkback play"
+									      onclick="$('#@pieceId')[0].play()">
+										&#9658;
+									</span>
+								}
+							}
+
+							@(" (" + talk.Character + ")")
+
+							talkCounter++;
+
+							break;
+						}
+
+						case ParagraphType.Teller:
+						{
+							var teller = block.TellerList[tellerCounter];
+
+							<span class="debug">
+								@($"L{line}: {teller.DebugLines}")<br/>
+							</span>
+
+							foreach (var piece in teller.Pieces)
+							{
+								<span class="debug">
+									@($"[{String.Join(" + ", piece.DebugWords)}]")
+								</span>
+
+								if (piece.Style == TellerStyle.Trigger)
+								{
+									trigger = !trigger;
+
+									var symbol = trigger ? "+" : "–";
+									var position = trigger ? "abaixo" : "acima";
+
+									<div class="teller_@(piece.Style) trigger-toggle"
+									     data-type="@symbol" data-content="@piece.Text">
+										conteúdo oculto (@symbol)
+									</div>
+
+									<div class="just-print teller_@(piece.Style)">
+										conteúdo @position pode disparar lembranças ruins sobre
+										@piece.Text
+									</div>
+								}
+								else
+								{
+									<div class="teller_@(piece.Style)">@piece.Text</div>
+								}
+							}
+
+							tellerCounter++;
+
+							break;
+						}
+
+						case ParagraphType.Page:
+						{
+							page++;
+							<div class="debug">--- QUEBRA ---</div>
+
+							break;
+						}
+
+						default:
+							throw new NotImplementedException();
+					}
+				</div>
+			}
+
+			@if (b == lastBlock && Model.Story.LastBlock != block.ID)
+			{
+				<div class="continue">Continua...</div>
+			}
+		</div>
+
+		talkCounter = 0;
+		tellerCounter = 0;
+	}
+</div>
+
+@await Html.PartialAsync("Partial/PrintSummary", Model.Story)
+
+@await Html.PartialAsync("Partial/ChangeBlock", topSelector)
+
+@await Html.PartialAsync("Partial/Sign")
+
+@if (Model.Story.Link != null)
+{
+	<a class="book-link screen-action" href="@Model.Story.Link" target="_blank">&#x1F56E;</a>
+}

@@ -8,6 +8,7 @@ using System.Text;
 using Newtonsoft.Json;
 using Structure.Enums;
 using Structure.Extensions;
+using Structure.Helpers;
 
 namespace Structure.Printer
 {
@@ -25,9 +26,7 @@ namespace Structure.Printer
 			var path = Path.Combine("Printer", file);
 
 			if (Directory.Exists("bin"))
-				path = Path.Combine("bin", path);
-
-			structPath = Path.Combine("..", "Structure", "Printer", file);
+				path = Path.Combine(AppContext.BaseDirectory, path);
 
 			var json = File.ReadAllText(path);
 
@@ -46,7 +45,11 @@ namespace Structure.Printer
 			characters = characters.OrderBy(p => p.Key)
 				.ToDictionary(p => p.Key, p => p.Value);
 
-			structPath.Write(characters);
+			if (Config.IsAuthor)
+			{
+				structPath = Path.Combine("..", "Structure", "Printer", file);
+				structPath.Write(characters);
+			}
 		}
 
 		private String structPath;

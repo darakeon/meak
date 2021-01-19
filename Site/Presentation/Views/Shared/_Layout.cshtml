@@ -1,0 +1,62 @@
+﻿@using Microsoft.AspNetCore.Http.Extensions
+@model Presentation.Models.BaseModel
+
+@{
+	var url = Context.Request.Scheme + "://" + Context.Request.Host;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>@ViewBag.Title</title>
+
+	<link href="@Url.Content("~/Assets/images/favicon.png")" rel="icon" type="image/png" />
+
+	@if (Model.Css != null)
+	{
+		@await Html.PartialAsync("Partial/Css", Model.Css)
+	}
+
+
+	@await Html.PartialAsync("Partial/Js")
+
+	<meta property="og:title" content="@ViewBag.Title">
+	<meta property="og:description" content="Esta é a história de um amontoado de átomos ao acaso tentando voltar a ser.">
+	<meta property="og:image" content="@url/Assets/images/facebook.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="600">
+	<meta property="og:image:height" content="600">
+	<meta property="og:url" content="@(url + Context.Request.GetDisplayUrl())">
+	<meta property="og:type" content="website">
+
+</head>
+
+<body>
+	<div class="login">
+		@await Html.PartialAsync("Partial/LogOn")
+	</div>
+
+	<div>
+		@await RenderSectionAsync("Header", false)
+	</div>
+
+	<div class="content">
+		<div class="resizer">
+			<button class="sizeLess lightback">A &ndash; &ndash;</button>
+			<button class="sizeMore lightback">A + +</button>
+		</div>
+
+		<div class="left">
+			<a class="head" href="/"></a>
+
+			<div class="menu">
+				@await Html.PartialAsync("Partial/Menu")
+			</div>
+		</div>
+
+		<div class="main lightback">
+			@RenderBody()
+		</div>
+	</div>
+</body>
+</html>

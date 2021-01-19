@@ -1,0 +1,91 @@
+﻿@using Presentation.Helpers
+@using Structure.Helpers
+@using System.Web
+@model Presentation.Models.SeasonEditEpisodeModel
+
+@{
+	var piece = Model.Story
+		.BlockList[Model.BlockCounter]
+		.TellerList[Model.TellerCounter]
+		.Pieces[Model.PieceCounter];
+
+	var route = RouteStories.With(null, null, Model.CurrentBlock);
+	var adderUrl = HttpUtility.UrlDecode(
+		Url.Action("Adder", "Season", route)
+	);
+}
+
+<span class="paragraphPiece" id="Teller@(Model.TellerCounter)_Piece@(Model.PieceCounter)">
+	<span class="teller_@(piece.Style)">
+		@if (Model.Show == AuthorMode.NoGender)
+		{
+			@Html.HiddenFor(m =>
+				m.Story
+					.BlockList[Model.BlockCounter]
+					.TellerList[Model.TellerCounter]
+					.Pieces[Model.PieceCounter].Style
+			)
+			<span class="auxi">
+				@(Model.Story
+					.BlockList[Model.BlockCounter]
+					.TellerList[Model.TellerCounter]
+					.Pieces[Model.PieceCounter].Style)
+			</span>
+		}
+		else
+		{
+			@Html.TextBoxFor(m =>
+				m.Story
+					.BlockList[Model.BlockCounter]
+					.TellerList[Model.TellerCounter]
+					.Pieces[Model.PieceCounter].Style,
+				new
+				{
+					@class = "lightback auxi",
+					rel = (
+						"block" + Model.BlockCounter
+						+ "_tellerStyle" + Model.TellerCounter
+						+ "_piece" + Model.PieceCounter
+						),
+					suggestion = "tellerStyle",
+					onfocus = "GetSuggestionBox(this)",
+					onblur = "ExitSuggestionBox(this)",
+					tabIndex = Model.TabIndex++
+				})
+		}
+
+		@Html.TextBoxFor(m => m.Story
+			.BlockList[Model.BlockCounter]
+			.TellerList[Model.TellerCounter]
+			.Pieces[Model.PieceCounter].Text,
+			new
+			{
+				@class = "text",
+				tabIndex = Model.TabIndex++
+			})
+
+		@if (Model.Show == AuthorMode.Default)
+		{
+			<adder
+				tabIndex="@(Model.TabIndex++)"
+				class="adderPiece"
+				block="@Model.BlockCounter"
+				type="Piece"
+				subtype="Teller"
+				paragraph="@Model.ParagraphCounter"
+				teller="@Model.TellerCounter"
+				piece="@Model.PieceCounter"
+				onclick="AddInputItem(this)"
+				url="@adderUrl">+</adder>
+		}
+	</span>
+
+	@{
+		var id =
+			$"block{Model.BlockCounter}" +
+			$"_tellerStyle{Model.TellerCounter}" +
+			$"_piece{Model.PieceCounter}";
+	}
+
+	<div class="suggestionBox" id="@id"></div>
+</span>

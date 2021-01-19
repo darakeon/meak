@@ -1,0 +1,280 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>f33e2473-a274-47a5-883b-9eba9aa5dd26</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\css\Author\screen_AddEpisode.css" />
+    <None Remove="Assets\css\Author\screen_Adder.css" />
+    <None Remove="Assets\css\Author\screen_EditEpisode.css" />
+    <None Remove="Assets\css\Author\screen_Form.css" />
+    <None Remove="Assets\css\Author\screen_Suggestion.css" />
+    <None Remove="Assets\css\Author\screen_ViewStoryLink.css" />
+    <None Remove="Assets\css\Episode.css" />
+    <None Remove="Assets\css\Main.css" />
+    <None Remove="Assets\css\print_Local.css" />
+    <None Remove="Assets\css\print_Main.css" />
+    <None Remove="Assets\css\print_Print.css" />
+    <None Remove="Assets\css\screen_Back.css" />
+    <None Remove="Assets\css\screen_Block.css" />
+    <None Remove="Assets\css\screen_Head.css" />
+    <None Remove="Assets\css\screen_Legend.css" />
+    <None Remove="Assets\css\screen_LogOn.css" />
+    <None Remove="Assets\css\screen_Main.css" />
+    <None Remove="Assets\css\screen_Menu.css" />
+    <None Remove="Assets\css\screen_Navigation.css" />
+    <None Remove="Assets\css\screen_Resize.css" />
+    <None Remove="Assets\css\screen_Site.css" />
+    <None Remove="Assets\css\Season.css" />
+    <None Remove="Assets\images\arms.gif" />
+    <None Remove="Assets\images\boxes\dark_background.jpg" />
+    <None Remove="Assets\images\boxes\green_background.jpg" />
+    <None Remove="Assets\images\boxes\light_background.jpg" />
+    <None Remove="Assets\images\boxes\red_background.jpg" />
+    <None Remove="Assets\images\boxes\yellow_background.jpg" />
+    <None Remove="Assets\images\facebook.png" />
+    <None Remove="Assets\images\facebook_capa.png" />
+    <None Remove="Assets\images\facebook_perfil.png" />
+    <None Remove="Assets\images\favicon.png" />
+    <None Remove="Assets\images\fundo.png" />
+    <None Remove="Assets\images\logo.png" />
+    <None Remove="Assets\images\matrix\arms_c.png" />
+    <None Remove="Assets\images\matrix\arms_pb.png" />
+    <None Remove="Assets\images\matrix\background.png" />
+    <None Remove="Assets\images\matrix\background_borderless.rar" />
+    <None Remove="Assets\images\matrix\background_original.rar" />
+    <None Remove="Assets\images\matrix\logo.png" />
+    <None Remove="Assets\images\matrix\prevnext.png" />
+    <None Remove="Assets\images\matrix\sign.png" />
+    <None Remove="Assets\images\next.gif" />
+    <None Remove="Assets\images\prev.gif" />
+    <None Remove="Assets\images\sign.gif" />
+    <None Remove="Assets\js\AjustBoxes.js" />
+    <None Remove="Assets\js\Author\Adder.js" />
+    <None Remove="Assets\js\Author\General.js" />
+    <None Remove="Assets\js\Author\Inputs.js" />
+    <None Remove="Assets\js\Author\SaveChangeColor.js" />
+    <None Remove="Assets\js\Author\Suggestion.js" />
+    <None Remove="Assets\js\Back.js" />
+    <None Remove="Assets\js\BlockChanger.js" />
+    <None Remove="Assets\js\FontResizer.js" />
+    <None Remove="Assets\js\General.js" />
+    <None Remove="Assets\js\Legend.js" />
+    <None Remove="Assets\js\lib\jquery-1.6.1.min.js" />
+    <None Remove="Assets\js\lib\jquery.unobtrusive-ajax.min.js" />
+    <None Remove="Assets\js\lib\jquery.validate.min.js" />
+    <None Remove="Assets\js\lib\jquery.validate.unobtrusive.min.js" />
+    <None Remove="Assets\js\lib\NumericValue.js" />
+    <None Remove="Assets\js\lib\Scale.js" />
+    <None Remove="Assets\js\lib\StringExtension.js" />
+    <None Remove="Assets\js\Menu.js" />
+    <None Remove="Assets\js\Trigger.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\css\Author\screen_AddEpisode.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\Author\screen_Adder.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\Author\screen_EditEpisode.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\Author\screen_Form.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\Author\screen_Suggestion.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\Author\screen_ViewStoryLink.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\Episode.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\Main.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\print_Local.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\print_Main.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\screen_Back.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\screen_Block.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\screen_Head.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\screen_Legend.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\screen_LogOn.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\screen_Main.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\screen_Menu.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\screen_Navigation.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\screen_Resize.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\screen_Site.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\css\Season.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\arms.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\boxes\dark_background.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\boxes\green_background.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\boxes\light_background.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\boxes\red_background.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\boxes\yellow_background.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\facebook.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\facebook_capa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\facebook_perfil.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\favicon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\fundo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\matrix\arms_c.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\matrix\arms_pb.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\matrix\background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\matrix\background_borderless.rar">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\matrix\background_original.rar">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\matrix\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\matrix\prevnext.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\matrix\sign.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\next.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\prev.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\images\sign.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\AjustBoxes.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\Author\Adder.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\Author\General.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\Author\Inputs.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\Author\SaveChangeColor.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\Author\Suggestion.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\Back.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\BlockChanger.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\FontResizer.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\General.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\Legend.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\lib\jquery-1.6.1.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\lib\jquery.unobtrusive-ajax.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\lib\jquery.validate.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\lib\jquery.validate.unobtrusive.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\lib\NumericValue.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\lib\Scale.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\lib\StringExtension.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\Menu.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\js\Trigger.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Keon.Util" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenderFix\GenderFix.csproj" />
+    <ProjectReference Include="..\Structure\Structure.csproj" />
+  </ItemGroup>
+
+</Project>

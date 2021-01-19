@@ -54,12 +54,12 @@ namespace Structure.Entities.System
 
 		public Boolean IsPublished()
 		{
-			return Publish < DateTime.Now || Authenticate.IsAuthenticated;
+			return Publish < DateTime.Now || Config.IsAuthor;
 		}
 
 		public bool HasSummary()
 		{
-			return !String.IsNullOrEmpty(Summary) || Authenticate.IsAuthenticated;
+			return !String.IsNullOrEmpty(Summary) || Config.IsAuthor;
 		}
 
 		public override String ToString()

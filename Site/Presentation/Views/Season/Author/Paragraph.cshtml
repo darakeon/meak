@@ -1,0 +1,153 @@
+﻿@using Presentation.Helpers
+@using Structure.Enums
+@using Structure.Helpers
+@using System.Web
+@model Presentation.Models.SeasonEditEpisodeModel
+
+@{
+	var route = RouteStories.With(null, null, Model.CurrentBlock);
+	var adderUrl = HttpUtility.UrlDecode(
+		Url.Action("Adder", "Season", route)
+	);
+}
+
+<div class="paragraph @Model.CurrentParagraph.ToString().ToLower()"
+	id="Paragraph@(Model.ParagraphCounter)"
+	teller="@(Model.TellerCounter)"
+	talk="@(Model.TalkCounter)"
+	page="@(Model.PageCounter)">
+
+	@if (Model.Show == AuthorMode.Default)
+	{
+		<span class="suggestionCharacter">
+			<adder
+				class="adderTalk"
+				block="@Model.BlockCounter"
+				caller="@Model.CurrentParagraph"
+				type="Paragraph"
+				subtype="Talk"
+				paragraph="@Model.ParagraphCounter"
+				teller="@Model.TellerCounter"
+				talk="@Model.TalkCounter"
+				page="@Model.PageCounter"
+				onclick="AddInputItem(this)"
+				url="@adderUrl">+</adder>
+
+			<adder
+				class="adderTeller"
+				block="@Model.BlockCounter"
+				caller="@Model.CurrentParagraph"
+				type="Paragraph"
+				subtype="Teller"
+				paragraph="@Model.ParagraphCounter"
+				teller="@Model.TellerCounter"
+				talk="@Model.TalkCounter"
+				page="@Model.PageCounter"
+				onclick="AddInputItem(this)"
+				url="@adderUrl">+</adder>
+
+			<adder
+				class="adderPage"
+				block="@Model.BlockCounter"
+				caller="@Model.CurrentParagraph"
+				type="Paragraph"
+				subtype="Page"
+				paragraph="@Model.ParagraphCounter"
+				teller="@Model.TellerCounter"
+				talk="@Model.TalkCounter"
+				page="@Model.PageCounter"
+				onclick="AddInputItem(this)"
+				url="@adderUrl">+</adder>
+		</span>
+	}
+
+	@switch (Model.CurrentParagraph)
+	{
+		case ParagraphType.Talk:
+		{
+			var pieceCount = Model.Story
+				.BlockList[Model.BlockCounter]
+				.TalkList[Model.TalkCounter]
+				.Pieces.Count;
+
+			<span class="suggestionCharacter">
+				@if (Model.Show == AuthorMode.Default)
+				{
+					var id = $"block{Model.BlockCounter}" +
+					         $"_character_{Model.TalkCounter}";
+
+					@Html.TextBoxFor(m =>
+						m.Story
+							.BlockList[Model.BlockCounter]
+							.TalkList[Model.TalkCounter]
+							.Character,
+						new
+						{
+							@class = "darkback auxi",
+							rel = "block" + Model.BlockCounter
+							      + "_character_" + Model.TalkCounter,
+							suggestion = "character",
+							onfocus = "GetSuggestionBox(this)",
+							onblur = "ExitSuggestionBox(this)",
+							tabIndex = Model.TabIndex + 2 * pieceCount
+						}
+					)
+
+					<div class="suggestionBox" id="@id"></div>
+				}
+				else
+				{
+					@Html.HiddenFor(m =>
+						m.Story
+							.BlockList[Model.BlockCounter]
+							.TalkList[Model.TalkCounter]
+							.Character
+					)
+					@(Model.Story
+						.BlockList[Model.BlockCounter]
+						.TalkList[Model.TalkCounter]
+						.Character)
+				}
+			</span>
+
+			for (var p = 0; p < pieceCount; p++)
+			{
+				Model.PieceCounter = p;
+				@await Html.PartialAsync("Author/TalkPiece")
+			}
+
+			Model.TalkCounter++;
+			Model.TabIndex++;
+			break;
+		}
+
+		case ParagraphType.Teller:
+		{
+			var pieceCount = Model.Story
+				.BlockList[Model.BlockCounter]
+				.TellerList[Model.TellerCounter]
+				.Pieces.Count;
+
+			for (var p = 0; p < pieceCount; p++)
+			{
+				Model.PieceCounter = p;
+				@await Html.PartialAsync("Author/TellerPiece")
+			}
+
+			Model.TellerCounter++;
+			break;
+		}
+
+		case ParagraphType.Page:
+		{
+			Model.PageCounter++;
+			break;
+		}
+	}
+
+	@Html.HiddenFor(m =>
+		m.Story
+			.BlockList[Model.BlockCounter]
+			.ParagraphTypeList[Model.ParagraphCounter]
+	)
+</div>

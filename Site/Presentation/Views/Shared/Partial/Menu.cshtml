@@ -1,0 +1,66 @@
+﻿@model Presentation.Models.BaseModel
+@using Structure.Helpers
+@using Microsoft.AspNetCore.Http.Extensions
+
+@{
+	var isAuthor = UrlUserType.IsAuthor();
+
+	if (isAuthor)
+	{
+		<div id="save_status" class="darkback">
+			Saved<hr />
+			@Model.TimeLeft days
+		</div>
+		<div class="header lightback">
+			@Html.ActionLink("Add Episode", "AddEpisode", "Season")
+		</div>
+		<br /><br />
+	}
+}
+
+@foreach (var season in Model.Menu.SeasonList)
+{
+	var url = RouteStories.With(season);
+
+	<div class="season">
+		<div class="darkback">
+			<div class="header">
+				<a class="linkWithTitle" href="@url" rel="@season.Name">
+					Temporada @season
+				</a>
+			</div>
+
+			<div class="body">
+				@foreach (var episode in season.EpisodeList)
+				{
+					var route = RouteStories.With(season, episode);
+
+					var myUrl = isAuthor
+						? Url.Action("Episode", "Season", route)
+						: route.ToString();
+
+					if (myUrl != null && myUrl.Contains("?"))
+					{
+						var culture = StringComparison.CurrentCulture;
+						var queryPosition = myUrl.IndexOf("?", culture);
+						myUrl = myUrl.Substring(0, queryPosition);
+					}
+
+					var @selectedClass = Context.Request.GetDisplayUrl().Contains(myUrl)
+						? "selected" : "";
+
+					<a href="@myUrl" 
+					   class="item linkWithTitle @selectedClass" 
+					   rel="@episode.Title">@episode.ID</a>
+				}
+
+			</div>
+		</div>
+		<div class="storyNameSuperBox">
+			<div class="darkback storyNameBox"></div>
+		</div>
+	</div>
+}
+
+
+@await Html.PartialAsync("Partial/Legend")

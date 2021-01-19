@@ -129,6 +129,8 @@ namespace Structure.Data
 					var teller = ParagraphJson.GetTeller(paragraph);
 					Block.TellerList.Add(teller);
 					break;
+				case ParagraphType.Page:
+					break;
 				default:
 					throw new NotImplementedException();
 			}
