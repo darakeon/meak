@@ -4,12 +4,7 @@
 	ViewBag.Title = "Erro";
 	Layout = "~/Views/Shared/_Layout.cshtml";
 
-	var stackLines = Model.Stacktrace
-		.Replace("\r", "")
-		.Split('\n')
-		.Select(s => $"<li>{s}</li>");
-
-	var stack = String.Join("", stackLines);
+	var error = Model.Error;
 }
 
 <h2>Ops!</h2>
@@ -24,8 +19,22 @@
 </p>
 
 <div class="error-details">
-	<p class="title">@Model.Message</p>
-	<small>
-		<ul>@Html.Raw(stack)</ul>
-	</small>
+	@while (error != null)
+	{
+		var stacktrace = error.StackTrace ?? "";
+
+		var stackLines = stacktrace 
+			.Replace("\r", "")
+			.Split('\n')
+			.Select(s => $"<li>{s}</li>");
+
+		stacktrace = String.Join("", stackLines);
+
+		<p class="title">@error.Message</p>
+		<small>
+			<ul>@Html.Raw(stacktrace)</ul>
+		</small>
+
+		error = error.InnerException;
+	}
 </div>

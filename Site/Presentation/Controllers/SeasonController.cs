@@ -69,8 +69,7 @@ namespace Presentation.Controllers
 
 				return View("Error", new ErrorModel
 				{
-					Message = e.MostInner().Message,
-					Stacktrace = e.MostInner().StackTrace
+					Error = e
 				});
 			}
 
