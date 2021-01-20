@@ -11,8 +11,9 @@ namespace Presentation.Models.General
 		public MenuModel(String path)
 		{
 			var seasons = Directory
-					.GetDirectories(path, "_*")
-					.ToList();
+				.GetDirectories(path, "_*")
+				.OrderBy(d => d)
+				.ToList();
 
 			SeasonList = new List<Season>();
 

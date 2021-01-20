@@ -34,7 +34,7 @@ namespace Presentation.Startup
 				.ForEach(r => action(r.origin, r.destiny));
 		}
 
-		public static void TestThemAll(IApplicationBuilder app)
+		public static void Apply(IApplicationBuilder app)
 		{
 			var options = new RewriteOptions();
 

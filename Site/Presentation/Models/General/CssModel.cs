@@ -39,8 +39,7 @@ namespace Presentation.Models.General
 
 			public CssFile(String file)
 			{
-				var afterSlash = file.LastIndexOf(@"\") + 1;
-				Name = file.Substring(afterSlash);
+				Name = new FileInfo(file).Name;
 
 				if (Name.Contains("_"))
 				{

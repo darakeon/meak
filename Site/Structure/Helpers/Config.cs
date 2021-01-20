@@ -35,12 +35,12 @@ namespace Structure.Helpers
 		{
 			var builder = new ConfigurationBuilder()
 				.SetBasePath(Directory.GetCurrentDirectory())
-				.AddJsonFile("appSettings.json", true);
+				.AddJsonFile("appsettings.json", true);
 
 			if (environment != null)
 			{
 				builder.AddJsonFile(
-					$"appSettings.{environment}.json", true
+					$"appsettings.{environment}.json", true
 				);
 			}
 

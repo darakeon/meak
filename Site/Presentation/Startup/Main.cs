@@ -20,7 +20,7 @@ namespace Presentation.Startup
 		{
 			Directory.SetCurrentDirectory(env.ContentRootPath);
 			Config.Init(env.EnvironmentName);
-			Rewrite.TestThemAll(app);
+			Rewrite.Apply(app);
 
 			if (env.IsDevelopment())
 			{

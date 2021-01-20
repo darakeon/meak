@@ -63,12 +63,18 @@ namespace Structure.Printer
 
 		public void Add(Char character)
 		{
-			characters.Add(removeDiacritics(character), 0);
-
-			structPath.Write(
-				characters.OrderBy(p => p.Key)
-					.ToDictionary(p => p.Key, p => p.Value)
+			characters.Add(
+				removeDiacritics(character),
+				characters.Average(c => c.Value)
 			);
+
+			if (Config.IsAuthor)
+			{
+				structPath.Write(
+					characters.OrderBy(p => p.Key)
+						.ToDictionary(p => p.Key, p => p.Value)
+				);
+			}
 		}
 
 		private Char removeDiacritics(Char text)

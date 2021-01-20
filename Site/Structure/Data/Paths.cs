@@ -68,6 +68,7 @@ namespace Structure.Data
 
 			var blockFiles = Directory.GetFiles(episodePath, "*.json")
 				.Where(sf => !sf.EndsWith("_.json"))
+				.OrderBy(sf => sf)
 				.ToList();
 
 			for (var sf = 0; sf < blockFiles.Count; sf++)

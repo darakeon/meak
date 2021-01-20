@@ -24,6 +24,7 @@ namespace Structure.Entities.System
 
 			var episodeFiles = Directory
 				.GetDirectories(path)
+				.OrderBy(d => d)
 				.ToList();
 
 			episodeFiles.ForEach(insertInEpisodeList);
