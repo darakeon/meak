@@ -35,8 +35,10 @@
 				{
 					var route = RouteStories.With(season, episode);
 
+					var mvcLink = Url.Action("Episode", "Season", route);
+
 					var myUrl = isAuthor
-						? Url.Action("Episode", "Season", route)
+						? mvcLink
 						: route.ToString();
 
 					if (myUrl != null && myUrl.Contains("?"))
@@ -46,7 +48,7 @@
 						myUrl = myUrl.Substring(0, queryPosition);
 					}
 
-					var @selectedClass = Context.Request.GetDisplayUrl().Contains(myUrl)
+					var selectedClass = Context.Request.Path == mvcLink
 						? "selected" : "";
 
 					<a href="@myUrl" 
