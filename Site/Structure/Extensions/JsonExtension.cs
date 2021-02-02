@@ -79,7 +79,7 @@ namespace Structure.Extensions
 					Converters = { 
 						new StringEnumConverter
 						{
-							CamelCaseText = true,
+							NamingStrategy = new CamelCaseNamingStrategy()
 						},
 						new IsoDateTimeConverter
 						{
