@@ -3,7 +3,7 @@ MAINTAINER Dara Keon
 
 RUN /var/cert/cert-https.sh Stories meak-stories.com meak@darakeon.com
 
-COPY Site /var/mebrak
+COPY site /var/mebrak
 
 RUN dotnet publish /var/mebrak/Presentation/Presentation.csproj -o /var/www
 RUN apt remove -y dotnet-sdk-5.0

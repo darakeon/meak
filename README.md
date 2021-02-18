@@ -18,5 +18,5 @@ Source code of the website at http://meak-stories.com
 
 ### ePub
 
-Added a [tutorial](ePub.md) of how to make an ePub from a HTML of your
+Added a [tutorial](docs/ePub.md) of how to make an ePub from a HTML of your
 book.
