@@ -51,8 +51,23 @@ namespace Presentation.Startup
 
 		private static async Task<Boolean> genCertAndCheckRedirect(HttpContext context)
 		{
-			if (context.Request.IsHttps)
+			var request = context.Request;
+
+			if (request.IsHttps)
 				return false;
+
+			var path = request.Path.Value ?? "";
+
+			if (path.StartsWith("/Assets"))
+				return false;
+
+			var domain = request.Host.Host;
+
+			if (domain != "meak-stories.com")
+			{
+				Console.WriteLine($"Host [{domain}] cannot be validated for certificate");
+				return false;
+			}
 
 			var issuedFile = new FileInfo(issuedPath);
 
