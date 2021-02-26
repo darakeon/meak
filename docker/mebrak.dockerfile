@@ -1,5 +1,6 @@
 FROM darakeon/netcore
 MAINTAINER Dara Keon
+RUN apt update
 
 COPY site /var/mebrak
 RUN dotnet publish /var/mebrak/Presentation/Presentation.csproj -o /var/www
