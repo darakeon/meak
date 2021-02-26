@@ -8,7 +8,6 @@ RUN apt remove -y dotnet-sdk-5.0
 RUN rm -r /var/mebrak
 
 ENV ASPNETCORE_URLS=http://+:2703;https://+:2709
-EXPOSE 2703
 EXPOSE 2709
 
 COPY stories /var/data
