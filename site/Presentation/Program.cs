@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Presentation.Startup;
@@ -6,16 +7,12 @@ namespace Presentation
 {
 	public class Program
 	{
-		public static void Main(string[] args)
+		public static void Main(String[] args)
 		{
-			CreateHostBuilder(args).Build().Run();
-		}
-
-		public static IHostBuilder CreateHostBuilder(string[] args) =>
 			Host.CreateDefaultBuilder(args)
-				.ConfigureWebHostDefaults(webBuilder =>
-				{
-					webBuilder.UseStartup<Main>();
-				});
+				.ConfigureWebHostDefaults(b => b.UseStartup<Main>())
+				.Build()
+				.Run();
+		}
 	}
 }
