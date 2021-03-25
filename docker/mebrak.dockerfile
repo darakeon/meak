@@ -1,6 +1,6 @@
 FROM darakeon/netcore
 MAINTAINER Dara Keon
-RUN apt upgrade -y && apt update && apt autoremove -y
+RUN maintain
 
 COPY site /var/mebrak
 RUN dotnet publish /var/mebrak/Presentation/Presentation.csproj -o /var/www
