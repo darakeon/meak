@@ -47,7 +47,7 @@ namespace Structure.Printer
 
 			if (Config.IsAuthor)
 			{
-				structPath = Path.Combine("..", "Structure", "Printer", file);
+				structPath = Path.Combine("Printer", file);
 				structPath.Write(characters);
 			}
 		}
