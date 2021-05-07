@@ -63,7 +63,7 @@ namespace Presentation.Controllers
 			}
 			catch (Exception e)
 			{
-				if (UrlUserType.IsAuthor())
+				if (Config.IsAuthor)
 					throw;
 
 				return View("Error", new ErrorModel
@@ -79,7 +79,7 @@ namespace Presentation.Controllers
 
 			model.GetSuggestionLists();
 
-			if (UrlUserType.IsAuthor())
+			if (Config.IsAuthor)
 			{
 				model.Fix();
 				model.TabIndex = 1;

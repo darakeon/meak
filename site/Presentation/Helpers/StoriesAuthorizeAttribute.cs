@@ -8,7 +8,7 @@ namespace Presentation.Helpers
 	{
 		public void OnAuthorization(AuthorizationFilterContext context)
 		{
-			if (!UrlUserType.IsAuthor())
+			if (!Config.IsAuthor)
 			{
 				context.HttpContext.Response.Redirect("/");
 			}

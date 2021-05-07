@@ -24,7 +24,7 @@ namespace Structure.Data
 
 		public const String FIRST_BLOCK = "a";
 		public const Int32 MINIMUM_PARAGRAPH_COUNT = 81;
-		private readonly Boolean isAuthor = UrlUserType.IsAuthor();
+		private readonly Boolean isAuthor = Config.IsAuthor;
 		
 		public BlockJson(String folderPath, String season, String episode)
 			: this(folderPath, season, episode, FIRST_BLOCK) { }
