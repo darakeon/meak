@@ -17,7 +17,7 @@ namespace Structure.Data
 
 			var character = paragraph.Character;
 
-			var isAuthor = UrlUserType.IsAuthor();
+			var isAuthor = Config.IsAuthor;
 
 			
 			if (String.IsNullOrEmpty(character) && !isAuthor)

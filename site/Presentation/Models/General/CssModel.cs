@@ -16,7 +16,7 @@ namespace Presentation.Models.General
 				Files.Add(new CssFile(file));
 			}
 
-			var isAuthor = UrlUserType.IsAuthor();
+			var isAuthor = Config.IsAuthor;
 
 			if (!isAuthor)
 				return;
