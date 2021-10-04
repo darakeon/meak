@@ -1,4 +1,4 @@
-<img src="http://meak-stories.com/Assets/images/facebook.png" width="85" align="left" />
+<img src="http://meak.com.br/Assets/images/facebook.png" width="85" align="left" />
 
 # MEAK
 
@@ -8,11 +8,11 @@
 
 *Esta é a história de um amontoado de átomos ao acaso tentando voltar a ser.*
 
-[Leia no Site](http://meak-stories.com/)
+[Leia no Site](http://meak.com.br/)
 
 ## Stories Site
 
-Source code of the website at http://meak-stories.com
+Source code of the website at http://meak.com.br
 
 ***This is not the better code I ever wrote. Don't judge me by it.***
 
