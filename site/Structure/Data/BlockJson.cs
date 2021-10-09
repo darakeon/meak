@@ -238,8 +238,7 @@ namespace Structure.Data
 						tellerCounter++;
 						break;
 					case ParagraphType.Page:
-						child = ParagraphJson.SetPage();
-						break;
+						continue;
 					default:
 						throw new Exception($"Not recognized Paragraph [{paragraph}].");
 				}
