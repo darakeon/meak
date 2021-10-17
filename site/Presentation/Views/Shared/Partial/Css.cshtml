@@ -1,16 +1,16 @@
 ﻿@using Structure.Helpers
 
 @model Presentation.Models.General.CssModel
-		   
+
 @{
+	var printLocal = Context.Request.Query["Print"] == "Local";
+
 	foreach (var file in Model.Files)
 	{
-		<link href="@Url.Content("~/Assets/css/" + file.Name)?v=@Config.Version"
-		      rel="stylesheet" type="text/css" media="@file.Media" />
-	}
-
-	if (Context.Request.Query["Print"] == "Local") {
-		<link href="@Url.Content("~/Assets/css/print_Local.css")?v=@Config.Version"
-		      rel="stylesheet" type="text/css" media="print" />
+		if (file.Name != "print_Local" || printLocal)
+		{
+			<link href="@Url.Content("~/Assets/css/" + file.Name)?v=@Config.Version"
+				rel="stylesheet" type="text/css" media="@file.Media" />
+		}
 	}
 }
