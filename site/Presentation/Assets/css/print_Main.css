@@ -120,7 +120,7 @@ img,
 	display: none;
 }
 
-.block:not(:first-child)
+.block:not(.page-start)
 {
 	padding-top: 38px;
 }
@@ -139,10 +139,9 @@ img,
 .paragraph.break
 {
 	margin-top: 100px;
-	break-before: page;
 }
 
-.block:first-child .paragraph.break:first-child
+.block .paragraph.break:first-child
 {
 	margin-top: 0;
 }
