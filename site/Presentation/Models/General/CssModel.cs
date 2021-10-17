@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Structure.Helpers;
 
 namespace Presentation.Models.General
@@ -9,48 +10,51 @@ namespace Presentation.Models.General
 	{
 		public CssModel(String path)
 		{
-			Files = new List<CssFile>();
+			Files = getFiles(path);
 
-			foreach (var file in Directory.GetFiles(path))
-			{
-				Files.Add(new CssFile(file));
-			}
-
-			var isAuthor = Config.IsAuthor;
-
-			if (!isAuthor)
+			if (!Config.IsAuthor)
 				return;
 
-			var directory = Path.Combine(path, "Author");
+			var authorDirectory = Path.Combine(path, "Author");
+			var authorFiles = getFiles(authorDirectory, "Author");
 
-			foreach (var file in Directory.GetFiles(directory))
-			{
-				Files.Add(new CssFile(file, "Author"));
-			}
+			Files.AddRange(authorFiles);
 		}
 
-		public IList<CssFile> Files { get; set; }
+		private List<CssFile> getFiles(String directory, String subfolder = null)
+		{
+			return Directory.GetFiles(directory)
+				.OrderBy(f => f)
+				.Select(f => new CssFile(f, subfolder))
+				.OrderBy(f => f.Local)
+				.ToList();
+		}
+
+		public List<CssFile> Files { get; set; }
 
 
 		public class CssFile
 		{
-			public String Name;
-			public String Media;
+			public String Name { get; }
+			public String Media { get; }
+			public Boolean Local { get; }
 
-			public CssFile(String file)
+			public CssFile(String file, String path = null)
 			{
 				Name = new FileInfo(file).Name;
+
+				if (path != null)
+				{
+					Name = Path.Combine(path, Name);
+				}
 
 				if (Name.Contains("_"))
 				{
 					var beforeUnderline = Name.LastIndexOf("_");
 					Media = Name.Remove(beforeUnderline).ToLower();
 				}
-			}
 
-			public CssFile(String file, String path) : this(file)
-			{
-				Name = Path.Combine(path, Name);
+				Local = Name.EndsWith("_Local.css");
 			}
 		}
 	}

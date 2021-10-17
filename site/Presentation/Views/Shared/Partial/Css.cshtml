@@ -7,7 +7,7 @@
 
 	foreach (var file in Model.Files)
 	{
-		if (file.Name != "print_Local" || printLocal)
+		if (!file.Local || printLocal)
 		{
 			<link href="@Url.Content("~/Assets/css/" + file.Name)?v=@Config.Version"
 				rel="stylesheet" type="text/css" media="@file.Media" />
