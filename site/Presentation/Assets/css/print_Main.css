@@ -14,13 +14,21 @@
 	margin: 30px 0 0 1cm;
 }
 
-.blocks, .summary
+.blocks, .summary, .empty
 {
 	display: table;
 	padding: 30px 0;
 }
 
-.summary
+.empty {
+	color: transparent;
+}
+
+	.empty * {
+		color: #000;
+	}
+
+.summary, .empty
 {
 	page-break-before: always;
 }
@@ -33,12 +41,6 @@
 .header-box
 {
 	position: relative;
-	margin-left: 1cm;
-}
-
-.blocks .header-box,
-.summary .header-box
-{
 	margin-left: 0;
 }
 
@@ -68,7 +70,8 @@
 	}
 
 	.blocks .header .title,
-	.summary .header .title
+	.summary .header .title,
+	.empty .header .title
 	{
 		display: inline
 	}
@@ -97,7 +100,8 @@
 		margin-top: 477px;
 	}
 
-	.summary .footer span
+	.summary .footer span,
+	.empty .footer span
 	{
 		margin-bottom: -32px;
 	}
