@@ -144,6 +144,7 @@ namespace Structure.Data
 			MainInfoJson.Save(
 				title,
 				"-",
+				"-",
 				null,
 				folderPath,
 				seasonID,

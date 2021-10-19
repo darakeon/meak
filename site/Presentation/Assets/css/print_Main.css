@@ -14,7 +14,7 @@
 	margin: 30px 0 0 1cm;
 }
 
-.blocks, .summary, .empty
+.blocks, .synopsis, .summary, .empty
 {
 	display: table;
 	padding: 30px 0;
@@ -28,12 +28,12 @@
 		color: #000;
 	}
 
-.summary, .empty
+.synopsis, .summary, .empty
 {
 	page-break-before: always;
 }
 
-	.summary .title
+	.synopsis .title, .summary .title
 	{
 		margin-bottom: 30px;
 	}
@@ -70,6 +70,7 @@
 	}
 
 	.blocks .header .title,
+	.synopsis .header .title,
 	.summary .header .title,
 	.empty .header .title
 	{
@@ -100,6 +101,7 @@
 		margin-top: 477px;
 	}
 
+	.synopsis .footer span,
 	.summary .footer span,
 	.empty .footer span
 	{

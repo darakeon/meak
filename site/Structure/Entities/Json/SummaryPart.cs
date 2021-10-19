@@ -12,9 +12,9 @@ namespace Structure.Entities.Json
 		public Int16? Page { get; set; }
 
 		public String Title { get; set; }
-
 		public String Link { get; set; }
 
+		public String Synopsis { get; set; }
 		public String Summary { get; set; }
 
 		public Int32? Breaks { get; set; }

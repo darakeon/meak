@@ -105,6 +105,7 @@ namespace Presentation.Controllers
 		{
 			MainInfoJson.Save(
 				model.Story.Title,
+				model.Story.Synopsis,
 				model.Story.Summary,
 				model.Story.Breaks,
 				model.Paths.Json,

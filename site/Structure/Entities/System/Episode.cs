@@ -29,6 +29,7 @@ namespace Structure.Entities.System
 				Link = info.Link,
 				Publish = Countdown.GetDate(season, episode),
 				LastBlock = info.Last,
+				Synopsis = info.Synopsis,
 				Summary = info.Summary,
 				Breaks = info.Breaks,
 				PageStart = info.Page,
@@ -42,6 +43,7 @@ namespace Structure.Entities.System
 		public String Link { get; set; }
 		public DateTime Publish { get; set; }
 		public String LastBlock { get; set; }
+		public String Synopsis { get; set; }
 		public String Summary { get; set; }
 		public Int32? Breaks { get; set; }
 
@@ -55,6 +57,11 @@ namespace Structure.Entities.System
 		public Boolean IsPublished()
 		{
 			return Publish < DateTime.Now || Config.IsAuthor;
+		}
+
+		public bool HasSynopsis()
+		{
+			return !String.IsNullOrEmpty(Synopsis) || Config.IsAuthor;
 		}
 
 		public bool HasSummary()

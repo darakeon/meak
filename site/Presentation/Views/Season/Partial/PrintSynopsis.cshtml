@@ -1,0 +1,18 @@
+﻿@using Structure.Helpers
+
+@model Structure.Entities.System.Episode
+
+@if (!Config.IsAuthor && Model.HasSynopsis())
+{
+	<div class="just-print synopsis page-odd-item">
+		@await Html.PartialAsync("Partial/PrintHeader", Model)
+		@await Html.PartialAsync("Partial/PrintFooter", 1)
+
+		<p class="title">
+			Sinopse
+		</p>
+
+		@Model.Synopsis
+	</div>
+}
+

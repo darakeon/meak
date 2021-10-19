@@ -62,6 +62,8 @@
 	var lastType = ParagraphType.Page;
 }
 
+@await Html.PartialAsync("Partial/PrintSynopsis", Model.Story)
+
 <div class="blocks">
 	@for (var b = 0; b <= lastBlock; b++)
 	{
@@ -69,7 +71,6 @@
 		var trigger = false;
 
 		var reading = (block.ID == Model.ReadingBlock) ? "reading" : "";
-
 		var pageStart = (lastType == ParagraphType.Page) ? "page-start" : "";
 
 		<div class="block @reading @pageStart" id="Block@(b)">

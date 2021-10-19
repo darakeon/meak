@@ -9,6 +9,7 @@ namespace Structure.Data
 	{
 		public static void Save(
 			String title,
+			String synopsis,
 			String summary,
 			Int32? breaks,
 			String folderPath,
@@ -23,6 +24,7 @@ namespace Structure.Data
 			var summaryPart = path.Read<SummaryPart>();
 
 			summaryPart.Title = title;
+			summaryPart.Synopsis = synopsis;
 			summaryPart.Summary = summary;
 			summaryPart.Breaks = breaks;
 			summaryPart.Season = seasonID;
