@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using Structure.Helpers;
 
 namespace Presentation.Models.General
@@ -10,28 +9,24 @@ namespace Presentation.Models.General
 	{
 		public CssModel(String path)
 		{
-			Files = getFiles(path);
+			getFiles(path);
 
-			if (!Config.IsAuthor)
-				return;
-
-			var authorDirectory = Path.Combine(path, "Author");
-			var authorFiles = getFiles(authorDirectory, "Author");
-
-			Files.AddRange(authorFiles);
+			if (Config.IsAuthor)
+				getFiles(path, "Author");
 		}
 
-		private List<CssFile> getFiles(String directory, String subfolder = null)
+		private void getFiles(String main, String subfolder = null)
 		{
-			return Directory.GetFiles(directory)
-				.OrderBy(f => f)
-				.Select(f => new CssFile(f, subfolder))
-				.OrderBy(f => f.Local)
-				.ToList();
+			if (subfolder != null)
+				main = Path.Combine(main, subfolder);
+
+			foreach (var file in Directory.GetFiles(main))
+			{
+				Files.Add(new CssFile(file, subfolder));
+			}
 		}
 
-		public List<CssFile> Files { get; set; }
-
+		public List<CssFile> Files = new();
 
 		public class CssFile
 		{
@@ -39,14 +34,9 @@ namespace Presentation.Models.General
 			public String Media { get; }
 			public Boolean Local { get; }
 
-			public CssFile(String file, String path = null)
+			public CssFile(String file, String subfolder)
 			{
 				Name = new FileInfo(file).Name;
-
-				if (path != null)
-				{
-					Name = Path.Combine(path, Name);
-				}
 
 				if (Name.Contains("_"))
 				{
@@ -55,6 +45,11 @@ namespace Presentation.Models.General
 				}
 
 				Local = Name.EndsWith("_Local.css");
+
+				if (subfolder != null)
+				{
+					Name = Path.Combine(subfolder, Name);
+				}
 			}
 		}
 	}
