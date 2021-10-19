@@ -33,7 +33,7 @@
 	text-align: inherit;
 	font: inherit;
 	color: inherit;
-	margin: 3px 0px;
+	margin: 3px 0;
 }
 
 .titleChange 
@@ -41,6 +41,7 @@
 	margin-bottom: 20px;
 	font-size: 117%;
 	padding: 10px 15px 0 15px;
+	width: 300px;
 }
 
 	.titleChange input
@@ -49,27 +50,34 @@
 		font-weight: bold;
 	}
 
+	.titleChange br
+	{
+		clear: both;
+	}
+
 	.titleChange textarea
 	{
-		width: 100% !important;
 		border-top: 1px solid #999;
 		border-bottom: 1px solid #999;
+		box-sizing: border-box;
+		display: block;
+		width: 100%;
 	}
 
 	.titleChange .paragraphCountTitle {
-		float: right;
-		margin: 10px;
+		display: block;
+		text-align: right;
 	}
 
 .main .save,
 .absolute-header .save
 {
 	border: none;
-	padding: 5px;
+	padding: 5px 20px;
 	font-size: 125%;
 	font-weight: bold;
 	text-decoration: none;
-	height: 35px;
+	width: 100%;
 }
 
 .main button.save
@@ -91,7 +99,7 @@
 
 #Story_Title
 {
-	width: 500px;
+	width: 100%;
 }
 
 
@@ -143,4 +151,15 @@ form.disabled *
 .suggestionCharacter .suggestionBox
 {
 	margin-right: 4px;
+}
+
+#main-info .toggle {
+	border: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	background: transparent;
+	position: absolute;
+	bottom: 0;
+	right: -20px;
+	color: #FFF;
 }

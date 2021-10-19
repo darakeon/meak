@@ -32,22 +32,19 @@
 		var paragraphsCount = Model.Story.BlockList.Sum(s => s.ParagraphCount);
 	}
 
-	<div class="absolute-header lightback">
+	<div class="absolute-header lightback" id="main-info">
 		<form action="@action"
 			method="post"
 			id="@formId"
 			data-ajax="true"
 			data-ajax-method="post"
 			data-ajax-url="@action"
-			data-ajax-begin = "SaveBegin('@formId')"
-			data-ajax-success = "SaveSuccess('@formId')"
-			data-ajax-failure = "SaveFailure('@formId')"
+			data-ajax-begin="SaveBegin('@formId')"
+			data-ajax-success="SaveSuccess('@formId')"
+			data-ajax-failure="SaveFailure('@formId')"
 			>
 
 			<div class="titleChange">
-				<button type="submit" class="darkback save">
-					Save
-				</button>
 
 				@Html.TextBoxFor(m => m.Story.Title)
 
@@ -55,16 +52,19 @@
 					Paragraphs last count: @paragraphsCount
 				</span>
 
-				<br />
+				@Html.TextAreaFor(m => m.Story.Synopsis, new { @class = "synopsis", rows = 3 })
+				@Html.TextAreaFor(m => m.Story.Summary, new { @class = "summary", rows = 20 })
 
-				@Html.TextAreaFor(m => m.Story.Synopsis)
-				@Html.TextAreaFor(m => m.Story.Summary)
+				<button type="submit" class="darkback save">
+					Save
+				</button>
 			</div>
 		</form>
+		<button class="toggle">
+			&#129088;
+		</button>
 	</div>
 }
-
-
 
 @await Html.PartialAsync("Partial/ChangeBlock", topSelector)
 
