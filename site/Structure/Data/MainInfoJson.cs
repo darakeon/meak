@@ -11,7 +11,6 @@ namespace Structure.Data
 			String title,
 			String synopsis,
 			String summary,
-			Int32? breaks,
 			String folderPath,
 			String seasonID,
 			String episodeID
@@ -26,7 +25,6 @@ namespace Structure.Data
 			summaryPart.Title = title;
 			summaryPart.Synopsis = synopsis;
 			summaryPart.Summary = summary;
-			summaryPart.Breaks = breaks;
 			summaryPart.Season = seasonID;
 			summaryPart.Episode = episodeID;
 

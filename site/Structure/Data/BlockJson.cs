@@ -145,7 +145,6 @@ namespace Structure.Data
 				title,
 				"-",
 				"-",
-				null,
 				folderPath,
 				seasonID,
 				episodeID

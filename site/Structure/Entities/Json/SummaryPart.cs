@@ -16,7 +16,5 @@ namespace Structure.Entities.Json
 
 		public String Synopsis { get; set; }
 		public String Summary { get; set; }
-
-		public Int32? Breaks { get; set; }
 	}
 }

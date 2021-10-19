@@ -107,7 +107,6 @@ namespace Presentation.Controllers
 				model.Story.Title,
 				model.Story.Synopsis,
 				model.Story.Summary,
-				model.Story.Breaks,
 				model.Paths.Json,
 				seasonID,
 				episodeID
