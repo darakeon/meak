@@ -1,5 +1,4 @@
 ﻿@using Presentation.Models.General
-@using Structure.Helpers
 @model Presentation.Models.SeasonEditEpisodeModel
 
 @{
@@ -46,12 +45,9 @@
 			>
 
 			<div class="titleChange">
-				<button type="submit" class="darkback save">Save</button>
-
-				@Html.ActionLink("Upload",
-					"Upload", "Upload",
-					RouteStories.With(Model.Story.Season.ID, Model.Story.ID, "_"),
-					new { @class = "darkback save", target = "_blank" })
+				<button type="submit" class="darkback save">
+					Save
+				</button>
 
 				@Html.TextBoxFor(m => m.Story.Title)
 

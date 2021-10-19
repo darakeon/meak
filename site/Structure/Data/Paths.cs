@@ -46,21 +46,6 @@ namespace Structure.Data
             return Path.Combine("songs", "_" + seasonID, episodeID, audio + ".mp3");
         }
 
-        public static String FtpDirectoryPath(String folderPath, String seasonID)
-		{
-			return SeasonPath(folderPath, seasonID).Replace(@"\", "/");
-		}
-
-		public static String FtpDirectoryPath(String folderPath, String seasonID, String episodeID)
-		{
-			return EpisodePath(folderPath, seasonID, episodeID).Replace(@"\", "/");
-		}
-
-		public static String FtpFilePath(String folderPath, String seasonID, String episodeID, String blockID)
-		{
-			return BlockFilePath(folderPath, seasonID, episodeID, blockID).Replace(@"\", "/");
-		}
-
 
 		internal static String[] BlockLetters(String folderPath, String seasonID, String episodeID)
 		{

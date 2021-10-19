@@ -14,11 +14,6 @@ namespace Structure.Helpers
 
 		public static String StoriesPath => dic["Stories"];
 
-		public static String FtpAddress => dic["FtpAddress"];
-		public static String FtpUrl => "ftp://" + FtpAddress;
-		public static String FtpLogin => dic["FtpLogin"];
-		public static String Site => dic["Site"];
-
 		public static Boolean IsAuthor =>
 			#if DEBUG
 				Boolean.Parse(dic["IsAuthor"]);
