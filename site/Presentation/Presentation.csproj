@@ -55,7 +55,6 @@
     <None Remove="Assets\js\Author\Inputs.js" />
     <None Remove="Assets\js\Author\SaveChangeColor.js" />
     <None Remove="Assets\js\Author\Suggestion.js" />
-    <None Remove="Assets\js\Back.js" />
     <None Remove="Assets\js\BlockChanger.js" />
     <None Remove="Assets\js\FontResizer.js" />
     <None Remove="Assets\js\General.js" />
@@ -214,9 +213,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\js\Author\Suggestion.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\js\Back.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\js\BlockChanger.js">
