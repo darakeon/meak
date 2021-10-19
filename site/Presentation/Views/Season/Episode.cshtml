@@ -52,11 +52,8 @@
 
 @{
 	var lastBlock = Model.Story.BlockList.Count - 1;
-	var page = Config.IsAuthor
-		? Model.Story.PageStart ?? 0
-		: 0;
-	var lastPage = page;
-	page++;
+	var page = 1;
+	var lastPage = 0;
 
 	var line = 0;
 	var lastType = ParagraphType.Page;

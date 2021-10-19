@@ -31,7 +31,6 @@ namespace Structure.Entities.System
 				LastBlock = info.Last,
 				Synopsis = info.Synopsis,
 				Summary = info.Summary,
-				PageStart = info.Page,
 				Season = new Season {ID = season},
 			};
 		}
@@ -44,8 +43,6 @@ namespace Structure.Entities.System
 		public String LastBlock { get; set; }
 		public String Synopsis { get; set; }
 		public String Summary { get; set; }
-
-		public Int16? PageStart { get; set; }
 
 		public List<Block> BlockList { get; set; }
 		public IList<String> NoGender { get; set; }

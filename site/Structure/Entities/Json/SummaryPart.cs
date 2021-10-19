@@ -9,8 +9,6 @@ namespace Structure.Entities.Json
 
 		public String Last { get; set; }
 
-		public Int16? Page { get; set; }
-
 		public String Title { get; set; }
 		public String Link { get; set; }
 
