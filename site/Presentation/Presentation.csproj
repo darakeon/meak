@@ -21,7 +21,6 @@
     <None Remove="Assets\css\screen_Block.css" />
     <None Remove="Assets\css\screen_Head.css" />
     <None Remove="Assets\css\screen_Legend.css" />
-    <None Remove="Assets\css\screen_LogOn.css" />
     <None Remove="Assets\css\screen_Main.css" />
     <None Remove="Assets\css\screen_Menu.css" />
     <None Remove="Assets\css\screen_Navigation.css" />
@@ -51,7 +50,6 @@
     <None Remove="Assets\images\next.gif" />
     <None Remove="Assets\images\prev.gif" />
     <None Remove="Assets\images\sign.gif" />
-    <None Remove="Assets\js\AjustBoxes.js" />
     <None Remove="Assets\js\Author\Adder.js" />
     <None Remove="Assets\js\Author\General.js" />
     <None Remove="Assets\js\Author\Inputs.js" />
@@ -114,9 +112,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\css\screen_Legend.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\css\screen_LogOn.css">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\css\screen_Main.css">
@@ -204,9 +199,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\images\sign.gif">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\js\AjustBoxes.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\js\Author\Adder.js">

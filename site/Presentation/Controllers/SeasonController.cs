@@ -11,24 +11,16 @@ namespace Presentation.Controllers
 {
 	public class SeasonController : Controller
 	{
-		public ActionResult Index(String seasonID, String returnUrl)
+		public ActionResult Index(String seasonID)
 		{
 			return String.IsNullOrEmpty(seasonID)
-				? index(returnUrl)
+				? index()
 				: episodes(seasonID);
 		}
 
-		private ActionResult index(String returnUrl)
+		private ActionResult index()
 		{
-			var model = new BaseModel
-			{
-				LogOn =
-				{
-					Is = !String.IsNullOrEmpty(returnUrl),
-					ReturnUrl = returnUrl
-				},
-			};
-
+			var model = new BaseModel();
 			return View("Intro", model);
 		}
 

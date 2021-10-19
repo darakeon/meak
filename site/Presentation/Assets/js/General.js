@@ -8,10 +8,6 @@ function LayoutAndWork() {
 	//AnimateLegend();
 	ShowStoryNames();
 
-	AjustLogin();
-
 	BlockChanger();
 	FontResizer();
-
-	$(window).resize(AjustLogin);
 }

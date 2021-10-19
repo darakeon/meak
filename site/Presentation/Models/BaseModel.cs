@@ -10,8 +10,6 @@ namespace Presentation.Models
 	{
 		public BaseModel()
 		{
-			LogOn = new LogOnModel();
-
 			episodeJson = new EpisodeJson();
 
 			var jsonPath = episodeJson.PathJson;
@@ -29,7 +27,6 @@ namespace Presentation.Models
 		}
 
 		public MenuModel Menu { get; set; }
-		public LogOnModel LogOn { get; set; }
 		public CssModel Css { get; set; }
 
 		public Paths Paths { get; }

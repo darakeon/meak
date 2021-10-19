@@ -8,10 +8,6 @@ namespace Structure.Helpers
 	{
 		private static IConfiguration dic;
 
-		public static String Login => dic["login"];
-
-		public static String Pass => dic["pass"];
-
 		public static String StoriesPath => dic["Stories"];
 
 		public static Boolean IsAuthor =>
