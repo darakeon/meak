@@ -59,8 +59,6 @@
 	var lastType = ParagraphType.Page;
 }
 
-@await Html.PartialAsync("Partial/PrintSynopsis", Model.Story)
-
 <div class="blocks">
 	@for (var b = 0; b <= lastBlock; b++)
 	{
