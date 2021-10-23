@@ -9,10 +9,15 @@
 	font-family: Times New Roman;
 }
 
-.main > p.title
-{
-	margin: 30px 0 0 1cm;
-}
+	.main > p.title {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%) translateY(-0.25cm);
+		left: 1cm;
+		right: 0;
+		vertical-align: middle;
+		font-size: 2.7em;
+	}
 
 .blocks, .synopsis, .summary, .empty
 {
@@ -28,8 +33,7 @@
 		color: #000;
 	}
 
-.synopsis, .summary, .empty
-{
+.synopsis, .blocks, .summary, .empty {
 	page-break-before: always;
 }
 
@@ -42,6 +46,7 @@
 {
 	position: relative;
 	margin-left: 0;
+	background: #C00;
 }
 
 .header
@@ -57,11 +62,6 @@
 	.block .paragraph:first-child .header
 	{
 		margin-top: -32px;
-	}
-
-	.block:first-child .paragraph:first-child .header
-	{
-		margin-top: -81px;
 	}
 
 	.header .title
@@ -108,11 +108,6 @@
 		margin-bottom: -32px;
 	}
 
-	.block:first-child .paragraph:first-child .footer span
-	{
-		margin-top: 427.5px;
-	}
-
 img,
 .menu,
 .head,
@@ -152,26 +147,18 @@ img,
 	margin-top: 0;
 }
 
-.block:first-child .paragraph:first-child .header .title
-{
-	display: none;
-}
-
-@page
-{
+@page {
 	margin-top: 0.5cm;
 	margin-bottom: 0;
 	margin-left: 0.5cm;
 	margin-right: 0.5cm;
 }
 
-.page-odd-item
-{
+.page-odd-item {
 	margin-left: 1cm;
 }
 
-.page-even-item
-{
+.page-even-item {
 	margin-right: 1cm;
 }
 

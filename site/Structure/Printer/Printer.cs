@@ -25,7 +25,7 @@ namespace Structure.Printer
 
 		private const Decimal dashSize = 11;
 
-		private Int32 currentLine = 1;
+		private Int32 currentLine = -3;
 		private Int32 oldLine;
 
 		static Printer()
@@ -80,9 +80,8 @@ namespace Structure.Printer
 
 			var line = 0;
 
-			for (var b = 0; b < episode.BlockList.Count; b++)
+			foreach (var block in episode.BlockList)
 			{
-				var block = episode.BlockList[b];
 				var talkIndex = 0;
 				var tellerIndex = 0;
 

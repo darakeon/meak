@@ -54,11 +54,6 @@ namespace Structure.Entities.System
 			return Publish < DateTime.Now || Config.IsAuthor;
 		}
 
-		public bool HasSynopsis()
-		{
-			return !String.IsNullOrEmpty(Synopsis) || Config.IsAuthor;
-		}
-
 		public bool HasSummary()
 		{
 			return !String.IsNullOrEmpty(Summary) || Config.IsAuthor;

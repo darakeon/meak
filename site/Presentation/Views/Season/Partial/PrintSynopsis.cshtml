@@ -1,18 +1,12 @@
-﻿@using Structure.Helpers
+﻿@model Structure.Entities.System.Episode
 
-@model Structure.Entities.System.Episode
+<div class="just-print synopsis page-even-item">
+	@await Html.PartialAsync("Partial/PrintHeader", Model)
+	@await Html.PartialAsync("Partial/PrintFooter", 2)
 
-@if (!Config.IsAuthor && Model.HasSynopsis())
-{
-	<div class="just-print synopsis page-odd-item">
-		@await Html.PartialAsync("Partial/PrintHeader", Model)
-		@await Html.PartialAsync("Partial/PrintFooter", 1)
+	<p class="title">
+		Sinopse
+	</p>
 
-		<p class="title">
-			Sinopse
-		</p>
-
-		@Model.Synopsis
-	</div>
-}
-
+	@Model.Synopsis
+</div>

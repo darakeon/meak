@@ -48,12 +48,14 @@
 	}
 </p>
 
+@await Html.PartialAsync("Partial/PrintSynopsis", Model.Story)
+
 @await Html.PartialAsync("Partial/ChangeBlock", topSelector)
 
 @{
 	var lastBlock = Model.Story.BlockList.Count - 1;
-	var page = 1;
-	var lastPage = 0;
+	var page = 3;
+	var lastPage = 2;
 
 	var line = 0;
 	var lastType = ParagraphType.Page;
