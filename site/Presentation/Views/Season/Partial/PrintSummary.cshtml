@@ -1,6 +1,4 @@
-﻿@using Structure.Helpers
-
-@model Structure.Entities.System.Episode
+﻿@model Structure.Entities.System.Episode
 
 @{
 	var storyPages = Model.BlockList.Sum(b => b.PageCount) + 1;
@@ -11,12 +9,7 @@
 <div class="just-print">
 	@if (lastPageWasOdd)
 	{
-		<div class="empty page-even-item">
-			@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model, page))
-
-			Esta página está vazia para ajuste de diagramação
-		</div>
-
+		@await Html.PartialAsync("Partial/PrintEmpty", new PageFrame(Model, page))
 		page++;
 	}
 
@@ -30,12 +23,7 @@
 		@Model.Summary
 	</div>
 
-	@if (!lastPageWasOdd)
-	{
-		<div class="empty page-even-item">
-			@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model, page + 1))
+	@{ page++; }
 
-			Esta página está vazia para ajuste de diagramação
-		</div>
-	}
+	@await Html.PartialAsync("Partial/PrintEmpty", new PageFrame(Model, page))
 </div>

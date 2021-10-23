@@ -1,0 +1,14 @@
+﻿@model PageFrame
+
+@{
+	var style = Model.Page % 2 == 0 ? "even" : "odd";
+	var pageItem = $"page-{style}-item";
+}
+
+<div class="empty @pageItem">
+	@await Html.PartialAsync("Partial/PrintFrame", Model)
+
+	<div class="dedicated">
+		a <span>L</span><span>S</span><span>R</span>
+	</div>
+</div>

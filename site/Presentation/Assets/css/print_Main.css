@@ -26,9 +26,27 @@
 }
 
 .empty {
-	color: transparent;
 	display: block;
 }
+
+	.empty .dedicated {
+		opacity: 0.05;
+		font-size: 3em;
+		text-align: center;
+		margin-top: 5cm;
+	}
+
+		.empty .dedicated span:nth-child(3n+1) {
+			color: #600;
+		}
+
+		.empty .dedicated span:nth-child(3n+2) {
+			color: #000;
+		}
+
+		.empty .dedicated span:nth-child(3n+3) {
+			color: #306;
+		}
 
 	.empty * {
 		color: #000;
