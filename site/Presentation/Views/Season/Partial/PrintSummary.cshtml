@@ -6,22 +6,21 @@
 {
 	var storyPages = Model.BlockList.Sum(b => b.PageCount) + 1;
 	var page = storyPages + 1;
+	var lastPageWasOdd = page % 2 == 0;
 
-	if (page % 2 == 0)
+	if (lastPageWasOdd)
 	{
 		<div class="just-print empty page-even-item">
-			@await Html.PartialAsync("Partial/PrintHeader", Model)
-			@await Html.PartialAsync("Partial/PrintFooter", page)
+			@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model, page))
 
-			Esta página está vazia para que o resumo fique em uma página ímpar.
+			Esta página está vazia para ajuste de diagramação
 		</div>
 
 		page++;
 	}
 
 	<div class="just-print summary page-odd-item">
-		@await Html.PartialAsync("Partial/PrintHeader", Model)
-		@await Html.PartialAsync("Partial/PrintFooter", page)
+		@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model, page))
 
 		<p class="title">
 			Resumo do Capítulo
@@ -29,4 +28,15 @@
 
 		@Model.Summary
 	</div>
+
+	if (!lastPageWasOdd)
+	{
+		<div class="just-print empty page-even-item">
+			@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model, page))
+
+			Esta página está vazia para ajuste de diagramação
+		</div>
+
+		page++;
+	}
 }

@@ -1,8 +1,7 @@
 ﻿@model Structure.Entities.System.Episode
 
 <div class="just-print synopsis page-even-item">
-	@await Html.PartialAsync("Partial/PrintHeader", Model)
-	@await Html.PartialAsync("Partial/PrintFooter", 2)
+	@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model, 2))
 
 	<p class="title">
 		Sinopse

@@ -93,8 +93,7 @@
 				<div class="paragraph @type @showTrigger @pageBreak @pageItem @lastOnPage">
 					@if (lastPage != page)
 					{
-						@await Html.PartialAsync("Partial/PrintHeader", Model.Story)
-						@await Html.PartialAsync("Partial/PrintFooter", page)
+						@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model.Story, page))
 						lastPage = page;
 					}
 

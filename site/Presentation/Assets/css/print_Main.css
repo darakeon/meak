@@ -42,69 +42,24 @@
 		margin-bottom: 30px;
 	}
 
-.header-box
-{
-	position: relative;
-	margin-left: 0;
-	background: #C00;
-}
-
-.header
-{
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	opacity: 0.5;
-	top: 0;
-	margin-top: -32px;
-}
-
-	.block .paragraph:first-child .header
-	{
-		margin-top: -32px;
-	}
-
-	.header .title
-	{
-		display: none;
-	}
-
-	.blocks .header .title,
-	.synopsis .header .title,
-	.summary .header .title,
-	.empty .header .title
-	{
-		display: inline
-	}
-
-	.header .name
-	{
-		float: left;
-	}
-
-	.header .id
-	{
-		float: right;
-	}
-
-.footer
-{
+.header, .footer {
 	position: relative;
 }
 
-	.footer span
-	{
+	.header span,
+	.footer span {
 		position: absolute;
 		width: 100%;
-		text-align: center;
 		opacity: 0.5;
-		margin-top: 477px;
 	}
 
-	.synopsis .footer span,
-	.summary .footer span,
-	.empty .footer span
-	{
+	.header span {
+		top: 0;
+		margin-top: -32px !important;
+	}
+
+	.footer span {
+		top: 477px;
 		margin-bottom: -32px;
 	}
 
@@ -158,9 +113,29 @@ img,
 	margin-left: 1cm;
 }
 
+	.page-odd-item .header .title,
+	.page-odd-item .footer .page {
+		text-align: right;
+	}
+
+	.page-odd-item .header .series,
+	.page-odd-item .footer .code {
+		text-align: left;
+	}
+
 .page-even-item {
 	margin-right: 1cm;
 }
+
+	.page-even-item .header .title,
+	.page-even-item .footer .page {
+		text-align: left;
+	}
+
+	.page-even-item .header .series,
+	.page-even-item .footer .code {
+		text-align: right;
+	}
 
 .header-aligner {
 	border: #900 solid 1px;
@@ -235,8 +210,4 @@ img,
 
 .paragraph.break {
 	break-before: avoid;
-}
-
-.page {
-	display: none;
 }
