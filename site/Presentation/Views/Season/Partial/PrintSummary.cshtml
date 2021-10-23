@@ -2,15 +2,16 @@
 
 @model Structure.Entities.System.Episode
 
-@if (!Config.IsAuthor && Model.HasSummary())
-{
+@{
 	var storyPages = Model.BlockList.Sum(b => b.PageCount) + 1;
-	var page = storyPages + 1;
+	var page = storyPages + 3;
 	var lastPageWasOdd = page % 2 == 0;
+}
 
-	if (lastPageWasOdd)
+<div class="just-print">
+	@if (lastPageWasOdd)
 	{
-		<div class="just-print empty page-even-item">
+		<div class="empty page-even-item">
 			@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model, page))
 
 			Esta página está vazia para ajuste de diagramação
@@ -19,7 +20,7 @@
 		page++;
 	}
 
-	<div class="just-print summary page-odd-item">
+	<div class="summary page-odd-item">
 		@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model, page))
 
 		<p class="title">
@@ -29,14 +30,12 @@
 		@Model.Summary
 	</div>
 
-	if (!lastPageWasOdd)
+	@if (!lastPageWasOdd)
 	{
-		<div class="just-print empty page-even-item">
-			@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model, page))
+		<div class="empty page-even-item">
+			@await Html.PartialAsync("Partial/PrintFrame", new PageFrame(Model, page + 1))
 
 			Esta página está vazia para ajuste de diagramação
 		</div>
-
-		page++;
 	}
-}
+</div>
