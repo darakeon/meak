@@ -1,4 +1,4 @@
-<img src="http://meak.com.br/Assets/images/facebook.png" width="85" align="left" />
+<img src="https://raw.githubusercontent.com/darakeon/meak/main/site/Presentation/Assets/images/facebook.png" width="85" align="left" />
 
 # MEAK
 
