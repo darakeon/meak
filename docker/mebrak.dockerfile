@@ -4,7 +4,7 @@ RUN maintain
 
 COPY site /var/mebrak
 RUN dotnet publish /var/mebrak/Presentation/Presentation.csproj -o /var/www
-RUN apt remove -y dotnet-sdk-5.0
+RUN apt remove -y dotnet-sdk-6.0
 RUN rm -r /var/mebrak
 
 ENV ASPNETCORE_URLS=http://+:2703;https://+:2709
