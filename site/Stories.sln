@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.202
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18DEADAC-E4CF-451F-9CC5-1D62B98D1055}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,6 +13,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structure", "Structure\Structure.csproj", "{3E39AC53-A79C-4781-A6D6-9F0CDE727D42}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "Presentation\Presentation.csproj", "{FB0D5989-2446-4C38-83F2-8B1E7E8216AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegEditA6", "RegEditA6\RegEditA6.csproj", "{973F430A-C9F6-4311-802B-DC09A5A8E16B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,12 @@ Global
 		{FB0D5989-2446-4C38-83F2-8B1E7E8216AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB0D5989-2446-4C38-83F2-8B1E7E8216AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB0D5989-2446-4C38-83F2-8B1E7E8216AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973F430A-C9F6-4311-802B-DC09A5A8E16B}.Amazon|Any CPU.ActiveCfg = Debug|Any CPU
+		{973F430A-C9F6-4311-802B-DC09A5A8E16B}.Amazon|Any CPU.Build.0 = Debug|Any CPU
+		{973F430A-C9F6-4311-802B-DC09A5A8E16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973F430A-C9F6-4311-802B-DC09A5A8E16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973F430A-C9F6-4311-802B-DC09A5A8E16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973F430A-C9F6-4311-802B-DC09A5A8E16B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
