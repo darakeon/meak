@@ -121,29 +121,16 @@ public class RegEditPrinter
 			|| pdcPath == null
 		) return false;
 
-		backup();
-		addToGPD(paperFormatName, width, height);
-		addToPDC(paperFormatName, width, height);
+		var datetime = $"{DateTime.Now:yyyyMMddHHmmssffffff}";
+
+		addToGPD(paperFormatName, width, height, datetime);
+		addToPDC(paperFormatName, width, height, datetime);
 
 		log($"\"{paperFormatName}\" format added to \"{printerName}\"");
 		return true;
 	}
 
-	private void backup()
-	{
-		if (driversPath == null) return;
-
-		var files = Directory.GetFiles(driversPath);
-		var datetime = $"{DateTime.Now:yyyyMMddHHmmssffffff}";
-
-		foreach (var file in files)
-		{
-			var backup = $"{file}.backup{datetime}";
-			File.Copy(file, backup);
-		}
-	}
-
-	private void addToGPD(string paperFormatName, int width, int height)
+	private void addToGPD(String paperFormatName, Int32 width, Int32 height, String datetime)
 	{
 		if (gpdPath == null) return;
 
@@ -179,11 +166,13 @@ public class RegEditPrinter
 
 		if (newLines.Count > oldLines.Length)
 		{
+			var backup = $"{gpdPath}.backup{datetime}";
+			File.Copy(gpdPath, backup);
 			File.WriteAllLines(gpdPath, newLines);
 		}
 	}
 
-	private void addToPDC(string paperFormatName, int width, int height)
+	private void addToPDC(String paperFormatName, Int32 width, Int32 height, String datetime)
 	{
 		if (pdcPath == null) return;
 
@@ -215,6 +204,8 @@ public class RegEditPrinter
 
 		if (newLines.Count > oldLines.Length)
 		{
+			var backup = $"{pdcPath}.backup{datetime}";
+			File.Copy(pdcPath, backup);
 			File.WriteAllLines(pdcPath, newLines);
 		}
 	}
