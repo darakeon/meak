@@ -67,8 +67,18 @@
 		var block = Model.Story.BlockList[b];
 		var trigger = false;
 
-		var reading = (block.ID == Model.ReadingBlock) ? "reading" : "";
-		var pageStart = (lastType == ParagraphType.Page) ? "page-start" : "";
+		var reading =
+			block.ID == Model.ReadingBlock
+				? "reading"
+				: "";
+
+		var firstType = block.ParagraphTypeList.FirstOrDefault();
+
+		var pageStart =
+			lastType == ParagraphType.Page
+					|| firstType == ParagraphType.Page
+				? "page-start"
+				: "";
 
 		<div class="block @reading @pageStart" id="Block@(b)">
 			@for (var pt = 0; pt < block.ParagraphTypeList.Count; pt++)
@@ -183,7 +193,9 @@
 								}
 								else
 								{
-									<div class="teller_@(piece.Style)">@piece.Text</div>
+									<div class="teller_@(piece.Style)">
+										@piece.Text
+									</div>
 								}
 							}
 
