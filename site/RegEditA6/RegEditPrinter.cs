@@ -148,10 +148,10 @@ public class RegEditPrinter
 				{
 					$"*Option: {paperFormatName}",
 					"{",
-					"*rcNameID: = RCID_DMPAPER_SYSTEM_NAME",
-					$"* PrintSchemaKeywordMap: \"ISO{paperFormatName}\"",
-					"* PrintableOrigin: PAIR(0, 0)",
-					$"* PrintableArea: PAIR({optionWidth}, {optionHeight})",
+					"*rcNameID: =RCID_DMPAPER_SYSTEM_NAME",
+					$"*PrintSchemaKeywordMap: \"ISO{paperFormatName}\"",
+					"*PrintableOrigin: PAIR(0, 0)",
+					$"*PrintableArea: PAIR({optionWidth}, {optionHeight})",
 					"}",
 				};
 
