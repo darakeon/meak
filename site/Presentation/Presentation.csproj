@@ -59,10 +59,6 @@
     <None Remove="Assets\js\FontResizer.js" />
     <None Remove="Assets\js\General.js" />
     <None Remove="Assets\js\Legend.js" />
-    <None Remove="Assets\js\lib\jquery-1.6.1.min.js" />
-    <None Remove="Assets\js\lib\jquery.unobtrusive-ajax.min.js" />
-    <None Remove="Assets\js\lib\jquery.validate.min.js" />
-    <None Remove="Assets\js\lib\jquery.validate.unobtrusive.min.js" />
     <None Remove="Assets\js\lib\NumericValue.js" />
     <None Remove="Assets\js\lib\Scale.js" />
     <None Remove="Assets\js\lib\StringExtension.js" />
@@ -227,25 +223,13 @@
     <Content Include="Assets\js\Legend.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\js\lib\jquery-1.6.1.min.js">
+    <Content Include="Assets\js\NumericValue.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\js\lib\jquery.unobtrusive-ajax.min.js">
+    <Content Include="Assets\js\Scale.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\js\lib\jquery.validate.min.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\js\lib\jquery.validate.unobtrusive.min.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\js\lib\NumericValue.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\js\lib\Scale.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\js\lib\StringExtension.js">
+    <Content Include="Assets\js\StringExtension.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\js\Menu.js">
