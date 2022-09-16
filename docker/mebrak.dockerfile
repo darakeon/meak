@@ -1,4 +1,4 @@
-FROM darakeon/netcore
+FROM darakeon/netcore-libman
 LABEL maintainer="Dara Keon <laboon@darakeon.com>"
 RUN maintain
 
