@@ -13,11 +13,14 @@ namespace Presentation.Startup
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllersWithViews();
+			PrometheusConfig.Start();
 		}
 
 		// HTTP request pipeline.
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 		{
+			PrometheusConfig.UseMetrics(app);
+
 			Directory.SetCurrentDirectory(env.ContentRootPath);
 			Config.Init(env.EnvironmentName);
 			Rewrite.Apply(app);

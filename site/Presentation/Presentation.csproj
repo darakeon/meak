@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -244,6 +244,8 @@
 
   <ItemGroup>
     <PackageReference Include="Keon.Util" Version="3.0.2" />
+    <PackageReference Include="prometheus-net.AspNetCore" Version="7.0.0" />
+    <PackageReference Include="prometheus-net.DotNetRuntime" Version="4.4.0" />
   </ItemGroup>
 
   <ItemGroup>
