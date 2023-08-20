@@ -1,3 +1,5 @@
+MAKEFLAGS += --no-print-directory
+
 build:
 	@docker build .. -t darakeon/mebrak -f mebrak.dockerfile
 
