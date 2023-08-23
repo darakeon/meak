@@ -25,19 +25,19 @@ jobs:
           name: Build
           command: docker build . -t darakeon/mebrak -f docker/mebrak.dockerfile
       - run:
-          name: Login
-          command: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-      - run:
           name: Push
-          command: docker push darakeon/mebrak
+          command: |
+            if [ "$CIRCLE_BRANCH" == "main" ]; then
+              docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+              docker push darakeon/mebrak
+            else
+              echo 'no main, no push'
+            fi
 
 workflows:
   deploy:
     jobs:
       - trufflehog
       - docker:
-          filters:
-            branches:
-              only: main
           requires:
             - trufflehog
