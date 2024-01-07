@@ -11,5 +11,5 @@ run: build
 	@sleep 3
 	@docker logs mebrak
 
-enter: build
-	@docker run --name mebrak -it --rm darakeon/mebrak bash
+enter:
+	@docker exec -it mebrak bash
