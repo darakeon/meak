@@ -1,7 +1,7 @@
 MAKEFLAGS += --no-print-directory
 
 build:
-	@docker build .. -t darakeon/mebrak -f mebrak.dockerfile
+	@docker build .. -t darakeon/mebrak -f mebrak.dockerfile --progress=plain
 
 push: build
 	@docker push darakeon/mebrak
