@@ -14,7 +14,10 @@ FROM darakeon/netcore-server
 
 COPY --from=builder /var/www /var/www
 
-ENV ASPNETCORE_URLS=http://+:2703
+COPY --from=builder /root/.dotnet/corefx/cryptography/x509stores/my/*.pfx  /var/https/certificate.pfx
+ENV ASPNETCORE_Kestrel__Certificates__Default__Path=/var/https/certificate.pfx
+
+ENV ASPNETCORE_URLS=https://+:2703
 EXPOSE 2703
 
 COPY stories /var/data
