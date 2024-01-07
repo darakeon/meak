@@ -1,4 +1,4 @@
-FROM darakeon/netcore-libman
+FROM darakeon/netcore-libman as builder
 LABEL maintainer="Dara Keon <laboon@darakeon.com>"
 RUN maintain
 
@@ -9,8 +9,13 @@ RUN cd /var/mebrak/Presentation/ \
 	&& cd /var/www \
 	&& libman restore
 
-ENV ASPNETCORE_URLS=http://+:2703;https://+:2709
-EXPOSE 2709
+
+FROM darakeon/netcore-server
+
+COPY --from=builder /var/www /var/www
+
+ENV ASPNETCORE_URLS=http://+:2703
+EXPOSE 2703
 
 COPY stories /var/data
 
