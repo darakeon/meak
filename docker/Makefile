@@ -13,3 +13,9 @@ run: build
 
 enter:
 	@docker exec -it mebrak bash
+
+stop:
+	@docker stop mebrak
+
+logs:
+	@docker logs mebrak
