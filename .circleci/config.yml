@@ -34,6 +34,20 @@ jobs:
               echo 'no main, no push'
             fi
 
+  static:
+    docker:
+      - image: python
+      - image: darakeon/mebrak
+    steps:
+      - checkout
+      - run:
+          name: Dependencies
+          command: pip install requests boto3
+      - run:
+          name: Crowler
+          command: python crowler.py
+
+
 workflows:
   deploy:
     jobs:
@@ -41,3 +55,6 @@ workflows:
       - docker:
           requires:
             - trufflehog
+      - static:
+          requires:
+            - docker
