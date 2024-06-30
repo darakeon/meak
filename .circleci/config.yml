@@ -45,6 +45,7 @@ jobs:
           command: pip install requests boto3
       - run:
           name: Crowler
+          path: static
           command: python crowler.py
 
 
