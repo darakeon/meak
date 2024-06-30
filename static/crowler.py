@@ -138,7 +138,7 @@ class Crowler:
 
 
     def _upload(self, path, object, extra_args):
-        print('Upload', path)
+        print('Upload', object)
         self.s3.upload_file(
             path,
             self.bucket,
