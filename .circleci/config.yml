@@ -45,7 +45,11 @@ jobs:
       - run:
           name: Crowler
           path: static
-          command: python crowler.py
+          command: |
+            python crowler.py
+            if [ "$(git diff)" != "" ]; then
+              exit 1
+            fi
 
 
 workflows:
