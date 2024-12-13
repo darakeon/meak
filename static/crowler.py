@@ -35,7 +35,7 @@ class Crowler:
     def upload_dynamic(self):
 
         url = self.local_url
-        file_path = f'content/home.html'
+        file_path = f'content/index.html'
         self._upload_html(url, file_path)
 
         stories_path = path.join('..', 'stories')
