@@ -2,6 +2,7 @@ from boto3 import client
 from os import path, listdir, environ
 from re import search, sub
 from requests import get, packages
+from sys import argv
 
 packages.urllib3.disable_warnings() 
 
@@ -12,29 +13,29 @@ packages.urllib3.disable_warnings()
 # SECRET_KEY
 # BUCKET
 
-
 class Crowler:
 
     ENCODING = 'utf-8'
-
+    UPLOAD = len(argv) < 2 or argv[1] != "gen-only"
 
     def __init__(self, local_url, public_url, access_key, secret_key, bucket):
         self.local_url = f'https://{local_url}'
         self.public_url = public_url
 
-        self.s3 = client(
-            's3', 
-            aws_access_key_id=access_key,
-            aws_secret_access_key=secret_key,
-        )
+        if self.UPLOAD:
+            self.s3 = client(
+                's3', 
+                aws_access_key_id=access_key,
+                aws_secret_access_key=secret_key,
+            )
 
-        self.bucket = bucket
+            self.bucket = bucket
 
 
     def upload_dynamic(self):
 
         url = self.local_url
-        file_path = f'home.html'
+        file_path = f'content/home.html'
         self._upload_html(url, file_path)
 
         stories_path = path.join('..', 'stories')
@@ -43,7 +44,7 @@ class Crowler:
         for season in seasons_episodes:
 
             url = f'{self.local_url}/{season}.meak'
-            file_path = f'{season}.html'
+            file_path = f'content/{season}.html'
 
             self._upload_html(url, file_path)
 
@@ -52,7 +53,7 @@ class Crowler:
             for episode in episodes:
 
                 url = f'{self.local_url}/{season}{episode}.meak'
-                file_path = f'{season}{episode}.html'
+                file_path = f'content/{season}{episode}.html'
 
                 self._upload_html(url, file_path)
 
@@ -115,7 +116,18 @@ class Crowler:
             if file['path'].endswith('.js'):
                 extra_args['ContentType'] = 'text/javascript'
 
-            self._upload(file['path'], file['bucket'], extra_args)
+            if self.UPLOAD:
+                self._upload(file['path'], file['bucket'], extra_args)
+            else:
+                new_path = file['path'].replace('../site/Presentation', 'content')
+
+                mode = 'b' if new_path.startswith('content/Assets/images') else ''
+
+                with open(file['path'], 'r' + mode) as file:
+                    content = file.read()
+
+                with open(new_path, 'w' + mode) as file:
+                    file.write(content)
 
     def _get_files(self, main_folder, relative_folder, ignore):
         main_path = path.join(main_folder, relative_folder)
@@ -138,6 +150,9 @@ class Crowler:
 
 
     def _upload(self, path, object, extra_args):
+        if not self.UPLOAD:
+            return
+
         print('Upload', object)
         self.s3.upload_file(
             path,
@@ -151,9 +166,9 @@ class Crowler:
 crowler = Crowler(
     environ['LOCAL_SITE'],
     'meak.com.br',
-    environ['ACCESS_KEY'],
-    environ['SECRET_KEY'],
-    environ['BUCKET'],
+    environ.get('ACCESS_KEY'),
+    environ.get('SECRET_KEY'),
+    environ.get('BUCKET'),
 )
 
 crowler.upload_dynamic()
