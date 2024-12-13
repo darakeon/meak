@@ -1,0 +1,35 @@
+﻿.blocks
+{
+	margin-bottom: 50px;
+}
+
+	.blocks .block
+	{
+		display: none;
+	}
+
+	.blocks .reading
+	{
+		display: block;
+	}
+
+
+.block-changer
+{
+	padding: 0;
+	text-align: center;
+}
+
+.block-changer li
+{
+	border: 1px solid #000;
+	display: inline-block;
+	width: 30px;
+	list-style: none;
+	cursor: pointer;
+}
+
+.block-changer .chosen
+{
+	background: #000;
+}

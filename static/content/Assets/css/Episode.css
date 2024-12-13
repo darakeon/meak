@@ -1,0 +1,109 @@
+﻿.talk_Arrive {
+	font-family: "Monotype Corsiva" !important;
+}
+
+.talk_Frizz {
+	text-decoration: underline;
+}
+
+.talk_Out {
+	font-style: italic;
+}
+
+	.talk_Read:before {
+		content: "[";
+	}
+
+	.talk_Read:after {
+		content: "]";
+	}
+
+.talk_Teller {
+	font-weight: bold;
+}
+
+	.talk_Teller:before,
+	.talk_Teller:after {
+		content: " – ";
+	}
+
+.talk_Screamed {
+	text-transform: uppercase;
+}
+
+	.talk_Thought:before {
+		content: "((";
+	}
+
+	.talk_Thought:after {
+		content: "))";
+	}
+
+.talk_Hushed {
+	color: #666;
+}
+
+.talk_Ghost {
+	font-family: "Ink Free" !important;
+	font-weight: bold;
+}
+
+.talk_Irony {
+	font-family: "Comic Sans MS" !important;
+	font-size: 90%;
+}
+
+.talk_Translate {
+	font-size: 80%;
+}
+
+	.talk_Translate:before {
+		content: "{";
+	}
+
+	.talk_Translate:after {
+		content: "}";
+	}
+
+
+.teller_Default {
+	font-weight: bold;
+}
+
+.teller_First {
+	font-weight: bold;
+	margin-top: 38px;
+}
+
+.teller_Letter {
+	font-style: italic;
+}
+
+.teller_Division {
+	border-bottom: 1px solid;
+	font-size: 120%;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 38px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.paragraph:first-child div
+{
+	margin-top: 0;
+}
+
+.teller_Trigger {
+	font-weight: bold;
+	font-size: 120%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	color: #777;
+}
+
+.trigger-hidden {
+	display: none;
+}

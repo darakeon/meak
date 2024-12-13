@@ -1,0 +1,55 @@
+﻿.seasonEpisodeList
+{
+	margin: 0;
+	padding: 0;
+}
+
+.seasonEpisodeList li
+{
+	list-style: none;
+}
+
+.seasonEpisodeList .title
+{
+	text-decoration: none;
+	color: inherit;
+	margin-bottom: 5px;
+	display: block;
+	font-size: 115%;
+	color: #800;
+}
+
+.seasonEpisodeList .title:hover
+{
+	text-decoration: underline;
+}
+
+.seasonEpisodeList .epCode
+{
+	font-weight: bold;
+	color: #333;
+}
+
+.seasonEpisodeList .epTitle
+{
+	font-style: italic;
+}
+
+.seasonEpisodeList .epPublish
+{
+	display: block;
+	font-size: 70%;
+	font-weight: bold;
+	text-align: right;
+	margin-top: -10px;
+	color: #555;
+}
+
+.seasonEpisodeList .summary
+{
+	text-decoration: none;
+	color: inherit;
+	margin-bottom: 25px;
+	display: block;
+	text-indent: 50px;
+}

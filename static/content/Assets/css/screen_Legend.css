@@ -1,0 +1,29 @@
+﻿#legend
+{
+	cursor: pointer;
+}
+
+#legend .body
+{
+	display: none;
+	filter: alpha(opacity=65);
+	opacity: 0.65;
+	font-size: 120%;
+}
+
+.items
+{
+	width: 90%;
+}
+
+
+.items .item
+{
+	text-align: left;
+}
+
+
+.items .meaning
+{
+	text-align: right;
+}

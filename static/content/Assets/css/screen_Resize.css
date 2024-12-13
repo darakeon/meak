@@ -1,0 +1,27 @@
+﻿.resizer
+{
+	z-index: 1;
+	float: right;
+	margin: 40px 8px 5px 35px;
+	text-align: right;
+}
+
+.resizer button
+{
+	width: 45px;
+	height: 23px;
+	padding: 0;
+	vertical-align: middle;
+	border: none;
+}
+
+.resizer .sizeLess
+{
+	font-size: 80%;
+}
+
+.resizer .sizeMore
+{
+	font-size: 120%;
+	padding-bottom: 3px;
+}
